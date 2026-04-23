@@ -16,6 +16,33 @@ PROVINCE_RE = re.compile(r"\bprovince\s*=\s*(\d+)\b")
 CAPITAL_RE = re.compile(r"\bcapital\s*=\s*(c_[A-Za-z0-9_'\-]+)\b")
 TITLE_TIERS = {"e", "k", "d", "c", "b", "h"}
 OUTPUT_SUBDIR = "mask_east_scope"
+USER_NOTE_COLUMN = "yusseter_note"
+REMOVE_NOTE_COLUMN = "yusseter_remove_note"
+DONE_VALUE = "done"
+NO_PROBLEM_VALUE = "no_problem"
+WORKLIST_COLUMNS = [
+    "source_title_id",
+    "mod_title_id",
+    "is_same_title_id",
+    "mask_scope_change",
+    "source_tier",
+    "source_parent_id",
+    "mask_scope_reasons",
+    USER_NOTE_COLUMN,
+    REMOVE_NOTE_COLUMN,
+]
+CHANGE_PRIORITY = {
+    "removed_by_mask": 0,
+    "added_by_mask": 1,
+}
+TIER_PRIORITY = {
+    "e": 0,
+    "k": 1,
+    "d": 2,
+    "c": 3,
+    "b": 4,
+    "h": 5,
+}
 
 
 @dataclass(frozen=True)
@@ -482,6 +509,142 @@ def write_manual_like_csv(path: Path, rows: Iterable[dict[str, object]]) -> None
             )
 
 
+def read_row_value(row: dict[str, str], key: str) -> str:
+    direct = row.get(key)
+    if direct is not None:
+        return direct or ""
+    for existing_key, value in row.items():
+        if (existing_key or "").strip() == key:
+            return value or ""
+    return ""
+
+
+def read_existing_worklist_annotations(
+    worklist_path: Path,
+    preserved_notes_path: Path,
+) -> dict[str, dict[str, str]]:
+    annotations: dict[str, dict[str, str]] = {}
+
+    for path in (worklist_path, preserved_notes_path):
+        if not path.exists():
+            continue
+        with path.open("r", encoding="utf-8-sig", newline="") as handle:
+            for row in csv.DictReader(handle):
+                source_title_id = read_row_value(row, "source_title_id").strip()
+                user_note = read_row_value(row, USER_NOTE_COLUMN).strip()
+                remove_note = read_row_value(row, REMOVE_NOTE_COLUMN).strip()
+                if source_title_id and (user_note or remove_note):
+                    annotations[source_title_id] = {
+                        USER_NOTE_COLUMN: user_note,
+                        REMOVE_NOTE_COLUMN: remove_note,
+                    }
+
+    return annotations
+
+
+def worklist_sort_key(row: dict[str, object]) -> tuple[int, int, int, str]:
+    return (
+        CHANGE_PRIORITY.get(str(row.get("mask_scope_change", "")), 99),
+        TIER_PRIORITY.get(str(row.get("source_tier", "")), 99),
+        int(row.get("source_line_no") or 10**12),
+        str(row.get("source_title_id", "")),
+    )
+
+
+def build_mask_scope_worklist_rows(
+    comparison_rows: list[dict[str, object]],
+    annotations: dict[str, dict[str, str]],
+) -> tuple[list[dict[str, object]], int, int]:
+    rows: list[dict[str, object]] = []
+    done_skipped = 0
+    no_problem_skipped = 0
+
+    for comparison_row in comparison_rows:
+        source_title_id = str(comparison_row.get("source_title_id", "")).strip()
+        change = str(comparison_row.get("mask_scope_change", "")).strip()
+        if not source_title_id or not change:
+            continue
+
+        existing_annotation = annotations.get(source_title_id, {})
+        user_note = str(existing_annotation.get(USER_NOTE_COLUMN, "")).strip()
+        remove_note = str(existing_annotation.get(REMOVE_NOTE_COLUMN, "")).strip()
+        if user_note == DONE_VALUE:
+            done_skipped += 1
+            continue
+        if remove_note == NO_PROBLEM_VALUE:
+            no_problem_skipped += 1
+            continue
+
+        rows.append(
+            {
+                "source_title_id": source_title_id,
+                "mod_title_id": comparison_row.get("mod_title_id", ""),
+                "is_same_title_id": comparison_row.get("is_same_title_id", ""),
+                "mask_scope_change": change,
+                "source_tier": comparison_row.get("source_tier", ""),
+                "source_parent_id": comparison_row.get("source_parent_id", ""),
+                "mask_scope_reasons": comparison_row.get("mask_scope_reasons", ""),
+                "source_line_no": comparison_row.get("source_line_no", ""),
+                USER_NOTE_COLUMN: user_note,
+                REMOVE_NOTE_COLUMN: remove_note,
+            }
+        )
+
+    rows.sort(key=worklist_sort_key)
+    return rows, done_skipped, no_problem_skipped
+
+
+def write_worklist_preserved_notes(
+    path: Path,
+    comparison_rows: list[dict[str, object]],
+    annotations: dict[str, dict[str, str]],
+    active_title_ids: set[str],
+) -> int:
+    comparison_by_title = {
+        str(row.get("source_title_id", "")).strip(): row
+        for row in comparison_rows
+        if str(row.get("source_title_id", "")).strip()
+    }
+
+    preserved_rows = []
+    for source_title_id, annotation in sorted(annotations.items()):
+        if source_title_id in active_title_ids:
+            continue
+        user_note = str(annotation.get(USER_NOTE_COLUMN, "")).strip()
+        remove_note = str(annotation.get(REMOVE_NOTE_COLUMN, "")).strip()
+        if user_note == DONE_VALUE:
+            preserved_reason = "manually_marked_done"
+        elif remove_note == NO_PROBLEM_VALUE:
+            preserved_reason = "manually_marked_no_problem"
+        else:
+            preserved_reason = "title_not_in_current_worklist"
+        comparison_row = comparison_by_title.get(source_title_id, {})
+        preserved_rows.append(
+            {
+                "source_title_id": source_title_id,
+                "mod_title_id": comparison_row.get("mod_title_id", ""),
+                "mask_scope_change": comparison_row.get("mask_scope_change", ""),
+                USER_NOTE_COLUMN: user_note,
+                REMOVE_NOTE_COLUMN: remove_note,
+                "preserved_reason": preserved_reason,
+            }
+        )
+
+    write_csv(
+        path,
+        preserved_rows,
+        [
+            "source_title_id",
+            "mod_title_id",
+            "mask_scope_change",
+            USER_NOTE_COLUMN,
+            REMOVE_NOTE_COLUMN,
+            "preserved_reason",
+        ],
+    )
+    return len(preserved_rows)
+
+
 def build_title_rows(
     mask_titles: set[str],
     title_reasons: dict[str, set[str]],
@@ -583,11 +746,25 @@ def main() -> int:
     args.output_dir.mkdir(parents=True, exist_ok=True)
     comparison_path = args.output_dir / "title_relation_master_manuel_mask_east_scope.csv"
     manual_like_path = args.output_dir / "title_relation_master_manuel_mask_scope_manual_like.csv"
+    worklist_path = args.output_dir / "title_relation_master_manuel_mask_scope_worklist.csv"
+    preserved_notes_path = args.output_dir / "title_relation_master_manuel_mask_scope_worklist_preserved_notes.csv"
     titles_path = args.output_dir / "mask_east_scope_titles.csv"
     provinces_path = args.output_dir / "mask_east_scope_provinces.csv"
     unmatched_rgb_path = args.output_dir / "mask_east_scope_unmatched_rgb.csv"
     unbound_provinces_path = args.output_dir / "mask_east_scope_unbound_provinces.csv"
     summary_path = args.output_dir / "mask_east_scope_summary.md"
+    existing_annotations = read_existing_worklist_annotations(worklist_path, preserved_notes_path)
+    worklist_rows, done_skipped, no_problem_skipped = build_mask_scope_worklist_rows(
+        comparison_rows,
+        existing_annotations,
+    )
+    active_title_ids = {str(row["source_title_id"]) for row in worklist_rows}
+    preserved_note_count = write_worklist_preserved_notes(
+        preserved_notes_path,
+        comparison_rows,
+        existing_annotations,
+        active_title_ids,
+    )
 
     write_csv(
         comparison_path,
@@ -607,6 +784,7 @@ def main() -> int:
         ],
     )
     write_manual_like_csv(manual_like_path, manual_like_rows)
+    write_csv(worklist_path, worklist_rows, WORKLIST_COLUMNS)
     write_csv(
         titles_path,
         title_rows,
@@ -667,6 +845,8 @@ def main() -> int:
         output_files={
             "comparison": comparison_path,
             "manual-like comparison": manual_like_path,
+            "manual worklist": worklist_path,
+            "worklist preserved notes": preserved_notes_path,
             "mask titles": titles_path,
             "mask provinces": provinces_path,
             "unmatched rgb": unmatched_rgb_path,
@@ -681,6 +861,10 @@ def main() -> int:
     print(f"manual non-barony titles: {len(manual_non_barony_ids)}")
     print(f"added_by_mask: {added_count}")
     print(f"removed_by_mask: {removed_count}")
+    print(f"manual worklist rows: {len(worklist_rows)}")
+    print(f"manual worklist preserved notes: {preserved_note_count}")
+    print(f"manual worklist done skipped: {done_skipped}")
+    print(f"manual worklist no_problem skipped: {no_problem_skipped}")
     print(f"unmatched rgbs: {len(unmatched_rgb_rows)}")
     print(f"unbound provinces: {len(unbound_province_rows)}")
     print(f"summary: {summary_path}")

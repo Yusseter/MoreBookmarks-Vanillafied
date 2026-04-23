@@ -1199,10 +1199,10 @@ c_arkat,no_action,mod,mod_exact,,not_needed,current county block already matches
 c_kulan_uynak,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_jiren_suat,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_koi-bagar,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
-c_LIAO_linhuang,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:72842,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
+c_LIAO_linhuang,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_LIAO_raozhou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_LIAO_longhuazhou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
-c_LIAO_heicaoan,manual_review,vanilla,mod_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:72932,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
+c_LIAO_heicaoan,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_LIAO_dalian,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_LIAO_wuzhou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_LIAO_taizhou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
@@ -1219,7 +1219,7 @@ c_lxj_huanzhou,no_action,vanilla,vanilla_exact,,not_needed,current county block 
 c_lxj_yangchengzhou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_LIAO_ulagaian,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_SW_dongcheziguo,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
-c_SW_hongxingan,manual_review,vanilla,mod_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:72694,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
+c_SW_hongxingan,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_mangyshlak,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_garabogazkol,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_ustyurt,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
@@ -2687,7 +2687,7 @@ c_pelyul,no_action,mod,mod_exact,,not_needed,current county block already matche
 c_garze,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_batang,manual_review,mixed,mod_exact,,manual,audit_status=manual_review:mixed; not safe for automatic source replacement
 c_markam,manual_review,mixed,mod_exact,,manual,audit_status=manual_review:mixed; not safe for automatic source replacement
-c_deqen,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:69004,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
+c_deqen,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_gyaitang,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_litang,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_lenggu,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
@@ -2720,7 +2720,7 @@ c_ngawa,manual_review,mixed,mod_exact,,manual,audit_status=manual_review:mixed; 
 c_maowun,manual_review,vanilla,mod_closest,,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
 c_sungqu,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_zoige,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
-c_quqen,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:69843,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
+c_quqen,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_chakla,manual_review,vanilla,mod_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:69903,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
 c_lhagang,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_dawu,manual_review,mixed,mod_exact,,manual,audit_status=manual_review:mixed; not safe for automatic source replacement
@@ -2877,7 +2877,10 @@ c_qingshan,no_action,vanilla,vanilla_exact,,not_needed,current county block alre
 c_shengzhou,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\02_china.txt:1918,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
 c_linzhou,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\02_china.txt:1942,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
 c_fuzhou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
-c_hezhou_china,manual_review,mod,mod_closest,F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\common\landed_titles\00_landed_titles.txt:93169,manual,audit_status=review:expected_mod_source_not_exact; not safe for automatic source replacement
+c_shanzhou_mbp,manual_review,mod,no_source_candidate,,manual,audit_status=review:expected_mod_source_not_exact; not safe for automatic source replacement
+c_kuozhou,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
+c_hezhou_china,manual_review,mixed,mod_closest,,manual,audit_status=manual_review:mixed; not safe for automatic source replacement
+c_lanzhou_1,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_jingzhao,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\02_china.txt:1994,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
 c_huayin,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_tongzhou,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\02_china.txt:2043,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
@@ -2909,17 +2912,13 @@ c_fanhe,no_action,mod,mod_exact,,not_needed,current county block already matches
 c_baishan,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_zhanyin,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_guangwu,manual_review,mixed,vanilla_exact,,manual,audit_status=manual_review:mixed; not safe for automatic source replacement
-c_shanzhou_mbp,manual_review,mod,no_source_candidate,,manual,audit_status=review:expected_mod_source_not_exact; not safe for automatic source replacement
-c_kuozhou,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
-c_lanzhou_1,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
-c_hezhou_2,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_qilin,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_yalong,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_ganzhou,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_linze,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_gaotai,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_jinta,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
-c_suzhou,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
+c_suzhou_mbp,manual_review,mod,no_source_candidate,,manual,audit_status=review:expected_mod_source_not_exact; not safe for automatic source replacement
 c_yumen,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_shazhou,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
 c_guazhou,no_action,mod,mod_exact,,not_needed,current county block already matches expected source class
@@ -3485,11 +3484,11 @@ c_BAL_namhae,no_action,vanilla,vanilla_exact,,not_needed,current county block al
 c_BAL_fengzhou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_BAL_southyongwon,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_BAL_northyongwon,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
-c_LIAO_shenyang,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:71977,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
-c_LIAO_yinzhou,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:72017,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
-c_LIAO_zhenzhou,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:72052,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
+c_LIAO_shenyang,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
+c_LIAO_yinzhou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
+c_LIAO_zhenzhou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_LIAO_diezhou,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:72087,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
-c_LIAO_guidezhou,manual_review,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:72122,manual,audit_status=review:expected_vanilla_source_not_exact; not safe for automatic source replacement
+c_LIAO_guidezhou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_SW_huangtouguo,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_SW_xinghuangtou,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class
 c_SW_nabeiguo,no_action,vanilla,vanilla_exact,,not_needed,current county block already matches expected source class

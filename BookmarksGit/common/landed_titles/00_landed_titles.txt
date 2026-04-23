@@ -43503,6 +43503,11 @@ e_great_liao = {
 
 					color = { 105 125 20 }
 				}
+				b_Liao_Huaizhou = {
+					province = 11708
+
+					color = { 105 125 20 }
+				}
 				b_Liao_Songzhanzhou = {
 					province = 11710
 
@@ -43563,6 +43568,11 @@ e_great_liao = {
 			c_LIAO_heicaoan = {
 				color = { 95 85 40 }
 
+				b_FIC_Liao_Matudi = {
+					province = 11725
+
+					color = { 95 85 40 }
+				}
 				b_FIC_Liao_Baicaoer = {
 					province = 11726
 
@@ -43572,11 +43582,6 @@ e_great_liao = {
 					province = 11727
 
 					color = { 95 85 40 }
-				}
-				b_Liao_Huaizhou = {
-					province = 11708
-
-					color = { 105 125 20 }
 				}
 			}
 
@@ -43972,11 +43977,6 @@ e_great_liao = {
 					province = 11722
 
 					color = { 215 80 80 }
-				}
-				b_FIC_Liao_Matudi = {
-					province = 11725
-
-					color = { 95 85 40 }
 				}
 				b_FIC_Amur_Shangwulu = {
 					province = 11656
@@ -78645,7 +78645,7 @@ d_laamp_Tyre1171 = { #
 
 d_laamp_Fan1171 = { #
 	color = { 100 100 100 }
-	capital = c_suzhou
+	capital = c_suzhou_2
 
 	definite_form = yes
 	landless = yes
@@ -91067,7 +91067,7 @@ e_tibet = {
 				b_deqen = {
 					province = 9316
 
-					color = { 128 11 61 }
+					color = { 128 11 91 }
 
 				}
 				b_balung = {
@@ -91939,7 +91939,7 @@ e_tibet = {
 				}
 			}
 			c_quqen = { #Jinchuan
-				color = { 75 29 0 }
+				color = { 72 29 0 }
 
 				cultural_names = {
 					name_list_han = cn_jinchuan
@@ -95903,6 +95903,20 @@ h_china = {
 			color = { 146 192 20 }
 
 			capital = c_hezhou_china
+			
+			d_lintao = {
+				color = { 88 200 20 }
+	
+				capital = c_lanzhou_1
+				
+			}
+			
+			d_gongmin = {
+				color = { 115 175 20 }
+	
+				capital = c_minzhou
+				
+			}
 
 			d_shanzhou = {
 				color = { 97 156 20 }
@@ -95917,6 +95931,69 @@ h_china = {
 					name_list_zhangzhung = cn_tsongkha
 				}
 
+				c_shanzhou_mbp = {
+					color = { 2 154 20 }
+	
+					cultural_names = {
+						name_list_bodpa = cn_tsongkha
+						name_list_tsangpa = cn_tsongkha
+						name_list_lhomon = cn_tsongkha
+						name_list_sumpa = cn_tsongkha
+						name_list_zhangzhung = cn_tsongkha
+					}
+	
+					b_shanzhou = { #Ping'an
+						province = 9418
+	
+						color = { 117 77 219 }
+	
+						cultural_names = {
+							name_list_bodpa = cn_zongge
+							name_list_tsangpa = cn_zongge
+							name_list_lhomon = cn_zongge
+							name_list_sumpa = cn_zongge
+							name_list_zhangzhung = cn_zongge
+						}
+					}
+					b_chuankou = { #Minhe
+						province = 9417
+	
+						color = { 117 77 219 }
+					}
+					b_ledu = {
+						province = 9416
+	
+						color = { 117 77 219 }
+					}
+					b_gonglung = { #Huzhu
+						province = 9415
+	
+						color = { 117 77 219 }
+	
+						cultural_names = {
+							name_list_han = cn_huzhu
+							name_list_mongol = cn_huzhu
+						}
+					}
+				}
+				c_kuozhou = {
+					color = { 92 163 32 }
+	
+					b_kuozhou = { #Hualong
+						province = 9419
+	
+						color = { 140 75 255 }
+					}
+					b_yadzi = { #Xunhua
+						province = 9420
+	
+						color = { 140 75 255 }
+	
+						cultural_names = {
+							name_list_han = cn_jishi
+						}
+					}
+				}
 				c_hezhou_china = {
 					color = { 86 168 57 }
 
@@ -95929,6 +96006,30 @@ h_china = {
 						province = 12965
 
 						color = { 35 212 136 }
+					}
+					b_daxia = {
+						province = 12366
+
+						color = { 102 93 53 }
+					}
+					b_kangle = {
+						province = 12365
+
+						color = { 115 111 53 }
+					}
+				}
+				c_lanzhou_1 = {
+					color = { 120 123 55 }
+
+					b_jincheng_1 = {
+						province = 12368
+
+						color = { 134 137 77 }
+					}
+					b_didao = {
+						province = 12360
+
+						color = { 108 109 50 }
 					}
 				}
 			}
@@ -96603,108 +96704,6 @@ h_china = {
 					}
 				}
 			}
-			d_longyou = {
-				color = { 124 120 60 }
-
-				capital = c_shanzhou_mbp
-
-				c_shanzhou_mbp = {
-					color = { 2 154 20 }
-	
-					cultural_names = {
-						name_list_bodpa = cn_tsongkha
-						name_list_tsangpa = cn_tsongkha
-						name_list_lhomon = cn_tsongkha
-						name_list_sumpa = cn_tsongkha
-						name_list_zhangzhung = cn_tsongkha
-					}
-	
-					b_shanzhou = { #Ping'an
-						province = 9418
-	
-						color = { 117 77 219 }
-	
-						cultural_names = {
-							name_list_bodpa = cn_zongge
-							name_list_tsangpa = cn_zongge
-							name_list_lhomon = cn_zongge
-							name_list_sumpa = cn_zongge
-							name_list_zhangzhung = cn_zongge
-						}
-					}
-					b_chuankou = { #Minhe
-						province = 9417
-	
-						color = { 117 77 219 }
-					}
-					b_ledu = {
-						province = 9416
-	
-						color = { 117 77 219 }
-					}
-					b_gonglung = { #Huzhu
-						province = 9415
-	
-						color = { 117 77 219 }
-	
-						cultural_names = {
-							name_list_han = cn_huzhu
-							name_list_mongol = cn_huzhu
-						}
-					}
-				}
-				c_kuozhou = {
-					color = { 92 163 32 }
-	
-					b_kuozhou = { #Hualong
-						province = 9419
-	
-						color = { 140 75 255 }
-					}
-					b_yadzi = { #Xunhua
-						province = 9420
-	
-						color = { 140 75 255 }
-	
-						cultural_names = {
-							name_list_han = cn_jishi
-						}
-					}
-				}
-				c_lanzhou_1 = {
-					color = { 120 123 55 }
-
-					b_jincheng_1 = {
-						province = 12368
-
-						color = { 134 137 77 }
-					}
-					b_didao = {
-						province = 12360
-
-						color = { 108 109 50 }
-					}
-				}
-				c_hezhou_2 = {
-					color = { 114 105 58 }
-
-					b_fuhan = {
-						province = 12367
-
-						color = { 129 121 80 }
-					}
-					b_daxia = {
-						province = 12366
-
-						color = { 102 93 53 }
-					}
-					b_kangle = {
-						province = 12365
-
-						color = { 115 111 53 }
-					}
-				}
-			}
 			d_qilian = {
 				color = { 240 125 47 }
 
@@ -96818,7 +96817,7 @@ h_china = {
 						color = { 195 130 225 }
 					}
 				}
-				c_suzhou = {
+				c_suzhou_mbp = {
 					color = { 33 18 162 }
 	
 					b_jiayuguan = {
@@ -101646,6 +101645,11 @@ h_china = {
 						province = 12369
 
 						color = { 58 80 43 }
+					}
+					b_shanglin = {
+						province = 12367
+
+						color = { 61 73 42 }
 					}
 					b_heshui = {
 						province = 12370
@@ -110848,10 +110852,20 @@ e_andong = {
 			c_LIAO_shenyang = {
 				color = { 10 175 90 }
 
+				cultural_names = {
+					name_list_korean = cn_simyang
+					name_list_balhae = cn_simyang
+				}
+
 				b_Liao_Shenyang = {
 					province = 11785
 
 					color = { 10 175 90 }
+
+					cultural_names = {
+						name_list_korean = cn_simyang
+						name_list_balhae = cn_simyang
+					}
 				}
 				b_Liao_Tangzhou = {
 					province = 11784
@@ -110878,10 +110892,20 @@ e_andong = {
 			c_LIAO_yinzhou = {
 				color = { 15 90 50 }
 
+				cultural_names = {
+					name_list_korean = cn_eunju
+					name_list_balhae = cn_eunju
+				}
+
 				b_Liao_Yinzhou = {
 					province = 11782
 
 					color = { 15 90 50 }
+
+					cultural_names = {
+						name_list_korean = cn_eunju
+						name_list_balhae = cn_eunju
+					}
 				}
 				b_Liao_Qizhou = {
 					province = 11781
@@ -110903,10 +110927,20 @@ e_andong = {
 			c_LIAO_zhenzhou = {
 				color = { 30 120 100 }
 
+				cultural_names = {
+					name_list_korean = cn_jinju
+					name_list_balhae = cn_jinju
+				}
+
 				b_Liao_Zhenzhou = {
 					province = 11790
 
 					color = { 30 120 100 }
+
+					cultural_names = {
+						name_list_korean = cn_jinju
+						name_list_balhae = cn_jinju
+					}
 				}
 				b_Liao_Fuping = {
 					province = 11791
@@ -110928,8 +110962,18 @@ e_andong = {
 			c_LIAO_diezhou = {
 				color = { 45 205 175 }
 
+				cultural_names = {
+					name_list_korean = cn_cheopju
+					name_list_balhae = cn_cheopju
+				}
+
 				b_Liao_Diezhou = {
 					province = 11794
+
+					cultural_names = {
+						name_list_korean = cn_cheopju
+						name_list_balhae = cn_cheopju
+					}
 
 					color = { 45 205 175 }
 				}
@@ -110953,10 +110997,20 @@ e_andong = {
 			c_LIAO_guidezhou = {
 				color = { 35 170 70 }
 
+				cultural_names = {
+					name_list_korean = cn_gwideokju
+					name_list_balhae = cn_gwideokju
+				}
+
 				b_Liao_Guidezhou = {
 					province = 11799
 
 					color = { 35 170 70 }
+
+					cultural_names = {
+						name_list_korean = cn_gwideokju
+						name_list_balhae = cn_gwideokju
+					}
 				}
 				b_Liao_Xiyuan = {
 					province = 11798

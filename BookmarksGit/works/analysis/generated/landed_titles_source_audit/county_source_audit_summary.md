@@ -1,30 +1,30 @@
 # Landed Title County Source Audit
 
-- county rows: 3608
+- county rows: 3607
 - province rows: 11551
 
 ## Audit Status
-- ok: 3312
-- review:expected_vanilla_source_not_exact: 246
-- manual_review:mixed: 29
+- ok: 3319
+- review:expected_vanilla_source_not_exact: 237
+- manual_review:mixed: 30
 - manual_review:unknown: 16
 - skip:no_provinces: 3
 - review:expected_mod_source_not_exact: 2
 
 ## Expected Source
-- mod: 2735
-- vanilla: 825
-- mixed: 29
+- mod: 2734
+- vanilla: 824
+- mixed: 30
 - unknown: 16
 - no_provinces: 3
 
 ## Current Block Source
-- mod_exact: 1755
+- mod_exact: 1754
 - both_exact: 993
-- vanilla_exact: 582
-- vanilla_closest: 241
-- mod_closest: 36
-- no_source_candidate: 1
+- vanilla_exact: 590
+- vanilla_closest: 234
+- mod_closest: 34
+- no_source_candidate: 2
 
 ## Province Source
 - mod_kalan: 8716

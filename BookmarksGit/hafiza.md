@@ -4481,3 +4481,82 @@ Yeni raporlar:
   - `unknown`: `16`
   - `skip`: `3`
   - `ok`: `1` (`c_suzhou`, fix-plan manual_review kaldigi icin listede)
+
+## 2026-04-22 Safe Cosmetic County Source Fixes
+
+- Kullanici yalnizca kesin guvenli olan basit renk/isim/bosluk islerinin otomatik yapilmasini, zor/riskli islerin manuel kalmasini istedi.
+- Yeni arac eklendi:
+  - `works/tools/apply_safe_county_source_cosmetic_fixes.py`
+- Arac yalnizca su kosullar birlikte saglanirsa uygular:
+  - fix-plan `manual_review`
+  - `expected_source` sadece `vanilla` veya `mod`
+  - source/current/test county province listeleri birebir ayni
+  - live/test current bloklari birebir ayni
+  - `color` satirlari cikarildiginda source/current/test normalized bloklari birebir ayni
+  - `color` satir sayilari esit
+- Dry-run iki guvenli color-only satir buldu ve uygulandi:
+  - `c_deqen`
+  - `c_quqen`
+- Uygulama raporu:
+  - `works/analysis/generated/landed_titles_source_audit/county_source_safe_color_only_apply_report.csv`
+- Son classification:
+  - `apply_color_only`: `0`
+  - `manual`: `294`
+  - `skip`: `3314`
+- Validator son durum:
+  - `landed_titles live/test hash match = yes`
+  - `missing playable province titles = 0`
+  - `validation errors = 0`
+  - `validation warnings = 0`
+- County source audit son durum:
+  - high signal mismatches: `0`
+  - `manual_review`: `294`
+  - `no_action`: `3314`
+- Sade worklist son dagilim:
+  - toplam rows: `294`
+  - `review`: `245`
+  - `mixed`: `29`
+  - `unknown`: `16`
+  - `skip`: `3`
+  - `ok`: `1`
+
+## 2026-04-22 Mixed Worklist Better Classification
+
+- Kullanici worklist icinde `c_barkam` gibi kafa karistiran ama aslinda basit/accepted olabilecek satirlar oldugunu belirtti.
+- `works/tools/apply_safe_county_source_cosmetic_fixes.py` genisletildi:
+  - `mixed` satirlar icin vanilla ve mod best-match bloklari birlikte okunuyor.
+  - Current/test/source province listeleri ayniysa ve `color` disi normalized blok ayniysa daha guvenli karar veriliyor.
+  - Current renkleri vanilla/mod source renklerinden satir bazli geliyorsa `accept_mixed_color_composite` olarak siniflandiriliyor.
+  - Current blok hem vanilla hem mod source ile birebir ayniysa `accept_mixed_current_matches_both_sources` olarak siniflandiriliyor.
+- Yeni kolay aday raporu:
+  - `works/analysis/generated/landed_titles_source_audit/county_source_simple_resolution_candidates.csv`
+- Son kolay/accepted aday sayisi: `11`
+  - `accept_mixed_current_matches_both_sources`: `5`
+  - `accept_mixed_color_composite`: `6`
+- `c_barkam` sonucu:
+  - `accept_mixed_color_composite`
+  - Sebep: province listesi ayni, color disi icerik ayni, current renkleri vanilla/mod source renklerinden olusan guvenli kompozit.
+- Bu tur landed_titles dosyalarina dokunulmadi; sadece siniflandirma raporlari ve arac guncellendi.
+
+## 2026-04-22 Accepted Candidates Worklist Filter
+
+- `works/tools/build_county_source_manual_worklist.py` guncellendi.
+- Yeni filtre:
+  - `works/analysis/generated/landed_titles_source_audit/county_source_simple_resolution_candidates.csv` icindeki `decision = accept_*` county'leri ana manual worklist'ten dusurur.
+  - Accepted satirlar kaybolmaz; simple candidates raporunda kalir.
+  - Manuel not koruma mekanizmasi degismedi.
+- Yeniden uretim sirasi:
+  - `python .\works\tools\apply_safe_county_source_cosmetic_fixes.py`
+  - `python .\works\tools\build_county_source_manual_worklist.py`
+- Son sonuc:
+  - `county_source_manual_worklist.csv` rows: `283`
+  - accepted skipped: `11`
+  - `county_source_simple_resolution_candidates.csv` rows: `11`
+- Worklist son dagilim:
+  - `review`: `245`
+  - `mixed`: `18`
+  - `unknown`: `16`
+  - `skip`: `3`
+  - `ok`: `1`
+- `c_barkam` ana worklist'ten dustu; `county_source_simple_resolution_candidates.csv` icinde `accept_mixed_color_composite` olarak duruyor.
+- Bu adim landed_titles dosyalarini degistirmedi.

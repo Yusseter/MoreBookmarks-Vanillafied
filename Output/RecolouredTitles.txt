@@ -58,7 +58,7 @@ e_japan = {
 	#Titular/Special
 
 	k_nippon = { #日本
-		color = { 254 208 254 }
+		color = { 254 176 254 }
 		can_be_named_after_dynasty = no
 
 		definite_form = yes
@@ -76,7 +76,7 @@ e_japan = {
 	}
 
 	k_yamato = { #倭王権
-		color = { 246 125 254 }
+		color = { 254 1 178 }
 		can_be_named_after_dynasty = no
 
 		capital = c_yamato
@@ -93,7 +93,7 @@ e_japan = {
 		}
 		
 		d_tenno = {
-			color = { 163 82 198 }
+			color = { 176 72 159 }
 			definite_form = yes
 			ruler_uses_title_name = no
 			can_use_nomadic_naming = no
@@ -108,7 +108,7 @@ e_japan = {
 		}
 
 		d_nmih_nancho = {
-			color = { 191 55 191 }
+			color = { 230 78 254 }
 
 			ai_primary_priority = {
 				add = @always_primary_score
@@ -129,7 +129,7 @@ e_japan = {
 		}
 
 		d_kinai = {
-			color = { 254 180 254 }
+			color = { 199 49 225 }
 			definite_form = yes
 			capital = c_yamato
 			ruler_uses_title_name = no
@@ -141,7 +141,7 @@ e_japan = {
 			}
 
 			c_yamashiro = {
-				color = { 254 146 254 }
+				color = { 146 71 219 }
 
 				b_kyo= {
 					province = 13745
@@ -161,7 +161,7 @@ e_japan = {
 			}
 
 			c_yamato = {
-				color = { 254 138 254 }
+				color = { 144 37 213 }
 
 				b_katsujo= {
 					province = 13767
@@ -186,7 +186,7 @@ e_japan = {
 			}
 
 			c_kawachi = {
-				color = { 254 192 254 }
+				color = { 145 87 216 }
 
 				b_kawachi= {
 					province = 13789
@@ -201,7 +201,7 @@ e_japan = {
 			}
 
 			c_izumi = {
-				color = { 253 184 232 }
+				color = { 147 64 254 }
 
 				b_izumi= {
 					province = 13792
@@ -216,7 +216,7 @@ e_japan = {
 			}
 
 			c_settsu = {
-				color = { 254 112 254 }
+				color = { 254 1 232 }
 
 				b_osaka= {
 					province = 13793
@@ -241,7 +241,7 @@ e_japan = {
 			}
 
 			c_omi = {
-				color = { 254 111 254 }
+				color = { 211 1 254 }
 
 				b_otsu= {
 					province = 13803
@@ -266,7 +266,7 @@ e_japan = {
 			}
 
 			c_iga = {
-				color = { 221 134 219 }
+				color = { 184 81 247 }
 
 				b_iga= {
 					province = 13748
@@ -277,7 +277,7 @@ e_japan = {
 		}
 
 		d_chugoku = {
-			color = { 254 143 254 }
+			color = { 206 1 82 }
 			definite_form = yes
 			capital = c_suo
 			ruler_uses_title_name = no
@@ -289,7 +289,7 @@ e_japan = {
 			}
 
 			c_suo = {
-				color = { 254 179 254 }
+				color = { 202 1 107 }
 
 				b_saba= {
 					province = 13866
@@ -304,7 +304,7 @@ e_japan = {
 			}
 
 			c_nagato = {
-				color = { 239 124 254 }
+				color = { 144 76 84 }
 
 				b_toyoura= {
 					province = 13838
@@ -324,7 +324,7 @@ e_japan = {
 			}
 
 			c_aki = {
-				color = { 254 100 254 }
+				color = { 246 56 126 }
 
 				b_aki= {
 					province = 13685
@@ -344,7 +344,7 @@ e_japan = {
 			}
 
 			c_bingo = {
-				color = { 223 158 238 }
+				color = { 152 38 102 }
 
 				b_sera= {
 					province = 13686
@@ -364,7 +364,7 @@ e_japan = {
 			}
 
 			c_iwami = {
-				color = { 254 96 254 }
+				color = { 182 1 21 }
 
 				b_iwami= {
 					province = 13804
@@ -379,7 +379,7 @@ e_japan = {
 			}
 
 			c_izumo = {
-				color = { 218 184 254 }
+				color = { 195 1 50 }
 
 				b_izumo= {
 					province = 13806
@@ -394,7 +394,7 @@ e_japan = {
 			}
 
 			c_oki = {
-				color = { 247 123 254 }
+				color = { 210 39 39 }
 
 				b_oki= {
 					province = 13808
@@ -405,7 +405,7 @@ e_japan = {
 		}
 
 		d_east_sanyodo = {
-			color = { 254 150 213 }
+			color = { 247 1 234 }
 			definite_form = yes
 			capital = c_harima
 			ruler_uses_title_name = no
@@ -417,7 +417,7 @@ e_japan = {
 			}
 
 			c_harima = {
-				color = { 254 72 186 }
+				color = { 214 1 233 }
 
 				b_shikama= {
 					province = 13863
@@ -437,7 +437,7 @@ e_japan = {
 			}
 
 			c_bizen = {
-				color = { 254 199 211 }
+				color = { 254 1 160 }
 
 				b_jodo= {
 					province = 13785
@@ -452,7 +452,7 @@ e_japan = {
 			}
 
 			c_mimasaka = {
-				color = { 254 100 142 }
+				color = { 225 132 254 }
 
 				b_tomata= {
 					province = 13782
@@ -472,7 +472,7 @@ e_japan = {
 			}
 
 			c_bitchu = {
-				color = { 254 176 240 }
+				color = { 231 129 245 }
 
 				b_shimotsu= {
 					province = 13786
@@ -488,7 +488,7 @@ e_japan = {
 		}
 
 		d_east_sanindo = {
-			color = { 254 133 254 }
+			color = { 219 34 227 }
 			definite_form = yes
 			capital = c_tanba
 			ruler_uses_title_name = no
@@ -500,7 +500,7 @@ e_japan = {
 			}
 
 			c_tanba = {
-				color = { 254 87 254 }
+				color = { 242 1 160 }
 
 				b_kuwada= {
 					province = 13742
@@ -525,7 +525,7 @@ e_japan = {
 			}
 
 			c_tango = {
-				color = { 239 127 228 }
+				color = { 236 105 254 }
 
 				b_tango= {
 					province = 13744
@@ -535,7 +535,7 @@ e_japan = {
 			}
 
 			c_tajima = {
-				color = { 254 138 254 }
+				color = { 180 68 254 }
 
 				b_izushi= {
 					province = 13717
@@ -550,7 +550,7 @@ e_japan = {
 			}
 
 			c_inaba = {
-				color = { 254 64 254 }
+				color = { 176 109 254 }
 
 				b_inaba= {
 					province = 13825
@@ -560,7 +560,7 @@ e_japan = {
 			}
 
 			c_hoki = {
-				color = { 254 38 254 }
+				color = { 212 102 254 }
 
 				b_hoki= {
 					province = 13827
@@ -576,7 +576,7 @@ e_japan = {
 		}
 
 		d_nankaido = {
-			color = { 254 106 254 }
+			color = { 193 1 253 }
 			definite_form = yes
 			capital = c_sanuki
 			ruler_uses_title_name = no
@@ -588,7 +588,7 @@ e_japan = {
 			}
 
 			c_sanuki = {
-				color = { 254 108 254 }
+				color = { 247 59 249 }
 
 				b_aya= {
 					province = 13727
@@ -603,7 +603,7 @@ e_japan = {
 			}
 
 			c_iyo = {
-				color = { 217 68 254 }
+				color = { 175 63 168 }
 
 				b_iyo= {
 					province = 13655
@@ -628,7 +628,7 @@ e_japan = {
 			}
 
 			c_awa = {
-				color = { 243 120 224 }
+				color = { 118 1 249 }
 
 				b_awa= {
 					province = 13820
@@ -648,7 +648,7 @@ e_japan = {
 			}
 
 			c_tosa = {
-				color = { 254 54 240 }
+				color = { 175 1 205 }
 
 				b_tosa= {
 					province = 13865
@@ -673,7 +673,7 @@ e_japan = {
 			}
 
 			c_kii = {
-				color = { 192 79 249 }
+				color = { 182 63 198 }
 
 				b_nagusa= {
 					province = 13831
@@ -693,7 +693,7 @@ e_japan = {
 			}
 
 			c_awaji = {
-				color = { 254 103 254 }
+				color = { 121 79 215 }
 
 				b_awaji= {
 					province = 13713
@@ -705,7 +705,7 @@ e_japan = {
 	}
 	
 	k_tsukushi = { #倭王権
-		color = { 254 165 249 }
+		color = { 254 150 254 }
 		can_be_named_after_dynasty = no
 
 		capital = c_satsuma
@@ -720,7 +720,7 @@ e_japan = {
 		}
 		
 		d_south_saikaido = {
-			color = { 254 198 254 }
+			color = { 254 222 254 }
 			definite_form = yes
 			capital = c_satsuma
 			ruler_uses_title_name = no
@@ -742,12 +742,12 @@ e_japan = {
 				b_kagoshima= {
 					province = 13731
 
-					color = { 227 211 241 }
+					color = { 206 206 231 }
 				}
 			}
 			
 			c_higo = {
-				color = { 254 163 193 }
+				color = { 254 172 254 }
 
 				b_amakusa= {
 					province = 13737
@@ -792,7 +792,7 @@ e_japan = {
 				b_miyazaki= {
 					province = 13760
 
-					color = { 232 198 254 }
+					color = { 254 177 233 }
 				}
 			}
 
@@ -812,13 +812,13 @@ e_japan = {
 				b_tanegashima= {
 					province = 13893
 
-					color = { 225 185 254 }
+					color = { 254 230 247 }
 				}
 			}
 		}
 		
 		d_north_saikaido = {
-			color = { 254 225 254 }
+			color = { 254 152 254 }
 			definite_form = yes
 			capital = c_chikuzen
 			ruler_uses_title_name = no
@@ -830,7 +830,7 @@ e_japan = {
 			}
 
 			c_chikuzen = {
-				color = { 250 187 245 }
+				color = { 241 200 238 }
 
 				b_sawara= {
 					province = 13663
@@ -850,7 +850,7 @@ e_japan = {
 			}
 
 			c_chikugo = {
-				color = { 254 199 243 }
+				color = { 192 148 254 }
 
 				b_mii= {
 					province = 13665
@@ -865,7 +865,7 @@ e_japan = {
 			}
 
 			c_hizen = {
-				color = { 254 252 254 }
+				color = { 254 131 254 }
 
 				b_saga_hz= {
 					province = 13795
@@ -895,7 +895,7 @@ e_japan = {
 			}
 
 			c_tsushima = {
-				color = { 209 210 254 }
+				color = { 254 182 254 }
 
 				b_tsushima= {
 					province = 13766
@@ -905,7 +905,7 @@ e_japan = {
 			}
 
 			c_iki = {
-				color = { 240 219 254 }
+				color = { 254 67 254 }
 
 				b_iki= {
 					province = 13763
@@ -915,7 +915,7 @@ e_japan = {
 			}
 
 			c_buzen = {
-				color = { 254 241 254 }
+				color = { 254 154 213 }
 
 				b_nakatsu= {
 					province = 13662
@@ -930,7 +930,7 @@ e_japan = {
 			}
 
 			c_bungo_jp = {
-				color = { 238 182 192 }
+				color = { 254 191 250 }
 
 				b_oita= {
 					province = 13776
@@ -957,7 +957,7 @@ e_japan = {
 	}
 	
 	k_azuma = {	#mostly Chubu, also includes Kanto
-		color = { 254 175 254 }
+		color = { 254 143 254 }
 
 		capital = c_mino
 		can_be_named_after_dynasty = no
@@ -967,7 +967,7 @@ e_japan = {
 		}
 		
 		d_chubu = {
-			color = { 236 139 190 }
+			color = { 254 229 254 }
 			definite_form = yes
 			capital = c_mino
 			ruler_uses_title_name = no
@@ -979,7 +979,7 @@ e_japan = {
 			}
 
 			c_mino = {
-				color = { 228 140 199 }
+				color = { 254 253 254 }
 
 				b_mino= {
 					province = 13679
@@ -999,7 +999,7 @@ e_japan = {
 			}
 
 			c_hida = {
-				color = { 254 66 228 }
+				color = { 242 203 228 }
 
 				b_hida= {
 					province = 13680
@@ -1014,7 +1014,7 @@ e_japan = {
 			}
 
 			c_ise = {
-				color = { 198 122 176 }
+				color = { 254 212 248 }
 
 				b_suzuka= {
 					province = 13750
@@ -1034,7 +1034,7 @@ e_japan = {
 			}
 
 			c_shima = {
-				color = { 254 168 247 }
+				color = { 254 243 250 }
 
 				b_shima= {
 					province = 13749
@@ -1044,7 +1044,7 @@ e_japan = {
 			}
 
 			c_owari = {
-				color = { 254 88 174 }
+				color = { 254 227 254 }
 
 				b_nakashima= {
 					province = 13641
@@ -1060,7 +1060,7 @@ e_japan = {
 		}
 		
 		d_hokurikudo = {
-			color = { 242 219 254 }
+			color = { 254 187 254 }
 			definite_form = yes
 			capital = c_echizen
 			ruler_uses_title_name = no
@@ -1072,7 +1072,7 @@ e_japan = {
 			}
 
 			c_echizen = {
-				color = { 204 188 219 }
+				color = { 206 196 228 }
 
 				b_nyu= {
 					province = 13659
@@ -1087,7 +1087,7 @@ e_japan = {
 			}
 
 			c_wakasa = {
-				color = { 250 192 218 }
+				color = { 254 230 254 }
 
 				b_wakasa= {
 					province = 13660
@@ -1097,7 +1097,7 @@ e_japan = {
 			}
 
 			c_kaga = {
-				color = { 254 206 229 }
+				color = { 254 232 253 }
 
 				b_kaga= {
 					province = 13722
@@ -1112,7 +1112,7 @@ e_japan = {
 			}
 
 			c_noto = {
-				color = { 254 205 254 }
+				color = { 185 164 204 }
 
 				b_noto= {
 					province = 13721
@@ -1127,7 +1127,7 @@ e_japan = {
 			}
 
 			c_etchu = {
-				color = { 254 193 254 }
+				color = { 254 160 254 }
 
 				b_imizu= {
 					province = 13829
@@ -1143,7 +1143,7 @@ e_japan = {
 		}
 		
 		d_koshinetsu = {
-			color = { 254 117 254 }
+			color = { 205 97 158 }
 			definite_form = yes
 			capital = c_shinano
 			ruler_uses_title_name = no
@@ -1155,7 +1155,7 @@ e_japan = {
 			}
 
 			c_shinano = {
-				color = { 194 141 186 }
+				color = { 179 66 129 }
 
 				b_shinano= {
 					province = 13761
@@ -1190,7 +1190,7 @@ e_japan = {
 			}
 
 			c_kai = {
-				color = { 254 168 254 }
+				color = { 254 109 170 }
 
 				b_yamanashi= {
 					province = 13839
@@ -1205,7 +1205,7 @@ e_japan = {
 			}
 
 			c_echigo = {
-				color = { 254 91 254 }
+				color = { 165 105 175 }
 
 				b_kubiki= {
 					province = 13772
@@ -1230,7 +1230,7 @@ e_japan = {
 			}
 
 			c_sado = {
-				color = { 254 131 254 }
+				color = { 184 119 173 }
 
 				b_sado= {
 					province = 13775
@@ -1241,7 +1241,7 @@ e_japan = {
 		}
 		
 		d_west_bando = {
-			color = { 254 111 249 }
+			color = { 254 200 254 }
 			definite_form = yes
 			capital = c_sagami
 			ruler_uses_title_name = no
@@ -1253,7 +1253,7 @@ e_japan = {
 			}
 
 			c_sagami = {
-				color = { 247 41 254 }
+				color = { 254 172 254 }
 
 				b_kamakura= {
 					province = 13733
@@ -1268,7 +1268,7 @@ e_japan = {
 			}
 
 			c_musashi = {
-				color = { 190 141 201 }
+				color = { 248 208 233 }
 
 				b_tama_jp= {
 					province = 13853
@@ -1303,7 +1303,7 @@ e_japan = {
 			}
 
 			c_kozuke = {
-				color = { 254 100 254 }
+				color = { 254 170 254 }
 				b_gunma= {
 					province = 13684
 
@@ -1333,7 +1333,7 @@ e_japan = {
 		}
 
 		d_east_bando = {
-			color = { 250 183 254 }
+			color = { 252 131 254 }
 			definite_form = yes
 			capital = c_shimosa
 			ruler_uses_title_name = no
@@ -1345,7 +1345,7 @@ e_japan = {
 			}
 
 			c_shimosa = {
-				color = { 223 182 246 }
+				color = { 226 150 254 }
 
 				b_chiba= {
 					province = 13850
@@ -1365,7 +1365,7 @@ e_japan = {
 			}
 
 			c_shimotsuke = {
-				color = { 254 209 239 }
+				color = { 177 117 211 }
 
 				b_tsuga= {
 					province = 13819
@@ -1390,7 +1390,7 @@ e_japan = {
 			}
 
 			c_hitachi = {
-				color = { 254 238 254 }
+				color = { 254 140 254 }
 
 				b_niihari= {
 					province = 13718
@@ -1415,7 +1415,7 @@ e_japan = {
 			}
 
 			c_kazusa = {
-				color = { 254 140 254 }
+				color = { 247 133 254 }
 
 				b_ichihara= {
 					province = 13652
@@ -1430,7 +1430,7 @@ e_japan = {
 			}
 
 			c_awa_so = {
-				color = { 254 198 254 }
+				color = { 254 65 254 }
 
 				b_awa_so= {
 					province = 13844
@@ -1441,7 +1441,7 @@ e_japan = {
 		}
 		
 		d_tokaido = {
-			color = { 241 160 180 }
+			color = { 254 157 254 }
 			definite_form = yes
 			capital = c_suruga
 			ruler_uses_title_name = no
@@ -1453,7 +1453,7 @@ e_japan = {
 			}
 
 			c_suruga = {
-				color = { 235 188 202 }
+				color = { 254 90 254 }
 
 				b_ihara= {
 					province = 13811
@@ -1468,7 +1468,7 @@ e_japan = {
 			}
 
 			c_mikawa = {
-				color = { 254 149 168 }
+				color = { 254 169 254 }
 
 				b_hekikai= {
 					province = 13640
@@ -1488,7 +1488,7 @@ e_japan = {
 			}
 
 			c_totomi = {
-				color = { 254 142 172 }
+				color = { 222 91 244 }
 
 				b_iwata= {
 					province = 13813
@@ -1503,7 +1503,7 @@ e_japan = {
 			}
 
 			c_izu = {
-				color = { 254 210 215 }
+				color = { 254 186 254 }
 
 				b_izu= {
 					province = 13810

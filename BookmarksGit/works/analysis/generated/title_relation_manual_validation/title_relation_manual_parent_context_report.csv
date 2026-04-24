@@ -149,7 +149,7 @@ mismatch,183,b_yuri,c_nushiro,c_nushiro,b_yuri,c_tokisara,e_amur > k_hitakami > 
 mismatch,184,b_mogami,c_tokisara,c_tokisara,b_mogami,c_mogami,e_amur > k_hitakami > d_nushiro > c_tokisara > b_mogami,e_tunguse > k_hitakami > d_dewa > c_mogami > b_mogami
 mismatch,185,b_okitama,c_tokisara,c_tokisara,b_okitama,c_mogami,e_amur > k_hitakami > d_nushiro > c_tokisara > b_okitama,e_tunguse > k_hitakami > d_dewa > c_mogami > b_okitama
 ok,188,k_balhae,e_andong,e_jurchen_china,k_balhae,e_jurchen_china,e_andong > k_balhae,e_jurchen_china > k_balhae
-uncheckable:no_parent_mapping,189,k_khitan,e_great_liao,,k_khitan_china,e_great_liao,e_great_liao > k_khitan,h_china > e_great_liao > k_khitan_china
+ok,189,k_khitan,e_great_liao,e_great_liao,k_khitan_china,e_great_liao,e_great_liao > k_khitan,h_china > e_great_liao > k_khitan_china
 ok,190,k_luzhen,e_andong,e_jurchen_china,k_luzhen,e_jurchen_china,e_andong > k_luzhen,e_jurchen_china > k_luzhen
 mismatch,191,k_raole,e_andong,e_jurchen_china,k_liao_zhongjing,e_great_liao,e_andong > k_raole,h_china > e_great_liao > k_liao_zhongjing
 mismatch,192,k_shiwei,e_andong,e_jurchen_china,k_shiwei,e_tunguse,e_andong > k_shiwei,e_tunguse > k_shiwei
@@ -206,7 +206,7 @@ ok,242,c_LIAO_heicaoan,d_LIAO_linhuang,d_xarmoron_china,c_LIAO_heicaoan,d_xarmor
 ok,243,c_LIAO_linhuang,d_LIAO_linhuang,d_xarmoron_china,c_LIAO_linhuang,d_xarmoron_china,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_linhuang,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_linhuang
 ok,244,c_LIAO_longhuazhou,d_LIAO_linhuang,d_xarmoron_china,c_LIAO_longhuazhou,d_xarmoron_china,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_longhuazhou,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_longhuazhou
 ok,245,c_LIAO_raozhou,d_LIAO_linhuang,d_xarmoron_china,c_LIAO_raozhou,d_xarmoron_china,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_raozhou,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_raozhou
-uncheckable:no_parent_mapping,246,c_LIAO_ulagaian,d_hejes_china,,c_LIAO_ulagaian,d_hejes_china,e_great_liao > k_khitan > d_hejes_china > c_LIAO_ulagaian,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_LIAO_ulagaian
+ok,246,c_LIAO_ulagaian,d_hejes_china,d_hejes_china,c_LIAO_ulagaian,d_hejes_china,e_great_liao > k_khitan > d_hejes_china > c_LIAO_ulagaian,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_LIAO_ulagaian
 ok,247,c_LIAO_changchun,d_LIAO_shangjing,d_changchun_china,c_LIAO_changchun,d_changchun_china,e_great_liao > k_khitan > d_LIAO_shangjing > c_LIAO_changchun,h_china > e_great_liao > k_khitan_china > d_changchun_china > c_LIAO_changchun
 ok,248,c_LIAO_horqinan,d_LIAO_shangjing,d_changchun_china,c_LIAO_horqinan,d_changchun_china,e_great_liao > k_khitan > d_LIAO_shangjing > c_LIAO_horqinan,h_china > e_great_liao > k_khitan_china > d_changchun_china > c_LIAO_horqinan
 ok,249,c_LIAO_ningzhou,d_LIAO_shangjing,d_changchun_china,c_LIAO_ningzhou,d_changchun_china,e_great_liao > k_khitan > d_LIAO_shangjing > c_LIAO_ningzhou,h_china > e_great_liao > k_khitan_china > d_changchun_china > c_LIAO_ningzhou
@@ -249,8 +249,8 @@ ok,285,c_SW_hailar,d_SW_dashiweiguo,d_SW_dashiweiguo,c_SW_hailar,d_SW_dashiweigu
 ok,286,c_SW_heiergun,d_SW_dashiweiguo,d_SW_dashiweiguo,c_SW_heiergun,d_SW_dashiweiguo,e_andong > k_shiwei > d_SW_dashiweiguo > c_SW_heiergun,e_tunguse > k_ergune > d_SW_dashiweiguo > c_SW_heiergun
 ok,287,c_SW_mengwuo,d_SW_dashiweiguo,d_SW_dashiweiguo,c_SW_mengwuo,d_SW_dashiweiguo,e_andong > k_shiwei > d_SW_dashiweiguo > c_SW_mengwuo,e_tunguse > k_ergune > d_SW_dashiweiguo > c_SW_mengwuo
 ok,288,c_SW_pibeihe,d_SW_dashiweiguo,d_SW_dashiweiguo,c_SW_pibeihe,d_SW_dashiweiguo,e_andong > k_shiwei > d_SW_dashiweiguo > c_SW_pibeihe,e_tunguse > k_ergune > d_SW_dashiweiguo > c_SW_pibeihe
-uncheckable:no_parent_mapping,289,c_SW_dongcheziguo,d_hejes_china,,c_SW_dongcheziguo,d_hejes_china,e_great_liao > k_khitan > d_hejes_china > c_SW_dongcheziguo,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_SW_dongcheziguo
-uncheckable:no_parent_mapping,290,c_SW_hongxingan,d_hejes_china,,c_SW_hongxingan,d_hejes_china,e_great_liao > k_khitan > d_hejes_china > c_SW_hongxingan,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_SW_hongxingan
+ok,289,c_SW_dongcheziguo,d_hejes_china,d_hejes_china,c_SW_dongcheziguo,d_hejes_china,e_great_liao > k_khitan > d_hejes_china > c_SW_dongcheziguo,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_SW_dongcheziguo
+ok,290,c_SW_hongxingan,d_hejes_china,d_hejes_china,c_SW_hongxingan,d_hejes_china,e_great_liao > k_khitan > d_hejes_china > c_SW_hongxingan,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_SW_hongxingan
 ok,291,c_SW_hulunbuir,d_SW_heicheziguo,d_SW_heicheziguo,c_SW_hulunbuir,d_SW_heicheziguo,e_andong > k_shiwei > d_SW_heicheziguo > c_SW_hulunbuir,e_mongolia > k_dornogovi > d_SW_heicheziguo > c_SW_hulunbuir
 ok,292,c_SW_zhongcheziguo,d_SW_heicheziguo,d_SW_heicheziguo,c_SW_zhongcheziguo,d_SW_heicheziguo,e_andong > k_shiwei > d_SW_heicheziguo > c_SW_zhongcheziguo,e_mongolia > k_dornogovi > d_SW_heicheziguo > c_SW_zhongcheziguo
 ok,293,c_SW_heiheguo,d_SW_lingxiguo,d_SW_lingxiguo,c_SW_heiheguo,d_SW_lingxiguo,e_andong > k_shiwei > d_SW_lingxiguo > c_SW_heiheguo,e_tunguse > k_ergune > d_SW_lingxiguo > c_SW_heiheguo
@@ -288,8 +288,8 @@ ok,401,b_FIC_Liao_Dalinuor,c_LIAO_dalian,c_LIAO_dalian,b_FIC_Liao_Dalinuor,c_LIA
 ok,402,b_FIC_Liao_Hongdali,c_LIAO_dalian,c_LIAO_dalian,b_FIC_Liao_Hongdali,c_LIAO_dalian,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_dalian > b_FIC_Liao_Hongdali,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_dalian > b_FIC_Liao_Hongdali
 ok,403,b_FIC_Liao_Baicaoer,c_LIAO_heicaoan,c_LIAO_heicaoan,b_FIC_Liao_Baicaoer,c_LIAO_heicaoan,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_heicaoan > b_FIC_Liao_Baicaoer,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_heicaoan > b_FIC_Liao_Baicaoer
 ok,404,b_FIC_Liao_Caoyuanan,c_LIAO_heicaoan,c_LIAO_heicaoan,b_FIC_Liao_Caoyuanan,c_LIAO_heicaoan,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_heicaoan > b_FIC_Liao_Caoyuanan,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_heicaoan > b_FIC_Liao_Caoyuanan
-ok,405,b_FIC_Liao_Matudi,c_SW_hongxingan,c_SW_hongxingan,b_FIC_Liao_Matudi,c_SW_hongxingan,e_great_liao > k_khitan > d_hejes_china > c_SW_hongxingan > b_FIC_Liao_Matudi,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_SW_hongxingan > b_FIC_Liao_Matudi
-ok,406,b_Liao_Huaizhou,c_LIAO_heicaoan,c_LIAO_heicaoan,b_Liao_Huaizhou,c_LIAO_heicaoan,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_heicaoan > b_Liao_Huaizhou,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_heicaoan > b_Liao_Huaizhou
+mismatch,405,b_FIC_Liao_Matudi,c_LIAO_heicaoan,c_LIAO_heicaoan,b_FIC_Liao_Matudi,c_SW_hongxingan,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_heicaoan > b_FIC_Liao_Matudi,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_SW_hongxingan > b_FIC_Liao_Matudi
+mismatch,406,b_Liao_Huaizhou,c_LIAO_linhuang,c_LIAO_linhuang,b_Liao_Huaizhou,c_LIAO_heicaoan,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_linhuang > b_Liao_Huaizhou,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_heicaoan > b_Liao_Huaizhou
 ok,407,b_Liao_Linhuang,c_LIAO_linhuang,c_LIAO_linhuang,b_Liao_Linhuang,c_LIAO_linhuang,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_linhuang > b_Liao_Linhuang,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_linhuang > b_Liao_Linhuang
 ok,408,b_Liao_Songzhanzhou,c_LIAO_linhuang,c_LIAO_linhuang,b_Liao_Songzhanzhou,c_LIAO_linhuang,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_linhuang > b_Liao_Songzhanzhou,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_linhuang > b_Liao_Songzhanzhou
 ok,409,b_Liao_Yungzhou,c_LIAO_linhuang,c_LIAO_linhuang,b_Liao_Yungzhou,c_LIAO_linhuang,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_linhuang > b_Liao_Yungzhou,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_linhuang > b_Liao_Yungzhou
@@ -500,7 +500,7 @@ ok,632,b_FIC_Amur_Yingcao,c_SW_suihua,c_SW_suihua,b_FIC_Amur_Yingcao,c_SW_suihua
 ok,633,b_FIC_Amur_Yingsenlin,c_SW_suihua,c_SW_suihua,b_FIC_Amur_Yingsenlin,c_SW_suihua,e_andong > k_shiwei > d_SW_sushenguo > c_SW_suihua > b_FIC_Amur_Yingsenlin,e_tunguse > k_shiwei > d_SW_sushenguo > c_SW_suihua > b_FIC_Amur_Yingsenlin
 ok,635,k_brunei,e_brunei,e_brunei,k_brunei,e_brunei,e_brunei > k_brunei,e_brunei > k_brunei
 ok,637,k_baekje,e_goryeo,e_goryeo,k_baekje,e_goryeo,e_goryeo > k_baekje,e_goryeo > k_baekje
-uncheckable:no_parent_mapping,638,k_goguryeo,e_great_liao,,k_goguryeo,e_jurchen_china,e_great_liao > k_goguryeo,e_jurchen_china > k_goguryeo
+mismatch,638,k_goguryeo,e_great_liao,e_great_liao,k_goguryeo,e_jurchen_china,e_great_liao > k_goguryeo,e_jurchen_china > k_goguryeo
 ok,639,k_silla,e_goryeo,e_goryeo,k_silla,e_goryeo,e_goryeo > k_silla,e_goryeo > k_silla
 ok,640,d_chungju,k_baekje,k_baekje,d_chungju,k_baekje,e_goryeo > k_baekje > d_chungju,e_goryeo > k_baekje > d_chungju
 ok,641,d_jeonju,k_baekje,k_baekje,d_jeonju,k_baekje,e_goryeo > k_baekje > d_jeonju,e_goryeo > k_baekje > d_jeonju
@@ -1289,9 +1289,7 @@ ok,2163,k_guannei,e_yongliang,e_yongliang,k_qin_china,e_yongliang,h_china > e_yo
 mismatch,2163,k_guannei,e_yongliang,e_yongliang,k_yongxingjun_china,e_guanzhong,h_china > e_yongliang > k_guannei,h_china > e_guanzhong > k_yongxingjun_china
 mismatch,2163,k_guannei,e_yongliang,e_yongliang,k_jingzhaofu,e_guanzhong,h_china > e_yongliang > k_guannei,h_china > e_guanzhong > k_jingzhaofu
 ok,2163,k_guannei,e_yongliang,e_yongliang,k_shaanxi,e_yongliang,h_china > e_yongliang > k_guannei,h_china > e_yongliang > k_shaanxi
-mismatch,2164,k_hexi,e_yongliang,e_yongliang,k_hexi,e_xi_xia,h_china > e_yongliang > k_hexi,h_china > e_xi_xia > k_hexi
-mismatch,2164,k_hexi,e_yongliang,e_yongliang,k_xia,e_xi_xia,h_china > e_yongliang > k_hexi,h_china > e_xi_xia > k_xia
-uncheckable:no_parent_mapping,2165,k_xia,e_xi_xia,,k_xia_china,e_xi_xia,e_xi_xia > k_xia,h_china > e_xi_xia > k_xia_china
+ok,2165,k_xia,e_xi_xia,e_xi_xia,k_xia,e_xi_xia,e_xi_xia > k_xia,h_china > e_xi_xia > k_xia
 ok,2166,k_daibei,e_zhongyuan,e_zhongyuan,k_yinshan_china,e_zhongyuan,h_china > e_zhongyuan > k_daibei,h_china > e_zhongyuan > k_yinshan_china
 mismatch,2167,k_hebei,e_zhongyuan,e_zhongyuan,k_hebei_east,e_hebei,h_china > e_zhongyuan > k_hebei,h_china > e_hebei > k_hebei_east
 mismatch,2167,k_hebei,e_zhongyuan,e_zhongyuan,k_hebeidong,e_hebei,h_china > e_zhongyuan > k_hebei,h_china > e_hebei > k_hebeidong
@@ -1354,20 +1352,15 @@ mismatch,2219,d_lam_tay,k_viet,k_viet,d_lam_tay,k_tay_bac,h_china > e_lingnan > 
 ok,2220,d_nghe_an,k_viet,k_viet,d_nghe_an,k_viet,h_china > e_lingnan > k_viet > d_nghe_an,h_china > e_dai_viet > k_viet > d_nghe_an
 ok,2221,d_thang_long,k_viet,k_viet,d_thang_long,k_viet,h_china > e_lingnan > k_viet > d_thang_long,h_china > e_dai_viet > k_viet > d_thang_long
 ok,2222,d_binning,k_guannei,k_qin_china & k_yongxingjun_china & k_jingzhaofu & k_shaanxi,d_binning_china,k_qin_china,h_china > e_yongliang > k_guannei > d_binning,h_china > e_yongliang > k_qin_china > d_binning_china
-ok,2223,d_fengxiang,k_guannei,k_qin_china & k_yongxingjun_china & k_jingzhaofu & k_shaanxi,d_fengxiang_china,k_qin_china,h_china > e_yongliang > k_guannei > d_fengxiang,h_china > e_yongliang > k_qin_china > d_fengxiang_china
+mismatch,2223,d_fengxiang,k_longxi_china,k_longxi_china,d_fengxiang_china,k_qin_china,h_china > e_yongliang > k_longxi_china > d_fengxiang,h_china > e_yongliang > k_qin_china > d_fengxiang_china
 ok,2224,d_fufang,k_guannei,k_qin_china & k_yongxingjun_china & k_jingzhaofu & k_shaanxi,d_fufang_china,k_qin_china,h_china > e_yongliang > k_guannei > d_fufang,h_china > e_yongliang > k_qin_china > d_fufang_china
 ok,2225,d_jingyuan,k_guannei,k_qin_china & k_yongxingjun_china & k_jingzhaofu & k_shaanxi,d_jingyuan_china,k_qin_china,h_china > e_yongliang > k_guannei > d_jingyuan,h_china > e_yongliang > k_qin_china > d_jingyuan_china
 mismatch,2226,d_jinshang,k_guannei,k_qin_china & k_yongxingjun_china & k_jingzhaofu & k_shaanxi,d_jinshang_china,k_han_china,h_china > e_yongliang > k_guannei > d_jinshang,h_china > e_liangyi > k_han_china > d_jinshang_china
-mismatch,2227,d_qincheng,k_guannei,k_qin_china & k_yongxingjun_china & k_jingzhaofu & k_shaanxi,d_longxi_china,k_longxi_china,h_china > e_yongliang > k_guannei > d_qincheng,h_china > e_yongliang > k_longxi_china > d_longxi_china
-mismatch,2228,d_xingfeng,k_guannei,k_qin_china & k_yongxingjun_china & k_jingzhaofu & k_shaanxi,d_zhaowu,,h_china > e_yongliang > k_guannei > d_xingfeng,d_zhaowu
+ok,2227,d_qincheng,k_longxi_china,k_longxi_china,d_longxi_china,k_longxi_china,h_china > e_yongliang > k_longxi_china > d_qincheng,h_china > e_yongliang > k_longxi_china > d_longxi_china
+mismatch,2228,d_xingfeng,k_longxi_china,k_longxi_china,d_zhaowu,,h_china > e_yongliang > k_longxi_china > d_xingfeng,d_zhaowu
 ok,2229,d_yongxing,k_guannei,k_qin_china & k_yongxingjun_china & k_jingzhaofu & k_shaanxi,d_xijing_china,k_qin_china,h_china > e_yongliang > k_guannei > d_yongxing,h_china > e_yongliang > k_qin_china > d_xijing_china
-ok,2230,d_gansu,k_hexi,k_hexi & k_xia,d_ganzhou,k_xia,h_china > e_yongliang > k_hexi > d_gansu,h_china > e_xi_xia > k_xia > d_ganzhou
-mismatch,2231,d_guasha,k_hexi,k_hexi & k_xia,d_guiyi,k_guishi,h_china > e_yongliang > k_hexi > d_guasha,h_china > e_xi_xia > k_guishi > d_guiyi
-ok,2232,d_hexi,k_hexi,k_hexi & k_xia,d_liangzhou,k_xia,h_china > e_yongliang > k_hexi > d_hexi,h_china > e_xi_xia > k_xia > d_liangzhou
-mismatch,2233,d_longyou,k_hexi,k_hexi & k_xia,d_shanzhou,k_longxi_china,h_china > e_yongliang > k_hexi > d_longyou,h_china > e_yongliang > k_longxi_china > d_shanzhou
-ok,2234,d_qilian,k_hexi,k_hexi & k_xia,d_qilin,k_xia,h_china > e_yongliang > k_hexi > d_qilian,h_china > e_xi_xia > k_xia > d_qilin
 mismatch,2235,d_sanggan,k_daibei,k_yinshan_china,d_xuandezhou_china,k_jin_china,h_china > e_zhongyuan > k_daibei > d_sanggan,h_china > e_zhongyuan > k_jin_china > d_xuandezhou_china
-ok,2236,d_xinan,k_daibei,k_yinshan_china,d_fengzhou_china,k_yinshan_china,h_china > e_zhongyuan > k_daibei > d_xinan,h_china > e_zhongyuan > k_yinshan_china > d_fengzhou_china
+mismatch,2236,d_xinan,k_daibei,k_yinshan_china,d_ordos_china,k_xia_china,h_china > e_zhongyuan > k_daibei > d_xinan,h_china > e_xi_xia > k_xia_china > d_ordos_china
 mismatch,2237,d_yunshuo,k_daibei,k_yinshan_china,d_yunzhong_china,k_jin_china,h_china > e_zhongyuan > k_daibei > d_yunshuo,h_china > e_zhongyuan > k_jin_china > d_yunzhong_china
 mismatch,2238,d_cangjing,k_hebei,k_hebei_east & k_hebeidong & k_weibo & k_weibo_jin,d_henghai_china,k_yan_china,h_china > e_zhongyuan > k_hebei > d_cangjing,h_china > e_zhongyuan > k_yan_china > d_henghai_china
 mismatch,2239,d_chengde,k_hebei,k_hebei_east & k_hebeidong & k_weibo & k_weibo_jin,d_chengde_china,k_zhao_china,h_china > e_zhongyuan > k_hebei > d_chengde,h_china > e_zhongyuan > k_zhao_china > d_chengde_china
@@ -1614,8 +1607,8 @@ ok,2479,c_binzhou,d_binning,d_binning_china,c_binzhou_qin_china,d_binning_china,
 ok,2480,c_huanzhou,d_binning,d_binning_china,c_huanzhou_china,d_binning_china,h_china > e_yongliang > k_guannei > d_binning > c_huanzhou,h_china > e_yongliang > k_qin_china > d_binning_china > c_huanzhou_china
 ok,2481,c_jinzhou,d_binning,d_binning_china,c_ningzhou_qin_china,d_binning_china,h_china > e_yongliang > k_guannei > d_binning > c_jinzhou,h_china > e_yongliang > k_qin_china > d_binning_china > c_ningzhou_qin_china
 ok,2482,c_qingyang,d_binning,d_binning_china,c_qingzhou_china,d_binning_china,h_china > e_yongliang > k_guannei > d_binning > c_qingyang,h_china > e_yongliang > k_qin_china > d_binning_china > c_qingzhou_china
-ok,2483,c_fengxiang,d_fengxiang,d_fengxiang_china,c_fengxiang_china,d_fengxiang_china,h_china > e_yongliang > k_guannei > d_fengxiang > c_fengxiang,h_china > e_yongliang > k_qin_china > d_fengxiang_china > c_fengxiang_china
-ok,2484,c_longzhou_2,d_fengxiang,d_fengxiang_china,c_longzhou_china,d_fengxiang_china,h_china > e_yongliang > k_guannei > d_fengxiang > c_longzhou_2,h_china > e_yongliang > k_qin_china > d_fengxiang_china > c_longzhou_china
+ok,2483,c_fengxiang,d_fengxiang,d_fengxiang_china,c_fengxiang_china,d_fengxiang_china,h_china > e_yongliang > k_longxi_china > d_fengxiang > c_fengxiang,h_china > e_yongliang > k_qin_china > d_fengxiang_china > c_fengxiang_china
+ok,2484,c_longzhou_2,d_fengxiang,d_fengxiang_china,c_longzhou_china,d_fengxiang_china,h_china > e_yongliang > k_longxi_china > d_fengxiang > c_longzhou_2,h_china > e_yongliang > k_qin_china > d_fengxiang_china > c_longzhou_china
 ok,2485,c_danzhou,d_fufang,d_fufang_china,c_danzhou_china,d_fufang_china,h_china > e_yongliang > k_guannei > d_fufang > c_danzhou,h_china > e_yongliang > k_qin_china > d_fufang_china > c_danzhou_china
 ok,2486,c_fangzhou,d_fufang,d_fufang_china,c_fangzhou_china,d_fufang_china,h_china > e_yongliang > k_guannei > d_fufang > c_fangzhou,h_china > e_yongliang > k_qin_china > d_fufang_china > c_fangzhou_china
 ok,2487,c_fuzhou_5,d_fufang,d_fufang_china,c_fuzhou_qin_china,d_fufang_china,h_china > e_yongliang > k_guannei > d_fufang > c_fuzhou_5,h_china > e_yongliang > k_qin_china > d_fufang_china > c_fuzhou_qin_china
@@ -1625,49 +1618,39 @@ ok,2490,c_xiaoguan,d_jingyuan,d_jingyuan_china,c_yuanzou_xia_china,d_jingyuan_ch
 ok,2491,c_yuanzhou_2,d_jingyuan,d_jingyuan_china,c_yuanzou_xia_china,d_jingyuan_china,h_china > e_yongliang > k_guannei > d_jingyuan > c_yuanzhou_2,h_china > e_yongliang > k_qin_china > d_jingyuan_china > c_yuanzou_xia_china
 ok,2492,c_jinzhou_1,d_jinshang,d_jinshang_china,c_jinzhou_hanzhong_china,d_jinshang_china,h_china > e_yongliang > k_guannei > d_jinshang > c_jinzhou_1,h_china > e_liangyi > k_han_china > d_jinshang_china > c_jinzhou_hanzhong_china
 mismatch,2493,c_shangzhou,d_jinshang,d_jinshang_china,c_shangzhou_qin_china,d_jingxiang_china,h_china > e_yongliang > k_guannei > d_jinshang > c_shangzhou,h_china > e_jingyang > k_jingnan > d_jingxiang_china > c_shangzhou_qin_china
-mismatch,2494,c_chengzhou,d_qincheng,d_longxi_china,c_qiuchi_china,d_longnan_china,h_china > e_yongliang > k_guannei > d_qincheng > c_chengzhou,h_china > e_yongliang > k_longxi_china > d_longnan_china > c_qiuchi_china
-mismatch,2495,c_jiezhou,d_qincheng,d_longxi_china,c_wudu_china,d_longnan_china,h_china > e_yongliang > k_guannei > d_qincheng > c_jiezhou,h_china > e_yongliang > k_longxi_china > d_longnan_china > c_wudu_china
-ok,2496,c_minzhou,d_qincheng,d_longxi_china,c_minzhou_china,d_longxi_china,h_china > e_yongliang > k_guannei > d_qincheng > c_minzhou,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_minzhou_china
-ok,2497,c_qinzhou_1,d_qincheng,d_longxi_china,c_tianshui_china,d_longxi_china,h_china > e_yongliang > k_guannei > d_qincheng > c_qinzhou_1,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_tianshui_china
-ok,2498,c_weizhou_2,d_qincheng,d_longxi_china,c_weizhou_longxi_china,d_longxi_china,h_china > e_yongliang > k_guannei > d_qincheng > c_weizhou_2,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_weizhou_longxi_china
-mismatch,2499,c_fengzhou,d_xingfeng,d_zhaowu,c_fengzhou_hanzhong_china,d_hanzhong_china,h_china > e_yongliang > k_guannei > d_xingfeng > c_fengzhou,h_china > e_liangyi > k_han_china > d_hanzhong_china > c_fengzhou_hanzhong_china
-mismatch,2500,c_xingqing,d_xingfeng,d_zhaowu,c_xingzhou_hanzhong_china,d_hanzhong_china,h_china > e_yongliang > k_guannei > d_xingfeng > c_xingqing,h_china > e_liangyi > k_han_china > d_hanzhong_china > c_xingzhou_hanzhong_china
+mismatch,2494,c_chengzhou,d_qincheng,d_longxi_china,c_qiuchi_china,d_longnan_china,h_china > e_yongliang > k_longxi_china > d_qincheng > c_chengzhou,h_china > e_yongliang > k_longxi_china > d_longnan_china > c_qiuchi_china
+mismatch,2495,c_jiezhou,d_qincheng,d_longxi_china,c_wudu_china,d_longnan_china,h_china > e_yongliang > k_longxi_china > d_qincheng > c_jiezhou,h_china > e_yongliang > k_longxi_china > d_longnan_china > c_wudu_china
+ok,2496,c_minzhou,d_qincheng,d_longxi_china,c_minzhou_china,d_longxi_china,h_china > e_yongliang > k_longxi_china > d_qincheng > c_minzhou,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_minzhou_china
+ok,2497,c_qinzhou_1,d_qincheng,d_longxi_china,c_tianshui_china,d_longxi_china,h_china > e_yongliang > k_longxi_china > d_qincheng > c_qinzhou_1,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_tianshui_china
+ok,2498,c_weizhou_2,d_qincheng,d_longxi_china,c_weizhou_longxi_china,d_longxi_china,h_china > e_yongliang > k_longxi_china > d_qincheng > c_weizhou_2,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_weizhou_longxi_china
+mismatch,2499,c_fengzhou,d_xingfeng,d_zhaowu,c_fengzhou_hanzhong_china,d_hanzhong_china,h_china > e_yongliang > k_longxi_china > d_xingfeng > c_fengzhou,h_china > e_liangyi > k_han_china > d_hanzhong_china > c_fengzhou_hanzhong_china
+mismatch,2500,c_xingqing,d_xingfeng,d_zhaowu,c_xingzhou_hanzhong_china,d_hanzhong_china,h_china > e_yongliang > k_longxi_china > d_xingfeng > c_xingqing,h_china > e_liangyi > k_han_china > d_hanzhong_china > c_xingzhou_hanzhong_china
 mismatch,2501,c_huayin,d_yongxing,d_xijing_china,c_huazhou_pingyi_china,d_pingyi_china,h_china > e_yongliang > k_guannei > d_yongxing > c_huayin,h_china > e_yongliang > k_qin_china > d_pingyi_china > c_huazhou_pingyi_china
 ok,2502,c_jingzhao,d_yongxing,d_xijing_china,c_jingzhao,d_xijing_china,h_china > e_yongliang > k_guannei > d_yongxing > c_jingzhao,h_china > e_yongliang > k_qin_china > d_xijing_china > c_jingzhao
 mismatch,2503,c_tongzhou,d_yongxing,d_xijing_china,c_tongzhou_pingyi_china,d_pingyi_china,h_china > e_yongliang > k_guannei > d_yongxing > c_tongzhou,h_china > e_yongliang > k_qin_china > d_pingyi_china > c_tongzhou_pingyi_china
 ok,2504,c_yaozhou,d_yongxing,d_xijing_china,c_yaozhou_china,d_xijing_china,h_china > e_yongliang > k_guannei > d_yongxing > c_yaozhou,h_china > e_yongliang > k_qin_china > d_xijing_china > c_yaozhou_china
-ok,2505,c_ganzhou,d_gansu,d_ganzhou,c_ganzhou,d_ganzhou,h_china > e_yongliang > k_hexi > d_gansu > c_ganzhou,h_china > e_xi_xia > k_xia > d_ganzhou > c_ganzhou
-ok,2506,c_jiankang,d_gansu,d_ganzhou,c_gaotai,d_ganzhou,h_china > e_yongliang > k_hexi > d_gansu > c_jiankang,h_china > e_xi_xia > k_xia > d_ganzhou > c_gaotai
-ok,2507,c_jiuquan,d_gansu,d_ganzhou,c_suzhou,d_ganzhou,h_china > e_yongliang > k_hexi > d_gansu > c_jiuquan,h_china > e_xi_xia > k_xia > d_ganzhou > c_suzhou
-ok,2508,c_liaoquan,d_gansu,d_ganzhou,c_linze,d_ganzhou,h_china > e_yongliang > k_hexi > d_gansu > c_liaoquan,h_china > e_xi_xia > k_xia > d_ganzhou > c_linze
-ok,2509,c_yumen,d_gansu,d_ganzhou,c_yumen,d_ganzhou,h_china > e_yongliang > k_hexi > d_gansu > c_yumen,h_china > e_xi_xia > k_xia > d_ganzhou > c_yumen
-ok,2510,c_zhenwu_1,d_gansu,d_ganzhou,c_jinta,d_ganzhou,h_china > e_yongliang > k_hexi > d_gansu > c_zhenwu_1,h_china > e_xi_xia > k_xia > d_ganzhou > c_jinta
-ok,2511,c_guazhou,d_guasha,d_guiyi,c_guazhou,d_guiyi,h_china > e_yongliang > k_hexi > d_guasha > c_guazhou,h_china > e_xi_xia > k_guishi > d_guiyi > c_guazhou
-ok,2512,c_hehe,d_guasha,d_guiyi,c_hongliuyuan,d_guiyi,h_china > e_yongliang > k_hexi > d_guasha > c_hehe,h_china > e_xi_xia > k_guishi > d_guiyi > c_hongliuyuan
-ok,2513,c_shazhou,d_guasha,d_guiyi,c_shazhou,d_guiyi,h_china > e_yongliang > k_hexi > d_guasha > c_shazhou,h_china > e_xi_xia > k_guishi > d_guiyi > c_shazhou
-ok,2514,c_shouchang,d_guasha,d_guiyi,c_yumenguan,d_guiyi,h_china > e_yongliang > k_hexi > d_guasha > c_shouchang,h_china > e_xi_xia > k_guishi > d_guiyi > c_yumenguan
-ok,2515,c_xincheng,d_guasha,d_guiyi,c_changma,d_guiyi,h_china > e_yongliang > k_hexi > d_guasha > c_xincheng,h_china > e_xi_xia > k_guishi > d_guiyi > c_changma
-ok,2516,c_ziting,d_guasha,d_guiyi,c_subei,d_guiyi,h_china > e_yongliang > k_hexi > d_guasha > c_ziting,h_china > e_xi_xia > k_guishi > d_guiyi > c_subei
-ok,2517,c_baishan,d_hexi,d_liangzhou,c_dajing,d_liangzhou,h_china > e_yongliang > k_hexi > d_hexi > c_baishan,h_china > e_xi_xia > k_xia > d_liangzhou > c_dajing
-ok,2518,c_fanhe,d_hexi,d_liangzhou,c_fanhe,d_liangzhou,h_china > e_yongliang > k_hexi > d_hexi > c_fanhe,h_china > e_xi_xia > k_xia > d_liangzhou > c_fanhe
-ok,2519,c_guangwu,d_hexi,d_liangzhou,c_yongdeng,d_liangzhou,h_china > e_yongliang > k_hexi > d_hexi > c_guangwu,h_china > e_xi_xia > k_xia > d_liangzhou > c_yongdeng
-ok,2520,c_liangzhou,d_hexi,d_liangzhou,c_liangzhou,d_liangzhou,h_china > e_yongliang > k_hexi > d_hexi > c_liangzhou,h_china > e_xi_xia > k_xia > d_liangzhou > c_liangzhou
-ok,2521,c_zhanyin,d_hexi,d_liangzhou,c_baiyin,d_liangzhou,h_china > e_yongliang > k_hexi > d_hexi > c_zhanyin,h_china > e_xi_xia > k_xia > d_liangzhou > c_baiyin
-ok,2522,c_hezhou_2,d_longyou,d_shanzhou,c_hezhou_china,d_shanzhou,h_china > e_yongliang > k_hexi > d_longyou > c_hezhou_2,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_hezhou_china
-ok,2523,c_kuozhou,d_longyou,d_shanzhou,c_kuozhou,d_shanzhou,h_china > e_yongliang > k_hexi > d_longyou > c_kuozhou,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_kuozhou
-mismatch,2524,c_lanzhou_1,d_longyou,d_shanzhou,c_lanzhou_longxi_china,d_longxi_china,h_china > e_yongliang > k_hexi > d_longyou > c_lanzhou_1,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_lanzhou_longxi_china
-ok,2525,c_xiningzhou,d_longyou,d_shanzhou,c_shanzhou,d_shanzhou,h_china > e_yongliang > k_hexi > d_longyou > c_xiningzhou,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_shanzhou
-ok,2526,c_qilin,d_qilian,d_qilin,c_qilin,d_qilin,h_china > e_yongliang > k_hexi > d_qilian > c_qilin,h_china > e_xi_xia > k_xia > d_qilin > c_qilin
-ok,2527,c_yalong,d_qilian,d_qilin,c_yalong,d_qilin,h_china > e_yongliang > k_hexi > d_qilian > c_yalong,h_china > e_xi_xia > k_xia > d_qilin > c_yalong
+ok,2505,c_ganzhou,d_ganzhou,d_ganzhou,c_ganzhou,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_ganzhou,h_china > e_xi_xia > k_xia > d_ganzhou > c_ganzhou
+ok,2509,c_yumen,d_ganzhou,d_ganzhou,c_yumen,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_yumen,h_china > e_xi_xia > k_xia > d_ganzhou > c_yumen
+ok,2511,c_guazhou,d_guiyi,d_guiyi,c_guazhou,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_guazhou,h_china > e_xi_xia > k_guishi > d_guiyi > c_guazhou
+ok,2513,c_shazhou,d_guiyi,d_guiyi,c_shazhou,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_shazhou,h_china > e_xi_xia > k_guishi > d_guiyi > c_shazhou
+ok,2517,c_baishan,d_liangzhou,d_liangzhou,c_dajing,d_liangzhou,h_china > e_yongliang > k_guishi > d_liangzhou > c_baishan,h_china > e_xi_xia > k_xia > d_liangzhou > c_dajing
+ok,2518,c_fanhe,d_liangzhou,d_liangzhou,c_fanhe,d_liangzhou,h_china > e_yongliang > k_guishi > d_liangzhou > c_fanhe,h_china > e_xi_xia > k_xia > d_liangzhou > c_fanhe
+ok,2519,c_guangwu,d_liangzhou,d_liangzhou,c_yongdeng,d_liangzhou,h_china > e_yongliang > k_guishi > d_liangzhou > c_guangwu,h_china > e_xi_xia > k_xia > d_liangzhou > c_yongdeng
+ok,2520,c_liangzhou,d_liangzhou,d_liangzhou,c_liangzhou,d_liangzhou,h_china > e_yongliang > k_guishi > d_liangzhou > c_liangzhou,h_china > e_xi_xia > k_xia > d_liangzhou > c_liangzhou
+ok,2521,c_zhanyin,d_liangzhou,d_liangzhou,c_baiyin,d_liangzhou,h_china > e_yongliang > k_guishi > d_liangzhou > c_zhanyin,h_china > e_xi_xia > k_xia > d_liangzhou > c_baiyin
+ok,2523,c_kuozhou,d_shanzhou,d_shanzhou,c_kuozhou,d_shanzhou,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_kuozhou,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_kuozhou
+mismatch,2524,c_lanzhou_1,d_shanzhou,d_shanzhou,c_lanzhou_longxi_china,d_longxi_china,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_lanzhou_1,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_lanzhou_longxi_china
+ok,2526,c_qilin,d_qilin,d_qilin,c_qilin,d_qilin,h_china > e_yongliang > k_guishi > d_qilin > c_qilin,h_china > e_xi_xia > k_xia > d_qilin > c_qilin
+ok,2527,c_yalong,d_qilin,d_qilin,c_yalong,d_qilin,h_china > e_yongliang > k_guishi > d_qilin > c_yalong,h_china > e_xi_xia > k_xia > d_qilin > c_yalong
 mismatch,2528,c_huaian,d_sanggan,d_xuandezhou_china,c_xuandezhou1_china,d_youzhou_china,h_china > e_zhongyuan > k_daibei > d_sanggan > c_huaian,h_china > e_zhongyuan > k_yan_china > d_youzhou_china > c_xuandezhou1_china
 mismatch,2529,c_jiushijiuquan,d_sanggan,d_xuandezhou_china,c_xuandezhou_china,d_zhenwu_china,h_china > e_zhongyuan > k_daibei > d_sanggan > c_jiushijiuquan,h_china > e_zhongyuan > k_yinshan_china > d_zhenwu_china > c_xuandezhou_china
 mismatch,2530,c_rouyuan,d_sanggan,d_xuandezhou_china,c_qibingga_china,d_zhenwu_china,h_china > e_zhongyuan > k_daibei > d_sanggan > c_rouyuan,h_china > e_zhongyuan > k_yinshan_china > d_zhenwu_china > c_qibingga_china
 mismatch,2531,c_yongxing,d_sanggan,d_xuandezhou_china,c_xuandezhou1_china,d_youzhou_china,h_china > e_zhongyuan > k_daibei > d_sanggan > c_yongxing,h_china > e_zhongyuan > k_yan_china > d_youzhou_china > c_xuandezhou1_china
-mismatch,2532,c_fuzhou,d_xinan,d_fengzhou_china,c_hequ_china,d_xihe,h_china > e_zhongyuan > k_daibei > d_xinan > c_fuzhou,h_china > e_zhongyuan > k_jin_china > d_xihe > c_hequ_china
-mismatch,2533,c_linzhou,d_xinan,d_fengzhou_china,c_linzhou_shaan_china,d_ordos_china,h_china > e_zhongyuan > k_daibei > d_xinan > c_linzhou,h_china > e_xi_xia > k_xia_china > d_ordos_china > c_linzhou_shaan_china
-ok,2534,c_lxj_yunneizhou,d_xinan,d_fengzhou_china,c_midsurrended_china,d_fengzhou_china,h_china > e_zhongyuan > k_daibei > d_xinan > c_lxj_yunneizhou,h_china > e_zhongyuan > k_yinshan_china > d_fengzhou_china > c_midsurrended_china
-mismatch,2535,c_qingshan,d_xinan,d_fengzhou_china,c_chanyufu_china,d_zhenwu_china,h_china > e_zhongyuan > k_daibei > d_xinan > c_qingshan,h_china > e_zhongyuan > k_yinshan_china > d_zhenwu_china > c_chanyufu_china
-mismatch,2536,c_shengzhou,d_xinan,d_fengzhou_china,c_shengzhou_china,d_xihe,h_china > e_zhongyuan > k_daibei > d_xinan > c_shengzhou,h_china > e_zhongyuan > k_jin_china > d_xihe > c_shengzhou_china
+mismatch,2532,c_fuzhou,d_xinan,d_ordos_china,c_hequ_china,d_xihe,h_china > e_zhongyuan > k_daibei > d_xinan > c_fuzhou,h_china > e_zhongyuan > k_jin_china > d_xihe > c_hequ_china
+ok,2533,c_linzhou,d_xinan,d_ordos_china,c_linzhou_shaan_china,d_ordos_china,h_china > e_zhongyuan > k_daibei > d_xinan > c_linzhou,h_china > e_xi_xia > k_xia_china > d_ordos_china > c_linzhou_shaan_china
+mismatch,2534,c_lxj_yunneizhou,d_xinan,d_ordos_china,c_midsurrended_china,d_fengzhou_china,h_china > e_zhongyuan > k_daibei > d_xinan > c_lxj_yunneizhou,h_china > e_zhongyuan > k_yinshan_china > d_fengzhou_china > c_midsurrended_china
+mismatch,2535,c_qingshan,d_xinan,d_ordos_china,c_chanyufu_china,d_zhenwu_china,h_china > e_zhongyuan > k_daibei > d_xinan > c_qingshan,h_china > e_zhongyuan > k_yinshan_china > d_zhenwu_china > c_chanyufu_china
+mismatch,2536,c_shengzhou,d_xinan,d_ordos_china,c_shengzhou_china,d_xihe,h_china > e_zhongyuan > k_daibei > d_xinan > c_shengzhou,h_china > e_zhongyuan > k_jin_china > d_xihe > c_shengzhou_china
 ok,2537,c_datong_2,d_yunshuo,d_yunzhong_china,c_yunzhou_china,d_yunzhong_china,h_china > e_zhongyuan > k_daibei > d_yunshuo > c_datong_2,h_china > e_zhongyuan > k_jin_china > d_yunzhong_china > c_yunzhou_china
 ok,2538,c_hongzhou_2,d_yunshuo,d_yunzhong_china,c_hongzhou_datong_china,d_yunzhong_china,h_china > e_zhongyuan > k_daibei > d_yunshuo > c_hongzhou_2,h_china > e_zhongyuan > k_jin_china > d_yunzhong_china > c_hongzhou_datong_china
 ok,2539,c_shuozhou,d_yunshuo,d_yunzhong_china,c_shuozhou_china,d_yunzhong_china,h_china > e_zhongyuan > k_daibei > d_yunshuo > c_shuozhou,h_china > e_zhongyuan > k_jin_china > d_yunzhong_china > c_shuozhou_china
@@ -1914,8 +1897,8 @@ ok,3355,b_thang_long,c_thang_long,c_thanh_long,b_thang_long,c_thanh_long,h_china
 ok,3359,b_fangqu,c_huanzhou,c_huanzhou_china,b_fangqu_china,c_huanzhou_china,h_china > e_yongliang > k_guannei > d_binning > c_huanzhou > b_fangqu,h_china > e_yongliang > k_qin_china > d_binning_china > c_huanzhou_china > b_fangqu_china
 ok,3363,b_pengyuan,c_jinzhou,c_ningzhou_qin_china,b_pengyuan_china,c_ningzhou_qin_china,h_china > e_yongliang > k_guannei > d_binning > c_jinzhou > b_pengyuan,h_china > e_yongliang > k_qin_china > d_binning_china > c_ningzhou_qin_china > b_pengyuan_china
 ok,3366,b_huachi,c_qingyang,c_qingzhou_china,b_huachi_china,c_qingzhou_china,h_china > e_yongliang > k_guannei > d_binning > c_qingyang > b_huachi,h_china > e_yongliang > k_qin_china > d_binning_china > c_qingzhou_china > b_huachi_china
-ok,3371,b_qianyang,c_longzhou_2,c_longzhou_china,b_qianyang_china,c_longzhou_china,h_china > e_yongliang > k_guannei > d_fengxiang > c_longzhou_2 > b_qianyang,h_china > e_yongliang > k_qin_china > d_fengxiang_china > c_longzhou_china > b_qianyang_china
-mismatch,3373,b_wushan,c_longzhou_2,c_longzhou_china,b_wushan_china,c_kuizhou_china,h_china > e_yongliang > k_guannei > d_fengxiang > c_longzhou_2 > b_wushan,h_china > e_liangyi > k_han_china > d_ningjiang_china > c_kuizhou_china > b_wushan_china
+ok,3371,b_qianyang,c_longzhou_2,c_longzhou_china,b_qianyang_china,c_longzhou_china,h_china > e_yongliang > k_longxi_china > d_fengxiang > c_longzhou_2 > b_qianyang,h_china > e_yongliang > k_qin_china > d_fengxiang_china > c_longzhou_china > b_qianyang_china
+mismatch,3373,b_wushan,c_longzhou_2,c_longzhou_china,b_wushan_china,c_kuizhou_china,h_china > e_yongliang > k_longxi_china > d_fengxiang > c_longzhou_2 > b_wushan,h_china > e_liangyi > k_han_china > d_ningjiang_china > c_kuizhou_china > b_wushan_china
 ok,3381,b_zhiluo,c_fuzhou_5,c_fuzhou_qin_china,b_zhiluo_china,c_fuzhou_qin_china,h_china > e_yongliang > k_guannei > d_fufang > c_fuzhou_5 > b_zhiluo,h_china > e_yongliang > k_qin_china > d_fufang_china > c_fuzhou_qin_china > b_zhiluo_china
 mismatch,3385,b_jinming,c_yan_an,c_yanzhou_xia_china,b_jinming_china,c_baoan_china,h_china > e_yongliang > k_guannei > d_fufang > c_yan_an > b_jinming,h_china > e_yongliang > k_qin_china > d_fufang_china > c_baoan_china > b_jinming_china
 ok,3386,b_yanchuan,c_yan_an,c_yanzhou_xia_china,b_yanchuan_china,c_yanzhou_xia_china,h_china > e_yongliang > k_guannei > d_fufang > c_yan_an > b_yanchuan,h_china > e_yongliang > k_qin_china > d_fufang_china > c_yanzhou_xia_china > b_yanchuan_china
@@ -1928,14 +1911,14 @@ mismatch,3394,b_pingliang,c_yuanzhou_2,c_yuanzou_xia_china,b_pingliang_china,c_p
 ok,3395,b_ankang,c_jinzhou_1,c_jinzhou_hanzhong_china,b_ankang_china,c_jinzhou_hanzhong_china,h_china > e_yongliang > k_guannei > d_jinshang > c_jinzhou_1 > b_ankang,h_china > e_liangyi > k_han_china > d_jinshang_china > c_jinzhou_hanzhong_china > b_ankang_china
 mismatch,3397,b_xicheng,c_jinzhou_1,c_jinzhou_hanzhong_china,b_xicheng_china,c_fenzhou_china,h_china > e_yongliang > k_guannei > d_jinshang > c_jinzhou_1 > b_xicheng,h_china > e_zhongyuan > k_jin_china > d_hedong_china > c_fenzhou_china > b_xicheng_china
 ok,3398,b_xunyang_2,c_jinzhou_1,c_jinzhou_hanzhong_china,b_xunyang_china,c_jinzhou_hanzhong_china,h_china > e_yongliang > k_guannei > d_jinshang > c_jinzhou_1 > b_xunyang_2,h_china > e_liangyi > k_han_china > d_jinshang_china > c_jinzhou_hanzhong_china > b_xunyang_china
-ok,3403,b_changdao,c_chengzhou,c_qiuchi_china,b_changdao_china,c_qiuchi_china,h_china > e_yongliang > k_guannei > d_qincheng > c_chengzhou > b_changdao,h_china > e_yongliang > k_longxi_china > d_longnan_china > c_qiuchi_china > b_changdao_china
-ok,3405,b_tonggu,c_chengzhou,c_qiuchi_china,b_tonggu_china,c_qiuchi_china,h_china > e_yongliang > k_guannei > d_qincheng > c_chengzhou > b_tonggu,h_china > e_yongliang > k_longxi_china > d_longnan_china > c_qiuchi_china > b_tonggu_china
-ok,3410,b_youchuan,c_minzhou,c_minzhou_china,b_youchuan_china,c_minzhou_china,h_china > e_yongliang > k_guannei > d_qincheng > c_minzhou > b_youchuan,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_minzhou_china > b_youchuan_china
-ok,3411,b_chengji,c_qinzhou_1,c_tianshui_china,b_chengji_china,c_tianshui_china,h_china > e_yongliang > k_guannei > d_qincheng > c_qinzhou_1 > b_chengji,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_tianshui_china > b_chengji_china
-mismatch,3412,b_longcheng_2,c_qinzhou_1,c_tianshui_china,b_longcheng,c_karakorum,h_china > e_yongliang > k_guannei > d_qincheng > c_qinzhou_1 > b_longcheng_2,e_mongolia > k_mongolia > d_otuken > c_karakorum > b_longcheng
-mismatch,3413,b_qingshui,c_qinzhou_1,c_tianshui_china,b_qingshui,c_suzhou,h_china > e_yongliang > k_guannei > d_qincheng > c_qinzhou_1 > b_qingshui,h_china > e_xi_xia > k_xia > d_ganzhou > c_suzhou > b_qingshui
-ok,3414,b_shanggui,c_qinzhou_1,c_tianshui_china,b_shanggui_china,c_tianshui_china,h_china > e_yongliang > k_guannei > d_qincheng > c_qinzhou_1 > b_shanggui,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_tianshui_china > b_shanggui_china
-mismatch,3416,b_weiyuan,c_weizhou_2,c_weizhou_longxi_china,b_weiyuan,c_mang_xie,h_china > e_yongliang > k_guannei > d_qincheng > c_weizhou_2 > b_weiyuan,e_angkor > k_chiang_hung > d_monglem > c_mang_xie > b_weiyuan
+ok,3403,b_changdao,c_chengzhou,c_qiuchi_china,b_changdao_china,c_qiuchi_china,h_china > e_yongliang > k_longxi_china > d_qincheng > c_chengzhou > b_changdao,h_china > e_yongliang > k_longxi_china > d_longnan_china > c_qiuchi_china > b_changdao_china
+ok,3405,b_tonggu,c_chengzhou,c_qiuchi_china,b_tonggu_china,c_qiuchi_china,h_china > e_yongliang > k_longxi_china > d_qincheng > c_chengzhou > b_tonggu,h_china > e_yongliang > k_longxi_china > d_longnan_china > c_qiuchi_china > b_tonggu_china
+ok,3410,b_youchuan,c_minzhou,c_minzhou_china,b_youchuan_china,c_minzhou_china,h_china > e_yongliang > k_longxi_china > d_qincheng > c_minzhou > b_youchuan,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_minzhou_china > b_youchuan_china
+ok,3411,b_chengji,c_qinzhou_1,c_tianshui_china,b_chengji_china,c_tianshui_china,h_china > e_yongliang > k_longxi_china > d_qincheng > c_qinzhou_1 > b_chengji,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_tianshui_china > b_chengji_china
+mismatch,3412,b_longcheng_2,c_qinzhou_1,c_tianshui_china,b_longcheng,c_karakorum,h_china > e_yongliang > k_longxi_china > d_qincheng > c_qinzhou_1 > b_longcheng_2,e_mongolia > k_mongolia > d_otuken > c_karakorum > b_longcheng
+ok,3413,b_qingshui,c_suzhou_mbp,c_suzhou,b_qingshui,c_suzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_suzhou_mbp > b_qingshui,h_china > e_xi_xia > k_xia > d_ganzhou > c_suzhou > b_qingshui
+ok,3414,b_shanggui,c_qinzhou_1,c_tianshui_china,b_shanggui_china,c_tianshui_china,h_china > e_yongliang > k_longxi_china > d_qincheng > c_qinzhou_1 > b_shanggui,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_tianshui_china > b_shanggui_china
+mismatch,3416,b_weiyuan,c_weizhou_2,c_weizhou_longxi_china,b_weiyuan,c_mang_xie,h_china > e_yongliang > k_longxi_china > d_qincheng > c_weizhou_2 > b_weiyuan,e_angkor > k_chiang_hung > d_monglem > c_mang_xie > b_weiyuan
 ok,3421,b_huayin,c_huayin,c_huazhou_pingyi_china,b_huayin_china,c_huazhou_pingyi_china,h_china > e_yongliang > k_guannei > d_yongxing > c_huayin > b_huayin,h_china > e_yongliang > k_qin_china > d_pingyi_china > c_huazhou_pingyi_china > b_huayin_china
 ok,3422,b_xiagui,c_huayin,c_huazhou_pingyi_china,b_xiagui_china,c_huazhou_pingyi_china,h_china > e_yongliang > k_guannei > d_yongxing > c_huayin > b_xiagui,h_china > e_yongliang > k_qin_china > d_pingyi_china > c_huazhou_pingyi_china > b_xiagui_china
 ok,3424,b_changan,c_jingzhao,c_jingzhao,b_changan_china,c_jingzhao,h_china > e_yongliang > k_guannei > d_yongxing > c_jingzhao > b_changan,h_china > e_yongliang > k_qin_china > d_xijing_china > c_jingzhao > b_changan_china
@@ -1946,23 +1929,18 @@ mismatch,3428,b_zhouzhi,c_jingzhao,c_jingzhao,b_zhouzhi_china,c_fengxiang_china,
 mismatch,3430,b_heyang_1,c_tongzhou,c_tongzhou_pingyi_china,b_heyang_china,c_mengzhou_china,h_china > e_yongliang > k_guannei > d_yongxing > c_tongzhou > b_heyang_1,h_china > e_zhongyuan > k_zhao_china > d_heyang_china > c_mengzhou_china > b_heyang_china
 mismatch,3431,b_pingyi,c_tongzhou,c_tongzhou_pingyi_china,b_pingyi_china,c_shizhou_china,h_china > e_yongliang > k_guannei > d_yongxing > c_tongzhou > b_pingyi,h_china > e_zhongyuan > k_jin_china > d_xihe > c_shizhou_china > b_pingyi_china
 ok,3432,b_fuping,c_yaozhou,c_yaozhou_china,b_fuping_china,c_yaozhou_china,h_china > e_yongliang > k_guannei > d_yongxing > c_yaozhou > b_fuping,h_china > e_yongliang > k_qin_china > d_xijing_china > c_yaozhou_china > b_fuping_china
-ok,3435,b_shandan,c_ganzhou,c_ganzhou,b_shandan,c_ganzhou,h_china > e_yongliang > k_hexi > d_gansu > c_ganzhou > b_shandan,h_china > e_xi_xia > k_xia > d_ganzhou > c_ganzhou > b_shandan
-mismatch,3441,b_fulu,c_jiuquan,c_suzhou,b_fulu_china,c_fuzhou_qin_china,h_china > e_yongliang > k_hexi > d_gansu > c_jiuquan > b_fulu,h_china > e_yongliang > k_qin_china > d_fufang_china > c_fuzhou_qin_china > b_fulu_china
-ok,3443,b_ganjun,c_liaoquan,c_linze,b_ganjun,c_linze,h_china > e_yongliang > k_hexi > d_gansu > c_liaoquan > b_ganjun,h_china > e_xi_xia > k_xia > d_ganzhou > c_linze > b_ganjun
-ok,3448,b_yumen,c_yumen,c_yumen,b_yumen,c_yumen,h_china > e_yongliang > k_hexi > d_gansu > c_yumen > b_yumen,h_china > e_xi_xia > k_xia > d_ganzhou > c_yumen > b_yumen
-mismatch,3451,b_changle,c_guazhou,c_guazhou,b_changle_china,c_chanzhou_china,h_china > e_yongliang > k_hexi > d_guasha > c_guazhou > b_changle,h_china > e_zhongyuan > k_zhao_china > d_weibo_china > c_chanzhou_china > b_changle_china
-mismatch,3452,b_jinchang,c_guazhou,c_guazhou,b_jinchang,c_fanhe,h_china > e_yongliang > k_hexi > d_guasha > c_guazhou > b_jinchang,h_china > e_xi_xia > k_xia > d_liangzhou > c_fanhe > b_jinchang
-mismatch,3455,b_hehe,c_hehe,c_hongliuyuan,b_hehe_china,c_lanzhou_hedong_china,h_china > e_yongliang > k_hexi > d_guasha > c_hehe > b_hehe,h_china > e_zhongyuan > k_jin_china > d_xihe > c_lanzhou_hedong_china > b_hehe_china
-mismatch,3457,b_dunhuang_2,c_shazhou,c_shazhou,b_dunhuang,c_luobupo,h_china > e_yongliang > k_hexi > d_guasha > c_shazhou > b_dunhuang_2,e_qixi > k_khotan > d_charkliq > c_luobupo > b_dunhuang
-ok,3458,b_mogao,c_shazhou,c_shazhou,b_mogao,c_shazhou,h_china > e_yongliang > k_hexi > d_guasha > c_shazhou > b_mogao,h_china > e_xi_xia > k_guishi > d_guiyi > c_shazhou > b_mogao
-ok,3461,b_yangguan,c_shouchang,c_yumenguan,b_yangguan,c_yumenguan,h_china > e_yongliang > k_hexi > d_guasha > c_shouchang > b_yangguan,h_china > e_xi_xia > k_guishi > d_guiyi > c_yumenguan > b_yangguan
-ok,3468,b_fanhe,c_fanhe,c_fanhe,b_fanhe,c_fanhe,h_china > e_yongliang > k_hexi > d_hexi > c_fanhe > b_fanhe,h_china > e_xi_xia > k_xia > d_liangzhou > c_fanhe > b_fanhe
-mismatch,3475,b_shenwu,c_liangzhou,c_liangzhou,b_shenwu_china,c_shuozhou_china,h_china > e_yongliang > k_hexi > d_hexi > c_liangzhou > b_shenwu,h_china > e_zhongyuan > k_jin_china > d_yunzhong_china > c_shuozhou_china > b_shenwu_china
-mismatch,3484,b_didao,c_lanzhou_1,c_lanzhou_longxi_china,b_didao_china,c_didao_xizhou_china,h_china > e_yongliang > k_hexi > d_longyou > c_lanzhou_1 > b_didao,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_didao_xizhou_china > b_didao_china
-mismatch,3485,b_jincheng_1,c_lanzhou_1,c_lanzhou_longxi_china,b_jincheng,c_yingzhou_jin_china,h_china > e_yongliang > k_hexi > d_longyou > c_lanzhou_1 > b_jincheng_1,h_china > e_zhongyuan > k_jin_china > d_yunzhong_china > c_yingzhou_jin_china > b_jincheng
-ok,3491,b_semnyi,c_qilin,c_qilin,b_semnyi,c_qilin,h_china > e_yongliang > k_hexi > d_qilian > c_qilin > b_semnyi,h_china > e_xi_xia > k_xia > d_qilin > c_qilin > b_semnyi
-ok,3492,b_yalong,c_yalong,c_yalong,b_yalong,c_yalong,h_china > e_yongliang > k_hexi > d_qilian > c_yalong > b_yalong,h_china > e_xi_xia > k_xia > d_qilin > c_yalong > b_yalong
-ok,3493,b_yeniugou,c_yalong,c_yalong,b_yeniugou,c_yalong,h_china > e_yongliang > k_hexi > d_qilian > c_yalong > b_yeniugou,h_china > e_xi_xia > k_xia > d_qilin > c_yalong > b_yeniugou
+ok,3435,b_shandan,c_ganzhou,c_ganzhou,b_shandan,c_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_ganzhou > b_shandan,h_china > e_xi_xia > k_xia > d_ganzhou > c_ganzhou > b_shandan
+ok,3443,b_ganjun,c_linze,c_linze,b_ganjun,c_linze,h_china > e_yongliang > k_guishi > d_ganzhou > c_linze > b_ganjun,h_china > e_xi_xia > k_xia > d_ganzhou > c_linze > b_ganjun
+ok,3448,b_yumen,c_yumen,c_yumen,b_yumen,c_yumen,h_china > e_yongliang > k_guishi > d_ganzhou > c_yumen > b_yumen,h_china > e_xi_xia > k_xia > d_ganzhou > c_yumen > b_yumen
+ok,3452,b_jinchang,c_fanhe,c_fanhe,b_jinchang,c_fanhe,h_china > e_yongliang > k_guishi > d_liangzhou > c_fanhe > b_jinchang,h_china > e_xi_xia > k_xia > d_liangzhou > c_fanhe > b_jinchang
+ok,3458,b_mogao,c_shazhou,c_shazhou,b_mogao,c_shazhou,h_china > e_yongliang > k_guishi > d_guiyi > c_shazhou > b_mogao,h_china > e_xi_xia > k_guishi > d_guiyi > c_shazhou > b_mogao
+ok,3461,b_yangguan,c_yumenguan,c_yumenguan,b_yangguan,c_yumenguan,h_china > e_yongliang > k_guishi > d_guiyi > c_yumenguan > b_yangguan,h_china > e_xi_xia > k_guishi > d_guiyi > c_yumenguan > b_yangguan
+ok,3468,b_fanhe,c_fanhe,c_fanhe,b_fanhe,c_fanhe,h_china > e_yongliang > k_guishi > d_liangzhou > c_fanhe > b_fanhe,h_china > e_xi_xia > k_xia > d_liangzhou > c_fanhe > b_fanhe
+mismatch,3484,b_didao,c_lanzhou_1,c_lanzhou_longxi_china,b_didao_china,c_didao_xizhou_china,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_lanzhou_1 > b_didao,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_didao_xizhou_china > b_didao_china
+mismatch,3485,b_jincheng_1,c_lanzhou_1,c_lanzhou_longxi_china,b_jincheng,c_yingzhou_jin_china,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_lanzhou_1 > b_jincheng_1,h_china > e_zhongyuan > k_jin_china > d_yunzhong_china > c_yingzhou_jin_china > b_jincheng
+ok,3491,b_semnyi,c_qilin,c_qilin,b_semnyi,c_qilin,h_china > e_yongliang > k_guishi > d_qilin > c_qilin > b_semnyi,h_china > e_xi_xia > k_xia > d_qilin > c_qilin > b_semnyi
+ok,3492,b_yalong,c_yalong,c_yalong,b_yalong,c_yalong,h_china > e_yongliang > k_guishi > d_qilin > c_yalong > b_yalong,h_china > e_xi_xia > k_xia > d_qilin > c_yalong > b_yalong
+ok,3493,b_yeniugou,c_yalong,c_yalong,b_yeniugou,c_yalong,h_china > e_yongliang > k_guishi > d_qilin > c_yalong > b_yeniugou,h_china > e_xi_xia > k_xia > d_qilin > c_yalong > b_yeniugou
 mismatch,3494,b_baishui,c_huaian,c_xuandezhou1_china,b_baishui_china,c_yaozhou_china,h_china > e_zhongyuan > k_daibei > d_sanggan > c_huaian > b_baishui,h_china > e_yongliang > k_qin_china > d_xijing_china > c_yaozhou_china > b_baishui_china
 ok,3500,b_goupo,c_rouyuan,c_qibingga_china,b_goupo_china,c_qibingga_china,h_china > e_zhongyuan > k_daibei > d_sanggan > c_rouyuan > b_goupo,h_china > e_zhongyuan > k_yinshan_china > d_zhenwu_china > c_qibingga_china > b_goupo_china
 mismatch,3502,b_longmen,c_yongxing,c_xuandezhou1_china (second),b_longmen_china,c_jiangzhou_china,h_china > e_zhongyuan > k_daibei > d_sanggan > c_yongxing > b_longmen,h_china > e_zhongyuan > k_jin_china > d_hezhong_china > c_jiangzhou_china > b_longmen_china
@@ -2000,7 +1978,7 @@ mismatch,3596,b_yangqu,c_taiyuan,c_taiyuan_china,b_yangqu_china,c_xianzhou_china
 ok,3597,b_jichang,c_cizhou,c_cizhou_hezhong_china,b_jichang_china,c_cizhou_hezhong_china,h_china > e_zhongyuan > k_hedong > d_hezhong > c_cizhou > b_jichang,h_china > e_zhongyuan > k_jin_china > d_hezhong_china > c_cizhou_hezhong_china > b_jichang_china
 ok,3598,b_wencheng,c_cizhou,c_cizhou_hezhong_china,b_wencheng_china,c_cizhou_hezhong_china,h_china > e_zhongyuan > k_hedong > d_hezhong > c_cizhou > b_wencheng,h_china > e_zhongyuan > k_jin_china > d_hezhong_china > c_cizhou_hezhong_china > b_wencheng_china
 mismatch,3599,b_anyi,c_hezhong,c_puzhou_china,b_anyi_china,c_xiezhou_china,h_china > e_zhongyuan > k_hedong > d_hezhong > c_hezhong > b_anyi,h_china > e_zhongyuan > k_jin_china > d_hezhong_china > c_xiezhou_china > b_anyi_china
-mismatch,3600,b_hedong,c_hezhong,c_puzhou_china,b_hedong,c_changma,h_china > e_zhongyuan > k_hedong > d_hezhong > c_hezhong > b_hedong,h_china > e_xi_xia > k_guishi > d_guiyi > c_changma > b_hedong
+ok,3600,b_hedong,c_changma,c_changma,b_hedong,c_changma,h_china > e_yongliang > k_guishi > d_guiyi > c_changma > b_hedong,h_china > e_xi_xia > k_guishi > d_guiyi > c_changma > b_hedong
 mismatch,3602,b_wenxi,c_hezhong,c_puzhou_china,b_wenxi_china,c_xiezhou_china,h_china > e_zhongyuan > k_hedong > d_hezhong > c_hezhong > b_wenxi,h_china > e_zhongyuan > k_jin_china > d_hezhong_china > c_xiezhou_china > b_wenxi_china
 ok,3603,b_longmen_2,c_jiangzhou_2,c_jiangzhou_china,b_longmen_china,c_jiangzhou_china,h_china > e_zhongyuan > k_hedong > d_hezhong > c_jiangzhou_2 > b_longmen_2,h_china > e_zhongyuan > k_jin_china > d_hezhong_china > c_jiangzhou_china > b_longmen_china
 ok,3604,b_quwo,c_jiangzhou_2,c_jiangzhou_china,b_quwo_china,c_jiangzhou_china,h_china > e_zhongyuan > k_hedong > d_hezhong > c_jiangzhou_2 > b_quwo,h_china > e_zhongyuan > k_jin_china > d_hezhong_china > c_jiangzhou_china > b_quwo_china
@@ -2052,7 +2030,7 @@ mismatch,3737,b_linzi,c_qingzhou,c_qingzhou_qi_china,b_linzi_china,c_zibo_china,
 mismatch,3739,b_yidu_2,c_qingzhou,c_qingzhou_qi_china,b_yidu,c_kara_khoja,h_china > e_zhongyuan > k_qingxu > d_ziqing > c_qingzhou > b_yidu_2,e_qixi > k_dzungaria > d_kara_khoja > c_kara_khoja > b_yidu
 ok,3740,b_beihai,c_weizhou_4,c_weizhou_qi_china,b_beihai_china,c_weizhou_qi_china,h_china > e_zhongyuan > k_qingxu > d_ziqing > c_weizhou_4 > b_beihai,h_china > e_zhongyuan > k_qi_china > d_ziqing_china > c_weizhou_qi_china > b_beihai_china
 ok,3744,b_zouping,c_zichuan,c_zibo_china,b_zouping_china,c_zibo_china,h_china > e_zhongyuan > k_qingxu > d_ziqing > c_zichuan > b_zouping,h_china > e_zhongyuan > k_qi_china > d_ziqing_china > c_zibo_china > b_zouping_china
-mismatch,3745,b_anxi,c_dingzhou,c_dingzhou_china,b_anxi,c_guazhou,h_china > e_zhongyuan > k_youji > d_yideng > c_dingzhou > b_anxi,h_china > e_xi_xia > k_guishi > d_guiyi > c_guazhou > b_anxi
+ok,3745,b_anxi,c_guazhou,c_guazhou,b_anxi,c_guazhou,h_china > e_yongliang > k_guishi > d_guiyi > c_guazhou > b_anxi,h_china > e_xi_xia > k_guishi > d_guiyi > c_guazhou > b_anxi
 mismatch,3752,b_shucheng,c_hejian,c_yingzhou_ji_china,b_shucheng_china,c_luzhou_huai_china,h_china > e_zhongyuan > k_youji > d_yingmo > c_hejian > b_shucheng,h_china > e_jingyang > k_wu_china > d_huaixi_china > c_luzhou_huai_china > b_shucheng_china
 mismatch,3754,b_qingyuan,c_mozhou,c_mozhou_china,b_qingyuan_china,c_guangzhou_1,h_china > e_zhongyuan > k_youji > d_yingmo > c_mozhou > b_qingyuan,h_china > e_lingnan > k_nanyue_china > d_lingnan_china > c_guangzhou_1 > b_qingyuan_china
 mismatch,3756,b_huairong,c_guizhou_2,c_guizhou_yan_china,b_huairong_2,c_huizhou_china,h_china > e_zhongyuan > k_youji > d_youzhou > c_guizhou_2 > b_huairong,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_huizhou_china > b_huairong_2
@@ -2060,3 +2038,147 @@ ok,3760,b_yuyang,c_jizhou_1,c_jizhou_yan_china,b_yuyang_china,c_jizhou_yan_china
 ok,3761,b_zunhua,c_jizhou_1,c_jizhou_yan_china,b_zunhua_china,c_jizhou_yan_china,h_china > e_zhongyuan > k_youji > d_youzhou > c_jizhou_1 > b_zunhua,h_china > e_zhongyuan > k_yan_china > d_lulong_china > c_jizhou_yan_china > b_zunhua_china
 mismatch,3762,b_anxi_2,c_pinzhou,c_pingzhou_china,b_anxi,c_guazhou,h_china > e_zhongyuan > k_youji > d_youzhou > c_pinzhou > b_anxi_2,h_china > e_xi_xia > k_guishi > d_guiyi > c_guazhou > b_anxi
 ok,3766,b_huairou,c_tanzhou_2,c_guzhu_china,b_huairou_china,c_guzhu_china,h_china > e_zhongyuan > k_youji > d_youzhou > c_tanzhou_2 > b_huairou,h_china > e_zhongyuan > k_yan_china > d_youzhou_china > c_guzhu_china > b_huairou_china
+mismatch,3779,k_guishi,e_yongliang,e_yongliang,k_guishi,e_xi_xia,h_china > e_yongliang > k_guishi,h_china > e_xi_xia > k_guishi
+mismatch,3780,d_ganzhou,k_guishi,k_guishi,d_ganzhou,k_xia,h_china > e_yongliang > k_guishi > d_ganzhou,h_china > e_xi_xia > k_xia > d_ganzhou
+ok,3781,d_guiyi,k_guishi,k_guishi,d_guiyi,k_guishi,h_china > e_yongliang > k_guishi > d_guiyi,h_china > e_xi_xia > k_guishi > d_guiyi
+mismatch,3782,d_liangzhou,k_guishi,k_guishi,d_liangzhou,k_xia,h_china > e_yongliang > k_guishi > d_liangzhou,h_china > e_xi_xia > k_xia > d_liangzhou
+ok,3783,d_shanzhou,k_longxi_china,k_longxi_china,d_shanzhou,k_longxi_china,h_china > e_yongliang > k_longxi_china > d_shanzhou,h_china > e_yongliang > k_longxi_china > d_shanzhou
+mismatch,3784,d_qilin,k_guishi,k_guishi,d_qilin,k_xia,h_china > e_yongliang > k_guishi > d_qilin,h_china > e_xi_xia > k_xia > d_qilin
+ok,3785,c_gaotai,d_ganzhou,d_ganzhou,c_gaotai,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_gaotai,h_china > e_xi_xia > k_xia > d_ganzhou > c_gaotai
+ok,3786,c_linze,d_ganzhou,d_ganzhou,c_linze,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_linze,h_china > e_xi_xia > k_xia > d_ganzhou > c_linze
+ok,3787,c_jinta,d_ganzhou,d_ganzhou,c_jinta,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_jinta,h_china > e_xi_xia > k_xia > d_ganzhou > c_jinta
+ok,3788,c_hongliuyuan,d_guiyi,d_guiyi,c_hongliuyuan,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_hongliuyuan,h_china > e_xi_xia > k_guishi > d_guiyi > c_hongliuyuan
+ok,3789,c_yumenguan,d_guiyi,d_guiyi,c_yumenguan,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_yumenguan,h_china > e_xi_xia > k_guishi > d_guiyi > c_yumenguan
+ok,3790,c_changma,d_guiyi,d_guiyi,c_changma,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_changma,h_china > e_xi_xia > k_guishi > d_guiyi > c_changma
+ok,3791,c_subei,d_guiyi,d_guiyi,c_subei,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_subei,h_china > e_xi_xia > k_guishi > d_guiyi > c_subei
+ok,3792,c_hezhou_china,d_shanzhou,d_shanzhou,c_hezhou_china,d_shanzhou,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_hezhou_china,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_hezhou_china
+ok,3793,c_shanzhou_mbp,d_shanzhou,d_shanzhou,c_shanzhou,d_shanzhou,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_shanzhou_mbp,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_shanzhou
+ok,3794,c_suzhou_mbp,d_ganzhou,d_ganzhou,c_suzhou,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_suzhou_mbp,h_china > e_xi_xia > k_xia > d_ganzhou > c_suzhou
+ok,3846,k_mongolia,e_mongolia,e_mongolia,k_mongolia,e_mongolia,e_mongolia > k_mongolia,e_mongolia > k_mongolia
+ok,3847,d_ogrash,k_mongolia,k_mongolia,d_ogrash,k_mongolia,e_mongolia > k_mongolia > d_ogrash,e_mongolia > k_mongolia > d_ogrash
+ok,3848,c_EM_khaldun,d_ogrash,d_ogrash,c_EM_khaldun,d_ogrash,e_mongolia > k_mongolia > d_ogrash > c_EM_khaldun,e_mongolia > k_mongolia > d_ogrash > c_EM_khaldun
+mismatch,3849,d_khiyat_china,k_mongolia,k_mongolia,d_khiyat_china,k_hentii,e_mongolia > k_mongolia > d_khiyat_china,e_mongolia > k_hentii > d_khiyat_china
+ok,3850,c_EM_kizilkhentii,d_khiyat_china,d_khiyat_china,c_EM_kizilkhentii,d_khiyat_china,e_mongolia > k_mongolia > d_khiyat_china > c_EM_kizilkhentii,e_mongolia > k_hentii > d_khiyat_china > c_EM_kizilkhentii
+ok,3851,c_EM_doodonon,d_khiyat_china,d_khiyat_china,c_EM_doodonon,d_khiyat_china,e_mongolia > k_mongolia > d_khiyat_china > c_EM_doodonon,e_mongolia > k_hentii > d_khiyat_china > c_EM_doodonon
+ok,3852,c_EM_khoyorgol,d_khiyat_china,d_khiyat_china,c_EM_khoyorgol,d_khiyat_china,e_mongolia > k_mongolia > d_khiyat_china > c_EM_khoyorgol,e_mongolia > k_hentii > d_khiyat_china > c_EM_khoyorgol
+mismatch,3853,d_EM_onon,k_mongolia,k_mongolia,d_EM_onon,k_hentii,e_mongolia > k_mongolia > d_EM_onon,e_mongolia > k_hentii > d_EM_onon
+ok,3854,c_EM_jiangbian,d_EM_onon,d_EM_onon,c_EM_jiangbian,d_EM_onon,e_mongolia > k_mongolia > d_EM_onon > c_EM_jiangbian,e_mongolia > k_hentii > d_EM_onon > c_EM_jiangbian
+ok,3855,c_EM_ononum,d_EM_onon,d_EM_onon,c_EM_ononum,d_EM_onon,e_mongolia > k_mongolia > d_EM_onon > c_EM_ononum,e_mongolia > k_hentii > d_EM_onon > c_EM_ononum
+mismatch,3856,d_EM_yujuelu,k_mongolia,k_mongolia,d_EM_yujuelu,k_hentii,e_mongolia > k_mongolia > d_EM_yujuelu,e_mongolia > k_hentii > d_EM_yujuelu
+ok,3857,c_EM_yujuelu,d_EM_yujuelu,d_EM_yujuelu,c_EM_yujuelu,d_EM_yujuelu,e_mongolia > k_mongolia > d_EM_yujuelu > c_EM_yujuelu,e_mongolia > k_hentii > d_EM_yujuelu > c_EM_yujuelu
+ok,3858,c_EM_tsetsen,d_EM_yujuelu,d_EM_yujuelu,c_EM_tsetsen,d_EM_yujuelu,e_mongolia > k_mongolia > d_EM_yujuelu > c_EM_tsetsen,e_mongolia > k_hentii > d_EM_yujuelu > c_EM_tsetsen
+ok,3859,c_EM_urtolgod,d_EM_yujuelu,d_EM_yujuelu,c_EM_urtolgod,d_EM_yujuelu,e_mongolia > k_mongolia > d_EM_yujuelu > c_EM_urtolgod,e_mongolia > k_hentii > d_EM_yujuelu > c_EM_urtolgod
+mismatch,3860,d_EM_wajiezi,k_mongolia,k_mongolia,d_EM_wajiezi,k_hentii,e_mongolia > k_mongolia > d_EM_wajiezi,e_mongolia > k_hentii > d_EM_wajiezi
+ok,3861,c_EM_shilka,d_EM_wajiezi,d_EM_wajiezi,c_EM_shilka,d_EM_wajiezi,e_mongolia > k_mongolia > d_EM_wajiezi > c_EM_shilka,e_mongolia > k_hentii > d_EM_wajiezi > c_EM_shilka
+ok,3862,c_SW_talbai,d_EM_wajiezi,d_EM_wajiezi,c_SW_talbai,d_EM_wajiezi,e_mongolia > k_mongolia > d_EM_wajiezi > c_SW_talbai,e_mongolia > k_hentii > d_EM_wajiezi > c_SW_talbai
+ok,3863,c_EM_khiltsaiz,d_EM_wajiezi,d_EM_wajiezi,c_EM_khiltsaiz,d_EM_wajiezi,e_mongolia > k_mongolia > d_EM_wajiezi > c_EM_khiltsaiz,e_mongolia > k_hentii > d_EM_wajiezi > c_EM_khiltsaiz
+ok,3864,k_kerait,e_mongolia,e_mongolia,k_kerait,e_mongolia,e_mongolia > k_kerait,e_mongolia > k_kerait
+ok,3865,d_ovorkhangai,k_kerait,k_kerait,d_ovorkhangai,k_kerait,e_mongolia > k_kerait > d_ovorkhangai,e_mongolia > k_kerait > d_ovorkhangai
+ok,3866,c_gobi_gurvan_saikhan,d_ovorkhangai,d_ovorkhangai,c_gobi_gurvan_saikhan,d_ovorkhangai,e_mongolia > k_kerait > d_ovorkhangai > c_gobi_gurvan_saikhan,e_mongolia > k_kerait > d_ovorkhangai > c_gobi_gurvan_saikhan
+ok,3867,k_gobi,e_mongolia,e_mongolia,k_gobi,e_mongolia,e_mongolia > k_gobi,e_mongolia > k_gobi
+ok,3868,d_em_tataria,k_gobi,k_gobi,d_em_tataria,k_gobi,e_mongolia > k_gobi > d_em_tataria,e_mongolia > k_gobi > d_em_tataria
+ok,3869,c_em_zhen,d_em_tataria,d_em_tataria,c_em_zhen,d_em_tataria,e_mongolia > k_gobi > d_em_tataria > c_em_zhen,e_mongolia > k_gobi > d_em_tataria > c_em_zhen
+ok,3870,c_em_gobidada,d_em_tataria,d_em_tataria,c_em_gobidada,d_em_tataria,e_mongolia > k_gobi > d_em_tataria > c_em_gobidada,e_mongolia > k_gobi > d_em_tataria > c_em_gobidada
+ok,3871,c_em_dutulun,d_em_tataria,d_em_tataria,c_em_dutulun,d_em_tataria,e_mongolia > k_gobi > d_em_tataria > c_em_dutulun,e_mongolia > k_gobi > d_em_tataria > c_em_dutulun
+ok,3872,c_em_kherulendada,d_em_tataria,d_em_tataria,c_em_kherulendada,d_em_tataria,e_mongolia > k_gobi > d_em_tataria > c_em_kherulendada,e_mongolia > k_gobi > d_em_tataria > c_em_kherulendada
+mismatch,3873,d_em_wuguguo,k_gobi,k_gobi,d_em_wuguguo,k_dornogovi,e_mongolia > k_gobi > d_em_wuguguo,e_mongolia > k_dornogovi > d_em_wuguguo
+ok,3874,c_em_hepung,d_em_wuguguo,d_em_wuguguo,c_em_hepung,d_em_wuguguo,e_mongolia > k_gobi > d_em_wuguguo > c_em_hepung,e_mongolia > k_dornogovi > d_em_wuguguo > c_em_hepung
+ok,3875,c_em_karakopi,d_em_wuguguo,d_em_wuguguo,c_em_karakopi,d_em_wuguguo,e_mongolia > k_gobi > d_em_wuguguo > c_em_karakopi,e_mongolia > k_dornogovi > d_em_wuguguo > c_em_karakopi
+ok,3876,c_em_akhulun,d_em_wuguguo,d_em_wuguguo,c_em_akhulun,d_em_wuguguo,e_mongolia > k_gobi > d_em_wuguguo > c_em_akhulun,e_mongolia > k_dornogovi > d_em_wuguguo > c_em_akhulun
+ok,3877,c_em_khartereg,d_em_wuguguo,d_em_wuguguo,c_em_khartereg,d_em_wuguguo,e_mongolia > k_gobi > d_em_wuguguo > c_em_khartereg,e_mongolia > k_dornogovi > d_em_wuguguo > c_em_khartereg
+mismatch,3878,d_gobi_dadaels,k_gobi,k_gobi,d_gobi_dadaels,k_dornogovi,e_mongolia > k_gobi > d_gobi_dadaels,e_mongolia > k_dornogovi > d_gobi_dadaels
+ok,3879,c_em_dadaels,d_gobi_dadaels,d_gobi_dadaels,c_em_dadaels,d_gobi_dadaels,e_mongolia > k_gobi > d_gobi_dadaels > c_em_dadaels,e_mongolia > k_dornogovi > d_gobi_dadaels > c_em_dadaels
+ok,3880,c_gobi_ulaantatar,d_gobi_dadaels,d_gobi_dadaels,c_gobi_ulaantatar,d_gobi_dadaels,e_mongolia > k_gobi > d_gobi_dadaels > c_gobi_ulaantatar,e_mongolia > k_dornogovi > d_gobi_dadaels > c_gobi_ulaantatar
+mismatch,3881,d_gobi_shatuoguo,k_gobi,k_gobi,d_gobi_shatuoguo,k_dornogovi,e_mongolia > k_gobi > d_gobi_shatuoguo,e_mongolia > k_dornogovi > d_gobi_shatuoguo
+ok,3882,c_gobi_dorngovi,d_gobi_shatuoguo,d_gobi_shatuoguo,c_gobi_dorngovi,d_gobi_shatuoguo,e_mongolia > k_gobi > d_gobi_shatuoguo > c_gobi_dorngovi,e_mongolia > k_dornogovi > d_gobi_shatuoguo > c_gobi_dorngovi
+ok,3883,c_gobi_sonkhot,d_gobi_shatuoguo,d_gobi_shatuoguo,c_gobi_sonkhot,d_gobi_shatuoguo,e_mongolia > k_gobi > d_gobi_shatuoguo > c_gobi_sonkhot,e_mongolia > k_dornogovi > d_gobi_shatuoguo > c_gobi_sonkhot
+ok,3884,c_gobi_maominggan,d_gobi_shatuoguo,d_gobi_shatuoguo,c_gobi_maominggan,d_gobi_shatuoguo,e_mongolia > k_gobi > d_gobi_shatuoguo > c_gobi_maominggan,e_mongolia > k_dornogovi > d_gobi_shatuoguo > c_gobi_maominggan
+ok,3885,c_gobi_abga,d_gobi_shatuoguo,d_gobi_shatuoguo,c_gobi_abga,d_gobi_shatuoguo,e_mongolia > k_gobi > d_gobi_shatuoguo > c_gobi_abga,e_mongolia > k_dornogovi > d_gobi_shatuoguo > c_gobi_abga
+ok,3886,c_gobi_abakhai,d_gobi_shatuoguo,d_gobi_shatuoguo,c_gobi_abakhai,d_gobi_shatuoguo,e_mongolia > k_gobi > d_gobi_shatuoguo > c_gobi_abakhai,e_mongolia > k_dornogovi > d_gobi_shatuoguo > c_gobi_abakhai
+ok,3887,d_gobi_ongi,k_gobi,k_gobi,d_gobi_ongi,k_gobi,e_mongolia > k_gobi > d_gobi_ongi,e_mongolia > k_gobi > d_gobi_ongi
+ok,3888,c_gobi_ongi_gol,d_gobi_ongi,d_gobi_ongi,c_gobi_ongi_gol,d_gobi_ongi,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ongi_gol,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ongi_gol
+ok,3889,c_gobi_ulaan_nuur,d_gobi_ongi,d_gobi_ongi,c_gobi_ulaan_nuur,d_gobi_ongi,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ulaan_nuur,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ulaan_nuur
+ok,3890,c_gobi_ulaan_govi,d_gobi_ongi,d_gobi_ongi,c_gobi_ulaan_govi,d_gobi_ongi,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ulaan_govi,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ulaan_govi
+ok,3892,k_liao_zhongjing,e_great_liao,e_great_liao,k_liao_zhongjing,e_great_liao,e_great_liao > k_liao_zhongjing,h_china > e_great_liao > k_liao_zhongjing
+ok,3893,d_hejes_china,k_khitan,k_khitan_china,d_hejes_china,k_khitan_china,e_great_liao > k_khitan > d_hejes_china,h_china > e_great_liao > k_khitan_china > d_hejes_china
+ok,3964,e_himalaya,h_india,h_india,e_himalaya,h_india,h_india > e_himalaya,h_india > e_himalaya
+ok,3965,k_lhomon,e_himalaya,e_himalaya,k_lhomon,e_himalaya,h_india > e_himalaya > k_lhomon,h_india > e_himalaya > k_lhomon
+ok,3966,d_dzayul,k_lhomon,k_lhomon,d_dzayul,k_lhomon,h_india > e_himalaya > k_lhomon > d_dzayul,h_india > e_himalaya > k_lhomon > d_dzayul
+ok,3967,c_rima,d_dzayul,d_dzayul,c_rima,d_dzayul,h_india > e_himalaya > k_lhomon > d_dzayul > c_rima,h_india > e_himalaya > k_lhomon > d_dzayul > c_rima
+ok,3968,c_golag,d_dzayul,d_dzayul,c_golag,d_dzayul,h_india > e_himalaya > k_lhomon > d_dzayul > c_golag,h_india > e_himalaya > k_lhomon > d_dzayul > c_golag
+ok,3969,c_tezu,d_dzayul,d_dzayul,c_tezu,d_dzayul,h_india > e_himalaya > k_lhomon > d_dzayul > c_tezu,h_india > e_himalaya > k_lhomon > d_dzayul > c_tezu
+ok,3970,e_bengal,h_india,h_india,e_bengal,h_india,h_india > e_bengal,h_india > e_bengal
+ok,3971,k_bengal_east,e_bengal,e_bengal,k_bengal_east,e_bengal,h_india > e_bengal > k_bengal_east,h_india > e_bengal > k_bengal_east
+ok,3972,d_vanga,k_bengal_east,k_bengal_east,d_vanga,k_bengal_east,h_india > e_bengal > k_bengal_east > d_vanga,h_india > e_bengal > k_bengal_east > d_vanga
+ok,3973,c_karmanta,d_vanga,d_vanga,c_karmanta,d_vanga,h_india > e_bengal > k_bengal_east > d_vanga > c_karmanta,h_india > e_bengal > k_bengal_east > d_vanga > c_karmanta
+ok,3974,d_chattogram,k_bengal_east,k_bengal_east,d_chattogram,k_bengal_east,h_india > e_bengal > k_bengal_east > d_chattogram,h_india > e_bengal > k_bengal_east > d_chattogram
+ok,3975,c_chatigama,d_chattogram,d_chattogram,c_chatigama,d_chattogram,h_india > e_bengal > k_bengal_east > d_chattogram > c_chatigama,h_india > e_bengal > k_bengal_east > d_chattogram > c_chatigama
+ok,3976,c_samatata,d_chattogram,d_chattogram,c_samatata,d_chattogram,h_india > e_bengal > k_bengal_east > d_chattogram > c_samatata,h_india > e_bengal > k_bengal_east > d_chattogram > c_samatata
+ok,3977,e_pragjyotisha,h_india,h_india,e_pragjyotisha,h_india,h_india > e_pragjyotisha,h_india > e_pragjyotisha
+ok,3978,k_chutia,e_pragjyotisha,e_pragjyotisha,k_chutia,e_pragjyotisha,h_india > e_pragjyotisha > k_chutia,h_india > e_pragjyotisha > k_chutia
+ok,3979,k_ahom,e_pragjyotisha,e_pragjyotisha,k_ahom,e_pragjyotisha,h_india > e_pragjyotisha > k_ahom,h_india > e_pragjyotisha > k_ahom
+ok,3980,d_ahom,k_ahom,k_ahom,d_ahom,k_ahom,h_india > e_pragjyotisha > k_ahom > d_ahom,h_india > e_pragjyotisha > k_ahom > d_ahom
+ok,3981,k_kamarupa,e_pragjyotisha,e_pragjyotisha,k_kamarupa,e_pragjyotisha,h_india > e_pragjyotisha > k_kamarupa,h_india > e_pragjyotisha > k_kamarupa
+ok,3982,d_sutiya,k_kamarupa,k_kamarupa,d_sutiya,k_kamarupa,h_india > e_pragjyotisha > k_kamarupa > d_sutiya,h_india > e_pragjyotisha > k_kamarupa > d_sutiya
+ok,3983,c_charaideo,d_sutiya,d_sutiya,c_charaideo,d_sutiya,h_india > e_pragjyotisha > k_kamarupa > d_sutiya > c_charaideo,h_india > e_pragjyotisha > k_kamarupa > d_sutiya > c_charaideo
+ok,3984,c_kundina,d_sutiya,d_sutiya,c_kundina,d_sutiya,h_india > e_pragjyotisha > k_kamarupa > d_sutiya > c_kundina,h_india > e_pragjyotisha > k_kamarupa > d_sutiya > c_kundina
+ok,3985,k_manipur,e_pragjyotisha,e_pragjyotisha,k_manipur,e_pragjyotisha,h_india > e_pragjyotisha > k_manipur,h_india > e_pragjyotisha > k_manipur
+ok,3986,d_manipur,k_manipur,k_manipur,d_manipur,k_manipur,h_india > e_pragjyotisha > k_manipur > d_manipur,h_india > e_pragjyotisha > k_manipur > d_manipur
+ok,3987,c_manipur,d_manipur,d_manipur,c_manipur,d_manipur,h_india > e_pragjyotisha > k_manipur > d_manipur > c_manipur,h_india > e_pragjyotisha > k_manipur > d_manipur > c_manipur
+ok,3988,k_tripura,e_pragjyotisha,e_pragjyotisha,k_tripura,e_pragjyotisha,h_india > e_pragjyotisha > k_tripura,h_india > e_pragjyotisha > k_tripura
+ok,3989,d_tripura,k_tripura,k_tripura,d_tripura,k_tripura,h_india > e_pragjyotisha > k_tripura > d_tripura,h_india > e_pragjyotisha > k_tripura > d_tripura
+ok,3990,c_harikela,d_tripura,d_tripura,c_harikela,d_tripura,h_india > e_pragjyotisha > k_tripura > d_tripura > c_harikela,h_india > e_pragjyotisha > k_tripura > d_tripura > c_harikela
+ok,3992,k_kham,e_tibet,e_tibet,k_kham,e_tibet,e_tibet > k_kham,e_tibet > k_kham
+ok,3993,d_qamdo,k_kham,k_kham,d_qamdo,k_kham,e_tibet > k_kham > d_qamdo,e_tibet > k_kham > d_qamdo
+ok,3994,c_qamdo,d_qamdo,d_qamdo,c_qamdo,d_qamdo,e_tibet > k_kham > d_qamdo > c_qamdo,e_tibet > k_kham > d_qamdo > c_qamdo
+ok,3995,d_boyul,k_kham,k_kham,d_boyul,k_kham,e_tibet > k_kham > d_boyul,e_tibet > k_kham > d_boyul
+ok,3996,c_baxoi,d_boyul,d_boyul,c_baxoi,d_boyul,e_tibet > k_kham > d_boyul > c_baxoi,e_tibet > k_kham > d_boyul > c_baxoi
+ok,3997,c_zogang,d_boyul,d_boyul,c_zogang,d_boyul,e_tibet > k_kham > d_boyul > c_zogang,e_tibet > k_kham > d_boyul > c_zogang
+ok,3998,d_batang,k_kham,k_kham,d_batang,k_kham,e_tibet > k_kham > d_batang,e_tibet > k_kham > d_batang
+ok,3999,c_batang,d_batang,d_batang,c_batang,d_batang,e_tibet > k_kham > d_batang > c_batang,e_tibet > k_kham > d_batang > c_batang
+ok,4000,c_markam,d_batang,d_batang,c_markam,d_batang,e_tibet > k_kham > d_batang > c_markam,e_tibet > k_kham > d_batang > c_markam
+mismatch,4001,c_deqen,d_batang,d_batang,c_deqen,d_koksang,e_tibet > k_kham > d_batang > c_deqen,h_china > e_zomia > k_dali > d_koksang > c_deqen
+ok,4002,c_gyaitang,d_batang,d_batang,c_gyaitang,d_batang,e_tibet > k_kham > d_batang > c_gyaitang,e_tibet > k_kham > d_batang > c_gyaitang
+ok,4003,d_litang,k_kham,k_kham,d_litang,k_kham,e_tibet > k_kham > d_litang,e_tibet > k_kham > d_litang
+ok,4004,c_lenggu,d_litang,d_litang,c_lenggu,d_litang,e_tibet > k_kham > d_litang > c_lenggu,e_tibet > k_kham > d_litang > c_lenggu
+ok,4005,k_gyalrong,e_tibet,e_tibet,k_gyalrong,e_tibet,e_tibet > k_gyalrong,e_tibet > k_gyalrong
+ok,4006,d_gyalrong,k_gyalrong,k_gyalrong,d_gyalrong,k_gyalrong,e_tibet > k_gyalrong > d_gyalrong,e_tibet > k_gyalrong > d_gyalrong
+ok,4007,c_barkam,d_gyalrong,d_gyalrong,c_barkam,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_barkam,e_tibet > k_gyalrong > d_gyalrong > c_barkam
+ok,4008,c_ngawa,d_gyalrong,d_gyalrong,c_ngawa,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_ngawa,e_tibet > k_gyalrong > d_gyalrong > c_ngawa
+ok,4009,c_maowun,d_gyalrong,d_gyalrong,c_maowun,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_maowun,e_tibet > k_gyalrong > d_gyalrong > c_maowun
+ok,4010,c_sungqu,d_gyalrong,d_gyalrong,c_sungqu,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_sungqu,e_tibet > k_gyalrong > d_gyalrong > c_sungqu
+ok,4011,c_zoige,d_gyalrong,d_gyalrong,c_zoige,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_zoige,e_tibet > k_gyalrong > d_gyalrong > c_zoige
+ok,4012,c_quqen,d_gyalrong,d_gyalrong,c_quqen,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_quqen,e_tibet > k_gyalrong > d_gyalrong > c_quqen
+ok,4013,d_chakla,k_gyalrong,k_gyalrong,d_chakla,k_gyalrong,e_tibet > k_gyalrong > d_chakla,e_tibet > k_gyalrong > d_chakla
+ok,4014,c_chakla,d_chakla,d_chakla,c_chakla,d_chakla,e_tibet > k_gyalrong > d_chakla > c_chakla,e_tibet > k_gyalrong > d_chakla > c_chakla
+ok,4015,c_lhagang,d_chakla,d_chakla,c_lhagang,d_chakla,e_tibet > k_gyalrong > d_chakla > c_lhagang,e_tibet > k_gyalrong > d_chakla > c_lhagang
+ok,4016,c_dawu,d_chakla,d_chakla,c_dawu,d_chakla,e_tibet > k_gyalrong > d_chakla > c_dawu,e_tibet > k_gyalrong > d_chakla > c_dawu
+ok,4017,d_gainlho,k_gyalrong,k_gyalrong,d_gainlho,k_gyalrong,e_tibet > k_gyalrong > d_gainlho,e_tibet > k_gyalrong > d_gainlho
+ok,4018,c_jone,d_gainlho,d_gainlho,c_jone,d_gainlho,e_tibet > k_gyalrong > d_gainlho > c_jone,e_tibet > k_gyalrong > d_gainlho > c_jone
+ok,4019,c_tewo,d_gainlho,d_gainlho,c_tewo,d_gainlho,e_tibet > k_gyalrong > d_gainlho > c_tewo,e_tibet > k_gyalrong > d_gainlho > c_tewo
+ok,4020,k_longxi_china,e_yongliang,e_yongliang,k_longxi_china,e_yongliang,h_china > e_yongliang > k_longxi_china,h_china > e_yongliang > k_longxi_china
+ok,4021,d_lintao,k_longxi_china,k_longxi_china,d_lintao,k_longxi_china,h_china > e_yongliang > k_longxi_china > d_lintao,h_china > e_yongliang > k_longxi_china > d_lintao
+ok,4022,d_gongmin,k_longxi_china,k_longxi_china,d_gongmin,k_longxi_china,h_china > e_yongliang > k_longxi_china > d_gongmin,h_china > e_yongliang > k_longxi_china > d_gongmin
+mismatch,4024,d_shuofang,k_xia,k_xia,d_shuofang_china,k_xia_china,e_xi_xia > k_xia > d_shuofang,h_china > e_xi_xia > k_xia_china > d_shuofang_china
+mismatch,4025,c_lingzhou,d_shuofang,d_shuofang_china,c_shunzhou,d_xia,e_xi_xia > k_xia > d_shuofang > c_lingzhou,h_china > e_xi_xia > k_xia_china > d_xia > c_shunzhou
+mismatch,4026,c_huaiyuan,d_shuofang,d_shuofang_china,c_xingqing,d_xia,e_xi_xia > k_xia > d_shuofang > c_huaiyuan,h_china > e_xi_xia > k_xia_china > d_xia > c_xingqing
+ok,4027,c_weizhou_3,d_shuofang,d_shuofang_china,c_anle_china,d_shuofang_china,e_xi_xia > k_xia > d_shuofang > c_weizhou_3,h_china > e_xi_xia > k_xia_china > d_shuofang_china > c_anle_china
+mismatch,4028,c_wulan,d_shuofang,d_shuofang_china,c_huizhou_china,d_longxi_china,e_xi_xia > k_xia > d_shuofang > c_wulan,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_huizhou_china
+ok,4029,c_xiongzhou,d_shuofang,d_shuofang_china,c_gaolan_china,d_shuofang_china,e_xi_xia > k_xia > d_shuofang > c_xiongzhou,h_china > e_xi_xia > k_xia_china > d_shuofang_china > c_gaolan_china
+mismatch,4030,c_huizhou,d_shuofang,d_shuofang_china,c_huizhou_china,d_longxi_china,e_xi_xia > k_xia > d_shuofang > c_huizhou,h_china > e_yongliang > k_longxi_china > d_longxi_china > c_huizhou_china
+mismatch,4031,d_xiasui,k_xia,k_xia,d_xiazhou_china,k_xia_china,e_xi_xia > k_xia > d_xiasui,h_china > e_xi_xia > k_xia_china > d_xiazhou_china
+ok,4032,c_xiazhou,d_xiasui,d_xiazhou_china,c_xiazhou_china,d_xiazhou_china,e_xi_xia > k_xia > d_xiasui > c_xiazhou,h_china > e_xi_xia > k_xia_china > d_xiazhou_china > c_xiazhou_china
+ok,4033,c_suizhou,d_xiasui,d_xiazhou_china,c_suizhou_xia_china,d_xiazhou_china,e_xi_xia > k_xia > d_xiasui > c_suizhou,h_china > e_xi_xia > k_xia_china > d_xiazhou_china > c_suizhou_xia_china
+ok,4034,c_yinzhou,d_xiasui,d_xiazhou_china,c_yinzhou_china,d_xiazhou_china,e_xi_xia > k_xia > d_xiasui > c_yinzhou,h_china > e_xi_xia > k_xia_china > d_xiazhou_china > c_yinzhou_china
+mismatch,4035,c_wuyuan,d_xiasui,d_xiazhou_china,c_yanzhou_shuofang_china,d_shuofang_china,e_xi_xia > k_xia > d_xiasui > c_wuyuan,h_china > e_xi_xia > k_xia_china > d_shuofang_china > c_yanzhou_shuofang_china
+mismatch,4036,c_youzhou_2,d_xiasui,d_xiazhou_china,c_youzhou_shuofang_china,d_ordos_china,e_xi_xia > k_xia > d_xiasui > c_youzhou_2,h_china > e_xi_xia > k_xia_china > d_ordos_china > c_youzhou_shuofang_china
+mismatch,4037,c_quye,d_xiasui,d_xiazhou_china,c_ordos_china,d_ordos_china,e_xi_xia > k_xia > d_xiasui > c_quye,h_china > e_xi_xia > k_xia_china > d_ordos_china > c_ordos_china
+mismatch,4038,d_tiande,k_xia,k_xia,d_fengzhou_china,k_yinshan_china,e_xi_xia > k_xia > d_tiande,h_china > e_zhongyuan > k_yinshan_china > d_fengzhou_china
+ok,4039,c_tiande,d_tiande,d_fengzhou_china,c_tiandejun_china,d_fengzhou_china,e_xi_xia > k_xia > d_tiande > c_tiande,h_china > e_zhongyuan > k_yinshan_china > d_fengzhou_china > c_tiandejun_china
+mismatch,4040,c_lxj_fengzhou,d_tiande,d_fengzhou_china,c_langshan,d_wuluhai,e_xi_xia > k_xia > d_tiande > c_lxj_fengzhou,h_china > e_xi_xia > k_xia_china > d_wuluhai > c_langshan
+mismatch,4041,d_langshan,k_xia,k_xia,d_wuluhai,k_xia_china,e_xi_xia > k_xia > d_langshan,h_china > e_xi_xia > k_xia_china > d_wuluhai
+ok,4042,c_langshan,d_langshan,d_wuluhai,c_langshan,d_wuluhai,e_xi_xia > k_xia > d_langshan > c_langshan,h_china > e_xi_xia > k_xia_china > d_wuluhai > c_langshan
+ok,4043,c_keyimen,d_langshan,d_wuluhai,c_wuda,d_wuluhai,e_xi_xia > k_xia > d_langshan > c_keyimen,h_china > e_xi_xia > k_xia_china > d_wuluhai > c_wuda
+mismatch,4044,c_hequ,d_langshan,d_wuluhai,c_ordos_china,d_ordos_china,e_xi_xia > k_xia > d_langshan > c_hequ,h_china > e_xi_xia > k_xia_china > d_ordos_china > c_ordos_china
+ok,4045,d_zhenfan,k_xia,k_xia,d_zhenfan,k_xia,e_xi_xia > k_xia > d_zhenfan,h_china > e_xi_xia > k_xia > d_zhenfan
+ok,4046,c_tengger,d_zhenfan,d_zhenfan,c_tenggeli,d_zhenfan,e_xi_xia > k_xia > d_zhenfan > c_tengger,h_china > e_xi_xia > k_xia > d_zhenfan > c_tenggeli

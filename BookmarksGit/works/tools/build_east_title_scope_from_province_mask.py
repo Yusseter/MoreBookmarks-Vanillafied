@@ -28,6 +28,7 @@ WORKLIST_COLUMNS = [
     "source_tier",
     "source_parent_id",
     "mask_scope_reasons",
+    "title_source_origin",
     USER_NOTE_COLUMN,
     REMOVE_NOTE_COLUMN,
 ]
@@ -83,6 +84,7 @@ class ManualRow:
 
 def parse_args() -> argparse.Namespace:
     repo_root = Path(__file__).resolve().parents[2]
+    leviathon_repo = Path(r"F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit")
     parser = argparse.ArgumentParser(
         description="Build a non-barony east title scope from a province mask PNG and compare it to title_relation_master_manuel.csv."
     )
@@ -96,6 +98,11 @@ def parse_args() -> argparse.Namespace:
         "--landed-titles",
         type=Path,
         default=repo_root / "common" / "landed_titles" / "00_landed_titles.txt",
+    )
+    parser.add_argument(
+        "--mod-landed-titles",
+        type=Path,
+        default=leviathon_repo / "common" / "landed_titles" / "00_landed_titles.txt",
     )
     parser.add_argument("--manual-csv", type=Path, default=repo_root / "title_relation_master_manuel.csv")
     parser.add_argument(
@@ -247,6 +254,27 @@ def parse_landed_titles(
             stack.clear()
 
     return titles, title_counts, province_bindings, capital_refs_by_owner
+
+
+def parse_title_ids(path: Path) -> set[str]:
+    title_ids: set[str] = set()
+    for line in path.read_text(encoding="utf-8-sig").splitlines():
+        match = TITLE_RE.match(strip_comment(line))
+        if match:
+            title_ids.add(match.group(1))
+    return title_ids
+
+
+def classify_title_source_origin(title_id: str, source_title_ids: set[str], mod_title_ids: set[str]) -> str:
+    in_source = title_id in source_title_ids
+    in_mod = title_id in mod_title_ids
+    if in_source and in_mod:
+        return "both"
+    if in_source:
+        return "vanilla"
+    if in_mod:
+        return "mod"
+    return "unknown"
 
 
 def parse_csv_line(line: str) -> list[str]:
@@ -412,9 +440,11 @@ def build_comparison_rows(
     mask_titles: set[str],
     title_reasons: dict[str, set[str]],
     titles: dict[str, TitleInfo],
+    mod_title_ids: set[str],
 ) -> list[dict[str, object]]:
     rows: list[dict[str, object]] = []
     manual_non_barony: dict[str, ManualRow] = {}
+    source_title_ids = set(titles)
     for row in manual_rows:
         if row.source_title_id.startswith("b_"):
             continue
@@ -432,6 +462,7 @@ def build_comparison_rows(
                 "is_same_title_id": manual.is_same_title_id,
                 "mask_scope_change": change,
                 "mask_scope_reasons": ";".join(sorted(title_reasons.get(title_id, []))),
+                "title_source_origin": classify_title_source_origin(title_id, source_title_ids, mod_title_ids),
                 "source_tier": tier_of(title_id),
                 "source_line_no": info.line_no if info else "",
                 "source_parent_id": info.parent_id if info else "",
@@ -450,6 +481,7 @@ def build_comparison_rows(
                 "is_same_title_id": "",
                 "mask_scope_change": "added_by_mask",
                 "mask_scope_reasons": ";".join(sorted(title_reasons.get(title_id, []))),
+                "title_source_origin": classify_title_source_origin(title_id, source_title_ids, mod_title_ids),
                 "source_tier": tier_of(title_id),
                 "source_line_no": info.line_no if info else "",
                 "source_parent_id": info.parent_id if info else "",
@@ -465,10 +497,13 @@ def build_comparison_rows(
 def build_manual_like_rows(
     manual_rows: list[ManualRow],
     mask_titles: set[str],
+    title_reasons: dict[str, set[str]],
     titles: dict[str, TitleInfo],
+    mod_title_ids: set[str],
 ) -> list[dict[str, object]]:
     rows: list[dict[str, object]] = []
     manual_non_barony: dict[str, ManualRow] = {}
+    source_title_ids = set(titles)
     for row in manual_rows:
         if row.source_title_id.startswith("b_"):
             continue
@@ -480,6 +515,12 @@ def build_manual_like_rows(
                     "mod_title_id": row.mod_title_id,
                     "is_same_title_id": row.is_same_title_id,
                     "mask_scope_change": "" if row.source_title_id in mask_titles else "removed_by_mask",
+                    "mask_scope_reasons": ";".join(sorted(title_reasons.get(row.source_title_id, []))),
+                    "title_source_origin": classify_title_source_origin(
+                        row.source_title_id,
+                        source_title_ids,
+                        mod_title_ids,
+                    ),
                 }
             )
 
@@ -490,6 +531,8 @@ def build_manual_like_rows(
                 "mod_title_id": "",
                 "is_same_title_id": "",
                 "mask_scope_change": "added_by_mask",
+                "mask_scope_reasons": ";".join(sorted(title_reasons.get(title_id, []))),
+                "title_source_origin": classify_title_source_origin(title_id, source_title_ids, mod_title_ids),
             }
         )
 
@@ -499,13 +542,17 @@ def build_manual_like_rows(
 def write_manual_like_csv(path: Path, rows: Iterable[dict[str, object]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="") as handle:
-        handle.write("source_title_id, mod_title_id, is_same_title_id, mask_scope_change,\n")
+        handle.write(
+            "source_title_id, mod_title_id, is_same_title_id, mask_scope_change, mask_scope_reasons, title_source_origin,\n"
+        )
         for row in rows:
             handle.write(
                 f"{row.get('source_title_id', '')}, "
                 f"{row.get('mod_title_id', '')}, "
                 f"{row.get('is_same_title_id', '')}, "
-                f"{row.get('mask_scope_change', '')},\n"
+                f"{row.get('mask_scope_change', '')}, "
+                f"{row.get('mask_scope_reasons', '')}, "
+                f"{row.get('title_source_origin', '')},\n"
             )
 
 
@@ -584,6 +631,7 @@ def build_mask_scope_worklist_rows(
                 "source_tier": comparison_row.get("source_tier", ""),
                 "source_parent_id": comparison_row.get("source_parent_id", ""),
                 "mask_scope_reasons": comparison_row.get("mask_scope_reasons", ""),
+                "title_source_origin": comparison_row.get("title_source_origin", ""),
                 "source_line_no": comparison_row.get("source_line_no", ""),
                 USER_NOTE_COLUMN: user_note,
                 REMOVE_NOTE_COLUMN: remove_note,
@@ -624,6 +672,7 @@ def write_worklist_preserved_notes(
                 "source_title_id": source_title_id,
                 "mod_title_id": comparison_row.get("mod_title_id", ""),
                 "mask_scope_change": comparison_row.get("mask_scope_change", ""),
+                "title_source_origin": comparison_row.get("title_source_origin", ""),
                 USER_NOTE_COLUMN: user_note,
                 REMOVE_NOTE_COLUMN: remove_note,
                 "preserved_reason": preserved_reason,
@@ -637,6 +686,7 @@ def write_worklist_preserved_notes(
             "source_title_id",
             "mod_title_id",
             "mask_scope_change",
+            "title_source_origin",
             USER_NOTE_COLUMN,
             REMOVE_NOTE_COLUMN,
             "preserved_reason",
@@ -649,8 +699,10 @@ def build_title_rows(
     mask_titles: set[str],
     title_reasons: dict[str, set[str]],
     titles: dict[str, TitleInfo],
+    mod_title_ids: set[str],
 ) -> list[dict[str, object]]:
     rows: list[dict[str, object]] = []
+    source_title_ids = set(titles)
     for title_id in sort_titles_by_landed_order(mask_titles, titles):
         info = titles.get(title_id)
         rows.append(
@@ -658,6 +710,7 @@ def build_title_rows(
                 "source_title_id": title_id,
                 "source_tier": tier_of(title_id),
                 "mask_scope_reasons": ";".join(sorted(title_reasons.get(title_id, []))),
+                "title_source_origin": classify_title_source_origin(title_id, source_title_ids, mod_title_ids),
                 "source_line_no": info.line_no if info else "",
                 "source_parent_id": info.parent_id if info else "",
                 "source_root_title": info.root_title if info else "",
@@ -673,6 +726,7 @@ def write_summary(
     mask_png: Path,
     definition_csv: Path,
     landed_titles: Path,
+    mod_landed_titles: Path,
     manual_csv: Path,
     mask_rgb_count: int,
     mask_province_count: int,
@@ -692,6 +746,7 @@ def write_summary(
         f"- mask png: {mask_png}",
         f"- definition csv: {definition_csv}",
         f"- landed titles: {landed_titles}",
+        f"- provenance mod landed titles: {mod_landed_titles}",
         f"- manual csv: {manual_csv}",
         "",
         f"- non-black mask rgb count: {mask_rgb_count}",
@@ -719,6 +774,7 @@ def main() -> int:
     mask_rgbs = read_mask_rgbs(args.mask_png)
     definition_by_rgb = read_definition(args.definition_csv)
     titles, title_counts, province_bindings, capital_refs_by_owner = parse_landed_titles(args.landed_titles)
+    mod_title_ids = parse_title_ids(args.mod_landed_titles)
     manual_rows = read_manual_rows(args.manual_csv)
 
     mask_titles, title_reasons, province_rows, unmatched_rgb_rows, unbound_province_rows = build_mask_scope(
@@ -729,9 +785,9 @@ def main() -> int:
         capital_refs_by_owner,
     )
 
-    comparison_rows = build_comparison_rows(manual_rows, mask_titles, title_reasons, titles)
-    manual_like_rows = build_manual_like_rows(manual_rows, mask_titles, titles)
-    title_rows = build_title_rows(mask_titles, title_reasons, titles)
+    comparison_rows = build_comparison_rows(manual_rows, mask_titles, title_reasons, titles, mod_title_ids)
+    manual_like_rows = build_manual_like_rows(manual_rows, mask_titles, title_reasons, titles, mod_title_ids)
+    title_rows = build_title_rows(mask_titles, title_reasons, titles, mod_title_ids)
 
     manual_non_barony_ids = {row.source_title_id for row in manual_rows if not row.source_title_id.startswith("b_")}
     added_count = sum(1 for row in comparison_rows if row["mask_scope_change"] == "added_by_mask")
@@ -775,6 +831,7 @@ def main() -> int:
             "is_same_title_id",
             "mask_scope_change",
             "mask_scope_reasons",
+            "title_source_origin",
             "source_tier",
             "source_line_no",
             "source_parent_id",
@@ -792,6 +849,7 @@ def main() -> int:
             "source_title_id",
             "source_tier",
             "mask_scope_reasons",
+            "title_source_origin",
             "source_line_no",
             "source_parent_id",
             "source_root_title",
@@ -831,6 +889,7 @@ def main() -> int:
         mask_png=args.mask_png,
         definition_csv=args.definition_csv,
         landed_titles=args.landed_titles,
+        mod_landed_titles=args.mod_landed_titles,
         manual_csv=args.manual_csv,
         mask_rgb_count=len(mask_rgbs),
         mask_province_count=len(matched_province_ids),

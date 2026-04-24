@@ -1,33 +1,34 @@
 # Title Relation Manual Validation Summary
 
-- manual rows: 3777
-- source landed title ids: 17433
+- manual rows: 4045
+- source landed title ids: 17430
 - mod landed title ids: 18927
 - master source ids: 3776
 
 ## Flag Totals
 
-- errors: 75
-- warnings: 584
+- errors: 164
+- warnings: 875
 
 ## Flags By Code
 
-- error:duplicate_mod_title_without_second: 75
+- error:duplicate_mod_title_without_second: 111
+- error:source_title_missing_in_yusseter_landed_titles: 53
 - info:blank_mod_title_id: 1719
-- warning:parent_mapping_mismatch: 581
-- warning:source_title_duplicate_in_landed_titles: 2
-- warning:source_title_extra_in_manual_vs_master: 1
+- warning:mod_title_duplicate_in_landed_titles: 4
+- warning:parent_mapping_mismatch: 597
+- warning:source_title_duplicate_in_landed_titles: 5
+- warning:source_title_extra_in_manual_vs_master: 269
 
 ## Parent Context
 
-- mismatch: 581
-- ok: 1474
-- uncheckable:no_parent_mapping: 6
+- mismatch: 597
+- ok: 1586
 
 ## Duplicate Mod Usage
 
-- allowed:secondary_uses_marked: 65
-- error:multiple_primary_uses: 75
+- allowed:secondary_uses_marked: 71
+- error:multiple_primary_uses: 111
 
 ## Marked Bad Regression
 

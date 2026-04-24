@@ -3,12 +3,13 @@
 - mask png: F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\works\map_data_sources\provinces_birlesim_dogu 2026-04-19.png
 - definition csv: F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\map_data\definition.csv
 - landed titles: F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\common\landed_titles\00_landed_titles.txt
+- provenance mod landed titles: F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\common\landed_titles\00_landed_titles.txt
 - manual csv: F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\title_relation_master_manuel.csv
 
 - non-black mask rgb count: 4813
-- matched mask province count: 4801
-- unmatched mask rgb count: 12
-- unbound mask province count: 1966
+- matched mask province count: 4798
+- unmatched mask rgb count: 15
+- unbound mask province count: 1963
 - mask non-barony title count: 1329
 - manual non-barony title count: 1098
 - added_by_mask title count: 256

@@ -1,4 +1,4 @@
-# CK3 Harita Birlesim Hafizasi
+﻿# CK3 Harita Birlesim Hafizasi
 
 ## Calisma Kurali
 
@@ -4560,3 +4560,413 @@ Yeni raporlar:
   - `ok`: `1`
 - `c_barkam` ana worklist'ten dustu; `county_source_simple_resolution_candidates.csv` icinde `accept_mixed_color_composite` olarak duruyor.
 - Bu adim landed_titles dosyalarini degistirmedi.
+
+## 2026-04-23 Mask Scope Title Relation Output Genisletmesi
+
+- `works/tools/build_east_title_scope_from_province_mask.py` yeniden genisletildi.
+- Yeni eklenen temel kabiliyetler:
+  - `--mod-landed-titles` argumani
+  - `mask_scope_reasons` kolonu
+  - `title_source_origin` kolonu
+- `title_source_origin` su degerleri tasir:
+  - `vanilla`
+  - `mod`
+  - `both`
+  - `unknown`
+- Provenance hesaplamasi current Yusseter landed_titles ile Leviathon/orijinal mod landed_titles karsilastirmasindan uretilir.
+- Manual-like cikti ve worklist ciktilari da bu yeni bilgileri tasiyacak sekilde genislestirildi.
+- Guncel summary:
+  - non-black mask rgb: `4813`
+  - matched mask province: `4798`
+  - unmatched rgb: `15`
+  - unbound province: `1963`
+  - mask non-barony title: `1329`
+  - manual non-barony title: `1098`
+  - `added_by_mask`: `256`
+  - `removed_by_mask`: `25`
+  - unchanged: `1073`
+- Ana generated dosyalar:
+  - `works/analysis/generated/title_relation_manual_validation/mask_east_scope/title_relation_master_manuel_mask_east_scope.csv`
+  - `works/analysis/generated/title_relation_manual_validation/mask_east_scope/title_relation_master_manuel_mask_scope_manual_like.csv`
+  - `works/analysis/generated/title_relation_manual_validation/mask_east_scope/title_relation_master_manuel_mask_scope_worklist.csv`
+
+## 2026-04-23 title_relation_master_manuel_new staging anlami
+
+- `title_relation_master_manuel_new.csv` generated `manual_like` dosyasindan turetilmis ama artik kullanicinin curated staging dosyasidir.
+- Bu dosya authoritative merge staging olarak ele alinacak; generated `manual_like` sadece referans/sablon rolundedir.
+- `mask_scope_change` kolonu icindeki:
+  - `was_added_by_mask`
+  - `was_removed_by_mask`
+  satirlari baglayici merge kurali degil, yardimci metadata/not niteligindedir.
+- Bu nedenle generated diff mantigi bire bir zorunlu kabul edilmeyecek; asil karar alani `source_title_id / mod_title_id / is_same_title_id` kolonlaridir.
+- `added_by_mask + is_same_title_id = yes + mod_title_id bos` shorthand'i kullanici tarafindan bilerek birakildi.
+- Bu shorthand daha sonra normalize edildi:
+  - `mod_title_id = source_title_id`
+  - etkilenen satir: `227`
+- Normalizasyon sonrasi:
+  - `mod_title_id bos + is_same_title_id = yes`: `0`
+  - duplicate `source_title_id`: `0`
+- `title_relation_master_manuel_new.csv` su an `1350` satirlik bir east-scope/staging subsetidir; tam `title_relation_master_manuel.csv` yerine gecen tam tablo degildir.
+- Ana tabloya terfi mantigi:
+  - ayni `source_title_id` satirlarini replace et
+  - `new` icinde olup ana tabloda olmayan `source_title_id` satirlarini ekle
+  - scope disi kalan diger ana tablo satirlarini koru
+
+## 2026-04-23 Mask Scope'ta cikmayan MBP county title notu
+
+- `c_shanzhou_mbp` ve `c_suzhou_mbp` current landed_titles icinde bulunmalarina ragmen generated `manual_like` icinde cikmadi.
+- Bunun nedeni script hatasi degil; bu title'lar:
+  - mevcut `title_relation_master_manuel.csv` icinde yok
+  - ve mask province scope'a da girmiyor
+- Bu nedenle generated `mask_titles` setine hic dahil olmuyorlar.
+- Sonuc:
+  - `c_shanzhou_mbp`
+  - `c_suzhou_mbp`
+  gibi `modlu_kalan` kokenli ekstra current title'larin kullanici tarafindan elle `title_relation_master_manuel_new.csv` icine eklenmesi dogru ve beklenen davranistir.
+
+## 2026-04-23 Hafiza Operasyon Notu
+
+- Son birkaç title-relation / mask-scope turunda netlesen bazi bilgiler gecici sohbet baglaminda kaldi ve `hafiza.md`ye gec yazildi.
+- Bu, kural degisikligi degil operasyon takibi eksigidir.
+- Bundan sonra `sadece soru` olmayan ilk uygun turda birikmis net kararlar once `hafiza.md`ye yazilacak, sonra yeni uygulama isine gecilecek.
+
+## 2026-04-23 title_relation_master_manuel_new ana tablo terfisi
+
+- `title_relation_master_manuel_new.csv` ana tabloya source-id bazli merge ile terfi edildi.
+- Uygulanan kural:
+  - ana tabloda ayni `source_title_id` varsa `new` satiri ile replace et
+  - `new` icinde olup ana tabloda olmayan `source_title_id` satirlarini sona ekle
+  - `new` scope'u disindaki eski ana tablo satirlarini koru
+- Merge sonucu:
+  - replaced: `1082`
+  - kept: `2695`
+  - appended new source ids: `268`
+  - final manual row count: `4045`
+- Son yapisal kontrol:
+  - duplicate `source_title_id`: `0`
+  - header korunmus durumda:
+    - `source_title_id, mod_title_id, is_same_title_id,`
+- Yeni eklenen / merge ile ana tabloya giren ornek source'lar:
+  - `c_shanzhou_mbp -> c_shanzhou`
+  - `c_suzhou_mbp -> c_suzhou`
+  - `e_liao -> e_liao`
+  - `k_guishi -> k_guishi`
+
+## 2026-04-23 title_relation validator sonrasi yeni aktif hata havuzu
+
+- `works/tools/validate_title_relation_manual.py` merge sonrasi tekrar calistirildi.
+- Guncel summary:
+  - manual rows: `4045`
+  - errors: `166`
+  - warnings: `874`
+- Error dagilimi:
+  - `duplicate_mod_title_without_second`: `111`
+  - `source_title_missing_in_yusseter_landed_titles`: `53`
+  - `mod_title_missing_in_leviathon_landed_titles`: `1`
+  - `is_same_value_incorrect`: `1`
+- Warning dagilimi:
+  - `parent_mapping_mismatch`: `596`
+  - `source_title_extra_in_manual_vs_master`: `269`
+  - `source_title_duplicate_in_landed_titles`: `5`
+  - `mod_title_duplicate_in_landed_titles`: `4`
+- Yeni yorum:
+  - `source_title_extra_in_manual_vs_master = 269` dogal olarak `new` subsetten gelen yeni source satirlarini yansitiyor.
+  - Asil aktif mekanik cleanup havuzu su iki gruptur:
+    - `111` adet duplicate mod title / `(second)` isaretleme eksigi
+    - `53` adet current Yusseter landed_titles icinde bulunmayan legacy `source_title_id`
+- Tekil mekanik satirlar:
+  - `c_langshan` satirinda `mod_title_id = c_langshan` iken `is_same_title_id = no`; validator `expected=yes` dedi.
+  - `c_wuyuan_shuofang_china` tokeni Leviathon/orijinal mod landed_titles icinde bulunmuyor.
+- Bu asamadan sonraki en dogru title-relation isi:
+  - downstream rewrite degil
+  - once validatordaki `166` error'u bilincli sekilde temizlemek
+
+## 2026-04-24 title_relation_master_manuel_new non-barony scope ayrimi
+
+- Kullanici current calisma dosyasinin `title_relation_master_manuel_new.csv` oldugunu netlestirdi.
+- Scope duzeltmesi:
+  - sadece `e_/k_/d_/c_` degil, `h_` de scope icinde
+  - `b_` barony satirlari bu asamada bilerek scope disi
+- Onemli ayrim:
+  - onceki `53 source_title_missing_in_yusseter_landed_titles` ve benzeri legacy yorumlar `title_relation_master_manuel.csv` baglamindaydi
+  - bunlar `title_relation_master_manuel_new.csv` icin aktif cleanup havuzu olarak ele alinmayacak
+- `title_relation_master_manuel_new.csv` tier dagilimi:
+  - `h_ = 2`
+  - `e_ = 64`
+  - `k_ = 75`
+  - `d_ = 318`
+  - `c_ = 891`
+  - toplam `1350`
+- Bu dosyada `mod_title_id` bos satir yok:
+  - dolu `mod_title_id = 1350`
+  - bos `mod_title_id = 0`
+  - `*there_is_no* = 0`
+- `mask_scope_change` dagilimi:
+  - bos `1074`
+  - `added_by_mask = 251`
+  - `was_added_by_mask = 1`
+  - `was_removed_by_mask = 24`
+- `title_relation_master_manuel_new.csv` 4. kolon olarak `mask_scope_change` tasidigi icin validator dogrudan bu dosyaya degil, turetilmis 3 kolonlu input'a karsı kosuldu:
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/title_relation_master_manuel_new_validation_input.csv`
+- Ayrik validation output klasoru:
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/`
+- Bu scope icin validator sonucu:
+  - `errors = 2699`
+  - `warnings = 673`
+- En buyuk `error` sinifi:
+  - `source_title_missing_from_manual_vs_master = 2695`
+  - yorum: bu beklenen subset gürültüsü; cunku `title_relation_master_manuel_new.csv` tam `3776` satirlik ana tablo degil, scoped working subset
+- Bu scope icin kucuk ve gercek mekanik hata havuzu:
+  - `duplicate_mod_title_without_second = 4`
+  - satirlar:
+    - `k_raole -> k_liao_zhongjing`
+    - `k_liao_zhongjing -> k_liao_zhongjing`
+    - `d_xingfeng -> d_zhaowu`
+    - `d_zhaowu -> d_zhaowu`
+- `source_title_extra_in_manual_vs_master = 269` bu scope'ta beklenen ve yararli sinif olarak ayri not edildi.
+- Bu `269` extra row dagilimi:
+  - `h_ = 1`
+  - `e_ = 40`
+  - `k_ = 19`
+  - `d_ = 118`
+  - `c_ = 91`
+- Bu `269` extra row'un `mask_scope_change` dagilimi:
+  - bos `2`
+  - `added_by_mask = 251`
+  - `was_added_by_mask = 1`
+  - `was_removed_by_mask = 15`
+- Kullanici icin ek inceleme dosyalari uretildi:
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/title_relation_master_manuel_new_scope_summary.md`
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/title_relation_master_manuel_new_duplicate_mod_worklist.csv`
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/title_relation_master_manuel_new_extra_rows.csv`
+- Bundan sonraki dogru teknik yol:
+  - yalnizca `title_relation_master_manuel_new.csv` uzerinde devam etmek
+  - `h_/e_/k_/d_/c_` scope'unu korumak
+  - ilk mekanik cleanup hedefi olarak 4 satirlik duplicate mod havuzunu incelemek
+  - `b_` ve eski `title_relation_master_manuel.csv` legacy cleanup havuzunu simdilik scope disi tutmak
+- `2026-04-24` ayni scope icinde 4 satirlik duplicate-mod mekanik havuz kapatildi.
+- Karar:
+  - `k_liao_zhongjing -> k_liao_zhongjing` ve `d_zhaowu -> d_zhaowu` primary/exact satir olarak kaldi
+  - `k_raole -> k_liao_zhongjing` ve `d_xingfeng -> d_zhaowu` secondary donor gibi ele alinip `(second)` ile isaretlendi:
+    - `k_raole -> k_liao_zhongjing (second)`
+    - `d_xingfeng -> d_zhaowu (second)`
+- Bu degisiklik `title_relation_master_manuel_new.csv` icinde yapildi.
+- Ardindan `new scope clean` validator tekrar kosuldu:
+  - `errors = 2695`
+  - `warnings = 673`
+  - `duplicate_mod_title_without_second = 0`
+  - `allowed:secondary_uses_marked = 75`
+- Sonuc:
+  - bu scope icinde mekanik duplicate-mod blocker kapandi
+  - sonraki gercek review havuzu:
+    - `source_title_extra_in_manual_vs_master = 269`
+    - `parent_mapping_mismatch = 395`
+- `2026-04-24` `title_relation_master_manuel_new.csv` icindeki `269 extra` satir daha da daraltildi.
+- Kritik daraltma:
+  - `extra` satirlar icinde `is_same_title_id = no` olan aktif manuel havuz `23` satir
+  - bunun `13` tanesi `parent_mapping_mismatch` tasiyor
+  - `10` tanesi parent mismatch tasimadigi icin `provisional_keep` adayi gibi okunuyor
+- Bu is icin yeni dosyalar uretildi:
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/title_relation_master_manuel_new_extra_no_worklist.csv`
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/title_relation_master_manuel_new_extra_no_parent_mismatch_yes.csv`
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/title_relation_master_manuel_new_extra_no_parent_mismatch_no.csv`
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/title_relation_master_manuel_new_extra_no_recommendations.csv`
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/title_relation_master_manuel_new_extra_no_recommendations.md`
+- `23 no` satirin dagilimi:
+  - `added_by_mask = 21`
+  - bos `mask_scope_change = 2`
+- Bos mask satirlari:
+  - `c_shanzhou_mbp -> c_shanzhou`
+  - `c_suzhou_mbp -> c_suzhou`
+- `13 review_first` satiri cluster bazinda toplandi:
+  - `d_shuofang = 5`
+  - `d_xiasui = 4`
+  - `d_langshan = 2`
+  - `d_tiande = 2`
+- Yapısal yorum:
+  - bu mismatch havuzu agirlikla tekil rastgele hata degil
+  - `k_xia` altindan `k_xia_china`, `k_yinshan_china` veya `d_ordos_china` tarafina kayan sistematik cluster migration gorunumu var
+- Recommendation siniflandirmasi:
+  - `review_first = 13`
+  - `provisional_keep = 10`
+- Recommendation note dagilimi:
+  - `cross_duchy_shift_to_ordos_cluster = 3`
+  - `systematic_k_xia_to_k_xia_china_shift = 3`
+  - `systematic_k_xia_to_k_yinshan_china_shift = 1`
+  - `parent_chain_review_needed = 6`
+  - `mbp_current_county_variant_without_parent_mismatch = 2`
+  - `non_self_map_without_parent_mismatch = 8`
+- Bundan sonraki en dogru teknik sira:
+  - `13 review_first` satiri cluster bazinda incelemek
+  - ilk mantikli cluster: `d_shuofang`
+- `2026-04-24` `13 review_first` havuzundaki ilk buyuk cluster `d_shuofang` ayri incelendi.
+- Yeni not dosyasi:
+  - `works/analysis/generated/title_relation_manual_validation_new_scope_clean/title_relation_master_manuel_new_cluster_d_shuofang_notes.md`
+- `d_shuofang` cluster sonucu:
+  - toplam satir `5`
+  - tek parent-rename degil; en az `3` farkli mod-parent bucket'a dagiliyor
+  - dagilim:
+    - `k_xia_china`: `1`
+    - `d_xia`: `2`
+    - `d_longxi_china`: `2`
+- Satirlar:
+  - `d_shuofang -> d_shuofang_china`
+  - `c_lingzhou -> c_shunzhou`
+  - `c_huaiyuan -> c_xingqing`
+  - `c_huizhou -> c_huizhou_china`
+  - `c_wulan -> c_huizhou_china (second)`
+- Teknik yorum:
+  - bu cluster `single exact rename` gibi ele alinmamalı
+  - daha dogru okuma: `split migration problem`
+  - yani `d_shuofang` altindaki county seti mod tarafinda tek bir duchy altinda korunmuyor; parcali dagiliyor
+- Bundan sonraki mantikli cluster inceleme sirasi:
+  - `d_xiasui`
+  - sonra `d_langshan`
+  - sonra `d_tiande`
+
+## 2026-04-24 Iletisim ve ara-guncelleme kurali
+
+- Kullanici isleme baslarken `ck3-modding kapsamiyla basliyorum` gibi skill/kapsam duyurulari istemiyor.
+- Bundan sonra bu tur meta duyurular ara mesajlarda yazilmayacak.
+- Ara mesajlar yalnizca gercekten is takibini etkileyen durumlarda verilecek:
+  - onemli yeni bulgu
+  - karar gerektiren risk
+  - dosya duzenlemesi oncesi somut niyet
+  - islem sonucu veya dogrulama sonucu
+- Rutin "su dosyayi okuyorum", "veri modelini kuruyorum" gibi dusuk sinyalli ara mesajlar azaltilacak.
+- Skill kullanimi gerekiyorsa dahili olarak uygulanacak; kullaniciya ancak sonuca veya riske etkisi varsa bildirilecek.
+
+## 2026-04-24 Landed Title Capital Source Audit Baslangici
+
+- Kullanici parent-chain mismatch odaginin bu is icin yanlis oncelik oldugunu netlestirdi.
+- Dogru denetim modeli:
+  - current/Yusseter title bulunur
+  - bu title'in source'u tespit edilir:
+    - `modlu_kalan` ise Leviathon/asıl mod landed_titles source'u kullanilir
+    - `orijinal_dogu` ise vanilla/orijinal landed_titles source'u kullanilir
+  - source title'in `capital = c_*` degeri okunur
+  - source capital title'in current/Yusseter karsiligi `title_relation_master_manuel_new.csv` ters mapping'iyle bulunur
+  - current title'daki mevcut `capital = c_*` ile beklenen current capital karsilastirilir
+- Ornek dogrulanan hata:
+  - current `d_shangqing` capital'i `c_fuzhou`
+  - Leviathon/asıl mod source `d_shangqing` capital'i `c_fuzhou_qin_china`
+  - `title_relation_master_manuel_new.csv` icinde `c_fuzhou_qin_china` current karsiligi `c_fuzhou_5`
+  - beklenen current capital `c_fuzhou_5`
+  - bu nedenle current `d_shangqing = capital c_fuzhou` hatali gorunuyor
+- Yeni read-only audit araci eklendi:
+  - `works/tools/audit_landed_title_capitals_from_source.py`
+- Araç canli `00_landed_titles.txt` dosyasini degistirmez; sadece rapor uretir.
+- Uretilen rapor klasoru:
+  - `works/analysis/generated/landed_title_capital_source_audit/`
+- Ana raporlar:
+  - `landed_title_capital_source_audit.csv`
+  - `landed_title_capital_source_title_summary.csv`
+  - `landed_title_capital_source_title_mismatches.csv`
+  - `landed_title_capital_source_single_fix_candidates.csv`
+  - `landed_title_capital_source_candidate_mismatches.csv`
+  - `landed_title_capital_source_needs_review.csv`
+  - `landed_title_capital_source_audit_summary.md`
+- Ilk audit sonucu:
+  - source-candidate row: `629`
+  - current title: `439`
+  - candidate status counts:
+    - `ok = 531`
+    - `mismatch = 35`
+    - `missing_expected_current_capital_mapping = 25`
+    - `ambiguous_expected_current_capital = 3`
+    - `source_has_no_direct_capital = 35`
+  - current-title aggregate counts:
+    - `ok_via_some_source = 409`
+    - `mismatch_no_source_ok = 19`
+    - `missing_mapping_no_source_ok = 9`
+    - `ambiguous_no_source_ok = 2`
+- Tek beklenen current capital veren potansiyel fix adayi:
+  - `18`
+- Birden fazla beklenen capital adayi olan satir:
+  - `c_nf_xia_liang`
+- Onemli not:
+  - bu rapor henuz otomatik apply icin kullanilmayacak
+  - ozellikle `both` source-origin ve duplicate title bulunan satirlarda manuel kontrol gerekir
+  - ama `d_shangqing -> c_fuzhou_5` gibi tekil ve zinciri temiz vakalar yuksek sinyal olarak kabul edilebilir
+- Kullanici daha okunabilir sade worklist istedi.
+- `audit_landed_title_capitals_from_source.py` artik 4 kolonlu sade rapor da uretiyor:
+  - `works/analysis/generated/landed_title_capital_source_audit/landed_title_capital_manual_simple.csv`
+- Sade rapor kolonlari:
+  - `title_id`
+  - `current_capital`
+  - `expected_capital`
+  - `status`
+- Sade rapor status anlamlari:
+  - `wrong`: beklenen capital tekil olarak hesaplandi ve current capital farkli
+  - `uncertain`: source capital biliniyor ama current karsilik `title_relation_master_manuel_new.csv` icinde yok
+  - `ambiguous`: birden fazla beklenen current capital adayi var
+- Ilk sade rapor sayilari:
+  - `wrong = 18`
+  - `uncertain = 9`
+  - `ambiguous = 3`
+- `d_confucius` bu sade raporda `uncertain` olarak yer aliyor:
+  - current capital `c_yanzhou`
+  - source capital `c_kongmeng_china`
+  - `c_kongmeng_china` icin current mapping bilinmedigi icin `expected_capital` bos
+
+## 2026-04-24 Landed Title Capital Audit Effective Capital Guncellemesi
+
+- Kullanici iki eksik risk sinifini netlestirdi:
+  - `both` source-origin vakalarinda mod ve vanilla source capitalleri farkliysa, current bir kaynagi dogrulasa bile bu risk olarak rapora girmeli
+  - `h_ / e_ / k_ / d_` title'larda direct `capital = c_*` yoksa, CK3 mantiginda effective capital hiyerarsi altindaki ilk/en ust county olarak okunmali
+- `c_` ve `b_` title'lar bu capital-owner audit hedefinden cikarildi; denetim hedef scope'u:
+  - `h_`
+  - `e_`
+  - `k_`
+  - `d_`
+- `works/tools/audit_landed_title_capitals_from_source.py` read-only kalacak sekilde genislestirildi.
+- Yeni effective capital kuralı:
+  - once direct `capital = c_*`
+  - yoksa title altindaki ilk descendant `c_*`
+  - `c_*` bloklari sadece hesaplama yardimcisi olarak kullanilir, audit hedefi degildir
+- `source_conflict` kuralı eklendi:
+  - bir title icin secilen mod/vanilla source adaylari farkli effective capital sonucuna gidiyorsa rapora girer
+  - conflict karsilastirmasi mumkunse source title id'leriyle degil, `title_relation_master_manuel_new.csv` uzerinden bulunan current karsiliklariyla yapilir
+  - mapping yoksa ilgili source capital `?` ile belirsiz olarak rapora yazilir
+- Sade rapor yine 4 kolonlu tutuldu:
+  - `title_id`
+  - `current_capital`
+  - `expected_capital`
+  - `status`
+- Sade rapor status anlamlari artik:
+  - `wrong`: tekil beklenen current capital var ve current farkli
+  - `uncertain`: source capital biliniyor ama current karsilik mapping'de yok
+  - `ambiguous`: birden fazla beklenen current capital adayi var
+  - `source_conflict`: mod/vanilla source effective capital karari farkli veya mapping nedeniyle riskli
+  - `missing_effective_capital`: current/source tarafinda direct veya descendant county ile effective capital bulunamadi
+- Yeni ek rapor:
+  - `works/analysis/generated/landed_title_capital_source_audit/landed_title_capital_source_title_source_conflicts.csv`
+- Guncel audit sonucu:
+  - source-candidate row: `657`
+  - current title: `459`
+  - source candidate status counts:
+    - `ok = 572`
+    - `mismatch = 43`
+    - `missing_expected_current_capital_mapping = 34`
+    - `ambiguous_expected_current_capital = 3`
+    - `missing_effective_capital = 5`
+  - current-title aggregate counts:
+    - `ok_via_some_source = 378`
+    - `source_conflict = 53`
+    - `mismatch_no_source_ok = 15`
+    - `missing_mapping_no_source_ok = 9`
+    - `ambiguous_no_source_ok = 2`
+    - `missing_effective_capital = 2`
+- Guncel sade rapor:
+  - `works/analysis/generated/landed_title_capital_source_audit/landed_title_capital_manual_simple.csv`
+  - toplam satir: `81`
+  - `source_conflict = 53`
+  - `wrong = 15`
+  - `uncertain = 9`
+  - `ambiguous = 2`
+  - `missing_effective_capital = 2`
+- Ornekler:
+  - `d_shangqing,c_fuzhou,c_fuzhou_5,wrong`
+  - `d_confucius,c_yanzhou,,uncertain`
+  - `d_kinai,c_yamashiro,mod:c_yamato | vanilla:c_yamashiro,source_conflict`
+- Bu turda `common/landed_titles/00_landed_titles.txt` veya `test_files` kopyalari degistirilmedi; yalnizca audit scripti ve generated raporlar guncellendi.

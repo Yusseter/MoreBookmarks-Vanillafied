@@ -1,0 +1,526 @@
+line_no,title_id,status,source_parent_id,mod_parent_id,source_path,mod_path
+3,k_amur,different_parent,e_amur,e_tunguse,e_amur > k_amur,e_tunguse > k_amur
+5,k_hitakami,different_parent,e_amur,e_tunguse,e_amur > k_hitakami,e_tunguse > k_hitakami
+6,d_eman_amar,same_parent,k_amur,k_amur,e_amur > k_amur > d_eman_amar,e_tunguse > k_amur > d_eman_amar
+7,d_eman_boli,same_parent,k_amur,k_amur,e_amur > k_amur > d_eman_boli,e_tunguse > k_amur > d_eman_boli
+8,d_eman_bureya,same_parent,k_amur,k_amur,e_amur > k_amur > d_eman_bureya,e_tunguse > k_amur > d_eman_bureya
+9,d_eman_nivkhia,different_parent,k_amur,k_warka,e_amur > k_amur > d_eman_nivkhia,e_tunguse > k_warka > d_eman_nivkhia
+10,d_eman_samagero,different_parent,k_amur,k_warka,e_amur > k_amur > d_eman_samagero,e_tunguse > k_warka > d_eman_samagero
+11,d_eman_sikhotebei,different_parent,k_amur,k_warka,e_amur > k_amur > d_eman_sikhotebei,e_tunguse > k_warka > d_eman_sikhotebei
+13,d_sahaliyan,different_parent,k_aynumosir,k_ezo,e_amur > k_aynumosir > d_sahaliyan,e_tunguse > k_ezo > d_sahaliyan
+14,d_sum,different_parent,k_aynumosir,k_ezo,e_amur > k_aynumosir > d_sum,e_tunguse > k_ezo > d_sum
+17,c_eman_murkonno,same_parent,d_eman_amar,d_eman_amar,e_amur > k_amur > d_eman_amar > c_eman_murkonno,e_tunguse > k_amur > d_eman_amar > c_eman_murkonno
+18,c_eman_nimen,same_parent,d_eman_amar,d_eman_amar,e_amur > k_amur > d_eman_amar > c_eman_nimen,e_tunguse > k_amur > d_eman_amar > c_eman_nimen
+19,c_eman_urmi,same_parent,d_eman_amar,d_eman_amar,e_amur > k_amur > d_eman_amar > c_eman_urmi,e_tunguse > k_amur > d_eman_amar > c_eman_urmi
+20,c_eman_vanda,same_parent,d_eman_amar,d_eman_amar,e_amur > k_amur > d_eman_amar > c_eman_vanda,e_tunguse > k_amur > d_eman_amar > c_eman_vanda
+21,c_eman_boli,same_parent,d_eman_boli,d_eman_boli,e_amur > k_amur > d_eman_boli > c_eman_boli,e_tunguse > k_amur > d_eman_boli > c_eman_boli
+22,c_eman_choripi,same_parent,d_eman_boli,d_eman_boli,e_amur > k_amur > d_eman_boli > c_eman_choripi,e_tunguse > k_amur > d_eman_boli > c_eman_choripi
+23,c_eman_mohean,same_parent,d_eman_boli,d_eman_boli,e_amur > k_amur > d_eman_boli > c_eman_mohean,e_tunguse > k_amur > d_eman_boli > c_eman_mohean
+24,c_eman_molihewen,same_parent,d_eman_boli,d_eman_boli,e_amur > k_amur > d_eman_boli > c_eman_molihewen,e_tunguse > k_amur > d_eman_boli > c_eman_molihewen
+25,c_eman_birija,same_parent,d_eman_bureya,d_eman_bureya,e_amur > k_amur > d_eman_bureya > c_eman_birija,e_tunguse > k_amur > d_eman_bureya > c_eman_birija
+26,c_eman_turma,same_parent,d_eman_bureya,d_eman_bureya,e_amur > k_amur > d_eman_bureya > c_eman_turma,e_tunguse > k_amur > d_eman_bureya > c_eman_turma
+27,c_eman_urehokto,same_parent,d_eman_bureya,d_eman_bureya,e_amur > k_amur > d_eman_bureya > c_eman_urehokto,e_tunguse > k_amur > d_eman_bureya > c_eman_urehokto
+28,c_eman_amgun,same_parent,d_eman_nivkhia,d_eman_nivkhia,e_amur > k_amur > d_eman_nivkhia > c_eman_amgun,e_tunguse > k_warka > d_eman_nivkhia > c_eman_amgun
+29,c_eman_nurgan,same_parent,d_eman_nivkhia,d_eman_nivkhia,e_amur > k_amur > d_eman_nivkhia > c_eman_nurgan,e_tunguse > k_warka > d_eman_nivkhia > c_eman_nurgan
+30,c_eman_tugur,same_parent,d_eman_nivkhia,d_eman_nivkhia,e_amur > k_amur > d_eman_nivkhia > c_eman_tugur,e_tunguse > k_warka > d_eman_nivkhia > c_eman_tugur
+31,c_eman_kerin,same_parent,d_eman_samagero,d_eman_samagero,e_amur > k_amur > d_eman_samagero > c_eman_kerin,e_tunguse > k_warka > d_eman_samagero > c_eman_kerin
+32,c_eman_khadul,same_parent,d_eman_samagero,d_eman_samagero,e_amur > k_amur > d_eman_samagero > c_eman_khadul,e_tunguse > k_warka > d_eman_samagero > c_eman_khadul
+33,c_eman_tudali,same_parent,d_eman_samagero,d_eman_samagero,e_amur > k_amur > d_eman_samagero > c_eman_tudali,e_tunguse > k_warka > d_eman_samagero > c_eman_tudali
+34,c_eman_yam_alin,same_parent,d_eman_samagero,d_eman_samagero,e_amur > k_amur > d_eman_samagero > c_eman_yam_alin,e_tunguse > k_warka > d_eman_samagero > c_eman_yam_alin
+35,c_eman_beihean,same_parent,d_eman_sikhotebei,d_eman_sikhotebei,e_amur > k_amur > d_eman_sikhotebei > c_eman_beihean,e_tunguse > k_warka > d_eman_sikhotebei > c_eman_beihean
+36,c_eman_heishuiyang,same_parent,d_eman_sikhotebei,d_eman_sikhotebei,e_amur > k_amur > d_eman_sikhotebei > c_eman_heishuiyang,e_tunguse > k_warka > d_eman_sikhotebei > c_eman_heishuiyang
+37,c_eman_wuguihai,same_parent,d_eman_sikhotebei,d_eman_sikhotebei,e_amur > k_amur > d_eman_sikhotebei > c_eman_wuguihai,e_tunguse > k_warka > d_eman_sikhotebei > c_eman_wuguihai
+38,c_eman_yerenhe,same_parent,d_eman_sikhotebei,d_eman_sikhotebei,e_amur > k_amur > d_eman_sikhotebei > c_eman_yerenhe,e_tunguse > k_warka > d_eman_sikhotebei > c_eman_yerenhe
+43,c_kusunkotan,same_parent,d_sahaliyan,d_sahaliyan,e_amur > k_aynumosir > d_sahaliyan > c_kusunkotan,e_tunguse > k_ezo > d_sahaliyan > c_kusunkotan
+44,c_pogibi,same_parent,d_sahaliyan,d_sahaliyan,e_amur > k_aynumosir > d_sahaliyan > c_pogibi,e_tunguse > k_ezo > d_sahaliyan > c_pogibi
+45,c_tarayka,same_parent,d_sahaliyan,d_sahaliyan,e_amur > k_aynumosir > d_sahaliyan > c_tarayka,e_tunguse > k_ezo > d_sahaliyan > c_tarayka
+50,c_isawa,different_parent,d_hitakami,d_mutsu,e_amur > k_hitakami > d_hitakami > c_isawa,e_tunguse > k_hitakami > d_mutsu > c_isawa
+51,c_iwaki,different_parent,d_hitakami,d_mutsu,e_amur > k_hitakami > d_hitakami > c_iwaki,e_tunguse > k_hitakami > d_mutsu > c_iwaki
+52,c_iwase,different_parent,d_hitakami,d_mutsu,e_amur > k_hitakami > d_hitakami > c_iwase,e_tunguse > k_hitakami > d_mutsu > c_iwase
+53,c_korehari,different_parent,d_hitakami,d_mutsu,e_amur > k_hitakami > d_hitakami > c_korehari,e_tunguse > k_hitakami > d_mutsu > c_korehari
+54,c_tsugaru,different_parent,d_hitakami,d_mutsu,e_amur > k_hitakami > d_hitakami > c_tsugaru,e_tunguse > k_hitakami > d_mutsu > c_tsugaru
+55,c_nushiro,different_parent,d_nushiro,d_dewa,e_amur > k_hitakami > d_nushiro > c_nushiro,e_tunguse > k_hitakami > d_dewa > c_nushiro
+56,c_tokisara,different_parent,d_nushiro,d_dewa,e_amur > k_hitakami > d_nushiro > c_tokisara,e_tunguse > k_hitakami > d_dewa > c_tokisara
+58,k_balhae,different_parent,e_andong,e_jurchen_china,e_andong > k_balhae,e_jurchen_china > k_balhae
+60,k_luzhen,different_parent,e_andong,e_jurchen_china,e_andong > k_luzhen,e_jurchen_china > k_luzhen
+62,k_shiwei,different_parent,e_andong,e_tunguse,e_andong > k_shiwei,e_tunguse > k_shiwei
+71,d_BAL_anwon,same_parent,k_luzhen,k_luzhen,e_andong > k_luzhen > d_BAL_anwon,e_jurchen_china > k_luzhen > d_BAL_anwon
+72,d_BAL_cheolli,same_parent,k_luzhen,k_luzhen,e_andong > k_luzhen > d_BAL_cheolli,e_jurchen_china > k_luzhen > d_BAL_cheolli
+73,d_BAL_dongpyeong,same_parent,k_luzhen,k_luzhen,e_andong > k_luzhen > d_BAL_dongpyeong,e_jurchen_china > k_luzhen > d_BAL_dongpyeong
+74,d_BAL_hoewon,same_parent,k_luzhen,k_luzhen,e_andong > k_luzhen > d_BAL_hoewon,e_jurchen_china > k_luzhen > d_BAL_hoewon
+75,d_BAL_yeojintang,same_parent,k_luzhen,k_luzhen,e_andong > k_luzhen > d_BAL_yeojintang,e_jurchen_china > k_luzhen > d_BAL_yeojintang
+79,d_SW_dashiweiguo,different_parent,k_shiwei,k_ergune,e_andong > k_shiwei > d_SW_dashiweiguo,e_tunguse > k_ergune > d_SW_dashiweiguo
+80,d_SW_heicheziguo,different_parent,k_shiwei,k_dornogovi,e_andong > k_shiwei > d_SW_heicheziguo,e_mongolia > k_dornogovi > d_SW_heicheziguo
+81,d_SW_lingxiguo,different_parent,k_shiwei,k_ergune,e_andong > k_shiwei > d_SW_lingxiguo,e_tunguse > k_ergune > d_SW_lingxiguo
+82,d_SW_puyudao,same_parent,k_shiwei,k_shiwei,e_andong > k_shiwei > d_SW_puyudao,e_tunguse > k_shiwei > d_SW_puyudao
+83,d_SW_qingxingan,same_parent,k_shiwei,k_shiwei,e_andong > k_shiwei > d_SW_qingxingan,e_tunguse > k_shiwei > d_SW_qingxingan
+84,d_SW_ruzheguo,same_parent,k_shiwei,k_shiwei,e_andong > k_shiwei > d_SW_ruzheguo,e_tunguse > k_shiwei > d_SW_ruzheguo
+85,d_SW_sushenguo,same_parent,k_shiwei,k_shiwei,e_andong > k_shiwei > d_SW_sushenguo,e_tunguse > k_shiwei > d_SW_sushenguo
+111,c_LIAO_dalian,different_parent,d_LIAO_linhuang,d_xarmoron_china,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_dalian,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_dalian
+112,c_LIAO_heicaoan,different_parent,d_LIAO_linhuang,d_xarmoron_china,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_heicaoan,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_heicaoan
+113,c_LIAO_linhuang,different_parent,d_LIAO_linhuang,d_xarmoron_china,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_linhuang,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_linhuang
+114,c_LIAO_longhuazhou,different_parent,d_LIAO_linhuang,d_xarmoron_china,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_longhuazhou,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_longhuazhou
+115,c_LIAO_raozhou,different_parent,d_LIAO_linhuang,d_xarmoron_china,e_great_liao > k_khitan > d_LIAO_linhuang > c_LIAO_raozhou,h_china > e_great_liao > k_khitan_china > d_xarmoron_china > c_LIAO_raozhou
+116,c_LIAO_ulagaian,same_parent,d_hejes_china,d_hejes_china,e_great_liao > k_khitan > d_hejes_china > c_LIAO_ulagaian,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_LIAO_ulagaian
+117,c_LIAO_changchun,different_parent,d_LIAO_shangjing,d_changchun_china,e_great_liao > k_khitan > d_LIAO_shangjing > c_LIAO_changchun,h_china > e_great_liao > k_khitan_china > d_changchun_china > c_LIAO_changchun
+118,c_LIAO_horqinan,different_parent,d_LIAO_shangjing,d_changchun_china,e_great_liao > k_khitan > d_LIAO_shangjing > c_LIAO_horqinan,h_china > e_great_liao > k_khitan_china > d_changchun_china > c_LIAO_horqinan
+119,c_LIAO_ningzhou,different_parent,d_LIAO_shangjing,d_changchun_china,e_great_liao > k_khitan > d_LIAO_shangjing > c_LIAO_ningzhou,h_china > e_great_liao > k_khitan_china > d_changchun_china > c_LIAO_ningzhou
+120,c_LIAO_taizhou,different_parent,d_LIAO_shangjing,d_changchun_china,e_great_liao > k_khitan > d_LIAO_shangjing > c_LIAO_taizhou,h_china > e_great_liao > k_khitan_china > d_changchun_china > c_LIAO_taizhou
+121,c_LIAO_wuzhou,different_parent,d_LIAO_shangjing,d_changchun_china,e_great_liao > k_khitan > d_LIAO_shangjing > c_LIAO_wuzhou,h_china > e_great_liao > k_khitan_china > d_changchun_china > c_LIAO_wuzhou
+122,c_BAL_heuksu_anwon,same_parent,d_BAL_anwon,d_BAL_anwon,e_andong > k_luzhen > d_BAL_anwon > c_BAL_heuksu_anwon,e_jurchen_china > k_luzhen > d_BAL_anwon > c_BAL_heuksu_anwon
+123,c_BAL_ningzhou,same_parent,d_BAL_anwon,d_BAL_anwon,e_andong > k_luzhen > d_BAL_anwon > c_BAL_ningzhou,e_jurchen_china > k_luzhen > d_BAL_anwon > c_BAL_ningzhou
+124,c_BAL_north_anwon,same_parent,d_BAL_anwon,d_BAL_anwon,e_andong > k_luzhen > d_BAL_anwon > c_BAL_north_anwon,e_jurchen_china > k_luzhen > d_BAL_anwon > c_BAL_north_anwon
+125,c_BAL_supin,same_parent,d_BAL_anwon,d_BAL_anwon,e_andong > k_luzhen > d_BAL_anwon > c_BAL_supin,e_jurchen_china > k_luzhen > d_BAL_anwon > c_BAL_supin
+126,c_BAL_delizhen,same_parent,d_BAL_cheolli,d_BAL_cheolli,e_andong > k_luzhen > d_BAL_cheolli > c_BAL_delizhen,e_jurchen_china > k_luzhen > d_BAL_cheolli > c_BAL_delizhen
+127,c_BAL_huligai,same_parent,d_BAL_cheolli,d_BAL_cheolli,e_andong > k_luzhen > d_BAL_cheolli > c_BAL_huligai,e_jurchen_china > k_luzhen > d_BAL_cheolli > c_BAL_huligai
+128,c_BAL_west_cheolli,same_parent,d_BAL_cheolli,d_BAL_cheolli,e_andong > k_luzhen > d_BAL_cheolli > c_BAL_west_cheolli,e_jurchen_china > k_luzhen > d_BAL_cheolli > c_BAL_west_cheolli
+129,c_BAL_dongpyeong_yizhou,same_parent,d_BAL_dongpyeong,d_BAL_dongpyeong,e_andong > k_luzhen > d_BAL_dongpyeong > c_BAL_dongpyeong_yizhou,e_jurchen_china > k_luzhen > d_BAL_dongpyeong > c_BAL_dongpyeong_yizhou
+130,c_BAL_jixi,same_parent,d_BAL_dongpyeong,d_BAL_dongpyeong,e_andong > k_luzhen > d_BAL_dongpyeong > c_BAL_jixi,e_jurchen_china > k_luzhen > d_BAL_dongpyeong > c_BAL_jixi
+131,c_BAL_central_hoewon,same_parent,d_BAL_hoewon,d_BAL_hoewon,e_andong > k_luzhen > d_BAL_hoewon > c_BAL_central_hoewon,e_jurchen_china > k_luzhen > d_BAL_hoewon > c_BAL_central_hoewon
+132,c_BAL_dazhou,same_parent,d_BAL_hoewon,d_BAL_hoewon,e_andong > k_luzhen > d_BAL_hoewon > c_BAL_dazhou,e_jurchen_china > k_luzhen > d_BAL_hoewon > c_BAL_dazhou
+133,c_BAL_east_hoewon,same_parent,d_BAL_hoewon,d_BAL_hoewon,e_andong > k_luzhen > d_BAL_hoewon > c_BAL_east_hoewon,e_jurchen_china > k_luzhen > d_BAL_hoewon > c_BAL_east_hoewon
+134,c_BAL_ilanshan,same_parent,d_BAL_hoewon,d_BAL_hoewon,e_andong > k_luzhen > d_BAL_hoewon > c_BAL_ilanshan,e_jurchen_china > k_luzhen > d_BAL_hoewon > c_BAL_ilanshan
+135,c_BAL_south_hoewon,same_parent,d_BAL_hoewon,d_BAL_hoewon,e_andong > k_luzhen > d_BAL_hoewon > c_BAL_south_hoewon,e_jurchen_china > k_luzhen > d_BAL_hoewon > c_BAL_south_hoewon
+136,c_BAL_anbyeon,different_parent,d_BAL_yeojintang,d_BAL_anbian,e_andong > k_luzhen > d_BAL_yeojintang > c_BAL_anbyeon,e_jurchen_china > k_luzhen > d_BAL_anbian > c_BAL_anbyeon
+137,c_BAL_jeongni,same_parent,d_BAL_yeojintang,d_BAL_yeojintang,e_andong > k_luzhen > d_BAL_yeojintang > c_BAL_jeongni,e_jurchen_china > k_luzhen > d_BAL_yeojintang > c_BAL_jeongni
+138,c_BAL_north_anbyeon,different_parent,d_BAL_yeojintang,d_BAL_anbian,e_andong > k_luzhen > d_BAL_yeojintang > c_BAL_north_anbyeon,e_jurchen_china > k_luzhen > d_BAL_anbian > c_BAL_north_anbyeon
+139,c_BAL_solbin,different_parent,d_BAL_yeojintang,d_BAL_shuaibin,e_andong > k_luzhen > d_BAL_yeojintang > c_BAL_solbin,e_jurchen_china > k_luzhen > d_BAL_shuaibin > c_BAL_solbin
+140,c_LIAO_dading,different_parent,d_LIAO_zhongjing,d_tohchen_china,e_great_liao > k_khitan > d_LIAO_zhongjing > c_LIAO_dading,h_china > e_great_liao > k_khitan_china > d_tohchen_china > c_LIAO_dading
+141,c_liao_fengzhou,different_parent,d_LIAO_zhongjing,d_tohchen_china,e_great_liao > k_khitan > d_LIAO_zhongjing > c_liao_fengzhou,h_china > e_great_liao > k_khitan_china > d_tohchen_china > c_liao_fengzhou
+142,c_lxj_yuyidong,different_parent,d_LIAO_zhongjing,d_tohchen_china,e_great_liao > k_khitan > d_LIAO_zhongjing > c_lxj_yuyidong,h_china > e_great_liao > k_khitan_china > d_tohchen_china > c_lxj_yuyidong
+143,c_lzj_chengde,different_parent,d_LIAO_zhongjing,d_tohchen_china,e_great_liao > k_khitan > d_LIAO_zhongjing > c_lzj_chengde,h_china > e_great_liao > k_khitan_china > d_tohchen_china > c_lzj_chengde
+144,c_lzj_chengdexi,different_parent,d_LIAO_zhongjing,d_tohchen_china,e_great_liao > k_khitan > d_LIAO_zhongjing > c_lzj_chengdexi,h_china > e_great_liao > k_khitan_china > d_tohchen_china > c_lzj_chengdexi
+145,c_woye,different_parent,d_LIAO_zhongjing,d_tohchen_china,e_great_liao > k_khitan > d_LIAO_zhongjing > c_woye,h_china > e_great_liao > k_khitan_china > d_tohchen_china > c_woye
+152,c_lxj_huanzhou,different_parent,d_yanyun_yuyi,d_hiyaxu_china,e_great_liao > k_khitan > d_yanyun_yuyi > c_lxj_huanzhou,h_china > e_great_liao > k_khitan_china > d_hiyaxu_china > c_lxj_huanzhou
+153,c_lxj_yangchengzhou,different_parent,d_yanyun_yuyi,d_hiyaxu_china,e_great_liao > k_khitan > d_yanyun_yuyi > c_lxj_yangchengzhou,h_china > e_great_liao > k_khitan_china > d_hiyaxu_china > c_lxj_yangchengzhou
+154,c_SW_ergunia,same_parent,d_SW_dashiweiguo,d_SW_dashiweiguo,e_andong > k_shiwei > d_SW_dashiweiguo > c_SW_ergunia,e_tunguse > k_ergune > d_SW_dashiweiguo > c_SW_ergunia
+155,c_SW_hailar,same_parent,d_SW_dashiweiguo,d_SW_dashiweiguo,e_andong > k_shiwei > d_SW_dashiweiguo > c_SW_hailar,e_tunguse > k_ergune > d_SW_dashiweiguo > c_SW_hailar
+156,c_SW_heiergun,same_parent,d_SW_dashiweiguo,d_SW_dashiweiguo,e_andong > k_shiwei > d_SW_dashiweiguo > c_SW_heiergun,e_tunguse > k_ergune > d_SW_dashiweiguo > c_SW_heiergun
+157,c_SW_mengwuo,same_parent,d_SW_dashiweiguo,d_SW_dashiweiguo,e_andong > k_shiwei > d_SW_dashiweiguo > c_SW_mengwuo,e_tunguse > k_ergune > d_SW_dashiweiguo > c_SW_mengwuo
+158,c_SW_pibeihe,same_parent,d_SW_dashiweiguo,d_SW_dashiweiguo,e_andong > k_shiwei > d_SW_dashiweiguo > c_SW_pibeihe,e_tunguse > k_ergune > d_SW_dashiweiguo > c_SW_pibeihe
+159,c_SW_dongcheziguo,same_parent,d_hejes_china,d_hejes_china,e_great_liao > k_khitan > d_hejes_china > c_SW_dongcheziguo,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_SW_dongcheziguo
+160,c_SW_hongxingan,same_parent,d_hejes_china,d_hejes_china,e_great_liao > k_khitan > d_hejes_china > c_SW_hongxingan,h_china > e_great_liao > k_khitan_china > d_hejes_china > c_SW_hongxingan
+161,c_SW_hulunbuir,same_parent,d_SW_heicheziguo,d_SW_heicheziguo,e_andong > k_shiwei > d_SW_heicheziguo > c_SW_hulunbuir,e_mongolia > k_dornogovi > d_SW_heicheziguo > c_SW_hulunbuir
+162,c_SW_zhongcheziguo,same_parent,d_SW_heicheziguo,d_SW_heicheziguo,e_andong > k_shiwei > d_SW_heicheziguo > c_SW_zhongcheziguo,e_mongolia > k_dornogovi > d_SW_heicheziguo > c_SW_zhongcheziguo
+163,c_SW_heiheguo,same_parent,d_SW_lingxiguo,d_SW_lingxiguo,e_andong > k_shiwei > d_SW_lingxiguo > c_SW_heiheguo,e_tunguse > k_ergune > d_SW_lingxiguo > c_SW_heiheguo
+164,c_SW_lingxiguo,same_parent,d_SW_lingxiguo,d_SW_lingxiguo,e_andong > k_shiwei > d_SW_lingxiguo > c_SW_lingxiguo,e_tunguse > k_ergune > d_SW_lingxiguo > c_SW_lingxiguo
+165,c_SW_powoguo,same_parent,d_SW_lingxiguo,d_SW_lingxiguo,e_andong > k_shiwei > d_SW_lingxiguo > c_SW_powoguo,e_tunguse > k_ergune > d_SW_lingxiguo > c_SW_powoguo
+166,c_SW_damoguo,same_parent,d_SW_puyudao,d_SW_puyudao,e_andong > k_shiwei > d_SW_puyudao > c_SW_damoguo,e_tunguse > k_shiwei > d_SW_puyudao > c_SW_damoguo
+167,c_SW_heilonghean,same_parent,d_SW_puyudao,d_SW_puyudao,e_andong > k_shiwei > d_SW_puyudao > c_SW_heilonghean,e_tunguse > k_shiwei > d_SW_puyudao > c_SW_heilonghean
+168,c_SW_puyuzhou,same_parent,d_SW_puyudao,d_SW_puyudao,e_andong > k_shiwei > d_SW_puyudao > c_SW_puyuzhou,e_tunguse > k_shiwei > d_SW_puyudao > c_SW_puyuzhou
+169,c_SW_shanbeiguo,same_parent,d_SW_puyudao,d_SW_puyudao,e_andong > k_shiwei > d_SW_puyudao > c_SW_shanbeiguo,e_tunguse > k_shiwei > d_SW_puyudao > c_SW_shanbeiguo
+170,c_SW_huangtouguo,same_parent,d_SW_qingxingan,d_SW_qingxingan,e_andong > k_shiwei > d_SW_qingxingan > c_SW_huangtouguo,e_tunguse > k_shiwei > d_SW_qingxingan > c_SW_huangtouguo
+171,c_SW_luotuoguo,same_parent,d_SW_qingxingan,d_SW_qingxingan,e_andong > k_shiwei > d_SW_qingxingan > c_SW_luotuoguo,e_tunguse > k_shiwei > d_SW_qingxingan > c_SW_luotuoguo
+172,c_SW_nabeiguo,same_parent,d_SW_qingxingan,d_SW_qingxingan,e_andong > k_shiwei > d_SW_qingxingan > c_SW_nabeiguo,e_tunguse > k_shiwei > d_SW_qingxingan > c_SW_nabeiguo
+173,c_SW_xinghuangtou,same_parent,d_SW_qingxingan,d_SW_qingxingan,e_andong > k_shiwei > d_SW_qingxingan > c_SW_xinghuangtou,e_tunguse > k_shiwei > d_SW_qingxingan > c_SW_xinghuangtou
+174,c_SW_xingnabei,same_parent,d_SW_qingxingan,d_SW_qingxingan,e_andong > k_shiwei > d_SW_qingxingan > c_SW_xingnabei,e_tunguse > k_shiwei > d_SW_qingxingan > c_SW_xingnabei
+175,c_SW_dongruzhe,same_parent,d_SW_ruzheguo,d_SW_ruzheguo,e_andong > k_shiwei > d_SW_ruzheguo > c_SW_dongruzhe,e_tunguse > k_shiwei > d_SW_ruzheguo > c_SW_dongruzhe
+176,c_SW_jiqin_hari,same_parent,d_SW_ruzheguo,d_SW_ruzheguo,e_andong > k_shiwei > d_SW_ruzheguo > c_SW_jiqin_hari,e_tunguse > k_shiwei > d_SW_ruzheguo > c_SW_jiqin_hari
+177,c_SW_ruzhejiang,same_parent,d_SW_ruzheguo,d_SW_ruzheguo,e_andong > k_shiwei > d_SW_ruzheguo > c_SW_ruzhejiang,e_tunguse > k_shiwei > d_SW_ruzheguo > c_SW_ruzhejiang
+178,c_SW_fancao,same_parent,d_SW_sushenguo,d_SW_sushenguo,e_andong > k_shiwei > d_SW_sushenguo > c_SW_fancao,e_tunguse > k_shiwei > d_SW_sushenguo > c_SW_fancao
+179,c_SW_gonghejiang,same_parent,d_SW_sushenguo,d_SW_sushenguo,e_andong > k_shiwei > d_SW_sushenguo > c_SW_gonghejiang,e_tunguse > k_shiwei > d_SW_sushenguo > c_SW_gonghejiang
+180,c_SW_heilonglin,same_parent,d_SW_sushenguo,d_SW_sushenguo,e_andong > k_shiwei > d_SW_sushenguo > c_SW_heilonglin,e_tunguse > k_shiwei > d_SW_sushenguo > c_SW_heilonglin
+181,c_SW_lupingyuan,same_parent,d_SW_sushenguo,d_SW_sushenguo,e_andong > k_shiwei > d_SW_sushenguo > c_SW_lupingyuan,e_tunguse > k_shiwei > d_SW_sushenguo > c_SW_lupingyuan
+182,c_SW_suihua,same_parent,d_SW_sushenguo,d_SW_sushenguo,e_andong > k_shiwei > d_SW_sushenguo > c_SW_suihua,e_tunguse > k_shiwei > d_SW_sushenguo > c_SW_suihua
+184,k_brunei,same_parent,e_brunei,e_brunei,e_brunei > k_brunei,e_brunei > k_brunei
+186,k_baekje,same_parent,e_goryeo,e_goryeo,e_goryeo > k_baekje,e_goryeo > k_baekje
+187,k_goguryeo,different_parent,e_great_liao,e_jurchen_china,e_great_liao > k_goguryeo,e_jurchen_china > k_goguryeo
+188,k_silla,same_parent,e_goryeo,e_goryeo,e_goryeo > k_silla,e_goryeo > k_silla
+189,d_chungju,same_parent,k_baekje,k_baekje,e_goryeo > k_baekje > d_chungju,e_goryeo > k_baekje > d_chungju
+190,d_jeonju,same_parent,k_baekje,k_baekje,e_goryeo > k_baekje > d_jeonju,e_goryeo > k_baekje > d_jeonju
+191,d_naju,same_parent,k_baekje,k_baekje,e_goryeo > k_baekje > d_naju,e_goryeo > k_baekje > d_naju
+192,d_tamna,different_parent,k_baekje,k_tamna,e_goryeo > k_baekje > d_tamna,e_goryeo > k_tamna > d_tamna
+193,d_bukgye,different_parent,k_goguryeo,k_goryeo,e_goryeo > k_goguryeo > d_bukgye,e_goryeo > k_goryeo > d_bukgye
+194,d_gaeseong,different_parent,k_goguryeo,k_goryeo,e_goryeo > k_goguryeo > d_gaeseong,e_goryeo > k_goryeo > d_gaeseong
+195,d_gwangju,different_parent,k_goguryeo,k_goryeo,e_goryeo > k_goguryeo > d_gwangju,e_goryeo > k_goryeo > d_gwangju
+196,d_gyoju,different_parent,k_goguryeo,k_goryeo,e_goryeo > k_goguryeo > d_gyoju,e_goryeo > k_goryeo > d_gyoju
+197,d_haeju,different_parent,k_goguryeo,k_goryeo,e_goryeo > k_goguryeo > d_haeju,e_goryeo > k_goryeo > d_haeju
+198,d_yukju,different_parent,k_goguryeo,k_goryeo,e_goryeo > k_goguryeo > d_yukju,e_goryeo > k_goryeo > d_yukju
+199,d_donggye,same_parent,k_silla,k_silla,e_goryeo > k_silla > d_donggye,e_goryeo > k_silla > d_donggye
+200,d_gyeongju,same_parent,k_silla,k_silla,e_goryeo > k_silla > d_gyeongju,e_goryeo > k_silla > d_gyeongju
+201,d_jinju,same_parent,k_silla,k_silla,e_goryeo > k_silla > d_jinju,e_goryeo > k_silla > d_jinju
+202,c_cheongju,same_parent,d_chungju,d_chungju,e_goryeo > k_baekje > d_chungju > c_cheongju,e_goryeo > k_baekje > d_chungju > c_cheongju
+203,c_chungju,same_parent,d_chungju,d_chungju,e_goryeo > k_baekje > d_chungju > c_chungju,e_goryeo > k_baekje > d_chungju > c_chungju
+204,c_gongju,same_parent,d_chungju,d_chungju,e_goryeo > k_baekje > d_chungju > c_gongju,e_goryeo > k_baekje > d_chungju > c_gongju
+205,c_hongju,same_parent,d_chungju,d_chungju,e_goryeo > k_baekje > d_chungju > c_hongju,e_goryeo > k_baekje > d_chungju > c_hongju
+206,c_jeonju,same_parent,d_jeonju,d_jeonju,e_goryeo > k_baekje > d_jeonju > c_jeonju,e_goryeo > k_baekje > d_jeonju > c_jeonju
+207,c_jillye,same_parent,d_jeonju,d_jeonju,e_goryeo > k_baekje > d_jeonju > c_jillye,e_goryeo > k_baekje > d_jeonju > c_jillye
+208,c_namwon,same_parent,d_jeonju,d_jeonju,e_goryeo > k_baekje > d_jeonju > c_namwon,e_goryeo > k_baekje > d_jeonju > c_namwon
+209,c_boseong,same_parent,d_naju,d_naju,e_goryeo > k_baekje > d_naju > c_boseong,e_goryeo > k_baekje > d_naju > c_boseong
+210,c_jangheung,same_parent,d_naju,d_naju,e_goryeo > k_baekje > d_naju > c_jangheung,e_goryeo > k_baekje > d_naju > c_jangheung
+211,c_naju,same_parent,d_naju,d_naju,e_goryeo > k_baekje > d_naju > c_naju,e_goryeo > k_baekje > d_naju > c_naju
+213,c_seogyeong,same_parent,d_bukgye,d_bukgye,e_goryeo > k_goguryeo > d_bukgye > c_seogyeong,e_goryeo > k_goryeo > d_bukgye > c_seogyeong
+214,c_seongju,same_parent,d_bukgye,d_bukgye,e_goryeo > k_goguryeo > d_bukgye > c_seongju,e_goryeo > k_goryeo > d_bukgye > c_seongju
+215,c_yeongwon,same_parent,d_bukgye,d_bukgye,e_goryeo > k_goguryeo > d_bukgye > c_yeongwon,e_goryeo > k_goryeo > d_bukgye > c_yeongwon
+216,c_gaeseong,same_parent,d_gaeseong,d_gaeseong,e_goryeo > k_goguryeo > d_gaeseong > c_gaeseong,e_goryeo > k_goryeo > d_gaeseong > c_gaeseong
+217,c_gokju,same_parent,d_gaeseong,d_gaeseong,e_goryeo > k_goguryeo > d_gaeseong > c_gokju,e_goryeo > k_goryeo > d_gaeseong > c_gokju
+218,c_pyeongju,same_parent,d_gaeseong,d_gaeseong,e_goryeo > k_goguryeo > d_gaeseong > c_pyeongju,e_goryeo > k_goryeo > d_gaeseong > c_pyeongju
+219,c_dangseong,same_parent,d_gwangju,d_gwangju,e_goryeo > k_goguryeo > d_gwangju > c_dangseong,e_goryeo > k_goryeo > d_gwangju > c_dangseong
+220,c_gwangju,same_parent,d_gwangju,d_gwangju,e_goryeo > k_goguryeo > d_gwangju > c_gwangju,e_goryeo > k_goryeo > d_gwangju > c_gwangju
+221,c_yangju,same_parent,d_gwangju,d_gwangju,e_goryeo > k_goguryeo > d_gwangju > c_yangju,e_goryeo > k_goryeo > d_gwangju > c_yangju
+222,c_chunju,same_parent,d_gyoju,d_gyoju,e_goryeo > k_goguryeo > d_gyoju > c_chunju,e_goryeo > k_goryeo > d_gyoju > c_chunju
+223,c_dongju,same_parent,d_gyoju,d_gyoju,e_goryeo > k_goguryeo > d_gyoju > c_dongju,e_goryeo > k_goryeo > d_gyoju > c_dongju
+224,c_gyoju,same_parent,d_gyoju,d_gyoju,e_goryeo > k_goguryeo > d_gyoju > c_gyoju,e_goryeo > k_goryeo > d_gyoju > c_gyoju
+225,c_inje,same_parent,d_gyoju,d_gyoju,e_goryeo > k_goguryeo > d_gyoju > c_inje,e_goryeo > k_goryeo > d_gyoju > c_inje
+226,c_haeju,same_parent,d_haeju,d_haeju,e_goryeo > k_goguryeo > d_haeju > c_haeju,e_goryeo > k_goryeo > d_haeju > c_haeju
+227,c_hwangju,same_parent,d_haeju,d_haeju,e_goryeo > k_goguryeo > d_haeju > c_hwangju,e_goryeo > k_goryeo > d_haeju > c_hwangju
+228,c_pungju,same_parent,d_haeju,d_haeju,e_goryeo > k_goguryeo > d_haeju > c_pungju,e_goryeo > k_goryeo > d_haeju > c_pungju
+229,c_gwiju,same_parent,d_yukju,d_yukju,e_goryeo > k_goguryeo > d_yukju > c_gwiju,e_goryeo > k_goryeo > d_yukju > c_gwiju
+230,c_jangjeong,same_parent,d_yukju,d_yukju,e_goryeo > k_goguryeo > d_yukju > c_jangjeong,e_goryeo > k_goryeo > d_yukju > c_jangjeong
+231,c_taeju,same_parent,d_yukju,d_yukju,e_goryeo > k_goguryeo > d_yukju > c_taeju,e_goryeo > k_goryeo > d_yukju > c_taeju
+232,c_uiju,same_parent,d_yukju,d_yukju,e_goryeo > k_goguryeo > d_yukju > c_uiju,e_goryeo > k_goryeo > d_yukju > c_uiju
+233,c_deungju,same_parent,d_donggye,d_donggye,e_goryeo > k_silla > d_donggye > c_deungju,e_goryeo > k_silla > d_donggye > c_deungju
+234,c_goseong,same_parent,d_donggye,d_donggye,e_goryeo > k_silla > d_donggye > c_goseong,e_goryeo > k_silla > d_donggye > c_goseong
+235,c_myeongju,same_parent,d_donggye,d_donggye,e_goryeo > k_silla > d_donggye > c_myeongju,e_goryeo > k_silla > d_donggye > c_myeongju
+236,c_ulleong,same_parent,d_donggye,d_donggye,e_goryeo > k_silla > d_donggye > c_ulleong,e_goryeo > k_silla > d_donggye > c_ulleong
+237,c_wonju,same_parent,d_donggye,d_donggye,e_goryeo > k_silla > d_donggye > c_wonju,e_goryeo > k_silla > d_donggye > c_wonju
+238,c_andong,same_parent,d_gyeongju,d_gyeongju,e_goryeo > k_silla > d_gyeongju > c_andong,e_goryeo > k_silla > d_gyeongju > c_andong
+239,c_gyeongju,same_parent,d_gyeongju,d_gyeongju,e_goryeo > k_silla > d_gyeongju > c_gyeongju,e_goryeo > k_silla > d_gyeongju > c_gyeongju
+240,c_ilseon,same_parent,d_gyeongju,d_gyeongju,e_goryeo > k_silla > d_gyeongju > c_ilseon,e_goryeo > k_silla > d_gyeongju > c_ilseon
+241,c_sangju,same_parent,d_gyeongju,d_gyeongju,e_goryeo > k_silla > d_gyeongju > c_sangju,e_goryeo > k_silla > d_gyeongju > c_sangju
+242,c_guemju,same_parent,d_jinju,d_jinju,e_goryeo > k_silla > d_jinju > c_guemju,e_goryeo > k_silla > d_jinju > c_guemju
+243,c_hamyang,same_parent,d_jinju,d_jinju,e_goryeo > k_silla > d_jinju > c_hamyang,e_goryeo > k_silla > d_jinju > c_hamyang
+244,c_jinju,same_parent,d_jinju,d_jinju,e_goryeo > k_silla > d_jinju > c_jinju,e_goryeo > k_silla > d_jinju > c_jinju
+245,c_ulju,same_parent,d_jinju,d_jinju,e_goryeo > k_silla > d_jinju > c_ulju,e_goryeo > k_silla > d_jinju > c_ulju
+247,k_azuma,same_parent,e_japan,e_japan,e_japan > k_azuma,e_japan > k_azuma
+248,k_tsukushi,same_parent,e_japan,e_japan,e_japan > k_tsukushi,e_japan > k_tsukushi
+249,k_yamato,same_parent,e_japan,e_japan,e_japan > k_yamato,e_japan > k_yamato
+250,d_east_bando,same_parent,k_azuma,k_azuma,e_japan > k_azuma > d_east_bando,e_japan > k_azuma > d_east_bando
+251,d_hokurikudo,same_parent,k_azuma,k_azuma,e_japan > k_azuma > d_hokurikudo,e_japan > k_azuma > d_hokurikudo
+252,d_tokaido,same_parent,k_azuma,k_azuma,e_japan > k_azuma > d_tokaido,e_japan > k_azuma > d_tokaido
+254,d_west_bando,same_parent,k_azuma,k_azuma,e_japan > k_azuma > d_west_bando,e_japan > k_azuma > d_west_bando
+255,d_north_saikaido,same_parent,k_tsukushi,k_tsukushi,e_japan > k_tsukushi > d_north_saikaido,e_japan > k_tsukushi > d_north_saikaido
+256,d_south_saikaido,same_parent,k_tsukushi,k_tsukushi,e_japan > k_tsukushi > d_south_saikaido,e_japan > k_tsukushi > d_south_saikaido
+257,d_east_sanindo,same_parent,k_yamato,k_yamato,e_japan > k_yamato > d_east_sanindo,e_japan > k_yamato > d_east_sanindo
+258,d_east_sanyodo,same_parent,k_yamato,k_yamato,e_japan > k_yamato > d_east_sanyodo,e_japan > k_yamato > d_east_sanyodo
+259,d_kinai,same_parent,k_yamato,k_yamato,e_japan > k_yamato > d_kinai,e_japan > k_yamato > d_kinai
+260,d_nankaido,same_parent,k_yamato,k_yamato,e_japan > k_yamato > d_nankaido,e_japan > k_yamato > d_nankaido
+263,c_hitachi,same_parent,d_east_bando,d_east_bando,e_japan > k_azuma > d_east_bando > c_hitachi,e_japan > k_azuma > d_east_bando > c_hitachi
+264,c_kazusa,same_parent,d_east_bando,d_east_bando,e_japan > k_azuma > d_east_bando > c_kazusa,e_japan > k_azuma > d_east_bando > c_kazusa
+265,c_shimosa,same_parent,d_east_bando,d_east_bando,e_japan > k_azuma > d_east_bando > c_shimosa,e_japan > k_azuma > d_east_bando > c_shimosa
+266,c_shimotsuke,same_parent,d_east_bando,d_east_bando,e_japan > k_azuma > d_east_bando > c_shimotsuke,e_japan > k_azuma > d_east_bando > c_shimotsuke
+267,c_echigo,same_parent,d_hokurikudo,d_hokurikudo,e_japan > k_azuma > d_hokurikudo > c_echigo,e_japan > k_azuma > d_hokurikudo > c_echigo
+268,c_echizen,same_parent,d_hokurikudo,d_hokurikudo,e_japan > k_azuma > d_hokurikudo > c_echizen,e_japan > k_azuma > d_hokurikudo > c_echizen
+269,c_etchu,same_parent,d_hokurikudo,d_hokurikudo,e_japan > k_azuma > d_hokurikudo > c_etchu,e_japan > k_azuma > d_hokurikudo > c_etchu
+270,c_kaga,same_parent,d_hokurikudo,d_hokurikudo,e_japan > k_azuma > d_hokurikudo > c_kaga,e_japan > k_azuma > d_hokurikudo > c_kaga
+271,c_noto,same_parent,d_hokurikudo,d_hokurikudo,e_japan > k_azuma > d_hokurikudo > c_noto,e_japan > k_azuma > d_hokurikudo > c_noto
+272,c_ise,same_parent,d_tokaido,d_tokaido,e_japan > k_azuma > d_tokaido > c_ise,e_japan > k_azuma > d_tokaido > c_ise
+273,c_mikawa,same_parent,d_tokaido,d_tokaido,e_japan > k_azuma > d_tokaido > c_mikawa,e_japan > k_azuma > d_tokaido > c_mikawa
+274,c_owari,same_parent,d_tokaido,d_tokaido,e_japan > k_azuma > d_tokaido > c_owari,e_japan > k_azuma > d_tokaido > c_owari
+275,c_suruga,same_parent,d_tokaido,d_tokaido,e_japan > k_azuma > d_tokaido > c_suruga,e_japan > k_azuma > d_tokaido > c_suruga
+276,c_totomi,same_parent,d_tokaido,d_tokaido,e_japan > k_azuma > d_tokaido > c_totomi,e_japan > k_azuma > d_tokaido > c_totomi
+277,c_hida,different_parent,d_tosando,d_chubu,e_japan > k_azuma > d_tosando > c_hida,e_japan > k_azuma > d_chubu > c_hida
+278,c_kai,different_parent,d_tosando,d_koshinetsu,e_japan > k_azuma > d_tosando > c_kai,e_japan > k_azuma > d_koshinetsu > c_kai
+279,c_mino,different_parent,d_tosando,d_chubu,e_japan > k_azuma > d_tosando > c_mino,e_japan > k_azuma > d_chubu > c_mino
+280,c_omi,different_parent,d_tosando,d_chubu,e_japan > k_azuma > d_tosando > c_omi,e_japan > k_azuma > d_chubu > c_omi
+281,c_shinano,different_parent,d_tosando,d_koshinetsu,e_japan > k_azuma > d_tosando > c_shinano,e_japan > k_azuma > d_koshinetsu > c_shinano
+282,c_izu,different_parent,d_west_bando,d_tokaido,e_japan > k_azuma > d_west_bando > c_izu,e_japan > k_azuma > d_tokaido > c_izu
+283,c_kozuke,same_parent,d_west_bando,d_west_bando,e_japan > k_azuma > d_west_bando > c_kozuke,e_japan > k_azuma > d_west_bando > c_kozuke
+284,c_musashi,same_parent,d_west_bando,d_west_bando,e_japan > k_azuma > d_west_bando > c_musashi,e_japan > k_azuma > d_west_bando > c_musashi
+285,c_sagami,same_parent,d_west_bando,d_west_bando,e_japan > k_azuma > d_west_bando > c_sagami,e_japan > k_azuma > d_west_bando > c_sagami
+286,c_bungo,different_parent,d_north_saikaido,d_SUM_jambi,e_japan > k_tsukushi > d_north_saikaido > c_bungo,e_srivijaya > k_melayu > d_SUM_jambi > c_bungo
+287,c_buzen,same_parent,d_north_saikaido,d_north_saikaido,e_japan > k_tsukushi > d_north_saikaido > c_buzen,e_japan > k_tsukushi > d_north_saikaido > c_buzen
+288,c_chikugo,same_parent,d_north_saikaido,d_north_saikaido,e_japan > k_tsukushi > d_north_saikaido > c_chikugo,e_japan > k_tsukushi > d_north_saikaido > c_chikugo
+289,c_chikuzen,same_parent,d_north_saikaido,d_north_saikaido,e_japan > k_tsukushi > d_north_saikaido > c_chikuzen,e_japan > k_tsukushi > d_north_saikaido > c_chikuzen
+290,c_hizen,same_parent,d_north_saikaido,d_north_saikaido,e_japan > k_tsukushi > d_north_saikaido > c_hizen,e_japan > k_tsukushi > d_north_saikaido > c_hizen
+291,c_tsushima,same_parent,d_north_saikaido,d_north_saikaido,e_japan > k_tsukushi > d_north_saikaido > c_tsushima,e_japan > k_tsukushi > d_north_saikaido > c_tsushima
+292,c_higo,same_parent,d_south_saikaido,d_south_saikaido,e_japan > k_tsukushi > d_south_saikaido > c_higo,e_japan > k_tsukushi > d_south_saikaido > c_higo
+293,c_hyuga,same_parent,d_south_saikaido,d_south_saikaido,e_japan > k_tsukushi > d_south_saikaido > c_hyuga,e_japan > k_tsukushi > d_south_saikaido > c_hyuga
+294,c_osumi,same_parent,d_south_saikaido,d_south_saikaido,e_japan > k_tsukushi > d_south_saikaido > c_osumi,e_japan > k_tsukushi > d_south_saikaido > c_osumi
+295,c_satsuma,same_parent,d_south_saikaido,d_south_saikaido,e_japan > k_tsukushi > d_south_saikaido > c_satsuma,e_japan > k_tsukushi > d_south_saikaido > c_satsuma
+296,c_inaba,same_parent,d_east_sanindo,d_east_sanindo,e_japan > k_yamato > d_east_sanindo > c_inaba,e_japan > k_yamato > d_east_sanindo > c_inaba
+297,c_tajima,same_parent,d_east_sanindo,d_east_sanindo,e_japan > k_yamato > d_east_sanindo > c_tajima,e_japan > k_yamato > d_east_sanindo > c_tajima
+298,c_tanba,same_parent,d_east_sanindo,d_east_sanindo,e_japan > k_yamato > d_east_sanindo > c_tanba,e_japan > k_yamato > d_east_sanindo > c_tanba
+299,c_tango,same_parent,d_east_sanindo,d_east_sanindo,e_japan > k_yamato > d_east_sanindo > c_tango,e_japan > k_yamato > d_east_sanindo > c_tango
+300,c_bitchu,same_parent,d_east_sanyodo,d_east_sanyodo,e_japan > k_yamato > d_east_sanyodo > c_bitchu,e_japan > k_yamato > d_east_sanyodo > c_bitchu
+301,c_bizen,same_parent,d_east_sanyodo,d_east_sanyodo,e_japan > k_yamato > d_east_sanyodo > c_bizen,e_japan > k_yamato > d_east_sanyodo > c_bizen
+302,c_harima,same_parent,d_east_sanyodo,d_east_sanyodo,e_japan > k_yamato > d_east_sanyodo > c_harima,e_japan > k_yamato > d_east_sanyodo > c_harima
+303,c_mimasaka,same_parent,d_east_sanyodo,d_east_sanyodo,e_japan > k_yamato > d_east_sanyodo > c_mimasaka,e_japan > k_yamato > d_east_sanyodo > c_mimasaka
+304,c_kawachi,same_parent,d_kinai,d_kinai,e_japan > k_yamato > d_kinai > c_kawachi,e_japan > k_yamato > d_kinai > c_kawachi
+305,c_settsu,same_parent,d_kinai,d_kinai,e_japan > k_yamato > d_kinai > c_settsu,e_japan > k_yamato > d_kinai > c_settsu
+306,c_yamashiro,same_parent,d_kinai,d_kinai,e_japan > k_yamato > d_kinai > c_yamashiro,e_japan > k_yamato > d_kinai > c_yamashiro
+307,c_yamato,same_parent,d_kinai,d_kinai,e_japan > k_yamato > d_kinai > c_yamato,e_japan > k_yamato > d_kinai > c_yamato
+308,c_awa,same_parent,d_nankaido,d_nankaido,e_japan > k_yamato > d_nankaido > c_awa,e_japan > k_yamato > d_nankaido > c_awa
+309,c_awaji,same_parent,d_nankaido,d_nankaido,e_japan > k_yamato > d_nankaido > c_awaji,e_japan > k_yamato > d_nankaido > c_awaji
+310,c_iyo,same_parent,d_nankaido,d_nankaido,e_japan > k_yamato > d_nankaido > c_iyo,e_japan > k_yamato > d_nankaido > c_iyo
+311,c_kii,same_parent,d_nankaido,d_nankaido,e_japan > k_yamato > d_nankaido > c_kii,e_japan > k_yamato > d_nankaido > c_kii
+312,c_sanuki,same_parent,d_nankaido,d_nankaido,e_japan > k_yamato > d_nankaido > c_sanuki,e_japan > k_yamato > d_nankaido > c_sanuki
+313,c_tosa,same_parent,d_nankaido,d_nankaido,e_japan > k_yamato > d_nankaido > c_tosa,e_japan > k_yamato > d_nankaido > c_tosa
+314,c_hoki,same_parent,d_west_sanindo,d_west_sanindo,e_japan > k_yamato > d_west_sanindo > c_hoki,e_japan > k_yamato > d_west_sanindo > c_hoki
+315,c_iwami,same_parent,d_west_sanindo,d_west_sanindo,e_japan > k_yamato > d_west_sanindo > c_iwami,e_japan > k_yamato > d_west_sanindo > c_iwami
+316,c_izumo,same_parent,d_west_sanindo,d_west_sanindo,e_japan > k_yamato > d_west_sanindo > c_izumo,e_japan > k_yamato > d_west_sanindo > c_izumo
+317,c_oki,same_parent,d_west_sanindo,d_west_sanindo,e_japan > k_yamato > d_west_sanindo > c_oki,e_japan > k_yamato > d_west_sanindo > c_oki
+318,c_aki,different_parent,d_west_sanyodo,d_chugoku,e_japan > k_yamato > d_west_sanyodo > c_aki,e_japan > k_yamato > d_chugoku > c_aki
+319,c_bingo,different_parent,d_west_sanyodo,d_chugoku,e_japan > k_yamato > d_west_sanyodo > c_bingo,e_japan > k_yamato > d_chugoku > c_bingo
+320,c_nagato,different_parent,d_west_sanyodo,d_chugoku,e_japan > k_yamato > d_west_sanyodo > c_nagato,e_japan > k_yamato > d_chugoku > c_nagato
+321,c_suo,different_parent,d_west_sanyodo,d_chugoku,e_japan > k_yamato > d_west_sanyodo > c_suo,e_japan > k_yamato > d_chugoku > c_suo
+323,k_champa,different_parent,e_kambuja,e_dai_viet,e_kambuja > k_champa,h_china > e_dai_viet > k_champa
+326,d_indrapura,same_parent,k_champa,k_champa,e_kambuja > k_champa > d_indrapura,h_china > e_dai_viet > k_champa > d_indrapura
+327,d_vijaya,same_parent,k_champa,k_champa,e_kambuja > k_champa > d_vijaya,h_china > e_dai_viet > k_champa > d_vijaya
+332,d_baigaur,different_parent,k_funan,k_chenla,e_kambuja > k_funan > d_baigaur,e_kambuja > k_chenla > d_baigaur
+334,d_vyadhapura,different_parent,k_funan,k_chenla,e_kambuja > k_funan > d_vyadhapura,e_kambuja > k_chenla > d_vyadhapura
+335,c_indrapura,same_parent,d_indrapura,d_indrapura,e_kambuja > k_champa > d_indrapura > c_indrapura,h_china > e_dai_viet > k_champa > d_indrapura > c_indrapura
+337,c_simhapura,same_parent,d_indrapura,d_indrapura,e_kambuja > k_champa > d_indrapura > c_simhapura,h_china > e_dai_viet > k_champa > d_indrapura > c_simhapura
+338,c_kauthara,same_parent,d_vijaya,d_vijaya,e_kambuja > k_champa > d_vijaya > c_kauthara,h_china > e_dai_viet > k_champa > d_vijaya > c_kauthara
+339,c_panduranga,different_parent,d_vijaya,d_panduranga,e_kambuja > k_champa > d_vijaya > c_panduranga,h_china > e_dai_viet > k_champa > d_panduranga > c_panduranga
+340,c_vijaya,same_parent,d_vijaya,d_vijaya,e_kambuja > k_champa > d_vijaya > c_vijaya,h_china > e_dai_viet > k_champa > d_vijaya > c_vijaya
+344,c_mukdahan,different_parent,d_mukdahan,d_nakhon_phanom,e_kambuja > k_chenla > d_mukdahan > c_mukdahan,e_kambuja > k_isana > d_nakhon_phanom > c_mukdahan
+353,c_sambhupura,different_parent,d_angkor,d_sambhupura,e_kambuja > k_funan > d_angkor > c_sambhupura,e_kambuja > k_chenla > d_sambhupura > c_sambhupura
+357,c_pursat,different_parent,d_angkor_borey,d_dviradapura,e_kambuja > k_funan > d_angkor_borey > c_pursat,e_kambuja > k_chenla > d_dviradapura > c_pursat
+358,c_baigaur,different_parent,d_baigaur,d_panduranga,e_kambuja > k_funan > d_baigaur > c_baigaur,h_china > e_dai_viet > k_champa > d_panduranga > c_baigaur
+369,k_liuqiu,different_parent,e_nusantara,e_panyupayana,e_nusantara > k_liuqiu,e_panyupayana > k_liuqiu
+371,k_maluku,different_parent,e_nusantara,e_maluku,e_nusantara > k_maluku,e_maluku > k_maluku
+372,k_ruucuu,different_parent,e_nusantara,e_panyupayana,e_nusantara > k_ruucuu,e_panyupayana > k_ruucuu
+373,k_sulawesi,different_parent,e_nusantara,e_maluku,e_nusantara > k_sulawesi,e_maluku > k_sulawesi
+374,k_tanjungnagara,different_parent,e_nusantara,e_kalimantan,e_nusantara > k_tanjungnagara,e_kalimantan > k_tanjungnagara
+378,d_liuqiu,same_parent,k_liuqiu,k_liuqiu,e_nusantara > k_liuqiu > d_liuqiu,e_panyupayana > k_liuqiu > d_liuqiu
+381,d_PHI_sandao,different_parent,k_lusung,k_sulu,e_nusantara > k_lusung > d_PHI_sandao,e_panyupayana > k_sulu > d_PHI_sandao
+388,d_ruucuu,same_parent,k_ruucuu,k_ruucuu,e_nusantara > k_ruucuu > d_ruucuu,e_panyupayana > k_ruucuu > d_ruucuu
+389,d_SuMa_konawe,different_parent,k_sulawesi,k_bungku,e_nusantara > k_sulawesi > d_SuMa_konawe,e_maluku > k_bungku > d_SuMa_konawe
+390,d_SuMa_luwu,different_parent,k_sulawesi,k_south_sulawesi,e_nusantara > k_sulawesi > d_SuMa_luwu,e_maluku > k_south_sulawesi > d_SuMa_luwu
+392,d_SuMa_tompotika,same_parent,k_sulawesi,k_sulawesi,e_nusantara > k_sulawesi > d_SuMa_tompotika,e_maluku > k_sulawesi > d_SuMa_tompotika
+393,d_BOR_barune,different_parent,k_tanjungnagara,k_sulu,e_nusantara > k_tanjungnagara > d_BOR_barune,e_panyupayana > k_sulu > d_BOR_barune
+394,d_BOR_kutai,different_parent,k_tanjungnagara,k_tarakan,e_nusantara > k_tanjungnagara > d_BOR_kutai,e_kalimantan > k_tarakan > d_BOR_kutai
+395,d_BOR_nan_sarunai,different_parent,k_tanjungnagara,k_banjar,e_nusantara > k_tanjungnagara > d_BOR_nan_sarunai,e_kalimantan > k_banjar > d_BOR_nan_sarunai
+396,d_BOR_santubong,different_parent,k_tanjungnagara,k_burune,e_nusantara > k_tanjungnagara > d_BOR_santubong,e_kalimantan > k_burune > d_BOR_santubong
+397,d_BOR_tanjungpura,same_parent,k_tanjungnagara,k_tanjungnagara,e_nusantara > k_tanjungnagara > d_BOR_tanjungpura,e_kalimantan > k_tanjungnagara > d_BOR_tanjungpura
+405,c_PHI_sulu,different_parent,d_PHI_maguindanao,d_lupah_sug,e_nusantara > k_kabisay-an > d_PHI_maguindanao > c_PHI_sulu,e_panyupayana > k_sulu > d_lupah_sug > c_PHI_sulu
+412,c_amis,different_parent,d_liuqiu,d_kiray,e_nusantara > k_liuqiu > d_liuqiu > c_amis,e_panyupayana > k_liuqiu > d_kiray > c_amis
+444,c_amami,same_parent,d_ruucuu,d_ruucuu,e_nusantara > k_ruucuu > d_ruucuu > c_amami,e_panyupayana > k_ruucuu > d_ruucuu > c_amami
+445,c_ucinaa,same_parent,d_ruucuu,d_ruucuu,e_nusantara > k_ruucuu > d_ruucuu > c_ucinaa,e_panyupayana > k_ruucuu > d_ruucuu > c_ucinaa
+460,c_BOR_brunei,different_parent,d_BOR_barune,d_burune,e_nusantara > k_tanjungnagara > d_BOR_barune > c_BOR_brunei,e_kalimantan > k_burune > d_burune > c_BOR_brunei
+465,c_BOR_berau,same_parent,d_BOR_kutai,d_BOR_kutai,e_nusantara > k_tanjungnagara > d_BOR_kutai > c_BOR_berau,e_kalimantan > k_tarakan > d_BOR_kutai > c_BOR_berau
+484,k_yavakadvipa,different_parent,e_srivijaya,e_java,e_srivijaya > k_yavakadvipa,e_java > k_yavakadvipa
+489,d_SUM_aceh,different_parent,k_malayadvipa,k_samudera,e_srivijaya > k_malayadvipa > d_SUM_aceh,e_srivijaya > k_samudera > d_SUM_aceh
+490,d_SUM_jambi,different_parent,k_malayadvipa,k_melayu,e_srivijaya > k_malayadvipa > d_SUM_jambi,e_srivijaya > k_melayu > d_SUM_jambi
+491,d_SUM_minangkabau,different_parent,k_malayadvipa,k_minangkabau,e_srivijaya > k_malayadvipa > d_SUM_minangkabau,e_srivijaya > k_minangkabau > d_SUM_minangkabau
+492,d_SUM_palembang,different_parent,k_malayadvipa,k_palembang,e_srivijaya > k_malayadvipa > d_SUM_palembang,e_srivijaya > k_palembang > d_SUM_palembang
+493,d_SUM_riau,different_parent,k_malayadvipa,k_melayu,e_srivijaya > k_malayadvipa > d_SUM_riau,e_srivijaya > k_melayu > d_SUM_riau
+495,d_JAV_mataram,same_parent,k_yavakadvipa,k_yavakadvipa,e_srivijaya > k_yavakadvipa > d_JAV_mataram,e_java > k_yavakadvipa > d_JAV_mataram
+496,d_JAV_taruma,different_parent,k_yavakadvipa,k_sunda,e_srivijaya > k_yavakadvipa > d_JAV_taruma,e_java > k_sunda > d_JAV_taruma
+509,c_nakkavaram,different_parent,d_handumans,d_hantuman,e_srivijaya > k_malayadvipa > d_handumans > c_nakkavaram,h_india > e_chola > k_tamilakam > d_hantuman > c_nakkavaram
+511,c_nias,different_parent,d_nias,d_mentawai,e_srivijaya > k_malayadvipa > d_nias > c_nias,e_srivijaya > k_minangkabau > d_mentawai > c_nias
+536,c_JAV_madura,different_parent,d_IDO_bali,d_madura,e_srivijaya > k_yavakadvipa > d_IDO_bali > c_JAV_madura,e_java > k_yavakadvipa > d_madura > c_JAV_madura
+546,k_pagan,different_parent,e_suvarnabhumi,e_burma,e_suvarnabhumi > k_pagan,e_burma > k_pagan
+547,k_siam,different_parent,e_suvarnabhumi,e_angkor,e_suvarnabhumi > k_siam,e_angkor > k_siam
+548,d_haripunjaya,different_parent,k_dvaravati,k_haripunjaya,e_suvarnabhumi > k_dvaravati > d_haripunjaya,e_angkor > k_haripunjaya > d_haripunjaya
+549,d_lop_buri,different_parent,k_dvaravati,k_lavapura,e_suvarnabhumi > k_dvaravati > d_lop_buri,e_angkor > k_lavapura > d_lop_buri
+550,d_muang_sua,different_parent,k_dvaravati,k_laos,e_suvarnabhumi > k_dvaravati > d_muang_sua,e_angkor > k_laos > d_muang_sua
+552,d_sukhothai,different_parent,k_dvaravati,k_haripunjaya,e_suvarnabhumi > k_dvaravati > d_sukhothai,e_angkor > k_haripunjaya > d_sukhothai
+554,d_arakan,different_parent,k_pagan,k_arakan,e_suvarnabhumi > k_pagan > d_arakan,e_ramanya > k_arakan > d_arakan
+555,d_mongnai,different_parent,k_pagan,k_mongnai,e_suvarnabhumi > k_pagan > d_mongnai,e_burma > k_mongnai > d_mongnai
+556,d_pagan,same_parent,k_pagan,k_pagan,e_suvarnabhumi > k_pagan > d_pagan,e_burma > k_pagan > d_pagan
+558,d_sriksetra,same_parent,k_pagan,k_pagan,e_suvarnabhumi > k_pagan > d_sriksetra,e_burma > k_pagan > d_sriksetra
+559,d_tagaung,different_parent,k_pagan,k_tagaung,e_suvarnabhumi > k_pagan > d_tagaung,e_burma > k_tagaung > d_tagaung
+561,d_yongchang,different_parent,k_pagan,k_dali,e_suvarnabhumi > k_pagan > d_yongchang,h_china > e_zomia > k_dali > d_yongchang
+562,c_haripunjaya,same_parent,d_haripunjaya,d_haripunjaya,e_suvarnabhumi > k_dvaravati > d_haripunjaya > c_haripunjaya,e_angkor > k_haripunjaya > d_haripunjaya > c_haripunjaya
+565,c_khu_bua,different_parent,d_lop_buri,d_pribpri,e_suvarnabhumi > k_dvaravati > d_lop_buri > c_khu_bua,e_angkor > k_lavapura > d_pribpri > c_khu_bua
+567,c_nakhon_pathom,different_parent,d_lop_buri,d_u_thong,e_suvarnabhumi > k_dvaravati > d_lop_buri > c_nakhon_pathom,e_angkor > k_lavapura > d_u_thong > c_nakhon_pathom
+569,c_luang_prabang,same_parent,d_muang_sua,d_muang_sua,e_suvarnabhumi > k_dvaravati > d_muang_sua > c_luang_prabang,e_angkor > k_laos > d_muang_sua > c_luang_prabang
+574,c_chakangrao,different_parent,d_sukhothai,d_tak,e_suvarnabhumi > k_dvaravati > d_sukhothai > c_chakangrao,e_angkor > k_haripunjaya > d_tak > c_chakangrao
+575,c_lampang,different_parent,d_sukhothai,d_haripunjaya,e_suvarnabhumi > k_dvaravati > d_sukhothai > c_lampang,e_angkor > k_haripunjaya > d_haripunjaya > c_lampang
+576,c_phetchabun,different_parent,d_sukhothai,d_phetchabun,e_suvarnabhumi > k_dvaravati > d_sukhothai > c_phetchabun,e_angkor > k_haripunjaya > d_phetchabun > c_phetchabun
+577,c_sukhothai,same_parent,d_sukhothai,d_sukhothai,e_suvarnabhumi > k_dvaravati > d_sukhothai > c_sukhothai,e_angkor > k_haripunjaya > d_sukhothai > c_sukhothai
+581,c_ramu,different_parent,d_arakan,d_ramu,e_suvarnabhumi > k_pagan > d_arakan > c_ramu,e_ramanya > k_arakan > d_ramu > c_ramu
+582,c_sandoway,different_parent,d_arakan,d_sandoway,e_suvarnabhumi > k_pagan > d_arakan > c_sandoway,e_ramanya > k_arakan > d_sandoway > c_sandoway
+583,c_thabeik_taung,different_parent,d_arakan,d_ramu,e_suvarnabhumi > k_pagan > d_arakan > c_thabeik_taung,e_ramanya > k_arakan > d_ramu > c_thabeik_taung
+584,c_vaisali,same_parent,d_arakan,d_arakan,e_suvarnabhumi > k_pagan > d_arakan > c_vaisali,e_ramanya > k_arakan > d_arakan > c_vaisali
+585,c_hsenwi,different_parent,d_mongnai,d_north_shan,e_suvarnabhumi > k_pagan > d_mongnai > c_hsenwi,e_burma > k_shan > d_north_shan > c_hsenwi
+586,c_mongnai,same_parent,d_mongnai,d_mongnai,e_suvarnabhumi > k_pagan > d_mongnai > c_mongnai,e_burma > k_mongnai > d_mongnai > c_mongnai
+589,c_kyaukse,different_parent,d_pagan,d_maingmaw,e_suvarnabhumi > k_pagan > d_pagan > c_kyaukse,e_burma > k_pagan > d_maingmaw > c_kyaukse
+590,c_minbu,same_parent,d_pagan,d_pagan,e_suvarnabhumi > k_pagan > d_pagan > c_minbu,e_burma > k_pagan > d_pagan > c_minbu
+591,c_pagan,same_parent,d_pagan,d_pagan,e_suvarnabhumi > k_pagan > d_pagan > c_pagan,e_burma > k_pagan > d_pagan > c_pagan
+593,c_yamethin,different_parent,d_pagan,d_binnaka,e_suvarnabhumi > k_pagan > d_pagan > c_yamethin,e_burma > k_pagan > d_binnaka > c_yamethin
+594,c_dagon,different_parent,d_ramannadesa,d_dagon,e_suvarnabhumi > k_pagan > d_ramannadesa > c_dagon,e_ramanya > k_pegu > d_dagon > c_dagon
+596,c_pegu,same_parent,d_ramannadesa,d_ramannadesa,e_suvarnabhumi > k_pagan > d_ramannadesa > c_pegu,e_ramanya > k_pegu > d_ramannadesa > c_pegu
+597,c_sittaung,same_parent,d_ramannadesa,d_ramannadesa,e_suvarnabhumi > k_pagan > d_ramannadesa > c_sittaung,e_ramanya > k_pegu > d_ramannadesa > c_sittaung
+598,c_thaton,different_parent,d_ramannadesa,d_thaton,e_suvarnabhumi > k_pagan > d_ramannadesa > c_thaton,e_ramanya > k_thaton > d_thaton > c_thaton
+600,c_magwe,different_parent,d_sriksetra,d_toungoo,e_suvarnabhumi > k_pagan > d_sriksetra > c_magwe,e_burma > k_pagan > d_toungoo > c_magwe
+601,c_sriksetra,same_parent,d_sriksetra,d_sriksetra,e_suvarnabhumi > k_pagan > d_sriksetra > c_sriksetra,e_burma > k_pagan > d_sriksetra > c_sriksetra
+602,c_toungoo,different_parent,d_sriksetra,d_toungoo,e_suvarnabhumi > k_pagan > d_sriksetra > c_toungoo,e_burma > k_pagan > d_toungoo > c_toungoo
+604,c_kale,different_parent,d_tagaung,d_kale,e_suvarnabhumi > k_pagan > d_tagaung > c_kale,e_burma > k_tagaung > d_kale > c_kale
+605,c_madaya,different_parent,d_tagaung,d_myinmu,e_suvarnabhumi > k_pagan > d_tagaung > c_madaya,e_burma > k_tagaung > d_myinmu > c_madaya
+606,c_takon,same_parent,d_tagaung,d_tagaung,e_suvarnabhumi > k_pagan > d_tagaung > c_takon,e_burma > k_tagaung > d_tagaung > c_takon
+609,c_myitkyina,different_parent,d_tengchong,d_myitkyina,e_suvarnabhumi > k_pagan > d_tengchong > c_myitkyina,e_burma > k_pong > d_myitkyina > c_myitkyina
+611,c_putao,different_parent,d_tengchong,d_myitkyina,e_suvarnabhumi > k_pagan > d_tengchong > c_putao,e_burma > k_pong > d_myitkyina > c_putao
+617,e_jingyang,same_parent,h_china,h_china,h_china > e_jingyang,h_china > e_jingyang
+618,e_liangyi,same_parent,h_china,h_china,h_china > e_liangyi,h_china > e_liangyi
+619,e_lingnan,same_parent,h_china,h_china,h_china > e_lingnan,h_china > e_lingnan
+620,e_minister_censor,same_parent,h_china,h_china,h_china > e_minister_censor,h_china > e_minister_censor
+621,e_minister_chancellor,same_parent,h_china,h_china,h_china > e_minister_chancellor,h_china > e_minister_chancellor
+622,e_minister_grand_marshal,same_parent,h_china,h_china,h_china > e_minister_grand_marshal,h_china > e_minister_grand_marshal
+623,e_minister_of_justice,same_parent,h_china,h_china,h_china > e_minister_of_justice,h_china > e_minister_of_justice
+624,e_minister_of_personnel,same_parent,h_china,h_china,h_china > e_minister_of_personnel,h_china > e_minister_of_personnel
+625,e_minister_of_revenue,same_parent,h_china,h_china,h_china > e_minister_of_revenue,h_china > e_minister_of_revenue
+626,e_minister_of_rites,same_parent,h_china,h_china,h_china > e_minister_of_rites,h_china > e_minister_of_rites
+627,e_minister_of_war,same_parent,h_china,h_china,h_china > e_minister_of_war,h_china > e_minister_of_war
+628,e_minister_of_works,same_parent,h_china,h_china,h_china > e_minister_of_works,h_china > e_minister_of_works
+629,e_yongliang,same_parent,h_china,h_china,h_china > e_yongliang,h_china > e_yongliang
+630,e_zhongyuan,same_parent,h_china,h_china,h_china > e_zhongyuan,h_china > e_zhongyuan
+633,k_hunan,different_parent,e_jingyang,e_yongliang,h_china > e_jingyang > k_hunan,h_china > e_yongliang > k_hunan
+635,k_jiangxi,same_parent,e_jingyang,e_jingyang,h_china > e_jingyang > k_jiangxi,h_china > e_jingyang > k_jiangxi
+636,k_liangzhe,different_parent,e_jingyang,e_dongnan,h_china > e_jingyang > k_liangzhe,h_china > e_dongnan > k_liangzhe
+640,k_kuizhou,same_parent,e_liangyi,e_liangyi,h_china > e_liangyi > k_kuizhou,h_china > e_liangyi > k_kuizhou
+646,k_viet,different_parent,e_lingnan,e_dai_viet,h_china > e_lingnan > k_viet,h_china > e_dai_viet > k_viet
+648,k_xia,same_parent,e_xi_xia,e_xi_xia,e_xi_xia > k_xia,h_china > e_xi_xia > k_xia
+649,k_guishi,different_parent,e_yongliang,e_xi_xia,h_china > e_yongliang > k_guishi,h_china > e_xi_xia > k_guishi
+656,d_jianning,different_parent,k_fujian,k_min,h_china > e_jingyang > k_fujian > d_jianning,h_china > e_jingyang > k_min > d_jianning
+662,d_lingling,different_parent,k_hunan,k_chu_china,h_china > e_jingyang > k_hunan > d_lingling,h_china > e_lingnan > k_chu_china > d_lingling
+669,d_zhexi,different_parent,k_liangzhe,k_yue_china,h_china > e_jingyang > k_liangzhe > d_zhexi,h_china > e_jingyang > k_yue_china > d_zhexi
+674,d_huichuan,different_parent,k_dali,k_dian,h_china > e_liangyi > k_dali > d_huichuan,h_china > e_zomia > k_dian > d_huichuan
+676,d_tonghai,different_parent,k_dali,k_weichu,h_china > e_liangyi > k_dali > d_tonghai,h_china > e_zomia > k_weichu > d_tonghai
+677,d_tuodong,different_parent,k_dali,k_dian,h_china > e_liangyi > k_dali > d_tuodong,h_china > e_zomia > k_dian > d_tuodong
+679,d_dongchuan,different_parent,k_dongchuan,k_dian,h_china > e_liangyi > k_dongchuan > d_dongchuan,h_china > e_zomia > k_dian > d_dongchuan
+684,d_luodian,different_parent,k_qianzhong,k_luodian,h_china > e_liangyi > k_qianzhong > d_luodian,h_china > e_zomia > k_luodian > d_luodian
+685,d_luoshi,different_parent,k_qianzhong,k_luodian,h_china > e_liangyi > k_qianzhong > d_luoshi,h_china > e_zomia > k_luodian > d_luoshi
+702,d_hai_dong,same_parent,k_viet,k_viet,h_china > e_lingnan > k_viet > d_hai_dong,h_china > e_dai_viet > k_viet > d_hai_dong
+703,d_lam_tay,different_parent,k_viet,k_tay_bac,h_china > e_lingnan > k_viet > d_lam_tay,h_china > e_dai_viet > k_tay_bac > d_lam_tay
+704,d_nghe_an,same_parent,k_viet,k_viet,h_china > e_lingnan > k_viet > d_nghe_an,h_china > e_dai_viet > k_viet > d_nghe_an
+705,d_thang_long,same_parent,k_viet,k_viet,h_china > e_lingnan > k_viet > d_thang_long,h_china > e_dai_viet > k_viet > d_thang_long
+714,d_ganzhou,different_parent,k_guishi,k_xia,h_china > e_yongliang > k_guishi > d_ganzhou,h_china > e_xi_xia > k_xia > d_ganzhou
+715,d_guiyi,same_parent,k_guishi,k_guishi,h_china > e_yongliang > k_guishi > d_guiyi,h_china > e_xi_xia > k_guishi > d_guiyi
+716,d_liangzhou,different_parent,k_guishi,k_xia,h_china > e_yongliang > k_guishi > d_liangzhou,h_china > e_xi_xia > k_xia > d_liangzhou
+717,d_shanzhou,same_parent,k_longxi_china,k_longxi_china,h_china > e_yongliang > k_longxi_china > d_shanzhou,h_china > e_yongliang > k_longxi_china > d_shanzhou
+718,d_qilin,different_parent,k_guishi,k_xia,h_china > e_yongliang > k_guishi > d_qilin,h_china > e_xi_xia > k_xia > d_qilin
+731,d_biansong,different_parent,k_henan,k_liang_china,h_china > e_zhongyuan > k_henan > d_biansong,h_china > e_zhongyuan > k_liang_china > d_biansong
+772,c_jiangning,different_parent,d_jiangdong,d_zhenhai_china,h_china > e_jingyang > k_jiangdong > d_jiangdong > c_jiangning,h_china > e_jingyang > k_yue_china > d_zhenhai_china > c_jiangning
+803,c_xiuzhou,same_parent,d_zhexi,d_zhexi,h_china > e_jingyang > k_liangzhe > d_zhexi > c_xiuzhou,h_china > e_jingyang > k_yue_china > d_zhexi > c_xiuzhou
+811,c_hanyang,different_parent,d_jingnan,d_jingnan_china,h_china > e_jingyang > k_shannan > d_jingnan > c_hanyang,h_china > e_jingyang > k_jingnan > d_jingnan_china > c_hanyang
+826,c_huichuan,same_parent,d_huichuan,d_huichuan,h_china > e_liangyi > k_dali > d_huichuan > c_huichuan,h_china > e_zomia > k_dian > d_huichuan > c_huichuan
+832,c_tonghai,same_parent,d_tonghai,d_tonghai,h_china > e_liangyi > k_dali > d_tonghai > c_tonghai,h_china > e_zomia > k_weichu > d_tonghai > c_tonghai
+834,c_dongchuan,different_parent,d_tuodong,d_shicheng,h_china > e_liangyi > k_dali > d_tuodong > c_dongchuan,h_china > e_zomia > k_dian > d_shicheng > c_dongchuan
+836,c_shicheng,different_parent,d_tuodong,d_shicheng,h_china > e_liangyi > k_dali > d_tuodong > c_shicheng,h_china > e_zomia > k_dian > d_shicheng > c_shicheng
+839,c_yinsheng,different_parent,d_yinsheng,d_yongchang,h_china > e_liangyi > k_dali > d_yinsheng > c_yinsheng,h_china > e_zomia > k_dali > d_yongchang > c_yinsheng
+869,c_luodian,same_parent,d_luodian,d_luodian,h_china > e_liangyi > k_qianzhong > d_luodian > c_luodian,h_china > e_zomia > k_luodian > d_luodian > c_luodian
+893,c_chengdu,different_parent,d_xichuan,d_xichuan_china,h_china > e_liangyi > k_xichuan > d_xichuan > c_chengdu,h_china > e_liangyi > k_shu_china > d_xichuan_china > c_chengdu
+915,c_dongguan,different_parent,d_huixun,d_lingnan_china,h_china > e_lingnan > k_lingnan > d_huixun > c_dongguan,h_china > e_lingnan > k_nanyue_china > d_lingnan_china > c_dongguan
+923,c_guangzhou_1,different_parent,d_lingnan,d_lingnan_china,h_china > e_lingnan > k_lingnan > d_lingnan > c_guangzhou_1,h_china > e_lingnan > k_nanyue_china > d_lingnan_china > c_guangzhou_1
+927,c_yingde,different_parent,d_lingnan,d_lingnan_china,h_china > e_lingnan > k_lingnan > d_lingnan > c_yingde,h_china > e_lingnan > k_nanyue_china > d_lingnan_china > c_yingde
+931,c_yazhou,different_parent,d_qiongguan,d_qiongya_china,h_china > e_lingnan > k_lingnan > d_qiongguan > c_yazhou,h_china > e_lingnan > k_nanyue_china > d_qiongya_china > c_yazhou
+986,c_jingzhao,different_parent,d_yongxing,d_xijing_china,h_china > e_yongliang > k_guannei > d_yongxing > c_jingzhao,h_china > e_yongliang > k_qin_china > d_xijing_china > c_jingzhao
+989,c_ganzhou,same_parent,d_ganzhou,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_ganzhou,h_china > e_xi_xia > k_xia > d_ganzhou > c_ganzhou
+990,c_gaotai,same_parent,d_ganzhou,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_gaotai,h_china > e_xi_xia > k_xia > d_ganzhou > c_gaotai
+991,c_linze,same_parent,d_ganzhou,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_linze,h_china > e_xi_xia > k_xia > d_ganzhou > c_linze
+992,c_yumen,same_parent,d_ganzhou,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_yumen,h_china > e_xi_xia > k_xia > d_ganzhou > c_yumen
+993,c_jinta,same_parent,d_ganzhou,d_ganzhou,h_china > e_yongliang > k_guishi > d_ganzhou > c_jinta,h_china > e_xi_xia > k_xia > d_ganzhou > c_jinta
+994,c_guazhou,same_parent,d_guiyi,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_guazhou,h_china > e_xi_xia > k_guishi > d_guiyi > c_guazhou
+995,c_hongliuyuan,same_parent,d_guiyi,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_hongliuyuan,h_china > e_xi_xia > k_guishi > d_guiyi > c_hongliuyuan
+996,c_shazhou,same_parent,d_guiyi,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_shazhou,h_china > e_xi_xia > k_guishi > d_guiyi > c_shazhou
+997,c_yumenguan,same_parent,d_guiyi,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_yumenguan,h_china > e_xi_xia > k_guishi > d_guiyi > c_yumenguan
+998,c_changma,same_parent,d_guiyi,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_changma,h_china > e_xi_xia > k_guishi > d_guiyi > c_changma
+999,c_subei,same_parent,d_guiyi,d_guiyi,h_china > e_yongliang > k_guishi > d_guiyi > c_subei,h_china > e_xi_xia > k_guishi > d_guiyi > c_subei
+1001,c_fanhe,same_parent,d_liangzhou,d_liangzhou,h_china > e_yongliang > k_guishi > d_liangzhou > c_fanhe,h_china > e_xi_xia > k_xia > d_liangzhou > c_fanhe
+1003,c_liangzhou,same_parent,d_liangzhou,d_liangzhou,h_china > e_yongliang > k_guishi > d_liangzhou > c_liangzhou,h_china > e_xi_xia > k_xia > d_liangzhou > c_liangzhou
+1005,c_hezhou_china,same_parent,d_shanzhou,d_shanzhou,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_hezhou_china,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_hezhou_china
+1006,c_kuozhou,same_parent,d_shanzhou,d_shanzhou,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_kuozhou,h_china > e_yongliang > k_longxi_china > d_shanzhou > c_kuozhou
+1008,c_qilin,same_parent,d_qilin,d_qilin,h_china > e_yongliang > k_guishi > d_qilin > c_qilin,h_china > e_xi_xia > k_xia > d_qilin > c_qilin
+1009,c_yalong,same_parent,d_qilin,d_qilin,h_china > e_yongliang > k_guishi > d_qilin > c_yalong,h_china > e_xi_xia > k_xia > d_qilin > c_yalong
+1054,c_bianzhou,same_parent,d_biansong,d_biansong,h_china > e_zhongyuan > k_henan > d_biansong > c_bianzhou,h_china > e_zhongyuan > k_liang_china > d_biansong > c_bianzhou
+1079,c_caozhou,different_parent,d_yuncao,d_pucao_china,h_china > e_zhongyuan > k_qingxu > d_yuncao > c_caozhou,h_china > e_zhongyuan > k_liang_china > d_pucao_china > c_caozhou
+1151,k_mongolia,same_parent,e_mongolia,e_mongolia,e_mongolia > k_mongolia,e_mongolia > k_mongolia
+1152,d_ogrash,same_parent,k_mongolia,k_mongolia,e_mongolia > k_mongolia > d_ogrash,e_mongolia > k_mongolia > d_ogrash
+1153,c_EM_khaldun,same_parent,d_ogrash,d_ogrash,e_mongolia > k_mongolia > d_ogrash > c_EM_khaldun,e_mongolia > k_mongolia > d_ogrash > c_EM_khaldun
+1154,d_khiyat_china,different_parent,k_mongolia,k_hentii,e_mongolia > k_mongolia > d_khiyat_china,e_mongolia > k_hentii > d_khiyat_china
+1155,c_EM_kizilkhentii,same_parent,d_khiyat_china,d_khiyat_china,e_mongolia > k_mongolia > d_khiyat_china > c_EM_kizilkhentii,e_mongolia > k_hentii > d_khiyat_china > c_EM_kizilkhentii
+1156,c_EM_doodonon,same_parent,d_khiyat_china,d_khiyat_china,e_mongolia > k_mongolia > d_khiyat_china > c_EM_doodonon,e_mongolia > k_hentii > d_khiyat_china > c_EM_doodonon
+1157,c_EM_khoyorgol,same_parent,d_khiyat_china,d_khiyat_china,e_mongolia > k_mongolia > d_khiyat_china > c_EM_khoyorgol,e_mongolia > k_hentii > d_khiyat_china > c_EM_khoyorgol
+1158,d_EM_onon,different_parent,k_mongolia,k_hentii,e_mongolia > k_mongolia > d_EM_onon,e_mongolia > k_hentii > d_EM_onon
+1159,c_EM_jiangbian,same_parent,d_EM_onon,d_EM_onon,e_mongolia > k_mongolia > d_EM_onon > c_EM_jiangbian,e_mongolia > k_hentii > d_EM_onon > c_EM_jiangbian
+1160,c_EM_ononum,same_parent,d_EM_onon,d_EM_onon,e_mongolia > k_mongolia > d_EM_onon > c_EM_ononum,e_mongolia > k_hentii > d_EM_onon > c_EM_ononum
+1161,d_EM_yujuelu,different_parent,k_mongolia,k_hentii,e_mongolia > k_mongolia > d_EM_yujuelu,e_mongolia > k_hentii > d_EM_yujuelu
+1162,c_EM_yujuelu,same_parent,d_EM_yujuelu,d_EM_yujuelu,e_mongolia > k_mongolia > d_EM_yujuelu > c_EM_yujuelu,e_mongolia > k_hentii > d_EM_yujuelu > c_EM_yujuelu
+1163,c_EM_tsetsen,same_parent,d_EM_yujuelu,d_EM_yujuelu,e_mongolia > k_mongolia > d_EM_yujuelu > c_EM_tsetsen,e_mongolia > k_hentii > d_EM_yujuelu > c_EM_tsetsen
+1164,c_EM_urtolgod,same_parent,d_EM_yujuelu,d_EM_yujuelu,e_mongolia > k_mongolia > d_EM_yujuelu > c_EM_urtolgod,e_mongolia > k_hentii > d_EM_yujuelu > c_EM_urtolgod
+1165,d_EM_wajiezi,different_parent,k_mongolia,k_hentii,e_mongolia > k_mongolia > d_EM_wajiezi,e_mongolia > k_hentii > d_EM_wajiezi
+1166,c_EM_shilka,same_parent,d_EM_wajiezi,d_EM_wajiezi,e_mongolia > k_mongolia > d_EM_wajiezi > c_EM_shilka,e_mongolia > k_hentii > d_EM_wajiezi > c_EM_shilka
+1167,c_SW_talbai,same_parent,d_EM_wajiezi,d_EM_wajiezi,e_mongolia > k_mongolia > d_EM_wajiezi > c_SW_talbai,e_mongolia > k_hentii > d_EM_wajiezi > c_SW_talbai
+1168,c_EM_khiltsaiz,same_parent,d_EM_wajiezi,d_EM_wajiezi,e_mongolia > k_mongolia > d_EM_wajiezi > c_EM_khiltsaiz,e_mongolia > k_hentii > d_EM_wajiezi > c_EM_khiltsaiz
+1169,k_kerait,same_parent,e_mongolia,e_mongolia,e_mongolia > k_kerait,e_mongolia > k_kerait
+1170,d_ovorkhangai,same_parent,k_kerait,k_kerait,e_mongolia > k_kerait > d_ovorkhangai,e_mongolia > k_kerait > d_ovorkhangai
+1171,c_gobi_gurvan_saikhan,same_parent,d_ovorkhangai,d_ovorkhangai,e_mongolia > k_kerait > d_ovorkhangai > c_gobi_gurvan_saikhan,e_mongolia > k_kerait > d_ovorkhangai > c_gobi_gurvan_saikhan
+1172,k_gobi,same_parent,e_mongolia,e_mongolia,e_mongolia > k_gobi,e_mongolia > k_gobi
+1173,d_em_tataria,same_parent,k_gobi,k_gobi,e_mongolia > k_gobi > d_em_tataria,e_mongolia > k_gobi > d_em_tataria
+1174,c_em_zhen,same_parent,d_em_tataria,d_em_tataria,e_mongolia > k_gobi > d_em_tataria > c_em_zhen,e_mongolia > k_gobi > d_em_tataria > c_em_zhen
+1175,c_em_gobidada,same_parent,d_em_tataria,d_em_tataria,e_mongolia > k_gobi > d_em_tataria > c_em_gobidada,e_mongolia > k_gobi > d_em_tataria > c_em_gobidada
+1176,c_em_dutulun,same_parent,d_em_tataria,d_em_tataria,e_mongolia > k_gobi > d_em_tataria > c_em_dutulun,e_mongolia > k_gobi > d_em_tataria > c_em_dutulun
+1177,c_em_kherulendada,same_parent,d_em_tataria,d_em_tataria,e_mongolia > k_gobi > d_em_tataria > c_em_kherulendada,e_mongolia > k_gobi > d_em_tataria > c_em_kherulendada
+1178,d_em_wuguguo,different_parent,k_gobi,k_dornogovi,e_mongolia > k_gobi > d_em_wuguguo,e_mongolia > k_dornogovi > d_em_wuguguo
+1179,c_em_hepung,same_parent,d_em_wuguguo,d_em_wuguguo,e_mongolia > k_gobi > d_em_wuguguo > c_em_hepung,e_mongolia > k_dornogovi > d_em_wuguguo > c_em_hepung
+1180,c_em_karakopi,same_parent,d_em_wuguguo,d_em_wuguguo,e_mongolia > k_gobi > d_em_wuguguo > c_em_karakopi,e_mongolia > k_dornogovi > d_em_wuguguo > c_em_karakopi
+1181,c_em_akhulun,same_parent,d_em_wuguguo,d_em_wuguguo,e_mongolia > k_gobi > d_em_wuguguo > c_em_akhulun,e_mongolia > k_dornogovi > d_em_wuguguo > c_em_akhulun
+1182,c_em_khartereg,same_parent,d_em_wuguguo,d_em_wuguguo,e_mongolia > k_gobi > d_em_wuguguo > c_em_khartereg,e_mongolia > k_dornogovi > d_em_wuguguo > c_em_khartereg
+1183,d_gobi_dadaels,different_parent,k_gobi,k_dornogovi,e_mongolia > k_gobi > d_gobi_dadaels,e_mongolia > k_dornogovi > d_gobi_dadaels
+1184,c_em_dadaels,same_parent,d_gobi_dadaels,d_gobi_dadaels,e_mongolia > k_gobi > d_gobi_dadaels > c_em_dadaels,e_mongolia > k_dornogovi > d_gobi_dadaels > c_em_dadaels
+1185,c_gobi_ulaantatar,same_parent,d_gobi_dadaels,d_gobi_dadaels,e_mongolia > k_gobi > d_gobi_dadaels > c_gobi_ulaantatar,e_mongolia > k_dornogovi > d_gobi_dadaels > c_gobi_ulaantatar
+1186,d_gobi_shatuoguo,different_parent,k_gobi,k_dornogovi,e_mongolia > k_gobi > d_gobi_shatuoguo,e_mongolia > k_dornogovi > d_gobi_shatuoguo
+1187,c_gobi_dorngovi,same_parent,d_gobi_shatuoguo,d_gobi_shatuoguo,e_mongolia > k_gobi > d_gobi_shatuoguo > c_gobi_dorngovi,e_mongolia > k_dornogovi > d_gobi_shatuoguo > c_gobi_dorngovi
+1188,c_gobi_sonkhot,same_parent,d_gobi_shatuoguo,d_gobi_shatuoguo,e_mongolia > k_gobi > d_gobi_shatuoguo > c_gobi_sonkhot,e_mongolia > k_dornogovi > d_gobi_shatuoguo > c_gobi_sonkhot
+1189,c_gobi_maominggan,same_parent,d_gobi_shatuoguo,d_gobi_shatuoguo,e_mongolia > k_gobi > d_gobi_shatuoguo > c_gobi_maominggan,e_mongolia > k_dornogovi > d_gobi_shatuoguo > c_gobi_maominggan
+1190,c_gobi_abga,same_parent,d_gobi_shatuoguo,d_gobi_shatuoguo,e_mongolia > k_gobi > d_gobi_shatuoguo > c_gobi_abga,e_mongolia > k_dornogovi > d_gobi_shatuoguo > c_gobi_abga
+1191,c_gobi_abakhai,same_parent,d_gobi_shatuoguo,d_gobi_shatuoguo,e_mongolia > k_gobi > d_gobi_shatuoguo > c_gobi_abakhai,e_mongolia > k_dornogovi > d_gobi_shatuoguo > c_gobi_abakhai
+1192,d_gobi_ongi,same_parent,k_gobi,k_gobi,e_mongolia > k_gobi > d_gobi_ongi,e_mongolia > k_gobi > d_gobi_ongi
+1193,c_gobi_ongi_gol,same_parent,d_gobi_ongi,d_gobi_ongi,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ongi_gol,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ongi_gol
+1194,c_gobi_ulaan_nuur,same_parent,d_gobi_ongi,d_gobi_ongi,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ulaan_nuur,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ulaan_nuur
+1195,c_gobi_ulaan_govi,same_parent,d_gobi_ongi,d_gobi_ongi,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ulaan_govi,e_mongolia > k_gobi > d_gobi_ongi > c_gobi_ulaan_govi
+1197,k_liao_zhongjing,same_parent,e_great_liao,e_great_liao,e_great_liao > k_liao_zhongjing,h_china > e_great_liao > k_liao_zhongjing
+1198,d_hejes_china,different_parent,k_khitan,k_khitan_china,e_great_liao > k_khitan > d_hejes_china,h_china > e_great_liao > k_khitan_china > d_hejes_china
+1269,e_himalaya,same_parent,h_india,h_india,h_india > e_himalaya,h_india > e_himalaya
+1270,k_lhomon,same_parent,e_himalaya,e_himalaya,h_india > e_himalaya > k_lhomon,h_india > e_himalaya > k_lhomon
+1271,d_dzayul,same_parent,k_lhomon,k_lhomon,h_india > e_himalaya > k_lhomon > d_dzayul,h_india > e_himalaya > k_lhomon > d_dzayul
+1272,c_rima,same_parent,d_dzayul,d_dzayul,h_india > e_himalaya > k_lhomon > d_dzayul > c_rima,h_india > e_himalaya > k_lhomon > d_dzayul > c_rima
+1273,c_golag,same_parent,d_dzayul,d_dzayul,h_india > e_himalaya > k_lhomon > d_dzayul > c_golag,h_india > e_himalaya > k_lhomon > d_dzayul > c_golag
+1274,c_tezu,same_parent,d_dzayul,d_dzayul,h_india > e_himalaya > k_lhomon > d_dzayul > c_tezu,h_india > e_himalaya > k_lhomon > d_dzayul > c_tezu
+1275,e_bengal,same_parent,h_india,h_india,h_india > e_bengal,h_india > e_bengal
+1276,k_bengal_east,same_parent,e_bengal,e_bengal,h_india > e_bengal > k_bengal_east,h_india > e_bengal > k_bengal_east
+1277,d_vanga,same_parent,k_bengal_east,k_bengal_east,h_india > e_bengal > k_bengal_east > d_vanga,h_india > e_bengal > k_bengal_east > d_vanga
+1278,c_karmanta,same_parent,d_vanga,d_vanga,h_india > e_bengal > k_bengal_east > d_vanga > c_karmanta,h_india > e_bengal > k_bengal_east > d_vanga > c_karmanta
+1279,d_chattogram,same_parent,k_bengal_east,k_bengal_east,h_india > e_bengal > k_bengal_east > d_chattogram,h_india > e_bengal > k_bengal_east > d_chattogram
+1280,c_chatigama,same_parent,d_chattogram,d_chattogram,h_india > e_bengal > k_bengal_east > d_chattogram > c_chatigama,h_india > e_bengal > k_bengal_east > d_chattogram > c_chatigama
+1281,c_samatata,same_parent,d_chattogram,d_chattogram,h_india > e_bengal > k_bengal_east > d_chattogram > c_samatata,h_india > e_bengal > k_bengal_east > d_chattogram > c_samatata
+1282,e_pragjyotisha,same_parent,h_india,h_india,h_india > e_pragjyotisha,h_india > e_pragjyotisha
+1283,k_chutia,same_parent,e_pragjyotisha,e_pragjyotisha,h_india > e_pragjyotisha > k_chutia,h_india > e_pragjyotisha > k_chutia
+1284,k_ahom,same_parent,e_pragjyotisha,e_pragjyotisha,h_india > e_pragjyotisha > k_ahom,h_india > e_pragjyotisha > k_ahom
+1285,d_ahom,same_parent,k_ahom,k_ahom,h_india > e_pragjyotisha > k_ahom > d_ahom,h_india > e_pragjyotisha > k_ahom > d_ahom
+1286,k_kamarupa,same_parent,e_pragjyotisha,e_pragjyotisha,h_india > e_pragjyotisha > k_kamarupa,h_india > e_pragjyotisha > k_kamarupa
+1287,d_sutiya,same_parent,k_kamarupa,k_kamarupa,h_india > e_pragjyotisha > k_kamarupa > d_sutiya,h_india > e_pragjyotisha > k_kamarupa > d_sutiya
+1288,c_charaideo,same_parent,d_sutiya,d_sutiya,h_india > e_pragjyotisha > k_kamarupa > d_sutiya > c_charaideo,h_india > e_pragjyotisha > k_kamarupa > d_sutiya > c_charaideo
+1289,c_kundina,same_parent,d_sutiya,d_sutiya,h_india > e_pragjyotisha > k_kamarupa > d_sutiya > c_kundina,h_india > e_pragjyotisha > k_kamarupa > d_sutiya > c_kundina
+1290,k_manipur,same_parent,e_pragjyotisha,e_pragjyotisha,h_india > e_pragjyotisha > k_manipur,h_india > e_pragjyotisha > k_manipur
+1291,d_manipur,same_parent,k_manipur,k_manipur,h_india > e_pragjyotisha > k_manipur > d_manipur,h_india > e_pragjyotisha > k_manipur > d_manipur
+1292,c_manipur,same_parent,d_manipur,d_manipur,h_india > e_pragjyotisha > k_manipur > d_manipur > c_manipur,h_india > e_pragjyotisha > k_manipur > d_manipur > c_manipur
+1293,k_tripura,same_parent,e_pragjyotisha,e_pragjyotisha,h_india > e_pragjyotisha > k_tripura,h_india > e_pragjyotisha > k_tripura
+1294,d_tripura,same_parent,k_tripura,k_tripura,h_india > e_pragjyotisha > k_tripura > d_tripura,h_india > e_pragjyotisha > k_tripura > d_tripura
+1295,c_harikela,same_parent,d_tripura,d_tripura,h_india > e_pragjyotisha > k_tripura > d_tripura > c_harikela,h_india > e_pragjyotisha > k_tripura > d_tripura > c_harikela
+1297,k_kham,same_parent,e_tibet,e_tibet,e_tibet > k_kham,e_tibet > k_kham
+1298,d_qamdo,same_parent,k_kham,k_kham,e_tibet > k_kham > d_qamdo,e_tibet > k_kham > d_qamdo
+1299,c_qamdo,same_parent,d_qamdo,d_qamdo,e_tibet > k_kham > d_qamdo > c_qamdo,e_tibet > k_kham > d_qamdo > c_qamdo
+1300,d_boyul,same_parent,k_kham,k_kham,e_tibet > k_kham > d_boyul,e_tibet > k_kham > d_boyul
+1301,c_baxoi,same_parent,d_boyul,d_boyul,e_tibet > k_kham > d_boyul > c_baxoi,e_tibet > k_kham > d_boyul > c_baxoi
+1302,c_zogang,same_parent,d_boyul,d_boyul,e_tibet > k_kham > d_boyul > c_zogang,e_tibet > k_kham > d_boyul > c_zogang
+1303,d_batang,same_parent,k_kham,k_kham,e_tibet > k_kham > d_batang,e_tibet > k_kham > d_batang
+1304,c_batang,same_parent,d_batang,d_batang,e_tibet > k_kham > d_batang > c_batang,e_tibet > k_kham > d_batang > c_batang
+1305,c_markam,same_parent,d_batang,d_batang,e_tibet > k_kham > d_batang > c_markam,e_tibet > k_kham > d_batang > c_markam
+1306,c_deqen,different_parent,d_batang,d_koksang,e_tibet > k_kham > d_batang > c_deqen,h_china > e_zomia > k_dali > d_koksang > c_deqen
+1307,c_gyaitang,same_parent,d_batang,d_batang,e_tibet > k_kham > d_batang > c_gyaitang,e_tibet > k_kham > d_batang > c_gyaitang
+1308,d_litang,same_parent,k_kham,k_kham,e_tibet > k_kham > d_litang,e_tibet > k_kham > d_litang
+1309,c_lenggu,same_parent,d_litang,d_litang,e_tibet > k_kham > d_litang > c_lenggu,e_tibet > k_kham > d_litang > c_lenggu
+1310,k_gyalrong,same_parent,e_tibet,e_tibet,e_tibet > k_gyalrong,e_tibet > k_gyalrong
+1311,d_gyalrong,same_parent,k_gyalrong,k_gyalrong,e_tibet > k_gyalrong > d_gyalrong,e_tibet > k_gyalrong > d_gyalrong
+1312,c_barkam,same_parent,d_gyalrong,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_barkam,e_tibet > k_gyalrong > d_gyalrong > c_barkam
+1313,c_ngawa,same_parent,d_gyalrong,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_ngawa,e_tibet > k_gyalrong > d_gyalrong > c_ngawa
+1314,c_maowun,same_parent,d_gyalrong,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_maowun,e_tibet > k_gyalrong > d_gyalrong > c_maowun
+1315,c_sungqu,same_parent,d_gyalrong,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_sungqu,e_tibet > k_gyalrong > d_gyalrong > c_sungqu
+1316,c_zoige,same_parent,d_gyalrong,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_zoige,e_tibet > k_gyalrong > d_gyalrong > c_zoige
+1317,c_quqen,same_parent,d_gyalrong,d_gyalrong,e_tibet > k_gyalrong > d_gyalrong > c_quqen,e_tibet > k_gyalrong > d_gyalrong > c_quqen
+1318,d_chakla,same_parent,k_gyalrong,k_gyalrong,e_tibet > k_gyalrong > d_chakla,e_tibet > k_gyalrong > d_chakla
+1319,c_chakla,same_parent,d_chakla,d_chakla,e_tibet > k_gyalrong > d_chakla > c_chakla,e_tibet > k_gyalrong > d_chakla > c_chakla
+1320,c_lhagang,same_parent,d_chakla,d_chakla,e_tibet > k_gyalrong > d_chakla > c_lhagang,e_tibet > k_gyalrong > d_chakla > c_lhagang
+1321,c_dawu,same_parent,d_chakla,d_chakla,e_tibet > k_gyalrong > d_chakla > c_dawu,e_tibet > k_gyalrong > d_chakla > c_dawu
+1322,d_gainlho,same_parent,k_gyalrong,k_gyalrong,e_tibet > k_gyalrong > d_gainlho,e_tibet > k_gyalrong > d_gainlho
+1323,c_jone,same_parent,d_gainlho,d_gainlho,e_tibet > k_gyalrong > d_gainlho > c_jone,e_tibet > k_gyalrong > d_gainlho > c_jone
+1324,c_tewo,same_parent,d_gainlho,d_gainlho,e_tibet > k_gyalrong > d_gainlho > c_tewo,e_tibet > k_gyalrong > d_gainlho > c_tewo
+1325,k_longxi_china,same_parent,e_yongliang,e_yongliang,h_china > e_yongliang > k_longxi_china,h_china > e_yongliang > k_longxi_china
+1326,d_lintao,same_parent,k_longxi_china,k_longxi_china,h_china > e_yongliang > k_longxi_china > d_lintao,h_china > e_yongliang > k_longxi_china > d_lintao
+1327,d_gongmin,same_parent,k_longxi_china,k_longxi_china,h_china > e_yongliang > k_longxi_china > d_gongmin,h_china > e_yongliang > k_longxi_china > d_gongmin
+1347,c_langshan,different_parent,d_langshan,d_wuluhai,e_xi_xia > k_xia > d_langshan > c_langshan,h_china > e_xi_xia > k_xia_china > d_wuluhai > c_langshan
+1350,d_zhenfan,same_parent,k_xia,k_xia,e_xi_xia > k_xia > d_zhenfan,h_china > e_xi_xia > k_xia > d_zhenfan

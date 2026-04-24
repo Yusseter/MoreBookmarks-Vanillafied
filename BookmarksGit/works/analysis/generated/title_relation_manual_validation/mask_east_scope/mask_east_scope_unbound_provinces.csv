@@ -1028,9 +1028,6 @@ province_id,red,green,blue,province_name,terrain_or_x,binding_status
 14643,1,5,9,zz_placeholder_14643,x,missing_landed_title_binding
 14644,1,5,10,zz_placeholder_14644,x,missing_landed_title_binding
 14645,1,5,11,zz_placeholder_14645,x,missing_landed_title_binding
-14646,1,5,12,zz_placeholder_14646,x,missing_landed_title_binding
-14647,1,5,13,zz_placeholder_14647,x,missing_landed_title_binding
-14648,1,5,14,zz_placeholder_14648,x,missing_landed_title_binding
 12776,1,5,27,Mountains,x,missing_landed_title_binding
 12775,1,5,28,PLACEHOLDER_REGION_KOREA,x,missing_landed_title_binding
 12784,1,5,29,IMPASSABLE CENTRAL GOBI 1,x,missing_landed_title_binding

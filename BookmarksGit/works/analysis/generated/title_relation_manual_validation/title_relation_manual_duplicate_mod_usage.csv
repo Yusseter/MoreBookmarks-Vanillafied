@@ -76,22 +76,38 @@ error:multiple_primary_uses,b_yinzhou_china,b_Liao_Yinzhou,396,False,b_yinzhou_c
 error:multiple_primary_uses,b_yinzhou_china,b_yinzhou,3087,False,b_yinzhou_china,b_Liao_Yinzhou | b_yinzhou
 allowed:secondary_uses_marked,c_changling_china,c_BAL_east_jangryeong,217,False,c_changling_china,c_BAL_east_jangryeong | c_BAL_west_jangryeong
 allowed:secondary_uses_marked,c_changling_china,c_BAL_west_jangryeong,219,True,c_changling_china (second),c_BAL_east_jangryeong | c_BAL_west_jangryeong
+error:multiple_primary_uses,c_changma,c_xincheng,2515,False,c_changma,c_changma | c_xincheng
+error:multiple_primary_uses,c_changma,c_changma,3790,False,c_changma,c_changma | c_xincheng
 allowed:secondary_uses_marked,c_chenzhou_hunan_china,c_chenzhou_1,2278,False,c_chenzhou_hunan_china,c_chenzhou_1 | c_guiyang
 allowed:secondary_uses_marked,c_chenzhou_hunan_china,c_guiyang,2279,True,c_chenzhou_hunan_china (second),c_chenzhou_1 | c_guiyang
 allowed:secondary_uses_marked,c_fuzhou_jiangxi_china,c_fuzhou_2,2299,False,c_fuzhou_jiangxi_china,c_fuzhou_2 | c_jianchang
 allowed:secondary_uses_marked,c_fuzhou_jiangxi_china,c_jianchang,2301,True,c_fuzhou_jiangxi_china (second),c_fuzhou_2 | c_jianchang
 allowed:secondary_uses_marked,c_fuzou_china,c_funing,2266,True,c_fuzou_china (second),c_funing | c_fuzhou_1
 allowed:secondary_uses_marked,c_fuzou_china,c_fuzhou_1,2267,False,c_fuzou_china,c_funing | c_fuzhou_1
+error:multiple_primary_uses,c_gaotai,c_jiankang,2506,False,c_gaotai,c_gaotai | c_jiankang
+error:multiple_primary_uses,c_gaotai,c_gaotai,3785,False,c_gaotai,c_gaotai | c_jiankang
 allowed:secondary_uses_marked,c_helan_china,c_BAL_fengzhou,232,False,c_helan_china,c_BAL_fengzhou | c_BAL_southyongwon
 allowed:secondary_uses_marked,c_helan_china,c_BAL_southyongwon,235,True,c_helan_china (second),c_BAL_fengzhou | c_BAL_southyongwon
+error:multiple_primary_uses,c_hezhou_china,c_hezhou_2,2522,False,c_hezhou_china,c_hezhou_2 | c_hezhou_china
+error:multiple_primary_uses,c_hezhou_china,c_hezhou_china,3792,False,c_hezhou_china,c_hezhou_2 | c_hezhou_china
+error:multiple_primary_uses,c_hongliuyuan,c_hehe,2512,False,c_hongliuyuan,c_hehe | c_hongliuyuan
+error:multiple_primary_uses,c_hongliuyuan,c_hongliuyuan,3788,False,c_hongliuyuan,c_hehe | c_hongliuyuan
+allowed:secondary_uses_marked,c_huizhou_china,c_wulan,4028,True,c_huizhou_china (second),c_huizhou | c_wulan
+allowed:secondary_uses_marked,c_huizhou_china,c_huizhou,4030,False,c_huizhou_china,c_huizhou | c_wulan
 allowed:secondary_uses_marked,c_jiangzhou_wu_china,c_nankang,2295,True,c_jiangzhou_wu_china (second),c_nankang | c_yunyang
 allowed:secondary_uses_marked,c_jiangzhou_wu_china,c_yunyang,2298,False,c_jiangzhou_wu_china,c_nankang | c_yunyang
 allowed:secondary_uses_marked,c_jianzhou_min_china,c_jian_an,2259,False,c_jianzhou_min_china,c_jian_an | c_shaowu
 allowed:secondary_uses_marked,c_jianzhou_min_china,c_shaowu,2261,True,c_jianzhou_min_china (second),c_jian_an | c_shaowu
+error:multiple_primary_uses,c_jinta,c_zhenwu_1,2510,False,c_jinta,c_jinta | c_zhenwu_1
+error:multiple_primary_uses,c_jinta,c_jinta,3787,False,c_jinta,c_jinta | c_zhenwu_1
+allowed:secondary_uses_marked,c_langshan,c_lxj_fengzhou,4040,True,c_langshan (second),c_langshan | c_lxj_fengzhou
+allowed:secondary_uses_marked,c_langshan,c_langshan,4042,False,c_langshan,c_langshan | c_lxj_fengzhou
 allowed:secondary_uses_marked,c_liangzhou_huangzhou_china,c_guzhou,2398,True,c_liangzhou_huangzhou_china (second),c_guzhou | c_huangzhou_1
 allowed:secondary_uses_marked,c_liangzhou_huangzhou_china,c_huangzhou_1,2399,False,c_liangzhou_huangzhou_china,c_guzhou | c_huangzhou_1
 allowed:secondary_uses_marked,c_ligao_china,c_nanzhou,2373,True,c_ligao_china (second),c_nanzhou | c_zhenxi
 allowed:secondary_uses_marked,c_ligao_china,c_zhenxi,2378,False,c_ligao_china,c_nanzhou | c_zhenxi
+error:multiple_primary_uses,c_linze,c_liaoquan,2508,False,c_linze,c_liaoquan | c_linze
+error:multiple_primary_uses,c_linze,c_linze,3786,False,c_linze,c_liaoquan | c_linze
 allowed:secondary_uses_marked,c_luanzhou_china,c_guile,2395,False,c_luanzhou_china,c_guile | c_nanping
 allowed:secondary_uses_marked,c_luanzhou_china,c_nanping,2401,True,c_luanzhou_china (second),c_guile | c_nanping
 allowed:secondary_uses_marked,c_luyang_china,c_luyang,2381,False,c_luyang_china,c_luyang | c_yezhou
@@ -100,6 +116,8 @@ allowed:secondary_uses_marked,c_luzhou_dongchuan_china,c_changzhou_1,2362,True,c
 allowed:secondary_uses_marked,c_luzhou_dongchuan_china,c_luzhou_2,2363,False,c_luzhou_dongchuan_china,c_changzhou_1 | c_luzhou_2
 allowed:secondary_uses_marked,c_nanenzhou_china,c_chunzhou,2436,True,c_nanenzhou_china (second),c_chunzhou | c_enzhou
 allowed:secondary_uses_marked,c_nanenzhou_china,c_enzhou,2438,False,c_nanenzhou_china,c_chunzhou | c_enzhou
+allowed:secondary_uses_marked,c_ordos_china,c_quye,4037,False,c_ordos_china,c_hequ | c_quye
+allowed:secondary_uses_marked,c_ordos_china,c_hequ,4044,True,c_ordos_china (second),c_hequ | c_quye
 allowed:secondary_uses_marked,c_qianzhou_jiangxi_china,c_nanan,2306,True,c_qianzhou_jiangxi_china (second),c_nanan | c_ningduzhou | c_qianzhou
 allowed:secondary_uses_marked,c_qianzhou_jiangxi_china,c_ningduzhou,2307,True,c_qianzhou_jiangxi_china (second),c_nanan | c_ningduzhou | c_qianzhou
 allowed:secondary_uses_marked,c_qianzhou_jiangxi_china,c_qianzhou,2308,False,c_qianzhou_jiangxi_china,c_nanan | c_ningduzhou | c_qianzhou
@@ -110,10 +128,16 @@ allowed:secondary_uses_marked,c_rongzhou_xichuan_china,c_rongzhou,2365,True,c_ro
 allowed:secondary_uses_marked,c_salawati,c_kepala_burung,1342,False,c_salawati,c_kepala_burung | c_papua_selatan | c_sran
 allowed:secondary_uses_marked,c_salawati,c_papua_selatan,1343,True,c_salawati (second),c_kepala_burung | c_papua_selatan | c_sran
 allowed:secondary_uses_marked,c_salawati,c_sran,1344,True,c_salawati (second),c_kepala_burung | c_papua_selatan | c_sran
+error:multiple_primary_uses,c_shanzhou,c_xiningzhou,2525,False,c_shanzhou,c_shanzhou_mbp | c_xiningzhou
+error:multiple_primary_uses,c_shanzhou,c_shanzhou_mbp,3793,False,c_shanzhou,c_shanzhou_mbp | c_xiningzhou
 allowed:secondary_uses_marked,c_shukunzhou_china,c_qingyuan,2451,False,c_shukunzhou_china,c_qingyuan | c_shukunzhou
 allowed:secondary_uses_marked,c_shukunzhou_china,c_shukunzhou,2466,True,c_shukunzhou_china (second),c_qingyuan | c_shukunzhou
+error:multiple_primary_uses,c_subei,c_ziting,2516,False,c_subei,c_subei | c_ziting
+error:multiple_primary_uses,c_subei,c_subei,3791,False,c_subei,c_subei | c_ziting
 allowed:secondary_uses_marked,c_sumozhou_china,c_BAL_xinzhou,222,False,c_sumozhou_china,c_BAL_sokju | c_BAL_xinzhou
 allowed:secondary_uses_marked,c_sumozhou_china,c_BAL_sokju,225,True,c_sumozhou_china (second),c_BAL_sokju | c_BAL_xinzhou
+error:multiple_primary_uses,c_suzhou,c_jiuquan,2507,False,c_suzhou,c_jiuquan | c_suzhou_mbp
+error:multiple_primary_uses,c_suzhou,c_suzhou_mbp,3794,False,c_suzhou,c_jiuquan | c_suzhou_mbp
 allowed:secondary_uses_marked,c_wetar,c_IDO_galiyao,1335,False,c_wetar,c_IDO_barat_daya | c_IDO_galiyao | c_aru
 allowed:secondary_uses_marked,c_wetar,c_IDO_barat_daya,1338,True,c_wetar (second),c_IDO_barat_daya | c_IDO_galiyao | c_aru
 allowed:secondary_uses_marked,c_wetar,c_aru,1341,True,c_wetar (second),c_IDO_barat_daya | c_IDO_galiyao | c_aru
@@ -131,11 +155,29 @@ allowed:secondary_uses_marked,c_yuanzou_xia_china,c_xiaoguan,2490,True,c_yuanzou
 allowed:secondary_uses_marked,c_yuanzou_xia_china,c_yuanzhou_2,2491,False,c_yuanzou_xia_china,c_xiaoguan | c_yuanzhou_2
 allowed:secondary_uses_marked,c_yulinzhou_china,c_baizhou,2457,True,c_yulinzhou_china (second),c_baizhou | c_yulin
 allowed:secondary_uses_marked,c_yulinzhou_china,c_yulin,2461,False,c_yulinzhou_china,c_baizhou | c_yulin
+error:multiple_primary_uses,c_yumenguan,c_shouchang,2514,False,c_yumenguan,c_shouchang | c_yumenguan
+error:multiple_primary_uses,c_yumenguan,c_yumenguan,3789,False,c_yumenguan,c_shouchang | c_yumenguan
 allowed:secondary_uses_marked,c_yunzhou_jiangxi_china,c_linjiang,2303,True,c_yunzhou_jiangxi_china (second),c_linjiang | c_yunzhou_2
 allowed:secondary_uses_marked,c_yunzhou_jiangxi_china,c_yunzhou_2,2305,False,c_yunzhou_jiangxi_china,c_linjiang | c_yunzhou_2
 allowed:secondary_uses_marked,c_zhenzhou_zhuyajun_china,c_danzhou_1,2444,True,c_zhenzhou_zhuyajun_china (second),c_danzhou_1 | c_yazhou_1
 allowed:secondary_uses_marked,c_zhenzhou_zhuyajun_china,c_yazhou_1,2448,False,c_zhenzhou_zhuyajun_china,c_danzhou_1 | c_yazhou_1
 allowed:secondary_uses_marked,d_chugoku,d_west_sanindo,851,True,d_chugoku (second),d_west_sanindo | d_west_sanyodo
 allowed:secondary_uses_marked,d_chugoku,d_west_sanyodo,852,False,d_chugoku,d_west_sanindo | d_west_sanyodo
+error:multiple_primary_uses,d_ganzhou,d_gansu,2230,False,d_ganzhou,d_gansu | d_ganzhou
+error:multiple_primary_uses,d_ganzhou,d_ganzhou,3780,False,d_ganzhou,d_gansu | d_ganzhou
 allowed:secondary_uses_marked,d_guiguan_china,d_guiguan,2214,False,d_guiguan_china,d_guiguan | d_jingjiang
 allowed:secondary_uses_marked,d_guiguan_china,d_jingjiang,2215,True,d_guiguan_china (second),d_guiguan | d_jingjiang
+error:multiple_primary_uses,d_guiyi,d_guasha,2231,False,d_guiyi,d_guasha | d_guiyi
+error:multiple_primary_uses,d_guiyi,d_guiyi,3781,False,d_guiyi,d_guasha | d_guiyi
+error:multiple_primary_uses,d_liangzhou,d_hexi,2232,False,d_liangzhou,d_hexi | d_liangzhou
+error:multiple_primary_uses,d_liangzhou,d_liangzhou,3782,False,d_liangzhou,d_hexi | d_liangzhou
+error:multiple_primary_uses,d_qilin,d_qilian,2234,False,d_qilin,d_qilian | d_qilin
+error:multiple_primary_uses,d_qilin,d_qilin,3784,False,d_qilin,d_qilian | d_qilin
+error:multiple_primary_uses,d_shanzhou,d_longyou,2233,False,d_shanzhou,d_longyou | d_shanzhou
+error:multiple_primary_uses,d_shanzhou,d_shanzhou,3783,False,d_shanzhou,d_longyou | d_shanzhou
+error:multiple_primary_uses,d_zhaowu,d_xingfeng,2228,False,d_zhaowu,d_xingfeng | d_zhaowu
+error:multiple_primary_uses,d_zhaowu,d_zhaowu,3839,False,d_zhaowu,d_xingfeng | d_zhaowu
+error:multiple_primary_uses,k_liao_zhongjing,k_raole,191,False,k_liao_zhongjing,k_liao_zhongjing | k_raole
+error:multiple_primary_uses,k_liao_zhongjing,k_liao_zhongjing,3892,False,k_liao_zhongjing,k_liao_zhongjing | k_raole
+error:multiple_primary_uses,k_xia,k_hexi,2164,False,k_xia,k_hexi | k_xia
+error:multiple_primary_uses,k_xia,k_xia,2165,False,k_xia,k_hexi | k_xia

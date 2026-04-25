@@ -1,4 +1,4 @@
-﻿##MODIFIED VANILLA FILE##
+##MODIFIED VANILLA FILE##
 @correct_culture_primary_score = 100
 @better_than_the_alternatives_score = 50
 @always_primary_score = 1000
@@ -555,7 +555,7 @@ k_zhengyi = { #Tibetan Buddhism
 	can_use_nomadic_naming = no
     landless = yes
 
-    capital = c_fuzhou
+    capital = c_fuzhou_5
 
     ai_primary_priority = {
         add = @always_primary_score
@@ -2011,7 +2011,7 @@ d_zhengyi = {
 	can_use_nomadic_naming = no
     landless = yes
 
-    capital = c_fuzhou
+    capital = c_fuzhou_5
 
     ai_primary_priority = {
         add = @always_primary_score
@@ -2030,7 +2030,7 @@ d_shangqing = {
 	can_use_nomadic_naming = no
     landless = yes
 
-    capital = c_fuzhou
+    capital = c_fuzhou_5
 
     ai_primary_priority = {
         add = @always_primary_score
@@ -2466,23 +2466,23 @@ e_golden_horde = { #White Horde
 
 }
 
-e_blue_horde = { #Blue Horde
-
-	color = { 234 235 220 }
-
-	definite_form = yes
-	can_be_named_after_dynasty = no
-	can_use_nomadic_naming = no
-	disable_regnal_numbers = yes
-
-	capital = c_sighnaq
-	#can_create_on_partition = { always = no }
-
-	can_create = {
-		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
-	}
-
-}
+#e_blue_horde = { #Blue Horde
+#
+#	color = { 234 235 220 }
+#
+#	definite_form = yes
+#	can_be_named_after_dynasty = no
+#	can_use_nomadic_naming = no
+#	disable_regnal_numbers = yes
+#
+#	capital = c_sighnaq
+#	#can_create_on_partition = { always = no }
+#
+#	can_create = {
+#		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+#	}
+#
+#}
 
 e_white_horde = {
 
@@ -2645,7 +2645,7 @@ e_blue_horde = {
 
 	definite_form = yes
 
-	capital = c_yamashiro
+	capital = c_sighnaq #c_yamashiro
 
 	can_create = {
 		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
@@ -2972,7 +2972,7 @@ e_wu = {
 
 e_min = {
 	color = { 102 105 186 }
-	capital = c_fuzhou
+	capital = c_fuzhou_1
 	destroy_if_invalid_heir = yes
 
 	can_create = {
@@ -2992,7 +2992,7 @@ e_yin = {
 
 e_wei = { #魏
 	color = { 63 72 124 }
-	capital = c_yunzhou
+	capital = c_datong_2
 	can_be_named_after_dynasty = no
 
 	can_create = {
@@ -3012,7 +3012,7 @@ e_qin = { #魏
 
 e_wei3 = { #魏
 	color = { 63 72 124 }
-	capital = c_yunzhou
+	capital = c_datong_2
 	can_be_named_after_dynasty = no
 
 	can_create = {
@@ -3447,7 +3447,7 @@ k_visigoths = {
 
 k_tsongkha = {
 	color = { 50 60 105 }
-	capital = c_shanzhou
+	capital = c_shanzhou_mbp
 	can_use_nomadic_naming = no
 }
 
@@ -3502,7 +3502,7 @@ k_pechenegs = {
 k_chiang_hung = {
 	color = { 230 35 55 }
 
-	capital = c_luang_prabang
+	capital = c_chiang_rung
 
 	landless = yes
     destroy_if_invalid_heir = yes
@@ -3511,9 +3511,6 @@ k_chiang_hung = {
     de_jure_drift_disabled = no
 
 }
-
-# This exists just for the bookmark
-k_dali = {}  
 
 k_jinghai = {
     color = { 84 163 69 }
@@ -3934,7 +3931,7 @@ d_panai = {
 
 d_weisheng = {
 	color = { 162 115 106 }
-	capital = c_dengzhou
+	capital = c_dengzhou_1
 	destroy_if_invalid_heir = yes
 }
 
@@ -3945,19 +3942,19 @@ d_anyuan = {
 }
 d_baosai = {
 	color = { 162 115 106 }
-	capital = c_yanzhou_3
+	capital = c_yan_an
 	destroy_if_invalid_heir = yes
 }
 
 d_jianxiong = {
 	color = { 162 115 106 }
-	capital = c_jinzhou_1
+	capital = c_pingyang
 	destroy_if_invalid_heir = yes
 }
 
 d_zhaowu = {
 	color = { 62 115 106 }
-	capital = c_xingzhou
+	capital = c_xingqing
 	destroy_if_invalid_heir = yes
 }
 
@@ -43987,26 +43984,6 @@ e_great_liao = {
         }
 	}
 
-	k_goguryeo = {
-		color = { 84 59 191 }
-
-		can_be_named_after_dynasty = no
-		
-		
-		can_create = {
-			# Cannot be created by Goryeo after it is formed
-			custom_tooltip = {
-				text = unify_goryeo_decision_blocker_tt
-				NOT = {
-					top_liege = {
-						has_title = title:e_goryeo
-						has_government = meritocratic_government
-					}
-				}
-			}
-		}
-    }
-
 }
 
 e_turan = {
@@ -78957,7 +78934,7 @@ d_laamp_Idrisi1144 = { #
 
 d_laamp_hanshantong1337 = { #
 	color = { 100 100 100 }
-	capital = c_yingzhou
+	capital = c_yingzhou_2
 
 	definite_form = yes
 	landless = yes
@@ -78983,7 +78960,7 @@ d_laamp_mingyuzhen1337 = { #
 
 d_laamp_youliang1337 = { #
 	color = { 100 100 100 }
-	capital = c_yuezhou
+	capital = c_yuezhou_1
 
 	definite_form = yes
 	landless = yes
@@ -79084,7 +79061,7 @@ d_laamp_xuanji = { # Yu Xuanji
 
 d_laamp_ding_hui = { # Ding Hui, The Wayward Spears
 	color = { 100 100 100 }
-	capital = c_weizhou
+	capital = c_henan
 
 	definite_form = yes
 	landless = yes
@@ -79112,7 +79089,7 @@ d_laamp_liang_zhu_quanzhong = { # Liang Zhu Quanzhong, Zhu's Iron Host
 
 d_laamp_liangshan_band = { # Song Jiang, Liangshan Band
 	color = { 100 100 100 }
-	capital = c_qiongzhou
+	capital = c_yunzhou
 
 	definite_form = yes
 	landless = yes
@@ -79126,7 +79103,7 @@ d_laamp_liangshan_band = { # Song Jiang, Liangshan Band
 
 d_laamp_frontier_guardians = { # Yang Zongbao, Frontier Guardians
 	color = { 100 100 100 }
-	capital = c_taiyuan
+	capital = c_shangxi
 
 	definite_form = yes
 	landless = yes
@@ -79170,7 +79147,7 @@ d_laamp_disciples_of_chongyang = { # Wang Chuyi, Disciples of Chongyang
 
 d_laamp_wandering_lute = { # Jiang Kui, Wandering Lute
 	color = { 100 100 100 }
-	capital = c_jizhou
+	capital = c_jizhou_3
 
 	definite_form = yes
 	landless = yes
@@ -95921,7 +95898,7 @@ h_china = {
 			d_shanzhou = {
 				color = { 97 156 20 }
 
-				capital = c_hezhou_china
+				capital = c_shanzhou_mbp
 
 				cultural_names = {
 					name_list_bodpa = cn_tsongkha
@@ -96600,7 +96577,7 @@ h_china = {
 			d_liangzhou = {
 				color = { 20 56 152 }
 	
-				capital = c_guazhou
+				capital = c_liangzhou
 
 				c_liangzhou = { #Wuwei
 					color = { 20 56 221 }
@@ -113619,12 +113596,12 @@ e_amur = {
 		e_xi_xia = {
 			color = { 55 55 50 }
 
-			capital = c_lingzhou
+			capital = c_huaiyuan
 
-			k_xia = {
-				color = { 111 137 254 }
-
-				capital = c_lingzhou
+			k_xia = { # Minya/Minyak
+				color = { 33 63 120 }
+				capital = c_ganzhou
+				can_be_named_after_dynasty = no
 
 				d_aksay = {
 					color = { 20 60 98 }

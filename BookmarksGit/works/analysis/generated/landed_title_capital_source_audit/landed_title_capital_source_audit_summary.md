@@ -1,29 +1,26 @@
 # Landed Title Capital Source Audit
 
-- audited source-candidate rows: `657`
+- audited source-candidate rows: `659`
 - audited current titles: `459`
 
 ## Source Candidate Status Counts
 
-- `ambiguous_expected_current_capital`: `3`
-- `mismatch`: `43`
-- `missing_effective_capital`: `5`
+- `ambiguous_expected_current_capital`: `1`
+- `mismatch`: `28`
+- `missing_effective_capital`: `3`
 - `missing_expected_current_capital_mapping`: `34`
-- `ok`: `572`
+- `ok`: `593`
 
 ## Current Title Aggregate Counts
 
-- `ambiguous_no_source_ok`: `2`
-- `mismatch_no_source_ok`: `15`
-- `missing_effective_capital`: `2`
 - `missing_mapping_no_source_ok`: `9`
-- `ok_via_some_source`: `378`
-- `source_conflict`: `53`
+- `ok_via_some_source`: `396`
+- `source_conflict`: `54`
 
 ## High Signal
 
-- titles with no validating source and effective-capital mismatch: `15`
-- titles with conflicting source effective capitals: `53`
+- titles with no validating source and effective-capital mismatch: `0`
+- titles with conflicting source effective capitals: `54`
 - main report: `landed_title_capital_source_audit.csv`
 - title summary: `landed_title_capital_source_title_summary.csv`
 - manual simple report: `landed_title_capital_manual_simple.csv`

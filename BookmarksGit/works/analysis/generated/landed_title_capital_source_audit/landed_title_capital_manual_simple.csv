@@ -10,22 +10,17 @@ d_SuMa_konawe,c_SuMa_konawe,mod:c_tinanggea? | vanilla:c_SuMa_konawe,source_conf
 d_SuMa_tompotika,c_SuMa_banggai,mod:c_SuMa_banggai_utara | vanilla:c_SuMa_banggai,source_conflict
 d_arakan,c_vaisali,mod:c_launggyet? | vanilla:c_vaisali,source_conflict
 d_baigaur,c_ca_mau,mod:c_can_tho? | vanilla:c_ca_mau,source_conflict
-d_baosai,c_yanzhou_3,c_yan_an,wrong
 d_boyul,c_bome,mod:c_bome? | vanilla:c_bome,source_conflict
 d_confucius,c_yanzhou,,uncertain
 d_dongchuan,c_tongchuan,mod:c_dongchuan | mod:c_mianzhou | vanilla:c_tongchuan,source_conflict
 d_jianning,c_jian_an,mod:c_jian_an/c_shaowu | vanilla:c_jian_an,source_conflict
-d_jianxiong,c_jinzhou_1,c_pingyang,wrong
 d_kinai,c_yamashiro,mod:c_yamato | vanilla:c_yamashiro,source_conflict
-d_laamp_ding_hui,c_weizhou,mod:c_weizhou | vanilla:c_henan,source_conflict
+d_laamp_ding_hui,c_henan,mod:c_weizhou | vanilla:c_henan,source_conflict
 d_laamp_disciples_of_chongyang,c_dengzhou,mod:c_dengzhou_1 | vanilla:c_dengzhou,source_conflict
-d_laamp_frontier_guardians,c_taiyuan,mod:c_taiyuan | vanilla:c_shangxi,source_conflict
-d_laamp_hanshantong1337,c_yingzhou,c_yingzhou_2,wrong
-d_laamp_liangshan_band,c_qiongzhou,mod:c_qiongzhou | vanilla:c_yunzhou,source_conflict
-d_laamp_wandering_lute,c_jizhou,mod:c_jizhou_china? | vanilla:c_jizhou_3,source_conflict
-d_laamp_youliang1337,c_yuezhou,c_yuezhou_1,wrong
+d_laamp_frontier_guardians,c_shangxi,mod:c_taiyuan | vanilla:c_shangxi,source_conflict
+d_laamp_liangshan_band,c_yunzhou,mod:c_qiongzhou | vanilla:c_yunzhou,source_conflict
+d_laamp_wandering_lute,c_jizhou_3,mod:c_jizhou_china? | vanilla:c_jizhou_3,source_conflict
 d_lam_tay,c_lam_tay,mod:c_quoc_oai | vanilla:c_lam_tay,source_conflict
-d_liangzhou,c_guazhou,c_liangzhou,wrong
 d_lingling,c_yongzhou,mod:c_quanzhou_2/c_yongzhou | vanilla:c_yongzhou,source_conflict
 d_lintao,c_lanzhou_1,,uncertain
 d_litang,c_litang,mod:c_litang? | vanilla:c_litang,source_conflict
@@ -35,36 +30,25 @@ d_nghe_an,c_nghe_an,mod:c_nam_dinh | vanilla:c_nghe_an,source_conflict
 d_ogrash,c_ulaanbaatar,mod:c_ulaanbaatar? | vanilla:c_ulaanbaatar,source_conflict
 d_ovorkhangai,c_ikh_bogd,mod:c_ikh_bogd? | vanilla:c_tovkhon,source_conflict
 d_ruucuu,c_ucinaa,mod:c_chuuzan? | vanilla:c_ucinaa,source_conflict
-d_shangqing,c_fuzhou,c_fuzhou_5,wrong
-d_shanzhou,c_hezhou_china,c_shanzhou_mbp,wrong
 d_sutiya,c_haruppeswara,mod:c_haruppeswara? | vanilla:c_haruppeswara,source_conflict
 d_tokaido,c_ise,mod:c_suruga | vanilla:c_ise,source_conflict
 d_vanga,c_bikrampur,mod:c_bikrampur? | vanilla:c_bikrampur,source_conflict
 d_vyadhapura,c_binh_long,mod:c_angkor_borey | vanilla:c_binh_long,source_conflict
-d_weisheng,c_dengzhou,c_dengzhou_1,wrong
 d_west_bando,c_musashi,mod:c_sagami | vanilla:c_musashi,source_conflict
 d_west_sanindo,c_izumo,mod:c_aki | vanilla:c_izumo,source_conflict
-d_zhaowu,c_xingzhou,c_jizhou_2 | c_xingqing,ambiguous
 d_zhenfan,c_zhenfan,,uncertain
-d_zhengyi,c_fuzhou,c_fuzhou_5,wrong
 e_bengal,c_laksmanavati,mod:c_laksmanavati? | vanilla:c_laksmanavati,source_conflict
 e_blue_horde,c_sighnaq,mod:c_sighnaq? | vanilla:c_yamashiro,source_conflict
 e_himalaya,c_kathmandu,,uncertain
-e_min,c_fuzhou,c_funing | c_fuzhou_1,ambiguous
 e_mongolia,c_karakorum,mod:c_karakorum? | vanilla:c_karakorum,source_conflict
 e_pragjyotisha,c_kamarupanagara,,uncertain
 e_srivijaya,c_JAV_mataram,mod:c_SUM_jambi | vanilla:c_JAV_mataram,source_conflict
 e_tibet,c_lhasa,mod:c_lhasa? | vanilla:c_lhasa,source_conflict
-e_wei,c_yunzhou,c_datong_2,wrong
-e_wei3,c_yunzhou,c_datong_2,wrong
-e_xi_xia,c_lingzhou,c_huaiyuan,wrong
 h_india,c_delhi,,uncertain
 k_bengal_east,c_suvarnagram,,uncertain
 k_chenla,c_sanasomboon,mod:c_nakhon_phanom? | vanilla:c_sanasomboon,source_conflict
-k_chiang_hung,c_luang_prabang,c_chiang_rung,wrong
-k_dali,,,missing_effective_capital
 k_fujian,c_fuzhou_1,mod:c_funing/c_fuzhou_1 | vanilla:c_fuzhou_1,source_conflict
-k_goguryeo,,,missing_effective_capital
+k_goguryeo,c_seogyeong,mod:c_LIAO_shenyang | vanilla:c_seogyeong,source_conflict
 k_jiangxi,c_hongzhou,mod:c_fuzhou_2/c_jianchang | vanilla:c_hongzhou,source_conflict
 k_kamarupa,c_kamarupanagara,mod:c_kamarupanagara? | vanilla:c_kamarupanagara,source_conflict
 k_kerait,c_ikh_bogd,,uncertain
@@ -75,8 +59,6 @@ k_mongolia,c_karakorum,,uncertain
 k_ruucuu,c_ucinaa,mod:c_chuuzan? | vanilla:c_ucinaa,source_conflict
 k_sulawesi,c_SuMa_luwu,mod:c_palu? | vanilla:c_SuMa_luwu,source_conflict
 k_tanjungnagara,c_BOR_sambas,mod:c_tanjungpura? | vanilla:c_BOR_sambas,source_conflict
-k_tsongkha,c_shanzhou,c_shanzhou_mbp,wrong
 k_tsukushi,c_chikuzen,mod:c_satsuma | vanilla:c_chikuzen,source_conflict
-k_xia,c_lingzhou,mod:c_ganzhou | vanilla:c_lingzhou,source_conflict
+k_xia,c_ganzhou,mod:c_ganzhou | vanilla:c_lingzhou,source_conflict
 k_yamato,c_yamashiro,mod:c_yamato | vanilla:c_yamashiro,source_conflict
-k_zhengyi,c_fuzhou,c_fuzhou_5,wrong

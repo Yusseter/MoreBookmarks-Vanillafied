@@ -412,7 +412,7 @@ impassable_mountains = RANGE { 14310 14362 }
 impassable_mountains = RANGE { 14364 14366 }
 impassable_mountains = LIST { 14368 14369 }
 impassable_mountains = RANGE { 14371 14408 }
-impassable_mountains = RANGE { 14413 14645 }
+impassable_mountains = RANGE { 14413 14644 }
 # TECH PLACEHOLDER PROVINCES END
 
 
@@ -472,4 +472,4 @@ impassable_seas = LIST { 1293 12550 12763 12764 12765 12766 12767 }
 # VANILLA EAST DEFAULT MAP END
 
 # Yusseter: Custom impassable terrains
-impassable_mountains RANGE { 14646 14660 }
+impassable_mountains = RANGE { 14645 14660 }

@@ -4970,3 +4970,288 @@ Yeni raporlar:
   - `d_confucius,c_yanzhou,,uncertain`
   - `d_kinai,c_yamashiro,mod:c_yamato | vanilla:c_yamashiro,source_conflict`
 - Bu turda `common/landed_titles/00_landed_titles.txt` veya `test_files` kopyalari degistirilmedi; yalnizca audit scripti ve generated raporlar guncellendi.
+
+## 2026-04-24 Landed Title Capital Manual Apply Turu
+
+- Kullanici `landed_title_capital_manual_new.csv` dosyasini manuel doldurdu.
+- Kullanici ayrica `common/landed_titles/00_landed_titles.txt` icinde bazi capital/title duzeltmeleri yaptigini bildirdi.
+- `landed_title_capital_manual_new.csv` son manuel calisma kolonlari:
+  - `title_id`
+  - `current_capital`
+  - `yusseter_selected_capital`
+- Manuel secimleri current landed_titles'a uygulamak icin yeni read/update araci eklendi:
+  - `works/tools/apply_landed_title_capital_manual.py`
+- Bu arac:
+  - `landed_title_capital_manual_new.csv` icindeki `yusseter_selected_capital` degerlerini okur
+  - current `common/landed_titles/00_landed_titles.txt` icindeki ilgili `h_/e_/k_/d_` title direct/effective capital degerleriyle karsilastirir
+  - direct capital varsa farkliysa satiri gunceller
+  - direct capital yok ama descendant effective capital zaten secili degerse dosyaya gereksiz direct capital eklemez
+  - rapor uretir
+- Uygulama raporlari:
+  - `works/analysis/generated/landed_title_capital_manual_apply/landed_title_capital_manual_apply_report.csv`
+  - `works/analysis/generated/landed_title_capital_manual_apply/landed_title_capital_manual_apply_summary.md`
+- Uygulama sonucu:
+  - toplam manuel satir: `81`
+  - `kept = 58`
+  - `kept_effective = 3`
+  - `updated = 20`
+- Guncellenen direct capital satirlari:
+  - `d_baosai: c_yanzhou_3 -> c_yan_an`
+  - `d_jianxiong: c_jinzhou_1 -> c_pingyang`
+  - `d_laamp_ding_hui: c_weizhou -> c_henan`
+  - `d_laamp_frontier_guardians: c_taiyuan -> c_shangxi`
+  - `d_laamp_hanshantong1337: c_yingzhou -> c_yingzhou_2`
+  - `d_laamp_liangshan_band: c_qiongzhou -> c_yunzhou`
+  - `d_laamp_wandering_lute: c_jizhou -> c_jizhou_3`
+  - `d_laamp_youliang1337: c_yuezhou -> c_yuezhou_1`
+  - `d_liangzhou: c_guazhou -> c_liangzhou`
+  - `d_shangqing: c_fuzhou -> c_fuzhou_5`
+  - `d_shanzhou: c_hezhou_china -> c_shanzhou_mbp`
+  - `d_weisheng: c_dengzhou -> c_dengzhou_1`
+  - `d_zhaowu: c_xingzhou -> c_xingqing`
+  - `d_zhengyi: c_fuzhou -> c_fuzhou_5`
+  - `e_min: c_fuzhou -> c_fuzhou_1`
+  - `e_wei: c_yunzhou -> c_datong_2`
+  - `e_wei3: c_yunzhou -> c_datong_2`
+  - `e_xi_xia: c_lingzhou -> c_huaiyuan`
+  - `k_tsongkha: c_shanzhou -> c_shanzhou_mbp`
+  - `k_zhengyi: c_fuzhou -> c_fuzhou_5`
+- `common/landed_titles/00_landed_titles.txt` degistigi icin proje kuralina gore:
+  - `test_files/common/landed_titles/00_landed_titles.txt`
+  canli dosyayla senkronlandi.
+- Capital audit yeniden calistirildi:
+  - `wrong` satiri kalmadi
+  - current-title aggregate:
+    - `ok_via_some_source = 396`
+    - `source_conflict = 54`
+    - `missing_mapping_no_source_ok = 9`
+  - source-candidate status:
+    - `ok = 593`
+    - `mismatch = 28`
+    - `missing_expected_current_capital_mapping = 34`
+    - `ambiguous_expected_current_capital = 1`
+    - `missing_effective_capital = 3`
+- Genel validator sonucu:
+  - `validation errors = 0`
+  - `validation warnings = 0`
+  - `missing playable province titles = 0`
+  - `landed_titles live/test hash match = yes`
+- Bu turda validator sirasinda capital konusundan bagimsiz bir `default.map` syntax problemi de goruldu:
+  - eski satir: `impassable_mountains RANGE { 14646 14660 }`
+  - duzeltme: `impassable_mountains = RANGE { 14646 14660 }`
+  - ayni duzeltme `test_files/map_data/default.map` icine de yansitildi
+  - bu duzeltme sonrasi validator temiz dondu
+
+## 2026-04-24 Landed Title Source Identity ve Parent Audit Baslangici
+
+- Kullanici `both` degerinin gercek source olamayacagini netlestirdi.
+- Bundan sonraki source kimligi icin karar kategorileri:
+  - `modlu_kalan`
+  - `orijinal_dogu`
+  - `manual_review`
+- `both` yalnizca teknik sinyal olabilir; nihai source karari olarak kullanilmayacak.
+- Kullanici ayrica source karari icin yalnizca province provenance yeterli degil dedi.
+- Yeni source tespit modeli:
+  - title'in kendi block metadata'si incelenecek
+  - alt hiyerarsik title bloklari source-body karsilastirmasina dahil edilmeyecek
+  - `color`, `capital`, `can_create`, `definite_form`, `can_be_named_after_dynasty` gibi title'in kendi govde ayarlari source sinyali olacak
+  - capital sinyali ayri hesaplanacak
+  - alt descendant barony province'lerinin provenance dagilimi yardimci sinyal olacak
+  - province provenance sadece dogu maskesi icindeki province'ler uzerinden sayilacak
+- Dogu maskesi:
+  - `works/map_data_sources/provinces_birlesim_dogu 2026-04-19.png`
+- Mask RGB -> final province id:
+  - `map_data/definition.csv`
+- Province provenance:
+  - `works/analysis/generated/final_modlu_tracking_preserve_old_ids.csv`
+  - `works/analysis/generated/final_orijinal_tracking_preserve_old_ids.csv`
+- Yeni read-only source identity araci:
+  - `works/tools/audit_landed_title_source_identity.py`
+- Urettigi raporlar:
+  - `works/analysis/generated/landed_title_source_identity/landed_title_source_identity_audit.csv`
+  - `works/analysis/generated/landed_title_source_identity/landed_title_source_identity_manual_simple.csv`
+  - `works/analysis/generated/landed_title_source_identity/landed_title_source_identity_review.csv`
+  - `works/analysis/generated/landed_title_source_identity/landed_title_source_identity_summary.md`
+- Source identity audit sonucu:
+  - satir: `1350`
+  - mask non-black RGB: `4813`
+  - mask province id: `4797`
+  - mask unmatched RGB: `16`
+  - source karar dagilimi:
+    - `orijinal_dogu = 1151`
+    - `modlu_kalan = 146`
+    - `manual_review = 53`
+  - confidence dagilimi:
+    - `high = 1002`
+    - `medium = 286`
+    - `low = 62`
+- `manual_review` kalanlari agirlikli olarak:
+  - mod ve vanilla block/capital ayni veya cok yakin gorundugu halde province/body sinyalleri kesin ayrim yaptirmayan title'lar
+  - bazi titular/laamp veya top-level title'lar
+  - bazi Liao/Gobi/Tibet gibi body/capital ve province sinyalleri ters yon gosteren vakalar
+- Source identity raporundan sonra parent audit icin yeni read-only arac eklendi:
+  - `works/tools/audit_landed_title_parent_from_source.py`
+- Parent audit mantigi:
+  - current title'in current parent'i okunur
+  - source identity karari `modlu_kalan` ise mod source parent'i alinir
+  - source identity karari `orijinal_dogu` ise vanilla source parent'i alinir
+  - mod source parent current karsiliga `title_relation_master_manuel_new.csv` ters mapping'iyle cevrilir
+  - vanilla source parent current dosyada ayni id ile aranir
+  - current parent ile beklenen parent karsilastirilir
+- Parent audit raporlari:
+  - `works/analysis/generated/landed_title_parent_source_audit/landed_title_parent_source_audit.csv`
+  - `works/analysis/generated/landed_title_parent_source_audit/landed_title_parent_manual_simple.csv`
+  - `works/analysis/generated/landed_title_parent_source_audit/landed_title_parent_wrong.csv`
+  - `works/analysis/generated/landed_title_parent_source_audit/landed_title_parent_source_audit_summary.md`
+- Parent audit sonucu:
+  - toplam satir: `1350`
+  - `ok = 1267`
+  - `wrong = 22`
+  - `missing_parent_mapping = 8`
+  - `manual_review_source = 53`
+- Ilk `wrong` ornekleri:
+  - `d_yanyun_yuyi`: current parent `k_khitan`, expected `k_raole`
+  - `k_guishi`: current parent `e_yongliang`, expected `e_xi_xia`
+  - `d_fengxiang`: current parent `k_longxi_china`, expected `k_guannei`
+  - `d_ganzhou`: current parent `k_guishi`, expected `k_xia`
+  - `k_lhomon`: current parent `e_himalaya`, expected `e_tibet`
+  - `e_xi_xia`: current parent bos, expected `h_china`
+- Bu tur read-only yapildi:
+  - `common/landed_titles/00_landed_titles.txt` degistirilmedi
+  - `test_files` degistirilmedi
+- Sonraki dogru adim:
+  - once `landed_title_parent_wrong.csv` ve `missing_parent_mapping` satirlari manuel/teknik olarak incelenecek
+  - parent rewrite uygulamasina gecmeden once `manual_review_source = 53` kaynak karar havuzu ayrica ele alinacak
+
+## 2026-04-24 East Kingdom Closure Scope Duzeltmesi
+
+- Kullanici `county_source_audit.csv` dosyasini parent/source audit icin ana scope yapmak fazla genis olur diye uyardi.
+- Yeni kabul edilen scope modeli:
+  - baslangic seed'i `provinces_birlesim_dogu 2026-04-19.png` maskesindeki province'ler olacak
+  - mask province id'leri `map_data/definition.csv` ile bulunacak
+  - bu province'lere bagli `b_` barony'ler current `00_landed_titles.txt` icinden bulunacak
+  - her seed barony'den yukari `k_` title'a cikilacak
+  - bulunan `k_` title'in altindaki tum descendant title'lar audit scope'a eklenecek
+  - `h_` veya `e_` altinin tamamini closure'a almak yok; closure siniri `k_`
+- Bu sayede maskin birebir icinde olmayan ama dogu `k_` closure icinde kalan sinir title'lari da yakalanacak.
+- Kullanici ornegi:
+  - current `c_yijinai` parent'i `d_juyan`
+  - Leviathon/asıl modda `c_yijinai` parent'i `d_yijinai`
+  - `c_yijinai` eski `title_relation_master_manuel_new.csv` input kapsaminda olmadigi icin onceki parent audit'ten kacmisti
+- Yeni scope araci eklendi:
+  - `works/tools/build_east_kingdom_closure_scope.py`
+- Urettigi raporlar:
+  - `works/analysis/generated/east_kingdom_closure_scope/east_kingdom_closure_titles.csv`
+  - `works/analysis/generated/east_kingdom_closure_scope/east_kingdom_closure_seed_baronies.csv`
+  - `works/analysis/generated/east_kingdom_closure_scope/east_kingdom_closure_summary.md`
+- Closure scope sonucu:
+  - mask non-black RGB: `4813`
+  - mask province IDs: `4797`
+  - mask unmatched RGB: `16`
+  - seed baronies: `2835`
+  - closure kingdoms: `65`
+  - closure titles: `4397`
+  - seed baronies without `k_` ancestor: `0`
+  - closure title tier counts:
+    - `b = 3116`
+    - `c = 961`
+    - `d = 255`
+    - `k = 65`
+- `works/tools/audit_landed_title_source_identity.py` genislestirildi:
+  - artik `east_kingdom_closure_titles.csv` dosyasini opsiyonel ek scope olarak okur
+  - `title_relation_master_manuel_new.csv` icinde olmayan closure title'lari da audit input'una ekler
+  - mod tarafinda ayni title id varsa fallback mod candidate olarak kullanir
+- Yeni source identity sonucu:
+  - satir: `1441`
+  - `orijinal_dogu = 1148`
+  - `modlu_kalan = 195`
+  - `manual_review = 98`
+  - confidence:
+    - `high = 1052`
+    - `medium = 282`
+    - `low = 107`
+- `works/tools/audit_landed_title_parent_from_source.py` genislestirildi:
+  - parent audit artik source identity audit satirlarinin tamamini input alir
+  - manual csv ile sinirli kalmaz
+  - `missing_parent_mapping` durumunda sade raporda raw source parent da gorunur hale getirildi
+- Yeni parent audit sonucu:
+  - satir: `1441`
+  - `ok = 1309`
+  - `wrong = 23`
+  - `missing_parent_mapping = 11`
+  - `manual_review_source = 98`
+- `c_yijinai` artik yakalaniyor:
+  - source decision: `modlu_kalan`
+  - confidence: `high`
+  - source title: `c_yijinai`
+  - source parent: `d_yijinai`
+  - current parent: `d_juyan`
+  - status: `missing_parent_mapping`
+  - sade rapor satiri:
+    - `c_yijinai,d_juyan,modlu_kalan:d_yijinai?,missing_parent_mapping`
+- Bu tur read-only:
+  - `common/landed_titles/00_landed_titles.txt` degistirilmedi
+  - `test_files` degistirilmedi
+
+## 2026-04-24 East Empire Closure Karsilastirma Turu
+
+- Kullanici ayni closure mantiginin `k_` yerine `e_` seviyesinde de denenmesini istedi.
+- `works/tools/build_east_kingdom_closure_scope.py` genislestirildi:
+  - yeni arguman: `--closure-tier k|e`
+  - default halen `k`
+  - `e` kullanildiginda seed barony'den ilk `e_` ancestor'a cikilip o `e_` altindaki tum descendant title'lar scope'a alinir
+- `k_` closure raporlari korunarak ayri `e_` closure cikti klasoru uretildi:
+  - `works/analysis/generated/east_empire_closure_scope/`
+- `e_` closure sonucu:
+  - mask non-black RGB: `4813`
+  - mask province IDs: `4797`
+  - mask unmatched RGB: `16`
+  - closure tier: `e`
+  - seed baronies: `2835`
+  - closure ancestors: `20`
+  - closure titles: `5156`
+  - seed baronies without closure ancestor: `0`
+  - tier counts:
+    - `b = 3605`
+    - `c = 1129`
+    - `d = 309`
+    - `k = 93`
+    - `e = 20`
+- `e_` closure source identity ayri klasore uretildi:
+  - `works/analysis/generated/landed_title_source_identity_empire_closure/`
+- `e_` closure source identity sonucu:
+  - satir: `1686`
+  - `orijinal_dogu = 1147`
+  - `modlu_kalan = 362`
+  - `manual_review = 177`
+  - confidence:
+    - `high = 1219`
+    - `medium = 280`
+    - `low = 187`
+- `e_` closure parent audit ayri klasore uretildi:
+  - `works/analysis/generated/landed_title_parent_source_audit_empire_closure/`
+- `e_` closure parent audit sonucu:
+  - satir: `1686`
+  - `ok = 1472`
+  - `wrong = 23`
+  - `missing_parent_mapping = 14`
+  - `manual_review_source = 177`
+- `k_` closure ile karsilastirma:
+  - `k_` closure titles: `4397`
+  - `e_` closure titles: `5156`
+  - `e_` closure, `k_` closure'a gore `759` ek title getiriyor
+  - non-ok sade parent satiri:
+    - `k_` closure: `132`
+    - `e_` closure: `214`
+    - ek non-ok: `82`
+  - `wrong` sayisi degismedi:
+    - `k_` closure: `23`
+    - `e_` closure: `23`
+- Yorum:
+  - `e_` closure daha genis ve daha gurultulu
+  - eklenen non-ok satirlarin buyuk kismi `manual_review_source`
+  - ornek ek gurultu: `e_himalaya`, `e_bengal` gibi imparatorluk closure'i altindaki daha batili/komsu kingdom-county bloklari
+  - ana parent-hata havuzu `k_` closure ile zaten yakalaniyor gibi gorunuyor
+- Bu tur read-only:
+  - `common/landed_titles/00_landed_titles.txt` degistirilmedi
+  - `test_files` degistirilmedi

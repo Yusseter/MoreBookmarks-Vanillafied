@@ -646,7 +646,7 @@ k_lingxi,orijinal_dogu,high,mod:body_partial+capital_match; vanilla:body_exact+c
 k_viet,orijinal_dogu,high,mod:capital_match; vanilla:body_exact+capital_match+province_majority; province_majority:orijinal_dogu
 k_guannei,orijinal_dogu,high,mod:body_partial+capital_match; vanilla:body_exact+capital_match+province_majority; province_majority:orijinal_dogu
 k_xia,modlu_kalan,high,mod:body_exact+capital_match; vanilla:province_majority; province_majority:orijinal_dogu
-k_guishi,modlu_kalan,high,mod:body_exact+capital_match; province_majority:orijinal_dogu
+k_guishi,modlu_kalan,high,mod:body_exact+capital_match
 k_daibei,orijinal_dogu,high,mod:candidate; vanilla:body_exact+capital_match+province_majority; province_majority:orijinal_dogu
 k_hebei,orijinal_dogu,high,mod:body_partial+capital_match; vanilla:body_exact+capital_match+province_majority; province_majority:orijinal_dogu
 k_hedong,orijinal_dogu,high,mod:capital_match; vanilla:body_exact+capital_match+province_majority; province_majority:orijinal_dogu
@@ -1193,7 +1193,7 @@ d_gobi_ongi,manual_review,low,mod:body_exact+capital_match; vanilla:capital_matc
 c_gobi_ongi_gol,orijinal_dogu,medium,mod:body_exact+capital_match; vanilla:body_exact+capital_match+province_majority; province_majority:orijinal_dogu; close_score_confirmed_by_province_majority
 c_gobi_ulaan_nuur,orijinal_dogu,medium,mod:body_exact+capital_match; vanilla:body_exact+capital_match+province_majority; province_majority:orijinal_dogu; close_score_confirmed_by_province_majority
 c_gobi_ulaan_govi,orijinal_dogu,medium,mod:body_exact+capital_match; vanilla:body_exact+capital_match+province_majority; province_majority:orijinal_dogu; close_score_confirmed_by_province_majority
-e_great_liao,manual_review,low,mod:body_exact+capital_match; vanilla:capital_match+province_majority; province_majority:orijinal_dogu; close_or_conflicting_signals
+e_great_liao,orijinal_dogu,low,mod:body_high+capital_match; vanilla:capital_match+province_majority; province_majority:orijinal_dogu; tie_broken_by_province_majority
 k_liao_zhongjing,modlu_kalan,high,mod:body_exact+capital_match
 d_hejes_china,modlu_kalan,high,mod:body_exact+capital_match; province_majority:orijinal_dogu
 d_laamp_shunkan,manual_review,low,mod:body_exact+capital_match; vanilla:body_exact+capital_match; close_or_conflicting_signals
@@ -1356,6 +1356,7 @@ c_mumo,modlu_kalan,high,mod:body_exact+capital_match; vanilla:body_partial+capit
 c_ulaanbaatar,modlu_kalan,high,mod:body_exact+capital_match; vanilla:capital_match
 c_khentii,modlu_kalan,high,mod:body_exact+capital_match; vanilla:body_partial+capital_match
 c_naushki,modlu_kalan,high,mod:body_exact+capital_match; vanilla:body_partial+capital_match
+k_hentii,modlu_kalan,high,mod:body_exact+capital_match; province_majority:orijinal_dogu
 c_ikh_bogd,modlu_kalan,high,mod:body_exact+capital_match; vanilla:body_partial+capital_match
 c_tovkhon,modlu_kalan,high,mod:body_exact+capital_match; vanilla:body_partial+capital_match
 c_ongi,modlu_kalan,high,mod:body_exact+capital_match; vanilla:body_partial+capital_match
@@ -1364,6 +1365,7 @@ c_khasagt_khairkhan,modlu_kalan,high,mod:body_exact+capital_match; vanilla:body_
 d_arkhangai,modlu_kalan,high,mod:body_exact+capital_match; vanilla:capital_match
 c_tarvagatai,modlu_kalan,high,mod:body_exact+capital_match; vanilla:body_partial+capital_match
 c_oigon,modlu_kalan,high,mod:body_exact+capital_match; vanilla:body_partial+capital_match
+k_dornogovi,modlu_kalan,high,mod:body_exact+capital_match; province_majority:orijinal_dogu
 d_bumthang,manual_review,low,mod:body_exact+capital_match; vanilla:body_exact+capital_match; close_or_conflicting_signals
 c_bumthang,manual_review,low,mod:body_exact+capital_match; vanilla:body_exact+capital_match; close_or_conflicting_signals
 c_kurmaed,manual_review,low,mod:body_exact+capital_match; vanilla:body_exact+capital_match; close_or_conflicting_signals
@@ -1430,9 +1432,7 @@ c_mangra,manual_review,low,mod:body_exact+capital_match; vanilla:body_high+capit
 c_zekog,manual_review,low,mod:body_exact+capital_match; vanilla:body_high+capital_match; close_or_conflicting_signals
 c_maqu,manual_review,low,mod:body_exact+capital_match; vanilla:body_high+capital_match; close_or_conflicting_signals
 c_sangqu,manual_review,low,mod:body_exact+capital_match; vanilla:body_high+capital_match; close_or_conflicting_signals
-d_aksay,modlu_kalan,high,mod:body_exact+capital_match; vanilla:capital_match
-c_aksay,modlu_kalan,high,mod:body_exact+capital_match; vanilla:body_partial+capital_match
-c_haltang,modlu_kalan,high,mod:body_exact+capital_match; vanilla:capital_match
+k_xia_china,modlu_kalan,medium,mod:body_exact; province_majority:orijinal_dogu
 c_zhenfan,modlu_kalan,high,mod:body_exact+capital_match; vanilla:capital_match
 c_alxa,modlu_kalan,high,mod:body_exact+capital_match; vanilla:capital_match
 d_juyan,orijinal_dogu,medium,vanilla:body_exact

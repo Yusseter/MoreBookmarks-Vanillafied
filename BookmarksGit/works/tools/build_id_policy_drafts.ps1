@@ -1,6 +1,7 @@
 param(
     [string]$RepoRoot = (Get-Location).Path,
     [string]$CandidatesCsv = '',
+    [string]$DefinitionOverrideCandidatesCsv = '',
     [string]$PreserveAssignmentsCsv = '',
     [string]$PreservePlaceholdersCsv = '',
     [string]$PreserveModMapCsv = '',
@@ -232,6 +233,94 @@ function New-PlaceholderRow {
     }
 }
 
+function Get-DefinitionOverrideRows {
+    param([string]$Path)
+
+    if ([string]::IsNullOrWhiteSpace($Path) -or -not (Test-Path -LiteralPath $Path)) {
+        return @()
+    }
+
+    $rows = @(Import-Csv -Path $Path)
+    $readyRows = New-Object System.Collections.Generic.List[object]
+    foreach ($row in $rows) {
+        if ($null -eq $row.PSObject.Properties['override_status'] -or [string]$row.override_status -ne 'ready') {
+            continue
+        }
+        if ($null -eq $row.PSObject.Properties['override_action']) {
+            throw "Definition override row missing override_action in '$Path'."
+        }
+        if ($null -eq $row.PSObject.Properties['final_new_id'] -or [string]::IsNullOrWhiteSpace([string]$row.final_new_id)) {
+            throw "Definition override row missing final_new_id in '$Path'."
+        }
+        $readyRows.Add($row) | Out-Null
+    }
+
+    return $readyRows.ToArray()
+}
+
+function Append-Note {
+    param(
+        [string]$Existing,
+        [string]$Additional
+    )
+
+    if ([string]::IsNullOrWhiteSpace($Existing)) {
+        return $Additional
+    }
+    if ([string]::IsNullOrWhiteSpace($Additional)) {
+        return $Existing
+    }
+    return ('{0}; {1}' -f $Existing, $Additional)
+}
+
+function Update-AssignmentFromDefinitionOverride {
+    param(
+        $Assignment,
+        $Override
+    )
+
+    $Assignment.effective_rgb = [string]$Override.effective_rgb
+    $Assignment.effective_name = [string]$Override.effective_name
+    $Assignment.rgb_resolution_status = [string]$Override.rgb_resolution_status
+    $Assignment.final_id_status = [string]$Override.final_id_status
+    $Assignment.notes = Append-Note -Existing ([string]$Assignment.notes) -Additional ([string]$Override.notes)
+}
+
+function New-DefinitionOverrideAssignmentRow {
+    param($Override)
+
+    $finalId = [int]$Override.final_new_id
+    $currentId = [int]$Override.current_id
+    $keepsCurrentId = ($finalId -eq $currentId)
+
+    return [pscustomobject]@{
+        policy_name = 'preserve_old_ids'
+        row_type = 'candidate'
+        assignment_type = 'definition_override_promoted_placeholder'
+        final_new_id = $finalId
+        current_id = $currentId
+        keeps_current_id = $keepsCurrentId
+        id_change_reason = if ($keepsCurrentId) { '' } else { 'definition_override_promoted_placeholder' }
+        placeholder_reason = ''
+        effective_rgb = [string]$Override.effective_rgb
+        effective_name = [string]$Override.effective_name
+        candidate_type = [string]$Override.candidate_type
+        source_origin = [string]$Override.source_origin
+        preferred_source_subset = [string]$Override.preferred_source_subset
+        modlu_source_id = [string]$Override.modlu_source_id
+        modlu_source_rgb = [string]$Override.modlu_source_rgb
+        modlu_source_name = [string]$Override.modlu_source_name
+        orijinal_source_id = [string]$Override.orijinal_source_id
+        orijinal_source_rgb = [string]$Override.orijinal_source_rgb
+        orijinal_source_name = [string]$Override.orijinal_source_name
+        primary_status = [string]$Override.primary_status
+        rgb_resolution_status = [string]$Override.rgb_resolution_status
+        source_id_conflict_status = [string]$Override.source_id_conflict_status
+        final_id_status = [string]$Override.final_id_status
+        notes = [string]$Override.notes
+    }
+}
+
 function Build-IdMapRows {
     param(
         [object[]]$AssignmentRows,
@@ -293,6 +382,9 @@ $generatedDir = Join-Path (Join-Path $root 'analysis') 'generated'
 if ([string]::IsNullOrWhiteSpace($CandidatesCsv)) {
     $CandidatesCsv = Join-Path $generatedDir 'definition_rgb_resolved_candidates_pre_id.csv'
 }
+if ([string]::IsNullOrWhiteSpace($DefinitionOverrideCandidatesCsv)) {
+    $DefinitionOverrideCandidatesCsv = Join-Path $generatedDir 'current_definition_override_candidates.csv'
+}
 if ([string]::IsNullOrWhiteSpace($PreserveAssignmentsCsv)) {
     $PreserveAssignmentsCsv = Join-Path $generatedDir 'id_policy_preserve_old_assignments.csv'
 }
@@ -335,6 +427,7 @@ $candidateRows = @(Get-CandidateRows -Path $CandidatesCsv)
 if ($candidateRows.Count -eq 0) {
     throw "Candidate rows are empty."
 }
+$definitionOverrideRows = @(Get-DefinitionOverrideRows -Path $DefinitionOverrideCandidatesCsv)
 
 $currentIdGroups = @($candidateRows | Group-Object current_id | Sort-Object {[int]$_.Name})
 $maxCurrentId = ($candidateRows | Measure-Object -Property current_id -Maximum).Maximum
@@ -386,13 +479,49 @@ foreach ($candidate in $preserveDisplaced) {
     $preserveAssignments.Add((New-AssignmentRow -Candidate $candidate -FinalNewId $assignedId -PolicyName 'preserve_old_ids' -AssignmentType 'reassigned_duplicate' -KeepsCurrentId $false -IdChangeReason $reason)) | Out-Null
 }
 
+$preserveByFinalId = @{}
+foreach ($row in $preserveAssignments) {
+    $finalIdKey = [int]$row.final_new_id
+    if ($preserveByFinalId.ContainsKey($finalIdKey)) {
+        throw "Duplicate preserve assignment final_new_id before definition overrides: $finalIdKey"
+    }
+    $preserveByFinalId[$finalIdKey] = $row
+}
+
+$definitionOverrideExistingCount = 0
+$definitionOverridePromotedCount = 0
+foreach ($override in ($definitionOverrideRows | Sort-Object { [int]$_.final_new_id })) {
+    $finalId = [int]$override.final_new_id
+    $action = [string]$override.override_action
+    if ($action -eq 'update_existing_candidate') {
+        if (-not $preserveByFinalId.ContainsKey($finalId)) {
+            throw "Definition override expected existing preserve assignment for final_new_id=$finalId"
+        }
+        Update-AssignmentFromDefinitionOverride -Assignment $preserveByFinalId[$finalId] -Override $override
+        $definitionOverrideExistingCount += 1
+    }
+    elseif ($action -eq 'promote_placeholder') {
+        if ($preserveByFinalId.ContainsKey($finalId)) {
+            throw "Definition override cannot promote final_new_id=$finalId because a preserve assignment already exists."
+        }
+        $newRow = New-DefinitionOverrideAssignmentRow -Override $override
+        $preserveAssignments.Add($newRow) | Out-Null
+        $preserveByFinalId[$finalId] = $newRow
+        $definitionOverridePromotedCount += 1
+    }
+    else {
+        throw "Unsupported definition override action '$action' for final_new_id=$finalId"
+    }
+}
+
 $usedPreserveFinalIds = New-Object 'System.Collections.Generic.HashSet[int]'
 foreach ($row in $preserveAssignments) {
     [void]$usedPreserveFinalIds.Add([int]$row.final_new_id)
 }
 
 $remainingPlaceholderIds = New-Object System.Collections.Generic.List[int]
-$preserveFinalMaxId = [Math]::Max($maxCurrentId, $nextAppendedId - 1)
+$preserveAssignmentMaxId = ($preserveAssignments | Measure-Object -Property final_new_id -Maximum).Maximum
+$preserveFinalMaxId = [Math]::Max([Math]::Max($maxCurrentId, $nextAppendedId - 1), [int]$preserveAssignmentMaxId)
 for ($id = 1; $id -le $preserveFinalMaxId; $id++) {
     if (-not $usedPreserveFinalIds.Contains($id)) {
         $remainingPlaceholderIds.Add($id) | Out-Null
@@ -400,13 +529,13 @@ for ($id = 1; $id -le $preserveFinalMaxId; $id++) {
 }
 
 $usedRgbKeys = New-Object System.Collections.Generic.List[int]
-foreach ($candidate in $candidateRows) {
-    $usedRgbKeys.Add((Parse-RgbKey -Rgb $candidate.effective_rgb)) | Out-Null
-    if (-not [string]::IsNullOrWhiteSpace($candidate.modlu_source_rgb)) {
-        $usedRgbKeys.Add((Parse-RgbKey -Rgb $candidate.modlu_source_rgb)) | Out-Null
+foreach ($assignment in $preserveAssignments) {
+    $usedRgbKeys.Add((Parse-RgbKey -Rgb $assignment.effective_rgb)) | Out-Null
+    if (-not [string]::IsNullOrWhiteSpace([string]$assignment.modlu_source_rgb)) {
+        $usedRgbKeys.Add((Parse-RgbKey -Rgb $assignment.modlu_source_rgb)) | Out-Null
     }
-    if (-not [string]::IsNullOrWhiteSpace($candidate.orijinal_source_rgb)) {
-        $usedRgbKeys.Add((Parse-RgbKey -Rgb $candidate.orijinal_source_rgb)) | Out-Null
+    if (-not [string]::IsNullOrWhiteSpace([string]$assignment.orijinal_source_rgb)) {
+        $usedRgbKeys.Add((Parse-RgbKey -Rgb $assignment.orijinal_source_rgb)) | Out-Null
     }
 }
 $placeholderRgbKeys = Get-SuggestedRgbKeys -UsedRgbKeys $usedRgbKeys -Count $remainingPlaceholderIds.Count
@@ -488,6 +617,7 @@ $summaryLines = @(
     '',
     ('- preserve assignments: `{0}`' -f $PreserveAssignmentsCsv),
     ('- preserve placeholders: `{0}`' -f $PreservePlaceholdersCsv),
+    ('- definition override candidates: `{0}`' -f $(if (Test-Path -LiteralPath $DefinitionOverrideCandidatesCsv) { $DefinitionOverrideCandidatesCsv } else { '<not found>' })),
     ('- preserve mod map: `{0}`' -f $PreserveModMapCsv),
     ('- preserve orijinal map: `{0}`' -f $PreserveOrijinalMapCsv),
     ('- full renumber assignments: `{0}`' -f $FullAssignmentsCsv),
@@ -504,6 +634,8 @@ $summaryLines = @(
     ('- displaced duplicate rows reassigned into existing gaps: `{0}`' -f $preserveGapReuseCount),
     ('- displaced duplicate rows appended after max old ID: `{0}`' -f $preserveAppendedCount),
     ('- placeholder rows still required for contiguity: `{0}`' -f $preservePlaceholderCount),
+    ('- definition override existing candidate rows updated: `{0}`' -f $definitionOverrideExistingCount),
+    ('- definition override placeholders promoted: `{0}`' -f $definitionOverridePromotedCount),
     ('- final max ID under policy A: `{0}`' -f $preserveFinalMaxId),
     ('- changed modlu_kalan rows: `{0}`' -f $preserveModChanged),
     ('- changed orijinal_dogu rows: `{0}`' -f $preserveOrijinalChanged),

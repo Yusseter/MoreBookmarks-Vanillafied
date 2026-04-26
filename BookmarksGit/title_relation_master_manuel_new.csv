@@ -283,7 +283,7 @@ c_izu, c_izu, yes, ,
 c_kozuke, c_kozuke, yes, ,
 c_musashi, c_musashi, yes, ,
 c_sagami, c_sagami, yes, ,
-c_bungo, c_bungo, yes, ,
+c_bungo, c_bungo_jp, no, ,
 c_buzen, c_buzen, yes, ,
 c_chikugo, c_chikugo, yes, ,
 c_chikuzen, c_chikuzen, yes, ,
@@ -604,10 +604,10 @@ c_hanlan, c_maukkadaw, no, ,
 c_kale, c_kale, yes, ,
 c_madaya, c_madaya, yes, ,
 c_takon, c_takon, yes, ,
-c_momauk, c_bhamo, no, ,
+c_momauk, c_mongyang, no, ,
 c_monyin, c_homalin, no, ,
 c_myitkyina, c_myitkyina, yes, ,
-c_nandian, c_mongyang, no, ,
+c_nandian, c_mang_shuea, no, ,
 c_putao, c_putao, yes, ,
 c_moeng_laem, c_manglon, no, ,
 c_yongchang_jingmadian, c_hopang, no, ,
@@ -1349,3 +1349,9 @@ c_keyimen, c_wuda, no, added_by_mask,
 c_hequ, c_ordos_china (second), no, added_by_mask,
 d_zhenfan, d_zhenfan, yes, was_added_by_mask,
 c_tengger, c_tenggeli, no, added_by_mask,
+d_teriqan_china, d_teriqan_china, yes, added_by_yusseter
+c_teriqan_china, c_teriqan_china, yes, added_by_yusseter
+c_manglai_china, c_manglai_china, yes, added_by_yusseter
+d_murin_china, d_murin_china, yes, added_by_yusseter
+c_murin_china, c_murin_china, yes, added_by_yusseter
+c_westsurrended_china, c_westsurrended_china, yes, added_by_yusseter

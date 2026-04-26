@@ -1,6 +1,16 @@
+param(
+	[switch]$DryRun,
+	[switch]$SkipLandedTitles,
+	[string]$SourceModRoot = 'F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit',
+	[string]$TitleRelationCsv = '',
+	[switch]$SkipCountyCultureReligionOverlay
+)
+
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
 $script:GitPrefix = (((& git rev-parse --show-prefix) 2>$null) | Out-String).Trim()
+$script:DryRun = [bool]$DryRun
+$script:LiveWriteRows = New-Object System.Collections.Generic.List[object]
 
 function Get-Utf8NoBomEncoding {
 	return New-Object System.Text.UTF8Encoding($false)
@@ -33,6 +43,28 @@ function Write-TextUtf8 {
 
 	$encoding = Get-Utf8NoBomEncoding
 	[System.IO.File]::WriteAllText($Path, $Text, $encoding)
+}
+
+function Write-LiveTextUtf8 {
+	param(
+		[Parameter(Mandatory = $true)][string]$Path,
+		[Parameter(Mandatory = $true)][string]$Text,
+		[Parameter(Mandatory = $true)][string]$Reason
+	)
+
+	$status = if ($script:DryRun) { 'dry_run_skipped' } else { 'written' }
+	$script:LiveWriteRows.Add([pscustomobject]@{
+		path = $Path
+		reason = $Reason
+		status = $status
+		character_count = $Text.Length
+	}) | Out-Null
+
+	if ($script:DryRun) {
+		return
+	}
+
+	Write-TextUtf8 -Path $Path -Text $Text
 }
 
 function Read-HeadOrWorkingText {
@@ -245,26 +277,54 @@ function Get-NumericHistoryBlocksFromDirectory {
 	)
 
 	$map = @{}
+	$allBlocksById = @{}
 	$duplicateRows = New-Object System.Collections.Generic.List[object]
+	$ambiguousRootCultureReligionDuplicateIds = @{}
 	$files = Get-ChildItem -Path $DirectoryPath -Filter '*.txt' | Sort-Object Name
 	foreach ($file in $files) {
 		$text = Read-TextUtf8 -Path $file.FullName
 		$blocks = Get-TopLevelBlocks -Text $text
 		foreach ($block in $blocks) {
 			if ($block.Name -match '^\d+$') {
+				$blockEntry = [pscustomobject]@{
+					Id = [int]$block.Name
+					File = $file.Name
+					Text = $block.Text
+				}
+				if (-not $allBlocksById.ContainsKey($block.Name)) {
+					$allBlocksById[$block.Name] = New-Object System.Collections.Generic.List[object]
+				}
+				$allBlocksById[$block.Name].Add($blockEntry) | Out-Null
+
 				if ($map.ContainsKey($block.Name)) {
+					$existingFile = [string]$map[$block.Name].File
+					$existingScore = Get-ProvinceHistoryBlockSelectionScore -BlockText ([string]$map[$block.Name].Text)
+					$duplicateScore = Get-ProvinceHistoryBlockSelectionScore -BlockText ([string]$block.Text)
+					$existingHasRoot = Test-ProvinceHistoryBlockHasRootCultureReligion -BlockText ([string]$map[$block.Name].Text)
+					$duplicateHasRoot = Test-ProvinceHistoryBlockHasRootCultureReligion -BlockText ([string]$block.Text)
+					$selectedFile = $existingFile
+					$selectionReason = 'kept_existing'
+					if ($existingHasRoot -and $duplicateHasRoot) {
+						$ambiguousRootCultureReligionDuplicateIds[[string]$block.Name] = $true
+						$selectionReason = 'ambiguous_root_culture_religion'
+					}
+					elseif ($duplicateScore -gt $existingScore) {
+						$map[$block.Name] = $blockEntry
+						$selectedFile = $file.Name
+						$selectionReason = 'selected_duplicate_higher_history_score'
+					}
 					$duplicateRows.Add([pscustomobject]@{
 						id = $block.Name
-						existing_file = $map[$block.Name].File
+						existing_file = $existingFile
 						duplicate_file = $file.Name
+						existing_score = $existingScore
+						duplicate_score = $duplicateScore
+						selected_file = $selectedFile
+						selection_reason = $selectionReason
 					})
 				}
 				else {
-					$map[$block.Name] = [pscustomobject]@{
-						Id = [int]$block.Name
-						File = $file.Name
-						Text = $block.Text
-					}
+					$map[$block.Name] = $blockEntry
 				}
 			}
 		}
@@ -272,7 +332,9 @@ function Get-NumericHistoryBlocksFromDirectory {
 
 	return [pscustomobject]@{
 		Map = $map
+		BlocksById = $allBlocksById
 		Duplicates = $duplicateRows
+		AmbiguousRootCultureReligionDuplicateIds = @($ambiguousRootCultureReligionDuplicateIds.Keys)
 	}
 }
 
@@ -290,7 +352,7 @@ function Get-BaronyProvinceMapFromText {
 	for ($i = 0; $i -lt $lines.Length; $i++) {
 		$line = $lines[$i]
 		if (-not $inBarony) {
-			if ($line -match '^\s*(b_[A-Za-z0-9_]+)\s*=\s*\{') {
+			if ($line -match '^\s*(b_[A-Za-z0-9_-]+)\s*=\s*\{') {
 				$inBarony = $true
 				$baronyName = $matches[1]
 				$depth = Get-BraceDelta -Line $line
@@ -467,6 +529,755 @@ function Rewrite-ProvinceHistoryBlockId {
 	return ($lines -join "`r`n")
 }
 
+function Get-CsvField {
+	param(
+		[Parameter(Mandatory = $true)]$Row,
+		[Parameter(Mandatory = $true)][string]$Name
+	)
+
+	foreach ($property in $Row.PSObject.Properties) {
+		if ($property.Name.Trim() -eq $Name) {
+			return ([string]$property.Value).Trim()
+		}
+	}
+	return ''
+}
+
+function Normalize-TitleId {
+	param([Parameter(Mandatory = $true)][AllowEmptyString()][string]$Value)
+
+	$trimmed = $Value.Trim()
+	if ($trimmed -match '([ekdcbh]_[A-Za-z0-9_-]+)') {
+		return [string]$matches[1]
+	}
+	return $trimmed
+}
+
+function Get-CountyFirstBaronyMap {
+	param(
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$LandedTitlesText
+	)
+
+	$lines = Split-Lines -Text $LandedTitlesText
+	$map = @{}
+	$titleStack = New-Object System.Collections.Generic.List[object]
+	$depth = 0
+
+	for ($i = 0; $i -lt $lines.Length; $i++) {
+		$line = $lines[$i]
+		$visible = Strip-LineComment -Line $line
+		$delta = Get-BraceDelta -Line $line
+
+		if ($visible -match '^\s*([a-z]_[A-Za-z0-9_-]+)\s*=\s*\{') {
+			$titleName = [string]$matches[1]
+			$parent = if ($titleStack.Count -gt 0) { $titleStack[$titleStack.Count - 1] } else { $null }
+
+			if ($titleName -match '^c_') {
+				if (-not $map.ContainsKey($titleName)) {
+					$map[$titleName] = [pscustomobject]@{
+						county = $titleName
+						first_barony = ''
+						first_province_id = ''
+						status = 'missing_first_barony'
+						line_index = $i + 1
+					}
+				}
+			}
+			elseif ($titleName -match '^b_' -and $null -ne $parent -and ([string]$parent.Name) -match '^c_') {
+				$countyName = [string]$parent.Name
+				if (-not $map.ContainsKey($countyName)) {
+					$map[$countyName] = [pscustomobject]@{
+						county = $countyName
+						first_barony = ''
+						first_province_id = ''
+						status = 'missing_first_barony'
+						line_index = $i + 1
+					}
+				}
+				if ([string]::IsNullOrWhiteSpace([string]$map[$countyName].first_barony)) {
+					$map[$countyName].first_barony = $titleName
+					$map[$countyName].status = 'missing_first_barony_province'
+				}
+			}
+
+			if ($delta -gt 0) {
+				$parentCounty = ''
+				if ($titleName -match '^c_') {
+					$parentCounty = $titleName
+				}
+				elseif ($titleName -match '^b_' -and $null -ne $parent -and ([string]$parent.Name) -match '^c_') {
+					$parentCounty = [string]$parent.Name
+				}
+				elseif ($null -ne $parent) {
+					$parentCounty = [string]$parent.ParentCounty
+				}
+
+				$titleStack.Add([pscustomobject]@{
+					Name = $titleName
+					ParentCounty = $parentCounty
+					CloseDepth = $depth
+				}) | Out-Null
+			}
+		}
+
+		if ($visible -match '^\s*province\s*=\s*(\d+)\s*$' -and $titleStack.Count -gt 0) {
+			$provinceId = [string]$matches[1]
+			$currentTitle = $titleStack[$titleStack.Count - 1]
+			if (([string]$currentTitle.Name) -match '^b_' -and -not [string]::IsNullOrWhiteSpace([string]$currentTitle.ParentCounty)) {
+				$countyName = [string]$currentTitle.ParentCounty
+				if ($map.ContainsKey($countyName) -and [string]$map[$countyName].first_barony -eq [string]$currentTitle.Name -and [string]::IsNullOrWhiteSpace([string]$map[$countyName].first_province_id)) {
+					$map[$countyName].first_province_id = $provinceId
+					$map[$countyName].status = 'ok'
+				}
+			}
+		}
+
+		$depth += $delta
+		while ($titleStack.Count -gt 0 -and [int]$titleStack[$titleStack.Count - 1].CloseDepth -ge $depth) {
+			$titleStack.RemoveAt($titleStack.Count - 1)
+		}
+	}
+
+	return $map
+}
+
+function Get-CultureReligionTimeline {
+	param(
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$BlockText
+	)
+
+	$root = @{}
+	$dates = @{}
+	$lines = Split-Lines -Text $BlockText
+	$depth = 0
+	$currentDate = ''
+	$dateCloseDepth = -1
+
+	for ($i = 0; $i -lt $lines.Length; $i++) {
+		$line = $lines[$i]
+		$visible = Strip-LineComment -Line $line
+		$delta = Get-BraceDelta -Line $line
+
+		if ($depth -eq 1 -and $visible -match '^\s*(culture|religion)\s*=\s*([A-Za-z0-9_\.\-:]+)\s*$') {
+			$root[[string]$matches[1]] = [string]$matches[2]
+		}
+
+		if ($depth -eq 1 -and $visible -match '^\s*(\d{3,4}\.\d{1,2}\.\d{1,2})\s*=\s*\{') {
+			$currentDate = [string]$matches[1]
+			$dateCloseDepth = 1
+			if (-not $dates.ContainsKey($currentDate)) {
+				$dates[$currentDate] = @{}
+			}
+		}
+		elseif (-not [string]::IsNullOrWhiteSpace($currentDate) -and $depth -eq 2 -and $visible -match '^\s*(culture|religion)\s*=\s*([A-Za-z0-9_\.\-:]+)\s*$') {
+			$dates[$currentDate][[string]$matches[1]] = [string]$matches[2]
+		}
+
+		$depth += $delta
+		if (-not [string]::IsNullOrWhiteSpace($currentDate) -and $depth -le $dateCloseDepth) {
+			$currentDate = ''
+			$dateCloseDepth = -1
+		}
+	}
+
+	return @{
+		Root = $root
+		Dates = $dates
+	}
+}
+
+function Test-ProvinceHistoryBlockHasRootCultureReligion {
+	param(
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$BlockText
+	)
+
+	$timeline = Get-CultureReligionTimeline -BlockText $BlockText
+	return ($timeline.Root.ContainsKey('culture') -and $timeline.Root.ContainsKey('religion'))
+}
+
+function Get-ProvinceHistoryBlockSelectionScore {
+	param(
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$BlockText
+	)
+
+	$timeline = Get-CultureReligionTimeline -BlockText $BlockText
+	$score = 0
+	if ($timeline.Root.ContainsKey('culture')) {
+		$score += 100
+	}
+	if ($timeline.Root.ContainsKey('religion')) {
+		$score += 100
+	}
+	foreach ($date in $timeline.Dates.Keys) {
+		if ($timeline.Dates[$date].ContainsKey('culture')) {
+			$score += 10
+		}
+		if ($timeline.Dates[$date].ContainsKey('religion')) {
+			$score += 10
+		}
+	}
+	$score += [Math]::Min(9, [int]([Math]::Floor($BlockText.Length / 1000)))
+	return $score
+}
+
+function Get-ProvinceHistoryBlockCommentTitle {
+	param(
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$BlockText
+	)
+
+	$lines = Split-Lines -Text $BlockText
+	if ($lines.Length -gt 0 -and $lines[0] -match '#\s*([a-z]_[A-Za-z0-9_-]+)') {
+		return [string]$matches[1]
+	}
+	return ''
+}
+
+function Get-OverlaySourceHistoryOverrideMap {
+	param(
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$Path
+	)
+
+	$map = @{}
+	if ([string]::IsNullOrWhiteSpace($Path) -or -not (Test-Path -LiteralPath $Path)) {
+		return $map
+	}
+
+	foreach ($row in (Read-CsvUtf8 -Path $Path)) {
+		$targetCounty = Normalize-TitleId -Value (Get-CsvField -Row $row -Name 'target_county')
+		$sourceCounty = Normalize-TitleId -Value (Get-CsvField -Row $row -Name 'source_county')
+		$sourceProvinceId = Get-CsvField -Row $row -Name 'source_province_id'
+		$rootCulture = Get-CsvField -Row $row -Name 'root_culture'
+		$rootReligion = Get-CsvField -Row $row -Name 'root_religion'
+		if ([string]::IsNullOrWhiteSpace($targetCounty) -or [string]::IsNullOrWhiteSpace($sourceCounty) -or [string]::IsNullOrWhiteSpace($sourceProvinceId)) {
+			continue
+		}
+		$key = '{0}|{1}|{2}' -f $targetCounty, $sourceCounty, $sourceProvinceId
+		$map[$key] = [pscustomobject]@{
+			target_county = $targetCounty
+			source_county = $sourceCounty
+			source_province_id = $sourceProvinceId
+			root_culture = $rootCulture
+			root_religion = $rootReligion
+		}
+	}
+
+	return $map
+}
+
+function Resolve-ProvinceHistoryBlockForOverlay {
+	param(
+		[Parameter(Mandatory = $true)]$HistoryData,
+		[Parameter(Mandatory = $true)][string]$ProvinceId,
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$SourceBarony,
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$TargetCounty,
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$SourceCounty,
+		[Parameter(Mandatory = $true)]$OverrideMap
+	)
+
+	$blocksById = $HistoryData.PSObject.Properties['BlocksById'].Value
+	if ($null -eq $blocksById -or -not $blocksById.ContainsKey($ProvinceId)) {
+		return [pscustomobject]@{
+			Status = 'missing'
+			Block = $null
+		}
+	}
+
+	$allBlocks = @()
+	foreach ($block in $blocksById.Item($ProvinceId)) {
+		$allBlocks += $block
+	}
+	$rootBlocks = @($allBlocks | Where-Object { Test-ProvinceHistoryBlockHasRootCultureReligion -BlockText ([string]$_.Text) })
+	if ($rootBlocks.Count -eq 0) {
+		return [pscustomobject]@{
+			Status = 'ok'
+			Block = $allBlocks[0]
+		}
+	}
+	if ($rootBlocks.Count -eq 1) {
+		return [pscustomobject]@{
+			Status = 'ok'
+			Block = $rootBlocks[0]
+		}
+	}
+
+	$overrideKey = '{0}|{1}|{2}' -f $TargetCounty, $SourceCounty, $ProvinceId
+	if ($OverrideMap.ContainsKey($overrideKey)) {
+		$override = $OverrideMap[$overrideKey]
+		$overrideMatches = @($rootBlocks | Where-Object {
+			$timeline = Get-CultureReligionTimeline -BlockText ([string]$_.Text)
+			$timeline.Root.ContainsKey('culture') -and
+			$timeline.Root.ContainsKey('religion') -and
+			[string]$timeline.Root['culture'] -eq [string]$override.root_culture -and
+			[string]$timeline.Root['religion'] -eq [string]$override.root_religion
+		})
+		if ($overrideMatches.Count -eq 1) {
+			return [pscustomobject]@{
+				Status = 'ok'
+				Block = $overrideMatches[0]
+			}
+		}
+		if ($overrideMatches.Count -eq 0) {
+			return [pscustomobject]@{
+				Status = 'override_no_matching_source_history_block'
+				Block = $rootBlocks[0]
+			}
+		}
+		return [pscustomobject]@{
+			Status = 'override_ambiguous_source_history_block'
+			Block = $overrideMatches[0]
+		}
+	}
+
+	$baronyMatches = @($rootBlocks | Where-Object { (Get-ProvinceHistoryBlockCommentTitle -BlockText ([string]$_.Text)) -eq $SourceBarony })
+	if ($baronyMatches.Count -eq 1) {
+		return [pscustomobject]@{
+			Status = 'ok'
+			Block = $baronyMatches[0]
+		}
+	}
+
+	return [pscustomobject]@{
+		Status = 'ambiguous_root_culture_religion_duplicate'
+		Block = $rootBlocks[0]
+	}
+}
+
+function Get-DateBlockInfoByStart {
+	param(
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string[]]$Lines
+	)
+
+	$byStart = @{}
+	$depth = 0
+	$inDate = $false
+	$dateName = ''
+	$dateStart = -1
+	$dateCloseDepth = -1
+	$hasNonCultureReligionContent = $false
+
+	for ($i = 0; $i -lt $Lines.Length; $i++) {
+		$line = $Lines[$i]
+		$visible = Strip-LineComment -Line $line
+		$trimmedVisible = $visible.Trim()
+		$delta = Get-BraceDelta -Line $line
+
+		if (-not $inDate -and $depth -eq 1 -and $visible -match '^\s*(\d{3,4}\.\d{1,2}\.\d{1,2})\s*=\s*\{') {
+			$inDate = $true
+			$dateName = [string]$matches[1]
+			$dateStart = $i
+			$dateCloseDepth = 1
+			$hasNonCultureReligionContent = $false
+		}
+		elseif ($inDate -and $i -gt $dateStart -and $depth -ge 2) {
+			if ($trimmedVisible -ne '' -and $trimmedVisible -ne '}' -and $trimmedVisible -notmatch '^(culture|religion)\s*=') {
+				$hasNonCultureReligionContent = $true
+			}
+		}
+
+		$depth += $delta
+		if ($inDate -and $depth -le $dateCloseDepth) {
+			$byStart[$dateStart] = [pscustomobject]@{
+				Date = $dateName
+				StartIndex = $dateStart
+				EndIndex = $i
+				HasNonCultureReligionContent = $hasNonCultureReligionContent
+			}
+			$inDate = $false
+			$dateName = ''
+			$dateStart = -1
+			$dateCloseDepth = -1
+			$hasNonCultureReligionContent = $false
+		}
+	}
+
+	return $byStart
+}
+
+function Set-CultureReligionTimelineOnProvinceBlock {
+	param(
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$BlockText,
+		[Parameter(Mandatory = $true)]$Timeline
+	)
+
+	$lines = Split-Lines -Text $BlockText
+	if ($lines.Length -eq 0) {
+		return $BlockText
+	}
+
+	$rootExisting = @{}
+	$existingDates = @{}
+	$dateBlockByStart = Get-DateBlockInfoByStart -Lines $lines
+	$rootIndent = "`t"
+	$dateInnerIndent = "`t`t"
+	$depth = 0
+
+	for ($i = 0; $i -lt $lines.Length; $i++) {
+		$visible = Strip-LineComment -Line $lines[$i]
+		if ($depth -eq 1 -and $visible -match '^(\s*)(culture|religion)\s*=') {
+			$rootExisting[[string]$matches[2]] = $true
+			$rootIndent = [string]$matches[1]
+		}
+		if ($depth -eq 1 -and $visible -match '^\s*(\d{3,4}\.\d{1,2}\.\d{1,2})\s*=\s*\{') {
+			$existingDates[[string]$matches[1]] = $true
+		}
+		if ($depth -eq 2 -and $visible -match '^(\s*)(culture|religion)\s*=') {
+			$dateInnerIndent = [string]$matches[1]
+		}
+		$depth += Get-BraceDelta -Line $lines[$i]
+	}
+
+	$output = New-Object System.Collections.Generic.List[string]
+	$rootWritten = @{}
+	$dateWritten = @{}
+	$depth = 0
+	$currentDate = ''
+	$dateCloseDepth = -1
+	$i = 0
+
+	while ($i -lt $lines.Length) {
+		$line = $lines[$i]
+		$visible = Strip-LineComment -Line $line
+		$delta = Get-BraceDelta -Line $line
+
+		if ($dateBlockByStart.ContainsKey($i)) {
+			$dateInfo = $dateBlockByStart[$i]
+			if (-not $Timeline.Dates.ContainsKey([string]$dateInfo.Date) -and -not [bool]$dateInfo.HasNonCultureReligionContent) {
+				$i = [int]$dateInfo.EndIndex + 1
+				continue
+			}
+		}
+
+		if ($depth -eq 1 -and $visible -match '^\s*(\d{3,4}\.\d{1,2}\.\d{1,2})\s*=\s*\{') {
+			$currentDate = [string]$matches[1]
+			$dateCloseDepth = 1
+			if (-not $dateWritten.ContainsKey($currentDate)) {
+				$dateWritten[$currentDate] = @{}
+			}
+		}
+
+		if ($depth -eq 1 -and $visible -match '^(\s*)(culture|religion)\s*=\s*([A-Za-z0-9_\.\-:]+)\s*$') {
+			$key = [string]$matches[2]
+			if ($Timeline.Root.ContainsKey($key)) {
+				$output.Add(('{0}{1} = {2}' -f $matches[1], $key, $Timeline.Root[$key])) | Out-Null
+				$rootWritten[$key] = $true
+			}
+			$i++
+			continue
+		}
+
+		if (-not [string]::IsNullOrWhiteSpace($currentDate) -and $depth -eq 2 -and $visible -match '^(\s*)(culture|religion)\s*=\s*([A-Za-z0-9_\.\-:]+)\s*$') {
+			$key = [string]$matches[2]
+			if ($Timeline.Dates.ContainsKey($currentDate) -and $Timeline.Dates[$currentDate].ContainsKey($key)) {
+				$output.Add(('{0}{1} = {2}' -f $matches[1], $key, $Timeline.Dates[$currentDate][$key])) | Out-Null
+				$dateWritten[$currentDate][$key] = $true
+			}
+			$i++
+			continue
+		}
+
+		if (-not [string]::IsNullOrWhiteSpace($currentDate) -and $depth -eq 2 -and $visible.Trim() -eq '}' -and ($depth + $delta) -le $dateCloseDepth) {
+			if ($Timeline.Dates.ContainsKey($currentDate)) {
+				foreach ($key in @('culture', 'religion')) {
+					if ($Timeline.Dates[$currentDate].ContainsKey($key) -and (-not $dateWritten[$currentDate].ContainsKey($key))) {
+						$output.Add(('{0}{1} = {2}' -f $dateInnerIndent, $key, $Timeline.Dates[$currentDate][$key])) | Out-Null
+						$dateWritten[$currentDate][$key] = $true
+					}
+				}
+			}
+		}
+
+		if ($depth -eq 1 -and $visible.Trim() -eq '}' -and ($depth + $delta) -eq 0) {
+			foreach ($date in ($Timeline.Dates.Keys | Sort-Object)) {
+				if (-not $existingDates.ContainsKey([string]$date)) {
+					$output.Add(('{0}{1} = {{' -f $rootIndent, $date)) | Out-Null
+					foreach ($key in @('culture', 'religion')) {
+						if ($Timeline.Dates[$date].ContainsKey($key)) {
+							$output.Add(('{0}{1} = {2}' -f $dateInnerIndent, $key, $Timeline.Dates[$date][$key])) | Out-Null
+						}
+					}
+					$output.Add(('{0}}}' -f $rootIndent)) | Out-Null
+				}
+			}
+		}
+
+		$output.Add($line) | Out-Null
+		if ($i -eq 0) {
+			foreach ($key in @('culture', 'religion')) {
+				if ($Timeline.Root.ContainsKey($key) -and (-not $rootExisting.ContainsKey($key))) {
+					$output.Add(('{0}{1} = {2}' -f $rootIndent, $key, $Timeline.Root[$key])) | Out-Null
+					$rootWritten[$key] = $true
+				}
+			}
+		}
+
+		$depth += $delta
+		if (-not [string]::IsNullOrWhiteSpace($currentDate) -and $depth -le $dateCloseDepth) {
+			$currentDate = ''
+			$dateCloseDepth = -1
+		}
+		$i++
+	}
+
+	return ($output -join "`r`n")
+}
+
+function Apply-ProvinceBlockReplacementsToText {
+	param(
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$OriginalText,
+		[Parameter(Mandatory = $true)]$ReplacementById
+	)
+
+	$lines = Split-Lines -Text $OriginalText
+	$blocks = Get-TopLevelBlocks -Text $OriginalText
+	$blockByStart = @{}
+	foreach ($block in $blocks) {
+		$blockByStart[[int]$block.StartIndex] = $block
+	}
+
+	$output = New-Object System.Collections.Generic.List[string]
+	$appliedReplacementIds = @{}
+	$i = 0
+	while ($i -lt $lines.Length) {
+		if ($blockByStart.ContainsKey($i)) {
+			$block = $blockByStart[$i]
+			if ($block.Name -match '^\d+$' -and $ReplacementById.ContainsKey([string]$block.Name)) {
+				foreach ($replacementLine in (Split-Lines -Text $ReplacementById[[string]$block.Name])) {
+					$output.Add([string]$replacementLine) | Out-Null
+				}
+				$appliedReplacementIds[[string]$block.Name] = $true
+			}
+			else {
+				foreach ($existingLine in $lines[$block.StartIndex..$block.EndIndex]) {
+					$output.Add([string]$existingLine) | Out-Null
+				}
+			}
+			$i = [int]$block.EndIndex + 1
+			continue
+		}
+
+		$output.Add([string]$lines[$i]) | Out-Null
+		$i++
+	}
+
+	$appendReplacementIds = @(
+		$ReplacementById.Keys |
+			Where-Object { -not $appliedReplacementIds.ContainsKey([string]$_) } |
+			Sort-Object { [int]$_ }
+	)
+	if ($appendReplacementIds.Count -gt 0) {
+		if ($output.Count -gt 0 -and -not [string]::IsNullOrWhiteSpace([string]$output[$output.Count - 1])) {
+			$output.Add('') | Out-Null
+		}
+		$output.Add('# -----------------------------------------------------------------------------') | Out-Null
+		$output.Add('# County culture/religion overlay: generated missing target province history blocks') | Out-Null
+		$output.Add('# -----------------------------------------------------------------------------') | Out-Null
+		foreach ($replacementId in $appendReplacementIds) {
+			$output.Add('') | Out-Null
+			foreach ($replacementLine in (Split-Lines -Text $ReplacementById[[string]$replacementId])) {
+				$output.Add([string]$replacementLine) | Out-Null
+			}
+		}
+	}
+
+	return (($output -join "`r`n").TrimEnd() + "`r`n")
+}
+
+function Apply-CountyCultureReligionOverlay {
+	param(
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$HistoryText,
+		[Parameter(Mandatory = $true)][string]$TargetLandedTitlesPath,
+		[Parameter(Mandatory = $true)][string]$SourceLandedTitlesPath,
+		[Parameter(Mandatory = $true)][string]$TitleRelationPath,
+		[Parameter(Mandatory = $true)][string]$SourceHistoryDir,
+		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$SourceHistoryOverridePath,
+		[Parameter(Mandatory = $true)][string]$ReportPath,
+		[Parameter(Mandatory = $true)][string]$SummaryPath
+	)
+
+	$reportRows = New-Object System.Collections.Generic.List[object]
+	$replacementById = @{}
+
+	if (-not (Test-Path -LiteralPath $TargetLandedTitlesPath)) {
+		throw "Target landed_titles file not found: $TargetLandedTitlesPath"
+	}
+	if (-not (Test-Path -LiteralPath $SourceLandedTitlesPath)) {
+		throw "Source landed_titles file not found: $SourceLandedTitlesPath"
+	}
+	if (-not (Test-Path -LiteralPath $TitleRelationPath)) {
+		throw "Title relation CSV not found: $TitleRelationPath"
+	}
+	if (-not (Test-Path -LiteralPath $SourceHistoryDir)) {
+		throw "Source history/provinces directory not found: $SourceHistoryDir"
+	}
+
+	$targetCountyMap = Get-CountyFirstBaronyMap -LandedTitlesText (Read-TextUtf8 -Path $TargetLandedTitlesPath)
+	$sourceCountyMap = Get-CountyFirstBaronyMap -LandedTitlesText (Read-TextUtf8 -Path $SourceLandedTitlesPath)
+	$sourceHistoryOverrideMap = Get-OverlaySourceHistoryOverrideMap -Path $SourceHistoryOverridePath
+	$sourceHistoryData = Get-NumericHistoryBlocksFromDirectory -DirectoryPath $SourceHistoryDir
+	$sourceHistoryBlocks = $sourceHistoryData.Map
+	$sourceHistoryBlocksById = $sourceHistoryData.PSObject.Properties['BlocksById'].Value
+	$targetHistoryBlocks = Get-TopLevelBlocks -Text $HistoryText
+	$targetHistoryById = @{}
+	foreach ($block in $targetHistoryBlocks) {
+		if ($block.Name -match '^\d+$') {
+			$targetHistoryById[[string]$block.Name] = $block
+		}
+	}
+
+	$relationRows = @(
+		Read-CsvUtf8 -Path $TitleRelationPath | Where-Object {
+			(Normalize-TitleId -Value (Get-CsvField -Row $_ -Name 'source_title_id')) -match '^c_' -and
+			(Normalize-TitleId -Value (Get-CsvField -Row $_ -Name 'mod_title_id')) -match '^c_'
+		}
+	)
+
+	$targetCountyCounts = @{}
+	foreach ($row in $relationRows) {
+		$targetCounty = Normalize-TitleId -Value (Get-CsvField -Row $row -Name 'source_title_id')
+		if (-not $targetCountyCounts.ContainsKey($targetCounty)) {
+			$targetCountyCounts[$targetCounty] = 0
+		}
+		$targetCountyCounts[$targetCounty]++
+	}
+
+	foreach ($row in $relationRows) {
+		$targetCounty = Normalize-TitleId -Value (Get-CsvField -Row $row -Name 'source_title_id')
+		$sourceCounty = Normalize-TitleId -Value (Get-CsvField -Row $row -Name 'mod_title_id')
+		$status = 'applied'
+		$message = 'County top-barony culture/religion overlay applied.'
+
+		if ($targetCountyCounts[$targetCounty] -gt 1) {
+			$status = 'blocker_duplicate_target_county_relation'
+			$message = 'More than one c_ relation row targets this current county.'
+		}
+		elseif (-not $targetCountyMap.ContainsKey($targetCounty)) {
+			$status = 'blocker_missing_target_county'
+			$message = 'Target county not found in current landed_titles.'
+		}
+		elseif (-not $sourceCountyMap.ContainsKey($sourceCounty)) {
+			$status = 'blocker_missing_source_county'
+			$message = 'Source county not found in source mod landed_titles.'
+		}
+		else {
+			$targetInfo = $targetCountyMap[$targetCounty]
+			$sourceInfo = $sourceCountyMap[$sourceCounty]
+			if ([string]$targetInfo.status -ne 'ok') {
+				$status = 'skipped_no_direct_target_barony'
+				$message = 'Target county has no direct first barony province; culture/religion overlay is not applicable.'
+			}
+			elseif ([string]$sourceInfo.status -ne 'ok') {
+				$status = 'blocker_missing_source_first_barony_or_province'
+				$message = 'Source county has no direct first barony province.'
+			}
+			elseif ($null -eq $sourceHistoryBlocksById -or -not $sourceHistoryBlocksById.ContainsKey([string]$sourceInfo.first_province_id)) {
+				$status = 'blocker_missing_source_history_block'
+				$message = 'Source top-barony province has no history block.'
+			}
+			elseif ($replacementById.ContainsKey([string]$targetInfo.first_province_id)) {
+				$status = 'blocker_duplicate_target_province_overlay'
+				$message = 'Another county relation already prepared an overlay for this target province.'
+			}
+			else {
+				$sourceHistoryResolve = Resolve-ProvinceHistoryBlockForOverlay -HistoryData $sourceHistoryData -ProvinceId ([string]$sourceInfo.first_province_id) -SourceBarony ([string]$sourceInfo.first_barony) -TargetCounty $targetCounty -SourceCounty $sourceCounty -OverrideMap $sourceHistoryOverrideMap
+				if ([string]$sourceHistoryResolve.Status -eq 'ambiguous_root_culture_religion_duplicate') {
+					$status = 'blocker_ambiguous_duplicate_source_history_block'
+					$message = 'Source top-barony province has multiple duplicate history blocks with root culture/religion and no unique source-barony comment match.'
+					$timeline = $null
+				}
+				elseif ([string]$sourceHistoryResolve.Status -eq 'override_no_matching_source_history_block') {
+					$status = 'blocker_source_history_override_no_match'
+					$message = 'Manual source history override exists, but no duplicate source history block matches its root culture/religion.'
+					$timeline = $null
+				}
+				elseif ([string]$sourceHistoryResolve.Status -eq 'override_ambiguous_source_history_block') {
+					$status = 'blocker_source_history_override_ambiguous'
+					$message = 'Manual source history override matches more than one duplicate source history block.'
+					$timeline = $null
+				}
+				else {
+					$timeline = Get-CultureReligionTimeline -BlockText ([string]$sourceHistoryResolve.Block.Text)
+				}
+				if ($null -ne $timeline -and (-not $timeline.Root.ContainsKey('culture') -or -not $timeline.Root.ContainsKey('religion'))) {
+					$status = 'blocker_missing_source_root_culture_or_religion'
+					$message = 'Source top-barony history block lacks root culture or root religion.'
+				}
+				elseif ($null -ne $timeline) {
+					if ($targetHistoryById.ContainsKey([string]$targetInfo.first_province_id)) {
+						$targetBlockText = [string]$targetHistoryById[[string]$targetInfo.first_province_id].Text
+					}
+					else {
+						$targetBlockText = Rewrite-ProvinceHistoryBlockId -BlockText ([string]$sourceHistoryResolve.Block.Text) -NewId ([int]$targetInfo.first_province_id)
+						$status = 'applied_created_target_history_block'
+						$message = 'Target top-barony history block was missing; source block copied and rewritten to target province ID before overlay.'
+					}
+					$replacementById[[string]$targetInfo.first_province_id] = Set-CultureReligionTimelineOnProvinceBlock -BlockText $targetBlockText -Timeline $timeline
+				}
+			}
+		}
+
+		$targetInfoForReport = if ($targetCountyMap.ContainsKey($targetCounty)) { $targetCountyMap[$targetCounty] } else { $null }
+		$sourceInfoForReport = if ($sourceCountyMap.ContainsKey($sourceCounty)) { $sourceCountyMap[$sourceCounty] } else { $null }
+		$sourceTimelineForReport = $null
+		if ($null -ne $sourceInfoForReport -and -not [string]::IsNullOrWhiteSpace([string]$sourceInfoForReport.first_province_id) -and $null -ne $sourceHistoryBlocksById -and $sourceHistoryBlocksById.ContainsKey([string]$sourceInfoForReport.first_province_id)) {
+			$sourceHistoryResolveForReport = Resolve-ProvinceHistoryBlockForOverlay -HistoryData $sourceHistoryData -ProvinceId ([string]$sourceInfoForReport.first_province_id) -SourceBarony ([string]$sourceInfoForReport.first_barony) -TargetCounty $targetCounty -SourceCounty $sourceCounty -OverrideMap $sourceHistoryOverrideMap
+			if ($null -ne $sourceHistoryResolveForReport.Block) {
+				$sourceTimelineForReport = Get-CultureReligionTimeline -BlockText ([string]$sourceHistoryResolveForReport.Block.Text)
+			}
+		}
+		$dateSummary = ''
+		if ($null -ne $sourceTimelineForReport) {
+			$dateParts = New-Object System.Collections.Generic.List[string]
+			foreach ($date in ($sourceTimelineForReport.Dates.Keys | Sort-Object)) {
+				$keyParts = New-Object System.Collections.Generic.List[string]
+				foreach ($key in @('culture', 'religion')) {
+					if ($sourceTimelineForReport.Dates[$date].ContainsKey($key)) {
+						$keyParts.Add(('{0}={1}' -f $key, $sourceTimelineForReport.Dates[$date][$key])) | Out-Null
+					}
+				}
+				if ($keyParts.Count -gt 0) {
+					$dateParts.Add(('{0}:{1}' -f $date, ($keyParts -join '|'))) | Out-Null
+				}
+			}
+			$dateSummary = ($dateParts -join '; ')
+		}
+
+		$reportRows.Add([pscustomobject]@{
+			target_county = $targetCounty
+			source_county = $sourceCounty
+			target_barony = if ($null -ne $targetInfoForReport) { [string]$targetInfoForReport.first_barony } else { '' }
+			source_barony = if ($null -ne $sourceInfoForReport) { [string]$sourceInfoForReport.first_barony } else { '' }
+			target_province_id = if ($null -ne $targetInfoForReport) { [string]$targetInfoForReport.first_province_id } else { '' }
+			source_province_id = if ($null -ne $sourceInfoForReport) { [string]$sourceInfoForReport.first_province_id } else { '' }
+			root_culture = if ($null -ne $sourceTimelineForReport -and $sourceTimelineForReport.Root.ContainsKey('culture')) { [string]$sourceTimelineForReport.Root['culture'] } else { '' }
+			root_religion = if ($null -ne $sourceTimelineForReport -and $sourceTimelineForReport.Root.ContainsKey('religion')) { [string]$sourceTimelineForReport.Root['religion'] } else { '' }
+			date_overrides = $dateSummary
+			status = $status
+			message = $message
+		}) | Out-Null
+	}
+
+	Export-CsvUtf8 -Rows $reportRows -Path $ReportPath
+
+	$summaryLines = @(
+		'# County Culture/Religion Overlay Summary',
+		'',
+		('- relation county rows: {0}' -f @($relationRows).Count),
+		('- applied rows: {0}' -f @($reportRows | Where-Object { $_.status -like 'applied*' }).Count),
+		('- skipped rows: {0}' -f @($reportRows | Where-Object { $_.status -like 'skipped*' }).Count),
+		('- blocker rows: {0}' -f @($reportRows | Where-Object { $_.status -like 'blocker*' }).Count),
+		('- prepared province replacements: {0}' -f $replacementById.Count),
+		'',
+		('Report: `{0}`' -f $ReportPath)
+	)
+	Write-TextUtf8 -Path $SummaryPath -Text (($summaryLines -join "`r`n") + "`r`n")
+
+	if ($replacementById.Count -eq 0) {
+		return $HistoryText
+	}
+
+	return Apply-ProvinceBlockReplacementsToText -OriginalText $HistoryText -ReplacementById $replacementById
+}
+
 function Parse-LocatorText {
 	param(
 		[Parameter(Mandatory = $true)][AllowEmptyString()][string]$Text,
@@ -616,6 +1427,9 @@ $generatedRoot = Join-Path $worksRoot 'analysis\generated\core_province_integrat
 if (-not (Test-Path -LiteralPath $generatedRoot)) {
 	New-Item -ItemType Directory -Path $generatedRoot -Force | Out-Null
 }
+if ([string]::IsNullOrWhiteSpace($TitleRelationCsv)) {
+	$TitleRelationCsv = Join-Path $repoRoot 'title_relation_master_manuel_new.csv'
+}
 
 $paths = @{
 	FinalMaster = Join-Path $worksRoot 'analysis\generated\final_master_preserve_old_ids.csv'
@@ -634,11 +1448,25 @@ $paths = @{
 	MapObjectDir = Join-Path $repoRoot 'gfx\map\map_object_data'
 	VanillaMapObjectDir = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\gfx\map\map_object_data'
 	GeneratedOracleDir = 'C:\Users\bsgho\Documents\Paradox Interactive\Crusader Kings III\generated'
+	ManualLocatorProvinces = Join-Path $worksRoot 'manual\manual_locator_provinces.csv'
+	CountyCultureReligionSourceHistoryOverrides = Join-Path $worksRoot 'manual\county_culture_religion_overlay_source_history_overrides.csv'
+	SourceModRoot = $SourceModRoot
+	SourceModLandedTitles = Join-Path $SourceModRoot 'common\landed_titles\00_landed_titles.txt'
+	SourceModHistoryDir = Join-Path $SourceModRoot 'history\provinces'
+	TitleRelationCsv = $TitleRelationCsv
 }
 
 $finalMasterRows = Read-CsvUtf8 -Path $paths.FinalMaster
 $modluRows = Read-CsvUtf8 -Path $paths.FinalModlu
 $orijinalRows = Read-CsvUtf8 -Path $paths.FinalOrijinal
+$manualLocatorIds = @{}
+if (Test-Path -LiteralPath $paths.ManualLocatorProvinces) {
+	foreach ($row in (Read-CsvUtf8 -Path $paths.ManualLocatorProvinces)) {
+		if ($null -ne $row.PSObject.Properties['province_id'] -and -not [string]::IsNullOrWhiteSpace([string]$row.province_id)) {
+			$manualLocatorIds[[int]$row.province_id] = $true
+		}
+	}
+}
 
 $finalIdSet = @{}
 $finalPreferredSource = @{}
@@ -663,12 +1491,12 @@ foreach ($row in $modluRows) {
 }
 
 $historyCoverageRows = New-Object System.Collections.Generic.List[object]
-$historySourceDataMod = Get-NumericHistoryBlocksFromDirectory -DirectoryPath $paths.ModHistoryDir
+$historySourceDataMod = Get-NumericHistoryBlocksFromDirectory -DirectoryPath $paths.SourceModHistoryDir
 $historySourceDataVanilla = Get-NumericHistoryBlocksFromDirectory -DirectoryPath $paths.VanillaHistoryDir
 
 $historyBlocksOutput = New-Object System.Collections.Generic.List[string]
 $historyBlocksOutput.Add('# Auto-generated by Works/tools/implement_core_province_integration.ps1')
-$historyBlocksOutput.Add('# Core province integration: modlu_kalan from mod, orijinal_dogu from vanilla with final ID rewrite.')
+$historyBlocksOutput.Add('# Core province integration: modlu_kalan from SourceModRoot, orijinal_dogu from vanilla with final ID rewrite.')
 $historyBlocksOutput.Add('')
 
 foreach ($row in ($candidateRows | Sort-Object { [int]$_.final_new_id })) {
@@ -714,85 +1542,132 @@ foreach ($row in ($candidateRows | Sort-Object { [int]$_.final_new_id })) {
 	}
 }
 
+$historyTextOutput = (($historyBlocksOutput -join "`r`n").TrimEnd() + "`r`n")
+$countyCultureReligionOverlayApplied = $false
+if (-not $SkipCountyCultureReligionOverlay) {
+	$historyTextOutput = Apply-CountyCultureReligionOverlay `
+		-HistoryText $historyTextOutput `
+		-TargetLandedTitlesPath $paths.ModLandedTitles `
+		-SourceLandedTitlesPath $paths.SourceModLandedTitles `
+		-TitleRelationPath $paths.TitleRelationCsv `
+		-SourceHistoryDir $paths.SourceModHistoryDir `
+		-SourceHistoryOverridePath $paths.CountyCultureReligionSourceHistoryOverrides `
+		-ReportPath (Join-Path $generatedRoot 'county_culture_religion_overlay_report.csv') `
+		-SummaryPath (Join-Path $generatedRoot 'county_culture_religion_overlay_summary.md')
+	$countyCultureReligionOverlayApplied = $true
+}
+else {
+	$overlaySkipRows = @(
+		[pscustomobject]@{
+			target_county = ''
+			source_county = ''
+			target_barony = ''
+			source_barony = ''
+			target_province_id = ''
+			source_province_id = ''
+			root_culture = ''
+			root_religion = ''
+			date_overrides = ''
+			status = 'skipped_by_parameter'
+			message = 'SkipCountyCultureReligionOverlay was specified; history culture/religion overlay was not applied.'
+		}
+	)
+	Export-CsvUtf8 -Rows $overlaySkipRows -Path (Join-Path $generatedRoot 'county_culture_religion_overlay_report.csv')
+	Write-TextUtf8 -Path (Join-Path $generatedRoot 'county_culture_religion_overlay_summary.md') -Text "# County Culture/Religion Overlay Summary`r`n`r`n- skipped: `True`r`n"
+}
+
 $historyOutputPath = Join-Path $paths.ModHistoryDir '00_MB_PROVINCES.txt'
-Write-TextUtf8 -Path $historyOutputPath -Text (($historyBlocksOutput -join "`r`n").TrimEnd() + "`r`n")
+Write-LiveTextUtf8 -Path $historyOutputPath -Text $historyTextOutput -Reason 'history_provinces_merge'
 Export-CsvUtf8 -Rows $historyCoverageRows -Path (Join-Path $generatedRoot 'history_provinces_merge_report.csv')
 Export-CsvUtf8 -Rows $historySourceDataMod.Duplicates -Path (Join-Path $generatedRoot 'history_provinces_mod_duplicates.csv')
 Export-CsvUtf8 -Rows $historySourceDataVanilla.Duplicates -Path (Join-Path $generatedRoot 'history_provinces_vanilla_duplicates.csv')
 
-$landedReplacementSpecs = @(
-	@{ Root = 'e_viet'; File = Join-Path $paths.VanillaCommonBase '00_landed_titles.txt' },
-	@{ Root = 'e_tibet'; File = Join-Path $paths.VanillaCommonBase '00_landed_titles.txt' },
-	@{ Root = 'h_china'; File = Join-Path $paths.VanillaCommonBase '02_china.txt' },
-	@{ Root = 'e_suvarnabhumi'; File = Join-Path $paths.VanillaCommonBase '03_seasia.txt' },
-	@{ Root = 'e_brunei'; File = Join-Path $paths.VanillaCommonBase '03_seasia.txt' },
-	@{ Root = 'e_kambuja'; File = Join-Path $paths.VanillaCommonBase '03_seasia.txt' },
-	@{ Root = 'e_nusantara'; File = Join-Path $paths.VanillaCommonBase '06_philippines.txt' },
-	@{ Root = 'e_japan'; File = Join-Path $paths.VanillaCommonBase '01_japan.txt' },
-	@{ Root = 'k_chrysanthemum_throne'; File = Join-Path $paths.VanillaCommonBase '01_japan.txt' },
-	@{ Root = 'e_goryeo'; File = Join-Path $paths.VanillaCommonBase '05_goryeo.txt' },
-	@{ Root = 'k_yongson_throne'; File = Join-Path $paths.VanillaCommonBase '05_goryeo.txt' }
-)
-
-$landedBlocksByFile = @{}
-foreach ($spec in $landedReplacementSpecs) {
-	if (-not $landedBlocksByFile.ContainsKey($spec.File)) {
-		$landedBlocksByFile[$spec.File] = Get-TopLevelBlocks -Text (Read-TextUtf8 -Path $spec.File)
-	}
-}
-
-$landedAppendedBlocks = New-Object System.Collections.Generic.List[string]
 $landedProvinceRewriteRows = New-Object System.Collections.Generic.List[object]
-$modLandedHeadText = Read-HeadOrWorkingText -RelativePath 'common/landed_titles/00_landed_titles.txt' -WorkingPath $paths.ModLandedTitles
-$modBaronyProvinceMap = Get-BaronyProvinceMapFromText -Text $modLandedHeadText
-
-foreach ($spec in $landedReplacementSpecs) {
-	$block = $landedBlocksByFile[$spec.File] | Where-Object { $_.Name -eq $spec.Root } | Select-Object -First 1
-	if ($null -eq $block) {
-		throw "Failed to locate common landed title root $($spec.Root) in $($spec.File)"
-	}
-	$blockText = $block.Text
-	$rewrittenBlock = Rewrite-LandedTitleBlockProvinceIds `
-		-BlockText $blockText `
-		-Root $spec.Root `
-		-VanillaOldToFinal $vanillaOldToFinal `
-		-ModBaronyProvinceMap $modBaronyProvinceMap `
-		-ReportRows $landedProvinceRewriteRows
-	$landedAppendedBlocks.Add($rewrittenBlock)
+$landedReplacementSpecs = @()
+if ($SkipLandedTitles) {
+	$landedProvinceRewriteRows.Add([pscustomobject]@{
+		root = ''
+		barony = ''
+		old_province = ''
+		new_province = ''
+		status = 'skipped_by_parameter'
+		reason = 'SkipLandedTitles was specified; common/landed_titles was not rewritten.'
+	}) | Out-Null
 }
+else {
+	$landedReplacementSpecs = @(
+		@{ Root = 'e_viet'; File = Join-Path $paths.VanillaCommonBase '00_landed_titles.txt' },
+		@{ Root = 'e_tibet'; File = Join-Path $paths.VanillaCommonBase '00_landed_titles.txt' },
+		@{ Root = 'h_china'; File = Join-Path $paths.VanillaCommonBase '02_china.txt' },
+		@{ Root = 'e_suvarnabhumi'; File = Join-Path $paths.VanillaCommonBase '03_seasia.txt' },
+		@{ Root = 'e_brunei'; File = Join-Path $paths.VanillaCommonBase '03_seasia.txt' },
+		@{ Root = 'e_kambuja'; File = Join-Path $paths.VanillaCommonBase '03_seasia.txt' },
+		@{ Root = 'e_nusantara'; File = Join-Path $paths.VanillaCommonBase '06_philippines.txt' },
+		@{ Root = 'e_japan'; File = Join-Path $paths.VanillaCommonBase '01_japan.txt' },
+		@{ Root = 'k_chrysanthemum_throne'; File = Join-Path $paths.VanillaCommonBase '01_japan.txt' },
+		@{ Root = 'e_goryeo'; File = Join-Path $paths.VanillaCommonBase '05_goryeo.txt' },
+		@{ Root = 'k_yongson_throne'; File = Join-Path $paths.VanillaCommonBase '05_goryeo.txt' }
+	)
 
-$modLandedOriginal = $modLandedHeadText
-$landedRootsToRemove = @(
-	'e_viet',
-	'e_tibet',
-	'h_china',
-	'e_goryeo',
-	'e_brunei',
-	'e_kambuja',
-	'e_burma',
-	'e_japan',
-	'e_nusantara',
-	'k_yongson_throne',
-	'k_chrysanthemum_throne',
-	'e_suvarnabhumi',
-	'e_qixi',
-	'e_tunguse',
-	'e_jurchen_china',
-	'e_java',
-	'e_malayadvipa',
-	'e_srivijaya',
-	'e_kalimantan',
-	'e_angkor',
-	'e_ramanya',
-	'e_panyupayana',
-	'e_maluku'
-)
-$modLandedRewritten = Remove-TopLevelBlocksAndAppend `
-	-OriginalText $modLandedOriginal `
-	-RemoveNames $landedRootsToRemove `
-	-AppendBlocks $landedAppendedBlocks `
-	-MarkerComment 'Imported vanilla east landed title roots'
-Write-TextUtf8 -Path $paths.ModLandedTitles -Text $modLandedRewritten
+	$landedBlocksByFile = @{}
+	foreach ($spec in $landedReplacementSpecs) {
+		if (-not $landedBlocksByFile.ContainsKey($spec.File)) {
+			$landedBlocksByFile[$spec.File] = Get-TopLevelBlocks -Text (Read-TextUtf8 -Path $spec.File)
+		}
+	}
+
+	$landedAppendedBlocks = New-Object System.Collections.Generic.List[string]
+	$modLandedHeadText = Read-HeadOrWorkingText -RelativePath 'common/landed_titles/00_landed_titles.txt' -WorkingPath $paths.ModLandedTitles
+	$modBaronyProvinceMap = Get-BaronyProvinceMapFromText -Text $modLandedHeadText
+
+	foreach ($spec in $landedReplacementSpecs) {
+		$block = $landedBlocksByFile[$spec.File] | Where-Object { $_.Name -eq $spec.Root } | Select-Object -First 1
+		if ($null -eq $block) {
+			throw "Failed to locate common landed title root $($spec.Root) in $($spec.File)"
+		}
+		$blockText = $block.Text
+		$rewrittenBlock = Rewrite-LandedTitleBlockProvinceIds `
+			-BlockText $blockText `
+			-Root $spec.Root `
+			-VanillaOldToFinal $vanillaOldToFinal `
+			-ModBaronyProvinceMap $modBaronyProvinceMap `
+			-ReportRows $landedProvinceRewriteRows
+		$landedAppendedBlocks.Add($rewrittenBlock)
+	}
+
+	$modLandedOriginal = $modLandedHeadText
+	$landedRootsToRemove = @(
+		'e_viet',
+		'e_tibet',
+		'h_china',
+		'e_goryeo',
+		'e_brunei',
+		'e_kambuja',
+		'e_burma',
+		'e_japan',
+		'e_nusantara',
+		'k_yongson_throne',
+		'k_chrysanthemum_throne',
+		'e_suvarnabhumi',
+		'e_qixi',
+		'e_tunguse',
+		'e_jurchen_china',
+		'e_java',
+		'e_malayadvipa',
+		'e_srivijaya',
+		'e_kalimantan',
+		'e_angkor',
+		'e_ramanya',
+		'e_panyupayana',
+		'e_maluku'
+	)
+	$modLandedRewritten = Remove-TopLevelBlocksAndAppend `
+		-OriginalText $modLandedOriginal `
+		-RemoveNames $landedRootsToRemove `
+		-AppendBlocks $landedAppendedBlocks `
+		-MarkerComment 'Imported vanilla east landed title roots'
+	Write-LiveTextUtf8 -Path $paths.ModLandedTitles -Text $modLandedRewritten -Reason 'common_landed_titles_vanilla_east_rewrite'
+}
 Export-CsvUtf8 -Rows $landedProvinceRewriteRows -Path (Join-Path $generatedRoot 'landed_titles_vanilla_province_rewrite_report.csv')
 
 $historyTitleSources = @{
@@ -847,7 +1722,7 @@ foreach ($targetFileName in $historyTitleTargets.Keys) {
 		-RemoveNames $roots `
 		-AppendBlocks $appendBlocks `
 		-MarkerComment 'Imported vanilla east title history roots'
-	Write-TextUtf8 -Path $targetPath -Text $targetRewritten
+	Write-LiveTextUtf8 -Path $targetPath -Text $targetRewritten -Reason 'history_titles_vanilla_east_rewrite'
 }
 Export-CsvUtf8 -Rows $historyTitleReportRows -Path (Join-Path $generatedRoot 'history_titles_merge_report.csv')
 
@@ -998,12 +1873,12 @@ $adjacencyLines.Add($adjacencyHeader)
 foreach ($row in $adjacencyRowsOutput) {
 	$adjacencyLines.Add(('{0};{1};{2};{3};{4};{5};{6};{7};{8}' -f $row.From, $row.To, $row.Type, $row.Through, $row.start_x, $row.start_y, $row.stop_x, $row.stop_y, $row.Comment))
 }
-Write-TextUtf8 -Path $paths.ModAdjacencies -Text (($adjacencyLines -join "`r`n") + "`r`n")
+Write-LiveTextUtf8 -Path $paths.ModAdjacencies -Text (($adjacencyLines -join "`r`n") + "`r`n") -Reason 'map_data_adjacencies_rewrite'
 Export-CsvUtf8 -Rows $adjacencyStaleRows -Path (Join-Path $generatedRoot 'stale_old_vanilla_id_report.csv')
 Export-CsvUtf8 -Rows $adjacencyInvalidRows -Path (Join-Path $generatedRoot 'invalid_final_id_report.csv')
 
 $currentIslandText = Read-HeadOrWorkingText -RelativePath 'map_data/island_region.txt' -WorkingPath $paths.IslandRegion
-Write-TextUtf8 -Path $paths.IslandRegion -Text $currentIslandText
+Write-LiveTextUtf8 -Path $paths.IslandRegion -Text $currentIslandText -Reason 'map_data_island_region_preserve_current'
 $islandReportRows = @(
 	[pscustomobject]@{
 		file = 'map_data/island_region.txt'
@@ -1029,10 +1904,12 @@ $locatorMissingRows = New-Object System.Collections.Generic.List[object]
 foreach ($locatorFile in $locatorFiles) {
 	$modLocatorSourceText = Read-HeadOrWorkingText -RelativePath ("gfx/map/map_object_data/{0}" -f $locatorFile) -WorkingPath (Join-Path $paths.MapObjectDir $locatorFile)
 	$modLocator = Parse-LocatorText -Text $modLocatorSourceText -SourceLabel ("HEAD:gfx/map/map_object_data/{0}" -f $locatorFile)
+	$workingModLocator = Parse-LocatorFile -Path (Join-Path $paths.MapObjectDir $locatorFile)
 	$vanillaLocator = Parse-LocatorFile -Path (Join-Path $paths.VanillaMapObjectDir $locatorFile)
 	$oracleLocator = Parse-LocatorFile -Path (Join-Path $paths.GeneratedOracleDir $locatorFile)
 
 	$modGroups = Group-LocatorInstancesById -Instances $modLocator.Instances
+	$workingModGroups = Group-LocatorInstancesById -Instances $workingModLocator.Instances
 	$vanillaGroups = Group-LocatorInstancesById -Instances $vanillaLocator.Instances
 	$oracleGroups = Group-LocatorInstancesById -Instances $oracleLocator.Instances
 	$outputBlocks = New-Object System.Collections.Generic.List[string]
@@ -1060,22 +1937,52 @@ foreach ($locatorFile in $locatorFiles) {
 	foreach ($row in ($candidateRows | Sort-Object { [int]$_.final_new_id })) {
 		$finalId = [int]$row.final_new_id
 		$subset = $row.preferred_source_subset
-		if ($subset -eq 'modlu_kalan') {
+		if ($manualLocatorIds.ContainsKey($finalId)) {
 			$key = [string]$finalId
-			if ($modGroups.ContainsKey($key)) {
+			if ($workingModGroups.ContainsKey($key)) {
+				foreach ($block in $workingModGroups[$key]) {
+					$outputBlocks.Add($block)
+				}
+			}
+			elseif ($modGroups.ContainsKey($key)) {
 				foreach ($block in $modGroups[$key]) {
 					$outputBlocks.Add($block)
 				}
 			}
-			elseif ($oracleGroups.ContainsKey($key)) {
-				foreach ($block in $oracleGroups[$key]) {
+			else {
+				$locatorMissingRows.Add([pscustomobject]@{
+					file = $locatorFile
+					final_new_id = $finalId
+					source_subset = $subset
+					source_old_id = ''
+					status = 'missing_manual_locator'
+				})
+			}
+			continue
+		}
+		if ($subset -eq 'modlu_kalan') {
+			$oldId = [int]$row.modlu_old_id
+			$key = [string]$oldId
+			$finalKey = [string]$finalId
+			if ($modGroups.ContainsKey($key)) {
+				foreach ($block in $modGroups[$key]) {
+					if ($oldId -eq $finalId) {
+						$outputBlocks.Add($block)
+					}
+					else {
+						$outputBlocks.Add((Rewrite-LocatorBlockId -BlockText $block -NewId $finalId))
+					}
+				}
+			}
+			elseif ($oracleGroups.ContainsKey($finalKey)) {
+				foreach ($block in $oracleGroups[$finalKey]) {
 					$outputBlocks.Add($block)
 				}
 				$locatorMissingRows.Add([pscustomobject]@{
 					file = $locatorFile
 					final_new_id = $finalId
 					source_subset = $subset
-					source_old_id = $row.modlu_old_id
+					source_old_id = $oldId
 					status = 'fallback_generated_for_missing_mod'
 				})
 			}
@@ -1084,7 +1991,7 @@ foreach ($locatorFile in $locatorFiles) {
 					file = $locatorFile
 					final_new_id = $finalId
 					source_subset = $subset
-					source_old_id = $row.modlu_old_id
+					source_old_id = $oldId
 					status = 'missing_mod_locator'
 				})
 			}
@@ -1122,9 +2029,14 @@ foreach ($locatorFile in $locatorFiles) {
 	}
 
 	$finalText = Build-LocatorText -HeaderLines $modLocator.HeaderLines -FooterLines $modLocator.FooterLines -InstanceBlocks $outputBlocks.ToArray()
-	Write-TextUtf8 -Path (Join-Path $paths.MapObjectDir $locatorFile) -Text $finalText
+	Write-LiveTextUtf8 -Path (Join-Path $paths.MapObjectDir $locatorFile) -Text $finalText -Reason ('locator_rewrite:{0}' -f $locatorFile)
 
-	$writtenLocator = Parse-LocatorFile -Path (Join-Path $paths.MapObjectDir $locatorFile)
+	$writtenLocator = if ($script:DryRun) {
+		Parse-LocatorText -Text $finalText -SourceLabel ('dry_run:{0}' -f $locatorFile)
+	}
+	else {
+		Parse-LocatorFile -Path (Join-Path $paths.MapObjectDir $locatorFile)
+	}
 	$writtenGroups = Group-LocatorInstancesById -Instances $writtenLocator.Instances
 
 	foreach ($groupKey in $writtenGroups.Keys) {
@@ -1185,12 +2097,17 @@ foreach ($locatorFile in $locatorFiles) {
 Export-CsvUtf8 -Rows $locatorMissingRows -Path (Join-Path $generatedRoot 'locator_missing_report.csv')
 Export-CsvUtf8 -Rows $locatorValidationRows -Path (Join-Path $generatedRoot 'locator_validation_report.csv')
 Export-CsvUtf8 -Rows $locatorOracleDiffRows -Path (Join-Path $generatedRoot 'locator_oracle_diff_report.csv')
+Export-CsvUtf8 -Rows $script:LiveWriteRows -Path (Join-Path $generatedRoot 'live_write_report.csv')
 
 $summaryLines = @(
 	'# Core Province Integration Summary',
 	'',
+	('- dry run: {0}' -f $script:DryRun),
+	('- skip landed_titles: {0}' -f [bool]$SkipLandedTitles),
+	('- skip county culture/religion overlay: {0}' -f [bool]$SkipCountyCultureReligionOverlay),
 	('- history/provinces merged candidates: {0}' -f (($historyCoverageRows | Where-Object { $_.status -eq 'ok' }).Count)),
 	('- history/provinces missing blocks: {0}' -f (($historyCoverageRows | Where-Object { $_.status -ne 'ok' }).Count)),
+	('- county culture/religion overlay applied: {0}' -f $countyCultureReligionOverlayApplied),
 	('- landed_titles imported roots: {0}' -f $landedReplacementSpecs.Count),
 	('- history/titles imported roots: {0}' -f $historyTitleReportRows.Count),
 	('- adjacencies merged rows: {0}' -f $adjacencyRowsOutput.Count),

@@ -7,15 +7,15 @@
 
 ## Source Decision Counts
 
-- `manual_review`: `98`
+- `manual_review`: `97`
 - `modlu_kalan`: `195`
-- `orijinal_dogu`: `1148`
+- `orijinal_dogu`: `1149`
 
 ## Confidence Counts
 
-- `high`: `1052`
+- `high`: `1051`
 - `low`: `107`
-- `medium`: `282`
+- `medium`: `283`
 
 ## Outputs
 

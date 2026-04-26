@@ -44905,35 +44905,39 @@ c_triang_bang = {
 	1300.1.1 = { holder = monMB341	 }
 	1325.1.1 = { holder = monMB342	 }
 }
-c_bhamo = {
-	760.1.1 = {  holder = monMB324 }
-	820.1.1 = {  holder = monMB325 }
-	840.1.1 = {  holder = monMB326 }
-	860.1.1 = {  holder = monMB327 }
-	900.1.1 = {  holder = monMB328 }
-	930.1.1 = {  holder = monMB329 }
-	955.1.1 = {  holder = monMB330 }
-	980.1.1 = {  holder = monMB331 }
-	1005.1.1 = { holder = monMB332 }
-	1040.1.1 = { holder = monMB333	 }
-	1070.1.1 = { holder = monMB334	 }
-	1100.1.1 = { holder = monMB335	 }
-	1115.1.1 = { holder = Mongmao0	 }
-	1112.1.1 = { holder = Mongmao1	 }
-	1123.1.1 = { holder = Mongmao2	 }
-	1137.1.1 = { holder = Mongmao3	 }
-	1145.1.1 = { holder = Mongmao4	 }
-	1163.1.1 = { holder = Mongmao5	 }
-	1171.1.1 = { holder = Mongmao6	 }
-	1188.1.1 = { holder = Mongmao7	 }
-	1203.1.1 = { holder = Mongmao8	 }
-	1210.1.1 = { holder = Mongmao9	 }
-	1220.1.1 = { holder = Mongmao10	 }
-	1250.1.1 = { holder = Mongmao11	 }
-	1282.1.1 = { holder = Mongmao12	 }
-	1285.1.1 = { holder = Mongmao13	 }
-	1315.1.1 = { holder = Mongmao14	 }
-	1330.1.1 = { holder = Mongmao15	 }
+c_momauk = {
+	867.1.1 = { change_development_level = 6 }
+	1066.1.1 = { change_development_level = 14 }
+
+	750.1.1 = {
+		holder = 769burma2
+	}
+	802.1.1 = {
+		holder = 769burma1
+	}
+	840.1.1 = {  holder = SEAsiaMB3 }
+	860.1.1 = {  holder = SEAsiaMB4 }
+	900.1.1 = {  holder = SEAsiaMB5 }
+	930.1.1 = {  holder = SEAsiaMB6 }
+	955.1.1 = {  holder = SEAsiaMB7 }
+	980.1.1 = {  holder = SEAsiaMB8 }
+	1005.1.1 = { holder = SEAsiaMB9 }
+	1040.1.1 = { holder = SEAsiaMB10	 }
+	1070.1.1 = { holder = SEAsiaMB11	 }
+	1100.1.1 = { holder = SEAsiaMB12	 }
+	1115.1.1 = { holder = SEAsiaMB13	 }
+	1130.1.1 = { holder = Mongkawng00 liege =	d_mongkawng	 }
+	1145.1.1 = { holder = Mongyang0 }
+	1150.1.1 = { holder = Mongyang1	 }
+	1175.1.1 = { holder = Mongyang2	 }
+	1199.1.1 = { holder = Mongyang3	 }
+	1234.1.1 = { holder = Mongyang4	 }
+	1246.1.1 = { holder = Mongyang5	 }
+	1268.1.1 = { holder = Mongyang6	 }
+	1290.1.1 = { holder = Mongyang7	 }
+	1311.1.1 = { holder = Mongyang8	 }
+	1333.1.1 = { holder = Mongyang9	 }
+
 }
 c_myitkyina = {
 	760.1.1 = {  holder = monMB324 }
@@ -44987,40 +44991,6 @@ c_mongkawng = {
 	1228.1.1 = { holder = Mongkawng2	 }
 	1248.1.1 = { holder = Mongkawng3	 }
 	1308.1.1 = { holder = Mongkawng4	 }
-
-}
-c_mongyang = {
-	867.1.1 = { change_development_level = 6 }
-	1066.1.1 = { change_development_level = 14 }
-
-	750.1.1 = {
-		holder = 769burma2
-	}
-	802.1.1 = {
-		holder = 769burma1
-	}
-	840.1.1 = {  holder = SEAsiaMB3 }
-	860.1.1 = {  holder = SEAsiaMB4 }
-	900.1.1 = {  holder = SEAsiaMB5 }
-	930.1.1 = {  holder = SEAsiaMB6 }
-	955.1.1 = {  holder = SEAsiaMB7 }
-	980.1.1 = {  holder = SEAsiaMB8 }
-	1005.1.1 = { holder = SEAsiaMB9 }
-	1040.1.1 = { holder = SEAsiaMB10	 }
-	1070.1.1 = { holder = SEAsiaMB11	 }
-	1100.1.1 = { holder = SEAsiaMB12	 }
-	1115.1.1 = { holder = SEAsiaMB13	 }
-	1130.1.1 = { holder = Mongkawng00 liege =	d_mongkawng	 }
-	1145.1.1 = { holder = Mongyang0 }
-	1150.1.1 = { holder = Mongyang1	 }
-	1175.1.1 = { holder = Mongyang2	 }
-	1199.1.1 = { holder = Mongyang3	 }
-	1234.1.1 = { holder = Mongyang4	 }
-	1246.1.1 = { holder = Mongyang5	 }
-	1268.1.1 = { holder = Mongyang6	 }
-	1290.1.1 = { holder = Mongyang7	 }
-	1311.1.1 = { holder = Mongyang8	 }
-	1333.1.1 = { holder = Mongyang9	 }
 
 }
 
@@ -49820,10 +49790,7 @@ c_karenni = {
 	1300.1.1 = { holder = SEAsiaMB303	}
 	1325.1.1 = { holder = SEAsiaMB304	}
 }
-c_mang_shuea = {
-	867.1.1 = { change_development_level = 5 }
-	1066.1.1 = { change_development_level = 12 }
-}
+
 c_zhen_xi = {
 	867.1.1 = { change_development_level = 4 }
 	1066.1.1 = { change_development_level = 7 }
@@ -65356,7 +65323,7 @@ c_yang_wen_dun = {
 	1315.1.1 = { holder = Mongmao14	 }
 	1330.1.1 = { holder = Mongmao15	 }
 }
-c_mang_shuea = {
+c_nandian = {
 	867.1.1 = { change_development_level = 5 }
 	1066.1.1 = { change_development_level = 13 }
 
@@ -76507,30 +76474,6 @@ c_tebo = {
 	}
 
 }
-c_bungo = {
-
-	760.1.1 = {  holder = malayMB173 liege = e_srivijaya }
-	820.1.1 = {  holder = malayMB174 }
-	840.1.1 = {  holder = malayMB175 }
-	860.1.1 = {  holder = malayMB176 }
-	900.1.1 = {  holder = malayMB177 }
-	930.1.1 = {  holder = malayMB178 }
-	955.1.1 = {  holder = malayMB179 }
-	980.1.1 = {  holder = malayMB180 }
-	1005.1.1 = { holder = malayMB181 }
-	1040.1.1 = { holder = malayMB182 	 }
-	1070.1.1 = { holder = malayMB183 	 }
-	1100.1.1 = { holder = malayMB184 	 }
-	1115.1.1 = { holder = malayMB185 	 }
-	1140.1.1 = { holder = malayMB186 	 }
-	1180.1.1 = { holder = malayMB187 	 }
-	1210.1.1 = { holder = malayMB188 	 }
-	1250.1.1 = { holder = malayMB189 	 }
-	1286.1.1 = { liege = k_melayu 	 }
-	1300.1.1 = { holder = malayMB190 	 }
-	1325.1.1 = { holder = malayMB191 	 }
-
-}
 
 # KERINCI #
 d_kerinci = {
@@ -79662,6 +79605,10 @@ c_bolo_ph = {
 	1295.1.1 = { holder = AsiaIsles_1082 }
 	1330.1.1 = { holder = AsiaIsles_1083 }
 }
+
+# -----------------------------------------------------------------------------
+# Imported vanilla east title history roots
+# -----------------------------------------------------------------------------
 
 # -----------------------------------------------------------------------------
 # Imported vanilla east title history roots

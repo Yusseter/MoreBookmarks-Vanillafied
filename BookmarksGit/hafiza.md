@@ -5255,3 +5255,240 @@ Yeni raporlar:
 - Bu tur read-only:
   - `common/landed_titles/00_landed_titles.txt` degistirilmedi
   - `test_files` degistirilmedi
+
+
+## 2026-04-25 Landed Title Parent Manual Apply
+
+- Kullanici `landed_title_parent_manual_new.csv` dosyasini manuel karar dosyasi olarak olusturdu.
+- Karar kolonu: `yusseter_selected_parent`.
+- Manuel CSV mevcut `00_landed_titles.txt` ile karsilastirildi:
+  - baslangicta `138` satir vardi
+  - `117` satir zaten dosya ile uyumluydu
+  - `21` satir farkliydi
+- Otomatik uygulama:
+  - hedef parent'i mevcut olan `16` title blogu tasindi
+  - `4` satir `d_yijinai` dosyada olmadigi icin bloke kaldi:
+    - `c_yijinai`
+    - `c_wentugaole`
+    - `c_heihe`
+    - `c_mazongshan`
+- Validator ayrica gercek tier hatasi yakaladi:
+  - `d_SW_heicheziguo` yanlislikla `d_em_wuguguo` altindaydi
+  - `d_SW_heicheziguo` `k_shiwei` altina tasindi
+- `common/landed_titles/00_landed_titles.txt` degistigi icin ayni dosya `test_files/common/landed_titles/00_landed_titles.txt` ile senkronlandi.
+- Son dogrulama:
+  - `landed_titles live/test hash match = yes`
+  - `missing playable province titles = 0`
+  - `validation errors = 0`
+  - `validation warnings = 0`
+- Son parent audit (`k_` closure):
+  - satir: `1441`
+  - `ok = 1312`
+  - `wrong = 22`
+  - `missing_parent_mapping = 10`
+  - `manual_review_source = 97`
+- Uretilen ana rapor:
+  - `works/analysis/generated/landed_title_parent_manual_apply/landed_title_parent_manual_apply_report.csv`
+
+## 2026-04-25 County Culture/Religion Overlay Blocker Incelemesi ve Cozum Kararlari
+
+- Kullanici `county_culture_religion_overlay_blockers_readable.csv` icin okunabilir, az kolonlu CSV istedi.
+  - Dosya cok kolonlu olmamali.
+  - Kabul edilen readable kolonlar:
+    - `status`
+    - `target_county`
+    - `source_county`
+    - `message`
+  - Kullanici dosyadaki `"` karakterlerini sildi; bu durum CSV okunurlugu icin kabul edildi.
+- `blocker_missing_source_county` icin ana hata sinifi:
+  - Bazi `source_county` degerlerinde `c_* (second)` gibi suffixler vardi.
+  - Sistem bunu normalize etmeden aradigi icin source county bulunamadi.
+  - Karar: source title id okunurken `(second)` benzeri suffixler title lookup oncesi temizlenecek.
+- `c_murin_china` orneginden cikan kural:
+  - Source tarafinda top barony ve history block aslinda bulunabiliyordu.
+  - Ornek: `c_murin_china` top barony province id `12742`.
+  - Sorun bazen source bulma degil, target/final generated history block'unun olmamasiydi.
+- `blocker_missing_target_history_block` icin kabul edilen cozum:
+  - Overlay sadece var olan target block'a culture/religion yazmakla sinirli kalmamali.
+  - Target top-barony province id icin generated history block yoksa sistem uygun source province history block'unu alip target province id ile yeni block olusturabilmeli.
+  - Bu kural hem mod source hem vanilla source icin source kararina gore calismali.
+  - Kaynak secimi kesin kural:
+    - province/title kaynaginin source'u neyse o kullanilacak
+    - `modlu_kalan` ise Leviathon/source mod history
+    - `orijinal_dogu` ise vanilla/current source
+    - butun `modlu_kalan`lar korlemesine Leviathon, butunlar korlemesine vanilla olmayacak; source karari belirleyici olacak.
+- `c_deungju` ornegi:
+  - Current landed_titles icinde target top barony province id `12783`.
+  - Generated `history/provinces/00_MB_PROVINCES.txt` icinde `12783 = { ... }` block'u yoksa eski sistem blocker veriyordu.
+  - Yeni kural: target block yoksa uygun source history block'undan hedef id ile block olustur.
+- `blocker_missing_target_county,c_PHI_ma,c_mait_ph` ornegi:
+  - Sebep target county'nin current `common/landed_titles/00_landed_titles.txt` icinde olmamasiydi.
+  - Bu tip durumda overlay target title bulamadigi icin dogrudan uygulama yapamaz.
+  - Cozum tipi title relation veya landed_titles tarafinda target county varligini/isim eslesmesini duzeltmek.
+- `blocker_missing_source_root_culture_or_religion,c_mentawai,c_mentawai_islands` ornegi:
+  - Source top-barony history block bulundu, fakat root seviyede `culture` veya `religion` eksikti.
+  - Date block icindeki degerler root overlay icin yeterli sayilmadi.
+  - Cozum tipi:
+    - dogru source block secimi
+    - veya source block root culture/religion barindirmiyorsa manuel/source fallback karari.
+- Duplicate source history block problemi:
+  - Ayni province id icin birden fazla history block olabiliyor.
+  - Sistem tek block varsaymamalı.
+  - Aday blocklar icinde once root `culture` + `religion` olanlar filtrelenecek.
+  - Sonra source barony comment match varsa o secilecek.
+  - Hala birden fazla aday varsa blocker veya manuel override gerekecek.
+- `c_binh_long -> c_prey_rodum` duplicate ornegi:
+  - `blocker_ambiguous_duplicate_source_history_block,c_binh_long,c_prey_rodum`
+  - Kullanici Leviathon `00_MB_PROVINCES.txt` line civari `20570` icindeki `culture = khmer`, `religion = shaivism` olan block'un secilmesini istedi.
+  - Bu karar manuel override'a yazildi:
+    - `c_binh_long,c_prey_rodum,13178,khmer,shaivism`
+  - Beklenen sonuc: target `10924` culture/religion degerleri `khmer/shaivism`.
+- `works/tools/implement_core_province_integration.ps1` icin bu tur kabul edilen teknik degisiklikler:
+  - county overlay icinde source title normalize fix'i
+  - source-specific history lookup
+  - missing target history block create-from-source fallback
+  - duplicate source province history block support
+  - source barony comment match ile duplicate cozumleme
+  - manuel source history override CSV destegi
+  - blocker report/readable report uretimi
+- Live integration tekrar calistirildi:
+  - komut mantigi: `implement_core_province_integration.ps1 -SkipLandedTitles`
+  - landed_titles yeniden yazilmadi.
+  - `history/provinces/00_MB_PROVINCES.txt` dahil integration outputlari guncellendi.
+- Son blocker sonucu:
+  - `county_culture_religion_overlay_summary.md` icinde blocker rows `0`
+  - `county_culture_religion_overlay_blockers_readable.csv` sadece header'a dustu.
+- `test_files` ile ilgili ara kontrol:
+  - `history/provinces/00_MB_PROVINCES.txt` test_files kopyasi guncellenmisti.
+  - Ancak `gfx/map/map_object_data` altindaki live locator dosyalari baslangicta `test_files` icine kopyalanmamisti.
+  - Sonra bu 6 dosya test_files'a senkronlandi ve hash esitligi dogrulandi.
+
+## 2026-04-25 Core Province Integration ve Son Esleme Duzeltmeleri
+
+- Kullanici `hafiza.md` dosyasini proje hafizasi olarak kullaniyor; yeni net kararlar ve uygulanan duzeltmeler bu dosyaya ayrica hatirlatma beklenmeden islenmeli.
+- `works/tools/implement_core_province_integration.ps1` core integration scripti icin son kabul edilen davranis:
+  - province history source'u title/province kararindaki gercek source'a gore secilecek
+  - `modlu_kalan` icin kaynak Leviathon/source mod history olabilir
+  - `orijinal_dogu` icin kaynak vanilla/current source olabilir
+  - target generated history block yoksa, uygun source province history block'u hedef province id ile yeni block olarak olusturulabilir
+  - source county adlarindaki `(second)` gibi suffixler normalize edilmeli
+  - duplicate source history block varsa once source barony comment match aranacak
+  - duplicate hala belirsizse manuel override kullanilacak
+- `works/manual/county_culture_religion_overlay_source_history_overrides.csv` eklendi.
+  - `c_binh_long,c_prey_rodum,13178,khmer,shaivism`
+  - Bu override Leviathon `00_MB_PROVINCES.txt` icinde line civari `20570` olan `culture = khmer`, `religion = shaivism` iceren `13178` block'unu secmek icin kullaniliyor.
+- Son overlay summary:
+  - relation county rows: `895`
+  - applied rows: `892`
+  - skipped rows: `3`
+  - blocker rows: `0`
+  - prepared province replacements: `892`
+- `county_culture_religion_overlay_blockers_readable.csv` artik sadece header icermeli:
+  - `status,target_county,source_county,message`
+- `c_bungo` esleme hatasi duzeltildi:
+  - Yanlis eski karar: `c_bungo, c_bungo, yes, ,`
+  - Dogru karar: `c_bungo, c_bungo_jp, no, ,`
+  - `title_relation_master_manuel_new.csv` satiri buna gore duzeltildi.
+  - `history/provinces/00_MB_PROVINCES.txt` ve `test_files/history/provinces/00_MB_PROVINCES.txt` icinde `10518 = { # OITA }` root degerleri:
+    - `culture = kyushu`
+    - `religion = pundarika`
+  - `history/titles/00_ASIA_JAPAN.txt` ve `test_files/history/titles/00_ASIA_JAPAN.txt` icinde `c_bungo_jp = {` basligi `c_bungo = {` yapildi.
+  - `history/titles/00_ASIA_SOUTH.txt` ve `test_files/history/titles/00_ASIA_SOUTH.txt` icindeki hatali Malay/Srivijaya `c_bungo` history block'u kaldirildi.
+  - `county_culture_religion_overlay_report.csv` satiri:
+    - target `c_bungo`
+    - source `c_bungo_jp`
+    - target barony `b_oita`
+    - source barony `b_oita`
+    - target province `10518`
+    - source province `13776`
+    - root `kyushu/pundarika`
+- `c_momauk` esleme hatasi duzeltildi:
+  - 2026-04-26 netlestirme: bir onceki notta `c_bhamo` dogru gibi yazilmisti; bu yanlisti.
+  - Dogru karar: `c_momauk, c_mongyang, no, ,`
+  - `title_relation_master_manuel_new.csv` satiri buna gore duzeltildi.
+  - `history/titles/00_ASIA_SOUTH.txt` ve `test_files/history/titles/00_ASIA_SOUTH.txt` icinde `c_momauk` history block'u `c_mongyang` source history icerigiyle guncellendi.
+  - `county_culture_religion_overlay_report.csv` satiri:
+    - `c_momauk -> c_mongyang`
+    - `b_momauk -> b_mongyang`
+    - `10987 -> 13040`
+    - root `burmese/burmic`
+    - date overrides `800.1.1:culture=kachin|religion=ari; 1050.1.1:culture=tai|religion=theravada; 1100.1.1:culture=shan`
+  - `history/provinces/00_MB_PROVINCES.txt` ve `test_files/history/provinces/00_MB_PROVINCES.txt` icinde `10987 = { #b_momauk }` bu `c_mongyang` overlay degerleriyle guncellendi.
+- `c_nandian` esleme hatasi duzeltildi:
+  - Kullanici ifadesinde `c_mangshuea` yazildi, ama dosyalardaki gercek title id `c_mang_shuea`.
+  - Yanlis karar: `c_nandian, c_mongyang, no, ,`
+  - Dogru karar: `c_nandian, c_mang_shuea, no, ,`
+  - `title_relation_master_manuel_new.csv` satiri buna gore duzeltildi.
+  - `history/titles/00_ASIA_SOUTH.txt` ve `test_files/history/titles/00_ASIA_SOUTH.txt` icinde dogru `c_mang_shuea` history block'u `c_nandian` oldu.
+  - Duplicate/basit `c_mang_shuea` block'u kaldirildi.
+  - `history/provinces/00_MB_PROVINCES.txt` ve `test_files/history/provinces/00_MB_PROVINCES.txt` icinde `11481 = { #b_nandian }` artik:
+    - `culture = achang`
+    - `religion = burmic`
+    - `holding = tribal_holding`
+    - `1060.1.1 = { religion = theravada }`
+    - `1100.1.1 = { culture = shan }`
+  - `county_culture_religion_overlay_report.csv` satiri:
+    - target `c_nandian`
+    - source `c_mang_shuea`
+    - target barony `b_nandian`
+    - source barony `b_mang_shuea`
+    - target province `11481`
+    - source province `10903`
+    - root `achang/burmic`
+    - date overrides `1060.1.1:religion=theravada; 1100.1.1:culture=shan`
+- `gfx/map/map_object_data` altinda live olarak yenilenen 6 dosya `test_files/gfx/map/map_object_data` icine kopyalandi ve hashleri esit dogrulandi:
+  - `building_locators.txt`
+  - `special_building_locators.txt`
+  - `player_stack_locators.txt`
+  - `combat_locators.txt`
+  - `siege_locators.txt`
+  - `activities.txt`
+
+## 2026-04-26 Province Terrain Source-Mask Merge
+
+- `common/province_terrain` dosyalari icin ana kural:
+  - final province id korunacak
+  - `orijinal_dogu` subset'i vanilla source id'den alinacak
+  - `modlu_kalan` subset'i Leviathon/source mod id'den alinacak
+  - source id degerleri final output'a yazilmayacak; sadece terrain/province property icerigi final id'ye tasinacak
+- Source subset tespiti icin kullanilan maskeler:
+  - `works/map_data_sources/provinces_modlu_kalan 2026-04-26.png`
+  - `works/map_data_sources/provinces_orijinal_dogu 2026-04-26.png`
+- RGB -> final province id eslemesi icin `map_data/definition.csv` kullanildi.
+- Final province id -> source old id ve preferred source subset bilgisi icin `works/analysis/generated/final_master_preserve_old_ids.csv` kullanildi.
+- Source terrain/property dosyalari:
+  - Leviathon/source mod: `F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\common\province_terrain`
+  - Vanilla: `E:\XboxGames\Crusader Kings III\Content\game\common\province_terrain`
+- Uygulama scripti:
+  - `works/tools/merge_province_terrain_from_source_masks.py`
+- Cikti dosyalari live ve test_files icin birlikte yenilendi:
+  - `common/province_terrain/00_province_terrain.txt`
+  - `common/province_terrain/01_province_properties.txt`
+  - `test_files/common/province_terrain/00_province_terrain.txt`
+  - `test_files/common/province_terrain/01_province_properties.txt`
+- Son merge ozeti:
+  - mask rows seen: `14695`
+  - candidate rows: `13294`
+  - skipped non-candidate rows: `1401`
+  - legacy placeholder RGBs ignored: `34`
+  - blockers: `0`
+  - warnings: `46`
+  - source id missing: `16`
+  - terrain written: `11796`
+  - terrain source missing: `1482`
+  - property written: `13206`
+  - property source missing: `72`
+- `definition.csv` icinde 14627-14660 araligindaki bazi eski `zz_placeholder_*` province'ler artik normal province olarak kullaniliyor.
+- `province_terrain_merge_issues.csv` icindeki eski `warning_rgb_not_in_definition_skipped` satirlari bu yuzden yeniden siniflandirildi:
+  - eski placeholder RGB izleri `info_legacy_placeholder_rgb_replaced_by_current_definition` olarak tutuluyor
+  - bu 34 satir artik blocker/warning sayilmiyor
+- Bu aralikta final_master hala placeholder dedigi icin source old id'i bilinmeyen 16 normal row kaldi; bunlar `warning_missing_source_old_id_for_definition_normal` olarak raporlandi.
+- Missing terrain kayitlarinin buyuk kismi explicit source terrain satiri olmayan sea/lake/default kapsaminda kabul edildi; bu yuzden blocker sayilmadi.
+- `test_files/common/province_terrain` live ile hash-esit dogrulandi.
+- Duplicate numeric province id kontrolu temiz:
+  - `00_province_terrain.txt`: `11796` numeric id, duplicate `0`
+  - `01_province_properties.txt`: `13206` numeric id, duplicate `0`
+- Raporlar:
+  - `works/analysis/generated/province_terrain_merge/province_terrain_merge_summary.md`
+  - `works/analysis/generated/province_terrain_merge/province_terrain_merge_report.csv`
+  - `works/analysis/generated/province_terrain_merge/province_terrain_merge_issues.csv`

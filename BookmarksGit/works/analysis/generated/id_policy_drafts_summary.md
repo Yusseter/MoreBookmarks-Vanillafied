@@ -2,27 +2,30 @@
 
 ## Generated Files
 
-- preserve assignments: `F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\analysis\generated\id_policy_preserve_old_assignments.csv`
-- preserve placeholders: `F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\analysis\generated\id_policy_preserve_old_placeholders.csv`
-- preserve mod map: `F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\analysis\generated\id_map_modlu_preserve_old.csv`
-- preserve orijinal map: `F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\analysis\generated\id_map_orijinal_preserve_old.csv`
-- full renumber assignments: `F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\analysis\generated\id_policy_full_renumber_assignments.csv`
-- full renumber mod map: `F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\analysis\generated\id_map_modlu_full_renumber.csv`
-- full renumber orijinal map: `F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\analysis\generated\id_map_orijinal_full_renumber.csv`
-- source burden csv: `F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\analysis\generated\id_policy_source_burden.csv`
+- preserve assignments: `F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\works\analysis\generated\id_policy_preserve_old_assignments.csv`
+- preserve placeholders: `F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\works\analysis\generated\id_policy_preserve_old_placeholders.csv`
+- definition override candidates: `F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\works\analysis\generated\current_definition_override_candidates.csv`
+- preserve mod map: `F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\works\analysis\generated\id_map_modlu_preserve_old.csv`
+- preserve orijinal map: `F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\works\analysis\generated\id_map_orijinal_preserve_old.csv`
+- full renumber assignments: `F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\works\analysis\generated\id_policy_full_renumber_assignments.csv`
+- full renumber mod map: `F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\works\analysis\generated\id_map_modlu_full_renumber.csv`
+- full renumber orijinal map: `F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\works\analysis\generated\id_map_orijinal_full_renumber.csv`
+- source burden csv: `F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\works\analysis\generated\id_policy_source_burden.csv`
 
 ## Policy A: Preserve Old IDs (Draft)
 
 - intent: keep as many existing IDs as possible
 - tie-break for duplicate ID groups: prefer `modlu_kalan`, then deterministic lexical order
 - candidate rows keeping current ID: `12627`
-- candidate rows getting new ID: `634`
+- candidate rows getting new ID: `652`
 - displaced duplicate rows reassigned into existing gaps: `634`
 - displaced duplicate rows appended after max old ID: `0`
-- placeholder rows still required for contiguity: `1435`
+- placeholder rows still required for contiguity: `1417`
+- definition override existing candidate rows updated: `86`
+- definition override placeholders promoted: `18`
 - final max ID under policy A: `14696`
-- changed modlu_kalan rows: `0`
-- changed orijinal_dogu rows: `634`
+- changed modlu_kalan rows: `15`
+- changed orijinal_dogu rows: `637`
 
 ## Policy B: Full Renumber (Draft)
 

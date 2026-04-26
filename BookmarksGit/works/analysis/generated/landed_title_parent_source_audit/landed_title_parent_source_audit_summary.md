@@ -4,10 +4,10 @@
 
 ## Status Counts
 
-- `manual_review_source`: `98`
-- `missing_parent_mapping`: `11`
-- `ok`: `1309`
-- `wrong`: `23`
+- `manual_review_source`: `97`
+- `missing_parent_mapping`: `10`
+- `ok`: `1312`
+- `wrong`: `22`
 
 ## Outputs
 

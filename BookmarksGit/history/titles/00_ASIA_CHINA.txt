@@ -54394,6 +54394,10 @@ c_atayal = {
 # Imported vanilla east title history roots
 # -----------------------------------------------------------------------------
 
+# -----------------------------------------------------------------------------
+# Imported vanilla east title history roots
+# -----------------------------------------------------------------------------
+
 h_china = {
 	25.8.5 = {
 		government = celestial_government
@@ -54401,10 +54405,6 @@ h_china = {
 		effect = {
 			set_title_name = dynn_title_han
 			set_title_color = { 100 10 10 }
-			set_global_variable = {
-				name = old_dynastic_color_is_red
-				value = 0
-			}
 		}
 	}
 	57.3.29 = {
@@ -54451,10 +54451,6 @@ h_china = {
 		effect = {
 			set_title_name = dynn_title_jin
 			set_title_color = { 250 180 0 }
-			set_global_variable = {
-				name = old_dynastic_color_is_white
-				value = 0
-			}
 		}
 	}
 	290.5.16 = {
@@ -54507,10 +54503,6 @@ h_china = {
 		effect = {
 			set_title_name = dynn_title_sui
 			set_title_color = { 250 180 0 }
-			set_global_variable = {
-				name = old_dynastic_color_is_black
-				value = 0
-			}
 		}
 	}
 	604.8.13 = {
@@ -54528,10 +54520,6 @@ h_china = {
 		effect = {
 			set_title_name = dynn_title_tang
 			set_title_color = { 250 180 0 }
-			set_global_variable = {
-				name = old_dynastic_color_is_yellow
-				value = 0
-			}
 			set_capital_county = title:c_jingzhao
 		}
 	}
@@ -54612,11 +54600,6 @@ h_china = {
 		effect = {
 			set_title_name = dynn_title_song
 			set_title_color = { 100 10 10 }
-			remove_global_variable = old_dynastic_color_is_yellow
-			set_global_variable = {
-				name = old_dynastic_color_is_red
-				value = 0
-			}
 			set_capital_county = title:c_bianzhou
 		}
 	}
@@ -54646,7 +54629,7 @@ h_china = {
 	}
 	1127.6.12 = {
 		effect = {
-			set_capital_county = title:c_hangzhou_china
+			set_capital_county = title:c_hangzhou
 		}
 		holder = han_11145 # Gaozong of Song
 	}

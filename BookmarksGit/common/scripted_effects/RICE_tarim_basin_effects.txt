@@ -164,18 +164,18 @@ RICE_setup_tarim_basin_flavor_pack_effect = {
 		title:c_liangzhou = {
 			set_county_culture = culture:wenmo
 		}		
-		title:c_dajing = {
+		title:c_baishan = {
 			set_county_culture = culture:wenmo
 		}		
-		title:c_baiyin = {
-			set_county_culture = culture:wenmo
-			set_county_faith = faith:lamaism
-		}		
-		title:c_yongdeng = {
+		title:c_zhanyin = {
 			set_county_culture = culture:wenmo
 			set_county_faith = faith:lamaism
 		}		
-		title:c_shanzhou = {
+		title:c_guangwu = {
+			set_county_culture = culture:wenmo
+			set_county_faith = faith:lamaism
+		}		
+		title:c_shanzhou_mbp = {
 			set_county_culture = culture:wenmo
 		}
 		# According to Xuanzang, Tocharian city-states were Hinayanists, specifically Sarvastivada

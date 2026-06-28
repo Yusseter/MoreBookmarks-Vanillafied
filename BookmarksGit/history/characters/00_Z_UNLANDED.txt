@@ -177,9 +177,9 @@
 		add_pressed_claim = title:h_china	
 	}
 	1337.1.1 = {
-		add_pressed_claim = title:d_jingnan_china	
-		add_pressed_claim = title:d_jingxiang_china
-		add_pressed_claim = title:d_eyue_china
+		add_pressed_claim = title:d_jingnan	
+		add_pressed_claim = title:d_xiangdeng
+		add_pressed_claim = title:d_eyue
 		effect = {
 			add_prestige = 4000 #Giving him prestige to get him on the way for Separatist Uprising
 			add_gold = 200
@@ -290,9 +290,9 @@
         birth = "1316.1.1"    # Approximate - needed to be old enough for leadership by 1350s
     }
 	1337.1.1 = {
-		add_pressed_claim = title:d_xichuan_china	
-		add_pressed_claim = title:d_dongchuan_china	
-		add_pressed_claim = title:d_yongping_china	
+		add_pressed_claim = title:d_xichuan	
+		add_pressed_claim = title:d_dongchuan	
+		add_pressed_claim = title:d_qiongnan	
 		effect = {
 			add_prestige = 4000 #Giving him prestige to get him on the way for Separatist Uprising
 			add_gold = 200
@@ -379,9 +379,9 @@
         birth = "1316.1.1"    # Approximate - needed to be in his prime in 1350s
     }
 	1337.1.1 = {
-		add_pressed_claim = title:d_hunan_china	
+		add_pressed_claim = title:d_hunan	
 		add_pressed_claim = title:d_wuping	
-		add_pressed_claim = title:d_jiangxi_china	
+		add_pressed_claim = title:d_jiangxi	
 		effect = {
 			add_prestige = 4000 #Giving him prestige to get him on the way for Separatist Uprising
 			add_gold = 200
@@ -468,9 +468,9 @@
         birth = "1319.1.1"    # Approximate - needed to be active by late 1330s
     }
 	1337.1.1 = {
-		add_pressed_claim = title:d_zhedong_china	
+		add_pressed_claim = title:d_zhedong	
 		add_pressed_claim = title:d_zhexi	
-		add_pressed_claim = title:d_zhenhai_china
+		add_pressed_claim = title:d_jiangdong
 		effect = {
 			add_prestige = 4000 #Giving him prestige to get him on the way for Separatist Uprising
 			add_gold = 200
@@ -557,9 +557,9 @@
         birth = "1319.1.1"    # Approximate - needed to be established merchant by late 1330s
     }
 	1337.1.1 = {
-		add_pressed_claim = title:d_huainan_china	
+		add_pressed_claim = title:d_huainan	
 		add_pressed_claim = title:d_yihai_china
-		add_pressed_claim = title:d_xusi_china
+		add_pressed_claim = title:d_xusi
 		effect = {
 			add_prestige = 4000 #Giving him prestige to get him on the way for Separatist Uprising
 			add_gold = 200

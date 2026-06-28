@@ -17678,7 +17678,7 @@ shuihu_liangshan_058 = {
 	892.1.1 = {
 		birth = yes
 	}
-	936.6.27 = { add_pressed_claim = title:d_weibo_china }
+	936.6.27 = { add_pressed_claim = title:d_weibo }
 	940.9.30 = {
 		death = { death_reason=death_murder_drowning killer=1412434 }
 	}
@@ -49060,12 +49060,12 @@ zhuojun_zhao_010 = { #陳國長公主 Great Princess of Chen
 	976.11.14={
 		name = "Jiong_name4"
 		effect = { add_realm_law_skip_effects = crown_authority_3 }
-		add_pressed_claim = title:d_youzhou_china
-		add_pressed_claim = title:d_yunzhong_china
-		add_pressed_claim = title:k_yan_china
-		add_pressed_claim = title:k_yue_china
-		add_pressed_claim = title:k_jin_china
-		add_pressed_claim = title:d_fujian_china
+		add_pressed_claim = title:d_youzhou
+		add_pressed_claim = title:d_yunshuo
+		add_pressed_claim = title:k_youji
+		add_pressed_claim = title:k_liangzhe
+		add_pressed_claim = title:k_hedong
+		add_pressed_claim = title:d_weiwu
 	}
 	997.5.8 = {
 		death = yes
@@ -54303,9 +54303,9 @@ zhuojun_zhao_235 = { #趙偉 Zhao Wei, 儀王 Prince of Yi. Tenth son of Emperor
 		effect = { add_realm_law_skip_effects = crown_authority_3 }
 	}
 	1121.1.1 = {
-		add_pressed_claim = title:d_youzhou_china
-		add_pressed_claim = title:d_yunzhong_china
-		add_pressed_claim = title:k_yan_china
+		add_pressed_claim = title:d_youzhou
+		add_pressed_claim = title:d_yunshuo
+		add_pressed_claim = title:k_youji
 		effect = {
 			add_gold = {
 				value = 1000
@@ -55112,7 +55112,7 @@ zhuojun_zhao_292 = { #趙構 Zhao Gou, courtesy name 趙德基 Zhao Deqi, 宋高
 		birth = yes
 	}
 	1129.12.9 = {
-		effect = { set_realm_capital = title:c_hangzhou_china }
+		effect = { set_realm_capital = title:c_hangzhou }
 		effect = { add_realm_law_skip_effects = crown_authority_2 }
 	}
 	1187.11.9 = {
@@ -64100,7 +64100,7 @@ anyang_wang_002 = { #王似 Wang Si. 環慶經略使 in 1127.7.6 [since 1125]. (
 	1078.1.1 = {
 		birth = yes
 	}
-	1133.7.1 = { effect = { set_realm_capital = title:c_langzhou_ba_china } }
+	1133.7.1 = { effect = { set_realm_capital = title:c_langzhou_1 } }
 	1135.7.20 = {
 		death = yes
 	}
@@ -64265,7 +64265,7 @@ baoan_liu_006 = { #劉光世 Liu Guangshi, courtesy name 劉平叔 Liu Pingshu, 
 		birth = yes
 	}
 	1121.1.1 = { employer = 217728 }
-	1133.9.1 = { effect = { set_realm_capital = title:c_chizhou_china } }
+	1133.9.1 = { effect = { set_realm_capital = title:c_chizhou } }
 	1142.12.1 = {
 		death = yes
 	}
@@ -84771,8 +84771,8 @@ pingyao_hou_006 = { #侯仁興 Hou Renxing. Fifth son of Hou Yi. (宋史/卷254)
 	954.2.22 = {
 		dynasty = 1000048291 #Chai
 		effect = { set_father = character:1401281 }
-		add_pressed_claim = title:d_huaixi_china
-		add_pressed_claim = title:d_huainan_china
+		add_pressed_claim = title:d_huaixi
+		add_pressed_claim = title:d_huainan
 	}
 	956.11.30 = {
 		add_stress = 299
@@ -92405,8 +92405,8 @@ leshou_liu_005 = { #劉守光 Liu Shouguang. Son of Liu Rengong. (新唐書/卷2
 		birth = yes
 	}
 	907.6.1 = {
-		add_pressed_claim = title:d_henghai_china
-		add_pressed_claim = title:c_cangzhou_china
+		add_pressed_claim = title:d_cangjing
+		add_pressed_claim = title:c_cangzhou
 	}
 	914.2.12 = {
 		death = { death_reason = death_execution killer = 1412318 }
@@ -107881,7 +107881,7 @@ patron_018 = {
 	}
 	884.4.2 = {
 		employer =longxi_li_1041
-		add_pressed_claim = title:d_dongchuan_china
+		add_pressed_claim = title:d_dongchuan
 	}
 	886.4.26 = {
 		death = { death_reason = death_battle }
@@ -109040,7 +109040,7 @@ patron_018 = {
 		}
 	}
 	867.1.1 = {
-		add_pressed_claim = title:d_chenxu_china
+		add_pressed_claim = title:d_chenxu
 		add_trait = ambitious
 		add_trait = greedy
 		add_trait = brave
@@ -111695,7 +111695,7 @@ patron_018 = {
 		birth = yes
 	}
 	867.1.1 = {
-		add_pressed_claim = title:d_chenxu_china
+		add_pressed_claim = title:d_chenxu
 		add_trait = ambitious
 		add_trait = greedy
 		add_trait = brave
@@ -114231,8 +114231,8 @@ patron_018 = {
 		birth = yes
 	}
 	867.1.1 = { #868.7.23
-		add_pressed_claim = title:d_xusi_china
-		add_pressed_claim = title:c_xuzhou_xu_china
+		add_pressed_claim = title:d_xusi
+		add_pressed_claim = title:c_xuzhou_1
 		add_trait = greedy
 		add_trait = arrogant
 		add_trait = adventurer
@@ -130212,7 +130212,7 @@ patron_010 = {
 	772.1.1={
 		birth=yes
 		add_pressed_claim = title:k_liao
-		add_pressed_claim = title:d_liaodong_china
+		add_pressed_claim = title:d_LIAO_dongjing
 	}
 	868.1.1={
 		death=yes
@@ -142944,7 +142944,7 @@ lianjiang_li_001 = { #李澄 Li Cheng. Eighth generation ancestor of Li Mixun. (
 		birth=yes
 	}
 	875.11.2 = {
-		add_pressed_claim=title:d_zelu_china
+		add_pressed_claim=title:d_zelu
 	}
 	878.10.9 = {
 		death = yes
@@ -165970,7 +165970,7 @@ longxi_li_0961 = { #李倫 Li Lun. Seventh son of Li Ying. (新唐書/卷070下)
 	}
 	769.1.1 = {
 		effect = {
-			set_realm_capital = title:c_suzhou
+			set_realm_capital = title:c_suzhou_mbp
 		}
 	}
 	785.1.1 = {

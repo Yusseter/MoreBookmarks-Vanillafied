@@ -165279,7 +165279,7 @@ yanan_han_004 = { #韓世忠 Han Shizhong, courtesy name 韓良臣 Han Liangchen
 			location = capital_province
 		}
 	}
-	1134.2.21 = { effect = { set_realm_capital = title:c_runzhou_china } }
+	1134.2.21 = { effect = { set_realm_capital = title:c_runzhou } }
 	1151.9.15 = {
 		death = yes
 	}
@@ -183289,7 +183289,7 @@ jurchen21 = { #完顏石魯 Wanyan Shilu, 金昭祖 Emperor Zhaozu of Jin. Eldes
 			add_pressed_claim = title:d_BAL_hoewon
 			add_pressed_claim = title:d_BAL_yeojintang
 			add_pressed_claim = title:d_sumo_china
-			add_pressed_claim = title:d_okjeo_china
+			add_pressed_claim = title:d_BAL_southern_balhae
 		}
 	}
 	1060.1.1 = {
@@ -183448,7 +183448,7 @@ jurchen22 = { #完顏烏古廼 Wanyan Wugunai, 金景祖 Emperor Jingzu of Jin. 
 			add_pressed_claim = title:d_BAL_hoewon
 			add_pressed_claim = title:d_BAL_yeojintang
 			add_pressed_claim = title:d_sumo_china
-			add_pressed_claim = title:d_okjeo_china
+			add_pressed_claim = title:d_BAL_southern_balhae
 		}
 	}
 	1072.10.1 = {
@@ -184416,7 +184416,7 @@ jurchen25 = { #完顏宗翰  粘沒喝，漢名宗翰，撒改長子，十七歲
 	1115.1.28 = {
 		religion = dhyana
 	}
-	1132.1.1 = { effect = { set_realm_capital = title:c_youzhou_china } }
+	1132.1.1 = { effect = { set_realm_capital = title:c_youzhou } }
 	1137.7.1 = {
 		death = yes
 	}
@@ -186993,8 +186993,8 @@ jurchen120 = { #金世宗完顏雍
 	1138.1.1 = {
 		add_spouse = jurchen1280
 	}
-	1166.1.1 = { effect = { set_realm_capital = title:c_youzhou_china } }
-	1171.1.1 = { effect = { set_realm_capital = title:c_youzhou_china } }
+	1166.1.1 = { effect = { set_realm_capital = title:c_youzhou } }
+	1171.1.1 = { effect = { set_realm_capital = title:c_youzhou } }
 	1189.1.20 = {
 		death = yes
 	}
@@ -188784,7 +188784,7 @@ jurchen122 = { #金宣宗完顏珣  吾睹補，漢名珣，母昭聖皇后劉�
 		add_spouse = jurchen1359
 	}
 	1215.1.1 = {
-		capital = c_youzhou_china
+		capital = c_youzhou
 	}
 	1224.1.14 = {
 		death = yes
@@ -188919,7 +188919,7 @@ jurchen132 = { #金章宗完顏璟  麻達葛，漢名璟，顯宗嫡長子，�
 		add_spouse = jurchen1302
 	}
 	1195.1.1 = {
-		capital = c_youzhou_china
+		capital = c_youzhou
 	}
 	1200.1.1 = {
 		add_spouse = jurchen1391
@@ -223884,7 +223884,7 @@ NSteppeMB372 = {
 			add_pressed_claim = title:c_tu_long
 			add_pressed_claim = title:c_tuyen_quang
 			add_pressed_claim = title:c_lo
-			add_pressed_claim = title:c_con_linh
+			add_pressed_claim = title:c_binh_nguyen
 			add_pressed_claim = title:c_bao_lac
 			add_pressed_claim = title:c_muang_thaeng
 			add_pressed_claim = title:c_tung_lang

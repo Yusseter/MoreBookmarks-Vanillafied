@@ -1,0 +1,6 @@
+﻿action,target,detail
+removed_duplicate_province_history,13322,"kept repaired first block for b_khunzakh; removed later unrepaired duplicate block"
+repaired_nested_province_history,13332,"closed b_simsir/13331 before b_durdzukia/13332; removed leftover duplicate tail"
+removed_duplicate_province_history,13350,"kept repaired first block for b_kuba; removed later unrepaired duplicate block"
+repaired_nested_province_history,5302,"closed b_besinada/5303 before b_digora/5302; removed leftover duplicate tail"
+patched_repair_tool,repair_mpe_county_history_gaps.py,"apply mode now reparses 00_yb_MPE_PROVINCES.txt before every block replacement to avoid stale line indexes"

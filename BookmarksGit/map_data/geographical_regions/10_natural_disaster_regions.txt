@@ -15,18 +15,20 @@ global_flood_region = {
 ### ASIA
 yellow_river_region = { # Yellow River
 	counties = {
-		c_binzhou_china c_dizhou_china c_dezhou_wei_china c_bozhou_wei_china c_weizhou_china c_chanzhou_china c_weizhou_ji_china c_huaizhou_zhou_china c_mengzhou_china c_shaanzhou_china c_puzhou_china c_tongzhou_pingyi_china c_tongguan_china c_luoyang_china c_zhengzhou_china c_huazhou_liang_china c_puzhou_liang_china c_yunzhou_liang_china c_jizhou_liang_china c_qizhou_qi_china c_zibo_china c_danzhou_china c_cizhou_hezhong_china
+		c_binzhou_china c_dizhou c_dezhou c_bozhou_1 c_weizhou c_chanzhou_china c_weizhou_1 c_huaizhou c_mengzhou_china c_shanzhou_2 c_hezhong c_tongzhou c_tongguan_china c_henan c_zhengzhou c_huazhou c_puzhou_2 c_yunzhou c_jizhou_liang_china c_qizhou c_zichuan c_danzhou c_cizhou
 		
 	}
 }
 yangtze_river_region = { # Yangtze River
 	counties = {
-		c_nantong_china c_hailing_china c_yangzhou_china c_chuzhou_huai_china c_hezhou_huai_china c_luzhou_huai_china c_shuzhou_huai_china c_qichun_china c_huangzhou_china c_hanyang c_fuzhou_chu_china c_jingzhou_chu_china c_jingmen c_xiazhou_chu_china c_lizhou_chu_china c_langzhou_chu_china c_yuezhou_chu_china c_ezhou_china c_jiangzhou_wu_china c_chizhou_china c_taiping c_jiangning c_runzhou_china c_changzhou_china c_suzhou_wu_china
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_jiangzhou_wu_china has second mapping to c_nankang; manual review needed.
+		c_nantong_china c_taizhou_1 c_yangzhou c_chuzhou_2 c_liyang_2 c_lujiang c_shuzhou c_qizhou_1 c_huangzhou c_hanyang c_fuzhou_3 c_jiangling c_jingmen c_xiazhou_1 c_liyang c_langzhou c_yuezhou_1 c_ezhou c_yunyang c_chizhou c_taiping c_jiangning c_runzhou c_changzhou c_suzhou_2
 	}
 }
 pearl_river_region = { # Pearl River
 	counties = {
-		c_dongguan c_guangzhou_1 c_fengzhou_gui_china c_changwu_china c_guancheng_china c_hengzhou_gui_china c_nanning_china c_jinlongzhou_china c_qinzhou_gui_china c_yulinzhou_china c_xunzhou_gui_china c_tengzhou_gui_china c_duanzhou_china c_xinhui_china
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_yulinzhou_china has second mapping to c_baizhou; manual review needed.
+		c_dongguan c_guangzhou_1 c_kangzhou c_wuzhou_1 c_gongzhou c_hengzhou_1 c_yongzhou_1 c_jinlongzhou_china c_qinzhou_2 c_yulin c_xunzhou_2 c_tengzhou c_shuangzhou c_xinzhou_1
 	}
 }
 tigris_river_region = { # Tigris River
@@ -36,12 +38,12 @@ tigris_river_region = { # Tigris River
 }
 irrawaddy_river_region = { # Irrawaddy River
 	counties = {
-		c_takon c_myedu c_hanlin c_myinmu c_pakokku c_salin c_minbu c_mindon c_myede c_kanaung c_pantanaw c_myaungmya c_bogale c_dala c_tharrawaddy c_sriksetra c_beikthano c_magwe c_pagan c_maingmaw c_madaya c_henzada
+		c_takon c_myedu c_hanlin c_sagaing c_pakokku c_salin c_minbu c_mindon c_myede c_kanaung c_pantanaw c_myaungmya c_bogale c_dala c_tharrawaddy c_sriksetra c_beikthano c_magwe c_pagan c_ava c_madaya c_hinthada
 	}
 }
 mekong_river_region = { # Mekong River
 	counties = {
-		c_prey_rusey c_can_tho c_angkor_borei c_dviradapura c_prey_nokor c_sambhupura c_thala_borivat c_phnom_preah_theat c_tbong_khmum c_kiri_vong c_sadek c_sap c_shrestapura c_pakse c_khemarat c_kampong_kdei
+		c_ca_mau c_can_tho c_angkor_borey c_dviradapura c_prey_nokor c_sambhupura c_thala_borivat c_stung_treng c_kracheh_nokor c_vyadhapura c_sadek c_binh_dai c_ubon_ratchathani c_pakse c_khemarat c_kampong_kdei
 	}
 }
 amur_river_region = { # Amur River
@@ -231,16 +233,16 @@ sichuan_myanmar_earthquake_region = {
 # about 100 counties
 north_china_earthquake_region = {
 	kingdoms = {
-		k_jin_china k_yan_china k_zhao_china k_xia_china k_qin_china k_xia
+		k_hedong k_youji k_hebei k_xia_china k_guannei k_xia
 	}
 	duchies = {
-		d_tohchen_china
+		d_LIAO_zhongjing
 	}
 }
 # Fujian and Guangdong, pretty small so make a much lower chance and basic severity (different from islands min=2)
 south_china_coastaline_earthquake_region = {
 	kingdoms = {
-		k_min k_nanyue_china
+		k_fujian k_lingnan
 	}
 }
 # ~40, medium level overlap with Steppe & Siberia

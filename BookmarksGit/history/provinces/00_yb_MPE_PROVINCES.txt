@@ -1,0 +1,1098 @@
+12787 = { #b_hypanis # Yusseter: MPE_21341
+	holding = none
+}
+
+12788 = { #b_kyzy_kermen # Yusseter: MPE_21342
+	holding = none
+}
+
+12789 = { #b_kraria # Yusseter: MPE_21332
+	holding = none
+}
+
+12790 = { #b_kodak # Yusseter: MPE_21333
+	holding = none
+}
+
+12791 = { #b_saksagan # Yusseter: MPE_21343
+	holding = nomad_holding
+	1066.1.1 = {
+		holding = herder_holding
+	}
+	1091.1.1 = {
+		holding = nomad_holding
+	}
+	1178.1.1 = {
+		holding = tribal_holding
+	}
+}
+
+12792 = { #b_burgun_yedisan # Yusseter: MPE_21344
+	holding = none
+}
+
+12793 = { #b_igren # Yusseter: MPE_21349
+	holding = none
+}
+
+12795 = { #b_khortytsia2 # Yusseter: MPE_21350
+	holding = none
+}
+
+12796 = { #b_kutur-ogly # Yusseter: MPE_21351
+	holding = none
+}
+
+12797 = { #b_kremnoi # Yusseter: MPE_21352
+	holding = none
+}
+
+12798 = { #b_mariupol # Yusseter: MPE_21353
+	holding = nomad_holding
+}
+
+12800 = { #b_donetsk # Yusseter: MPE_21354
+	holding = none
+}
+
+12801 = { #b_kalanchak # Yusseter: MPE_21355
+	holding = none
+}
+
+12802 = { #b_kilburun # Yusseter: MPE_21356
+	holding = none
+}
+
+12803 = { #b_eski_tavan # Yusseter: MPE_21357
+	holding = none
+}
+
+12804 = { #b_aslan_kermen # Yusseter: MPE_21358
+	holding = none
+}
+
+12805 = { #b_kyzyl_jar # Yusseter: MPE_21359
+	holding = nomad_holding
+}
+
+12806 = { #b_dzhenich # Yusseter: MPE_21360
+	holding = none
+}
+
+12807 = { # b_kamyan # Yusseter: MPE province history donor c_oleshye/558
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+895.1.1 = { culture = pecheneg }
+1046.1.1 = { culture = torkil }
+1060.1.1 = { culture = cuman }
+1227.1.1 = { religion = maturidi } 
+1300.1.1 = {
+		culture = crimean
+	}
+	1337.1.1 = {
+		holding = castle_holding		   
+	}
+}
+
+12808 = { #b_kakovka # Yusseter: MPE_21362
+	holding = none
+}
+
+12826 = { #b_kayala # Yusseter: MPE_21365
+	holding = none
+}
+
+12882 = { #b_tyn # Yusseter: MPE_21367
+	holding = none
+}
+
+12883 = { #b_taganrog # Yusseter: MPE_21368
+	holding = nomad_holding
+	1178.1.1 = {
+		holding = herder_holding
+	}
+	1183.1.1 = {
+		holding = nomad_holding
+	}
+}
+
+12884 = { # b_kirim # Yusseter: MPE province history donor c_kalos_limen/559
+	
+	# Misc
+	culture = khazar
+	religion = tengri_pagan
+	
+	#holding = castle_holding
+	
+	# History
+	808.1.1 = { religion = kabarism }
+1016.1.1 = { culture = pecheneg }
+1016.1.1 = { religion = tengri_pagan }
+1044.1.1 = { culture = torkil }
+1060.1.1 = { culture = cuman } 
+1227.1.1 = { religion = maturidi } 
+1300.1.1 = {
+		culture = crimean
+	}
+	1337.1.1 = {
+		holding = castle_holding		   
+	}
+}
+
+12885 = { #b_aq_kaya # Yusseter: MPE_21370
+	holding = none
+}
+
+12886 = { # b_theodoro # Yusseter: MPE province history donor c_kalos_limen/559
+	
+	# Misc
+	culture = khazar
+	religion = tengri_pagan
+	
+	#holding = castle_holding
+	
+	# History
+	808.1.1 = { religion = kabarism }
+1016.1.1 = { culture = pecheneg }
+1016.1.1 = { religion = tengri_pagan }
+1044.1.1 = { culture = torkil }
+1060.1.1 = { culture = cuman } 
+1227.1.1 = { religion = maturidi } 
+1300.1.1 = {
+		culture = crimean
+	}
+	1337.1.1 = {
+		holding = castle_holding		   
+	}
+}
+
+12887 = { #b_phoullai # Yusseter: MPE_21372
+	holding = none
+}
+
+12889 = { #b_kalamita # Yusseter: MPE_21373
+	holding = none
+}
+
+12890 = { #b_tarkhankut # Yusseter: MPE_21374
+	holding = none
+}
+
+12891 = { #b_aqseyh_crimea # Yusseter: MPE_21375
+	holding = none
+}
+
+12892 = { #b_kerkinitis # Yusseter: MPE_21376
+	holding = none
+}
+
+12893 = { #b_qurman_crimea # Yusseter: MPE_21377
+	holding = none
+}
+
+12894 = { #b_karasubazar # Yusseter: MPE_21378
+	holding = none
+}
+
+12895 = { #b_dzhankoi # Yusseter: MPE_21379
+	holding = none
+}
+
+12896 = { #b_chongar # Yusseter: MPE_21380
+	holding = none
+}
+
+12897 = { #b_syvash # Yusseter: MPE_21381
+	holding = none
+}
+
+12898 = { # b_kale_kuma # Yusseter: MPE province history asil_mod donor c_samiran/5343
+	
+	# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+808.1.1 = { religion = kabarism }
+
+1220.1.1 = { religion = maturidi }
+#Mongol invasion
+1300.1.1 = {
+		culture = nogai
+	}
+
+}
+
+12899 = { #b_kuma_kavkaz # Yusseter: MPE_21384
+	holding = none
+}
+
+12923 = { #b_khegayk # Yusseter: MPE_21386
+	holding = none
+}
+
+12924 = { #b_phanagoria # Yusseter: MPE_21387
+	holding = none
+}
+
+12925 = { #b_utash # Yusseter: MPE_21388
+	holding = none
+}
+
+12945 = { #b_samkarsh # Yusseter: MPE_21389
+	holding = none
+}
+
+12985 = { # b_peshe # Yusseter: MPE province history asil_mod donor c_kuban/5335
+	
+	# Misc
+culture = circassian #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
+religion = khabzism
+
+# History
+#966.1.1 = { culture = pecheneg }
+#1044.1.1 = { culture = torkil }
+#1050.1.1 = { culture = cuman } 
+#1050.1.1 = { religion = tengri_pagan } 
+#1227.1.1 = { religion = maturidi } 
+#1300.1.1 = {
+#	culture = tatars
+#}
+
+}
+
+12987 = { #b_uspa # Yusseter: MPE_21391
+	holding = none
+}
+
+13129 = { #b_koisug # Yusseter: MPE_21392
+	holding = none
+}
+
+13134 = { #b_chubur # Yusseter: MPE_21393
+	holding = none
+}
+
+13158 = { # b_kuban # Yusseter: MPE province history asil_mod donor c_kuban/5335
+	
+	# Misc
+culture = circassian #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
+religion = khabzism
+
+# History
+#966.1.1 = { culture = pecheneg }
+#1044.1.1 = { culture = torkil }
+#1050.1.1 = { culture = cuman } 
+#1050.1.1 = { religion = tengri_pagan } 
+#1227.1.1 = { religion = maturidi } 
+#1300.1.1 = {
+#	culture = tatars
+#}
+
+}
+
+13160 = { #b_lukuka # Yusseter: MPE_21395
+	holding = none
+}
+
+13270 = { #b_balzimachi # Yusseter: MPE_21396
+	holding = none
+}
+
+13271 = { #b_arkhyz # Yusseter: MPE_21397
+	holding = none
+}
+
+13272 = { #b_psebai # Yusseter: MPE_21398
+	holding = none
+}
+
+13273 = { #b_tkhach # Yusseter: MPE_21399
+	holding = none
+}
+
+13274 = { # b_skhimar # Yusseter: MPE province history donor c_maghas/5299
+	culture = alan
+	religion = alan_pagan
+	holding = tribal_holding
+	965.1.2 = {
+		religion = georgian_orthodox
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+13275 = { #b_senti # Yusseter: MPE_21401
+	holding = none
+}
+
+13276 = { #b_teberda # Yusseter: MPE_21402
+	holding = none
+}
+
+13277 = { # b_aorsi # Yusseter: MPE province history donor c_maghas/5299
+	culture = alan
+	religion = alan_pagan
+	holding = tribal_holding
+	965.1.2 = {
+		religion = georgian_orthodox
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+13278 = { #b_upper_aorsi # Yusseter: MPE_21404
+	holding = none
+}
+
+13279 = { # b_maikop # Yusseter: MPE province history donor c_maghas/5299
+	culture = alan
+	religion = alan_pagan
+	holding = tribal_holding
+	965.1.2 = {
+		religion = georgian_orthodox
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+13280 = { #b_betzini # Yusseter: MPE_21406
+	holding = none
+}
+
+13281 = { # b_tapanta # Yusseter: MPE province history donor c_maghas/5299
+	culture = alan
+	religion = alan_pagan
+	holding = tribal_holding
+	965.1.2 = {
+		religion = georgian_orthodox
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+13282 = { #b_abazin # Yusseter: MPE_21408
+	holding = none
+}
+
+13283 = { #b_psyzh # Yusseter: MPE_21409
+	holding = none
+}
+
+13284 = { # b_burgusan # Yusseter: MPE province history donor c_don_portage/606
+	
+	# Misc
+	
+	holding = tribal_holding
+	
+	# History
+
+	1320.1.1 = { religion = georgian_orthodox }
+}
+
+13285 = { #b_chegem # Yusseter: MPE_21411
+	holding = none
+}
+
+13286 = { #b_malkar # Yusseter: MPE_21412
+	holding = none
+}
+
+13287 = { # b_majar # Yusseter: MPE province history donor c_don_portage/606
+	
+	# Misc
+	culture = alan
+	religion = alan_pagan
+	
+	holding = tribal_holding
+	
+	# History
+
+	1320.1.1 = { religion = georgian_orthodox }
+}
+
+13288 = { #b_etzeri # Yusseter: MPE_21414
+	holding = none
+}
+
+13289 = { #b_nazran # Yusseter: MPE_21415
+	holding = none
+}
+
+13290 = { #b_beslan # Yusseter: MPE_21416
+	holding = none
+}
+
+13291 = { #b_angusht # Yusseter: MPE_21417
+	holding = none
+}
+
+13292 = { # b_gaeliat # Yusseter: MPE province history asil_mod donor c_cabardinia/603
+	culture = alan
+	religion = alan_pagan
+	holding = tribal_holding
+	965.1.2 = {
+		religion = georgian_orthodox
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+13293 = { #b_dargavs # Yusseter: MPE_21419
+	holding = none
+}
+
+13294 = { #b_alagir # Yusseter: MPE_21420
+	holding = none
+}
+
+13295 = { #b_targim # Yusseter: MPE_21422
+	holding = none
+}
+
+13296 = { # b_cabarda # Yusseter: MPE province history asil_mod donor c_cabardinia/603
+	culture = alan
+	religion = alan_pagan
+	holding = tribal_holding
+	965.1.2 = {
+		religion = georgian_orthodox
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+13297 = { #b_cherek # Yusseter: MPE_21425
+	holding = none
+}
+
+13298 = { #b_nalchik # Yusseter: MPE_21426
+	holding = none
+}
+
+13299 = { #b_tatartopa # Yusseter: MPE_21427
+	holding = none
+}
+
+13300 = { #b_shanjir # Yusseter: MPE_21428
+	holding = none
+}
+
+13301 = { #b_susakho # Yusseter: MPE_21429
+	holding = none
+}
+
+13302 = { #b_natukhai # Yusseter: MPE_21430
+	holding = none
+}
+
+13303 = { #b_torikos # Yusseter: MPE_21431
+	holding = none
+}
+
+13304 = { #b_zichia # Yusseter: MPE_21432
+	holding = none
+}
+
+13305 = { # b_kemgui # Yusseter: MPE province history donor c_zichia/5296
+	
+	# Misc
+	culture = circassian
+	religion = khabzism
+	
+	#holding = castle_holding
+	
+	# History
+	965.1.2 = {
+		religion = circassian_christianity
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+13306 = { #b_makhosh # Yusseter: MPE_21434
+	holding = none
+}
+
+13307 = { #b_siba # Yusseter: MPE_21435
+	holding = none
+}
+
+13308 = { #b_bzhedug # Yusseter: MPE_21436
+	holding = none
+}
+
+13309 = { # b_shapsug # Yusseter: MPE province history donor c_zichia/5296
+	
+	# Misc
+	culture = circassian
+	religion = khabzism
+	
+	#holding = castle_holding
+	
+	# History
+	965.1.2 = {
+		religion = circassian_christianity
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+13310 = { #b_tuapse # Yusseter: MPE_21438
+	holding = none
+}
+
+13311 = { # b_abdzakh # Yusseter: MPE province history donor c_zichia/5296
+	
+	# Misc
+	culture = circassian
+	religion = khabzism
+	
+	#holding = castle_holding
+	
+	# History
+	965.1.2 = {
+		religion = circassian_christianity
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+13312 = { #b_mamkhegh # Yusseter: MPE_21440
+	holding = none
+}
+
+13313 = { # b_ubykh # Yusseter: MPE province history asil_mod donor c_jiqeti/600
+	
+	# Misc
+	culture = circassian
+	religion = georgian_orthodox
+	
+	holding = castle_holding
+	
+	# History
+
+}
+
+13314 = { #b_sochi # Yusseter: MPE_21442
+	holding = none
+}
+
+13315 = { #b_sulak # Yusseter: MPE_21443
+	holding = none
+}
+
+13316 = { #b_kumyk # Yusseter: MPE_21444
+	holding = none
+}
+
+13317 = { #b_sambalut # Yusseter: MPE_21445
+	holding = none
+}
+
+13318 = { # b_mozdok # Yusseter: MPE province history asil_mod donor c_samiran/5343
+	
+	# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+808.1.1 = { religion = kabarism }
+
+1220.1.1 = { religion = maturidi }
+#Mongol invasion
+1300.1.1 = {
+		culture = nogai
+	}
+
+}
+
+13319 = { #b_cisterki # Yusseter: MPE_21447
+	holding = none
+}
+
+13322 = { # b_khunzakh # Yusseter: MPE province history asil_mod donor c_philan/675
+		
+	# Misc
+	culture = caucasian_avar
+	religion = nakh_pagan
+	holding = tribal_holding
+	# History
+	1317.1.1 = {
+		religion = maturidi	
+	}
+	
+}
+
+13321 = { #b_kayit # Yusseter: MPE_21449
+	holding = none
+}
+
+13323 = { #b_sarir # Yusseter: MPE_21451
+	holding = none
+}
+
+13324 = { #b_datuna # Yusseter: MPE_21452
+	holding = none
+}
+
+13325 = { #b_akhvakh # Yusseter: MPE_21453
+	holding = none
+}
+
+13326 = { #b_shuraozen # Yusseter: MPE_21454
+	holding = none
+}
+
+13327 = { # b_philan # Yusseter: MPE province history donor c_samander/5305
+	
+# Misc
+culture = lezgi
+religion = nakh_pagan
+holding = tribal_holding
+
+# History
+808.1.1 = { religion = kabarism }
+
+1089.1.1 = { religion = maturidi }
+
+}
+
+13328 = { #b_kuli # Yusseter: MPE_21457
+	holding = none
+}
+
+13329 = { #b_oyskhara # Yusseter: MPE_21458
+	holding = none
+}
+
+13330 = { #b_endirey # Yusseter: MPE_21459
+	holding = none
+}
+
+13331 = { #b_simsir # Yusseter: MPE_21460
+	holding = none
+}
+
+13332 = { # b_durdzukia # Yusseter: MPE province history asil_mod donor c_philan/675
+		
+	# Misc
+	culture = caucasian_avar
+	religion = nakh_pagan
+	holding = tribal_holding
+	# History
+	1317.1.1 = {
+		religion = maturidi	
+	}
+	
+}
+
+13333 = { # b_sunzha # Yusseter: MPE province history donor c_philan/13322
+	holding = nomad_holding
+}
+
+13334 = { #b_marta # Yusseter: MPE_21463
+	holding = none
+}
+
+13335 = { # b_iskark # Yusseter: MPE province history asil_mod donor c_philan/675
+		
+	# Misc
+	culture = caucasian_avar
+	religion = nakh_pagan
+	holding = tribal_holding
+	# History
+	1317.1.1 = {
+		religion = maturidi	
+	}
+	
+}
+
+13336 = { #b_argun # Yusseter: MPE_21465
+	holding = none
+}
+
+13337 = { #b_kaitag # Yusseter: MPE_21467
+	holding = none
+}
+
+13338 = { #b_utamysh # Yusseter: MPE_21468
+	holding = none
+}
+
+13339 = { #b_gamri # Yusseter: MPE_21469
+	holding = none
+}
+
+13340 = { # b_varachan # Yusseter: MPE province history donor c_samander/5305
+	
+# Misc
+culture = lezgi
+religion = nakh_pagan
+holding = tribal_holding
+
+# History
+808.1.1 = { religion = kabarism }
+
+1089.1.1 = { religion = maturidi }
+
+}
+
+13341 = { #b_tarki # Yusseter: MPE_21471
+	holding = none
+}
+
+13342 = { # b_kubachi # Yusseter: MPE province history asil_mod donor c_philan/675
+		
+	# Misc
+	culture = caucasian_avar
+	religion = nakh_pagan
+	holding = tribal_holding
+	# History
+	1317.1.1 = {
+		religion = maturidi	
+	}
+	
+}
+
+13343 = { # b_zirichgeran # Yusseter: MPE province history asil_mod donor c_derbent/674
+	# Misc
+culture = lezgi
+religion = nakh_pagan
+
+# History
+1089.1.1 = { religion = maturidi }
+1259.1.1 = { religion = ismaili }
+
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			hill_forts_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			hill_forts_02
+			hill_farms_01
+			barracks_01
+		}
+	}
+}
+
+13345 = { #b_tabarsaran # Yusseter: MPE_21476
+	holding = none
+}
+
+13346 = { #b_urkarakh # Yusseter: MPE_21477
+	holding = none
+}
+
+13347 = { # b_lezgin # Yusseter: MPE province history asil_mod donor c_derbent/674
+	# Misc
+culture = lezgi
+religion = nakh_pagan
+
+# History
+1089.1.1 = { religion = maturidi }
+1259.1.1 = { religion = ismaili }
+
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			hill_forts_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			hill_forts_02
+			hill_farms_01
+			barracks_01
+		}
+	}
+}
+
+13350 = { # b_kuba # Yusseter: MPE province history asil_mod donor c_derbent/674
+	# Misc
+culture = lezgi
+religion = nakh_pagan
+
+# History
+1089.1.1 = { religion = maturidi }
+1259.1.1 = { religion = ismaili }
+
+	holding = castle_holding
+	867.1.1 = {
+		buildings = {
+			hill_forts_01
+		}
+	}
+	1066.1.1 = {
+		buildings = {
+			hill_forts_02
+			hill_farms_01
+			barracks_01
+		}
+	}
+}
+
+13349 = { #b_chiraggala # Yusseter: MPE_21481
+	holding = none
+}
+
+13351 = { #b_hayzan # Yusseter: MPE_21483
+	holding = none
+}
+
+13352 = { #b_chol # Yusseter: MPE_21484
+	holding = none
+}
+
+13353 = { #b_maskut # Yusseter: MPE_21485
+	holding = none
+}
+
+13354 = { #b_bosporos # Yusseter: MPE_22825
+	holding = city_holding
+}
+
+13356 = { #b_sauromateion # Yusseter: MPE_22827
+	holding = none
+}
+
+13357 = { #b_arabat # Yusseter: MPE_22828
+	holding = none
+}
+
+13358 = { #b_kazeka # Yusseter: MPE_22829
+	holding = none
+}
+
+13363 = { #b_alouston # Yusseter: MPE_22834
+	holding = none
+}
+
+13364 = { #b_partenit # Yusseter: MPE_22835
+	holding = church_holding
+}
+
+
+
+5303 = { # b_besinada # Yusseter: MPE province history donor c_don_portage/606
+	
+	# Misc
+	culture = alan
+	religion = alan_pagan
+	
+	holding = tribal_holding
+	
+	# History
+
+	1320.1.1 = { religion = georgian_orthodox }
+}
+
+5302 = { # b_digora # Yusseter: MPE province history asil_mod donor c_cabardinia/603
+	culture = alan
+	religion = alan_pagan
+	holding = tribal_holding
+	965.1.2 = {
+		religion = georgian_orthodox
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+603 = { # b_zaur # Yusseter: MPE province history asil_mod donor c_cabardinia/603
+	culture = alan
+	religion = alan_pagan
+	holding = tribal_holding
+	965.1.2 = {
+		religion = georgian_orthodox
+	}
+	1187.1.1 = {
+		holding = castle_holding
+	}
+}
+
+675 = { # b_kumukh # Yusseter: MPE province history donor c_philan/13322
+	holding = nomad_holding
+}
+
+5342 = { # b_gumik # Yusseter: MPE province history donor c_samander/5305
+	
+# Misc
+culture = lezgi
+religion = nakh_pagan
+holding = tribal_holding
+
+# History
+808.1.1 = { religion = kabarism }
+
+1089.1.1 = { religion = maturidi }
+
+}
+
+5276 = { # b_saq_crimea # Yusseter: MPE province history donor c_kalos_limen/559
+	
+	# Misc
+	culture = khazar
+	religion = tengri_pagan
+	
+	#holding = castle_holding
+	
+	# History
+	808.1.1 = { religion = kabarism }
+1016.1.1 = { culture = pecheneg }
+1016.1.1 = { religion = tengri_pagan }
+1044.1.1 = { culture = torkil }
+1060.1.1 = { culture = cuman } 
+1227.1.1 = { religion = maturidi } 
+1300.1.1 = {
+		culture = crimean
+	}
+	1337.1.1 = {
+		holding = castle_holding		   
+	}
+}
+
+5279 = { # b_taphros # Yusseter: MPE province history donor c_oleshye/558
+
+# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+895.1.1 = { culture = pecheneg }
+1046.1.1 = { culture = torkil }
+1060.1.1 = { culture = cuman }
+1227.1.1 = { religion = maturidi } 
+1300.1.1 = {
+		culture = crimean
+	}
+	1337.1.1 = {
+		holding = castle_holding		   
+	}
+}
+
+5280 = { # b_hygreis # Yusseter: MPE province history donor c_khortytsia/557
+	
+# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+895.1.1 = { culture = pecheneg }
+1046.1.1 = { culture = torkil }
+1060.1.1 = { culture = cuman }
+1227.1.1 = { religion = maturidi } 
+1300.1.1 = {
+		culture = crimean
+	}
+	1337.1.1 = {
+		holding = castle_holding		   
+	}
+}
+
+5281 = { # b_tokmak # Yusseter: MPE province history donor c_khortytsia/557
+	
+# Misc
+culture = khazar
+religion = tengri_pagan
+
+# History
+895.1.1 = { culture = pecheneg }
+1046.1.1 = { culture = torkil }
+1060.1.1 = { culture = cuman }
+1227.1.1 = { religion = maturidi } 
+1300.1.1 = {
+		culture = crimean
+	}
+	1337.1.1 = {
+		holding = castle_holding		   
+	}
+}
+
+5321 = { # b_pokrovsk # Yusseter: MPE province history donor c_bakhmut/564
+	
+# Misc
+culture = mogyer
+religion = tengri_pagan
+
+# History
+893.1.1 = { culture = pecheneg }
+1044.1.1 = { culture = cuman }
+1227.1.1 = { religion = maturidi } 
+1300.1.1 = {
+		culture = crimean
+	}
+	1337.1.1 = {
+		holding = castle_holding		   
+	}
+}
+
+563 = { # b_karoia # Yusseter: MPE province history donor c_tana/596
+	culture = khazar
+	religion = tengri_pagan
+	#holding = castle_holding
+	1000.1.2 = {
+		culture = cuman
+	}
+	1300.1.1 = {
+		culture = crimean
+	}
+	1337.1.1 = {
+		holding = castle_holding	
+	}
+}
+
+606 = { # b_baksan # Yusseter: MPE county capital donor donor_county:c_don_portage:same_county_barony:b_majar
+	culture = alan # Yusseter: MPE county capital donor donor_county:c_don_portage:same_county_barony:b_majar
+	religion = alan_pagan # Yusseter: MPE county capital donor donor_county:c_don_portage:same_county_barony:b_majar
+	
+	# Misc
+	
+	holding = tribal_holding
+	
+	# History
+
+	1320.1.1 = { religion = georgian_orthodox }
+}
+
+5344 = { # b_petigoria # Yusseter: MPE county capital donor same_county_barony:b_majar
+	culture = alan # Yusseter: MPE county capital donor same_county_barony:b_majar
+	religion = alan_pagan # Yusseter: MPE county capital donor same_county_barony:b_majar
+	holding = none
+}
+
+5306 = { # b_gumse # Yusseter: MPE province history asil_mod donor c_philan/675
+		
+	# Misc
+	culture = caucasian_avar
+	religion = nakh_pagan
+	holding = tribal_holding
+	# History
+	1317.1.1 = {
+		religion = maturidi	
+	}
+	
+}
+
+13320 = { # b_lotin # Yusseter: MPE source province history 21448
+	holding = none
+}
+
+13348 = { # b_richa # Yusseter: MPE source province history 21479
+	holding = none
+}

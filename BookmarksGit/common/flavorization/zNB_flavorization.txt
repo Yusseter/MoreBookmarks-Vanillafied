@@ -653,7 +653,7 @@ yuan_feudal_male = {
 	tier = kingdom
 	priority = 200
 	governments = { feudal_government administrative_government clan_government }
-	titles = { k_sichuan k_guangxi k_guangdong k_jiangxi k_fujian k_zhejiang k_south_zhili k_henan k_shaanxi k_shanxi k_shandong k_north_zhili k_jiangzhe }
+	titles = { k_xichuan k_lingxi k_jiangxi k_fujian k_henan k_guannei k_liangzhe }
 	heritages = { heritage_mongolic heritage_turkic }
 }
 yuan_feudal_female = {
@@ -663,7 +663,7 @@ yuan_feudal_female = {
 	tier = kingdom
 	priority = 200
 	governments = { feudal_government administrative_government clan_government }
-	titles = { k_sichuan k_guangxi k_guangdong k_jiangxi k_fujian k_zhejiang k_south_zhili k_henan k_shaanxi k_shanxi k_shandong k_north_zhili k_jiangzhe }
+	titles = { k_xichuan k_lingxi k_jiangxi k_fujian k_henan k_guannei k_liangzhe }
 	heritages = { heritage_mongolic heritage_turkic }
 }
 yuan_feudal = {
@@ -671,7 +671,7 @@ yuan_feudal = {
 	tier = kingdom
 	priority = 200
 	governments = { feudal_government administrative_government clan_government }
-	titles = { k_sichuan k_guangxi k_guangdong k_jiangxi k_fujian k_zhejiang k_south_zhili k_henan k_shaanxi k_shanxi k_shandong k_north_zhili k_jiangzhe }
+	titles = { k_xichuan k_lingxi k_jiangxi k_fujian k_henan k_guannei k_liangzhe }
 	heritages = { heritage_mongolic heritage_turkic }
 }
 

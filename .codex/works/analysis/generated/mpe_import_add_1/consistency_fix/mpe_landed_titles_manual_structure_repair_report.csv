@@ -1,0 +1,6 @@
+label,start_pattern,end_pattern,old_line_count,new_line_count,status
+d_cherson,^\s*d_cherson\s*=,^\s*d_armeniac\s*=,84,53,replaced
+d_armeniac_prefix,^\s*d_armeniac\s*=,^\s*capital\s*=\s*c_helenopontus\b,9,3,replaced_prefix
+d_tmutarakan,^\s*d_tmutarakan\s*=,^\s*d_azov\s*=,83,79,replaced
+k_caucasus_after_d_zichia,^\s*d_alania\s*=,^\s*k_shirvan\s*=,356,55,replaced
+d_derbent,^\s*d_derbent\s*=,^\s*d_shirvan\s*=,139,11,replaced

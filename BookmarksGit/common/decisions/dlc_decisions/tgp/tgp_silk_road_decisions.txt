@@ -440,12 +440,12 @@ visit_silk_road_market_decision = {
 		}
 		
 		item = { # Angkor
-			value = c_aninditapura
+			value = c_angkor
 			is_shown = { always = yes }
 			is_valid = {
 				custom_tooltip = {
 					text = no_building_at_silk_road_market_desc
-					title:c_aninditapura = {
+					title:c_angkor = {
 						any_county_province = { has_building_with_flag = silk_road_node }
 					}
 	            }
@@ -462,7 +462,7 @@ visit_silk_road_market_decision = {
 					limit = {
 						root.location = {
 							squared_distance = {
-								target = title:c_aninditapura.title_province
+								target = title:c_angkor.title_province
 								value <= squared_distance_small
 							}
 						}
@@ -473,7 +473,7 @@ visit_silk_road_market_decision = {
 					limit = {
 						root.location = {
 							squared_distance = {
-								target = title:c_aninditapura.title_province
+								target = title:c_angkor.title_province
 								value <= squared_distance_large
 							}
 						}
@@ -484,7 +484,7 @@ visit_silk_road_market_decision = {
 					limit = {
 						root.location = {
 							squared_distance = {
-								target = title:c_aninditapura.title_province
+								target = title:c_angkor.title_province
 								value > squared_distance_huge
 							}
 						}
@@ -522,8 +522,8 @@ visit_silk_road_market_decision = {
 			scope:c_baghdad = { # Baghdad
 				title:c_baghdad = { tgp_silk_road_decision_scope_effect = yes }
 			}
-			scope:c_aninditapura = { # Angkor
-				title:c_aninditapura = { tgp_silk_road_decision_scope_effect = yes }
+			scope:c_angkor = { # Angkor
+				title:c_angkor = { tgp_silk_road_decision_scope_effect = yes }
 			}
 		}
 		if = {

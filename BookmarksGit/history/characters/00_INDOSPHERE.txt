@@ -389,7 +389,7 @@
 		birth="1010.1.1"
 	}
 	1059.1.1={
-		capital=c_perlak
+		capital=c_SUM_perlak
 	}
 	1078.1.1={
 		death = yes
@@ -4008,7 +4008,7 @@ aslian008 = {
 	909.1.1 = { employer = 1404565 }
 	936.1.1 = {
 		add_pressed_claim = title:k_dali
-		add_pressed_claim = title:c_yon_zon_mi
+		add_pressed_claim = title:c_dali
 		add_pressed_claim = title:c_yunnan
 		add_pressed_claim = title:c_ma_shy
 		effect = {
@@ -36868,7 +36868,7 @@ PyuMB93 = {
 	}
 	1170.1.1 = {
 		add_pressed_claim = title:e_kambuja #To push his historical conquest
-		add_pressed_claim = title:c_aninditapura
+		add_pressed_claim = title:c_angkor
 	}
 	1190.1.1={
 		death = yes
@@ -145253,7 +145253,7 @@ hedong_kew_001 = { #高永年 Gao Yongnian. 河東路蕃官如京副使 until 10
 		name = "Nangxiao"
 		add_pressed_claim = title:k_xia
 		effect = {
-			set_realm_capital = title:c_xingqing
+			set_realm_capital = title:c_huaiyuan
 			spawn_army = {
 				uses_supply = no
 				inheritable = yes

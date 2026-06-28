@@ -4,3 +4,13 @@ BookmarksGit/gfx/map/terrain/detail_intensity.tga
 BookmarksGit/test_files/gfx/map/terrain/detail_index.tga
 BookmarksGit/test_files/gfx/map/terrain/detail_intensity.tga
 BookmarksGit/test_files/map_data/heightmap.png
+BookmarksGit/gfx/coat_of_arms/**/*.asset
+BookmarksGit/gfx/coat_of_arms/**/*.dds
+BookmarksGit/gfx/coat_of_arms/**/*.jpg
+BookmarksGit/gfx/coat_of_arms/**/*.mesh
+BookmarksGit/gfx/coat_of_arms/**/*.png
+*.ttf
+*.otf
+.codex/test_files/gfx/map/terrain/detail_index.tga
+.codex/test_files/gfx/map/terrain/detail_intensity.tga
+.codex/test_files/map_data/heightmap.png

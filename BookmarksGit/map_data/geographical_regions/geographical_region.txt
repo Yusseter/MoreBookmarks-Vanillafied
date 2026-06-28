@@ -1,4 +1,4 @@
-﻿# Geographical regions
+# Geographical regions
 # Regions can be declared with one or more of the following fields:
 
 #	duchies = { }, takes duchy title names declared in landed_titles.txt
@@ -114,16 +114,16 @@
 world_asia_china_shuofang = {
 	duchies = {
 		#Dai
-		d_fengzhou_china d_zhenwu_china
+		d_tiande d_sanggan
 		#Xia
-		d_xiazhou_china d_ordos_china d_shuofang_china
+		d_xiasui d_xinan d_shuofang
 	}
 }
 
 #For MB_game_start. Not referenced elsewhere
 world_asia_china_liao = {
 	duchies = {
-		d_liaoxi_china d_xianping_china d_jilin_china d_liaodong_china d_gewu_china
+		d_liaoxi d_BAL_buyeo d_jilin_china d_LIAO_dongjing d_BAL_amnok_jangryeong
 		d_SW_sushenguo
 	}
 }
@@ -132,25 +132,25 @@ world_asia_china_liao = {
 world_asia_china_qin = {
 	duchies = {
 		#Qin
-		d_xijing_china d_pingyi_china d_binning_china d_fufang_china
+		d_yongxing d_pingyi_china d_binning d_fufang
 		#West Qi
-		d_fengxiang_china d_jingyuan_china d_longxi_china
+		d_fengxiang d_jingyuan d_qincheng
 	}
 }
 
 #For MB_game_start. Not referenced elsewhere
 world_manchuria = {
 	duchies = {
-		d_em_tataria d_EM_yujuelu d_EM_wajiezi d_em_wuguguo d_gobi_dadaels d_gobi_shatuoguo d_gobi_ongi d_murin_china d_teriqan_china  d_EM_onon d_khiyat_china d_argun_china d_SW_heicheziguo d_tohchen_china d_xarmoron_china d_hejes_china d_hiyaxu_china d_changchun_china d_zhenwu_china d_fengzhou_china d_balhae_china d_malgal_china d_sumo_china d_SW_sushenguo d_okjeo_china d_BAL_hoewon d_eman_nivkhia d_eman_amar d_eman_samagero d_eman_boli d_eman_sikhotebei d_eman_bureya d_BAL_yeojintang d_BAL_shuaibin d_BAL_anbian d_BAL_anwon d_BAL_dongpyeong d_BAL_cheolli d_SW_ruzheguo d_SW_puyudao d_SW_lingxiguo d_SW_qingxingan d_SW_dashiweiguo d_xianping_china d_jilin_china d_liaodong_china d_liaoxi_china d_gewu_china
+		d_em_tataria d_EM_yujuelu d_EM_wajiezi d_em_wuguguo d_gobi_dadaels d_gobi_shatuoguo d_gobi_ongi d_murin_china d_teriqan_china  d_EM_onon d_khiyat_china d_argun_china d_SW_heicheziguo d_LIAO_zhongjing d_LIAO_linhuang d_hejes_china d_yanyun_yuyi d_LIAO_shangjing d_sanggan d_tiande d_BAL_parhae d_BAL_moe_su d_BAL_moe_su d_SW_sushenguo d_BAL_southern_balhae d_BAL_hoewon d_eman_nivkhia d_eman_amar d_eman_samagero d_eman_boli d_eman_sikhotebei d_eman_bureya d_BAL_yeojintang d_BAL_shuaibin d_BAL_anbian d_BAL_anwon d_BAL_dongpyeong d_BAL_cheolli d_SW_ruzheguo d_SW_puyudao d_SW_lingxiguo d_SW_qingxingan d_SW_dashiweiguo d_BAL_buyeo d_jilin_china d_LIAO_dongjing d_liaoxi d_BAL_amnok_jangryeong
 	}
 }
 
 #For MB_game_start. Not referenced elsewhere
 world_luodian = {
 	duchies = {
-		d_mangbu d_luoshi d_luodian d_yushi d_baise
+		d_luoshi d_luoshi d_luodian d_xiyuan d_xiyuan
 		#k_qianzhong_china #Technically southern China but the majority of this region is tribal peoples. Used for disabling the adopt_chinese_government_decision decision
-		d_qianzhong_china d_bozhou_qian_china d_zangke_china d_wuxi_china
+		d_qianzhong d_bozhou_qian_china d_zangke d_wuxi
 	}
 }
 
@@ -567,13 +567,13 @@ world_burma = {
 		d_pagan d_maingmaw d_binnaka d_sriksetra d_toungoo
 
 		# k_shan
-		d_north_shan d_mang_shuea d_mongmit d_hsipaw d_yawnghwe d_mongnai d_mongpai
+		d_north_shan d_tengchong d_hsipaw d_yawnghwe d_mongnai d_mongpai
 
 		# k_tagaung
 		d_tagaung d_kale d_myitkyina d_myinmu d_hkamti
 
 		# k_thaton
-		d_thaton d_ramannadesa d_dagon d_krapan d_yebyu d_tanintharyi
+		d_ramannadesa d_ramannadesa d_dagon d_krapan d_yebyu d_tanintharyi
 		# Arakan
 		d_chattogram d_ramu d_sandoway d_arakan
 	}
@@ -599,23 +599,24 @@ world_asia_shiwei_steppe = { #
 
 world_asia_khitan_steppe = { #
 	kingdoms = {
-		k_khitan_china
+		k_khitan
 	}
 }
 
 world_asia_north_east = {
 	duchies = {
-		d_em_tataria d_EM_yujuelu d_EM_wajiezi d_em_wuguguo d_gobi_dadaels d_gobi_shatuoguo d_gobi_ongi d_murin_china d_teriqan_china  d_EM_onon d_khiyat_china d_argun_china d_SW_heicheziguo d_tohchen_china d_xarmoron_china d_hejes_china d_hiyaxu_china d_changchun_china d_zhenwu_china d_fengzhou_china d_balhae_china d_malgal_china d_sumo_china d_SW_sushenguo d_okjeo_china d_BAL_hoewon d_eman_nivkhia d_eman_amar d_eman_samagero d_eman_boli d_eman_sikhotebei d_eman_bureya d_BAL_yeojintang d_BAL_shuaibin d_BAL_anbian d_BAL_anwon d_BAL_dongpyeong d_BAL_cheolli d_SW_ruzheguo d_SW_puyudao d_SW_lingxiguo d_SW_qingxingan d_SW_dashiweiguo d_xianping_china d_jilin_china d_liaodong_china d_gewu_china
+		d_em_tataria d_EM_yujuelu d_EM_wajiezi d_em_wuguguo d_gobi_dadaels d_gobi_shatuoguo d_gobi_ongi d_murin_china d_teriqan_china  d_EM_onon d_khiyat_china d_argun_china d_SW_heicheziguo d_LIAO_zhongjing d_LIAO_linhuang d_hejes_china d_yanyun_yuyi d_LIAO_shangjing d_sanggan d_tiande d_BAL_parhae d_BAL_moe_su d_BAL_moe_su d_SW_sushenguo d_BAL_southern_balhae d_BAL_hoewon d_eman_nivkhia d_eman_amar d_eman_samagero d_eman_boli d_eman_sikhotebei d_eman_bureya d_BAL_yeojintang d_BAL_shuaibin d_BAL_anbian d_BAL_anwon d_BAL_dongpyeong d_BAL_cheolli d_SW_ruzheguo d_SW_puyudao d_SW_lingxiguo d_SW_qingxingan d_SW_dashiweiguo d_BAL_buyeo d_jilin_china d_LIAO_dongjing d_BAL_amnok_jangryeong
 	}
 }
 world_asia_sakhalin_hokkaido = {
 	duchies = {
-		d_sum d_higashiezo d_sahaliyan d_kitaezo
+		d_sum d_menas d_sahaliyan d_kitaezo
 	}
 }
 world_asia_japan = {
 	duchies = {
-		d_south_saikaido d_north_saikaido d_chugoku d_nankaido d_east_sanyodo d_east_sanindo d_kinai d_chubu d_hokurikudo d_tokaido d_koshinetsu d_west_bando d_east_bando d_dewa d_mutsu d_ruucuu d_saki
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: d_chugoku has second mapping to d_west_sanindo; manual review needed.
+		d_south_saikaido d_north_saikaido d_west_sanyodo d_nankaido d_east_sanyodo d_east_sanindo d_kinai d_tosando d_hokurikudo d_tokaido d_koshinetsu d_west_bando d_east_bando d_nushiro d_hitakami d_ruucuu d_saki
 	}
 }
 
@@ -637,33 +638,33 @@ world_asia_southeast_mainland = {
 		d_haripunjaya d_sayaburi d_tak d_chiang_mai d_chiang_saen d_nan d_phetchabun d_sukhothai
 
 		# k_lavo
-		d_tambralinga d_takola d_kra d_lop_buri d_u_thong d_chan_kabui d_pribpri
+		d_tambralinga d_takola d_kra d_lop_buri d_u_thong d_mukdahan d_tun_sun
 
 		# k_isana
-		d_nakhon_phanom d_mahasay d_sekong d_shrestapura d_nong_khai d_mae_si d_canasapura
+		d_nakhon_phanom d_mahasay d_phonsavan d_shrestapura d_nong_khai d_mae_si d_canasapura
 
 		# k_champa
 		d_indrapura d_vijaya d_tribhuvanadevi d_panduranga d_dagar
 
 		# k_laos
-		d_muang_sua d_monglem d_luang_nam_tha d_phongsali d_xiangkhouang d_chantabuli d_kengtung d_chiang_hung d_muang_thaeng
+		d_muang_sua d_monglem d_luang_nam_tha d_phongsali d_xiangkhouang d_chantabuli d_kengtung d_sipsongpanna
 
 		# k_chenla
-		d_aninditapura d_battambang d_vyadhapura d_baigaur d_ban_lung d_koh_kong d_isanapura d_dviradapura d_sambhupura d_kok_khan
+		d_angkor d_battambang d_vyadhapura d_baigaur d_ban_lung d_koh_kong d_isanapura d_angkor_borey d_ratanakiri d_kok_khan
 		
 		# Malay Peninsula
-		d_ujong_tanah d_pahang d_kelantan d_langkasuka d_kedah
+		d_ujong_tanah d_MAL_pahang d_kelantan d_MAL_langkasuka d_kedah
 	}
 }
 
 world_asia_thailand = {
 	kingdoms = {
-		k_lavapura k_haripunjaya k_isana
+		k_dvaravati k_haripunjaya k_chenla
 	}
 }
 world_asia_malaysia = {
 	kingdoms = {
-		k_pahang k_langkasuka k_kedah
+		k_pahang k_hujung_medini k_kedah
 	}
 }
 
@@ -675,7 +676,7 @@ world_asia_southeast_islands = {
 
 world_asia_philippines = {
 	duchies = {
-		d_maynila d_sambal d_tondo d_kumintang d_bicol d_mait d_iluek d_pangasinan d_cagayan_valley d_sugbu d_panay d_buglas d_east_bisaya d_kalagan d_dabaw d_himologan d_kotabatu d_lanao d_samboangan d_lupah_sug d_PHI_sandao d_tiruray
+		d_maynila d_sambal d_PHI_tondo d_kumintang d_bicol d_mait d_iluek d_PHI_ilocana d_PHI_cagayan d_sugbu d_PHI_visayas d_buglas d_east_bisaya d_PHI_butuan d_dabaw d_himologan d_PHI_maguindanao d_lanao d_samboangan d_lupah_sug d_PHI_sandao d_tiruray
 		#Taiwan
 		d_liuqiu d_kiray
 	}
@@ -691,28 +692,28 @@ world_asia_borneo = {
 world_asia_sulawesi_maluku = {
 	duchies = {
 		#Sulawesi
-		d_kaili d_tolitoli d_gorontalo d_mongondow d_SuMa_tompotika d_pamona d_bungku d_butungmuna d_SuMa_konawe d_SuMa_luwu d_mandar d_mamuju d_makassar
+		d_kaili d_tolitoli d_SuMa_minahasa d_mongondow d_SuMa_tompotika d_pamona d_bungku d_butungmuna d_SuMa_konawe d_SuMa_luwu d_mandar d_mamuju d_makassar
 		# Moluccas
-		d_sula d_buru d_seram d_halmahera d_raja_ampat
+		d_sula d_buru d_SuMa_maluku d_SuMa_halmahera d_papua
 
-		d_hantuman
+		d_handumans
 	}
 }
 
 world_asia_indonesia = {
 	duchies = {
 		#Sumatra
-		d_SUM_palembang d_bangkahulu d_basemah d_lampung d_aru d_batak d_kerinci d_SUM_riau d_bintan d_SUM_minangkabau d_gayo d_SUM_jambi d_mentawai d_SUM_aceh d_perlak
+		d_SUM_palembang d_bangkahulu d_basemah d_lampung d_aru d_batak d_kerinci d_SUM_riau d_bintan d_SUM_minangkabau d_gayo d_SUM_jambi d_nias d_SUM_aceh d_perlak
 		# Java
-		d_panjalu d_JAV_mataram d_kalingga d_lumajang d_janggala d_bali_sea d_bima d_galuh d_buni d_JAV_taruma d_madura
+		d_panjalu d_JAV_mataram d_kalingga d_lumajang d_janggala d_IDO_bali d_bima d_galuh d_buni d_JAV_taruma d_madura
 		#Timor
-		d_sumba d_nipa d_atoni
+		d_sumba d_IDO_lesser_sunda d_IDO_timor
 	}
 }
 
 world_asia_china = {
 	kingdoms = {
-		k_yan_china k_qi_china k_liang_china k_zhao_china k_jin_china k_zhou_china k_jingnan k_han_china k_qin_china k_longxi_china k_xia_china k_xia k_shu_china k_qianzhong_china k_chu_china k_wu_china k_yue_china k_min k_nanyue_china k_luodian k_dali k_viet
+		k_youji k_qingxu k_henan k_hebei k_hedong k_henan k_shannan k_xingyuan k_guannei k_longxi_china k_xia_china k_xia k_xichuan k_qianzhong k_hunan k_huainan k_liangzhe k_fujian k_lingnan k_luodian k_dali k_viet
 	}
 }
 
@@ -733,19 +734,19 @@ custom_brunei_region = {
 
 custom_panda_region = {
 	kingdoms = {
-		k_shu_china
+		k_xichuan
 	}
 }
 
 custom_tai_migration_origin = {
 	counties = {
-		c_hsenwi c_mongnai c_mang_lian c_chiang_hung c_chiang_saen c_mong_hsat c_luang_prabang c_nan c_hsipaw
+		c_hsenwi c_mongnai c_mang_lian c_chiang_rung c_ngoenyang c_mong_hsat c_luang_prabang c_nan_asia c_hsipaw
 	}
 }
 
 custom_tai_migration_target = {
 	counties = {
-		c_sukhothai c_chakangrao c_lavapura c_nakhon_pathom c_khu_bua c_haripunjaya c_lampang c_hpa_an c_phetchabun c_pribpri c_prachinburi c_canasapura c_fa_daet c_nakhon_phanom c_mukdahan c_sra_kaeo c_ayutthaya c_chantabuli c_chiang_mai
+		c_sukhothai c_chakangrao c_lop_buri c_nakhon_pathom c_khu_bua c_haripunjaya c_lampang c_hpa_an c_phetchabun c_THAI_phetchaburi c_dong_si_mahosot c_canasha c_muang_fa_daet c_nakhon_phanom c_mukdahan c_sra_kaeo c_ayutthaya c_chantabuli c_chiang_mai
 	}
 }
 
@@ -914,7 +915,7 @@ material_woods_padauk = {
 	}
 	duchies = {
 		# Andaman Padauk - Andaman Isles only
-		d_hantuman
+		d_handumans
 	}
 }
 
@@ -2367,7 +2368,7 @@ special_mongol_empire_start_region = {
 # ~1219
 special_mongol_empire_conquest_region_prio_1_alpha = { #### NEW IN AUH -- I don't think this is needed but it's in code
 	kingdoms = {
-		k_khitan_china k_xia k_xia_china k_zhetysu
+		k_khitan k_xia k_xia_china k_zhetysu
 
 	}
 }
@@ -2385,7 +2386,7 @@ special_mongol_empire_conquest_region_prio_1 = {
 		# k_ob
 		d_salair d_aley d_kulyndy_steppe
 		# Eastern Steppe
-		d_em_tataria d_EM_yujuelu d_EM_wajiezi d_em_wuguguo d_gobi_dadaels d_gobi_shatuoguo d_gobi_ongi d_murin_china d_teriqan_china  d_EM_onon d_khiyat_china d_argun_china d_SW_heicheziguo d_zhenwu_china d_fengzhou_china
+		d_em_tataria d_EM_yujuelu d_EM_wajiezi d_em_wuguguo d_gobi_dadaels d_gobi_shatuoguo d_gobi_ongi d_murin_china d_teriqan_china  d_EM_onon d_khiyat_china d_argun_china d_SW_heicheziguo d_sanggan d_tiande
 	}
 }
 
@@ -2407,7 +2408,7 @@ special_mongol_empire_conquest_region_prio_2 = {
 		d_daylam d_tabaristan d_gurgan d_azerbaijan d_norshirakan d_shirvan d_derbent d_albania
 
 		# Jurchenia
-		d_balhae_china d_malgal_china d_sumo_china d_SW_sushenguo d_okjeo_china d_BAL_hoewon d_eman_nivkhia d_eman_amar d_eman_samagero d_eman_boli d_eman_sikhotebei d_eman_bureya d_BAL_yeojintang d_BAL_shuaibin d_BAL_anbian d_BAL_anwon d_BAL_dongpyeong d_BAL_cheolli d_SW_ruzheguo d_SW_puyudao d_SW_lingxiguo d_SW_qingxingan d_SW_dashiweiguo d_xianping_china d_jilin_china d_liaodong_china d_liaoxi_china d_gewu_china
+		d_BAL_parhae d_BAL_moe_su d_BAL_moe_su d_SW_sushenguo d_BAL_southern_balhae d_BAL_hoewon d_eman_nivkhia d_eman_amar d_eman_samagero d_eman_boli d_eman_sikhotebei d_eman_bureya d_BAL_yeojintang d_BAL_shuaibin d_BAL_anbian d_BAL_anwon d_BAL_dongpyeong d_BAL_cheolli d_SW_ruzheguo d_SW_puyudao d_SW_lingxiguo d_SW_qingxingan d_SW_dashiweiguo d_BAL_buyeo d_jilin_china d_LIAO_dongjing d_liaoxi d_BAL_amnok_jangryeong
 
 		# Tibet
 		d_yarlung d_lhasa d_nagchu d_conyi d_xigaze d_sagya d_ngamring d_nyima d_qamdo d_boyul d_nyingchi d_nangqen d_lhatok d_lingtsang d_dege d_batang d_litang d_xining d_tuyuhun d_nagormo d_amdo d_zadoi d_qumarleb d_gyalrong d_chakla d_golog d_malho d_gainlho d_ngari d_kinnaur d_purang d_ladakh d_zanskar d_baltiyul d_aksai_chin d_rutog d_bumthang d_paro d_monyul d_lhoyul d_dzayul
@@ -2431,11 +2432,11 @@ special_mongol_empire_conquest_region_prio_3 = {
 		# k_armenia
 		d_mesopotamia d_melitene d_dzopk d_vaspurakan d_taron d_greater_armenia d_artsakh d_suenik
 		#k_yan_china
-		d_youzhou_china d_lulong_china d_yingmo_china d_yiding_china d_bizhou_china d_henghai_china
+		d_youzhou d_lulong_china d_yingmo d_yiding_china d_bizhou_china d_cangjing
 		#k_zhao_china
-		d_zelu_china d_chengde_china d_xingci_china d_heyang_china d_xiangwei_china d_weibo_china
+		d_zelu d_chengde d_xingming d_heyang d_xiangwei_china d_weibo
 		#k_jin_china
-		d_hedong_china d_yunzhong_china d_yanmen_china d_hezhong_china
+		d_hedong d_yunshuo d_yanmen d_hezhong
 
 	}
 }
@@ -2451,17 +2452,17 @@ special_mongol_empire_conquest_region_prio_4 = {
 		# k_moldavia
 		d_bukovina d_moldova d_bugeac
 		#k_qin_china
-		d_xijing_china d_pingyi_china d_jingyuan_china d_binning_china d_fufang_china
+		d_yongxing d_pingyi_china d_jingyuan d_binning d_fufang
 		#k_zhou_china
-		d_zhenghua_china d_chenxu_china d_heluo_china d_shaanguo_china
+		d_zhenghua d_chenxu d_dongji d_shaanguo_china
 		#k_liang_china
-		d_biansong d_pucao_china d_xusi_china
+		d_biansong d_yuncao d_xusi
 
 		#k_qi_china
-		d_ziqing_china d_denglai_china d_taining_china d_yihai_china
+		d_ziqing d_denglai_china d_yanhai d_yihai_china
 
 		#k_longxi_china
-		d_fengxiang_china d_longxi_china d_xihe
+		d_fengxiang d_qincheng d_xihe
 	}
 }
 
@@ -2481,9 +2482,9 @@ special_mongol_empire_conquest_region_prio_5 = {
 		# k_novgorod
 		d_novgorod d_pskov d_vepsia d_luki
 		#k_shu_china
-		d_jiazhou_china d_xichuan_china d_dongchuan_china d_luzhou_china d_yongping_china
+		d_jiazhou_china d_xichuan d_dongchuan d_wuxin d_qiongnan
 		#k_han_china
-		d_hanzhong_china d_ningjiang_china d_jinshang_china d_ba_china
+		d_xingyuan d_kuizhong d_jinshang d_baqu
 	}
 }
 
@@ -2746,7 +2747,7 @@ special_mongol_empire_great_yuan_region = {
 
 great_yuan_de_jure_region = {
 	kingdoms = {
-		k_zhao_china k_yan_china k_qi_china k_liang_china k_zhou_china k_jin_china
+		k_hebei k_youji k_qingxu k_henan k_henan k_hedong
 	}
 }
 
@@ -2770,7 +2771,7 @@ special_mongol_empire_omnod_dalai_khanate_region = {
 
 omnod_dalai_khanate_de_jure_region = {
 	kingdoms = {
-		k_chenla k_isana k_loeu k_champa k_lavapura
+		k_funan k_chenla k_loeu k_champa k_dvaravati
 	}
 }
 
@@ -3452,7 +3453,7 @@ ghw_region_northern_india = {
 ghw_region_khotan = {
 	duchies = {
 		#Xia
-		d_xia d_wuluhai d_zhenfan d_liangzhou d_shanzhou d_qilin d_ganzhou d_yijinai d_guiyi d_aksay
+		d_xia d_langshan d_zhenfan d_liangzhou d_shanzhou d_qilin d_ganzhou d_yijinai d_guiyi d_aksay
 		#Khotan
 		d_khotan d_kashgar d_kucha d_karashar d_charkliq d_loulan
 	}
@@ -4218,7 +4219,7 @@ dlc_mpo_steppe_east_buryatia_addon = {
 
 dlc_mpo_steppe_east_andong_addon = {
 	counties = {
-		c_SW_gonghejiang c_huanglong_china c_fuyu_china c_xianping_china c_shenzhou_liao_china
+		c_SW_gonghejiang c_BAL_yizhou c_BAL_changchun c_BAL_fuzhou c_LIAO_yinzhou
 	}
 }
 
@@ -4291,13 +4292,13 @@ dlc_mpo_steppe_e_amur_expansion = {
 #
 dlc_mpo_steppe_north_china_expansion = {
 	kingdoms = {
-		k_jin_china k_zhao_china k_yan_china k_qin_china k_xia_china
+		k_hedong k_hebei k_youji k_guannei k_xia_china
 	}
 }
 
 dlc_mpo_steppe_central_china_expansion = {
 	kingdoms = {
-		k_qi_china k_liang_china k_zhou_china
+		k_qingxu k_henan k_henan
 	}
 }
 
@@ -4394,31 +4395,31 @@ tgp_silk_road_china_region = { #
 		k_xia_china
 		k_viet
 		k_luodian
-		k_nanyue_china
-		k_chu_china
-		k_min
-		k_yue_china
-		k_wu_china
-		k_qianzhong_china
-		k_shu_china
-		k_han_china
-		k_qin_china
-		k_jingnan
-		k_zhou_china
-		k_liang_china
-		k_qi_china
-		k_jin_china
-		k_yan_china
-		k_yinshan_china
-		k_khitan_china
+		k_lingnan
+		k_hunan
+		k_fujian
+		k_liangzhe
+		k_huainan
+		k_qianzhong
+		k_xichuan
+		k_xingyuan
+		k_guannei
+		k_shannan
+		k_henan
+		k_henan
+		k_qingxu
+		k_hedong
+		k_youji
+		k_daibei
+		k_khitan
 		k_goguryeo
 		k_dali
 		k_laos
-		k_zhao_china
+		k_hebei
 
 	}
 	duchies = {
-		d_longxi_china d_longnan_china d_wuluhai
+		d_qincheng d_longnan_china d_langshan
 	}
 }
 
@@ -4591,13 +4592,13 @@ tgp_silk_road_sea_region = {
 		k_pagan
 		k_arakan
 		k_haripunjaya
-		k_isana
+		k_chenla
 		k_loeu
 		k_champa
-		k_lavapura
+		k_dvaravati
 		k_pegu
 		k_shan
-		k_chenla
+		k_funan
 		k_thaton
 	}
 }
@@ -4622,184 +4623,194 @@ dlc_tgp_silk_road_route_china = {
 	
 		# Liaoyang to Lanzhou
 		
-		c_liaodong_china
-		c_liaoxi_china
-		c_yingzhou_liaoxi_china
-		c_ruizhou_liaoxi_china
-		c_pingzhou_china
+		c_LIAO_shenyang
+		c_LIAO_xianzhou
+		c_LIAO_jinzhou
+		c_lnj_liaoxi
+		c_pinzhou
 		c_luanzhou_yan_china
-		c_jizhou_yan_china
-		c_youzhou_china # Beijing
-		c_mozhou_china
+		c_jizhou_1
+		c_youzhou # Beijing
+		c_mozhou
 		c_qingzhou_hebei_china
-		c_cangzhou_china
+		c_cangzhou
 		c_jingzhou_wei_china
-		c_beizhou_china
-		c_bozhou_wei_china
-		c_weizhou_china
+		c_beizhou
+		c_bozhou_1
+		c_weizhou
 		c_chanzhou_china
-		c_huazhou_liang_china
+		c_huazhou
 		c_bianzhou
-		c_zhengzhou_china
-		c_luoyang_china
-		c_shaanzhou_china
+		c_zhengzhou
+		c_henan
+		c_shanzhou_2
 		c_tongguan_china
-		c_huazhou_pingyi_china
+		c_huayin
 		c_jingzhao # Chang'an -- Trade Post
-		c_fengxiang_china
-		c_longzhou_china
-		c_tianshui_china
-		c_weizhou_longxi_china
+		c_fengxiang
+		c_longzhou_2
+		c_qinzhou_1
+		c_weizhou_2
 		c_didao_xizhou_china
-		c_lanzhou_longxi_china # Lanzhou -- To Central Asia Route
+		c_lanzhou_1 # Lanzhou -- To Central Asia Route
 		
 		#Hangzhou to Kaifeng #For some reason Paradox started at Suzhou instead of Hangzhou
 		
-		c_hangzhou_china
+		c_hangzhou
 		c_xiuzhou
-		c_suzhou_wu_china
-		c_changzhou_china
-		c_runzhou_china
+		c_suzhou_2
+		c_changzhou
+		c_runzhou
 		c_jiangning
-		c_chuzhou_huai_china
-		c_haozhou_huainan_china
+		c_chuzhou_2
+		c_haozhou
 		c_shouzhou_song_china
-		c_yingzhou_song_china
-		c_chenzhou_china
-		c_xuuzhou_china
+		c_yingzhou
+		c_huaining
+		c_yingchuan
 		# c_bianzhou
 		
 		# Chang'an to Chengdu (Tibet route)
 		
 		# c_jingzhao
-		c_yangzhou_hanzhong_china
-		c_nanzheng_china
-		c_xingzhou_hanzhong_china
-		c_lizhou_hanzhong_china
-		c_jianzhou_shu_china
-		c_mianzhou_china
-		c_hanzhou_shu_china
+		c_yangzhou_1
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_nanzheng_china has second mapping to c_jizhou_2; manual review needed.
+		c_xingyuan
+		c_xingqing
+		c_lizhou_2
+		c_jianzhou_1
+		c_mianzhou
+		c_hanzhou
 		c_chengdu
 		c_qingchengshan_china
-		c_qiongzhou_china
-		c_yazhou_china # Yazhou -- To Tibet Route
+		c_qiongzhou
+		c_yazhou_2 # Yazhou -- To Tibet Route
 		
 		# Chendu to Nanhai
 		
 		# c_chengdu
-		c_jianzhou_shu2_china
-		c_zizhou_dongchuan_china
-		c_suizhou_dongchuan_china
+		c_jianyang
+		c_tongchuan
+		c_suining
 		c_hezhou_ba_china
-		c_yuzhou_ba_china
-		c_fuzhou_ba_china
-		c_zhongzhou_ba_china
-		c_wanzhou_china
-		c_kuizhou_china
-		c_zigui_china
-		c_xiazhou_chu_china
-		c_jingzhou_chu_china
-		c_lizhou_chu_china
-		c_yuezhou_chu_china
-		c_changsha_china
-		c_hengshan_china
-		c_chenzhou_hunan_china
-		c_shaoguan_guang_china
+		c_yuzhou_2
+		c_fuzhou_4
+		c_zhongzhou
+		c_wanzhou
+		c_kuizhou
+		c_guizhou
+		c_xiazhou_1
+		c_jiangling
+		c_liyang
+		c_yuezhou_1
+		c_tanzhou
+		c_hengzhou
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_chenzhou_hunan_china has second mapping to c_guiyang; manual review needed.
+		c_chenzhou_1
+		c_shaozhou_1
 		c_guangzhou_1
 		
 		# Dali to Lhatok
 		
-		c_yon_zon_mi # Dali
-		c_yi_du
+		c_dali # Dali
+		c_jianchuan
 		c_deqen	# Deqen -- To Tibet Route
 		
 		
 		# MB added - Southern routes for Thanh Long
 		
 		c_kinh_mon # Van Don
-		c_thanh_long
+		c_thang_long
 		c_bac_ha
 		c_lang_giang
 		c_lang_son
-		c_luolong_china
-		c_nanning_china
-		c_qinzhou_gui_china
-		c_hengzhou_gui_china
-		c_guancheng_china
-		c_liuzhou_china
-		c_guilin_china
-		c_yongzhou_hunan_china
+		c_rangzhou
+		c_yongzhou_1
+		c_qinzhou_2
+		c_hengzhou_1
+		c_gongzhou
+		c_liuzhou
+		c_guizhou_1
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_yongzhou_hunan_china has second mapping to c_quanzhou_2; manual review needed.
+		c_yongzhou
 		
-		c_lianzhou_gui_china
-		c_huazhou_china
-		c_gaozhou_china
-		c_nanenzhou_china
-		c_xinhui_china
-		c_duanzhou_china
+		c_lianzhou_1
+		c_luozhou
+		c_gaozhou
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_nanenzhou_china has second mapping to c_chunzhou; manual review needed.
+		c_enzhou
+		c_xinzhou_1
+		c_shuangzhou
 		
 		c_lam_thao
 		c_yen_bai
 		c_thuy_vi
-		c_goje
+		c_muze
 		c_dzi_khe
 		c_tonghai
 		c_anning_yn
 		c_lu_khuon
 		c_huichuan
-		c_kun_ming
+		c_xiangcheng
 		c_maso
-		c_ddi_yi
+		c_chengji
 		c_yunnan
 		
-		c_jianchang
+		c_jianchang_1
 		c_khuo
-		c_u_mung
-		c_yanjin
-		c_jiazhou_xichuan_china
-		c_meizhou_xichuan_china
+		c_quzhou_1
+		c_yinzhou_1
+		c_jiazhou
+		c_meizhou
 		
-		c_guzhu_china
-		c_guizhou_yan_china
-		c_hongzhou_datong_china
-		c_yunzhou_china
-		c_yingzhou_jin_china
-		c_shuozhou_china
-		c_lanzhou_hedong_china
-		c_hequ_china
-		c_linzhou_shaan_china
-		c_shengzhou_china
-		c_midsurrended_china
-		c_tiandejun_china
+		c_tanzhou_2
+		c_guizhou_2
+		c_hongzhou_2
+		c_datong_2
+		c_yingzhou_5
+		c_shuozhou
+		c_lanzhou
+		c_fuzhou
+		c_linzhou
+		c_shengzhou
+		c_lxj_yunneizhou
+		c_tiande
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_langshan has second mapping to c_lxj_fengzhou; manual review needed.
 		c_langshan
-		c_wuda
-		c_xingqing
-		c_shunzhou
-		c_gaolan_china
-		c_huizhou_china
+		c_keyimen
+		c_huaiyuan
+		c_lingzhou
+		c_xiongzhou
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_huizhou_china has second mapping to c_wulan; manual review needed.
+		c_huizhou
 		
-		c_quanzhou_china
-		c_fuzou_china
-		c_wenzhou_yue_china
-		c_kuozhou_yue_china
-		c_quzhou_china
-		c_xinzhou_wu_china
-		c_fuzhou_jiangxi_china
-		c_yunzhou_jiangxi_china
-		c_yuanzhou_jiangxi_china
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_quanzhou_china has second mapping to c_xinghua; manual review needed.
+		c_quanzhou
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_fuzou_china has second mapping to c_funing; manual review needed.
+		c_fuzhou_1
+		c_wenzhou_2
+		c_chuzhou
+		c_xin_an
+		c_xinhzou
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_fuzhou_jiangxi_china has second mapping to c_jianchang; manual review needed.
+		c_fuzhou_2
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_yunzhou_jiangxi_china has second mapping to c_linjiang; manual review needed.
+		c_yunzhou_2
+		c_yuanzhou
 		
-		c_zhangzhou_min_china
-		c_tingzhou_min_china
-		c_haka_china
-		c_xunzhou_china
+		c_zhangzhou
+		c_tingzhou
+		c_meizhou_1
+		c_xunzhou
 		
 		c_xianzhou_china
-		c_taiyuan_china
-		c_fenzhou_china
-		c_jinzhou_hezhong_china
-		c_jiangzhou_china
-		c_puzhou_china
+		c_taiyuan
+		c_fenzhou
+		c_pingyang
+		c_jiangzhou_2
+		c_hezhong
 		
-		c_yongchang
+		c_yongchang_yongchang
 		
 		
 	}
@@ -4849,7 +4860,7 @@ dlc_tgp_silk_road_route_tibet = {
 		
 		#
 		
-		c_shanzhou
+		c_shanzhou_mbp
 		c_kuozhou
 		c_rebgong
 		c_mangra
@@ -5032,7 +5043,7 @@ dlc_tgp_silk_road_route_central_asia = {
 		c_guazhou
 		c_changma
 		c_yumen
-		c_suzhou
+		c_suzhou_mbp
 		c_gaotai
 		c_linze
 		# c_ganzhou
@@ -5040,7 +5051,7 @@ dlc_tgp_silk_road_route_central_asia = {
 		c_ganzhou
 		c_fanhe
 		c_liangzhou
-		c_yongdeng # Yongdeng -- To China Route
+		c_guangwu # Yongdeng -- To China Route
 		
 		#
 		
@@ -5363,7 +5374,7 @@ dlc_tgp_silk_road_route_sea = {
 		c_takon
 		c_madaya
 		c_kyaukse
-		c_maingmaw
+		c_ava
 		c_pagan
 		c_magwe
 		c_beikthano
@@ -5375,28 +5386,28 @@ dlc_tgp_silk_road_route_sea = {
 		c_sittaung
 		c_thaton
 		c_mawlamyine
-		c_rew
+		c_thanbyuzayat
 		c_dawei
 		c_nong_lu
 		c_kanchanaburi
 		c_nakhon_pathom
 		c_ayutthaya
-		c_prachinburi
+		c_dong_si_mahosot
 		c_kabin_buri
 		c_sra_kaeo
 		c_neang
 		c_chhmar
-		c_aninditapura
+		c_angkor
 		
-		c_sap
+		c_binh_dai
 		c_sadek
 		c_can_tho
-		c_angkor_borei
+		c_angkor_borey
 		c_dviradapura
 		c_pursat
 		c_bakan
 		
-		c_maukkadaw
+		c_hanlan
 		c_thaungdut
 		
 	
@@ -5412,7 +5423,7 @@ dlc_tgp_silk_road_route_sea = {
 
 dlc_tgp_mainland_southeast_asia_region = { #This region isn't referenced by anything
 	kingdoms = {
-		k_viet k_champa k_loeu k_chenla k_isana k_laos k_haripunjaya k_shan k_tagaung k_pagan k_pegu k_lavapura 
+		k_viet k_champa k_loeu k_funan k_chenla k_laos k_haripunjaya k_shan k_tagaung k_pagan k_pegu k_dvaravati 
 	}
 }
 
@@ -5441,11 +5452,11 @@ dlc_tgp_grand_canal_1_region = {
 	counties = {
 		# Southernmost section at Hangzhou
 
-		c_hangzhou_china
-		c_suzhou_wu_china
+		c_hangzhou
+		c_suzhou_2
 		c_xiuzhou
-		c_yuezhou_yue_china
-		c_mingzhou_china
+		c_yuezhou
+		c_mingzhou_1
 		
 	}
 }
@@ -5454,11 +5465,11 @@ dlc_tgp_grand_canal_2_region = {
 	counties = {
 		# Southern middle river, from Suzhou to Yangzhou
 
-		c_yangzhou_china
-		c_huaiyin_china
-		c_sizhou_xu_china
-		c_runzhou_china
-		c_changzhou_china
+		c_yangzhou
+		c_chuzhou_1
+		c_sizhou_2
+		c_runzhou
+		c_changzhou
 		
 	}
 }
@@ -5467,12 +5478,12 @@ dlc_tgp_grand_canal_3_region = {
 	counties = {
 		# Northern middle river
 
-		c_suzhou_xu_china
-		c_xuzhou_xu_china
-		c_danzhou_song_china
+		c_suzhou
+		c_xuzhou_1
+		c_shanzhou
 		c_caozhou
-		c_puzhou_liang_china
-		c_huazhou_liang_china
+		c_puzhou_2
+		c_huazhou
 		
 	}
 }
@@ -5481,14 +5492,14 @@ dlc_tgp_grand_canal_4_region = {
 	counties = {
 		# Northermost section to Beijing
 
-		c_weizhou_ji_china
-		c_xiangzhou_china
-		c_weizhou_china
-		c_beizhou_china
+		c_weizhou_1
+		c_xiangzhou
+		c_weizhou
+		c_beizhou
 		c_jingzhou_wei_china
-		c_cangzhou_china
+		c_cangzhou
 		c_qingzhou_hebei_china
-		c_youzhou_china
+		c_youzhou
 		
 	}
 }
@@ -6332,22 +6343,22 @@ tgp_china_tributary_region = {
 		k_champa
 		k_viet
 		k_luodian
-		k_nanyue_china
-		k_chu_china
-		k_min
-		k_yue_china
-		k_wu_china
-		k_qianzhong_china
-		k_shu_china
-		k_han_china
+		k_lingnan
+		k_hunan
+		k_fujian
+		k_liangzhe
+		k_huainan
+		k_qianzhong
+		k_xichuan
+		k_xingyuan
 		k_longxi_china
-		k_qin_china
-		k_jingnan
-		k_zhou_china
-		k_liang_china
-		k_qi_china
-		k_jin_china
-		k_yan_china
+		k_guannei
+		k_shannan
+		k_henan
+		k_henan 
+		k_qingxu
+		k_hedong
+		k_youji
 		k_xia_china
 		k_xia
 		k_gyalrong
@@ -6357,15 +6368,15 @@ tgp_china_tributary_region = {
 		k_tsang
 		k_guge
 		k_maryul
-		k_yinshan_china
-		k_khitan_china
+		k_daibei
+		k_khitan
 		k_goguryeo
 		k_balhae
 		k_goryeo
 		k_tamna
 		k_dali
 		k_laos
-		k_zhao_china
+		k_hebei
 	}
 }
 
@@ -6373,32 +6384,32 @@ tgp_china_tributary_region = {
 
 tgp_ba_region = {
 	kingdoms = {
-		k_han_china k_shu_china
+		k_xingyuan k_xichuan
 	}
 }
 tgp_cai_region = {
 	kingdoms = {
-		k_zhou_china
+		k_henan
 	}
 }
 tgp_cao_region = {
 	kingdoms = {
-		k_qi_china
+		k_qingxu
 	}
 }
 tgp_chen_region = {
 	kingdoms = {
-		k_zhou_china
+		k_henan
 	}
 }
 tgp_chu_region = {
 	kingdoms = {
-		k_jingnan k_chu_china
+		k_shannan k_hunan
 	}
 }
 tgp_dai_region = {
 	kingdoms = {
-		k_jin_china k_yan_china
+		k_hedong k_youji
 	}
 }
 tgp_dian_region = {
@@ -6408,152 +6419,152 @@ tgp_dian_region = {
 }
 tgp_e_region = {
 	kingdoms = {
-		k_jingnan
+		k_shannan
 	}
 }
 tgp_gan_region = {
 	kingdoms = {
-		k_wu_china
+		k_huainan
 	}
 }
 tgp_gui_region = {
 	kingdoms = {
-		k_chu_china k_qianzhong_china
+		k_hunan k_qianzhong
 	}
 }
 tgp_han_region = {
 	kingdoms = {
-		k_han_china
+		k_xingyuan
 	}
 }
 tgp_huai_region = {
 	kingdoms = {
-		k_wu_china
+		k_huainan
 	}
 }
 tgp_jin_region = {
 	kingdoms = {
-		k_jin_china k_longxi_china k_qin_china
+		k_hedong k_longxi_china k_guannei
 	}
 }
 tgp_jing_region = {
 	kingdoms = {
-		k_jingnan
+		k_shannan
 	}
 }
 tgp_lai_region = {
 	kingdoms = {
-		k_qi_china
+		k_qingxu
 	}
 }
 tgp_liang_region = {
 	kingdoms = {
-		k_zhou_china k_longxi_china k_qin_china k_xia k_xia_china k_liang_china
+		k_henan k_longxi_china k_guannei k_xia k_xia_china k_henan
 	}
 }
 tgp_lu_region = {
 	kingdoms = {
-		k_qi_china k_jin_china k_yan_china
+		k_qingxu k_hedong k_youji
 	}
 }
 tgp_min_region = {
 	kingdoms = {
-		k_fujian k_min
+		k_fujian k_fujian
 	}
 }
 tgp_qi_region = {
 	kingdoms = {
-		k_qi_china k_longxi_china k_qin_china
+		k_qingxu k_longxi_china k_guannei
 	}
 }
 tgp_qian_region = {
 	kingdoms = {
-		k_kuizhou k_qianzhong_china
+		k_kuizhou k_qianzhong
 	}
 }
 tgp_shu_region = {
 	kingdoms = {
-		k_shu_china k_wu_china k_qianzhong_china
+		k_xichuan k_huainan k_qianzhong
 	}
 }
 tgp_song_region = {
 	kingdoms = {
-		k_zhou_china k_qi_china
+		k_henan k_qingxu
 	}
 }
 tgp_sui_region = {
 	kingdoms = {
-		k_jingnan
+		k_shannan
 	}
 }
 tgp_tang_region = {
 	kingdoms = {
-		k_jin_china k_jingnan
+		k_hedong k_shannan
 	}
 }
 tgp_wei_region = {
 	kingdoms = {
-		k_zhao_china
+		k_hebei
 	}
 }
 tgp_wu_region = {
 	kingdoms = {
-		k_yue_china k_wu_china
+		k_liangzhe k_huainan
 	}
 }
 tgp_xia_region = {
 	kingdoms = {
-		k_longxi_china k_qin_china k_xia k_xia_china
+		k_longxi_china k_guannei k_xia k_xia_china
 	}
 }
 tgp_xiang_region = {
 	kingdoms = {
-		k_chu_china
+		k_hunan
 	}
 }
 tgp_xing_region = {
 	kingdoms = {
-		k_zhao_china
+		k_hebei
 	}
 }
 tgp_xu_region = {
 	kingdoms = {
-		k_zhou_china k_qi_china
+		k_henan k_qingxu
 	}
 }
 tgp_yang_region = {
 	kingdoms = {
-		k_wu_china
+		k_huainan
 	}
 }
 tgp_yin_region = {
 	kingdoms = {
-		k_zhao_china k_yan_china
+		k_hebei k_youji
 	}
 }
 tgp_yong_region = {
 	kingdoms = {
-		k_longxi_china k_qin_china
+		k_longxi_china k_guannei
 	}
 }
 tgp_yue_region = {
 	kingdoms = {
-		k_nanyue_china k_luodian k_yue_china
+		k_lingnan k_luodian k_liangzhe
 	}
 }
 tgp_zhao_region = {
 	kingdoms = {
-		k_zhao_china
+		k_hebei
 	}
 }
 tgp_zheng_region = {
 	kingdoms = {
-		k_zhou_china
+		k_henan
 	}
 }
 tgp_zhou_region = {
 	kingdoms = {
-		k_zhou_china
+		k_henan
 	}
 }
 
@@ -6781,7 +6792,7 @@ custom_southern_subsahara = {
 
 custom_southeast_asia_plague = {
 	duchies = {
-		d_dagar d_ban_lung d_sekong d_mahasay d_koksang d_yi_du d_myitkyina d_mang_shuea d_hkamti d_yongchang d_monglem d_kainan d_jianchang d_chiang_hung d_sutiya d_kengtung d_north_shan d_mongmit d_luang_nam_tha d_muang_sua d_phongsali d_muang_thaeng d_tagaung d_kale d_para_lauhitya d_kamarupanagara d_tripura d_jaintia d_manipur d_xiangkhouang d_chantabuli
+		d_dagar d_ban_lung d_phonsavan d_mahasay d_jianchuan d_yi_du d_myitkyina d_tengchong d_hkamti d_yongchang d_monglem d_yinsheng d_shimen d_sipsongpanna d_sutiya d_kengtung d_north_shan d_luang_nam_tha d_muang_sua d_phongsali d_tagaung d_kale d_para_lauhitya d_kamarupanagara d_tripura d_jaintia d_manipur d_xiangkhouang d_chantabuli
 	}
 }
 
@@ -6793,7 +6804,7 @@ custom_desert_plague = {
 
 custom_northern_plague = {
 	duchies = {
-	 d_guoldat d_duortnoseatnu d_giemajohka d_aarjetje d_halogaland d_norrland d_pohjanmaa d_karelia d_biarmia d_ustyug d_chudia d_vologda d_savo d_bargujin_tukum d_baigaluuls d_lena d_udmurtia d_ural d_ostyaki d_pelym d_konda d_kazym d_ishim d_sibir d_tara d_vasyugan_mire d_ala_tau d_baraba_steppe d_yenisei_kan d_chuna_valley d_angara d_tsagaanbaigal d_eastern_sayan d_kargassia d_khakass_hollow d_shoria d_dauria d_argun_china d_SW_lingxiguo d_SW_qingxingan d_eman_nivkhia d_eman_amar d_eman_samagero d_eman_boli d_eman_sikhotebei d_eman_bureya d_BAL_hoewon d_BAL_yeojintang d_BAL_shuaibin d_BAL_anbian d_BAL_anwon d_BAL_dongpyeong d_BAL_cheolli d_SW_puyudao d_SW_ruzheguo d_SW_dashiweiguo d_uda_valley d_selenga_valley d_EM_onon d_khiyat_china d_balhae_china d_sumo_china
+	 d_guoldat d_duortnoseatnu d_giemajohka d_aarjetje d_halogaland d_norrland d_pohjanmaa d_karelia d_biarmia d_ustyug d_chudia d_vologda d_savo d_bargujin_tukum d_baigaluuls d_lena d_udmurtia d_ural d_ostyaki d_pelym d_konda d_kazym d_ishim d_sibir d_tara d_vasyugan_mire d_ala_tau d_baraba_steppe d_yenisei_kan d_chuna_valley d_angara d_tsagaanbaigal d_eastern_sayan d_kargassia d_khakass_hollow d_shoria d_dauria d_argun_china d_SW_lingxiguo d_SW_qingxingan d_eman_nivkhia d_eman_amar d_eman_samagero d_eman_boli d_eman_sikhotebei d_eman_bureya d_BAL_hoewon d_BAL_yeojintang d_BAL_shuaibin d_BAL_anbian d_BAL_anwon d_BAL_dongpyeong d_BAL_cheolli d_SW_puyudao d_SW_ruzheguo d_SW_dashiweiguo d_uda_valley d_selenga_valley d_EM_onon d_khiyat_china d_BAL_parhae d_BAL_moe_su
 	}
 }
 
@@ -6819,7 +6830,7 @@ custom_easteurope_plague = {
 
 dlc_mpo_steppe_eastern_steppe = {
 	duchies = {
-		d_em_tataria d_EM_yujuelu d_EM_wajiezi d_em_wuguguo d_gobi_dadaels d_gobi_shatuoguo d_gobi_ongi d_murin_china d_teriqan_china  d_EM_onon d_khiyat_china d_SW_heicheziguo d_xarmoron_china d_hejes_china d_changchun_china d_SW_ruzheguo d_SW_puyudao d_SW_dashiweiguo d_SW_qingxingan d_SW_lingxiguo
+		d_em_tataria d_EM_yujuelu d_EM_wajiezi d_em_wuguguo d_gobi_dadaels d_gobi_shatuoguo d_gobi_ongi d_murin_china d_teriqan_china  d_EM_onon d_khiyat_china d_SW_heicheziguo d_LIAO_linhuang d_hejes_china d_LIAO_shangjing d_SW_ruzheguo d_SW_puyudao d_SW_dashiweiguo d_SW_qingxingan d_SW_lingxiguo
 		#Dzungaria
 		d_altay d_akaltay d_beshbalik d_gurbantunggut d_naiman_gobi d_ili-alatau d_tarbagatai d_kara_khoja
 		#Mongolia
@@ -6827,7 +6838,7 @@ dlc_mpo_steppe_eastern_steppe = {
 		#Turkestan
 		d_zhetysu d_chah d_muyunkum d_talas_alatau d_alakol d_betpa d_karkaraly d_kentarlau d_jinghiz d_tokumbay
 		
-		d_jilin_china d_xianping_china 
+		d_jilin_china d_BAL_buyeo 
 		d_argun_china
 	}
 	counties = {
@@ -6881,7 +6892,7 @@ dlc_mpo_steppe_southern_steppe = {
 		#Tibet
 		d_nagormo d_amdo d_zadoi d_qumarleb d_tuyuhun d_qamdo d_nangqen d_lingtsang d_rutog d_aksai_chin d_nagchu d_conyi d_xining d_golog d_malho d_shanzhou d_nyima
 		#Southern Steppe
-		d_ordos_china d_wuluhai d_yijinai d_aksay d_guiyi d_ganzhou d_zhenfan d_yunzhong_china d_liangzhou d_xia d_shuofang_china d_xiazhou_china d_xihe d_yanmen_china d_youzhou_china d_lulong_china d_liaoxi_china d_fengzhou_china d_zhenwu_china d_hiyaxu_china d_tohchen_china d_khorezm d_uzboy
+		d_xinan d_langshan d_yijinai d_aksay d_guiyi d_ganzhou d_zhenfan d_yunshuo d_liangzhou d_xia d_shuofang d_xiasui d_xihe d_yanmen d_youzhou d_lulong_china d_liaoxi d_tiande d_sanggan d_yanyun_yuyi d_LIAO_zhongjing d_khorezm d_uzboy
 		#Transoxiana
 		d_soghd d_merv d_osrushana d_guzgan d_balkh d_ferghana
 		#Turkestan
@@ -6925,7 +6936,7 @@ custom_meritocratic_lands = {
 		k_dali k_viet k_goryeo k_xia k_xia_china
 	}
 	duchies = {
-		d_mang_shuea
+		d_tengchong
 	}
 }
 

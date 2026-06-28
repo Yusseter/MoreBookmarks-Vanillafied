@@ -53966,7 +53966,7 @@ e_angkor = {
 		instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 }  }
 	}
 }
-k_chenla = { # Yasodhara
+k_funan = { # Yasodhara
 	pattern = "pattern_solid.dds"
 	color1 = rgb { 0 20 50 }
 	color2 = "red"
@@ -53977,7 +53977,7 @@ k_chenla = { # Yasodhara
 		instance = { position = { 0.5 0.48 } scale = { 0.9 0.9 }  }
 	}
 }
-d_sambhupura = { # Yasodhara
+d_ratanakiri = { # Yasodhara
 	pattern = "pattern_solid.dds"
 	color1 = rgb { 0 20 50 }
 	color2 = "red"
@@ -54023,7 +54023,7 @@ k_haripunjaya = {
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
 	}
 }
-e_burma = {
+e_suvarnabhumi = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 	color2 = "blue"
@@ -54124,7 +54124,7 @@ d_maingmaw = {
 		instance = { position = { 0.5 0.45 } scale = { 0.8 0.8 }  }
 	}
 }
-c_maingmaw = {
+c_ava = {
 	pattern = "pattern_solid.dds"
 	color1 = "white"
 	color2 = "white"
@@ -54158,7 +54158,7 @@ k_thaton = {
 		instance = { position = { 0.5 0.45 } scale = { 0.95 0.95 }  }
 	}
 }
-d_thaton = {
+d_ramannadesa = {
 	pattern = "pattern_solid.dds"
 	color1 = "white"
 	color2 = "white"
@@ -54331,7 +54331,7 @@ k_laos = {
 		instance = { position = { 0.5 0.65 } scale = { 0.65 0.65 }  }
 	}
 }
-k_isana = {
+k_chenla = {
 	pattern = "pattern_bend_01.dds"
 	color1 = orange
 	color2 = "blue_light"
@@ -54671,7 +54671,7 @@ k_jeongan = {
 	}
 }
 
-k_jin_china = {
+k_hedong = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	color2 = "yellow"
@@ -54682,7 +54682,7 @@ k_jin_china = {
 		instance = { position = { 0.5 0.45 } scale = { 1.0 1.0 }  }
 	}
 }
-k_yan_china = {
+k_youji = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	color2 = "yellow"
@@ -54693,7 +54693,7 @@ k_yan_china = {
 		instance = { position = { 0.5 0.45 } scale = { 0.9 0.9 }  }
 	}
 }
-k_shu_china = {
+k_xichuan = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	color2 = "yellow"
@@ -54704,7 +54704,7 @@ k_shu_china = {
 		instance = { position = { 0.5 0.45 } scale = { 0.9 0.9 }  }
 	}
 }
-k_chu_china = {
+k_hunan = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	color2 = "yellow"
@@ -54715,7 +54715,7 @@ k_chu_china = {
 		instance = { position = { 0.5 0.45 } scale = { 0.9 0.9 }  }
 	}
 }
-k_wu_china = {
+k_huainan = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	color2 = "yellow"
@@ -55068,7 +55068,7 @@ e_later_han = {
 	}
 }
 
-k_han_china = {
+k_xingyuan = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	color2 = "black"
@@ -55277,7 +55277,7 @@ d_kashgar = {
 	}
 }
 
-d_liaodong_china = {
+d_LIAO_dongjing = {
 	pattern = "pattern_solid.dds"
 	color1 = { 50 150 175 }
 	colored_emblem = {
@@ -55287,7 +55287,7 @@ d_liaodong_china = {
 	}			
 }
 
-d_liaoxi_china = {
+d_liaoxi = {
 	pattern = "pattern_solid.dds"
 	color1 = { 0 120 120 }
 	colored_emblem = {
@@ -55312,7 +55312,7 @@ e_goryeo = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}		
 }
-d_gewu_china = {
+d_BAL_amnok_jangryeong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 0 140 190 }
 	colored_emblem = {
@@ -55336,7 +55336,7 @@ d_yukju = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }
 	}		
 }
-d_xingci_china = {
+d_xingming = {
 	pattern = "pattern_solid.dds"
 	color1 = { 72 150 103 }
 	colored_emblem = {
@@ -55346,7 +55346,7 @@ d_xingci_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }
 	}	
 }
-d_zelu_china = {
+d_zelu = {
 	pattern = "pattern_solid.dds"
 	color1 = { 50 120 112 }
 	colored_emblem = {
@@ -55355,7 +55355,7 @@ d_zelu_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }
 	}		
 }
-d_youzhou_china = {
+d_youzhou = {
 	pattern = "pattern_solid.dds"
 	color1 = { 12 62 100 }
 	colored_emblem = {
@@ -55374,7 +55374,7 @@ d_lulong_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_yingmo_china = {
+d_yingmo = {
 	pattern = "pattern_solid.dds"
 	color1 = { 20 70 130 }
 	colored_emblem = {
@@ -55392,7 +55392,7 @@ d_yiding_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_weibo_china = {
+d_weibo = {
 	pattern = "pattern_solid.dds"
 	color1 = { 63 72 150 }
 	colored_emblem = {
@@ -55411,7 +55411,7 @@ d_xiangwei_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_henghai_china = {
+d_cangjing = {
 	pattern = "pattern_solid.dds"
 	color1 = { 63 90 124 }
 	colored_emblem = {
@@ -55429,7 +55429,7 @@ d_zhenwu_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }	
 	}		
 }
-d_fengzhou_china = { #天德
+d_tiande = { #天德
 	pattern = "pattern_solid.dds"
 	color1 = { 91 90 161 }
 	colored_emblem = {
@@ -55438,7 +55438,7 @@ d_fengzhou_china = { #天德
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_wuluhai = { #丰州
+d_langshan = { #丰州
 	pattern = "pattern_solid.dds"
 	color1 = { 91 90 161 }
 	colored_emblem = {
@@ -55447,7 +55447,7 @@ d_wuluhai = { #丰州
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_ordos_china = {
+d_xinan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 65 200 147 }
 	colored_emblem = {
@@ -55456,7 +55456,7 @@ d_ordos_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_hedong_china = {
+d_hedong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 180 170 140 }
 	colored_emblem = {
@@ -55465,7 +55465,7 @@ d_hedong_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_yunzhong_china = {
+d_yunshuo = {
 	pattern = "pattern_solid.dds"
 	color1 = { 170 170 170 }
 	colored_emblem = {
@@ -55474,7 +55474,7 @@ d_yunzhong_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }
 	}		
 }
-d_yanmen_china = {
+d_yanmen = {
 	pattern = "pattern_solid.dds"
 	color1 = { 200 200 200 }
 	colored_emblem = {
@@ -55483,7 +55483,7 @@ d_yanmen_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_hezhong_china = {
+d_hezhong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 120 120 120 }
 	colored_emblem = {
@@ -55493,7 +55493,7 @@ d_hezhong_china = {
 	}		
 }
 
-d_xiazhou_china = {
+d_xiasui = {
 	pattern = "pattern_solid.dds"
 	color1 = { 124 100 62 }
 	colored_emblem = {
@@ -55512,7 +55512,7 @@ d_xia = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}			
 }
-d_shuofang_china = {
+d_shuofang = {
 	pattern = "pattern_solid.dds"
 	color1 = { 41 23 156 }
 	colored_emblem = {
@@ -55521,7 +55521,7 @@ d_shuofang_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_fengxiang_china = {
+d_fengxiang = {
 	pattern = "pattern_solid.dds"
 	color1 = { 110 100 100 }
 	colored_emblem = {
@@ -55531,7 +55531,7 @@ d_fengxiang_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_jingyuan_china = {
+d_jingyuan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 120 120 100 }
 	colored_emblem = {
@@ -55540,7 +55540,7 @@ d_jingyuan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_longxi_china = {
+d_qincheng = {
 	pattern = "pattern_solid.dds"
 	color1 = { 90 90 100 }
 	colored_emblem = {
@@ -55558,7 +55558,7 @@ d_longnan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_xijing_china = {
+d_yongxing = {
 	pattern = "pattern_solid.dds"
 	color1 = { 48 48 48 }
 	colored_emblem = {
@@ -55578,7 +55578,7 @@ d_pingyi_china = {
 	}		
 }
 
-d_binning_china = {
+d_binning = {
 	pattern = "pattern_solid.dds"
 	color1 = { 70 70 70 }
 	colored_emblem = {
@@ -55587,7 +55587,7 @@ d_binning_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_fufang_china = {
+d_fufang = {
 	pattern = "pattern_solid.dds"
 	color1 = { 70 55 55 }
 	colored_emblem = {
@@ -55596,7 +55596,7 @@ d_fufang_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_jinshang_china = {
+d_jinshang = {
 	pattern = "pattern_solid.dds"
 	color1 = { 30 48 48 }
 	colored_emblem = {
@@ -55605,7 +55605,7 @@ d_jinshang_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_xichuan_china = {
+d_xichuan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 56 200 85 }
 	colored_emblem = {
@@ -55623,7 +55623,7 @@ d_xichuan_china = {
 #		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 #	}		
 #}
-d_hanzhong_china = {
+d_xingyuan = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	color2 = "black"
@@ -55634,7 +55634,7 @@ d_hanzhong_china = {
 		instance = { position = { 0.5 0.45 } scale = { 1.0 1.0 }  }
 	}
 }
-d_dongchuan_china = {
+d_dongchuan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 193 200 56 }
 	colored_emblem = {
@@ -55643,7 +55643,7 @@ d_dongchuan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_luzhou_china = {
+d_wuxin = {
 	pattern = "pattern_solid.dds"
 	color1 = { 47 255 47 }
 	colored_emblem = {
@@ -55652,7 +55652,7 @@ d_luzhou_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_yongping_china = {
+d_qiongnan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 47 200 47 }
 	colored_emblem = {
@@ -55662,7 +55662,7 @@ d_yongping_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_ba_china = {
+d_baqu = {
 	pattern = "pattern_solid.dds"
 	color1 = { 42 163 110 }
 	colored_emblem = {
@@ -55672,7 +55672,7 @@ d_ba_china = {
 	}		
 }
 
-d_ningjiang_china = {
+d_kuizhong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 100 200 47 }
 	colored_emblem = {
@@ -55681,7 +55681,7 @@ d_ningjiang_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_heluo_china = {
+d_dongji = {
 	pattern = "pattern_solid.dds"
 	color1 = { 170 215 53 }
 	colored_emblem = {
@@ -55699,7 +55699,7 @@ d_shaanguo_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_zhenghua_china = {
+d_zhenghua = {
 	pattern = "pattern_solid.dds"
 	color1 = { 161 134 92 }
 	colored_emblem = {
@@ -55708,7 +55708,7 @@ d_zhenghua_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_heyang_china = {
+d_heyang = {
 	pattern = "pattern_solid.dds"
 	color1 = { 170 150 53 }
 	colored_emblem = {
@@ -55717,7 +55717,7 @@ d_heyang_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_chenxu_china = {
+d_chenxu = {
 	pattern = "pattern_solid.dds"
 	color1 = { 170 215 90 }
 	colored_emblem = {
@@ -55735,7 +55735,7 @@ d_biansong_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_pucao_china = {
+d_yuncao = {
 	pattern = "pattern_solid.dds"
 	color1 = { 140 50 50 }
 	colored_emblem = {
@@ -55744,7 +55744,7 @@ d_pucao_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_xusi_china = {
+d_xusi = {
 	pattern = "pattern_solid.dds"
 	color1 = { 145 47 80 }
 	colored_emblem = {
@@ -55754,7 +55754,7 @@ d_xusi_china = {
 	}		
 }
 
-d_ziqing_china = {
+d_ziqing = {
 	pattern = "pattern_solid.dds"
 	color1 = { 150 180 117 }
 	colored_emblem = {
@@ -55772,7 +55772,7 @@ d_denglai_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_taining_china = {
+d_yanhai = {
 	pattern = "pattern_solid.dds"
 	color1 = { 132 140 80 }
 	colored_emblem = {
@@ -55782,7 +55782,7 @@ d_taining_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_jingxiang_china = {
+d_xiangdeng = {
 	pattern = "pattern_solid.dds"
 	color1 = { 28 174 177 }
 	colored_emblem = {
@@ -55791,7 +55791,7 @@ d_jingxiang_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_jingnan_china = {
+d_jingnan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 28 176 60 }
 	colored_emblem = {
@@ -55801,7 +55801,7 @@ d_jingnan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_eyue_china = {
+d_eyue = {
 	pattern = "pattern_solid.dds"
 	color1 = { 156 135 80 }
 	colored_emblem = {
@@ -55810,7 +55810,7 @@ d_eyue_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }
 	}		
 }
-d_hunan_china = {
+d_hunan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 81 191 70 }
 	colored_emblem = {
@@ -55820,7 +55820,7 @@ d_hunan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_huainan_china = {
+d_huainan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 30 110 180 }
 	colored_emblem = {
@@ -55829,7 +55829,7 @@ d_huainan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_huaixi_china = {
+d_huaixi = {
 	pattern = "pattern_solid.dds"
 	color1 = { 35 168 52 }
 	colored_emblem = {
@@ -55838,7 +55838,7 @@ d_huaixi_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-c_suzhou = {
+c_suzhou_mbp = {
 	pattern = "pattern_solid.dds"
 	color1 = { 188 200 66 }
 	colored_emblem = {
@@ -55847,7 +55847,7 @@ c_suzhou = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }			
 	}		
 }
-d_xuanshe_china = {
+d_xuanshe = {
 	pattern = "pattern_solid.dds"
 	color1 = { 201 120 65 }
 	colored_emblem = {
@@ -55857,7 +55857,7 @@ d_xuanshe_china = {
 		instance = { scale = { 1.8 1.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_zhenhai_china = {
+d_jiangdong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 101 120 65 }
 	colored_emblem = {
@@ -55867,7 +55867,7 @@ d_zhenhai_china = {
 		instance = { scale = { 0.7 0.7 } position = { 0.5 0.5 }  }	
 	}		
 }
-d_jiangxi_china = {
+d_jiangxi = {
 	pattern = "pattern_solid.dds"
 	color1 = { 197 66 201 }
 	colored_emblem = {
@@ -55885,7 +55885,7 @@ d_zhexi = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_zhedong_china = {
+d_zhedong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 140 179 50 }
 	colored_emblem = {
@@ -55904,7 +55904,7 @@ e_min = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-k_min = {
+k_fujian = {
 	pattern = "pattern_solid.dds"
 	color1 = { 181 103 47 }
 	colored_emblem = {
@@ -55914,7 +55914,7 @@ k_min = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_fujian_china = {
+d_weiwu = {
 	pattern = "pattern_solid.dds"
 	color1 = { 181 103 47 }
 	colored_emblem = {
@@ -55924,17 +55924,17 @@ d_fujian_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_qingyuan = {
+d_pinghai = {
 	pattern = "pattern_solid.dds"
 	color1 = { 201 85 47 }
 	colored_emblem = {
-		texture = "d_qingyuan.dds"
+		texture = "d_pinghai.dds"
 		color1 = "black"
 		color2 = { 181 103 47 }
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_qianzhong_china = {
+d_qianzhong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 26 125 31 }
 	colored_emblem = {
@@ -55962,7 +55962,7 @@ d_bozhou_qian_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_wuxi_china = {
+d_wuxi = {
 	pattern = "pattern_solid.dds"
 	color1 = { 219 40 35 }
 	colored_emblem = {
@@ -55972,7 +55972,7 @@ d_wuxi_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_lingnan_china = {
+d_lingnan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 215 200 47 }
 	colored_emblem = {
@@ -55981,7 +55981,7 @@ d_lingnan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_chaoshan_china = {
+d_huixun = {
 	pattern = "pattern_solid.dds"
 	color1 = { 44 160 158 }
 	colored_emblem = {
@@ -55990,7 +55990,7 @@ d_chaoshan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_qiongya_china = {
+d_qiongguan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 31 210 219 }
 	colored_emblem = {
@@ -55999,7 +55999,7 @@ d_qiongya_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }
 	}		
 }
-d_rongguan_china = {
+d_rongguan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 55 215 100 }
 	colored_emblem = {
@@ -56008,7 +56008,8 @@ d_rongguan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_guiguan_china = {
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: d_guiguan_china has second mapping to d_jingjiang; manual review needed.
+d_guiguan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 174 158 92 }
 	colored_emblem = {
@@ -56017,7 +56018,7 @@ d_guiguan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_yongguan_china = {
+d_yongguan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 65 195 165 }
 	colored_emblem = {
@@ -56109,7 +56110,7 @@ d_yihai_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_luling_china = {
+d_zhaoxin = {
 	pattern = "pattern_solid.dds"
 	color1 = { 114 112 90 }
 	colored_emblem = {
@@ -56136,7 +56137,7 @@ d_kumul = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_chengde_china = {
+d_chengde = {
 	pattern = "pattern_solid.dds"
 	color1 = { 93 111 103 }
 	colored_emblem = {
@@ -56185,7 +56186,7 @@ k_zhao_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
 	}	
 }
-k_yan_china = {
+k_youji = {
 	pattern = "pattern_solid.dds"
 	color1 = { 12 62 88 }
 	colored_emblem = {
@@ -56225,7 +56226,7 @@ e_wei3 = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
 	}	
 }
-k_yinshan_china = {
+k_daibei = {
 	pattern = "pattern_solid.dds"
 	color1 = { 58 170 166 }
 	colored_emblem = {
@@ -56235,7 +56236,7 @@ k_yinshan_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}		
 }
-k_jin_china = {
+k_hedong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 200 200 200 }
 	colored_emblem = {
@@ -56265,7 +56266,7 @@ k_longxi_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }			
 	}		
 }
-k_qin_china = {
+k_guannei = {
 	pattern = "pattern_solid.dds"
 	color1 = { 48 48 48 }
 	colored_emblem = {
@@ -56275,7 +56276,7 @@ k_qin_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }		
 	}	
 }
-k_shu_china = {
+k_xichuan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 104 109 50 }
 	colored_emblem = {
@@ -56295,7 +56296,7 @@ e_shu = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}	
 }
-k_zhou_china = {
+k_henan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 218 234 33 }
 	colored_emblem = {
@@ -56305,7 +56306,7 @@ k_zhou_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}	
 }
-k_qi_china = {
+k_qingxu = {
 	pattern = "pattern_solid.dds"
 	color1 = { 132 159 117 }
 	colored_emblem = {
@@ -56325,7 +56326,7 @@ k_puppet_qi  = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}	
 }
-k_chu_china = {
+k_hunan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 32 116 126 }
 	colored_emblem = {
@@ -56335,7 +56336,7 @@ k_chu_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}
 }
-k_wu_china = {
+k_huainan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 73 108 145 }
 	colored_emblem = {
@@ -56355,7 +56356,7 @@ e_wu = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}	
 }
-k_yue_china = {
+k_liangzhe = {
 	pattern = "pattern_solid.dds"
 	color1 = { 109 82 110 }
 	colored_emblem = {
@@ -56375,7 +56376,7 @@ k_wuyue = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.5 }  }
 	}		
 }
-k_qianzhong_china = {
+k_qianzhong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 209 144 4 }
 	colored_emblem = {
@@ -56413,7 +56414,7 @@ k_dali = {
 	}		
 }
 
-c_guilin_china = {
+c_guizhou_1 = {
 	pattern = "pattern_solid.dds"
 	color1 = "green"
 	colored_emblem = {
@@ -56434,7 +56435,7 @@ k_yamato = { #Yamato
 	}
 }
 
-k_khitan_china = {
+k_khitan = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 	color2 = "yellow"
@@ -56593,6 +56594,7 @@ d_jianxiong = {
 		instance = { position = { 0.5 0.45 } scale = { 0.95 0.95 }  }				
 	}	
 }
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: d_zhaowu has second mapping to d_xingfeng; manual review needed.
 d_zhaowu = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
@@ -56658,7 +56660,7 @@ e_shang = {
 	}		
 }
 
-e_jurchen_china = { # Wanyan
+e_andong = { # Wanyan
 	pattern = "pattern_solid.dds"
 	color1 = "blue_light"	
 	color2 = "red"		
@@ -56682,7 +56684,7 @@ k_luzhen = { # Wanyan
 	}		
 }
 
-c_jilizhou_china = {
+c_LIAO_zhenzhou = {
 	pattern="pattern_solid.dds"
 	color1=white
 	color2=white
@@ -57506,7 +57508,7 @@ c_karat_china = { # Borjigin 867 1966
 	}		
 }
 
-k_nanyue_china = {
+k_lingnan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 215 200 47 }
 	colored_emblem = {
@@ -57566,7 +57568,7 @@ d_jiazhou_china = {
 	}		
 }
 
-d_jiangzhou_china = {
+d_dingjiang = {
 	pattern = "pattern_solid.dds"
 	color1 = { 155 120 65 }
 	colored_emblem = {
@@ -57576,7 +57578,7 @@ d_jiangzhou_china = {
 	}		
 }
 
-d_gaolei_china = {
+d_gaoliang = {
 	pattern = "pattern_solid.dds"
 	color1 = { 55 175 75 }
 	colored_emblem = {
@@ -57616,7 +57618,7 @@ d_shaoguan_china = {
 	}		
 }
 
-d_zizhou_china = {
+d_lilang = {
 	pattern = "pattern_solid.dds"
 	color1 = { 47 200 47 }
 	colored_emblem = {
@@ -57676,11 +57678,11 @@ d_songzhou_china = {
 	}		
 }
 
-k_guangnanxi = {
+k_lingxi = {
 	pattern = "pattern_solid.dds"
 	color1 = { 174 158 92 }
 	colored_emblem = {
-		texture = "k_guangnanxi.dds"
+		texture = "k_lingxi.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -57716,7 +57718,7 @@ k_liangzhe = {
 	}		
 }
 
-k_jiangnandong_china = {
+k_jiangdong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 201 120 65 }
 	colored_emblem = {
@@ -57766,17 +57768,17 @@ k_kuizhou = {
 	}		
 }
 
-k_zizhou = {
+k_dongchuan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 47 200 47 }
 	colored_emblem = {
-		texture = "k_zizhou.dds"
+		texture = "k_dongchuan.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
 
-k_chengdufu = {
+k_xichuan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 56 200 85 }
 	colored_emblem = {
@@ -57786,11 +57788,11 @@ k_chengdufu = {
 	}		
 }
 
-k_lizhou = {
+k_xingyuan = {
 	pattern = "pattern_solid.dds"
 	color1 = "yellow"
 	colored_emblem = {
-		texture = "k_lizhou.dds"
+		texture = "k_xingyuan.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -57806,7 +57808,7 @@ k_qinfeng = {
 	}		
 }
 
-k_yongxingjun_china = {
+k_guannei = {
 	pattern = "pattern_solid.dds"
 	color1 = { 88 58 40 }
 	colored_emblem = {
@@ -57836,11 +57838,11 @@ k_hebeixi = {
 	}		
 }
 
-k_hebeidong = {
+k_hebei = {
 	pattern = "pattern_solid.dds"
 	color1 = { 63 72 150 }
 	colored_emblem = {
-		texture = "k_hebeidong.dds"
+		texture = "k_hebei.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -57866,11 +57868,11 @@ k_jingdongxi = {
 	}		
 }
 
-k_huainandong = {
+k_huainan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 30 100 200 }
 	colored_emblem = {
-		texture = "k_huainandong.dds"
+		texture = "k_huainan.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -57886,11 +57888,11 @@ k_huainanxi = {
 	}		
 }
 
-k_jingxinan = {
+k_shannan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 28 174 177 }
 	colored_emblem = {
-		texture = "k_jingxinan.dds"
+		texture = "k_shannan.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -57946,10 +57948,12 @@ k_yan_liao = {
 	}		
 }
 
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: k_liao_zhongjing has second mapping to k_raole; manual review needed.
 k_liao_zhongjing = {
 	pattern = "pattern_solid.dds"
 	color1 = { 50 150 200 }
 	colored_emblem = {
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: k_liao_zhongjing has second mapping to k_raole; manual review needed.
 		texture = "k_liao_zhongjing.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
@@ -58015,11 +58019,11 @@ k_fuyan = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-k_jingzhaofu = {
+k_guannei = {
 	pattern = "pattern_solid.dds"
 	color1 = { 180 140 20 }
 	colored_emblem = {
-		texture = "k_jingzhaofu.dds"
+		texture = "k_guannei.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -58042,11 +58046,11 @@ k_shandong_west = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-k_shandong_east = {
+k_qingxu = {
 	pattern = "pattern_solid.dds"
 	color1 = { 161 209 112 }
 	colored_emblem = {
-		texture = "k_shandong_east.dds"
+		texture = "k_qingxu.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -58060,11 +58064,11 @@ k_hebei_west = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-k_hebei_east = {
+k_hebei = {
 	pattern = "pattern_solid.dds"
 	color1 = { 254 247 175 }
 	colored_emblem = {
-		texture = "k_hebei_east.dds"
+		texture = "k_hebei.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -58144,11 +58148,11 @@ d_fufang_yanzhou_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_hezhong1_china = {
+d_shanguo = {
 	pattern = "pattern_solid.dds"
 	color1 = { 90 120 150 }
 	colored_emblem = {
-		texture = "d_hezhong1_china.dds"
+		texture = "d_shanguo.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -58189,20 +58193,20 @@ d_bode_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_jizhou_china = {
+d_yideng = {
 	pattern = "pattern_solid.dds"
 	color1 = { 140 130 80 }
 	colored_emblem = {
-		texture = "d_jizhou_china.dds"
+		texture = "d_yideng.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_xuandezhou_china = {
+d_sanggan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 100 90 140 }
 	colored_emblem = {
-		texture = "d_xuandezhou_china.dds"
+		texture = "d_sanggan.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -58234,20 +58238,20 @@ k_shangjing = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_xianping_china = {
+d_BAL_buyeo = {
 	pattern = "pattern_solid.dds"
 	color1 = { 90 70 110 }
 	colored_emblem = {
-		texture = "d_xianping_china.dds"
+		texture = "d_BAL_buyeo.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_gewu_china = {
+d_BAL_amnok_jangryeong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 110 80 70 }
 	colored_emblem = {
-		texture = "d_gewu_china.dds"
+		texture = "d_BAL_amnok_jangryeong.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -58261,38 +58265,38 @@ d_malgal_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_changchun_china = {
+d_LIAO_shangjing = {
 	pattern = "pattern_solid.dds"
 	color1 = { 60 80 100 }
 	colored_emblem = {
-		texture = "d_changchun_china.dds"
+		texture = "d_LIAO_shangjing.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_tohchen_china = {
+d_LIAO_zhongjing = {
 	pattern = "pattern_solid.dds"
 	color1 = { 100 60 80 }
 	colored_emblem = {
-		texture = "d_tohchen_china.dds"
+		texture = "d_LIAO_zhongjing.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_xarmoron_china = {
+d_LIAO_linhuang = {
 	pattern = "pattern_solid.dds"
 	color1 = { 130 110 60 }
 	colored_emblem = {
-		texture = "d_xarmoron_china.dds"
+		texture = "d_LIAO_linhuang.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
-d_hiyaxu_china = {
+d_yanyun_yuyi = {
 	pattern = "pattern_solid.dds"
 	color1 = { 70 60 90 }
 	colored_emblem = {
-		texture = "d_hiyaxu_china.dds"
+		texture = "d_yanyun_yuyi.dds"
 		color1 = "black"
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
@@ -58311,11 +58315,11 @@ d_zhenwu_china = {
 
 
 
-k_guangxi = {
+k_lingxi = {
     pattern = "pattern_solid.dds"
     color1 = { 21 147 46 }
     colored_emblem = {
-        texture = "k_guangxi.dds"
+        texture = "k_lingxi.dds"
         color1 = "black"
         instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }        
     }        
@@ -58374,11 +58378,11 @@ k_sichuan = {
         instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }        
     }        
 }
-k_shaanxi = {
+k_guannei = {
     pattern = "pattern_solid.dds"
     color1 = { 29 118 50 }
     colored_emblem = {
-        texture = "k_shaanxi.dds"
+        texture = "k_guannei.dds"
         color1 = "black"
         instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }        
     }        
@@ -58528,7 +58532,7 @@ k_jawa={
 	}
 }
 
-c_meizhou_xichuan_china={
+c_meizhou={
 	pattern="pattern__solid_designer.dds"
 	color1=green_light
 	color2=yellow

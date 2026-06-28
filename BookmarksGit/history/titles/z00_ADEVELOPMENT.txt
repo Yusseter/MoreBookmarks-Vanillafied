@@ -1672,15 +1672,16 @@
 	1310.1.1 = { change_development_level = 12 }
 	}
 
-	k_guiyi = {
-	769.1.1 = { change_development_level = 7 }
-	1000.1.1 = { change_development_level = 10 }
-	1124.1.1 = { change_development_level = 12 }
-	1166.1.1 = { change_development_level = 16 }
-	1204.1.1 = { change_development_level = 21 }
-	1241.1.1 = { change_development_level = 25 }
-	1310.1.1 = { change_development_level = 31 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_guiyi = {
+#	769.1.1 = { change_development_level = 7 }
+#	1000.1.1 = { change_development_level = 10 }
+#	1124.1.1 = { change_development_level = 12 }
+#	1166.1.1 = { change_development_level = 16 }
+#	1204.1.1 = { change_development_level = 21 }
+#	1241.1.1 = { change_development_level = 25 }
+#	1310.1.1 = { change_development_level = 31 }
+#	}
 
 	k_dzungaria = {
 	769.1.1 = { change_development_level = 0 }
@@ -2026,7 +2027,17 @@
 	1241.1.1 = { change_development_level = 15 } #Ravaged by the Mongols
 	1310.1.1 = { change_development_level = 18 }
 	}
-
+	
+	k_guishi = {
+	769.1.1 = { change_development_level = 2 }
+	1000.1.1 = { change_development_level = 4 }
+	1124.1.1 = { change_development_level = 7 }
+	1166.1.1 = { change_development_level = 11 }
+	1204.1.1 = { change_development_level = 16 }
+	1241.1.1 = { change_development_level = 15 } #Ravaged by the Mongols
+	1310.1.1 = { change_development_level = 18 }
+	}
+	
 	k_gobi = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 0 }
@@ -2036,8 +2047,19 @@
 	1241.1.1 = { change_development_level = 8 }
 	1310.1.1 = { change_development_level = 12 }
 	}
+	
+	k_dornogovi = {
+	769.1.1 = { change_development_level = 0 }
+	1000.1.1 = { change_development_level = 0 }
+	1124.1.1 = { change_development_level = 1 }
+	1166.1.1 = { change_development_level = 2 }
+	1204.1.1 = { change_development_level = 6 }
+	1241.1.1 = { change_development_level = 8 }
+	1310.1.1 = { change_development_level = 12 }
+	}
 
-	k_yinshan_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_yinshan_china -> k_daibei; same-run duplicate target in history_titles; manual merge needed.
+	k_daibei = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 0 }
 	1124.1.1 = { change_development_level = 1 }
@@ -2066,6 +2088,28 @@
 	1241.1.1 = { change_development_level = 3 }
 	1310.1.1 = { change_development_level = 4 }
 	}
+	
+### Yusseter: COMMENTED FOR TESTING
+#	k_ergune = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 0 }
+#	1166.1.1 = { change_development_level = 1 }
+#	1204.1.1 = { change_development_level = 2 }
+#	1241.1.1 = { change_development_level = 3 }
+#	1310.1.1 = { change_development_level = 4 }
+#	}
+	
+### Yusseter: COMMENTED FOR TESTING
+#	k_warka = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 0 }
+#	1166.1.1 = { change_development_level = 1 }
+#	1204.1.1 = { change_development_level = 2 }
+#	1241.1.1 = { change_development_level = 3 }
+#	1310.1.1 = { change_development_level = 4 }
+#	}
 
 	#k_tunguse = {
 	#769.1.1 = { change_development_level = 0 }
@@ -2077,7 +2121,7 @@
 	#1310.1.1 = { change_development_level = 4 }
 	#}
 
-	k_ezo = {
+	k_aynumosir = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 0 }
 	1124.1.1 = { change_development_level = 0 }
@@ -2088,7 +2132,8 @@
 	}
 
 	#Little higher than other steppe
-	k_khitan_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_khitan_china -> k_khitan; same-run duplicate target in history_titles; manual merge needed.
+	k_khitan = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 4 }
 	1124.1.1 = { change_development_level = 6 }
@@ -2098,7 +2143,29 @@
 	1310.1.1 = { change_development_level = 14 }
 	}
 
-	k_tagaung = {
+### Yusseter: COMMENTED FOR TESTING
+#	k_tagaung = {
+#	769.1.1 = {	change_development_level = 1 }
+#	1000.1.1 = { change_development_level = 3 }
+#	1124.1.1 = { change_development_level = 4 }
+#	1166.1.1 = { change_development_level = 6 }
+#	1204.1.1 = { change_development_level = 10 }
+#	1241.1.1 = { change_development_level = 14 }
+#	1310.1.1 = { change_development_level = 20 }
+#	}
+
+### Yusseter: COMMENTED FOR TESTING
+#	k_shan = {
+#	769.1.1 = {	change_development_level = 1 }
+#	1000.1.1 = { change_development_level = 3 }
+#	1124.1.1 = { change_development_level = 4 }
+#	1166.1.1 = { change_development_level = 6 }
+#	1204.1.1 = { change_development_level = 10 }
+#	1241.1.1 = { change_development_level = 14 }
+#	1310.1.1 = { change_development_level = 20 }
+#	}
+	
+	k_mongnai = {
 	769.1.1 = {	change_development_level = 1 }
 	1000.1.1 = { change_development_level = 3 }
 	1124.1.1 = { change_development_level = 4 }
@@ -2107,18 +2174,20 @@
 	1241.1.1 = { change_development_level = 14 }
 	1310.1.1 = { change_development_level = 20 }
 	}
+	
+### Yusseter: COMMENTED FOR TESTING
+#	k_haripunjaya = {
+#	769.1.1 = { change_development_level = 2 }
+#	1000.1.1 = { change_development_level = 5 }
+#	1124.1.1 = { change_development_level = 7 }
+#	1166.1.1 = { change_development_level = 11 }
+#	1204.1.1 = { change_development_level = 16 }
+#	1241.1.1 = { change_development_level = 20 }
+#	1310.1.1 = { change_development_level = 26 }
+#	}
 
-	k_shan = {
-	769.1.1 = {	change_development_level = 1 }
-	1000.1.1 = { change_development_level = 3 }
-	1124.1.1 = { change_development_level = 4 }
-	1166.1.1 = { change_development_level = 6 }
-	1204.1.1 = { change_development_level = 10 }
-	1241.1.1 = { change_development_level = 14 }
-	1310.1.1 = { change_development_level = 20 }
-	}
-
-	k_haripunjaya = {
+# EAST_TITLE_REWRITE_COLLISION: Yusseter: k_isana to k_chenla
+	k_chenla = {
 	769.1.1 = { change_development_level = 2 }
 	1000.1.1 = { change_development_level = 5 }
 	1124.1.1 = { change_development_level = 7 }
@@ -2138,17 +2207,51 @@
 	1310.1.1 = { change_development_level = 26 }
 	}
 
-	k_loeu = {
-	769.1.1 = { change_development_level = 2 }
-	1000.1.1 = { change_development_level = 2 }
-	1124.1.1 = { change_development_level = 4 }
-	1166.1.1 = { change_development_level = 5 }
-	1204.1.1 = { change_development_level = 8 }
-	1241.1.1 = { change_development_level = 10 }
-	1310.1.1 = { change_development_level = 12 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_loeu = {
+#	769.1.1 = { change_development_level = 2 }
+#	1000.1.1 = { change_development_level = 2 }
+#	1124.1.1 = { change_development_level = 4 }
+#	1166.1.1 = { change_development_level = 5 }
+#	1204.1.1 = { change_development_level = 8 }
+#	1241.1.1 = { change_development_level = 10 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
 
-	k_laos = {
+### Yusseter: COMMENTED FOR TESTING
+#	k_laos = {
+#	769.1.1 = { change_development_level = 2 }
+#	1000.1.1 = { change_development_level = 5 }
+#	1124.1.1 = { change_development_level = 7 }
+#	1166.1.1 = { change_development_level = 10 }
+#	1204.1.1 = { change_development_level = 14 }
+#	1241.1.1 = { change_development_level = 16 }
+#	1310.1.1 = { change_development_level = 20 }
+#	}
+	
+### Yusseter: COMMENTED FOR TESTING
+#	k_weichu = {
+#	769.1.1 = { change_development_level = 2 }
+#	1000.1.1 = { change_development_level = 5 }
+#	1124.1.1 = { change_development_level = 7 }
+#	1166.1.1 = { change_development_level = 10 }
+#	1204.1.1 = { change_development_level = 14 }
+#	1241.1.1 = { change_development_level = 16 }
+#	1310.1.1 = { change_development_level = 20 }
+#	}
+	
+### Yusseter: COMMENTED FOR TESTING
+#	k_tay_bac = {
+#	769.1.1 = { change_development_level = 2 }
+#	1000.1.1 = { change_development_level = 5 }
+#	1124.1.1 = { change_development_level = 7 }
+#	1166.1.1 = { change_development_level = 10 }
+#	1204.1.1 = { change_development_level = 14 }
+#	1241.1.1 = { change_development_level = 16 }
+#	1310.1.1 = { change_development_level = 20 }
+#	}
+	
+	k_chiang_hung = {
 	769.1.1 = { change_development_level = 2 }
 	1000.1.1 = { change_development_level = 5 }
 	1124.1.1 = { change_development_level = 7 }
@@ -2168,7 +2271,7 @@
 	1310.1.1 = { change_development_level = 30 }
 	}
 
-	k_thaton = {
+	d_ramannadesa = {
 	769.1.1 = { change_development_level = 6 }
 	1000.1.1 = { change_development_level = 9 }
 	1124.1.1 = { change_development_level = 11 }
@@ -2178,7 +2281,7 @@
 	1310.1.1 = { change_development_level = 30 }
 	}
 
-	k_lavapura = {
+	k_dvaravati = {
 	769.1.1 = { change_development_level = 6 }
 	1000.1.1 = { change_development_level = 9 }
 	1124.1.1 = { change_development_level = 11 }
@@ -2188,7 +2291,9 @@
 	1310.1.1 = { change_development_level = 30 }
 	}
 
-	k_chenla = {
+# EAST_TITLE_REWRITE_COLLISION_TARGET: k_chenla receives k_isana; target already exists in history_titles; manual merge needed.
+# EAST_TITLE_REWRITE_COLLISION: direct k_chenla -> k_funan; same-run duplicate target in history_titles; manual merge needed.
+	k_funan = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 1 }
 	1124.1.1 = { change_development_level = 4 }
@@ -2218,7 +2323,8 @@
 	1310.1.1 = { change_development_level = 31 }
 	}
 
-	k_langkasuka = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_langkasuka -> k_hujung_medini; same-run duplicate target in history_titles; manual merge needed.
+	k_hujung_medini = {
 	769.1.1 = { change_development_level = 5 }
 	1000.1.1 = { change_development_level = 8 }
 	1124.1.1 = { change_development_level = 10 }
@@ -2228,15 +2334,16 @@
 	1310.1.1 = { change_development_level = 29 }
 	}
 
-	k_pahang = {
-	769.1.1 = { change_development_level = 5 }
-	1000.1.1 = { change_development_level = 8 }
-	1124.1.1 = { change_development_level = 10 }
-	1166.1.1 = { change_development_level = 14 }
-	1204.1.1 = { change_development_level = 19 }
-	1241.1.1 = { change_development_level = 23 }
-	1310.1.1 = { change_development_level = 29 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_pahang = {
+#	769.1.1 = { change_development_level = 5 }
+#	1000.1.1 = { change_development_level = 8 }
+#	1124.1.1 = { change_development_level = 10 }
+#	1166.1.1 = { change_development_level = 14 }
+#	1204.1.1 = { change_development_level = 19 }
+#	1241.1.1 = { change_development_level = 23 }
+#	1310.1.1 = { change_development_level = 29 }
+#	}
 
 	k_dali = {
 	769.1.1 = { change_development_level = 5 }
@@ -2247,8 +2354,19 @@
 	1241.1.1 = { change_development_level = 15 }
 	1310.1.1 = { change_development_level = 20 }
 	}
+	
+### Yusseter: COMMENTED FOR TESTING
+#	k_dian = {
+#	769.1.1 = { change_development_level = 5 }
+#	1000.1.1 = { change_development_level = 7 }
+#	1124.1.1 = { change_development_level = 10 }
+#	1166.1.1 = { change_development_level = 11 }
+#	1204.1.1 = { change_development_level = 13 }
+#	1241.1.1 = { change_development_level = 15 }
+#	1310.1.1 = { change_development_level = 20 }
+#	}
 
-	k_samudera = {
+	d_SUM_aceh = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 1 }
 	1124.1.1 = { change_development_level = 4 }
@@ -2258,27 +2376,30 @@
 	1310.1.1 = { change_development_level = 16 }
 	}
 
-	k_aru = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 1 }
-	1124.1.1 = { change_development_level = 4 }
-	1166.1.1 = { change_development_level = 8 }
-	1204.1.1 = { change_development_level = 12 }
-	1241.1.1 = { change_development_level = 14 }
-	1310.1.1 = { change_development_level = 16 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_aru = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 1 }
+#	1124.1.1 = { change_development_level = 4 }
+#	1166.1.1 = { change_development_level = 8 }
+#	1204.1.1 = { change_development_level = 12 }
+#	1241.1.1 = { change_development_level = 14 }
+#	1310.1.1 = { change_development_level = 16 }
+#	}
 
-	k_melayu = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 1 }
-	1124.1.1 = { change_development_level = 4 }
-	1166.1.1 = { change_development_level = 8 }
-	1204.1.1 = { change_development_level = 12 }
-	1241.1.1 = { change_development_level = 14 }
-	1310.1.1 = { change_development_level = 16 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_melayu = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 1 }
+#	1124.1.1 = { change_development_level = 4 }
+#	1166.1.1 = { change_development_level = 8 }
+#	1204.1.1 = { change_development_level = 12 }
+#	1241.1.1 = { change_development_level = 14 }
+#	1310.1.1 = { change_development_level = 16 }
+#	}
 
-	k_palembang = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_palembang -> k_malayadvipa; same-run duplicate target in history_titles; manual merge needed.
+	k_malayadvipa = {
 	769.1.1 = { change_development_level = 6 }
 	1000.1.1 = { change_development_level = 9 }
 	1124.1.1 = { change_development_level = 11 }
@@ -2288,7 +2409,18 @@
 	1310.1.1 = { change_development_level = 30 }
 	}
 
-	k_minangkabau = {
+### Yusseter: COMMENTED FOR TESTING
+#	k_minangkabau = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 3 }
+#	1166.1.1 = { change_development_level = 6 }
+#	1204.1.1 = { change_development_level = 9 }
+#	1241.1.1 = { change_development_level = 12 }
+#	1310.1.1 = { change_development_level = 15 }
+#	}
+
+	d_IDO_bali = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 0 }
 	1124.1.1 = { change_development_level = 3 }
@@ -2298,45 +2430,38 @@
 	1310.1.1 = { change_development_level = 15 }
 	}
 
-	k_bali_sea = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 3 }
-	1166.1.1 = { change_development_level = 6 }
-	1204.1.1 = { change_development_level = 9 }
-	1241.1.1 = { change_development_level = 12 }
-	1310.1.1 = { change_development_level = 15 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_timor = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 3 }
+#	1166.1.1 = { change_development_level = 6 }
+#	1204.1.1 = { change_development_level = 9 }
+#	1241.1.1 = { change_development_level = 12 }
+#	1310.1.1 = { change_development_level = 15 }
+#	}
 
-	k_timor = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 3 }
-	1166.1.1 = { change_development_level = 6 }
-	1204.1.1 = { change_development_level = 9 }
-	1241.1.1 = { change_development_level = 12 }
-	1310.1.1 = { change_development_level = 15 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_janggala = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 1 }
+#	1124.1.1 = { change_development_level = 4 }
+#	1166.1.1 = { change_development_level = 8 }
+#	1204.1.1 = { change_development_level = 12 }
+#	1241.1.1 = { change_development_level = 14 }
+#	1310.1.1 = { change_development_level = 16 }
+#	}
 
-	k_janggala = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 1 }
-	1124.1.1 = { change_development_level = 4 }
-	1166.1.1 = { change_development_level = 8 }
-	1204.1.1 = { change_development_level = 12 }
-	1241.1.1 = { change_development_level = 14 }
-	1310.1.1 = { change_development_level = 16 }
-	}
-
-	k_panjalu = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 1 }
-	1124.1.1 = { change_development_level = 4 }
-	1166.1.1 = { change_development_level = 8 }
-	1204.1.1 = { change_development_level = 12 }
-	1241.1.1 = { change_development_level = 14 }
-	1310.1.1 = { change_development_level = 16 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_panjalu = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 1 }
+#	1124.1.1 = { change_development_level = 4 }
+#	1166.1.1 = { change_development_level = 8 }
+#	1204.1.1 = { change_development_level = 12 }
+#	1241.1.1 = { change_development_level = 14 }
+#	1310.1.1 = { change_development_level = 16 }
+#	}
 
 	k_sunda = {
 	769.1.1 = { change_development_level = 0 }
@@ -2348,7 +2473,7 @@
 	1310.1.1 = { change_development_level = 16 }
 	}
 
-	k_galuh = {
+	c_JAV_galuh = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 1 }
 	1124.1.1 = { change_development_level = 4 }
@@ -2358,17 +2483,62 @@
 	1310.1.1 = { change_development_level = 16 }
 	}
 
-	k_burune = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_burune = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
 
-	k_tarakan = {
+### Yusseter: COMMENTED FOR TESTING
+#	k_tarakan = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
+	
+### Yusseter: COMMENTED FOR TESTING
+#	k_sulu = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
+	
+### Yusseter: COMMENTED FOR TESTING
+#	k_maguinadao = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
+	
+### Yusseter: COMMENTED FOR TESTING
+#	k_butuan = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
+	
+	k_kabisay-an = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 0 }
 	1124.1.1 = { change_development_level = 1 }
@@ -2378,7 +2548,7 @@
 	1310.1.1 = { change_development_level = 12 }
 	}
 	
-	k_sulu = {
+	k_lusung = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 0 }
 	1124.1.1 = { change_development_level = 1 }
@@ -2388,65 +2558,27 @@
 	1310.1.1 = { change_development_level = 12 }
 	}
 	
-	k_maguinadao = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_amianan = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
 	
-	k_butuan = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
-	
-	k_bisaya = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
-	
-	k_luzon = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
-	
-	k_amianan = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
-	
-	k_sulu = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_sulu = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
 	
 	k_sulawesi = {
 	769.1.1 = { change_development_level = 0 }
@@ -2458,35 +2590,38 @@
 	1310.1.1 = { change_development_level = 12 }
 	}
 	
-	k_south_sulawesi = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_south_sulawesi = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
 	
-	k_bungku = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_bungku = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
 	
-	k_banda = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_banda = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
 	
 	k_maluku = {
 	769.1.1 = { change_development_level = 0 }
@@ -2498,19 +2633,21 @@
 	1310.1.1 = { change_development_level = 12 }
 	}
 
-	k_banjar = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_banjar = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
 
 #China
 
-	k_nanyue_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_nanyue_china -> k_lingnan; same-run duplicate target in history_titles; manual merge needed.
+	k_lingnan = {
 	769.1.1 = { change_development_level = 5 }
 	1000.1.1 = { change_development_level = 7 }
 	1124.1.1 = { change_development_level = 10 }
@@ -2520,7 +2657,8 @@
 	1310.1.1 = { change_development_level = 20 }
 	}
 
-	k_shu_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_shu_china -> k_xichuan; same-run duplicate target in history_titles; manual merge needed.
+	k_xichuan = {
 	769.1.1 = { change_development_level = 5 }
 	1000.1.1 = { change_development_level = 7 }
 	1124.1.1 = { change_development_level = 10 }
@@ -2530,7 +2668,19 @@
 	1310.1.1 = { change_development_level = 18 }
 	}
 
-	k_luodian	= {
+### Yusseter: COMMENTED FOR TESTING
+#	k_luodian	= {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 1 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 6 }
+#	1241.1.1 = { change_development_level = 8 }
+#	1310.1.1 = { change_development_level = 12 }
+#	}
+
+# EAST_TITLE_REWRITE_COLLISION: direct k_qianzhong_china -> k_qianzhong; same-run duplicate target in history_titles; manual merge needed.
+	k_qianzhong = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 0 }
 	1124.1.1 = { change_development_level = 1 }
@@ -2540,17 +2690,8 @@
 	1310.1.1 = { change_development_level = 12 }
 	}
 
-	k_qianzhong_china = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 1 }
-	1166.1.1 = { change_development_level = 2 }
-	1204.1.1 = { change_development_level = 6 }
-	1241.1.1 = { change_development_level = 8 }
-	1310.1.1 = { change_development_level = 12 }
-	}
-
-	k_yue_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_yue_china -> k_liangzhe; target already exists in history_titles; manual merge needed.
+	k_liangzhe = {
 	769.1.1 = {	change_development_level = 8 }
 	1000.1.1 = { change_development_level = 12 }
 	1124.1.1 = { change_development_level = 14 }
@@ -2560,7 +2701,8 @@
 	1310.1.1 = { change_development_level = 33 }
 	}
 
-	k_wu_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_wu_china -> k_huainan; same-run duplicate target in history_titles; manual merge needed.
+	k_huainan = {
 	769.1.1 = {	change_development_level = 8 }
 	1000.1.1 = { change_development_level = 12 }
 	1124.1.1 = { change_development_level = 14 }
@@ -2570,7 +2712,8 @@
 	1310.1.1 = { change_development_level = 33 }
 	}
 
-	k_chu_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_chu_china -> k_hunan; same-run duplicate target in history_titles; manual merge needed.
+	k_hunan = {
 	769.1.1 = {	change_development_level = 8 }
 	1000.1.1 = { change_development_level = 12 }
 	1124.1.1 = { change_development_level = 14 }
@@ -2580,7 +2723,8 @@
 	1310.1.1 = { change_development_level = 33 }
 	}
 
-	k_han_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_han_china -> k_xingyuan; same-run duplicate target in history_titles; manual merge needed.
+	k_xingyuan = {
 	769.1.1 = { change_development_level = 13 }
 	1000.1.1 = { change_development_level = 20 }
 	1124.1.1 = { change_development_level = 23 }
@@ -2590,7 +2734,8 @@
 	1310.1.1 = { change_development_level = 42 }
 	}
 
-	k_zhou_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_zhou_china -> k_henan; target already exists in history_titles; manual merge needed.
+	k_henan = {
 	769.1.1 = { change_development_level = 13 }
 	1000.1.1 = { change_development_level = 20 }
 	1124.1.1 = { change_development_level = 23 }
@@ -2600,7 +2745,19 @@
 	1310.1.1 = { change_development_level = 42 }
 	}
 
-	k_liang_china = {
+### Yusseter: COMMENTED FOR TESTING
+#	k_liang_china = {
+#	769.1.1 = { change_development_level = 13 }
+#	1000.1.1 = { change_development_level = 20 }
+#	1124.1.1 = { change_development_level = 23 }
+#	1166.1.1 = { change_development_level = 27 }
+#	1204.1.1 = { change_development_level = 32 }
+#	1241.1.1 = { change_development_level = 36 }
+#	1310.1.1 = { change_development_level = 42 }
+#	}
+
+# EAST_TITLE_REWRITE_COLLISION: direct k_qi_china -> k_qingxu; same-run duplicate target in history_titles; manual merge needed.
+	k_qingxu = {
 	769.1.1 = { change_development_level = 13 }
 	1000.1.1 = { change_development_level = 20 }
 	1124.1.1 = { change_development_level = 23 }
@@ -2610,7 +2767,8 @@
 	1310.1.1 = { change_development_level = 42 }
 	}
 
-	k_qi_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_jin_china -> k_hedong; same-run duplicate target in history_titles; manual merge needed.
+	k_hedong = {
 	769.1.1 = { change_development_level = 13 }
 	1000.1.1 = { change_development_level = 20 }
 	1124.1.1 = { change_development_level = 23 }
@@ -2620,7 +2778,19 @@
 	1310.1.1 = { change_development_level = 42 }
 	}
 
-	k_jin_china = {
+### Yusseter: COMMENTED FOR TESTING
+#	k_zhao_china = {
+#	769.1.1 = { change_development_level = 13 }
+#	1000.1.1 = { change_development_level = 20 }
+#	1124.1.1 = { change_development_level = 23 }
+#	1166.1.1 = { change_development_level = 27 }
+#	1204.1.1 = { change_development_level = 32 }
+#	1241.1.1 = { change_development_level = 36 }
+#	1310.1.1 = { change_development_level = 42 }
+#	}
+
+# EAST_TITLE_REWRITE_COLLISION: direct k_yan_china -> k_youji; same-run duplicate target in history_titles; manual merge needed.
+	k_youji = {
 	769.1.1 = { change_development_level = 13 }
 	1000.1.1 = { change_development_level = 20 }
 	1124.1.1 = { change_development_level = 23 }
@@ -2630,27 +2800,8 @@
 	1310.1.1 = { change_development_level = 42 }
 	}
 
-	k_zhao_china = {
-	769.1.1 = { change_development_level = 13 }
-	1000.1.1 = { change_development_level = 20 }
-	1124.1.1 = { change_development_level = 23 }
-	1166.1.1 = { change_development_level = 27 }
-	1204.1.1 = { change_development_level = 32 }
-	1241.1.1 = { change_development_level = 36 }
-	1310.1.1 = { change_development_level = 42 }
-	}
-
-	k_yan_china = {
-	769.1.1 = { change_development_level = 13 }
-	1000.1.1 = { change_development_level = 20 }
-	1124.1.1 = { change_development_level = 23 }
-	1166.1.1 = { change_development_level = 27 }
-	1204.1.1 = { change_development_level = 32 }
-	1241.1.1 = { change_development_level = 36 }
-	1310.1.1 = { change_development_level = 42 }
-	}
-
-	k_qin_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct k_qin_china -> k_guannei; same-run duplicate target in history_titles; manual merge needed.
+	k_guannei = {
 	769.1.1 = { change_development_level = 10 }
 	1000.1.1 = { change_development_level = 14 }
 	1124.1.1 = { change_development_level = 17 }
@@ -2700,15 +2851,16 @@
 	1310.1.1 = { change_development_level = 38 }
 	}
 
-	k_tamna = {
-	769.1.1 = { change_development_level = 10 }
-	1000.1.1 = { change_development_level = 16 }
-	1124.1.1 = { change_development_level = 19 }
-	1166.1.1 = { change_development_level = 23 }
-	1204.1.1 = { change_development_level = 28 }
-	1241.1.1 = { change_development_level = 32 }
-	1310.1.1 = { change_development_level = 38 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	k_tamna = {
+#	769.1.1 = { change_development_level = 10 }
+#	1000.1.1 = { change_development_level = 16 }
+#	1124.1.1 = { change_development_level = 19 }
+#	1166.1.1 = { change_development_level = 23 }
+#	1204.1.1 = { change_development_level = 28 }
+#	1241.1.1 = { change_development_level = 32 }
+#	1310.1.1 = { change_development_level = 38 }
+#	}
 
 	k_goguryeo = {
 	769.1.1 = { change_development_level = 10 }
@@ -7177,15 +7329,16 @@
 	1310.1.1 = { change_development_level = 30 }
 	}
 	
-	d_ramu = {
-	769.1.1 = { change_development_level = 5 }
-	1000.1.1 = { change_development_level = 8 }
-	1124.1.1 = { change_development_level = 11 }
-	1166.1.1 = { change_development_level = 15 }
-	1204.1.1 = { change_development_level = 20 }
-	1241.1.1 = { change_development_level = 24 }
-	1310.1.1 = { change_development_level = 30 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_ramu = {
+#	769.1.1 = { change_development_level = 5 }
+#	1000.1.1 = { change_development_level = 8 }
+#	1124.1.1 = { change_development_level = 11 }
+#	1166.1.1 = { change_development_level = 15 }
+#	1204.1.1 = { change_development_level = 20 }
+#	1241.1.1 = { change_development_level = 24 }
+#	1310.1.1 = { change_development_level = 30 }
+#	}
 
 	c_thaton = {
 	769.1.1 = { change_development_level = 10 }
@@ -7679,7 +7832,7 @@
 	1310.1.1 = { change_development_level = 30 }
 	}
 
-	d_xia = {
+	c_huaiyuan = {
 	769.1.1 = { change_development_level = 12 }
 	1000.1.1 = { change_development_level = 18 }
 	1124.1.1 = { change_development_level = 21 }
@@ -10335,6 +10488,16 @@
 	1241.1.1 = { change_development_level = 8 }
 	1310.1.1 = { change_development_level = 12 }
 	}
+	
+	k_hentii = {
+	769.1.1 = { change_development_level = 0 }
+	1000.1.1 = { change_development_level = 0 }
+	1124.1.1 = { change_development_level = 1 }
+	1166.1.1 = { change_development_level = 2 }
+	1204.1.1 = { change_development_level = 6 }
+	1241.1.1 = { change_development_level = 8 }
+	1310.1.1 = { change_development_level = 12 }
+	}
 
 	k_altai = {
 	769.1.1 = { change_development_level = 0 }
@@ -10365,6 +10528,17 @@
 	1241.1.1 = { change_development_level = 6 }
 	1310.1.1 = { change_development_level = 8 }
 	}
+	
+### Yusseter: COMMENTED FOR TESTING
+#	k_tyva = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 0 }
+#	1124.1.1 = { change_development_level = 0 }
+#	1166.1.1 = { change_development_level = 2 }
+#	1204.1.1 = { change_development_level = 4 }
+#	1241.1.1 = { change_development_level = 6 }
+#	1310.1.1 = { change_development_level = 8 }
+#	}
 	
 	k_merkit = {
 	769.1.1 = { change_development_level = 0 }
@@ -10460,7 +10634,8 @@
 	1310.1.1 = { change_development_level = 39 }
 	}
 
-	d_aninditapura = {
+# EAST_TITLE_REWRITE_COLLISION: direct d_aninditapura -> d_angkor; same-run duplicate target in history_titles; manual merge needed.
+	d_angkor = {
 	769.1.1 = { change_development_level = 12 }
 	1000.1.1 = { change_development_level = 18 }
 	1124.1.1 = { change_development_level = 20 }
@@ -10480,27 +10655,52 @@
 	1310.1.1 = { change_development_level = 36 }
 	}
 
-	d_janggala = {
-	769.1.1 = { change_development_level = 10 }
-	1000.1.1 = { change_development_level = 15 }
-	1124.1.1 = { change_development_level = 17 }
-	1166.1.1 = { change_development_level = 21 }
-	1204.1.1 = { change_development_level = 26 }
-	1241.1.1 = { change_development_level = 30 }
-	1310.1.1 = { change_development_level = 36 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_janggala = {
+#	769.1.1 = { change_development_level = 10 }
+#	1000.1.1 = { change_development_level = 15 }
+#	1124.1.1 = { change_development_level = 17 }
+#	1166.1.1 = { change_development_level = 21 }
+#	1204.1.1 = { change_development_level = 26 }
+#	1241.1.1 = { change_development_level = 30 }
+#	1310.1.1 = { change_development_level = 36 }
+#	}
 
-	d_panjalu = {
-	769.1.1 = { change_development_level = 10 }
-	1000.1.1 = { change_development_level = 15 }
-	1124.1.1 = { change_development_level = 17 }
-	1166.1.1 = { change_development_level = 21 }
-	1204.1.1 = { change_development_level = 26 }
-	1241.1.1 = { change_development_level = 30 }
-	1310.1.1 = { change_development_level = 36 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_panjalu = {
+#	769.1.1 = { change_development_level = 10 }
+#	1000.1.1 = { change_development_level = 15 }
+#	1124.1.1 = { change_development_level = 17 }
+#	1166.1.1 = { change_development_level = 21 }
+#	1204.1.1 = { change_development_level = 26 }
+#	1241.1.1 = { change_development_level = 30 }
+#	1310.1.1 = { change_development_level = 36 }
+#	}
 
-	d_ban_lung = {
+### Yusseter: COMMENTED FOR TESTING
+#	d_ban_lung = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 2 }
+#	1124.1.1 = { change_development_level = 4 }
+#	1166.1.1 = { change_development_level = 8 }
+#	1204.1.1 = { change_development_level = 13 }
+#	1241.1.1 = { change_development_level = 17 }
+#	1310.1.1 = { change_development_level = 23 }
+#	}
+
+### Yusseter: COMMENTED FOR TESTING
+#	d_dagar = {
+#	769.1.1 = { change_development_level = 0 }
+#	1000.1.1 = { change_development_level = 2 }
+#	1124.1.1 = { change_development_level = 4 }
+#	1166.1.1 = { change_development_level = 8 }
+#	1204.1.1 = { change_development_level = 13 }
+#	1241.1.1 = { change_development_level = 17 }
+#	1310.1.1 = { change_development_level = 23 }
+#	}
+
+# EAST_TITLE_REWRITE_COLLISION: direct d_qiongya_china -> d_qiongguan; same-run duplicate target in history_titles; manual merge needed.
+	d_qiongguan = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 2 }
 	1124.1.1 = { change_development_level = 4 }
@@ -10510,27 +10710,8 @@
 	1310.1.1 = { change_development_level = 23 }
 	}
 
-	d_dagar = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 2 }
-	1124.1.1 = { change_development_level = 4 }
-	1166.1.1 = { change_development_level = 8 }
-	1204.1.1 = { change_development_level = 13 }
-	1241.1.1 = { change_development_level = 17 }
-	1310.1.1 = { change_development_level = 23 }
-	}
-
-	d_qiongya_china = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 2 }
-	1124.1.1 = { change_development_level = 4 }
-	1166.1.1 = { change_development_level = 8 }
-	1204.1.1 = { change_development_level = 13 }
-	1241.1.1 = { change_development_level = 17 }
-	1310.1.1 = { change_development_level = 23 }
-	}
-
-	d_yon_zon_mi = {
+# EAST_TITLE_REWRITE_COLLISION: direct d_yon_zon_mi -> d_dali; same-run duplicate target in history_titles; manual merge needed.
+	d_dali = {
 	769.1.1 = { change_development_level = 13 }
 	1000.1.1 = { change_development_level = 20 }
 	1124.1.1 = { change_development_level = 23 }
@@ -10540,27 +10721,30 @@
 	1310.1.1 = { change_development_level = 42 }
 	}
 
-	d_isanapura = {
-	769.1.1 = { change_development_level = 12 }
-	1000.1.1 = { change_development_level = 18 }
-	1124.1.1 = { change_development_level = 20 }
-	1166.1.1 = { change_development_level = 24 }
-	1204.1.1 = { change_development_level = 29 }
-	1241.1.1 = { change_development_level = 33 }
-	1310.1.1 = { change_development_level = 39 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_isanapura = {
+#	769.1.1 = { change_development_level = 12 }
+#	1000.1.1 = { change_development_level = 18 }
+#	1124.1.1 = { change_development_level = 20 }
+#	1166.1.1 = { change_development_level = 24 }
+#	1204.1.1 = { change_development_level = 29 }
+#	1241.1.1 = { change_development_level = 33 }
+#	1310.1.1 = { change_development_level = 39 }
+#	}
 
-	d_battambang = {
-	769.1.1 = { change_development_level = 12 }
-	1000.1.1 = { change_development_level = 18 }
-	1124.1.1 = { change_development_level = 20 }
-	1166.1.1 = { change_development_level = 24 }
-	1204.1.1 = { change_development_level = 29 }
-	1241.1.1 = { change_development_level = 33 }
-	1310.1.1 = { change_development_level = 39 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_battambang = {
+#	769.1.1 = { change_development_level = 12 }
+#	1000.1.1 = { change_development_level = 18 }
+#	1124.1.1 = { change_development_level = 20 }
+#	1166.1.1 = { change_development_level = 24 }
+#	1204.1.1 = { change_development_level = 29 }
+#	1241.1.1 = { change_development_level = 33 }
+#	1310.1.1 = { change_development_level = 39 }
+#	}
 
-	d_dviradapura = {
+# EAST_TITLE_REWRITE_COLLISION: direct d_dviradapura -> d_angkor_borey; same-run duplicate target in history_titles; manual merge needed.
+	d_angkor_borey = {
 	769.1.1 = { change_development_level = 12 }
 	1000.1.1 = { change_development_level = 18 }
 	1124.1.1 = { change_development_level = 20 }
@@ -10580,7 +10764,8 @@
 	1310.1.1 = { change_development_level = 39 }
 	}
 
-	d_sambhupura = {
+# EAST_TITLE_REWRITE_COLLISION: direct d_sambhupura -> d_ratanakiri; same-run duplicate target in history_titles; manual merge needed.
+	d_ratanakiri = {
 	769.1.1 = { change_development_level = 2 }
 	1000.1.1 = { change_development_level = 6 }
 	1124.1.1 = { change_development_level = 8 }
@@ -10600,7 +10785,8 @@
 	1310.1.1 = { change_development_level = 39 }
 	}
 
-	d_aninditapura = {
+# EAST_TITLE_REWRITE_COLLISION: direct d_aninditapura -> d_angkor; same-run duplicate target in history_titles; manual merge needed.
+	d_angkor = {
 	769.1.1 = { change_development_level = 20 }
 	1000.1.1 = { change_development_level = 25 }
 	1124.1.1 = { change_development_level = 28 }
@@ -10630,25 +10816,27 @@
 	1310.1.1 = { change_development_level = 33 }
 	}
 
-	d_aru = {
-	769.1.1 = {	change_development_level = 8 }
-	1000.1.1 = { change_development_level = 12 }
-	1124.1.1 = { change_development_level = 14 }
-	1166.1.1 = { change_development_level = 18 }
-	1204.1.1 = { change_development_level = 23 }
-	1241.1.1 = { change_development_level = 27 }
-	1310.1.1 = { change_development_level = 33 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_aru = {
+#	769.1.1 = {	change_development_level = 8 }
+#	1000.1.1 = { change_development_level = 12 }
+#	1124.1.1 = { change_development_level = 14 }
+#	1166.1.1 = { change_development_level = 18 }
+#	1204.1.1 = { change_development_level = 23 }
+#	1241.1.1 = { change_development_level = 27 }
+#	1310.1.1 = { change_development_level = 33 }
+#	}
 
-	d_perlak = {
-	769.1.1 = {	change_development_level = 8 }
-	1000.1.1 = { change_development_level = 12 }
-	1124.1.1 = { change_development_level = 14 }
-	1166.1.1 = { change_development_level = 18 }
-	1204.1.1 = { change_development_level = 23 }
-	1241.1.1 = { change_development_level = 27 }
-	1310.1.1 = { change_development_level = 33 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_perlak = {
+#	769.1.1 = {	change_development_level = 8 }
+#	1000.1.1 = { change_development_level = 12 }
+#	1124.1.1 = { change_development_level = 14 }
+#	1166.1.1 = { change_development_level = 18 }
+#	1204.1.1 = { change_development_level = 23 }
+#	1241.1.1 = { change_development_level = 27 }
+#	1310.1.1 = { change_development_level = 33 }
+#	}
 
 	d_SUM_aceh = {
 	769.1.1 = {	change_development_level = 8 }
@@ -10680,46 +10868,51 @@
 	1310.1.1 = { change_development_level = 39 }
 	}
 
-	d_ujong_tanah = {
-	769.1.1 = {	change_development_level = 8 }
-	1000.1.1 = { change_development_level = 10 }
-	1124.1.1 = { change_development_level = 12 }
-	1166.1.1 = { change_development_level = 16 }
-	1204.1.1 = { change_development_level = 21 }
-	1241.1.1 = { change_development_level = 25 }
-	1310.1.1 = { change_development_level = 31 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_ujong_tanah = {
+#	769.1.1 = {	change_development_level = 8 }
+#	1000.1.1 = { change_development_level = 10 }
+#	1124.1.1 = { change_development_level = 12 }
+#	1166.1.1 = { change_development_level = 16 }
+#	1204.1.1 = { change_development_level = 21 }
+#	1241.1.1 = { change_development_level = 25 }
+#	1310.1.1 = { change_development_level = 31 }
+#	}
 
-	d_kedah = {
-	769.1.1 = {	change_development_level = 8 }
-	1000.1.1 = { change_development_level = 10 }
-	1124.1.1 = { change_development_level = 12 }
-	1166.1.1 = { change_development_level = 16 }
-	1204.1.1 = { change_development_level = 21 }
-	1241.1.1 = { change_development_level = 25 }
-	1310.1.1 = { change_development_level = 31 }
-	}
-	c_ternate = {
-	769.1.1 = { change_development_level = 10 }
-	1000.1.1 = { change_development_level = 15 }
-	1124.1.1 = { change_development_level = 17 }
-	1166.1.1 = { change_development_level = 21 }
-	1204.1.1 = { change_development_level = 26 }
-	1241.1.1 = { change_development_level = 30 }
-	1310.1.1 = { change_development_level = 36 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_kedah = {
+#	769.1.1 = {	change_development_level = 8 }
+#	1000.1.1 = { change_development_level = 10 }
+#	1124.1.1 = { change_development_level = 12 }
+#	1166.1.1 = { change_development_level = 16 }
+#	1204.1.1 = { change_development_level = 21 }
+#	1241.1.1 = { change_development_level = 25 }
+#	1310.1.1 = { change_development_level = 31 }
+#	}
+### Yusseter: COMMENTED FOR TESTING
+#	c_ternate = {
+#	769.1.1 = { change_development_level = 10 }
+#	1000.1.1 = { change_development_level = 15 }
+#	1124.1.1 = { change_development_level = 17 }
+#	1166.1.1 = { change_development_level = 21 }
+#	1204.1.1 = { change_development_level = 26 }
+#	1241.1.1 = { change_development_level = 30 }
+#	1310.1.1 = { change_development_level = 36 }
+#	}
 	
-	c_tidore = {
-	769.1.1 = { change_development_level = 10 }
-	1000.1.1 = { change_development_level = 15 }
-	1124.1.1 = { change_development_level = 17 }
-	1166.1.1 = { change_development_level = 21 }
-	1204.1.1 = { change_development_level = 26 }
-	1241.1.1 = { change_development_level = 30 }
-	1310.1.1 = { change_development_level = 36 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	c_tidore = {
+#	769.1.1 = { change_development_level = 10 }
+#	1000.1.1 = { change_development_level = 15 }
+#	1124.1.1 = { change_development_level = 17 }
+#	1166.1.1 = { change_development_level = 21 }
+#	1204.1.1 = { change_development_level = 26 }
+#	1241.1.1 = { change_development_level = 30 }
+#	1310.1.1 = { change_development_level = 36 }
+#	}
 	
-	c_aninditapura = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_aninditapura -> c_angkor; same-run duplicate target in history_titles; manual merge needed.
+	c_angkor = {
 	769.1.1 = { change_development_level = 25 }
 	1000.1.1 = { change_development_level = 30 }
 	1124.1.1 = { change_development_level = 40 }
@@ -10729,7 +10922,8 @@
 	1310.1.1 = { change_development_level = 59 }
 	}
 
-	c_thanh_long = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_thanh_long -> c_thang_long; same-run duplicate target in history_titles; manual merge needed.
+	c_thang_long = {
 	769.1.1 = { change_development_level = 25 }
 	1000.1.1 = { change_development_level = 30 }
 	1124.1.1 = { change_development_level = 40 }
@@ -10760,7 +10954,8 @@
 	1310.1.1 = { change_development_level = 27 }
 	}
 
-	c_raub = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_raub -> c_MAL_semantan; same-run duplicate target in history_titles; manual merge needed.
+	c_MAL_semantan = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 0 }
 	1124.1.1 = { change_development_level = 1 }
@@ -10770,7 +10965,8 @@
 	1310.1.1 = { change_development_level = 12 }
 	}
 
-	c_temerloh = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_temerloh -> c_MAL_gelanggi; same-run duplicate target in history_titles; manual merge needed.
+	c_MAL_gelanggi = {
 	769.1.1 = { change_development_level = 0 }
 	1000.1.1 = { change_development_level = 0 }
 	1124.1.1 = { change_development_level = 1 }
@@ -10780,7 +10976,8 @@
 	1310.1.1 = { change_development_level = 12 }
 	}
 
-	c_palembang = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_palembang -> c_SUM_palembang; same-run duplicate target in history_titles; manual merge needed.
+	c_SUM_palembang = {
 	769.1.1 = { change_development_level = 10 }
 	1000.1.1 = { change_development_level = 15 }
 	1124.1.1 = { change_development_level = 17 }
@@ -10790,7 +10987,8 @@
 	1310.1.1 = { change_development_level = 36 }
 	}
 
-	c_galuh = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_galuh -> c_JAV_galuh; same-run duplicate target in history_titles; manual merge needed.
+	c_JAV_galuh = {
 	769.1.1 = { change_development_level = 10 }
 	1000.1.1 = { change_development_level = 15 }
 	1124.1.1 = { change_development_level = 17 }
@@ -10800,7 +10998,8 @@
 	1310.1.1 = { change_development_level = 36 }
 	}
 
-	c_tuodong = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_tuodong -> c_shanchan; same-run duplicate target in history_titles; manual merge needed.
+	c_shanchan = {
 	769.1.1 = { change_development_level = 13 }
 	1000.1.1 = { change_development_level = 20 }
 	1124.1.1 = { change_development_level = 23 }
@@ -10810,7 +11009,8 @@
 	1310.1.1 = { change_development_level = 42 }
 	}
 
-	c_myinmu = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_myinmu -> c_sagaing; same-run duplicate target in history_titles; manual merge needed.
+	c_sagaing = {
 	769.1.1 = { change_development_level = 12 }
 	1000.1.1 = { change_development_level = 18 }
 	1124.1.1 = { change_development_level = 20 }
@@ -10861,7 +11061,16 @@
 	1241.1.1 = { change_development_level = 27 }
 	1310.1.1 = { change_development_level = 33 }
 	}
-	d_chugoku = {
+	d_west_sanyodo = {
+	769.1.1 = {	change_development_level = 8 }
+	1000.1.1 = { change_development_level = 12 }
+	1124.1.1 = { change_development_level = 14 }
+	1166.1.1 = { change_development_level = 18 }
+	1204.1.1 = { change_development_level = 23 }
+	1241.1.1 = { change_development_level = 27 }
+	1310.1.1 = { change_development_level = 33 }
+	}
+	d_west_sanindo = {
 	769.1.1 = {	change_development_level = 8 }
 	1000.1.1 = { change_development_level = 12 }
 	1124.1.1 = { change_development_level = 14 }
@@ -10906,7 +11115,8 @@
 	1241.1.1 = { change_development_level = 33 }
 	1310.1.1 = { change_development_level = 39 }
 	}
-	d_chubu = {
+# EAST_TITLE_REWRITE_COLLISION: direct d_chubu -> d_tosando; same-run duplicate target in history_titles; manual merge needed.
+	d_tosando = {
 	769.1.1 = { change_development_level = 8 }
 	1000.1.1 = { change_development_level = 9 }
 	1124.1.1 = { change_development_level = 11 }
@@ -10933,15 +11143,16 @@
 	1241.1.1 = { change_development_level = 28 }
 	1310.1.1 = { change_development_level = 34 }
 	}
-	d_koshinetsu = {
-	769.1.1 = {	change_development_level = 8 }
-	1000.1.1 = { change_development_level = 12 }
-	1124.1.1 = { change_development_level = 14 }
-	1166.1.1 = { change_development_level = 18 }
-	1204.1.1 = { change_development_level = 23 }
-	1241.1.1 = { change_development_level = 27 }
-	1310.1.1 = { change_development_level = 33 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_koshinetsu = {
+#	769.1.1 = {	change_development_level = 8 }
+#	1000.1.1 = { change_development_level = 12 }
+#	1124.1.1 = { change_development_level = 14 }
+#	1166.1.1 = { change_development_level = 18 }
+#	1204.1.1 = { change_development_level = 23 }
+#	1241.1.1 = { change_development_level = 27 }
+#	1310.1.1 = { change_development_level = 33 }
+#	}
 	d_west_bando = {
 	769.1.1 = {	change_development_level = 8 }
 	1000.1.1 = { change_development_level = 12 }
@@ -10960,7 +11171,7 @@
 	1241.1.1 = { change_development_level = 27 }
 	1310.1.1 = { change_development_level = 33 }
 	}
-	d_dewa = {
+	d_nushiro = {
 	20.1.1 = {change_development_level = 2}
 	1000.1.1 = {change_development_level = 6}
 	1124.1.1 = {change_development_level = 8}
@@ -10969,7 +11180,8 @@
 	1241.1.1 = {change_development_level = 21 }
 	1310.1.1 = {change_development_level = 27 }
 	}
-	d_mutsu = {
+# EAST_TITLE_REWRITE_COLLISION: direct d_mutsu -> d_hitakami; same-run duplicate target in history_titles; manual merge needed.
+	d_hitakami = {
 	20.1.1 = { change_development_level = 4}
 	1000.1.1 = { change_development_level = 7 }
 	1124.1.1 = { change_development_level = 9 }
@@ -10987,27 +11199,30 @@
 	1241.1.1 = { change_development_level = 22 }
 	1310.1.1 = { change_development_level = 28 }
 	}
-	d_saki = {
-	20.1.1 = { change_development_level = 2 }
-	1000.1.1 = { change_development_level = 5 }
-	1124.1.1 = { change_development_level = 7}
-	1166.1.1 = {change_development_level = 11 }
-	1204.1.1 = {change_development_level = 16 }
-	1241.1.1 = {change_development_level = 20 }
-	1310.1.1 = {change_development_level = 26 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	d_saki = {
+#	20.1.1 = { change_development_level = 2 }
+#	1000.1.1 = { change_development_level = 5 }
+#	1124.1.1 = { change_development_level = 7}
+#	1166.1.1 = {change_development_level = 11 }
+#	1204.1.1 = {change_development_level = 16 }
+#	1241.1.1 = {change_development_level = 20 }
+#	1310.1.1 = {change_development_level = 26 }
+#	}
 	
-	c_maynila = {
-	769.1.1 = { change_development_level = 4 }
-	1000.1.1 = { change_development_level = 7 }
-	1124.1.1 = { change_development_level = 9 }
-	1166.1.1 = { change_development_level = 13 }
-	1204.1.1 = { change_development_level = 18 }
-	1241.1.1 = { change_development_level = 22 }
-	1310.1.1 = { change_development_level = 28 }
-	}
+### Yusseter: COMMENTED FOR TESTING
+#	c_maynila = {
+#	769.1.1 = { change_development_level = 4 }
+#	1000.1.1 = { change_development_level = 7 }
+#	1124.1.1 = { change_development_level = 9 }
+#	1166.1.1 = { change_development_level = 13 }
+#	1204.1.1 = { change_development_level = 18 }
+#	1241.1.1 = { change_development_level = 22 }
+#	1310.1.1 = { change_development_level = 28 }
+#	}
 	
-	c_bajan = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_bajan -> c_SuMa_bacan; same-run duplicate target in history_titles; manual merge needed.
+	c_SuMa_bacan = {
 	769.1.1 = { change_development_level = 4 }
 	1000.1.1 = { change_development_level = 7 }
 	1124.1.1 = { change_development_level = 9 }
@@ -11017,7 +11232,8 @@
 	1310.1.1 = { change_development_level = 28 }
 	}
 
-	c_hulondalo = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_hulondalo -> c_SuMa_gorontalo; same-run duplicate target in history_titles; manual merge needed.
+	c_SuMa_gorontalo = {
 	769.1.1 = { change_development_level = 4 }
 	1000.1.1 = { change_development_level = 7 }
 	1124.1.1 = { change_development_level = 9 }
@@ -11027,7 +11243,8 @@
 	1310.1.1 = { change_development_level = 28 }
 	}
 	
-	c_manado = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_manado -> c_SuMa_wenang; same-run duplicate target in history_titles; manual merge needed.
+	c_SuMa_wenang = {
 	769.1.1 = { change_development_level = 4 }
 	1000.1.1 = { change_development_level = 7 }
 	1124.1.1 = { change_development_level = 9 }
@@ -11037,7 +11254,19 @@
 	1310.1.1 = { change_development_level = 28 }
 	}
 	
-	c_sopeng = {
+### Yusseter: COMMENTED FOR TESTING
+#	c_sopeng = {
+#	769.1.1 = { change_development_level = 4 }
+#	1000.1.1 = { change_development_level = 7 }
+#	1124.1.1 = { change_development_level = 9 }
+#	1166.1.1 = { change_development_level = 13 }
+#	1204.1.1 = { change_development_level = 18 }
+#	1241.1.1 = { change_development_level = 22 }
+#	1310.1.1 = { change_development_level = 28 }
+#	}
+	
+# EAST_TITLE_REWRITE_COLLISION: direct c_makassar -> c_SuMa_siang; same-run duplicate target in history_titles; manual merge needed.
+	c_SuMa_siang = {
 	769.1.1 = { change_development_level = 4 }
 	1000.1.1 = { change_development_level = 7 }
 	1124.1.1 = { change_development_level = 9 }
@@ -11047,7 +11276,8 @@
 	1310.1.1 = { change_development_level = 28 }
 	}
 	
-	c_makassar = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_muna -> c_SuMa_butun; same-run duplicate target in history_titles; manual merge needed.
+	c_SuMa_butun = {
 	769.1.1 = { change_development_level = 4 }
 	1000.1.1 = { change_development_level = 7 }
 	1124.1.1 = { change_development_level = 9 }
@@ -11057,7 +11287,8 @@
 	1310.1.1 = { change_development_level = 28 }
 	}
 	
-	c_muna = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_banggai -> c_SuMa_banggai; same-run duplicate target in history_titles; manual merge needed.
+	c_SuMa_banggai = {
 	769.1.1 = { change_development_level = 4 }
 	1000.1.1 = { change_development_level = 7 }
 	1124.1.1 = { change_development_level = 9 }
@@ -11067,17 +11298,8 @@
 	1310.1.1 = { change_development_level = 28 }
 	}
 	
-	c_banggai = {
-	769.1.1 = { change_development_level = 4 }
-	1000.1.1 = { change_development_level = 7 }
-	1124.1.1 = { change_development_level = 9 }
-	1166.1.1 = { change_development_level = 13 }
-	1204.1.1 = { change_development_level = 18 }
-	1241.1.1 = { change_development_level = 22 }
-	1310.1.1 = { change_development_level = 28 }
-	}
-	
-	c_samarenda = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_samarenda -> c_BOR_martapura; same-run duplicate target in history_titles; manual merge needed.
+	c_BOR_martapura = {
 	769.1.1 = { change_development_level = 4 }
 	1000.1.1 = { change_development_level = 7 }
 	1124.1.1 = { change_development_level = 9 }
@@ -11097,7 +11319,8 @@
 	1310.1.1 = { change_development_level = 28 }
 	}
 	
-	c_hangzhou_china = {
+# EAST_TITLE_REWRITE_COLLISION: direct c_hangzhou_china -> c_hangzhou; same-run duplicate target in history_titles; manual merge needed.
+	c_hangzhou = {
 	769.1.1 = {	change_development_level = 10 }
 	1000.1.1 = { change_development_level = 15 }
 	1124.1.1 = { change_development_level = 18 }

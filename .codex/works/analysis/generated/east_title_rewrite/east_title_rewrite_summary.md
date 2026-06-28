@@ -1,0 +1,25 @@
+# East Title Rewrite Summary
+
+- manual_rows_expanded: 1372
+- direct_rewrite_tokens: 668
+- second_mapping_tokens: 39
+- same_id_noop: 665
+- target_files_scanned: 4823
+- landed_title_audit_files: 12
+- changed_files_planned: 33
+- block_header_renames: 695
+- second_block_clones: 38
+- token_or_header_replacements: 4327
+- allow_annotated_collisions: yes
+- annotate_second_references: yes
+- annotated_collision_rewrites: 108
+- annotated_collision_clones: 2
+- annotated_collision_comments: 108
+- annotated_collision_targets_marked: 14
+- annotated_second_references: 119
+- issues: 230
+- info: 722
+- blockers: 0
+- write_requested: yes
+- write_performed: yes
+- write_skipped_reason: 

@@ -122,7 +122,7 @@ RICE_former_tang_western_region = {
 	}
 	duchies = {
 		#Xia
-		d_xia d_wuluhai d_zhenfan d_liangzhou d_shanzhou d_qilin d_ganzhou d_yijinai d_guiyi d_aksay
+		d_xia d_langshan d_zhenfan d_liangzhou d_shanzhou d_qilin d_ganzhou d_yijinai d_guiyi d_aksay
 		#  k_dzungaria
 		d_kara_khoja d_naiman_gobi d_gurbantunggut d_altay 
 		# k_zhetysu
@@ -146,7 +146,7 @@ RICE_granada_region = {
 RICE_dunhuang_region = {
 	duchies = {
 		#Xia
-		d_xia d_wuluhai d_zhenfan d_liangzhou d_shanzhou d_qilin d_ganzhou d_yijinai d_guiyi d_aksay
+		d_xia d_langshan d_zhenfan d_liangzhou d_shanzhou d_qilin d_ganzhou d_yijinai d_guiyi d_aksay
 		#Dzungaria
 		#d_kara_khoja
 		#Khotan
@@ -747,7 +747,7 @@ RICE_basic_terton_region = {
 		#k_transoxiana
 		d_badakhshan
 		#Xia
-		d_xia d_wuluhai d_zhenfan d_liangzhou d_shanzhou d_qilin d_ganzhou d_yijinai d_guiyi d_aksay
+		d_xia d_langshan d_zhenfan d_liangzhou d_shanzhou d_qilin d_ganzhou d_yijinai d_guiyi d_aksay
 		#Himalaya
 		d_kurmanchal d_khasa d_nepal d_limbuwan
 	}
@@ -944,6 +944,6 @@ RICE_philippines_and_eastern_indonesia = {
 	}
 	duchies = {
 		#Indonesia
-		d_JAV_mataram d_JAV_taruma d_bali_sea d_lumajang
+		d_JAV_mataram d_JAV_taruma d_IDO_bali d_lumajang
 	}
 }

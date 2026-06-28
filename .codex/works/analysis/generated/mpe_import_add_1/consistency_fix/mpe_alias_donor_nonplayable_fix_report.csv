@@ -1,0 +1,14 @@
+area,key,action,detail
+localization,b_khunzakh,added,Khunzakh
+localization,c_majar,added,Majar
+localization,cn_iryston,added,Iryston
+default.map,12922,impassable_mountains,superseded alias donor no active title
+default.map,13359,impassable_mountains,superseded alias donor no active title
+default.map,13360,impassable_mountains,superseded alias donor no active title
+default.map,13361,impassable_mountains,superseded alias donor no active title
+default.map,13362,impassable_mountains,superseded alias donor no active title
+province_history,12922,normalized_to_holding_none,removed culture/religion/holding donor semantics
+province_history,13359,normalized_to_holding_none,removed culture/religion/holding donor semantics
+province_history,13360,normalized_to_holding_none,removed culture/religion/holding donor semantics
+province_history,13361,normalized_to_holding_none,removed culture/religion/holding donor semantics
+province_history,13362,normalized_to_holding_none,removed culture/religion/holding donor semantics

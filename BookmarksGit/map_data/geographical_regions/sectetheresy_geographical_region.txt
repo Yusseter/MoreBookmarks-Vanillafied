@@ -611,7 +611,7 @@ antioch_pentarch_region = {
 		d_lhoyul
 		d_dzayul
 		d_xia
-		d_wuluhai
+		d_langshan
 		d_zhenfan
 		d_liangzhou
 		d_shanzhou

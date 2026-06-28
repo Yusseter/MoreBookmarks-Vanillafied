@@ -349,7 +349,7 @@ luoyang_palace_01 = {
 	type_icon = "becp_icon_jingfugong.dds"
 
 	can_construct_potential = {
-		barony = title:b_luoyang_china
+		barony = title:b_luoyang # Yusseter: title:b_luoyang_china
 		building_requirement_tribal = no
 	}
 
@@ -652,7 +652,7 @@ dujiangyan_01 = {
 	type_icon = "icon_ub_shustar_hydraulic.dds"
 
 	can_construct_potential = {
-		barony = title:b_chengdu_china
+		barony = title:b_chengdu # Yusseter: title:b_chengdu_china
 		building_requirement_tribal = no
 	}
 

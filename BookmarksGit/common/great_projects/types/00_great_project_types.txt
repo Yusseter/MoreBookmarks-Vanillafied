@@ -5973,10 +5973,10 @@ great_wall_extend_to_shanhai_pass = {
 		top_liege = {
 			any_realm_county = {
 				OR = {
-					this = title:c_guizhou_yan_china
-					this = title:c_guzhu_china
-					this = title:c_jizhou_yan_china
-					this = title:c_pingzhou_china
+					this = title:c_guizhou_2
+					this = title:c_tanzhou_2
+					this = title:c_jizhou_1
+					this = title:c_pinzhou
 				}
 			}
 		}
@@ -6529,18 +6529,18 @@ great_wall_extend_to_liaodong = {
 			any_realm_county = {
 				OR = {
 				
-					this = title:c_pingzhou_china
-					this = title:c_ruizhou_liaoxi_china
-					this = title:c_lizhou_liaoxi_china
-					this = title:c_yingzhou_liaoxi_china
-					this = title:c_xingzhong_liaoxi_china
-					this = title:c_yizhou_liaoxi_china
+					this = title:c_pinzhou
+					this = title:c_lnj_liaoxi
+					this = title:c_lnj_liaoxibei
+					this = title:c_LIAO_jinzhou
+					this = title:c_LIAO_chaoyang
+					this = title:c_LIAO_liaozhou
 					this = title:c_LIAO_linhuang
-					this = title:c_shenzhou_liao_china
-					this = title:c_liaodong_china
-					this = title:c_guidezhou_china
-					this = title:c_anshi_china
-					this = title:c_pozhuo_china
+					this = title:c_LIAO_yinzhou
+					this = title:c_LIAO_shenyang
+					this = title:c_LIAO_guidezhou
+					this = title:c_LIAO_diezhou
+					this = title:c_BAL_west_amnok
 					this = title:c_uiju
 				}
 			}

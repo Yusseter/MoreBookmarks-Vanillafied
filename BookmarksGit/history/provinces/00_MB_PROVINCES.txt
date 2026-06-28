@@ -6088,8 +6088,6 @@ religion = tengri_pagan
 606 = {	#606 - Petigoria
 	
 	# Misc
-	culture = alan
-	religion = alan_pagan
 	
 	holding = tribal_holding
 	
@@ -43161,8 +43159,6 @@ religion = tengri_pagan
 5335 = {	#5335 - Kuban
 	
 	# Misc
-culture = circassian #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
-religion = khabzism
 
 # History
 #966.1.1 = { culture = pecheneg }
@@ -79420,7 +79416,7 @@ religion = catholic
 9880 = {	# 600 - Nicopsia
 	
 	# Misc
-	culture = georgian
+	culture = circassian # Yusseter: georgian
 	religion = georgian_orthodox
 	
 	holding = church_holding

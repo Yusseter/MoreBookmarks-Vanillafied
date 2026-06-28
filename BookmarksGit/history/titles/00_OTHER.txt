@@ -3664,6 +3664,7 @@ e_caspian-pontic_steppe = {
 
 	654.1.1 = {
 		holder = 74004
+		name = KHAZARIA
 		government = nomad_government
 	}
 	682.1.1 = {
@@ -3730,6 +3731,7 @@ e_caspian-pontic_steppe = {
 	}
 	966.1.1 = {
 		holder = 0
+		reset_name = yes
 	}
 	
 	#The 'Confderation' is more a historical creation. There was never a unified confederation and Khagan that ruled this region until the Mongols
@@ -4083,6 +4085,64 @@ e_arabia = {
 	}
 }
 
+e_tibet = {
+#	21.1.1 = {
+#		change_development_level = 1
+#	}
+#
+#	1001.1.1 = {
+#		change_development_level = 3
+#	}
+#
+#	1101.1.1 = {
+#		change_development_level = 6
+#	}
+	619.1.1={
+		holder = 247075
+	} #Songtsen Gampo
+	646.1.1={
+		holder = 247088
+	} #Gungsrong Gungtsen (regent for his father)
+	649.1.1={
+		holder = 247075
+	} #Songtsen Gampo takes authority again
+	656.1.1={
+		holder = 247089
+	} #Mangsong Mangtsen
+	686.1.1={
+		holder = 247091
+	} #Tridu Songtsen
+	704.6.1={
+		holder = 247096
+	} #Lha Balpo (Deposed)
+	705.1.1={
+		holder = 247090
+	} #ThrimalÃ¶ (Regent)
+	712.1.1={
+		holder = 247097
+	} #Me Agtsom
+	755.1.1={
+		holder = 247105
+	} #Trisong Detsen
+	797.1.1={
+		holder = 247116
+	} #MunÃ©
+	799.1.1={
+		holder = 247118
+	} #Mutik
+	799.6.1={
+		holder = 247119
+	} #Sadnalegs
+	815.1.1={
+		holder = 247125
+	} #Ralpacan
+	838.11.1={
+		holder = 247126
+	} #Langdarma
+	842.1.1={
+		holder = 0
+	}
+}
 
 k_genoa = {
 	1.1.1 = {
@@ -5955,71 +6015,4 @@ d_irenopolis_catholicosate = {
 d_romagyris_catholicosate = {
 	860.1.1 = { holder = romagyris.001 }
 	1050.1.1 = { holder = romagyris.002 }
-}
-
-# -----------------------------------------------------------------------------
-# Imported vanilla east title history roots
-# -----------------------------------------------------------------------------
-
-# -----------------------------------------------------------------------------
-# Imported vanilla east title history roots
-# -----------------------------------------------------------------------------
-
-e_tibet = {
-	21.1.1 = {
-		change_development_level = 1
-	}
-	
-	1001.1.1 = {
-		change_development_level = 3
-	}
-	
-	1101.1.1 = {
-		change_development_level = 6
-	}
-	619.1.1={
-		holder = 247075
-	} #Songtsen Gampo
-	646.1.1={
-		holder = 247088
-	} #Gungsrong Gungtsen (regent for his father)
-	649.1.1={
-		holder = 247075
-	} #Songtsen Gampo takes authority again
-	656.1.1={
-		holder = 247089
-	} #Mangsong Mangtsen
-	686.1.1={
-		holder = 247091
-	} #Tridu Songtsen
-	704.6.1={
-		holder = 247096
-	} #Lha Balpo (Deposed)
-	705.1.1={
-		holder = 247090
-	} #ThrimalÃ¶ (Regent)
-	712.1.1={
-		holder = 247097
-	} #Me Agtsom
-	755.1.1={
-		holder = 247105
-	} #Trisong Detsen
-	797.1.1={
-		holder = 247116
-	} #MunÃ©
-	799.1.1={
-		holder = 247118
-	} #Mutik
-	799.6.1={
-		holder = 247119
-	} #Sadnalegs
-	815.1.1={
-		holder = 247125
-	} #Ralpacan
-	838.11.1={
-		holder = 247126
-	} #Langdarma
-	842.1.1={
-		holder = 0
-	}
 }

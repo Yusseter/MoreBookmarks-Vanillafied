@@ -605,8 +605,8 @@ war = {
 	start_date = 1211.6.1
 	end_date = 1211.10.1
 	targeted_titles={
-		k_khitan_china
-		k_yinshan_china
+		k_khitan
+		k_daibei
 	}
 	casus_belli = mongol_realm_invasion_war
 	attackers = { 125501 }

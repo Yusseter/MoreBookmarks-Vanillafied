@@ -1,0 +1,13 @@
+{
+  "font": "F:\\Storage\\Codding\\git\\Crusader Kings III\\Yusseter MoreBookmarksPlus\\BookmarksGit\\fonts\\Gitan\\GitanLatin-Bold-Italic.otf",
+  "localization_folder": "F:\\Storage\\Codding\\git\\Crusader Kings III\\Yusseter MoreBookmarksPlus\\BookmarksGit\\localization",
+  "font_reader": "built-in cmap parser",
+  "localization_files_scanned": 75,
+  "font_characters_found": 552,
+  "distinct_visible_localization_characters": 808,
+  "missing_visible_localization_characters": 492,
+  "missing_anywhere_in_yml_files": 2684,
+  "report": "F:\\Storage\\Codding\\git\\Crusader Kings III\\Yusseter MoreBookmarksPlus\\BookmarksGit\\works\\analysis\\generated\\font_missing_chars_fonts_gitan_gitanlatin_bold_italic\\missing_chars_report.txt",
+  "csv": "F:\\Storage\\Codding\\git\\Crusader Kings III\\Yusseter MoreBookmarksPlus\\BookmarksGit\\works\\analysis\\generated\\font_missing_chars_fonts_gitan_gitanlatin_bold_italic\\missing_chars.csv",
+  "diagnostic_csv": "F:\\Storage\\Codding\\git\\Crusader Kings III\\Yusseter MoreBookmarksPlus\\BookmarksGit\\works\\analysis\\generated\\font_missing_chars_fonts_gitan_gitanlatin_bold_italic\\missing_chars_all_yml_diagnostic.csv"
+}

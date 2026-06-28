@@ -1,0 +1,5 @@
+﻿# 0.6.1
+cat_cornucopia_grain.dds = { colors = 3 category = manmade }
+cat_shield_round_tri.dds = { colors = 3 category = abstract }
+cat_shield_round_quarterly.dds = { colors = 3 category = abstract }
+cat_shield_round_border.dds = { colors = 3 category = abstract }

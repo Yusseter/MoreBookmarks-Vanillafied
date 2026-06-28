@@ -1,0 +1,7 @@
+mode,total_locator_rows,missing_definition,in_bounds,exact_matches,exact_rate,in_bounds_rate
+round_direct,71999,0,71999,397,0.005514,1.000000
+floor_direct,71999,0,71999,394,0.005472,1.000000
+round_height_minus_z,71999,0,71999,70859,0.984166,1.000000
+floor_height_minus_z,71999,0,71999,70802,0.983375,1.000000
+round_height_minus_1_minus_z,71999,0,71999,70913,0.984916,1.000000
+floor_height_minus_1_minus_z,71999,0,71999,70935,0.985222,1.000000

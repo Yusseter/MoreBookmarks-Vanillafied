@@ -1,0 +1,5 @@
+target,action,source,detail
+c_kuma,title_history_replaced,Levi c_samiran,history/titles/00_YB_MPE.txt c_kuma block cloned from Levi history/titles/00_ERE.txt c_samiran
+12898,province_history_replaced,Levi 5343 b_samiran,history/provinces/00_yb_MPE_PROVINCES.txt 12898 block cloned from Levi 00_MB_PROVINCES.txt 5343
+mpe_history_donor_map.csv,donor_map_updated,c_kuma->c_samiran,explicit user donor mapping recorded
+repair_mpe_county_history_gaps.py,donor_map_updated,c_kuma->c_samiran,future audits know c_kuma donor

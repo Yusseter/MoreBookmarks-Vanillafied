@@ -526,3 +526,17 @@ byzantine_male_only = {
         add_realm_law_skip_effects = male_only_law
     }
 }
+
+yb_start_tributary_effect = { # Yusseter
+	if = {
+		limit = { NOT = { $SUZERAIN_TITLE$.holder = $TRIBUTARY_TITLE$.holder } }
+		$SUZERAIN_TITLE$.holder = {
+			save_scope_as = suzerain
+			$TRIBUTARY_TITLE$.holder = {
+				break_subject_contract_and_establish_tributary_effect = {
+					SUZERAIN = scope:suzerain TRIBUTARY = this
+				}
+			}
+		}
+	}
+}

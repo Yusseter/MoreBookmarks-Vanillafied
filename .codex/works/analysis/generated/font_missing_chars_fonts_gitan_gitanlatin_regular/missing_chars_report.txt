@@ -1,0 +1,453 @@
+Missing localization characters for font
+========================================
+
+Font: F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\fonts\Gitan\GitanLatin-Regular.otf
+Localization folder: F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit\localization
+Font reader: built-in cmap parser
+Localization files scanned: 75
+Font characters found: 804
+Distinct visible localization characters: 808
+Missing visible localization characters: 433
+Missing characters anywhere in .yml files: 2623
+Note: the main report and missing_chars.csv only list visible localization values.
+The anywhere-in-yml count is diagnostic and includes comments, keys, and syntax.
+
+Missing visible localization characters
+---------------------------------------
+Ǝ  U+018E  LATIN CAPITAL LETTER REVERSED E  count=1  files=1  sample=localization/replace/english/z_MB_titles_l_english.yml
+ơ  U+01A1  LATIN SMALL LETTER O WITH HORN  count=102  files=5  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml, localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml, localization/replace/english/names/0_MB_Names_l_english.yml, localization/replace/english/z_MB_council_l_english.yml, localization/replace/english/z_MB_titles_l_english.yml
+ư  U+01B0  LATIN SMALL LETTER U WITH HORN  count=172  files=6  sample=localization/replace/english/culture/z_MB_cultures_l_english.yml, localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml, localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml, localization/replace/english/names/0_MB_Names_l_english.yml, localization/replace/english/z_MB_council_l_english.yml
+ȿ  U+023F  LATIN SMALL LETTER S WITH SWASH TAIL  count=1  files=1  sample=localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml
+ɀ  U+0240  LATIN SMALL LETTER Z WITH SWASH TAIL  count=1  files=1  sample=localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml
+ɡ  U+0261  LATIN SMALL LETTER SCRIPT G  count=24  files=3  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml, localization/replace/english/names/0_MB_Names_l_english.yml, localization/replace/english/z_MB_titles_l_english.yml
+ɳ  U+0273  LATIN SMALL LETTER N WITH RETROFLEX HOOK  count=4  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+ɽ  U+027D  LATIN SMALL LETTER R WITH TAIL  count=1  files=1  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml
+̩  U+0329  COMBINING VERTICAL LINE BELOW  count=1  files=1  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml
+̲  U+0332  COMBINING LOW LINE  count=2  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+̼  U+033C  COMBINING SEAGULL BELOW  count=2  files=1  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml
+β  U+03B2  GREEK SMALL LETTER BETA  count=36  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+γ  U+03B3  GREEK SMALL LETTER GAMMA  count=19  files=2  sample=localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml, localization/replace/english/names/0_MB_Names_l_english.yml
+δ  U+03B4  GREEK SMALL LETTER DELTA  count=7  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+ε  U+03B5  GREEK SMALL LETTER EPSILON  count=2  files=2  sample=localization/replace/english/names/0_MB_Names_l_english.yml, localization/replace/english/RICE_cultures_l_english.yml
+θ  U+03B8  GREEK SMALL LETTER THETA  count=19  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+ό  U+03CC  GREEK SMALL LETTER OMICRON WITH TONOS  count=2  files=1  sample=localization/replace/english/z_MB_regions_l_english.yml
+ϑ  U+03D1  GREEK THETA SYMBOL  count=3  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+Ј  U+0408  CYRILLIC CAPITAL LETTER JE  count=2  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+З  U+0417  CYRILLIC CAPITAL LETTER ZE  count=2  files=1  sample=localization/replace/english/bookmark/MB_Bookmarks_l_english.yml
+И  U+0418  CYRILLIC CAPITAL LETTER I  count=2  files=1  sample=localization/replace/english/bookmark/MB_Bookmarks_l_english.yml
+К  U+041A  CYRILLIC CAPITAL LETTER KA  count=3  files=2  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml, localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml
+а  U+0430  CYRILLIC SMALL LETTER A  count=10  files=3  sample=localization/replace/english/bookmark/MB_Bookmarks_l_english.yml, localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml, localization/replace/english/names/0_MB_Names_l_english.yml
+г  U+0433  CYRILLIC SMALL LETTER GHE  count=2  files=1  sample=localization/replace/english/bookmark/MB_Bookmarks_l_english.yml
+о  U+043E  CYRILLIC SMALL LETTER O  count=6  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+с  U+0441  CYRILLIC SMALL LETTER ES  count=4  files=3  sample=localization/replace/english/bookmark/MB_Bookmarks_l_english.yml, localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml, localization/replace/english/knight_culture_l_english.yml
+х  U+0445  CYRILLIC SMALL LETTER HA  count=2  files=1  sample=localization/replace/english/bookmark/MB_Bookmarks_l_english.yml
+ї  U+0457  CYRILLIC SMALL LETTER YI  count=2  files=1  sample=localization/replace/english/z_MB_titles_l_english.yml
+ӕ  U+04D5  CYRILLIC SMALL LIGATURE A IE  count=6  files=1  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml
+ӗ  U+04D7  CYRILLIC SMALL LETTER IE WITH BREVE  count=1  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+ܧ  U+0727  SYRIAC LETTER REVERSED PE  count=1  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+ớ  U+1EDB  LATIN SMALL LETTER O WITH HORN AND ACUTE  count=20  files=4  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml, localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml, localization/replace/english/names/0_MB_Names_l_english.yml, localization/replace/english/z_MB_titles_l_english.yml
+ờ  U+1EDD  LATIN SMALL LETTER O WITH HORN AND GRAVE  count=46  files=5  sample=localization/replace/english/culture/traditions/z_MB_cultural_languages_l_english.yml, localization/replace/english/culture/z_MB_cultures_l_english.yml, localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml, localization/replace/english/names/0_MB_Names_l_english.yml, localization/replace/english/z_MB_titles_l_english.yml
+ở  U+1EDF  LATIN SMALL LETTER O WITH HORN AND HOOK ABOVE  count=2  files=2  sample=localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml, localization/replace/english/names/0_MB_Names_l_english.yml
+ợ  U+1EE3  LATIN SMALL LETTER O WITH HORN AND DOT BELOW  count=16  files=3  sample=localization/replace/english/names/0_MB_Names_l_english.yml, localization/replace/english/z_MB_council_l_english.yml, localization/replace/english/z_MB_titles_l_english.yml
+ứ  U+1EE9  LATIN SMALL LETTER U WITH HORN AND ACUTE  count=13  files=4  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml, localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml, localization/replace/english/names/0_MB_Names_l_english.yml, localization/replace/english/z_MB_titles_l_english.yml
+ừ  U+1EEB  LATIN SMALL LETTER U WITH HORN AND GRAVE  count=1  files=1  sample=localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml
+ử  U+1EED  LATIN SMALL LETTER U WITH HORN AND HOOK ABOVE  count=9  files=3  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml, localization/replace/english/names/0_MB_Names_l_english.yml, localization/replace/english/z_MB_titles_l_english.yml
+ữ  U+1EEF  LATIN SMALL LETTER U WITH HORN AND TILDE  count=9  files=3  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml, localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml, localization/replace/english/z_MB_titles_l_english.yml
+῾  U+1FFE  GREEK DASIA  count=1  files=1  sample=localization/replace/english/culture/z_MB_flavorization_titles_l_english.yml
+。  U+3002  IDEOGRAPHIC FULL STOP  count=12  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+㟸  U+37F8  CJK UNIFIED IDEOGRAPH-37F8  count=1  files=1  sample=localization/replace/english/names/0_MB_Names_l_english.yml
+一  U+4E00  CJK UNIFIED IDEOGRAPH-4E00  count=5  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+三  U+4E09  CJK UNIFIED IDEOGRAPH-4E09  count=4  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+上  U+4E0A  CJK UNIFIED IDEOGRAPH-4E0A  count=4  files=3  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+下  U+4E0B  CJK UNIFIED IDEOGRAPH-4E0B  count=12  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+不  U+4E0D  CJK UNIFIED IDEOGRAPH-4E0D  count=5  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+丧  U+4E27  CJK UNIFIED IDEOGRAPH-4E27  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml
+中  U+4E2D  CJK UNIFIED IDEOGRAPH-4E2D  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+临  U+4E34  CJK UNIFIED IDEOGRAPH-4E34  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+为  U+4E3A  CJK UNIFIED IDEOGRAPH-4E3A  count=5  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+主  U+4E3B  CJK UNIFIED IDEOGRAPH-4E3B  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+举  U+4E3E  CJK UNIFIED IDEOGRAPH-4E3E  count=6  files=3  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+么  U+4E48  CJK UNIFIED IDEOGRAPH-4E48  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+义  U+4E49  CJK UNIFIED IDEOGRAPH-4E49  count=2  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+之  U+4E4B  CJK UNIFIED IDEOGRAPH-4E4B  count=6  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+也  U+4E5F  CJK UNIFIED IDEOGRAPH-4E5F  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+乱  U+4E71  CJK UNIFIED IDEOGRAPH-4E71  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+了  U+4E86  CJK UNIFIED IDEOGRAPH-4E86  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+争  U+4E89  CJK UNIFIED IDEOGRAPH-4E89  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+事  U+4E8B  CJK UNIFIED IDEOGRAPH-4E8B  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+于  U+4E8E  CJK UNIFIED IDEOGRAPH-4E8E  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+京  U+4EAC  CJK UNIFIED IDEOGRAPH-4EAC  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+人  U+4EBA  CJK UNIFIED IDEOGRAPH-4EBA  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+什  U+4EC0  CJK UNIFIED IDEOGRAPH-4EC0  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+仁  U+4EC1  CJK UNIFIED IDEOGRAPH-4EC1  count=14  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+今  U+4ECA  CJK UNIFIED IDEOGRAPH-4ECA  count=5  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+从  U+4ECE  CJK UNIFIED IDEOGRAPH-4ECE  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+他  U+4ED6  CJK UNIFIED IDEOGRAPH-4ED6  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+令  U+4EE4  CJK UNIFIED IDEOGRAPH-4EE4  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+以  U+4EE5  CJK UNIFIED IDEOGRAPH-4EE5  count=3  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+件  U+4EF6  CJK UNIFIED IDEOGRAPH-4EF6  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+众  U+4F17  CJK UNIFIED IDEOGRAPH-4F17  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+会  U+4F1A  CJK UNIFIED IDEOGRAPH-4F1A  count=3  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+但  U+4F46  CJK UNIFIED IDEOGRAPH-4F46  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+位  U+4F4D  CJK UNIFIED IDEOGRAPH-4F4D  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+体  U+4F53  CJK UNIFIED IDEOGRAPH-4F53  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+何  U+4F55  CJK UNIFIED IDEOGRAPH-4F55  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+你  U+4F60  CJK UNIFIED IDEOGRAPH-4F60  count=7  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+侯  U+4FAF  CJK UNIFIED IDEOGRAPH-4FAF  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+俭  U+4FED  CJK UNIFIED IDEOGRAPH-4FED  count=3  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+候  U+5019  CJK UNIFIED IDEOGRAPH-5019  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+停  U+505C  CJK UNIFIED IDEOGRAPH-505C  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+儒  U+5112  CJK UNIFIED IDEOGRAPH-5112  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+元  U+5143  CJK UNIFIED IDEOGRAPH-5143  count=7  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+光  U+5149  CJK UNIFIED IDEOGRAPH-5149  count=3  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+入  U+5165  CJK UNIFIED IDEOGRAPH-5165  count=4  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+兴  U+5174  CJK UNIFIED IDEOGRAPH-5174  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+兵  U+5175  CJK UNIFIED IDEOGRAPH-5175  count=4  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+典  U+5178  CJK UNIFIED IDEOGRAPH-5178  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+再  U+518D  CJK UNIFIED IDEOGRAPH-518D  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+冒  U+5192  CJK UNIFIED IDEOGRAPH-5192  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+军  U+519B  CJK UNIFIED IDEOGRAPH-519B  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+农  U+519C  CJK UNIFIED IDEOGRAPH-519C  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+冠  U+51A0  CJK UNIFIED IDEOGRAPH-51A0  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+决  U+51B3  CJK UNIFIED IDEOGRAPH-51B3  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+凡  U+51E1  CJK UNIFIED IDEOGRAPH-51E1  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+出  U+51FA  CJK UNIFIED IDEOGRAPH-51FA  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+分  U+5206  CJK UNIFIED IDEOGRAPH-5206  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+到  U+5230  CJK UNIFIED IDEOGRAPH-5230  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+制  U+5236  CJK UNIFIED IDEOGRAPH-5236  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+刻  U+523B  CJK UNIFIED IDEOGRAPH-523B  count=2  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+力  U+529B  CJK UNIFIED IDEOGRAPH-529B  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+办  U+529E  CJK UNIFIED IDEOGRAPH-529E  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+功  U+529F  CJK UNIFIED IDEOGRAPH-529F  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml
+加  U+52A0  CJK UNIFIED IDEOGRAPH-52A0  count=3  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+勤  U+52E4  CJK UNIFIED IDEOGRAPH-52E4  count=3  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml
+即  U+5373  CJK UNIFIED IDEOGRAPH-5373  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+历  U+5386  CJK UNIFIED IDEOGRAPH-5386  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+厚  U+539A  CJK UNIFIED IDEOGRAPH-539A  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+去  U+53BB  CJK UNIFIED IDEOGRAPH-53BB  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+参  U+53C2  CJK UNIFIED IDEOGRAPH-53C2  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+及  U+53CA  CJK UNIFIED IDEOGRAPH-53CA  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+反  U+53CD  CJK UNIFIED IDEOGRAPH-53CD  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+取  U+53D6  CJK UNIFIED IDEOGRAPH-53D6  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+可  U+53EF  CJK UNIFIED IDEOGRAPH-53EF  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+史  U+53F2  CJK UNIFIED IDEOGRAPH-53F2  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+号  U+53F7  CJK UNIFIED IDEOGRAPH-53F7  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+各  U+5404  CJK UNIFIED IDEOGRAPH-5404  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+合  U+5408  CJK UNIFIED IDEOGRAPH-5408  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+名  U+540D  CJK UNIFIED IDEOGRAPH-540D  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+后  U+540E  CJK UNIFIED IDEOGRAPH-540E  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+吗  U+5417  CJK UNIFIED IDEOGRAPH-5417  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+君  U+541B  CJK UNIFIED IDEOGRAPH-541B  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+吧  U+5427  CJK UNIFIED IDEOGRAPH-5427  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+听  U+542C  CJK UNIFIED IDEOGRAPH-542C  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+吾  U+543E  CJK UNIFIED IDEOGRAPH-543E  count=4  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+员  U+5458  CJK UNIFIED IDEOGRAPH-5458  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+周  U+5468  CJK UNIFIED IDEOGRAPH-5468  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+命  U+547D  CJK UNIFIED IDEOGRAPH-547D  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+和  U+548C  CJK UNIFIED IDEOGRAPH-548C  count=3  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+哀  U+54C0  CJK UNIFIED IDEOGRAPH-54C0  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+哉  U+54C9  CJK UNIFIED IDEOGRAPH-54C9  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+哲  U+54F2  CJK UNIFIED IDEOGRAPH-54F2  count=7  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+唯  U+552F  CJK UNIFIED IDEOGRAPH-552F  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+商  U+5546  CJK UNIFIED IDEOGRAPH-5546  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+回  U+56DE  CJK UNIFIED IDEOGRAPH-56DE  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+困  U+56F0  CJK UNIFIED IDEOGRAPH-56F0  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+国  U+56FD  CJK UNIFIED IDEOGRAPH-56FD  count=2  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+圣  U+5723  CJK UNIFIED IDEOGRAPH-5723  count=26  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+在  U+5728  CJK UNIFIED IDEOGRAPH-5728  count=3  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+地  U+5730  CJK UNIFIED IDEOGRAPH-5730  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+场  U+573A  CJK UNIFIED IDEOGRAPH-573A  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+士  U+58EB  CJK UNIFIED IDEOGRAPH-58EB  count=4  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+备  U+5907  CJK UNIFIED IDEOGRAPH-5907  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+复  U+590D  CJK UNIFIED IDEOGRAPH-590D  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+大  U+5927  CJK UNIFIED IDEOGRAPH-5927  count=20  files=3  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+天  U+5929  CJK UNIFIED IDEOGRAPH-5929  count=15  files=3  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+太  U+592A  CJK UNIFIED IDEOGRAPH-592A  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+失  U+5931  CJK UNIFIED IDEOGRAPH-5931  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+头  U+5934  CJK UNIFIED IDEOGRAPH-5934  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+夺  U+593A  CJK UNIFIED IDEOGRAPH-593A  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+奉  U+5949  CJK UNIFIED IDEOGRAPH-5949  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+如  U+5982  CJK UNIFIED IDEOGRAPH-5982  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+妄  U+5984  CJK UNIFIED IDEOGRAPH-5984  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+始  U+59CB  CJK UNIFIED IDEOGRAPH-59CB  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+威  U+5A01  CJK UNIFIED IDEOGRAPH-5A01  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+子  U+5B50  CJK UNIFIED IDEOGRAPH-5B50  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+孝  U+5B5D  CJK UNIFIED IDEOGRAPH-5B5D  count=68  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+学  U+5B66  CJK UNIFIED IDEOGRAPH-5B66  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+宁  U+5B81  CJK UNIFIED IDEOGRAPH-5B81  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+安  U+5B89  CJK UNIFIED IDEOGRAPH-5B89  count=6  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+宏  U+5B8F  CJK UNIFIED IDEOGRAPH-5B8F  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+官  U+5B98  CJK UNIFIED IDEOGRAPH-5B98  count=3  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+定  U+5B9A  CJK UNIFIED IDEOGRAPH-5B9A  count=8  files=3  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+宣  U+5BA3  CJK UNIFIED IDEOGRAPH-5BA3  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+宪  U+5BAA  CJK UNIFIED IDEOGRAPH-5BAA  count=4  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+宫  U+5BAB  CJK UNIFIED IDEOGRAPH-5BAB  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+家  U+5BB6  CJK UNIFIED IDEOGRAPH-5BB6  count=4  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+容  U+5BB9  CJK UNIFIED IDEOGRAPH-5BB9  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+宽  U+5BBD  CJK UNIFIED IDEOGRAPH-5BBD  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+察  U+5BDF  CJK UNIFIED IDEOGRAPH-5BDF  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+对  U+5BF9  CJK UNIFIED IDEOGRAPH-5BF9  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+封  U+5C01  CJK UNIFIED IDEOGRAPH-5C01  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+将  U+5C06  CJK UNIFIED IDEOGRAPH-5C06  count=2  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+尊  U+5C0A  CJK UNIFIED IDEOGRAPH-5C0A  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+尧  U+5C27  CJK UNIFIED IDEOGRAPH-5C27  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+就  U+5C31  CJK UNIFIED IDEOGRAPH-5C31  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+居  U+5C45  CJK UNIFIED IDEOGRAPH-5C45  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+展  U+5C55  CJK UNIFIED IDEOGRAPH-5C55  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+岂  U+5C82  CJK UNIFIED IDEOGRAPH-5C82  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+崇  U+5D07  CJK UNIFIED IDEOGRAPH-5D07  count=3  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+州  U+5DDE  CJK UNIFIED IDEOGRAPH-5DDE  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+差  U+5DEE  CJK UNIFIED IDEOGRAPH-5DEE  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+已  U+5DF2  CJK UNIFIED IDEOGRAPH-5DF2  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+师  U+5E08  CJK UNIFIED IDEOGRAPH-5E08  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+帐  U+5E10  CJK UNIFIED IDEOGRAPH-5E10  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+帝  U+5E1D  CJK UNIFIED IDEOGRAPH-5E1D  count=5  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+常  U+5E38  CJK UNIFIED IDEOGRAPH-5E38  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+平  U+5E73  CJK UNIFIED IDEOGRAPH-5E73  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+年  U+5E74  CJK UNIFIED IDEOGRAPH-5E74  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+并  U+5E76  CJK UNIFIED IDEOGRAPH-5E76  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+广  U+5E7F  CJK UNIFIED IDEOGRAPH-5E7F  count=6  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+庄  U+5E84  CJK UNIFIED IDEOGRAPH-5E84  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+序  U+5E8F  CJK UNIFIED IDEOGRAPH-5E8F  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+座  U+5EA7  CJK UNIFIED IDEOGRAPH-5EA7  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+康  U+5EB7  CJK UNIFIED IDEOGRAPH-5EB7  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+廷  U+5EF7  CJK UNIFIED IDEOGRAPH-5EF7  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+建  U+5EFA  CJK UNIFIED IDEOGRAPH-5EFA  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+引  U+5F15  CJK UNIFIED IDEOGRAPH-5F15  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+弘  U+5F18  CJK UNIFIED IDEOGRAPH-5F18  count=4  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+当  U+5F53  CJK UNIFIED IDEOGRAPH-5F53  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+往  U+5F80  CJK UNIFIED IDEOGRAPH-5F80  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+得  U+5F97  CJK UNIFIED IDEOGRAPH-5F97  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+微  U+5FAE  CJK UNIFIED IDEOGRAPH-5FAE  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+德  U+5FB7  CJK UNIFIED IDEOGRAPH-5FB7  count=12  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml
+必  U+5FC5  CJK UNIFIED IDEOGRAPH-5FC5  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+忠  U+5FE0  CJK UNIFIED IDEOGRAPH-5FE0  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+快  U+5FEB  CJK UNIFIED IDEOGRAPH-5FEB  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+怕  U+6015  CJK UNIFIED IDEOGRAPH-6015  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+思  U+601D  CJK UNIFIED IDEOGRAPH-601D  count=4  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+恢  U+6062  CJK UNIFIED IDEOGRAPH-6062  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+恤  U+6064  CJK UNIFIED IDEOGRAPH-6064  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+恭  U+606D  CJK UNIFIED IDEOGRAPH-606D  count=7  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+悊  U+608A  CJK UNIFIED IDEOGRAPH-608A  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+悼  U+60BC  CJK UNIFIED IDEOGRAPH-60BC  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+惠  U+60E0  CJK UNIFIED IDEOGRAPH-60E0  count=6  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+想  U+60F3  CJK UNIFIED IDEOGRAPH-60F3  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+愍  U+610D  CJK UNIFIED IDEOGRAPH-610D  count=3  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+愚  U+611A  CJK UNIFIED IDEOGRAPH-611A  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+慈  U+6148  CJK UNIFIED IDEOGRAPH-6148  count=6  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+懋  U+61CB  CJK UNIFIED IDEOGRAPH-61CB  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+懿  U+61FF  CJK UNIFIED IDEOGRAPH-61FF  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+戈  U+6208  CJK UNIFIED IDEOGRAPH-6208  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+成  U+6210  CJK UNIFIED IDEOGRAPH-6210  count=7  files=3  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+我  U+6211  CJK UNIFIED IDEOGRAPH-6211  count=6  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+或  U+6216  CJK UNIFIED IDEOGRAPH-6216  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+战  U+6218  CJK UNIFIED IDEOGRAPH-6218  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+所  U+6240  CJK UNIFIED IDEOGRAPH-6240  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+手  U+624B  CJK UNIFIED IDEOGRAPH-624B  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+才  U+624D  CJK UNIFIED IDEOGRAPH-624D  count=4  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+承  U+627F  CJK UNIFIED IDEOGRAPH-627F  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+拉  U+62C9  CJK UNIFIED IDEOGRAPH-62C9  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+拜  U+62DC  CJK UNIFIED IDEOGRAPH-62DC  count=2  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+择  U+62E9  CJK UNIFIED IDEOGRAPH-62E9  count=3  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+拿  U+62FF  CJK UNIFIED IDEOGRAPH-62FF  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+指  U+6307  CJK UNIFIED IDEOGRAPH-6307  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+换  U+6362  CJK UNIFIED IDEOGRAPH-6362  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+掌  U+638C  CJK UNIFIED IDEOGRAPH-638C  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+推  U+63A8  CJK UNIFIED IDEOGRAPH-63A8  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+握  U+63E1  CJK UNIFIED IDEOGRAPH-63E1  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+改  U+6539  CJK UNIFIED IDEOGRAPH-6539  count=3  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+故  U+6545  CJK UNIFIED IDEOGRAPH-6545  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+敏  U+654F  CJK UNIFIED IDEOGRAPH-654F  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+救  U+6551  CJK UNIFIED IDEOGRAPH-6551  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+敢  U+6562  CJK UNIFIED IDEOGRAPH-6562  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+敦  U+6566  CJK UNIFIED IDEOGRAPH-6566  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+敬  U+656C  CJK UNIFIED IDEOGRAPH-656C  count=3  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+数  U+6570  CJK UNIFIED IDEOGRAPH-6570  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+文  U+6587  CJK UNIFIED IDEOGRAPH-6587  count=14  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+新  U+65B0  CJK UNIFIED IDEOGRAPH-65B0  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+方  U+65B9  CJK UNIFIED IDEOGRAPH-65B9  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+旂  U+65C2  CJK UNIFIED IDEOGRAPH-65C2  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+族  U+65CF  CJK UNIFIED IDEOGRAPH-65CF  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+无  U+65E0  CJK UNIFIED IDEOGRAPH-65E0  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+日  U+65E5  CJK UNIFIED IDEOGRAPH-65E5  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+时  U+65F6  CJK UNIFIED IDEOGRAPH-65F6  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+明  U+660E  CJK UNIFIED IDEOGRAPH-660E  count=20  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+昭  U+662D  CJK UNIFIED IDEOGRAPH-662D  count=16  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+是  U+662F  CJK UNIFIED IDEOGRAPH-662F  count=4  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+显  U+663E  CJK UNIFIED IDEOGRAPH-663E  count=4  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+景  U+666F  CJK UNIFIED IDEOGRAPH-666F  count=7  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+暂  U+6682  CJK UNIFIED IDEOGRAPH-6682  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+暴  U+66B4  CJK UNIFIED IDEOGRAPH-66B4  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+更  U+66F4  CJK UNIFIED IDEOGRAPH-66F4  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+有  U+6709  CJK UNIFIED IDEOGRAPH-6709  count=4  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+服  U+670D  CJK UNIFIED IDEOGRAPH-670D  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+朝  U+671D  CJK UNIFIED IDEOGRAPH-671D  count=2  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+本  U+672C  CJK UNIFIED IDEOGRAPH-672C  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+条  U+6761  CJK UNIFIED IDEOGRAPH-6761  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+来  U+6765  CJK UNIFIED IDEOGRAPH-6765  count=4  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+极  U+6781  CJK UNIFIED IDEOGRAPH-6781  count=2  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+果  U+679C  CJK UNIFIED IDEOGRAPH-679C  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+次  U+6B21  CJK UNIFIED IDEOGRAPH-6B21  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+欲  U+6B32  CJK UNIFIED IDEOGRAPH-6B32  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+止  U+6B62  CJK UNIFIED IDEOGRAPH-6B62  count=2  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+正  U+6B63  CJK UNIFIED IDEOGRAPH-6B63  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+此  U+6B64  CJK UNIFIED IDEOGRAPH-6B64  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+武  U+6B66  CJK UNIFIED IDEOGRAPH-6B66  count=14  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+殇  U+6B87  CJK UNIFIED IDEOGRAPH-6B87  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+毅  U+6BC5  CJK UNIFIED IDEOGRAPH-6BC5  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+每  U+6BCF  CJK UNIFIED IDEOGRAPH-6BCF  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+毗  U+6BD7  CJK UNIFIED IDEOGRAPH-6BD7  count=1  files=1  sample=localization/replace/english/z_MB_titles_cultural_names_l_english.yml
+毡  U+6BE1  CJK UNIFIED IDEOGRAPH-6BE1  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+民  U+6C11  CJK UNIFIED IDEOGRAPH-6C11  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+求  U+6C42  CJK UNIFIED IDEOGRAPH-6C42  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+治  U+6CBB  CJK UNIFIED IDEOGRAPH-6CBB  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+洪  U+6D2A  CJK UNIFIED IDEOGRAPH-6D2A  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+济  U+6D4E  CJK UNIFIED IDEOGRAPH-6D4E  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+浑  U+6D51  CJK UNIFIED IDEOGRAPH-6D51  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+渊  U+6E0A  CJK UNIFIED IDEOGRAPH-6E0A  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+温  U+6E29  CJK UNIFIED IDEOGRAPH-6E29  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+满  U+6EE1  CJK UNIFIED IDEOGRAPH-6EE1  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+炀  U+7080  CJK UNIFIED IDEOGRAPH-7080  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+点  U+70B9  CJK UNIFIED IDEOGRAPH-70B9  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+烈  U+70C8  CJK UNIFIED IDEOGRAPH-70C8  count=7  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+犯  U+72AF  CJK UNIFIED IDEOGRAPH-72AF  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+状  U+72B6  CJK UNIFIED IDEOGRAPH-72B6  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+献  U+732E  CJK UNIFIED IDEOGRAPH-732E  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+玄  U+7384  CJK UNIFIED IDEOGRAPH-7384  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+王  U+738B  CJK UNIFIED IDEOGRAPH-738B  count=5  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+理  U+7406  CJK UNIFIED IDEOGRAPH-7406  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+生  U+751F  CJK UNIFIED IDEOGRAPH-751F  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+用  U+7528  CJK UNIFIED IDEOGRAPH-7528  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+的  U+7684  CJK UNIFIED IDEOGRAPH-7684  count=9  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+皆  U+7686  CJK UNIFIED IDEOGRAPH-7686  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+皇  U+7687  CJK UNIFIED IDEOGRAPH-7687  count=7  files=3  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+直  U+76F4  CJK UNIFIED IDEOGRAPH-76F4  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+真  U+771F  CJK UNIFIED IDEOGRAPH-771F  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+睿  U+777F  CJK UNIFIED IDEOGRAPH-777F  count=16  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+瞿  U+77BF  CJK UNIFIED IDEOGRAPH-77BF  count=1  files=1  sample=localization/replace/english/z_MB_titles_cultural_names_l_english.yml
+矣  U+77E3  CJK UNIFIED IDEOGRAPH-77E3  count=3  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+知  U+77E5  CJK UNIFIED IDEOGRAPH-77E5  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+示  U+793A  CJK UNIFIED IDEOGRAPH-793A  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+礼  U+793C  CJK UNIFIED IDEOGRAPH-793C  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+祖  U+7956  CJK UNIFIED IDEOGRAPH-7956  count=3  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+神  U+795E  CJK UNIFIED IDEOGRAPH-795E  count=7  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+种  U+79CD  CJK UNIFIED IDEOGRAPH-79CD  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+科  U+79D1  CJK UNIFIED IDEOGRAPH-79D1  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+称  U+79F0  CJK UNIFIED IDEOGRAPH-79F0  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+穆  U+7A46  CJK UNIFIED IDEOGRAPH-7A46  count=4  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+穷  U+7A77  CJK UNIFIED IDEOGRAPH-7A77  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+空  U+7A7A  CJK UNIFIED IDEOGRAPH-7A7A  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+立  U+7ACB  CJK UNIFIED IDEOGRAPH-7ACB  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+章  U+7AE0  CJK UNIFIED IDEOGRAPH-7AE0  count=5  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+端  U+7AEF  CJK UNIFIED IDEOGRAPH-7AEF  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+符  U+7B26  CJK UNIFIED IDEOGRAPH-7B26  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+第  U+7B2C  CJK UNIFIED IDEOGRAPH-7B2C  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+等  U+7B49  CJK UNIFIED IDEOGRAPH-7B49  count=3  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+简  U+7B80  CJK UNIFIED IDEOGRAPH-7B80  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+篡  U+7BE1  CJK UNIFIED IDEOGRAPH-7BE1  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+素  U+7D20  CJK UNIFIED IDEOGRAPH-7D20  count=2  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+紫  U+7D2B  CJK UNIFIED IDEOGRAPH-7D2B  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+级  U+7EA7  CJK UNIFIED IDEOGRAPH-7EA7  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+纯  U+7EAF  CJK UNIFIED IDEOGRAPH-7EAF  count=6  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+终  U+7EC8  CJK UNIFIED IDEOGRAPH-7EC8  count=2  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+统  U+7EDF  CJK UNIFIED IDEOGRAPH-7EDF  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+罗  U+7F57  CJK UNIFIED IDEOGRAPH-7F57  count=1  files=1  sample=localization/replace/english/z_MB_titles_cultural_names_l_english.yml
+罪  U+7F6A  CJK UNIFIED IDEOGRAPH-7F6A  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+翻  U+7FFB  CJK UNIFIED IDEOGRAPH-7FFB  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+考  U+8003  CJK UNIFIED IDEOGRAPH-8003  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+者  U+8005  CJK UNIFIED IDEOGRAPH-8005  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+聪  U+806A  CJK UNIFIED IDEOGRAPH-806A  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+肃  U+8083  CJK UNIFIED IDEOGRAPH-8083  count=4  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+能  U+80FD  CJK UNIFIED IDEOGRAPH-80FD  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+腐  U+8150  CJK UNIFIED IDEOGRAPH-8150  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+臣  U+81E3  CJK UNIFIED IDEOGRAPH-81E3  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+至  U+81F3  CJK UNIFIED IDEOGRAPH-81F3  count=8  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+良  U+826F  CJK UNIFIED IDEOGRAPH-826F  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+节  U+8282  CJK UNIFIED IDEOGRAPH-8282  count=3  files=2  sample=localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+花  U+82B1  CJK UNIFIED IDEOGRAPH-82B1  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+苍  U+82CD  CJK UNIFIED IDEOGRAPH-82CD  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+若  U+82E5  CJK UNIFIED IDEOGRAPH-82E5  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+英  U+82F1  CJK UNIFIED IDEOGRAPH-82F1  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+获  U+83B7  CJK UNIFIED IDEOGRAPH-83B7  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+菩  U+83E9  CJK UNIFIED IDEOGRAPH-83E9  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+萨  U+8428  CJK UNIFIED IDEOGRAPH-8428  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+落  U+843D  CJK UNIFIED IDEOGRAPH-843D  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+虔  U+8654  CJK UNIFIED IDEOGRAPH-8654  count=3  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+蠢  U+8822  CJK UNIFIED IDEOGRAPH-8822  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+行  U+884C  CJK UNIFIED IDEOGRAPH-884C  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+衍  U+884D  CJK UNIFIED IDEOGRAPH-884D  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+衣  U+8863  CJK UNIFIED IDEOGRAPH-8863  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+裕  U+88D5  CJK UNIFIED IDEOGRAPH-88D5  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+襄  U+8944  CJK UNIFIED IDEOGRAPH-8944  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+要  U+8981  CJK UNIFIED IDEOGRAPH-8981  count=4  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+角  U+89D2  CJK UNIFIED IDEOGRAPH-89D2  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+觳  U+89F3  CJK UNIFIED IDEOGRAPH-89F3  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+言  U+8A00  CJK UNIFIED IDEOGRAPH-8A00  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+计  U+8BA1  CJK UNIFIED IDEOGRAPH-8BA1  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+讨  U+8BA8  CJK UNIFIED IDEOGRAPH-8BA8  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+许  U+8BB8  CJK UNIFIED IDEOGRAPH-8BB8  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+设  U+8BBE  CJK UNIFIED IDEOGRAPH-8BBE  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+识  U+8BC6  CJK UNIFIED IDEOGRAPH-8BC6  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+诏  U+8BCF  CJK UNIFIED IDEOGRAPH-8BCF  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+试  U+8BD5  CJK UNIFIED IDEOGRAPH-8BD5  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+诚  U+8BDA  CJK UNIFIED IDEOGRAPH-8BDA  count=3  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+诛  U+8BDB  CJK UNIFIED IDEOGRAPH-8BDB  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+诸  U+8BF8  CJK UNIFIED IDEOGRAPH-8BF8  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+谱  U+8C31  CJK UNIFIED IDEOGRAPH-8C31  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+贞  U+8D1E  CJK UNIFIED IDEOGRAPH-8D1E  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+责  U+8D23  CJK UNIFIED IDEOGRAPH-8D23  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+败  U+8D25  CJK UNIFIED IDEOGRAPH-8D25  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+贵  U+8D35  CJK UNIFIED IDEOGRAPH-8D35  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+费  U+8D39  CJK UNIFIED IDEOGRAPH-8D39  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+贼  U+8D3C  CJK UNIFIED IDEOGRAPH-8D3C  count=2  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+赏  U+8D4F  CJK UNIFIED IDEOGRAPH-8D4F  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+赐  U+8D50  CJK UNIFIED IDEOGRAPH-8D50  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+赖  U+8D56  CJK UNIFIED IDEOGRAPH-8D56  count=1  files=1  sample=localization/replace/english/z_MB_titles_cultural_names_l_english.yml
+赦  U+8D66  CJK UNIFIED IDEOGRAPH-8D66  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+起  U+8D77  CJK UNIFIED IDEOGRAPH-8D77  count=2  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+足  U+8DB3  CJK UNIFIED IDEOGRAPH-8DB3  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+跌  U+8DCC  CJK UNIFIED IDEOGRAPH-8DCC  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+路  U+8DEF  CJK UNIFIED IDEOGRAPH-8DEF  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+跸  U+8DF8  CJK UNIFIED IDEOGRAPH-8DF8  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+蹼  U+8E7C  CJK UNIFIED IDEOGRAPH-8E7C  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+身  U+8EAB  CJK UNIFIED IDEOGRAPH-8EAB  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+辰  U+8FB0  CJK UNIFIED IDEOGRAPH-8FB0  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+达  U+8FBE  CJK UNIFIED IDEOGRAPH-8FBE  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+过  U+8FC7  CJK UNIFIED IDEOGRAPH-8FC7  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+迎  U+8FCE  CJK UNIFIED IDEOGRAPH-8FCE  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+还  U+8FD8  CJK UNIFIED IDEOGRAPH-8FD8  count=2  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+这  U+8FD9  CJK UNIFIED IDEOGRAPH-8FD9  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+进  U+8FDB  CJK UNIFIED IDEOGRAPH-8FDB  count=2  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+远  U+8FDC  CJK UNIFIED IDEOGRAPH-8FDC  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+选  U+9009  CJK UNIFIED IDEOGRAPH-9009  count=4  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+道  U+9053  CJK UNIFIED IDEOGRAPH-9053  count=3  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml
+那  U+90A3  CJK UNIFIED IDEOGRAPH-90A3  count=1  files=1  sample=localization/replace/english/z_MB_titles_cultural_names_l_english.yml
+部  U+90E8  CJK UNIFIED IDEOGRAPH-90E8  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+都  U+90FD  CJK UNIFIED IDEOGRAPH-90FD  count=3  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+钦  U+94A6  CJK UNIFIED IDEOGRAPH-94A6  count=3  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+问  U+95EE  CJK UNIFIED IDEOGRAPH-95EE  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+闵  U+95F5  CJK UNIFIED IDEOGRAPH-95F5  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+陛  U+965B  CJK UNIFIED IDEOGRAPH-965B  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+难  U+96BE  CJK UNIFIED IDEOGRAPH-96BE  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+靖  U+9756  CJK UNIFIED IDEOGRAPH-9756  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+面  U+9762  CJK UNIFIED IDEOGRAPH-9762  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+顺  U+987A  CJK UNIFIED IDEOGRAPH-987A  count=1  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+预  U+9884  CJK UNIFIED IDEOGRAPH-9884  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+风  U+98CE  CJK UNIFIED IDEOGRAPH-98CE  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+马  U+9A6C  CJK UNIFIED IDEOGRAPH-9A6C  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+驻  U+9A7B  CJK UNIFIED IDEOGRAPH-9A7B  count=1  files=1  sample=localization/replace/english/z_MB_decisions_l_english.yml
+高  U+9AD8  CJK UNIFIED IDEOGRAPH-9AD8  count=2  files=1  sample=localization/replace/english/OE_nianhao_l_english.yml
+鼎  U+9F0E  CJK UNIFIED IDEOGRAPH-9F0E  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+齐  U+9F50  CJK UNIFIED IDEOGRAPH-9F50  count=3  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml
+龙  U+9F99  CJK UNIFIED IDEOGRAPH-9F99  count=1  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+ꞌ  U+A78C  LATIN SMALL LETTER SALTILLO  count=2  files=2  sample=localization/replace/english/dynasties/z_MB_dynasty_names_l_english.yml, localization/replace/english/RICE_cultures_l_english.yml
+！  U+FF01  FULLWIDTH EXCLAMATION MARK  count=9  files=3  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml, localization/replace/english/z_MB_nicknames_l_english.yml
+（  U+FF08  FULLWIDTH LEFT PARENTHESIS  count=11  files=1  sample=localization/replace/english/z_MB_portrait_modifiers_l_english.yml
+）  U+FF09  FULLWIDTH RIGHT PARENTHESIS  count=11  files=1  sample=localization/replace/english/z_MB_portrait_modifiers_l_english.yml
+，  U+FF0C  FULLWIDTH COMMA  count=42  files=3  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/OE_nianhao_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+；  U+FF1B  FULLWIDTH SEMICOLON  count=2  files=1  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml
+？  U+FF1F  FULLWIDTH QUESTION MARK  count=2  files=2  sample=localization/replace/english/event_localization/z_MB_event_localization_l_english.yml, localization/replace/english/z_MB_decisions_l_english.yml
+
+Diagnostic file
+---------------
+All .yml characters, including comments/keys/syntax, are written to missing_chars_all_yml_diagnostic.csv

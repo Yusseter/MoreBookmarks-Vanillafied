@@ -9103,7 +9103,7 @@ LiKhitan20 = {
 	mother = 1413604
 	872.6.6 = {
 		birth = yes
-		add_pressed_claim = title:k_khitan_china
+		add_pressed_claim = title:k_khitan
 	}
 	907.6.1 = {
 		add_pressed_claim = title:k_balhae
@@ -9866,7 +9866,7 @@ LiKhitan20 = {
 	}
 	936.9.1 = {
 		effect = { allow_alliance = character:1412375 }
-		effect = { add_realm_law_skip_effects = crown_authority_3 add_pressed_claim = title:k_yan_china add_pressed_claim = title:d_yunzhong_china }
+		effect = { add_realm_law_skip_effects = crown_authority_3 add_pressed_claim = title:k_youji add_pressed_claim = title:d_yunshuo }
 	}
 	947.5.1 = {
 		trait = ill
@@ -39479,7 +39479,7 @@ Sartaq7 = {
 	}
 	1268.1.1 = {
 		effect = {
-			set_realm_capital = title:c_youzhou_china
+			set_realm_capital = title:c_youzhou
 		}
 	}
 	1294.2.18 = {

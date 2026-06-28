@@ -1018,7 +1018,7 @@ rebgong = {
 }
 
 xingqing = {
-	county = c_xingqing
+	county = c_huaiyuan
 	
 	character_modifier = {
 		name = holy_site_xingqing_effect_name
@@ -2063,7 +2063,7 @@ gilgit = {
 }
 
 suzhou = {
-	county = c_suzhou
+	county = c_suzhou_mbp
 
 	character_modifier = {
 		name = holy_site_suzhou_effect_name
@@ -2891,7 +2891,7 @@ kara_khoja = {
 }
 
 wutaishan = { #五台山
-	county = c_xinzhou_dai_china
+	county = c_xinzhou
 
 	character_modifier = {
 		name = holy_site_wutaishan_effect_name
@@ -3627,7 +3627,7 @@ monforte = {
 #Overall I am aiming for balancing Rajas religions to be the same as the vanilla religions and only having 5 holy sites rather than the new religions having anywhere from 6-12 holy sites
 
 ava = { # Mahamuni Buddhist Temple near present-day Mandalay
-	county = c_maingmaw
+	county = c_ava
 	barony = b_ava
 
 	character_modifier = {
@@ -3638,7 +3638,7 @@ ava = { # Mahamuni Buddhist Temple near present-day Mandalay
 }
 
 mount_nunusaku = {
-	county = c_manggarai
+	county = c_IDO_nusa_nipa
 	barony = b_ruteng
 
 	character_modifier = {
@@ -3690,7 +3690,7 @@ goa_keramat = {
 #}
 
 phnom_kulen = {
-	county = c_aninditapura
+	county = c_angkor
 	barony = b_kbal_spean
 
 	character_modifier = {
@@ -3712,7 +3712,7 @@ laguna_de_bay = {
 }
 
 mount_mayon = {
-	county = c_albay
+	county = c_PHI_ibalong
 	barony = b_sorsogon
 
 	character_modifier = {
@@ -3732,7 +3732,7 @@ kinabalu = {
 }
 
 kawali = {
-	county = c_galuh
+	county = c_JAV_galuh
 	barony = b_kawali
 
 	character_modifier = {
@@ -3860,7 +3860,7 @@ er_hai_lake = {
 }
 
 zizipuwu = {
-	county = c_u_mung
+	county = c_quzhou_1
 	barony = b_zhuti
 
 	character_modifier = {
@@ -3870,7 +3870,7 @@ zizipuwu = {
 }
 
 taihe = {
-	county = c_yon_zon_mi
+	county = c_dali
 	barony = b_dali
 
 	character_modifier = {
@@ -3950,7 +3950,7 @@ karo = {
 }
 
 lake_lanao = {
-	county = c_masiu
+	county = c_PHI_lanao
 
 	character_modifier = {
 		name = holy_site_lake_lanao_effect_name
@@ -3972,7 +3972,7 @@ muang_thaen = {
 	}
 }
 sibsongbanna = {
-	county = c_chiang_hung
+	county = c_chiang_rung
 
 	character_modifier = {
 		name = holy_site_sibsongbanna_effect_name
@@ -4011,7 +4011,7 @@ chiang_mai = {
 	}
 }
 nakhon_phanom = {
-	county = c_nakhon_phanom
+	county = c_mukdahan
 	#barony = b_samosir
 
 	character_modifier = {
@@ -4030,7 +4030,7 @@ sukhothai = {
 	}
 }
 lavo = {
-	county = c_lavapura
+	county = c_lop_buri
 	#barony = b_samosir
 
 	character_modifier = {
@@ -4041,7 +4041,7 @@ lavo = {
 }
 
 pura_besakih = {
-	county = c_bali_sea
+	county = c_IDO_bali
 	barony = b_karangasem
 
 	character_modifier = {
@@ -4052,7 +4052,7 @@ pura_besakih = {
 }
 
 mount_agung = {
-	county = c_bali_sea
+	county = c_IDO_bali
 	barony = b_karangasem
 
 	character_modifier = {
@@ -4063,7 +4063,7 @@ mount_agung = {
 }
 
 prambanan = {
-	county = c_mataram
+	county = c_JAV_mataram
 	barony = b_prambanan
 
 	character_modifier = {
@@ -4074,7 +4074,7 @@ prambanan = {
 }
 
 borobudur = {
-	county = c_mataram
+	county = c_JAV_mataram
 	barony = b_borobudur
 
 	character_modifier = {
@@ -4085,7 +4085,7 @@ borobudur = {
 }
 
 mount_bromo = {
-	county = c_lumajang
+	county = c_JAV_lumajang
 	barony = b_lumajang
 
 	character_modifier = {
@@ -4115,7 +4115,7 @@ sinabung = {
 }
 
 salak = {
-	county = c_pakuanpajajaran
+	county = c_JAV_sunda
 	barony = b_cibadak
 
 	character_modifier = {
@@ -4135,7 +4135,7 @@ cangkuang = {
 }
 
 ciremai = {
-	county = c_pamanukan
+	county = c_JAV_cimanuk
 	barony = b_ciremai
 
 	character_modifier = {
@@ -4158,7 +4158,7 @@ preah_vihear = {
 }
 
 champasak = {
-	county = c_shrestapura
+	county = c_ubon_ratchathani
 	barony = b_phontong
 
 	character_modifier = {
@@ -4169,7 +4169,7 @@ champasak = {
 }
 
 xiangkhouang = {
-	county = c_xiangkhouang
+	county = c_vien_chan
 	barony = b_kham
 
 	character_modifier = {
@@ -4200,7 +4200,7 @@ seponh = {
 }
 
 semar_cave = {
-	county = c_panaraban
+	county = c_JAV_kalingga
 	barony = b_garung
 
 	character_modifier = {
@@ -4211,7 +4211,7 @@ semar_cave = {
 }
 
 blambangan = {
-	county = c_lumajang
+	county = c_JAV_lumajang
 	barony = b_balambangan
 
 	character_modifier = {
@@ -4273,7 +4273,7 @@ bombalai = {
 }
 
 mantaling = {
-	county = c_tomborungan
+	county = c_BOR_kudat
 
 	character_modifier = {
 		name = holy_site_mantaling_effect_name
@@ -4283,7 +4283,7 @@ mantaling = {
 }
 
 marapi = {
-	county = c_darek
+	county = c_SUM_muara_takus
 	barony = b_tanah_datar
 
 	character_modifier = {
@@ -4294,7 +4294,7 @@ marapi = {
 }
 
 merapi = {
-	county = c_mataram
+	county = c_JAV_mataram
 	barony = b_mamrati
 
 	character_modifier = {
@@ -4357,7 +4357,7 @@ pinatubo = {
 }
 
 sandawa = { # Mt Apo
-	county = c_ilianen
+	county = c_PHI_cotabato
 
 	character_modifier = {
 		name = holy_site_sandawa_effect_name
@@ -4387,7 +4387,8 @@ iraya = {
 }
 
 huanggang = {
-	county = c_jianzhou_min_china
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_jianzhou_min_china has second mapping to c_shaowu; manual review needed.
+	county = c_jian_an
 	barony = b_shaowu_jiangle_china
 
 	character_modifier = {
@@ -4438,7 +4439,7 @@ kerinci = {
 }
 
 tarutung = {
-	county = c_barus
+	county = c_SUM_barus
 	barony = b_sibolga
 
 	character_modifier = {
@@ -4449,7 +4450,7 @@ tarutung = {
 }
 
 kaba = {
-	county = c_sungai_serut
+	county = c_SUM_bengkulu
 	barony = b_lebong
 
 	character_modifier = {
@@ -4470,7 +4471,7 @@ parahyangan = {
 }
 
 tahan = {
-	county = c_raub
+	county = c_MAL_semantan
 	barony = b_jerantut
 
 	character_modifier = {
@@ -4499,7 +4500,7 @@ tahan = {
 #}
 
 wanggameti = {
-	county = c_kambera
+	county = c_IDO_humba
 
 	character_modifier = {
 		name = holy_site_wanggameti_effect_name
@@ -4508,7 +4509,7 @@ wanggameti = {
 }
 
 tatamailau = {
-	county = c_belu
+	county = c_IDO_wehale
 
 	character_modifier = {
 		name = holy_site_tatamailau_effect_name
@@ -4518,7 +4519,7 @@ tatamailau = {
 }
 
 nunuk_ragang = {
-	county = c_koningau
+	county = c_BOR_nabawan
 	barony = b_tongod
 
 	character_modifier = {
@@ -4547,7 +4548,7 @@ katingan = {
 #}
 
 maanyan = { # Ma'anyan
-	county = c_banjarmasin
+	county = c_BOR_banjar
 	barony = b_banjarmasin
 
 	character_modifier = {
@@ -4557,7 +4558,7 @@ maanyan = { # Ma'anyan
 }
 
 ngaju = {
-	county = c_seberaung
+	county = c_BOR_tanah_taman
 	
 	character_modifier = {
 		name = holy_site_ngaju_effect_name
@@ -4567,7 +4568,7 @@ ngaju = {
 }
 
 ot_danum = {
-	county = c_sangata
+	county = c_BOR_kutai_utara
 
 	character_modifier = {
 		name = holy_site_ot_danum_effect_name
@@ -4633,7 +4634,7 @@ tidore = {
 #}
 
 daik = {
-	county = c_lingga
+	county = c_SUM_lingga
 
 	character_modifier = {
 		name = holy_site_daik_effect_name
@@ -4693,7 +4694,7 @@ koho_buwabuwa = {
 }
 
 pagai = {
-	county = c_mentawai_islands
+	county = c_mentawai
 	barony = b_bahat_monga
 
 	character_modifier = {
@@ -4804,7 +4805,7 @@ gegalasan = {
 # Zhuang Holy Sites
 
 leizhou = {
-	county = c_gaozhou_china
+	county = c_gaozhou
 
 	character_modifier = {
 		name = holy_site_leizhou_effect_name
@@ -4812,6 +4813,7 @@ leizhou = {
 	}
 }
 chengmai = {
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_yazhou has second mapping to c_lidong; manual review needed.
 	county = c_yazhou
 
 	character_modifier = {
@@ -4820,7 +4822,7 @@ chengmai = {
 	}
 }
 tianzhou = {
-	county = c_baise_china
+	county = c_tianzhou
 
 	character_modifier = {
 		name = holy_site_tianzhou_effect_name
@@ -4836,7 +4838,7 @@ cao_bang = {
 	}
 }
 yongzhou = {
-	county = c_nanning_china
+	county = c_yongzhou_1
 
 	character_modifier = {
 		name = holy_site_yongzhou_effect_name
@@ -4993,7 +4995,7 @@ unakoti = {# unakoti
 	}
 }
 homalin = {# homalin
-	county = c_homalin
+	county = c_monyin
 	barony = b_homalin
 
 	character_modifier = {
@@ -5107,7 +5109,7 @@ zetang = {# zetang
 	}
 }
 muara_takus = {# Muara Takus
-	county = c_rokan
+	county = c_SUM_rokan
 	barony = b_ujung_tanjung
 
 	character_modifier = {
@@ -5116,7 +5118,7 @@ muara_takus = {# Muara Takus
 	}
 }
 muaro_jambi = {# Muaro Jambi
-	county = c_muaro_jambi
+	county = c_SUM_jambi
 	barony = b_muaro_jambi
 
 	character_modifier = {
@@ -5152,7 +5154,7 @@ amne_machin = {# amne_machin
 	}
 }
 tran_quoc = {# tran_quoc
-	county = c_thanh_long
+	county = c_thang_long
 	barony = b_thang_long
 
 	character_modifier = {
@@ -5191,7 +5193,7 @@ rameswaram = {# rameswaram
 	}
 }
 batu_caves = {# batu_caves
-	county = c_klang
+	county = c_MAL_gangganegara
 	barony = b_kuala_langat
 
 	character_modifier = {
@@ -5789,7 +5791,7 @@ nanhanseong = {
 }
 
 baegam = {
-	county = c_anshi_china
+	county = c_LIAO_diezhou
 	barony = b_hesuguan_hesqan_china
 
 	character_modifier = {
@@ -5799,7 +5801,7 @@ baegam = {
 }
 
 gugak = {
-	county = c_xianzhou_sumo_china
+	county = c_BAL_west_hyeondeok
 
 	character_modifier = {
 		name = holy_site_gugak_effect_name
@@ -5809,7 +5811,7 @@ gugak = {
 }
 
 okju = {
-	county = c_nanhai_okjeo_china
+	county = c_BAL_namhae
 
 	character_modifier = {
 		name = holy_site_okju_effect_name
@@ -5835,7 +5837,7 @@ charkir_mudun = {
 }
 
 gyeongju = {
-	county = c_longyuan_china
+	county = c_BAL_northyongwon
 
 	character_modifier = {
 		name = holy_site_gyeongju_effect_name
@@ -5843,7 +5845,7 @@ gyeongju = {
 	}
 }
 ashi = {
-	county = c_achu_china
+	county = c_BAL_west_makhil
 
 	character_modifier = {
 		name = holy_site_ashi_effect_name
@@ -5926,7 +5928,7 @@ tamatsukuri = {
 }
 
 kameda = {
-	county = c_oshima
+	county = c_uskes
 
 	character_modifier = {
 		name = holy_site_kameda_effect_name
@@ -5934,7 +5936,7 @@ kameda = {
 	}
 }
 akan = {
-	county = c_kushiro
+	county = c_simenas
 
 	character_modifier = {
 		name = holy_site_akan_effect_name
@@ -6033,7 +6035,7 @@ sakurao = {
 
 ## Chinese Buddhism ##
 taizhou = {# 天台山 - Tiantai Mountain
-	county = c_taizhou_china
+	county = c_taizhou
 
 	character_modifier = {
 		name = holy_site_taizhou_effect_name
@@ -6042,7 +6044,7 @@ taizhou = {# 天台山 - Tiantai Mountain
 	}
 }
 luoyang = {# Lingyin Temple
-	county = c_luoyang_china
+	county = c_henan
 
 	character_modifier = {
 		name = holy_site_luoyang_effect_name
@@ -6051,7 +6053,7 @@ luoyang = {# Lingyin Temple
 	}
 }
 fanjingshan = {# Fanjinshan
-	county = c_pingyi_china
+	county = c_yizhou_3
 	barony = b_feizhou_sinan_china
 
 	character_modifier = {
@@ -6061,7 +6063,7 @@ fanjingshan = {# Fanjinshan
 	}
 }
 mount_wutai = {# Mount Wutai
-	county = c_luyang_china
+	county = c_luyang
 
 	character_modifier = {
 		name = holy_site_mount_wutai_effect_name
@@ -6070,7 +6072,7 @@ mount_wutai = {# Mount Wutai
 	}
 }
 mount_emei = {# Mount Emei
-	county = c_jiazhou_xichuan_china
+	county = c_jiazhou
 	barony = b_emeishan_china
 
 	character_modifier = {
@@ -6079,7 +6081,7 @@ mount_emei = {# Mount Emei
 	}
 }
 mount_jiuhua = {# Mount Jiuhua
-	county = c_xuanzhou_china
+	county = c_xuanzhou
 	barony = b_jingxian_youzhou_china
 
 	character_modifier = {
@@ -6089,7 +6091,7 @@ mount_jiuhua = {# Mount Jiuhua
 	}
 }
 mount_putuo = {# Mount Putuo
-	county = c_mingzhou_china
+	county = c_mingzhou_1
 	barony = b_wengshan_china
 
 	character_modifier = {
@@ -6101,7 +6103,7 @@ mount_putuo = {# Mount Putuo
 
 ## Other Chinese Holy Sites
 daizhou = { #五台山
-	county = c_daizhou_china
+	county = c_daizhou
 
 	character_modifier = {
 		name = holy_site_daizhou_effect_name
@@ -6112,7 +6114,7 @@ daizhou = { #五台山
 ## Hmong ##
 
 muze = {
-	county = c_goje
+	county = c_muze
 
 	character_modifier = {
 		name = holy_site_muze_effect_name
@@ -6121,7 +6123,7 @@ muze = {
 	}
 }
 wumeng = {
-	county = c_u_mung
+	county = c_quzhou_1
 
 	character_modifier = {
 		name = holy_site_wumeng_effect_name
@@ -6131,7 +6133,7 @@ wumeng = {
 }
 
 xizhou_qian = {
-	county = c_zigui_china
+	county = c_guizhou
 
 	character_modifier = {
 		name = holy_site_xizhou_qian_effect_name
@@ -6140,7 +6142,7 @@ xizhou_qian = {
 	}
 }
 juzhou = {
-	county = c_juzhou_china
+	county = c_juzhou
 
 	character_modifier = {
 		name = holy_site_juzhou_effect_name
@@ -6149,7 +6151,8 @@ juzhou = {
 	}
 }
 zigui = {
-	county = c_xizhou_qian_china
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_xizhou_qian_china has second mapping to c_shangxi; manual review needed.
+	county = c_lingxi
 
 	character_modifier = {
 		name = holy_site_zigui_effect_name
@@ -6170,7 +6173,7 @@ changan = {
 }
 
 xinzhou_wu = { #龙虎山/象山
-	county = c_xinzhou_wu_china
+	county = c_xinhzou
 
 	character_modifier = {
 		name = holy_site_xinzhou_wu_effect_name
@@ -6191,7 +6194,7 @@ qingchengshan = {
 }
 
 shezhou = {
-	county = c_shezhou_china
+	county = c_shezhou
 
 	character_modifier = {
 		name = holy_site_shezhou_effect_name
@@ -6201,7 +6204,7 @@ shezhou = {
 }
 
 runzhou = {
-	county = c_runzhou_china
+	county = c_runzhou
 
 	character_modifier = {
 		name = holy_site_runzhou_effect_name
@@ -6211,7 +6214,7 @@ runzhou = {
 }
 
 meizhou_xichuan = {
-	county = c_meizhou_xichuan_china
+	county = c_meizhou
 
 	character_modifier = {
 		name = holy_site_meizhou_xichuan_effect_name
@@ -6221,7 +6224,7 @@ meizhou_xichuan = {
 }
 
 bozhou_song = {
-	county = c_bozhou_song_china
+	county = c_bozhou
 
 	character_modifier = {
 		name = holy_site_bozhou_song_effect_name
@@ -6241,7 +6244,7 @@ mengzhou = {
 }
 
 yingzhou_jin = {
-	county = c_yingzhou_jin_china
+	county = c_yingzhou_5
 
 	character_modifier = {
 		name = holy_site_yingzhou_jin_effect_name
@@ -6251,7 +6254,7 @@ yingzhou_jin = {
 }
 
 hengshan = {
-	county = c_hengshan_china
+	county = c_hengzhou
 
 	character_modifier = {
 		name = holy_site_hengshan_effect_name
@@ -6262,7 +6265,7 @@ hengshan = {
 ##Confucian
 
 suzhou = {
-	county = c_suzhou
+	county = c_suzhou_mbp
 
 	character_modifier = {
 		name = holy_site_suzhou_effect_name
@@ -6284,7 +6287,7 @@ uliastai = {
 }
 
 baiyin = {
-	county = c_baiyin
+	county = c_zhanyin
 
 	character_modifier = {
 		name = holy_site_baiyin_effect_name
@@ -6324,7 +6327,7 @@ suyab = {
 }
 
 junzhou = {  #武当
-	county = c_junzhou_china
+	county = c_junzhou
 
 	character_modifier = {
 		name = holy_site_junzhou_effect_name
@@ -6357,7 +6360,7 @@ taishan = {
 
 
 shuzhou_huai = { #桐城
-	county = c_shuzhou_huai_china
+	county = c_shuzhou
 
 	character_modifier = {
 		name = holy_site_shuzhou_huai_effect_name
@@ -6367,7 +6370,8 @@ shuzhou_huai = { #桐城
 }
 
 fuzhou_jiangxi = { #临川/金溪
-	county = c_fuzhou_jiangxi_china
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_fuzhou_jiangxi_china has second mapping to c_jianchang; manual review needed.
+	county = c_fuzhou_2
 
 	character_modifier = {
 		name = holy_site_fuzhou_jiangxi_effect_name
@@ -6377,7 +6381,7 @@ fuzhou_jiangxi = { #临川/金溪
 }
 
 yuezhou_chu	= { #岳阳
-	county = c_yuezhou_chu_china
+	county = c_yuezhou_1
 
 	character_modifier = {
 		name = holy_site_yuezhou_chu_effect_name
@@ -6396,7 +6400,7 @@ bianzhou = {
 }
 
 jingzhou_chu = { #荆门
-	county = c_jingzhou_chu_china
+	county = c_jiangling
 
 	character_modifier = {
 		name = holy_site_jingzhou_chu_effect_name
@@ -6406,7 +6410,7 @@ jingzhou_chu = { #荆门
 }
 
 fengxiang = { #横渠
-	county = c_fengxiang_china
+	county = c_fengxiang
 
 	character_modifier = {
 		name = holy_site_fengxiang_effect_name
@@ -6426,7 +6430,8 @@ yichuan = { #伊川
 }
 
 jiangzhou_wu = { #南康
-	county = c_jiangzhou_wu_china
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_jiangzhou_wu_china has second mapping to c_nankang; manual review needed.
+	county = c_yunyang
 
 	character_modifier = {
 		name = holy_site_jiangzhou_wu_effect_name
@@ -6473,7 +6478,7 @@ nurgan = {
 	}
 }
 baishan = {
-	county = c_baishan_china
+	county = c_BAL_east_hyeondeok
 
 	character_modifier = {
 		name = holy_site_baishan_effect_name
@@ -6482,7 +6487,7 @@ baishan = {
 	}
 }
 nem = {
-	county = c_achu_china
+	county = c_BAL_west_makhil
 	character_modifier = {
 		name = holy_site_nem_effect_name
 		prowess = 2
@@ -6501,7 +6506,7 @@ uroghu = {
 }
 
 dulizhen = {
-	county = c_jilizhou_china
+	county = c_LIAO_zhenzhou
 
 	character_modifier = {
 		learning_per_piety_level = 1
@@ -6511,7 +6516,7 @@ dulizhen = {
 ### Taoism
 
 zhuangzi = { # Zhuangzi Temple
-	county = c_songzhou_song_china
+	county = c_songzhou
 
 	character_modifier = {
 		monthly_piety_gain_mult = 0.1
@@ -6544,7 +6549,7 @@ qingcheng_shan = {
 	}
 }
 qiyun_shan = {
-	county = c_shezhou_china
+	county = c_shezhou
 
 	character_modifier = {
 		name = holy_site_qiyun_shan_effect_name
@@ -6552,14 +6557,14 @@ qiyun_shan = {
 	}
 }
 longhu = {
-	county = c_fuzhou_qin_china
+	county = c_fuzhou_5
 
 	character_modifier = {
 		monthly_piety_gain_mult = 0.1
 	}
 }
 wudang_shan = {
-	county = c_junzhou_china
+	county = c_junzhou
 	barony = b_wudangshan_china
 
 	character_modifier = {
@@ -6568,7 +6573,7 @@ wudang_shan = {
 	}
 }
 maoshan = {
-	county = c_runzhou_china
+	county = c_runzhou
 	barony = b_zhangqiu
 
 	character_modifier = {
@@ -6576,7 +6581,7 @@ maoshan = {
 	}
 }
 rencheng = {
-	county = c_yanzhou_china
+	county = c_yanzhou
 
 	character_modifier = {
 		monthly_piety_gain_mult = 0.1
@@ -6584,7 +6589,7 @@ rencheng = {
 }
 
 enshi = {
-	county = c_enshi_china
+	county = c_shizhou_1
 
 	character_modifier = {
 		name = holy_site_enshi_effect_name
@@ -6592,7 +6597,7 @@ enshi = {
 	}
 }
 yuzhou = {
-	county = c_yuzhou_ba_china
+	county = c_yuzhou_2
 
 	character_modifier = {
 		name = holy_site_yuzhou_effect_name
@@ -7142,7 +7147,7 @@ nakkavaram = {
 }
 
 ar_kol = {
-	county = c_hantuman
+	county = c_andamans
 
 	character_modifier = {
 		name = holy_site_ar_kol_effect_name
@@ -7354,7 +7359,7 @@ hachimangu = { # Hachimangu
 #}
 #
 hangzhou = {
-	county = c_hangzhou_china
+	county = c_hangzhou
 
 	character_modifier = {
 		name = holy_site_lingyin_effect_name
@@ -7785,7 +7790,8 @@ sefa_utaki = {
 ## Samarkand already covered elsewhere
 #
 quanzhou = {
-	county = c_quanzhou_china
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_quanzhou_china has second mapping to c_xinghua; manual review needed.
+	county = c_quanzhou
 
 	character_modifier = {
 		name = holy_site_quanzhou_effect_name
@@ -7876,7 +7882,7 @@ turpan = {
 #}
 #
 qiongzhou = {
-	county = c_qiongzhou_china
+	county = c_qiongzhou
 
 	character_modifier = {
 		name = holy_site_qiongzhou_effect_name
@@ -7900,7 +7906,7 @@ amparita = {
 }
 
 buru-sula = {
-	county = c_buru
+	county = c_SuMa_buru-sula
 
 	character_modifier = {
 		name = holy_site_buru_sula_effect_name
@@ -7909,7 +7915,9 @@ buru-sula = {
 }
 
 papua_selatan = {
-	county = c_salawati
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_salawati has second mapping to c_papua_selatan; manual review needed.
+# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_salawati has second mapping to c_sran; manual review needed.
+	county = c_kepala_burung
 
 	character_modifier = {
 		name = holy_site_papua_selatan_effect_name
@@ -7918,7 +7926,7 @@ papua_selatan = {
 }
 
 kepala_burung = {
-	county = c_waigeo
+	county = c_SuMa_raja_ampat
 
 	character_modifier = {
 		name = holy_site_kepala_burung_effect_name
@@ -7934,7 +7942,7 @@ kepala_burung = {
 ## Qiongzhou already covered elsewhere
 #
 hoanya = {
-	county = c_middag
+	county = c_hoanya
 
 	character_modifier = {
 		name = holy_site_hoanya_effect_name
@@ -7943,7 +7951,7 @@ hoanya = {
 }
 
 gangganegara = {
-	county = c_klang
+	county = c_MAL_gangganegara
 
 	character_modifier = {
 		name = holy_site_gangganegara_effect_name

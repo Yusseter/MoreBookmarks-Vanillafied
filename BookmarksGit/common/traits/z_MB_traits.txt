@@ -191,129 +191,6 @@ confucious = {
 	inherit_from_real_father = no
 }
 
-jinshi = { ###进士
-	category = fame	
-	icon = jinshi.dds			
-	learning = 5
-	desc = jinshi_desc
-}
-
-zhuangyuan = { ###状元
-	category = fame			
-	learning = 10
-	desc = zhuangyuan_desc
-}
-
-tea_master = {
-	category = lifestyle
-
-	diplomacy = 2
-	learning = 1
-	
-	same_opinion = 20
-
-	icon = {
-		desc = tea_master.dds
-	}
-
-	ruler_designer_cost = 40
-
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_tea_master_desc
-			}
-			desc = trait_tea_master_character_desc
-		}
-	}
-}
-
-painter = {
-	category = lifestyle
-
-	stewardship = 1
-	learning = 2
-	
-	same_opinion = 20
-
-	icon = {
-		desc = painter.dds
-	}
-
-	ruler_designer_cost = 40
-
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_painter_desc
-			}
-			desc = trait_painter_character_desc
-		}
-	}
-}
-
-musician = {
-	category = lifestyle
-
-	diplomacy = 1
-	monthly_piety = 0.5
-	
-	same_faith_opinion = 5
-	same_opinion = 10
-
-	icon = {
-		desc = musician.dds
-	}
-
-	ruler_designer_cost = 40
-
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_musician_desc
-			}
-			desc = trait_musician_character_desc
-		}
-	}
-}
-
-dancer = {
-	category = lifestyle
-
-	learning = 1
-	defender_advantage = 5
-	
-	attraction_opinion = 5
-	same_opinion = 10
-
-	icon = {
-		desc = dancer.dds
-	}
-
-	ruler_designer_cost = 40
-
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = {
-					NOT = { exists = this }
-				}
-				desc = trait_dancer_desc
-			}
-			desc = trait_dancer_character_desc
-		}
-	}
-}
-
 child_of_adoption = {
 	category = fame
 
@@ -355,6 +232,156 @@ minamoto_clan = {
 
 	icon = {
 		desc = minamoto_clan.dds
+	}
+
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_minamoto_clan_desc
+			}
+			desc = trait_minamoto_clan_character_desc
+		}
+	}
+}
+
+minamoto_murakami_clan = {
+	category = fame
+
+	monthly_prestige = 0.02
+	courtier_opinion = 2
+
+	# Always inherited from fathers
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	icon = {
+		desc = minamoto_murakami_clan.dds
+	}
+
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_minamoto_clan_desc
+			}
+			desc = trait_minamoto_clan_character_desc
+		}
+	}
+}
+
+minamoto_saga_clan = {
+	category = fame
+
+	monthly_prestige = 0.02
+	courtier_opinion = 2
+
+	# Always inherited from fathers
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	icon = {
+		desc = minamoto_saga_clan.dds
+	}
+
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_minamoto_clan_desc
+			}
+			desc = trait_minamoto_clan_character_desc
+		}
+	}
+}
+
+minamoto_uda_clan = {
+	category = fame
+
+	monthly_prestige = 0.02
+	courtier_opinion = 2
+
+	# Always inherited from fathers
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	icon = {
+		desc = minamoto_uda_clan.dds
+	}
+
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_minamoto_clan_desc
+			}
+			desc = trait_minamoto_clan_character_desc
+		}
+	}
+}
+
+minamoto_seiwa_clan = {
+	category = fame
+
+	monthly_prestige = 0.02
+	courtier_opinion = 2
+
+	# Always inherited from fathers
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	icon = {
+		desc = minamoto_seiwa_clan.dds
+	}
+
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_minamoto_clan_desc
+			}
+			desc = trait_minamoto_clan_character_desc
+		}
+	}
+}
+
+minamoto_daigo_clan = {
+	category = fame
+
+	monthly_prestige = 0.02
+	courtier_opinion = 2
+
+	# Always inherited from fathers
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	icon = {
+		desc = minamoto_daigo_clan.dds
 	}
 
 	ruler_designer_cost = 20
@@ -428,6 +455,126 @@ fujiwara_clan = {
 				desc = trait_fujiwara_clan_desc
 			}
 			desc = trait_fujiwara_clan_character_desc
+		}
+	}
+}
+
+fujiwara_nanke_clan = {
+	category = fame
+
+	monthly_prestige = 0.02
+	clergy_opinion = 2
+
+	# Always inherited from fathers
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	icon = {
+		desc = fujiwara_nanke_clan.dds
+	}
+
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fujiwara_nanke_clan_desc
+			}
+			desc = trait_fujiwara_nanke_clan_character_desc
+		}
+	}
+}
+
+fujiwara_kyoke_clan = {
+	category = fame
+
+	monthly_prestige = 0.02
+	clergy_opinion = 2
+
+	# Always inherited from fathers
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	icon = {
+		desc = fujiwara_kyoke_clan.dds
+	}
+
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fujiwara_kyoke_clan_desc
+			}
+			desc = trait_fujiwara_kyoke_clan_character_desc
+		}
+	}
+}
+
+fujiwara_shikike_clan = {
+	category = fame
+
+	monthly_prestige = 0.02
+	clergy_opinion = 2
+
+	# Always inherited from fathers
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	icon = {
+		desc = fujiwara_shikike_clan.dds
+	}
+
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fujiwara_shikike_clan_desc
+			}
+			desc = trait_fujiwara_shikike_clan_character_desc
+		}
+	}
+}
+
+fujiwara_oshu_clan = {
+	category = fame
+
+	monthly_prestige = 0.02
+	clergy_opinion = 2
+
+	# Always inherited from fathers
+	inherit_chance = 100
+	parent_inheritance_sex = male
+	inherit_from_real_father = no
+
+	icon = {
+		desc = fujiwara_oshu_clan.dds
+	}
+
+	ruler_designer_cost = 20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_fujiwara_oshu_clan_desc
+			}
+			desc = trait_fujiwara_oshu_clan_character_desc
 		}
 	}
 }

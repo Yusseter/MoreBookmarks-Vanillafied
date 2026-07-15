@@ -51051,7 +51051,7 @@ e_kambuja = {
 		holder = 420010000
 	}
 	835.1.1 = {
-		holder = 42000011
+		holder = khmer_varman_9
 	}
 	877.1.1 = {
 		holder = 42000012
@@ -51203,7 +51203,7 @@ k_funan = {
 		holder = 420010000
 	}
 	835.1.1 = {
-		holder = 42000011
+		holder = khmer_varman_9
 	}
 	877.1.1 = {
 		holder = 42000012
@@ -51307,7 +51307,7 @@ d_kambuja_devaraja = {
 		holder = 420010000
 	}
 	835.1.1 = {
-		holder = 42000011
+		holder = khmer_varman_9
 	}
 	877.1.1 = {
 		holder = 42000012
@@ -51604,7 +51604,7 @@ c_koh_ker = {
 		holder = 420010000
 	}
 	835.1.1 = {
-		holder = 42000011
+		holder = khmer_varman_9
 	}
 	877.1.1 = {
 		holder = 42000012
@@ -52144,7 +52144,7 @@ d_angkor = {
 # EAST_TITLE_REWRITE_COLLISION: direct c_aninditapura -> c_angkor; same-run duplicate target in history_titles; manual merge needed.
 c_angkor = {
 	835.1.1 = {
-		holder = 42000011
+		holder = khmer_varman_9
 	}
 }
 ### Yusseter: COMMENTED FOR TESTING
@@ -55167,7 +55167,7 @@ d_haripunjaya = {
 		holder=1000202042 #Mahayasa
 	}
 	829.1.1 = {
-		holder=1000202043 #Kumanna
+		holder=haripunjaya_ruler_7 #Kumanna
 	}
 	869.1.1 = {
 		holder=1000202044 #Rudanta
@@ -55348,7 +55348,7 @@ c_haripunjaya = {
 		holder=1000202042 #Mahayasa
 	}
 	829.1.1 = {
-		holder=1000202043 #Kumanna
+		holder=haripunjaya_ruler_7 #Kumanna
 	}
 	869.1.1 = {
 		holder=1000202044 #Rudanta
@@ -55527,7 +55527,7 @@ c_lampang = {
 		holder=1000202042 #Mahayasa
 	}
 	829.1.1 = {
-		holder=1000202043 #Kumanna
+		holder=haripunjaya_ruler_7 #Kumanna
 	}
 	869.1.1 = {
 		holder=1000202044 #Rudanta
@@ -55928,7 +55928,7 @@ c_hlaingbwe = {
 		holder=1000202042 #Mahayasa
 	}
 	829.1.1 = {
-		holder=1000202043 #Kumanna
+		holder=haripunjaya_ruler_7 #Kumanna
 	}
 	869.1.1 = {
 		holder=1000202044 #Rudanta
@@ -56080,7 +56080,7 @@ c_sukhothai = {
 		holder=1000202042 #Mahayasa
 	}
 	829.1.1 = {
-		holder=1000202043 #Kumanna
+		holder=haripunjaya_ruler_7 #Kumanna
 	}
 	869.1.1 = {
 		holder=1000202044 #Rudanta
@@ -56229,7 +56229,7 @@ c_chakangrao = {
 		holder=1000202042 #Mahayasa
 	}
 	829.1.1 = {
-		holder=1000202043 #Kumanna
+		holder=haripunjaya_ruler_7 #Kumanna
 	}
 	869.1.1 = {
 		holder=1000202044 #Rudanta
@@ -58003,8 +58003,10 @@ k_viet = {
 	#863.1.1 = { holder = 0 } #Song Rong
 	#864.1.1 = { holder = 0 } #Zhang Yin
 	865.7.27 = { holder = bohai_gao_275 liege = h_china } #Gao Pian
+	865.7.27 = { holder = han_3310 liege = h_china } #Gao Pian
 	866.7.16 = { holder = 1406392 name = JINGHAI } #Wang Yanqguan
 	866.11.11 = { holder = bohai_gao_275 } #Gao Pian
+	866.11.11 = { holder = han_3310 } #Gao Pian
 	868.8.22 = { holder = bohai_gao_285 } #Gao Xun
 	873.1.1 = { holder = 1400462 } #Zeng Yan
 	#Jinghai
@@ -58020,6 +58022,7 @@ k_viet = {
 	
 	#Ngo dynasty
 	944.2.14 = { holder = 1418005 reset_name = yes effect = { set_coa = k_viet } } #Duong Tam Kha
+	944.2.14 = { holder = 1418005 } #Duong Tam Kha
 	950.1.1 = { holder = 1418011 government = feudal_government } #Ngo Xuong Ngap
 	954.2.20 = { holder = 1418014 liege = 0 } #Ngo Xuong Van
 	965.1.1 = { holder = 0 }
@@ -58761,9 +58764,9 @@ d_thang_long = {
 	#862.1.1 = { holder = 0 } #Cai Xi
 	#863.1.1 = { holder = 0 } #Song Rong
 	#864.1.1 = { holder = 0 } #Zhang Yin
-	865.7.27 = { holder = bohai_gao_275 liege = h_china } #Gao Pian
+	865.7.27 = { holder = han_3310 liege = h_china } #Gao Pian
 	866.7.16 = { holder = 1406392 } #Wang Yanqguan
-	866.11.11 = { holder = bohai_gao_275 } #Gao Pian
+	866.11.11 = { holder = han_3310 } #Gao Pian
 	868.8.22 = { holder = bohai_gao_285 } #Gao Xun
 	873.1.1 = { holder = 1400462 } #Zeng Yan
 	#Jinghai
@@ -58793,7 +58796,7 @@ d_thang_long = {
 	#Ly Dynasty
 	1009.11.19 = { holder = nha_ly_002 } #Ly Cong Uan
 	1028.3.31 = { holder = nha_ly_003 } #Ly Phat Ma
-	1054.11.3 = { holder = nha_ly_012 } #Ly Nhat Ton
+	1054.11.3 = { holder = viet_ly_10 } #Ly Nhat Ton
 	1072.2.1 = { holder = nha_ly_020 } #Ly Kien Duc
 	1128.1.15 = { holder = nha_ly_025 } #Ly Doang Hoan
 	1138.10.31 = { holder = nha_ly_033 } #Ly Thien To
@@ -58971,9 +58974,9 @@ c_thang_long = {
 	# #Cai Xi
 	# #Song Rong
 	# #Zhang Yin
-	865.7.27 = { holder = bohai_gao_275 } #Gao Pian
+	865.7.27 = { holder = han_3310 } #Gao Pian
 	866.7.16 = { holder = 1406392 } #Wang Yanqguan
-	866.11.11 = { holder = bohai_gao_275 } #Gao Pian
+	866.11.11 = { holder = han_3310 } #Gao Pian
 	868.8.22 = { holder = bohai_gao_285 } #Gao Xun
 	873.1.1 = { holder = 1400462 } #Zeng Yan
 	#Jinghai
@@ -59002,7 +59005,7 @@ c_thang_long = {
 	#Ly Dynasty
 	1009.11.19 = { holder = nha_ly_002 } #Ly Cong Uan
 	1028.3.31 = { holder = nha_ly_003 } #Ly Phat Ma
-	1054.11.3 = { holder = nha_ly_012 } #Ly Nhat Ton
+	1054.11.3 = { holder = viet_ly_10 } #Ly Nhat Ton
 	1072.2.1 = { holder = nha_ly_020 } #Ly Kien Duc
 	1128.1.15 = { holder = nha_ly_025 } #Ly Doang Hoan
 	1138.10.31 = { holder = nha_ly_033 } #Ly Thien To
@@ -62629,7 +62632,7 @@ k_dali = {
 	1022.1.1 = { holder = 1417080 } #Duan Sulong
 	1026.1.1 = { holder = 1417081 } #Duan Suzhen
 	1041.1.1 = { holder = 1417083 } #Duan Suxing
-	1044.1.1 = { holder = 1417087 } #Duan Silian
+	1044.1.1 = { holder = dali_duan_12 } #Duan Silian
 	1075.1.1 = { holder = 1417089 } #Duan Lianyi
 	1080.1.1 = { holder = 1417198 } #Yang Yizhen
 	1080.5.1 = { holder = 1417090 } #Duan Shouhui
@@ -62765,7 +62768,7 @@ c_dali = {
 	1022.1.1 = { holder = 1417080 } #Duan Sulong
 	1026.1.1 = { holder = 1417081 } #Duan Suzhen
 	1041.1.1 = { holder = 1417083 } #Duan Suxing
-	1044.1.1 = { holder = 1417087 } #Duan Silian
+	1044.1.1 = { holder = dali_duan_12 } #Duan Silian
 	1075.1.1 = { holder = 1417089 } #Duan Lianyi
 	1080.1.1 = { holder = 1417198 } #Yang Yizhen
 	1080.5.1 = { holder = 1417090 } #Duan Shouhui
@@ -66004,7 +66007,7 @@ k_yavakadvipa = {
 		holder=1000080549 #Pikatan
 	}
 	856.1.1={
-		holder=1000080552 #Lokapala I
+		holder=javanese_sanjaya_07 #Lokapala I
 	}
 	890.1.1={
 		holder=1000080553 #Teguh
@@ -66557,7 +66560,7 @@ c_JAV_janggala = {
 		holder=1000080549 #Pikatan
 	}
 	856.1.1={
-		holder=1000080552 #Lokapala I
+		holder=javanese_sanjaya_07 #Lokapala I
 	}
 	890.1.1={
 		holder=1000080553 #Teguh
@@ -66973,7 +66976,7 @@ c_JAV_madura = {
 		holder=1000080549 #Pikatan
 	}
 	856.1.1={
-		holder=1000080552 #Lokapala I
+		holder=javanese_sanjaya_07 #Lokapala I
 	}
 	890.1.1={
 		holder=1000080553 #Teguh
@@ -67172,7 +67175,7 @@ c_JAV_lumajang = {
 		holder=1000080549 #Pikatan
 	}
 	856.1.1={
-		holder=1000080552 #Lokapala I
+		holder=javanese_sanjaya_07 #Lokapala I
 	}
 	890.1.1={
 		holder=1000080553 #Teguh
@@ -67725,7 +67728,7 @@ c_IDO_bali = {
 		holder=1000080549 #Pikatan
 	}
 	856.1.1={
-		holder=1000080552 #Lokapala I
+		holder=javanese_sanjaya_07 #Lokapala I
 	}
 
 	#Warmadewa Dynasty
@@ -69484,7 +69487,7 @@ d_BOR_kutai = { #The only semi historical part for this entire island
 		holder = kutai015
 	}
 	832.1.1 = {
-		holder = kutai016
+		holder = dayak_segara_11
 	}
 	879.1.1 = {
 		holder = kutai017
@@ -69526,7 +69529,7 @@ d_BOR_kutai = { #The only semi historical part for this entire island
 		holder=1000201284 #Suria
 	}
 	#1293.1.1={
-	#	liege="k_yavakadvipa"
+	#	liege="e_java"
 	#}
 	1320.1.1={
 		holder=1000201285 #Jiwa
@@ -69580,7 +69583,7 @@ c_BOR_martapura = {
 		holder = kutai015
 	}
 	832.1.1 = {
-		holder = kutai016
+		holder = dayak_segara_11
 	}
 	879.1.1 = {
 		holder = kutai017
@@ -69675,7 +69678,7 @@ c_BOR_kutai_utara = {
 		holder = kutai015
 	}
 	832.1.1 = {
-		holder = kutai016
+		holder = dayak_segara_11
 	}
 	879.1.1 = {
 		holder = kutai017
@@ -69770,7 +69773,7 @@ c_BOR_berau = {
 		holder = kutai015
 	}
 	832.1.1 = {
-		holder = kutai016
+		holder = dayak_segara_11
 	}
 	879.1.1 = {
 		holder = kutai017
@@ -70583,68 +70586,71 @@ k_malayadvipa = {
 c_andamans = {
 
 	#Akar-Bale Dynasty (placeholders)
-	750.1.1={
-		holder=1000203960 #Tsokbi-dala
+	730.1.1 = {
+		holder = Indonesia289  # Zambudipa
 	}
-	780.1.1={
-		holder=1000203961 #Elpe-dala
+	742.9.25 = {
+		holder = Indonesia290  # Thaduka
 	}
-	810.1.1={
-		holder=1000203962 #Yega-dala
+	771.6.14 = {
+		holder = Indonesia291  # Uppala (eldest son)
 	}
-	840.1.1={
-		holder=1000201746 #Bora-dala
+	798.11.8 = {
+		holder = Indonesia293  # Vibol (son of Uppala)
 	}
-	870.1.1={
-		holder=1000201747 #Yega-dala
+	829.7.23 = {
+		holder = Indonesia294  # Wareru (eldest son of Vibol)
 	}
-	900.1.1={
-		holder=1000201748 #Chormila-dala
+	857.2.4 = {
+		holder = Indonesia296  # Rathanak
 	}
-	930.1.1={
-		holder=1000201749 #Lipa-dala
+	885.9.19 = {
+		holder = Indonesia297  # Piseth
 	}
-	960.1.1={
-		holder=1000201750 #Bani-dala
+	914.8.30 = {
+		holder = Indonesia298  # Dhammazedi
 	}
-	990.1.1={
-		holder=1000201751 #Kea-dala
+	943.4.8 = {
+		holder = Indonesia299  # Ponleak (eldest son)
 	}
-	1020.1.1={
-		holder=1000201752 #Meo-dala
+	972.12.15 = {
+		holder = Indonesia301  # Sovann
 	}
-	1050.1.1={
-		holder=1000076208 #Golat-dala
+	1001.6.11 = {
+		holder = Indonesia302  # Chakra
 	}
-	1080.1.1={
-		holder=1000201753 #Tsop-dala
+	1030.3.28 = {
+		holder = Indonesia303  # Narith (eldest son)
 	}
-	1110.1.1={
-		holder=1000201754 #Maro-dala
+	1059.11.14 = {
+		holder = Indonesia305  # Samnang
 	}
-	1140.1.1={
-		holder=1000201755 #Buio-dala
+	1088.9.3 = {
+		holder = Indonesia306  # Razadarit
 	}
-	1170.1.1={
-		holder=1000201756 #Tsokbi-dala
+	1117.5.19 = {
+		holder = Indonesia307  # Thuganda (eldest son)
 	}
-	1200.1.1={
-		holder=1000201757 #Kidseri-dala
+	1146.1.24 = {
+		holder = Indonesia309  # Sorya
 	}
-	1230.1.1={
-		holder=1000201758 #Nggongala-dala
+	1175.10.6 = {
+		holder = Indonesia310  # Vireak (eldest son)
 	}
-	1260.1.1={
-		holder=1000201759 #Birola-dala
+	1204.7.28 = {
+		holder = Indonesia312  # Kosal
 	}
-	1290.1.1={
-		holder=1000201760 #Jaro-dala
+	1233.3.5 = {
+		holder = Indonesia313  # Visoth (eldest son)
 	}
-	1320.1.1={
-		holder=1000201761 #Tseo-dala
+	1262.9.22 = {
+		holder = Indonesia315  # Davuth (eldest son)
 	}
-	1350.1.1={
-		holder=1000201762 #Nimi-dala
+	1291.8.27 = {
+		holder = Indonesia317  # Sopheak (eldest son)
+	}
+	1320.4.19 = {
+		holder = Indonesia319  # Ponlok
 	}
 
 
@@ -72797,28 +72803,94 @@ c_nias = {
 	867.1.1 = { change_development_level = 1 }
 	1066.1.1 = { change_development_level = 3 }
 
-
-	760.1.1 = {  holder = malayMB344 }
-	820.1.1 = {  holder = malayMB345 }
-	840.1.1 = {  holder = malayMB346 }
-	860.1.1 = {  holder = malayMB347 }
-	900.1.1 = {  holder = malayMB348 }
-	930.1.1 = {  holder = malayMB349 }
-	955.1.1 = {  holder = malayMB350 }
-	980.1.1 = {  holder = malayMB351 }
-	1005.1.1 = { holder = malayMB352 }
-	1040.1.1 = { holder = malayMB353 	 }
-	1070.1.1 = { holder = malayMB354 	 }
-	1100.1.1 = { holder = malayMB355 	 }
-	1115.1.1 = { holder = malayMB356 	 }
-	1140.1.1 = { holder = malayMB357 	 }
-	1180.1.1 = { holder = malayMB358 	 }
-	1210.1.1 = { holder = malayMB359 	 }
-	1250.1.1 = { holder = malayMB360 	 }
-	1300.1.1 = { holder = malayMB361 	 }
-	1325.1.1 = { holder = malayMB362 	 }
-
-
+	730.1.1 = {
+		holder = Indonesia33  # Purnawarman (covers 769 bookmark)
+	}
+	
+	767.9.25 = {
+		holder = Indonesia34  # Warmadewa (eldest son)
+	}
+	
+	796.2.8 = {
+		holder = Indonesia36  # Dharmasetu
+	}
+	
+	824.10.17 = {
+		holder = Indonesia37  # Sanjaya (eldest son)
+	}
+	
+	852.1.15 = {
+		holder = Indonesia39  # Samaratungga
+	}
+	
+	880.8.22 = {
+		holder = Indonesia40  # Pikatan (eldest son)
+	}
+	
+	908.2.13 = {
+		holder = Indonesia43  # Balitung
+	}
+	
+	936.3.31 = {
+		holder = Indonesia44  # Sindok
+	}
+	
+	964.12.24 = {
+		holder = Indonesia45  # Makutawangsawardhana
+	}
+	
+	992.10.12 = {
+		holder = Indonesia46  # Dharmawangsa
+	}
+	
+	1020.1.27 = {
+		holder = Indonesia47  # Airlangga (eldest son)
+	}
+	
+	1048.4.3 = {
+		holder = Indonesia49  # Jayabaya
+	}
+	
+	1076.11.4 = {
+		holder = Indonesia50  # Kameswara (eldest son)
+	}
+	
+	1104.2.20 = {
+		holder = Indonesia52  # Jayasakti
+	}
+	
+	1132.9.29 = {
+		holder = Indonesia53  # Kertajaya
+	}
+	
+	1160.12.17 = {
+		holder = Indonesia54  # Ranggawuni
+	}
+	
+	1188.3.13 = {
+		holder = Indonesia55  # Kertarajasa (eldest son)
+	}
+	
+	1216.6.27 = {
+		holder = Indonesia57  # Jayanagara
+	}
+	
+	1244.1.2 = {
+		holder = Indonesia58  # Adityawarman (eldest son)
+	}
+	
+	1272.4.20 = {
+		holder = Indonesia60  # Hayamwuruk
+	}
+	
+	1300.7.24 = {
+		holder = Indonesia61  # Rajasanagara (eldest son)
+	}
+	
+	1328.10.16 = {
+		holder = Indonesia63  # Girishawardhana
+	}
+	
 }
 
 #d_pariaman = {
@@ -73364,26 +73436,96 @@ c_SUM_jambi = {
 #}
 c_SUM_karang_brahi = {
 
-	760.1.1 = {  holder = malayMB173 liege = e_srivijaya }
-	820.1.1 = {  holder = malayMB174 }
-	840.1.1 = {  holder = malayMB175 }
-	860.1.1 = {  holder = malayMB176 }
-	900.1.1 = {  holder = malayMB177 }
-	930.1.1 = {  holder = malayMB178 }
-	955.1.1 = {  holder = malayMB179 }
-	980.1.1 = {  holder = malayMB180 }
-	1005.1.1 = { holder = malayMB181 }
-	1040.1.1 = { holder = malayMB182 	 }
-	1070.1.1 = { holder = malayMB183 	 }
-	1100.1.1 = { holder = malayMB184 	 }
-	1115.1.1 = { holder = malayMB185 	 }
-	1140.1.1 = { holder = malayMB186 	 }
-	1180.1.1 = { holder = malayMB187 	 }
-	1210.1.1 = { holder = malayMB188 	 }
-	1250.1.1 = { holder = malayMB189 	 }
+	730.1.1 = {
+		holder = Indonesia543  # Purnawarman (covers the 769 bookmark)
+	}
+	
+	748.9.27 = {
+		holder = Indonesia544  # Dharmawarman
+		liege = e_srivijaya
+	}
+	
+	776.3.5 = {
+		holder = Indonesia545  # Suryawarman
+	}
+	
+	804.11.9 = {
+		holder = Indonesia546  # Wisnu
+	}
+	
+	832.6.14 = {
+		holder = Indonesia547  # Candrawarman
+	}
+	
+	861.1.22 = {
+		holder = Indonesia548  # Airlangga
+	}
+	
+	890.7.18 = {
+		holder = Indonesia549  # Jayawarsa (eldest son of Airlangga)
+	}
+	
+	919.5.6 = {
+		holder = Indonesia551  # Warmadewa (eldest son of Jayawarsa)
+	}
+	
+	948.2.9 = {
+		holder = Indonesia554  # Kertanagara
+	}
+	
+	977.9.3 = {
+		holder = Indonesia557  # Jayanagara
+	}
+	
+	1006.2.11 = {
+		holder = Indonesia560  # Hayamwuruk
+	}
+	
+	1035.5.26 = {
+		holder = Indonesia563  # Narayana (eldest son of Hayamwuruk)
+	}
+	
+	1064.3.30 = {
+		holder = Indonesia567  # Rajasanagara
+	}
+	
+	1093.10.6 = {
+		holder = Indonesia571  # Mada
+	}
+	
+	1122.4.7 = {
+		holder = Indonesia576  # Brawijaya
+	}
+	
+	1151.1.17 = {
+		holder = Indonesia581  # Ranawikrama
+	}
+	
+	1180.10.2 = {
+		holder = Indonesia586  # Hadiwijaya
+	}
+	
+	1209.7.25 = {
+		holder = Indonesia591  # Mangkunagara
+	}
+	
+	1238.2.5 = {
+		holder = Indonesia596  # Tunggawijaya
+	}
+	
+	1267.1.26 = {
+		holder = Indonesia601  # Sudirman
+	}
+	
 	1286.1.1 = { liege = d_SUM_jambi 	 }
-	1300.1.1 = { holder = malayMB190 	 }
-	1325.1.1 = { holder = malayMB191 	 }
+	
+	1296.11.18 = {
+		holder = Indonesia606  # Wirabumi
+	}
+	
+	1325.9.25 = {
+		holder = Indonesia611  # Bayu (extends beyond 1337)
+	}
 
 }
 ### Yusseter: COMMENTED FOR TESTING
@@ -73696,57 +73838,174 @@ c_mentawai = {
 	867.1.1 = { change_development_level = 1 }
 	1066.1.1 = { change_development_level = 3 }
 
-	760.1.1 = {  holder = malayMB344 }
-	820.1.1 = {  holder = malayMB345 }
-	840.1.1 = {  holder = malayMB346 }
-	860.1.1 = {  holder = malayMB347 }
-	900.1.1 = {  holder = malayMB348 }
-	930.1.1 = {  holder = malayMB349 }
-	955.1.1 = {  holder = malayMB350 }
-	980.1.1 = {  holder = malayMB351 }
-	1005.1.1 = { holder = malayMB352 }
-	1040.1.1 = { holder = malayMB353 	 }
-	1070.1.1 = { holder = malayMB354 	 }
-	1100.1.1 = { holder = malayMB355 	 }
-	1115.1.1 = { holder = malayMB356 	 }
-	1140.1.1 = { holder = malayMB357 	 }
-	1180.1.1 = { holder = malayMB358 	 }
-	1210.1.1 = { holder = malayMB359 	 }
-	1250.1.1 = { holder = malayMB360 	 }
-	1300.1.1 = { holder = malayMB361 	 }
-	1325.1.1 = { holder = malayMB362 	 }
+	730.1.1 = {
+		holder = Indonesia66  # Warmadewa (covers 769 bookmark)
+	}
+	
+	741.9.28 = {
+		holder = Indonesia67  # Dharmasetu
+	}
+	
+	769.12.3 = {
+		holder = Indonesia68  # Suryawarman
+	}
+	
+	798.7.11 = {
+		holder = Indonesia69  # Balaputradewa
+	}
+	
+	826.4.19 = {
+		holder = Indonesia70  # Airlangga
+	}
+	
+	855.10.27 = {
+		holder = Indonesia71  # Mulawarman
+	}
+	
+	883.8.15 = {
+		holder = Indonesia72  # Jaya
+	}
+	
+	912.3.6 = {
+		holder = Indonesia73  # Kertanagara
+	}
+	
+	941.11.29 = {
+		holder = Indonesia74  # Hayamwuruk
+	}
+	
+	970.6.23 = {
+		holder = Indonesia75  # Wijaya
+	}
+	
+	998.12.14 = {
+		holder = Indonesia76  # Tribhuwanaraja
+	}
+	
+	1027.9.8 = {
+		holder = Indonesia77  # Dharmawarman
+	}
+	
+	1056.2.19 = {
+		holder = Indonesia78  # Brawijaya (eldest son)
+	}
+	
+	1085.11.12 = {
+		holder = Indonesia81  # Rajasanagara
+	}
+	
+	1114.7.24 = {
+		holder = Indonesia84  # Dharmawangsa
+	}
+	
+	1143.12.28 = {
+		holder = Indonesia87  # Wisnuwardhana (eldest son)
+	}
+	
+	1172.5.13 = {
+		holder = Indonesia91  # Kertawardhana
+	}
+	
+	1201.10.18 = {
+		holder = Indonesia95  # Adityawarman (eldest son)
+	}
+	
+	1230.6.14 = {
+		holder = Indonesia101  # Anusapati
+	}
+	
+	1259.3.9 = {
+		holder = Indonesia107  # Gajah_Mada (eldest son)
+	}
+	
+	1288.1.2 = {
+		holder = Indonesia114  # Wijayakumara
+	}
+	
+	1317.6.13 = {
+		holder = Indonesia121  # Tribuana (eldest son)
+	}
 
 }
 
 # MINANGKABAU #
 c_SUM_muara_takus = {
 
-	760.1.1 = {  holder = malayMB135 liege = e_srivijaya }
-	820.1.1 = {  holder = malayMB136 }
-	840.1.1 = {  holder = malayMB137 }
-	860.1.1 = {  holder = malayMB138 }
-	900.1.1 = {  holder = malayMB139 }
-	930.1.1 = {  holder = malayMB140 }
-	955.1.1 = {  holder = malayMB141 }
-	980.1.1 = {  holder = malayMB142 }
-	1005.1.1 = { holder = malayMB143 }
-	1040.1.1 = { holder = malayMB144 	 }
-	1070.1.1 = { holder = malayMB145 	 }
-	1100.1.1 = { holder = malayMB146 	 }
-	1115.1.1 = { holder = malayMB147 	 }
+	730.1.1 = {
+		holder = Indonesia696  # Warmadewa (first character)
+	}
+	761.9.24 = {
+		holder = Indonesia697  # Adityawarman
+		liege = e_srivijaya
+	}
+	789.7.15 = {
+		holder = Indonesia698  # Dharmasetu
+	}
+	818.11.22 = {
+		holder = Indonesia699  # Tribhuwanaraja
+	}
+	846.4.8 = {
+		holder = Indonesia700  # Balaputradewa
+	}
+	873.12.3 = {
+		holder = Indonesia701  # Airlangga (eldest son of Balaputradewa)
+	}
+	901.5.17 = {
+		holder = Indonesia703  # Hayamwuruk (son of Airlangga)
+	}
+	930.8.11 = {
+		holder = Indonesia705  # Rajasanagara
+	}
+	958.3.25 = {
+		holder = Indonesia707  # Kertanagara
+	}
+	987.6.14 = {
+		holder = Indonesia709  # Parakramawardhana (eldest son of Kertanagara)
+	}
+	1015.9.30 = {
+		holder = Indonesia712  # Wikramawardhana
+	}
+	1044.1.23 = {
+		holder = Indonesia715  # Kertarajasa
+	}
+	1072.6.28 = {
+		holder = Indonesia718  # Wisnuwardhana (eldest son of Kertarajasa)
+	}
+	1101.12.17 = {
+		holder = Indonesia722  # Sanggramadhananjaya
+	}
 	1100.1.1 = { liege = d_SUM_aceh 	 }
-	1140.1.1 = { holder = malayMB148 	 }
-	1180.1.1 = { holder = malayMB149 	 }
+	1130.9.8 = {
+		holder = Indonesia726  # Wikramawira
+	}
+	1159.11.19 = {
+		holder = Indonesia730  # Dharmasakti
+	}
+	1188.2.21 = {
+		holder = Indonesia734  # Sakalendukirana
+	}
 	1191.1.1 = { liege = e_srivijaya 	 }
-	1210.1.1 = { holder = malayMB150 	 }
-	1250.1.1 = { holder = malayMB151 	 }
+	1217.9.5 = {
+		holder = Indonesia738  # Rajawardana
+	}
+	1246.11.22 = {
+		holder = Indonesia742  # Mangkunagara
+	}
+	1275.4.23 = {
+		holder = Indonesia746  # Siliwangi
+	}
 	1286.1.1 = { liege = k_yavakadvipa 	 }
 	1300.1.1 = {
 		holder = malayMB152
 		liege = e_srivijaya
 	}
-	1325.1.1 = { holder = malayMB153 	 }
+	1304.2.19 = {
+		holder = Indonesia750  # Tunggawijaya
+	}
 
+	1333.11.28 = {
+		holder = Indonesia751  # Ratnasangkha (extends to 1337)
+	}
 }
 
 c_SUM_dharmasraya = {
@@ -73924,142 +74183,166 @@ c_SUM_dharmasraya = {
 #}
 c_SUM_minangkabau = {
 
-	#Arnaz Dynasty (placeholders)
-
-	750.1.1={
-		holder=1000203963 #Melati
+	730.1.1 = {
+		holder = Indonesia784  # Purnawarman
 	}
-	780.1.1={
-		holder=1000203964 #Izzati
+	
+	768.7.25 = {
+		holder = Indonesia785  # Dharmawarman
 	}
-	810.1.1={
-		holder=1000203965 #Indah
+	
+	795.11.8 = {
+		holder = Indonesia786  # Suryawarman
 	}
-	840.1.1={
-		holder=1000080974 #Mayang
+	
+	822.3.17 = {
+		holder = Indonesia787  # Adityawarman
 	}
-	870.1.1={
-		holder=1000080975 #Cempaka
+	
+	850.6.14 = {
+		holder = Indonesia788  # Tribhuwanaraja
 	}
-	900.1.1={
-		holder=1000080976 #Melur
+	
+	877.9.30 = {
+		holder = Indonesia789  # Kertanagara
 	}
-	930.1.1={
-		holder=1000080977 #Ayu
+	
+	905.2.18 = {
+		holder = Indonesia790  # Jayanagara
 	}
-	960.1.1={
-		holder=1000080978 #Delima
+	
+	933.7.6 = {
+		holder = Indonesia791  # Hayamwuruk
 	}
-	990.1.1={
-		holder=1000080979 #Embun
+	
+	961.12.11 = {
+		holder = Indonesia792  # Wikramawardhana
 	}
-	1020.1.1={
-		holder=1000080980 #Teratai
+	
+	989.4.25 = {
+		holder = Indonesia793  # Rajasanagara
 	}
-	1050.1.1={
-		holder=1000080981 #Masayu
+	
+	1017.8.19 = {
+		holder = Indonesia794  # Girindrawardhana
 	}
-	1080.1.1={
-		holder=1000080982 #Aishah
+	
+	1045.10.3 = {
+		holder = Indonesia795  # Airlangga
 	}
-	1110.1.1={
-		holder=1000080983 #Cahaya
+	
+	1074.1.28 = {
+		holder = Indonesia796  # Kameswara (eldest son)
 	}
-	1140.1.1={
-		holder=1000080984 #Dewi
+	
+	1102.4.15 = {
+		holder = Indonesia798  # Kertajaya
 	}
-	1170.1.1={
-		holder=1000080985 #Pertiwi
+	
+	1130.9.7 = {
+		holder = Indonesia800  # Sindok
 	}
-	1200.1.1={
-		holder=1000080986 #Puspa
+	
+	1158.5.26 = {
+		holder = Indonesia801  # Wijayakumara (eldest son)
 	}
-	1230.1.1={
-		holder=1000080987 #Adiputri
+	
+	1186.11.14 = {
+		holder = Indonesia803  # Parakramawardhana
 	}
-	1260.1.1={
-		holder=1000080988 #Dayang
+	
+	1214.10.29 = {
+		holder = Indonesia804  # Brawijaya (eldest son)
 	}
-	1290.1.1={
-		holder=1000080989 #Kembang
+	
+	1243.3.12 = {
+		holder = Indonesia806  # Ranawijaya
 	}
-	1320.1.1={
-		holder=1000080990 #Saadong
+	
+	1271.9.22 = {
+		holder = Indonesia807  # Wisnuwardhana (eldest son)
 	}
-	1350.1.1={
-		holder=1000080991 #Mastini
+	
+	1299.12.8 = {
+		holder = Indonesia809  # Narayana
 	}
-
+	
+	1327.8.11 = {
+		holder = Indonesia811  # Dharmasetu (eldest son)
+	}
 
 }
 c_SUM_riak_nan_berbedur = {
 
 	#Kanedi Dynasty (placeholders)
+	730.1.1 = {
+		holder = Indonesia815  # Adityawarman
+	}
 	750.1.1={
 		#liege="d_bangkahulu" # Yusseter
 	}
-	750.1.1={
-		holder=1000203954 #Selamat
+	768.3.22 = {
+		holder = Indonesia816  # Purnawarman
 	}
-	780.1.1={
-		holder=1000203955 #Khamis
+	795.11.17 = {
+		holder = Indonesia817  # Wijayatunggawarman
 	}
-	810.1.1={
-		holder=1000203956 #Usop
+	822.4.8 = {
+		holder = Indonesia818  # Warmadewa
 	}
-	840.1.1={
-		holder=1000201064 #Rabu
+	850.7.29 = {
+		holder = Indonesia819  # Sindok
 	}
-	870.1.1={
-		holder=1000201065 #Daud
+	877.12.11 = {
+		holder = Indonesia820  # Airlangga
 	}
-	900.1.1={
-		holder=1000201066 #Bagus
+	905.5.6 = {
+		holder = Indonesia821  # Kertanagara
 	}
-	930.1.1={
-		holder=1000201067 #Selamat
+	933.8.14 = {
+		holder = Indonesia822  # Hayamwuruk
 	}
-	960.1.1={
-		holder=1000201068 #Fajar
+	961.1.23 = {
+		holder = Indonesia823  # Rajasanagara
 	}
-	990.1.1={
-		holder=1000201069 #Agung
+	989.4.19 = {
+		holder = Indonesia824  # Jayanagara
 	}
-	1020.1.1={
-		holder=1000201070 #Tuah
+	1018.9.7 = {
+		holder = Indonesia825  # Tribhuwanaraja
 	}
-	1050.1.1={
-		holder=1000201071 #Ungu
+	1046.2.24 = {
+		holder = Indonesia826  # Brawijaya
 	}
-	1080.1.1={
-		holder=1000201072 #Yunos
+	1074.6.15 = {
+		holder = Indonesia827  # Dharmawarman (eldest son of Brawijaya)
 	}
-	1110.1.1={
-		holder=1000201073 #Jati
+	1103.10.3 = {
+		holder = Indonesia829  # Kertarajasa (eldest son of Dharmawarman)
 	}
-	1140.1.1={
-		holder=1000201074 #Basuki
+	1131.7.19 = {
+		holder = Indonesia831  # Parakramawardhana (eldest son of Kertarajasa)
 	}
-	1170.1.1={
-		holder=1000201075 #Johan
+	1159.4.12 = {
+		holder = Indonesia833  # Ranawijaya (son of Parakramawardhana)
 	}
-	1200.1.1={
-		holder=1000201076 #Bintang
+	1188.12.17 = {
+		holder = Indonesia835  # Suryawarman (eldest son of Ranawijaya)
 	}
-	1230.1.1={
-		holder=1000201077 #Bayu
+	1216.9.29 = {
+		holder = Indonesia838  # Narayana (son of Suryawarman)
 	}
-	1260.1.1={
-		holder=1000201078 #Leman
+	1244.3.22 = {
+		holder = Indonesia841  # Ranggawuni (eldest son of Narayana)
 	}
-	1290.1.1={
-		holder=1000201079 #Putra
+	1272.11.14 = {
+		holder = Indonesia845  # Jayanasa (son of Ranggawuni)
 	}
-	1320.1.1={
-		holder=1000201080 #Budi
+	1300.5.21 = {
+		holder = Indonesia849  # Wirakeranda (eldest son of Jayanasa)
 	}
-	1350.1.1={
-		holder=1000201081 #Khamis
+	1328.3.8 = {
+		holder = Indonesia854  # Kertabhumi (eldest son of Wirakeranda, extends beyond 1337)
 	}
 
 }
@@ -76779,3 +77062,107 @@ c_PHI_ivatan = {
 	1295.1.1 = { holder = AsiaIsles_1082 }
 	1330.1.1 = { holder = AsiaIsles_1083 }
 }
+
+k_pandya = {
+
+	560.1.1 = {
+		holder = 189058
+	}
+	590.1.1 = {
+		holder = 189059
+	}
+	620.1.1 = {
+		holder = 189060
+	}
+	640.1.1 = {
+		holder = 189061
+	}
+	670.1.1 = {
+		holder = 189062
+	}
+	710.1.1 = {
+		holder = 189063
+	}
+	735.1.1 = {
+		holder = 189064
+	}
+	
+	765.1.1 = {
+		holder = 189065
+	}
+	846.1.1 = {
+		holder = 175090
+	}
+	920.1.1 = {
+		liege = e_chola #Conquest by Cholas
+		holder = 189109
+	}
+	960.1.1 = {
+		holder = 189110
+	}
+	980.1.1 = {
+		holder = 189111
+	}
+	1003.1.1 = {
+		holder = 189112
+	}
+	1024.1.1 = {
+		holder = 189113
+	}
+	1050.1.1 = {
+		holder = 189114
+	}
+	1065.1.1 = {
+		holder = 189115
+	}
+	1081.1.1 = {
+		holder = 189116
+	}
+	1101.1.1 = {
+		holder = 189124
+	}
+	1132.1.1 = {
+		holder = 189125
+	}
+	1161.1.1 = {
+		holder = 189126
+	}
+	1162.1.1 = {
+		holder = 189129
+	}
+	1170.1.1 = {
+		holder = 189127
+	}
+	1175.1.1 = {
+		holder = 189130
+	}
+	1180.1.1 = {
+		holder = 189131
+	}
+	1190.1.1 = {
+		holder = 189132
+	}
+	1205.1.1 = {
+		liege = 0
+	}
+	1216.1.1 = {
+		holder = 189133
+	}
+	1238.1.1 = {
+		holder = 189134
+	}
+	1251.1.1 = {
+		holder = 189135
+	}
+	1268.1.1 = {
+		holder = 189136
+	}
+	1308.1.1 = {
+		holder = 189137
+	}
+	1327.1.1 = {
+		holder = 189138
+	}
+	
+}
+

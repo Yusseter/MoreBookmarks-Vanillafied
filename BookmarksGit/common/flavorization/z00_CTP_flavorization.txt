@@ -7685,30 +7685,47 @@ baron_republic_qiang = {
 ###############################################
 ## Han Culture
 
-emperor_feudal_male_yuan = {
+
+hegemon_celestial_male_chinese = { # Huángdì / 皇帝
 	type = character
 	gender = male
 	special = holder
-	tier = empire
-	titles = {
-		h_china
+	tier = hegemony
+	priority = 300
+	governments = { celestial_government steppe_admin_government }
+	flavourization_rules = {
+		spouse_takes_title = no
 	}
-	priority = 103
-	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
-	heritages = { heritage_mongolic heritage_turkic }
 }
 
-emperor_feudal_female_yuan = {
+hegemon_celestial_female_chinese = { # Huángdì / 皇帝
 	type = character
 	gender = female
 	special = holder
-	tier = empire
-	titles = {
-		h_china
+	tier = hegemony
+	priority = 300
+	governments = { celestial_government steppe_admin_government }
+	flavourization_rules = {
+		spouse_takes_title = no
 	}
-	priority = 103
-	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
-	heritages = { heritage_mongolic heritage_turkic }
+}
+
+spouse_hegemon_celestial_male_chinese = { # Húangfū / 皇夫
+	type = character
+	gender = male
+	special = holder
+	tier = hegemony
+	priority = 281
+	governments = { celestial_government steppe_admin_government }
+}
+
+spouse_hegemon_celestial_female_chinese = { # Húanghòu / 皇后
+	type = character
+	gender = female
+	special = holder
+	tier = hegemony
+	priority = 281
+	governments = { celestial_government steppe_admin_government }
 }
 
 baron_male_han = {
@@ -8095,17 +8112,6 @@ empire_han = {
 	priority = 153
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government republic_government steppe_admin_government meritocratic_government }
 	name_lists = { name_list_han name_list_shatuo name_list_yi name_list_bai name_list_yi }
-	flavourization_rules = { 
-		top_liege = no
-	}
-}
-empire_han2 = {
-	type = title
-	tier = hegemony
-	titles = { h_china }
-	priority = 200
-	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government republic_government steppe_admin_government meritocratic_government celestial_government }
-	name_lists = { name_list_han name_list_shatuo name_list_yi name_list_bai name_list_yi name_list_mongol name_list_chagatai name_list_tatar }
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -11000,7 +11006,7 @@ baron_male_persian = {
 	special = holder
 	tier = barony
 	priority = 103
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11012,7 +11018,7 @@ baron_female_persian = {
 	special = holder
 	tier = barony
 	priority = 103
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11022,7 +11028,7 @@ barony_castle_persian = {
 	type = title
 	tier = barony
 	priority = 103
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	holding = castle_holding
 	flavourization_rules = { 
 		top_liege = no
@@ -11034,7 +11040,7 @@ count_male_persian = {
 	special = holder
 	priority = 113
 	tier = county
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11046,7 +11052,7 @@ count_female_persian = {
 	special = holder
 	priority = 113
 	tier = county
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11056,7 +11062,7 @@ county_persian = {
 	type = title
 	priority = 113
 	tier = county
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11068,7 +11074,7 @@ count_male_persian_independent = {
 	special = holder
 	priority = 114
 	tier = county
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11081,7 +11087,7 @@ count_female_holder_persian_independent = {
 	special = holder
 	priority = 115
 	tier = county
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11095,7 +11101,7 @@ count_female_persian_independent = {
 	special = holder
 	priority = 114
 	tier = county
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11106,7 +11112,7 @@ county_persian_independent = {
 	type = title
 	priority = 114
 	tier = county
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11119,7 +11125,7 @@ duke_male_persian = {
 	special = holder
 	tier = duchy
 	priority = 123
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11131,7 +11137,7 @@ duke_female_persian = {
 	special = holder
 	tier = duchy
 	priority = 123
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11141,7 +11147,7 @@ duchy_persian = {
 	type = title
 	tier = duchy
 	priority = 123
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11153,7 +11159,7 @@ king_male_persian = {
 	special = holder
 	priority = 143
 	tier = kingdom
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11165,7 +11171,7 @@ king_female_persian = {
 	special = holder
 	priority = 143
 	tier = kingdom
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11175,7 +11181,7 @@ kingdom_persian = {
 	type = title
 	priority = 143
 	tier = kingdom
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11187,7 +11193,7 @@ emperor_male_persian = {
 	special = holder
 	priority = 153
 	tier = empire
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11199,7 +11205,7 @@ emperor_female_holder_persian = {
 	special = holder
 	priority = 154
 	tier = empire
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11212,7 +11218,7 @@ emperor_female_persian = {
 	special = holder
 	priority = 153
 	tier = empire
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11222,7 +11228,7 @@ empire_persian = {
 	type = title
 	priority = 153
 	tier = empire
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11234,7 +11240,7 @@ title_prince_male_persian = {
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11246,7 +11252,7 @@ title_prince_female_persian = {
 	special = ruler_child
 	tier = kingdom
 	priority = 130
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11258,7 +11264,7 @@ title_prince_male_persian_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11270,7 +11276,7 @@ title_prince_female_persian_empire = {
 	special = ruler_child
 	tier = empire
 	priority = 150
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11282,7 +11288,7 @@ queen_mother_persian ={
 	special = queen_mother
 	tier = kingdom
 	priority = 130
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government meritocratic_government steppe_admin_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11294,7 +11300,7 @@ empress_mother_persian ={
 	special = queen_mother
 	tier = empire
 	priority = 150
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { feudal_government administrative_government clan_government tribal_government nomad_government herder_government republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11306,7 +11312,7 @@ baron_republic_male_persian = {
 	special = holder
 	tier = barony
 	priority = 103
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish } 
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian } 
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11319,7 +11325,7 @@ baron_republic_female_persian = {
 	special = holder
 	tier = barony
 	priority = 103
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish } 
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian } 
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11330,7 +11336,7 @@ barony_city_persian = {
 	type = title
 	tier = barony
 	priority = 103
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	holding = city_holding
 	flavourization_rules = { 
 		top_liege = no
@@ -11342,7 +11348,7 @@ count_republic_male_persian = {
 	special = holder
 	tier = county
 	priority = 113
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11355,7 +11361,7 @@ count_republic_female_persian = {
 	special = holder
 	tier = county
 	priority = 113
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11366,7 +11372,7 @@ county_republic_persian = {
 	type = title
 	tier = county
 	priority = 113
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11378,7 +11384,7 @@ duke_republic_male_persian = {
 	special = holder
 	tier = duchy
 	priority = 123
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11391,7 +11397,7 @@ duke_republic_female_persian = {
 	special = holder
 	tier = duchy
 	priority = 123
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11402,7 +11408,7 @@ duchy_republic_persian = {
 	type = title
 	tier = duchy
 	priority = 123
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11414,7 +11420,7 @@ king_republic_male_persian = {
 	special = holder
 	tier = kingdom
 	priority = 143
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11427,7 +11433,7 @@ king_republic_female_persian = {
 	special = holder
 	tier = kingdom
 	priority = 143
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11438,7 +11444,7 @@ kingdom_republic_persian = {
 	type = title
 	tier = kingdom
 	priority = 143
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { republic_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11448,7 +11454,7 @@ barony_tribe_persian = {
 	type = title
 	tier = barony
 	priority = 103
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	holding = tribal_holding
 	flavourization_rules = { 
 		top_liege = no
@@ -11460,7 +11466,7 @@ count_tribal_male_persian = {
 	special = holder
 	tier = county
 	priority = 113
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish } 
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian } 
 	governments = { tribal_government nomad_government herder_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11472,7 +11478,7 @@ count_tribal_female_persian = {
 	special = holder
 	tier = county
 	priority = 113
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish } 
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian } 
 	governments = { tribal_government nomad_government herder_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11482,7 +11488,7 @@ county_tribal_persian = {
 	type = title
 	tier = county
 	priority = 113
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { tribal_government nomad_government herder_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11494,7 +11500,7 @@ duke_tribal_male_persian = {
 	special = holder
 	tier = duchy
 	priority = 123
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish } 
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian } 
 	governments = { tribal_government nomad_government herder_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11506,7 +11512,7 @@ duke_tribal_female_persian = {
 	special = holder
 	tier = duchy
 	priority = 123
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish } 
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian } 
 	governments = { tribal_government nomad_government herder_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -11516,7 +11522,7 @@ duchy_tribal_persian = {
 	type = title
 	tier = duchy
 	priority = 123
-	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish }
+	name_lists = { name_list_persian name_list_pahlavi name_list_persian_turkish name_list_persian_turkish_anatolian }
 	governments = { tribal_government nomad_government herder_government }
 	flavourization_rules = { 
 		top_liege = no
@@ -33867,7 +33873,7 @@ title_prince_female_roman = {
 		top_liege = no
 	}
 }
-title_prince_malh_roman_empire = {
+title_prince_male_roman_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -33879,7 +33885,7 @@ title_prince_malh_roman_empire = {
 		top_liege = no
 	}
 }
-title_prince_femalh_roman_empire = {
+title_prince_female_roman_empire = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -33891,7 +33897,7 @@ title_prince_femalh_roman_empire = {
 		top_liege = no
 	}
 }
-title_prince_male_thh_roman_empire = {
+title_prince_male_the_roman_empire = {
 	type = character
 	gender = male
 	special = ruler_child
@@ -33904,7 +33910,7 @@ title_prince_male_thh_roman_empire = {
 		top_liege = no
 	}
 }
-title_prince_female_thh_roman_empire = {
+title_prince_female_the_roman_empire = {
 	type = character
 	gender = female
 	special = ruler_child
@@ -48533,7 +48539,7 @@ duke_feudal_prince = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	priority = 50
+	priority = 195
 	
 	governments = { feudal_government administrative_government clan_government }
 	titles = { k_bavaria k_brittany k_salerno k_hellas k_opolye k_ruthenia k_serbia }
@@ -48546,7 +48552,7 @@ duke_feudal_princess = {
 	flavourization_rules = { 
 		top_liege = no
 	}
-	priority = 50
+	priority = 195
 
 	governments = { feudal_government administrative_government clan_government }
 	titles = { k_bavaria k_brittany k_salerno k_hellas k_opolye k_ruthenia k_serbia }
@@ -48558,8 +48564,8 @@ duke_feudal_independent_brittany = {
 	gender = male
 	special = holder
 	tier = kingdom
-	priority = 156
-	name_lists = { name_list_french name_list_english }
+	priority = 200
+	name_lists = { name_list_french name_list_english name_list_breton }
 	governments = { feudal_government administrative_government clan_government }
 	titles = { k_brittany }
 }
@@ -48568,8 +48574,8 @@ duke_feudal_independent_female_brittany = {
 	gender = female
 	special = holder
 	tier = kingdom
-	priority = 156
-	name_lists = { name_list_french name_list_english }
+	priority = 200
+	name_lists = { name_list_french name_list_english name_list_breton }
 	governments = { feudal_government administrative_government clan_government }
 	titles = { k_brittany }
 }
@@ -48578,8 +48584,8 @@ duchy_feudal_independent_brittany = {
 	tier = kingdom
 	governments = { feudal_government administrative_government clan_government }
 	titles = { k_brittany }
-	name_lists = { name_list_french name_list_english }
-	priority = 156
+	name_lists = { name_list_french name_list_english name_list_breton }
+	priority = 200
 }
 
 #Bavarian Duke
@@ -48620,7 +48626,7 @@ title_lord_french = {
 	gender = male
 	special = holder
 	tier = county
-	de_jure_liege = { d_gevaudan d_bourbon d_anjou d_orleans }
+	de_jure_liege = { d_bourbon d_anjou c_brienne d_forez d_la_marche d_maine d_orleans }
 	name_lists = { name_list_french }
 	flavourization_rules = { 
 		top_liege = no
@@ -48632,7 +48638,7 @@ title_lord_female_french = {
 	gender = female
 	special = holder
 	tier = county
-	de_jure_liege = { d_gevaudan d_bourbon d_anjou d_orleans }
+	de_jure_liege = { d_bourbon d_anjou c_brienne d_forez d_la_marche d_maine d_orleans }
 	name_lists = { name_list_french }
 	flavourization_rules = { 
 		top_liege = no
@@ -48642,7 +48648,7 @@ title_lord_female_french = {
 title_lordship_french = {
 	type = title
 	tier = county
-	de_jure_liege = { d_gevaudan d_bourbon d_anjou d_orleans }
+	de_jure_liege = { d_bourbon d_anjou c_brienne d_forez d_la_marche d_maine d_orleans }
 	name_lists = { name_list_french }
 	flavourization_rules = { 
 		top_liege = no
@@ -48760,7 +48766,7 @@ viscount = {
 	special = holder
 	tier = county
 	name_lists = { name_list_french }
-	de_jure_liege = { k_aquitaine d_gascogne d_languedoc d_berry d_auvergne d_poitou d_limousin d_armagnac d_toulouse d_provence d_gevaudan }
+	de_jure_liege = { d_languedoc d_berry d_auvergne d_poitou d_limousin }
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -48772,7 +48778,7 @@ viscount_female = {
 	special = holder
 	tier = county
 	name_lists = { name_list_french }
-	de_jure_liege = { k_aquitaine d_gascogne d_languedoc d_berry d_auvergne d_poitou d_limousin d_armagnac d_toulouse d_provence d_gevaudan }
+	de_jure_liege = { d_languedoc d_berry d_auvergne d_poitou d_limousin }
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -48782,7 +48788,7 @@ viscounty = {
 	type = title
 	tier = county
 	name_lists = { name_list_french }
-	de_jure_liege = { k_aquitaine d_gascogne d_languedoc d_berry d_auvergne d_poitou d_limousin d_armagnac d_toulouse d_provence d_gevaudan }
+	de_jure_liege = { d_languedoc d_berry d_auvergne d_poitou d_limousin }
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -48794,7 +48800,7 @@ viscount_catalan = { #Really Occitan too since both used the same exact word
 	special = holder
 	tier = county
 	name_lists = { name_list_catalan name_list_occitan }
-	de_jure_liege = { k_aquitaine d_gascogne d_languedoc d_berry d_auvergne d_poitou d_limousin d_armagnac d_toulouse d_provence d_gevaudan d_barcelona d_urgell d_catalunya_nova d_barcelona d_urgell d_catalunya_nova  }
+	de_jure_liege = { k_aquitaine d_gascogne d_foix d_toulouse d_provence d_barcelona d_urgell d_catalunya_nova d_barcelona d_urgell d_catalunya_nova  }
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -48806,7 +48812,7 @@ viscount_female_catalan = {
 	special = holder
 	tier = county
 	name_lists = { name_list_catalan name_list_occitan }
-	de_jure_liege = { k_aquitaine d_gascogne d_languedoc d_berry d_auvergne d_poitou d_limousin d_armagnac d_toulouse d_provence d_gevaudan d_barcelona d_urgell d_catalunya_nova d_barcelona d_urgell d_catalunya_nova  }
+	de_jure_liege = { k_aquitaine d_gascogne d_foix d_toulouse d_provence d_barcelona d_urgell d_catalunya_nova d_barcelona d_urgell d_catalunya_nova  }
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -48816,7 +48822,7 @@ viscounty_catalan = {
 	type = title
 	tier = county
 	name_lists = { name_list_catalan name_list_occitan }
-	de_jure_liege = { k_aquitaine d_gascogne d_languedoc d_berry d_auvergne d_poitou d_limousin d_armagnac d_toulouse d_provence d_gevaudan d_barcelona d_urgell d_catalunya_nova d_barcelona d_urgell d_catalunya_nova  }
+	de_jure_liege = { k_aquitaine d_gascogne d_foix d_toulouse d_provence d_barcelona d_urgell d_catalunya_nova d_barcelona d_urgell d_catalunya_nova  }
 	flavourization_rules = { 
 		top_liege = no
 	}
@@ -48926,6 +48932,47 @@ county_normandy = {
 }
 
 ##########Duke Counts - Duchy Titles
+
+king_male_comital = {
+ type = character
+    gender = male 
+    special = holder
+    tier = kingdom
+	name_lists = { name_list_occitan }
+    religions = { christianity_religion }
+    priority = 200
+    titles = { k_toulouse }
+    governments = { feudal_government administrative_government }
+    flavourization_rules = { 
+		top_liege = no
+	}
+}
+king_female_comital = {
+ type = character
+    gender = female
+    special = holder
+    tier = kingdom
+	name_lists = { name_list_occitan }
+    religions = { christianity_religion }
+    priority = 200
+    titles = { k_toulouse }
+    governments = { feudal_government administrative_government }
+    flavourization_rules = { 
+		top_liege = no
+	}
+}
+king_comital = {
+    type = title
+    tier = kingdom
+	name_lists = { name_list_occitan }
+    religions = { christianity_religion }
+    priority = 200
+    titles = { k_toulouse }
+    governments = { feudal_government administrative_government }
+    flavourization_rules = { 
+		top_liege = no
+	}
+}
 
 duke_male_comital = {
  type = character
@@ -49137,7 +49184,7 @@ catalan_duchy_count = {
 		top_liege = no
 	}
 	name_lists = { name_list_catalan name_list_occitan }
-	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_armagnac d_gevaudan d_auvergne d_bourbon d_valois }
+	titles = { d_barcelona d_urgell d_catalunya_nova }
 	priority = 150
 }
 catalan_duchy_count_female = {
@@ -49149,7 +49196,7 @@ catalan_duchy_count_female = {
 		top_liege = no
 	}
 	name_lists = { name_list_catalan name_list_occitan }
-	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_armagnac d_gevaudan d_auvergne d_bourbon d_valois }
+	titles = { d_barcelona d_urgell d_catalunya_nova }
 	priority = 150
 }
 catalan_duchy_county = {
@@ -49159,7 +49206,7 @@ catalan_duchy_county = {
 		top_liege = no
 	}
 	name_lists = { name_list_catalan name_list_occitan }
-	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_armagnac d_gevaudan d_auvergne d_bourbon d_valois }
+	titles = { d_barcelona d_urgell d_catalunya_nova }
 	priority = 150
 }
 french_duchy_count = {
@@ -49171,7 +49218,7 @@ french_duchy_count = {
 		top_liege = no
 	}
 	name_lists = { name_list_french }
-	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_armagnac d_gevaudan d_auvergne d_bourbon d_valois }
+	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_foix  d_auvergne d_bourbon d_valois }
 	priority = 150
 }
 french_duchy_count_female = {
@@ -49183,7 +49230,7 @@ french_duchy_count_female = {
 		top_liege = no
 	}
 	name_lists = { name_list_french }
-	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_armagnac d_gevaudan d_auvergne d_bourbon d_valois }
+	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_foix  d_auvergne d_bourbon d_valois }
 	priority = 150
 }
 french_duchy_county = {
@@ -49193,7 +49240,7 @@ french_duchy_county = {
 		top_liege = no
 	}
 	name_lists = { name_list_french }
-	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_armagnac d_gevaudan d_auvergne d_bourbon d_valois }
+	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_foix  d_auvergne d_bourbon d_valois }
 	priority = 150
 }
 english_duchy_count = {
@@ -49205,7 +49252,7 @@ english_duchy_count = {
 		top_liege = no
 	}
 	name_lists = { name_list_english }
-	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_armagnac d_gevaudan d_auvergne d_bourbon d_valois }
+	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_foix  d_auvergne d_bourbon d_valois }
 	priority = 150
 }
 english_duchy_count_female = {
@@ -49217,7 +49264,7 @@ english_duchy_count_female = {
 		top_liege = no
 	}
 	name_lists = { name_list_english }
-	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_armagnac d_gevaudan d_auvergne d_bourbon d_valois }
+	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_foix  d_auvergne d_bourbon d_valois }
 	priority = 150
 }
 english_duchy_county = {
@@ -49227,7 +49274,7 @@ english_duchy_county = {
 		top_liege = no
 	}
 	name_lists = { name_list_english }
-	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_armagnac d_gevaudan d_auvergne d_bourbon d_valois }
+	titles = { d_barcelona d_urgell d_catalunya_nova d_berry d_blois d_limousin d_foix  d_auvergne d_bourbon d_valois }
 	priority = 150
 }
 
@@ -49240,7 +49287,7 @@ france_duke = {
 		top_liege = no
 	}
 	name_lists = { name_list_french }
-	titles = { d_normandy d_burgundy d_aquitaine d_gascogne d_amalfi d_napoli }
+	titles = { d_normandy d_burgundy d_aquitaine d_gascogne   d_amalfi d_napoli }
 	priority = 156
 }
 france_duke_female = {
@@ -49252,7 +49299,7 @@ france_duke_female = {
 		top_liege = no
 	}
 	name_lists = { name_list_french }
-	titles = { d_normandy d_burgundy d_aquitaine d_gascogne d_amalfi d_napoli }
+	titles = { d_normandy d_burgundy d_aquitaine d_gascogne   d_amalfi d_napoli }
 	priority = 156
 }
 france_duchy = {
@@ -49262,7 +49309,7 @@ france_duchy = {
 		top_liege = no
 	}
 	name_lists = { name_list_french }
-	titles = { d_normandy d_burgundy d_aquitaine d_gascogne d_amalfi d_napoli }
+	titles = { d_normandy d_burgundy d_aquitaine d_gascogne   d_amalfi d_napoli }
 	priority = 156
 }
 
@@ -49531,7 +49578,7 @@ margrave_duke = {
 		top_liege = no
 	}
 	heritages = { heritage_central_germanic }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duke_female = {
@@ -49543,7 +49590,7 @@ margrave_duke_female = {
 		top_liege = no
 	}
 	heritages = { heritage_central_germanic }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duchy = {
@@ -49553,7 +49600,7 @@ margrave_duchy = {
 		top_liege = no
 	}
 	heritages = { heritage_central_germanic }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duke_italian = {
@@ -49565,7 +49612,7 @@ margrave_duke_italian = {
 		top_liege = no
 	}
 	heritages = { heritage_latin }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duke_female_italian = {
@@ -49577,7 +49624,7 @@ margrave_duke_female_italian = {
 		top_liege = no
 	}
 	heritages = { heritage_latin }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duchy_italian = {
@@ -49587,7 +49634,7 @@ margrave_duchy_italian = {
 		top_liege = no
 	}
 	heritages = { heritage_latin }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duke_french = {
@@ -49599,7 +49646,7 @@ margrave_duke_french = {
 		top_liege = no
 	}
 	heritages = { heritage_west_germanic heritage_frankish }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duke_female_french = {
@@ -49611,7 +49658,7 @@ margrave_duke_female_french = {
 		top_liege = no
 	}
 	heritages = { heritage_west_germanic heritage_frankish }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duchy_french = {
@@ -49621,7 +49668,7 @@ margrave_duchy_french = {
 		top_liege = no
 	}
 	heritages = { heritage_west_germanic heritage_frankish }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duke_czech = {
@@ -49633,7 +49680,7 @@ margrave_duke_czech = {
 		top_liege = no
 	}
 	name_lists = { name_list_czech }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duke_female_czech = {
@@ -49645,7 +49692,7 @@ margrave_duke_female_czech = {
 		top_liege = no
 	}
 	name_lists = { name_list_czech }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duchy_czech = {
@@ -49655,7 +49702,7 @@ margrave_duchy_czech = {
 		top_liege = no
 	}
 	name_lists = { name_list_czech }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duke_polish = {
@@ -49667,7 +49714,7 @@ margrave_duke_polish = {
 		top_liege = no
 	}
 	name_lists = { name_list_polish }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duke_female_polish = {
@@ -49679,7 +49726,7 @@ margrave_duke_female_polish = {
 		top_liege = no
 	}
 	name_lists = { name_list_polish }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 margrave_duchy_polish = {
@@ -49689,7 +49736,7 @@ margrave_duchy_polish = {
 		top_liege = no
 	}
 	name_lists = { name_list_polish }
-	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_ancona d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_mantua d_lausitz }
+	titles = { d_verona d_monferrato d_krain d_steyermark d_osterreich d_nordgau d_friuli d_istria d_genoa d_pentapolis d_toscana d_baden d_ostmark d_meissen d_frisia d_moravia d_lausitz }
 	priority = 150
 }
 

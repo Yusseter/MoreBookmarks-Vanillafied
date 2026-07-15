@@ -481,16 +481,16 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 769.1.1 }
 		# Ceremony
-		house:house_fujiwara_nan_ke ?= { # Fujiwara
+		dynasty:10001097.dynasty_founder.house ?= { # Fujiwara
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony }
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_fujiwara.dynasty_founder.house }
-			#tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_kyo_ke }
-			#tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_shiki_ke }
+			#tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001099.dynasty_founder.house }
+			#tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001098.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
 		}
 		# Service
-		house:japanese_tachibana ?= { # Tachibana
+		dynasty:japanese_tachibana.dynasty_founder.house ?= { # Tachibana
 			tgp_create_historical_house_bloc_effect = { TYPE = service }
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_aso_clan }
@@ -527,8 +527,8 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_fujiwara.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Northern Fujiwara
 			# Fujiwara
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_kyo_ke } # Capital Fujiwara # Done
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke } # Southern Fujiwara # Done
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001099.dynasty_founder.house } # Capital Fujiwara # Done
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house } # Southern Fujiwara # Done
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yamakage } # Yamakage Fujiwara # Done
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_manatsu } # Manatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yoshikado } # Yoshikado
@@ -557,7 +557,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001272.dynasty_founder.house } 
 			# Other
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kiyohara_clan } # Kiyohara
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10005511.dynasty_founder.house } # Tatara
 		}
 		# Strength
@@ -588,7 +588,7 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_fujiwara.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Fujiwara
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_manatsu }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yoshikado }
@@ -610,7 +610,7 @@ tgp_setup_historical_house_bloc_effect = {
 		house:house_oe2_clan ?= { # Oe
 			tgp_create_historical_house_bloc_effect = { TYPE = service } # Scholar-Bureaucrats
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10005521.dynasty_founder.house } # Miyoshi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sugawara_clan } # Sugawara
@@ -641,7 +641,7 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_fujiwara.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Fujiwara
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_manatsu }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yoshikado }
@@ -692,7 +692,7 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_fujiwara.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Fujiwara
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_manatsu }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yoshikado }
@@ -702,7 +702,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_kanin }
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 		}
 		# Strength
 		house:house_minamoto_kawachi ?= {
@@ -753,7 +753,7 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_fujiwara.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Fujiwara
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_manatsu }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yoshikado }
@@ -762,10 +762,10 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_koichijo }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_kanin }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nakamikado }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ota }
+			tgp_join_historical_house_bloc_effect = { JOINER = house:shgnt_ota }
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yokoyama_clan } # Yokoyama
 		}
@@ -789,14 +789,14 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_taira_kanmu.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # Taira
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kamakura_clan } # Kamakura
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kamakura } # Kamakura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toshima_clan } # Toshima
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006018.dynasty_founder.house } # Sudo
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000165.dynasty_founder.house } # Omori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000165 } # Omori
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_miura_clan } # Miura
 		}
 		# Humility
-		house:house_kikuchi_clan ?= {
+		house:31200440 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = humility } # The West // Kikuchi
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_koremune } # Koremune
@@ -819,7 +819,7 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_fujiwara.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Fujiwara
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_manatsu }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yoshikado }
@@ -831,7 +831,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_takaie }
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yokoyama_clan } # Yokoyama
 		}
@@ -843,10 +843,10 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sasaki_clan } # Sasaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_mochiduki_clan } # Mochiduki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_inoue_clan } # Inoue
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ota } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = house:shgnt_ota } # Ota
 		}
 		# Determination
-		house:japanese_fujiwara_oshu ?= {
+		dynasty:japanese_fujiwara_oshu.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # The North // Oshu Fujiwara
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007252.dynasty_founder.house } # Abe
@@ -856,17 +856,17 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_taira_kanmu.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # Taira
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kamakura_clan } # Kamakura
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kamakura } # Kamakura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toshima_clan } # Toshima
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_miura_clan } # Miura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006018.dynasty_founder.house } # Sudo
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_sato } # Sato
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000165.dynasty_founder.house } # Omori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_sato } # Sato
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000165 } # Omori
 		}
 		# Humility
-		house:house_kikuchi_clan ?= {
+		house:31200440 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = humility } # The West // Kikuchi
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10005511.dynasty_founder.house } # Tatara
@@ -896,7 +896,7 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_fujiwara.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Fujiwara
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_manatsu }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yoshikado }
@@ -907,8 +907,8 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_takaie }
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ota } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = house:shgnt_ota } # Ota
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 		}
 		# Strength
@@ -918,11 +918,11 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_minamoto_seiwa.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_mochiduki_clan } # Mochiduki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_inoue_clan } # Inoue
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_sato } # Sato
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_sato } # Sato
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yokoyama_clan } # Yokoyama
 		}
 		# Prosperity
-		house:japanese_fujiwara_oshu ?= {
+		dynasty:japanese_fujiwara_oshu.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The North // Oshu Fujiwara
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_hidesato } # Hidesato
@@ -936,12 +936,12 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toshima_clan } # Toshima
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_miura_clan } # Miura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kajiwara } # Kajiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kajiwara } # Kajiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006018.dynasty_founder.house } # Sudo
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000165.dynasty_founder.house } # Omori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000165 } # Omori
 		}
 		# Humility
-		house:house_kikuchi_clan ?= {
+		house:31200440 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = humility } # The West // Kikuchi
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10005511.dynasty_founder.house } # Tatara
@@ -972,7 +972,7 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_fujiwara.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Fujiwara
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_manatsu }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yamakage }
@@ -982,24 +982,24 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_takaie }
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000236.dynasty_founder.house } # Katsurayama
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ota } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = house:shgnt_ota } # Ota
 		}
 		# Prosperity
-		house:japanese_fujiwara_oshu ?= {
+		dynasty:japanese_fujiwara_oshu.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The North // Oshu Fujiwara
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_hidesato } # Hidesato
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007252.dynasty_founder.house } # Abe
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007536.dynasty_founder.house } # Kiyohara
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 		}
 		# Determination
-		house:house_chiba_clan ?= {
+		house:house_taira_chiba ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # Taira
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_taira_kanmu.dynasty_founder.house } # Kamnu
@@ -1007,7 +1007,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_miura_clan } # Miura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yokoyama_clan } # Yokoyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kajiwara } # Kajiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kajiwara } # Kajiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_oba } # Oba
 		}
 		# Strength
@@ -1024,7 +1024,7 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:10005511.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = humility } # The West // Tatara
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_koremune } # Koremune
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10005501.dynasty_founder.house } # Hata
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000615.dynasty_founder.house } # Tsuchimochi
@@ -1051,7 +1051,7 @@ tgp_setup_historical_house_bloc_effect = {
 		dynasty:japanese_fujiwara.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Fujiwara
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yamakage }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_kajuji }
@@ -1059,24 +1059,24 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_takaie }
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000236.dynasty_founder.house } # Katsurayama
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ota } # Ota
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kondo_clan } # Kondo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:shgnt_ota } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_kondo } # Kondo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ito } # Ito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
 		}
 		# Prosperity
-		house:japanese_fujiwara_oshu ?= {
+		dynasty:japanese_fujiwara_oshu.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The North // Oshu Fujiwara
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_hidesato } # Hidesato
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007252.dynasty_founder.house } # Abe
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007536.dynasty_founder.house } # Kiyohara
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 		}
 		# Strength
 		house:house_minamoto_kawachi ?= {
@@ -1089,7 +1089,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
 		}
 		# Determination
-		house:house_chiba_clan ?= {
+		house:house_taira_chiba ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # Taira
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_taira_kanmu.dynasty_founder.house } # Kamnu
@@ -1097,7 +1097,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_miura_clan } # Miura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yokoyama_clan } # Yokoyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kajiwara } # Kajiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kajiwara } # Kajiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_oba } # Oba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakamura_clan } # Nakamura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yamamoto_clan } # Yamamoto
@@ -1106,7 +1106,7 @@ tgp_setup_historical_house_bloc_effect = {
 		house:house_shgnt_ouchi ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = humility } # The West // Ouchi
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_koremune } # Koremune
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10005501.dynasty_founder.house } # Hata
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000615.dynasty_founder.house } # Tsuchimochi
@@ -1130,9 +1130,9 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_koremune } # Koremune
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hino_clan } # Hino
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kajiwara } # Kajiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kajiwara } # Kajiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sasaki_clan } # Sasaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakamura_clan } # Nakamura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
@@ -1141,20 +1141,20 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oinomikado_clan } # Oinomikado
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_tada } # Tada
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_otomo_clan } # Otomo
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000640 } # Otomo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_kajuji }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_yamakage }
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000673.dynasty_founder.house } # Munakata
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000540.dynasty_founder.house } # Emi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
 		}
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # Minamoto (Yoritomo)
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
@@ -1162,22 +1162,22 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yamada_clan } # Yamada
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_minamoto_kawachi } # Kawachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_shimokobe } # Shimokobe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_uno_clan } # Uno
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_miura_clan } # Miura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
 			
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000400.dynasty_founder.house } # Minamoto Ashikaga
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000400 } # Minamoto Ashikaga
 			
 		}
 		# Prosperity
-		house:japanese_fujiwara_oshu ?= {
+		dynasty:japanese_fujiwara_oshu.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The North // Oshu Fujiwara
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_hidesato } # Hidesato
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 		}
 		# Humility
 		house:house_shgnt_takeda ?= {
@@ -1200,7 +1200,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Fujiwara
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 		}
 	}
 	
@@ -1214,12 +1214,12 @@ tgp_setup_historical_house_bloc_effect = {
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_taira_kanmu.dynasty_founder.house } # Kamnu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_koremune } # Koremune
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_otomo_clan } # Otomo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000640 } # Otomo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_matsura2_clan } # Matsura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kajiwara } # Kajiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kajiwara } # Kajiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sasaki_clan } # Sasaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
@@ -1231,7 +1231,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_kajuji }
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000673.dynasty_founder.house } # Munakata
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000540.dynasty_founder.house } # Emi
 		}
@@ -1244,15 +1244,15 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakamura_clan } # Nakamura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_dohi } # Dohi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yamada_clan } # Yamada
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_shimokobe } # Shimokobe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_manatsu } # Manatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_miura_clan } # Miura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_satake_clan } # Satake
 			
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006129.dynasty_founder.house } # Hojo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006129 } # Hojo
 			
 		}
 		# Humility
@@ -1270,24 +1270,24 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_minamoto_murakami.dynasty_founder.house }  # Murakami
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000236.dynasty_founder.house } # Katsurayama
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000400.dynasty_founder.house } # Minamoto Ashikaga
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000400 } # Minamoto Ashikaga
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
 		}
 		# Prosperity
-		house:japanese_fujiwara_oshu ?= {
+		dynasty:japanese_fujiwara_oshu.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The North // Oshu Fujiwara
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_hidesato } # Hidesato
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 		}
 		# Ceremony
 		house:house_matsudono_clan ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = ceremony } # Fujiwara
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_tada } # Tada
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
 		}
 	}
@@ -1300,17 +1300,17 @@ tgp_setup_historical_house_bloc_effect = {
 		house:house_minamoto_kawachi ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # Kamakura
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006129.dynasty_founder.house } # Hojo
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000400.dynasty_founder.house } # Minamoto Ashikaga
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006129 } # Hojo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000400 } # Minamoto Ashikaga
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_miura_clan } # Miura
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kajiwara } # Kajiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kajiwara } # Kajiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_dohi } # Dohi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_shimokobe } # Shimokobe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakamura_clan } # Nakamurama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asonuma } # Asonuma
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hiki2_clan } # Hiki
@@ -1318,11 +1318,11 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_wada1 } # Wada
 		}
 		# Determination
-		house:house_otomo_clan ?= {
+		house:10000640 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # Shugo
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shimazu_clan } # Shimazu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
@@ -1341,20 +1341,20 @@ tgp_setup_historical_house_bloc_effect = {
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_yamato.dynasty_founder.house } # Yamato
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oinomikado_clan } # Oinomikado
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_bomon_clan } # Bomon
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_tsuchimikado } # Tsuchimikado
 		}
 		# Prosperity
-		house:japanese_fujiwara_oshu ?= {
+		dynasty:japanese_fujiwara_oshu.dynasty_founder.house ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The North // Oshu Fujiwara
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_hidesato } # Hidesato
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
@@ -1379,10 +1379,10 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_katagiri_clan } # Katagiri
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000236.dynasty_founder.house } # Katsurayama
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
 		}
 	}
 	
@@ -1393,13 +1393,13 @@ tgp_setup_historical_house_bloc_effect = {
 		house:house_minamoto_kawachi ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # Kamakura Inner Circle
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000400.dynasty_founder.house } # Ashikaga-Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000400 } # Ashikaga-Minamoto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan }
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_miura_clan }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_wada1 }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kajiwara }
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kajiwara }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asonuma }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_dohi }
@@ -1409,26 +1409,26 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yokoyama_clan }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hiki2_clan }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_hatakeyama } # Taira Hatakeyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_hatakeyama } # Taira Hatakeyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ito } # Ito
 			
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006129.dynasty_founder.house } # Hojo
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007103.dynasty_founder.house } # Adachi - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006129 } # Hojo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007103 } # Adachi - Minamoto
 		}
 		# Determination
-		house:house_otomo_clan ?= {
+		house:10000640 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # Western Governors
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shimazu_clan }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan }
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_muto_clan }
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006045 }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan }
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kamachi }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
 			
@@ -1440,10 +1440,10 @@ tgp_setup_historical_house_bloc_effect = {
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_soma }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan }
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_fujiwara_oshu } # Oshu (remnants)
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_fujiwara_oshu.dynasty_founder.house } # Oshu (remnants)
 			
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
 		}
@@ -1456,9 +1456,9 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oinomikado_clan }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_bomon_clan }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hino_clan }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan }
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke }
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona }
 		}
 		# Humility
@@ -1476,10 +1476,10 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_wakasa }
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan }
 			
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000236.dynasty_founder.house } # Katsurayama
 		}
 	}
@@ -1489,14 +1489,14 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1204.5.16 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Regency
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_itoclan } # Ito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hiki2_clan } # Hiki
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi - Minamoto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_minamoto_kawachi } # Kawachi
 		}
 		# Determination
@@ -1505,13 +1505,13 @@ tgp_setup_historical_house_bloc_effect = {
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_wada1 } # Wada
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Minamoto Hatakeyama
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_hatakeyama } # Taira Hatakeyama
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_hatakeyama } # Taira Hatakeyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kajiwara } # Kajiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kajiwara } # Kajiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asonuma } # Asonuma
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_dohi } # Dohi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakamura_clan } # Nakamura
@@ -1521,28 +1521,28 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nagao } # Nagao
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yokoyama_clan }  # Yokoyama
 
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000400.dynasty_founder.house } # Ashikaga - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000400 } # Ashikaga - Minamoto
 		}
 		# Prosperity
-		house:house_otomo_clan ?= {
+		house:10000640 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # Provincial Governors
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shimazu_clan } # Shimazu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan } # Amano
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_muto_clan } # Muto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006045 } # Muto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan } # Goto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_soma } # Soma
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sahara_clan } # Sahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_so_clan } # So
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
@@ -1560,9 +1560,9 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_bomon_clan } # Bomon
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shijo_clan } # Shijo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hino_clan } # Hino
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke } # Southern Fujiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house } # Southern Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona } # Uona Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_koga } # Koga
 		}
@@ -1579,11 +1579,11 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toshima_clan } # Toshima
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_wakasa } # Wakasa
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_bito } # Bito
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000236.dynasty_founder.house } # Katsurayama
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kondo_clan } # Kondo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_kondo } # Kondo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kagami } # Kagami
 		}
 	}
@@ -1593,7 +1593,7 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1211.6.16 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Regency
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
@@ -1602,20 +1602,20 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nagao } # Nagao
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hiki2_clan } # Hiki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_minamoto_kawachi } # Kawachi
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007103.dynasty_founder.house } # Adachi - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007103 } # Adachi - Minamoto
 		}
 		# Determination
 		house:house_miura_clan ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # The Great Vassals
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_wada1 } # Wada
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_hatakeyama } # Hatakeyama
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_hatakeyama } # Hatakeyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kajiwara } # Kajiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_kajiwara } # Kajiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asonuma } # Asonuma
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_dohi } # Dohi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakamura_clan } # Nakamura
@@ -1624,26 +1624,26 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yokoyama_clan } # Yokoyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Hatakeyama - Minamoto
 
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000400.dynasty_founder.house } # Ashikaga - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000400 } # Ashikaga - Minamoto
 		}
 		# Prosperity
-		house:house_otomo_clan ?= {
+		house:10000640 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # Provincial Governors
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shimazu_clan } # Shimazu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan } # Amano
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_muto_clan } # Muto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006045 } # Muto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan } # Goto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sahara_clan } # Sahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_so_clan } # So
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kamachi } # Kamachi
@@ -1652,7 +1652,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000673.dynasty_founder.house } # Munakata
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 		}
 		# Ceremony
 		house:house_shgnt_koga ?= {
@@ -1665,9 +1665,9 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_bomon_clan } # Bomon
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shijo_clan } # Shijo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hino_clan } # Hino
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke } # Southern Fujiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house } # Southern Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona } # Uona Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hamuro_clan } # Hamuro
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sanjo_clan } # Sanjo
@@ -1687,11 +1687,11 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_bito } # Bito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_yamana } # Yamana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kagami } # Kagami
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kondo_clan } # Kondo
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_kondo } # Kondo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007467.dynasty_founder.house } # Nanjo
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
 		}
 	}
 	
@@ -1700,16 +1700,16 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1220.5.16 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Regency
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_itoclan } # Ito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nagao } # Nagao
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_saito_clan } # Saito
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007103.dynasty_founder.house } # Adachi - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_saito } # Saito
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007103 } # Adachi - Minamoto
 		}
 		# Determination
 		dynasty:japanese_yamato.dynasty_founder.house ?= { # Yamato
@@ -1721,12 +1721,12 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_bomon_clan } # Bomon
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oinomikado_clan } # Oinomikado
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shijo_clan } # Shijo
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke } # Southern Fujiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house } # Southern Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona } # Uona Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_takaie } # Takaie
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sasaki_clan } # Sasaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kaji } # Kaji
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kujo } # Kujo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_takashina_clan } # Takashina
@@ -1735,10 +1735,10 @@ tgp_setup_historical_house_bloc_effect = {
 		house:house_miura_clan ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = service } # Miura-Ashikaga Alliance
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_wada1 } # Wada
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Hatakeyama - Minamoto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_hatakeyama } # Hatakeyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_hatakeyama } # Hatakeyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatta_clan } # Hatta
@@ -1746,37 +1746,37 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_dohi } # Dohi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakamura_clan } # Nakamura
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_shimokobe } # Shimokobe
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000400.dynasty_founder.house } # Ashikaga
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000400 } # Ashikaga
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 		}
 		# Prosperity
-		house:house_otomo_clan ?= {
+		house:10000640 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # Provincial Governors
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shimazu_clan } # Shimazu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan } # Amano
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_muto_clan } # Muto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006045 } # Muto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan } # Goto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sahara_clan } # Sahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_so_clan } # So
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kamachi } # Kamachi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000673.dynasty_founder.house } # Munakata
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 		}
 		# Humility
 		house:house_toki_clan ?= {
@@ -1793,10 +1793,10 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_yamana } # Yamana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kagami } # Kagami
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sakai_clan } # Sakai
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kondo_clan } # Kondo
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_kondo } # Kondo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006141.dynasty_founder.house } # Hei
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007467.dynasty_founder.house } # Nanjo
 		}
@@ -1807,27 +1807,27 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1234.4.6 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Regency
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_itoclan } # Ito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nagao } # Nagao
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_saito_clan } # Saito
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007103.dynasty_founder.house } # Adachi - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_saito } # Saito
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007103 } # Adachi - Minamoto
 		}
 		# Determination
 		house:house_miura_clan ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # The Great Vassals
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000400.dynasty_founder.house } # Ashikaga
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000400 } # Ashikaga
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Hatakeyama - Minamoto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_hatakeyama } # Hatakeyama - Taira
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_hatakeyama } # Hatakeyama - Taira
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_wada1 } # Wada
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatta_clan } # Hatta
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asonuma } # Asonuma
@@ -1842,19 +1842,19 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007403.dynasty_founder.house } # Ebina
 		}
 		# Prosperity
-		house:house_otomo_clan ?= {
+		house:10000640 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # Provincial Governors
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shimazu_clan } # Shimazu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan } # Amano
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_muto_clan } # Muto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006045 } # Muto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan } # Goto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
@@ -1867,7 +1867,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000673.dynasty_founder.house } # Munakata
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 		}
 		# Ceremony
 		house:house_shgnt_kujo ?= {
@@ -1880,11 +1880,11 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_bomon_clan } # Bomon
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oinomikado_clan } # Oinomikado
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shijo_clan } # Shijo
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke } # Southern Fujiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house } # Southern Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona } # Uona Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_takaie } # Takaie
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_takashina_clan } # Takashina
 		}
@@ -1905,13 +1905,13 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kagami } # Kagami
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toyama_clan } # Toyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kaji } # Kaji
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006141.dynasty_founder.house } # Hei
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007467.dynasty_founder.house } # Nanjo
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000455.dynasty_founder.house } # Itami
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007104.dynasty_founder.house } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007104 } # Ota
 		}
 	}
 	
@@ -1920,17 +1920,17 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1246.6.13 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Regency
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_itoclan } # Ito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nagao } # Nagao
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_saito_clan } # Saito
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_saito } # Saito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sakai_clan } # Sakai
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007103.dynasty_founder.house } # Adachi - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007103 } # Adachi - Minamoto
 		}
 		# Determination
 		house:house_miura_clan ?= {
@@ -1939,7 +1939,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sahara_clan } # Sahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_wada1 } # Wada
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007403.dynasty_founder.house } # Ebina
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_hatta_oda } # Oda
 		}
@@ -1947,11 +1947,11 @@ tgp_setup_historical_house_bloc_effect = {
 		house:house_hosokawa_clan ?= { # Hosokawa
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The Great Neutral Vassals
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Hatakeyama - Minamoto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_hatakeyama } # Hatakeyama - Taira
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_hatakeyama } # Hatakeyama - Taira
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ogasawara_clan } # Ogasawara
@@ -1959,23 +1959,23 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_naganuma } # Naganuma
 		}
 		# Service
-		house:house_otomo_clan ?= {
+		house:10000640 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = service } # Provincial Governors
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shimazu_clan } # Shimazu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan } # Amano
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_muto_clan } # Muto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006045 } # Muto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan } # Goto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_so_clan } # So
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kamachi } # Kamachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_shoni } # Shoni
@@ -1984,7 +1984,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000673.dynasty_founder.house } # Munakata
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 		}
 		# Ceremony
 		house:house_shgnt_kujo ?= {
@@ -1996,11 +1996,11 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_bomon_clan } # Bomon
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oinomikado_clan } # Oinomikado
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shijo_clan } # Shijo
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke } # Southern Fujiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house } # Southern Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona } # Uona Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_takaie } # Takaie
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_takashina_clan } # Takashina
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nagai2_clan } # Nagai
@@ -2022,12 +2022,12 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kagami } # Kagami
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kyogoku } # Kyogoku
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kaji } # Kaji
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006141.dynasty_founder.house } # Hei
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007467.dynasty_founder.house } # Nanjo
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000455.dynasty_founder.house } # Itami
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007104.dynasty_founder.house } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007104 } # Ota
 		}
 	}
 	
@@ -2036,28 +2036,28 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1258.2.15 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Regency
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_itoclan } # Ito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nagao } # Nagao
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_saito_clan } # Saito
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_saito } # Saito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nagai2_clan } # Nagai
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nikaidoclan } # Nikaido
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007103.dynasty_founder.house } # Adachi - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007103 } # Adachi - Minamoto
 		}
 		# Prosperity
-		dynasty:10000400.dynasty_founder.house ?= { # Ashikaga
+		house:10000400 ?= { # Ashikaga
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The Great Neutral Vassals
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Hatakeyama - Minamoto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_hatakeyama } # Hatakeyama - Taira
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_hatakeyama } # Hatakeyama - Taira
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ogasawara_clan } # Ogasawara
@@ -2069,23 +2069,23 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kou2_clan } # Kou
 		}
 		# Service
-		house:house_otomo_clan ?= {
+		house:10000640 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = service } # Provincial Governors
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shimazu_clan } # Shimazu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan } # Amano
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_muto_clan } # Muto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006045 } # Muto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan } # Goto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_so_clan } # So
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kamachi } # Kamachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_shoni } # Shoni
@@ -2094,7 +2094,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000673.dynasty_founder.house } # Munakata
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 		}
 		# Ceremony
 		house:house_shgnt_kujo ?= {
@@ -2106,14 +2106,14 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_bomon_clan } # Bomon
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oinomikado_clan } # Oinomikado
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shijo_clan } # Shijo
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke } # Southern Fujiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house } # Southern Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona } # Uona Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_takaie } # Takaie
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_takashina_clan } # Takashina
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000100.dynasty_founder.house } # Uesugi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000100 } # Uesugi
 		}
 		# Humility
 		house:house_sasaki_clan ?= {
@@ -2136,14 +2136,14 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kaji } # Kaji
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kyogoku } # Kyogoku
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007403.dynasty_founder.house } # Ebina
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006141.dynasty_founder.house } # Hei
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007467.dynasty_founder.house } # Nanjo
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000455.dynasty_founder.house } # Itami
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007104.dynasty_founder.house } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007104 } # Ota
 		}
 	}
 	
@@ -2152,27 +2152,27 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1267.6.1 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Regency
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nagai2_clan } # Nagai
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_saito_clan } # Saito
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_saito } # Saito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nikaidoclan } # Nikaido
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_itoclan } # Ito
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007103.dynasty_founder.house } # Adachi - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007103 } # Adachi - Minamoto
 		}
 		# Prosperity
-		dynasty:10000400.dynasty_founder.house ?= { # Ashikaga
+		house:10000400 ?= { # Ashikaga
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The Great Neutral Vassals
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Hatakeyama - Minamoto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_hatakeyama } # Hatakeyama - Taira
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_hatakeyama } # Hatakeyama - Taira
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ogasawara_clan } # Ogasawara
@@ -2182,15 +2182,15 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ashina2_clan } # Ashina
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hosokawa_clan } # Hosokawa
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kou2_clan } # Kou
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iga_clan } # Iga
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_iga } # Iga
 		}
 		# Service
 		house:house_shgnt_shoni ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = service } # Kyushu Defenders
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_otomo_clan } # Otomo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000640 } # Otomo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shimazu_clan } # Shimazu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_so_clan } # So
@@ -2203,18 +2203,18 @@ tgp_setup_historical_house_bloc_effect = {
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan } # Amano
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_muto_clan } # Muto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006045 } # Muto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan } # Goto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_oyama } # Oyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kasai } # Kasai
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 		}
 		# Ceremony
 		house:house_shgnt_kujo ?= {
@@ -2226,14 +2226,14 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_bomon_clan } # Bomon
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oinomikado_clan } # Oinomikado
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shijo_clan } # Shijo
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_nan_ke } # Southern Fujiwara
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10001097.dynasty_founder.house } # Southern Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_uona } # Uona Fujiwara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_takaie } # Takaie
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_takashina_clan } # Takashina
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000100.dynasty_founder.house } # Uesugi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000100 } # Uesugi
 		}
 		# Humility
 		house:house_toki_clan ?= {
@@ -2255,14 +2255,14 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kaji } # Kaji
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kyogoku } # Kyogoku
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007403.dynasty_founder.house } # Ebina
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006141.dynasty_founder.house } # Hei
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007467.dynasty_founder.house } # Nanjo
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000455.dynasty_founder.house } # Itami
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007104.dynasty_founder.house } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007104 } # Ota
 		}
 	}
 	
@@ -2271,24 +2271,24 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1286.3.15 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Regency
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nagai2_clan } # Nagai
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_saito_clan } # Saito
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_saito } # Saito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nikaidoclan } # Nikaido
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_itoclan } # Ito
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_taira_kanmu.dynasty_founder.house } # Kanmu Taira
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007103.dynasty_founder.house } # Adachi - Minamoto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007103 } # Adachi - Minamoto
 		}
 		# Prosperity
-		dynasty:10000400.dynasty_founder.house ?= { # Ashikaga
+		house:10000400 ?= { # Ashikaga
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The Great Vassals
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Hatakeyama - Minamoto
@@ -2305,9 +2305,9 @@ tgp_setup_historical_house_bloc_effect = {
 		house:house_shgnt_shoni ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # The Western Warriors
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_otomo_clan } # Otomo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000640 } # Otomo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shimazu_clan } # Shimazu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_so_clan } # So
@@ -2320,19 +2320,19 @@ tgp_setup_historical_house_bloc_effect = {
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan } # Amano
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_muto_clan } # Muto
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006045 } # Muto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan } # Goto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_oyama } # Oyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kasai } # Kasai
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_enya_clan } # Enya
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 		}
 		# Ceremony
 		house:house_shgnt_kujo ?= {
@@ -2345,10 +2345,10 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oinomikado_clan } # Oinomikado
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shijo_clan } # Shijo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
-			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_tachibana } # Tachibana
+			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:japanese_tachibana.dynasty_founder.house } # Tachibana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_takashina_clan } # Takashina
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000100.dynasty_founder.house } # Uesugi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000100 } # Uesugi
 		}
 		# Humility
 		house:house_toki_clan ?= {
@@ -2370,14 +2370,14 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kyogoku } # Kyogoku
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_mori_clan } # Mori
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ohira_clan } # Ohira
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007403.dynasty_founder.house } # Ebina
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006141.dynasty_founder.house } # Hei
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007467.dynasty_founder.house } # Nanjo
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000455.dynasty_founder.house } # Itami
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007104.dynasty_founder.house } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007104 } # Ota
 		}
 	}
 	
@@ -2386,29 +2386,29 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1300.9.10 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Dictatorship
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nagai2_clan } # Nagai
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_saito_clan } # Saito
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_saito } # Saito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nikaidoclan } # Nikaido
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_itoclan } # Ito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nagasaki_clan } # Nagasaki
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iga_clan } # Iga
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_iga } # Iga
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_enya_clan } # Enya
 		}
 		# Prosperity
-		dynasty:10000400.dynasty_founder.house ?= { # Ashikaga
+		house:10000400 ?= { # Ashikaga
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The Ashikaga Faction
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hosokawa_clan } # Hosokawa
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Hatakeyama - Minamoto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toki_clan } # Toki
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000100.dynasty_founder.house } # Uesugi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000100 } # Uesugi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_yamana } # Yamana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_imagawa_clan } # Imagawa
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yamada_clan } # Yamada
@@ -2421,20 +2421,20 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # The Kyushu Alliance
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_shoni } # Shoni
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_otomo_clan } # Otomo
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000640 } # Otomo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kono_clan } # Kono
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_so_clan } # So
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kamachi } # Kamachi
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
 		}
 		# Service
 		house:house_utsunomiya_clan ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = service } # Provincial Vassals
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ogasawara_clan } # Ogasawara
@@ -2445,21 +2445,21 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan } # Amano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan } # Goto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_oyama } # Oyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kasai } # Kasai
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_mori_clan } # Mori
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ohira_clan } # Ohira
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_bito } # Bito
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 		}
 		# Ceremony
 		house:house_shgnt_kujo ?= {
@@ -2480,45 +2480,45 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1310.6.1 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Dictatorship
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nagai2_clan } # Nagai
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_saito_clan } # Saito
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_saito } # Saito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nikaidoclan } # Nikaido
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_itoclan } # Ito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nagasaki_clan } # Nagasaki
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iga_clan } # Iga
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_iga } # Iga
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_oyama } # Oyama
 		}
 		# Prosperity
-		dynasty:10000400.dynasty_founder.house ?= { # Ashikaga
+		house:10000400 ?= { # Ashikaga
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The Ashikaga Faction
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hosokawa_clan } # Hosokawa
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Hatakeyama - Minamoto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toki_clan } # Toki
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000100.dynasty_founder.house } # Uesugi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000100 } # Uesugi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_yamana } # Yamana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_imagawa_clan } # Imagawa
 		}
 		# Determination
-		house:house_kikuchi_clan ?= {
+		house:31200440 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # The Disaffected Vassals
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_mori_clan } # Mori
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007104.dynasty_founder.house } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007104 } # Ota
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007467.dynasty_founder.house } # Nanjo
 		}
 		# Service
-		house:house_otomo_clan ?= {
+		house:10000640 ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = service } # Provincial Vassals
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_utsunomiya_clan } # Utsonomiya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
@@ -2542,12 +2542,12 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_daihoji } # Daihoji
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kasai } # Kasai
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_enya_clan } # Enya
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
 		}
 		# Ceremony
@@ -2564,7 +2564,7 @@ tgp_setup_historical_house_bloc_effect = {
 		house:house_sasaki_clan ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = humility } # Outer Vassals
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_tada } # Tada
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toki_clan } # Toki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yamada_clan } # Yamada
@@ -2572,9 +2572,9 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_homna_clan } # Homna
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ohira_clan } # Ohira
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kyogoku } # Kyogoku
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007403.dynasty_founder.house } # Ebina
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007108.dynasty_founder.house } # Kanamochi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007108 } # Kanamochi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006141.dynasty_founder.house } # Hei
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000455.dynasty_founder.house } # Itami
 		}
@@ -2585,25 +2585,25 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1324.11.30 }
 		# Strength
-		dynasty:10006129.dynasty_founder.house ?= { # Hojo
+		house:10006129 ?= { # Hojo
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Hojo Dictatorship
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nagasaki_clan } # Nagasaki
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_adachi_clan } # Adachi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_adachi } # Adachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nagai2_clan } # Nagai
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kato_clan } # Kato
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_saito_clan } # Saito
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_saito } # Saito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nikaidoclan } # Nikaido
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iga_clan } # Iga
+			tgp_join_historical_house_bloc_effect = { JOINER = house:japanese_iga } # Iga
 		}
 		# Determination
 		dynasty:japanese_yamato.dynasty_founder.house ?= { # Yamato
 			tgp_create_historical_house_bloc_effect = { TYPE = determination } # Imperial Loyalists
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_mori_clan } # Mori
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007104.dynasty_founder.house } # Ota
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007104 } # Ota
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007467.dynasty_founder.house } # Nanjo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_koga } # Koga
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sanjo_clan } # Sanjo
@@ -2612,14 +2612,14 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oinomikado_clan } # Oinomikado
 		}
 		# Prosperity
-		dynasty:10000400.dynasty_founder.house ?= { # Ashikaga
+		house:10000400 ?= { # Ashikaga
 			tgp_create_historical_house_bloc_effect = { TYPE = prosperity } # The Ashikaga Faction
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hosokawa_clan } # Hosokawa
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hatakeyama_clan } # Hatakeyama - Minamoto
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toki_clan } # Toki
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000100.dynasty_founder.house } # Uesugi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000100 } # Uesugi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_yamana } # Yamana
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_imagawa_clan } # Imagawa
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kyogoku } # Kyogoku
@@ -2630,7 +2630,7 @@ tgp_setup_historical_house_bloc_effect = {
 		house:house_utsunomiya_clan ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = service } # Kamakura Loyalists
 			# Members
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ogasawara_clan } # Ogasawara
@@ -2641,19 +2641,19 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_akamatsu } # Akamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_amano_clan } # Amano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_goto_clan } # Goto
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nanbu_clan } # Nanbu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ando_clan } # Ando
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kudo_clan } # Kudo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10007418 } # Kudo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_oyama } # Oyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kasai } # Kasai
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_enya_clan } # Enya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toda_clan } # Toda
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ohira_clan } # Ohira
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_daihoji } # Daihoji
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kamachi } # Kamachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_soma2_clan } # Soma
@@ -2663,10 +2663,10 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_create_historical_house_bloc_effect = { TYPE = humility } # The Disenfranchised West
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_shoni } # Shoni
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_otomo_clan } # Otomo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000640 } # Otomo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_so_clan } # So
 		}
 		# Ceremony
@@ -2676,7 +2676,7 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_oe2_clan } # Oe
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_nakahara_clan } # Nakahara
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toin_clan } # Toin
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000449.dynasty_founder.house } # Hattori
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000449 } # Hattori
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000455.dynasty_founder.house } # Itami
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_bito } # Bito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_sasaki_clan } # Sasaki
@@ -2688,7 +2688,7 @@ tgp_setup_historical_house_bloc_effect = {
 	if = {
 		limit = { game_start_date = 1337.5.24 }
 		# Strength
-		dynasty:10000400.dynasty_founder.house ?= { # Ashikaga
+		house:10000400 ?= { # Ashikaga
 			tgp_create_historical_house_bloc_effect = { TYPE = strength } # The Ashikaga Shogunate (Northern Court)
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_hosokawa_clan } # Hosokawa
@@ -2705,12 +2705,12 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kanoclan } # Kano
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_takeda } # Takeda
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_oyama } # Oyama
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_chiba_clan } # Chiba
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_chiba } # Chiba
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kou2_clan } # Kou
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10007376.dynasty_founder.house } # Matsudaira
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000455.dynasty_founder.house } # Itami
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10006025.dynasty_founder.house } # Matsuda
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000100.dynasty_founder.house } # Uesugi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10006025 } # Matsuda
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000100 } # Uesugi
 		}
 		# Determination
 		dynasty:japanese_yamato.dynasty_founder.house ?= { # Yamato
@@ -2718,7 +2718,7 @@ tgp_setup_historical_house_bloc_effect = {
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kitabatake } # Kitabatake
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_nitta } # Nitta
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kikuchi_clan } # Kikuchi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:31200440 } # Kikuchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_yuki_clan } # Yuki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_enya_clan } # Enya
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_toda_clan } # Toda
@@ -2743,20 +2743,20 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_homna_clan } # Homna
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwamatsu_clan } # Iwamatsu
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_fujiwara_koichijo } # Koichijo
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000574.dynasty_founder.house } # Yoshimi
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000574 } # Yoshimi
 		}
 		# Service
 		house:house_shimazu_clan ?= {
 			tgp_create_historical_house_bloc_effect = { TYPE = service } # The Kyushu Warlords
 			# Members
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_shoni } # Shoni
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_otomo_clan } # Otomo
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000640 } # Otomo
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_ouchi } # Ouchi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_itoclan } # Ito
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_so_clan } # So
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kamachi } # Kamachi
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_matsura_clan } # Matsura
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000671.dynasty_founder.house } # Nagano
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000671 } # Nagano
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000601.dynasty_founder.house } # Kimotsuki
 		}
 		# Humility
@@ -2767,12 +2767,12 @@ tgp_setup_historical_house_bloc_effect = {
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_asari } # Asari
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_daihoji } # Daihoji
 			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000003.dynasty_founder.house } # Onodera
-			tgp_join_historical_house_bloc_effect = { JOINER = dynasty:10000065.dynasty_founder.house } # Kashiyama
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000065 } # Kashiyama
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_date_rusu } # Rusu
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_iwaki_clan } # Iwaki
+			tgp_join_historical_house_bloc_effect = { JOINER = house:house_taira_iwaki } # Iwaki
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_soma } # Soma
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_shgnt_kasai } # Kasai
-			tgp_join_historical_house_bloc_effect = { JOINER = house:house_date_clan } # Date
+			tgp_join_historical_house_bloc_effect = { JOINER = house:10000010 } # Date
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_kunohe_clan } # Kunohe
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_satake_clan } # Satake
 			tgp_join_historical_house_bloc_effect = { JOINER = house:house_ashina2_clan } # Ashina

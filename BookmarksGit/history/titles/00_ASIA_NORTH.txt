@@ -906,7 +906,7 @@ k_altai = { #Naiman
 		liege = 0
 	}
 	1143.1.1 = {
-		holder = 1410981
+		holder = naiman_guchugud_1
 	}
 	1198.1.1 = {
 		holder = 1410984
@@ -985,7 +985,7 @@ d_gobi_altai = { #Naiman
 		liege = 0
 	}
 	1143.1.1 = {
-		holder = 1410981
+		holder = naiman_guchugud_1
 	}
 	1198.1.1 = {
 		holder = 1410984
@@ -3878,7 +3878,7 @@ c_tseel = {
 		holder = 1410980
 	}
 	1143.1.1 = {
-		holder = 1410981
+		holder = naiman_guchugud_1
 	}
 	1198.1.1 = {
 		holder = 1410984
@@ -3987,7 +3987,7 @@ c_zarman = {
 		holder = 1410980
 	}
 	1143.1.1 = {
-		holder = 1410981
+		holder = naiman_guchugud_1
 	}
 	1198.1.1 = {
 		holder = 1410984
@@ -23776,6 +23776,7 @@ c_atkarsk = {
 
 	1220.12.17 = {
 		holder = CumanHerder71
+		liege = d_chuvashia
 	}
 
 	1253.5.9 = {
@@ -23923,6 +23924,7 @@ c_khopyor = {
 
 	1214.12.2 = {
 		holder = CumanHerder56
+		liege = d_khopyor
 	}
 
 	1246.3.24 = {
@@ -32547,7 +32549,7 @@ d_SW_dashiweiguo = {
 	1115.1.1 = { holder = NSteppeMB118	}
 	1140.1.1 = { holder = NSteppeMB119	}
 	1160.1.1 = { holder = 166796M	}
-	1163.1.1 = { holder = 166796	}
+	1163.1.1 = { holder = mpo_mongol_1	}
 	1204.5.1 = { holder = NSteppeMB121	}
 	1225.1.1 = { liege = k_mongolia }
 	1250.1.1 = { holder = NSteppeMB122	}
@@ -33747,6 +33749,7 @@ c_em_hepung = {
 	
 	901.7.28 = {
 		holder = MongolNew722  # Ambaghai (eldest son of Yesugei)
+		liege = d_EM_onon
 	}
 	
 	930.1.24 = {
@@ -33759,6 +33762,7 @@ c_em_hepung = {
 	
 	988.2.11 = {
 		holder = MongolNew735  # Yeke (son of Khadagh)
+		liege = d_em_wuguguo
 	}
 	
 	1017.9.21 = {
@@ -38015,7 +38019,7 @@ c_SW_pibeihe = {
 	1115.1.1 = { holder = NSteppeMB118	}
 	1140.1.1 = { holder = NSteppeMB119	}
 	1160.1.1 = { holder = 166796M	}
-	1163.1.1 = { holder = 166796	}
+	1163.1.1 = { holder = mpo_mongol_1	}
 	1204.5.1 = { holder = NSteppeMB121	}
 	1250.1.1 = { holder = NSteppeMB122	}
 	1300.1.1 = { holder = NSteppeMB123	}
@@ -39832,7 +39836,7 @@ d_sanggan = {
 		government = feudal_government
 	}
 	865.1.1 = { holder = 1401447 } #Gao Hong
-	870.12.6 = { holder = 1412306 } #Li Guochang
+	870.12.6 = { holder = li_674E_zhuye_1 } #Li Guochang
 	#Rebellion
 	878.6.13 = { liege = 0 reset_name = yes }
 	#Tang
@@ -58448,7 +58452,7 @@ c_suyab = {
 	1163.6.1 = {
 		holder = 188912 #Yelü Pusuwan = Regent Empress Chengtian #188908
 	}
-	1204.1.1 = {
+	1206.1.1 = {
 		holder = 188914	#Kuchlug
 	}
 	# Mongol conquest
@@ -58531,9 +58535,9 @@ c_taraz = {
 	998.1.2 = {
 		holder = 3002
 	}
-	1002.1.1 = {
-		holder = 1230265 # Muhammad b. Ali since 1002, with some gaps until 1018
-	}
+	#1002.1.1 = {
+	#	holder = 1230265 # Muhammad b. Ali since 1002, with some gaps until 1018
+	#}
 	1013.1.1 = {
 		liege = d_osrushana
 	}
@@ -90189,3 +90193,11 @@ c_tezu = {
 }
 
 #}
+
+k_tyva= {
+	#867.1.1 = { change_development_level = 0 }
+	#1066.1.1 = { change_development_level = 0 }
+	1204.1.1 = {
+		de_jure_liege = e_mongol_empire
+	}
+}

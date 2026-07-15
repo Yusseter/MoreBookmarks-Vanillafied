@@ -3574,7 +3574,7 @@ lund = { #important christian city in early christian era in Sweden, also create
 }
 
 ravenna = {
-	county = c_casentino
+	county = c_forli
 	barony = b_forli
 
 	character_modifier = {
@@ -3850,8 +3850,8 @@ kyaikhtiyo = {
 #}
 
 er_hai_lake = {
-	county = c_yunnan
-	barony = b_ji_zu
+	county = c_dali
+	barony = b_ningbei
 
 	character_modifier = {
 		name = holy_site_er_hai_lake_effect_name
@@ -3939,8 +3939,8 @@ lake_ranau = {
 }
 
 karo = {
-	county = c_aru
-	barony = b_karo
+	county = c_SUM_perlak
+	barony = b_SUM_Aru
 
 	character_modifier = {
 		name = holy_site_karo_effect_name
@@ -3963,7 +3963,7 @@ lake_lanao = {
 ## Tai/ Ban Phi sites
 
 muang_thaen = {
-	county = c_muang_thaeng
+	county = c_sam_nuea
 
 	character_modifier = {
 		name = holy_site_muang_thaen_effect_name
@@ -4105,8 +4105,8 @@ lawu = {
 }
 
 sinabung = {
-	county = c_aru
-	barony = b_kutambaru
+	county = c_SUM_perlak
+	barony = b_SUM_Medan
 
 	character_modifier = {
 		name = holy_site_sinabung_effect_name

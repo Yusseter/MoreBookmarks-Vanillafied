@@ -887,7 +887,7 @@
 }
 
 1171Unlanded6 = {
-    name = "Petachiah" # Petachiah of Regensburg
+    name = "Petachiah_MB" # Petachiah of Regensburg
     dynasty = 1171Unlanded6 # ben Yaakov
     martial = 3
     diplomacy = 7
@@ -959,7 +959,7 @@
 }
 
 1211Unlanded3 = {
-    name = "Abd al-Latif" # Abd al-Latif al-Baghdadi
+    name = "Abd_al_Latif_MB" # Abd al-Latif al-Baghdadi
     dynasty = 1211Unlanded3 # al-Baghdadi
     martial = 2
     diplomacy = 6    
@@ -1005,7 +1005,7 @@
 }
 
 1211Unlanded5 = {
-    name = "Rukuo" # Zhao Rukuo
+    name = "Rukuo_MB" # Zhao Rukuo
     dynasty = 1211Unlanded5 # Zhao
     martial = 2
     diplomacy = 7    # Successful customs inspector
@@ -1051,7 +1051,7 @@
 }
 
 997Unlanded1 = {
-    name = "Abu Rayhan" # Al-Biruni
+    name = "Abu_Rayhan_MB" # Al-Biruni
     dynasty = 997Unlanded1 # al-Biruni
     martial = 2
     diplomacy = 6    
@@ -1074,7 +1074,7 @@
 }
 
 1099Unlanded1 = {
-    name = "Al-Ghazali"
+    name = "Al_Ghazali_MB"
     dynasty = 1099Unlanded1 # Ghazali
     martial = 4
     diplomacy = 6
@@ -1148,7 +1148,7 @@
 }
 
 1144Unlanded1 = {
-    name = "Abu Hamid" # Abu Hamid Muhammad al-Gharnati
+    name = "Abu_Hamid_MB" # Abu Hamid Muhammad al-Gharnati
     dynasty = 1144Unlanded1
 
     diplomacy = 8
@@ -1200,7 +1200,184 @@
     }
 }
 
+il_eom_1 = { # Landless Scholar adventurer
+	name = "Il_eom"
+	dynasty = hchar_chong
+	religion = dhyana
+	culture = goryeo
+	trait = education_learning_3
+	trait = deceitful
+	trait = temperate 
+	trait = gregarious
+	trait = lifestyle_physician
+	trait = devoted
+	1145.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	1178.1.1 = {
+		give_nickname = nick_ho_seung
+	}
+	1203.1.1 = {
+		death = yes
+	}
+}
 
+wang_chuyi_1 = {
+	name = "Chuyi_8655_7FA9"
+	dynasty = hchar_wang
+	religion = "quanzhen"
+	culture = "han"
+	trait = education_learning_3
+	trait = temperate
+	trait = calm
+	trait = patient
+	trait = lifestyle_mystic
+	trait = pilgrim
+	1142.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	1217.1.1 = {
+		death = yes
+	}
+}
+
+nga_yamankan_1 = { # Landless Scholar/Monk adventurer
+	name = "Nga_Yamankan"
+	dynasty = hchar_yamankan
+	religion = theravada
+	culture = mon
+	trait = education_martial_3
+	trait = one_eyed
+	trait = arrogant
+	trait = ambitious
+	trait = paranoid
+	trait = organizer
+	1039.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	1084.1.1 = {
+		death = yes
+	}
+}
+
+shin_capata_1 = { # Landless Scholar/Monk adventurer
+	name = "Shin"
+	dynasty = hchar_capata
+	religion = theravada
+	culture = mon
+	trait = education_learning_2
+	trait = zealous
+	trait = patient
+	trait = gregarious
+	trait = scholar
+	1161.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	1236.1.1 = {
+		death = yes
+	}
+}
+
+ly_do_doc_1 = { # Landless Martial adventurer
+	name = "Do_Doc"
+	dynasty = hchar_ly
+	religion = dhyana
+	culture = viet
+	trait = education_martial_3
+	trait = knight_errant
+	trait = ambitious
+	trait = arrogant
+	trait = brave
+	830.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	905.1.1 = {
+		death = yes
+	}
+}
+
+khong_lo_1 = { # Landless Scholar/Monk adventurer
+	name = "Khong_Lo"
+	dynasty = hchar_khong
+	religion = dhyana
+	culture = viet
+	trait = education_learning_2
+	trait = physique_good_1
+	trait = devoted
+	trait = pilgrim
+	trait = lifestyle_mystic
+	trait = calm
+	trait = content
+	trait = temperate
+	1016.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	1094.1.1 = {
+		death = yes
+	}
+}
+
+quach_boc_1 = { # Landless Martial adventurer
+	name = "Boc"
+	dynasty = hchar_quach
+	religion = dhyana
+	culture = viet
+	trait = education_martial_2
+	trait = physique_good_2
+	trait = brave
+	trait = trusting
+	trait = wrathful
+	trait = reckless
+	trait = adventurer
+	1160.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	1229.1.1 = {
+		death = yes
+	}
+}
+
+lembong_1 = {
+	name = "Lembong"
+	dynasty = hchar_candala
+	religion = "shaivism"
+	culture = "javanese"
+	trait = education_intrigue_3
+	trait = deceitful
+	trait = ambitious
+	trait = callous
+	trait = intellect_good_1
+	1152.1.1 = {
+		birth = yes
+		effect = {
+			add_character_flag = do_not_generate_starting_family
+		}
+	}
+	1200.1.1 = {
+		death = yes
+	}
+}
 
 ##
 
@@ -81013,19 +81190,6 @@ dummy6814 = {
     culture = english
     religion = catholic
     dynasty_house = house_mowbray
-    1400.1.1={
-        birth = yes
-    }
-    1450.1.1={
-        death=yes
-    }
-}
-
-dummy6815 = {
-    name="William"
-    culture = english
-    religion = catholic
-    dynasty_house = house_stewart
     1400.1.1={
         birth = yes
     }

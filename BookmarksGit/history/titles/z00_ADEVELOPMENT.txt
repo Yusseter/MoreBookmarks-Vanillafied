@@ -2121,15 +2121,6 @@
 	#1310.1.1 = { change_development_level = 4 }
 	#}
 
-	k_aynumosir = {
-	769.1.1 = { change_development_level = 0 }
-	1000.1.1 = { change_development_level = 0 }
-	1124.1.1 = { change_development_level = 0 }
-	1166.1.1 = { change_development_level = 1 }
-	1204.1.1 = { change_development_level = 2 }
-	1241.1.1 = { change_development_level = 3 }
-	1310.1.1 = { change_development_level = 4 }
-	}
 
 	#Little higher than other steppe
 # EAST_TITLE_REWRITE_COLLISION: direct k_khitan_china -> k_khitan; same-run duplicate target in history_titles; manual merge needed.
@@ -11331,3 +11322,33 @@
 	
 	}
 #End Development File #}
+
+	k_toulouse = {
+	769.1.1 = { change_development_level = 5 }
+	1000.1.1 = { change_development_level = 8 }
+	1124.1.1 = { change_development_level = 10 }
+	1166.1.1 = { change_development_level = 14 }
+	1204.1.1 = { change_development_level = 19 }
+	1241.1.1 = { change_development_level = 22 }
+	1310.1.1 = { change_development_level = 28 }
+	}
+
+	k_tyva = {
+	769.1.1 = { change_development_level = 0 }
+	1000.1.1 = { change_development_level = 0 }
+	1124.1.1 = { change_development_level = 0 }
+	1166.1.1 = { change_development_level = 2 }
+	1204.1.1 = { change_development_level = 4 }
+	1241.1.1 = { change_development_level = 6 }
+	1310.1.1 = { change_development_level = 8 }
+	}
+
+	k_warka = {
+	769.1.1 = { change_development_level = 0 }
+	1000.1.1 = { change_development_level = 0 }
+	1124.1.1 = { change_development_level = 0 }
+	1166.1.1 = { change_development_level = 1 }
+	1204.1.1 = { change_development_level = 2 }
+	1241.1.1 = { change_development_level = 3 }
+	1310.1.1 = { change_development_level = 4 }
+	}

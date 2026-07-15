@@ -15710,10 +15710,21 @@ religion = jacobite #no syriac in CK3
 }
 
 1765 = {	# VILLA REAL
-	holding = none
+	# Misc
+	culture = mozarab
+	religion = mozarabic_church
 	
-	1066.1.1 = {
-		holding = church_holding
+	holding = castle_holding
+	
+	# History
+	867.1.1 = {
+		culture = galician
+	}
+	926.1.1 = {
+		religion = catholic
+	}
+	1099.1.1 = {
+		culture = portuguese
 	}
 }
 
@@ -15728,7 +15739,17 @@ religion = jacobite #no syriac in CK3
 }
 
 1768 = {	# 1768 - LAMEGO
+	# Misc
+	culture = mozarab
+	religion = mozarabic_church
+	
 	holding = church_holding
+	
+	# History
+	931.1.1 = { religion = catholic }
+	1099.1.1 = {
+		culture = portuguese
+	}
 }
 
 1769 = {	# VISEU
@@ -15778,7 +15799,15 @@ religion = jacobite #no syriac in CK3
 }
 
 1774 = {	# NISA
-	holding = city_holding
+	# Misc
+	culture = mozarab
+	religion = mozarabic_church
+	
+	holding = castle_holding
+	
+	# History
+	1214.1.1 = { culture = portuguese }
+	1214.1.1 = { religion = catholic }
 }
 
 1775 = {	# CRATO
@@ -15834,14 +15863,29 @@ religion = jacobite #no syriac in CK3
 }
 
 1781 = {	# TUI
-	holding = church_holding
+	# Misc
+	culture = suebi
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	867.1.1 = {
+		culture = galician
+	}
 }
 
 1782 = {	# VIGO
-	holding = none
+	# Misc
+	culture = suebi
+	religion = catholic
 	
-	1066.1.1 = {
-		holding = city_holding
+	holding = castle_holding
+	
+	# History
+
+	867.1.1 = {
+		culture = galician
 	}
 }
 
@@ -15918,10 +15962,11 @@ religion = jacobite #no syriac in CK3
 }
 
 1789 = {	# MONDONEDO
-	holding = none
-	
-	1066.1.1 = {
-		holding = church_holding
+	holding = church_holding
+	culture = suebi
+	religion = catholic
+	867.1.1 = {
+		culture = galician
 	}
 }
 
@@ -15988,7 +16033,16 @@ religion = jacobite #no syriac in CK3
 }
 
 1799 = {	# OURENSE
-	holding = church_holding
+	# Misc
+	culture = suebi
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	867.1.1 = {
+		culture = galician
+	}
 }
 
 1800 = {	# LIMIA
@@ -16316,7 +16370,17 @@ religion = jacobite #no syriac in CK3
 }
 
 1840 = {	# HUELVA
-	holding = city_holding
+	# Misc
+	culture = mozarab
+	religion = muwalladi
+	
+	holding = castle_holding
+	
+	# History
+	867.1.1 = { religion = muwalladi }
+	867.1.1 = { culture = andalusian }
+	1277.1.1 = { culture = castilian }
+	1277.1.1 = { religion = catholic }
 }
 
 1841 = {	# ALMONTE
@@ -16608,7 +16672,16 @@ religion = jacobite #no syriac in CK3
 }
 
 1867 = {	# OLOT
-	holding = city_holding
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	867.1.1 = {
+		culture = catalan
+	}
 }
 
 1868 = {	# PUIGCERDA
@@ -16625,7 +16698,16 @@ religion = jacobite #no syriac in CK3
 }
 
 1869 = {	# ANDORRA/Seu d'Urgell
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
 	holding = church_holding
+	
+	# History
+	867.1.1 = {
+		culture = catalan
+	}
 }
 
 1870 = {	# VIELHA
@@ -16677,7 +16759,7 @@ religion = jacobite #no syriac in CK3
 }
 
 1874 = {	# BARBASTRO
-	holding = city_holding
+	holding = church_holding
 }
 
 1875 = {	# VIC
@@ -16734,7 +16816,7 @@ religion = jacobite #no syriac in CK3
 	culture = mozarab
 	religion = mozarabic_church
 	
-	holding = church_holding
+	holding = castle_holding
 	
 	#History
 	867.1.1 = { culture = navarro_aragonese }
@@ -16866,7 +16948,14 @@ religion = jacobite #no syriac in CK3
 }
 
 1898 = {	# ARANDA DE DUERO
-	holding = church_holding
+	# Misc
+	culture = visigothic
+	religion = catholic
+	
+	holding = castle_holding
+	
+	# History
+	867.1.1 = { culture = castilian }
 }
 
 1899 = {	# SAN ESTEBAN
@@ -16980,7 +17069,14 @@ religion = jacobite #no syriac in CK3
 }
 
 1914 = {	# MEDINA DEL CAMPO
-	holding = city_holding
+	# Misc
+	culture = mozarab
+	religion = mozarabic_church
+	
+	holding = castle_holding
+	
+	# History
+	1000.1.1 = { culture = asturleonese religion = catholic }
 }
 
 1915 = {	# OLMEDO
@@ -17091,7 +17187,17 @@ religion = jacobite #no syriac in CK3
 }
 
 1927 = {	# GUDALAJARA
-	holding = city_holding
+	# Misc
+	culture = mozarab
+	religion = mozarabic_church
+	
+	holding = castle_holding
+	
+	# History
+	#950.1.1 = { culture = andalusian 
+	#			religion = muwalladi	}
+	#1131.1.1 = { culture = castilian }
+	#1131.1.1 = { religion = catholic }
 }
 
 1928 = {	# ARGANDA
@@ -17103,11 +17209,21 @@ religion = jacobite #no syriac in CK3
 }
 
 1930 = {	# SIGUENZA
-	holding = city_holding
+	holding = church_holding
 }
 
 1931 = {	# MEDINACELI
-	holding = church_holding
+	#Misc
+	culture = mozarab
+	religion = mozarabic_church
+	
+	holding = castle_holding
+	
+	# History
+	#950.1.1 = { culture = andalusian 
+	#			religion = muwalladi	}
+	1144.1.1 = { culture = castilian }
+	1144.1.1 = { religion = catholic }
 }
 
 1932 = {	# CALATYUD
@@ -17202,7 +17318,7 @@ religion = jacobite #no syriac in CK3
 }
 
 1945 = {	# ALTO TAJO/Huélamo
-	holding = castle_holding
+	holding = church_holding
 }
 
 1946 = {	# ADEMUZ/Alpuente
@@ -17294,7 +17410,15 @@ religion = jacobite #no syriac in CK3
 }
 
 1958 = {	# OCANA
-	holding = city_holding
+	# Misc
+	culture = mozarab
+	religion = mozarabic_church
+	
+	holding = castle_holding
+	
+	# History
+	1235.1.1 = { culture = castilian }
+	1235.1.1 = { religion = catholic }
 }
 
 1959 = {	# QUINTANAR
@@ -17393,7 +17517,17 @@ religion = jacobite #no syriac in CK3
 }
 
 1970 = {	# CIEZA
-	holding = city_holding
+	# Misc
+	culture = mozarab
+	religion = mozarabic_church
+	
+	holding = castle_holding
+	
+	# History
+	812.1.1 = { religion = muwalladi }
+	867.1.1 = { culture = andalusian }
+	1281.1.1 = { culture = castilian }
+	1281.1.1 = { religion = catholic }
 }
 
 1971 = {	# CARAVACA DE LA CRUZ
@@ -17793,7 +17927,13 @@ religion = jacobite #no syriac in CK3
 }
 
 2014 = {	#AGDE
-	holding = city_holding
+	culture = visigothic
+	867.1.1 = { culture = occitan }
+	
+	religion = catholic
+	holding = church_holding
+	1150.1.1 = { religion = cathar }
+	1244.3.16 = { religion = catholic}
 }
 
 2015 = {	#MONTPELLIER
@@ -17816,7 +17956,7 @@ religion = jacobite #no syriac in CK3
 2017 = {	#ARLES
 	culture = occitan
 	religion = catholic
-	holding = castle_holding
+	holding = church_holding
 }
 
 2018 = {	#MARSEILLE
@@ -17881,7 +18021,10 @@ religion = jacobite #no syriac in CK3
 }
 
 2027 = {	#EMBRUN
+	culture = occitan
+	religion = catholic
 	holding = church_holding
+	1000.1.1 = { culture = provencal }
 }
 
 2028 = {	#GAP
@@ -17964,8 +18107,10 @@ religion = jacobite #no syriac in CK3
 }
 
 2041 = {	#TURIN
-	culture = cisalpine
-	religion = ambrosian
+	culture = lombard
+	790.1.1 = { culture = cisalpine }
+	1250.1.1 = { culture = piedmontese }
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -17977,9 +18122,11 @@ religion = jacobite #no syriac in CK3
 }
 
 2043 = {	#CUNEO
-	culture = cisalpine
-	religion = ambrosian
-
+	culture = lombard
+	790.1.1 = { culture = cisalpine }
+	1250.1.1 = { culture = piedmontese }
+	religion = catholic
+	holding = castle_holding
 }
 
 2044 = {	#SALUZZO
@@ -18518,7 +18665,15 @@ religion = jacobite #no syriac in CK3
 }
 
 2123 = {	#COURTRAI
-	holding = city_holding
+	culture = low_frankish
+	religion = catholic
+	holding = castle_holding
+	1150.1.1 = {
+		culture = dutch
+	}
+	1250.1.1 = {
+		culture = flemish
+	}
 }
 
 2124 = {	#ROESELARE
@@ -18554,9 +18709,14 @@ religion = jacobite #no syriac in CK3
 }
 
 2128 = {	#VEURNE
-	holding = none
-	877.1.1 = {
-		holding = church_holding
+	culture = low_frankish
+	religion = catholic
+	holding = castle_holding
+	1150.1.1 = {
+		culture = dutch
+	}
+	1250.1.1 = {
+		culture = flemish
 	}
 }
 
@@ -18607,11 +18767,19 @@ religion = jacobite #no syriac in CK3
 }
 
 2136 = {	#MONTREUIL SUR MER
+	culture = gallo_roman
+	790.1.1 = { culture = french }
+	1200.1.1 = { culture = picard }
+	religion = catholic
 	holding = castle_holding
 }
 
 2137 = {	#ABBEVILLE
-	holding = church_holding
+	culture = gallo_roman
+	790.1.1 = { culture = french }
+	1200.1.1 = { culture = picard }
+	religion = catholic
+	holding = castle_holding
 }
 
 2138 = {	#DAX
@@ -18869,7 +19037,7 @@ culture = gallo_roman
 2176 = {	#FECAMP
 		culture = french
 	religion = catholic
-	holding = city_holding
+	holding = church_holding
 	935.1.1 = {	culture = norman }
 	#1100.11.11 = { culture = french } #The Norman language/dialect didn't just disappear in 1100
 }
@@ -19001,7 +19169,9 @@ culture = gallo_roman
 }
 
 2195 = {	#TARTAS
-	holding = city_holding
+	culture = gascon
+	religion = catholic
+	holding = castle_holding
 }
 
 2196 = {	#ALBRET
@@ -19060,10 +19230,9 @@ culture = gallo_roman
 }
 
 2206 = {	#ASTARAC
-	holding = none
-	1187.1.1 = {
-		holding = castle_holding
-	}
+	culture = gascon
+	religion = catholic
+	holding = castle_holding
 }
 
 2207 = {	#MURET
@@ -19135,19 +19304,23 @@ culture = gallo_roman
 }
 
 2216 = {	#USES
+	culture = occitan
+	religion = catholic
+	holding = castle_holding
+}
+
+2217 = {	#MONTLAUR
 	holding = none
 	1080.1.1 = {
 		holding = castle_holding
 	}
 }
 
-2217 = {	#MONTLAUR
-	culture = occitan
-	religion = catholic
-	holding = castle_holding
-}
-
 2218 = {	#CEVENNES
+	culture = visigothic
+	867.1.1 = { culture = occitan }
+	
+	religion = catholic
 	holding = castle_holding
 	special_building_slot = cevennes_mines_01
 	1060.1.1 = {
@@ -19158,7 +19331,7 @@ culture = gallo_roman
 2219 = {	#LODEVE
 	holding = none
 	1337.1.1 = {
-		holding = church_holding
+		holding = city_holding
 	}
 }
 
@@ -19217,10 +19390,9 @@ culture = gallo_roman
 }
 
 2229 = {	#LA PEYRADE
-	holding = none
-	1252.1.1 = {
-		holding = city_holding
-	}
+	culture = occitan
+	religion = catholic
+	holding = castle_holding
 }
 
 2230 = {	#MONTAUBAN
@@ -19252,6 +19424,8 @@ culture = gallo_roman
 }
 
 2234 = {	#FIGEAC
+	culture = occitan
+	religion = catholic
 	holding = church_holding
 }
 
@@ -19278,7 +19452,9 @@ culture = gallo_roman
 }
 
 2240 = {	#TURENNE
-	holding = city_holding
+	culture = occitan
+	religion = catholic
+	holding = castle_holding
 }
 
 2241 = {	#SAINTONGE
@@ -19292,7 +19468,12 @@ culture = gallo_roman
 }
 
 2242 = {	#SAINTES
-	holding = city_holding
+	culture = occitan
+	religion = catholic
+	holding = church_holding
+	1175.1.1 = {
+		culture = poitevin
+	}
 }
 
 2243 = {	#TAILLEBOURG
@@ -19369,9 +19550,18 @@ culture = gallo_roman
 }
 
 2253 = {	#CHATELLERAULT
-	holding = none
-	952.1.1 = {
-		holding = city_holding
+	culture = occitan
+	religion = catholic
+	holding = castle_holding
+	1066.1.1 = {
+		buildings = {
+			curtain_walls_01
+			hunting_grounds_01
+			military_camps_01
+		}
+	}
+	1175.1.1 = {
+	culture = poitevin
 	}
 }
 
@@ -19383,10 +19573,13 @@ culture = gallo_roman
 }
 
 2255 = {	#PARTHENAY
-	holding = none
-	1010.1.1 = {
-		holding = city_holding
+	culture = gallo_roman
+	790.1.1 = { culture = french }
+	1170.1.1 = {
+		culture = poitevin
 	}
+	religion = catholic
+	holding = castle_holding
 }
 
 2256 = {	#LOUDUN
@@ -19430,10 +19623,11 @@ religion = catholic
 }
 
 2262 = {	#CRAON
-	holding = none
-	1100.1.1 = {
-		holding = city_holding
-	}
+	culture = gallo_roman
+	790.1.1 = { culture = french }
+	950.1.1 = { culture = angevin }
+	religion = catholic
+	holding = castle_holding
 }
 
 2263 = {	#LUIGNE
@@ -19593,10 +19787,9 @@ religion = catholic
 }
 
 2288 = {	#MONTPENSIER
-	holding = none
-	1337.1.1 = {
-		holding = castle_holding
-	}
+	culture = occitan
+	religion = catholic
+	holding = castle_holding
 }
 
 2289 = {	#CLERMONT SUR AILLER
@@ -19687,6 +19880,8 @@ religion = catholic
 }
 
 2304 = {	#CLUNY
+	culture = arpitan
+	religion = catholic
 	holding = church_holding
 }
 
@@ -19911,6 +20106,10 @@ religion = catholic
 }
 
 2336 = {	#ETAMPES
+	culture = frankish
+	790.1.1 = { culture = french }
+
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -19944,6 +20143,10 @@ religion = catholic
 }
 
 2340 = {	#COURTENAY
+	culture = frankish
+	790.1.1 = { culture = french }
+
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -19981,6 +20184,9 @@ religion = catholic
 }
 
 2347 = {	#AUTUN
+	culture = frankish
+	862.1.1 = { culture = burgundian_oil }
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -20111,7 +20317,11 @@ religion = catholic
 }
 
 2367 = {	#VITRY EN PERTHOIS
-	holding = city_holding
+	culture = frankish
+	790.1.1 = { culture = french }
+
+	religion = catholic
+	holding = castle_holding
 }
 
 2368 = {	#NOGENT
@@ -20126,7 +20336,11 @@ religion = catholic
 }
 
 2370 = {	#BAR SUR SEINE
-	holding = none
+	culture = frankish
+	790.1.1 = { culture = french }
+
+	religion = catholic
+	holding = castle_holding
 }
 
 2371 = {	#TROYES
@@ -20148,6 +20362,10 @@ religion = catholic
 }
 
 2373 = {	#JOINVILLE
+	culture = frankish
+	790.1.1 = { culture = french }
+
+	religion = catholic
 	holding = castle_holding
 }
 
@@ -20275,14 +20493,18 @@ religion = catholic
 }
 
 2393 = {	#GRANDPRE
-	holding = city_holding
+	culture = frankish
+	790.1.1 = { culture = french }
+
+	religion = catholic
+	holding = castle_holding
 }
 
 2394 = {	#MEZIERES
-	holding = none
-	900.1.1 = {
-		holding = church_holding
-	}
+	culture = frankish
+	religion = catholic
+	790.1.1 = { culture = french }
+	holding = castle_holding
 }
 
 2395 = {	#VERDUN
@@ -20290,7 +20512,11 @@ religion = catholic
 }
 
 2396 = {	#ROMIGNY
-	holding = none
+	culture = frankish
+	790.1.1 = { culture = french }
+
+	religion = catholic
+	holding = castle_holding
 }
 
 2397 = {	#MARLE
@@ -20303,19 +20529,29 @@ religion = catholic
 }
 
 2398 = {	#COUCY
-	holding = none
-	1150.1.1 = {
-		holding = castle_holding
-	}
+	culture = frankish
+	790.1.1 = { culture = french }
+
+	religion = catholic
+	holding = castle_holding
 }
 
 2399 = {	#LAON
+	culture = gallo_roman
+	790.1.1 = { culture = french }
+	1200.1.1 = { culture = picard }
+
+	religion = catholic
 	holding = church_holding
 }
 
 2400 = {	#ROUCY
-	holding = none
-	holding = city_holding
+	culture = gallo_roman
+	790.1.1 = { culture = french }
+	1200.1.1 = { culture = picard }
+
+	religion = catholic
+	holding = castle_holding
 }
 
 2401 = {	#BRIELLE-localization:VOORNE
@@ -20822,9 +21058,13 @@ religion = catholic
 }
 
 2470 = {	#VERCELLI
-	holding = none
-	885.1.1 = {
-		holding = church_holding
+	culture = lombard
+	790.1.1 = { culture = cisalpine }
+	1250.1.1 = { culture = piedmontese }
+	religion = catholic
+	holding = castle_holding
+	1240.1.1 = {
+		holding = city_holding
 	}
 }
 
@@ -20921,7 +21161,7 @@ religion = catholic
 	790.1.1 = { culture = cisalpine }
 	
 	religion = catholic
-	holding = church_holding
+	holding = city_holding
 }
 
 2485 = {	#CHIAVARI
@@ -21013,7 +21253,7 @@ religion = catholic
 
 2500 = {	#VICENZA
 	holding = city_holding
-	culture = cisalpine
+	culture = venetian_ce
 	religion = catholic
 }
 
@@ -21328,7 +21568,10 @@ religion = catholic
 }
 
 2548 = {	#FORLI
-	holding = city_holding
+	culture = italian
+	1250.1.1 = { culture = romagnol }
+	religion = catholic
+	holding = castle_holding
 }
 
 2549 = {	#IMOLA
@@ -21523,6 +21766,8 @@ religion = catholic
 }
 
 2579 = {	#FARFA
+	culture = italian
+	religion = catholic
 	holding = church_holding
 }
 
@@ -68300,10 +68545,11 @@ holding = castle_holding
 }
 
 8720 = {	#BARCELONNETTE
-	holding = none
-	1231.1.1 = {
-		holding = city_holding
-	}
+	culture = occitan
+	religion = catholic
+	holding = castle_holding
+	
+	1000.1.1 = { culture = provencal }
 }
 
 8721 = {	#PUGET
@@ -77750,7 +77996,7 @@ holding = castle_holding
 9691 = {	#TORTONA
 	culture = cisalpine
 	religion = catholic
-	holding = city_holding
+	holding = church_holding
 }
 
 9692 = {	#GALLARATE
@@ -78454,20 +78700,14 @@ holding = castle_holding
 
 9777 = {	# Lisboa
 	# Misc
-	culture = visigothic
-	religion = catholic
+	culture = mozarab
+	religion = mozarabic_church
 	
-	holding = church_holding
+	holding = castle_holding
 	
 	# History
-	944.1.1 = {
-		culture = andalusian
-		religion = muwalladi
-	}
-	1163.1.1 = {
-		culture = portuguese
-		religion = catholic
-	}
+	1150.1.1 = { culture = portuguese }
+	1150.1.1 = { religion = catholic }
 }
 
 9778 = {	# Lisboa
@@ -78648,7 +78888,7 @@ religion = catholic
 	790.1.1 = { culture = french }
 	1200.1.1 = { culture = picard }
 	religion = catholic
-	holding = castle_holding
+	holding = city_holding
 }
 
 9798 = {	#EU
@@ -78721,9 +78961,15 @@ religion = catholic
 }
 
 9807 = {	#GENT
-	culture = french
+	culture = low_frankish
 	religion = catholic
 	holding = castle_holding
+	1150.1.1 = {
+		culture = dutch
+	}
+	1250.1.1 = {
+		culture = flemish
+	}
 }
 
 9808 = {	#BRUGES
@@ -80413,8 +80659,6 @@ religion = catholic
 	culture = visigothic
 	religion = muwalladi
 	
-	holding = castle_holding
-	
 	# History
 	936.1.1 = {
 		culture = andalusian
@@ -80513,7 +80757,15 @@ religion = catholic
 }
 
 10246 = {	#DOWAAI
-	holding = city_holding
+	culture = low_frankish
+	religion = catholic
+	holding = castle_holding
+	1150.1.1 = {
+		culture = dutch
+	}
+	1250.1.1 = {
+		culture = flemish
+	}
 }
 
 10247 = {	#BAPAUME
@@ -80578,7 +80830,15 @@ religion = catholic
 }
 
 10260 = {	#OUDENAARDE
-	holding = none
+	culture = low_frankish
+	religion = catholic
+	holding = castle_holding
+	1150.1.1 = {
+		culture = dutch
+	}
+	1250.1.1 = {
+		culture = flemish
+	}
 }
 
 10261 = {	#GERAARDSBERGEN

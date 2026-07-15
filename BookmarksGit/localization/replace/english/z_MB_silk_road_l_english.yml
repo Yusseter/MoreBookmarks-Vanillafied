@@ -12,7 +12,7 @@
  c_byzantion_tooltip: "Visit the markets of [GetTitleByKey('c_byzantion').GetNameNoTier] in [GetGeographicalRegion('tgp_silk_road_occident_region').GetName] and learn of the [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_occident').MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E]"
  c_baghdad_tooltip: "Visit the markets of [GetTitleByKey('c_baghdad').GetNameNoTier] in [GetGeographicalRegion('tgp_silk_road_mideast_region').GetName] and learn of the [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_middle_east').MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E]"
  
- c_aninditapura_tooltip: "Visit the markets of [GetTitleByKey('c_aninditapura').GetNameNoTier] in [GetGeographicalRegion('tgp_silk_road_sea_region').GetName] and learn of the [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_sea').MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E]"
+ c_angkor_tooltip: "Visit the markets of [GetTitleByKey('c_angkor').GetNameNoTier] in [GetGeographicalRegion('tgp_silk_road_sea_region').GetName] and learn of the [GetSituation('silk_road_situation').GetSubRegionByKey('region_silk_road_proper_sea').MakeScope.Var('innovation').CultureInnovationType.GetName|V] [silk_road_innovation|E]"
  
  
  dlc_tgp_silk_road_route_mideast: "Middle East Silk Road"

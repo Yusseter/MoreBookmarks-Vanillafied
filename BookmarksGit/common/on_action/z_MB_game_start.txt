@@ -2228,6 +2228,15 @@ MB_culture_setup = {
 			set_culture = culture:mongol
 		}
 
+		# Balhae Assimilation
+		every_living_character = {
+			limit = {
+				game_start_date > 1150.1.1
+					culture = culture:balhae
+				}
+			set_culture = culture:jurchen
+		}
+
 
 
 		########################################################################################### COUNTY CULTURE CHANGES ###########################################################################################
@@ -3479,26 +3488,6 @@ MB_set_court_languages = {
 		if = {
             limit = { exists = title:k_croatia.holder game_start_date < 1091.1.1 }
 			title:k_croatia.holder = { set_court_language = language_slavonic
-				if = {
-					limit = { NOT = { knows_court_language_of = this } }
-					learn_court_language_of = this
-				}
-			}
-        }
-
-		if = {
-            limit = { exists = title:k_brittany.holder game_start_date >= 1187.8.31 game_start_date <= 1195.8.31  }
-			title:k_brittany.holder = { set_court_language = language_french
-				if = {
-					limit = { NOT = { knows_court_language_of = this } }
-					learn_court_language_of = this
-				}
-			}
-        }
-
-		if = {
-            limit = { exists = title:k_brittany.holder game_start_date >= 1204.1.1 }
-			title:k_brittany.holder = { set_court_language = language_french
 				if = {
 					limit = { NOT = { knows_court_language_of = this } }
 					learn_court_language_of = this
@@ -8487,142 +8476,6 @@ MB_contracts = {
 
 		}
 
-
-		if = {
-			limit = {
-				game_start_date >= 1220.1.1
-				game_start_date <= 1221.1.1
-
-				has_dlc_feature = roads_to_power
-
-				#vassal_contract_has_modifiable_obligations = yes
-				
-
-			}
-
-			title:d_epirus.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 1
-				}
-			}
-
-			title:d_thessaly.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 1
-				}
-			}
-
-			title:d_ephese.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 1
-				}
-			}
-
-			title:d_thracesia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-			title:d_chaldia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-			title:d_bucellaria.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 2
-				}
-			}
-
-			title:d_cherson.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-		}
-
-
-		if = {
-			limit = {
-				game_start_date >= 1234.1.1
-				game_start_date <= 1235.1.1
-
-				has_dlc_feature = roads_to_power
-
-				#vassal_contract_has_modifiable_obligations = yes
-				
-
-			}
-
-			title:d_epirus.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 1
-				}
-			}
-
-			title:d_thessaly.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 1
-				}
-			}
-
-			title:d_thessalonika.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 2
-				}
-			}
-
-			title:d_ephese.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 1
-				}
-			}
-
-			title:d_thracesia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-			title:d_chaldia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-			title:d_bucellaria.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 2
-				}
-			}
-
-			title:d_cherson.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-		}
-
-
 		if = {
 			limit = {
 				game_start_date >= 1246.1.1
@@ -8770,106 +8623,7 @@ MB_contracts = {
 			}
 
 		}
-
-
-		if = {
-			limit = {
-				game_start_date >= 1267.1.1
-				game_start_date <= 1268.1.1
-
-				has_dlc_feature = roads_to_power
-
-				#vassal_contract_has_modifiable_obligations = yes
-				
-
-			}
-
-			title:d_epirus.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 1
-				}
-			}
-
-			title:d_thessaly.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 1
-				}
-			}
-
-			title:d_thessalonika.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 2
-				}
-			}
-
-			title:d_strymon.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 2
-				}
-			}
-
-			title:d_philippopolis.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-			title:d_ephese.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 1
-				}
-			}
-
-			title:d_thracesia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-			title:d_opsikion.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 2
-				}
-			}
-
-			title:d_optimatoi.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 4
-				}
-			}
-
-			title:d_chaldia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-			title:d_paphlagonia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-			title:d_cherson.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = administrative_themes
-					level = 3
-				}
-			}
-
-		}
-
+		
 
 		if = {
 			limit = {
@@ -16788,355 +16542,6 @@ MB_contracts = {
 
 		if = {
 			limit = {
-				game_start_date >= 1220.1.1
-				game_start_date <= 1220.12.31
-
-				#vassal_contract_has_modifiable_obligations = yes
-				exists = holder
-
-			}
-
-			title:d_lausitz.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_meissen.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_ostmark.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_nordgau.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_nordmark.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_carinthia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_krain.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_steyermark.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_istria.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_friuli.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_morgannwg.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_ireland_lordship.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_provence.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_teruel.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_beja.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_la_mancha.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_badajoz.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_cordoba.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_algarve.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_murcia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_valencia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_transylvania.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_slesvig.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_pfalz.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 3
-				}
-			}
-
-			title:c_muang_fa_daet.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:c_salo_tai.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:c_mukdahan.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-		}
-
-		if = {
-			limit = {
-				game_start_date >= 1234.1.1
-				game_start_date <= 1234.12.31
-
-				#vassal_contract_has_modifiable_obligations = yes
-				exists = holder
-
-			}
-
-			title:d_lausitz.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_meissen.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_ostmark.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_nordgau.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_nordmark.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_carinthia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_krain.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_steyermark.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_istria.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_friuli.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_morgannwg.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_ireland_lordship.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_provence.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_teruel.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_beja.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_la_mancha.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_badajoz.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_transylvania.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_walishtan.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_slesvig.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_pfalz.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 3
-				}
-			}
-
-			title:c_muang_fa_daet.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:c_salo_tai.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:c_mukdahan.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-		}
-
-		if = {
-			limit = {
 				game_start_date >= 1246.1.1
 				game_start_date <= 1258.12.31
 
@@ -17310,152 +16715,7 @@ MB_contracts = {
 				}
 			}
 		}
-
-		if = {
-			limit = {
-				game_start_date >= 1267.1.1
-				game_start_date <= 1267.12.31
-
-				#vassal_contract_has_modifiable_obligations = yes
-				exists = holder
-
-			}
-
-			title:d_lausitz.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_meissen.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_ostmark.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_nordgau.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_nordmark.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_carinthia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_krain.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_steyermark.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_friuli.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_morgannwg.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_ireland_lordship.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_beja.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_la_mancha.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_badajoz.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_muntenia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_oltenia.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_slesvig.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-			title:d_pfalz.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 3
-				}
-			}
-
-			#title:d_battambang.holder ?= { # Yusseter
-			#	vassal_contract_set_obligation_level = {
-			#		type = special_contract
-			#		level = 2
-			#	}
-			#}
-			title:d_ratanakiri.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-			title:d_baigaur.holder ?= {
-				vassal_contract_set_obligation_level = {
-					type = special_contract
-					level = 2
-				}
-			}
-
-		}
-
+		
 
 		if = {
 			limit = {
@@ -18094,6 +17354,46 @@ MB_set_noble_families = {
 						notification = no
 					}
 				}
+
+			}
+			
+			if = {
+				limit = {
+					game_start_date = 1211.6.16
+				}
+				dynasty:350.dynast.house = {
+					impact_house_relation = {
+						target = house:house_Plant
+						steps = -2.0 # Can be either full steps, or fractional ones
+						description = "From King Johns treatment of the family"
+						notification = no
+					}
+				}
+				dynasty:496.dynast.house = {  
+					impact_house_relation = {
+						target = dynasty:381.dynast.house
+						steps = -2.0 # Can be either full steps, or fractional ones
+						description = "From the House of Erik usurping the throne of Sweden"
+						notification = no
+					}
+				}
+				
+
+			}
+			
+			if = {
+				limit = {
+					game_start_date >= 900.6.16
+				}
+				dynasty:1000102400.dynast.house = {
+					impact_house_relation = {
+						target = dynasty:1000049119.dynast.house
+						steps = 4.0 # Can be either full steps, or fractional ones
+						description = "The Yarud dynasty has long intermarried with the Xiao"
+						notification = no
+					}
+				}
+				
 
 			}
 			
@@ -19011,43 +18311,10 @@ MB_set_clan_unity = {
 			}
 		}
 		if = {
-			limit = { game_start_date >= 1220.1.1 game_start_date <= 1221.1.1 }
-			house:house_Ayyubid ?= {
-				add_unity_value = {
-					value = 20
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
-			limit = { game_start_date >= 1234.1.1 game_start_date <= 1235.1.1 }
-			house:house_Ayyubid ?= {
-				add_unity_value = {
-					value = 10
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
 			limit = { game_start_date >= 1258.1.1 game_start_date <= 1259.1.1 }
 			house:house_Ayyubid ?= {
 				add_unity_value = {
 					value = -20
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
-			limit = { game_start_date >= 1267.1.1 game_start_date <= 1268.1.1 }
-			house:house_Ayyubid ?= {
-				add_unity_value = {
-					value = -40
 					# This is from historical circumstances, so we just do use the house head.
 					character = house_head
 					desc = clan_unity_historical_circumstances.desc
@@ -19288,28 +18555,6 @@ MB_set_clan_unity = {
 			}
 		}
 		if = {
-			limit = { game_start_date >= 1204.1.1 game_start_date <= 1221.1.1 }
-			house:house_oghuzSeljuks ?= {
-				add_unity_value = {
-					value = -80
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
-			limit = { game_start_date >= 1234.1.1 game_start_date <= 1235.1.1 }
-			house:house_oghuzSeljuks ?= {
-				add_unity_value = {
-					value = -85
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
 			limit = { game_start_date >= 1246.1.1 game_start_date <= 1247.1.1 }
 			house:house_oghuzSeljuks ?= {
 				add_unity_value = {
@@ -19325,17 +18570,6 @@ MB_set_clan_unity = {
 			house:house_oghuzSeljuks ?= {
 				add_unity_value = {
 					value = -95
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
-			limit = { game_start_date >= 1267.1.1 }
-			house:house_oghuzSeljuks ?= {
-				add_unity_value = {
-					value = -100
 					# This is from historical circumstances, so we just do use the house head.
 					character = house_head
 					desc = clan_unity_historical_circumstances.desc
@@ -19949,28 +19183,6 @@ MB_set_clan_unity = {
 			}
 		}
 		if = {
-			limit = { game_start_date >= 1220.1.1 game_start_date <= 1221.1.1 }
-			house:house_marinids ?= {
-				add_unity_value = {
-					value = 70
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
-			limit = { game_start_date >= 1234.1.1 game_start_date <= 1235.1.1 }
-			house:house_marinids ?= {
-				add_unity_value = {
-					value = 75
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
 			limit = { game_start_date >= 1246.1.1 game_start_date <= 1247.1.1 }
 			house:house_marinids ?= {
 				add_unity_value = {
@@ -19986,17 +19198,6 @@ MB_set_clan_unity = {
 			house:house_marinids ?= {
 				add_unity_value = {
 					value = 80
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
-			limit = { game_start_date >= 1267.1.1 game_start_date <= 1268.1.1 }
-			house:house_marinids ?= {
-				add_unity_value = {
-					value = 75
 					# This is from historical circumstances, so we just do use the house head.
 					character = house_head
 					desc = clan_unity_historical_circumstances.desc
@@ -20038,28 +19239,6 @@ MB_set_clan_unity = {
 			}
 		}
 		if = {
-			limit = { game_start_date >= 1220.1.1 game_start_date <= 1221.1.1 }
-			house:house_zayyanids ?= {
-				add_unity_value = {
-					value = 55
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
-			limit = { game_start_date >= 1234.1.1 game_start_date <= 1235.1.1 }
-			house:house_zayyanids ?= {
-				add_unity_value = {
-					value = 65
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
 			limit = { game_start_date >= 1246.1.1 game_start_date <= 1247.1.1 }
 			house:house_zayyanids ?= {
 				add_unity_value = {
@@ -20075,17 +19254,6 @@ MB_set_clan_unity = {
 			house:house_zayyanids ?= {
 				add_unity_value = {
 					value = 65
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
-			limit = { game_start_date >= 1267.1.1 game_start_date <= 1268.1.1 }
-			house:house_zayyanids ?= {
-				add_unity_value = {
-					value = 50
 					# This is from historical circumstances, so we just do use the house head.
 					character = house_head
 					desc = clan_unity_historical_circumstances.desc
@@ -20171,28 +19339,6 @@ MB_set_clan_unity = {
 			}
 		}
 		if = {
-			limit = { game_start_date >= 1220.1.1 game_start_date <= 1221.1.1 }
-			house:house_hafsids ?= {
-				add_unity_value = {
-					value = 70
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
-			limit = { game_start_date >= 1234.1.1 game_start_date <= 1235.1.1 }
-			house:house_hafsids ?= {
-				add_unity_value = {
-					value = 80
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
 			limit = { game_start_date >= 1246.1.1 game_start_date <= 1247.1.1 }
 			house:house_hafsids ?= {
 				add_unity_value = {
@@ -20208,17 +19354,6 @@ MB_set_clan_unity = {
 			house:house_hafsids ?= {
 				add_unity_value = {
 					value = 75
-					# This is from historical circumstances, so we just do use the house head.
-					character = house_head
-					desc = clan_unity_historical_circumstances.desc
-				}
-			}
-		}
-		if = {
-			limit = { game_start_date >= 1267.1.1 game_start_date <= 1268.1.1 }
-			house:house_hafsids ?= {
-				add_unity_value = {
-					value = 70
 					# This is from historical circumstances, so we just do use the house head.
 					character = house_head
 					desc = clan_unity_historical_circumstances.desc
@@ -21551,6 +20686,41 @@ MB_set_landless_adventurers = {
 				}
 			}
 
+	#1018
+		
+		## Rainulf
+			character:30827 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law_skip_effects = camp_purpose_mercenaries
+				}
+			}
+			
+		## Edward
+			character:114 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law_skip_effects = camp_purpose_legitimists
+				}
+			}
+		
+		## Seljuk
+			character:3030 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law_skip_effects = camp_purpose_wanderers
+				}
+			}
+			
 	#1066
 		## Edgar
 			character:112 ?= {
@@ -21629,7 +20799,7 @@ MB_set_landless_adventurers = {
 				}
 			}
 		### Minamoto no Yoshinaka
-		#	character:10120084 ?= {
+		#	character:japanese_minamoto_seiwa_207 ?= {
 		#		if = {
 		#			limit = {
 		#				is_alive = yes
@@ -21639,7 +20809,7 @@ MB_set_landless_adventurers = {
 		#		}
 		#	}
 		## Benkei
-			character:12550060 ?= {
+			character:japanese_musashibo_1 ?= {
 				if = {
 					limit = {
 						is_alive = yes
@@ -21768,6 +20938,26 @@ MB_set_landless_adventurers = {
 						is_landless_adventurer = yes
 					}
 					add_realm_law_skip_effects = camp_purpose_mercenaries
+				}
+			}
+		## Snorri
+			character:202014 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law_skip_effects = camp_purpose_scholars
+				}
+			}
+		## Sverker
+			character:200609 ?= {
+				if = {
+					limit = {
+						is_alive = yes
+						is_landless_adventurer = yes
+					}
+					add_realm_law_skip_effects = camp_purpose_legitimists
 				}
 			}
 
@@ -22055,30 +21245,6 @@ MB_set_regencies = {
 			character:3100 = { trigger_event = diarchy.0012 }
 		}
 
-		#1124
-		if = {
-
-			limit = { game_start_date = 1124.7.7 }
-
-
-			## Portugal
-			character:209503 = { designate_diarch = character:207661 }
-
-			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:207661
-				LIEGE = character:209503
-			}
-
-			## Japan
-			character:10041053 = { designate_diarch = character:11000150 }
-
-			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:11000150
-				LIEGE = character:10041053
-			}
-
-		}
-
 		#1144
 		if = {
 
@@ -22254,11 +21420,11 @@ MB_set_regencies = {
 
 			## Kamakura Shogunate
 
-			character:10120086 = { designate_diarch = character:10131650 }
+			character:japanese_minamoto_seiwa_12 = { designate_diarch = character:japanese_taira_kanmu_133 }
 
 			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:10131650
-				LIEGE = character:10120086
+				NEW_DIARCH = character:japanese_taira_kanmu_133
+				LIEGE = character:japanese_minamoto_seiwa_12
 			}
 
 			#Emperor
@@ -22275,8 +21441,8 @@ MB_set_regencies = {
 				character:10041061 = { trigger_event = diarchy.0012 }
 			}
 		if = {
-				limit = { exists = character:10120086 }
-				character:10120086 = { trigger_event = diarchy.0012 }
+				limit = { exists = character:japanese_minamoto_seiwa_12 }
+				character:japanese_minamoto_seiwa_12 = { trigger_event = diarchy.0012 }
 			}
 
 		#1211
@@ -22305,11 +21471,11 @@ MB_set_regencies = {
 
 			## Kamakura Shogunate
 
-			character:10120087 = { designate_diarch = character:10131653 }
+			character:japanese_minamoto_seiwa_14 = { designate_diarch = character:japanese_taira_kanmu_135 }
 
 			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:10131653
-				LIEGE = character:10120087
+				NEW_DIARCH = character:japanese_taira_kanmu_135
+				LIEGE = character:japanese_minamoto_seiwa_14
 			}
 
 			#Emperor
@@ -22326,36 +21492,14 @@ MB_set_regencies = {
 				character:10041062 = { trigger_event = diarchy.0012 }
 			}
 		if = {
-				limit = { exists = character:10120087 }
-				character:10120087 = { trigger_event = diarchy.0012 }
+				limit = { exists = character:japanese_minamoto_seiwa_14 }
+				character:japanese_minamoto_seiwa_14 = { trigger_event = diarchy.0012 }
 			}
 		if = {
 				limit = { exists = character:144143 }
 				character:144143 = { trigger_event = diarchy.0012 }
 			}
-
-		#1220
-		if = {
-
-			limit = { game_start_date = 1220.5.16 }
-
-
-			## Kamakura Shogunate
-
-			#Emperor
-			character:10041062 = { designate_diarch = character:10041060 }
-
-			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:10041060
-				LIEGE = character:10041062
-			}
-
-		}
-		if = {
-				limit = { exists = character:10041062 }
-				character:10041062 = { trigger_event = diarchy.0012 }
-			}
-
+			
 		#1258
 		if = {
 
@@ -22378,39 +21522,6 @@ MB_set_regencies = {
 				character:10041068 = { trigger_event = diarchy.0012 }
 			}
 
-		#1267
-		if = {
-
-			limit = { game_start_date = 1267.6.1 }
-
-
-			#Delhi
-			character:170201 = { designate_diarch = character:170204 }
-
-			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:170204
-				LIEGE = character:170201
-			}
-
-			## Kamakura Shogunate
-
-			#Emperor
-			character:10041069 = { designate_diarch = character:10041068 }
-
-			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:10041068
-				LIEGE = character:10041069
-			}
-
-		}
-		if = {
-				limit = { exists = character:10041069 }
-				character:10041069 = { trigger_event = diarchy.0012 }
-		}
-		if = {
-				limit = { exists = character:170201 }
-				character:170201 = { trigger_event = diarchy.0012 }
-		}
 
 		#1300
 		if = {
@@ -22485,225 +21596,6 @@ MB_set_regencies = {
 
 		}
 
-		##Korea Military Dictatorship 1170-1270
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1171.8.1 }
-		#
-		#	## Goryeo
-		#	character:1900755 = { designate_diarch = character:UiBang }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:UiBang
-		#		LIEGE = character:1900755
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:1900755 }
-		#	character:1900755 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1178.10.1 }
-		#
-		#	## Goryeo
-		#	character:1900755 = { designate_diarch = character:Chong0 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:Chong0
-		#		LIEGE = character:1900755
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:1900755 }
-		#	character:1900755 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1183.5.1 }
-		#
-		#	## Goryeo
-		#	character:1900755 = { designate_diarch = character:Kyong0 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:Kyong0
-		#		LIEGE = character:1900755
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:1900755 }
-		#	character:1900755 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1194.9.30 }
-		#
-		#	## Goryeo
-		#	character:1900755 = { designate_diarch = character:UiMin0 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:UiMin0
-		#		LIEGE = character:1900755
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:1900755 }
-		#	character:1900755 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1204.5.16 }
-		#
-		#	## Goryeo
-		#	character:1900783 = { designate_diarch = character:ChoeClan1 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:ChoeClan1
-		#		LIEGE = character:1900783
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:1900783 }
-		#	character:1900783 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1211.6.16 }
-		#
-		#	## Goryeo
-		#	character:1900783 = { designate_diarch = character:ChoeClan1 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:ChoeClan1
-		#		LIEGE = character:1900783
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:1900783 }
-		#	character:1900783 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1220.5.16 }
-		#
-		#	## Goryeo
-		#	character:gaeseong_wang_268 = { designate_diarch = character:ChoeClan2 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:ChoeClan2
-		#		LIEGE = character:gaeseong_wang_268
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:gaeseong_wang_268 }
-		#	character:gaeseong_wang_268 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1234.4.6 }
-		#
-		#	## Goryeo
-		#	character:gaeseong_wang_268 = { designate_diarch = character:ChoeClan2 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:ChoeClan2
-		#		LIEGE = character:gaeseong_wang_268
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:gaeseong_wang_268 }
-		#	character:gaeseong_wang_268 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1246.6.13 }
-		#
-		#	## Goryeo
-		#	character:gaeseong_wang_268 = { designate_diarch = character:ChoeClan2 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:ChoeClan2
-		#		LIEGE = character:gaeseong_wang_268
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:gaeseong_wang_268 }
-		#	character:gaeseong_wang_268 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1250.7.15 }
-		#
-		#	## Goryeo
-		#	character:gaeseong_wang_268 = { designate_diarch = character:ChoeClan3 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:ChoeClan3
-		#		LIEGE = character:gaeseong_wang_268
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:gaeseong_wang_268 }
-		#	character:gaeseong_wang_268 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1258.2.15 }
-		#
-		#	## Goryeo
-		#	character:gaeseong_wang_268 = { designate_diarch = character:KorKim1 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:KorKim1
-		#		LIEGE = character:gaeseong_wang_268
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:gaeseong_wang_268 }
-		#	character:gaeseong_wang_268 = { trigger_event = diarchy.0012 }
-		#}
-		#
-		#if = {
-		#
-		#	limit = { game_start_date = 1267.6.1 }
-		#
-		#	## Goryeo
-		#	character:gaeseong_wang_271 = { designate_diarch = character:KorKim1 }
-		#
-		#	remove_generated_diarch_consequences_effect = {
-		#		NEW_DIARCH = character:KorKim1
-		#		LIEGE = character:gaeseong_wang_271
-		#	}
-		#
-		#}
-		#if = {
-		#	limit = { exists = character:gaeseong_wang_271 }
-		#	character:gaeseong_wang_271 = { trigger_event = diarchy.0012 }
-		#}
-
-
 		#Japan
 
 
@@ -22713,17 +21605,17 @@ MB_set_regencies = {
 					  game_start_date <= 868.1.1
 			}
 
-			character:10041034 = { designate_diarch = character:11000039 }
+			character:japanese_yamato_30 = { designate_diarch = character:japanese_fujiwara_530 }
 
 			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:11000039
-				LIEGE = character:10041034
+				NEW_DIARCH = character:japanese_fujiwara_530
+				LIEGE = character:japanese_yamato_30
 			}
 
 		}
 		if = {
-			limit = { exists = character:10041034 }
-			character:10041034 = { trigger_event = diarchy.0012 }
+			limit = { exists = character:japanese_yamato_30 }
+			character:japanese_yamato_30 = { trigger_event = diarchy.0012 }
 		}
 
 		if = {
@@ -22732,17 +21624,17 @@ MB_set_regencies = {
 					  game_start_date <= 937.1.1
 			}
 
-			character:10041039 = { designate_diarch = character:11000069 }
+			character:japanese_yamato_35 = { designate_diarch = character:japanese_fujiwara_16 }
 
 			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:11000069
-				LIEGE = character:10041039
+				NEW_DIARCH = character:japanese_fujiwara_16
+				LIEGE = character:japanese_yamato_35
 			}
 
 		}
 		if = {
-			limit = { exists = character:10041039 }
-			character:10041039 = { trigger_event = diarchy.0012 }
+			limit = { exists = character:japanese_yamato_35 }
+			character:japanese_yamato_35 = { trigger_event = diarchy.0012 }
 		}
 
 		if = {
@@ -22751,17 +21643,17 @@ MB_set_regencies = {
 					  game_start_date <= 998.1.1
 			}
 
-			character:10041044 = { designate_diarch = character:11000102 }
+			character:japanese_yamato_40 = { designate_diarch = character:japanese_fujiwara_1 }
 
 			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:11000102
-				LIEGE = character:10041044
+				NEW_DIARCH = character:japanese_fujiwara_1
+				LIEGE = character:japanese_yamato_40
 			}
 
 		}
 		if = {
-			limit = { exists = character:10041044 }
-			character:10041044 = { trigger_event = diarchy.0012 }
+			limit = { exists = character:japanese_yamato_40 }
+			character:japanese_yamato_40 = { trigger_event = diarchy.0012 }
 		}
 
 		if = {
@@ -22770,17 +21662,17 @@ MB_set_regencies = {
 					  game_start_date <= 1019.1.1
 			}
 
-			character:10041046 = { designate_diarch = character:11000102 }
+			character:japanese_yamato_42 = { designate_diarch = character:japanese_fujiwara_1 }
 
 			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:11000102
-				LIEGE = character:10041046
+				NEW_DIARCH = character:japanese_fujiwara_1
+				LIEGE = character:japanese_yamato_42
 			}
 
 		}
 		if = {
-			limit = { exists = character:10041046 }
-			character:10041046 = { trigger_event = diarchy.0012 }
+			limit = { exists = character:japanese_yamato_42 }
+			character:japanese_yamato_42 = { trigger_event = diarchy.0012 }
 		}
 
 		if = {
@@ -22789,17 +21681,17 @@ MB_set_regencies = {
 					  game_start_date <= 1032.1.1
 			}
 
-			character:10041046 = { designate_diarch = character:11000105 }
+			character:japanese_yamato_42 = { designate_diarch = character:japanese_fujiwara_9 }
 
 			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:11000105
-				LIEGE = character:10041046
+				NEW_DIARCH = character:japanese_fujiwara_9
+				LIEGE = character:japanese_yamato_42
 			}
 
 		}
 		if = {
-			limit = { exists = character:10041046 }
-			character:10041046 = { trigger_event = diarchy.0012 }
+			limit = { exists = character:japanese_yamato_42 }
+			character:japanese_yamato_42 = { trigger_event = diarchy.0012 }
 		}
 
 		if = {
@@ -22808,17 +21700,17 @@ MB_set_regencies = {
 					  game_start_date <= 1067.1.1
 			}
 
-			character:10041048 = { designate_diarch = character:11000105 }
+			character:japanese_yamato_44 = { designate_diarch = character:japanese_fujiwara_9 }
 
 			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:11000105
-				LIEGE = character:10041048
+				NEW_DIARCH = character:japanese_fujiwara_9
+				LIEGE = character:japanese_yamato_44
 			}
 
 		}
 		if = {
-			limit = { exists = character:10041048 }
-			character:10041048 = { trigger_event = diarchy.0012 }
+			limit = { exists = character:japanese_yamato_44 }
+			character:japanese_yamato_44 = { trigger_event = diarchy.0012 }
 		}
 
 		if = {
@@ -22827,20 +21719,20 @@ MB_set_regencies = {
 					  game_start_date <= 1082.1.1
 			}
 
-			character:10041050 = { designate_diarch = character:11000123 }
+			character:japanese_yamato_46 = { designate_diarch = character:japanese_fujiwara_132 }
 
 			remove_generated_diarch_consequences_effect = {
-				NEW_DIARCH = character:11000123
-				LIEGE = character:10041050
+				NEW_DIARCH = character:japanese_fujiwara_132
+				LIEGE = character:japanese_yamato_46
 			}
 
 		}
 		if = {
-			limit = { exists = character:10041050
+			limit = { exists = character:japanese_yamato_46
 					  game_start_date >= 1081.1.1
 					  game_start_date <= 1082.1.1
 			}
-			character:10041050 = { trigger_event = diarchy.0012 }
+			character:japanese_yamato_46 = { trigger_event = diarchy.0012 }
 		}
 
 
@@ -22849,12 +21741,12 @@ MB_set_regencies = {
 					  game_start_date <= 1100.1.1
 			}
 
-			character:10041051 = {
+			character:japanese_yamato_47 = {
 				if = {
 					limit = { has_ep3_dlc_trigger = yes }
 					try_start_diarchy = co_monarchy
-					set_diarch = character:10041050
-					#set_designated_heir = character:10041050 #Insei wasn't really making them the heir
+					set_diarch = character:japanese_yamato_46
+					#set_designated_heir = character:japanese_yamato_46 #Insei wasn't really making them the heir
 				}
 			}
 
@@ -22862,8 +21754,8 @@ MB_set_regencies = {
 
 		}
 		if = {
-			limit = { exists = character:10041051 }
-			character:10041051 = { trigger_event = diarchy.0012 }
+			limit = { exists = character:japanese_yamato_47 }
+			character:japanese_yamato_47 = { trigger_event = diarchy.0012 }
 		}
 
 		if = {
@@ -22871,12 +21763,12 @@ MB_set_regencies = {
 					  game_start_date <= 1125.1.1
 			}
 
-			character:10041053 = {
+			character:japanese_yamato_49 = {
 				if = {
 					limit = { has_ep3_dlc_trigger = yes }
 					try_start_diarchy = co_monarchy
-					set_diarch = character:10041052
-					#set_designated_heir = character:10041052 #Insei wasn't really making them the heir
+					set_diarch = character:japanese_yamato_48
+					#set_designated_heir = character:japanese_yamato_48 #Insei wasn't really making them the heir
 				}
 			}
 
@@ -22884,8 +21776,8 @@ MB_set_regencies = {
 
 		}
 		if = {
-			limit = { exists = character:10041053 }
-			character:10041053 = { trigger_event = diarchy.0012 }
+			limit = { exists = character:japanese_yamato_49 }
+			character:japanese_yamato_49 = { trigger_event = diarchy.0012 }
 		}
 
 		if = {
@@ -22893,12 +21785,12 @@ MB_set_regencies = {
 					  game_start_date <= 1145.1.1
 			}
 
-			character:10041055 = {
+			character:japanese_yamato_50 = {
 				if = {
 					limit = { has_ep3_dlc_trigger = yes }
 					try_start_diarchy = co_monarchy
-					set_diarch = character:10041052
-					#set_designated_heir = character:10041052 #Insei wasn't really making them the heir
+					set_diarch = character:japanese_yamato_48
+					#set_designated_heir = character:japanese_yamato_48 #Insei wasn't really making them the heir
 				}
 			}
 
@@ -22906,8 +21798,8 @@ MB_set_regencies = {
 
 		}
 		if = {
-			limit = { exists = character:10041055 }
-			character:10041055 = { trigger_event = diarchy.0012 }
+			limit = { exists = character:japanese_yamato_50 }
+			character:japanese_yamato_50 = { trigger_event = diarchy.0012 }
 		}
 
 
@@ -22916,12 +21808,12 @@ MB_set_regencies = {
 					  game_start_date <= 1172.1.1
 			}
 
-			character:10041058 = {
+			character:japanese_yamato_54 = {
 				if = {
 					limit = { has_ep3_dlc_trigger = yes }
 					try_start_diarchy = co_monarchy
-					set_diarch = character:10041054
-					#set_designated_heir = character:10041052 #Insei wasn't really making them the heir
+					set_diarch = character:japanese_yamato_51
+					#set_designated_heir = character:japanese_yamato_48 #Insei wasn't really making them the heir
 				}
 			}
 
@@ -22929,8 +21821,8 @@ MB_set_regencies = {
 
 		}
 		if = {
-			limit = { exists = character:10041058 }
-			character:10041058 = { trigger_event = diarchy.0012 }
+			limit = { exists = character:japanese_yamato_54 }
+			character:japanese_yamato_54 = { trigger_event = diarchy.0012 }
 		}
 
 		########################################################################################### CO-MONARCHS/EMPERORS ###########################################################################################
@@ -23303,8 +22195,8 @@ MB_set_regencies = {
 				if = {
 					limit = { has_ep3_dlc_trigger = yes }
 					try_start_diarchy = junior_emperorship
-					set_diarch = character:zhuojun_zhao_548
-					set_designated_heir = character:zhuojun_zhao_548
+					set_diarch = character:han_12651
+					set_designated_heir = character:han_12651
 				}
 			}
 
@@ -23339,22 +22231,28 @@ MB_set_regencies = {
 
 
 		}
-
-
-		#1234
-
-
+		
+		#1211
+		
 		if = {
-			limit = { game_start_date >= 1234.1.1
-					  game_start_date <= 1235.1.1
+			limit = { game_start_date >= 1211.1.1
+					  game_start_date <= 1212.1.1
 			}
 
-			character:212513 = {
+			character:202999 = {
 				if = {
 					limit = { has_ep3_dlc_trigger = yes }
-					try_start_diarchy = co_emperorship
-					set_diarch = character:30759
-					set_designated_heir = character:30759
+					try_start_diarchy = co_monarchy
+					set_diarch = character:6900
+					set_designated_heir = character:6900
+				}
+			}
+			character:466517 = {
+				if = {
+					limit = { has_ep3_dlc_trigger = yes }
+					try_start_diarchy = co_monarchy
+					set_diarch = character:466515
+					set_designated_heir = character:466515
 				}
 			}
 
@@ -23405,68 +22303,7 @@ MB_set_regencies = {
 				limit = { exists = character:98003 }
 				character:98003 = { trigger_event = diarchy.0012 }
 			}
-
-
-		#1267
-
-
-		if = {
-			limit = { game_start_date >= 1267.1.1
-					  game_start_date <= 1268.1.1
-			}
-
-			character:454522 = {
-				if = {
-					limit = { has_ep3_dlc_trigger = yes }
-					try_start_diarchy = co_monarchy
-					set_diarch = character:454520
-					set_designated_heir = character:454520
-				}
-			}
-			character:98003 = {
-				if = {
-					limit = { has_ep3_dlc_trigger = yes }
-					try_start_diarchy = co_monarchy
-					set_diarch = character:98004
-					set_designated_heir = character:98004
-				}
-			}
-			character:74583 = {
-				if = {
-					limit = { has_ep3_dlc_trigger = yes }
-					try_start_diarchy = co_monarchy
-					set_diarch = character:74582
-					set_designated_heir = character:74582
-				}
-			}
-			character:465527 = {
-				if = {
-					limit = { has_ep3_dlc_trigger = yes }
-					try_start_diarchy = junior_emperorship
-					set_diarch = character:465521
-					set_designated_heir = character:465521
-				}
-			}
-			character:1000080080 = {
-				if = {
-					limit = { has_ep3_dlc_trigger = yes }
-					try_start_diarchy = junior_emperorship
-					set_diarch = character:1000080079
-					set_designated_heir = character:1000080079
-				}
-			}
-
-
-		}
-		if = {
-				limit = { exists = character:454522 }
-				character:454522 = { trigger_event = diarchy.0012 }
-			}
-		if = {
-				limit = { exists = character:98003 }
-				character:98003 = { trigger_event = diarchy.0012 }
-			}
-
+			
 
 		#1310
 
@@ -25457,7 +24294,6 @@ MB_set_de_jure = {
 
 			title:d_poitou = { set_de_jure_liege_title = title:k_france }
 			title:d_limousin = { set_de_jure_liege_title = title:k_france }
-			title:d_auvergne = { set_de_jure_liege_title = title:k_france }
 		}
 
 		#Give the rest of Aquitaine
@@ -25468,9 +24304,8 @@ MB_set_de_jure = {
 			}
 
 			title:d_languedoc = { set_de_jure_liege_title = title:k_france }
-			title:d_gevaudan = { set_de_jure_liege_title = title:k_france }
 			title:d_toulouse = { set_de_jure_liege_title = title:k_france }
-			title:d_armagnac = { set_de_jure_liege_title = title:k_france }
+			title:d_foix = { set_de_jure_liege_title = title:k_france }
 			title:d_gascogne = { set_de_jure_liege_title = title:k_france }
 			title:d_aquitaine = { set_de_jure_liege_title = title:k_france }
 		}
@@ -25479,7 +24314,7 @@ MB_set_de_jure = {
 
 		if = {
 			limit = {
-				game_start_date = 1018.8.1
+				game_start_date = 1020.8.1
 			}
 
 			title:k_bulgaria = { set_de_jure_liege_title = title:e_byzantium }
@@ -25538,29 +24373,6 @@ MB_set_de_jure = {
 
 
 		###############################################################################################Asia###############################################################################################
-
-		if = {
-			limit = {
-				game_start_date >= 1144.1.1
-				game_start_date <= 1219.1.1
-			}
-			title:k_goguryeo = { set_de_jure_liege_title = title:e_andong }
-			title:k_khitan = { set_de_jure_liege_title = title:e_andong }
-			#title:k_yan_china = { set_de_jure_liege_title = title:e_jurchen_china }
-			#title:k_yinshan_china = { set_de_jure_liege_title = title:e_jurchen_china }
-		}
-
-		if = {
-			limit = {
-				game_start_date >= 1234.1.1
-				game_start_date <= 1271.1.1
-			}
-			title:k_goguryeo = { set_de_jure_liege_title = title:e_mongol_empire }
-			title:k_khitan = { set_de_jure_liege_title = title:e_mongol_empire }
-			#title:k_yan_china = { set_de_jure_liege_title = title:e_mongol_empire }
-			#title:k_yinshan_china = { set_de_jure_liege_title = title:e_mongol_empire }
-		}
-
 
 		if = {
 			limit = {
@@ -25815,32 +24627,13 @@ MB_set_de_jure = {
 
 		if = {
 			limit = {
-				game_start_date >= 1160.1.1
-			}
-
-			title:c_lucca = { set_de_jure_liege_title = title:d_lucca_republic }
-			title:c_luni = { set_de_jure_liege_title = title:d_lucca_republic }
-			title:c_guidi = { set_de_jure_liege_title = title:d_lucca_republic }
-		}
-
-		if = {
-			limit = {
 				game_start_date >= 1167.1.1
 			}
 
 			title:c_mantua = { set_de_jure_liege_title = title:d_mantua_republic }
 			title:c_novellara = { set_de_jure_liege_title = title:d_mantua_republic }
 		}
-
-		if = {
-			limit = {
-				game_start_date >= 1130.1.1
-			}
-
-			title:c_parma = { set_de_jure_liege_title = title:d_parma_republic }
-		}
-
-
+		
 		if = {
 			limit = {
 				game_start_date >= 1130.1.1
@@ -25885,24 +24678,6 @@ MB_set_de_jure = {
 			title:c_orbetello = { set_de_jure_liege_title = title:d_siena_republic }
 		}
 
-
-		if = {
-			limit = {
-				game_start_date >= 1026.1.1
-				game_start_date <= 1310.1.1
-			}
-
-			title:c_valtelline = { set_de_jure_liege_title = title:d_milano_republic }
-			title:c_lombardia = { set_de_jure_liege_title = title:d_milano_republic }
-			title:c_sepiro = { set_de_jure_liege_title = title:d_milano_republic }
-			title:c_como = { set_de_jure_liege_title = title:d_milano_republic }
-			title:c_bergamo = { set_de_jure_liege_title = title:d_milano_republic }
-			title:c_cremona = { set_de_jure_liege_title = title:d_milano_republic }
-			title:c_pavia = { set_de_jure_liege_title = title:d_milano_republic }
-			title:c_brescia = { set_de_jure_liege_title = title:d_milano_republic }
-
-		}
-
 		if = {
 			limit = {
 				game_start_date >= 1093.1.1
@@ -25927,6 +24702,7 @@ MB_set_de_jure = {
 			}
 
 			title:c_bergamo = { set_de_jure_liege_title = title:d_bergamo_republic }
+			title:c_brescia = { set_de_jure_liege_title = title:d_bergamo_republic }
 
 		}
 
@@ -25937,8 +24713,8 @@ MB_set_de_jure = {
 			}
 
 			title:c_bassano = { set_de_jure_liege_title = title:d_vicenza_republic }
-			title:c_verona = { set_de_jure_liege_title = title:d_vicenza_republic }
 			title:c_treviso = { set_de_jure_liege_title = title:d_vicenza_republic }
+			title:c_belluno = { set_de_jure_liege_title = title:d_vicenza_republic }
 		}
 
 		if = {
@@ -26256,18 +25032,18 @@ MB_set_buildings = {
 			title:b_kano.title_province = {
 				add_special_building = wap_walls_of_kano_01
 			}
-		#k_nri
-			title:b_igbo-ukwu.title_province = {
-				add_special_building = wap_bronze_industry_01
-			}
-		#k_benin
-			title:b_edo.title_province = {
-				add_special_building_slot = wap_bronze_industry_01
-			}
-		#k_sao
-			title:b_banre.title_province = {
-				add_special_building = wap_bronze_industry_01
-			}
+		##k_nri
+		#	title:b_igbo-ukwu.title_province = {
+		#		add_special_building = wap_bronze_industry_01
+		#	}
+		##k_benin
+		#	title:b_edo.title_province = {
+		#		add_special_building_slot = wap_bronze_industry_01
+		#	}
+		##k_sao
+		#	title:b_banre.title_province = {
+		#		add_special_building = wap_bronze_industry_01
+		#	}
 		#k_hausaland
 			title:b_daura.title_province = {
 				add_special_building = wap_sarki_well_01
@@ -26276,9 +25052,9 @@ MB_set_buildings = {
 			title:b_ile-ife.title_province = {
 				add_special_building = wap_oracle_of_ife_01
 			}
-			title:b_owu.title_province = {
-				add_special_building_slot = wap_bronze_industry_01
-			}
+			#title:b_owu.title_province = {
+			#	add_special_building_slot = wap_bronze_industry_01
+			#}
 			title:b_ijebu.title_province = {
 				add_special_building_slot = wap_sungbos_eredo_01
 			}
@@ -27204,105 +25980,7 @@ KOH_holy_orders = {
 					}
 				}
 			}
-
-		if = {
-            limit = {
-                game_start_date >= 1220.1.1
-                game_start_date <= 1220.12.31
-			}
-
-			#1220
-
-				character:30809 = {
-					if = {
-						limit = {
-							is_alive = yes
-							is_landed = yes
-							game_start_date = 1220.5.16
-						}
-						trigger_event = {
-							id = KoH_holy_orders.123 #Templar Creation
-							days = -1
-						}
-					}
-				}
-				character:30809 = {
-					if = {
-						limit = {
-							is_alive = yes
-							is_landed = yes
-							game_start_date = 1220.5.16
-						}
-						trigger_event = {
-							id = KoH_holy_orders.124 #Hospitaller Creation
-							days = -1
-						}
-					}
-				}
-				character:457620 = {
-					if = {
-						limit = {
-							is_alive = yes
-							game_start_date = 1220.5.16
-						}
-						trigger_event = {
-							id = KoH_holy_orders.125 #Calavatra Creation
-							days = -1
-						}
-					}
-				}
-				character:457620 = {
-					if = {
-						limit = {
-							is_alive = yes
-							game_start_date = 1220.5.16
-						}
-						trigger_event = {
-							id = KoH_holy_orders.126 #Santiago creation
-							days = -1
-						}
-					}
-				}
-
-				character:144229 = {
-					if = {
-						limit = {
-							is_alive = yes
-							game_start_date = 1220.5.16
-						}
-						trigger_event = {
-							id = KoH_holy_orders.127 #Assassin Buffs
-							days = 1
-						}
-					}
-				}
-				character:144229 = {
-					if = {
-						limit = {
-							is_alive = yes
-							game_start_date = 1220.5.16
-						}
-						trigger_event = {
-							id = KoH_holy_orders.128 #Assassin Buffs
-							days = -1
-						}
-					}
-				}
-
-				character:219502 = {
-					if = {
-						limit = {
-							is_alive = yes
-							game_start_date = 1220.5.16
-						}
-						trigger_event = {
-							id = KoH_holy_orders.129 #Teutonic creation
-							days = -1
-						}
-					}
-				}
-			}
-
+			
 		if = {
             limit = {
                 game_start_date >= 1246.1.1
@@ -27408,92 +26086,6 @@ KOH_holy_orders = {
 						}
 						trigger_event = {
 							id = KoH_holy_orders.137 #Teutonic creation
-							days = -1
-						}
-					}
-				}
-			}
-
-		if = {
-            limit = {
-                game_start_date >= 1267.1.1
-                game_start_date <= 1267.12.31
-			}
-
-			#1267
-
-				character:461905 = {
-					if = {
-						limit = {
-							is_alive = yes
-							is_landed = yes
-							game_start_date = 1267.6.1
-						}
-						trigger_event = {
-							id = KoH_holy_orders.138 #Templar Creation
-							days = -1
-						}
-					}
-				}
-				character:461905 = {
-					if = {
-						limit = {
-							is_alive = yes
-							is_landed = yes
-							game_start_date = 1267.6.1
-						}
-						trigger_event = {
-							id = KoH_holy_orders.139 #Hospitaller Creation
-							days = -1
-						}
-					}
-				}
-				character:457540 = {
-					if = {
-						limit = {
-							is_alive = yes
-							game_start_date = 1267.6.1
-						}
-						trigger_event = {
-							id = KoH_holy_orders.140 #Calavatra Creation
-							days = -1
-						}
-					}
-				}
-				character:457540 = {
-					if = {
-						limit = {
-							is_alive = yes
-							game_start_date = 1267.6.1
-						}
-						trigger_event = {
-							id = KoH_holy_orders.141 #Santiago creation
-							days = -1
-						}
-					}
-				}
-
-				character:30409 = {
-					if = {
-						limit = {
-							is_alive = yes
-							game_start_date = 1267.6.1
-						}
-						trigger_event = {
-							id = KoH_holy_orders.144 #Teutonic creation
-							days = -1
-						}
-					}
-				}
-
-				character:30409 = {
-					if = {
-						limit = {
-							is_alive = yes
-							game_start_date = 1267.6.1
-						}
-						trigger_event = {
-							id = KoH_holy_orders.145 #Teutonic creation
 							days = -1
 						}
 					}

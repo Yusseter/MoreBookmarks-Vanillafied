@@ -1,4 +1,4 @@
-# Geographical regions
+﻿# Geographical regions
 # Regions can be declared with one or more of the following fields:
 
 #	duchies = { }, takes duchy title names declared in landed_titles.txt
@@ -192,12 +192,12 @@ world_europe_west_germania = {
 }
 world_europe_west_francia = {
 	duchies = {
-		d_berry d_anjou d_blois d_alencon d_normandy d_orleans d_champagne d_archreims d_valois d_burgundy d_nevers d_bar d_aquitaine d_toulouse d_languedoc d_armagnac d_gascogne d_poitou d_gevaudan d_limousin d_auvergne d_bourbon d_brittany d_lower_brittany d_provence d_savoie d_dauphine d_upper_burgundy d_transjurania d_flanders d_artois
+		d_berry d_anjou d_maine d_blois d_alencon d_normandy d_orleans d_ile_de_france d_champagne d_archreims d_valois d_burgundy d_nevers d_bar d_aquitaine d_toulouse d_languedoc d_gascogne d_foix d_poitou d_limousin d_la_marche d_auvergne d_forez d_bourbon d_brittany d_lower_brittany d_provence d_savoie d_dauphine d_lyon d_upper_burgundy d_transjurania d_flanders d_artois
 	}
 }
 world_europe_west_iberia = {
 	duchies = {
-		d_castilla d_segovia d_aragon d_zaragoza d_barcelona d_catalunya_nova d_urgell d_teruel d_valencia d_mallorca d_navarra d_asturias d_leon d_salamanca d_galicia d_porto d_ribatejo d_beja d_algarve d_cordoba d_la_mancha d_murcia d_granada d_sevilla d_badajoz d_toledo d_coimbra d_cantabria d_viscaya d_najera
+		d_castilla d_aragon d_zaragoza d_barcelona d_catalunya_nova d_urgell d_teruel d_valencia d_mallorca d_navarra d_asturias d_leon d_galicia  d_porto d_ribatejo d_beja d_algarve d_cordoba d_la_mancha d_murcia d_granada d_sevilla d_badajoz d_toledo d_coimbra d_cantabria d_viscaya d_najera
 	}
 }
 world_europe_west = {
@@ -235,7 +235,7 @@ world_europe_south_east = {
 world_europe_south_italy = {
 	duchies = {
 		#Italia
-		d_verona d_mantua d_lombardia d_genoa d_savona d_emilia d_lucca d_parma d_romagna d_urbino d_toscana d_ferrara d_siena d_pisa d_ancona d_spoleto d_latium d_corsica d_sardinia d_venice d_piedmonte d_monferrato d_friuli
+		d_verona d_modena_republic d_lombardia d_genoa d_savona d_lucca d_parma d_romagna d_pentapolis d_toscana d_ferrara d_siena_republic d_pisa d_spoleto d_latium d_corsica d_sardinia d_venice d_piedmonte d_monferrato d_friuli
 		#Sicily
 		d_benevento d_capua d_gaeta d_napoli d_apulia d_tarent d_bari d_atri d_salerno d_calabria d_sicily
 	}
@@ -567,7 +567,8 @@ world_burma = {
 		d_pagan d_maingmaw d_binnaka d_sriksetra d_toungoo
 
 		# k_shan
-		d_north_shan d_tengchong d_hsipaw d_yawnghwe d_mongnai d_mongpai
+		d_tengchong d_mongnai
+		# Yusseter: No current title counterpart: d_north_shan d_mongmit d_hsipaw d_mongpai
 
 		# k_tagaung
 		d_tagaung d_kale d_myitkyina d_myinmu d_hkamti
@@ -576,6 +577,9 @@ world_burma = {
 		d_ramannadesa d_ramannadesa d_dagon d_krapan d_yebyu d_tanintharyi
 		# Arakan
 		d_chattogram d_ramu d_sandoway d_arakan
+	}
+	counties = {
+		c_nyaungshwe
 	}
 }
 
@@ -615,8 +619,7 @@ world_asia_sakhalin_hokkaido = {
 }
 world_asia_japan = {
 	duchies = {
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: d_chugoku has second mapping to d_west_sanindo; manual review needed.
-		d_south_saikaido d_north_saikaido d_west_sanyodo d_nankaido d_east_sanyodo d_east_sanindo d_kinai d_tosando d_hokurikudo d_tokaido d_koshinetsu d_west_bando d_east_bando d_nushiro d_hitakami d_ruucuu d_saki
+		d_south_saikaido d_north_saikaido d_west_sanyodo d_west_sanindo d_nankaido d_east_sanyodo d_east_sanindo d_kinai d_tosando d_hokurikudo d_tokaido d_west_bando d_east_bando d_nushiro d_hitakami d_ruucuu
 	}
 }
 
@@ -657,9 +660,22 @@ world_asia_southeast_mainland = {
 	}
 }
 
+world_asia_vietnam = {
+	duchies = {
+		d_hai_dong d_thang_long d_nghe_an d_lam_tay
+	}
+	counties = {
+		c_nghe_an c_sam_nuea c_lam_tay
+	}
+	# Yusseter: No current title counterpart: d_nong d_lao_nhai
+}
+
 world_asia_thailand = {
 	kingdoms = {
-		k_dvaravati k_haripunjaya k_chenla
+		k_dvaravati k_chenla
+	}
+	duchies = {
+		d_haripunjaya
 	}
 }
 world_asia_malaysia = {
@@ -713,8 +729,9 @@ world_asia_indonesia = {
 
 world_asia_china = {
 	kingdoms = {
-		k_youji k_qingxu k_henan k_hebei k_hedong k_henan k_shannan k_xingyuan k_guannei k_longxi_china k_xia_china k_xia k_xichuan k_qianzhong k_hunan k_huainan k_liangzhe k_fujian k_lingnan k_luodian k_dali k_viet
+		k_youji k_qingxu k_henan k_hebei k_hedong k_shannan k_xingyuan k_guannei k_longxi_china k_xia_china k_xia k_guishi k_xichuan k_qianzhong k_hunan k_huainan k_liangzhe k_fujian k_lingnan k_dali k_viet
 	}
+	# Yusseter: No current title counterpart: k_weichu k_dian k_tay_bac
 }
 
 world_asia_and_india = {
@@ -1371,9 +1388,9 @@ custom_rhineland = {
 custom_northern_italy = {
 	duchies = {
 		#k_italy
-		d_friuli d_verona d_mantua d_piedmonte d_monferrato d_lombardia d_genoa d_savona d_emilia d_lucca d_parma d_pisa d_toscana d_ferrara d_siena
+		d_friuli d_verona d_modena_republic d_piedmonte d_monferrato d_lombardia d_genoa d_savona d_lucca d_parma d_pisa d_toscana d_ferrara d_siena_republic
 		#k_romagna
-		d_romagna d_urbino d_ancona d_spoleto d_latium
+		d_romagna d_pentapolis d_spoleto d_latium
 		#k_sardinia (exempting Sardinia)
 		d_corsica
 		#Exclude k_venezia.
@@ -1396,12 +1413,12 @@ custom_wales = {
 }
 custom_castilian = {
 	duchies = {
-		d_castilla d_segovia d_cantabria
+		d_castilla d_cantabria
 	}
 }
 custom_asturleonese = {
 	duchies = {
-		d_asturias d_leon d_salamanca
+		d_asturias d_leon
 	}
 }
 custom_aragonese = {
@@ -1431,7 +1448,7 @@ custom_portuguese = {
 }
 custom_occitan = {
 	duchies = {
-		d_languedoc d_toulouse d_armagnac d_gascogne d_aquitaine d_auvergne d_provence d_poitou d_gevaudan d_limousin
+		d_languedoc d_toulouse d_gascogne d_foix d_aquitaine d_auvergne d_forez d_provence d_poitou d_limousin d_la_marche
 	}
 }
 custom_andalusian = {
@@ -1464,12 +1481,12 @@ custom_scotland = {
 }
 custom_burgundy = { #Expanded dejure.
 	duchies = {
-		d_burgundy d_nevers d_provence d_savoie d_dauphine d_upper_burgundy d_transjurania
+		d_burgundy d_nevers d_provence d_savoie d_dauphine d_lyon d_upper_burgundy d_transjurania
 	}
 }
 custom_roman_empire = { #Only the provinces needed to restore the Empire, not the full borders.
 	duchies = {
-		d_latium d_corsica d_venice d_romagna d_urbino d_sicily d_genoa d_savona d_capua d_gaeta d_napoli d_apulia d_tarent d_bari d_atri d_thrace d_strymon d_antioch d_palestine d_acre d_ascalon d_alexandria d_athens d_tunis d_croatia d_thessalonika d_thessaly
+		d_latium d_corsica d_venice d_romagna d_pentapolis d_sicily d_genoa d_savona d_capua d_gaeta d_napoli d_apulia d_tarent d_bari d_atri d_thrace d_strymon d_antioch d_palestine d_acre d_ascalon d_alexandria d_athens d_tunis d_croatia d_thessalonika d_thessaly
 	}
 }
 custom_roman_syria_palestina = {
@@ -1532,7 +1549,7 @@ custom_roman_illyricum = {
 }
 custom_roman_hispania = {
 	duchies = {
-		d_castilla d_segovia
+		d_castilla
 		d_cantabria
 		d_aragon d_zaragoza
 		d_barcelona d_catalunya_nova d_urgell d_teruel
@@ -1540,9 +1557,9 @@ custom_roman_hispania = {
 		d_mallorca
 		d_navarra
 		d_viscaya d_najera
-		d_leon d_salamanca
+		d_leon
 		d_asturias
-		d_galicia
+		d_galicia 
 		d_porto d_ribatejo
 		d_coimbra
 		d_beja
@@ -1763,13 +1780,13 @@ custom_bactria = {
 
 custom_west_francia_minus_mediterranean = {
 	duchies = {
-		d_berry d_anjou d_normandy d_orleans d_champagne d_valois d_bar d_brittany d_lower_brittany d_flanders d_artois d_blois d_alencon d_archreims
+		d_berry d_anjou d_maine d_normandy d_orleans d_ile_de_france d_champagne d_valois d_bar d_brittany d_lower_brittany d_flanders d_artois d_blois d_alencon d_archreims
 	}
 }
 
 custom_south_francia = {
 	duchies = {
-		d_aquitaine d_toulouse d_languedoc d_armagnac d_gascogne d_poitou d_gevaudan d_limousin d_auvergne d_bourbon
+		d_aquitaine d_toulouse d_languedoc d_gascogne d_foix d_poitou d_limousin d_la_marche d_auvergne d_forez d_bourbon
 	}
 }
 
@@ -1885,7 +1902,7 @@ custom_greater_armenia = {
 
 custom_normandy_and_adjacent = {
 	duchies = {
-		d_normandy d_brittany d_lower_brittany d_flanders d_artois d_anjou d_blois d_alencon d_orleans d_valois
+		d_normandy d_brittany d_lower_brittany d_flanders d_artois d_anjou d_maine d_blois d_alencon d_orleans d_ile_de_france d_valois
 	}
 }
 
@@ -1999,7 +2016,7 @@ custom_sub_saharan_africa_immediate = {
 custom_carolingian_francia = {
 	duchies = {
 		#Basically the same, sans the Breton marches.
-		d_berry d_anjou d_blois d_alencon d_normandy d_orleans d_champagne d_archreims d_valois d_burgundy d_nevers d_bar d_aquitaine d_toulouse d_languedoc d_armagnac d_gascogne d_poitou d_gevaudan d_limousin d_auvergne d_bourbon d_provence d_savoie d_dauphine d_upper_burgundy d_transjurania
+		d_berry d_anjou d_maine d_blois d_alencon d_normandy d_orleans d_ile_de_france d_champagne d_archreims d_valois d_burgundy d_nevers d_bar d_aquitaine d_toulouse d_languedoc d_gascogne d_foix d_poitou d_limousin d_la_marche d_auvergne d_forez d_bourbon d_provence d_savoie d_dauphine d_lyon d_upper_burgundy d_transjurania
 	}
 }
 
@@ -2368,8 +2385,7 @@ special_mongol_empire_start_region = {
 # ~1219
 special_mongol_empire_conquest_region_prio_1_alpha = { #### NEW IN AUH -- I don't think this is needed but it's in code
 	kingdoms = {
-		k_khitan k_xia k_xia_china k_zhetysu
-
+		k_khitan k_xia k_guishi k_xia_china k_zhetysu
 	}
 }
 
@@ -2790,7 +2806,7 @@ special_sicilian_culture_region = {
 ### Special Cagot region
 special_cagot_region = {
 	duchies = {
-		d_navarra d_gascogne d_armagnac d_aragon d_zaragoza d_viscaya d_najera d_cantabria d_asturias d_castilla d_segovia d_leon d_salamanca
+		d_navarra d_gascogne d_foix d_aragon d_zaragoza d_viscaya d_najera d_cantabria d_asturias d_castilla d_leon
 	}
 }
 
@@ -2802,9 +2818,9 @@ special_cagot_region = {
 ghw_region_northern_italy = {
 	duchies = {
 		#Italy
-		d_friuli d_verona d_mantua d_piedmonte d_monferrato d_lombardia d_genoa d_savona d_emilia d_lucca d_parma d_pisa d_toscana d_ferrara d_siena
+		d_friuli d_verona d_modena_republic d_piedmonte d_monferrato d_lombardia d_genoa d_savona d_lucca d_parma d_pisa d_toscana d_ferrara d_siena_republic
 		#Romagna
-		d_romagna d_urbino d_ancona d_spoleto d_latium
+		d_romagna d_pentapolis d_spoleto d_latium
 		#Venice
 		d_venice
 	}
@@ -2818,11 +2834,11 @@ ghw_region_thessalonika = {
 ghw_region_france = {
 	duchies = {
 		#France
-		d_valois d_berry d_anjou d_blois d_alencon d_normandy d_orleans d_champagne d_archreims d_burgundy d_nevers d_bar d_flanders d_artois
+		d_valois d_berry d_anjou d_maine d_blois d_alencon d_normandy d_orleans d_ile_de_france d_champagne d_archreims d_burgundy d_nevers d_bar d_flanders d_artois
 		#Aquitaine
-		d_gascogne d_aquitaine d_toulouse d_languedoc d_armagnac d_poitou d_gevaudan d_limousin d_auvergne d_bourbon
+		d_gascogne d_foix d_aquitaine d_toulouse d_languedoc d_poitou d_limousin d_la_marche d_auvergne d_forez d_bourbon
 		#Burgundy
-		d_provence d_savoie d_dauphine d_upper_burgundy d_transjurania
+		d_provence d_savoie d_dauphine d_lyon d_upper_burgundy d_transjurania
 	}
 }
 ghw_region_germany = {
@@ -2924,13 +2940,13 @@ ghw_region_jerusalem = {
 ghw_region_iberia = {
 	duchies = {
 		#Galicia
-		d_galicia
+		d_galicia 
 		#Portugal
 		d_porto d_ribatejo d_coimbra
 		#Leon
-		d_leon d_salamanca d_asturias
+		d_leon d_asturias
 		#Castille
-		d_castilla d_segovia d_cantabria
+		d_castilla d_cantabria
 		#Navarra
 		d_navarra d_viscaya d_najera
 		#Aragon
@@ -3194,9 +3210,9 @@ ghw_region_western_india = {
 ghw_region_southern_france = {
 	duchies = {
 		#Aquitaine
-		d_gascogne d_aquitaine d_toulouse d_languedoc d_armagnac d_poitou d_gevaudan d_limousin d_auvergne d_bourbon
+		d_gascogne d_foix d_aquitaine d_toulouse d_languedoc d_poitou d_limousin d_la_marche d_auvergne d_forez d_bourbon
 		#Burgundy
-		d_provence d_savoie d_dauphine d_upper_burgundy d_transjurania
+		d_provence d_savoie d_dauphine d_lyon d_upper_burgundy d_transjurania
 	}
 }
 ghw_region_mongolia = {
@@ -3315,9 +3331,9 @@ ghw_region_mainland_greece = {
 ghw_region_italy = {
 	duchies = {
 		#Italy
-		d_friuli d_verona d_mantua d_piedmonte d_monferrato d_lombardia d_genoa d_savona d_emilia d_lucca d_parma d_pisa d_toscana d_ferrara d_siena
+		d_friuli d_verona d_modena_republic d_piedmonte d_monferrato d_lombardia d_genoa d_savona d_lucca d_parma d_pisa d_toscana d_ferrara d_siena_republic
 		#Romagna
-		d_romagna d_urbino d_ancona d_spoleto d_latium
+		d_romagna d_pentapolis d_spoleto d_latium
 		#Sicily
 		d_sicily d_benevento d_capua d_gaeta d_napoli d_apulia d_tarent d_bari d_atri d_salerno d_calabria
 		#Venice
@@ -3943,7 +3959,7 @@ dlc_fp1_achievement_vladimirs_second_choice = {
 
 dlc_fp2_old_vasconia = {
 	duchies = {
-		d_viscaya d_navarra d_armagnac
+		d_viscaya d_navarra d_foix
 	}
 	counties = {
 		c_labourd c_albret c_marsan c_alto_aragon #c_foix c_urgell c_lleida c_fraga c_puigcerda
@@ -3952,7 +3968,7 @@ dlc_fp2_old_vasconia = {
 
 dlc_fp2_old_vasconia_pushed = {
 	duchies = {
-		d_viscaya d_navarra d_gascogne d_armagnac d_aragon d_barcelona
+		d_viscaya d_navarra d_gascogne d_foix d_aragon d_barcelona
 	}
 }
 
@@ -3980,18 +3996,18 @@ dlc_fp2_caucasian_iberia = { # Next to Georgia (Due to how counties are partitio
 dlc_fp2_form_aragon_region = {
 	duchies = {
 		# k_navarra
-		d_navarra d_viscaya d_najera d_urgell d_catalunya_nova d_zaragoza d_gevaudan d_teruel
+		d_navarra d_viscaya d_najera d_urgell d_catalunya_nova d_zaragoza d_teruel
 		# k_valencia
 		d_aragon d_valencia d_mallorca
 		# k_aquitaine
-		d_gascogne d_toulouse d_armagnac d_languedoc d_barcelona
+		d_gascogne d_foix d_toulouse d_languedoc d_barcelona
 	}
 }
 
 dlc_fp2_lyonese_monk_region = {
 	duchies = {
 		# k_aquitaine
-		d_gascogne d_aquitaine d_toulouse d_languedoc d_armagnac d_poitou d_auvergne d_bourbon d_gevaudan d_limousin
+		d_gascogne d_foix d_aquitaine d_toulouse d_languedoc d_poitou d_auvergne d_forez d_bourbon d_limousin d_la_marche
 	}
 	regions = {
 		world_europe_west_iberia
@@ -4098,7 +4114,7 @@ dlc_ep1_region_south_east_europe = {
 		#Serbia
 		d_rashka d_macva d_duklja d_bosna d_usora d_realusora d_currezia
 		#Italia
-		d_verona d_mantua d_lombardia d_genoa d_savona d_emilia d_lucca d_parma d_romagna d_urbino d_toscana d_ferrara d_siena d_pisa d_ancona d_spoleto d_latium d_corsica d_sardinia d_venice d_piedmonte d_monferrato d_friuli
+		d_verona d_modena_republic d_lombardia d_genoa d_savona d_lucca d_parma d_romagna d_pentapolis d_toscana d_ferrara d_siena_republic d_pisa d_spoleto d_latium d_corsica d_sardinia d_venice d_piedmonte d_monferrato d_friuli
 	}
 }
 
@@ -4225,7 +4241,7 @@ dlc_mpo_steppe_east_andong_addon = {
 
 dlc_mpo_steppe_east_china_addon = {
 	kingdoms = {
-		k_xia 
+		k_xia k_guishi
 	}
 }
 
@@ -4394,7 +4410,6 @@ tgp_silk_road_china_region = { #
 	kingdoms = {
 		k_xia_china
 		k_viet
-		k_luodian
 		k_lingnan
 		k_hunan
 		k_fujian
@@ -4406,7 +4421,6 @@ tgp_silk_road_china_region = { #
 		k_guannei
 		k_shannan
 		k_henan
-		k_henan
 		k_qingxu
 		k_hedong
 		k_youji
@@ -4414,13 +4428,15 @@ tgp_silk_road_china_region = { #
 		k_khitan
 		k_goguryeo
 		k_dali
-		k_laos
 		k_hebei
-
 	}
 	duchies = {
-		d_qincheng d_longnan_china d_langshan
+		d_qincheng d_langshan
 	}
+	counties = {
+		c_chengzhou
+	}
+	# Yusseter: No current title counterpart: k_tay_bac k_weichu k_dian k_laos
 }
 
 tgp_silk_road_tibet_region = {
@@ -4744,7 +4760,6 @@ dlc_tgp_silk_road_route_china = {
 		
 		c_lam_thao
 		c_yen_bai
-		c_thuy_vi
 		c_muze
 		c_dzi_khe
 		c_tonghai
@@ -4754,7 +4769,6 @@ dlc_tgp_silk_road_route_china = {
 		c_xiangcheng
 		c_maso
 		c_chengji
-		c_yunnan
 		
 		c_jianchang_1
 		c_khuo
@@ -5423,8 +5437,12 @@ dlc_tgp_silk_road_route_sea = {
 
 dlc_tgp_mainland_southeast_asia_region = { #This region isn't referenced by anything
 	kingdoms = {
-		k_viet k_champa k_loeu k_funan k_chenla k_laos k_haripunjaya k_shan k_tagaung k_pagan k_pegu k_dvaravati 
+		k_viet k_champa k_funan k_chenla k_mongnai k_pagan k_pegu k_dvaravati
 	}
+	duchies = {
+		d_haripunjaya
+	}
+	# Yusseter: No current title counterpart: k_tay_bac k_loeu k_laos k_tagaung
 }
 
 dlc_tgp_great_wall_shanhai = {
@@ -6038,7 +6056,7 @@ world_atlantic = {
 		#Iberia
 		d_galicia d_asturias d_cantabria d_viscaya
 		#Frenches
-		d_gascogne d_aquitaine d_poitou d_brittany d_lower_brittany d_normandy
+		d_gascogne d_foix d_aquitaine d_poitou d_brittany d_lower_brittany d_normandy
 	}
 	regions = {
 		#Britland and Ireland
@@ -6068,7 +6086,7 @@ israel_region = {
 # Mediteranean Coastal Provinces
 mediteranean_coast = {
 	duchies = {
-		d_catalunya_nova d_ascalon d_acre d_seleucia d_krk d_lucca d_savona d_gaeta d_napoli d_siena d_antioch d_lebanon d_urdunn d_palestine d_delta d_alexandria d_cyrenaica d_syrte d_tripolitania d_gabes d_tunis d_kroumerie d_bejaia d_alger d_tlemcen d_rif d_sevilla d_granada d_murcia d_valencia d_barcelona d_languedoc d_provence d_genoa d_pisa d_toscana d_latium d_capua d_salerno d_calabria d_sicily d_corsica d_sardinia d_mallorca d_apulia d_benevento d_spoleto d_ancona d_romagna d_verona d_venice d_friuli d_istria d_dalmatia d_ragusa d_duklja d_dyrrachion d_cephalonia d_epirus d_achaia d_krete d_aegean_islands d_athens d_thessaly d_thessalonika d_strymon d_thrace d_optimatoi d_opsikion d_ephese d_cibyrrhaeot d_cilicia d_cyprus
+		d_catalunya_nova d_ascalon d_acre d_seleucia d_krk d_lucca d_savona d_gaeta d_napoli d_siena_republic d_antioch d_lebanon d_urdunn d_palestine d_delta d_alexandria d_cyrenaica d_syrte d_tripolitania d_gabes d_tunis d_kroumerie d_bejaia d_alger d_tlemcen d_rif d_sevilla d_granada d_murcia d_valencia d_barcelona d_languedoc d_provence d_genoa d_pisa d_toscana d_latium d_capua d_salerno d_calabria d_sicily d_corsica d_sardinia d_mallorca d_apulia d_benevento d_spoleto d_romagna d_verona d_venice d_friuli d_istria d_dalmatia d_ragusa d_duklja d_dyrrachion d_cephalonia d_epirus d_achaia d_krete d_aegean_islands d_athens d_thessaly d_thessalonika d_strymon d_thrace d_optimatoi d_opsikion d_ephese d_cibyrrhaeot d_cilicia d_cyprus
 	}
 	counties = {
 		c_farama
@@ -6342,7 +6360,6 @@ tgp_china_tributary_region = {
 	kingdoms = {
 		k_champa
 		k_viet
-		k_luodian
 		k_lingnan
 		k_hunan
 		k_fujian
@@ -6355,12 +6372,12 @@ tgp_china_tributary_region = {
 		k_guannei
 		k_shannan
 		k_henan
-		k_henan 
 		k_qingxu
 		k_hedong
 		k_youji
 		k_xia_china
 		k_xia
+		k_guishi
 		k_gyalrong
 		k_kham
 		k_amdo
@@ -6375,9 +6392,9 @@ tgp_china_tributary_region = {
 		k_goryeo
 		k_tamna
 		k_dali
-		k_laos
 		k_hebei
 	}
+	# Yusseter: No current title counterpart: k_tay_bac k_weichu k_dian k_laos
 }
 
 #These regions are used to define name choices when declaring a new dynasty
@@ -6416,6 +6433,7 @@ tgp_dian_region = {
 	kingdoms = {
 		k_dali
 	}
+	# Yusseter: No current title counterpart: k_weichu k_dian
 }
 tgp_e_region = {
 	kingdoms = {
@@ -6459,7 +6477,7 @@ tgp_lai_region = {
 }
 tgp_liang_region = {
 	kingdoms = {
-		k_henan k_longxi_china k_guannei k_xia k_xia_china k_henan
+		k_henan k_longxi_china k_guannei k_xia k_guishi k_xia_china
 	}
 }
 tgp_lu_region = {
@@ -6514,7 +6532,7 @@ tgp_wu_region = {
 }
 tgp_xia_region = {
 	kingdoms = {
-		k_longxi_china k_guannei k_xia k_xia_china
+		k_longxi_china k_guannei k_xia k_guishi k_xia_china
 	}
 }
 tgp_xiang_region = {
@@ -6685,9 +6703,9 @@ special_novgorod_culture_region = {
 custom_franceMB = {
 	duchies = {
 		#France
-		d_valois d_berry d_anjou d_blois d_alencon d_normandy d_orleans d_champagne d_archreims d_burgundy d_nevers d_bar d_flanders d_artois
+		d_valois d_berry d_anjou d_maine d_blois d_alencon d_normandy d_orleans d_ile_de_france d_champagne d_archreims d_burgundy d_nevers d_bar d_flanders d_artois
 		#Aquitaine
-		d_gascogne d_aquitaine d_toulouse d_languedoc d_armagnac d_poitou d_gevaudan d_limousin d_auvergne d_bourbon
+		d_gascogne d_foix d_aquitaine d_toulouse d_languedoc d_poitou d_limousin d_la_marche d_auvergne d_forez d_bourbon
 		#Lotharingia
 		# Lotharingia
 		d_luxembourg d_brabant d_liege d_limburg d_hainaut d_bouillon d_julich d_upper_lorraine d_koln d_trier d_pfalz d_lower_lorraine
@@ -6810,7 +6828,7 @@ custom_northern_plague = {
 
 custom_mountains_plague = {
 	duchies = {
-	 d_aragon d_armagnac
+	 d_aragon d_foix
 	}
 }
 
@@ -6933,10 +6951,17 @@ custom_gutnish = {
 
 custom_meritocratic_lands = {
 	kingdoms = {
-		k_dali k_viet k_goryeo k_xia k_xia_china
+		k_dali k_viet k_goryeo k_xia k_xia_china k_guishi
 	}
 	duchies = {
 		d_tengchong
+	}
+	# Yusseter: No current title counterpart: k_weichu k_dian k_tay_bac
+}
+
+germanized_bavaria_areas = {
+	duchies = {
+		d_steyermark d_osterreich
 	}
 }
 

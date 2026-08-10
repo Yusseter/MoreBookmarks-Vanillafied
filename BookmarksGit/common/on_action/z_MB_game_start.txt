@@ -1031,6 +1031,20 @@ MB_culture_setup = {
 				}
 			}
 		}
+		
+		if = {
+			limit = {
+				game_start_date > 1099.1.1
+			}
+		
+			culture:gall_goidel = {
+				set_culture_name = {
+					noun = "gall_goidel_late"
+					collective_noun = "gall_goidel_late_collective_noun"
+					prefix = "gall_goidel_late_prefix"
+				}
+			}
+		}
 
 		if = {
 			limit = {
@@ -17543,7 +17557,7 @@ MB_set_noble_families = {
 					every_vassal_or_below = {
 						limit = {
 							highest_held_title_tier >= tier_county
-							has_government = administrative_government
+							has_government = meritocratic_government
 							has_tgp_dlc_trigger = yes
 							is_house_head = yes
 						}

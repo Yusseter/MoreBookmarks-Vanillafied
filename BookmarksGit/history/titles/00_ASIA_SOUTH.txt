@@ -58078,47 +58078,89 @@ k_viet = {
 
 d_lam_tay = {
 
-	760.1.1 = {  holder = SEAsiaMB457 liege = k_viet	}
-	820.1.1 = {  holder = SEAsiaMB458	}
-	840.1.1 = {  holder = SEAsiaMB459	}
-	860.1.1 = {  holder = SEAsiaMB460	}
-	900.1.1 = {  holder = SEAsiaMB461	}
-	905.1.1 = {  government = feudal_government	}
-	930.1.1 = {  holder = SEAsiaMB462	}
-	955.1.1 = {  holder = SEAsiaMB463 liege = k_viet	}
-	980.1.1 = {  holder = SEAsiaMB464	}
-	1005.1.1 = { holder = SEAsiaMB465	}
-	1040.1.1 = { holder = SEAsiaMB466	}
-	1070.1.1 = { holder = SEAsiaMB467	}
-	1100.1.1 = { holder = SEAsiaMB468	}
-	1115.1.1 = { holder = SEAsiaMB469	}
-	1140.1.1 = { holder = SEAsiaMB470	}
-	1180.1.1 = { holder = SEAsiaMB471	}
-	1210.1.1 = { holder = SEAsiaMB472	}
-	1250.1.1 = { holder = SEAsiaMB473	}
-	1300.1.1 = { holder = SEAsiaMB474	}
-	1325.1.1 = { holder = SEAsiaMB475	}
+	#760.1.1 = {  holder = SEAsiaMB457 liege = k_viet	}
+	#820.1.1 = {  holder = SEAsiaMB458	}
+	#840.1.1 = {  holder = SEAsiaMB459	}
+	#860.1.1 = {  holder = SEAsiaMB460	}
+	#900.1.1 = {  holder = SEAsiaMB461	}
+	#905.1.1 = {  government = feudal_government	}
+	#930.1.1 = {  holder = SEAsiaMB462	}
+	#955.1.1 = {  holder = SEAsiaMB463 liege = k_viet	}
+	#980.1.1 = {  holder = SEAsiaMB464	}
+	#1005.1.1 = { holder = SEAsiaMB465	}
+	#1040.1.1 = { holder = SEAsiaMB466	}
+	#1070.1.1 = { holder = SEAsiaMB467	}
+	#1100.1.1 = { holder = SEAsiaMB468	}
+	#1115.1.1 = { holder = SEAsiaMB469	}
+	#1140.1.1 = { holder = SEAsiaMB470	}
+	#1180.1.1 = { holder = SEAsiaMB471	}
+	#1210.1.1 = { holder = SEAsiaMB472	}
+	#1250.1.1 = { holder = SEAsiaMB473	}
+	#1300.1.1 = { holder = SEAsiaMB474	}
+	#1325.1.1 = { holder = SEAsiaMB475	}
 }
 c_quoc_oai ={
-	760.1.1 = {  holder = SEAsiaMB457	}
-	820.1.1 = {  holder = SEAsiaMB458	}
-	840.1.1 = {  holder = SEAsiaMB459	}
-	860.1.1 = {  holder = SEAsiaMB460	}
-	900.1.1 = {  holder = SEAsiaMB461	}
-	930.1.1 = {  holder = SEAsiaMB462	}
-	955.1.1 = {  holder = SEAsiaMB463	}
-	980.1.1 = {  holder = SEAsiaMB464	}
-	1005.1.1 = { holder = SEAsiaMB465	}
-	1040.1.1 = { holder = SEAsiaMB466	}
-	1070.1.1 = { holder = SEAsiaMB467	}
-	1100.1.1 = { holder = SEAsiaMB468	}
-	1115.1.1 = { holder = SEAsiaMB469	}
-	1140.1.1 = { holder = SEAsiaMB470	}
-	1180.1.1 = { holder = SEAsiaMB471	}
-	1210.1.1 = { holder = SEAsiaMB472	}
-	1250.1.1 = { holder = SEAsiaMB473	}
-	1300.1.1 = { holder = SEAsiaMB474	}
-	1325.1.1 = { holder = SEAsiaMB475	}
+	730.1.1 = {
+		holder = MacMB1		# Quoc Viet (covers 769 bookmark)
+	}
+	735.9.3 = {
+		holder = MacMB2		# Tuan Kiet
+	}
+	763.7.19 = {
+		holder = MacMB3		# Nhat Vu
+		liege = k_viet
+	}
+	794.4.22 = {
+		holder = MacMB4		# Vinh San
+	}
+	823.2.8 = {
+		holder = MacMB5		# Trong Ngo
+	}
+	851.10.14 = {
+		holder = MacMB6		# Hoang Quan
+	}
+	880.3.17 = {
+		holder = MacMB7		# Minh Tri
+	}
+	909.6.29 = {
+		holder = MacMB8		# Khuong Minh
+	}
+	937.11.25 = {
+		holder = MacMB9		# Bao Long
+	}
+	966.8.4 = {
+		holder = MacMB10	# Toan Trung
+	}
+	995.3.22 = {
+		holder = MacMB11	# Hien Tich (historically documented Ly dynasty scholar)
+	}
+	1025.9.18 = {
+		holder = MacMB12	# Phuc
+	}
+	1053.5.7 = {
+		holder = MacMB13	# Anh Viet
+	}
+	1082.11.9 = {
+		holder = MacMB14	# Van Long
+	}
+	1112.4.16 = {
+		holder = MacMB15	# Nhan Phuc
+	}
+	1143.7.3 = {
+		holder = MacMB16	# Dinh Ho
+	}
+	1173.2.28 = {
+		holder = MacMB17	# Quoc Bao
+	}
+	1272.1.1 = {
+		holder = MacDynasty	# Mac Dinh Chi takes over properly at birth year
+	}
+	1346.1.1 = {
+		holder = MacDynasty1	# Mac Dao
+	}
+	1368.1.1 = {
+		holder = MacMB19	# Mac Thuy
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_van_chan = {
@@ -58218,26 +58260,67 @@ c_lam_tay = {
 
 c_sam_nuea = {
 
+	730.1.1 = {
+		holder = LuuMB1		# Phong (covers 769 bookmark)
+	}
+	737.9.3 = {
+		holder = LuuMB2		# Trong Nghia
+	}
 	760.1.1 = {  holder = SEAsiaMB476 liege = k_viet	}
-	820.1.1 = {  holder = SEAsiaMB477	}
-	840.1.1 = {  holder = SEAsiaMB478	}
-	860.1.1 = {  holder = SEAsiaMB479}
-	900.1.1 = {  holder = SEAsiaMB480	}
+	765.11.17 = {
+		holder = LuuMB3		# Nhat Vu
+		liege = k_viet
+	}
+	794.3.22 = {
+		holder = LuuMB4		# Quoc Bao
+	}
+	823.7.5 = {
+		holder = LuuMB5		# Tuan Kiet
+	}
+	852.4.14 = {
+		holder = LuuMB6		# Minh Tri
+	}
+	881.12.8 = {
+		holder = LuuMB7		# Huu Thuc
+	}
 	905.1.1 = {  government = feudal_government	}
-	930.1.1 = {  holder = SEAsiaMB481	}
+	910.6.29 = {
+		holder = LuuMB8		# Van Bang
+	}
+	939.8.18 = {
+		holder = LuuMB9		# Hoang Quan
+	}
 	955.1.1 = {  holder = SEAsiaMB482 liege = k_viet	}
-	980.1.1 = {  holder = SEAsiaMB483	}
-	1005.1.1 = { holder = SEAsiaMB484	}
-	1040.1.1 = { holder = SEAsiaMB485	}
-	1070.1.1 = { holder = SEAsiaMB486	}
-	1100.1.1 = { holder = SEAsiaMB487	}
-	1115.1.1 = { holder = SEAsiaMB488	}
-	1140.1.1 = { holder = SEAsiaMB489	}
-	1180.1.1 = { holder = SEAsiaMB490	}
-	1210.1.1 = { holder = SEAsiaMB491	}
-	1250.1.1 = { holder = SEAsiaMB492	}
-	1300.1.1 = { holder = SEAsiaMB493	}
-	1325.1.1 = { holder = SEAsiaMB494	}
+	968.2.25 = {
+		holder = LuuMB10	# Toan Trung
+	}
+	997.5.13 = {
+		holder = LuuMB11	# Vinh San
+	}
+	1136.3.1 = {
+		holder = viet_luu_3	# Luu Ba (younger brother takes over)
+	}
+	1153.12.17 = {
+		holder = LuuMB13	# Quoc Hung
+	}
+	1181.4.9 = {
+		holder = LuuMB14	# Nhan Phuc
+	}
+	1210.7.28 = {
+		holder = LuuMB15	# Khuong Nghia
+	}
+	1239.5.22 = {
+		holder = LuuMB16	# Minh Hoang
+	}
+	1269.11.4 = {
+		holder = LuuMB17	# Tuan Minh
+	}
+	1298.8.15 = {
+		holder = LuuMB18	# Hoang Anh
+	}
+	1327.2.11 = {
+		holder = LuuMB19	# Quoc Viet (alive past 1337)
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_yen_moc = {
@@ -58379,28 +58462,72 @@ c_sam_nuea = {
 #}
 c_nghe_an = {
 	300.1.1 = { change_development_level = 8 }
+	730.1.1 = {
+		holder = BuiMB1		# Phuoc (covers 769 bookmark)
+	}
+	736.4.9 = {
+		holder = BuiMB2		# Trong Nghia
+	}
+	764.10.17 = {
+		holder = BuiMB3		# Toan Trung
+		liege = k_viet
+	}
+	793.2.21 = {
+		holder = BuiMB4		# Quoc Hung
+	}
+	822.8.29 = {
+		holder = BuiMB5		# Nhat Vu
+	}
+	851.6.15 = {
+		holder = BuiMB6		# Huu Thuc
+	}
+	879.11.4 = {
+		holder = BuiMB7		# Minh Tri
+	}
+	908.9.22 = {
+		holder = BuiMB8		# Van Chuong
+	}
+	938.3.7 = {
+		holder = BuiMB9		# Tuan Kiet
+	}
+	965.7.18 = {
+		holder = BuiMB10	# Khuong Nghia
+	}
+	994.4.3 = {
+		holder = BuiMB11	# Vinh San
+	}
+	1024.12.11 = {
+		holder = BuiMB12	# Hoang Quan
+	}
+	1055.8.24 = {
+		holder = BuiMB13	# Anh Tuan
+	}
 	1066.1.1 = { change_development_level = 15 }
 
-	760.1.1 = {  holder = SEAsiaMB400 liege = k_viet	}
-	820.1.1 = {  holder = SEAsiaMB401	}
-	840.1.1 = {  holder = SEAsiaMB402	}
-	860.1.1 = {  holder = SEAsiaMB403	}
-	900.1.1 = {  holder = SEAsiaMB404	}
-	905.1.1 = {  government = feudal_government	}
-	930.1.1 = {  holder = SEAsiaMB405	}
-	955.1.1 = {  holder = SEAsiaMB406 liege = k_viet	}
-	980.1.1 = {  holder = SEAsiaMB407	}
-	1005.1.1 = { holder = SEAsiaMB408	}
-	1040.1.1 = { holder = SEAsiaMB409	}
-	1070.1.1 = { holder = SEAsiaMB410	}
-	1100.1.1 = { holder = SEAsiaMB411	}
-	1115.1.1 = { holder = SEAsiaMB412	}
-	1140.1.1 = { holder = SEAsiaMB413	}
-	1180.1.1 = { holder = SEAsiaMB414	}
-	1210.1.1 = { holder = SEAsiaMB415	}
-	1250.1.1 = { holder = SEAsiaMB416	}
-	1300.1.1 = { holder = SEAsiaMB417	}
-	1325.1.1 = { holder = SEAsiaMB418	}
+	1083.1.30 = {
+		holder = BuiMB14	# Nhan Phuc
+	}
+	1113.10.22 = {
+		holder = BuiMB15	# Duc
+	}
+	1143.6.28 = {
+		holder = BuiMB16	# Quoc Khai (historical — top 1185 exam graduate)
+	}
+	1234.1.1 = {
+		holder = BuiMB17	# Minh Hoang
+	}
+	1235.5.9 = {
+		holder = BuiMB18	# Quoc Bao
+	}
+	1262.11.27 = {
+		holder = BuiMB19	# Tuan Minh
+	}
+	1293.4.16 = {
+		holder = BuiMB20	# Hoang Anh
+	}
+	1322.8.30 = {
+		holder = BuiMB21	# Van Long (alive past 1337)
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_xu_nghe = {
@@ -58494,47 +58621,85 @@ d_nghe_an = {
 	300.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
 
-	760.1.1 = {  holder = SEAsiaMB419 liege = k_viet	}
-	820.1.1 = {  holder = SEAsiaMB420	}
-	840.1.1 = {  holder = SEAsiaMB421	}
-	860.1.1 = {  holder = SEAsiaMB422 }
-	900.1.1 = {  holder = SEAsiaMB423	}
-	905.1.1 = {  government = feudal_government	}
-	930.1.1 = {  holder = SEAsiaMB424	}
-	955.1.1 = {  holder = SEAsiaMB425 liege = k_viet	}
-	980.1.1 = {  holder = SEAsiaMB426	}
-	1005.1.1 = { holder = SEAsiaMB427	}
-	1040.1.1 = { holder = SEAsiaMB428	}
-	1070.1.1 = { holder = SEAsiaMB429	}
-	1100.1.1 = { holder = SEAsiaMB430	}
-	1115.1.1 = { holder = SEAsiaMB431	}
-	1140.1.1 = { holder = SEAsiaMB432	}
-	1180.1.1 = { holder = SEAsiaMB433	}
-	1210.1.1 = { holder = SEAsiaMB434	}
-	1250.1.1 = { holder = SEAsiaMB435	}
-	1300.1.1 = { holder = SEAsiaMB436	}
-	1325.1.1 = { holder = SEAsiaMB437	}
+	#760.1.1 = {  holder = SEAsiaMB419 liege = k_viet	}
+	#820.1.1 = {  holder = SEAsiaMB420	}
+	#840.1.1 = {  holder = SEAsiaMB421	}
+	#860.1.1 = {  holder = SEAsiaMB422 }
+	#900.1.1 = {  holder = SEAsiaMB423	}
+	#905.1.1 = {  government = feudal_government	}
+	#930.1.1 = {  holder = SEAsiaMB424	}
+	#955.1.1 = {  holder = SEAsiaMB425 liege = k_viet	}
+	#980.1.1 = {  holder = SEAsiaMB426	}
+	#1005.1.1 = { holder = SEAsiaMB427	}
+	#1040.1.1 = { holder = SEAsiaMB428	}
+	#1070.1.1 = { holder = SEAsiaMB429	}
+	#1100.1.1 = { holder = SEAsiaMB430	}
+	#1115.1.1 = { holder = SEAsiaMB431	}
+	#1140.1.1 = { holder = SEAsiaMB432	}
+	#1180.1.1 = { holder = SEAsiaMB433	}
+	#1210.1.1 = { holder = SEAsiaMB434	}
+	#1250.1.1 = { holder = SEAsiaMB435	}
+	#1300.1.1 = { holder = SEAsiaMB436	}
+	#1325.1.1 = { holder = SEAsiaMB437	}
 }
 c_nam_dinh = {
-	760.1.1 = {  holder = SEAsiaMB419	}
-	820.1.1 = {  holder = SEAsiaMB420	}
-	840.1.1 = {  holder = SEAsiaMB421	}
-	860.1.1 = {  holder = SEAsiaMB422	}
-	900.1.1 = {  holder = SEAsiaMB423	}
-	930.1.1 = {  holder = SEAsiaMB424	}
-	955.1.1 = {  holder = SEAsiaMB425	}
-	980.1.1 = {  holder = SEAsiaMB426	}
-	1005.1.1 = { holder = SEAsiaMB427	}
-	1040.1.1 = { holder = SEAsiaMB428	}
-	1070.1.1 = { holder = SEAsiaMB429	}
-	1100.1.1 = { holder = SEAsiaMB430	}
-	1115.1.1 = { holder = SEAsiaMB431	}
-	1140.1.1 = { holder = SEAsiaMB432	}
-	1180.1.1 = { holder = SEAsiaMB433	}
-	1210.1.1 = { holder = SEAsiaMB434	}
-	1250.1.1 = { holder = SEAsiaMB435	}
-	1300.1.1 = { holder = SEAsiaMB436	}
-	1325.1.1 = { holder = SEAsiaMB437	}
+	730.1.1 = {
+		holder = NgoMB1		# Tung — covers the 769 bookmark
+	}
+	768.11.15 = {
+		holder = NgoMB3		# Vinh
+	}
+	797.2.8 = {
+		holder = NgoMB4		# Xuan
+	}
+	824.4.27 = {
+		holder = NgoMB5		# Con
+	}
+	930.1.1 = {
+		holder = 1418010	# Ngo Quyen
+	}
+	944.2.14 = {
+		holder = 1418011	# Ngo Xuong Ngap (eldest son)
+	}
+	954.2.20 = {
+		holder = 1418016	# Ngo Can Hung (youngest surviving son; Xuong Van dies in battle 965, Nam Hung dies 970)
+	}
+	970.1.1 = {
+		holder = NgoMB6		# Phuoc — son of Ngo Can Hung; cadet branch continues
+	}
+	1021.3.29 = {
+		holder = NgoMB7		# Trong Ngo
+	}
+	1051.6.14 = {
+		holder = NgoMB8		# Quoc Viet
+	}
+	1079.11.25 = {
+		holder = NgoMB9		# Huu Thuc
+	}
+	1108.2.8 = {
+		holder = NgoMB10	# Tuan Kiet
+	}
+	1137.5.17 = {
+		holder = NgoMB11	# Vinh San
+	}
+	1165.10.3 = {
+		holder = NgoMB12	# Minh Tri
+	}
+	1196.7.9 = {
+		holder = NgoMB13	# Nhat Vu
+	}
+	1227.4.22 = {
+		holder = NgoMB14	# Anh Tuan
+	}
+	1258.9.11 = {
+		holder = NgoMB15	# Hoang Quan
+	}
+	1289.3.6 = {
+		holder = NgoMB16	# Khuong Nghia
+	}
+	1318.11.14 = {
+		holder = NgoMB17	# Van Chuong (alive past 1337)
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_thai_binh = {
@@ -58633,47 +58798,86 @@ d_hai_dong = {
 	300.1.1 = { change_development_level = 12 }
 	1066.1.1 = { change_development_level = 18 }
 
-	760.1.1 = {  holder = SEAsiaMB438 liege = k_viet }
-	820.1.1 = {  holder = SEAsiaMB439	}
-	840.1.1 = {  holder = SEAsiaMB440	}
-	860.1.1 = {  holder = SEAsiaMB441	}
-	900.1.1 = {  holder = SEAsiaMB442	}
-	905.1.1 = {  government = feudal_government	}
-	930.1.1 = {  holder = SEAsiaMB443	}
-	955.1.1 = {  holder = SEAsiaMB444 liege = k_viet	}
-	980.1.1 = {  holder = SEAsiaMB445	}
-	1005.1.1 = { holder = SEAsiaMB446	}
-	1040.1.1 = { holder = SEAsiaMB447	}
-	1070.1.1 = { holder = SEAsiaMB448	}
-	1100.1.1 = { holder = SEAsiaMB449	}
-	1115.1.1 = { holder = SEAsiaMB450	}
-	1140.1.1 = { holder = SEAsiaMB451	}
-	1180.1.1 = { holder = SEAsiaMB452	}
-	1210.1.1 = { holder = SEAsiaMB453	}
-	1250.1.1 = { holder = SEAsiaMB454	}
-	1300.1.1 = { holder = SEAsiaMB455	}
-	1325.1.1 = { holder = SEAsiaMB456	}
+	#760.1.1 = {  holder = SEAsiaMB438 liege = k_viet }
+	#820.1.1 = {  holder = SEAsiaMB439	}
+	#840.1.1 = {  holder = SEAsiaMB440	}
+	#860.1.1 = {  holder = SEAsiaMB441	}
+	#900.1.1 = {  holder = SEAsiaMB442	}
+	#905.1.1 = {  government = feudal_government	}
+	#930.1.1 = {  holder = SEAsiaMB443	}
+	#955.1.1 = {  holder = SEAsiaMB444 liege = k_viet	}
+	#980.1.1 = {  holder = SEAsiaMB445	}
+	#1005.1.1 = { holder = SEAsiaMB446	}
+	#1040.1.1 = { holder = SEAsiaMB447	}
+	#1070.1.1 = { holder = SEAsiaMB448	}
+	#1100.1.1 = { holder = SEAsiaMB449	}
+	#1115.1.1 = { holder = SEAsiaMB450	}
+	#1140.1.1 = { holder = SEAsiaMB451	}
+	#1180.1.1 = { holder = SEAsiaMB452	}
+	#1210.1.1 = { holder = SEAsiaMB453	}
+	#1250.1.1 = { holder = SEAsiaMB454	}
+	#1300.1.1 = { holder = SEAsiaMB455	}
+	#1325.1.1 = { holder = SEAsiaMB456	}
 }
 c_hai_dong = {
-	760.1.1 = {  holder = SEAsiaMB438	}
-	820.1.1 = {  holder = SEAsiaMB439	}
-	840.1.1 = {  holder = SEAsiaMB440	}
-	860.1.1 = {  holder = SEAsiaMB441	}
-	900.1.1 = {  holder = SEAsiaMB442	}
-	930.1.1 = {  holder = SEAsiaMB443	}
-	955.1.1 = {  holder = SEAsiaMB444	}
-	980.1.1 = {  holder = SEAsiaMB445	}
-	1005.1.1 = { holder = SEAsiaMB446	}
-	1040.1.1 = { holder = SEAsiaMB447	}
-	1070.1.1 = { holder = SEAsiaMB448	}
-	1100.1.1 = { holder = SEAsiaMB449	}
-	1115.1.1 = { holder = SEAsiaMB450	}
-	1140.1.1 = { holder = SEAsiaMB451	}
-	1180.1.1 = { holder = SEAsiaMB452	}
-	1210.1.1 = { holder = SEAsiaMB453	}
-	1250.1.1 = { holder = SEAsiaMB454	}
-	1300.1.1 = { holder = SEAsiaMB455	}
-	1325.1.1 = { holder = SEAsiaMB456	}
+	730.1.1 = {
+		holder = DoMB1		# Phuoc (covers 769 bookmark)
+	}
+	738.3.17 = {
+		holder = DoMB2		# Quoc Hung
+	}
+	764.10.5 = {
+		holder = DoMB3		# Vinh San
+		liege = k_viet
+	}
+	795.2.28 = {
+		holder = DoMB4		# Trong Nghia
+	}
+	824.7.19 = {
+		holder = DoMB5		# Huu Thuc
+	}
+	851.9.11 = {
+		holder = DoMB6		# Minh Quan
+	}
+	879.6.3 = {
+		holder = DoMB7		# Tuan Kiet
+	}
+	967.1.1 = {
+		holder = DoMB8		# Nhat Vu — cadet branch survives defeat
+	}
+	1003.11.29 = {
+		holder = DoMB9		# Van Chuong
+	}
+	1034.8.17 = {
+		holder = DoMB10		# Anh Tuan
+	}
+	1061.5.4 = {
+		holder = viet_do_3	# Do Tuong
+	}
+	1136.1.1 = {
+		holder = viet_do_1	# Do Anh Vu (most prominent member of generation)
+	}
+	1159.1.20 = {
+		holder = viet_do_5	# Thi Trung (Anh Vu's brother)
+	}
+	1168.1.1 = {
+		holder = viet_do_4	# An Di (son of Thi Trung)
+	}
+	1188.1.1 = {
+		holder = DoMB11		# Hoang Quan
+	}
+	1225.5.19 = {
+		holder = DoMB12		# Quoc Bao
+	}
+	1254.9.12 = {
+		holder = DoMB13		# Tuan Minh
+	}
+	1283.3.25 = {
+		holder = DoMB14		# Khuong Nghia
+	}
+	1315.10.7 = {
+		holder = DoMB15		# Minh Tri (alive past 1337)
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_kinh_mon = {
@@ -58698,25 +58902,96 @@ c_hai_dong = {
 #	1325.1.1 = { holder = SEAsiaMB456	}
 #}
 c_long_hung = {
-	760.1.1 = {  holder = SEAsiaMB438	}
-	820.1.1 = {  holder = SEAsiaMB439	}
-	840.1.1 = {  holder = SEAsiaMB440	}
-	860.1.1 = {  holder = SEAsiaMB441	}
-	900.1.1 = {  holder = SEAsiaMB442	}
-	930.1.1 = {  holder = SEAsiaMB443	}
-	955.1.1 = {  holder = SEAsiaMB444	}
-	980.1.1 = {  holder = SEAsiaMB445	}
-	1005.1.1 = { holder = SEAsiaMB446	}
-	1040.1.1 = { holder = SEAsiaMB447	}
-	1070.1.1 = { holder = SEAsiaMB448	}
-	1100.1.1 = { holder = SEAsiaMB449	}
-	1115.1.1 = { holder = SEAsiaMB450	}
-	1140.1.1 = { holder = SEAsiaMB451	}
-	1180.1.1 = { holder = SEAsiaMB452	}
-	1210.1.1 = { holder = SEAsiaMB453	}
-	1250.1.1 = { holder = SEAsiaMB454	}
-	1300.1.1 = { holder = SEAsiaMB455	}
-	1325.1.1 = { holder = SEAsiaMB456	}
+
+	730.1.1 = {
+		holder = DinhMB1		# Phong (covers 769 bookmark)
+	}
+	
+	736.11.22 = {
+		holder = DinhMB2		# Duc
+	}
+	
+	763.5.3 = {
+		holder = DinhMB3		# Toan Trung'
+		liege = k_viet
+	}
+	
+	793.9.14 = {
+		holder = DinhMB4		# Quoc Hung
+	}
+	
+	821.2.18 = {
+		holder = DinhMB5		# Vinh San
+	}
+	
+	849.7.9 = {
+		holder = DinhMB6		# Huu Thuc
+	}
+	
+	873.4.30 = {
+		holder = 1418017		# Dinh Gia Hung
+	}
+	
+	904.1.1 = {
+		holder = 1418018		# Dinh Cong Tru
+	}
+	
+	940.1.1 = {
+		holder = 1418022		# Dinh Bo Linh / Hoan
+	}
+	
+	979.10.1 = {
+		holder = DinhMB7		# Nhat Vu (son of Dinh Du; cadet branch takes over as main line is extinguished)
+	}
+	
+	992.3.24 = {
+		holder = DinhMB8		# Trong Nghia
+	}
+	
+	1022.7.18 = {
+		holder = DinhMB9		# Tuan Kiet
+	}
+	
+	1051.9.6 = {
+		holder = DinhMB10		# Minh Quan
+	}
+	
+	1079.12.3 = {
+		holder = DinhMB11		# Hoang Nguyen
+	}
+	
+	1108.5.15 = {
+		holder = DinhMB12		# Khuong Dan
+	}
+	
+	1138.3.29 = {
+		holder = DinhMB13		# Van Son
+	}
+	
+	1167.8.11 = {
+		holder = DinhMB14		# Quoc Viet
+	}
+	
+	1198.6.24 = {
+		holder = DinhMB15		# Bao Long
+	}
+	
+	1229.10.17 = {
+		holder = DinhMB16		# Anh Viet
+	}
+	
+	1258.1.12 = {
+		holder = DinhMB17		# Minh Huy
+	}
+	
+	1290.4.28 = {
+		holder = DinhMB18		# Hoang Quan
+	}
+	
+	1319.11.7 = {
+		holder = DinhMB19		# Tuan Minh (alive past 1337)
+	}
+	
 }
 d_thang_long = {
 	300.1.1 = { change_development_level = 8 }
@@ -62683,26 +62958,99 @@ d_dali = {
 d_tuodong = {
 	867.1.1 = { change_development_level = 3 }
 	1066.1.1 = { change_development_level = 7 }
-
-	760.1.1 = {  holder = SEAsiaMB609 liege = k_dali	government = meritocratic_government }
-	820.1.1 = {  holder = SEAsiaMB610	}
-	840.1.1 = {  holder = SEAsiaMB611	}
-	860.1.1 = {  holder = SEAsiaMB612	}
-	900.1.1 = {  holder = SEAsiaMB613 name=SHANCHAN	}
-	930.1.1 = {  holder = SEAsiaMB614	}
-	955.1.1 = {  holder = SEAsiaMB615	}
-	980.1.1 = {  holder = SEAsiaMB616	}
-	1005.1.1 = { holder = SEAsiaMB617	}
-	1040.1.1 = { holder = SEAsiaMB618	}
-	1070.1.1 = { holder = SEAsiaMB619	}
-	1100.1.1 = { holder = SEAsiaMB620	}
-	1115.1.1 = { holder = SEAsiaMB621	}
-	1140.1.1 = { holder = SEAsiaMB622	}
-	1180.1.1 = { holder = SEAsiaMB623	}
-	1210.1.1 = { holder = SEAsiaMB624	}
-	1250.1.1 = { holder = SEAsiaMB625	}
-	1300.1.1 = { holder = SEAsiaMB626	}
-	1325.1.1 = { holder = SEAsiaMB627	}
+	
+	730.1.1 = {
+		holder = YiTribesLuowu1  # Qu_Ha
+	}
+	
+	741.5.23 = {
+		holder = YiTribesLuowu2  # Nyi_Da
+	}
+	
+	760.1.1 = {  liege = k_dali	government = meritocratic_government }
+	
+	768.11.19 = {
+		holder = YiTribesLuowu3  # Shu_Ha
+	}
+	
+	799.4.14 = {
+		holder = YiTribesLuowu4  # Lur_Po
+	}
+	
+	828.7.30 = {
+		holder = YiTribesLuowu5  # Yo_Ha
+	}
+	
+	857.10.5 = {
+		holder = YiTribesLuowu6  # Wa_Ddie
+	}
+	
+	887.3.27 = {
+		holder = YiTribesLuowu7  # Shy_Ji
+	}
+	
+	900.1.1 = {  name=SHANCHAN	}
+	
+	916.8.21 = {
+		holder = YiTribesLuowu8  # Jo_Mo
+	}
+	
+	945.1.8 = {
+		holder = YiTribesLuowu9  # Lu_Xi
+	}
+	
+	974.5.17 = {
+		holder = YiTribesLuowu10  # Nde_Wa
+	}
+	
+	1003.9.11 = {
+		holder = YiTribesLuowu11  # Mu_Gu
+	}
+	
+	1033.2.24 = {
+		holder = YiTribesLuowu12  # Rru_Sse
+	}
+	
+	1062.6.30 = {
+		holder = YiTribesLuowu13  # Ssy_Huo
+	}
+	
+	1091.10.7 = {
+		holder = YiTribesLuowu14  # La_Bbu
+	}
+	
+	1120.4.15 = {
+		holder = YiTribesLuowu15  # Yo_Qie
+	}
+	
+	1150.12.3 = {
+		holder = YiTribesLuowu16  # Kak_Khuon
+	}
+	
+	1179.7.22 = {
+		holder = YiTribesLuowu17  # Va_Huo
+	}
+	
+	1208.3.9 = {
+		holder = YiTribesLuowu18  # Ssu_Sse
+	}
+	
+	1237.8.18 = {
+		holder = YiTribesLuowu19  # Wo_Nuo
+	}
+	
+	1265.11.4 = {
+		holder = YiTribesLuowu20  # Nyi_Nji
+	}
+	
+	1294.5.28 = {
+		holder = YiTribesLuowu21  # Shy_Vie
+	}
+	
+	1323.2.14 = {
+		holder = YiTribesLuowu22  # Lu_Zhe (extends beyond 1337)
+	}
+	
 }
 c_dali = {
 	# 649 founding as tributary of Tang
@@ -62990,25 +63338,93 @@ c_shanchan = {
 	800.1.1 = { change_development_level = 14 }
 	1066.1.1 = { change_development_level = 20 }
 
-	760.1.1 = {  holder = SEAsiaMB609	}
-	820.1.1 = {  holder = SEAsiaMB610	}
-	840.1.1 = {  holder = SEAsiaMB611	}
-	860.1.1 = {  holder = SEAsiaMB612	}
-	900.1.1 = {  holder = SEAsiaMB613	}
-	930.1.1 = {  holder = SEAsiaMB614	}
-	955.1.1 = {  holder = SEAsiaMB615	}
-	980.1.1 = {  holder = SEAsiaMB616	}
-	1005.1.1 = { holder = SEAsiaMB617	}
-	1040.1.1 = { holder = SEAsiaMB618	}
-	1070.1.1 = { holder = SEAsiaMB619	}
-	1100.1.1 = { holder = SEAsiaMB620	}
-	1115.1.1 = { holder = SEAsiaMB621	}
-	1140.1.1 = { holder = SEAsiaMB622	}
-	1180.1.1 = { holder = SEAsiaMB623	}
-	1210.1.1 = { holder = SEAsiaMB624	}
-	1250.1.1 = { holder = SEAsiaMB625	}
-	1300.1.1 = { holder = SEAsiaMB626	}
-	1325.1.1 = { holder = SEAsiaMB627	}
+	730.1.1 = {
+		holder = YiTribesLuowu1  # Qu_Ha
+	}
+	
+	741.5.23 = {
+		holder = YiTribesLuowu2  # Nyi_Da
+	}
+	
+	768.11.19 = {
+		holder = YiTribesLuowu3  # Shu_Ha
+	}
+	
+	799.4.14 = {
+		holder = YiTribesLuowu4  # Lur_Po
+	}
+	
+	828.7.30 = {
+		holder = YiTribesLuowu5  # Yo_Ha
+	}
+	
+	857.10.5 = {
+		holder = YiTribesLuowu6  # Wa_Ddie
+	}
+	
+	887.3.27 = {
+		holder = YiTribesLuowu7  # Shy_Ji
+	}
+	
+	916.8.21 = {
+		holder = YiTribesLuowu8  # Jo_Mo
+	}
+	
+	945.1.8 = {
+		holder = YiTribesLuowu9  # Lu_Xi
+	}
+	
+	974.5.17 = {
+		holder = YiTribesLuowu10  # Nde_Wa
+	}
+	
+	1003.9.11 = {
+		holder = YiTribesLuowu11  # Mu_Gu
+	}
+	
+	1033.2.24 = {
+		holder = YiTribesLuowu12  # Rru_Sse
+	}
+	
+	1062.6.30 = {
+		holder = YiTribesLuowu13  # Ssy_Huo
+	}
+	
+	1091.10.7 = {
+		holder = YiTribesLuowu14  # La_Bbu
+	}
+	
+	1120.4.15 = {
+		holder = YiTribesLuowu15  # Yo_Qie
+	}
+	
+	1150.12.3 = {
+		holder = YiTribesLuowu16  # Kak_Khuon
+	}
+	
+	1179.7.22 = {
+		holder = YiTribesLuowu17  # Va_Huo
+	}
+	
+	1208.3.9 = {
+		holder = YiTribesLuowu18  # Ssu_Sse
+	}
+	
+	1237.8.18 = {
+		holder = YiTribesLuowu19  # Wo_Nuo
+	}
+	
+	1265.11.4 = {
+		holder = YiTribesLuowu20  # Nyi_Nji
+	}
+	
+	1294.5.28 = {
+		holder = YiTribesLuowu21  # Shy_Vie
+	}
+	
+	1323.2.14 = {
+		holder = YiTribesLuowu22  # Lu_Zhe (extends beyond 1337)
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_anning_yn = {
@@ -63067,21 +63483,61 @@ d_yongchang = {
 		holder = 421200
 	}
 
-	909.1.1 = {  holder = SEAsiaMB765	}
-	930.1.1 = {  holder = SEAsiaMB766	}
-	955.1.1 = {  holder = SEAsiaMB767	}
-	980.1.1 = {  holder = SEAsiaMB768	}
-	1005.1.1 = { holder = SEAsiaMB769	}
-	1040.1.1 = { holder = SEAsiaMB770	}
-	1070.1.1 = { holder = SEAsiaMB771	}
-	1100.1.1 = { holder = SEAsiaMB772	}
-	1115.1.1 = { holder = SEAsiaMB773	}
-	1140.1.1 = { holder = SEAsiaMB774	}
-	1180.1.1 = { holder = SEAsiaMB775	}
-	1210.1.1 = { holder = SEAsiaMB776	}
-	1250.1.1 = { holder = SEAsiaMB777	}
-	1300.1.1 = { holder = SEAsiaMB778	}
-	1325.1.1 = { holder = SEAsiaMB779	}
+	911.8.30 = {
+		holder = 1417020 # Shanzheng (historical)
+	}
+	
+	929.1.1 = {
+		holder = DaliZhao8 # Taisheng (son of Shanzheng)
+	}
+	
+	978.3.12 = {
+		holder = DaliZhao9 # Jingxuan
+	}
+	
+	1005.6.27 = {
+		holder = DaliZhao10 # Huaizhen
+	}
+	
+	1038.9.8 = {
+		holder = DaliZhao11 # Deyu
+	}
+	
+	1071.1.24 = {
+		holder = DaliZhao12 # Shenquan
+	}
+	
+	1102.7.16 = {
+		holder = DaliZhao13 # Yuansu
+	}
+	
+	1136.4.5 = {
+		holder = DaliZhao14 # Zhiwen
+	}
+	
+	1168.11.22 = {
+		holder = DaliZhao15 # Jingze
+	}
+	
+	1197.8.19 = {
+		holder = DaliZhao16 # Taisheng (historical Zhao Taisheng, Great Acharya)
+	}
+	
+	1241.5.14 = {
+		holder = DaliZhao17 # Yuanying
+	}
+	
+	1259.10.3 = {
+		holder = DaliZhao18 # Zhigu
+	}
+	
+	1288.7.9 = {
+		holder = DaliZhao19 # Renmin
+	}
+	
+	1318.4.26 = {
+		holder = DaliZhao20 # Hongmin (alive past 1337)
+	}
 
 }
 c_yongchang_yongchang = {
@@ -63107,24 +63563,79 @@ c_yongchang_yongchang = {
 		holder = 421200
 	}
 
-	909.1.1 = {  holder = SEAsiaMB765	}
-	930.1.1 = {  holder = SEAsiaMB766	}
-	955.1.1 = {  holder = SEAsiaMB767	}
-	980.1.1 = {  holder = SEAsiaMB768	}
-	1005.1.1 = { holder = SEAsiaMB769	}
-	1040.1.1 = { holder = SEAsiaMB770	}
-	1070.1.1 = { holder = SEAsiaMB771	}
-	1100.1.1 = { holder = SEAsiaMB772	}
-	1115.1.1 = { holder = SEAsiaMB773	}
-	1140.1.1 = { holder = SEAsiaMB774	}
-	1180.1.1 = { holder = SEAsiaMB775	}
-	1210.1.1 = { holder = SEAsiaMB776	}
-	1250.1.1 = { holder = SEAsiaMB777	}
-	1300.1.1 = { holder = SEAsiaMB778	}
-	1325.1.1 = { holder = SEAsiaMB779	}
+	911.8.30 = {
+		holder = 1417020 # Shanzheng (historical)
+	}
+	
+	929.1.1 = {
+		holder = DaliZhao8 # Taisheng (son of Shanzheng)
+	}
+	
+	978.3.12 = {
+		holder = DaliZhao9 # Jingxuan
+	}
+	
+	1005.6.27 = {
+		holder = DaliZhao10 # Huaizhen
+	}
+	
+	1038.9.8 = {
+		holder = DaliZhao11 # Deyu
+	}
+	
+	1071.1.24 = {
+		holder = DaliZhao12 # Shenquan
+	}
+	
+	1102.7.16 = {
+		holder = DaliZhao13 # Yuansu
+	}
+	
+	1136.4.5 = {
+		holder = DaliZhao14 # Zhiwen
+	}
+	
+	1168.11.22 = {
+		holder = DaliZhao15 # Jingze
+	}
+	
+	1197.8.19 = {
+		holder = DaliZhao16 # Taisheng (historical Zhao Taisheng, Great Acharya)
+	}
+	
+	1241.5.14 = {
+		holder = DaliZhao17 # Yuanying
+	}
+	
+	1259.10.3 = {
+		holder = DaliZhao18 # Zhigu
+	}
+	
+	1288.7.9 = {
+		holder = DaliZhao19 # Renmin
+	}
+	
+	1318.4.26 = {
+		holder = DaliZhao20 # Hongmin (alive past 1337)
+	}
 }
 c_yinsheng = {
 	867.1.1 = { change_development_level = 5 }
+	936.9.14 = {
+		holder = DaliMeng10  # Xuanling
+	}
+	964.2.28 = {
+		holder = DaliMeng11  # Shenquan
+	}
+	993.5.21 = {
+		holder = DaliMeng12  # Wenjing
+	}
+	1023.10.13 = {
+		holder = DaliMeng13  # Zhengming
+	}
+	1053.1.4 = {
+		holder = DaliMeng14  # Fuguo
+	}
 	1066.1.1 = { change_development_level = 10 }
 
 	760.1.1 = {  holder = SEAsiaMB723	}
@@ -63133,19 +63644,33 @@ c_yinsheng = {
 	860.1.1 = {  holder = SEAsiaMB726	}
 	900.1.1 = {  holder = SEAsiaMB727	}
 	930.1.1 = {  holder = 1417073	}
-	955.1.1 = {  holder = SEAsiaMB729	}
-	980.1.1 = {  holder = SEAsiaMB730	}
-	1005.1.1 = { holder = SEAsiaMB731	}
-	1040.1.1 = { holder = SEAsiaMB732	}
-	1070.1.1 = { holder = SEAsiaMB733	}
-	1100.1.1 = { holder = SEAsiaMB734	}
-	1115.1.1 = { holder = SEAsiaMB735	}
-	1140.1.1 = { holder = SEAsiaMB736	}
-	1180.1.1 = { holder = SEAsiaMB737	}
-	1210.1.1 = { holder = SEAsiaMB738	}
-	1250.1.1 = { holder = SEAsiaMB739	}
-	1300.1.1 = { holder = SEAsiaMB740	}
-	1325.1.1 = { holder = SEAsiaMB741	}
+	1082.8.16 = {
+		holder = DaliMeng15  # Jianwei
+	}
+	1112.3.7 = {
+		holder = DaliMeng16  # Yuanheng
+	}
+	1141.7.22 = {
+		holder = DaliMeng17  # Dunxin
+	}
+	1170.11.30 = {
+		holder = DaliMeng18  # Zhihong
+	}
+	1199.4.15 = {
+		holder = DaliMeng19  # Lianyu
+	}
+	1228.9.3 = {
+		holder = DaliMeng20  # Chengqi
+	}
+	1259.12.17 = {
+		holder = DaliMeng21  # Renyuan
+	}
+	1291.6.9 = {
+		holder = DaliMeng22  # Guangfu
+	}
+	1318.3.4 = {
+		holder = DaliMeng23  # Wuji (dies 1348, covers 1337)
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_tuonan = {
@@ -63361,19 +63886,63 @@ d_yinsheng = {
 	860.1.1 = {  holder = SEAsiaMB726	}
 	900.1.1 = {  holder = SEAsiaMB727	}
 	930.1.1 = {  holder = 1417073 name=WEICHU }
-	955.1.1 = {  holder = SEAsiaMB729	}
-	980.1.1 = {  holder = SEAsiaMB730	}
-	1005.1.1 = { holder = SEAsiaMB731	}
-	1040.1.1 = { holder = SEAsiaMB732	}
-	1070.1.1 = { holder = SEAsiaMB733	}
-	1100.1.1 = { holder = SEAsiaMB734	}
-	1115.1.1 = { holder = SEAsiaMB735	}
-	1140.1.1 = { holder = SEAsiaMB736	}
-	1180.1.1 = { holder = SEAsiaMB737	}
-	1210.1.1 = { holder = SEAsiaMB738	}
-	1250.1.1 = { holder = SEAsiaMB739	}
-	1300.1.1 = { holder = SEAsiaMB740	}
-	1325.1.1 = { holder = SEAsiaMB741	}
+	
+	936.9.14 = {
+		holder = DaliMeng10  # Xuanling
+	}
+	
+	964.2.28 = {
+		holder = DaliMeng11  # Shenquan
+	}
+	
+	993.5.21 = {
+		holder = DaliMeng12  # Wenjing
+	}
+	
+	1023.10.13 = {
+		holder = DaliMeng13  # Zhengming
+	}
+	
+	1053.1.4 = {
+		holder = DaliMeng14  # Fuguo
+	}
+	
+	1082.8.16 = {
+		holder = DaliMeng15  # Jianwei
+	}
+	
+	1112.3.7 = {
+		holder = DaliMeng16  # Yuanheng
+	}
+	
+	1141.7.22 = {
+		holder = DaliMeng17  # Dunxin
+	}
+	
+	1170.11.30 = {
+		holder = DaliMeng18  # Zhihong
+	}
+	
+	1199.4.15 = {
+		holder = DaliMeng19  # Lianyu
+	}
+	
+	1228.9.3 = {
+		holder = DaliMeng20  # Chengqi
+	}
+	
+	1259.12.17 = {
+		holder = DaliMeng21  # Renyuan
+	}
+	
+	1291.6.9 = {
+		holder = DaliMeng22  # Guangfu
+	}
+	
+	1318.3.4 = {
+		holder = DaliMeng23  # Wuji (dies 1348, covers 1337)
+	}
+
 }
 
 c_buri = {
@@ -63491,145 +64060,174 @@ c_weiyuan = {
 #
 #}
 c_quzhou_1 = {
+	730.1.1 = {
+		holder = YiTribesJiaohe1  # Mu_Zim
+	}
+	741.3.22 = {
+		holder = YiTribesJiaohe2  # Qu_Ha
+	}
 	760.1.1 = {  holder = SEAsiaMB590 liege = d_tuodong government = clan_government	}
-	820.1.1 = {  holder = SEAsiaMB591	}
-	840.1.1 = {  holder = SEAsiaMB592	}
-	860.1.1 = {  holder = SEAsiaMB593	}
+	769.5.17 = {
+		holder = YiTribesJiaohe3  # Ssy_Huo
+	}
+	798.9.11 = {
+		holder = YiTribesJiaohe4  # La_Bbu
+	}
+	826.2.14 = {
+		holder = YiTribesJiaohe5  # Nyi_Ddur
+	}
+	854.11.28 = {
+		holder = YiTribesJiaohe6  # Wo_Ji
+	}
+	882.8.19 = {
+		holder = YiTribesJiaohe7  # Shy_Po
+	}
 	900.1.1 = {
 		holder = NuosuMB2  # A_Chy (first character to rule during the period)
 		#de_jure_liege = d_dongchuan # Yusseter
 	}
 
-	932.8.25 = {
-		holder = NuosuMB2  # A_Chy continues (his father A_Chi died)
+	913.4.6 = {
+		holder = YiTribesJiaohe8  # Lu_Ddi
 	}
 
-	963.11.7 = {
-		holder = NuosuMB3  # A_Fo
+	942.1.30 = {
+		holder = YiTribesJiaohe9  # Bi_Qu
 	}
 
-	989.9.22 = {
-		holder = NuosuMB4  # A_Ge
+	971.7.8 = {
+		holder = YiTribesJiaohe10  # Jo_Nuo
 	}
 
-	1017.5.8 = {
-		holder = NuosuMB5  # A_Ha
+	1000.5.21 = {
+		holder = YiTribesJiaohe11  # Lur_Da
 	}
 
-	1045.12.19 = {
-		holder = NuosuMB6  # A_Ko
+	1028.9.4 = {
+		holder = YiTribesJiaohe12  # Yy_Ke
 	}
 
-	1074.6.14 = {
-		holder = NuosuMB7  # A_Mo
+	1057.3.25 = {
+		holder = YiTribesJiaohe13  # Phu_Xe
 	}
 
-	1102.3.27 = {
-		holder = NuosuMB8  # A_Ne
+	1087.11.13 = {
+		holder = YiTribesJiaohe14  # Shu_Sse
 	}
 
-	1130.7.3 = {
-		holder = NuosuMB9  # A_Nyi
+	1116.2.27 = {
+		holder = YiTribesJiaohe15  # Nde_Wa
 	}
 
-	1158.10.11 = {
-		holder = NuosuMB10  # A_Nyo
+	1145.10.5 = {
+		holder = YiTribesJiaohe16  # Va_Huo
 	}
 
-	1186.12.24 = {
-		holder = NuosuMB11  # A_Rrie
+	1174.6.16 = {
+		holder = YiTribesJiaohe17  # Quo_Sse
 	}
 
-	1214.4.2 = {
-		holder = NuosuMB12  # A_Shyr
+	1203.12.3 = {
+		holder = YiTribesJiaohe18  # Rru_Wa
 	}
 
-	1242.6.15 = {
-		holder = NuosuMB13  # A_Sy
+	1232.8.19 = {
+		holder = YiTribesJiaohe19  # Kak_Khuon
 	}
 
-	1271.8.9 = {
-		holder = NuosuMB14  # A_Vi
+	1260.4.11 = {
+		holder = YiTribesJiaohe20  # Ssu_Huo
 	}
 
-	1299.11.26 = {
-		holder = NuosuMB15  # A_Zu
+	1289.9.28 = {
+		holder = YiTribesJiaohe21  # Yo_Nuo
 	}
 
-	1327.3.4 = {
-		holder = NuosuMB16  # Ba_Cha
+	1318.5.22 = {
+		holder = YiTribesJiaohe22  # Luong_Jieng (extends beyond 1337)
 	}
 }
 c_dongchuan = {
-	760.1.1 = {  holder = SEAsiaMB590	}
-	820.1.1 = {  holder = SEAsiaMB591	}
-	840.1.1 = {  holder = SEAsiaMB592	}
-	860.1.1 = {  holder = SEAsiaMB593	}
+	730.1.1 = {
+		holder = YiTribesWeimo1
+	}
+	739.3.22 = {
+		holder = YiTribesWeimo2
+	}
+	771.11.30 = {
+		holder = YiTribesWeimo3
+	}
+	804.8.5 = {
+		holder = YiTribesWeimo4
+	}
+	831.4.14 = {
+		holder = YiTribesWeimo5
+	}
 
+	863.10.18 = {
+		holder = YiTribesWeimo6
+	}
+	896.6.7 = {
+		holder = YiTribesWeimo7
+	}
 	900.1.1 = {
 		holder = NuosuMB2  # A_Chy (first character to rule during the period)
 		#de_jure_liege = d_dongchuan # Yusseter
 	}
 
-	932.8.25 = {
-		holder = NuosuMB2  # A_Chy continues (his father A_Chi died)
+	924.1.29 = {
+		holder = YiTribesWeimo8
 	}
 
-	963.11.7 = {
-		holder = NuosuMB3  # A_Fo
+	952.9.15 = {
+		holder = YiTribesWeimo9
 	}
 
-	989.9.22 = {
-		holder = NuosuMB4  # A_Ge
+	985.5.23 = {
+		holder = YiTribesWeimo10
 	}
 
-	1017.5.8 = {
-		holder = NuosuMB5  # A_Ha
+	1014.12.11 = {
+		holder = YiTribesWeimo11
 	}
 
-	1045.12.19 = {
-		holder = NuosuMB6  # A_Ko
+
+	1048.2.8 = {
+		holder = YiTribesWeimo12
 	}
 
-	1074.6.14 = {
-		holder = NuosuMB7  # A_Mo
+	1079.7.26 = {
+		holder = YiTribesWeimo13
 	}
 
-	1102.3.27 = {
-		holder = NuosuMB8  # A_Ne
+	1112.3.14 = {
+		holder = YiTribesWeimo14
 	}
 
-	1130.7.3 = {
-		holder = NuosuMB9  # A_Nyi
+	1139.11.3 = {
+		holder = YiTribesWeimo15
 	}
 
-	1158.10.11 = {
-		holder = NuosuMB10  # A_Nyo
+	1168.8.19 = {
+		holder = YiTribesWeimo16
 	}
 
-	1186.12.24 = {
-		holder = NuosuMB11  # A_Rrie
+	1201.4.7 = {
+		holder = YiTribesWeimo17
 	}
 
-	1214.4.2 = {
-		holder = NuosuMB12  # A_Shyr
+	1232.1.25 = {
+		holder = YiTribesWeimo18
 	}
 
-	1242.6.15 = {
-		holder = NuosuMB13  # A_Sy
+	1264.10.17 = {
+		holder = YiTribesWeimo19
 	}
 
-	1271.8.9 = {
-		holder = NuosuMB14  # A_Vi
+	1298.5.22 = {
+		holder = YiTribesWeimo20
 	}
 
-	1299.11.26 = {
-		holder = NuosuMB15  # A_Zu
-	}
-
-	1327.3.4 = {
-		holder = NuosuMB16  # Ba_Cha
-	}
 
 }
 ### Yusseter: COMMENTED FOR TESTING
@@ -63707,28 +64305,137 @@ c_dongchuan = {
 #	}
 #}
 c_shicheng = {
+	730.1.1 = {
+		holder = YiTribesPung1
+	}
+	738.5.9 = {
+		holder = YiTribesPung2
+	}
+	769.11.17 = {
+		holder = YiTribesPung3
+	}
+	801.6.28 = {
+		holder = YiTribesPung4
+	}
+	829.2.11 = {
+		holder = YiTribesPung5
+	}
+	857.8.22 = {
+		holder = YiTribesPung6
+	}
+	730.1.1 = {
+		holder = YiTribesPung1
+	}
+	738.5.9 = {
+		holder = YiTribesPung2
+	}
+	769.11.17 = {
+		holder = YiTribesPung3
+	}
+	801.6.28 = {
+		holder = YiTribesPung4
+	}
+	829.2.11 = {
+		holder = YiTribesPung5
+	}
+	857.8.22 = {
+		holder = YiTribesPung6
+	}
 	867.1.1 = { change_development_level = 5 }
+	886.3.14 = {
+		holder = YiTribesPung7
+	}
+	915.10.3 = {
+		holder = YiTribesPung8
+	}
+	944.5.26 = {
+		holder = YiTribesPung9
+	}
+	973.12.7 = {
+		holder = YiTribesPung10
+	}
+	1002.9.18 = {
+		holder = YiTribesPung11
+	}
+	1031.4.29 = {
+		holder = YiTribesPung12
+	}
+	1061.6.15 = {
+		holder = YiTribesPung13
+	}
+	886.3.14 = {
+		holder = YiTribesPung7
+	}
+	915.10.3 = {
+		holder = YiTribesPung8
+	}
+	944.5.26 = {
+		holder = YiTribesPung9
+	}
+	973.12.7 = {
+		holder = YiTribesPung10
+	}
+	1002.9.18 = {
+		holder = YiTribesPung11
+	}
+	1031.4.29 = {
+		holder = YiTribesPung12
+	}
+	1061.6.15 = {
+		holder = YiTribesPung13
+	}
 	1066.1.1 = { change_development_level = 9 }
 
 	760.1.1 = {  holder = SEAsiaMB590 government = clan_government	}
-	820.1.1 = {  holder = SEAsiaMB591	}
-	840.1.1 = {  holder = SEAsiaMB592	}
-	860.1.1 = {  holder = SEAsiaMB593	}
-	900.1.1 = {  holder = SEAsiaMB594 liege = k_dali government = clan_government	}
-	930.1.1 = {  holder = SEAsiaMB595	}
-	955.1.1 = {  holder = SEAsiaMB596	}
-	980.1.1 = {  holder = SEAsiaMB597	}
-	1005.1.1 = { holder = SEAsiaMB598	}
-	1040.1.1 = { holder = SEAsiaMB599	}
-	1070.1.1 = { holder = SEAsiaMB600	}
-	1100.1.1 = { holder = SEAsiaMB601	}
-	1115.1.1 = { holder = SEAsiaMB602	}
-	1140.1.1 = { holder = SEAsiaMB603	}
-	1180.1.1 = { holder = SEAsiaMB604	}
-	1210.1.1 = { holder = SEAsiaMB605	}
-	1250.1.1 = { holder = SEAsiaMB606	}
-	1300.1.1 = { holder = SEAsiaMB607	}
-	1325.1.1 = { holder = SEAsiaMB608	}
+	900.1.1 = { liege = k_dali government = clan_government	}
+	1091.11.24 = {
+		holder = YiTribesPung14
+	}
+	1091.11.24 = {
+		holder = YiTribesPung14
+	}
+	1120.7.8 = {
+		holder = YiTribesPung15
+	}
+	1120.7.8 = {
+		holder = YiTribesPung15
+	}
+	1149.2.16 = {
+		holder = YiTribesPung16
+	}
+	1178.8.3 = {
+		holder = YiTribesPung17
+	}
+	1149.2.16 = {
+		holder = YiTribesPung16
+	}
+	1178.8.3 = {
+		holder = YiTribesPung17
+	}
+	1207.4.22 = {
+		holder = YiTribesPung18
+	}
+	1207.4.22 = {
+		holder = YiTribesPung18
+	}
+	1238.10.11 = {
+		holder = YiTribesPung19
+	}
+	1238.10.11 = {
+		holder = YiTribesPung19
+	}
+	1268.1.30 = {
+		holder = YiTribesPung20
+	}
+	1298.6.14 = {
+		holder = YiTribesPung21
+	}
+	1268.1.30 = {
+		holder = YiTribesPung20
+	}
+	1298.6.14 = {
+		holder = YiTribesPung21
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_pu_an = {
@@ -63835,69 +64542,137 @@ c_zuining = {
 	# 867.1.1 = { change_development_level = 4 }
 	# 1066.1.1 = { change_development_level = 9 }
 
-	760.1.1 = {  holder = SEAsiaMB571	}
-	820.1.1 = {  holder = SEAsiaMB572	}
-	840.1.1 = {  holder = SEAsiaMB573	}
-	860.1.1 = {  holder = SEAsiaMB574	}
+	730.1.1 = {
+		holder = YiTribesYangch1
+	}
+	738.5.23 = {
+		holder = YiTribesYangch2
+	}
+	769.11.18 = {
+		holder = YiTribesYangch3
+	}
+	801.9.4 = {
+		holder = YiTribesYangch4
+	}
+	825.4.16 = {
+		holder = YiTribesYangch5
+	}
+	856.7.3 = {
+		holder = YiTribesYangch6
+	}
 
+	887.12.21 = {
+		holder = YiTribesYangch7
+	}
 	900.1.1 = {
 		holder = NuosuMB34  # Fe_Lo (first character to rule during the period)
 		#de_jure_liege = d_zuining # Yusseter
 		#liege = d_zuining # Yusseter
 	}
 	
+	916.8.9 = {
+		holder = YiTribesYangch8
+	}
 	936.1.1 = {
 		liege = k_dali
 		government = clan_government
 	}
 
-	972.12.16 = {
-		holder = NuosuMB35  # Fung_U
+	944.3.15 = {
+		holder = YiTribesYangch9
+	}
+	972.1.6 = {
+		holder = YiTribesYangch10
+	}
+	944.4.3 = {
+		holder = YiTribesShizong9  # Lu_Zhe
 	}
 
-	1000.4.8 = {
-		holder = NuosuMB36  # Ga_Yi
+	973.8.29 = {
+		holder = YiTribesShizong10  # Bbu_Nju
 	}
 
-	1028.6.25 = {
-		holder = NuosuMB37  # Hwae_Trieng
+	1001.10.28 = {
+		holder = YiTribesYangch11
+	}
+	1002.5.14 = {
+		holder = YiTribesShizong11  # Va_Huo
 	}
 
-	1056.11.4 = {
-		holder = NuosuMB38  # Hxie_Zzy
+	1032.5.19 = {
+		holder = YiTribesYangch12
+	}
+	1031.11.23 = {
+		holder = YiTribesShizong12  # Yo_Ha
 	}
 
-	1084.3.22 = {
-		holder = NuosuMB39  # Jji_Ha
+	1061.2.11 = {
+		holder = YiTribesYangch13
+	}
+	1059.2.16 = {
+		holder = YiTribesShizong13  # Lur_Shy
 	}
 
-	1112.8.1 = {
-		holder = NuosuMB40  # Jji_Nu
+	1090.9.7 = {
+		holder = YiTribesYangch14
+	}
+	1088.7.5 = {
+		holder = YiTribesShizong14  # Ssy_Huo
 	}
 
-	1140.10.14 = {
-		holder = NuosuMB41  # Jji_Zze
+	1119.6.24 = {
+		holder = YiTribesYangch15
+		liege = d_xiyuan
+	}
+	1118.10.8 = {
+		holder = YiTribesShizong15  # Nde_Wa
 	}
 
-	1158.1.1 = { holder = ZiqiMB1 }
-	1162.1.1 = { holder = ZiqiMB2 }
-	1205.1.1 = { holder = ZiqiMB3 }
-	1240.1.1 = { holder = ZiqiMB4 }
-
-	1259.1.1 = {
-		holder = NuosuMB45  # Jo_Mo
+	1148.11.3 = {
+		holder = YiTribesYangch16
+	}
+	1147.4.19 = {
+		holder = YiTribesShizong16  # Qu_Po
+	}
+	1177.4.8 = {
+		holder = YiTribesYangch17
+	}
+	1204.8.30 = {
+		holder = YiTribesYangch18
+	}
+	1176.8.30 = {
+		holder = YiTribesShizong17  # Yy_Ke
+	}
+	1233.12.17 = {
+		holder = YiTribesYangch19
+	}
+	1205.6.14 = {
+		holder = YiTribesShizong18  # Bi_Hxa
+	}
+	1234.3.7 = {
+		holder = YiTribesShizong19  # Lo_Na
 	}
 
-	1280.6.21 = {
-		holder = NuosuMB46  # Jo_Nuo
+
+	1262.7.5 = {
+		holder = YiTribesYangch20
+	}
+	1262.12.25 = {
+		holder = YiTribesShizong20  # Shu_Qi
 	}
 
-	1309.9.3 = {
-		holder = NuosuMB47  # Jo_Sse
+	1291.3.22 = {
+		holder = YiTribesYangch21
+	}
+	1291.9.18 = {
+		holder = YiTribesShizong21  # Jji_Zze
 	}
 
-	1337.11.16 = {
-		holder = NuosuMB48  # Kak (takes over just after 1337)
+	1320.9.28 = {
+		holder = YiTribesYangch22
+	}
+	1320.5.11 = {
+		holder = YiTribesShizong22  # Wa_Nde
 	}
 }
 
@@ -64051,6 +64826,42 @@ c_zuining = {
 #}
 c_nongdong = {
 	867.1.1 = { change_development_level = 4 }
+	914.4.19 = {
+		holder = DaliZhang8  # Yuanfang
+	}
+	943.7.28 = {
+		holder = DaliZhang9  # Jingxuan
+	}
+	975.2.11 = {
+		holder = DaliZhang10  # Wenping
+	}
+	1003.9.15 = {
+		holder = DaliZhang11  # Shizheng
+	}
+	1033.4.26 = {
+		holder = DaliZhang12  # Yuanji
+	}
+	1063.11.9 = {
+		holder = DaliZhang13  # Guangfu
+	}
+	914.4.19 = {
+		holder = DaliZhang8  # Yuanfang
+	}
+	943.7.28 = {
+		holder = DaliZhang9  # Jingxuan
+	}
+	975.2.11 = {
+		holder = DaliZhang10  # Wenping
+	}
+	1003.9.15 = {
+		holder = DaliZhang11  # Shizheng
+	}
+	1033.4.26 = {
+		holder = DaliZhang12  # Yuanji
+	}
+	1063.11.9 = {
+		holder = DaliZhang13  # Guangfu
+	}
 	1066.1.1 = { change_development_level = 8 }
 
 	760.1.1 = {  holder = SEAsiaMB742 liege = k_dali government = clan_government	}
@@ -64058,20 +64869,54 @@ c_nongdong = {
 	840.1.1 = {  holder = SEAsiaMB744	}
 	860.1.1 = {  holder = SEAsiaMB745	}
 	900.1.1 = {  holder = SEAsiaMB746	}
-	930.1.1 = {  holder = SEAsiaMB747	}
-	955.1.1 = {  holder = SEAsiaMB748	}
-	980.1.1 = {  holder = SEAsiaMB749	}
-	1005.1.1 = { holder = SEAsiaMB750	}
-	1040.1.1 = { holder = SEAsiaMB751	}
-	1070.1.1 = { holder = SEAsiaMB752	}
-	1100.1.1 = { holder = SEAsiaMB753	}
-	1115.1.1 = { holder = SEAsiaMB754	}
-	1140.1.1 = { holder = SEAsiaMB755	}
-	1180.1.1 = { holder = SEAsiaMB756	}
-	1210.1.1 = { holder = SEAsiaMB757	}
-	1250.1.1 = { holder = SEAsiaMB758	}
-	1300.1.1 = { holder = SEAsiaMB759	}
-	1325.1.1 = { holder = SEAsiaMB760	}
+	1095.6.14 = {
+		holder = DaliZhang14  # Wenjing
+	}
+	1095.6.14 = {
+		holder = DaliZhang14  # Wenjing
+	}
+	1124.3.8 = {
+		holder = DaliZhang15  # Shengwen (historical court painter, active 1163-1189)
+	}
+	1124.3.8 = {
+		holder = DaliZhang15  # Shengwen (historical court painter, active 1163-1189)
+	}
+	1158.7.21 = {
+		holder = DaliZhang16  # Zhengming
+	}
+	1158.7.21 = {
+		holder = DaliZhang16  # Zhengming
+	}
+	1190.8.5 = {
+		holder = DaliZhang17  # Yuanchong
+	}
+	1190.8.5 = {
+		holder = DaliZhang17  # Yuanchong
+	}
+	1218.4.22 = {
+		holder = DaliZhang18  # Zhide
+	}
+	1248.1.16 = {
+		holder = DaliZhang19  # Jingquan
+	}
+	1218.4.22 = {
+		holder = DaliZhang18  # Zhide
+	}
+	1248.1.16 = {
+		holder = DaliZhang19  # Jingquan
+	}
+	1279.11.28 = {
+		holder = DaliZhang20  # Shenquan
+	}
+	1279.11.28 = {
+		holder = DaliZhang20  # Shenquan
+	}
+	1312.7.3 = {
+		holder = DaliZhang21  # Xingcheng
+	}
+	1312.7.3 = {
+		holder = DaliZhang21  # Xingcheng
+	}
 }
 c_chengji = {
 	760.1.1 = {  holder = SEAsiaMB742	}
@@ -64079,7 +64924,7 @@ c_chengji = {
 	840.1.1 = {  holder = SEAsiaMB744	}
 	860.1.1 = {  holder = SEAsiaMB745	}
 	900.1.1 = {  holder = SEAsiaMB746	}
-	930.1.1 = {  holder = SEAsiaMB747	}
+	930.1.1 = {  holder = SEAsiaMB747 }
 	955.1.1 = {  holder = SEAsiaMB748	}
 	980.1.1 = {  holder = SEAsiaMB749	}
 	1005.1.1 = { holder = SEAsiaMB750	}
@@ -64095,28 +64940,69 @@ c_chengji = {
 	1325.1.1 = { holder = SEAsiaMB760	}
 }
 c_weichu = {
+	730.1.1 = {
+		holder = YiTribesNing1  # Mu_Zim
+	}
+	769.11.30 = {
+		holder = YiTribesNing3  # La_Bbu
+	}
+	799.4.12 = {
+		holder = YiTribesNing4  # Nyi_Po
+	}
+	829.10.3 = {
+		holder = YiTribesNing5  # Qu_Ha
+	}
+	861.7.18 = {
+		holder = YiTribesNing6  # Jo_Ddur
+	}
 	867.1.1 = { change_development_level = 5 }
+	893.2.7 = {
+		holder = YiTribesNing7  # Shu_Ha
+	}
+	924.9.25 = {
+		holder = YiTribesNing8  # Lu_Ddi
+	}
+	955.6.14 = {
+		holder = YiTribesNing9  # Wa_Nde
+	}
+	986.3.8 = {
+		holder = YiTribesNing10  # Yo_Nuo
+	}
+	1015.8.17 = {
+		holder = YiTribesNing11  # Lur_Ha
+	}
+	1043.11.29 = {
+		holder = YiTribesNing12  # Shy_Qi
+	}
 	1066.1.1 = { change_development_level = 10 }
 
-	760.1.1 = {  holder = SEAsiaMB742	}
-	820.1.1 = {  holder = SEAsiaMB743	}
-	840.1.1 = {  holder = SEAsiaMB744	}
-	860.1.1 = {  holder = SEAsiaMB745	}
-	900.1.1 = {  holder = SEAsiaMB746	}
-	930.1.1 = {  holder = SEAsiaMB747	}
-	955.1.1 = {  holder = SEAsiaMB748	}
-	980.1.1 = {  holder = SEAsiaMB749	}
-	1005.1.1 = { holder = SEAsiaMB750	}
-	1040.1.1 = { holder = SEAsiaMB751	}
-	1070.1.1 = { holder = SEAsiaMB752	}
-	1100.1.1 = { holder = SEAsiaMB753	}
-	1115.1.1 = { holder = SEAsiaMB754	}
-	1140.1.1 = { holder = SEAsiaMB755	}
-	1180.1.1 = { holder = SEAsiaMB756	}
-	1210.1.1 = { holder = SEAsiaMB757	}
-	1250.1.1 = { holder = SEAsiaMB758	}
-	1300.1.1 = { holder = SEAsiaMB759	}
-	1325.1.1 = { holder = SEAsiaMB760	}
+	1074.7.6 = {
+		holder = YiTribesNing13  # Ddie_Wa
+	}
+	1103.4.20 = {
+		holder = YiTribesNing14  # Nyi_Ga
+	}
+	1133.10.11 = {
+		holder = YiTribesNing15  # Bbu_Xi
+	}
+	1163.2.28 = {
+		holder = YiTribesNing16  # Vo_Qie
+	}
+	1193.5.19 = {
+		holder = YiTribesNing17  # Ssy_Pu
+	}
+	1224.9.3 = {
+		holder = YiTribesNing18  # Kak_Khuon
+	}
+	1255.3.14 = {
+		holder = YiTribesNing19  # Lu_Zhe
+	}
+	1284.7.22 = {
+		holder = YiTribesNing20  # Wo_Nuo
+	}
+	1314.12.5 = {
+		holder = YiTribesNing21  # Yy_Hmu (alive through 1337)
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_shuangbai = {
@@ -64142,25 +65028,99 @@ c_weichu = {
 #}
 
 c_jianchuan = {
-	760.1.1 = {  holder = SEAsiaMB685 liege = d_jianchuan government = clan_government	}
-	820.1.1 = {  holder = SEAsiaMB686	}
-	840.1.1 = {  holder = SEAsiaMB687	}
-	860.1.1 = {  holder = SEAsiaMB688	}
-	900.1.1 = {  holder = SEAsiaMB670	}
-	930.1.1 = {  holder = SEAsiaMB671	}
-	955.1.1 = {  holder = SEAsiaMB672	}
-	980.1.1 = {  holder = SEAsiaMB673	}
-	1005.1.1 = { holder = SEAsiaMB674	}
-	1040.1.1 = { holder = SEAsiaMB675	}
-	1070.1.1 = { holder = SEAsiaMB676	}
-	1100.1.1 = { holder = SEAsiaMB677	}
-	1115.1.1 = { holder = SEAsiaMB678	}
-	1140.1.1 = { holder = SEAsiaMB679	}
-	1180.1.1 = { holder = SEAsiaMB680	}
-	1210.1.1 = { holder = SEAsiaMB681	}
-	1250.1.1 = { holder = SEAsiaMB682	}
-	1300.1.1 = { holder = SEAsiaMB683	}
-	1325.1.1 = { holder = SEAsiaMB684	}
+	730.1.1 = {
+		holder = DaliDong1  # Fangzhi - covers the 769 bookmark
+	}
+	
+	738.9.3 = {
+		holder = DaliDong2  # Huaizhen
+	}
+	
+	760.1.1 = { liege = k_dali government = clan_government	}
+	
+	769.11.15 = {
+		holder = DaliDong3  # Congbang
+	}
+	
+	799.6.28 = {
+		holder = DaliDong4  # Wenjing
+	}
+	
+	828.2.4 = {
+		holder = DaliDong5  # Shenquan
+	}
+	
+	858.4.12 = {
+		holder = DaliDong6  # Cheng (historical Nanzhao official)
+	}
+	
+	860.1.1 = { liege = d_yongchang	}
+	
+	891.8.20 = {
+		holder = DaliDong7  # Weiqian
+	}
+	
+	911.1.25 = {
+		holder = DaliLi8  # Fuyuan
+	}
+	
+	936.1.1 = { liege = d_jianchuan government = clan_government	}
+	
+	939.5.8 = {
+		holder = DaliLi9  # Yuansu
+	}
+	
+	968.9.28 = {
+		holder = DaliLi10  # Dunxin
+	}
+	
+	995.6.17 = {
+		holder = DaliLi11  # Shengtai
+	}
+	
+	1023.3.4 = {
+		holder = DaliLi12  # Weiqian
+	}
+	
+	1052.12.14 = {
+		holder = DaliLi13  # Guangting
+	}
+	
+	1081.4.22 = {
+		holder = DaliLi14  # Renyuan
+	}
+	
+	1109.8.5 = {
+		holder = DaliLi15  # Zhaode
+	}
+	
+	1138.11.17 = {
+		holder = DaliLi16  # Yuanchao
+	}
+	
+	1166.5.9 = {
+		holder = DaliLi17  # Jianfeng
+	}
+	
+	1193.10.2 = {
+		holder = DaliLi18  # Sicong
+	}
+	
+	1221.2.28 = {
+		holder = DaliLi19  # Zhengchun
+	}
+	
+	1249.6.11 = {
+		holder = DaliLi20  # Dewei
+	}
+	
+	1278.3.7 = {
+		holder = DaliLi21  # Hongwu
+	}
+	
+	1307.9.19 = {
+		holder = DaliLi22  # Zunqing (alive through 1337)
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_maso = {
@@ -64191,20 +65151,25 @@ c_xiangcheng = {
 	860.1.1 = {  holder = SEAsiaMB688	}
 	900.1.1 = {  holder = SEAsiaMB689	}
 	930.1.1 = {  holder = SEAsiaMB690	}
-	955.1.1 = {  holder = SEAsiaMB691	}
-	980.1.1 = {  holder = SEAsiaMB692	}
-	1005.1.1 = { holder = SEAsiaMB693	}
-	1040.1.1 = { holder = SEAsiaMB694	}
-	1070.1.1 = { holder = SEAsiaMB695	}
-	1100.1.1 = { holder = SEAsiaMB696	}
-	1115.1.1 = { holder = SEAsiaMB697	}
-	1140.1.1 = { holder = SEAsiaMB698	}
-	1180.1.1 = { holder = SEAsiaMB699	}
-	1210.1.1 = { holder = SEAsiaMB700	}
-	1250.1.1 = { holder = SEAsiaMB701	}
-	1253.1.1 = { holder = 166969M	}
-	1271.1.1 = { holder = 166969M2	}
-	1333.1.1 = { holder = 166969M3	}
+	936.1.1 = { holder = 1417118 liege = k_dali government = clan_government	}
+	969.1.1 = { holder = 1417119	}
+	974.1.1 = { holder = 1417120	}
+	997.1.1 = { holder = 1417121	}
+	1011.1.1 = { holder = 1417122	}
+	1047.1.1 = { holder = 1417123	}
+	1073.1.1 = { holder = 1417124	}
+	1083.1.1 = { holder = 1417126   }
+	1102.1.1 = { holder = 1417139	}
+	1124.1.1 = { holder = 1417140	}
+	1157.1.1 = { holder = 1417141	}
+	1175.1.1 = { holder = 1417142	}
+	1189.1.1 = { holder = 1417143	}
+	1215.1.1 = { holder = 1417158	}
+	1231.11.18 = { holder = 1417158M	}
+	1268.1.1 = { holder = 1417158M2	}
+	1292.1.1 = { holder = 1417158M3	}
+	1310.1.1 = { holder = 1417187	}
+	1334.1.1 = { holder = 1417188	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_lang_kion = {
@@ -64230,6 +65195,12 @@ c_xiangcheng = {
 #}
 d_jianchuan = {
 	867.1.1 = { change_development_level = 4 }
+	936.1.1 = { holder = 1417118 liege = k_dali government = clan_government	}
+	969.1.1 = { holder = 1417119	}
+	974.1.1 = { holder = 1417120	}
+	997.1.1 = { holder = 1417121	}
+	1011.1.1 = { holder = 1417122	}
+	1047.1.1 = { holder = 1417123	}
 	1066.1.1 = { change_development_level = 7 }
 
 	760.1.1 = {  holder = SEAsiaMB685 government = clan_government liege = k_dali	}
@@ -64237,21 +65208,19 @@ d_jianchuan = {
 	840.1.1 = {  holder = SEAsiaMB687	}
 	860.1.1 = {  holder = SEAsiaMB688	}
 	900.1.1 = {  holder = SEAsiaMB689 name=SHANJU	}
-	930.1.1 = {  holder = SEAsiaMB690	}
-	955.1.1 = {  holder = SEAsiaMB691	}
-	980.1.1 = {  holder = SEAsiaMB692	}
-	1005.1.1 = { holder = SEAsiaMB693	}
-	1040.1.1 = { holder = SEAsiaMB694	}
-	1070.1.1 = { holder = SEAsiaMB695	}
-	1100.1.1 = { holder = SEAsiaMB696	}
-	1115.1.1 = { holder = SEAsiaMB697	}
-	1140.1.1 = { holder = SEAsiaMB698	}
-	1180.1.1 = { holder = SEAsiaMB699	}
-	1210.1.1 = { holder = SEAsiaMB700	}
-	1250.1.1 = { holder = SEAsiaMB701	}
-	1253.1.1 = { holder = 166969M	}
-	1271.1.1 = { holder = 166969M2	}
-	1333.1.1 = { holder = 166969M3	}
+	1073.1.1 = { holder = 1417124	}
+	1083.1.1 = { holder = 1417126   }
+	1102.1.1 = { holder = 1417139	}
+	1124.1.1 = { holder = 1417140	}
+	1157.1.1 = { holder = 1417141	}
+	1175.1.1 = { holder = 1417142	}
+	1189.1.1 = { holder = 1417143	}
+	1215.1.1 = { holder = 1417158	}
+	1231.11.18 = { holder = 1417158M	}
+	1268.1.1 = { holder = 1417158M2	}
+	1292.1.1 = { holder = 1417158M3	}
+	1310.1.1 = { holder = 1417187	}
+	1334.1.1 = { holder = 1417188	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_koksang = {
@@ -64304,24 +65273,20 @@ d_tonghai = {
 		holder = 0
 	}
 
-	936.1.1 = { holder = 1417118 liege = k_dali government = clan_government name=XIUSHAN	}
-	969.1.1 = { holder = 1417119	}
-	974.1.1 = { holder = 1417120	}
-	997.1.1 = { holder = 1417121	}
-	1011.1.1 = { holder = 1417122	}
-	1047.1.1 = { holder = 1417123	}
+	930.1.1 = {  holder = SEAsiaMB690  liege = k_dali government = clan_government name=XIUSHAN	}
+	955.1.1 = {  holder = SEAsiaMB691	}
+	980.1.1 = {  holder = SEAsiaMB692	}
+	1005.1.1 = { holder = SEAsiaMB693	}
+	1040.1.1 = { holder = SEAsiaMB694	}
 
-	1073.1.1 = { holder = 1417124	}
-	1083.1.1 = { holder = 1417126   }
-	1102.1.1 = { holder = 1417139	}
-	1124.1.1 = { holder = 1417140	}
-	1157.1.1 = { holder = 1417141	}
-	1175.1.1 = { holder = 1417142	}
-	1189.1.1 = { holder = 1417143	}
-	1215.1.1 = { holder = 1417158	}
-	1231.11.18 = { holder = 1417158M	}
-	1268.1.1 = { holder = 1417158M2	}
-	1292.1.1 = { holder = 1417158M3	}
+	1070.1.1 = { holder = SEAsiaMB695	}
+	1100.1.1 = { holder = SEAsiaMB696	}
+	1115.1.1 = { holder = SEAsiaMB697	}
+	1140.1.1 = { holder = SEAsiaMB698	}
+	1180.1.1 = { holder = SEAsiaMB699	}
+	1210.1.1 = { holder = SEAsiaMB700	}
+	1250.1.1 = { holder = SEAsiaMB701	}
+	1253.1.1 = { holder = 166969M	}
 	1310.1.1 = { holder = 80000034Son }
 
 }
@@ -64365,25 +65330,21 @@ c_tonghai = {
 	929.1.1 = { holder = 1417023 } #Yang Hanzhen
 	930.1.1 = { holder = 1417022 } #Yang Zhao
 	#Dali
-	936.1.1 = { holder = 1417118 liege = d_tonghai }
-	969.1.1 = { holder = 1417119	}
-	974.1.1 = { holder = 1417120	}
-	997.1.1 = { holder = 1417121	}
-	1011.1.1 = { holder = 1417122	}
-	1047.1.1 = { holder = 1417123	}
-
-	1073.1.1 = { holder = 1417124	}
-	1083.1.1 = { holder = 1417126   }
-	1102.1.1 = { holder = 1417139	}
-	1124.1.1 = { holder = 1417140	}
-	1157.1.1 = { holder = 1417141	}
-	1175.1.1 = { holder = 1417142	}
-	1189.1.1 = { holder = 1417143	}
-	1215.1.1 = { holder = 1417158	}
-	1231.11.18 = { holder = 1417158M }
-	1268.1.1 = { holder = 1417158M2	}
-	1292.1.1 = { holder = 1417158M3	}
-	1310.1.1 = { holder = 80000034Son }
+	935.1.1 = {  holder = SEAsiaMB690  liege = d_tonghai }
+	955.1.1 = {  holder = SEAsiaMB691	}
+	980.1.1 = {  holder = SEAsiaMB692	}
+	1005.1.1 = { holder = SEAsiaMB693	}
+	1040.1.1 = { holder = SEAsiaMB694	}
+	1070.1.1 = { holder = SEAsiaMB695	}
+	1100.1.1 = { holder = SEAsiaMB696	}
+	1115.1.1 = { holder = SEAsiaMB697	}
+	1140.1.1 = { holder = SEAsiaMB698	}
+	1180.1.1 = { holder = SEAsiaMB699	}
+	1210.1.1 = { holder = SEAsiaMB700	}
+	1250.1.1 = { holder = SEAsiaMB701	}
+	1253.1.1 = { holder = 166969M	}
+	1271.1.1 = { holder = 166969M2	}
+	1310.1.1 = { holder = 80000034Son	}
 
 }
 ### Yusseter: COMMENTED FOR TESTING
@@ -64450,38 +65411,35 @@ c_muze = {
 		government = clan_government
 		liege = k_dali # Yusseter
 	}
-	748.1.1 = {
-		holder = 1417068
+	730.1.1 = {
+		holder = YiTribesShizong1  # Qu_Ha
 	}
-	774.1.1 = {
-		holder = 1417069
+	738.8.19 = {
+		holder = YiTribesShizong2  # Nyi_Ga
 	}
-	814.1.1 = {
-		holder = 1417070
+	768.11.25 = {
+		holder = YiTribesShizong3  # Shu_Ha
 	}
-	864.1.1 = {
-		holder = 1417200
+	799.5.8 = {
+		holder = YiTribesShizong4  # La_Bbu
 	}
-	866.1.1 = {
-		holder = 1417071
+	829.3.14 = {
+		holder = YiTribesShizong5  # Wo_Ji
+	}
+	857.6.5 = {
+		holder = YiTribesShizong6  # Mu_Zim
 	}
 
 	# Da Chang He
-	902.1.1 = {
-		holder = 421200
+	886.9.27 = {
+		holder = YiTribesShizong7  # Shy_Po
 	}
-	909.1.1 = {
-		holder = zheng0007
-	}
-	926.1.1 = {
-		holder = zheng0008
+	914.12.11 = {
+		holder = YiTribesShizong8  # Jo_Nuo
 	}
 
 	#Da Tianxing
-	928.1.1 = { holder = 1417020 } #Zhao Shanzheng
 	#Da Yining
-	929.1.1 = { holder = 1417023 } #Yang Hanzhen
-	930.1.1 = { holder = 1417022 } #Yang Zhao
 	#Dali
 	936.1.1 = {
 		holder = NuosuMB34  # Fe_Lo (first character to rule during the period)
@@ -64489,60 +65447,60 @@ c_muze = {
 		#liege = d_zuining # Yusseter
 	}
 
-	972.12.16 = {
-		holder = NuosuMB35  # Fung_U
+	944.4.3 = {
+		holder = YiTribesShizong9  # Lu_Zhe
 	}
 
-	1000.4.8 = {
-		holder = NuosuMB36  # Ga_Yi
+	973.8.29 = {
+		holder = YiTribesShizong10  # Bbu_Nju
 	}
 
-	1028.6.25 = {
-		holder = NuosuMB37  # Hwae_Trieng
+	1002.5.14 = {
+		holder = YiTribesShizong11  # Va_Huo
 	}
 
-	1056.11.4 = {
-		holder = NuosuMB38  # Hxie_Zzy
+	1031.11.23 = {
+		holder = YiTribesShizong12  # Yo_Ha
 	}
 
-	1084.3.22 = {
-		holder = NuosuMB39  # Jji_Ha
+	1059.2.16 = {
+		holder = YiTribesShizong13  # Lur_Shy
 	}
 
-	1112.8.1 = {
-		holder = NuosuMB40  # Jji_Nu
+	1088.7.5 = {
+		holder = YiTribesShizong14  # Ssy_Huo
 	}
 
-	1140.10.14 = {
-		holder = NuosuMB41  # Jji_Zze
+	1118.10.8 = {
+		holder = YiTribesShizong15  # Nde_Wa
 	}
 
-	1168.1.28 = {
-		holder = NuosuMB42  # Jo_Ddur
+	1147.4.19 = {
+		holder = YiTribesShizong16  # Qu_Po
 	}
 
-	1196.5.19 = {
-		holder = NuosuMB43  # Jo_Ha
+	1176.8.30 = {
+		holder = YiTribesShizong17  # Yy_Ke
 	}
 
-	1224.11.30 = {
-		holder = NuosuMB44  # Jo_Jji
+	1205.6.14 = {
+		holder = YiTribesShizong18  # Bi_Hxa
 	}
 
-	1252.4.12 = {
-		holder = NuosuMB45  # Jo_Mo
+	1234.3.7 = {
+		holder = YiTribesShizong19  # Lo_Na
 	}
 
-	1280.6.21 = {
-		holder = NuosuMB46  # Jo_Nuo
+	1262.12.25 = {
+		holder = YiTribesShizong20  # Shu_Qi
 	}
 
-	1309.9.3 = {
-		holder = NuosuMB47  # Jo_Sse
+	1291.9.18 = {
+		holder = YiTribesShizong21  # Jji_Zze
 	}
 
-	1337.11.16 = {
-		holder = NuosuMB48  # Kak (takes over just after 1337)
+	1320.5.11 = {
+		holder = YiTribesShizong22  # Wa_Nde
 	}
 }
 ### Yusseter: COMMENTED FOR TESTING
@@ -64624,72 +65582,211 @@ c_huichuan = {
 	1325.1.1 = { holder = SEAsiaMB646	}
 }
 d_shimen = {
-	900.1.1 = {  holder = SEAsiaMB651 liege = k_dali government = clan_government	}
-	930.1.1 = {  holder = SEAsiaMB652	}
-	955.1.1 = {  holder = SEAsiaMB653	}
-	980.1.1 = {  holder = SEAsiaMB654	}
-	1005.1.1 = { holder = SEAsiaMB655	}
-	1040.1.1 = { holder = SEAsiaMB656	}
-	1070.1.1 = { holder = SEAsiaMB657	}
-	1100.1.1 = { holder = SEAsiaMB658	}
-	1115.1.1 = { holder = SEAsiaMB659	}
-	1140.1.1 = { holder = SEAsiaMB660	}
-	1180.1.1 = { holder = SEAsiaMB661	}
-	1210.1.1 = { holder = SEAsiaMB662	}
-	1250.1.1 = { holder = SEAsiaMB663	}
+	900.1.1 = { liege = k_dali government = clan_government	}
+	912.6.17 = {
+		holder = YiTribesWumeng8  # Lur_Ha
+	}
+	944.8.25 = {
+		holder = YiTribesWumeng9  # Shy_Qi
+	}
+	976.1.12 = {
+		holder = YiTribesWumeng10  # Va_Huo
+	}
+	1005.5.3 = {
+		holder = YiTribesWumeng11  # Ddu_A
+	}
+	1033.9.28 = {
+		holder = YiTribesWumeng12  # Rru_Xe
+	}
+	1063.2.14 = {
+		holder = YiTribesWumeng13  # Ssy_Huo
+	}
+	1092.10.19 = {
+		holder = YiTribesWumeng14  # Yo_Nuo
+	}
+	1121.3.6 = {
+		holder = YiTribesWumeng15  # Nyi_Ddur
+	}
+	1150.7.28 = {
+		holder = YiTribesWumeng16  # Bi_Ga
+	}
+	1179.12.5 = {
+		holder = YiTribesWumeng17  # Lu_Zhe
+	}
+	1209.5.17 = {
+		holder = YiTribesWumeng18  # Hxie_Zzy
+	}
+	1241.8.23 = {
+		holder = YiTribesWumeng19  # Wa_Nde
+	}
 	#Yuan
 
 	#1285.1.1 = { # Yusseter
 	#	de_jure_liege = k_xichuan
 	#}
-	1300.1.1 = { holder = SEAsiaMB664	}
-	1325.1.1 = { holder = SEAsiaMB665	}
+	1272.4.10 = {
+		holder = YiTribesWumeng20  # Yy_Ke
+	}
+	1302.6.19 = {
+		holder = YiTribesWumeng21  # Ssu_Qi
+	}
 }
 # EAST_TITLE_REWRITE_COLLISION_TARGET: c_jianchang receives c_fuzhou_jiangxi_china; target already exists in history_titles; manual merge needed.
 c_jianchang_1 = {
-	760.1.1 = {  holder = SEAsiaMB647 liege = d_huichuan government = clan_government	}
-	820.1.1 = {  holder = SEAsiaMB648	}
-	840.1.1 = {  holder = SEAsiaMB649	}
-	860.1.1 = {  holder = SEAsiaMB650	}
-	900.1.1 = {  holder = SEAsiaMB651	}
-	930.1.1 = {  holder = SEAsiaMB652	}
-	955.1.1 = {  holder = SEAsiaMB653	}
-	980.1.1 = {  holder = SEAsiaMB654	}
-	1005.1.1 = { holder = SEAsiaMB655	}
-	1040.1.1 = { holder = SEAsiaMB656	}
-	1070.1.1 = { holder = SEAsiaMB657	}
-	1100.1.1 = { holder = SEAsiaMB658	}
-	1115.1.1 = { holder = SEAsiaMB659	}
-	1140.1.1 = { holder = SEAsiaMB660	}
-	1180.1.1 = { holder = SEAsiaMB661	}
-	1210.1.1 = { holder = SEAsiaMB662	}
-	1250.1.1 = { holder = SEAsiaMB663	}
-	1300.1.1 = { holder = SEAsiaMB664	}
-	1325.1.1 = { holder = SEAsiaMB665	}
+
+	730.1.1 = {
+		holder = YiTribesWumeng1  # Mu_Gu
+	}
+	
+	738.7.23 = {
+		holder = YiTribesWumeng2  # Shu_Ha
+	}
+	
+	765.3.18 = {
+		holder = YiTribesWumeng3  # La_Bbu
+		liege = d_huichuan government = clan_government
+	}
+	
+	799.11.4 = {
+		holder = YiTribesWumeng4  # Nyi_Ga
+	}
+	
+	828.9.30 = {
+		holder = YiTribesWumeng5  # Wo_Ji
+	}
+	
+	857.4.15 = {
+		holder = YiTribesWumeng6  # Qu_Po
+	}
+	
+	884.12.8 = {
+		holder = YiTribesWumeng7  # Jo_Ddur
+	}
+	
+	912.6.17 = {
+		holder = YiTribesWumeng8  # Lur_Ha
+	}
+	
+	944.8.25 = {
+		holder = YiTribesWumeng9  # Shy_Qi
+	}
+	
+	976.1.12 = {
+		holder = YiTribesWumeng10  # Va_Huo
+	}
+	
+	1005.5.3 = {
+		holder = YiTribesWumeng11  # Ddu_A
+	}
+	
+	1033.9.28 = {
+		holder = YiTribesWumeng12  # Rru_Xe
+	}
+	
+	1063.2.14 = {
+		holder = YiTribesWumeng13  # Ssy_Huo
+	}
+	
+	1092.10.19 = {
+		holder = YiTribesWumeng14  # Yo_Nuo
+	}
+	
+	1121.3.6 = {
+		holder = YiTribesWumeng15  # Nyi_Ddur
+	}
+	
+	1150.7.28 = {
+		holder = YiTribesWumeng16  # Bi_Ga
+	}
+	
+	1179.12.5 = {
+		holder = YiTribesWumeng17  # Lu_Zhe
+	}
+	
+	1209.5.17 = {
+		holder = YiTribesWumeng18  # Hxie_Zzy
+	}
+	
+	1241.8.23 = {
+		holder = YiTribesWumeng19  # Wa_Nde
+	}
+	
+	1272.4.10 = {
+		holder = YiTribesWumeng20  # Yy_Ke
+	}
+	
+	1302.6.19 = {
+		holder = YiTribesWumeng21  # Ssu_Qi
+	}
+
 }
 c_jingzhou_2 = {
+	730.1.1 = {
+		holder = YiTribesBipan1  # Qu_Ha
+	}
+	738.5.22 = {
+		holder = YiTribesBipan2  # Nyi_Da
+	}
+	791.9.4 = {
+		holder = YiTribesBipan4  # Shu_Wa
+	}
+	819.7.12 = {
+		holder = YiTribesBipan5  # Jo_Nuo
+	}
+	848.4.28 = {
+		holder = YiTribesBipan6  # Va_Huo
+	}
 	867.1.1 = { change_development_level = 3 }
+	877.8.9 = {
+		holder = YiTribesBipan7  # Mu_Gu
+	}
+	906.2.3 = {
+		holder = YiTribesBipan8  # Ssy_Huo
+	}
+	935.6.17 = {
+		holder = YiTribesBipan9  # Wo_Ke
+	}
+	964.10.25 = {
+		holder = YiTribesBipan10  # La_Hxa
+	}
+	993.3.8 = {
+		holder = YiTribesBipan11  # Yo_Ga
+	}
+	1022.7.14 = {
+		holder = YiTribesBipan12  # Bi_Hxa
+	}
+	1051.9.30 = {
+		holder = YiTribesBipan13  # Shy_Ji
+	}
 	1066.1.1 = { change_development_level = 6 }
 
-	760.1.1 = {  holder = SEAsiaMB647	}
-	820.1.1 = {  holder = SEAsiaMB648	}
-	840.1.1 = {  holder = SEAsiaMB649	}
-	860.1.1 = {  holder = SEAsiaMB650	}
-	900.1.1 = {  holder = SEAsiaMB651	}
-	930.1.1 = {  holder = SEAsiaMB652	}
-	955.1.1 = {  holder = SEAsiaMB653	}
-	980.1.1 = {  holder = SEAsiaMB654	}
-	1005.1.1 = { holder = SEAsiaMB655	}
-	1040.1.1 = { holder = SEAsiaMB656	}
-	1070.1.1 = { holder = SEAsiaMB657	}
-	1100.1.1 = { holder = SEAsiaMB658	}
-	1115.1.1 = { holder = SEAsiaMB659	}
-	1140.1.1 = { holder = SEAsiaMB660	}
-	1180.1.1 = { holder = SEAsiaMB661	}
-	1210.1.1 = { holder = SEAsiaMB662	}
-	1250.1.1 = { holder = SEAsiaMB663	}
-	1300.1.1 = { holder = SEAsiaMB664	}
-	1325.1.1 = { holder = SEAsiaMB665	}
+	1080.12.6 = {
+		holder = YiTribesBipan14  # Lu_Ddie
+	}
+	1110.5.21 = {
+		holder = YiTribesBipan15  # Nyi_Nji
+	}
+	1139.2.17 = {
+		holder = YiTribesBipan16  # Wa_Ddie
+	}
+	1168.8.23 = {
+		holder = YiTribesBipan17  # Qu_Po
+	}
+	1197.4.9 = {
+		holder = YiTribesBipan18  # Shu_Qi
+	}
+	1226.11.3 = {
+		holder = YiTribesBipan19  # Yo_Nuo
+	}
+	1255.7.18 = {
+		holder = YiTribesBipan20  # Na_Zhe
+	}
+	1284.3.27 = {
+		holder = YiTribesBipan21  # Lur_Shy
+	}
+	1313.10.14 = {
+		holder = YiTribesBipan22  # Ke_Ddi (alive past 1337)
+	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_khuo = {

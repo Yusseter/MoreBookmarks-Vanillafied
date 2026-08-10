@@ -49651,7 +49651,7 @@ dummy4352 = {
     name="William"
     culture = english
     religion = catholic
-    dynasty = 1000027600
+    dynasty = viet_d001
     1400.1.1={
         birth = yes
     }
@@ -56554,7 +56554,7 @@ dummy4883 = {
     name="William"
     culture = english
     religion = catholic
-    dynasty = 1000060001
+    dynasty = viet_d001
     1400.1.1={
         birth = yes
     }

@@ -6648,6 +6648,7 @@
  dynn_An: "Ān" # Changed An to Ān
  dynn_An1: "Ān" # Changed An to Ān
  dynn_AnO_: "Anō"
+ dynn_AnB: "Ān"
  dynn_An_5B89: "An" # 安 (안)
  dynn_An_694A: "An" # 楊 (안)
  dynn_Ana_r: "Anár"
@@ -7482,7 +7483,7 @@
  dynn_Awan_Kuning: "Awan Kuning"
  dynn_Awang: "Awang"
  dynn_Awangan: "Awangan"
- dynn_Awangren: "Ā Wáng" # Changed Awangren to Ā Wáng
+ dynn_Awangren: "Awangren"
  dynn_Awar: "Awār"
  dynn_Awari: "Awari"
  dynn_Awata: "Awata"
@@ -7685,6 +7686,7 @@
  dynn_Baducing: "Baducingas" # Changed name in quotes
  dynn_Baduspanid: "Bāduspānī" # Changed Baduspanid to Baduspānī
  dynn_Badwiden: "Badwiden"
+ dynn_BaeB: "Péi"
  dynn_Bae: "Bae"
  dynn_Bae_88F5: "Bae" # 裵 (배)
  dynn_Baek: "Baek"
@@ -7750,7 +7752,7 @@
  dynn_Bai: "Bái" # Changed Bai to Bái
  dynn_Bai1: "Bái" # Changed Bai to Bái
  dynn_BaiA_o: "Baião"
- dynn_Bai_6822: "Bai"
+ dynn_Bai_6822: "Bǎi"
  dynn_Bai_767: "Bai"
  dynn_Bai_767D: "Bái" # 白
  dynn_Baianos: "Baianos"
@@ -7777,6 +7779,7 @@
  dynn_Bajkam: "Bajkam"
  dynn_Bajuli: "Bajuli"
  dynn_Bajwa: "Bājwa" # Changed Bajwa to Bājwa
+ dynn_BakB: "Piáo"
  dynn_Bak: "Bák" # Changed Bak to Bák
  dynn_Bak_6734: "Bak" # 朴 (박) - aka Park
  dynn_Bak_KR: "Bak" # From a General called Bak Sul-Hui, a General who supported Hyejong (of the Goryeo dynasty) to become Crown Prince of Goryeo in 921 - sourced from this https://en.wikipedia.org/wiki/Hyejong_of_Goryeo
@@ -7993,7 +7996,7 @@
  dynn_Bao1: "Bao" # Changed Bao to Bāo
  dynn_Bao2: "Bao" # Changed Bao to Bào
  dynn_Bao_5305: "Bāo" # 包
- dynn_Bao_5BF6: "Bao"
+ dynn_Bao_5BF6: "Bǎo"
  dynn_Bao_9B91: "Bào" # 鮑
  dynn_Bao_vn: "Bao"
  dynn_Baoigheallain: "Baoigheallain"
@@ -8884,7 +8887,7 @@
  dynn_Blythburgh: "Blythburgh"
  dynn_Bnei_Gedawon: "Gedewon"
  dynn_Bnei_Naphtali: "Naphtali"
- dynn_Bnei_Radai: "Radai
+ dynn_Bnei_Radai: "Radai"
  dynn_Bo: "Bó" # Changed Bo to Bó
  dynn_BoH: "Bő"
  dynn_BoI_las: "Boïlas"
@@ -8973,7 +8976,7 @@
  dynn_Bolanudik: "Bolanudik"
  dynn_BoldU_: "Boldù"
  dynn_Boldu: "Boldu"
- dynn_Bole: "Bó Lè" # Changed Bole to Bó Lè
+ dynn_Bole: "Bōlè" 
  dynn_Bolea: "Bolea"
  dynn_Bolei: "Bolei"
  dynn_Boletoqo: "Boletoqo"
@@ -9378,7 +9381,7 @@
  dynn_Bu: "Bù" # Changed Bu to Bù
  dynn_Bu1: "Bù" # Changed Bu to Bù
  dynn_BuS_ilA_: "Bușilă"
- dynn_Bu_535C: "Bo"
+ dynn_Bu_535C: "Bǔ"
  dynn_Bu_BD80: "Bu" # 부
  dynn_Bu_Nzu: "Bùnzǔ" # Changed Bu Nzu to Bùnzǔ
  dynn_Bu_Nzu_Sse_Nge: "Bùnzǔ Sse Nge"
@@ -9426,7 +9429,7 @@
  dynn_Buhaadorid: "Buhaadorid"
  dynn_Buhay: "Buhay"
  dynn_Buhayin: "Buhayin"
- dynn_Bui_88F4: "Bui" # 裴
+ dynn_Bui_88F4: "Bùi" # 裴
  dynn_Bui_vn: "Bùi"
  dynn_Builth: "Builth"
  dynn_Bujakhin: "Bujakhin"
@@ -10493,6 +10496,7 @@
  dynn_Chocques: "Chocques"
  dynn_Chodkevicius: "Chodkevičius" # Changed Chodkevicius to Chodkevičius
  dynn_Chodkiewicz: "Chodkiewicz"
+ dynn_ChoeB: "Cuī"
  dynn_Choe: "Ch'oe" # Changed Choe to Ch'oe
  dynn_Choe_5D14: "Choe" # 崔 (최)
  dynn_Choe_Gyeongju: "Ch'oe"
@@ -10516,7 +10520,7 @@
  dynn_Chonan: "Chonan"
  dynn_Chong: "Chŏng"
  dynn_Chong1: "Chŏng" # Changed Chong to Chŏng
- dynn_Chong_79CD: "Zhong"
+ dynn_Chong_79CD: "Zhǒng"
  dynn_Chong_8471: "Chong" # 葱 (총)
  dynn_ChonggyE_: "Chonggyé"
  dynn_Chongtham: "Chongtham"
@@ -10569,10 +10573,10 @@
  dynn_Chu1: "Chǔ" # Changed Chu to Chǔ
  dynn_Chu2: "Chǔ" # Changed Chu to Chǔ
  dynn_Chu3: "Chǔ" # Changed Chu to Chǔ
- dynn_Chu_5132: "Chu"
+ dynn_Chu_5132: "Chǔ"
  dynn_Chu_6731: "Chu" # 朱
- dynn_Chu_695A: "Chu" # 楚
- dynn_Chu_891A: "Chu"
+ dynn_Chu_695A: "Chǔ" # 楚
+ dynn_Chu_891A: "Chǔ"
  dynn_Chu_vn: "Chu"
  dynn_Chuban: "Chubānī" # Changed Chuban to Chubānī
  dynn_Chubei: "Chūbēi" # Changed Chubei to Chūbēi
@@ -11159,7 +11163,7 @@
  dynn_Dalusung: "Dalusung"
  dynn_Dam: "Đàm" # Changed Dam to Dàm
  dynn_Dam1: "Đàm" # Changed Dam to Dàm
- dynn_Dam_8B5A: "Dam" # 譚 (Đam)
+ dynn_Dam_8B5A: "Đàm" # 譚 (Đam)
  dynn_Dam_vn: "Đàm"
  dynn_Damanik: "Damanik"
  dynn_Damaris: "Damaris"
@@ -11188,8 +11192,8 @@
  dynn_Dandolo: "Dandolo"
  dynn_Dang: "Dāng" # Changed Dang to Dāng
  dynn_Dang1: "Dāng" # Changed Dang to Dāng
- dynn_Dang_515A: "Dang"
- dynn_Dang_9127: "Dang" # 鄧 (Đặng)
+ dynn_Dang_515A: "Dǎng"
+ dynn_Dang_9127: "Đặng" # 鄧 (Đặng)
  dynn_Dang_vn: "Đặng"
  dynn_Dangaw: "Dangaw"
  dynn_Dangchang: "Dāngchāng" # Changed Dangchang to Dāngchāng
@@ -11394,7 +11398,7 @@
  dynn_Deneche: "Deneche"
  dynn_Deng: "Dèng" # Changed Deng to Dèng
  dynn_Deng1: "Dèng" # Changed Deng to Dèng
- dynn_Deng_515A: "Dang"
+ dynn_Deng_515A: "Dǎng"
  dynn_Deng_9093: "Dèng"
  dynn_Deng_9127: "Dèng"
  dynn_Dengel: "Dengel"
@@ -11586,7 +11590,7 @@
  dynn_Dingwall: "Dingwall"
  dynn_Dinh: "Đinh" # Changed Dinh to Dīnh
  dynn_Dinh1: "Đinh" # Changed Dinh to Dīnh
- dynn_Dinh_4E01: "Dinh" # 丁
+ dynn_Dinh_4E01: "Đinh" # 丁
  dynn_Dinh_vn: "Đinh"
  dynn_Dini: "Dini"
  dynn_Dinid: "Dinid"
@@ -11639,9 +11643,9 @@
  dynn_Do: "Dó" # Changed Do to Dó
  dynn_DoL_E_ga: "Dołęga"
  dynn_DoU_nar-ZapoL_ski: "Doŭnar-Zapoĺski"
- dynn_Do_675C: "Do" # 杜 (Đỗ)
+ dynn_Do_675C: "Đỗ" # 杜 (Đỗ)
  dynn_Do_vn: "Đỗ"
- dynn_Doan_6BB5: "Doan" # 段 (Đoàn)
+ dynn_Doan_6BB5: "Đoàn" # 段 (Đoàn)
  dynn_Doan_vn: "Đoàn"
  dynn_Doba: "Doba"
  dynn_Doberai: "Doberai"
@@ -11700,7 +11704,7 @@
  dynn_Doncaster: "Doncaster" 
  dynn_Dong: "Dōng" # Changed Dong to Dōng
  dynn_Dong1: "Dōng" # Changed Dong to Dōng
- dynn_Dong_8463: "Dong" # 董
+ dynn_Dong_8463: "Dǒng" # 董
  dynn_Dong_8463_VN: "Dong" # 董
  dynn_Dong_seong: "Dongseong"
  dynn_Dong_vn: "Đồng"
@@ -11893,7 +11897,7 @@
  dynn_Dua: "Dua"
  dynn_Duaar: "Duaar"
  dynn_Duan: "Duàn" # Changed Duan to Duān
- dynn_Duan1: "Duān" # Changed Duan to Duān
+ dynn_Duan1: "Duàn" # Changed Duan to Duān
  dynn_Duan_6BB5: "Duàn" # 段
  dynn_Duangan: "Duangan"
  dynn_Duangkhammao: "Duangkhammao"
@@ -12495,7 +12499,7 @@
  dynn_FA_rniatA_: "Færniatæ"
  dynn_FA_tima: "Fāṭima"
  dynn_FE_zensaguet: "Fézensaguet"
- dynn_FLA_inez: 1 "Flaínez"
+ dynn_FLA_inez:1 "Flaínez"
  dynn_FO_nfs: "Fønfs"
  dynn_FO_rde: "Førde"
  dynn_FU_rstenberg: "Fürstenberg"
@@ -12554,7 +12558,7 @@
  dynn_Falx: "Falx"
  dynn_Famau: "Famau"
  dynn_Fan: "Fàn" # Changed Fan to Fàn
- dynn_Fan1: "Fán" # Changed Fan to Fàn
+ dynn_Fan1: "Fàn" # Changed Fan to Fàn
  dynn_Fan2: "Fàn" # Changed Fan to Fàn
  dynn_FanO_: "Fanø"
  dynn_Fan_6A0A: "Fán"
@@ -12564,7 +12568,7 @@
  dynn_Fane: "Fane"
  dynn_Fang: "Fāng" # Changed Fang to Fāng
  dynn_Fang1: "Fáng" # Changed Fang to Fāng
- dynn_Fang2: "Fang" # Changed Fang to Fāng
+ dynn_Fang2: "Fāng" # Changed Fang to Fāng
  dynn_Fang_623F: "Fáng"
  dynn_Fang_65B9: "Fāng" # 方
  dynn_Fangdang: "Fāngdàng" # Changed Fangdang to Fāngdàng
@@ -13384,7 +13388,7 @@
  dynn_Gdola: "Gdola"
  dynn_Gdovich: "Gdovich"
  dynn_Ge: "Gē" # Changed Ge to Gē
- dynn_Ge1: "Gē" # Changed Ge to Gē
+ dynn_Ge1: "Gě" # Changed Ge to Gē
  dynn_Ge_6208: "Gē"
  dynn_Ge_64D6: "Kā"
  dynn_Ge_845B: "Gé"
@@ -13577,7 +13581,7 @@
  dynn_Gillsland: "Gillsland"
  dynn_Gilmyn: "Gilmyn"
  dynn_Gim: "Gim"
- dynn_Gim_91D1: "Kim" # 金 (김) - aka Gim, localised as Kim despite RR for clarity
+ dynn_Gim_91D1: "Gim" # 金 (김) - aka Gim, localised as Kim despite RR for clarity
  dynn_Gimse: "Gimse"
  dynn_Gindikir: "Gindikir"
  dynn_Gindiyir: "Gindiyir"
@@ -13763,9 +13767,9 @@
  dynn_Gong: "Gōng" # Changed Gong to Gōng
  dynn_Gong1: "Gōng" # Changed Gong to Gōng
  dynn_Gong2: "Gòng" # Changed Gong to Gòng
- dynn_Gong_516C: "Kong" # 公 (공)
+ dynn_Gong_516C: "Gōng" # 公 (공)
  dynn_Gong_8CA2: "Gòng"
- dynn_Gong_978F: "Gong" # 鞏
+ dynn_Gong_978F: "Gǒng" # 鞏
  dynn_Gong_9F94: "Gōng" # 龔
  dynn_Gong_9F9A: "Gōng"
  dynn_Gonga: "Gonga"
@@ -13835,7 +13839,7 @@
  dynn_Gotuskeggja: "Götuskeggja"
  dynn_Gou: "Gǒu" # Changed Gou to Gǒu
  dynn_Gou_53E5: "Jù"
- dynn_Gou_82DF: "Gou"
+ dynn_Gou_82DF: "Gǒu"
  dynn_Gouber: "Gouber"
  dynn_Goudeles: "Goudeles"
  dynn_Goujiu: "Gōujīu" # Changed Goujiu to Gōujīu
@@ -14004,7 +14008,7 @@
  dynn_Guan: "Guān" # Changed Guan to Guān
  dynn_Guan1: "Guān" # Changed Guan to Guān
  dynn_Guan2: "Guān" # Changed Guan to Guān
- dynn_Guan_7BA1: "Guan" # 管
+ dynn_Guan_7BA1: "Guǎn" # 管
  dynn_Guan_95DC: "Guān"
  dynn_Guanarteme: "Guanarteme"
  dynn_Guangjila_5149_5409_5244_fic_1: "Guāngjílà"
@@ -14134,7 +14138,7 @@
  dynn_Guntur: "Guntur"
  dynn_Gunungalip: "Gunungalip"
  dynn_Guo: "Guó" # Changed Guo to Guó
- dynn_Guo1: "Guó" # Changed Guo to Guó
+ dynn_Guo1: "Guō" # Changed Guo to Guó
  dynn_Guo_90ED: "Guō"
  dynn_GuolA_dat: "Guoládat"
  dynn_Guola_datnja_rga: "Guoládatnjárga"
@@ -14203,8 +14207,9 @@
  dynn_Guzzei: "Goze"
  dynn_Gvardic: "Gvardić"
  dynn_Gvir: "Gvir"
+ dynn_GwakB: "Guō"
  dynn_Gwak: "Gwak"
- dynn_Gwak_90ED: "Kwak" # 郭 (곽)
+ dynn_Gwak_90ED: "Gwak" # 郭 (곽)
  dynn_Gwallog: "Gwallog"
  dynn_Gwan: "Gwan"
  dynn_Gwana: "Gwana"
@@ -14224,7 +14229,7 @@
  dynn_Gwisil: "Gwisil"
  dynn_Gwok: "Gwok"
  dynn_Gwon: "Gwon"
- dynn_Gwon_6B0A: "Kwon" # 權 (권)
+ dynn_Gwon_6B0A: "Gwon" # 權 (권)
  dynn_Gwrinydd: "Gwrinydd"
  dynn_Gwydi: "Gwýdi" # Changed Gwydi to Gwýdi
  dynn_Gwydn: "Gwyn"
@@ -14248,7 +14253,7 @@
  dynn_Gye: "Gyé" # Changed Gye to Gyé
  dynn_GyeC_tirek: "Gyeçtirek"
  dynn_Gyelrong: "Gyelrong"
- dynn_Gyeon: "Gyŏn" # Changed Gyeon to Gyŏn
+ dynn_Gyeon: "Gyeon" # Changed Gyeon to Gyŏn
  dynn_Gyeon_7504: "Kyeon" # 甄 (견)
  dynn_Gyeong: "Gyŏng" # Changed Gyeong to Gyŏng
  dynn_Gyeong_6176: "Kyeong" # 慶 (경)
@@ -14331,6 +14336,8 @@
  dynn_H_arazE_ja: "X'arazejaba" #Харазиа
  dynn_H_asanaynid: "Ḥasanaynid" 
  dynn_H_ubayrid: "Ḥubayrid" 
+ dynn_HaB: "Hè"
+ dynn_HaB2: "Xià"
  dynn_Ha: "Ha"
  dynn_Ha1: "Hà"
  dynn_HaCoin: "Ha Coin"
@@ -14342,7 +14349,7 @@
  dynn_HaNagid: "HaNagid"
  dynn_HaRomai: "Ha Romai"
  dynn_HaYewani: "Ha Yewani"
- dynn_Ha_4F55: "Ha" # 何
+ dynn_Ha_4F55: "Hà" # 何
  dynn_Ha_590F: "Ha" # 夏 (하)
  dynn_Ha_8CC0: "Ha"  # 賀 (하)
  dynn_Ha_Dani: "Dani"
@@ -14394,6 +14401,7 @@
  dynn_Hadik: "Hadik"
  dynn_Hadirum: "Hadirum"
  dynn_Hadrianus: "Hadrianus"
+ dynn_HaeB: "Xiè"
  dynn_Hae: "Hae"
  dynn_Hae_89E3: "Hae" # 解 (해)
  dynn_Haedo: "Haedo"
@@ -14606,7 +14614,7 @@
  dynn_HanyU_: "Hanyū" # 羽生
  dynn_HanyU__2: "Hanyū" # 埴生
  dynn_Hao: "Hao"
- dynn_Hao_90DD: "Hao" # 郝
+ dynn_Hao_90DD: "Hǎo" # 郝
  dynn_Haobam: "Haobam"
  dynn_Haobijam: "Haobijam"
  dynn_Haolde: "Haolde"
@@ -14824,7 +14832,7 @@
  dynn_He: "He"
  dynn_He1: "Hé"
  dynn_He2: "Hè"
- dynn_He3: "He"
+ dynn_He3: "Hé"
  dynn_HeS_ilie: "Hešilie"
  dynn_He_4F55: "Hé" # 何
  dynn_He_548C: "Hé" # 和
@@ -15125,9 +15133,9 @@
  dynn_Hmom: "Hmom"
  dynn_Hmu: "Hmu"
  dynn_Hnya: "Hnya"
- dynn_Ho: "Ho"
+ dynn_Ho: "Hồ"
  dynn_HoR_ice: "Hořice"
- dynn_Ho_80E1: "Ho" # 胡 (Hồ)
+ dynn_Ho_80E1: "Hồ" # 胡 (Hồ)
  dynn_Ho_ralaid: "Hõralaid"
  dynn_Ho_rmoja: "Hörmoja"
  dynn_Ho_rppa_l: "Hörppäl"
@@ -15137,7 +15145,7 @@
  dynn_Hoac_vn: "Hoắc"
  dynn_Hoang: "Hoang"
  dynn_Hoang1: "Hoang"
- dynn_Hoang_9EC3: "Hoang" # 黃 (later Huỳnh)
+ dynn_Hoang_9EC3: "Hoàng" # 黃 (later Huỳnh)
  dynn_Hoang_Phu_vn: "Hoàng Phủ"
  dynn_Hoang_vn: "Hoàng"
  dynn_Hoanya: "Hoanya"
@@ -15270,7 +15278,7 @@
  dynn_Hotta: "Hotta"
  dynn_Hoturusan: "Hoturusan"
  dynn_Hou: "Hou"
- dynn_Hou1: "Hou"
+ dynn_Hou1: "Hóu"
  dynn_HouE_rou: "Houèrou"
  dynn_Hou_4FAF: "Hóu" # 侯
  dynn_Houffalize: "Houffalize"
@@ -15679,6 +15687,8 @@
  dynn_IlyasShahi: "Ilyās Shāhī"
  dynn_Ilyas_Shahi: "Ilyās Shāhī"
  dynn_Ilyasid: "Ilyasid"
+ dynn_ImB: "Rén"
+ dynn_ImB2: "Im"
  dynn_Im: "Im"
  dynn_Im_4EFB: "Im" # 任 (임)
  dynn_Imagawa: "Imagawa"
@@ -16094,6 +16104,7 @@
  dynn_Janda: "Janda"
  dynn_Jandia: "Jandía"
  dynn_Jane: "Jane"
+ dynn_JangB: "Zhāng"
  dynn_Jang: "Jang"
  dynn_Jang_5F35: "Jang" # 張 (장)
  dynn_Janggam: "Janggam"
@@ -16236,15 +16247,15 @@
  dynn_Jia2: "Jiǎ"
  dynn_Jia_5BB6: "Jiā" # 家
  dynn_Jia_8: "Jia"
- dynn_Jia_8CC8: "Jia"
- dynn_Jia_8D3E: "Jia"
+ dynn_Jia_8CC8: "Jiǎ"
+ dynn_Jia_8D3E: "Jiǎ"
  dynn_Jiaang: "Jiaang"
  dynn_Jiagu: "Jiagu"
  dynn_Jiagu_5939_8C37: "Jiāgu"
  dynn_Jiagu_593E_8C37: "Jiāgu"
  dynn_Jian: "Jian"
- dynn_Jian_7C21: "Jian"
- dynn_Jian_8E47: "Jian" # 蹇
+ dynn_Jian_7C21: "Jiǎn"
+ dynn_Jian_8E47: "Jiǎn" # 蹇
  dynn_Jiang: "Jiang"
  dynn_Jiang1: "Jiǎng"
  dynn_Jiang2: "Jiāng"
@@ -16252,8 +16263,8 @@
  dynn_Jiang_43: "Jiang"
  dynn_Jiang_59DC: "Jiāng" # 姜
  dynn_Jiang_6C5F: "Jiāng" # 江
- dynn_Jiang_848B: "Jiang"
- dynn_Jiang_8523: "Jiang" # 蔣
+ dynn_Jiang_848B: "Jiǎng"
+ dynn_Jiang_8523: "Jiǎng" # 蔣
  dynn_Jianu: "Jianu"
  dynn_Jiao: "Jiao"
  dynn_Jiao1: "Jiao"
@@ -16297,12 +16308,12 @@
  dynn_Jing1: "Jǐng"
  dynn_Jing2: "Jīng"
  dynn_Jing3: "Jìng"
- dynn_Jing_4E95: "Jing"
+ dynn_Jing_4E95: "Jǐng"
  dynn_Jing_4EAC: "Jīng"
  dynn_Jing_51C0: "Jìng"
  dynn_Jing_5F90: "Xú"
  dynn_Jing_656C: "Jìng"
- dynn_Jing_666F: "Jing"
+ dynn_Jing_666F: "Jǐng"
  dynn_Jing_8346: "Jīng"
  dynn_Jing_834A: "Jīng"
  dynn_Jinji: "Jinji"
@@ -16324,6 +16335,7 @@
  dynn_Jji_Sse: "Jji Sse"
  dynn_Jji_Zze: "Jji Zze"
  dynn_Jji_Zze_Sse_Ggu: "Jji Zze Sse Ggu"
+ dynn_JoB: "Zhào"
  dynn_Jo: "Jo"
  dynn_Jo_8D99: "Jo" # 趙 (조)
  dynn_Jo_Ddur: "Jo Ddur"
@@ -16387,6 +16399,7 @@
  dynn_JovanoviC_: "Jovanović"
  dynn_Jovianus: "Jovianus"
  dynn_Jowol: "Jowol"
+ dynn_JuB: "Zhū"
  dynn_Ju: "Ju"
  dynn_Ju1: "Ju"
  dynn_Ju_4FF1: "Jù"
@@ -17541,7 +17554,7 @@
  dynn_Khuat_vn: "Khuất"
  dynn_Khuc: "Khúc"
  dynn_Khuc1: "Khúc"
- dynn_Khuc_66F2: "Khuc" # 曲
+ dynn_Khuc_66F2: "Khúc" # 曲
  dynn_Khud: "Khud"
  dynn_Khuda: "Khuda"
  dynn_Khudrakpam: "Khudrakpam"
@@ -17939,7 +17952,7 @@
  dynn_Kone: "Kone"
  dynn_Kong: "Kong"
  dynn_Kong1: "Kǒng"
- dynn_Kong_5B54: "Kong" # 孔
+ dynn_Kong_5B54: "Kǒng" # 孔
  dynn_Kongba: "Kongba"
  dynn_Kongbam: "Kongbam"
  dynn_Kongchangdam: "Kongchangdam"
@@ -18915,7 +18928,7 @@
  dynn_LaziC_: "Lazić"
  dynn_Lazica: "Lazica"
  dynn_Le: "Le"
- dynn_Le1: "Le"
+ dynn_Le1: "Lê"
  dynn_LeO_n: "León"
  dynn_Le_6A02: "Lè" # 樂
  dynn_Le_9ECE: "Le" # 黎
@@ -19107,7 +19120,7 @@
  dynn_LiE_bana: "Liébana"
  dynn_LiE_ron: "Liéron"
  dynn_Li_53B2: "Lì" # 厲
- dynn_Li_674E: "Li" # 李
+ dynn_Li_674E: "Lǐ" # 李
  dynn_Li_9ECE: "Lí" # 黎
  dynn_Li_Jieng: "Li Jieng"
  dynn_Li_Jieng_Sse_Ggu: "Li Jieng Sse Ggu"
@@ -19122,7 +19135,7 @@
  dynn_Lian_7DF4: "Liàn"
  dynn_Lian_9023: "Lián"
  dynn_Liang: "Liang"
- dynn_Liang1: "Liang"
+ dynn_Liang1: "Liáng"
  dynn_Liang_6881: "Liáng" # 梁
  dynn_Liangqiu: "Liangqiu"
  dynn_Liangshan: "Liangshan"
@@ -19297,8 +19310,8 @@
  dynn_Liu_312: "Liu"
  dynn_Liu_5218: "Liú"
  dynn_Liu_5289: "Liú" # 刘
- dynn_Liu_67F3: "Liu"
- dynn_Liu_6CD5: "Fa"
+ dynn_Liu_67F3: "Liǔ"
+ dynn_Liu_6CD5: "Fǎ"
  dynn_Liu_7559: "Liú" # 留
  dynn_Liubic: "Liubic"
  dynn_Liudolfinger: "Liudolfinger"
@@ -19495,16 +19508,16 @@
  dynn_Lu5: "Lu"
  dynn_LuC_on: "Luçon"
  dynn_Lu_5362: "Lú" # 卢
- dynn_Lu_5415: "Lu"
- dynn_Lu_5442: "Lu"
+ dynn_Lu_5415: "Lǚ"
+ dynn_Lu_5442: "Lǚ"
  dynn_Lu_5EEC: "Lú"
  dynn_Lu_63: "Lu"
  dynn_Lu_76E7: "Lú"
  dynn_Lu_797F: "Lù"
  dynn_Lu_8DEF: "Lù"
- dynn_Lu_95AD: "Lu"
+ dynn_Lu_95AD: "Lǘ"
  dynn_Lu_9678: "Lù" # 陸
- dynn_Lu_9B6F: "Lu" # 魯
+ dynn_Lu_9B6F: "Lǔ" # 魯
  dynn_Lu_9E7F: "Lù"
  dynn_Lu_Ddi: "Lu Ddi"
  dynn_Lu_Ddi_Sse_Nge: "Lu Ddi Sse Nge"
@@ -19623,7 +19636,7 @@
  dynn_Lupo: "Lupo"
  dynn_Lupu: "Lupu"
  dynn_Luqiu: "Lüqiu"
- dynn_Luqiu_95AD: "Lu"
+ dynn_Luqiu_95AD: "Lǘqiū"
  dynn_Lur_Da: "Lur Da"
  dynn_Lur_Da_Sse_Shy: "Lur Da Sse Shy"
  dynn_Lur_Da_Sse_Suo: "Lur Da Sse Suo"
@@ -19652,7 +19665,7 @@
  dynn_Lutsi: "Lutsi"
  dynn_Lutzelburg: "Lützelburg"
  dynn_Luu: "Luu"
- dynn_Luu_5289: "Luu" # 劉 (Lưu)
+ dynn_Luu_5289: "Lưu" # 劉 (Lưu)
  dynn_Luu_vn: "Lưu"
  dynn_Luuditsa: "Luuditsa"
  dynn_Luusalmi: "Luusalmi"
@@ -19669,7 +19682,7 @@
  dynn_Luzycka: "Luzycka"
  dynn_Luzzatti: "Luzzatti"
  dynn_Lv: "Lü"
- dynn_Lv1: "Lü"
+ dynn_Lv1: "Lǚ"
  dynn_Lvov: "Lvov"
  dynn_Lvqiu1: "Lüqiu"
  dynn_Lwebu: "Lwebu"
@@ -19677,7 +19690,7 @@
  dynn_Lwyrzi: "Lwyrzi"
  dynn_Ly: "Ly"
  dynn_Ly1: "Ly"
- dynn_Ly_674E: "Ly" # 李
+ dynn_Ly_674E: "Lý" # 李
  dynn_Ly_vn: "Lý"
  dynn_Lyakhovich: "Lyakhovich"
  dynn_Lyam: "Lyam"
@@ -19749,15 +19762,16 @@
  dynn_MU_nster: "Münster"
  dynn_MU_renig: "Mürenig"
  dynn_MU_rzzuschlag: "Mürzzuschlag"
+ dynn_MaB: "Mǎ"
  dynn_Ma: "Ma"
  dynn_Ma1: "Mǎ"
  dynn_MaI_l_Doraid: "Maíl Doraid"
  dynn_MaI_l_Ruanaid: "Maíl Ruanaid"
  dynn_MaI_l_Sechlainn: "Máel Sechlainn"
  dynn_MaL_achowski: "Małachowski"
- dynn_Ma_99AC: "Ma" # 馬
+ dynn_Ma_99AC: "Mǎ" # 馬
  dynn_Ma_99AC_KO: "Ma" # 馬 (마) (Mǎ)
- dynn_Ma_9A6C: "Ma"
+ dynn_Ma_9A6C: "Mǎ"
  dynn_Ma_afir: "Ma'afir"
  dynn_Ma_anid: "Ma'nī"
  dynn_Ma_chia: "Ma-chia"
@@ -19821,7 +19835,7 @@
  dynn_MacSomhairle: "MacSomhairle"
  dynn_MacSweyn: "MacSweyn"
  dynn_MacTaggart: "MacTaggart"
- dynn_Mac_83AB: "Mac" # 莫 (Mạc)
+ dynn_Mac_83AB: "Mạc" # 莫 (Mạc)
  dynn_Mac_Arailt: "Arailt"
  dynn_Mac_Asgaill: "Asgaill"
  dynn_Mac_Beli: "Beli"
@@ -20258,7 +20272,6 @@
  dynn_Manganiotis: "Manganiotis"
  dynn_Mangaphas: "Mangaphas"
  dynn_Mangapia: "Mangápiâ"
- dynn_Mangbu: "Mǎngbù"
  dynn_Manghud: "Maṅghud"
  dynn_Manginos: "Manginos"
  dynn_Mangirdaitis: "Mangirdaitis"
@@ -20332,7 +20345,7 @@
  dynn_Manzaneda: "Manzaneda"
  dynn_Manzanedo: "Manzanedo"
  dynn_Mao: "Mao"
- dynn_Mao1: "Mao"
+ dynn_Mao1: "Máo"
  dynn_Mao_6BDB: "Máo" # 毛
  dynn_Mao_8305: "Máo" # 茅
  dynn_Maoid: "Maoid"
@@ -20943,12 +20956,12 @@
  dynn_Mi2: "Mi"
  dynn_MiCandia: "Mi Candia"
  dynn_MiS_S_i: "Mišši"
- dynn_Mi_7C73: "Mi"
+ dynn_Mi_7C73: "Mǐ"
  dynn_Mi_9E8B: "Mí"
  dynn_Mi_lingjai: "Mīlingjai"
  dynn_Miah: "Miyā"
  dynn_Miao: "Miao"
- dynn_Miao1: "Miao"
+ dynn_Miao1: "Miáo"
  dynn_Miao_7E46: "Móu"
  dynn_Miao_82D7: "Miáo"
  dynn_Miassar: "Miassar"
@@ -21197,6 +21210,7 @@
  dynn_Mlechchha: "Mlechchha"
  dynn_Mlomry: "Mlomry"
  dynn_Mnohohrishnyi: "Mnohohrishnyi"
+ dynn_MoB: "Mù"
  dynn_Mo: "Mo"
  dynn_Mo1: "Mo"
  dynn_Mo_5192: "Mo" # 冒 (모)
@@ -21473,7 +21487,7 @@
  dynn_Mottola: "Mottola"
  dynn_Mou: "Mou"
  dynn_Mou1: "Mo"
- dynn_Mou_67D0: "Mou"
+ dynn_Mou_67D0: "Mǒu"
  dynn_Mou_725F: "Móu"
  dynn_Moukdakko: "Moukdakko"
  dynn_Moula: "Moula"
@@ -21613,6 +21627,8 @@
  dynn_Mullutu: "Mullutu"
  dynn_Multani: "Multānī"
  dynn_Muluvagil: "Maluvagil"
+ dynn_MunB: "Wén"
+ dynn_MunB2: "Mén"
  dynn_Mun: "Mun"
  dynn_MunT_i: "Munți"
  dynn_Mun_6587: "Mun" # 文 (문)
@@ -21812,6 +21828,7 @@
  dynn_NOzarAn: "Nōzarān"
  dynn_NU_N_ez: "Núñez"
  dynn_NU_rnberg: "Nürnberg"
+ dynn_NaB: "Na"
  dynn_Na: "Na"
  dynn_NaL_E_cz: "Nałęcz"
  dynn_Na_Ku: "Na Ku"
@@ -22292,7 +22309,7 @@
  dynn_Ngizim: "Ngizim"
  dynn_Ngo: "Ngô"
  dynn_Ngo1: "Ngô"
- dynn_Ngo_5433: "Ngo" # 吳
+ dynn_Ngo_5433: "Ngô" # 吳
  dynn_Ngo_vn: "Ngô"
  dynn_NgojE_: "Ngojé"
  dynn_Ngok: "Ngok"
@@ -22309,7 +22326,7 @@
  dynn_Ngupa: "Ngupa"
  dynn_Ngurawan: "Ngurawan"
  dynn_Nguy_vn: "Ngụy"
- dynn_Nguyen_962E: "Nguyen" # 阮 (Nguyễn)
+ dynn_Nguyen_962E: "Nguyễn" # 阮 (Nguyễn)
  dynn_Nguyen_vn: "Nguyễn"
  dynn_Ngwela: "Ngwela"
  dynn_Ngwemi: "Ngwemi"
@@ -22472,7 +22489,7 @@
  dynn_Njy_Jy_Sse_Nge: "Njy Jy Sse Nge"
  dynn_Nkurange: "Nkurange"
  dynn_Nkusukum: "Nkusukum"
- dynn_No: "No"
+ dynn_No: "Ro"
  dynn_No_vkila_: "Nõvkilā"
  dynn_Noailles: "Noailles"
  dynn_Noble_Family: "Noble Family"
@@ -22718,6 +22735,7 @@
  dynn_O_kasuga: "Ōkasuga" # 大春日
  dynn_O_kawa: "Ōwaka" # 大河
  dynn_O_koma: "Ōkoma" # 大狛
+ dynn_O_korB: "Wú"
  dynn_O_kor2: "O"
  dynn_O_kubo: "Ōkubo" # 大窪
  dynn_O_kura: "Ōkura" # 大蔵
@@ -23942,8 +23960,8 @@
  dynn_Phalangkura: "Phalangkura"
  dynn_Phali: "Phali"
  dynn_Phalkon: "Phalkon"
- dynn_Pham: "Pham"
- dynn_Pham_8303: "Pham" # 范 (Phạm)
+ dynn_Pham: "Phạm"
+ dynn_Pham_8303: "Phạm" # 范 (Phạm)
  dynn_Pham_vn: "Phạm"
  dynn_Phamnaa: "Phamnaa"
  dynn_Phan: "Phan"
@@ -24005,7 +24023,7 @@
  dynn_Phug: "Phug"
  dynn_Phukha: "Phukha"
  dynn_Phumsawat: "Phumsawat"
- dynn_Phung_99AE: "Phung" # 馮
+ dynn_Phung_99AE: "Phùng" # 馮
  dynn_Phung_vn: "Phùng"
  dynn_Phuong: "Phuong"
  dynn_Phuong_vn: "Phương"
@@ -24521,6 +24539,7 @@
  dynn_Pummala: "Pummala"
  dynn_Punduh: "Punduh"
  dynn_Puned: "Puned"
+ dynn_PungB: "Féng"
  dynn_Pung: "Pung"
  dynn_Pung_99AE: "Pung" # 馮 (풍)
  dynn_Pungapul: "Pungapul"
@@ -24734,7 +24753,7 @@
  dynn_Qiu: "Qiu"
  dynn_Qiu1: "Qiú"
  dynn_Qiu2: "Qiu"
- dynn_Qiu3: "Qiu"
+ dynn_Qiu3: "Qiū"
  dynn_Qiu_4E18: "Qiū"
  dynn_Qiu_4EC7: "Chóu"
  dynn_Qiulin: "Qiulin"
@@ -24772,9 +24791,9 @@
  dynn_Qu_Ji_Sse_Shy: "Qu Ji Sse Shy"
  dynn_Qu_Po: "Qu Po"
  dynn_Qu_Po_Sse_Suo: "Qu Po Sse Suo"
- dynn_Quach: "Quach"
+ dynn_Quach: "Quách"
  dynn_Quach1: "Quách"
- dynn_Quach_90ED: "Quach" # 郭
+ dynn_Quach_90ED: "Quách" # 郭
  dynn_Quach_vn: "Quách"
  dynn_Quadi: "Quadi"
  dynn_Quadii: "Quadi"
@@ -25018,7 +25037,7 @@
  dynn_Ramzan: "Ramzan"
  dynn_Ran: "Ran"
  dynn_Ran1: "Ran"
- dynn_Ran_5189: "Ran"
+ dynn_Ran_5189: "Rǎn"
  dynn_Ranaka: "Rāṇaka"
  dynn_Ranasinghe: "Ranasinghe"
  dynn_Ranawa: "Ranawa"
@@ -25200,8 +25219,8 @@
  dynn_Remis: "Remis"
  dynn_Remyo: "Remyo"
  dynn_Ren: "Ren"
- dynn_Ren1: "Ren"
- dynn_Ren_4EFB: "Rèn" # 任
+ dynn_Ren1: "Rén"
+ dynn_Ren_4EFB: "Rén" # 任
  dynn_Ren_tangut: "Ren"
  dynn_Renagi: "Renagi"
  dynn_Renandu: "Renandu"
@@ -25581,7 +25600,7 @@
  dynn_Ruak: "Ruak"
  dynn_Ruan: "Ruan"
  dynn_Ruan1: "Ruan"
- dynn_Ruan_962E: "Ruan"
+ dynn_Ruan_962E: "Ruǎn"
  dynn_Ruayn: "Ru'ayn"
  dynn_Ruaynid: "Ru'aynī"
  dynn_Rubaia: "Rubaia"
@@ -25689,6 +25708,7 @@
  dynn_Ryo: "Ryo"
  dynn_Ryong_kor: "Ryong"
  dynn_Ryssby: "Ryssby"
+ dynn_RyuB: "Liú"
  dynn_Ryu: "Ryu"
  dynn_Ryu_67F3: "Ryu" # 柳 (류)
  dynn_Ryuen: "Ryuen"
@@ -25784,6 +25804,7 @@
  dynn_S_wiE_ca: "Święca"
  dynn_S_widnicki: "Świdnicki"
  dynn_S_winka: "Świnka"
+ dynn_SaB: "Shǐ"
  dynn_Sa: "Sa"
  dynn_Sa_53F2: "Sa" # 史 (사)
  dynn_Sa_Roca: "Sa Roca"
@@ -26954,7 +26975,7 @@
  dynn_Shi6: "Shi"
  dynn_Shi_4E16: "Shì" # 世
  dynn_Shi_4F8D: "Shì" # 侍
- dynn_Shi_53F2: "Shi"
+ dynn_Shi_53F2: "Shǐ"
  dynn_Shi_58EB: "Shì"
  dynn_Shi_5E2B: "Shī"
  dynn_Shi_65BD: "Shī" # 施
@@ -27287,6 +27308,8 @@
  dynn_Simti: "Simti"
  dynn_Simukap: "Simukap" # シムカップ
  dynn_Simurghan: "Simurghan"
+ dynn_SinB: "Xīn"
+ dynn_SinB2: "Shēn"
  dynn_Sin: "Sin"
  dynn_Sin_7533: "Sin" # 申 (신)
  dynn_Sin_8F9B: "Sin" # 辛 (신)
@@ -27329,7 +27352,7 @@
  dynn_Sinukwan: "Sinukwan"
  dynn_Sinvi: "Sinvi"
  dynn_Sioe: "Sioe"
- dynn_Siol_Gorrie: "Gorrie
+ dynn_Siol_Gorrie: "Gorrie"
  dynn_Siones: "Siones"
  dynn_Siorrachd: "Siorrachd"
  dynn_Sip: "Sip"
@@ -28174,7 +28197,7 @@
  dynn_Sunpo: "Sunpo"
  dynn_Suo: "Suo"
  dynn_Suo1: "Suo"
- dynn_Suo_7D22: "Suo"
+ dynn_Suo_7D22: "Suǒ"
  dynn_Suohan_68AD_7F55_fic_1: "Suōhǎn"
  dynn_Suoja_rvi: "Suojärvi"
  dynn_Suolu: "Suolu"
@@ -29362,8 +29385,8 @@
  dynn_Tkhizh: "Tkhizh"
  dynn_Tlakja_i: "Tlakjāi"
  dynn_Tlizhho: "Tlizhho"
- dynn_To: "To"
- dynn_To_8607: "To" # 蘇
+ dynn_To: "Tô"
+ dynn_To_8607: "Tô" # 蘇
  dynn_To_ikvere: "Tõikvere"
  dynn_To_ivere: "Tõivere"
  dynn_To_lluste: "Tõlluste"
@@ -29600,7 +29623,7 @@
  dynn_Trainel: "Trainel"
  dynn_Trakhan: "Trakhan"
  dynn_Tran: "Trần"
- dynn_Tran_9673: "Tran" # 陳 (Trần)
+ dynn_Tran_9673: "Trần" # 陳 (Trần)
  dynn_Tran_vn: "Trần"
  dynn_TranekE_r: "Tranekær"
  dynn_Trang_vn: "Trang"
@@ -29673,7 +29696,7 @@
  dynn_Tridun: "Tridun"
  dynn_Trier: "Trier"
  dynn_Tries: "Tries"
- dynn_Trieu_8D99: "Trieu" # 趙 (Triệu)
+ dynn_Trieu_8D99: "Triệu" # 趙 (Triệu)
  dynn_Trieu_vn: "Triệu"
  dynn_Trigonia: "Trigonia"
  dynn_Trikala: "Tricala"
@@ -29684,8 +29707,8 @@
  dynn_Trinacria: "Trinacria"
  dynn_Trincanocte: "Trincanocte"
  dynn_Trinci: "Trinci"
- dynn_Trinh: "Trinh"
- dynn_Trinh_912D: "Trinh" # 鄭 (Trịnh)
+ dynn_Trinh: "Trịnh"
+ dynn_Trinh_912D: "Trịnh" # 鄭 (Trịnh)
  dynn_Trinh_vn: "Trịnh"
  dynn_Trinovantes: "Trinovantes"
  dynn_Tripathi: "Tripathi"
@@ -29717,7 +29740,7 @@
  dynn_Trujillo: "Trujillo"
  dynn_Trukki: "Trukki"
  dynn_Truku: "Truku"
- dynn_Truong_5F35: "Truong" # 張 (Trương)
+ dynn_Truong_5F35: "Trương" # 張 (Trương)
  dynn_Truong_vn: "Trương"
  dynn_Truppoaldidi: "Truppoaldidi"
  dynn_Truso: "Truso"
@@ -31124,7 +31147,7 @@
  dynn_Vseslavichi: "Vseslavich"
  dynn_Vsevolodich: "Vsevolodich"
  dynn_Vsevolodovich: "Vsevolodovich"
- dynn_Vu_6B66: "Vu" # 武 (later Võ)
+ dynn_Vu_6B66: "Vũ" # 武 (later Võ)
  dynn_Vu_Van_vn: "Vũ Văn"
  dynn_Vu_vn: "Vũ"
  dynn_Vudzon: "Vudzon"
@@ -31143,7 +31166,7 @@
  dynn_Vuodi: "Vuodi"
  dynn_Vuokkiniemi: "Vuokkiniemi"
  dynn_Vuoksi: "Vuoksi"
- dynn_Vuong_738B: "Vuong" # 王 (Vương)
+ dynn_Vuong_738B: "Vương" # 王 (Vương)
  dynn_Vuong_vn: "Vương"
  dynn_Vuonnini: "Vuonnini"
  dynn_Vuontisja_rvi: "Vuontisjärvi"
@@ -31270,10 +31293,11 @@
  dynn_Wandjiligg: "Wandjiligg"
  dynn_Wane: "Wane"
  dynn_Wanebergen: "Wanebergen"
+ dynn_WangB: "Wáng"
  dynn_Wang: "Wáng"
  dynn_Wang1: "Wáng"
  dynn_Wang2: "Wang"
- dynn_Wang3: "Wang"
+ dynn_Wang3: "Wāng"
  dynn_Wang_6C6A: "Wāng" # 汪
  dynn_Wang_738B: "Wáng" # 王
  dynn_Wang_738B_KO: "Wang" # 王 (왕)
@@ -31405,8 +31429,8 @@
  dynn_Wegelenzi: "Wegelenzi"
  dynn_Wehali: "Wehali"
  dynn_Wei: "Wei"
- dynn_Wei1: "Wéi"
- dynn_Wei2: "Wèi"
+ dynn_Wei1: "Wèi"
+ dynn_Wei2: "Wéi"
  dynn_Wei3: "Wēi"
  dynn_Wei_536B: "Wèi"
  dynn_Wei_5371: "Wēi" # 危
@@ -31460,7 +31484,7 @@
  dynn_Wendel: "Wendel"
  dynn_Wendihen: "Wendihen"
  dynn_Weng: "Weng"
- dynn_Weng1: "Weng"
+ dynn_Weng1: "Wēng"
  dynn_Weng_7FC1: "Wēng" # 翁
  dynn_Wenlock: "Wenlock"
  dynn_Wenren: "Wenren"
@@ -31498,6 +31522,7 @@
  dynn_When: "When"
  dynn_Whitmore: "Whitmore"
  dynn_Whittocksmead: "Whittocksmead"
+ dynn_WiB: "Wèi"
  dynn_Wi: "Wi"
  dynn_WiS_lan: "Wiślan"
  dynn_WiS_licy: "Wiślicy"
@@ -31665,11 +31690,11 @@
  dynn_Wu_169: "Wu"
  dynn_Wu_201: "Wu"
  dynn_Wu_27: "Wu"
- dynn_Wu_4F0D: "Wu"
+ dynn_Wu_4F0D: "Wǔ"
  dynn_Wu_5433: "Wú" # 吳
  dynn_Wu_5434: "Wú" # 吳
  dynn_Wu_5DEB: "Wū"
- dynn_Wu_6B66: "Wu" # 武
+ dynn_Wu_6B66: "Wǔ" # 武
  dynn_Wu_70CF: "Wū"
  dynn_Wu_7121: "Wú"
  dynn_Wu_9114: "Wū"
@@ -31758,8 +31783,8 @@
  dynn_Xianyu_9BAE: "Xiān"
  dynn_Xianyu_9BAE_4E8E: "Xiānyú"
  dynn_Xiao: "Xiao"
- dynn_Xiao1: "Xiao"
- dynn_Xiao_66C9: "Xiao"
+ dynn_Xiao1: "Xiāo"
+ dynn_Xiao_66C9: "Xiǎo"
  dynn_Xiao_8427: "Xiāo" # 萧
  dynn_Xiao_856D: "Xiāo" # 蕭
  dynn_Xiao_Suru: "Suru"
@@ -31809,7 +31834,7 @@
  dynn_Xu2: "Xǔ"
  dynn_Xu_5F90: "Xú" # 徐
  dynn_Xu_80E5: "Xū" # 胥
- dynn_Xu_8A31: "Xu" # 許
+ dynn_Xu_8A31: "Xǔ" # 許
  dynn_Xu_8BB8: "Xǔ"
  dynn_Xuan: "Xuan"
  dynn_Xuan1: "Xuan"
@@ -31932,7 +31957,7 @@
  dynn_Yan_56B4: "Yán"
  dynn_Yan_664F: "Yàn"
  dynn_Yan_6BB7: "Yīn"
- dynn_Yan_71D5: "Yàn"
+ dynn_Yan_71D5: "Yān"
  dynn_Yan_95BB: "Yán" # 閻
  dynn_Yan_95F2: "Yán"
  dynn_Yan_984F: "Yán" # 顏
@@ -31942,7 +31967,9 @@
  dynn_Yanassie: "Yanassie"
  dynn_Yanayid: "Yänäyid"
  dynn_Yandalal: "Yandalal"
- dynn_Yang: "Yang"
+ dynn_YangB: "Yáng"
+ dynn_YangB2: "Liáng"
+ dynn_Yang: "Yáng"
  dynn_Yang1: "Yáng"
  dynn_Yang2: "Yáng"
  dynn_Yang_63DA: "Yáng"
@@ -32080,6 +32107,8 @@
  dynn_Yenki: "Yenki"
  dynn_Yennega: "Yennega"
  dynn_Yensu: "Yensu"
+ dynn_YeoB: "Lǚ"
+ dynn_YeoB2: "Rú"
  dynn_Yeo: "Yeo"
  dynn_Yeo_5442: "Yeo" # 呂 (여)
  dynn_Yeo_8339: "Yeo" # 茹 (여)
@@ -32109,6 +32138,8 @@
  dynn_Yezhou: "Yèzhōu"
  dynn_Yffing: "Yffing"
  dynn_Yhinma_ki: "Yhinmäki"
+ dynn_YiB: "Lǐ"
+ dynn_YiB2: "Yǐ"
  dynn_Yi: "Yi"
  dynn_Yi_6613: "Yì"
  dynn_Yi_674E: "Li"
@@ -32138,14 +32169,14 @@
  dynn_Yimaek: "Yimaek"
  dynn_Yimek: "Yimek"
  dynn_Yin: "Yin"
- dynn_Yin1: "Yīn"
+ dynn_Yin1: "Yǐn"
  dynn_Yin2: "Yǐn"
  dynn_Yin3: "Yīn"
- dynn_Yin_5C39: "Yin" # 尹
+ dynn_Yin_5C39: "Yǐn" # 尹
  dynn_Yin_6BB7: "Yīn"
  dynn_Ying: "Ying"
  dynn_Ying_61C9: "Yīng"
- dynn_Ying_7A4E: "Ying"
+ dynn_Ying_7A4E: "Yǐng"
  dynn_Yinikho: "Yinikho"
  dynn_Yinn: "Yin"
  dynn_Yinz: "Yinz"
@@ -32267,7 +32298,7 @@
  dynn_Yu_5B87: "Yǔ"
  dynn_Yu_5EBE: "Yu" # 庾 (유)
  dynn_Yu_65BC: "Yú"
- dynn_Yu_67F3: "Liu"
+ dynn_Yu_67F3: "Liǔ"
  dynn_Yu_807F: "Yù"
  dynn_Yu_82D1: "Yuàn"
  dynn_Yu_851A: "Wèi"
@@ -32318,6 +32349,7 @@
  dynn_Yujiulu: "Yujiulü"
  dynn_Yuk: "Yuk"
  dynn_Yuki: "Yuki"
+ dynn_YulB: "Yul"
  dynn_Yula: "Yula"
  dynn_Yulduz: "Yulduz"
  dynn_Yulibeili: "Yulibeili"
@@ -32355,7 +32387,7 @@
  dynn_Yusufid: "Yūsufī"
  dynn_Yuttina: "Yuttina"
  dynn_Yuwen: "Yǔwén"
- dynn_Yuwen_5B87: "Yu" # 宇
+ dynn_Yuwen_5B87: "Yǔ" # 宇
  dynn_Yuwen_5B87_6587: "Yuwén"
  dynn_Yuwono: "Yuwono"
  dynn_Yuzhi: "Yuzhi"
@@ -32449,7 +32481,7 @@
  dynn_Zamtsa_Ngorang: "Zamtsa Ngorang"
  dynn_Zan: "Zan"
  dynn_Zan1: "Zan"
- dynn_Zan_661D: "Zan"
+ dynn_Zan_661D: "Zǎn"
  dynn_Zanafig: "Zanāfij"
  dynn_Zanafij: "Zanāfij"
  dynn_Zanara: "Zanára"
@@ -32532,7 +32564,7 @@
  dynn_Zenevisi: "Zenevisi"
  dynn_Zeng: "Zeng"
  dynn_Zeng1: "Zeng"
- dynn_Zeng_66FE: "Céng" # 曾
+ dynn_Zeng_66FE: "Zēng" # 曾
  dynn_Zengi: "Zengī"
  dynn_Zengrur: "Zengrur"
  dynn_Zenius: "Zenius"
@@ -32569,15 +32601,15 @@
  dynn_Zhang2: "Zhāng"
  dynn_Zhang_5F20: "Zhāng" # 張
  dynn_Zhang_5F35: "Zhāng" # 彰
- dynn_Zhang_638C: "Zhang" # 掌
+ dynn_Zhang_638C: "Zhǎng" # 掌
  dynn_Zhang_7AE0: "Zhāng"
  dynn_Zhange: "Zhange"
  dynn_Zhange_7C98_5272: "Zhāng'é"
  dynn_Zhangpa: "Zhangpa"
  dynn_Zhangsun: "Zhǎngsūn"
  dynn_Zhangsun1: "Zhǎngsūn"
- dynn_Zhangsun_9577: "Zhang"
- dynn_Zhangsun_9577_5B6B: "Zhangsūn"
+ dynn_Zhangsun_9577: "Zhǎngsūn"
+ dynn_Zhangsun_9577_5B6B: "Zhǎngsūn"
  dynn_Zhangzhung: "Zhangzhung"
  dynn_Zhao: "Zhào"
  dynn_Zhao1: "Zhào"
@@ -32595,7 +32627,7 @@
  dynn_Zhen_7504: "Zhēn"
  dynn_Zhen_771F: "Zhēn"
  dynn_Zheng: "Zheng"
- dynn_Zheng1: "Zheng"
+ dynn_Zheng1: "Zhèng"
  dynn_Zheng_90D1: "Zhèng" # 郑
  dynn_Zheng_912D: "Zhèng" # 鄭
  dynn_Zhenxi: "Zhēnxī"
@@ -32611,7 +32643,7 @@
  dynn_Zhong1: "Zhōng"
  dynn_Zhong2: "Zhong"
  dynn_Zhong_4EF2: "Zhòng" # 仲
- dynn_Zhong_79CD: "Zhong" # 種
+ dynn_Zhong_79CD: "Zhǒng" # 種
  dynn_Zhong_937E: "Zhōng" # 鍾
  dynn_Zhong_9418: "Zhōng"
  dynn_Zhongli: "Zhongli"
@@ -32655,7 +32687,7 @@
  dynn_Zhytomyrsky: "Zhytomyrsky"
  dynn_Zi: "Zi"
  dynn_Zi1: "Zi"
- dynn_Zi_5B50: "Zi"
+ dynn_Zi_5B50: "Zǐ"
  dynn_Zi_Qi: "Zi Qi"
  dynn_Ziaki: "Ziaki"
  dynn_Ziani: "Ziani"
@@ -32711,8 +32743,8 @@
  dynn_Zou_90B9: "Zōu"
  dynn_Zou_9112: "Zōu" # 鄒
  dynn_Zrinski: "Zrinski"
- dynn_Zu1: "Zu"
- dynn_Zu_7956: "Zu"
+ dynn_Zu1: "Zǔ"
+ dynn_Zu_7956: "Zǔ"
  dynn_Zuaretz: "Zuaretz"
  dynn_Zuberoa: "Zuberoa"
  dynn_Zubivic: "Zubivič"
@@ -32734,7 +32766,7 @@
  dynn_Zumsoy: "Zumsoy"
  dynn_Zunbil: "Zunbīl"
  dynn_Zuo: "Zuo"
- dynn_Zuo_5DE6: "Zuo"
+ dynn_Zuo_5DE6: "Zuǒ"
  dynn_Zuoren: "Zuoren"
  dynn_Zur: "Zur"
  dynn_Zurayid: "Zuray'ī"
@@ -32759,6 +32791,45 @@
  dynn_Zyrme: "Zyrme"
  dynn_Zyrmi: "Zyrmi"
  dynn_Zyrpu: "Zyrpu"
+ dynn_Pumo: "Pǔmó"
+ dynn_Momi: "Mómí"
+ dynn_Momidian: "Mómídiàn"
+ dynn_Luowen: "Luòwēn"
+ dynn_Luomeng: "Luòméng"
+ dynn_Luowu: "Luówù"
+ dynn_Songmeng: "Sōngméng"
+ dynn_Rende: "Réndé"
+ dynn_Huazhu: "Huázhú"
+ dynn_Bipan: "Bìpàn"
+ dynn_Mile: "Mílè"
+ dynn_Shizong: "Shīzōng"
+ dynn_Yangchengbao: "Yángchéngbǎo"
+ dynn_Qingzong: "Qiángzōng"
+ dynn_Buxiong: "Bùxióng"
+ dynn_Luojia: "Luójiā"
+ dynn_Xiula: "Xiūlà"
+ dynn_Weimo: "Wéimó"
+ dynn_JiluY: "Jìlù"
+ dynn_Naiou: "Nàlóu"
+ dynn_Jiaohe: "Jiāohé"
+ dynn_Nainiang: "Nǎiniáng"
+ dynn_Mangbu: "Māngbù"
+ dynn_WusaY: "Wūsǎ"
+ 
+ dynn_NagouY: "Nàgòu"
+ dynn_Luijiu: "Luójiū"
+ dynn_YejuY: "Yèjū"
+ dynn_NingY: "Níng"
+ dynn_YinYuanY: "Yīnyuǎn"
+ dynn_LuoY: "Luó"
+ dynn_QuzhongsiY: "Qūzhōngsī"
+ dynn_YinijiaY: "Yǐnījiā"
+ dynn_WangnongshanY: "Wángnòngshān"
+ dynn_YusghiY: "Yúshǐ"
+ dynn_XiuzhiY: "Xiūzhì"
+ dynn_XieY: "Xí'é"
+
+ 
  dynn__Aeyni: "'Aeyni"
  dynn__Azizi: "'Azizi"
  dynn_a-saDZ_ba: "a-Sadzba"

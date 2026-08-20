@@ -6959,6 +6959,12 @@ custom_meritocratic_lands = {
 	# Yusseter: No current title counterpart: k_weichu k_dian k_tay_bac
 }
 
+custom_qocho = {
+	kingdoms = {
+		k_dzungaria k_khotan k_zhetysu
+	}
+}
+
 germanized_bavaria_areas = {
 	duchies = {
 		d_steyermark d_osterreich

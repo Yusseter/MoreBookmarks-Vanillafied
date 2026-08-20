@@ -1448,7 +1448,7 @@ name_list_norman = {
 		 Radolf Radulf Randolf Ranulf Raymond Rayner Richard Robert Roger Roscelin Raulf Raimund Rainald Rainbald Rainer Rainfrid Rainulf Richer Roald Rodald Rodger Rodulf Roul Reinald Reinold Rollo Reinfrid Reinold Raulph Regnald Rorich Ran
 		 Sayer Serlo Serril Sewal Silvester Simon Stefen Stephen SigarE_ Stihere Signor Sweyn Swain Siffus Sigrise Sicur Siegevaut SifrO_d Sylvain Sigefrid Seffrid Sigulf Siuard Suart Swein Sueno Suanus Suain Siward Svein
 		 Tancred Torf Turold Turquetil Turstin Tybalt ThE_roulde Teobald Terri Turleu Thakur Tihel Torin Thrand Trand Toroldus Turoldus Turulf Turof Thurulf Turgrim Turmod Turmodius Turbrand Thurbrand Tankrad
-		 Ulf Ulfo Ulfus Ule Ulfin Ulfer Ulfain Ulfot Ulfon Ubbin Ubie Udin Udre Udrin Ulfron Ulfor Une Unet Unre Unret Ungin Uscus Uskon Ulfol Ullon Ullin Utse Usse Ulie Ulver Ulger Ulouf Uldaire Ubaldrus Uller Unnarus Ubelin
+		 Ulf Ulfo Ulfus Ule Ulfin Ulfer Ulfain Ulfot_YB Ulfon Ubbin Ubie Udin Udre Udrin Ulfron Ulfor Une Unet Unre Unret Ungin Uscus Uskon Ulfol Ullon Ullin Utse Usse Ulie Ulver Ulger Ulouf Uldaire Ubaldrus Uller Unnarus Ubelin
 		 Walter William Wymund Warin Willelme Walcheline Wyamarus
 	}
 	female_names = {
@@ -1883,7 +1883,7 @@ name_list_late_norman = {
 		 Radolf Radulf Randolf Ranulf Raymond Rayner Richard Robert Roger Roscelin Raulf Raimund Rainald Rainbald Rainer Rainfrid Rainulf Richer Roald Rodald Rodger Rodulf Ranulph Reginald Ralph Roul Reinald Reinold Rollo Reinfrid Reinold Raulph Regnald Rorich Ran Roulf Roult Raulf
 		 Sayer Serlo Serril Sewal Silvester Simon Stefen Stephen SigarE_ Stihere Saier Signor Sweyn Swain Siffus Sigrise Sicur Siegevaut SifrO_d Sylvain Sigefrid Seffrid Sigulf Siuard Suart Swein Sueno Suanus Suain Siward Svein
 		 Tancred Torf Turold Turquetil Turstin Tybalt ThE_roulde Teobald Terri Turleu Thakur Tihel Torin Thrand Trand Toroldus Turoldus Turulf Turof Thurulf Turgrim Turmod Turmodius Turbrand Thurbrand Tankrad
-		 Ulf Ulfo Ulfus Ule Ulfin Ulfer Ulfain Ulfot Ulfon Ubbin Ubie Udin Udre Udrin Ulfron Ulfor Une Unet Unre Unret Ungin Uscus Uskon Ulfol Ullon Ullin Utse Usse Ulie Ulver Ulger Ulouf Uldaire Ubaldrus Uller Unnarus Ubelin
+		 Ulf Ulfo Ulfus Ule Ulfin Ulfer Ulfain Ulfot_YB Ulfon Ubbin Ubie Udin Udre Udrin Ulfron Ulfor Une Unet Unre Unret Ungin Uscus Uskon Ulfol Ullon Ullin Utse Usse Ulie Ulver Ulger Ulouf Uldaire Ubaldrus Uller Unnarus Ubelin
 		 Walter William Wymund Warin Willelme Walcheline Wyamarus
 	}
 	female_names = {
@@ -3189,7 +3189,7 @@ name_list_breton = {
 		"dynn_Wezenn_bin"
 		"dynn_Dorgenn"
 		"dynn_DraoN_ienn" 
-}
+	}
 
 	dynasty_names = {
 		{ "dynnp_de" "dynn_Dinan" }

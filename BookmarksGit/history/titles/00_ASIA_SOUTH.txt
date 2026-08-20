@@ -59844,7 +59844,7 @@ c_ma_linh = {
 	1210.1.1 = { holder = SEAsiaMB396	}
 	1250.1.1 = { holder = SEAsiaMB397	}
 	1300.1.1 = { holder = SEAsiaMB398	}
-	1325.1.1 = { holder = SEAsiaMB399 liege = e_dai_viet	}
+	1325.1.1 = { holder = SEAsiaMB399	}
 }
 ### Yusseter: COMMENTED FOR TESTING
 #c_kandarpapura = {
@@ -64153,6 +64153,7 @@ c_dongchuan = {
 	}
 	739.3.22 = {
 		holder = YiTribesWeimo2
+		liege = d_tuodong
 	}
 	771.11.30 = {
 		holder = YiTribesWeimo3
@@ -64547,6 +64548,7 @@ c_zuining = {
 	}
 	738.5.23 = {
 		holder = YiTribesYangch2
+		liege = d_tonghai
 	}
 	769.11.18 = {
 		holder = YiTribesYangch3
@@ -65036,7 +65038,7 @@ c_jianchuan = {
 		holder = DaliDong2  # Huaizhen
 	}
 	
-	760.1.1 = { liege = k_dali government = clan_government	}
+	760.1.1 = { liege = d_yongchang government = clan_government	}
 	
 	769.11.15 = {
 		holder = DaliDong3  # Congbang
@@ -65053,8 +65055,6 @@ c_jianchuan = {
 	858.4.12 = {
 		holder = DaliDong6  # Cheng (historical Nanzhao official)
 	}
-	
-	860.1.1 = { liege = d_yongchang	}
 	
 	891.8.20 = {
 		holder = DaliDong7  # Weiqian
@@ -65416,6 +65416,7 @@ c_muze = {
 	}
 	738.8.19 = {
 		holder = YiTribesShizong2  # Nyi_Ga
+		liege = d_tonghai
 	}
 	768.11.25 = {
 		holder = YiTribesShizong3  # Shu_Ha
@@ -65742,6 +65743,7 @@ c_jingzhou_2 = {
 	}
 	906.2.3 = {
 		holder = YiTribesBipan8  # Ssy_Huo
+		liege = d_shimen
 	}
 	935.6.17 = {
 		holder = YiTribesBipan9  # Wo_Ke
@@ -75078,10 +75080,10 @@ c_SUM_muara_takus = {
 	1159.11.19 = {
 		holder = Indonesia730  # Dharmasakti
 	}
+	1187.1.1 = { liege = e_srivijaya	}
 	1188.2.21 = {
 		holder = Indonesia734  # Sakalendukirana
 	}
-	1191.1.1 = { liege = e_srivijaya 	 }
 	1217.9.5 = {
 		holder = Indonesia738  # Rajawardana
 	}

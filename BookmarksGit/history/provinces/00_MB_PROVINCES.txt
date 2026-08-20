@@ -1546,8 +1546,7 @@ holding = church_holding
 	989.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 167 = {		#YAMA
@@ -2712,11 +2711,12 @@ holding = church_holding
 }
 
 291 = {	#TANNA
-	culture = jamts
+	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
 	1020.1.1 = {
 		religion = catholic
+		culture = norwegian
 		holding = castle_holding
 	}
 }
@@ -3416,11 +3416,12 @@ holding = church_holding
 }
 
 386 = {	#FROSO	aka Frösön
-	culture = jamts
+	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
 	1020.1.1 = {
 		religion = catholic
+		culture = norwegian
 		#Runestone from 1030-1050 erected in honour of Austmaðr's christianization of Jamtland
 	}
 }
@@ -3442,11 +3443,12 @@ holding = church_holding
 }
 
 389 = {	#MORARNA
-	culture = jamts
+	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
 	1020.1.1 = {
 		religion = catholic
+		culture = norwegian
 		holding = castle_holding
 	}
 }
@@ -3631,11 +3633,12 @@ holding = church_holding
 }
 
 439 = {	#HELGUM
-	culture = jamts
+	culture = norse
 	religion = norse_pagan
 	holding = tribal_holding
 	1020.1.1 = {
 		religion = catholic
+		culture = norwegian
 		holding = castle_holding
 	}
 }
@@ -4839,7 +4842,7 @@ religion = slavic_pagan
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = vistulan_kingdom }
+	990.1.1 = { culture = polish }
 	1066.1.1 = {
 		buildings = {
 			farm_estates_01
@@ -4868,7 +4871,7 @@ religion = slavic_pagan
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = masovian_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 530 = {		#Czersk
@@ -4879,7 +4882,7 @@ religion = slavic_pagan
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = masovian_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 531 = {		#Sandomierz
@@ -4890,7 +4893,7 @@ religion = slavic_pagan
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = vistulan_kingdom }
+	990.1.1 = { culture = polish }
 	1066.1.1 = {
 		buildings = {
 			hill_farms_01
@@ -4908,7 +4911,7 @@ religion = slavic_pagan
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = vistulan_kingdom }
+	990.1.1 = { culture = polish }
 	#The title history setup is clearly theocratic though it's not that even in HIP. 
 	1194.5.5 = {
 		holding = church_holding
@@ -4949,8 +4952,7 @@ religion = slavic_pagan
 			military_camps_01
 		}
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 535 = {		#Volodymyr
@@ -4964,8 +4966,7 @@ religion = slavic_pagan
 	989.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 536 = {		#Halych
@@ -4980,8 +4981,7 @@ religion = slavic_pagan
 		holding = castle_holding
 	}
 	1054.2.20 = {religion = slavic_orthodox }
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 537 = {		#Bereg
@@ -5121,8 +5121,7 @@ religion = slavic_pagan
 	1032.1.1 = {
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -5141,7 +5140,7 @@ religion = slavic_pagan
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 	
 
 }
@@ -5158,8 +5157,7 @@ religion = slavic_pagan
 	1030.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 547 = {	# 547 - Kiev
@@ -5198,8 +5196,7 @@ religion = slavic_pagan
 			regimental_grounds_01
 		}
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -5213,8 +5210,7 @@ religion = slavic_pagan
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 549 = {		#Berestye
@@ -5229,8 +5225,7 @@ religion = slavic_pagan
 	989.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 550 = {		#Minsk
@@ -5244,8 +5239,7 @@ religion = slavic_pagan
 	989.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 551 = {	# 551 - Mstislavl
@@ -5264,8 +5258,7 @@ religion = slavic_pagan
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 552 = {	# 552 - Turov
@@ -5294,8 +5287,7 @@ religion = slavic_pagan
 			outposts_01
 		}
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -5334,8 +5326,7 @@ religion = slavic_pagan
 			barracks_01
 		}
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 555 = {	# 555 - Pereyaslavl
@@ -5361,8 +5352,7 @@ religion = slavic_pagan
 			military_camps_01
 		}
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 556 = {	#556 - Samar
@@ -5471,7 +5461,6 @@ religion = tengri_pagan
 	1016.1.1 = {
 		culture = russian
 	}
-	1100.1.1 = { culture = proto_ruthenian }
 	1214.1.1 = { culture = tauro_romaic }
 
 
@@ -5562,8 +5551,7 @@ religion = tengri_pagan
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 568 = {		#Smolensk
@@ -5575,8 +5563,7 @@ religion = tengri_pagan
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 569 = {	# 569 - Vyazma
@@ -5594,9 +5581,8 @@ religion = tengri_pagan
 		holding = castle_holding
 	}
 	1040.1.1 = {religion = baltic_pagan}
-	1148.1.1 = {culture = byelorusian
-				religion = slavic_orthodox}
-	#1330.1.1 = { culture = great_russian }
+	1148.1.1 = { religion = slavic_orthodox}
+	1243.1.1 = { culture = great_russian }
 }
 
 570 = {		#Dmitrov
@@ -5622,8 +5608,7 @@ religion = tengri_pagan
 	culture = russian
 	religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = vladimirian }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 572 = {		#Yaroslavl
@@ -5635,8 +5620,7 @@ religion = tengri_pagan
 	}
 	1000.1.1 = {religion = slavic_orthodox }
 	1000.1.1 = {culture = russian }
-	1100.1.1 = { culture = vladimirian }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 573 = {		#Pereyaslavl Zalessky
@@ -5662,8 +5646,7 @@ religion = tengri_pagan
 		culture = russian
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = vladimirian }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 575 = {		#Moskva
@@ -5678,7 +5661,6 @@ religion = tengri_pagan
 		religion = slavic_pagan	
 	}
 	1025.1.1 = { religion = slavic_orthodox }
-	1100.1.1 = { culture = vladimirian }
 	1337.1.1 = {
 		buildings = {
 			curtain_walls_01
@@ -5688,7 +5670,7 @@ religion = tengri_pagan
 			common_tradeport_02
 		}
 	}
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 576 = {	# 576 - Debryansk (Bryansk)
@@ -5720,9 +5702,9 @@ religion = tengri_pagan
 	1025.1.1 = {
 		holding = castle_holding
 	}
-	1130.1.1 = { culture = ryazanian }
+	1130.1.1 = { culture = russian }
 	1130.1.1 = { religion = slavic_orthodox }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 
 }
 
@@ -5739,8 +5721,8 @@ religion = tengri_pagan
 		holding = castle_holding
 	}
 	1130.1.1 = { religion = slavic_orthodox }
-	1130.1.1 = { culture = ryazanian }
-	#1330.1.1 = { culture = great_russian }
+	1130.1.1 = { culture = russian }
+	1243.1.1 = { culture = great_russian }
 	
 }
 
@@ -5761,8 +5743,8 @@ religion = tengri_pagan
 		holding = castle_holding
 	}
 	1110.1.1 = { religion = slavic_orthodox }
-	1120.1.1 = { culture = ryazanian }
-	#1330.1.1 = { culture = great_russian }
+	1120.1.1 = { culture = russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 581 = {		#Murom
@@ -5772,7 +5754,7 @@ religion = tengri_pagan
 	1025.1.1 = {
 		holding = castle_holding
 	}
-	1150.1.1 = { culture = ryazanian }
+	1150.1.1 = { culture = russian }
 	1150.1.1 = { religion = slavic_orthodox}
 	1066.1.1 = {
 		buildings = {
@@ -5780,7 +5762,7 @@ religion = tengri_pagan
 			market_villages_01
 		}
 	}
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 582 = {		#Vladimir
@@ -5795,8 +5777,7 @@ religion = tengri_pagan
 		religion = slavic_pagan
 	}
 	1025.1.1 = {religion = slavic_orthodox }
-	1100.1.1 = { culture = vladimirian }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 583 = {		#Starodub-on-the-Klyazma
@@ -5810,12 +5791,12 @@ religion = tengri_pagan
 	culture = muroma
 	religion = mari_pagan
 	holding = tribal_holding
-	1221.1.1 = { culture = ryazanian }
+	1221.1.1 = { culture = russian }
 	1221.1.1 = { religion = slavic_orthodox }
 	1221.1.1 = {
 		holding = castle_holding
 	}
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 585 = {	# 585 - Gorodets
@@ -5847,11 +5828,11 @@ religion = tengri_pagan
 	religion = baltic_pagan
 	holding = tribal_holding
 
-	1148.1.1 = {culture = vladimirian religion = slavic_orthodox}
+	1148.1.1 = {culture = russian religion = slavic_orthodox}
 	1148.1.1 = {
 		holding = castle_holding
 	}
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 588 = {		#Yoshkar-Ola
@@ -8832,8 +8813,7 @@ religion = jacobite #no syriac in CK3
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 934 = {		#Lukoml
@@ -8847,8 +8827,7 @@ religion = jacobite #no syriac in CK3
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 952 = {	# YIYANG 1
@@ -13200,7 +13179,7 @@ religion = jacobite #no syriac in CK3
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = castle_holding
 	
@@ -13209,13 +13188,17 @@ religion = jacobite #no syriac in CK3
 		culture = uyghur
 	}
 
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
+	}
 }
 
 1443 = {	# 1443 - Karashar
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = castle_holding
 	
@@ -13223,25 +13206,33 @@ religion = jacobite #no syriac in CK3
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
 	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
+	}
 }
 
 1444 = {	# 1444 - Kucha
 	
 	# Misc
-	culture = saka
-	religion = vajrayana
+	culture = tocharian
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = castle_holding
 	
 	# History
-950.1.1 = {	culture = uyghur }
-1200.1.1 = {
+1250.1.1 = {	culture = uyghur }
+1250.1.1 = {
 	religion = maturidi
 	
 }
 1250.1.1 = { culture = karluk }
 1300.1.1 = {
 		culture = chagatai
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -13283,13 +13274,17 @@ religion = jacobite #no syriac in CK3
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = castle_holding
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -13334,7 +13329,6 @@ religion = jacobite #no syriac in CK3
 	
     900.1.1 = {
         culture = naiman
-        religion = nestorian
     }
  
 	holding = tribal_holding
@@ -13433,7 +13427,6 @@ religion = jacobite #no syriac in CK3
 
     900.1.1 = {
         culture = dukha
-        religion = ulganism
     }
 	holding = tribal_holding
 }
@@ -18148,7 +18141,6 @@ religion = jacobite #no syriac in CK3
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = high_alemannic }
 }
 
 2047 = {	#THUN
@@ -18172,7 +18164,6 @@ religion = jacobite #no syriac in CK3
 	1066.1.1 = {
 		holding = church_holding
 	}	
-	1250.1.1 = { culture = high_alemannic }
 }
 
 2051 = {	#ZURICH
@@ -18421,7 +18412,6 @@ religion = jacobite #no syriac in CK3
 2091 = {	#Bouillon
 	culture = frankish
 	790.1.1 = { culture = french }
-	1210.1.1 = { culture = lorrainian }
 	religion = catholic
 	holding = castle_holding
 }
@@ -18491,7 +18481,7 @@ religion = jacobite #no syriac in CK3
 	religion = catholic
 	holding = castle_holding
 	1150.1.1 = {
-		culture = brabantian
+		culture = dutch
 	}
 }
 
@@ -18536,7 +18526,7 @@ religion = jacobite #no syriac in CK3
 	religion = catholic
 	holding = castle_holding
 	1150.1.1 = {
-		culture = brabantian
+		culture = dutch
 	}
 }
 
@@ -18545,7 +18535,7 @@ religion = jacobite #no syriac in CK3
 	religion = catholic
 	holding = castle_holding
 	1150.1.1 = {
-		culture = brabantian
+		culture = dutch
 	}
 	1300.1.1 = { religion = free_spirit }
 }
@@ -18555,7 +18545,7 @@ religion = jacobite #no syriac in CK3
 	religion = catholic
 	holding = castle_holding
 	1150.1.1 = {
-		culture = brabantian
+		culture = dutch
 	}
 	1300.1.1 = { religion = free_spirit }
 }
@@ -18569,7 +18559,7 @@ religion = jacobite #no syriac in CK3
 	religion = catholic
 	holding = castle_holding
 	1150.1.1 = {
-		culture = brabantian
+		culture = dutch
 	}
 }
 
@@ -19617,7 +19607,7 @@ religion = catholic
 2261 = {	#SAUMUR
 	culture = gallo_roman
 	790.1.1 = { culture = french }
-	950.1.1 = { culture = angevin }
+	950.1.1 = { culture = french }
 	religion = catholic
 	holding = castle_holding
 }
@@ -19625,7 +19615,7 @@ religion = catholic
 2262 = {	#CRAON
 	culture = gallo_roman
 	790.1.1 = { culture = french }
-	950.1.1 = { culture = angevin }
+	950.1.1 = { culture = french }
 	religion = catholic
 	holding = castle_holding
 }
@@ -19640,7 +19630,7 @@ religion = catholic
 2264 = {	#SABLE
 	culture = gallo_roman
 	790.1.1 = { culture = french }
-	950.1.1 = { culture = angevin }
+	950.1.1 = { culture = french }
 	religion = catholic
 	holding = castle_holding
 }
@@ -19659,7 +19649,7 @@ religion = catholic
 2267 = {	#ANGERS
 	culture = gallo_roman
 	790.1.1 = { culture = french }
-	950.1.1 = { culture = angevin }
+	950.1.1 = { culture = french }
 	religion = catholic
 	holding = castle_holding
 }
@@ -19678,7 +19668,7 @@ religion = catholic
 2270 = {	#LE MANS
 	culture = frankish
 	790.1.1 = { culture = french }
-	950.1.1 = { culture = angevin }
+	950.1.1 = { culture = french }
 	religion = catholic
 	holding = castle_holding
 }
@@ -19701,7 +19691,7 @@ religion = catholic
 
 	religion = catholic
 	holding = castle_holding
-	950.1.1 = { culture = angevin }
+	950.1.1 = { culture = french }
 	1066.1.1 = {
 		buildings = {
 			cereal_fields_01
@@ -19758,7 +19748,7 @@ religion = catholic
 2283 = {	#VENODME
 	culture = frankish
 	790.1.1 = { culture = french }
-	950.1.1 = { culture = angevin }
+	950.1.1 = { culture = french }
 	religion = catholic
 	holding = castle_holding
 }
@@ -20442,7 +20432,6 @@ religion = catholic
 2387 = {	#VAUCOULEURS
 	culture = frankish
 	790.1.1 = { culture = french }
-	1210.1.1 = { culture = lorrainian }
 	religion = catholic
 	holding = castle_holding
 }
@@ -20450,7 +20439,6 @@ religion = catholic
 2388 = {	#BAR
 	culture = frankish
 	790.1.1 = { culture = french }
-	1210.1.1 = { culture = lorrainian }
 	religion = catholic
 	holding = castle_holding
 }
@@ -20859,7 +20847,6 @@ religion = catholic
 2443 = {	#RAVENSBERG
 	culture = old_saxon
 	790.1.1 = { culture = saxon }
-	1255.1.1 = { culture = westphalian }
 	religion = saxon_pagan
 	867.1.1 = { religion = catholic }
 	
@@ -20884,7 +20871,6 @@ religion = catholic
 2446 = {	#TECKLENBURG
 	culture = old_saxon
 	790.1.1 = { culture = saxon }
-	1255.1.1 = { culture = westphalian }
 	religion = saxon_pagan
 	867.1.1 = { religion = catholic }
 	
@@ -20993,7 +20979,6 @@ religion = catholic
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = high_alemannic }
 }
 
 2462 = {	#COGNAC
@@ -22445,7 +22430,6 @@ religion = catholic
 2670 = {	#MUNSTER
 	culture = old_saxon
 	790.1.1 = { culture = saxon }
-	1255.1.1 = { culture = westphalian }
 	religion = saxon_pagan
 	867.1.1 = { religion = catholic }
 	
@@ -22472,7 +22456,6 @@ religion = catholic
 2673 = {	#DORTMUND
 	culture = old_saxon
 	790.1.1 = { culture = saxon }
-	1255.1.1 = { culture = westphalian }
 	religion = catholic
 	holding = castle_holding
 }
@@ -22507,7 +22490,6 @@ religion = catholic
 2679 = {	#MARK
 	culture = old_saxon
 	790.1.1 = { culture = saxon }
-	1255.1.1 = { culture = westphalian }
 	religion = catholic
 	holding = castle_holding
 }
@@ -22515,7 +22497,6 @@ religion = catholic
 2680 = {	#ARNSBERG
 	culture = old_saxon
 	790.1.1 = { culture = saxon }
-	1255.1.1 = { culture = westphalian }
 	religion = saxon_pagan
 	867.1.1 = { religion = catholic }
 	
@@ -22561,7 +22542,6 @@ religion = catholic
 2686 = {	#CHINY
 	culture = frankish
 	790.1.1 = { culture = french }
-	1210.1.1 = { culture = lorrainian }
 	religion = catholic
 	holding = castle_holding
 }
@@ -22672,7 +22652,6 @@ religion = catholic
 2706 = {	#BRIEY
 	culture = frankish
 	790.1.1 = { culture = french }
-	1210.1.1 = { culture = lorrainian }
 	religion = catholic
 	holding = castle_holding
 }
@@ -22686,7 +22665,6 @@ religion = catholic
 2708 = {	#METZ
 	culture = frankish
 	790.1.1 = { culture = franconian }
-	1210.1.1 = { culture = lorrainian }
 	religion = catholic
 	holding = castle_holding
 	
@@ -22730,7 +22708,6 @@ religion = catholic
 2715 = {	#VAUDEMONT
 	culture = frankish
 	790.1.1 = { culture = french }
-	1210.1.1 = { culture = lorrainian }
 	religion = catholic
 	holding = castle_holding
 }
@@ -22745,14 +22722,12 @@ religion = catholic
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = alsatian }
 }
 
 2720 = {	#FERRETTE
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = alsatian }
   
 }
 
@@ -22875,7 +22850,6 @@ religion = catholic
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = alsatian }
 }
 
 2747 = {	#CALW
@@ -22903,7 +22877,6 @@ religion = catholic
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = alsatian }
 }
 
 2752 = {	#OFFENBURG
@@ -22933,7 +22906,6 @@ religion = catholic
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = high_alemannic }
 }
 
 2758 = {	#LUPFEN
@@ -22965,7 +22937,6 @@ religion = catholic
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = high_alemannic }
 }
 
 2763 = {	#ZOLLERN
@@ -23650,7 +23621,6 @@ religion = catholic
 2847 = {	#PADERBORN
 	culture = old_saxon
 	790.1.1 = { culture = saxon }
-	1255.1.1 = { culture = westphalian }
 	religion = saxon_pagan
 	867.1.1 = { religion = catholic }
 	
@@ -24867,7 +24837,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = silesian_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 3041 = {	#Bielsko
@@ -24885,7 +24855,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = silesian_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 3043 = {	#Rybnik
@@ -24903,7 +24873,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	1050.1.1 = { culture = silesian_kingdom }
+	1050.1.1 = { culture = polish }
 }
 
 3045 = {	#Breslau / Wroclaw
@@ -24914,7 +24884,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = silesian_kingdom }
+	990.1.1 = { culture = polish }
 	1066.1.1 = {
 		buildings = {
 			cereal_fields_01
@@ -24947,7 +24917,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	1050.1.1 = { culture = silesian_kingdom }
+	1050.1.1 = { culture = polish }
 }
 
 3049 = {	#Brzeg
@@ -24958,7 +24928,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	1050.1.1 = { culture = silesian_kingdom }
+	1050.1.1 = { culture = polish }
 	1255.1.1 = { culture = german_silesian } # German Settlers
 }
 
@@ -24984,7 +24954,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	1050.1.1 = { culture = silesian_kingdom }
+	1050.1.1 = { culture = polish }
 }
 
 3053 = {	#Kreuzburg / Kluczbork
@@ -25031,7 +25001,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = silesian_kingdom }
+	990.1.1 = { culture = polish }
 	1245.1.1 = { culture = german_silesian } # German Settlers
 	
 }
@@ -25058,7 +25028,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = silesian_kingdom }
+	990.1.1 = { culture = polish }
 	1300.1.1 = { culture = german_silesian } # German Settlers
 }
 
@@ -25084,7 +25054,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = silesian_kingdom }
+	990.1.1 = { culture = polish }
 	1245.1.1 = { culture = german_silesian } # German Settlers
 	
 }
@@ -25111,7 +25081,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = silesian_kingdom }
+	990.1.1 = { culture = polish }
 	1245.1.1 = { culture = german_silesian } # German Settlers
 	
 }
@@ -25124,7 +25094,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = silesian_kingdom }
+	990.1.1 = { culture = polish }
 	1245.1.1 = { culture = german_silesian } # German Settlers
 	
 }
@@ -25678,7 +25648,7 @@ holding = none
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = silesian_kingdom }
+	990.1.1 = { culture = polish }
 	1245.1.1 = { culture = german_silesian } # German Settlers
 	
 }
@@ -33516,7 +33486,7 @@ religion = orthodox
 	867.1.1 = { religion = bohemian_catholic }
 	940.1.1 = { religion = catholic }
 	990.1.1 = { culture = slovien }
-	1300.1.1 = { culture = silesian_kingdom }
+	1300.1.1 = { culture = polish }
 
 }
 
@@ -39399,7 +39369,7 @@ religion = jacobite
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = masovian_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 4923 = {	#Michalowo
@@ -39522,7 +39492,7 @@ religion = jacobite
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = masovian_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 4941 = {	#Rawa
@@ -39540,7 +39510,7 @@ religion = jacobite
 	culture = masovian
 	religion = slavic_pagan
 	holding = tribal_holding
-	990.1.1 = { culture = masovian_kingdom }
+	990.1.1 = { culture = polish }
 	1050.4.14 = {
 		religion = catholic
 		holding = castle_holding
@@ -39566,7 +39536,7 @@ religion = jacobite
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = masovian_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 4947 = {	#Nur
@@ -39602,7 +39572,7 @@ religion = jacobite
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = masovian_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 4952 = {	#Lukow
@@ -39617,7 +39587,7 @@ religion = jacobite
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = vistulan_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 4954 = {	#Opoczno
@@ -39644,7 +39614,7 @@ religion = jacobite
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = vistulan_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 4958 = {	#Parczew
@@ -39695,7 +39665,7 @@ religion = jacobite
 		religion = catholic
 		holding = castle_holding
 	}
-	990.1.1 = { culture = vistulan_kingdom }
+	990.1.1 = { culture = polish }
 }
 
 4966 = {	#Mielec
@@ -40348,7 +40318,7 @@ religion = jacobite
 		holding = castle_holding
 		#Date used to switch ti feudal_government in title history
 	}
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 	
 }
 
@@ -40377,8 +40347,7 @@ religion = jacobite
 	1054.1.1 = {
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5041 = {	#Tetina
@@ -40408,8 +40377,8 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ holding = castle_holding}
-	#1330.1.1 = { culture = ruthenian }
+	1100.1.1 = { holding = castle_holding}
+	1243.1.1 = { culture = ruthenian }
 }
 
 5045 = {	#Slonim
@@ -40461,8 +40430,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5052 = {	# Rivne
@@ -40509,8 +40477,7 @@ religion = jacobite
 	989.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5058 = {	#Kobryn
@@ -40557,8 +40524,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5064 = {	#Zvenyhorod
@@ -40606,8 +40572,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5071 = {	#Dubno
@@ -40635,8 +40600,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5074 = {	#Volin
@@ -40671,8 +40635,7 @@ religion = jacobite
 	989.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5078 = {	#Liubachev
@@ -40805,8 +40768,7 @@ religion = jacobite
 	1032.1.1 = {
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -40882,8 +40844,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -40962,8 +40923,7 @@ religion = jacobite
 	867.1.1 = {
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -41020,8 +40980,7 @@ religion = jacobite
 	1030.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -41126,8 +41085,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -41221,8 +41179,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -41277,8 +41234,7 @@ religion = jacobite
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5115 = {	#Zhytkavichy
@@ -41297,8 +41253,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5118 = {	#Baranovichi
@@ -41314,8 +41269,7 @@ religion = jacobite
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5120 = {	#Zhlobin
@@ -41351,8 +41305,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -41374,8 +41327,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5125 = {	#Maladzyechna
@@ -41398,8 +41350,7 @@ religion = jacobite
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5128 = {	#Drutsk
@@ -41427,8 +41378,7 @@ religion = jacobite
 			military_camps_01
 		}
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5130 = {	#Drysa
@@ -41458,8 +41408,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5135 = {	#Haradok
@@ -41479,8 +41428,7 @@ religion = jacobite
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = volyn_ }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5137 = {	#Novgorod
@@ -41775,8 +41723,8 @@ religion = jacobite
 	1040.1.1 = {
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = vladimirian }
-	#1330.1.1 = { culture = great_russian }
+	1100.1.1 = { culture = russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5174 = {	#Volok Lamsky
@@ -41869,8 +41817,7 @@ religion = jacobite
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5182 = {	# 5182 - Akhtyr
@@ -41939,8 +41886,7 @@ religion = jacobite
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5186 = {	# 5186 - Lokhrytsia
@@ -42000,8 +41946,7 @@ religion = jacobite
 		religion = slavic_orthodox
 		culture = russian
 	}
-	1100.1.1 = { culture = proto_ruthenian }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5190 = {	# 5190 - Lubny
@@ -42070,8 +42015,7 @@ religion = jacobite
 	1030.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5194 = {	# 5194 - Vyr'
@@ -42119,8 +42063,7 @@ religion = jacobite
 	1030.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5197 = {	# 5197 - Rylsk
@@ -42140,8 +42083,7 @@ religion = jacobite
 	1030.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 	
 }
 
@@ -42192,8 +42134,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 
 }
 
@@ -42245,8 +42186,7 @@ religion = jacobite
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = ruthenian }
+	1243.1.1 = { culture = ruthenian }
 }
 
 5204 = {	# 5204 - Trubetsk
@@ -42294,8 +42234,7 @@ religion = jacobite
 	1030.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5207 = {	# 5207 - Ust-livny
@@ -42340,8 +42279,7 @@ religion = jacobite
 	1030.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = chernigovan }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5210 = {	# 5210 - Krom
@@ -42392,8 +42330,7 @@ religion = jacobite
 	1000.9.15 = {
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5213 = {	# 5213 - Vorotynsk
@@ -42445,8 +42382,7 @@ religion = jacobite
 	1050.1.1 = {
 		culture = russian
 	}
-	1100.1.1 = { culture = ryazanian }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5216 = {	# 5216 - Mtensk
@@ -42482,9 +42418,9 @@ religion = jacobite
 		religion = slavic_orthodox
 	}
 	1220.1.1 = {
-		culture = ryazanian
+		culture = russian
 	}
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5218 = {	# 5218 - Suvorov
@@ -42526,7 +42462,6 @@ religion = jacobite
 		religion = slavic_orthodox
 		holding = city_holding
 	}
-	1100.1.1 = { culture = byelorusian }
 }
 
 5222 = {	#Velizh
@@ -42542,8 +42477,7 @@ religion = jacobite
 		religion = slavic_orthodox
 		holding = castle_holding
 	}
-	1100.1.1 = { culture = byelorusian }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5224 = {	#Klimavichy
@@ -42587,7 +42521,7 @@ religion = jacobite
 	1025.1.1 = {
 		holding = city_holding
 	}
-	1100.1.1 = { culture = ryazanian }
+	1100.1.1 = { culture = russian }
 }
 
 5232 = {	#Yelets
@@ -42643,8 +42577,7 @@ religion = jacobite
 			military_camps_01
 		}
 	}
-	1100.1.1 = { culture = vladimirian }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5240 = {	#Yuryev
@@ -42695,8 +42628,7 @@ religion = jacobite
 		culture = russian
 		religion = slavic_orthodox
 	}
-	1100.1.1 = { culture = vladimirian }
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5248 = {	#Shuya
@@ -42728,12 +42660,12 @@ religion = jacobite
 	holding = tribal_holding
 	
 	# History
-	1152.1.1 = { culture = vladimirian } 
+	1152.1.1 = { culture = russian } 
 	1152.1.1 = { religion = slavic_orthodox } 
 	1152.1.1 = {
 		holding = castle_holding
 	}
-	#1330.1.1 = { culture = great_russian }
+	1243.1.1 = { culture = great_russian }
 }
 
 5252 = {	#Chukhloma
@@ -43502,8 +43434,10 @@ religion = tengri_pagan
 	holding = tribal_holding
 	1209.1.2 = {
 		religion = slavic_orthodox
-		culture = ryazanian
+		holding = castle_holding
+		culture = russian
 	}
+	1243.1.1 = { culture = great_russian }
 }
 
 5351 = {	#Lipetsk
@@ -48511,8 +48445,9 @@ religion = armenian_apostolic
 	1164.1.2 = {
 		holding = castle_holding
 		religion = slavic_orthodox
-		culture = vladimirian
+		culture = russian
 	}
+	1243.1.1 = { culture = great_russian }
 	
 }
 
@@ -58151,9 +58086,6 @@ religion = jacobite
 	1055.1.1 = {
 		religion = maturidi
 	}
-	1134.1.1 = { #The Khitan migration didn't make all of central Asia Khitan
-		culture = qitai
-	}
 	1250.1.1 = {
 		culture = kirghiz
 	}
@@ -60313,10 +60245,6 @@ religion = jacobite
 	holding = castle_holding
 	930.1.1 = {
         culture = basmyl
-        religion = nestorian
-    }
-	1250.1.1 = {
-        religion = vajrayana
     }
 }
 
@@ -60352,17 +60280,13 @@ religion = jacobite
 
 7469 = {	#Barkul
 	culture = uyghur
-	religion = vajrayana
+	religion = manichean
 	holding = tribal_holding
 	900.2.22 = {
 		holding = castle_holding
 	}
 	930.1.1 = {
         culture = basmyl
-        religion = nestorian
-    }
-	1250.1.1 = {
-        religion = vajrayana
     }
 }
 
@@ -60410,7 +60334,6 @@ religion = jacobite
 
     930.1.1 = {
         culture = naiman
-        religion = nestorian
     }
 	
 	#holding = xx
@@ -60506,7 +60429,6 @@ religion = jacobite
 	}
 	930.1.2 = {
 		culture = naiman
-		religion = nestorian
 	}
 }
 
@@ -60663,7 +60585,7 @@ religion = jacobite
 	
     930.1.1 = {
         culture = naiman
-        religion = nestorian
+        religion = eastern_tengri #Converted from nestorian: pocket of paganism outside the duchy-capital Christian centers
     }
 }
 
@@ -61041,14 +60963,13 @@ religion = jacobite
 7570 = {	#Ongi
 	#XVIIth century monasteries
 	culture = bayirku
-    religion = ulganism
+    religion = eastern_tengri
 
     900.1.1 = {
         culture = qun
     }
     930.1.1 = {
         culture = kerait
-		religion = nestorian
     }
 	holding = tribal_holding
 
@@ -61067,17 +60988,13 @@ religion = jacobite
 7573 = {	#Tovkhon
 	#Monastery established in the XVIIth century
 	culture = uyghur
-    religion = ulganism
+    religion = eastern_tengri
 
     930.1.1 = {
         culture = kerait
-		religion = eastern_tengri
     }
 	holding = tribal_holding
-	
-	1020.1.2 = {
-		religion = nestorian
-	}
+
 }
 
 7574 = {	#Oigon
@@ -66635,13 +66552,17 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66649,13 +66570,17 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66663,13 +66588,17 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66677,13 +66606,17 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66691,7 +66624,7 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
@@ -66699,13 +66632,17 @@ religion = jacobite
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
 	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
+	}
 }
 
 7980 = {	# 7980 - Luntai
 	
 	# Misc
 	culture = saka
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = castle_holding
 	
@@ -66719,19 +66656,27 @@ religion = jacobite
 1300.1.1 = {
 		culture = chagatai
 	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
+	}
 }
 
 7981 = {	# 7981 - Shorchuk
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66739,13 +66684,17 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66753,13 +66702,17 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66767,13 +66720,17 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66781,7 +66738,7 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = castle_holding
 	
@@ -66789,19 +66746,27 @@ religion = jacobite
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
 	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
+	}
 }
 
 7986 = {	# 7986 - Bezeklik
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66809,13 +66774,17 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66823,7 +66792,7 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
@@ -66831,19 +66800,27 @@ religion = jacobite
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
 	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
+	}
 }
 
 7989 = {	# 7989 - Kongque
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66865,13 +66842,17 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -66879,7 +66860,7 @@ religion = jacobite
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
@@ -66887,19 +66868,27 @@ religion = jacobite
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
 	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
+	}
 }
 
 7993 = {	# 7993 - Chelik
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
 	# History
 	900.1.1 = {		#Qocho Kingdom
 		culture = uyghur
+	}
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
 	}
 }
 
@@ -76028,9 +76017,7 @@ holding = castle_holding
 			watchtowers_01
 		}
 	}
-	1140.1.1 = {
-		religion = sakya
-	}
+
 }
 
 9475 = {	# Akeqi
@@ -76057,6 +76044,10 @@ holding = castle_holding
 		culture = tangut
 	}
 	1140.1.1 = {
+		religion = kagyu #Kagyu imperial preceptor patronage (Tangut court, mid-12th c.)
+	}
+
+	1260.1.1 = { #Yuan-era Sakya patronage begins (Phagpa becomes Kublai's preceptor)
 		religion = sakya
 	}
 }
@@ -76077,9 +76068,7 @@ holding = castle_holding
 	holding = castle_holding
 	
 	# History
-	1140.1.1 = {
-		religion = sakya
-	}
+
 }
 
 9480 = {	# Yanchiwan
@@ -76189,9 +76178,10 @@ holding = castle_holding
 	894.1.1 = {
 		culture = yughur
 	}
-	1140.1.1 = {
-		religion = sakya
+	926.1.1 = { #Ganzhou Uyghur Kingdom conversion; stays generic Tibetan-influenced Buddhism, not tied to Tangut court school politics
+		religion = vajrayana
 	}
+
 }
 
 9492 = {	# Huahai
@@ -76209,9 +76199,10 @@ holding = castle_holding
 	894.1.1 = {
 		culture = yughur
 	}
-	1140.1.1 = {
-		religion = sakya
+	926.1.1 = { #Ganzhou Uyghur Kingdom conversion; stays generic Tibetan-influenced Buddhism, not tied to Tangut court school politics
+		religion = vajrayana
 	}
+
 
 }
 
@@ -76263,9 +76254,10 @@ holding = castle_holding
 	894.1.1 = {
 		culture = yughur
 	}
-	1140.1.1 = {
-		religion = sakya
+	926.1.1 = { #Ganzhou Uyghur Kingdom conversion; stays generic Tibetan-influenced Buddhism, not tied to Tangut court school politics
+		religion = vajrayana
 	}
+
 }
 
 9502 = {	# Gaotai
@@ -76283,9 +76275,6 @@ holding = castle_holding
 	1080.1.1 = {
 		religion = mahayana
 	}
-	1140.1.1 = {
-		religion = sakya
-	}
 }
 
 9503 = {	# Pingchuan
@@ -76293,12 +76282,9 @@ holding = castle_holding
 }
 
 9504 = {	# Heihe
+	culture = tangut
+	religion = melieism
 	holding = city_holding
-	
-	# History
-	#1050.1.1 = {
-	#	religion = melieism
-	#}
 }
 
 9505 = {	# Hangtian
@@ -76318,7 +76304,7 @@ holding = castle_holding
 		religion = vajrayana
 	}
 	1140.1.1 = {
-		religion = sakya 
+		religion = kagyu #Kagyu imperial preceptor patronage (Tangut court, mid-12th c.)
 	}
 	1250.1.1 = {
 		culture = tumed
@@ -76341,7 +76327,7 @@ holding = castle_holding
 		holding = castle_holding
 	}
 	1140.1.1 = {
-		religion = sakya 
+		religion = kagyu #Kagyu imperial preceptor patronage (Tangut court, mid-12th c.)
 	}
 	1250.1.1 = {
 		culture = tumed
@@ -76424,9 +76410,7 @@ holding = castle_holding
 		culture = yughur
 		religion = lamaism
 	}
-	1140.1.1 = {
-		religion = sakya
-	}
+
 }
 
 9512 = {	# Semnyi
@@ -76447,9 +76431,7 @@ holding = castle_holding
 	926.1.1 = { #To reflect the new ruler's faith and ensure capital is the same
 		religion = vajrayana
 	}
-	1140.1.1 = {
-		religion = sakya
-	}
+
 }
 
 9514 = {	# Shandan
@@ -76490,6 +76472,9 @@ holding = castle_holding
 		religion = vajrayana
 	}
 	1100.1.1 = {
+		religion = kagyu #Kagyu imperial preceptor patronage (Tangut court, mid-12th c.)
+	}
+	1260.1.1 = { #Yuan-era Sakya patronage begins (Phagpa becomes Kublai's preceptor)
 		religion = sakya
 	}
 	1300.1.1 = {
@@ -76531,6 +76516,9 @@ holding = castle_holding
 		religion = vajrayana
 	}
 	1100.1.1 = {
+		religion = kagyu #Kagyu imperial preceptor patronage (Tangut court, mid-12th c.)
+	}
+	1260.1.1 = { #Yuan-era Sakya patronage begins (Phagpa becomes Kublai's preceptor)
 		religion = sakya
 	}
 	1300.1.1 = {
@@ -77192,7 +77180,7 @@ holding = castle_holding
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
@@ -77201,13 +77189,17 @@ holding = castle_holding
 		culture = uyghur
 	}
 
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
+	}
 }
 
 9601 = {	#9601 - Waxxari
 	
 	# Misc
 	culture = tocharian
-	religion = vajrayana
+	religion = sarvastivada #Corrected: Tocharian Sarvastivada predominated until the 10th c., not generic Vajrayana
 	
 	holding = none
 	
@@ -77216,6 +77208,10 @@ holding = castle_holding
 		culture = uyghur
 	}
 
+
+	1050.1.1 = { #Uyghur clergy take over religious leadership from Tocharian/Chinese; Sinicized Yogacara (Faxiang) tradition takes hold
+		religion = yogacara
+	}
 }
 
 9602 = {	#9602 - Saca
@@ -77865,14 +77861,12 @@ holding = castle_holding
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = high_alemannic }
 }
 
 9671 = {	#ZURICH
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = high_alemannic }
 }
 
 9672 = {	#TECK
@@ -77930,7 +77924,6 @@ holding = castle_holding
 9681 = {	#NANCY
 	culture = frankish
 	790.1.1 = { culture = french }
-	1210.1.1 = { culture = lorrainian }
 	religion = catholic
 	holding = castle_holding
 }
@@ -77939,7 +77932,6 @@ holding = castle_holding
 	culture = swabian
 	religion = catholic
 	holding = castle_holding
-	1250.1.1 = { culture = alsatian }
 }
 
 9683 = {	#AOSTA
@@ -80719,7 +80711,6 @@ religion = catholic
 10239 = {	#ARLON
 	culture = frankish
 	790.1.1 = { culture = french }
-	1210.1.1 = { culture = lorrainian }
 	religion = catholic
 	holding = castle_holding
 }
@@ -81006,7 +80997,7 @@ religion = catholic
 	religion = catholic
 	holding = castle_holding
 	1150.1.1 = {
-		culture = brabantian
+		culture = dutch
 	}
 }
 

@@ -1,5 +1,5 @@
 ﻿#==================================================================================================#
-################################################## CULTURE: ANGEVIN
+################################################## CULTURE: french
 #==================================================================================================#
 
 ####################################### Dynasty: 40016 - Cognac #######################################
@@ -11,7 +11,7 @@
 	intrigue = 7
 	stewardship = 4
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = bastard_founder
 	trait = education_martial_2
 	trait = wrathful
@@ -36,7 +36,7 @@
 	learning = 7
 	prowess = 0 #More a strategist than a fighter: we have to keep the base apocalyptically low because otherwise he's go so many joint prowess-martial mods that he become a godly duellist.
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = education_martial_5 #"of his 36 separate campaigns only three failed to achieve their goals"
 	trait = wrathful #"The king, enflamed with his customary fury"
 	trait = ambitious #"inordinately ambitious"
@@ -257,7 +257,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = bastard
 	trait = chaste
 	trait = education_learning_3
@@ -278,7 +278,7 @@
 	intrigue = 6
 	stewardship = 4
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = education_learning_2
 	father = 204500
 	mother = 205730
@@ -300,7 +300,7 @@
 	intrigue = 3
 	learning = 1 #"he was no scholar (cum non esset literatus)"
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = education_diplomacy_3 #"richly endowed with eloquence and charm of address"
 	trait = education_martial_prowess_3
 	trait = beauty_good_2 #"the most handsome prince in all the world"
@@ -357,7 +357,7 @@
 	intrigue = 4
 	stewardship = 5
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = zealous
 	trait = education_intrigue_2
 	father = 204500
@@ -380,7 +380,7 @@
 	stewardship = 3
 	prowess = 10
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = brave
 	trait = ambitious
 	trait = arrogant #"Richard’s arrogance, verging on vanity"
@@ -435,7 +435,7 @@
 	stewardship = 6
 	learning = 3
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = education_intrigue_2
 	trait = brave
 	trait = deceitful
@@ -498,7 +498,7 @@
 	intrigue = 7
 	stewardship = 9 #Increased from 8 - excellent administrator who controlled major towns and castles
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = ambitious #Her political drive and influence - she wielded almost as much power as her husband
 	trait = diligent #Her active involvement in administration, politics, and religious patronage
 	trait = generous #Keeping - fits her extensive patronage of religious institutions and cultural support
@@ -524,7 +524,7 @@
 	intrigue = 6
 	stewardship = 5
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	disallow_random_traits = yes
 	trait = curious
 	trait = deceitful
@@ -550,7 +550,7 @@
 	intrigue = 7
 	learning = 3
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = arbitrary
 	trait = greedy
 	trait = charming
@@ -768,7 +768,7 @@
 	intrigue = 6
 	stewardship = 6
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = ambitious #His relentless pursuit of his claim to the English throne despite being only 12-16
 	trait = arrogant #Described as "haughty and defiant" when confronting his uncle John at Rouen
 	trait = brave #Willing to personally lead military campaigns for his birthright at just 15 years old
@@ -793,7 +793,7 @@
 	female = yes
 	dynasty_house = house_Plant
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = bastard
 	father = 204514 #King John of England
 	1189.1.1 = {
@@ -819,7 +819,7 @@
 	name = "Richard"
 	dynasty_house = house_Plant
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = bastard
 	trait = education_stewardship_3
 	father = 204514
@@ -836,7 +836,7 @@
 	name = "Oliver"
 	dynasty_house = house_Plant
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = bastard
 	father = 204514
 	1198.1.1 = {
@@ -856,7 +856,7 @@
 	intrigue = 8
 	stewardship = 7
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = weak
 	trait = zealous
 	trait = temperate
@@ -875,7 +875,7 @@
 		add_spouse = 454536
 	}
 	1272.11.16 = {
-		death = yes
+		death={ death_reason=death_ill }
 	}
 }
 
@@ -887,7 +887,7 @@
 	intrigue = 4
 	stewardship = 4
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = diligent
 	trait = education_diplomacy_3
 	father = 204514
@@ -917,7 +917,7 @@
 	female = yes
 	dynasty_house = house_Plant
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = beauty_good_1
 	trait = education_stewardship_2
 	father = 204514
@@ -935,7 +935,7 @@
 	female = yes
 	dynasty_house = house_Plant
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	father = 204514
 	mother = 205648
 	1214.1.1 = {
@@ -953,7 +953,7 @@
 	female = yes
 	dynasty_house = house_Plant
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	father = 204514
 	mother = 205648
 	1215.1.1 = {
@@ -1006,7 +1006,7 @@
 		add_spouse = 455527
 	}
 	1307.7.7 = {
-		death = yes
+		death={ death_reason=death_dysentery }
 	}
 }
 
@@ -15391,7 +15391,7 @@ Burghersh2 = {
 	intrigue = 5
 	stewardship = 2
 	religion = "catholic"
-	culture = "angevin"
+	culture = "french"
 	trait = lunatic_1
 	trait = education_martial_2
 	father = 204538
@@ -23132,7 +23132,7 @@ Lordship10 = {
 		add_spouse = 193
 	}
 	1040.8.14 = {
-		death = yes
+		death={ death_reason=death_battle killer = 5996 }
 		give_nickname = nick_the_diseased
 	}
 }
@@ -23261,7 +23261,7 @@ Lordship10 = {
 		}
 	}
 	1094.11.12 = {
-		death = yes
+		death={ death_reason=death_battle }
 	}
 }
 
@@ -23649,7 +23649,7 @@ Lordship10 = {
 		add_trait = gout_ridden
 	}
 	1214.12.4 = {
-		death = yes
+		death={ death_reason=death_gout_ridden }
 	}
 }
 
@@ -24886,7 +24886,7 @@ ailpin001 = {
 		birth = "841.1.2"
 	}
 	877.1.2 = {
-		death = yes
+		death={ death_reason=death_battle }
 	}
 }
 
@@ -24907,7 +24907,7 @@ ailpin001 = {
 		birth = "843.1.2"
 	}
 	878.1.2 = {
-		death = yes
+		death={ death_reason=death_battle }
 		give_nickname = nick_white_flower
 	}
 }
@@ -24944,7 +24944,7 @@ ailpin001 = {
 		birth = "861.1.2"
 	}
 	900.1.2 = {
-		death = yes
+		death={ death_reason=death_battle }
 		give_nickname = nick_the_madman
 	}
 }
@@ -24990,7 +24990,7 @@ ailpin001 = {
 		birth = "887.1.2"
 	}
 	954.1.2 = {
-		death = yes
+		death={ death_reason=death_battle }
 	}
 }
 
@@ -25010,7 +25010,7 @@ ailpin001 = {
 		birth = "897.1.2"
 	}
 	962.1.2 = {
-		death = yes
+		death={ death_reason=death_battle }
 		give_nickname = nick_the_aggressor
 	}
 }
@@ -25032,7 +25032,7 @@ ailpin001 = {
 		birth = "910.1.2"
 	}
 	995.1.2 = {
-		death = yes
+		death={ death_reason=death_by_artifact }
 		give_nickname = nick_the_fraticide
 	}
 }
@@ -25053,7 +25053,7 @@ ailpin001 = {
 		birth = "915.1.2"
 	}
 	967.1.1 = {
-		death = yes
+		death={ death_reason=death_murder } 
 		give_nickname = nick_the_black
 	}
 }
@@ -25074,7 +25074,7 @@ ailpin001 = {
 		birth = "927.1.2"
 	}
 	971.1.2 = {
-		death = yes
+		death={ death_reason=death_battle }
 	}
 }
 
@@ -25094,7 +25094,7 @@ ailpin001 = {
 		birth = yes
 	}
 	977.1.1 = {
-		death = yes
+		death={ death_reason=death_battle killer = 976 }
 	}
 }
 
@@ -25134,7 +25134,7 @@ ailpin001 = {
 		birth = "947.1.2"
 	}
 	997.1.2 = {
-		death = yes
+		death={ death_reason=death_battle killer = 980 }
 	}
 }
 
@@ -25180,7 +25180,7 @@ ailpin001 = {
 		give_nickname = nick_the_chief
 	}
 	1005.1.2 = {
-		death = yes
+		death={ death_reason=death_battle killer = 980 }
 	}
 }
 
@@ -28252,7 +28252,7 @@ Crovan3 = {
 		add_spouse = 166124
 	}
 	1014.4.23 = {
-		death = yes
+		death={ death_reason=death_murder }
 	}
 }
 
@@ -31947,7 +31947,7 @@ Crovan3 = {
 		add_spouse = 901
 	}
 	1072.2.7 = {
-		death = yes
+		death={ death_reason=death_battle }
 	}
 }
 
@@ -33558,7 +33558,7 @@ Crovan3 = {
 		birth = "1041.1.1"
 	}
 	1119.3.13 = {
-		death = yes
+		death={ death_reason=death_ill }
 	}
 }
 
@@ -42683,7 +42683,7 @@ MBIrish0001 = {
 		birth = "1105.1.1"
 	}
 	1166.7.1 = {
-		death = yes
+		death={ death_reason=death_battle }
 	}
 }
 
@@ -45614,7 +45614,7 @@ MBIrish0001 = {
 		add_spouse = 131506 #Gormflaith ingen Flann Sinna
 	}
 	919.9.14 = {
-		death = yes
+		death={ death_reason=death_battle }
 	}
 }
 
@@ -46082,7 +46082,7 @@ MBIrish0001 = {
 		birth = "901.1.2"
 	}
 	956.1.1 = {
-		death = yes
+		death={ death_reason=death_battle }
 	}
 }
 
@@ -54113,7 +54113,7 @@ richard_og = {
 
 1226390 = {
 	name="Cuthberht" #Father of Coenwulf of Mercia, Ceolwulf of Mercia and Cudred of Kent
-	dynasty_house = house_pybbing
+	dynasty = 100072
 	religion="catholic"
 	culture="mercian"
 	father = 205148M1
@@ -54145,7 +54145,7 @@ richard_og = {
 
 1226391 = {
 	name="Coenwulf" #Coenwulf king of Mercia 796(december)-821
-	dynasty_house = house_pybbing
+	dynasty = 100072
 	religion="catholic"
 	culture="mercian"
 	father=1226390
@@ -54159,7 +54159,7 @@ richard_og = {
 
 1226392 = {
 	name="Ceolwulf" #Ceolwulf I king of Mercia 821-823
-	dynasty_house = house_pybbing
+	dynasty = 100072
 	religion="catholic"
 	culture="mercian"
 	father=1226390
@@ -54173,7 +54173,7 @@ richard_og = {
 
 1226393 = {
 	name="Cuthr_d_MB" #subking of kent 798 ? 807
-	dynasty_house = house_pybbing
+	dynasty = 100072
 	religion="catholic"
 	culture="kentish"
 	father=1226390
@@ -54215,7 +54215,7 @@ richard_og = {
 
 1226394 = {
 	name="Cwenthryth" #daughter of Coenwulf
-	dynasty_house = house_pybbing
+	dynasty = 100072
 	religion="catholic"
 	culture="kentish"
 	father=1226391
@@ -54258,7 +54258,7 @@ richard_og = {
 
 1226399 = {
 	name="E_lfflE_d" #daughter of Ceowulf I, wife of Wigmund king of Mercia 839-840.
-	dynasty_house = house_pybbing
+	dynasty = 100072
 	religion="catholic"
 	culture="mercian"
 	father=1226392
@@ -67961,7 +67961,7 @@ sicilian0001 = {
 		add_pressed_claim = title:k_sicily
 	}
 	1198.11.28 = {
-		death = yes
+		death={ death_reason=death_ill }
 	}
 }
 
@@ -68100,7 +68100,7 @@ sicilian0001 = {
 	1198.1.1 = {
 		death =	{
 			death_reason = death_dungeon
-			killer = 212513
+			killer = 212507
 		}
 	}
 }
@@ -92450,7 +92450,7 @@ Morgannwg8 = {
 }
 
 7627 = {
-	name = Alfred #the Great
+	name = "E_lfrE_d" #the Great
 	dna = 7627_earl_alfred
 	dynasty = 100072
 	martial = 11
@@ -92817,7 +92817,7 @@ Morgannwg8 = {
 		add_pressed_claim = title:k_england
 	}
 	955.11.23 = {
-		death = yes
+		death={ death_reason=death_tumultuous_guts }
 	}
 }
 
@@ -92834,7 +92834,7 @@ Morgannwg8 = {
 		give_nickname = nick_the_fair
 	}
 	959.10.1 = {
-		death = yes
+		death={ death_reason=death_mysterious }
 	}
 }
 
@@ -92920,7 +92920,7 @@ Morgannwg8 = {
 }
 
 AlfredUnready = {
-	name = "Alfred"
+	name = "E_lfrE_d"
 	dynasty = 100072
 	religion = "catholic"
 	culture = anglo_saxon
@@ -93065,7 +93065,7 @@ AlfredUnready = {
 		add_spouse = 121
 	}
 	1066.1.5 = {
-		death = yes
+		death={ death_reason=death_ill }
 	}
 }
 

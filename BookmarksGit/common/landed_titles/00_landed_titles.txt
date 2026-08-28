@@ -2384,10 +2384,10 @@ e_hre = { # Localized as Holy Roman Empire
 					NOT = { exists = title:e_hre }
 				}
 
-				#NOT = {
-				#	exists = title:e_hre.holder
-				#	is_vassal_or_below_of = title:e_hre.holder
-				#}
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -2413,10 +2413,10 @@ e_hre = { # Localized as Holy Roman Empire
 					NOT = { exists = title:e_hre }
 				}
 
-				#NOT = {
-				#	exists = title:e_hre.holder
-				#	is_vassal_or_below_of = title:e_hre.holder
-				#}
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -2484,9 +2484,9 @@ e_golden_horde = { #White Horde # Localized as Golden Horde
 #
 #}
 
-e_white_horde = { # Localized as Blue Horde
+e_white_horde = { # White Horde
 
-	color = { 97 101 133 }
+	color = { 234 235 220 }
 
 	definite_form = yes
 	can_be_named_after_dynasty = no
@@ -9307,12 +9307,17 @@ e_germany = { # Localized as Germania
 		can_create = {
 
 			custom_description = {
+				text = form_hre_kingdoms
 
 				trigger_if = {
 					limit = { is_ai = yes }
 					NOT = { exists = title:e_hre }
 				}
 
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -9349,10 +9354,10 @@ e_germany = { # Localized as Germania
 					NOT = { exists = title:e_hre }
 				}
 
-				#NOT = {
-				#	exists = title:e_hre.holder
-				#	is_vassal_or_below_of = title:e_hre.holder
-				#}
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -10459,10 +10464,10 @@ e_germany = { # Localized as Germania
 					}
 				}
 
-				#NOT = {
-				#	exists = title:e_hre.holder
-				#	is_vassal_or_below_of = title:e_hre.holder
-				#}
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -12183,10 +12188,10 @@ e_germany = { # Localized as Germania
 					NOT = { exists = title:e_hre }
 				}
 
-				#NOT = {
-				#	exists = title:e_hre.holder
-				#	is_vassal_or_below_of = title:e_hre.holder
-				#}
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -12768,10 +12773,10 @@ e_germany = { # Localized as Germania
 					NOT = { exists = title:e_hre }
 				}
 
-				#NOT = {
-				#	exists = title:e_hre.holder
-				#	is_vassal_or_below_of = title:e_hre.holder
-				#}
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -13395,10 +13400,10 @@ e_germany = { # Localized as Germania
 					NOT = { exists = title:e_hre }
 				}
 
-				#NOT = {
-				#	exists = title:e_hre.holder
-				#	is_vassal_or_below_of = title:e_hre.holder
-				#}
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -13965,10 +13970,10 @@ e_germany = { # Localized as Germania
 					NOT = { exists = title:e_hre }
 				}
 
-				#NOT = {
-				#	exists = title:e_hre.holder
-				#	is_vassal_or_below_of = title:e_hre.holder
-				#}
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -24207,13 +24212,26 @@ e_italy = { # Localized as Italia
 		color = { 244 227 160 }
 
 		capital = c_lombardia # Pavia
-
+		
 		can_create = {
 			trigger_if = {
 				limit = {
 					is_ai = yes
 				}
 				faith = { religion_tag = christianity_religion }
+			}
+			custom_description = {
+				text = form_hre_kingdoms
+
+				trigger_if = {
+					limit = { is_ai = yes }
+					NOT = { exists = title:e_hre }
+				}
+
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -25187,6 +25205,20 @@ e_italy = { # Localized as Italia
 				has_primary_title = title:k_italy
 			}
 			faith = { religion_tag = christianity_religion }
+			
+			custom_description = {
+				text = form_hre_kingdoms
+
+				trigger_if = {
+					limit = { is_ai = yes }
+					NOT = { exists = title:e_hre }
+				}
+
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
+			}
 		}
 
 		d_lucca = { # Comune di Lucca # Lucca # Luccan republic # Localized as Republic of Lucca
@@ -25514,10 +25546,19 @@ e_italy = { # Localized as Italia
 				has_primary_title = title:k_italy
 			}
 			faith = { religion_tag = christianity_religion }
-            #NOT = {
-			#	exists = title:e_hre.holder
-			#	is_vassal_or_below_of = title:e_hre.holder
-            #}
+            custom_description = {
+				text = form_hre_kingdoms
+
+				trigger_if = {
+					limit = { is_ai = yes }
+					NOT = { exists = title:e_hre }
+				}
+
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
+			}
 		}
 
 		can_create_on_partition = {
@@ -32172,7 +32213,7 @@ e_wendish_empire = { # Localized as Lechia
 		capital = c_stettin # Szczecin
 
 		can_create = {
-
+		
 			custom_description = {
 				text = form_hre_kingdoms
 
@@ -32182,10 +32223,10 @@ e_wendish_empire = { # Localized as Lechia
 					culture = culture:pommeranian
 				}
 
-				#NOT = {
-				#	exists = title:e_hre.holder
-				#	is_vassal_or_below_of = title:e_hre.holder
-				#}
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 
@@ -59143,7 +59184,7 @@ e_france = { # Localized as Francia
 		color = { 134 0 37 }
 
 		capital	= c_venaissin # Arles
-
+		
 		can_create = {
 
 			custom_description = {
@@ -59154,10 +59195,10 @@ e_france = { # Localized as Francia
 					NOT = { exists = title:e_hre }
 				}
 
-				#NOT = {
-				#	exists = title:e_hre.holder
-				#	is_vassal_or_below_of = title:e_hre.holder
-				#}
+				NOT = {
+					primary_title = title:e_hre
+					is_vassal_or_below_of = title:e_hre.holder
+				}
 			}
 		}
 

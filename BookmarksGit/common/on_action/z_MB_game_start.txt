@@ -400,70 +400,6 @@ MB_struggle_setup = {
 				change_struggle_phase = struggle_iberia_phase_conciliation # Change to final phase which is conciliation. Marked by the only remaining Emirate, the Emirate of Granada, being a tributary of Castile. This would be how things would continue till it was finally conquered in 1492
 			}
 		}
-
-		#GREENLAND STRUGGLE - RICE
-
-		if = {
-			limit = {
-				has_global_variable = is_RICE_loaded_global_variable
-				RICE_setup_north_atlantic_flavor_pack_effect = yes
-			}
-			struggle:RICE_greenland_struggle = {
-				set_culture_as_involved = culture:anglo_norse
-				set_culture_as_involved = culture:northerner
-			}
-		}
-
-		#SICILY STRUGGLE - RICE4
-
-		if = {
-			limit = {
-				has_global_variable = is_RICE_loaded_global_variable
-				RICE_setup_sicily_flavor_pack_effect = yes
-			}
-			struggle:RICE_sicily_struggle = {
-				set_culture_as_involved = culture:neapolitan
-				set_culture_as_involved = culture:maltese
-				set_culture_as_involved = culture:tuscan_ce
-				set_culture_as_involved = culture:dalmatian_ce
-				set_culture_as_involved = culture:aragonese
-				set_culture_as_involved = culture:venetian_ce
-				set_culture_as_involved = culture:arpitan
-				set_culture_as_involved = culture:masmuda
-				set_culture_as_involved = culture:zanata
-				set_culture_as_involved = culture:tagelmust
-				set_culture_as_involved = culture:piedmontese
-				set_culture_as_involved = culture:romagnol
-				set_culture_as_involved = culture:romansh
-				set_culture_as_involved = culture:corsican
-				set_culture_as_involved = culture:friulian
-				set_culture_as_involved = culture:emilian
-				set_culture_as_involved = culture:libyan
-
-				#I'm not concerned about adding all the new Christian faiths here just like how RICE didn't add all the vanilla ones either but will add the religions that are 'nearby' at various dates
-				set_faith_as_involved = faith:african_church
-				set_faith_as_involved = faith:ambrosian
-				set_faith_as_involved = faith:aquileian_church
-				set_faith_as_involved = faith:bohemian_catholic
-				set_faith_as_involved = faith:bosnian_church
-				set_faith_as_involved = faith:mozarabic_church
-				set_faith_as_involved = faith:cathar
-				set_faith_as_involved = faith:bulgarian_orthodox
-				set_faith_as_involved = faith:cyprus_orthodox
-				set_faith_as_involved = faith:serbian_orthodox
-				set_faith_as_involved = faith:iconoclast
-				set_faith_as_involved = faith:coptic
-				set_faith_as_involved = faith:bogomilist
-				set_faith_as_involved = faith:waldensian
-
-				set_faith_as_involved = faith:african_folk_islam
-				set_faith_as_involved = faith:kutama_pagan
-				set_faith_as_involved = faith:ghomara_pagan
-				set_faith_as_involved = faith:masmudi
-
-
-			}
-		}
 	}
 
 }
@@ -674,9 +610,6 @@ MB_culture_innovations = {
 		culture:east_elbian = {
 			get_all_innovations_from = scope:saxon
 		}
-		culture:westphalian = {
-			get_all_innovations_from = scope:saxon
-		}
 		culture:assamese = {
 			get_all_innovations_from = scope:bengali
 		}
@@ -822,155 +755,6 @@ MB_culture_innovations = {
 		}
 		culture:tuareg = {
 			get_all_innovations_from = scope:gaw
-		}
-
-
-		# RICE innovations and traditions when RICE is loaded. Traditions here just since I don't want to break up RICE stuff
-
-		if = {
-			limit = {
-				has_global_variable = is_RICE_loaded_global_variable
-			}
-
-			culture:syriac = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:iraqi = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:madan = {
-				add_innovation = innovation_RICE_qanats
-			}
-
-			culture:luri = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:aschomi = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:semnani = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:mazandarani = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:hazara = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:turkmeni = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:qufs = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:brahui = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:khalaj = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:pamiri = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:nuristani = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:bahraini = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:omani = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:south_arabian = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:hadhrami = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:hejazi = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:saidi = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:libyan = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:masmuda = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:maltese = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:chagatai = {
-				add_innovation = innovation_RICE_qanats
-			}
-			culture:talysh = {
-				add_innovation = innovation_RICE_qanats
-			}
-
-			culture:afghan = {
-				add_innovation = innovation_RICE_irrigation_tanks
-			}
-			culture:kachari = {
-				add_innovation = innovation_RICE_irrigation_tanks
-			}
-			culture:tripuri = {
-				add_innovation = innovation_RICE_irrigation_tanks
-			}
-			culture:ahom = {
-				add_innovation = innovation_RICE_irrigation_tanks
-			}
-			culture:kochinim = {
-				add_innovation = innovation_RICE_irrigation_tanks
-			}
-			culture:hindustani_proper = {
-				add_innovation = innovation_RICE_irrigation_tanks
-			}
-
-			culture:komi = {
-				add_innovation = innovation_RICE_dog_sleds
-			}
-			culture:udmurt = {
-				add_innovation = innovation_RICE_dog_sleds
-			}
-			culture:nivkh = {
-				add_innovation = innovation_RICE_dog_sleds
-			}
-
-			culture:kannada = {
-				add_innovation = innovation_RICE_velakkara_guards
-			}
-			culture:malayali = {
-				add_innovation = innovation_RICE_velakkara_guards
-			}
-			culture:kochinim = {
-				add_innovation = innovation_RICE_velakkara_guards
-			}
-
-			culture:gallo_f = { add_culture_tradition = bao_tradition_breizh_collective_lands }
-
-			culture:egyptian_coptic = { add_culture_tradition = tradition_RICE_children_of_the_nile }
-			culture:saidi = { add_culture_tradition = tradition_RICE_children_of_the_nile }
-
-			culture:obotrite = {
-				add_culture_tradition = tradition_RICE_wendish_confederations
-				remove_variable = tradition_cooldown
-			}
-			culture:dravehnian = {
-				add_culture_tradition = tradition_RICE_wendish_confederations
-				remove_variable = tradition_cooldown
-			}
-			culture:ranian = {
-				add_culture_tradition = tradition_RICE_wendish_confederations
-				remove_variable = tradition_cooldown
-			}
-			culture:lutici = {
-				add_culture_tradition = tradition_RICE_wendish_confederations
-				remove_variable = tradition_cooldown
-			}
-
-
 		}
 	}
 
@@ -8386,6 +8170,141 @@ MB_contracts = {
 
 		}
 
+
+		if = {
+			limit = {
+				game_start_date >= 1220.1.1
+				game_start_date <= 1221.1.1
+
+				has_dlc_feature = roads_to_power
+
+				#vassal_contract_has_modifiable_obligations = yes
+				
+
+			}
+
+			title:d_epirus.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 1
+				}
+			}
+
+			title:d_thessaly.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 1
+				}
+			}
+
+			title:d_ephese.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 1
+				}
+			}
+
+			title:d_thracesia.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+
+			title:d_chaldia.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+
+			title:d_bucellaria.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 2
+				}
+			}
+
+			title:d_cherson.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+
+		}
+
+
+		if = {
+			limit = {
+				game_start_date >= 1234.1.1
+				game_start_date <= 1235.1.1
+
+				has_dlc_feature = roads_to_power
+
+				#vassal_contract_has_modifiable_obligations = yes
+				
+
+			}
+
+			title:d_epirus.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 1
+				}
+			}
+
+			title:d_thessaly.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 1
+				}
+			}
+
+			title:d_thessalonika.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 2
+				}
+			}
+
+			title:d_ephese.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 1
+				}
+			}
+
+			title:d_thracesia.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+
+			title:d_chaldia.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+
+			title:d_bucellaria.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 2
+				}
+			}
+
+			title:d_cherson.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = administrative_themes
+					level = 3
+				}
+			}
+
+		}
+		
 		if = {
 			limit = {
 				game_start_date >= 1246.1.1
@@ -16452,6 +16371,355 @@ MB_contracts = {
 
 		if = {
 			limit = {
+				game_start_date >= 1220.1.1
+				game_start_date <= 1220.12.31
+
+				#vassal_contract_has_modifiable_obligations = yes
+				exists = holder
+
+			}
+
+			title:d_lausitz.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_meissen.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_ostmark.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_nordgau.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_nordmark.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_carinthia.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_krain.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_steyermark.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_istria.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_friuli.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_morgannwg.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_ireland_lordship.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_provence.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_teruel.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_beja.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_la_mancha.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_badajoz.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_cordoba.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_algarve.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_murcia.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_valencia.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_transylvania.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_slesvig.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_pfalz.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 3
+				}
+			}
+
+			title:c_muang_fa_daet.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:c_salo_tai.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:c_mukdahan.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+		}
+
+		if = {
+			limit = {
+				game_start_date >= 1234.1.1
+				game_start_date <= 1234.12.31
+
+				#vassal_contract_has_modifiable_obligations = yes
+				exists = holder
+
+			}
+
+			title:d_lausitz.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_meissen.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_ostmark.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_nordgau.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_nordmark.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_carinthia.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_krain.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_steyermark.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_istria.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_friuli.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_morgannwg.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_ireland_lordship.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_provence.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_teruel.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_beja.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_la_mancha.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:d_badajoz.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_transylvania.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_walishtan.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_slesvig.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+			title:d_pfalz.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 3
+				}
+			}
+
+			title:c_muang_fa_daet.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:c_salo_tai.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+			title:c_mukdahan.holder ?= {
+				vassal_contract_set_obligation_level = {
+					type = special_contract
+					level = 2
+				}
+			}
+
+		}
+
+		if = {
+			limit = {
 				game_start_date >= 1246.1.1
 				game_start_date <= 1258.12.31
 
@@ -18221,10 +18489,43 @@ MB_set_clan_unity = {
 			}
 		}
 		if = {
+			limit = { game_start_date >= 1220.1.1 game_start_date <= 1221.1.1 }
+			house:house_Ayyubid ?= {
+				add_unity_value = {
+					value = 20
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
+			limit = { game_start_date >= 1234.1.1 game_start_date <= 1235.1.1 }
+			house:house_Ayyubid ?= {
+				add_unity_value = {
+					value = 10
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
 			limit = { game_start_date >= 1258.1.1 game_start_date <= 1259.1.1 }
 			house:house_Ayyubid ?= {
 				add_unity_value = {
 					value = -20
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
+			limit = { game_start_date >= 1267.1.1 game_start_date <= 1268.1.1 }
+			house:house_Ayyubid ?= {
+				add_unity_value = {
+					value = -40
 					# This is from historical circumstances, so we just do use the house head.
 					character = house_head
 					desc = clan_unity_historical_circumstances.desc
@@ -18465,6 +18766,28 @@ MB_set_clan_unity = {
 			}
 		}
 		if = {
+			limit = { game_start_date >= 1204.1.1 game_start_date <= 1221.1.1 }
+			house:house_oghuzSeljuks ?= {
+				add_unity_value = {
+					value = -80
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
+			limit = { game_start_date >= 1234.1.1 game_start_date <= 1235.1.1 }
+			house:house_oghuzSeljuks ?= {
+				add_unity_value = {
+					value = -85
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
 			limit = { game_start_date >= 1246.1.1 game_start_date <= 1247.1.1 }
 			house:house_oghuzSeljuks ?= {
 				add_unity_value = {
@@ -18480,6 +18803,17 @@ MB_set_clan_unity = {
 			house:house_oghuzSeljuks ?= {
 				add_unity_value = {
 					value = -95
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
+			limit = { game_start_date >= 1267.1.1 }
+			house:house_oghuzSeljuks ?= {
+				add_unity_value = {
+					value = -100
 					# This is from historical circumstances, so we just do use the house head.
 					character = house_head
 					desc = clan_unity_historical_circumstances.desc
@@ -19093,6 +19427,28 @@ MB_set_clan_unity = {
 			}
 		}
 		if = {
+			limit = { game_start_date >= 1220.1.1 game_start_date <= 1221.1.1 }
+			house:house_marinids ?= {
+				add_unity_value = {
+					value = 70
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
+			limit = { game_start_date >= 1234.1.1 game_start_date <= 1235.1.1 }
+			house:house_marinids ?= {
+				add_unity_value = {
+					value = 75
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
 			limit = { game_start_date >= 1246.1.1 game_start_date <= 1247.1.1 }
 			house:house_marinids ?= {
 				add_unity_value = {
@@ -19108,6 +19464,17 @@ MB_set_clan_unity = {
 			house:house_marinids ?= {
 				add_unity_value = {
 					value = 80
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
+			limit = { game_start_date >= 1267.1.1 game_start_date <= 1268.1.1 }
+			house:house_marinids ?= {
+				add_unity_value = {
+					value = 75
 					# This is from historical circumstances, so we just do use the house head.
 					character = house_head
 					desc = clan_unity_historical_circumstances.desc
@@ -19149,6 +19516,28 @@ MB_set_clan_unity = {
 			}
 		}
 		if = {
+			limit = { game_start_date >= 1220.1.1 game_start_date <= 1221.1.1 }
+			house:house_zayyanids ?= {
+				add_unity_value = {
+					value = 55
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
+			limit = { game_start_date >= 1234.1.1 game_start_date <= 1235.1.1 }
+			house:house_zayyanids ?= {
+				add_unity_value = {
+					value = 65
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
 			limit = { game_start_date >= 1246.1.1 game_start_date <= 1247.1.1 }
 			house:house_zayyanids ?= {
 				add_unity_value = {
@@ -19164,6 +19553,17 @@ MB_set_clan_unity = {
 			house:house_zayyanids ?= {
 				add_unity_value = {
 					value = 65
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
+			limit = { game_start_date >= 1267.1.1 game_start_date <= 1268.1.1 }
+			house:house_zayyanids ?= {
+				add_unity_value = {
+					value = 50
 					# This is from historical circumstances, so we just do use the house head.
 					character = house_head
 					desc = clan_unity_historical_circumstances.desc
@@ -19249,6 +19649,28 @@ MB_set_clan_unity = {
 			}
 		}
 		if = {
+			limit = { game_start_date >= 1220.1.1 game_start_date <= 1221.1.1 }
+			house:house_hafsids ?= {
+				add_unity_value = {
+					value = 70
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
+			limit = { game_start_date >= 1234.1.1 game_start_date <= 1235.1.1 }
+			house:house_hafsids ?= {
+				add_unity_value = {
+					value = 80
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
 			limit = { game_start_date >= 1246.1.1 game_start_date <= 1247.1.1 }
 			house:house_hafsids ?= {
 				add_unity_value = {
@@ -19264,6 +19686,17 @@ MB_set_clan_unity = {
 			house:house_hafsids ?= {
 				add_unity_value = {
 					value = 75
+					# This is from historical circumstances, so we just do use the house head.
+					character = house_head
+					desc = clan_unity_historical_circumstances.desc
+				}
+			}
+		}
+		if = {
+			limit = { game_start_date >= 1267.1.1 game_start_date <= 1268.1.1 }
+			house:house_hafsids ?= {
+				add_unity_value = {
+					value = 70
 					# This is from historical circumstances, so we just do use the house head.
 					character = house_head
 					desc = clan_unity_historical_circumstances.desc
@@ -21409,7 +21842,29 @@ MB_set_regencies = {
 				limit = { exists = character:144143 }
 				character:144143 = { trigger_event = diarchy.0012 }
 			}
-			
+
+		#1220
+		if = {
+
+			limit = { game_start_date = 1220.5.16 }
+
+
+			## Kamakura Shogunate
+
+			#Emperor
+			character:10041062 = { designate_diarch = character:10041060 }
+
+			remove_generated_diarch_consequences_effect = {
+				NEW_DIARCH = character:10041060
+				LIEGE = character:10041062
+			}
+
+		}
+		if = {
+				limit = { exists = character:10041062 }
+				character:10041062 = { trigger_event = diarchy.0012 }
+			}
+
 		#1258
 		if = {
 
@@ -22163,6 +22618,26 @@ MB_set_regencies = {
 					try_start_diarchy = co_monarchy
 					set_diarch = character:466515
 					set_designated_heir = character:466515
+				}
+			}
+
+
+		}
+
+		#1234
+
+
+		if = {
+			limit = { game_start_date >= 1234.1.1
+					  game_start_date <= 1235.1.1
+			}
+
+			character:212513 = {
+				if = {
+					limit = { has_ep3_dlc_trigger = yes }
+					try_start_diarchy = co_emperorship
+					set_diarch = character:30759
+					set_designated_heir = character:30759
 				}
 			}
 
@@ -23770,6 +24245,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 							culture = { has_cultural_pillar = heritage_chinese }
 							culture = { has_cultural_pillar = heritage_tungusic }
 							culture = { has_cultural_pillar = heritage_samoyedic }
+							culture = culture:khalaj
 							culture = culture:kurdish
 							culture = culture:tajik
 							culture = culture:yakut
@@ -25890,7 +26366,105 @@ KOH_holy_orders = {
 					}
 				}
 			}
-			
+
+		if = {
+            limit = {
+                game_start_date >= 1220.1.1
+                game_start_date <= 1220.12.31
+			}
+
+			#1220
+
+				character:30809 = {
+					if = {
+						limit = {
+							is_alive = yes
+							is_landed = yes
+							game_start_date = 1220.5.16
+						}
+						trigger_event = {
+							id = KoH_holy_orders.123 #Templar Creation
+							days = -1
+						}
+					}
+				}
+				character:30809 = {
+					if = {
+						limit = {
+							is_alive = yes
+							is_landed = yes
+							game_start_date = 1220.5.16
+						}
+						trigger_event = {
+							id = KoH_holy_orders.124 #Hospitaller Creation
+							days = -1
+						}
+					}
+				}
+				character:457620 = {
+					if = {
+						limit = {
+							is_alive = yes
+							game_start_date = 1220.5.16
+						}
+						trigger_event = {
+							id = KoH_holy_orders.125 #Calavatra Creation
+							days = -1
+						}
+					}
+				}
+				character:457620 = {
+					if = {
+						limit = {
+							is_alive = yes
+							game_start_date = 1220.5.16
+						}
+						trigger_event = {
+							id = KoH_holy_orders.126 #Santiago creation
+							days = -1
+						}
+					}
+				}
+
+				character:144229 = {
+					if = {
+						limit = {
+							is_alive = yes
+							game_start_date = 1220.5.16
+						}
+						trigger_event = {
+							id = KoH_holy_orders.127 #Assassin Buffs
+							days = 1
+						}
+					}
+				}
+				character:144229 = {
+					if = {
+						limit = {
+							is_alive = yes
+							game_start_date = 1220.5.16
+						}
+						trigger_event = {
+							id = KoH_holy_orders.128 #Assassin Buffs
+							days = -1
+						}
+					}
+				}
+
+				character:219502 = {
+					if = {
+						limit = {
+							is_alive = yes
+							game_start_date = 1220.5.16
+						}
+						trigger_event = {
+							id = KoH_holy_orders.129 #Teutonic creation
+							days = -1
+						}
+					}
+				}
+			}
+
 		if = {
             limit = {
                 game_start_date >= 1246.1.1

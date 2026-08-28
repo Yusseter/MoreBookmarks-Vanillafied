@@ -266,7 +266,7 @@ patron_025 = {
 	dynasty = 1000048016
 	name = "Lu_name10"
 	culture = japanese
-	religion = abkaismsm
+	religion = abkaism
 	trait = education_diplomacy_1
 	trait = greedy
 	trait = trusting
@@ -443450,13 +443450,13 @@ TangutClanLiang5 = {
 
 
 # Liang Yimai 
-tangut_liang_1 = { #恭肅章憲皇后 Empress Gongsu Zhangxian. 落瑤 Luoyao.
-	dynasty = tangut_liang #Liang
+tangut_liang_1 =  {
 	dna = bookmark_dna_empress_liang
-	name = "Luoyao_name" #A name in a popular novel, not actual name
-	religion=jingxue
+	name="Luoyao_843D_7464"
+	female = yes
+	dynasty = tangut_liang
+	religion = avatamsaka
 	culture = han
-	father = 1404798
 	diplomacy = 4
 	martial = 4
 	stewardship = 3
@@ -443467,19 +443467,14 @@ tangut_liang_1 = { #恭肅章憲皇后 Empress Gongsu Zhangxian. 落瑤 Luoyao.
 	trait = deceitful
 	trait = ambitious
 	trait = patient
-	female = yes
-	1031.1.1 = {
-		birth=yes
-		employer =206644
+	father = 1404798 # Jie
+	sexuality = heterosexual
+	1040.1.1 = {
+		birth = yes
 	}
-	1032.1.1 = { employer=206650 }
-	1048.1.19 = { employer=206651 }
-	1061.9.1 = {
-		add_spouse=206651
-	}
-	1085.10.1 = {
-		trait=ill
-		death = yes
+	1085.1.1 = {
+		trait = ill
+		death = { death_reason = death_ill }
 	}
 }
 

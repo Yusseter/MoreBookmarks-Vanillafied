@@ -5437,7 +5437,7 @@ religion = tengri_pagan
 560 = {	#560 - Chersonesus
 	
 	# Misc
-	culture = gothic
+	culture = crimean_gothic 
 	religion = orthodox
 	
 	holding = castle_holding
@@ -7368,12 +7368,13 @@ religion = jacobite #no syriac in CK3
 810 = {	# 810 - Charaideo
 	
 	# Misc
-	culture = chutia
+	culture = kamarupi
 	religion = bathouism
 	
 	holding = tribal_holding
 	
 	# History
+	1150.1.1 = { culture = chutia }
 	1228.1.1 = { culture = ahom holding = castle_holding }
 
 }
@@ -7743,13 +7744,14 @@ religion = jacobite #no syriac in CK3
 840 = {	# 840 - Ramavati
 	
 	# Misc
-	culture = rajbongshi
+	culture = kamarupi
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
 	# History
-
+	
+	1250.1.1 = { culture = rajbongshi }
 }
 
 841 = {	# 841 - Devkot
@@ -7910,6 +7912,7 @@ religion = jacobite #no syriac in CK3
 	holding = none
 	
 	# History
+	1050.1.1 = { culture = rakhine }
 
 }
 
@@ -9286,10 +9289,13 @@ religion = jacobite #no syriac in CK3
 
 1132 = {	# County Title
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	
 	# History
+	1225.1.1 = {
+		culture = kirghiz
+	}
 
 	1313.1.1 = { religion = ashari }
 }
@@ -9307,34 +9313,38 @@ religion = jacobite #no syriac in CK3
 1134 = {	# 1134 - Vamanasthali
 	
 	# Misc
-	culture = kathiawari
+	culture = gujarati
 	religion = yapaniya
 	
 	# History
+	
+	1000.1.1 = { culture = kathiawari }
 
 }
 
 1135 = {	# 1135 - Valabhi
 	
 	# Misc
-	culture = kathiawari
+	culture = gujarati
 	religion = saura
 	
 	# History
 	769.1.1 = {
 		special_building = generic_university
 	}
+	1000.1.1 = { culture = kathiawari }
 
 }
 
 1136 = {	# 1136 - Dvaraka
 	
 	# Misc
-	culture = kathiawari
+	culture = gujarati
 	religion = saura
 	special_building_slot = dwarkadhish_temple_01
 	special_building = dwarkadhish_temple_01
 	# History
+	1000.1.1 = { culture = kathiawari }
 
 }
 
@@ -9557,7 +9567,7 @@ religion = jacobite #no syriac in CK3
 1149 = {	# 1149 - Dhara
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = shaivism
 	
 	# History
@@ -9565,6 +9575,7 @@ religion = jacobite #no syriac in CK3
 		holding = castle_holding
 		special_building_slot = iron_pillar_of_dhar_01
 	}
+	1000.1.1 = { culture = malvi }
 	1000.1.1 = {
 		special_building = iron_pillar_of_dhar_01
 	}
@@ -9574,10 +9585,11 @@ religion = jacobite #no syriac in CK3
 1150 = {	# 1150 - Sarangpur
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = vaishnavism
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = vaishnavism
 	}
@@ -9602,12 +9614,14 @@ religion = jacobite #no syriac in CK3
 1152 = {	# 1152 - Mudgagiri
 	
 	# Misc
-	culture = magadhi
+	culture = bihari
 	religion = mahayana
 	
 	holding = castle_holding
 	
 	# History
+	
+	1000.1.1 = { culture = magadhi }
 
 }
 
@@ -9626,7 +9640,7 @@ religion = jacobite #no syriac in CK3
 1154 = {	# 1154 - Pataliputra
 	
 	# Misc
-	culture = magadhi
+	culture = bihari
 	religion = mahayana
 	
 	holding = castle_holding
@@ -9636,6 +9650,7 @@ religion = jacobite #no syriac in CK3
 		special_building_slot = nalanda_university
 		special_building = nalanda_university
 	}
+	1000.1.1 = { culture = magadhi }
 
 }
 
@@ -9763,13 +9778,13 @@ religion = jacobite #no syriac in CK3
 1162 = {	# 1162 - Kusinagara
 	
 	# Misc
-	culture = bhojpuri
+	culture = bihari
 	religion = vajrayana
 	
 	holding = castle_holding
 	
 	# History
-	
+	1000.1.1 = { culture = bhojpuri }
 	1150.1.1 = {
 		religion = vaishnavism
 	}
@@ -9779,14 +9794,14 @@ religion = jacobite #no syriac in CK3
 1163 = {	# 1163 - Varanasi
 	
 	# Misc
-	culture = bhojpuri
+	culture = bihari
 	religion = vajrayana
 	special_building_slot = varanasi_temples_01
 	special_building = varanasi_temples_01
 	holding = castle_holding
 	
 	# History
-	
+	1000.1.1 = { culture = bhojpuri }
 	1150.1.1 = {
 		religion = shaivism
 	}
@@ -9824,13 +9839,13 @@ religion = jacobite #no syriac in CK3
 1166 = {	# 1166 - Jaunpur
 	
 	# Misc
-	culture = bhojpuri
+	culture = bihari
 	religion = vajrayana
 	
 	holding = castle_holding
 	
 	# History
-	
+	1000.1.1 = { culture = bhojpuri }
 	1150.1.1 = {
 		religion = vaishnavism
 	}
@@ -9884,11 +9899,12 @@ religion = jacobite #no syriac in CK3
 1170 = {	# 1170 - Vidisa
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	terrain = jungle
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = smartism
 	}
@@ -9980,12 +9996,14 @@ religion = jacobite #no syriac in CK3
 1177 = {	# 1177 - Kundina
 	
 	# Misc
-	culture = chutia
+	culture = kamarupi
 	religion = bathouism
 	
 	holding = tribal_holding
 	
 	# History
+	
+	1150.1.1 = { culture = chutia }
 
 }
 
@@ -10060,20 +10078,22 @@ religion = jacobite #no syriac in CK3
 1182 = {	# 1182 - Bawangaja
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = digambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
 1183 = {	# 1183 - Borgarh
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = digambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
@@ -11084,13 +11104,13 @@ religion = jacobite #no syriac in CK3
 1241 = {	# 1241 - Koriya
 	
 	# Misc
-	culture = nagpuri
+	culture = bihari
 	religion = mahayana
 	
 	holding = tribal_holding
 	
 	# History
-	
+	1000.1.1 = { culture = nagpuri }
 	1150.1.1 = {
 		religion = pashupata
 	}
@@ -11134,12 +11154,14 @@ religion = jacobite #no syriac in CK3
 1244 = {	# 1244 - Kamatapur
 	
 	# Misc
-	culture = rajbongshi
+	culture = kamarupi
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
 	# History
+	
+	1250.1.1 = { culture = rajbongshi }
 
 }
 
@@ -11224,13 +11246,13 @@ religion = jacobite #no syriac in CK3
 1251 = {	# 1251 - Sasaram
 	
 	# Misc
-	culture = bhojpuri
+	culture = bihari
 	religion = vajrayana
 	
 	holding = castle_holding
 	
 	# History
-	
+	1000.1.1 = { culture = bhojpuri }
 	1150.1.1 = {
 		religion = shaivism
 	}
@@ -11545,32 +11567,35 @@ religion = jacobite #no syriac in CK3
 1266 = {	# 1266 - Somnath
 	
 	# Misc
-	culture = kathiawari
+	culture = gujarati
 	religion = svetambara
 	special_building_slot = somnath_temple_temple_01
 	special_building = somnath_temple_temple_01
 	# History
+	1000.1.1 = { culture = kathiawari }
 
 }
 
 1267 = {	# 1267 - Vardhamana
 	
 	# Misc
-	culture = kathiawari
+	culture = gujarati
 	religion = digambara
 	
 	# History
+	1000.1.1 = { culture = kathiawari }
 
 }
 
 1268 = {	# 1268 - Dhamalpur
 	
 	# Misc
-	culture = kathiawari
+	culture = gujarati
 	religion = svetambara
 	
 	# History
-
+	1000.1.1 = { culture = kathiawari }
+	
 }
 
 1269 = {	# 1269 - Canda
@@ -11643,12 +11668,13 @@ religion = jacobite #no syriac in CK3
 1272 = {	# 1272 - Ratanpur
 	
 	# Misc
-	culture = nagpuri
+	culture = bihari
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
 	# History
+	1000.1.1 = { culture = nagpuri }
 	1066.1.1 = {
 		religion = vaishnavism
 	}
@@ -11698,7 +11724,7 @@ religion = jacobite #no syriac in CK3
 1276 = {	# 1276 - Gaya
 	
 	# Misc
-	culture = magadhi
+	culture = bihari
 	religion = mahayana
 	
 	holding = castle_holding
@@ -11709,18 +11735,20 @@ religion = jacobite #no syriac in CK3
 		special_building_slot = holy_site_mahabodhi_temple_01
 		special_building = holy_site_mahabodhi_temple_01
 	}
+	1000.1.1 = { culture = magadhi }
 
 }
 
 1277 = {	# 1277 - Tummana
 	
 	# Misc
-	culture = nagpuri
+	culture = bihari
 	religion = vaishnavism
 	
 	holding = tribal_holding
 	
 	# History
+	1000.1.1 = { culture = nagpuri }
 
 }
 
@@ -11763,14 +11791,12 @@ religion = jacobite #no syriac in CK3
 	#b_kantit = temple
 	
 	# Misc
-	culture = bhojpuri
+	culture = bihari
 	religion = vajrayana
 	
 	# History
 	
-	#1193.1.1 = {
-	##	b_kantit = castle	#Continuation of Gahadvala sidebranch
-	#}
+	1000.1.1 = { culture = bhojpuri }
 	1150.1.1 = {
 		religion = shaivism
 	}
@@ -11870,11 +11896,12 @@ religion = jacobite #no syriac in CK3
 1288 = {	# 1288 - Ujjayini
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	special_building_slot = ujjayini_temple_city_01
 	special_building = ujjayini_temple_city_01
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
@@ -11935,10 +11962,12 @@ religion = jacobite #no syriac in CK3
 1295 = {	# 1295 - Kanthakota
 	
 	# Misc
-	culture = kutchi
+	culture = sindhi
 	religion = digambara
 	
 	# History
+	
+	1000.1.1 = { culture = kutchi }
 
 }
 
@@ -11986,13 +12015,14 @@ religion = jacobite #no syriac in CK3
 1299 = {	# 1299 - Candhoba
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 
 	holding = castle_holding
 
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = smartism
 	}
@@ -12173,13 +12203,13 @@ religion = jacobite #no syriac in CK3
 1327 = {	# 1327 - Rothas
 	
 	# Misc
-	culture = nagpuri
+	culture = bihari
 	religion = mahayana
 	
 	holding = castle_holding
 	
 	# History
-	
+	1000.1.1 = { culture = nagpuri }
 	1150.1.1 = {
 		religion = shaivism
 	}
@@ -12773,12 +12803,14 @@ religion = jacobite #no syriac in CK3
 1381 = {	# 1381 - Pundravardhana
 	
 	# Misc
-	culture = rajbongshi
+	culture = kamarupi
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
 	# History
+	
+	1250.1.1 = { culture = rajbongshi }
 
 }
 
@@ -12874,24 +12906,28 @@ religion = jacobite #no syriac in CK3
 1419 = {	# 1419 - Mithila
 	
 	# Misc
-	culture = maithili
+	culture = bihari
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
 	# History
-
+	
+	1100.1.1 = { culture = maithili }
+	
 }
 
 1420 = {	# 1420 - Simaramapura
 	
 	# Misc
-	culture = maithili
+	culture = bihari
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
 	# History
+	
+	1100.1.1 = { culture = maithili }
 
 }
 
@@ -19025,9 +19061,10 @@ culture = gallo_roman
 }
 
 2176 = {	#FECAMP
-		culture = french
+	culture = gallo_roman
 	religion = catholic
 	holding = church_holding
+	790.1.1 = { culture = french }
 	935.1.1 = {	culture = norman }
 	#1100.11.11 = { culture = french } #The Norman language/dialect didn't just disappear in 1100
 }
@@ -26290,32 +26327,35 @@ holding = none
 3315 = {	# 3315 - Jhansi
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = smartism
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
 3316 = {	# 3316 - Luacchagiri
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = smartism
 	
 	holding = church_holding
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
 3317 = {	# 3317 - Guna
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = smartism
 	}
@@ -26325,30 +26365,33 @@ holding = none
 3318 = {	# 3318 - Garh_Kundar
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = smartism
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
 3319 = {	# 3319 - Jarai_ka_Math
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = smartism
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
 3320 = {	# 3320 - Kadwaya
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = smartism
 	}
@@ -26358,7 +26401,7 @@ holding = none
 3321 = {	# 3321 - Raisin
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	terrain = jungle
 	
@@ -26367,6 +26410,7 @@ holding = none
 		special_building_slot = sonagiri_temple_01
 		special_building = sonagiri_temple_01
 	}
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = smartism
 	}
@@ -26376,11 +26420,12 @@ holding = none
 3322 = {	# 3322 - Sironj
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	terrain = jungle
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = smartism
 	}
@@ -26390,13 +26435,14 @@ holding = none
 3323 = {	# 3323 - Sanchi
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	terrain = jungle
 	
 	holding = church_holding
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = smartism
 	}
@@ -26406,11 +26452,12 @@ holding = none
 3324 = {	# 3324 - Bhojpur
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	terrain = jungle
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = smartism
 	}
@@ -26420,10 +26467,11 @@ holding = none
 3325 = {	# 3325 - Ashta
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = srikula_shaktism
 	}
@@ -26433,10 +26481,11 @@ holding = none
 3326 = {	# 3326 - Jhalawar
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = srikula_shaktism
 	}
@@ -26446,10 +26495,11 @@ holding = none
 3327 = {	# 3327 - Gagraun
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
 		religion = srikula_shaktism
 	}
@@ -26483,30 +26533,33 @@ holding = none
 3330 = {	# 3330 - Betma
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = digambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
 3331 = {	# 3331 - Depalpur
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = digambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
 3332 = {	# 3332 - Dharampuri
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = digambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
@@ -26523,42 +26576,46 @@ holding = none
 3334 = {	# 3334 - Dewas
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	
 	holding = church_holding
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
 3335 = {	# 3335 - Maksi
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
 3336 = {	# 3336 - Mehidpur
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
 3337 = {	# 3337 - Agar
 	
 	# Misc
-	culture = malvi
+	culture = rajput
 	religion = svetambara
 	
 	# History
+	1000.1.1 = { culture = malvi }
 
 }
 
@@ -58293,6 +58350,9 @@ religion = jacobite
 	
 	# History
 	1066.1.1 = {
+		culture = yenisei_kirghiz
+	}
+	1230.1.1 = {
 		culture = kirghiz
 	}
 	1250.1.1 = { 
@@ -58325,6 +58385,9 @@ religion = jacobite
 	#	culture = kimek
 	#}
 	1066.1.1 = {
+		culture = yenisei_kirghiz
+	}
+	1225.1.1 = {
 		culture = kirghiz
 	}
 	1250.1.1 = { 
@@ -58345,7 +58408,7 @@ religion = jacobite
 		religion = maturidi
 	}
 	1066.1.1 = {
-		culture = kirghiz
+		culture = yenisei_kirghiz
 	}
 	1220.1.1 = {
 		culture = oirat
@@ -58370,7 +58433,7 @@ religion = jacobite
 		religion = maturidi
 	}
 	1066.1.1 = {
-		culture = kirghiz
+		culture = yenisei_kirghiz
 	}
 	1220.1.1 = {
 		culture = oirat
@@ -58475,7 +58538,7 @@ religion = jacobite
 	
 	# History
 	1066.1.1 = {
-		culture = kirghiz
+		culture = yenisei_kirghiz
 	}
 	1220.1.1 = {
 		culture = oirat
@@ -59894,12 +59957,16 @@ religion = jacobite
 7397 = {	# 7397 - Barnaul
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	
 	holding = herder_holding
 	
 	# History
+	
+	1225.1.1 = {
+		culture = kirghiz
+	}
 
 }
 
@@ -59942,24 +60009,32 @@ religion = jacobite
 7405 = {	# 7405 - Korgon
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	
 	holding = herder_holding
 	
 	# History
+	
+	1225.1.1 = {
+		culture = kirghiz
+	}
 
 }
 
 7406 = {	# 7406 - Aley
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	
 	#holding = castle_holding
 	
 	# History
+	
+	1225.1.1 = {
+		culture = kirghiz
+	}
 
 }
 
@@ -60042,19 +60117,27 @@ religion = jacobite
 7421 = {	# 7421 - Kondoma
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	
 	#holding = castle_holding
 	
 	# History
+	
+	1225.1.1 = {
+		culture = kirghiz
+	}
 
 }
 
 7422 = {	#Sorok	#Fictional
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	holding = herder_holding
+	
+	1225.1.1 = {
+		culture = kirghiz
+	}
 }
 
 7423 = {	#Our	#Fictional, based on local river
@@ -60070,20 +60153,27 @@ religion = jacobite
 }
 
 7426 = {	#Torema	#Fictional, based on local river
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	holding = tribal_holding
+	
+	1225.1.1 = {
+		culture = kirghiz
+	}
 }
 
 7427 = {	# 7427 - Ob
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	
 	#holding = castle_holding
 	
 	# History
+	1225.1.1 = {
+		culture = kirghiz
+	}
 
 }
 
@@ -60104,9 +60194,13 @@ religion = jacobite
 }
 
 7432 = {	#Kiia	#Fictional, based on local river
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	holding = herder_holding
+	
+	1225.1.1 = {
+		culture = kirghiz
+	}
 }
 
 7433 = {	#Yaia	#Fictional, based on local river
@@ -60122,9 +60216,13 @@ religion = jacobite
 }
 
 7436 = {	#Taskyl	#Fictional, based on local mountain
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	holding = tribal_holding
+	
+	1225.1.1 = {
+		culture = kirghiz
+	}
 }
 
 7437 = {	#Yogoran	#Fictional
@@ -60136,10 +60234,14 @@ religion = jacobite
 }
 
 7439 = {	#Chulym_bis	#Fictional, based on local river
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	
 	holding = nomad_holding
+	
+	1225.1.1 = {
+		culture = kirghiz
+	}
 	
 }
 
@@ -60156,10 +60258,14 @@ religion = jacobite
 }
 
 7443 = {	#Kojuk	#Fictional, based on local river
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = ulganism
 	
 	holding = herder_holding
+	
+	1225.1.1 = {
+		culture = kirghiz
+	}
 	
 }
 
@@ -60388,7 +60494,7 @@ religion = jacobite
 7486 = {	# 7486 - Narym-DZU
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = tengri_pagan
 	
 	#holding = xx
@@ -60417,7 +60523,7 @@ religion = jacobite
 7489 = {	# 7489 - Torangy Kul
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = tengri_pagan
 	
 	#holding = xx
@@ -62043,7 +62149,7 @@ religion = jacobite
 7733 = {	# 7733 - Kem_MON
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = eastern_tengri
 	
 	#holding = xx
@@ -62060,7 +62166,7 @@ religion = jacobite
 7734 = {	# 7734 - Kemchug
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = eastern_tengri
 	
 	#holding = xx
@@ -62077,7 +62183,7 @@ religion = jacobite
 7735 = {	# 7735 - Stolby
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = eastern_tengri
 	
 	#holding = xx
@@ -62105,7 +62211,7 @@ religion = jacobite
 7737 = {	# 7737 - Kyzyl-Kan
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = eastern_tengri
 	
 	#holding = xx
@@ -62133,7 +62239,7 @@ religion = jacobite
 7739 = {	# 7739 - Taseya
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = eastern_tengri
 	
 	#holding = xx
@@ -62150,7 +62256,7 @@ religion = jacobite
 7740 = {	# 7740 - Nemkina
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = eastern_tengri
 	
 	#holding = xx
@@ -62167,7 +62273,7 @@ religion = jacobite
 7741 = {	# 7741 - Biriusa
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = eastern_tengri
 	
 	#holding = xx
@@ -62198,7 +62304,7 @@ religion = jacobite
 7743 = {	# 7743 - Khoidkhiliin
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = eastern_tengri
 	
 	#holding = xx
@@ -62229,7 +62335,7 @@ religion = jacobite
 7745 = {	# 7745 - Agul
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = eastern_tengri
 	
 	#holding = xx
@@ -62246,7 +62352,7 @@ religion = jacobite
 7746 = {	# 7746 - Narsgol
 	
 	# Misc
-	culture = kirghiz
+	culture = yenisei_kirghiz
 	religion = eastern_tengri
 	
 	#holding = xx
@@ -68555,6 +68661,7 @@ holding = castle_holding
 	holding = none
 	
 	# History
+	1050.1.1 = { culture = rakhine }
 
 }
 
@@ -71422,13 +71529,14 @@ holding = castle_holding
 	# 9090 - Devalgarh
 	
 	# Misc
-	culture = kumaoni
+	culture = nepali
 	religion = shaivism
 	special_building_slot = kedarnath_temple_01
 	special_building = kedarnath_temple_01
 	holding = castle_holding
 	
 	# History
+	900.1.1 = { culture = kumaoni }
 }
 
 9091 = {	# 9091 - Kartikeyapura
@@ -71436,13 +71544,14 @@ holding = castle_holding
 	# 9091 - Kartikeyapura
 	
 	# Misc
-	culture = kumaoni
+	culture = nepali
 	religion = shaivism
 	special_building_slot = badrinath_temple_01
 	special_building = badrinath_temple_01
 	holding = castle_holding
 	
 	# History
+	900.1.1 = { culture = kumaoni }
 }
 
 9092 = {	# 9092 - Champawat
@@ -71450,12 +71559,13 @@ holding = castle_holding
 	# 9092 - Champawat
 	
 	# Misc
-	culture = kumaoni
+	culture = nepali
 	religion = shaivism
 	
 	holding = castle_holding
 	
 	# History
+	900.1.1 = { culture = kumaoni }
 }
 
 9093 = {	# 9093 - Almora
@@ -76987,7 +77097,7 @@ holding = castle_holding
 	
 	# History
 
-	902.1.1 = {
+	1050.1.1 = {
 		culture = rakhine
 		religion = theravada
 	}
@@ -77052,7 +77162,7 @@ holding = castle_holding
 	holding = temple_citadel_holding
 	
 	# History
-	902.1.1 = {
+	1050.1.1 = {
 		culture = rakhine
 		religion = theravada
 	}
@@ -77705,12 +77815,14 @@ holding = castle_holding
 9654 = {	# 9654 - Bangaon
 	
 	# Misc
-	culture = maithili
+	culture = bihari
 	religion = kalikula_shaktism
 	
 	holding = castle_holding
 	
 	# History
+	
+	1100.1.1 = { culture = maithili }
 
 }
 

@@ -25242,6 +25242,12 @@ e_italy = { # Localized as Italia
 			capital = c_siena # Siena
 		}
 
+		d_emilia = {
+			color = { 225 180 180 }
+
+			capital = c_modena # Modena
+		}
+
 		d_toscana = { #re-localized as Florence # Localized as Florence
 			color = { 222 186 25 }
 
@@ -25717,7 +25723,7 @@ e_italy = { # Localized as Italia
 
 		}
 
-		d_pentapolis = { # Localized as Pentapolis 
+		d_ancona = { # Localized as Pentapolis
 			color = { 200 200 190 }
 
 			capital = c_ancona

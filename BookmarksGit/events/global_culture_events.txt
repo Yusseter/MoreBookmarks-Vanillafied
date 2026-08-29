@@ -2384,7 +2384,6 @@ global_culture.5008 = {
 	}
 }
 
-##Last used is 5010
 
 #########################################################################
 # Converting Silla, Balhae, Goguryeo, and Baekje to Goryeo 				#
@@ -2544,3 +2543,6 @@ global_culture.4012 = {
 		scope:county_to_change = { set_county_culture = culture:goryeo }
 	}
 }
+
+
+##Last used is 5010

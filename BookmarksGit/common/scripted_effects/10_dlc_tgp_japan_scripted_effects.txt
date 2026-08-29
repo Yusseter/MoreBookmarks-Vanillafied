@@ -3208,7 +3208,7 @@ tgp_setup_historical_house_relation_effect = {
 				LEVEL = rivalry
 			}
 		}
-		house:house_taira_wada = {
+		house:house_shgnt_wada1 = {
 			tgp_set_historical_house_relation_effect = { # Yoshimune killed by Tsunetomo
 				OTHER_HOUSE = dynasty:japanese_nagasa.dynasty_founder.house
 				LEVEL = rivalry
@@ -3220,7 +3220,7 @@ tgp_setup_historical_house_relation_effect = {
 				LEVEL = rivalry
 			}
 		}
-		house:house_taira_soga = {
+		house:10007419 = {
 			tgp_set_historical_house_relation_effect = { # Soga brothers
 				OTHER_HOUSE = house:house_minamoto_kawachi
 				LEVEL = rivalry

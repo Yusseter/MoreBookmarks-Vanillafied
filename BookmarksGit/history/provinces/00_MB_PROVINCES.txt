@@ -14672,7 +14672,7 @@ religion = jacobite #no syriac in CK3
 	}
 	900.11.11 = { culture = anglo_norse }
 	1150.11.11 = {
-		culture = northerner
+		culture = english
 	}
 }
 
@@ -14918,7 +14918,7 @@ religion = jacobite #no syriac in CK3
 		holding = castle_holding
 	}
 	1150.11.11 = {
-		culture = northerner
+		culture = scottish
 	}
 
 }
@@ -14931,7 +14931,7 @@ religion = jacobite #no syriac in CK3
 		holding = castle_holding
 	}
 	1150.11.11 = {
-		culture = northerner
+		culture = scottish
 	}
 }
 
@@ -15371,7 +15371,7 @@ religion = jacobite #no syriac in CK3
 	religion = catholic
 	holding = tribal_holding
 	1150.11.11 = {
-		culture = northerner
+		culture = scottish
 	}
 	1066.1.1 = {
 		buildings = {
@@ -15427,9 +15427,6 @@ religion = jacobite #no syriac in CK3
 	holding = tribal_holding
 	900.1.1 = {
 		culture = gaelic
-	}
-	1130.1.1 = {
-		culture = scottish
 	}
 	1066.1.1 = {
 		holding = castle_holding
@@ -15487,9 +15484,6 @@ religion = jacobite #no syriac in CK3
 	}
 	1015.1.1 = {
 		holding = castle_holding
-	}
-	1300.1.1 = {
-		culture = scottish
 	}
 }
 
@@ -17598,6 +17592,8 @@ religion = jacobite #no syriac in CK3
 	867.1.1 = {
 		culture = andalusian
 	}
+	1246.1.1 = { religion = catholic }
+	1255.1.1 = { culture = castilian }
 	
 }
 
@@ -20645,9 +20641,6 @@ religion = catholic
 	culture = frisian
 	religion = catholic
 	holding = castle_holding
-	1050.1.1 = {
-		culture = dutch
-	}
 }
 
 2410 = {	#STAVEREN
@@ -34242,14 +34235,11 @@ religion = orthodox
 }
 
 4285 = {	#Kiz
-	culture = brahui
+	culture = baloch
 	religion = zurvanism
 	holding = castle_holding
-	#880.1.1 = {
-	#	religion = maturidi
-	#}
-	1050.1.1 = {
-		culture = baloch
+	880.1.1 = {
+		religion = maturidi
 	}
 }
 
@@ -35541,7 +35531,7 @@ religion = orthodox
 }
 
 4471 = {	#Bannajbur
-	culture = brahui
+	culture = baloch
 	religion = zun_pagan
 	holding = tribal_holding
 	830.1.1 = {
@@ -35549,9 +35539,6 @@ religion = orthodox
 	}
 	880.1.1 = {
 		religion = maturidi
-	}
-	1050.1.1 = {
-		culture = baloch
 	}
 }
 
@@ -35592,7 +35579,7 @@ religion = orthodox
 }
 
 4479 = {	#Qusdar
-	culture = brahui
+	culture = sindhi
 	religion = zun_pagan
 	holding = tribal_holding
 	830.1.1 = {
@@ -35600,6 +35587,9 @@ religion = orthodox
 	}
 	880.1.1 = {
 		religion = maturidi
+	}
+	1100.1.1 = {
+		culture = brahuii
 	}
 }
 
@@ -60168,7 +60158,7 @@ religion = jacobite
 	culture = yenisei_kirghiz
 	religion = ulganism
 	
-	#holding = castle_holding
+	holding = nomad_holding
 	
 	# History
 	1225.1.1 = {

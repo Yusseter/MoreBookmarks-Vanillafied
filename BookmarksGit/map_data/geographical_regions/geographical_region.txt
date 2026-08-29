@@ -4301,7 +4301,7 @@ dlc_mpo_steppe_e_amur_expansion = {
 #		world_steppe_tarim
 #	}
 #	duchies = {
-#		# k_hexi
+#		# k_xia
 #		d_hexi d_longyou d_qilian d_gansu d_guasha
 #	}
 #}

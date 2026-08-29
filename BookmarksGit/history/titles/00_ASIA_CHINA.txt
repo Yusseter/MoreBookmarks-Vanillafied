@@ -48330,6 +48330,7 @@ c_luodian = {
 d_luoshi = {
 	730.1.1 = {
 		holder = YiTribesMangbu1  # Mu_Zim
+		government = clan_government
 	}
 	738.9.11 = {
 		holder = YiTribesMangbu2  # Shu_Qi

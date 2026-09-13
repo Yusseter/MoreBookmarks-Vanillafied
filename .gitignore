@@ -1,16 +1,51 @@
+# OS and editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE, local editor and agent folders
+.idea/
+.vs/
+.history/
+
+# Temporary files
+~$*
+*.tmp
+*.bak
+
+# Local working folders
+.cache/
+tmp/
+temp/
+wip/
+
+# Local Codex files
+.codex/prompts/
+.codex/memory/local/
+
+# Generated analysis files
+.codex/works/analysis/generated/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Large map files
+# Upstream does not use Git LFS, so this fork keeps these oversized local files out of Git.
+
+# Live mod files
 BookmarksGit/map_data/heightmap.png
 BookmarksGit/gfx/map/terrain/detail_index.tga
 BookmarksGit/gfx/map/terrain/detail_intensity.tga
-BookmarksGit/test_files/gfx/map/terrain/detail_index.tga
-BookmarksGit/test_files/gfx/map/terrain/detail_intensity.tga
-BookmarksGit/test_files/map_data/heightmap.png
+
+# Coat of arms files
 BookmarksGit/gfx/coat_of_arms/**/*.asset
 BookmarksGit/gfx/coat_of_arms/**/*.dds
 BookmarksGit/gfx/coat_of_arms/**/*.jpg
 BookmarksGit/gfx/coat_of_arms/**/*.mesh
 BookmarksGit/gfx/coat_of_arms/**/*.png
-*.ttf
-*.otf
-.codex/test_files/gfx/map/terrain/detail_index.tga
-.codex/test_files/gfx/map/terrain/detail_intensity.tga
-.codex/test_files/map_data/heightmap.png
+
+# Font files
+BookmarksGit/fonts/**/*.ttf
+BookmarksGit/fonts/**/*.otf

@@ -1,6 +1,47 @@
-# Auto detect text files and perform LF normalization
+# Default
 * text=auto
-# LFS
-#BookmarksGit/test_files/gfx/map/terrain/detail_index.tga filter=lfs diff=lfs merge=lfs -text
-#BookmarksGit/test_files/gfx/map/terrain/detail_intensity.tga filter=lfs diff=lfs merge=lfs -text
-#BookmarksGit/test_files/map_data/heightmap.png filter=lfs diff=lfs merge=lfs -text
+
+# Text files
+*.md text eol=lf
+*.json text eol=lf
+*.jsonc text eol=lf
+*.csv text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.patch text eol=lf
+*.code-workspace text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+
+# CK3 text files
+*.txt text
+*.yml text
+*.gui text
+*.gfx text
+*.font text
+*.asset text
+*.mod text
+*.info text
+*.map text
+*.conf text
+*.settings text
+*.editordata text
+*.particle2 text
+*.terrain text
+*.heightmap text
+
+# Binary files
+*.png binary
+*.dds binary
+*.tga binary
+*.jpg binary
+*.jpeg binary
+*.pdn binary
+*.ttf binary
+*.otf binary
+*.anim binary
+*.mesh binary
+*.dat binary
+*.psd binary
+*.pdf binary
+*.exe binary

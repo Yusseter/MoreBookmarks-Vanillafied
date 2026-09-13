@@ -1,0 +1,13 @@
+province_id,ours_line,upstream_line,ours_header,upstream_header,ours_lines,upstream_lines,status
+1643,14666,72149,1643 = {	#Chester,1643 = {	#Chester,12,12,apply_upstream_block
+1676,14913,78588,1676 = {	#Dunbar,1676 = {	#Dunbar,12,12,apply_upstream_block
+1677,14926,78605,1677 = {	#Kelso,1677 = {	#Kelso,11,11,apply_upstream_block
+1727,15369,78559,1727 = {	#Edinburgh,1727 = {	#Edinburgh,18,18,apply_upstream_block
+1734,15424,78127,1734 = {	#Stirling,1734 = {	#Stirling,14,11,apply_upstream_block
+1741,15481,78077,1741 = {	#Perth / b_st_johnston,1741 = {	#Perth / b_st_johnston,14,11,apply_upstream_block
+1977,17590,89678,1977 = {	# JAEN,1977 = {	# JAEN,13,15,apply_upstream_block
+2409,20644,87501,2409 = {	#MEDEMBLIK,2409 = {	#MEDEMBLIK,8,5,apply_upstream_block
+4285,34244,65045,4285 = {	#Kiz,4285 = {	#Kiz,11,8,apply_upstream_block
+4471,35543,65012,4471 = {	#Bannajbur,4471 = {	#Bannajbur,14,11,apply_upstream_block
+4479,35594,65120,4479 = {	#Qusdar,4479 = {	#Qusdar,11,14,apply_upstream_block
+7427,60165,12781,7427 = {	# 7427 - Ob,7427 = {	# 7427 - Ob,14,14,apply_upstream_block

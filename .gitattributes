@@ -45,3 +45,6 @@
 *.psd binary
 *.pdf binary
 *.exe binary
+
+# Archived raw diff evidence
+.codex/works/archive/merge_restore_backups/** -whitespace

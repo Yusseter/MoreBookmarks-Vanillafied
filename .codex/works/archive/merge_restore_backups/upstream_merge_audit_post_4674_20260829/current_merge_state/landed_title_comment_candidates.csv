@@ -1,0 +1,3 @@
+current_title_id,upstream_title_id,mapping_source,key,classification,risk,recommendation,upstream_changed,yusseter_changed,working_matches_ours,working_matches_theirs,base_line,ours_line,theirs_line,working_line,base_value,ours_value,theirs_value,working_value
+b_ganzhou,b_ganzhou,implicit_same_id,__opening_comment__,pending_upstream_change,informational,candidate_take_upstream,yes,no,yes,no,100120,102533,,102539,Zhangye # Localized as Zhāngyèxiàn,Zhangye # Localized as Zhāngyèxiàn,<absent>,Zhangye # Localized as Zhāngyèxiàn
+k_xia,k_xia,relation_csv,__opening_comment__,pending_upstream_change,informational,candidate_take_upstream,yes,no,yes,no,100084,102520,,102526,Minya/Minyak # Localized as Héxī,Minya/Minyak # Localized as Héxī,<absent>,Minya/Minyak # Localized as Héxī

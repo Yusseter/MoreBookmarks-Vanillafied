@@ -1,0 +1,3024 @@
+====================================================================================================
+title_id=c_BAL_east_hyeondeok decision=manual_ours_modified_upstream_deleted
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:40812 raw=c_baishan_china
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:40711 raw=c_BAL_east_hyeondeok
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -1,34 +1,28 @@
+-c_baishan_china = {
+-
++c_BAL_east_hyeondeok = {
++	#长白山女直
+ 	730.1.1 = {
+ 		holder = BalhaeMa1  # Xuanling
+ 		liege = k_balhae
+ 	}
+-	
+ 	738.9.3 = {
+ 		holder = BalhaeMa2  # Renjie
+ 	}
+-	
+ 	769.11.14 = {
+ 		holder = BalhaeMa3  # Ziyi
+ 	}
+-	
+ 	799.6.22 = {
+ 		holder = BalhaeMa4  # Wuji
+ 	}
+-	
+ 	828.4.5 = {
+ 		holder = BalhaeMa5  # Liangsi
+ 	}
+-	
+ 	857.8.19 = {
+ 		holder = BalhaeMa6  # Jishan
+ 	}
+-	
++	860.1.1 = { holder = 1419910 liege = d_BAL_moe_su }
+ 	887.2.27 = {
+ 		holder = BalhaeMa7  # Yuanzhong
+ 	}
+-	
+ 	916.11.8 = {
+ 		holder = BalhaeMa8  # Dunxin
+ 	}
+@@ -38,10 +32,10 @@
+ 	1043.1.1 = { holder = 1419916 } #柴葛 Chaige. 長白山太師 in 1048.8.6.
+ 	1070.1.1 = { holder = 1419917 }
+ 	1098.1.1 = { holder = 1419918 }
+-	1116.6.13 = { liege = d_malgal_china }
++	1116.6.13 = { liege = d_BAL_moe_su }
+ 	1138.1.1 = { holder = MBJurchen1 }
+ 	1188.1.1 = { holder = jurchen1289 }
+-	1205.1.1 = { holder = jurchen1290 liege = d_sumo_china }
++	1205.1.1 = { holder = jurchen1290 liege = d_BAL_moe_su }
+ 	1220.1.1 = { holder = NieHanMB7 }
+ 	1240.1.5 = { holder = NieHanMB8 }
+ 	1268.4.9 = { holder = NieHanMB9 }
+--- base -> upstream
+--- base
++++ upstream
+@@ -1,50 +0,0 @@
+-c_baishan_china = {
+-
+-	730.1.1 = {
+-		holder = BalhaeMa1  # Xuanling
+-		liege = k_balhae
+-	}
+-	
+-	738.9.3 = {
+-		holder = BalhaeMa2  # Renjie
+-	}
+-	
+-	769.11.14 = {
+-		holder = BalhaeMa3  # Ziyi
+-	}
+-	
+-	799.6.22 = {
+-		holder = BalhaeMa4  # Wuji
+-	}
+-	
+-	828.4.5 = {
+-		holder = BalhaeMa5  # Liangsi
+-	}
+-	
+-	857.8.19 = {
+-		holder = BalhaeMa6  # Jishan
+-	}
+-	
+-	887.2.27 = {
+-		holder = BalhaeMa7  # Yuanzhong
+-	}
+-	
+-	916.11.8 = {
+-		holder = BalhaeMa8  # Dunxin
+-	}
+-	943.1.1 = { holder = 1419913 liege = d_sumo_china }
+-	967.1.1 = { holder = 1419914 }
+-	1018.1.1 = { holder = 1419915 }
+-	1043.1.1 = { holder = 1419916 } #柴葛 Chaige. 長白山太師 in 1048.8.6.
+-	1070.1.1 = { holder = 1419917 }
+-	1098.1.1 = { holder = 1419918 }
+-	1116.6.13 = { liege = d_malgal_china }
+-	1138.1.1 = { holder = MBJurchen1 }
+-	1188.1.1 = { holder = jurchen1289 }
+-	1205.1.1 = { holder = jurchen1290 liege = d_sumo_china }
+-	1220.1.1 = { holder = NieHanMB7 }
+-	1240.1.5 = { holder = NieHanMB8 }
+-	1268.4.9 = { holder = NieHanMB9 }
+-	1297.8.23 = { holder = NieHanMB10 }
+-	1325.11.4 = { holder = NieHanMB11 }
+-}
+
+====================================================================================================
+title_id=c_BOR_brunei decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:10938 raw=c_BOR_brunei
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,9 @@
++	c_BOR_brunei = {
++	769.1.1 = { change_development_level = 2 }
++	1000.1.1 = { change_development_level = 6 }
++	1124.1.1 = { change_development_level = 8 }
++	1166.1.1 = { change_development_level = 12 }
++	1204.1.1 = { change_development_level = 17 }
++	1241.1.1 = { change_development_level = 21 }
++	1310.1.1 = { change_development_level = 27 }
++	}
+--- base -> upstream
+
+====================================================================================================
+title_id=c_JAV_galuh decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:2467 raw=c_JAV_galuh
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,9 @@
++	c_JAV_galuh = {
++	769.1.1 = { change_development_level = 0 }
++	1000.1.1 = { change_development_level = 1 }
++	1124.1.1 = { change_development_level = 4 }
++	1166.1.1 = { change_development_level = 8 }
++	1204.1.1 = { change_development_level = 12 }
++	1241.1.1 = { change_development_level = 14 }
++	1310.1.1 = { change_development_level = 16 }
++	}
+--- base -> upstream
+
+====================================================================================================
+title_id=c_LIAO_linhuang decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:38295 raw=c_LIAO_linhuang
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:38173 raw=c_LIAO_linhuang
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:38295 raw=c_LIAO_linhuang
+--- base -> ours
+--- base
++++ ours
+@@ -5,7 +5,7 @@
+ 	1032.1.1 = { change_development_level = 26 }
+ 
+ 	#Khitan - Diela tribe
+-	730.1.1 = { holder = 1413002 liege = d_xarmoron_china } #Pidie
++	730.1.1 = { holder = 1413002 liege = d_LIAO_linhuang } #Pidie
+ 	735.1.1 = { holder = 1413003 } #Keling
+ 	742.1.1 = { holder = 1413004 } #Noulisi
+ 	770.1.1 = { holder = 1413005 } #Qiashen
+--- base -> upstream
+
+====================================================================================================
+title_id=c_almaty decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:60681 raw=c_almaty
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:59967 raw=c_almaty
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:60681 raw=c_almaty
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_balashagun decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:59215 raw=c_balashagun
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58501 raw=c_balashagun
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:59215 raw=c_balashagun
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_beshbalik decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:62817 raw=c_beshbalik
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:62103 raw=c_beshbalik
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:62817 raw=c_beshbalik
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_bolghar decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:25723 raw=c_bolghar
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:25715 raw=c_bolghar
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:25723 raw=c_bolghar
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_chah decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58703 raw=c_chah
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:57989 raw=c_chah
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58703 raw=c_chah
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_em_dutulun decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:32634 raw=c_em_dutulun
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:32630 raw=c_em_dutulun
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:32634 raw=c_em_dutulun
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_gegyai decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:70291 raw=c_gegyai
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:69563 raw=c_gegyai
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:70291 raw=c_gegyai
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_gerze decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:70396 raw=c_gerze
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:69668 raw=c_gerze
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:70396 raw=c_gerze
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_hangzhou decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_CHINA.txt:21808 raw=c_hangzhou_china
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:20885 raw=c_hangzhou
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -1,4 +1,4 @@
+-c_hangzhou_china = {
++c_hangzhou = {
+ 	766.1.1 = { change_development_level = 16 }
+ 	936.1.1 = { change_development_level = 20 }
+ 	1032.1.1 = { change_development_level = 22 }
+@@ -23,13 +23,13 @@
+ 	#
+ 	853.1.1 = { holder = 1403745 } #Du Ziqian - prefect around this time
+ 	#
+-	860.1.1 = { holder = 1403121 liege = d_zhenhai_china } #Cui Yanceng - prefect in 861
++	860.1.1 = { holder = 1403121 liege = d_jiangdong } #Cui Yanceng - prefect in 861
+ 	866.1.1 = { holder = 1407290 } #Pei Jue - prefect around this time
+ 	870.1.1 = { holder = 1409807 } #Lu Xun - prefect around this time
+ 	873.1.1 = { holder = 1409644 } #Linghu Xun - prefect around this time
+ 	876.1.1 = { holder = 1409643 } #Li Miao - prefect around this time
+ 	881.10.2 = { holder = 1409467 } #Dong Chang - made prefect
+-	887.1.7 = { holder = 1406579 liege = d_zhedong_china } #Qian Liu - made prefect
++	887.1.7 = { holder = 1406579 liege = d_zhedong } #Qian Liu - made prefect
+ 	893.6.18 = { liege = d_zhexi }
+ 	#Wuyue
+ 	923.3.12 = { holder = 1406598 } #Qian Chuanguan
+--- base -> upstream
+--- base
++++ upstream
+@@ -1,159 +0,0 @@
+-c_hangzhou_china = {
+-	766.1.1 = { change_development_level = 16 }
+-	936.1.1 = { change_development_level = 20 }
+-	1032.1.1 = { change_development_level = 22 }
+-
+-	#Tang
+-	626.1.1 = { holder = 1802538 } #Yao Sicong - acting prefect at some point
+-	#
+-	692.1.1 = { holder = 1408569 } #Cui Yuanjiang - prefect in 694
+-	#
+-	710.1.1 = { holder = 1407668 } #Pei Quan - prefect around this time
+-	#
+-	769.1.1 = { holder = longxi_li_0727 }
+-	776.6.5 = { holder = 1403694 } #Du Ji - made prefect
+-	780.1.1 = { holder = 1800321 } #Feng Liang - prefect at some point
+-	783.1.1 = { holder = 1406340 } #Li Bi - prefect until 784.8.16
+-	#
+-	801.1.1 = { holder = 1409873 } #Su Bian - prefect around this time
+-	#
+-	809.1.1 = { holder = 1409564 } #Pei Changdi - prefect in 809
+-	#
+-	835.1.1 = { holder = 1802655 } #Yao He - prefect around this time
+-	#
+-	853.1.1 = { holder = 1403745 } #Du Ziqian - prefect around this time
+-	#
+-	860.1.1 = { holder = 1403121 liege = d_zhenhai_china } #Cui Yanceng - prefect in 861
+-	866.1.1 = { holder = 1407290 } #Pei Jue - prefect around this time
+-	870.1.1 = { holder = 1409807 } #Lu Xun - prefect around this time
+-	873.1.1 = { holder = 1409644 } #Linghu Xun - prefect around this time
+-	876.1.1 = { holder = 1409643 } #Li Miao - prefect around this time
+-	881.10.2 = { holder = 1409467 } #Dong Chang - made prefect
+-	887.1.7 = { holder = 1406579 liege = d_zhedong_china } #Qian Liu - made prefect
+-	893.6.18 = { liege = d_zhexi }
+-	#Wuyue
+-	923.3.12 = { holder = 1406598 } #Qian Chuanguan
+-	941.9.17 = { holder = 1406630 } #Qian Hongzuo
+-	947.6.22 = { holder = 1406635 } #Qian Hongzong
+-	948.2.12 = { holder = 1406646 } #Qian Hongchu
+-	#Song
+-	978.6.9 = { holder = 217722 }
+-	978.11.1 = { holder = shangdang_li_019 } #Li Jining - prefect around this time
+-	979.3.1 = { holder = 217722 }
+-	986.1.1 = { holder = zhaojun_li_367 } #Li Changyan - prefect at some point
+-	987.10.25 = { holder = jixian_wei_007 } #Wei Xianxi - made prefect
+-	989.5.14 = { holder = 1803061 } #Liu Zhixin - made prefect
+-	993.6.15 = { holder = 1802026 } #Wang Huaji - made prefect
+-	995.1.1 = { holder = julu_wei_245 } #Wei Yu - made prefect
+-	997.7.1 = { holder = chuqiu_qi_006 } #Zhang Quhua - made prefect
+-	1014.4.17 = { holder = 217722 }
+-	1014.4.19 = { holder = wanquan_xue_004 } #Xue Yan - made prefect
+-	1016.10.11 = { holder = 217723 }
+-	1016.10.31 = { holder = fufeng_ma_172 } #Ma Liang - made prefect
+-	1017.1.1 = { holder = daibei_yin_008 }
+-	1019.7.13 = { holder = xinyu_wang_005 } #Wang Qinruo - made prefect
+-	1020.8.26 = { holder = 217723 }
+-	1022.3.23 = { holder = 217724 }
+-	1023.10.13 = { holder = 1801690 } #Zhou Qi - made prefect
+-	1026.5.1 = { holder = 217724 }
+-	1026.5.19 = { holder = yongkang_hu_004 } #He Ze - made prefect
+-	1028.2.20 = { holder = 217724 }
+-	1029.1.1 = { holder = tianchang_zhu_004 } #Zhu Xuan - made prefect
+-	1030.6.16 = { holder = 217724 }
+-	1031.3.7 = { holder = 1803121 } #Zhang Guan - made prefect
+-	1033.5.30 = { holder = yongkang_hu_004 } #He Ze - made prefect
+-	1034.5.5 = { holder = 217724 }
+-	1034.5.7 = { holder = dantu_zheng_002 } #Zheng Xiang - made prefect
+-	1036.5.20 = { holder = 217724 }
+-	1038.7.22 = { holder = daming_liu_036 } #Liu Zhi - made prefect
+-	1039.9.3 = { holder = 217724 }
+-	1039.9.9 = { holder = xiaxian_sima_024 } #Sima Chi - made prefect
+-	1040.10.17 = { holder = shaxian_zhang_001 } #Zhang Ruogu - made prefect
+-	1041.6.24 = { holder = xingyang_zheng_285 } #Zheng Jian - made prefect
+-	1042.7.1 = { holder = 217724 }
+-	1043.11.2 = { holder = zhongbu_yang_005 } #Yang Xie - made prefect
+-	1045.12.7 = { holder = putian_fang_035 } #Fang Jie - made prefect
+-	1047.8.21 = { holder = 217724 }
+-	1049.2.26 = { holder = wuxian_fan_007 } #Fan Zhongyan - made prefect
+-	1050.10.25 = { holder = 217724 }
+-	1051.7.25 = { holder = 1801716 } #Lv Shen - made prefect
+-	1053.5.3 = { holder = kuaiji_sun_004 } #Sun Mian - made prefect
+-	1053.10.7 = { holder = linying_li_003 } #Li Dui - made prefect
+-	1054.4.8 = { holder = kuaiji_sun_004 } #Sun Mian - made prefect
+-	1056.9.20 = { holder = 217724 }
+-	1056.9.24 = { holder = changshe_he_001 } #He Zhongli - made prefect
+-	1057.8.26 = { holder = 217724 }
+-	1058.7.10 = { holder = 1803593 } #Tang Xun - made prefect
+-	1060.10.15 = { holder = jinghai_shi_001 } #Shi Changyan - made prefect
+-	1062.9.15 = { holder = qiantang_shen_007 } #Shen Gou - made prefect
+-	1064.10.24 = { holder = huayang_wang_059 } #Wang Qi - made prefect
+-	1065.3.10 = { holder = 217724 }
+-	1065.10.19 = { holder = 1801354 } #Cai Xiang - made prefect
+-	1066.5.27 = { holder = jinling_hu_004 } #Hu Su - made prefect
+-	1067.7.31 = { holder = 217726 }
+-	1067.8.10 = { holder = 1801716 } #Lv Zhen - made prefect
+-	1067.11.5 = { holder = 217726 }
+-	1067.11.11 = { holder = fanyang_zu_102 } #Zu Wuze - made prefect
+-	1069.6.9 = { holder = anling_zheng_007 } #Zheng Xie - made prefect
+-	1070.5.31 = { holder = 217726 }
+-	1071.1.7 = { holder = 1802472 } #Shen Li - made prefect
+-	1072.6.5 = { holder = 217726 }
+-	1070.5.31 = { holder = jingzhao_zhao_039 } #Zhao Bian - made prefect
+-	1071.1.7 = { holder = 1802472 } #Shen Li - made prefect
+-	1072.6.5 = { holder = gushi_chen_026 } #Chen Xiang - made prefect
+-	1074.6.29 = { holder = hongnong_yang_456 } #Yang Hui - made prefect
+-	1074.9.24 = { holder = 217726 }
+-	1077.6.7 = { holder = jingzhao_zhao_039 } #Zhao Bian - made prefect
+-	1079.2.23 = { holder = nancheng_deng_017 } #Deng Runfu - made prefect
+-	1085.4.1 = { holder = 217727 }
+-	1085.5.10 = { holder = henan_lv_037 } #Lü Gongru - made prefect
+-	1085.6.18 = { holder = 217727 }
+-	1087.12.9 = { holder = hongnong_yang_456 } #Yang Hui - made prefect
+-	1088.6.22 = { holder = 217727 }
+-	1089.4.29 = { holder = su_82CF_1 } #Su Shi - made prefect
+-	1091.2.17 = { holder = 217727 }
+-	1091.2.24 = { holder = fuqing_lin_011 } #Lin Xi - made prefect
+-	1092.11.29 = { holder = 217727 }
+-	1096.9.13 = { holder = lingshou_han_008 } #Han Zongdao - made prefect
+-	1097.8.22 = { holder = 217727 }
+-	1098.10.1 = { holder = fuqing_lin_011 } #Lin Xi - made prefect
+-	1099.1.1 = { holder = nancheng_deng_019 }
+-	1100.2.23 = { holder = 217728 }
+-	1100.5.23 = { holder = jinjiang_lv_013 } #Lü Huiqing - made prefect
+-	1101.4.2 = { holder = 217728 }
+-	1102.7.22 = { holder = jinjiang_lv_013 } #Lü Huiqing - made prefect
+-	1102.9.30 = { holder = shuangliu_yuwen_010 } #Yuwen Changling - prefect until 1102.10.14
+-	1102.10.14 = { holder = 217728 }
+-	1103.10.31 = { holder = shuangliu_yuwen_010 } #Yuwen Changling - made pre
+-	1105.4.16 = { holder = 217728 }
+-	1105.9.2 = { holder = jinjiang_zeng_057 } #Zeng Xiaoguang - made prefect
+-	1105.12.20 = { holder = changxing_yao_001 } #Yao You - prefect in 1106.6.21
+-	1106.9.13 = { holder = jinjiang_lv_013 } #Lü Huiqing - made prefect
+-	1107.5.21 = { holder = jinjiang_zeng_047 } #Zeng Xiaoyun - made prefect
+-	1107.6.15 = { holder = 217728 }
+-	1108.4.23 = { holder = changshan_wang_007 } #Wang Huanzhi - made prefect
+-	1109.3.10 = { holder = henan_xi_006 } #Xi Zhen - made prefect
+-	1109.8.2 = { holder = 217728 }
+-	1111.10.5 = { holder = chengwu_pang_029 } #Pang Yinsun - made prefect
+-	1113.8.10 = { holder = 217728 }
+-	1116.1.14 = { holder = jianan_xu_003 } #Xu Zhu - prefect around this time
+-	1116.11.14 = { holder = jingzhao_zhao_054 } #Zhao Meng - made prefect
+-	1125.2.13 = { holder = 217728 }
+-	1125.12.10 = { holder = qiantang_tang_001 } #Tang Ke - made prefect
+-	1126.1.27 = { holder = jingzhao_weng_089 } #Wang Yanguo - made prefect
+-	#
+-	1127.1.18 = { holder = zhuojun_zhao_284 } #欽宗
+-	1127.6.12 = { holder = zhuojun_zhao_292 } #髙宗
+-	1162.7.24 = { holder = zhuojun_zhao_545 } #孝宗
+-	1189.2.18 = { holder = han_12651 } #光宗
+-	1194.7.24 = { holder = zhuojun_zhao_557 } #寧宗
+-	1224.9.17 = { holder = zhuojun_zhao_596 } #理宗
+-	1264.11.16 = { holder = zhuojun_zhao_604 } #度宗
+-	1274.8.12 = { holder = zhuojun_zhao_610 } #宋恭帝
+-	1276.6.14 = { holder = zhuojun_zhao_609 } #端宗
+-	1278.5.8 = { holder = zhuojun_zhao_611 } #宋少帝
+-
+-	1285.1.1 = { holder = SEAsiaMMB276  }
+-	1310.1.1 = { holder = SEAsiaMMB277	}
+-
+-}
+
+====================================================================================================
+title_id=c_huaiyuan decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:64318 raw=c_huaiyuan
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,117 @@
++c_huaiyuan = {
++	#Tang vassals of Xing - Fictional placeholders
++	760.1.1={
++		liege = d_shuofang
++		holder=shatuo0001
++		government = feudal_government
++	}
++	800.1.1={
++		holder=shatuo0002
++	}
++	820.1.1={
++		holder=shatuo0003
++	}
++	840.1.1={
++		holder=shatuo0004
++	}
++	860.1.1={
++		holder=shatuo0005
++		liege="d_shuofang"
++	}
++	880.1.1={
++		holder=shatuo0006
++	}
++	#Shuofang state is created by warlord Han Zun in 887
++	887.1.1={
++		holder=han0001
++	}
++	899.1.1={
++		holder=han0002
++	}
++	917.1.1={
++		holder=han0003
++	}
++	929.1.1={
++		holder=han0004
++	}
++	#Shuofang state independence is ended in c. 930
++	930.1.1={
++		liege=d_shuofang # Yusseter: "d_xia"
++	}
++	933.3.10 = { holder = 1415046 } #Li Yichao
++	935.3.19 = { holder = 1415045 } #Li Yiyin
++	#Later Jin
++	#937.1.11 = { de_jure_liege = e_turan }
++	#Later Han
++	947.7.1 = { liege = 0 }
++	#Later Zhou, Song
++	954.1.1 = { liege = 0 }
++	967.1.1 = { holder = 1415047 } #Li Guangrui
++	978.1.1 = { holder = 1415048 } #Li Jiyun
++	979.8.6 = { holder = 1415049 } #Li Jipeng
++	#Xi Xia
++	982.1.1 = { holder = 206643 liege = 0 } #Wuzong, Li Jiqian
++	1004.1.26 = { holder = 206644 } #Taizong, Li Deming
++	#
++	1031.1.1={
++		holder=206650
++	}
++	#Tangut Kingdom
++	1038.1.1={
++		liege=k_xia
++		holder=206650 # Yuanhao becomes emperor
++	}
++	1048.1.19={
++		holder=206651
++
++	}
++	1067.1.1={
++		holder=206653
++
++	}
++	1086.1.1={
++		holder=206654
++
++	}
++	1139.7.8={
++		holder=206657
++	}
++	1193.1.1={
++		holder=206659
++	}
++	1206.1.1={
++		holder=206660 # coup
++	}
++	1211.1.1={
++		holder=206666 # coup
++	}
++	1223.1.1={
++		holder=206668
++	}
++	1226.1.1={
++		holder=206670
++	}
++	#destroyed by the Mongols and emperor killed shortly afterwards
++	#Tangut General family - fictional placeholder
++	1227.2.1 = {
++		holder = tangut0001
++	}
++	1250.1.1 = {
++		holder = tangut0002
++	}
++	1280.1.1 = {
++		holder = tangut0003
++	}
++	1300.1.1 = {
++		holder = tangut0004
++	}
++	1320.1.1 = {
++		holder = tangut0005
++	}
++	1340.1.1 = {
++		holder = tangut0006
++	}
++	1360.1.1 = {
++		holder = tangut0007
++	}
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=c_iliq decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:62114 raw=c_iliq
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:61400 raw=c_iliq
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:62114 raw=c_iliq
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_itil decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:24748 raw=c_itil
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:24740 raw=c_itil
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:24748 raw=c_itil
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_jend decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58187 raw=c_jend
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:57473 raw=c_jend
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58187 raw=c_jend
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_kara_khoja decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:62614 raw=c_kara_khoja
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:61900 raw=c_kara_khoja
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:62614 raw=c_kara_khoja
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_karabalgasun decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:2183 raw=c_karabalgasun
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:2183 raw=c_karabalgasun
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:2183 raw=c_karabalgasun
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_karakorum decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1781 raw=c_karakorum
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1781 raw=c_karakorum
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1781 raw=c_karakorum
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_karashar decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:56858 raw=c_karashar
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:56144 raw=c_karashar
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:56858 raw=c_karashar
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_kashgar decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:56030 raw=c_kashgar
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:55316 raw=c_kashgar
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:56030 raw=c_kashgar
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_kerch decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:22580 raw=c_kerch
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:22571 raw=c_kerch
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:22580 raw=c_kerch
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_khotan decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:55241 raw=c_khotan
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:54527 raw=c_khotan
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:55241 raw=c_khotan
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_korchev decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:22353 raw=c_korchev
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:22344 raw=c_korchev
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:22353 raw=c_korchev
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_kucha decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:57095 raw=c_kucha
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:56381 raw=c_kucha
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:57095 raw=c_kucha
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_lingzhou decision=manual_both_modified
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:65254 raw=c_shunzhou
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:64438 raw=c_lingzhou
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:65254 raw=c_shunzhou
+--- base -> ours
+--- base
++++ ours
+@@ -1,4 +1,4 @@
+-c_shunzhou = {
++c_lingzhou = {
+ 	#Tang vassals of Xing - Fictional placeholders
+ 	760.1.1={
+ 		liege="k_xia"
+@@ -34,7 +34,7 @@
+ 	}
+ 	#Shuofang state independence is ended in c. 930
+ 	930.1.1={
+-		liege = "d_xia"
++		liege = d_shuofang # Yusseter: "d_xia"
+ 	}
+ 	933.3.10 = { holder = 1415046 } #Li Yichao
+ 	935.3.19 = { holder = 1415045 } #Li Yiyin
+@@ -79,8 +79,8 @@
+ 	1224.1.1 = {
+ 		liege = d_zhenfan
+ 	}
+-	
+ 	1227.2.1 = {
++		liege = k_xia # Yusseter: "d_xia"
+ 		holder = tangut0001
+ 	}
+ 	1250.1.1 = {
+--- base -> upstream
+--- base
++++ upstream
+@@ -1,7 +1,7 @@
+ c_shunzhou = {
+ 	#Tang vassals of Xing - Fictional placeholders
+ 	760.1.1={
+-		liege="k_xia"
++		liege="k_hexi"
+ 		holder=shatuo0001
+ 	}
+ 	800.1.1={
+@@ -56,7 +56,7 @@
+ 	}
+ 	#Tangut Kingdom
+ 	1038.1.1={
+-		liege = k_xia
++		liege = k_hexi
+ 		holder=206783 
+ 	}
+ 	1068.1.1={
+
+====================================================================================================
+title_id=c_luntai decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:57250 raw=c_luntai
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:56536 raw=c_luntai
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:57250 raw=c_luntai
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_lxj_yunneizhou decision=manual_both_modified
+base=BookmarksGit/history/titles/00_ASIA_CHINA.txt:54761 raw=c_midsurrended_china
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:50000 raw=c_lxj_yunneizhou
+upstream=BookmarksGit/history/titles/00_ASIA_CHINA.txt:54762 raw=c_midsurrended_china
+--- base -> ours
+--- base
++++ ours
+@@ -1,4 +1,4 @@
+-c_midsurrended_china = {
++c_lxj_yunneizhou = {
+ 	766.1.1 = { change_development_level = 8 }
+ 	936.1.1 = { change_development_level = 12 }
+ 	1032.1.1 = { change_development_level = 16 }
+@@ -7,13 +7,13 @@
+ 	820.1.1 = {  holder = NSteppeMB240	}
+ 	840.1.1 = {  holder = NSteppeMB241	}
+ 
+-	740.1.1 = { liege = d_zhenwu_china }
++	740.1.1 = { liege = d_sanggan }
+ 	#Tang
+ 	754.1.1 = { holder = 1405776 } #Guo Ziyi - administrator in 754 until 755.12.28
+ 	#
+ 	803.7.5 = { holder = huangdi_ren_070 } #Ren Dijian - made prefect
+ 	#
+-	852.1.1 = { holder = 1410925 liege = d_zhenwu_china } #Qibi Tong
++	852.1.1 = { holder = 1410925 liege = d_sanggan } #Qibi Tong
+ 	#
+ 	865.1.1 = { holder = 1401447 } #Gao Hong
+ 	870.12.6 = { holder = li_674E_zhuye_1 } #Li Guochang
+@@ -24,9 +24,9 @@
+ 	888.4.20 = { holder = longxi_li_1047 } #No Jiedushi
+ 	893.1.1 = { holder = 1412477 } #Shi Shanyou
+ 	903.6.5 = { holder = 1410935 liege = h_china } #Qibi Rang
+-	903.6.20 = { holder = 1412313 liege = k_jin_china } #Li Kening
++	903.6.20 = { holder = 1412313 liege = k_hedong } #Li Kening
+ 	#Prince of Jin/Later Tang
+-	908.6.2 = { holder = mayi_zhou_001 liege = d_zhenwu_china } #Zhou Dewei
++	908.6.2 = { holder = mayi_zhou_001 liege = d_sanggan } #Zhou Dewei
+ 	913.1.1 = { holder = yanmen_zhang_002 } #Li Siben
+ 	916.1.1 = { holder = 1410401 } #Li Si'en
+ 	
+--- base -> upstream
+--- base
++++ upstream
+@@ -83,7 +83,7 @@
+ 	
+ 	1224.9.11 = {
+ 		holder = TangutClanPochao15  # Zunxu
+-		liege = k_xia
++		liege = k_hexi
+ 	}
+ 
+ 	1227.1.1={
+
+====================================================================================================
+title_id=c_sighnaq decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58303 raw=c_sighnaq
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:57589 raw=c_sighnaq
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58303 raw=c_sighnaq
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_theodosia decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:22491 raw=c_theodosia
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:22482 raw=c_theodosia
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:22491 raw=c_theodosia
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_yamashiro decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:1096 raw=c_yamashiro
+ours=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:1097 raw=c_yamashiro
+upstream=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:1096 raw=c_yamashiro
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_yamato decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:1402 raw=c_yamato
+ours=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:1403 raw=c_yamato
+upstream=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:1402 raw=c_yamato
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=c_yarkand decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:56590 raw=c_yarkand
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:55876 raw=c_yarkand
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:56590 raw=c_yarkand
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_SUM_aceh decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:2360 raw=d_SUM_aceh
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,9 @@
++	d_SUM_aceh = {
++	769.1.1 = { change_development_level = 0 }
++	1000.1.1 = { change_development_level = 1 }
++	1124.1.1 = { change_development_level = 4 }
++	1166.1.1 = { change_development_level = 8 }
++	1204.1.1 = { change_development_level = 12 }
++	1241.1.1 = { change_development_level = 14 }
++	1310.1.1 = { change_development_level = 16 }
++	}
+--- base -> upstream
+
+====================================================================================================
+title_id=d_aksai_chin decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:72848 raw=d_aksai_chin
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:72120 raw=d_aksai_chin
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:72848 raw=d_aksai_chin
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_angkor decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:10593 raw=d_aninditapura
+ours=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:10629 raw=d_angkor
+upstream=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:10593 raw=d_aninditapura
+--- base -> ours
+--- base
++++ ours
+@@ -1,4 +1,4 @@
+-	d_aninditapura = {
++	d_angkor = {
+ 	769.1.1 = { change_development_level = 12 }
+ 	1000.1.1 = { change_development_level = 18 }
+ 	1124.1.1 = { change_development_level = 20 }
+--- base -> upstream
+
+====================================================================================================
+title_id=d_chah decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58614 raw=d_chah
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:57900 raw=d_chah
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58614 raw=d_chah
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_conyi decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:78051 raw=d_conyi
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:77323 raw=d_conyi
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:78051 raw=d_conyi
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_crimea decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:20206 raw=d_crimea
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:20198 raw=d_crimea
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:20206 raw=d_crimea
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_east_sanindo decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:5911 raw=d_east_sanindo
+ours=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:5918 raw=d_east_sanindo
+upstream=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:5911 raw=d_east_sanindo
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_ganzhou decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:67277 raw=d_ganzhou
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:66546 raw=d_ganzhou
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:67277 raw=d_ganzhou
+--- base -> ours
+--- base
++++ ours
+@@ -1,6 +1,13 @@
+-d_ganzhou = {
++d_ganzhou = { # EAST_TITLE_REWRITE_COLLISION: Yusseter: k_northern_liang, d_ganzhou to d_ganzhou
+ 	#867.1.1 = { change_development_level = 7 }
+ 	#1066.1.1 = { change_development_level = 10 }
++
++	400.1.1 = { holder = liang_001 }
++	401.7.1 = { holder = xiongnu_008 }
++	433.1.1 = { holder = xiongnu_013 }
++	443.1.1 = { holder = xiongnu_015 }
++	444.4.4 = { holder = xiongnu_016 }
++	460.9.29 = { holder = 0 }
+ 
+ 	769.1.1 = {
+ 		liege = "h_china"
+@@ -77,22 +84,17 @@
+ 	1120.1.1 = {
+ 		holder = tangut0024
+ 	}
+-	
+ 	1122.1.1 = {
+ 		holder = RenFamily15  # Ren Dejing - defection to Western Xia, title history begins here
+ 	}
+-	
+ 	1170.5.18 = {
+ 		holder = RenFamily19  # Yuanli (eldest son of Ren Dejing)
+ 	}
+-	
+ 	1198.11.19 = {
+ 		holder = RenFamily21  # Jiliang (eldest son of Yuanli)
+ 	}
+-	
+ 	#1226 - Ganzhou is spared in Mongol Conquest
+ 	#due to intervention of Mongolian Tangut officer Chahan
+-	
+ 	1227.2.1 = {
+ 		liege = "e_mongol_empire"
+ 		holder = tangut0030
+@@ -118,5 +120,4 @@
+ 	1360.1.1 = {
+ 		holder = tangut0036
+ 	}
+-	
+ }
+--- base -> upstream
+--- base
++++ upstream
+@@ -9,7 +9,7 @@
+ 	}
+ 	#Ganzhou commander (Guiyi) - fictional placeholder
+ 	850.1.1 = {
+-		liege = "k_xia"
++		liege = "k_hexi"
+ 		holder = han0006
+ 	}
+ 	# Ganzhou Uyghur Kingdom
+@@ -62,7 +62,7 @@
+ 	#Ganzhou conquered by Tanguts
+ 	#Tangut Ganzhou Vassals - fictional placeholders
+ 	1036.1.1 = {
+-		liege = "k_xia"
++		liege = "k_hexi"
+ 		holder = tangut0020
+ 	}
+ 	1060.1.1 = {
+
+====================================================================================================
+title_id=d_guiyi decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:68441 raw=d_guiyi
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:67712 raw=d_guiyi
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:68441 raw=d_guiyi
+--- base -> ours
+--- base -> upstream
+--- base
++++ upstream
+@@ -3,7 +3,7 @@
+ 	#1066.1.1 = { change_development_level = 10 }
+ 	#Zhang family establishes Guiyi Circuit
+ 	848.1.1 = {
+-		liege= k_xia
++		liege= k_hexi
+ 		holder = 206811
+ 	}
+ 	867.1.1 = {
+@@ -100,7 +100,7 @@
+ 	#Conquered by the Mongols
+ 	1226.1.1 = {
+ 		holder = 0
+-		liege=k_xia
++		liege=k_hexi
+ 		government = feudal_government
+ 	}
+ }
+
+====================================================================================================
+title_id=d_hitakami decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:10260 raw=d_mutsu
+ours=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:10285 raw=d_hitakami
+upstream=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:10260 raw=d_mutsu
+--- base -> ours
+--- base
++++ ours
+@@ -1,4 +1,4 @@
+-d_mutsu = {
++d_hitakami = {
+ 	#867.1.1 = { change_development_level = 3 }
+ 	#1066.1.1 = { change_development_level = 7 }
+ 
+--- base -> upstream
+
+====================================================================================================
+title_id=d_hokurikudo decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:3742 raw=d_hokurikudo
+ours=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:3747 raw=d_hokurikudo
+upstream=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:3742 raw=d_hokurikudo
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_itil decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:24426 raw=d_itil
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:24418 raw=d_itil
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:24426 raw=d_itil
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_liangzhou decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:66034 raw=d_liangzhou
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:65307 raw=d_liangzhou
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:66034 raw=d_liangzhou
+--- base -> ours
+--- base
++++ ours
+@@ -1,6 +1,12 @@
+-d_liangzhou = {
++d_liangzhou = { # EAST_TITLE_REWRITE_COLLISION: Yusseter: d_liangzhou, k_southern_liang to d_liangzhou
+ 	#867.1.1 = { change_development_level = 7 }
+ 	#1066.1.1 = { change_development_level = 10 }
++
++	397.1.1 = { holder = 1415820 }
++	399.1.1 = { holder = 1415821 }
++	402.1.1 = { holder = 1415822 }
++	415.1.1 = { holder = 0 }
++
+ 	750.1.1 = {
+ 		holder = 248149
+ 		liege = "h_china"
+@@ -75,45 +81,35 @@
+ 		holder = yughur0001
+ 	} #conquered by Ganzhou Uyghurs
+ 	#reconquered by Tanguts
+-	
+ 	1032.5.13 = {
+ 		holder = TangutClanLiang5  # Zanhua
+ 		liege = k_xia
+ 	}
+-	
+ 	1044.9.30 = {
+ 		holder = 1404798  # Xiyin
+ 	}
+-	
+ 	1050.1.1 = {
+ 		holder = tangut_liang_2  # Liang Yimai
+ 	}
+-	
+ 	1085.1.1 = {
+ 		holder = 1404801  # Liang Yibu
+ 	}
+-	
+ 	1094.1.1 = {
+ 		holder = TangutClanLiang6  # Changyuan
+ 	}
+-	
+ 	1139.12.3 = {
+ 		holder = TangutClanLiang7  # Yuanhao
+ 	}
+-	
+ 	1167.7.18 = {
+ 		holder = TangutClanLiang8  # Hongji
+ 	}
+-	
+ 	1196.4.25 = {
+ 		holder = TangutClanLiang9  # Sizhong
+ 	}
+-	
++	#Conquered by the Mongols
+ 	1224.9.7 = {
+ 		holder = TangutClanLiang10  # Dewang
+ 	}
+-
+-	#Conquered by the Mongols
+ 	1226.1.1 = {
+ 		holder = 0
+ 		liege=k_xia
+--- base -> upstream
+--- base
++++ upstream
+@@ -78,7 +78,7 @@
+ 	
+ 	1032.5.13 = {
+ 		holder = TangutClanLiang5  # Zanhua
+-		liege = k_xia
++		liege = k_hexi
+ 	}
+ 	
+ 	1044.9.30 = {
+@@ -116,7 +116,7 @@
+ 	#Conquered by the Mongols
+ 	1226.1.1 = {
+ 		holder = 0
+-		liege=k_xia
++		liege=k_hexi
+ 	}
+ 	#1240.1.1 = {
+ 	#	holder = dodaid0002
+
+====================================================================================================
+title_id=d_luoshi decision=manual_both_modified
+base=BookmarksGit/history/titles/00_ASIA_CHINA.txt:52539 raw=d_mangbu
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:48330 raw=d_luoshi
+upstream=BookmarksGit/history/titles/00_ASIA_CHINA.txt:52539 raw=d_mangbu
+--- base -> ours
+--- base
++++ ours
+@@ -1,93 +1,71 @@
+-d_mangbu = {
+-
++d_luoshi = {
+ 	730.1.1 = {
+ 		holder = YiTribesMangbu1  # Mu_Zim
+ 	}
+-	
+ 	738.9.11 = {
+ 		holder = YiTribesMangbu2  # Shu_Qi
+ 	}
+-	
+ 	769.3.25 = {
+ 		holder = YiTribesMangbu3  # Tuomangbu
+ 	}
+-	
+ 	801.11.14 = {
+ 		holder = YiTribesMangbu4  # Nyi_Po
+ 	}
+-	
+ 	833.7.9 = {
+ 		holder = YiTribesMangbu5  # Wo_Ke
+ 	}
+-	
+ 	866.4.30 = {
+ 		holder = YiTribesMangbu6  # Qu_Ji
+ 	}
+-	
+ 	896.12.18 = {
+ 		holder = YiTribesMangbu7  # Lur_Shy
+ 	}
+-	
+ 	927.5.3 = {
+ 		holder = YiTribesMangbu8  # Yo_Si
+ 	}
+-	
++	#970.1.1 = { # Yusseter
++	#	de_jure_liege = k_kuizhou
++	#}
+ 	958.9.27 = {
+ 		holder = YiTribesMangbu9  # Ssy_Pu
+ 	}
+-	
+-	970.1.1 = {
+-		de_jure_liege = k_kuizhou
+-	}
+-	
+ 	988.2.14 = {
+ 		holder = YiTribesMangbu10  # Va_Huo
+ 	}
+-	
+ 	1017.8.21 = {
+ 		holder = YiTribesMangbu11  # Jo_Ha
+ 	}
+-	
+ 	1048.6.7 = {
+ 		holder = YiTribesMangbu12  # Shy_Da
+ 	}
+-	
+ 	1079.11.3 = {
+ 		holder = YiTribesMangbu13  # Lu_Ddi
+ 	}
+-	
+ 	1108.3.29 = {
+ 		holder = YiTribesMangbu14  # Ssy_Shy
+ 	}
+-	
+ 	1139.7.15 = {
+ 		holder = YiTribesMangbu15  # Nyi_Ga
+ 	}
+-	
+ 	1170.4.12 = {
+ 		holder = YiTribesMangbu16  # Wo_Mo
+ 	}
+-	
+ 	1201.9.8 = {
+ 		holder = YiTribesMangbu17  # Qu_Vie
+ 	}
+-	
+ 	1232.11.22 = {
+ 		holder = YiTribesMangbu18  # La_Sy
+ 	}
+-	
+ 	1265.5.6 = {
+ 		holder = YiTribesMangbu19  # Yo_Se
+ 	}
+-	
+ 	1285.1.1 = { liege = h_china }
+-	
++	#Yuan
++
+ 	1285.1.1 = {
+-		de_jure_liege = k_sichuan
++		#de_jure_liege = k_xichuan # Yusseter: k_sichuan
+ 	}
+-	
+ 	1295.10.14 = {
+ 		holder = YiTribesMangbu20  # Rru_Sse (alive well past 1337)
+ 	}
+-
+ }
+--- base -> upstream
+--- base
++++ upstream
+@@ -2,6 +2,7 @@
+ 
+ 	730.1.1 = {
+ 		holder = YiTribesMangbu1  # Mu_Zim
++		government = clan_government
+ 	}
+ 	
+ 	738.9.11 = {
+
+====================================================================================================
+title_id=d_nagormo decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:84128 raw=d_nagormo
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:83235 raw=d_nagormo
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:84128 raw=d_nagormo
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_nankaido decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:6438 raw=d_nankaido
+ours=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:6445 raw=d_nankaido
+upstream=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:6438 raw=d_nankaido
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_otuken decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:796 raw=d_otuken
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:796 raw=d_otuken
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:796 raw=d_otuken
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_qiongguan decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_CHINA.txt:8535 raw=d_qiongya_china
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:8021 raw=d_qiongguan
+upstream=BookmarksGit/history/titles/00_ASIA_CHINA.txt:8535 raw=d_qiongya_china
+--- base -> ours
+--- base
++++ ours
+@@ -1,29 +1,57 @@
+-d_qiongya_china = {
++d_qiongguan = {
+ 	766.1.1 = { change_development_level = 4 }
+ 	907.1.1 = { change_development_level = 8 }
+ 	1066.1.1 = {change_development_level = 10 }
+-	861.1.1 = {
+-		liege = h_china
+-		government = feudal_government
+-		succession_laws = {
+-
+-			male_only_law
+-		}
+-	}
+-	1066.1.1 = {
+-
+-		succession_laws = {
+-
+-			male_only_law
+-		}
+-	}
+-	
+-	970.1.1 = {
+-		de_jure_liege = k_guangnanxi
+-	}
+-	
+-	1285.1.1 = {
+-		de_jure_liege = k_guangdong 
+-	}
++	# Yusseter 0
++	750.1.1 = { government = tribal_government }
++	769.1.1 = {  holder = SEAsiaMMB200 liege = d_lingnan	}
++	820.1.1 = {  holder = SEAsiaMMB201	}
++	840.1.1 = {  holder = SEAsiaMMB202	}
++	860.1.1 = {  holder = SEAsiaMMB203	}
++	900.1.1 = {  holder = SEAsiaMMB204	}
++	902.1.13 = { liege = h_china }
++	917.9.5 = { liege = e_lingnan }
++	930.1.1 = {  holder = SEAsiaMMB205	}
++	955.1.1 = {  holder = SEAsiaMMB206	}
++	971.3.4 = { liege = d_lingnan }
++	980.1.1 = {  holder = SEAsiaMMB207	}
++# EAST_TITLE_REWRITE_SECOND_REFERENCE: d_guiguan_china has second mapping to d_jingjiang; manual review needed.
++	997.1.1 = { liege = d_guiguan }
++	1005.1.1 = { holder = SEAsiaMMB208	}
++	1040.1.1 = { holder = SEAsiaMMB209	}
++	1070.1.1 = { holder = SEAsiaMMB210	}
++	1100.1.1 = { holder = SEAsiaMMB211	}
++	1115.1.1 = { holder = SEAsiaMMB212	}
++	1140.1.1 = { holder = SEAsiaMMB213	}
++	1180.1.1 = { holder = SEAsiaMMB214	}
++	1210.1.1 = { holder = SEAsiaMMB215	}
++	1250.1.1 = { holder = SEAsiaMMB216	}
++	1286.1.1 = { liege = d_eyue }
++	1300.1.1 = { holder = SEAsiaMMB217	}
++	1310.1.1 = { holder = SEAsiaMMB218	}
++	#861.1.1 = {
++	#	liege = h_china
++	#	government = feudal_government
++	#	succession_laws = {
++#
++	#		male_only_law
++	#	}
++	#}
++	#1066.1.1 = {
++#
++	#	succession_laws = {
++#
++	#		male_only_law
++	#	}
++	#}
++	#
++	#970.1.1 = {
++	#	de_jure_liege = k_lingxi
++	#}
++	#
++	#1285.1.1 = {
++	#	de_jure_liege = k_guangdong
++	#}
++	# Yusseter 1
+ 	
+ }
+--- base -> upstream
+
+====================================================================================================
+title_id=d_rutog decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:73250 raw=d_rutog
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:72522 raw=d_rutog
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:73250 raw=d_rutog
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_salair decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:14268 raw=d_salair
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:14260 raw=d_salair
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:14268 raw=d_salair
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_south_saikaido decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:7749 raw=d_south_saikaido
+ours=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:7758 raw=d_south_saikaido
+upstream=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:7749 raw=d_south_saikaido
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_syr_darya decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58127 raw=d_syr_darya
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:57413 raw=d_syr_darya
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58127 raw=d_syr_darya
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=d_tosando decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:10303 raw=d_chubu
+ours=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:10329 raw=d_tosando
+upstream=BookmarksGit/history/titles/00_ASIA_JAPAN.txt:10303 raw=d_chubu
+--- base -> ours
+--- base
++++ ours
+@@ -1,4 +1,4 @@
+-d_chubu = {
++d_tosando = {
+ 
+ 	1333.7.4={
+ 		holder=10007312 # Hatakeyama Takakuni
+--- base -> upstream
+
+====================================================================================================
+title_id=k_alodia decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:1775 raw=k_alodia
+ours=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:1766 raw=k_alodia
+upstream=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:1775 raw=k_alodia
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_altai decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:860 raw=k_altai
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:860 raw=k_altai
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:860 raw=k_altai
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_amdo decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:82628 raw=k_amdo
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:90381 raw=k_amdo
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:82628 raw=k_amdo
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_baekje decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:47795 raw=k_baekje
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:47160 raw=k_baekje
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:47795 raw=k_baekje
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_balhae decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:39896 raw=k_balhae
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,54 @@
++k_balhae = {
++
++	766.1.1 = { change_development_level = 4 }
++	1032.1.1 = { change_development_level = 8 }
++	706.1.1 = {
++		government = tribal_government
++	}
++	# Balhae Kingdom
++
++	857.1.1 = {
++		government = feudal_government
++	}
++
++	#渤海王 Kings of Bohai/Balhae/丹國 Dan Gur
++	698.1.1 = { holder = 1414013 } #Dae Jo-yeong, King Go
++	719.4.2 = { holder = 1414015 } #Dae Mu-ye, King Mu
++	737.1.1 = { holder = 1414024 } #Dae Heum-mu, King Mun
++	793.1.1 = { holder = 1414035 } #Dae Won-ui
++	794.1.1 = { holder = 1414037 } #Dae Hwa-yeo, King Seong
++	794.5.1 = { holder = 1414030 } #Dae Sung-rim, King Gang
++	809.1.1 = { holder = 1414038 } #Dae Won-yu, King Jeong
++	812.1.1 = { holder = 1414040 } #Dae Eon-ui, King Hui
++	817.1.1 = { holder = 1414042 } #Dae Myeong-chung, King Gan
++	818.1.1 = { holder = 1414048 } #Dae In-su, King Seon
++	830.1.1 = { holder = 1414050 } #Dae I-jin
++	857.1.1 = { holder = 1414051 } #Dae Geon-hwang
++	871.1.1 = { holder = 1414060 } #Dae Hyeon-seok
++	893.1.1 = { holder = 1414061 } #Dae Wi-hae
++	906.1.1 = { holder = 1414062 } #Dae In-seon
++	926.3.6 = { liege = e_great_liao }
++	#Kingdom of Dongdan
++	926.4.4 = { holder = 194327 government = steppe_admin_government } #Yelü Bei
++	#Jeongan Kingdom
++	938.11.23 = { holder = 1414063 liege = 0 }
++	953.1.21 = { holder = 1414079 name = "k_jeongan" } #Yeol Manhwa
++	976.1.1 = { holder = 1414080 } #O Hyeongmyeong
++	986.1.1 = { holder = 1414081 } #O Taewon
++	990.1.17 = { holder = 0 liege = e_great_liao name = "cn_mohe" }
++	#Later Balhae
++	#Great Bohai
++	#1116.1.17 = { holder = 1414004 liege = 0 } #Go Yeongchang
++	#1116.6.13 = { holder = jurchen72 }
++
++	# Yusseter: k_dongxia
++	1215.1.1 = {
++		holder = jurchen1477
++		name = "k_dongxia" #effect = { set_coa = k_dongxia }
++	}
++	1233.1.1 = {
++		holder = 0
++		reset_name = yes #effect = { reset_coa = yes }
++	}
++
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_caspian_steppe decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:24291 raw=k_caspian_steppe
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:24282 raw=k_caspian_steppe
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:24291 raw=k_caspian_steppe
+--- base -> ours
+--- base
++++ ours
+@@ -79,9 +79,10 @@
+ 		holder = 125503
+ 		effect = {
+ 			set_capital_county = title:c_sarai
++			set_coa = e_blue_horde set_color_from_title = title:e_blue_horde # Yusseter
+ 		}
+ 		liege = e_mongol_empire
+-		name = "BLUE_HORDE" effect = { set_coa = e_blue_horde set_color_from_title = title:e_blue_horde }
++		#name = "BLUE_HORDE" effect = { set_coa = e_blue_horde set_color_from_title = title:e_blue_horde } # Yusseter
+ 	}
+ 	1256.1.2 = {
+ 		holder = 125506
+--- base -> upstream
+
+====================================================================================================
+title_id=k_cuman decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9316 raw=k_cuman
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9308 raw=k_cuman
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9316 raw=k_cuman
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_daibei decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:69535 raw=k_yinshan_china
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:68807 raw=k_daibei
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:69535 raw=k_yinshan_china
+--- base -> ours
+--- base
++++ ours
+@@ -1,4 +1,4 @@
+-k_yinshan_china = {
++k_daibei = {
+ 	
+ 	700.1.11 = { de_jure_liege = e_great_liao }
+ 
+@@ -70,7 +70,7 @@
+ 	#Liao
+ 	1122.4.21 = { holder = 1413761 }
+ 	#Jin
+-	1122.5.10 = { holder = yutian_han_087 liege = e_andong name = "XIJING" effect = { set_coa = k_xijing set_capital_county = title:c_yunzhou_china } } #宗翰
++	1122.5.10 = { holder = yutian_han_087 liege = e_andong name = "XIJING" effect = { set_coa = k_xijing set_capital_county = title:c_datong_2 } } #宗翰
+ 	1128.1.1 = { holder = jurchen2003 }
+ 	1133.1.1 = { holder = jurchen285 }
+ 	1142.1.1 = { holder = jurchen218 }
+@@ -94,6 +94,6 @@
+ 		holder = 0
+ 	}
+ 	1220.1.1 = {
+-		effect = { set_capital_county = title:c_chanyufu_china }
++		effect = { set_capital_county = title:c_qingshan }
+ 	}
+ }
+--- base -> upstream
+
+====================================================================================================
+title_id=k_dornogovi decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1710 raw=k_dornogovi
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1710 raw=k_dornogovi
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1710 raw=k_dornogovi
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_dzungaria decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:62410 raw=k_dzungaria
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:61696 raw=k_dzungaria
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:62410 raw=k_dzungaria
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_gobi decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1698 raw=k_gobi
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1698 raw=k_gobi
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1698 raw=k_gobi
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_goguryeo decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:32125 raw=k_goguryeo
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,172 @@
++k_goguryeo = {
++
++	#Goguryeo Kingdom
++
++	313.1.1={
++		holder=1000450527 #Micheon
++	}
++	331.1.1={
++		holder=1000450529 #Gogugwon
++	}
++	371.1.1={
++		holder=1000450530 #Sosurim
++	}
++	384.1.1={
++		holder=1000450531 #Gogugyang
++	}
++	391.1.1={
++		holder=1000450532 #Gwanggaeto the Great
++	}
++	413.1.1={
++		holder=1000450533 #Jangsu
++	}
++	491.1.1={
++		holder=1000450535 #Munjamyeong
++	}
++	519.1.1={
++		holder=1000450536 #Anjang
++	}
++	531.1.1={
++		holder=1000450537 #Anwon
++	}
++	545.1.1={
++		holder=1000450538 #Yangwon
++	}
++	559.1.1={
++		holder=1000450544 #Pyeongwon
++	}
++	590.1.1={
++		holder=1000450545 #Pyeongyang
++	}
++	618.1.1={
++		holder=1000450546 #Yeongnyu
++	}
++	642.1.1={
++		holder=1000450550 #Yeon Gaesomun
++	}
++	666.1.1={
++		holder=1000450565 #Bojang
++	}
++	#Lesser Goguryeo
++	668.1.1={
++		holder=1000450565 #Deokmu
++	}
++	711.1.1={
++		holder=1000450568 #Aewon
++	}
++	745.1.1={
++		holder=1000450569 #Yeojeong
++	}
++	783.1.1={
++		holder=1000450570 #Nuri
++	}
++	806.1.1={
++		holder=1000450571 #Haemu
++	}
++	#Balhae
++
++	820.1.1={
++		holder = 0
++	}
++	
++	# Yusseter: k_majin #摩震/泰封
++	901.1.1 = { #Gung Ye
++		holder = 1900549
++		name = "Goryeo" effect = { set_coa = k_majin }
++	}
++	#Majin
++	904.1.1 = { name = "Majin" }
++	#Taebong
++	911.1.1 = { name = "Taebong" }
++	918.7.24 = {
++		holder = 0
++		reset_name = yes effect = { reset_coa = yes }
++	}
++
++	#Liao
++
++	927.1.1 = { holder = 1413152 liege = e_great_liao name = LIAODONG_LIAO effect = { set_coa = k_liao_liaodong } government = steppe_admin_government } #Yelü Dilie
++	935.1.1 = { holder = 1413163 } #Yelü Heli
++	971.1.1 = { holder = 1413046 } #Yelü Longxian
++	983.5.15 = { holder = 1413317 } #Yelü Mozhi
++	988.9.11 = { holder = 1413937 } #Xiao Hengde
++	996.8.1 = { holder = 1410632 } #Yelü Wola
++	997.1.1 = { holder = 1413648 } #Xiao Paiya
++	1005.1.5 = { holder = 1413968 } #Yelü Honggu
++	1012.4.13 = { holder = 1413063 } #Yelü Longyou
++	1012.8.20 = { holder = 1413535 } #Xiao Hui
++	1013.5.1 = { holder = 1413939 } #Yelü Tuanshi
++	1014.1.1 = { holder = 1413940 } #Yelü Shanning
++	1015.3.1 = { holder = 1413943 } #Yelü Bage
++	1027.1.1 = { holder = 1413530 } #Xiao Xiaxian
++	1030.11.10 = { holder = 1413516 } #Xiao Xiaomu
++	1031.8.2 = { holder = 1413647 } #Xiao Aguzhen
++	1033.1.1 = { holder = 1413535 } #Xiao Hui
++	1034.2.22 = { holder = 1413945 } #Xiao Pugu
++	1034.6.29 = { holder = 1413534 } #Xiao Sabaning
++	1043.2.15 = { holder = 1413971 } #Yelü Houshen
++	1048.4.20 = { holder = 1413905 } #Xiao Taliege
++	1051.1.19 = { holder = 1413532 } #Xiao Xiaoyou
++	1053.1.1 = { holder = 1413250 } #Xiao Renxian
++	1055.10.13 = { holder = 1413532 } #Xiao Chenliu
++	1057.7.30 = { holder = 1413137 } #Yelü Tiebu
++	1059.8.7 = { holder = 1413526 } #Xiao Ala
++	1065.1.1 = { holder = 1413975 } #Yelü Shuzhen
++	1070.1.1 = { holder = 1413946 } #Xiao Duola
++	1076.1.9 = { holder = 1413977 } #Yelü Huilibu
++	1077.7.3 = { holder = 1413975 }
++	1087.1.1 = { holder = 1413983 } #Xiao Taokui
++	1096.1.1 = { holder = 1413584 } #Yelü Helu Saogu
++	1103.12.21 = { holder = 1413109 } #Yelü Chun
++	1106.11.19 = { holder = 1413737 } #Xiao Baoxian
++	1116.1.17 = { holder = 1414002 } #Dae Gongjeong
++	#Great Bohai
++	1116.1.17 = { holder = 1414004 } #Go Yeongchang
++
++	#Jin
++	
++	1116.6.13 = { liege = e_andong effect = { set_coa = k_dongjing } } 
++	1116.6.13 = { holder = jurchen46 }
++	1123.1.1 = { holder = jurchen362 }
++	1136.1.1 = { holder = jurchen102 }
++	1140.1.1 = {
++		de_jure_liege = e_andong
++	}
++	1143.7.1 = { holder = jurchen214 }
++	1145.1.1 = { holder = jurchen1114 }
++	1147.1.1 = { holder = jurchen244 }
++	1150.1.1 = { holder = jurchen1012 }
++	1151.1.1 = { holder = jurchen87 }
++	1152.1.1 = { holder = jurchen113 }
++	1152.12.1 = { holder = jurchen1339 }
++	1155.1.1 = { holder = jurchen120 }
++	1162.1.1 = { holder = jurchen1323 }
++	1163.1.1 = { holder = jurchen431 }
++	1164.1.1 = { holder = 1413766 }
++	1167.1.1 = { holder = jurchen1238 }
++	1170.1.1 = { holder = jurchen473 }
++	1171.1.1 = { holder = jin_shimo_002 }
++	1172.1.1 = { holder = jurchen378 }
++	1174.1.1 = { holder = jurchen340 }
++	1176.1.1 = { holder = jurchen2031 }
++	1179.1.1 = { holder = jurchen1228 }
++	1183.1.1 = { holder = jurchen163 }
++	1196.1.1 = { holder = jurchen1245 }
++	1204.1.1 = { holder = JurchenGuwalgiya69 }
++	#1214.5.26 = { holder = jurchen1128 }
++	#1216.1.1 = { holder = jurchen53 }
++	#1218.1.1 = { holder = jurchen1301 }
++	#1219.1.1 = { holder = jurchen187 }
++	#Eastern Liao
++	1213.1.1 = { holder = 0 liege = e_mongol_empire name = LIAO_EMPIRE }
++	1213.1.1 = { government = feudal_government }
++	1220.1.1 = { holder = EasternLiao3 }
++	1238.1.1 = { holder = EasternLiao4 }
++	1259.1.1 = { holder = EasternLiao5 }
++	1269.1.1 = { holder = EasternLiao6 }
++	1272.1.1 = { liege = h_china }
++
++	1285.1.1 = { holder = SEAsiaMMBMongol5 liege = h_china name = "YUAN_LIAOYANG" }
++	1291.1.1 = { holder = SEAsiaMMBMongol6 }
++
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_guannei decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:695 raw=k_guannei
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,90 @@
++k_guannei = {
++		
++	766.1.1 = { change_development_level = 12 }
++	936.1.1 = { change_development_level = 10 }
++	1032.1.1 = { change_development_level = 14 }
++
++	#Former Qin
++
++	351.1.1 = {
++		name = "k_qin_china"
++		effect = {
++			set_coa = k_qin_china
++			set_capital_county = title:c_fengxiang
++		}
++	}
++	351.1.1 = { holder = linwei_fu_0005 }
++	355.1.1 = { holder = linwei_fu_0009 }
++	357.1.1 = { holder = linwei_fu_0020 }
++	385.10.16 = { holder = linwei_fu_0028 }
++	386.1.1 = { holder = linwei_fu_0050 }
++	394.1.1 = { holder = linwei_fu_0052 }
++	394.1.5 = {
++		holder = 0
++		reset_name = yes
++		effect = { reset_coa = yes }
++	}
++
++	#
++	779.1.1 = {
++		liege = h_china
++		succession_laws = {  male_only_law }
++	}
++	960.1.1 = {
++		liege = h_china
++	}
++
++	#陝西路 (-1041.11.14)
++
++	#Jin
++	
++	1125.1.1 = { effect = { set_capital_county = title:c_jingzhao } }
++	1125.1.1 = {
++		liege = e_andong 
++	}
++	1135.2.9 = { # Jin Xizong Wanyan Dan
++		holder = jurchen97
++		name = "k_jingzhaofu"
++		effect = { set_coa = k_jingzhaofu }
++	}
++	1146.1.1 = { holder = yilimin_wendihan_001 } # Wendihan Puri - made prefect
++	1149.1.1 = { holder = jurchen113 }
++	1150.1.9 = { holder = jurchen79 } # Hailing Shuren Wanyan Liang
++	1153.1.1 = { holder = jurchen340 } # Wanyan Zongyin - prefect at some point
++	1156.1.1 = { holder = jurchen79 }
++	1156.6.1 = { holder = jurchen1457} # Zhang Zhongyan
++	1158.1.1 = { holder = jurchen1321 }
++	1162.1.1 = { holder = jurchen1248 }
++	1165.1.1 = { holder = jurchen1238 }
++	1169.1.1 = { holder = jurchen163 }
++	1170.1.1 = { holder = jurchen1300 }
++	1189.1.1 = { holder = jurchen346 }
++	1200.1.1 = { holder = jurchen175 }
++	1204.1.1 = { holder = jurchen37 }
++	1224.1.14 = { holder = jurchen129 } #Jin Aizong Wanyan Shouxu
++
++	#Yuan
++	
++	1285.1.1 = { effect = { set_capital_county = title:c_jingzhao } }
++	1225.1.1 = {
++		holder = 0
++		reset_name = yes
++		effect = { reset_coa = yes }
++	}
++
++	1285.1.1  = {
++		name = "k_shaanxi"
++		effect = { set_coa = k_shaanxi }
++		liege = h_china
++	}
++	1285.1.1 = {
++		holder = Chucai3  # Yelü Jingqing succeeds his father Zhu
++	}
++	1298.8.22 = {
++		holder = Chucai5  # Yelü Ruan succeeds his father Jingqing
++	}
++	
++	1329.9.18 = {
++		holder = Chucai7  # Yelü Abaoji succeeds his father Ruan
++	}
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_guge decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:69646 raw=k_guge
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:68918 raw=k_guge
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:69646 raw=k_guge
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_hedong decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1455 raw=k_hedong
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,75 @@
++k_hedong = {
++	700.1.11 = { de_jure_liege = e_great_liao }
++	766.1.1 = { change_development_level = 12 }
++	936.1.1 = { change_development_level = 16 }
++	975.1.1 = {
++		insert_title_history = k_hedong
++	}
++	1032.1.1 = { change_development_level = 18 }
++	
++	#700.1.11 = { de_jure_liege = e_great_liao } # Yusseter
++	
++	#晉王
++	896.1.1 = { holder = 1412310 liege = h_china } #Li Keyong - it's actually 1st of January
++	#Independent
++	907.5.12 = { liege = 0 }
++	907.5.12 = {  succession_laws = { single_heir_succession_law male_only_law } }
++	908.2.24 = { holder = 1412318 } #Li Cunxu
++	#923.5.13 = { holder = 0 }
++	936.5.26 = { holder = 1412375  } #A title for Jingtang to have Jiedushi as vassals.
++	936.11.28 = { holder = 0 }
++	#Northern Han
++	#954.11.6 = { holder = 1412405 } #Liu Chengjun
++	#968.8.1 = { holder = 1412412 } #Liu Ji'en
++	#968.10.1 = { holder = 1412413 } #Liu Jiyuan
++	#979.6.3 = { holder = 0 liege = h_china }
++	#973.7.1 = { holder = 217722 liege = h_china  } #for playable
++
++	#Song
++
++	970.1.1 = {
++		liege = h_china
++	}
++
++	997.1.1 = { holder = pucheng_yang_029 }
++	1018.1.1 = { holder = 217724 }
++	1030.5.1 = { holder = shaxian_zhang_001 } #Zhang Ruogu
++	1033.1.1 = { holder = 0 }
++	1065.1.1 = { holder = 1803557 } #Tang Jie
++	1068.2.6 = { holder = 0 }
++	1081.1.1 = { holder = pingji_sun_004 }
++	1099.1.1 = { holder = fuqing_lin_011 }
++	1119.1.1 = { holder = changxing_yao_001 } #Yao You
++	1124.1.1 = { holder = 1406642 }
++	#Jin
++	1126.9.21 = { holder = 0 } #完颜宗翰
++	
++	1126.9.21 = { effect = { set_capital_county = title:c_taiyuan } }
++	1126.9.21 = { holder = jurchen25 liege = e_andong } #完颜宗翰
++	1136.1.1 = { holder = jurchen378 }
++	1138.1.1 = { holder = jurchen2001 }
++	1139.1.1 = { holder = jurchen378 }
++	1141.1.1 = { holder = jurchen325 }
++	1146.1.1 = { holder = jurchen1016 }
++	1153.1.1 = { holder = jurchen1012 }
++	1154.1.1 = { holder = jurchen39 }
++	1159.1.1 = { holder = jurchen378 }
++	1161.1.1 = { holder = 1413411 }
++	1162.1.1 = { holder = jin_shimo_002 }
++	1163.1.1 = { holder = jurchen2031 }
++	1164.1.1 = { holder = jurchen1228 }
++	1166.1.1 = { holder = jurchen1348 }
++	1174.1.1 = { holder = NieHanMB16M }
++	1190.1.1 = { holder = jurchen189 }
++	1196.1.1 = { holder = jurchen163 }
++	1209.1.1 = { holder = NieHanMB16M }
++	1213.1.1 = { holder = jurchen1065M }
++	1216.1.1 = { holder = jurchen161 }
++	1218.1.1 = { holder = jurchen1446 }
++	
++	#Yuan
++	1220.1.1 = {
++		holder = 0
++		liege = e_mongol_empire
++	}
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_henan decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:787 raw=k_henan
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,99 @@
++k_henan = {
++
++	766.1.1 = { change_development_level = 16 }
++	936.1.1 = { change_development_level = 18 }
++	1032.1.1 = { change_development_level = 22 }
++	
++	779.1.1 = { effect = { set_capital_county = title:c_henan } }
++    779.1.1 = {
++		liege = h_china
++	}
++
++	800.1.1 = { change_development_level = 15 }
++    1066.1.1 = { change_development_level = 25 }
++
++    #東平王， 903.3.9 梁王
++	889.4.4 = { effect = { set_capital_county = title:c_bianzhou } }
++	889.4.4 = { holder = 1400469 liege = h_china } #Zhu Wen
++	#Later Liang
++	907.6.1 = { holder = 0 }
++	#Qi
++	#1130.10.13 = { holder = fucheng_liu_003 liege = e_jurchen_china } #Liu Yu
++	
++	960.1.1 = {
++		liege = h_china
++	}
++	#Qi
++	#1130.10.13 = { holder = fucheng_liu_003 liege = e_jurchen_china } #Liu Yu
++	#Song
++	
++	969.10.9 = { holder = 217721 liege = h_china }
++	976.11.14 = { holder = 217722 }
++	997.5.8 = { holder = henan_lv_004 }
++	1018.1.1 = { holder = kaifeng_xiang_004 }
++	1031.2.17 = { holder = 1406661 } #Qian Weiyan
++	1033.9.29 = { holder = 0 }
++	1065.10.21 = { holder = 1803228 } #Han Zhi
++	1067.1.25 = { holder = 0 }
++	1081.1.1 = { holder = pingyang_jing_108 }
++	1121.10.21 = { holder = 1803228 } #Han Zhi
++	1067.1.25 = { holder = 0 }
++	1083.12.25 = { holder = lingshou_han_024 } #Han Jiang
++	1085.8.30 = { holder = guancheng_sun_001 } #Sun Gu
++	1098.2.20 = { holder = yuhang_lu_006 }
++	1118.1.1 = { holder = dongming_liu_003 } #Liu Bing
++	1121.4.23 = { holder = 217728 }
++	1124.1.1 = { holder = wannian_wang_008 }
++	1127.1.18 = { holder = zhuojun_zhao_284 } #欽宗
++	
++	# Chu
++	1127.4.20 = { #Zhang Bangchang
++		holder = dongguang_zhang_001
++		liege = e_andong
++		name = k_bianjing
++		effect = { set_coa = k_bianjing }
++	}
++	1127.8.6 = { holder = yiwu_zong_011 } #Zong Ze - made prefect
++
++	1127.11.1 = { holder = jurchen1136 } #完颜宗弼
++	# Qi
++	1132.5.16 = { holder = fucheng_liu_003 } #Liu Yu
++	#Jin
++	1138.1.1 = { holder = jurchen112 } #Wanyan Zongbi
++	1138.5.11 = { holder = jurchen1339 } #Big - made prefect
++	1140.1.1 = { holder = jurchen26 } #Wanyan Bingde - prefect at some point
++	1144.1.1 = { holder = jurchen112 }
++	1150.1.9 = { holder = jurchen1456 } #Hailing commoner Wanyan Liang
++	#1153.4.21 Bianjing becomes Nanjing
++	1160.1.1 = { holder = jin_xiao_003 } #Xiao Haohu - regent around this time
++	1161.6.3 = { holder = jurchen79 }
++	1161.12.15 = { holder = jurchen120 } #Jin Shizong Wanyan Yong
++	1165.1.1 = { holder = jurchen340 } #Wanyan Zongyin - regent around this time
++	1171.1.1 = { holder = tangkuo_027 } #Tangkuo Olugu - prefect around this time
++	1172.1.1 = { holder = jurchen88 } 
++	1177.1.1 = { holder = jin_shimo_002 } #Shi Morong - regent at some point
++	1180.11.27 = { holder = isour_001 } #Yiladao - made regent
++	1189.1.20 = { holder = jurchen1072 } #Jin Zhangzong Wanyan Jing
++	1205.1.1 = { holder = jurchen187 }
++
++	#Yuan
++	1225.4.16 = {
++		holder = 0
++		reset_name = yes
++		effect = { reset_coa = yes }
++	}
++
++	1285.1.1 = { effect = { set_capital_county = title:c_bianzhou } }
++	1285.1.1 = {
++		liege = h_china
++	}
++	1285.1.1 = {
++		holder = Khasi1  
++	}
++	1301.5.11 = {
++		holder = Khasi2 
++	}
++	1325.12.4 = {
++		holder = Khasi3 
++	}
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_hentii decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1704 raw=k_hentii
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1704 raw=k_hentii
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1704 raw=k_hentii
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_huainan decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1667 raw=k_huainan
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,39 @@
++k_huainan = {
++	766.1.1 = { change_development_level = 14 }
++	936.1.1 = { change_development_level = 16 }
++	1032.1.1 = { change_development_level = 18 }
++
++	#Song
++
++	960.12.2 = { holder = 1401951 liege = h_china } #Shi Shouxin
++	960.12.10 = { holder = shangdang_li_004 } #Li Chuyun
++	963.1.26 = { holder = 1407193 } #Chu Zhaopu
++	972.3.11 = { holder = 1407198 } #Bian Xu
++	974.1.1 = { holder = 1404409 } #Duan Sigong
++	975.3.29 = { holder = 1407203 } #Hou Zhi
++	975.9.12 = { holder = 1407205 } #Huo Yun
++	976.7.7 = { holder = 0 }
++	979.1.1 = { holder = 217722 } #avoid independency
++	997.5.8 = { holder = julu_wei_245 }
++	1018.1.1 = { holder = chuqiu_qi_006 }
++	1030.6.16 = { holder = tianchang_zhu_004 } #Zhu Xuan
++	1032.11.12 = { holder = beihai_wang_001 } #Wang Li
++	1034.1.1 = { holder = 0 }
++	1063.1.1 = { holder = 1801757 } #Diao Yue
++	1065.8.9 = { holder = 1800731 } #Fu Bi
++	1068.1.1 = { holder = lingshou_han_057 } #Han Zhen
++	1069.1.1 = { holder = 0 }
++	1075.5.21 = { holder = lingshou_han_057 }
++	1098.2.20 = { holder = zhongshan_cheng_068 }
++	1121.1.1 = { holder = wanquan_xue_014 } #Xue Sichang - prefect in Xuanhe era
++	1121.7.1 = { holder = jianan_xu_003 } #Xu Zhu - made prefect
++	1124.1.1 = { holder = minxian_xu_006 }
++	1133.4.7 = { holder = yanan_han_004 } #Han Shizhong
++	1151.9.15 = { holder = de_an_wang_017 }
++	1170.1.1 = { holder = 1801626 }
++	1199.1.1 = { holder = jinjiang_lv_026 }
++	1207.1.1 = { holder = jinling_hu_045 }
++	1232.1.1 = { holder = lianjiang_li_035 }
++	1263.1.1 = { holder = yingdao_zhou_021 }
++	1285.1.1 = { holder = 0 }
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_hunan decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1047 raw=k_hunan
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,52 @@
++k_hunan = {
++	850.1.1 = { change_development_level = 13 }
++	900.1.1 = { change_development_level = 16 }
++	1000.1.1 = { change_development_level = 18 }
++
++	907.6.1 = { holder = 1406560 liege = 0 } #Ma Yin
++	907.6.1 = { # Yusseter
++		name = "k_chu_china"
++		effect = { set_coa = k_chu_china }
++	}
++	930.12.2 = { holder = 1406565 } #Ma Xisheng
++	932.8.15 = { holder = 1406566 } #Ma Xifan
++	947.5.30 = { holder = 1406572 } #Ma Xiguang
++	951.1.21 = { holder = 1406687 } #Ma Xi'e
++	951.10.16 = { holder = 1406682 } #Ma Xichong
++	#Southern Tang
++	951.11.17 = { holder = 0 }
++	951.11.17 = { # Yusseter
++		reset_name = yes
++		effect = { reset_coa = yes }
++	}
++
++	#Song
++
++	#Split into North and South
++	998.11.14 = {
++		holder = langzhong_chen_004
++		liege = h_china
++		name = k_jinghunan
++		effect = { set_coa = k_jinghunan }
++	}
++	1018.1.1 = { holder = jiangyin_ge_073 }
++	1030.1.1 = { holder = song_wang_005 } #Wang Shuo
++	1033.1.1 = { holder = 0 }
++	1066.1.1 = { holder = yidu_yan_003 } #Yan Du
++	1069.9.18 = { holder = 0 }
++	1081.1.1 = { holder = fuyang_xie_014 }
++	1096.1.1 = { holder = fuyang_xie_021 }
++	1120.1.1 = { holder = xianyou_chen_004 } #Chen Xianren
++	1124.1.1 = { holder = jinjiang_zeng_092 }
++	1129.10.25 = { holder = kaifeng_xiang_082 }
++	1153.4.17 = { holder = chongan_jliu_013 }
++	1178.8.17 = { holder = han_12371 }
++	1197.1.1 = { holder = nantun_song_009 }
++	1239.1.1 = { holder = meishan_jia_032 }
++	1264.1.1 = { holder = putian_li_017 }
++	1285.1.1 = {
++		holder = 0
++		reset_name = yes
++		effect = { reset_coa = yes }
++	}
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_kerait decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1534 raw=k_kerait
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1534 raw=k_kerait
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1534 raw=k_kerait
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_khakassia decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:5434 raw=k_khakassia
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:5426 raw=k_khakassia
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:5434 raw=k_khakassia
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_khitan decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:32291 raw=k_khitan_china
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:32299 raw=k_khitan
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:32291 raw=k_khitan_china
+--- base -> ours
+--- base
++++ ours
+@@ -1,4 +1,4 @@
+-k_khitan_china = {
++k_khitan = {
+ 
+ 	# Great Khitan
+ 	760.1.1 = {
+@@ -35,7 +35,7 @@
+ 
+ 	#Jin
+ 	
+-	1120.5.29 = { liege = e_andong name = "BEIJINGJIN" effect = { set_coa = k_beijing } effect = { set_capital_county = title:c_LIAO_dading } government = feudal_government } #Seat moved from the old Khitan capital to Dading in 1153 but for simplicities sake just doing Dading from the start
++	1120.5.29 = { liege = e_andong name = "BEIJINGJIN" effect = { set_coa = k_beijing set_capital_county = title:c_LIAO_dading } government = feudal_government } #Seat moved from the old Khitan capital to Dading in 1153 but for simplicities sake just doing Dading from the start
+ 	1123.2.23 = { holder = jurchen2001 } #Technically 1140
+ 	1143.1.1 = { holder = jurchen106 }
+ 	1144.8.1 = { holder = jurchen79 }
+--- base -> upstream
+
+====================================================================================================
+title_id=k_khotan decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:54635 raw=k_khotan
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:53921 raw=k_khotan
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:54635 raw=k_khotan
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_kimek decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9303 raw=k_kimek
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9295 raw=k_kimek
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9303 raw=k_kimek
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_kipchak decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9427 raw=k_kipchak
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9419 raw=k_kipchak
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9427 raw=k_kipchak
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_liangzhe decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1101 raw=k_liangzhe
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,72 @@
++k_liangzhe = {
++	766.1.1 = { change_development_level = 14 }
++	936.1.1 = { change_development_level = 15 }
++	975.1.1 = {
++		insert_title_history = k_liangzhe
++	}
++	1032.1.1 = { change_development_level = 16 }
++
++	779.1.1 = {
++		liege = h_china
++		name = "WUYUE"
++		effect = {
++			set_coa = k_yue_china
++			set_capital_county = title:c_hangzhou
++		}
++	}
++	902.7.13 = { #Taizu, King Wusu
++		holder = 1406579
++		liege = h_china
++	}
++	907.6.1 = { liege = 0 }
++	932.5.6 = { #Shizong, King Wenmu
++		holder = 1406598
++	}
++	941.9.19 = { #Chengzong, King Zhongxian
++		holder = 1406630
++	}
++	#947.1.11 = { clear_tribute_suzerain = e_later_jin }
++	947.6.22 = { #Qian Zong, King Zhongxun
++		holder = 1406635
++	}
++	948.2.12 = { holder = 1406646 } #Qian Chu, King Zhongyi
++	#978.6.9  = { holder = 0 }
++
++	#Song
++	978.6.9 = {
++		name = "k_liangzhe"
++		effect = {
++			set_coa = k_liangzhe
++			set_capital_county = title:c_hangzhou
++		}
++	}
++	978.6.9 = { holder = shexian_xie_001 liege = h_china }
++	1018.1.1 = { holder = daibei_yin_008 }
++	1031.3.7 = { holder = 1803121 } #Zhang Guan - made prefect
++	1033.5.30 = { holder = 0 }
++	1066.5.27 = { holder = jinling_hu_004 } #Hu Su - made prefect
++	1067.7.31 = { holder = 0 }
++	1081.1.1 = { holder = song_ding_001 }
++	1098.2.20 = { holder = 1801545 }
++	1120.3.2 = { holder = chongan_jliu_009 } #Liu Ge
++	1124.1.1 = { holder = 1801553 }
++	1127.7.15 = { holder = zhuojun_zhao_292 }
++	1144.1.1 = { holder = henan_lv_089 }
++	1151.1.1 = { holder = putian_song_032 name = LIANGZHE_EAST_SONG effect = { set_capital_county = title:c_yuezhou } }
++	1168.1.1 = { holder = tangyin_yue_021 }
++	1191.1.1 = { holder = jinjiang_zeng_056 }
++	1234.1.1 = { holder = chuqiu_bian_027}
++	1235.1.1 = { holder = huayang_wang_033 }
++
++	#Yuan
++	1285.1.1 = {
++		name = "k_jiangzhe"
++		effect = {
++			set_coa = k_jiangzhe
++			set_capital_county = title:c_hangzhou
++		}
++	}
++	1285.1.1 = { liege = h_china }
++	1285.1.1 = { holder = SEAsiaMMB276 }
++	1310.1.1 = { holder = SEAsiaMMB277	}
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_lingnan decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1882 raw=k_lingnan
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,43 @@
++k_lingnan = {
++	300.1.1 = { change_development_level = 3 }
++    1066.1.1 = { change_development_level = 7 }
++
++	779.1.1 = {
++		liege = h_china
++	}
++	
++	#Song
++
++	971.3.4 = {
++		liege = h_china
++		name = k_guangnandong
++		effect = { set_coa = k_guangnandong }
++	}
++	#971.3.4 = { holder = 0 liege = h_china }
++	997.1.1 = { holder = xiayi_li_002 }
++	1018.1.1 = { holder = xinjian_wei_002 }
++	1032.1.1 = { holder = linan_lang_001 } #Lang Jian - made prefect
++	1035.1.1 = { holder = 0 }
++	1066.1.1 = { holder = 1802381 } #Yuan Jiang
++	1067.1.25 = { holder = henan_lv_013 } #Lü Jujian
++	1068.5.25 = { holder = chanyuan_zhang_002 } #Zhang Tian
++	1068.9.1 = { holder = 0 }
++	1081.1.1 = { holder = nanfeng_zeng_015 }
++	1095.2.19 = { holder = 1801581 }
++	1121.1.1 = { holder = huayin_zhou_021 } #Zhou Tong - made prefect
++	1124.1.1 = { holder = gaoyou_sun_006 }
++	1132.7.16 = { holder = kaifeng_xiang_082 }
++	1144.1.1 = { holder = 1803161 }
++	1154.1.1 = { holder = chenliu_cai_199 }
++	1169.1.1 = { holder = lianjiang_li_036 }
++	1191.1.1 = { holder = shaowu_huang_047 }
++	1195.1.1 = { holder = 1803178 }
++	1211.1.1 = { holder = shaowu_huang_047 }
++	1226.1.1 = { holder = fenning_huang_049 }
++	1239.1.1 = { holder = xianyou_ye_042 }
++	1285.1.1 = {
++		holder = 0
++		reset_name = yes
++		effect = { reset_coa = yes }
++	}
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_longxi_china decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1605 raw=k_longxi_china
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,60 @@
++k_longxi_china = {
++
++	300.1.1 = { change_development_level = 7 }
++    1066.1.1 = { change_development_level = 20 }
++
++
++	779.1.1 = {
++		liege = h_china
++	}
++	901.2.14 = { holder = 1400635 liege = h_china } #Li Maozhen
++	#Independent
++	907.6.1 = { liege = 0 }
++	#Later Tang
++	924.2.8 = { liege = h_china }
++	924.5.17 = { holder = 0 } #Li Jiyan
++	980.1.1 = {
++		liege = h_china
++	}
++	
++	#	#Song
++	
++	#961.4.5 =	{ holder = 1403379 liege = h_china } #Gao Fang
++	#962.7.11 = { holder = 1401026 } #Wu Tingzuo
++	#964.1.1 = { holder = weishi_liu_084 } #Liu Xigu
++	#968.1.1 = { holder = 217721 } #No Jiedushi
++	#973.1.1 = { holder = 1403380 } #Lu Chong
++	#974.1.1 = { holder = 1403381 } #Zhang Bing
++	#976.11.14 = { holder = 1404409 liege = h_china } #Duan Sigong - made prefect
++	#979.1.1 = { holder = 0 }
++	#997.1.1 = { holder = wannian_li_002 effect = { set_capital_county = title:c_tianshui_china } }
++	#1018.1.1 = { holder = 1401307 }
++
++	1041.1.1 = { holder = 217724 liege = h_china }
++	1066.1.1 = { holder = xucheng_li_001 }
++	1081.1.1 = { holder = jinjiang_zeng_007 }
++	1099.1.1 = { holder = gaoyou_sun_005 }
++	1119.4.24 = { holder = chengji_liu_003 } #Liu Zhongwu
++	1124.1.1 = { holder = luoyang_chong_015 }
++	1131.11.1 = { holder = 0 } 
++
++	#Jin
++
++	1142.1.1 = { effect = { set_capital_county = title:c_weizhou_2 } }
++	1142.1.1 = { holder = chengwu_pang_019 liege = e_andong  }
++	1148.1.1 = { holder = jurchen1238 }
++	1150.1.1 = { holder = jurchen273 }
++	1153.1.1 = { holder = jurchen1010 }
++	1154.1.1 = { holder = jurchen1266 }
++	1160.1.1 = { holder = jurchen1411 }
++	1161.1.1 = { holder = chengwu_pang_019 }
++	1164.1.1 = { holder = jurchen1457 }
++	1175.1.1 = { holder = jurchen276 }
++	1180.1.1 = { holder = jin_shimo_002 }
++	1184.1.1 = { holder = jurchen1268 }
++	1205.1.1 = { holder = jin_shimo_004 }
++	1214.1.1 = { holder = jurchen434 }
++	1216.1.1 = { holder = jurchen57 }
++	1218.1.1 = { holder = jurchen1290 }
++	1225.1.1 = { holder = 0 }
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_maryul decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:71563 raw=k_maryul
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:70835 raw=k_maryul
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:71563 raw=k_maryul
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_medina decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:1274 raw=k_medina
+ours=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:1264 raw=k_medina
+upstream=BookmarksGit/history/titles/z00_ADEVELOPMENT.txt:1274 raw=k_medina
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_merkit decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1315 raw=k_merkit
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1315 raw=k_merkit
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:1315 raw=k_merkit
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_mongolia decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:649 raw=k_mongolia
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:649 raw=k_mongolia
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:649 raw=k_mongolia
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_oghuz_il decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9149 raw=k_oghuz_il
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9141 raw=k_oghuz_il
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9149 raw=k_oghuz_il
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_pontic_steppe decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:19570 raw=k_pontic_steppe
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:19562 raw=k_pontic_steppe
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:19570 raw=k_pontic_steppe
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_qara_dala decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9356 raw=k_qara_dala
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9348 raw=k_qara_dala
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9356 raw=k_qara_dala
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_qianzhong decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:24158 raw=k_qianzhong
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,29 @@
++k_qianzhong = {
++	766.1.1 = { change_development_level = 4 }
++	1032.1.1 = { change_development_level = 8 }
++
++	1100.1.1 = {
++		holder = SEAsiaMB583
++		government = meritocratic_government
++	
++		name = "k_ziqi"
++		effect = {
++			set_coa = k_ziqi
++			set_capital_county = c_siyuan
++		}
++	}
++	1136.1.1 = { holder = SEAsiaMB584	}
++	1158.1.1 = { holder = ZiqiMB1			}
++	1162.1.1 = { holder = ZiqiMB2			}
++	1205.1.1 = { holder = ZiqiMB3			}
++	1240.1.1 = { holder = ZiqiMB4			}
++	1259.1.1 = {
++		holder = 0
++	
++		reset_name = yes
++		effect = {
++			reset_coa = yes
++			set_capital_county = c_luodian
++		}
++	}
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_qingxu decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1175 raw=k_qingxu
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,68 @@
++k_qingxu = {
++	800.1.1 = { change_development_level = 15 }
++	900.1.1 = { change_development_level = 20 }
++    1050.1.1 = { change_development_level = 25 }
++	
++	769.1.1 = {
++		name = "ZIQING_PINGLU"
++	}
++	
++	#Southern Wu
++	935.11.19 = { effect = { set_capital_county = title:c_qingzhou } }
++	935.11.18 = { #Xu Zhigao
++		holder = 1406215
++		name = "k_qi_china"
++	}
++	937.11.18 = { 
++		holder = 0
++		name = "ZIQING_PINGLU"
++
++	}
++	960.1.1 = {
++		liege = h_china
++	}
++	
++	#Song
++
++	1072.6.18 = {
++		holder = xucheng_gong_004
++		liege = h_china
++		name = k_jingdongdong
++		effect = { set_coa = k_jingdongdong }
++	}
++	1098.2.20 = { holder = lingshou_han_103 }
++	1121.1.11 = { holder = jingzhao_zhao_049 } #Zhao Ting
++	1124.1.1 = { holder = luoyuan_yu_005 }
++	1128.2.3 = { holder = fucheng_liu_003 } #Liu Yu
++	1129.1.2 = { #完颜宗辅 jurchen119
++		holder = 0
++		reset_name = yes
++		effect = { reset_coa = yes }
++	}
++
++	1130.10.12 = { holder = fucheng_liu_003 liege = e_andong reset_name = yes } #Liu Yu
++	#1138.1.1 = { holder = 0 }	
++
++	#Jin
++	
++	1138.1.1 = { #Liu Yu
++		holder = fucheng_liu_003 liege = e_andong
++		name = k_shandong_east
++		effect = { set_coa = k_shandong_east }
++	}
++	#1128.2.3 = { holder = fucheng_liu_003 liege = e_andong } #Liu Yu
++	1146.10.18 = { holder = jurchen455 }
++	1148.1.1 = { holder = jurchen255 }
++	1150.4.1 = { holder = jurchen54 }
++	1162.1.1 = { holder = jurchen1313 }
++	1164.1.1 = { holder = jurchen373 }
++	1195.1.1 = { holder = jurchen450 }
++	1205.1.1 = { holder = jurchen1168 }
++	#Yuan
++	1227.1.1 = {
++		holder = 0 liege = e_mongol_empire
++		reset_name = yes
++		effect = { reset_coa = yes }
++	}
++	
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_saryarka decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9438 raw=k_saryarka
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9430 raw=k_saryarka
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:9438 raw=k_saryarka
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_selenge decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:640 raw=k_selenge
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:640 raw=k_selenge
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:640 raw=k_selenge
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_silla decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:47713 raw=k_silla
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:47087 raw=k_silla
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:47713 raw=k_silla
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_syr_darya decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58119 raw=k_syr_darya
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:57405 raw=k_syr_darya
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:58119 raw=k_syr_darya
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_tsongkha decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:82707 raw=k_tsongkha
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:81814 raw=k_tsongkha
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:82707 raw=k_tsongkha
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_tuva decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:4590 raw=k_tuva
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:4590 raw=k_tuva
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:4590 raw=k_tuva
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_tyva decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:4598 raw=k_tyva
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:90373 raw=k_tyva
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:4598 raw=k_tyva
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_u decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:75598 raw=k_u
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:74870 raw=k_u
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:75598 raw=k_u
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_volga_bulgaria decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:25518 raw=k_volga_bulgaria
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:25510 raw=k_volga_bulgaria
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:25518 raw=k_volga_bulgaria
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_xia decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:64887 raw=k_xia
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:64173 raw=k_xia
+upstream=: raw=
+--- base -> ours
+--- base -> upstream
+--- base
++++ upstream
+@@ -1,144 +0,0 @@
+-k_xia = {
+-
+-	#Former Liang
+-
+-	320.1.1 = { holder = former_liang_006 }
+-	324.5.16 = { holder = former_liang_008 }
+-	346.9.20 = { holder = former_liang_010 }
+-	353.11.2 = { holder = former_liang_012 }
+-	355.5.10 = { holder = former_liang_009 }
+-	355.9.11 = { holder = former_liang_013 }
+-	363.8.25 = { holder = former_liang_011 }
+-	376.1.1 = { holder = 0 }
+-
+-	#Western Liang
+-	400.1.1 = { holder = longxi_li_0032 }
+-	417.3.4 = { holder = longxi_li_0034 }
+-	420.7.26 = { holder = longxi_li_0037 }
+-	421.4.18 = { holder = 0 }
+-
+-	#Guiyi Circuit
+-
+-	#Zhang family establishes Guiyi Circuit
+-	848.1.1 = {
+-		holder = 206811
+-		name = "GUIYI"
+-		effect = { set_coa = k_guiyi }
+-	}
+-	867.1.1 = {
+-		holder = 244004
+-	}
+-	890.1.1 = {
+-		holder = 304188
+-	}
+-	892.1.1 = {
+-		holder = 304191
+-	}
+-	894.1.1 = {
+-		holder = 304193
+-	}
+-	896.1.1 = {
+-		holder = 304189
+-	}
+-	910.1.1 = {
+-		liege=0
+-	} # Zhang Chengfeng declares the Kingdom of Jinshan
+-	914.1.1 = {
+-		holder=1059714 # Cao Yijin takes over Guiyi Circuit
+-	}
+-	935.1.1 = {
+-		liege=0
+-	} # Cao Yijin declares Guiyi an independent kingdom
+-	935.1.1 = {
+-		holder=1059716
+-	}
+-	939.1.1 = {
+-		holder=1059717
+-	}
+-	944.1.1 = {
+-		holder=1059718
+-	}
+-	974.1.1 = {
+-		holder=1059720
+-	}
+-	976.1.1 = {
+-		holder=1059721
+-	}
+-	1002.1.1 = {
+-		holder=1059722
+-	}
+-	1014.1.1 = {
+-		holder=1059723
+-	}
+-	1036.1.1 = {
+-		holder=0 # Tanguts annex Guiyi
+-	}
+-
+-	#Xi Xia
+-	#Li Jiqian rebels against Song, foundations of Western Xia (Minyak) 982-1227
+-	1038.1.1 = {
+-		holder = 206650 # Yuanhao becomes emperor
+-		reset_name = yes
+-		effect = { reset_coa = THIS }
+-	}
+-	1048.1.19 = {
+-		holder = 206651
+-	}
+-	1067.1.1 = {
+-		holder = 206653
+-	}
+-	1086.1.1 = {
+-		holder = 206654
+-	}
+-	1139.7.8 = {
+-		holder = 206657
+-	}
+-	1193.1.1 = {
+-		holder = 206659
+-	}
+-	1206.1.1 = {
+-		holder = 206660 # coup
+-	}
+-	#1215.1.1 = {
+-	#	de_jure_liege = e_mongol_empire
+-	#}
+-	1223.1.1 = {
+-		liege = e_mongol_empire
+-	}#Subjugated by the Mongols
+-	1211.1.1 = {
+-		holder = 206666 # coup
+-	}
+-	1223.1.1 = {
+-		holder = 206668
+-	}
+-	1226.1.1 = {
+-		holder = 206670
+-	}
+-	1227.2.1 = {
+-		liege = "e_mongol_empire"
+-		name = YUAN_GANSU
+-		effect = { set_coa = k_gansu }
+-		holder = tangut0030
+-	}
+-	1260.1.1 = {
+-		holder = tangut0031
+-	}
+-	1279.3.18 = {
+-		liege = h_china
+-	}
+-	1280.1.1 = {
+-		holder = tangut0032
+-	}
+-	1300.1.1 = {
+-		holder = tangut0033
+-	}
+-	1320.1.1 = {
+-		holder = tangut0034
+-	}
+-	1340.1.1 = {
+-		holder = tangut0035
+-	}
+-	1360.1.1 = {
+-		holder = tangut0036
+-	}
+-}
+
+====================================================================================================
+title_id=k_xia_china decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1452 raw=k_xia_china
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1531 raw=k_xia_china
+upstream=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1452 raw=k_xia_china
+--- base -> ours
+--- base -> upstream
+
+====================================================================================================
+title_id=k_xichuan decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1303 raw=k_xichuan
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,58 @@
++k_xichuan = {
++	766.1.1 = { change_development_level = 7 }
++	936.1.1 = { change_development_level = 9 }
++	1032.1.1 = { change_development_level = 11 }
++
++	779.1.1 = {
++		liege = h_china
++	}
++
++	#Song
++
++	965.2.23 = { #Lu Yuqing
++		holder = 1403165
++		liege = h_china
++		name = "k_chengdufu"
++		effect = {
++			set_coa = k_chengdufu
++			set_capital_county = title:c_chengdu
++		}
++	}
++	968.2.7 = { holder = weishi_liu_084 } #Liu Xigu
++	973.1.1 = { holder = 1403197 } #Zheng Mu
++	975.1.1 = { holder = 1403166 } #Lu Duan
++	977.5.21 = { holder = zhongshan_cheng_003 } #Cheng Yu - made prefect
++	980.1.1 = { holder = 217722 }
++	997.5.8 = { holder = heyang_lei_003 }
++	1018.1.1 = { holder = henan_wang_004 }
++	1030.11.21 = { holder = lingshou_han_004 } #Han Yi
++	1034.1.31 = { holder = 0 }
++	1065.1.31 = { holder = jingzhao_zhao_039 } #Zhao Bian
++	1067.1.25 = { holder = 0 }
++	1081.1.1 = { holder = guangling_zhang_109 }
++	1099.1.1 = { holder = xinyu_liu_023 }
++	1119.3.6 = { holder = henan_xi_008 } #Xi Gong
++	1124.1.1 = { holder = zichuan_wang_004 }
++
++	1132.11.8 = { holder = anyang_wang_002 } #Wang Si
++	1135.7.20 = { holder = song_general_025 } #Lu Fayuan
++	1139.2.18 = { holder = song_general_021 } #吴玠
++	1144.1.1 = { holder = wudi_li_011 }
++	1145.1.1 = { holder = 1803174 }
++	1211.1.1 = { holder = gaoan_yan_046 }
++
++	1246.1.1 = { holder = 166911 }
++	1246.1.1 = { holder = 0 }
++
++	#Yuan
++	1285.1.1 = {
++		name = "k_sichuan"
++		effect = {
++			set_coa = k_sichuan
++			set_capital_county = title:c_chengdu
++		}
++	}
++	1285.1.1 = { liege = h_china }
++	1285.1.1 = { holder = SEAsiaMMBMongol3 }
++	1310.1.1 = { holder = SEAsiaMMBMongol4 }
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_xingyuan decision=manual_duplicate_logical_title
+base=: raw=
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1363 raw=k_xingyuan
+upstream=: raw=
+--- base -> ours
+--- base
++++ ours
+@@ -0,0 +1,46 @@
++k_xingyuan = {
++	300.1.1 = { change_development_level = 7 }
++    1066.1.1 = { change_development_level = 20 }
++	769.11.1 = { name = "SHANNANWEST"  }
++
++	#Northern Han
++	954.11.1 = { holder = 1412405 reset_name = yes  } #Liu Chengjun
++	968.8.1 = { holder = 1412412 } #Liu Ji'en
++	968.10.1 = { holder = 1412413 } #Liu Jiyuan
++	979.6.3 = { holder = 0 reset_name = yes }
++	
++	#Song
++	
++	#Split from Chengdu/Xichuan
++	1001.1.1 = {
++		holder = 1800002 liege = h_china
++		name = k_lizhou
++		effect = { set_coa = k_lizhou }
++	}
++	1018.1.1 = { holder = dongyang_teng_012 }
++
++	1066.1.1 = { holder = hongnong_yang_456 } #Yang Hui
++	1069.1.1 = { holder = 0 }
++	1081.1.1 = { holder = yuhang_lu_005 }
++	1120.1.1 = { holder = bohai_qiu_030 } #Qiu Dan - prefect in Xuanhe era
++	1130.1.1 = { holder = song_general_024 } #张浚
++	1132.7.21 = { holder = chongan_jliu_012 } #Liu Ziyu - made prefect
++	#1133.7.1 = { holder = anyang_wang_002 } #Wang Si
++	1134.4.26 = { holder = song_general_021
++				effect = {
++# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_nanzheng_china has second mapping to c_jizhou_2; manual review needed.
++					set_capital_county = title:c_xingyuan
++				}
++	} #吴玠
++	#1139.2.18 = { holder = song_general_021 } #吴玠
++	1144.1.1 = { holder = chongan_jliu_012 }
++	1144.10.29 = { holder = yuyao_hu_013 }
++	1185.1.1 = { holder = kaifeng_xiang_044 }
++	1201.1.1 = { holder = boye_han_131 }
++	1246.1.1 = { holder = 188992 }
++	1246.1.1 = {
++		holder = 0
++		reset_name = yes
++		effect = { reset_coa = yes }
++	}
++}
+--- base -> upstream
+
+====================================================================================================
+title_id=k_youji decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1191 raw=k_yan_china
+ours=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1245 raw=k_youji
+upstream=BookmarksGit/history/titles/00_ASIA_CHINA.txt:1191 raw=k_yan_china
+--- base -> ours
+--- base
++++ ours
+@@ -1,4 +1,4 @@
+-k_yan_china = {
++k_youji = {
+ 	766.1.1 = { change_development_level = 14 }
+ 	936.1.1 = { change_development_level = 18 }
+ 	1032.1.1 = { change_development_level = 20 }
+--- base -> upstream
+
+====================================================================================================
+title_id=k_zhetysu decision=manual_duplicate_logical_title
+base=BookmarksGit/history/titles/00_ASIA_NORTH.txt:59920 raw=k_zhetysu
+ours=BookmarksGit/history/titles/00_ASIA_NORTH.txt:59206 raw=k_zhetysu
+upstream=BookmarksGit/history/titles/00_ASIA_NORTH.txt:59920 raw=k_zhetysu
+--- base -> ours
+--- base -> upstream

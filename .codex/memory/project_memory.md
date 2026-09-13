@@ -174,7 +174,6 @@
     - `9539 -> 9539` `Dengkou`
   - Diğer uc satir guvenli promote eşiğini gecmedi.
 
-
 ## 2026-04-15 Title Relation Master V2
 
 - `works/tools/build_title_relation_master.ps1` yeniden duzenlendi.
@@ -1849,6 +1848,7 @@
     - `Aktí tis Taurikê`
     gibi isimler dogru gorunuyor
   - ayni dosya bozuk mojibake metni (`NÃ¤sijÃ¤rvi`) artik UTF-8 raw okumada icermiyor
+
 ## Works Klasoru Temizlik Asamasi
 
 - Kullanici repo kokunde `Works` adinda ayri bir klasor acti.
@@ -1916,6 +1916,7 @@
   - repo kokundeki generated kalabalik `Works` altina toplandi
   - `map_data` artik final canli map_data setini daha net temsil ediyor
   - bundan sonraki provinces downstream calismalarinda yanlislikla eski source/preview dosyalarini hedef alma riski azaldi
+
 ## Works Altina Tools Ve Analysis Tasinmasi
 
 - Kullanici, kokte hala duran `tools` ve `analysis` klasorlerinin de `Works` altina alinmasini acikca istedi.
@@ -1956,6 +1957,7 @@
     - `Works/tools/...`
     - `Works/analysis/...`
     - `Works/map_data_sources/...`
+
 ## Province Touchpoints Envanteri
 
 - Kullanici yeni asamada mod icinde province ile ilgili butun dosya ve kisimlari bulmamizi istedi.
@@ -2753,6 +2755,7 @@ Yeni raporlar:
   - boylece script ileride tekrar kosulursa ayni root omission / stale east root problemi daha az olasi
 
 ## 2026-04-12 21:43 crash objective log reading
+
 - Crash folder: C:\Users\bsgho\Documents\Paradox Interactive\Crusader Kings III\crashes\ck3_20260412_214320
 - More objective reading after user correction:
   - Province with no county data: 987 total, 983 unique
@@ -2768,6 +2771,7 @@ Yeni raporlar:
   - but county coverage problems became the dominant log class
   - _yerevan is still the final fatal assert line, but should be treated as a downstream/final blocker candidate, not automatically as the primary root cause
 - Some has no province defined examples (_crivitz, _kyburg, _eutin, _wismar, etc.) already have visible province = ... rows in common/landed_titles/00_landed_titles.txt, so at least part of that class may indicate deeper landed_titles parse/structure/consistency issues rather than simple missing province assignments
+
 ## 2026-04-12 - provinces.png / definition.csv dual-source duplicate RGB onarimi
 
 - Kullanici `map_data/provinces.png` icinde `135,36,34` RGB'sinin duplicate oldugunu fark etti; bu satir final `definition.csv`de `9668;135;36;34;Crivitz;x;` olarak duruyordu ama ayni RGB daha once `orijinal_dogu` tarafinda `IMPASSABLE CENTRAL GOBI 3` olarak da secilmisti.
@@ -3057,8 +3061,8 @@ Yeni raporlar:
     - onerilen eylem: `new_rgb_needed`
 - Bu nedenle bundan sonraki karar modeli su olacak:
   - 1. source PNG + subset definition ile overlap/id yapisi bulunur
-  - 2. source `default.map` + source `landed_titles` ile semantic anlam kontrol edilir
-  - 3. ancak ondan sonra `keep_single_identity` mi yoksa `new_rgb_needed` mi karar verilir
+  - 1. source `default.map` + source `landed_titles` ile semantic anlam kontrol edilir
+  - 1. ancak ondan sonra `keep_single_identity` mi yoksa `new_rgb_needed` mi karar verilir
 - Semantic karar dosyasi bir tur daha ileri goturuldu:
   - `Works/analysis/generated/source_semantic_overlap_audit/source_rgb_overlap_semantic_decisions.csv`
   - artik `auto_keep_rgb_source`, `auto_recolor_source`, `auto_requires_new_rgb`, `auto_final_action`, `auto_decision_confidence`, `auto_decision_notes` kolonlarini da tasiyor
@@ -4452,7 +4456,7 @@ Yeni raporlar:
   - `c_xiningzhou,# Named to c_shanzhou_mbp`
 - `works/tools/build_county_source_manual_worklist.py` guncellendi:
   - Ana CSV 4 kolonlu kalir: `county_id,current_source,expected_source,status`.
-  - `status` icindeki ` # ...` notlari county bazinda okunup ayni county halen worklist'te varsa geri yazilir.
+  - `status` icindeki `# ...` notlari county bazinda okunup ayni county halen worklist'te varsa geri yazilir.
   - Worklist'ten dusen notlar `works/analysis/generated/landed_titles_source_audit/county_source_manual_worklist_preserved_notes.csv` icinde korunur.
 - Su an preserved notes:
   - `c_xiningzhou,# Named to c_shanzhou_mbp,county_not_in_current_worklist`
@@ -5256,7 +5260,6 @@ Yeni raporlar:
   - `common/landed_titles/00_landed_titles.txt` degistirilmedi
   - `test_files` degistirilmedi
 
-
 ## 2026-04-25 Landed Title Parent Manual Apply
 
 - Kullanici `landed_title_parent_manual_new.csv` dosyasini manuel karar dosyasi olarak olusturdu.
@@ -5913,6 +5916,7 @@ Yeni raporlar:
 - `map_data/provinces.png` icinde `13355` placeholder rengi 1 piksel kullandigi icin `map_data/default.map` teknik placeholder/impassable bloguna `impassable_mountains = RANGE { 13355 13355 }` eklendi.
 - `test_files` kullanilmadi ve senkronlanmadi; kullanici tekrar kullanacagiz diyene kadar bu kural devam ediyor.
 - Islem raporu: `works/analysis/generated/mpe_import_add_1/consistency_fix/mpe_kimmerikon_alias_cleanup_report.csv`
+
 ## 2026-05-16 MPE 13365/13366 Placeholder Cleanup
 
 - Kullanici `13365` ve `13366` province'lerini baska bir sey icin kullanmama ve placeholder'a geri cekme karari verdi.
@@ -5927,6 +5931,7 @@ Yeni raporlar:
 - `map_data/default.map` icinde `13365` ve `13366`, mevcut `impassable_mountains = RANGE { 13365 13421 }` placeholder/impassable araligi icinde kalmaya devam ediyor.
 - `test_files` kullanilmadi ve senkronlanmadi.
 - Islem raporu: `works/analysis/generated/mpe_import_add_1/consistency_fix/mpe_placeholder_13365_13366_cleanup_report.csv`
+
 ## 2026-05-16 MPE County History Gap Audit
 
 - Kullanici `c_philan` uzerinden MPE Add 1 sonrasi yeni hata sinifini isaret etti: bazi aktif MPE county'lerin capital province history blogunda `culture`/`religion` yok ve bazi county title history bloklarinda `holder` yok.
@@ -5954,6 +5959,7 @@ Yeni raporlar:
 - Problemli holder eksik county'ler:
   - `c_derbent`, `c_kerch`, `c_maghas`, `c_theodosia`, `c_tmutarakan`
 - Bu tur sadece tespit/rapor turudur; core dosyalara repair henuz uygulanmadi.
+
 ## 2026-05-16 MPE County History Gap ve Structure Repair
 
 - Kullanici c_majar'i landed_titles icinde c_don_portage olarak duzelttigini bildirdi; bundan sonra MPE kontrolu bu yeni current duruma gore yorumlandi.
@@ -6264,3 +6270,378 @@ Yeni raporlar:
   - `missing_pixels_in_png`: `10`
 - Uygulanan `128` satırın tamamı yeni audit'te `inside_exact` çıktı.
 - `locator_position_near_same_province_compact_landed_barony_only.csv` yeniden üretildi ve `building_locators.txt` near-same satırları `# Yusseter: OK; building_locators.txt` olarak işaretli tutuldu.
+
+## 2026-07-26 - 2026-07-30 Repo-Geneli Tespit Sistemi ve Güncel Devam Kaydı
+
+### Çalışma Kuralları
+
+- Güncel proje kökü: `F:\Storage\Codding\projects\ck3\Yusseter MoreBookmarksPlus`.
+- Canlı mod: `BookmarksGit`.
+- Asıl mod: `F:\Storage\Codding\projects\ck3\Leviathonlx MoreBookmarks-Plus`.
+- Bu dosya proje-özel authoritative hafızadır. Yeni oturumda önce çalışma kuralları ve son operasyon kaydı okunacak; global Codex hafızası bunun yerine kullanılmayacak.
+- Kullanıcının verdiği örnek yalnız başlangıç noktasıdır:
+  - somut örnek doğrulanır
+  - temsil ettiği genel invariant ve kök mekanizma çıkarılır
+  - aynı mekanizma ilgili repo kapsamının tamamında taranır
+  - coverage, negatif sonuç ve açık sınırlar birlikte raporlanır
+- Riskli veya tasarımsal kararlarda kullanıcıya kısa ve hedefli soru sorulabilir.
+- Statik araçla kanıtlanamayan davranışlar için kullanıcıdan açık adımlı oyun içi test, ekran görüntüsü veya log istenebilir.
+- Kullanıcı Codex olmadan da sistemi çalıştırabilmelidir:
+  - auditlerin repo kökünden çalıştırılabilen açık komutları bulunmalı
+  - girdiler, çıktılar ve kabul kriterleri raporda yer almalı
+  - kararlar yalnız sohbette değil, düzenlenebilir CSV ve bu hafızada tutulmalı
+  - yeni araç yazmadan önce `.codex/works/tools` envanteri kontrol edilmeli
+- Tespit aşamasında canlı `BookmarksGit` kaynakları otomatik düzeltilmez. Adayların tamamı açık onay verilene kadar `auto_apply=no` kalır.
+- Doğru sınıflandırma aileleri:
+  - gerçek Yusseter hatası
+  - asıl moddan taşınmış ortak hata
+  - bilinçli Yusseter farkı
+  - stale veya yanlış audit bulgusu
+  - kalite uyarısı
+  - runtime testi gereken belirsiz durum
+
+### Güncel Repo Closure Durumu
+
+- Ana closure'ın son deterministik sonucu:
+  - finding: `6712`
+  - blocker: `274`
+  - review: `6177`
+  - info: `261`
+  - coverage: `32 full + 3 partial`
+- Partial alanlar:
+  - genel bookmark/runtime oyun içi smoke testi
+  - Silk Road market runtime smoke testi
+  - target tracking, target image'dan eski olduğu için manuel kalan province-relation refresh
+- Stale coverage satırı yoktur.
+- Bu sayılar bağımsız hata sayısı değildir; aynı kök neden birden fazla audit veya satırda temsil edilebilir.
+- Region ve Silk Road market bulguları ana closure'a exact-overlap ile bağlandı:
+  - market kökü: `10`, her biri ana closure'da yalnız bir kez temsil ediliyor
+  - region kökü: `920`
+  - mevcut ana bulguyla eşleşen region kökü: `200`
+  - yalnız dış review olarak kalan region kökü: `720`
+- Seçilen `32/32` ana çıktı ikinci tam çalıştırmada aynı SHA-256 hash'ini üretti.
+
+### Repo-Geneli Geographical Region Closure
+
+- Salt-okuma araçları:
+  - `.codex/works/tools/audit_geographical_region_closure.py`
+  - `.codex/works/tools/run_geographical_region_closure.ps1`
+- Normal komut: `.\.codex\works\tools\run_geographical_region_closure.ps1`.
+- Hızlı referans-only komut: `.\.codex\works\tools\run_geographical_region_closure.ps1 -SkipGeometry`.
+- Çıktı kökü: `.codex/works/analysis/generated/repo_integration_closure/geographical_region_closure`.
+- Denetlenen katmanlar:
+  - CK3 file-override kuralıyla effective region dosyaları
+  - quote-aware yorum ve süslü parantez parser'ı
+  - `regions/kingdoms/duchies/counties/baronies/provinces` üyelikleri
+  - nested region graph, cycle ve recursive province membership
+  - current, pre-merge, asıl mod ve vanilla provenance
+  - current landed-title hiyerarşisi
+  - `definition.csv`, `provinces.png`, adjacency, component, enclosed gap ve sibling overlap
+  - Silk Road situation/route static closure ve kontrol PNG'si
+- Son tam pass:
+  - effective region: `845`
+  - direct membership token: `11652`
+  - parser diagnostic: `0`
+  - ham review finding: `1216`
+  - bağımsız karar kökü: `920`
+  - kesin blocker: `0`
+  - enclosed landed gap: `434` satır / `201` benzersiz coğrafi küme
+  - disconnected landed region: `456`
+  - duplicate region definition: `37`
+- Spatial bulgular ada, exclave, wasteland veya bilinçli tasarım olabilir; toplu otomatik apply yasaktır.
+- Silk Road'un görünen başlıca region adayları:
+  - China: `k_longxi_china` altındaki `d_fengxiang/d_xingfeng`, 10 province
+  - India: `k_pandya > d_pandya_nadu`, 14 province
+  - Khorasan: `c_sarakhs`, 3 province
+  - Gharjistan/Guzgan: `c_marvarrud + c_rivsharan`, 8 province
+- SEA situation region'ında altı undefined kingdom token'ı vardır. China ve SEA route region'larında eski veya undefined county token'ları açık review olarak kalır.
+
+### Silk Road Market, Building, GUI ve Ok Bağımlılığı
+
+- Salt-okuma araçları:
+  - `.codex/works/tools/audit_silk_road_market_closure.py`
+  - `.codex/works/tools/run_silk_road_market_closure.ps1`
+- Çıktı kökü: `.codex/works/analysis/generated/repo_integration_closure/silk_road_market_closure`.
+- Son market pass'i:
+  - subregion: `8`
+  - effective `silk_road_node` building: `20`
+  - ham finding: `15` (`9 blocker`, `6 review`)
+  - bağımsız kök: `10` (`4 blocker`, `6 review`)
+  - static coverage: `9 full`
+  - runtime coverage: `1 partial`
+- Kesin ve yüksek güvenli iki kaynak adayı:
+  - China center `12743` current map'te denizdir; mevcut Chang'an market yerleşimi `12218` güçlü merkez adayıdır.
+  - `building_constantinople_market_01_desc` localization satırının kapanış tırnağı eksiktir.
+- SEA/Angkor için sonraki doğrulama önceki apply tasarımını değiştirmiştir:
+  - vanilla situation'da SEA subregion ve Angkor market yoktur
+  - vanilla connection-arrow dosyasında Angkor'a giden rota yoktur
+  - asıl mod `angkor_market_01` ve province `13444`te biten iki özel Angkor rotası eklemiştir
+  - Yusseter'ın güncel doğu okları vanilla tabanlıdır ve Angkor bağlantısı içermez
+  - bu nedenle yalnız `10819` üzerine Angkor market eklemek görsel ve semantik olarak eksik bir çözüm olur
+- Tutarlı iki tasarım seçeneği vardır:
+  - vanilla-doğu kuralını koruyup SEA subregion, Angkor market ve decision zincirini güvenli biçimde kapsamdan çıkarmak
+  - asıl-mod SEA genişletmesini bilinçli olarak kabul edip Angkor market ile iki rotayı current haritaya yeniden eşlemek ve geometri auditinden geçirmek
+- Yalnız market ekleme seçeneği kabul edilmeyecek. Kullanıcı tasarım tercihi vermeden SEA kaynak editine geçilmeyecek.
+- China ve Constantinople adayları da upstream/map etkisi yeniden doğrulanmadan uygulanmayacak.
+
+### 2026-07-30 Upstream Fetch-Only Envanteri
+
+- Fetch öncesi güvenlik checkpoint'i:
+  - `.codex/works/analysis/generated/upstream_update_inventory/prefetch_git_state.json`
+  - `.codex/works/analysis/generated/upstream_update_inventory/prefetch_status_porcelain.txt`
+  - `.codex/works/analysis/generated/upstream_update_inventory/prefetch_tracked_worktree.patch`
+- Git çapaları:
+  - Yusseter HEAD: `b27d8ddb63f568839cd96e024607ab7f0e227497`
+  - son merge edilen asıl-mod kaynağı / merge-base: `ed1520220c1e8469a9865e3f69c57bcc399df0c5`
+  - fetch öncesi `upstream/main`: `2d55f8c108d67df447145a532f825b29d2227854`
+  - fetch sonrası `upstream/main`: `3457500ca690067e322100de853ab6ab0bc8a834`
+- Bekleyen upstream aralığı:
+  - commit: `6`
+  - yeni fetch edilen commit: `1` (`3457500ca`, 7/29)
+  - net değişen yol: `1378`
+  - canlı `BookmarksGit` yolu: `15`
+  - `Other/` extraction/reference yolu: `1362`
+  - `error.log`: `1`
+  - dirty çalışma ağacıyla doğrudan yol çakışması: `0`
+  - landed-title property değişikliği: `0`
+- Yeni `3457500ca` commit'i Northeast karakter, dynasty, CoA ve dynasty localization zincirine dokunur.
+- Toplam bekleyen aralık `provinces.png`, üç map-object locator dosyası, karakter/title history ve davranış scriptleri içerir.
+- `140d6d5cd` ile gelen `Other/` altındaki 1362 dosyanın Yusseter reposuna alınıp alınmayacağı ayrıca kararlaştırılmalıdır.
+- Merge kararı: `do_not_merge_yet`.
+- Aynı Tiger binary/config ile temiz `ed1520220` ve `3457500ca` snapshot'ları karşılaştırıldı:
+  - yeni kararlı Tiger raporu: `109`
+  - çözülen kararlı Tiger raporu: `5`
+  - merge engelleyici rapor: `66`
+  - bağımsız yeni kök: `7`
+  - sınıflandırılmamış kök: `0`
+- İki merge engelleyici kök:
+  - `balhae_mo_identity_collision`: `44` raporun `43`ü merge engeli; `140d6d5cd` ve `6d0a2fed1`
+  - `balhae_al_dynasty_parse_failure`: `23` merge engeli; `6d0a2fed1`
+- Diğer doğrulanmış kökler:
+  - `balhae_go_identity_replacement_regression`: merge tabanında geçerli yedi title-holder zinciri yeni karakter ID kullanımıyla yaşam aralığı dışına çıktı
+  - `new_character_name_localization_gap`: on exact English ad anahtarı, `24` kullanım; taban/son asıl mod/vanilla katmanlarında karşılık yok
+  - `missing_baijia_coa_assets`: yedi DDS dosyası, `8` kullanım; taban/son asıl mod/vanilla katmanlarında dosya yok
+  - `adynasty_house_field_typo`: güçlü `dynasty_house` düzeltme adayı
+  - `duplicate_balhae_ha_coa_definitions`: iki kalite uyarısı
+- Ayrıntılı raporlar:
+  - `.codex/works/analysis/generated/upstream_update_inventory/upstream_update_inventory_summary.md`
+  - `.codex/works/analysis/generated/upstream_update_inventory/pending_upstream_commits.csv`
+  - `.codex/works/analysis/generated/upstream_update_inventory/pending_live_mod_files.csv`
+  - `.codex/works/analysis/generated/upstream_update_inventory/four_way`
+  - `.codex/works/analysis/generated/tiger_upstream_delta/upstream_tiger_delta_summary.md`
+  - `.codex/works/analysis/generated/tiger_upstream_delta/upstream_tiger_root_causes.csv`
+  - `.codex/works/analysis/generated/tiger_upstream_delta/upstream_premerge_decision_summary.md`
+
+### Tiger Hattı Hakkındaki Düzeltme
+
+- Ana closure aracı Tiger'ı kendisi çalıştırmaz; üretilmiş JSON raporlarını okur. Bu nedenle closure'dan önce Tiger baseline aracı çalıştırılmalıdır.
+- VS Code eklentisi: `unlomtrois.ck3tiger-for-vscode-1.1.2`.
+- VS Code'un kullandığı binary:
+  - `C:\Users\bsgho\AppData\Roaming\Code\User\globalStorage\unlomtrois.ck3tiger-for-vscode\ck3-tiger\ck3-tiger.exe`
+  - sürüm: `1.19.0`
+- Global `ck3tiger.modPath`, eski BILAD yolu değil `C:\Users\bsgho\Documents\Paradox Interactive\Crusader Kings III\mod\mbp_vp.mod` değeridir.
+- `mbp_vp.mod` canlı `F:/Storage/Codding/projects/ck3/Yusseter MoreBookmarksPlus/BookmarksGit` yolunu gösterir.
+- Eklentinin `tigerPath`, `ck3Path` ve `modPath` ayarları application-scope olduğu için workspace ayarıyla override edilemez. Global ayar kör biçimde değiştirilmemelidir.
+- Standalone audit artık VS Code ile aynı binary, canlı mod descriptor'ı ve `BookmarksGit/ck3-tiger.conf` dosyasını kullanır:
+  - `.codex/works/tools/run_ck3_tiger_baseline.ps1`
+  - `.codex/works/tools/compare_ck3_tiger_json.py`
+- VS Code'un mevcut JSON'u ile standalone çıktının nondeterministic `scopes/strict-scopes` dışındaki `19034` kararlı raporu birebir aynıdır.
+- Shell üzerinden Tiger çalıştırmak VS Code Problems görünümünü otomatik yenilemez. Arayüz için ayrıca `ck3tiger: Run ck3tiger` veya üretilmiş log yayımlandıysa `ck3tiger: Get problems from the log file` komutu kullanılmalıdır.
+- Taze merge-öncesi çıktılar:
+  - `.codex/works/analysis/generated/tiger_premerge_baseline`
+  - `.codex/works/analysis/generated/tiger_upstream_delta`
+- Güncel closure bu taze Tiger kanıtıyla yeniden üretildi; stale coverage `0`dır.
+
+### 2026-07-30 Bekleyen Harita ve Locator Üç Yönlü Auditi
+
+- Salt-okuma aracı:
+  - `.codex/works/tools/audit_pending_upstream_map_locator_delta.py`
+- Normal komut:
+  - `python .codex/works/tools/audit_pending_upstream_map_locator_delta.py`
+- Çıktı kökü:
+  - `.codex/works/analysis/generated/upstream_map_locator_delta`
+- Karşılaştırılan katmanlar:
+  - merge tabanı `ed1520220`
+  - güncel Yusseter HEAD `b27d8ddb6`
+  - yeni asıl mod `3457500ca`
+  - etkin vanilla fallback ve mevcut `descriptor.mod` replace-path davranışı
+- `provinces.png` sonucu:
+  - toplam piksel: `42467328`
+  - yalnız Yusseter tarafından değiştirilmiş piksel: `13800085`
+  - yeni asıl mod tarafından gerçekten değiştirilmiş RGB pikseli: `0`
+  - gerçek piksel çatışması: `0`
+  - base ve yeni asıl mod PNG blob hash'leri farklıdır, fakat RGB pixel SHA-256 hash'leri birebirdir
+  - yeni asıl mod değişikliği yalnız PNG encoding/metadata katmanındadır
+  - merge çözümü: yeni blob'u alma; mevcut Yusseter `provinces.png` dosyasını koru
+- `building_locators.txt` sonucu:
+  - yeni asıl moddaki tek semantik değişiklik `id=6053 / ALEXANDRIA`
+  - position ve rotation değişmiyor
+  - scale `0.080000` değerinden `0.685591` değerine çıkıyor
+  - konum hem Yusseter hem asıl mod haritasında `inside_exact`
+  - değişiklik `140d6d5cd` commitinden geliyor ve vanilla locator kopyası değildir
+  - karar: `review_then_take_upstream_scale`, confidence `medium`, `auto_apply=no`
+- `special_building_locators.txt` sonucu:
+  - yalnız boşluk/biçim değişikliği var; semantik locator değişikliği yok
+  - merge sırasında mevcut Yusseter dosyası korunmalı
+- `special.txt` sonucu:
+  - dosya Yusseter modunda `09588cbb5` commitinde bilinçli olarak kaldırılmıştır
+  - `gfx/map/map_object_data` için `replace_path` yoktur; vanilla `special.txt` etkin kalır
+  - yeni asıl moddaki `special.txt`, güncel vanilla dosyasıyla byte düzeyinde aynıdır
+  - `constantinople_sprawl` objesi, Byzantion province `496` üzerinde etkin vanilla fallback içinde zaten vardır
+  - gerekli `ep3_constantinople_sprawl_mesh` asseti vanilla içinde bulunur
+  - karar: mod dosyasını yeniden ekleme; vanilla fallback'i koru
+- Kontrol görseli:
+  - `.codex/works/analysis/generated/upstream_map_locator_delta/provinces_three_way_control.png`
+- Canlı `BookmarksGit` harita veya locator kaynakları değiştirilmedi.
+
+### Sonraki İşlem Sırası
+
+1. Merge yapmadan önce `balhae_mo_identity_collision` ve `balhae_al_dynasty_parse_failure` için uygulanacak merge-resolution tasarımını kesinleştir.
+2. BalhaeGo kimlik regresyonu, on ad localization'ı, yedi eksik CoA DDS asseti, `adynasty_house` yazım hatası ve duplicate CoA blokları için review kararını tamamla.
+3. Merge çözümünde `provinces.png`, `special_building_locators.txt` ve eksik `special.txt` için yukarıdaki keep-current/fallback kararlarını uygula; `id=6053` scale adayını ayrıca review et.
+4. `Other/` kaynak paketinin merge kapsamına alınıp alınmayacağını kullanıcıyla kararlaştır.
+5. Yalnız bu kanıtlardan sonra normal upstream merge'i `--no-commit` aşamasında aç ve belgelenen source hatalarını merge çözümünde düzelt.
+6. Merge uygulanırsa aynı VS Code Tiger binary/config hattını, closure, region, locator ve binary-map auditlerini tekrar çalıştır; VS Code Problems görünümünü ayrıca yenile.
+7. Son olarak Silk Road SEA/Angkor tasarım kararına dön.
+
+### 2026-08-01 Bekleyen Asıl Mod Pre-Merge Closure
+
+- Bu bölüm, yukarıdaki `2026-07-30 Upstream Fetch-Only Envanteri` bölümünün güncel devamıdır; eski revision ve sayıların tarihsel kaydını silmez.
+- Güncel Git çapaları:
+  - Yusseter HEAD: `b27d8ddb63f568839cd96e024607ab7f0e227497`
+  - son birleşmiş asıl mod / merge-base: `ed1520220c1e8469a9865e3f69c57bcc399df0c5`
+  - önceki asıl mod ucu: `3457500ca690067e322100de853ab6ab0bc8a834`
+  - güncel asıl mod ucu: `66fba32c38b49905619118f9f6676e7757b13201`
+- Bekleyen aralık yedi commit, 21 canlı `BookmarksGit` yolu, 1.362 `Other/` yolu ve bir `error.log` değişikliği içerir.
+- Canlı çalışma ağacındaki beş kullanıcı değişikliği ile bekleyen 21 canlı yol arasında doğrudan çakışma yoktur.
+- Merge, stage, commit veya push yapılmadı; canlı `BookmarksGit` kaynakları değiştirilmedi.
+
+#### Revision-Kilitli Karar Sistemi
+
+- Araç: `.codex/works/tools/build_pending_upstream_premerge_closure.py`.
+- Düzenlenebilir karar girdisi: `.codex/works/analysis/upstream_update_decisions/pending_upstream_path_decisions_manual.csv`.
+- Çıktı kökü: `.codex/works/analysis/generated/pending_upstream_premerge_closure`.
+- Araç şu korumaları zorunlu uygular:
+  - karar CSV'sindeki base/upstream revisionları güncel Git revisionlarıyla birebir olmalıdır
+  - inventory, gerçek `git diff base..upstream` içindeki bütün canlı yolları eksiksiz kapsamalıdır
+  - bekleyen canlı yol ile tracked veya untracked çalışma ağacı arasında çakışma olmamalıdır
+  - inventory, Tiger, province-history, title-history ve map/locator kanıtlarının revision metadata'sı uyuşmalıdır
+  - 17 Tiger kökünün tamamı en az bir dosya kararına bağlanmalıdır
+  - merge-engelleyici kök taşıyan her dosyanın kararı `block_*` olmalıdır
+  - bütün kararlar `auto_apply=no` kalmalıdır
+  - `block`, `hold`, `manual`, `review` veya sınıflandırılmamış karar varken sonuç `ready` olamaz
+- Güncel sonuç:
+  - merge kararı: `do_not_merge_yet`
+  - canlı dosya kapsamı: `21/21`
+  - Tiger kök kapsamı: `17/17`
+  - merge-engelleyici Tiger kökü: `8`
+  - karar grupları: `block=4`, `hold=4`, `manual=1`, `planned_resolution=11`, `review=1`
+  - otomatik uygulama: `0`
+  - ikinci çalıştırmada deterministik çıktı: `3/3` aynı SHA-256
+
+#### Engelleyici Kökler ve History Kararları
+
+- Sekiz merge-engelleyici kök:
+  - `balhae_al_dynasty_parse_failure`
+  - `balhae_mo_identity_collision`
+  - `removed_dynasty_definitions_break_existing_characters`
+  - `indosphere_history_lifetime_regressions`
+  - `korean_baek_daeheung_identity_collision`
+  - `missing_korean_gim_silla_character`
+  - `undefined_goguryo_culture`
+  - `undefined_poet_trait`
+- Bu kökler dört canlı dosya ailesine bağlanır: `00_dynasties.txt`, `00_ASIA_INDOSPHERE.txt`, `00_ASIA_NORTHEAST.txt` ve `00_ASIA_SOUTH.txt`.
+- Province-history üç yönlü sonuçta yalnız `11377` ve `11378` iki tarafça değiştirilmiştir. Asıl moddaki Laos anlamları, Yusseter'daki `b_IDO_Barat_Daya` ve `b_IDO_Tanimbar` kimlikleriyle çakışır; Yusseter blokları korunmalıdır.
+- Title-history kanıtı:
+  - güvenli bütün blok: `22`
+  - entry işlemi: `262`
+  - güvenli entry: `256`
+  - manuel entry: `6`
+- `00_ASIA_NORTH.txt` için güvenli entry'ler ayrı patch adayıdır; iki silme ve BalhaeGo kimlik zinciri manuel inceleme ister.
+- `00_ASIA_SOUTH.txt` için Indosphere karakter zinciri düzelmeden güvenli görünen history entry'leri bile canlı dosyaya uygulanmayacaktır.
+
+#### Diğer Kesin Kararlar ve Açık Kapsam
+
+- `z_MB_game_start.txt` içindeki Dai Viet filtresinin `administrative_government` yerine `meritocratic_government` olması canlı title-history ve startup tasarımıyla uyumludur; bu dar upstream değişikliği alınacak adaydır.
+- Harita/locator yollarına `3457500ca..66fba32c3` aralığında yeni dokunuş yoktur; önceki üç yönlü kanıt path-fresh olarak kalır:
+  - `provinces.png` için Yusseter RGB içeriği korunur
+  - `special.txt` moda yeniden eklenmez, vanilla fallback korunur
+  - `special_building_locators.txt` için Yusseter biçimi korunur
+  - `building_locators.txt` id `6053` scale değişikliği görsel review sonrasında alınabilir
+- CoA/template dosyaları eksik Chuhan, Baijia ve Tamga assetleri ile duplicate CoA kararları kapanmadan alınmayacaktır.
+- `Other/` altındaki 1.362 extraction/reference dosyası ve kökteki `error.log`, canlı-mod closure kapsamı değildir. Bunlar için ayrı merge politikası verilmeden genel merge yetkisi oluşmaz.
+- Güncel yeniden çalıştırma komutu closure özetinde yer alır. Yeni asıl mod commitinde eski karar CSV'si revision kontrolünden bilinçli olarak geçmez; önce inventory, Tiger ve history auditleri yenilenmelidir.
+
+#### Sonraki İşlem Sırası
+
+1. Sekiz engelleyici kök için source-fix adaylarını canlı dosyaya dokunmadan ayrı patch/karar raporu olarak hazırla.
+2. Eksik CoA asset paketlerinin gerçekten upstream dışında bulunup bulunmadığını kaynak envanteriyle son kez doğrula.
+3. `Other/` ve `error.log` için include/keep-current politikasını açık karara bağla.
+4. Yalnız bütün engeller kapandıktan ve kullanıcı merge onayı verdikten sonra normal `git merge --no-commit --no-ff upstream/main` aşamasına geç.
+5. Merge çözümünden sonra aynı VS Code Tiger binary/config hattını, history, localization, map, locator, region ve runtime smoke kontrollerini yeniden çalıştır.
+6. Upstream turu kapandıktan sonra Silk Road SEA/Angkor tasarım kararına dön.
+
+### 2026-08-10 Asıl Mod Baseline Hatalarını Erteleme Kararı
+
+- Güncel closure revizyonları:
+  - Yusseter: `5b9f833f09e66ed169d7de96db1397e617608acd`
+  - asıl mod: `835050bb9b104daee0ee0e34f3c6f18b1e1182f4`
+- Kullanıcı kararı: asıl modda da aynı biçimde bulunan `shared_asil_mod_baseline` blocker köklerine şimdilik dokunulmayacak; bunlar bütün Yusseter/entegrasyon işleri bittikten sonra son ayrı geçişte ele alınacak.
+- Bu karar hataları çözülmüş veya kabul edilmiş saymaz. Severity `blocker` olarak korunacak ve canonical closure raporundan çıkarılmayacak.
+- Güncel bağımsız blocker kökleri:
+  - toplam: `164`
+  - son faza ertelenen asıl-mod kaynaklı küme: `143` kök / `248` ham blocker satırı
+  - bunun `97` kökü `shared_asil_mod_baseline`
+  - bunun `46` kökü asıl modun kendi history satırı ile kendi character katmanı arasında bulunan `asil_mod_source_native_regression`
+  - şimdi ele alınacak gerçek entegrasyon ve Yusseter kümesi: `21` kök / `25` ham blocker satırı
+- Closure aracı iki ayrı çalışma listesi üretir:
+  - `.codex/works/analysis/generated/repo_integration_closure/repo_integration_active_blocker_roots.csv`
+  - `.codex/works/analysis/generated/repo_integration_closure/repo_integration_deferred_asil_mod_roots.csv`
+- `58` upstream-integration karakter/title-history kökü source-origin açısından ayrıca ayrılmıştır:
+  - `46` source-native asıl-mod regresyonu ertelenmiştir
+  - `9` cross-layer character identity/yaşam tarihi çakışması aktif manuel incelemededir
+  - `3` Yusseter featured-bookmark karakter bağımlılığı aktif recovery incelemesindedir
+- Region review bulguları ve asıl-mod baseline hataları bu aktif karakter düzeltme grubuyla karıştırılmayacaktır.
+- İlk karakter recovery dry-run sonucu:
+  - ilk yalnız yaşam-tarihi kontrolünde görünen `24` pre-merge aday, dependency ve source-origin denetiminden sonra topluca güvenli sayılmamıştır
+  - `21` normal character restore adayı source-native asıl-mod regresyonu olduğu için ertelenmiştir
+  - `24` historical asıl-mod donor adayı ve donorsuz `13841 / c_dole` aynı source-native grupta ertelenmiştir
+  - featured aday `12782000` bütün doğrudan static bağımlılıkları çözülmüş tek yüksek güvenli satırdı; `BookmarksGit/history/characters/00_YB_UPSTREAM_CHARACTER_RECOVERY.txt` içinde uygulandı
+  - featured aday `10125001`, eksik pre-merge parent `10125000` nedeniyle bloklanmıştır
+  - featured aday `10125010`, eksik pre-merge parent `11000113` nedeniyle bloklanmıştır
+  - `9` cross-layer kimlik/yaşam tarihi çakışması manuel incelemede kalmıştır
+  - uygulanan dosyada tek top-level ID `12782000` benzersizdir ve referans tarihi donor yaşam aralığındadır
+  - Tiger'da `12782000` eksik-character raporu ve recovery dosyasına ait rapor `0`; VS Code Tiger JSON'u aynı güncel hash ile yayımlandı
+  - bookmark runtime auditinde `12782000` artık `alive`; yalnız oyun içi holder/startup davranışı için blocker olmayan smoke-test review'u kalır
+  - uygulama sonrası closure: `164` bağımsız kök, `273` blocker satırı, `32 full`, `3 partial`, `0 stale`
+  - dry-run önizleme kuyruğu artık `0`; kalan adayların tamamı dependency veya manuel identity incelemesindedir
+- Dry-run kanıtları:
+  - `.codex/works/analysis/generated/repo_integration_closure/upstream_integration_character_roots/upstream_integration_character_recovery_dry_run.csv`
+  - `.codex/works/analysis/generated/repo_integration_closure/upstream_integration_character_roots/upstream_integration_character_recovery_preview.patch`
+
+### 2026-09-09 `.codex` Dizin Düzeni
+
+- Koruma kuralı kesinleştirildi: sabit yol veya ad değil; dosyanın içeriği, işlevi ve kullanıcı sahipliği korunur. Daha iyi bir düzen için yollar değiştirilebilir, ancak bütün etkin tüketiciler birlikte taşınır ve içerik doğrulanır.
+- Canlı mod artık doğrudan `BookmarksGit/descriptor.mod` ile kullanıldığı için eski `.codex/test_files/` aynası kaldırıldı. Etkin araçların test aynasına yazma ve senkronlama davranışları kaldırıldı; tarihsel plan ve hafıza kayıtları geçmiş kanıt olarak bırakıldı.
+- Province/definition pipeline'ına ait dağınık çıktılar `.codex/works/analysis/generated/province_definition/` altında toplandı. Taşınan 67 kök dosya ile `rgb_conflict_previews/` içeriği dahil toplam 305 dosyanın SHA-256 değerleri taşıma öncesi ve sonrasında birebir doğrulandı.
+- Kullanıcının Paint.NET ile düzenlediği kaynaklar `.codex/works/map_data_sources/manual_sources/` altında korunur ve otomasyon bu klasöre yazmaz.
+- MPE harita kaynakları `.codex/works/map_data_sources/mpe/` altında tutulur.
+- Kullanıcının düzenlediği canonical title relation tablosu `.codex/works/pipeline_inputs/title_relations/curated_title_relations.csv` dosyasıdır; otomasyon bu dosyanın üzerine yazmaz.
+- Tarihsel plan dosyaları `YYYY.MM.DD[_HH.mm]-konu.md` standardına geçirildi. Güvenilir saat bilinmiyorsa saat uydurulmaz.
+- `_merge_restore_backups` etkin generated alanından `.codex/works/archive/merge_restore_backups/` altına taşındı. Kök `ornek.gitattributes`, `ornek.gitignore` ve yalnız test aynasına ait generated paket kaldırıldı.
+- Bu düzenleme turunda canlı `BookmarksGit/` içeriği değiştirilmedi; Git staging veya commit yapılmadı.
+
+### 2026-09-13 Proje Hafızası ve Yerel Codex Alanları
+
+- `.codex/memory/hafiza.md`, içeriği ve SHA-256 değeri korunarak `.codex/memory/project_memory.md` adına taşındı.
+- `.codex/memory/project_memory.md` ile `.codex/plans/` kalıcı proje bilgisi oldukları için Git'te tutulur.
+- `.codex/prompts/`, kullanıcının Codex'e yazamadığı zamanlarda isteklerini önceden hazırladığı kişisel yerel arşivdir; içeriği silinmeden Git tarafından yok sayılır.
+- `.codex/memory/local/`, makineye veya kişiye özel geçici notlar için ayrılmış ve Git tarafından yok sayılan alandır.
+- Prompt arşivindeki eski tarihli metinler otomatik olarak güncel talimat kabul edilmez; gerekli kalıcı kararlar proje hafızasına veya planlara aktarılır.
+
+### 2026-09-13 Silk Road SEA/Angkor Karar Doğrulaması
+
+- Kullanıcının `.codex/prompts/2026.08.02_13.44-bazi_tespit_ettigim_hatalar/bazi_tespit_ettigim_hatalar.prompt.md` içindeki özgün talebi, doğu Silk Road ve kalan doğu region üyelikleri için vanilla yapısını yetkili kaynak olarak belirler.
+- Vanilla yapısında SEA subregion, Angkor market ve Angkor bağlantı okları bulunmadığından upstream'e özgü eksik SEA/Angkor kolu Yusseter'a kısmen uyarlanmayacaktır.
+- SEA/Angkor kolu region, situation, market, building, decision, effect, event, localization ve ok tüketicilerinden birlikte kaldırılacaktır; yalnız market ekleyen yarım çözüm uygulanmayacaktır.
+- Önceki “kullanıcı tasarım tercihi bekleniyor” kaydı tarihsel durumu anlatır; karar artık beklemede değildir.

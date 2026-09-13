@@ -1,9 +1,11 @@
 $ErrorActionPreference = 'Stop'
 
-$repoRoot = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
-Set-Location $repoRoot
+$projectRoot = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..\..\..'))
+$codexRoot = Join-Path $projectRoot '.codex'
+$modRoot = Join-Path $projectRoot 'BookmarksGit'
+Set-Location $modRoot
 
-$outDir = Join-Path $repoRoot 'Works/analysis/generated'
+$outDir = Join-Path $codexRoot 'works\analysis\generated\province_definition'
 if (-not (Test-Path -LiteralPath $outDir)) {
 	New-Item -ItemType Directory -Path $outDir | Out-Null
 }
@@ -40,7 +42,7 @@ function Add-DirectoryFiles {
 
 	if (-not (Test-Path -LiteralPath $Dir)) { return }
 	Get-ChildItem -Path $Dir -Filter $Filter -File | Sort-Object Name | ForEach-Object {
-		Add-Row -Path $_.FullName.Substring($repoRoot.Length + 1) -Category $Category -Reason $Reason -Priority $Priority -Evidence $Evidence
+		Add-Row -Path $_.FullName.Substring($modRoot.Length + 1) -Category $Category -Reason $Reason -Priority $Priority -Evidence $Evidence
 	}
 }
 
@@ -92,7 +94,7 @@ $secondaryArgs += @(
 	'--glob', '!history/titles/**',
 	'--glob', '!common/landed_titles/**',
 	'--glob', '!gfx/map/map_object_data/**',
-	'--glob', '!Works/**'
+	'--glob', '!works/**'
 )
 
 $secondaryFiles = @()

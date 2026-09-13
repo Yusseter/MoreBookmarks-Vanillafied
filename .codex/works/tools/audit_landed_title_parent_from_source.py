@@ -14,22 +14,31 @@ from audit_landed_title_source_identity import (
 
 
 def parse_args() -> argparse.Namespace:
-    repo_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
+    mod_root = project_root / "BookmarksGit"
+    works_root = project_root / ".codex/works"
     parser = argparse.ArgumentParser(
         description="Audit current landed title parents against inferred source identity."
     )
-    parser.add_argument("--current-landed-titles", type=Path, default=repo_root / "common/landed_titles/00_landed_titles.txt")
-    parser.add_argument("--manual-csv", type=Path, default=repo_root / "title_relation_master_manuel_new.csv")
+    parser.add_argument("--current-landed-titles", type=Path, default=mod_root / "common/landed_titles/00_landed_titles.txt")
+    parser.add_argument(
+        "--relation-csv",
+        "--manual-csv",
+        dest="manual_csv",
+        type=Path,
+        default=works_root
+        / "pipeline_inputs/title_relations/curated_title_relations.csv",
+    )
     parser.add_argument(
         "--source-identity",
         type=Path,
-        default=repo_root
-        / "works/analysis/generated/landed_title_source_identity/landed_title_source_identity_audit.csv",
+        default=works_root
+        / "analysis/generated/landed_title_source_identity/landed_title_source_identity_audit.csv",
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=repo_root / "works/analysis/generated/landed_title_parent_source_audit",
+        default=works_root / "analysis/generated/landed_title_parent_source_audit",
     )
     return parser.parse_args()
 

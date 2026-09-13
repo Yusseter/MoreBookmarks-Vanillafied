@@ -1,5 +1,5 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path,
+    [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
     [string]$CandidatesCsv = '',
     [string]$DefinitionOverrideCandidatesCsv = '',
     [string]$PreserveAssignmentsCsv = '',
@@ -377,7 +377,7 @@ function Build-IdMapRows {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated'
+$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated\province_definition'
 
 if ([string]::IsNullOrWhiteSpace($CandidatesCsv)) {
     $CandidatesCsv = Join-Path $generatedDir 'definition_rgb_resolved_candidates_pre_id.csv'

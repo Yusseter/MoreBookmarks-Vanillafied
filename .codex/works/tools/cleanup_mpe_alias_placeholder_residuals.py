@@ -1,9 +1,13 @@
-﻿from pathlib import Path
+from pathlib import Path
 import csv
 import re
 
-ROOT = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
-OUT = ROOT / r"works\analysis\generated\mpe_import_add_1\consistency_fix"
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+ROOT = PROJECT_ROOT / "BookmarksGit"
+OUT = (
+    PROJECT_ROOT
+    / ".codex/works/analysis/generated/mpe_import_add_1/consistency_fix"
+)
 IDS = {12922, 13359, 13360, 13361, 13362}
 LOCATOR_IDS = {13359, 13360, 13361, 13362}
 LOCATOR_FILES = [

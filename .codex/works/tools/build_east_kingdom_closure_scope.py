@@ -12,21 +12,34 @@ from audit_landed_title_source_identity import (
 
 
 def parse_args() -> argparse.Namespace:
-    repo_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
+    mod_root = project_root / "BookmarksGit"
+    works_root = project_root / ".codex/works"
     parser = argparse.ArgumentParser(
         description="Build an east audit scope by expanding mask-hit baronies to their current k_ title closure."
     )
-    parser.add_argument("--landed-titles", type=Path, default=repo_root / "common/landed_titles/00_landed_titles.txt")
-    parser.add_argument("--definition", type=Path, default=repo_root / "map_data/definition.csv")
+    parser.add_argument(
+        "--landed-titles",
+        type=Path,
+        default=mod_root / "common/landed_titles/00_landed_titles.txt",
+    )
+    parser.add_argument(
+        "--definition",
+        type=Path,
+        default=mod_root / "map_data/definition.csv",
+    )
     parser.add_argument(
         "--east-mask",
         type=Path,
-        default=repo_root / "works/map_data_sources/provinces_birlesim_dogu 2026-04-19.png",
+        default=(
+            works_root
+            / "pipeline_inputs/map/scopes/east_title_scope_2026-04-19.png"
+        ),
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=repo_root / "works/analysis/generated/east_kingdom_closure_scope",
+        default=works_root / "analysis/generated/east_kingdom_closure_scope",
     )
     parser.add_argument(
         "--closure-tier",

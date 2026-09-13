@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import argparse
 import csv
+import hashlib
 import math
 import re
 from collections import Counter, defaultdict
@@ -11,22 +13,83 @@ from typing import Dict, Iterable, List, Tuple
 from PIL import Image
 
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-GENERATED_ROOT = REPO_ROOT / "works" / "analysis" / "generated" / "province_relation_mapping"
-MASTER_PATH = REPO_ROOT / "works" / "map_data_sources" / "province_relation_master.csv"
-MANUAL_REVIEW_PATH = GENERATED_ROOT / "province_relation_manual_review.csv"
-PREVIEW_PATH = GENERATED_ROOT / "province_relation_split_merge_preview.csv"
-COVERAGE_PATH = GENERATED_ROOT / "province_relation_coverage.csv"
-SUMMARY_PATH = GENERATED_ROOT / "province_relation_summary.md"
-
-SOURCE_IMAGE_PATH = REPO_ROOT / "works" / "map_data_sources" / "provinces_modlu_dogu.png"
-TARGET_IMAGE_PATH = REPO_ROOT / "map_data" / "provinces.png"
-SOURCE_DEFINITION_PATH = REPO_ROOT / "works" / "map_data_sources" / "definition_modlu.csv"
-TARGET_DEFINITION_PATH = REPO_ROOT / "map_data" / "definition.csv"
-TARGET_TRACKING_PATH = REPO_ROOT / "works" / "analysis" / "generated" / "final_orijinal_tracking_preserve_old_ids.csv"
-SOURCE_LANDED_TITLES_PATH = Path(
-    r"C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2216670956\0backup\common\landed_titles\00_landed_titles.txt"
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+WORKS_ROOT = PROJECT_ROOT / ".codex" / "works"
+DEFAULT_ASIL_MOD_REPO = PROJECT_ROOT.parent / "Leviathonlx MoreBookmarks-Plus"
+DEFAULT_OUTPUT_DIR = (
+    WORKS_ROOT
+    / "analysis"
+    / "generated"
+    / "province_relation_mapping"
+    / "current_state_refresh"
 )
+
+
+def parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description=(
+            "Build a current-state province relation dry-audit without modifying "
+            "BookmarksGit or the canonical relation master."
+        )
+    )
+    parser.add_argument("--project-root", type=Path, default=PROJECT_ROOT)
+    parser.add_argument("--asil-mod-repo", type=Path, default=DEFAULT_ASIL_MOD_REPO)
+    parser.add_argument(
+        "--source-image",
+        type=Path,
+        default=WORKS_ROOT / "map_data_sources" / "provinces_modlu_dogu.png",
+    )
+    parser.add_argument(
+        "--target-image",
+        type=Path,
+        default=PROJECT_ROOT / "BookmarksGit" / "map_data" / "provinces.png",
+    )
+    parser.add_argument(
+        "--source-definition",
+        type=Path,
+        default=WORKS_ROOT / "map_data_sources" / "definition_modlu.csv",
+    )
+    parser.add_argument(
+        "--target-definition",
+        type=Path,
+        default=PROJECT_ROOT / "BookmarksGit" / "map_data" / "definition.csv",
+    )
+    parser.add_argument(
+        "--target-tracking",
+        type=Path,
+        default=(
+            WORKS_ROOT
+            / "analysis"
+            / "generated"
+            / "province_definition"
+            / "final_orijinal_tracking_preserve_old_ids.csv"
+        ),
+    )
+    parser.add_argument(
+        "--source-landed-titles",
+        type=Path,
+        default=None,
+    )
+    parser.add_argument(
+        "--existing-master",
+        type=Path,
+        default=(
+            WORKS_ROOT
+            / "pipeline_inputs"
+            / "province_relations"
+            / "province_relation_baseline.csv"
+        ),
+    )
+    parser.add_argument("--output-dir", type=Path, default=DEFAULT_OUTPUT_DIR)
+    return parser.parse_args()
+
+
+def file_sha256(path: Path) -> str:
+    digest = hashlib.sha256()
+    with path.open("rb") as handle:
+        for chunk in iter(lambda: handle.read(1024 * 1024), b""):
+            digest.update(chunk)
+    return digest.hexdigest()
 
 
 @dataclass
@@ -315,12 +378,55 @@ def build_image_metrics(
 
 
 def main() -> None:
-    GENERATED_ROOT.mkdir(parents=True, exist_ok=True)
+    args = parse_args()
+    project_root = args.project_root.resolve()
+    asil_mod_repo = args.asil_mod_repo.resolve()
+    source_image_path = args.source_image.resolve()
+    target_image_path = args.target_image.resolve()
+    source_definition_path = args.source_definition.resolve()
+    target_definition_path = args.target_definition.resolve()
+    target_tracking_path = args.target_tracking.resolve()
+    source_landed_titles_path = (
+        args.source_landed_titles.resolve()
+        if args.source_landed_titles
+        else (
+            asil_mod_repo
+            / "BookmarksGit"
+            / "common"
+            / "landed_titles"
+            / "00_landed_titles.txt"
+        )
+    )
+    existing_master_path = args.existing_master.resolve()
+    output_dir = args.output_dir.resolve()
+    output_dir.mkdir(parents=True, exist_ok=True)
+    master_path = output_dir / "province_relation_master.csv"
+    manual_review_path = output_dir / "province_relation_manual_review.csv"
+    preview_path = output_dir / "province_relation_split_merge_preview.csv"
+    coverage_path = output_dir / "province_relation_coverage.csv"
+    summary_path = output_dir / "province_relation_summary.md"
+    manifest_path = output_dir / "province_relation_input_manifest.csv"
 
-    source_definition = parse_definition(SOURCE_DEFINITION_PATH)
-    target_definition = parse_definition(TARGET_DEFINITION_PATH)
-    managed_target_rows = parse_target_tracking(TARGET_TRACKING_PATH)
-    source_bindings = parse_landed_title_bindings(SOURCE_LANDED_TITLES_PATH)
+    required_inputs = [
+        source_image_path,
+        target_image_path,
+        source_definition_path,
+        target_definition_path,
+        target_tracking_path,
+        source_landed_titles_path,
+        existing_master_path,
+    ]
+    missing_inputs = [path for path in required_inputs if not path.is_file()]
+    if missing_inputs:
+        raise FileNotFoundError(
+            "Missing province relation input(s): "
+            + " | ".join(str(path) for path in missing_inputs)
+        )
+
+    source_definition = parse_definition(source_definition_path)
+    target_definition = parse_definition(target_definition_path)
+    managed_target_rows = parse_target_tracking(target_tracking_path)
+    source_bindings = parse_landed_title_bindings(source_landed_titles_path)
 
     source_definition_all = {
         rgb: meta
@@ -342,12 +448,12 @@ def main() -> None:
 
     source_rgb_set = set(source_definition_all.keys())
     target_rgb_set = set(target_rgb_to_meta.keys())
-    width, height = Image.open(SOURCE_IMAGE_PATH).size
+    width, height = Image.open(source_image_path).size
     diagonal = math.dist((0, 0), (width, height))
 
     source_stats, target_stats, pair_counts, source_neighbors, target_neighbors = build_image_metrics(
-        SOURCE_IMAGE_PATH,
-        TARGET_IMAGE_PATH,
+        source_image_path,
+        target_image_path,
         source_rgb_set,
         target_rgb_set,
     )
@@ -392,7 +498,7 @@ def main() -> None:
             provisional_best[source_rgb] = str(candidates[0]["target_rgb"])
 
     merge_targets = Counter(provisional_best.values())
-    existing_master = read_existing_master(MASTER_PATH)
+    existing_master = read_existing_master(existing_master_path)
 
     fieldnames = [
         "source_province_id",
@@ -451,6 +557,7 @@ def main() -> None:
     master_rows: List[Dict[str, str]] = []
     preview_rows: List[Dict[str, str]] = []
     coverage_rows: List[Dict[str, str]] = []
+    normalized_manual_field_rows = 0
 
     for source_rgb, source_meta in sorted(source_rgb_to_meta.items(), key=lambda item: int(item[1]["id"])):
         source_id = source_meta["id"]
@@ -563,11 +670,26 @@ def main() -> None:
                 classification = "manual_review"
                 notes.append("low_confidence")
 
-            if existing_row and existing_row.get("notes", "").strip() and not existing_row.get("notes", "").startswith("auto:"):
-                row["notes"] = existing_row["notes"]
-                row["classification"] = existing_row.get("classification", classification)
-                row["status"] = existing_row.get("status", "manual_review")
-                row["apply_to_history"] = existing_row.get("apply_to_history", "no")
+            existing_notes = existing_row.get("notes", "").strip()
+            if existing_row and existing_notes and not existing_notes.startswith("auto:"):
+                preserved_fields = {
+                    "notes": existing_notes,
+                    "classification": existing_row.get(
+                        "classification", classification
+                    ).strip(),
+                    "status": existing_row.get(
+                        "status", "manual_review"
+                    ).strip(),
+                    "apply_to_history": existing_row.get(
+                        "apply_to_history", "no"
+                    ).strip(),
+                }
+                if any(
+                    existing_row.get(field, "") != value
+                    for field, value in preserved_fields.items()
+                ):
+                    normalized_manual_field_rows += 1
+                row.update(preserved_fields)
             else:
                 row["classification"] = classification
                 row["status"] = "mapped" if classification == "exact" else "manual_review"
@@ -607,10 +729,34 @@ def main() -> None:
     exact_rows = [row for row in master_rows if row["status"] == "mapped" and row["classification"] == "exact"]
     split_merge_rows = [row for row in master_rows if row["classification"] in {"split", "merge"}]
 
-    write_csv(MASTER_PATH, master_rows, fieldnames)
-    write_csv(MANUAL_REVIEW_PATH, manual_review_rows, fieldnames)
-    write_csv(PREVIEW_PATH, preview_rows, preview_fieldnames)
-    write_csv(COVERAGE_PATH, coverage_rows, coverage_fieldnames)
+    write_csv(master_path, master_rows, fieldnames)
+    write_csv(manual_review_path, manual_review_rows, fieldnames)
+    write_csv(preview_path, preview_rows, preview_fieldnames)
+    write_csv(coverage_path, coverage_rows, coverage_fieldnames)
+
+    input_manifest_rows = []
+    for role, path in [
+        ("source_image", source_image_path),
+        ("target_image", target_image_path),
+        ("source_definition", source_definition_path),
+        ("target_definition", target_definition_path),
+        ("target_tracking", target_tracking_path),
+        ("source_landed_titles", source_landed_titles_path),
+        ("existing_manual_master", existing_master_path),
+    ]:
+        stat = path.stat()
+        input_manifest_rows.append({
+            "role": role,
+            "path": str(path),
+            "sha256": file_sha256(path),
+            "size_bytes": str(stat.st_size),
+            "mtime_ns": str(stat.st_mtime_ns),
+        })
+    write_csv(
+        manifest_path,
+        input_manifest_rows,
+        ["role", "path", "sha256", "size_bytes", "mtime_ns"],
+    )
 
     summary_lines = [
         "# Province Relation Summary",
@@ -619,6 +765,11 @@ def main() -> None:
         f"- exact mapped rows: `{len(exact_rows)}`",
         f"- split/merge rows: `{len(split_merge_rows)}`",
         f"- manual review rows: `{len(manual_review_rows)}`",
+        f"- project root: `{project_root}`",
+        f"- output directory: `{output_dir}`",
+        f"- canonical master modified: `no`",
+        f"- normalized preserved manual rows: `{normalized_manual_field_rows}`",
+        f"- target tracking older than target image: `{'yes' if target_tracking_path.stat().st_mtime < target_image_path.stat().st_mtime else 'no'}`",
         "",
         "## Classification Counts",
         "",
@@ -639,8 +790,13 @@ def main() -> None:
         ]
     )
 
-    ensure_directory(SUMMARY_PATH)
-    SUMMARY_PATH.write_text("\r\n".join(summary_lines) + "\r\n", encoding="utf-8")
+    ensure_directory(summary_path)
+    summary_path.write_text("\r\n".join(summary_lines) + "\r\n", encoding="utf-8")
+    print(f"master_rows={len(master_rows)}")
+    print(f"exact_rows={len(exact_rows)}")
+    print(f"manual_review_rows={len(manual_review_rows)}")
+    print(f"normalized_manual_field_rows={normalized_manual_field_rows}")
+    print(f"output_dir={output_dir}")
 
 
 if __name__ == "__main__":

@@ -14,8 +14,8 @@ BORDERLINE_RADIUS = 2
 BORDERLINE_MAX_RADIUS_SAME_RATIO = 0.70
 
 
-def repo_root() -> Path:
-    return Path(__file__).resolve().parents[2]
+def project_root() -> Path:
+    return Path(__file__).resolve().parents[3]
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -115,12 +115,17 @@ def radius_same_ratio(
 
 
 def build_near_compact_with_borderline() -> dict[str, int]:
-    root = repo_root()
-    audit_dir = root / "works" / "analysis" / "generated" / "map_object_locator_audit"
+    root = project_root()
+    mod_root = root / "BookmarksGit"
+    audit_dir = (
+        root / ".codex" / "works" / "analysis" / "generated" / "map_object_locator_audit"
+    )
     full_audit = read_csv(audit_dir / "locator_position_audit.csv")
-    barony_province_ids = parse_landed_title_barony_provinces(root / "common" / "landed_titles" / "00_landed_titles.txt")
+    barony_province_ids = parse_landed_title_barony_provinces(
+        mod_root / "common" / "landed_titles" / "00_landed_titles.txt"
+    )
 
-    image = Image.open(root / "map_data" / "provinces.png").convert("RGB")
+    image = Image.open(mod_root / "map_data" / "provinces.png").convert("RGB")
     width, height = image.size
     pixels = image.load()
 

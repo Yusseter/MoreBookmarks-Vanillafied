@@ -47,17 +47,40 @@ class SameToken:
 
 
 def parse_args() -> argparse.Namespace:
+    project_root = Path(__file__).resolve().parents[3]
+    mod_root = project_root / "BookmarksGit"
+    works_root = project_root / ".codex/works"
+    leviathon = project_root.parent / "Leviathonlx MoreBookmarks-Plus" / "BookmarksGit"
     parser = argparse.ArgumentParser(
-        description="Validate title_relation_master_manuel.csv without changing it."
+        description="Validate the archived full title relation baseline without changing it."
     )
-    base = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
-    leviathon = Path(r"F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit")
-    parser.add_argument("--manual-csv", type=Path, default=base / "title_relation_master_manuel.csv")
-    parser.add_argument("--before-manual-csv", type=Path, default=base / "title_relation_master_manuel_before_manuel.csv")
-    parser.add_argument("--source-landed-titles", type=Path, default=base / "common/landed_titles/00_landed_titles.txt")
+    parser.add_argument(
+        "--legacy-relation-csv",
+        "--manual-csv",
+        dest="manual_csv",
+        type=Path,
+        default=works_root
+        / "archive/title_relations/legacy_full_title_relations.csv",
+    )
+    parser.add_argument(
+        "--before-review-csv",
+        "--before-manual-csv",
+        dest="before_manual_csv",
+        type=Path,
+        default=works_root
+        / "archive/title_relations/title_relations_before_user_review.csv",
+    )
+    parser.add_argument("--source-landed-titles", type=Path, default=mod_root / "common/landed_titles/00_landed_titles.txt")
     parser.add_argument("--mod-landed-titles", type=Path, default=leviathon / "common/landed_titles/00_landed_titles.txt")
-    parser.add_argument("--master-csv", type=Path, default=base / "works/map_data_sources/title_relation_master.csv")
-    parser.add_argument("--output-dir", type=Path, default=base / "works/analysis/generated/title_relation_manual_validation")
+    parser.add_argument(
+        "--master-csv",
+        type=Path,
+        default=(
+            works_root
+            / "pipeline_inputs/title_relations/title_relation_baseline.csv"
+        ),
+    )
+    parser.add_argument("--output-dir", type=Path, default=works_root / "analysis/generated/title_relation_manual_validation")
     return parser.parse_args()
 
 

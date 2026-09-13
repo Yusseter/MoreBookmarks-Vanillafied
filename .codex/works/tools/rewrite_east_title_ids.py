@@ -9,9 +9,15 @@ from dataclasses import dataclass, field
 from pathlib import Path
 
 
-REPO_ROOT_DEFAULT = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
-MANUAL_REL = Path("title_relation_master_manuel_new.csv")
-OUTPUT_REL = Path("works/analysis/generated/east_title_rewrite")
+PROJECT_ROOT_DEFAULT = Path(__file__).resolve().parents[3]
+REPO_ROOT_DEFAULT = PROJECT_ROOT_DEFAULT / "BookmarksGit"
+RELATION_CSV_DEFAULT = (
+    PROJECT_ROOT_DEFAULT
+    / ".codex/works/pipeline_inputs/title_relations/curated_title_relations.csv"
+)
+OUTPUT_DIR_DEFAULT = (
+    PROJECT_ROOT_DEFAULT / ".codex/works/analysis/generated/east_title_rewrite"
+)
 
 TITLE_RE = re.compile(r"^(\s*)([hekdcb]_[A-Za-z0-9_'\-]+)(\s*=\s*\{.*)$")
 TITLE_TOKEN_RE = re.compile(r"(?<![A-Za-z0-9_'\-])([hekdcb]_[A-Za-z0-9_'\-]+)(?![A-Za-z0-9_'\-])")
@@ -77,11 +83,19 @@ class RewriteContext:
 
 
 def parse_args() -> argparse.Namespace:
-    parser = argparse.ArgumentParser(description="Rewrite imported east title ids using title_relation_master_manuel_new.csv.")
+    parser = argparse.ArgumentParser(
+        description="Rewrite imported east title ids using curated title relations."
+    )
     parser.add_argument("--repo-root", type=Path, default=REPO_ROOT_DEFAULT)
-    parser.add_argument("--manual-csv", type=Path, default=REPO_ROOT_DEFAULT / MANUAL_REL)
-    parser.add_argument("--output-dir", type=Path, default=REPO_ROOT_DEFAULT / OUTPUT_REL)
-    parser.add_argument("--write", action="store_true", help="Write changed live files and existing test_files counterparts.")
+    parser.add_argument(
+        "--relation-csv",
+        "--manual-csv",
+        dest="manual_csv",
+        type=Path,
+        default=RELATION_CSV_DEFAULT,
+    )
+    parser.add_argument("--output-dir", type=Path, default=OUTPUT_DIR_DEFAULT)
+    parser.add_argument("--write", action="store_true", help="Write changed live mod files.")
     parser.add_argument(
         "--allow-annotated-collisions",
         action="store_true",
@@ -867,10 +881,6 @@ def main() -> None:
         for path, text in changed.items():
             original = read_text_file(repo_root, path)
             path.write_bytes(encode_text(original, text))
-            test_path = repo_root / "test_files" / path.relative_to(repo_root)
-            if test_path.exists():
-                test_path.parent.mkdir(parents=True, exist_ok=True)
-                test_path.write_bytes(encode_text(original, text))
         write_performed = True
 
     summary = {

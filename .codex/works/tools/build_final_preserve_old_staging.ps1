@@ -1,5 +1,5 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path,
+    [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
     [string]$SourceImagePath = '',
     [string]$ModSubsetImagePath = '',
     [string]$OrijinalSubsetImagePath = '',
@@ -297,8 +297,8 @@ function Flush-ListLine {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated'
-$mapDataDir = Join-Path $root 'map_data'
+$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated\province_definition'
+$mapDataDir = Join-Path $root 'map_data_sources'
 
 if ([string]::IsNullOrWhiteSpace($SourceImagePath)) {
     $SourceImagePath = Join-Path $mapDataDir 'provinces_birlesim.png'

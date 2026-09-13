@@ -120,7 +120,7 @@ def existing_review_comment_start(lines: list[str], target_start_index: int) -> 
 def build_pending_changes(args: argparse.Namespace, target_lines: list[str]) -> tuple[list[PendingChange], list[dict[str, str]]]:
     source_landed = args.source_root / "common" / "landed_titles" / "00_landed_titles.txt"
     target_landed = args.target_root / "common" / "landed_titles" / "00_landed_titles.txt"
-    relation_csv = args.target_root / "title_relation_master_manuel_new.csv"
+    relation_csv = args.relation_csv
 
     source_lines = source_landed.read_text(encoding="utf-8-sig").splitlines(keepends=True)
     source_titles = dry.parse_title_blocks(source_lines)
@@ -329,16 +329,25 @@ def write_report(path: Path, rows: list[dict[str, str]]) -> None:
 
 def parse_args() -> argparse.Namespace:
     script_path = Path(__file__).resolve()
-    target_root = script_path.parents[2]
-    crusader_kings_root = target_root.parent.parent
+    project_root = script_path.parents[3]
+    target_root = project_root / "BookmarksGit"
+    crusader_kings_root = project_root.parent
     source_root = crusader_kings_root / "Leviathonlx MoreBookmarks-Plus" / "BookmarksGit"
-    output_dir = target_root / "works" / "analysis" / "generated" / "landed_title_asil_mod_metadata_transfer"
+    relation_csv = (
+        project_root
+        / ".codex/works/pipeline_inputs/title_relations/curated_title_relations.csv"
+    )
+    output_dir = (
+        project_root
+        / ".codex/works/analysis/generated/landed_title_asil_mod_metadata_transfer"
+    )
 
     parser = argparse.ArgumentParser(
         description="Apply selected landed title metadata from asil mod equivalents, replacing different target values.",
     )
     parser.add_argument("--target-root", type=Path, default=target_root)
     parser.add_argument("--source-root", type=Path, default=source_root)
+    parser.add_argument("--relation-csv", type=Path, default=relation_csv)
     parser.add_argument("--output-dir", type=Path, default=output_dir)
     parser.add_argument("--dry-run", action="store_true")
     return parser.parse_args()

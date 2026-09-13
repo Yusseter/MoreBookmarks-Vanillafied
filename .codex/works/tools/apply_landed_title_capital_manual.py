@@ -27,23 +27,31 @@ class TitleBlock:
 
 
 def parse_args() -> argparse.Namespace:
-    repo_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
+    mod_root = project_root / "BookmarksGit"
+    works_root = project_root / ".codex/works"
     parser = argparse.ArgumentParser(
         description="Apply manually selected landed title capitals to current landed_titles."
     )
-    parser.add_argument("--manual-csv", type=Path, default=repo_root / "landed_title_capital_manual_new.csv")
-    parser.add_argument("--landed-titles", type=Path, default=repo_root / "common/landed_titles/00_landed_titles.txt")
+    parser.add_argument(
+        "--decisions-csv",
+        "--manual-csv",
+        dest="manual_csv",
+        type=Path,
+        default=works_root / "pipeline_inputs/landed_titles/capital_decisions.csv",
+    )
+    parser.add_argument("--landed-titles", type=Path, default=mod_root / "common/landed_titles/00_landed_titles.txt")
     parser.add_argument(
         "--report",
         type=Path,
-        default=repo_root
-        / "works/analysis/generated/landed_title_capital_manual_apply/landed_title_capital_manual_apply_report.csv",
+        default=works_root
+        / "analysis/generated/landed_title_capital_manual_apply/landed_title_capital_manual_apply_report.csv",
     )
     parser.add_argument(
         "--summary",
         type=Path,
-        default=repo_root
-        / "works/analysis/generated/landed_title_capital_manual_apply/landed_title_capital_manual_apply_summary.md",
+        default=works_root
+        / "analysis/generated/landed_title_capital_manual_apply/landed_title_capital_manual_apply_summary.md",
     )
     return parser.parse_args()
 

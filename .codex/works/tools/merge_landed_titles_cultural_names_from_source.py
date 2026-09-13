@@ -44,26 +44,35 @@ class MergeRow:
 
 
 def parse_args() -> argparse.Namespace:
-    repo_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
+    mod_root = project_root / "BookmarksGit"
+    works_root = project_root / ".codex/works"
     parser = argparse.ArgumentParser(
         description="Merge selected cultural_names entries from a source landed_titles file by exact title path."
     )
     parser.add_argument(
         "--source-landed-titles",
         type=Path,
-        default=Path(
-            r"F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\common\landed_titles\00_landed_titles.txt"
-        ),
+        default=project_root.parent
+        / "Leviathonlx MoreBookmarks-Plus"
+        / "BookmarksGit"
+        / "common"
+        / "landed_titles"
+        / "00_landed_titles.txt",
     )
     parser.add_argument(
         "--target-landed-titles",
         type=Path,
-        default=repo_root / "common/landed_titles/00_landed_titles.txt",
+        default=mod_root / "common/landed_titles/00_landed_titles.txt",
     )
     parser.add_argument(
         "--output-csv",
         type=Path,
-        default=repo_root / "works/analysis/generated/landed_titles_cultural_names_merge/cultural_names_missing_from_source.csv",
+        default=(
+            works_root
+            / "analysis/generated/landed_titles_cultural_names_merge/"
+            "cultural_names_missing_from_source.csv"
+        ),
     )
     parser.add_argument("--keys", nargs="+", default=list(DEFAULT_KEYS))
     parser.add_argument("--apply", action="store_true")

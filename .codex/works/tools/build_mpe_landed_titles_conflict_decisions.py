@@ -5,9 +5,10 @@ import re
 from collections import Counter, defaultdict
 
 
-TARGET = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+TARGET = PROJECT_ROOT / "BookmarksGit"
 MPE = Path(r"C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\3726274827")
-OUT = TARGET / r"works\analysis\generated\mpe_import_add_1"
+OUT = PROJECT_ROOT / r".codex\works\analysis\generated\mpe_import_add_1"
 
 SOURCE_REPORT = OUT / "mpe_landed_titles_hierarchy_import_report.csv"
 DECISIONS = OUT / "mpe_landed_titles_conflict_decisions.csv"
@@ -26,16 +27,6 @@ def sha256(path):
     with path.open("rb") as f:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
-    return h.hexdigest().upper()
-
-
-def tree_hash(root):
-    h = hashlib.sha256()
-    if not root.exists():
-        return "MISSING"
-    for path in sorted(p for p in root.rglob("*") if p.is_file()):
-        h.update(path.relative_to(root).as_posix().encode("utf-8", "surrogateescape") + b"\0")
-        h.update(bytes.fromhex(sha256(path)))
     return h.hexdigest().upper()
 
 
@@ -259,7 +250,6 @@ def main():
 
     before_hashes = {
         "landed_titles": sha256(TARGET / r"common\landed_titles\00_landed_titles.txt"),
-        "test_files": tree_hash(TARGET / "test_files"),
     }
 
     source_rows = [row for row in read_csv(SOURCE_REPORT) if row.get("status") in CONFLICT_STATUSES]
@@ -375,7 +365,6 @@ def main():
     duplicate_report_rows = sum(1 for row in decisions if int(row["duplicate_conflict_key_count"]) > 1)
     after_hashes = {
         "landed_titles": sha256(TARGET / r"common\landed_titles\00_landed_titles.txt"),
-        "test_files": tree_hash(TARGET / "test_files"),
     }
 
     summary_lines = [
@@ -386,7 +375,6 @@ def main():
         f"- duplicate-key report rows: {duplicate_report_rows}",
         f"- safe_to_auto_apply yes rows: 0",
         f"- landed_titles unchanged: {before_hashes['landed_titles'] == after_hashes['landed_titles']}",
-        f"- test_files unchanged: {before_hashes['test_files'] == after_hashes['test_files']}",
         "",
         "## Status Counts",
         "",
@@ -407,12 +395,12 @@ def main():
             "- `target_barony_existing_province_conflict` and `county_child_existing_barony_conflict` require a manual title/province identity decision.",
             "- `missing_source_barony` has no source landed-title block in MPE for the imported province and must not be guessed from history comments alone.",
             "- `county_child_removed_not_in_mpe_overlay` was intentionally left out because its source province was not part of the Add 1 overlay/import ID map.",
-            f"- decision table: `{DECISIONS.relative_to(TARGET).as_posix()}`",
+            f"- decision table: `{DECISIONS.relative_to(PROJECT_ROOT).as_posix()}`",
         ]
     )
     SUMMARY.write_text("\n".join(summary_lines) + "\n", encoding="utf-8")
 
-    hafiza = TARGET / "hafiza.md"
+    hafiza = PROJECT_ROOT / ".codex" / "memory" / "project_memory.md"
     hafiza_lines, hafiza_newline, hafiza_bom, _ = read_text_lines(hafiza)
     header = "## 2026-05-15 MPE Landed Titles Conflict Decision Worklist"
     if header in hafiza_lines:
@@ -431,15 +419,15 @@ def main():
             header,
             "",
             "- MPE Add 1 landed_titles conflict havuzu canli dosyalar degistirilmeden karar tablosuna cevrildi.",
-            f"- Karar tablosu: `works/analysis/generated/mpe_import_add_1/{DECISIONS.name}`.",
-            f"- Ozet rapor: `works/analysis/generated/mpe_import_add_1/{SUMMARY.name}`.",
+            f"- Karar tablosu: `.codex/works/analysis/generated/mpe_import_add_1/{DECISIONS.name}`.",
+            f"- Ozet rapor: `.codex/works/analysis/generated/mpe_import_add_1/{SUMMARY.name}`.",
             f"- Toplam conflict satiri: `{len(decisions)}`; unique barony: `{unique_barony_count}`; duplicate-key report rows: `{duplicate_report_rows}`.",
             "- Otomatik uygulama guvenli satir yoktur; tum satirlar `safe_to_auto_apply = no` olarak isaretlendi.",
             f"- Status dagilimi: " + ", ".join(f"`{key}={value}`" for key, value in sorted(status_counts.items())) + ".",
             "- `target_barony_existing_province_conflict` ve `county_child_existing_barony_conflict` icin karar secenekleri: mevcut target barony'yi koru, mevcut barony'yi MPE final province'e retarget et, MPE barony'yi ayri/rename title olarak yasat, ya da MPE title linkini dusurup history-only birak.",
             "- `missing_source_barony` icin source landed-title blogu olmadigi icin title block tahmin edilmeyecek; manuel title gerekiyorsa ayrica kurulacak.",
             "- `county_child_removed_not_in_mpe_overlay` satirlari Add 1 overlay/import ID map disinda kaldigi icin simdilik disarida tutulacak; genisletme ancak overlay/definition kapsami buyutulurse yapilacak.",
-            f"- `landed_titles` unchanged: `{before_hashes['landed_titles'] == after_hashes['landed_titles']}`; `test_files` unchanged: `{before_hashes['test_files'] == after_hashes['test_files']}`.",
+            f"- `landed_titles` unchanged: `{before_hashes['landed_titles'] == after_hashes['landed_titles']}`.",
         ]
     )
     write_text_lines(hafiza, hafiza_lines, hafiza_newline, hafiza_bom, True)

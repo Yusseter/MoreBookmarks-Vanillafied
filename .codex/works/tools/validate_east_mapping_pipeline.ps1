@@ -289,17 +289,18 @@ function Get-ExpectedChildTier {
 	}
 }
 
-$repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
-$generatedRoot = Join-Path $repoRoot 'works\analysis\generated\east_mapping_validation'
+$projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
+$codexRoot = Join-Path $projectRoot '.codex'
+$repoRoot = Join-Path $projectRoot 'BookmarksGit'
+$generatedRoot = Join-Path $codexRoot 'works\analysis\generated\east_mapping_validation'
 New-Item -ItemType Directory -Path $generatedRoot -Force | Out-Null
 
-$provinceMasterPath = Join-Path $repoRoot 'works\map_data_sources\province_relation_master.csv'
-$provinceApplyReportPath = Join-Path $repoRoot 'works\analysis\generated\province_relation_mapping\province_relation_history_apply_report.csv'
-$titleMasterPath = Join-Path $repoRoot 'works\map_data_sources\title_relation_master.csv'
-$titleInventoryPath = Join-Path $repoRoot 'works\analysis\generated\title_relation_mapping\title_relation_source_inventory.csv'
-$titleRewriteCandidatesPath = Join-Path $repoRoot 'works\analysis\generated\title_relation_mapping\title_relation_rewrite_candidates.csv'
+$provinceMasterPath = Join-Path $codexRoot 'works\pipeline_inputs\province_relations\province_relation_baseline.csv'
+$provinceApplyReportPath = Join-Path $codexRoot 'works\analysis\generated\province_relation_mapping\province_relation_history_apply_report.csv'
+$titleMasterPath = Join-Path $codexRoot 'works\pipeline_inputs\title_relations\title_relation_baseline.csv'
+$titleInventoryPath = Join-Path $codexRoot 'works\analysis\generated\title_relation_mapping\title_relation_source_inventory.csv'
+$titleRewriteCandidatesPath = Join-Path $codexRoot 'works\analysis\generated\title_relation_mapping\title_relation_rewrite_candidates.csv'
 $landedTitlesPath = Join-Path $repoRoot 'common\landed_titles\00_landed_titles.txt'
-$testLandedTitlesPath = Join-Path $repoRoot 'test_files\common\landed_titles\00_landed_titles.txt'
 $definitionPath = Join-Path $repoRoot 'map_data\definition.csv'
 $defaultMapPath = Join-Path $repoRoot 'map_data\default.map'
 
@@ -392,7 +393,6 @@ foreach ($rewriteRow in $rewriteCandidateRows) {
 }
 
 $landed = Parse-LandedTitlesFile -Path $landedTitlesPath
-$testLanded = Parse-LandedTitlesFile -Path $testLandedTitlesPath
 
 if ($landed.FinalBraceDepth -ne 0) {
 	$findings.Add([pscustomobject]@{
@@ -400,26 +400,6 @@ if ($landed.FinalBraceDepth -ne 0) {
 		severity = 'error'
 		key = 'common/landed_titles/00_landed_titles.txt'
 		message = ('Brace balance is not zero. final_depth={0}' -f $landed.FinalBraceDepth)
-	}) | Out-Null
-}
-
-if ($testLanded.FinalBraceDepth -ne 0) {
-	$findings.Add([pscustomobject]@{
-		category = 'landed_titles'
-		severity = 'error'
-		key = 'test_files/common/landed_titles/00_landed_titles.txt'
-		message = ('Brace balance is not zero. final_depth={0}' -f $testLanded.FinalBraceDepth)
-	}) | Out-Null
-}
-
-$landedHash = (Get-FileHash -LiteralPath $landedTitlesPath).Hash
-$testLandedHash = (Get-FileHash -LiteralPath $testLandedTitlesPath).Hash
-if ($landedHash -ne $testLandedHash) {
-	$findings.Add([pscustomobject]@{
-		category = 'landed_titles_sync'
-		severity = 'error'
-		key = 'live_vs_test'
-		message = 'common and test_files landed_titles hashes differ.'
 	}) | Out-Null
 }
 
@@ -543,7 +523,6 @@ $summaryLines = @(
 	('- title master rows: {0}' -f $titleRows.Count),
 	('- title inventory rows: {0}' -f $titleInventoryRows.Count),
 	('- rewrite candidate rows: {0}' -f $rewriteCandidateRows.Count),
-	('- landed_titles live/test hash match: {0}' -f $(if ($landedHash -eq $testLandedHash) { 'yes' } else { 'no' })),
 	('- missing playable province titles: {0}' -f $missingProvinceTitleRows.Count),
 	('- validation errors: {0}' -f $errorCount),
 	('- validation warnings: {0}' -f $warningCount)

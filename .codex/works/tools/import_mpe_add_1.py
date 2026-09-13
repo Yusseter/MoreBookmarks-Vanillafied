@@ -6,10 +6,12 @@ import re
 import sys
 from collections import Counter, defaultdict
 
-TARGET = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+TARGET = PROJECT_ROOT / "BookmarksGit"
+WORKS_ROOT = PROJECT_ROOT / ".codex" / "works"
 MPE = Path(r"C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\3726274827")
-OVERLAY = TARGET / r"works\map_data_sources\MPE\provinces_mpe_add_1.png"
-OUT = TARGET / r"works\analysis\generated\mpe_import_add_1"
+OVERLAY = WORKS_ROOT / r"map_data_sources\mpe\provinces_mpe_add_1.png"
+OUT = WORKS_ROOT / r"analysis\generated\mpe_import_add_1"
 
 MAP_OBJECT_FILES = [
     "activities.txt",
@@ -35,16 +37,6 @@ def sha256(path):
     with open(path, "rb") as f:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
-    return h.hexdigest().upper()
-
-
-def tree_hash(root):
-    h = hashlib.sha256()
-    if not root.exists():
-        return "MISSING"
-    for p in sorted(x for x in root.rglob("*") if x.is_file()):
-        h.update(p.relative_to(root).as_posix().encode("utf-8", "surrogateescape") + b"\0")
-        h.update(bytes.fromhex(sha256(p)))
     return h.hexdigest().upper()
 
 
@@ -360,9 +352,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
 
     provinces_path = TARGET / r"map_data\provinces.png"
-    test_root = TARGET / "test_files"
     before_provinces_hash = sha256(provinces_path) if provinces_path.exists() else "MISSING"
-    before_test_hash = tree_hash(test_root)
 
     mpe_def = parse_definition(MPE / r"map_data\definition.csv")
     target_def = parse_definition(TARGET / r"map_data\definition.csv")
@@ -820,19 +810,11 @@ def main():
         }
     )
     after_provinces_hash = sha256(provinces_path) if provinces_path.exists() else "MISSING"
-    after_test_hash = tree_hash(test_root)
     validation.append(
         {
             "check": "provinces_png_unchanged",
             "status": "pass" if before_provinces_hash == after_provinces_hash else "fail",
             "detail": after_provinces_hash,
-        }
-    )
-    validation.append(
-        {
-            "check": "test_files_tree_unchanged",
-            "status": "pass" if before_test_hash == after_test_hash else "fail",
-            "detail": after_test_hash,
         }
     )
     write_csv("mpe_import_validation.csv", validation, ["check", "status", "detail"])
@@ -859,12 +841,11 @@ def main():
         [
             "",
             f"- provinces_png_unchanged: {before_provinces_hash == after_provinces_hash}",
-            f"- test_files_tree_unchanged: {before_test_hash == after_test_hash}",
         ]
     )
     (OUT / "mpe_import_add_1_summary.md").write_text("\n".join(summary_lines) + "\n", encoding="utf-8")
 
-    hafiza = TARGET / "hafiza.md"
+    hafiza = PROJECT_ROOT / ".codex" / "memory" / "project_memory.md"
     hafiza_lines, hafiza_newline, hafiza_bom, _ = read_text_lines(hafiza)
     header = "## 2026-05-15 MPE Province Add 1 Import"
     if header in hafiza_lines:
@@ -883,9 +864,8 @@ def main():
             header,
             "",
             "- MPE kaynagi: `C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\1158310\\3726274827`.",
-            "- Overlay kaynak: `works/map_data_sources/MPE/provinces_mpe_add_1.png`.",
+            "- Overlay kaynak: `.codex/works/map_data_sources/mpe/provinces_mpe_add_1.png`.",
             "- Bu turda `map_data/provinces.png` degistirilmedi; kullanici provinces.png final guncellemesini sonda yapacak.",
-            "- Bu turda `test_files` senkronu yapilmadi.",
             f"- Overlay non-black RGB: `{summary_counts['overlay_nonblack_rgb']}`; MPE definition eksigi: `0`.",
             f"- Target definition icinde zaten olan RGB: `{summary_counts['target_existing_rgb']}`; same-id skip: `{summary_counts['target_same_id_skip']}`; mevcut manuel MPE mapping: `{summary_counts['existing_manual_mpe']}`.",
             f"- Yeni TECH placeholder assignment: `{summary_counts['new_placeholder_assignments']}`; import/remap toplam old MPE id: `{summary_counts['import_old_id_count']}`.",
@@ -896,8 +876,8 @@ def main():
             f"- 6 `gfx/map/map_object_data` dosyasina toplam `{summary_counts['map_object_added']}` locator/object block'u eklendi.",
             f"- `map_data/default.map` TECH placeholder blogundan `{summary_counts['default_tech_removed_ids']}` import target id cikarildi.",
             "- `history/provinces/z_MPE_province.txt` bu turda otomatik import edilmedi; source usage raporunda report-only tutuldu.",
-            "- Rapor klasoru: `works/analysis/generated/mpe_import_add_1/`.",
-            f"- Validation failures: `{summary_counts['validation_failures']}`; `provinces.png` unchanged: `{before_provinces_hash == after_provinces_hash}`; `test_files` unchanged: `{before_test_hash == after_test_hash}`.",
+            "- Rapor klasoru: `.codex/works/analysis/generated/mpe_import_add_1/`.",
+            f"- Validation failures: `{summary_counts['validation_failures']}`; `provinces.png` unchanged: `{before_provinces_hash == after_provinces_hash}`.",
         ]
     )
     write_text_lines(hafiza, hafiza_lines, hafiza_newline, hafiza_bom, True)

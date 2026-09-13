@@ -1,5 +1,5 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path
+    [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot)
 )
 
 Set-StrictMode -Version Latest
@@ -427,9 +427,9 @@ function Get-SuggestedRgbKeys {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$mapDataDir = Join-Path $root 'map_data'
+$mapDataDir = Join-Path $root 'map_data_sources'
 $analysisDir = Join-Path $root 'analysis'
-$generatedDir = Join-Path $analysisDir 'generated'
+$generatedDir = Join-Path $analysisDir 'generated\province_definition'
 $toolsDir = Join-Path $root 'tools'
 $rgbConflictPreviewDir = Join-Path $generatedDir 'rgb_conflict_previews'
 Ensure-Directory -Path $generatedDir
@@ -922,20 +922,20 @@ $summaryLines = @(
     '- `map_data/definition_modlu_kalan.csv`',
     '- `map_data/definition_orijinal_dogu.csv`',
     '- `map_data/definition_orijinal_kalan.csv`',
-    '- `analysis/generated/definition_rgb_conflicts.csv`',
-    '- `analysis/generated/definition_rgb_conflict_decisions.csv`',
-    '- `analysis/generated/rgb_mapping_draft.csv`',
-    '- `analysis/generated/rgb_conflict_previews/`',
-    '- `analysis/generated/definition_id_conflicts.csv`',
-    '- `analysis/generated/definition_shared_same_id.csv`',
-    '- `analysis/generated/definition_quality_flags.csv`',
-    '- `analysis/generated/definition_merge_inventory.csv`',
-    '- `analysis/generated/definition_id_tracking.csv`',
-    '- `analysis/generated/definition_subset_validation.csv`',
-    '- `analysis/generated/definition_modlu_dogu_rgb_inventory.csv`',
-    '- `analysis/generated/definition_modlu_kalan_rgb_inventory.csv`',
-    '- `analysis/generated/definition_orijinal_dogu_rgb_inventory.csv`',
-    '- `analysis/generated/definition_orijinal_kalan_rgb_inventory.csv`',
+    '- `analysis/generated/province_definition/definition_rgb_conflicts.csv`',
+    '- `analysis/generated/province_definition/definition_rgb_conflict_decisions.csv`',
+    '- `analysis/generated/province_definition/rgb_mapping_draft.csv`',
+    '- `analysis/generated/province_definition/rgb_conflict_previews/`',
+    '- `analysis/generated/province_definition/definition_id_conflicts.csv`',
+    '- `analysis/generated/province_definition/definition_shared_same_id.csv`',
+    '- `analysis/generated/province_definition/definition_quality_flags.csv`',
+    '- `analysis/generated/province_definition/definition_merge_inventory.csv`',
+    '- `analysis/generated/province_definition/definition_id_tracking.csv`',
+    '- `analysis/generated/province_definition/definition_subset_validation.csv`',
+    '- `analysis/generated/province_definition/definition_modlu_dogu_rgb_inventory.csv`',
+    '- `analysis/generated/province_definition/definition_modlu_kalan_rgb_inventory.csv`',
+    '- `analysis/generated/province_definition/definition_orijinal_dogu_rgb_inventory.csv`',
+    '- `analysis/generated/province_definition/definition_orijinal_kalan_rgb_inventory.csv`',
     '',
     '## Subset Extraction Summary',
     '',

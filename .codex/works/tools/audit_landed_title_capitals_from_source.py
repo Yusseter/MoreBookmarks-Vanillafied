@@ -31,22 +31,35 @@ class TitleBlock:
 
 
 def parse_args() -> argparse.Namespace:
-    repo_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
+    mod_root = project_root / "BookmarksGit"
+    works_root = project_root / ".codex/works"
     parser = argparse.ArgumentParser(
         description="Audit landed title capital values against their source capital mapped back to current titles."
     )
-    parser.add_argument("--current-landed-titles", type=Path, default=repo_root / "common/landed_titles/00_landed_titles.txt")
-    parser.add_argument("--manual-csv", type=Path, default=repo_root / "title_relation_master_manuel_new.csv")
+    parser.add_argument("--current-landed-titles", type=Path, default=mod_root / "common/landed_titles/00_landed_titles.txt")
+    parser.add_argument(
+        "--relation-csv",
+        "--manual-csv",
+        dest="manual_csv",
+        type=Path,
+        default=works_root
+        / "pipeline_inputs/title_relations/curated_title_relations.csv",
+    )
     parser.add_argument(
         "--mask-scope-manual-like",
         type=Path,
-        default=repo_root
-        / "works/analysis/generated/title_relation_manual_validation/mask_east_scope/title_relation_master_manuel_mask_scope_manual_like.csv",
+        default=works_root
+        / "analysis/generated/title_relation_manual_validation/mask_east_scope/title_relation_mask_east_scope_manual_like.csv",
     )
     parser.add_argument(
         "--mod-landed-titles-dir",
         type=Path,
-        default=Path(r"F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\common\landed_titles"),
+        default=project_root.parent
+        / "Leviathonlx MoreBookmarks-Plus"
+        / "BookmarksGit"
+        / "common"
+        / "landed_titles",
     )
     parser.add_argument(
         "--vanilla-landed-titles-dir",
@@ -56,7 +69,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=repo_root / "works/analysis/generated/landed_title_capital_source_audit",
+        default=works_root / "analysis/generated/landed_title_capital_source_audit",
     )
     return parser.parse_args()
 
@@ -619,7 +632,7 @@ def write_summary(
             "- current effective capital is direct `capital = c_*`; if absent, first descendant county is used",
             "- source title is selected from the manual title relation and source-origin hint",
             "- source effective capital is read with the same direct-or-first-descendant rule",
-            "- source effective capital is mapped back to current title id using `title_relation_master_manuel_new.csv`",
+            "- source effective capital is mapped back to current title id using `curated_title_relations.csv`",
             "- if multiple selected sources have different effective capitals, the title is flagged as `source_conflict` even if one source matches current",
         ]
     )

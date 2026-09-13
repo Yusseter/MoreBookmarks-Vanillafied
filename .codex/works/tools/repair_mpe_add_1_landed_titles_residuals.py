@@ -3,9 +3,10 @@ import csv
 import re
 
 
-TARGET = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+TARGET = PROJECT_ROOT / "BookmarksGit"
 LANDED = TARGET / r"common\landed_titles\00_landed_titles.txt"
-OUT = TARGET / r"works\analysis\generated\mpe_import_add_1\consistency_fix"
+OUT = PROJECT_ROOT / r".codex\works\analysis\generated\mpe_import_add_1\consistency_fix"
 
 
 def read_lines(path):

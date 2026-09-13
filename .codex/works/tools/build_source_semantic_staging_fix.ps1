@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [string]$RepoRoot = '.'
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit')
 )
 
 Set-StrictMode -Version Latest
@@ -330,19 +330,20 @@ function Get-TrackingLookup {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$stagingDir = Join-Path $root 'Works\analysis\generated\source_semantic_staging_fix'
+$worksRoot = Join-Path (Split-Path -Parent $root) '.codex\works'
+$stagingDir = Join-Path $worksRoot 'analysis\generated\source_semantic_staging_fix'
 if (-not (Test-Path -LiteralPath $stagingDir)) {
     New-Item -ItemType Directory -Path $stagingDir -Force | Out-Null
 }
 
-$assignmentsPath = Join-Path $root 'Works\analysis\generated\source_semantic_overlap_audit\source_rgb_overlap_auto_rgb_assignments.csv'
-$placeholderInventoryPath = Join-Path $root 'Works\analysis\generated\final_placeholder_inventory_preserve_old_ids.csv'
-$placeholderPixelMapPath = Join-Path $root 'Works\analysis\generated\placeholder_pixel_map_preserve_old.csv'
-$modTrackingPath = Join-Path $root 'Works\analysis\generated\final_modlu_tracking_preserve_old_ids.csv'
-$oriTrackingPath = Join-Path $root 'Works\analysis\generated\final_orijinal_tracking_preserve_old_ids.csv'
+$assignmentsPath = Join-Path $worksRoot 'analysis\generated\source_semantic_overlap_audit\source_rgb_overlap_auto_rgb_assignments.csv'
+$placeholderInventoryPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_placeholder_inventory_preserve_old_ids.csv'
+$placeholderPixelMapPath = Join-Path $worksRoot 'analysis\generated\province_definition\placeholder_pixel_map_preserve_old.csv'
+$modTrackingPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_modlu_tracking_preserve_old_ids.csv'
+$oriTrackingPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_orijinal_tracking_preserve_old_ids.csv'
 $baseImagePath = Join-Path $root 'map_data\provinces.png'
-$modMaskPath = Join-Path $root 'Works\map_data_sources\provinces_modlu_kalan.png'
-$oriMaskPath = Join-Path $root 'Works\map_data_sources\provinces_orijinal_dogu.png'
+$modMaskPath = Join-Path $worksRoot 'map_data_sources\provinces_modlu_kalan.png'
+$oriMaskPath = Join-Path $worksRoot 'map_data_sources\provinces_orijinal_dogu.png'
 $baseDefinitionPath = Join-Path $root 'map_data\definition.csv'
 
 $outputImagePath = Join-Path $stagingDir 'provinces_source_semantic_staging.png'

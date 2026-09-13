@@ -403,15 +403,16 @@ function Rewrite-LandedTitleBlockProvinceIds {
     return ($output -join "`r`n")
 }
 
-$repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
-$generatedRoot = Join-Path $repoRoot 'Works\analysis\generated\missing_landed_title_restore_roots'
+$projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
+$codexRoot = Join-Path $projectRoot '.codex'
+$modRoot = Join-Path $projectRoot 'BookmarksGit'
+$generatedRoot = Join-Path $codexRoot 'works\analysis\generated\missing_landed_title_restore_roots'
 New-Item -ItemType Directory -Path $generatedRoot -Force | Out-Null
 
 $paths = @{
-    LiveLanded = Join-Path $repoRoot 'common\landed_titles\00_landed_titles.txt'
-    TestLanded = Join-Path $repoRoot 'test_files\common\landed_titles\00_landed_titles.txt'
-    FinalModlu = Join-Path $repoRoot 'Works\analysis\generated\final_modlu_tracking_preserve_old_ids.csv'
-    FinalOrijinal = Join-Path $repoRoot 'Works\analysis\generated\final_orijinal_tracking_preserve_old_ids.csv'
+    LiveLanded = Join-Path $modRoot 'common\landed_titles\00_landed_titles.txt'
+    FinalModlu = Join-Path $codexRoot 'works\analysis\generated\province_definition\final_modlu_tracking_preserve_old_ids.csv'
+    FinalOrijinal = Join-Path $codexRoot 'works\analysis\generated\province_definition\final_orijinal_tracking_preserve_old_ids.csv'
     ModSource = 'C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2216670956\0backup\common\landed_titles\00_landed_titles.txt'
     VanillaSource = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt'
 }
@@ -473,7 +474,6 @@ $updatedText = Remove-TopLevelBlocksAndAppend `
     -MarkerComment 'Restored missing landed title roots from source provenance'
 
 Write-TextUtf8 -Path $paths.LiveLanded -Text $updatedText
-Write-TextUtf8 -Path $paths.TestLanded -Text $updatedText
 Export-CsvUtf8 -Rows $rewriteRows -Path (Join-Path $generatedRoot 'restored_missing_landed_title_roots_rewrite_report.csv')
 
 $summaryRows = foreach ($rootGroup in ($rewriteRows | Group-Object root | Sort-Object Name)) {

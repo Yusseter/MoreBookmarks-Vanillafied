@@ -1,17 +1,19 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit')
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$reportDir = Join-Path $RepoRoot 'Works/analysis/generated/source_rgb_overlap_audit'
+$modRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+$worksRoot = Join-Path (Split-Path -Parent $modRoot) '.codex\works'
+$reportDir = Join-Path $worksRoot 'analysis\generated\source_rgb_overlap_audit'
 $null = New-Item -ItemType Directory -Path $reportDir -Force
 
-$modPngPath = Join-Path $RepoRoot 'Works/map_data_sources/provinces_modlu_kalan.png'
-$origPngPath = Join-Path $RepoRoot 'Works/map_data_sources/provinces_orijinal_dogu.png'
-$modDefPath = Join-Path $RepoRoot 'Works/map_data_sources/definition_modlu_kalan.csv'
-$origDefPath = Join-Path $RepoRoot 'Works/map_data_sources/definition_orijinal_dogu.csv'
+$modPngPath = Join-Path $worksRoot 'map_data_sources\provinces_modlu_kalan.png'
+$origPngPath = Join-Path $worksRoot 'map_data_sources\provinces_orijinal_dogu.png'
+$modDefPath = Join-Path $worksRoot 'map_data_sources\definition_modlu_kalan.csv'
+$origDefPath = Join-Path $worksRoot 'map_data_sources\definition_orijinal_dogu.csv'
 
 $outModInventory = Join-Path $reportDir 'modlu_kalan_rgb_inventory_from_png.csv'
 $outOrigInventory = Join-Path $reportDir 'orijinal_dogu_rgb_inventory_from_png.csv'
@@ -249,10 +251,10 @@ $summaryLines = @(
     '# Source RGB Overlap Audit',
     '',
     'Method:',
-    '- source west image: `Works/map_data_sources/provinces_modlu_kalan.png`',
-    '- source east image: `Works/map_data_sources/provinces_orijinal_dogu.png`',
-    '- west definition subset: `Works/map_data_sources/definition_modlu_kalan.csv`',
-    '- east definition subset: `Works/map_data_sources/definition_orijinal_dogu.csv`',
+    '- source west image: `.codex/works/map_data_sources/provinces_modlu_kalan.png`',
+    '- source east image: `.codex/works/map_data_sources/provinces_orijinal_dogu.png`',
+    '- west definition subset: `.codex/works/map_data_sources/definition_modlu_kalan.csv`',
+    '- east definition subset: `.codex/works/map_data_sources/definition_orijinal_dogu.csv`',
     '- overlap decision rule:',
     '  - same RGB + same ID = benign',
     '  - same RGB + different ID = real conflict',

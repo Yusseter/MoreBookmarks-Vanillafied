@@ -62,10 +62,11 @@ function Get-GapCategory {
 	return 'named_land_or_special'
 }
 
-$repoRoot = (Get-Location).Path
-$generatedRoot = Join-Path $repoRoot 'Works\analysis\generated\core_province_integration'
+$projectRoot = [System.IO.Path]::GetFullPath((Join-Path $PSScriptRoot '..\..\..'))
+$codexRoot = Join-Path $projectRoot '.codex'
+$generatedRoot = Join-Path $codexRoot 'works\analysis\generated\core_province_integration'
 $reportPath = Join-Path $generatedRoot 'history_provinces_merge_report.csv'
-$masterPath = Join-Path $repoRoot 'Works\analysis\generated\final_master_preserve_old_ids.csv'
+$masterPath = Join-Path $codexRoot 'works\analysis\generated\province_definition\final_master_preserve_old_ids.csv'
 
 $reportRows = Read-CsvUtf8 -Path $reportPath
 $masterRows = Read-CsvUtf8 -Path $masterPath

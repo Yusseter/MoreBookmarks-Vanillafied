@@ -1,13 +1,15 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit')
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$livePath = Join-Path $RepoRoot 'map_data/provinces.png'
-$sourcePath = Join-Path $RepoRoot 'Works/map_data_sources/provinces_birlesim.png'
-$reportDir = Join-Path $RepoRoot 'Works/analysis/generated/provinces_live_vs_source'
+$modRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+$worksRoot = Join-Path (Split-Path -Parent $modRoot) '.codex\works'
+$livePath = Join-Path $modRoot 'map_data\provinces.png'
+$sourcePath = Join-Path $worksRoot 'map_data_sources\provinces_birlesim.png'
+$reportDir = Join-Path $worksRoot 'analysis\generated\provinces_live_vs_source'
 $outSummary = Join-Path $reportDir 'provinces_live_vs_source_summary.md'
 $outTopChanges = Join-Path $reportDir 'provinces_live_vs_source_top_changes.csv'
 
@@ -146,7 +148,7 @@ $topChangeRows | Export-Csv -Path $outTopChanges -NoTypeInformation -Encoding UT
 $summaryLines = @(
     '# Live vs Source provinces.png Comparison',
     '',
-    '- source image: `Works/map_data_sources/provinces_birlesim.png`',
+    '- source image: `.codex/works/map_data_sources/provinces_birlesim.png`',
     '- live image: `map_data/provinces.png`',
     '',
     ('- changed pixels: `{0}`' -f $result.ChangedPixels),

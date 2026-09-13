@@ -1,5 +1,5 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path,
+    [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
     [string]$MappingCsv = '',
     [string]$OutputImagePath = '',
     [string]$ReportCsvPath = '',
@@ -206,8 +206,8 @@ function Resolve-ChosenRgb {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$analysisGeneratedDir = Join-Path (Join-Path $root 'analysis') 'generated'
-$mapDataDir = Join-Path $root 'map_data'
+$analysisGeneratedDir = Join-Path (Join-Path $root 'analysis') 'generated\province_definition'
+$mapDataDir = Join-Path $root 'map_data_sources'
 
 if ([string]::IsNullOrWhiteSpace($MappingCsv)) {
     $MappingCsv = Join-Path $analysisGeneratedDir 'rgb_mapping_draft.csv'

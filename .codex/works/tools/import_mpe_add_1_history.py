@@ -6,9 +6,10 @@ import sys
 from collections import Counter, defaultdict
 
 
-TARGET = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+TARGET = PROJECT_ROOT / "BookmarksGit"
 MPE = Path(r"C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\3726274827")
-OUT = TARGET / r"works\analysis\generated\mpe_import_add_1"
+OUT = PROJECT_ROOT / r".codex\works\analysis\generated\mpe_import_add_1"
 
 PROVINCE_HISTORY_OUT = TARGET / r"history\provinces\00_yb_MPE_PROVINCES.txt"
 TITLE_HISTORY_OUT = TARGET / r"history\titles\00_YB_MPE.txt"
@@ -27,16 +28,6 @@ def sha256(path):
     with open(path, "rb") as f:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
-    return h.hexdigest().upper()
-
-
-def tree_hash(root):
-    h = hashlib.sha256()
-    if not root.exists():
-        return "MISSING"
-    for path in sorted(p for p in root.rglob("*") if p.is_file()):
-        h.update(path.relative_to(root).as_posix().encode("utf-8", "surrogateescape") + b"\0")
-        h.update(bytes.fromhex(sha256(path)))
     return h.hexdigest().upper()
 
 
@@ -428,7 +419,6 @@ def choose_same_duchy_mpe_donor(duchy, source_titles, source_history):
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
 
-    before_test_hash = tree_hash(TARGET / "test_files")
     before_province_out_hash = sha256(PROVINCE_HISTORY_OUT) if PROVINCE_HISTORY_OUT.exists() else "MISSING"
     before_title_out_hash = sha256(TITLE_HISTORY_OUT) if TITLE_HISTORY_OUT.exists() else "MISSING"
 
@@ -639,7 +629,6 @@ def main():
         title_blocks.pop()
     write_text_lines(TITLE_HISTORY_OUT, title_blocks, "\r\n", False, True)
 
-    after_test_hash = tree_hash(TARGET / "test_files")
     after_province_out_hash = sha256(PROVINCE_HISTORY_OUT) if PROVINCE_HISTORY_OUT.exists() else "MISSING"
     after_title_out_hash = sha256(TITLE_HISTORY_OUT) if TITLE_HISTORY_OUT.exists() else "MISSING"
 
@@ -675,7 +664,6 @@ def main():
         f"- province history source blocks requested: {len(import_map)}",
         f"- province history blocks added: {province_counts.get('added', 0)}",
         f"- county-capital province blocks with culture/religion: {sum(1 for row in province_report if row['is_county_capital'] == 'yes' and row['culture'])}",
-        f"- test_files unchanged: {before_test_hash == after_test_hash}",
         f"- province history output changed: {before_province_out_hash != after_province_out_hash}",
         f"- title history output changed: {before_title_out_hash != after_title_out_hash}",
         "",
@@ -693,13 +681,13 @@ def main():
     summary_lines.extend(
         [
             "",
-            f"- province report: `{PROVINCE_REPORT.relative_to(TARGET).as_posix()}`",
-            f"- title report: `{TITLE_REPORT.relative_to(TARGET).as_posix()}`",
+            f"- province report: `{PROVINCE_REPORT.relative_to(PROJECT_ROOT).as_posix()}`",
+            f"- title report: `{TITLE_REPORT.relative_to(PROJECT_ROOT).as_posix()}`",
         ]
     )
     SUMMARY.write_text("\n".join(summary_lines) + "\n", encoding="utf-8")
 
-    hafiza = TARGET / "hafiza.md"
+    hafiza = PROJECT_ROOT / ".codex" / "memory" / "project_memory.md"
     hafiza_lines, hafiza_newline, hafiza_bom, _ = read_text_lines(hafiza)
     header = "## 2026-05-15 MPE Add 1 History Import"
     if header in hafiza_lines:
@@ -717,7 +705,6 @@ def main():
             "",
             header,
             "",
-            "- Kullanici `test_files` sisteminin artik tekrar kullanacagini soyleyene kadar kullanilmamasini istedi.",
             "- MPE Add 1 icin province history artik `history/provinces/00_yb_MPE_PROVINCES.txt` icine ayri dosya olarak aktarildi.",
             "- Province history source: `C:\\Program Files (x86)\\Steam\\steamapps\\workshop\\content\\1158310\\3726274827\\history\\provinces\\z_MPE_province.txt`.",
             "- Province history importunda MPE old id header'lari final target id'lere cevrildi.",
@@ -727,12 +714,11 @@ def main():
             "- Yeni MPE county title historyleri ayni duchy'nin capital county history'sinden clone edilir; kaynak yoksa kendi MPE county history'si fallback olarak kullanilir.",
             f"- Province history blocks added: `{province_counts.get('added', 0)}` / requested `{len(import_map)}`.",
             f"- Title history added: `{title_counts.get('added', 0)}`; missing source title history: `{title_counts.get('missing_source_title_history', 0)}`.",
-            f"- `test_files` unchanged: `{before_test_hash == after_test_hash}`.",
             "- Landed_titles conflict havuzu bu islemden sonra ayrica ele alinacak; bu turda conflict barony kararlarina dokunulmadi.",
             "- Raporlar:",
-            "  - `works/analysis/generated/mpe_import_add_1/mpe_history_import_summary.md`",
-            "  - `works/analysis/generated/mpe_import_add_1/mpe_province_history_import_report.csv`",
-            "  - `works/analysis/generated/mpe_import_add_1/mpe_title_history_import_report.csv`",
+            "  - `.codex/works/analysis/generated/mpe_import_add_1/mpe_history_import_summary.md`",
+            "  - `.codex/works/analysis/generated/mpe_import_add_1/mpe_province_history_import_report.csv`",
+            "  - `.codex/works/analysis/generated/mpe_import_add_1/mpe_title_history_import_report.csv`",
         ]
     )
     write_text_lines(hafiza, hafiza_lines, hafiza_newline, hafiza_bom, True)
@@ -741,11 +727,7 @@ def main():
     print(f"province history blocks added: {province_counts.get('added', 0)}")
     print(f"title history blocks added: {title_counts.get('added', 0)}")
     print(f"missing source title histories: {title_counts.get('missing_source_title_history', 0)}")
-    print(f"test_files unchanged: {before_test_hash == after_test_hash}")
     print(f"summary: {SUMMARY}")
-
-    if before_test_hash != after_test_hash:
-        sys.exit(2)
 
 
 if __name__ == "__main__":

@@ -23,9 +23,9 @@ TRANSFER_KEYS = [
     "cultural_names",
 ]
 
-TITLE_RE = re.compile(r"^\s*([hekdcb]_[A-Za-z0-9_]+)\s*=\s*\{")
+TITLE_RE = re.compile(r"^\s*([hekdcb]_[A-Za-z0-9_'\-]+)\s*=\s*\{")
 KEY_RE_TEMPLATE = r"^\s*({})\s*="
-TITLE_REF_RE = re.compile(r"\btitle:([hekdcb]_[A-Za-z0-9_]+)\b")
+TITLE_REF_RE = re.compile(r"\btitle:([hekdcb]_[A-Za-z0-9_'\-]+)\b")
 
 
 @dataclass
@@ -219,7 +219,7 @@ def recommendation_for(status: str, unmapped_refs: list[str], review_comment: st
 def build_report(args: argparse.Namespace) -> tuple[list[dict[str, str]], Counter]:
     source_landed = args.source_root / "common" / "landed_titles" / "00_landed_titles.txt"
     target_landed = args.target_root / "common" / "landed_titles" / "00_landed_titles.txt"
-    relation_csv = args.target_root / "title_relation_master_manuel_new.csv"
+    relation_csv = args.relation_csv
 
     source_lines = source_landed.read_text(encoding="utf-8-sig").splitlines(keepends=True)
     target_lines = target_landed.read_text(encoding="utf-8-sig").splitlines(keepends=True)
@@ -379,16 +379,25 @@ def write_outputs(rows: list[dict[str, str]], counts: Counter, output_dir: Path)
 
 def parse_args() -> argparse.Namespace:
     script_path = Path(__file__).resolve()
-    target_root = script_path.parents[2]
-    crusader_kings_root = target_root.parent.parent
+    project_root = script_path.parents[3]
+    target_root = project_root / "BookmarksGit"
+    crusader_kings_root = project_root.parent
     source_root = crusader_kings_root / "Leviathonlx MoreBookmarks-Plus" / "BookmarksGit"
-    output_dir = target_root / "works" / "analysis" / "generated" / "landed_title_asil_mod_metadata_transfer"
+    relation_csv = (
+        project_root
+        / ".codex/works/pipeline_inputs/title_relations/curated_title_relations.csv"
+    )
+    output_dir = (
+        project_root
+        / ".codex/works/analysis/generated/landed_title_asil_mod_metadata_transfer"
+    )
 
     parser = argparse.ArgumentParser(
         description="Build a dry-run report for transferring selected landed title metadata from asil mod equivalents.",
     )
     parser.add_argument("--target-root", type=Path, default=target_root)
     parser.add_argument("--source-root", type=Path, default=source_root)
+    parser.add_argument("--relation-csv", type=Path, default=relation_csv)
     parser.add_argument("--output-dir", type=Path, default=output_dir)
     return parser.parse_args()
 

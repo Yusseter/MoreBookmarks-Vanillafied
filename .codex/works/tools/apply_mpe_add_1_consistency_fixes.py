@@ -6,6 +6,7 @@ import shutil
 from collections import Counter, defaultdict
 
 from apply_mpe_landed_title_relocations import (
+    PROJECT_ROOT,
     TARGET,
     MPE,
     OUT as MPE_OUT,
@@ -20,13 +21,12 @@ from apply_mpe_landed_title_relocations import (
     read_csv,
     write_csv,
     sha256,
-    tree_hash,
     strip_comment,
     PROVINCE_RE,
 )
 
 
-LEVI = Path(r"F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit")
+LEVI = PROJECT_ROOT.parent / "Leviathonlx MoreBookmarks-Plus" / "BookmarksGit"
 CONSISTENCY_OUT = MPE_OUT / "consistency_fix"
 
 TITLE_HISTORY_OUT = TARGET / r"history\titles\00_YB_MPE.txt"
@@ -159,11 +159,6 @@ def ensure_out():
 
 def write_rows(path, rows, fields):
     write_csv(path, rows, fields)
-
-
-def test_files_hashes():
-    test_root = TARGET / "test_files"
-    return tree_hash(test_root)
 
 
 def parse_definition():
@@ -926,7 +921,6 @@ def run_audit(label="manual", write=True):
         f"- locator target/comment issues: `{len(locator_bad)}`",
         f"- active history issues: `{len(history_bad)}`",
         f"- localization missing in all sources: `{len(missing_loc)}`",
-        f"- test_files tree hash: `{test_files_hashes()}`",
         "",
         "## Known Localization Checks",
         "",
@@ -945,13 +939,11 @@ def run_audit(label="manual", write=True):
         "locator_issues": len(locator_bad),
         "history_issues": len(history_bad),
         "missing_localization": len(missing_loc),
-        "test_files_hash": test_files_hashes(),
     }
 
 
 def apply_all():
     ensure_out()
-    before_test_hash = test_files_hashes()
     before_landed_hash = sha256(LANDED)
     before_definition_hash = sha256(DEFINITION)
     make_mapping_csvs()
@@ -961,13 +953,11 @@ def apply_all():
     province_report, cleanup_report = apply_province_history()
     locator_report = apply_locator_aliases()
     post = run_audit("post_apply", write=True)
-    after_test_hash = test_files_hashes()
     after_landed_hash = sha256(LANDED)
     after_definition_hash = sha256(DEFINITION)
     summary = [
         "# MPE Add 1 Consistency Fix Apply Summary",
         "",
-        f"- test_files unchanged: `{before_test_hash == after_test_hash}`",
         f"- landed_titles changed: `{before_landed_hash != after_landed_hash}`",
         f"- definition.csv changed: `{before_definition_hash != after_definition_hash}`",
         f"- structure action rows: `{len(landed_report)}`",

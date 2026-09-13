@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import csv
 import re
@@ -6,10 +6,11 @@ from collections import Counter
 from pathlib import Path
 
 
-TARGET = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
-LEVI = Path(r"F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit")
-OUT_DIR = TARGET / r"works\analysis\generated\mpe_import_add_1\closure_audit"
-PROVINCE_IMPORT_CSV = TARGET / r"works\analysis\generated\mpe_import_add_1\mpe_province_history_import_report.csv"
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+TARGET = PROJECT_ROOT / "BookmarksGit"
+LEVI = PROJECT_ROOT.parent / "Leviathonlx MoreBookmarks-Plus" / "BookmarksGit"
+OUT_DIR = PROJECT_ROOT / r".codex\works\analysis\generated\mpe_import_add_1\closure_audit"
+PROVINCE_IMPORT_CSV = PROJECT_ROOT / r".codex\works\analysis\generated\mpe_import_add_1\mpe_province_history_import_report.csv"
 
 REPORT_CSV = OUT_DIR / "mpe_add_1_province_history_levi_source_audit.csv"
 SUMMARY_MD = OUT_DIR / "mpe_add_1_province_history_levi_source_audit_summary.md"

@@ -1,14 +1,15 @@
 param(
 	[switch]$DryRun,
 	[switch]$SkipLandedTitles,
-	[string]$SourceModRoot = 'F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit',
+	[string]$SourceModRoot = '',
+	[string]$VanillaGameRoot = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game',
+	[string]$GeneratedOracleDir = (Join-Path $env:USERPROFILE 'Documents\Paradox Interactive\Crusader Kings III\generated'),
 	[string]$TitleRelationCsv = '',
 	[switch]$SkipCountyCultureReligionOverlay
 )
 
 $ErrorActionPreference = 'Stop'
 Set-StrictMode -Version Latest
-$script:GitPrefix = (((& git rev-parse --show-prefix) 2>$null) | Out-String).Trim()
 $script:DryRun = [bool]$DryRun
 $script:LiveWriteRows = New-Object System.Collections.Generic.List[object]
 
@@ -77,7 +78,7 @@ function Read-HeadOrWorkingText {
 	$psi = New-Object System.Diagnostics.ProcessStartInfo
 	$psi.FileName = 'git'
 	$psi.Arguments = ('show HEAD:{0}' -f $gitRelativePath)
-	$psi.WorkingDirectory = (Get-Location).Path
+	$psi.WorkingDirectory = $script:RepoRoot
 	$psi.UseShellExecute = $false
 	$psi.RedirectStandardOutput = $true
 	$psi.RedirectStandardError = $true
@@ -1421,35 +1422,43 @@ function Build-LocatorText {
 	return (($output -join "`r`n").TrimEnd() + "`r`n")
 }
 
-$repoRoot = (Get-Location).Path
-$worksRoot = Join-Path $repoRoot 'Works'
+$projectRoot = (Resolve-Path -LiteralPath (Join-Path $PSScriptRoot '..\..\..')).Path
+$repoRoot = Join-Path $projectRoot 'BookmarksGit'
+$worksRoot = Join-Path $projectRoot '.codex\works'
+$script:RepoRoot = $repoRoot
+$script:GitPrefix = (((& git -C $repoRoot rev-parse --show-prefix) 2>$null) | Out-String).Trim()
+if ([string]::IsNullOrWhiteSpace($SourceModRoot)) {
+	$SourceModRoot = Join-Path (Split-Path -Parent $projectRoot) 'Leviathonlx MoreBookmarks-Plus\BookmarksGit'
+}
+$SourceModRoot = (Resolve-Path -LiteralPath $SourceModRoot).Path
+$VanillaGameRoot = (Resolve-Path -LiteralPath $VanillaGameRoot).Path
 $generatedRoot = Join-Path $worksRoot 'analysis\generated\core_province_integration'
 if (-not (Test-Path -LiteralPath $generatedRoot)) {
 	New-Item -ItemType Directory -Path $generatedRoot -Force | Out-Null
 }
 if ([string]::IsNullOrWhiteSpace($TitleRelationCsv)) {
-	$TitleRelationCsv = Join-Path $repoRoot 'title_relation_master_manuel_new.csv'
+	$TitleRelationCsv = Join-Path $worksRoot 'pipeline_inputs\title_relations\curated_title_relations.csv'
 }
 
 $paths = @{
-	FinalMaster = Join-Path $worksRoot 'analysis\generated\final_master_preserve_old_ids.csv'
-	FinalModlu = Join-Path $worksRoot 'analysis\generated\final_modlu_tracking_preserve_old_ids.csv'
-	FinalOrijinal = Join-Path $worksRoot 'analysis\generated\final_orijinal_tracking_preserve_old_ids.csv'
+	FinalMaster = Join-Path $worksRoot 'analysis\generated\province_definition\final_master_preserve_old_ids.csv'
+	FinalModlu = Join-Path $worksRoot 'analysis\generated\province_definition\final_modlu_tracking_preserve_old_ids.csv'
+	FinalOrijinal = Join-Path $worksRoot 'analysis\generated\province_definition\final_orijinal_tracking_preserve_old_ids.csv'
 	ModHistoryDir = Join-Path $repoRoot 'history\provinces'
-	VanillaHistoryDir = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\history\provinces'
+	VanillaHistoryDir = Join-Path $VanillaGameRoot 'history\provinces'
 	ModLandedTitles = Join-Path $repoRoot 'common\landed_titles\00_landed_titles.txt'
-	VanillaCommonBase = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles'
+	VanillaCommonBase = Join-Path $VanillaGameRoot 'common\landed_titles'
 	ModHistoryTitlesDir = Join-Path $repoRoot 'history\titles'
-	VanillaHistoryTitlesDir = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\history\titles'
+	VanillaHistoryTitlesDir = Join-Path $VanillaGameRoot 'history\titles'
 	ModAdjacencies = Join-Path $repoRoot 'map_data\adjacencies.csv'
-	VanillaAdjacencies = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\map_data\adjacencies.csv'
+	VanillaAdjacencies = Join-Path $VanillaGameRoot 'map_data\adjacencies.csv'
 	IslandRegion = Join-Path $repoRoot 'map_data\island_region.txt'
-	VanillaIslandRegion = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\map_data\island_region.txt'
+	VanillaIslandRegion = Join-Path $VanillaGameRoot 'map_data\island_region.txt'
 	MapObjectDir = Join-Path $repoRoot 'gfx\map\map_object_data'
-	VanillaMapObjectDir = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\gfx\map\map_object_data'
-	GeneratedOracleDir = 'C:\Users\bsgho\Documents\Paradox Interactive\Crusader Kings III\generated'
-	ManualLocatorProvinces = Join-Path $worksRoot 'manual\manual_locator_provinces.csv'
-	CountyCultureReligionSourceHistoryOverrides = Join-Path $worksRoot 'manual\county_culture_religion_overlay_source_history_overrides.csv'
+	VanillaMapObjectDir = Join-Path $VanillaGameRoot 'gfx\map\map_object_data'
+	GeneratedOracleDir = $GeneratedOracleDir
+	DefinitionMarkerLocatorSeeds = Join-Path $worksRoot 'pipeline_inputs\map\definition_marker_locator_seeds.csv'
+	CountyCultureReligionSourceHistoryOverrides = Join-Path $worksRoot 'pipeline_inputs\province_history\county_culture_religion_source_overrides.csv'
 	SourceModRoot = $SourceModRoot
 	SourceModLandedTitles = Join-Path $SourceModRoot 'common\landed_titles\00_landed_titles.txt'
 	SourceModHistoryDir = Join-Path $SourceModRoot 'history\provinces'
@@ -1459,11 +1468,11 @@ $paths = @{
 $finalMasterRows = Read-CsvUtf8 -Path $paths.FinalMaster
 $modluRows = Read-CsvUtf8 -Path $paths.FinalModlu
 $orijinalRows = Read-CsvUtf8 -Path $paths.FinalOrijinal
-$manualLocatorIds = @{}
-if (Test-Path -LiteralPath $paths.ManualLocatorProvinces) {
-	foreach ($row in (Read-CsvUtf8 -Path $paths.ManualLocatorProvinces)) {
+$locatorSeedIds = @{}
+if (Test-Path -LiteralPath $paths.DefinitionMarkerLocatorSeeds) {
+	foreach ($row in (Read-CsvUtf8 -Path $paths.DefinitionMarkerLocatorSeeds)) {
 		if ($null -ne $row.PSObject.Properties['province_id'] -and -not [string]::IsNullOrWhiteSpace([string]$row.province_id)) {
-			$manualLocatorIds[[int]$row.province_id] = $true
+			$locatorSeedIds[[int]$row.province_id] = $true
 		}
 	}
 }
@@ -1495,7 +1504,7 @@ $historySourceDataMod = Get-NumericHistoryBlocksFromDirectory -DirectoryPath $pa
 $historySourceDataVanilla = Get-NumericHistoryBlocksFromDirectory -DirectoryPath $paths.VanillaHistoryDir
 
 $historyBlocksOutput = New-Object System.Collections.Generic.List[string]
-$historyBlocksOutput.Add('# Auto-generated by Works/tools/implement_core_province_integration.ps1')
+$historyBlocksOutput.Add('# Auto-generated by .codex/works/tools/implement_core_province_integration.ps1')
 $historyBlocksOutput.Add('# Core province integration: modlu_kalan from SourceModRoot, orijinal_dogu from vanilla with final ID rewrite.')
 $historyBlocksOutput.Add('')
 
@@ -1937,7 +1946,7 @@ foreach ($locatorFile in $locatorFiles) {
 	foreach ($row in ($candidateRows | Sort-Object { [int]$_.final_new_id })) {
 		$finalId = [int]$row.final_new_id
 		$subset = $row.preferred_source_subset
-		if ($manualLocatorIds.ContainsKey($finalId)) {
+		if ($locatorSeedIds.ContainsKey($finalId)) {
 			$key = [string]$finalId
 			if ($workingModGroups.ContainsKey($key)) {
 				foreach ($block in $workingModGroups[$key]) {

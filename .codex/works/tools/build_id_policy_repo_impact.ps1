@@ -1,5 +1,5 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path,
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit'),
     [string]$PreserveModMapCsv = '',
     [string]$FullModMapCsv = '',
     [string]$ByContextCsv = '',
@@ -121,7 +121,8 @@ function Parse-ProvincesBlocks {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated'
+$worksRoot = Join-Path (Split-Path -Parent $root) '.codex\works'
+$generatedDir = Join-Path $worksRoot 'analysis\generated\province_definition'
 
 if ([string]::IsNullOrWhiteSpace($PreserveModMapCsv)) {
     $PreserveModMapCsv = Join-Path $generatedDir 'id_map_modlu_preserve_old.csv'

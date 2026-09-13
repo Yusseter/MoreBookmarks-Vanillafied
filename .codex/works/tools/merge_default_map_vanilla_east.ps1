@@ -1,6 +1,7 @@
 [CmdletBinding()]
 param(
-    [string]$RepoRoot = '.'
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit'),
+    [string]$VanillaGameRoot = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game'
 )
 
 Set-StrictMode -Version Latest
@@ -209,16 +210,17 @@ function Get-DefinitionNameMap {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$worksGeneratedDir = Join-Path (Join-Path $root 'Works') 'analysis\generated\default_map_vanilla_east'
+$codexRoot = Join-Path (Split-Path -Parent $root) '.codex'
+$worksRoot = Join-Path $codexRoot 'works'
+$worksGeneratedDir = Join-Path $worksRoot 'analysis\generated\default_map_vanilla_east'
 if (-not (Test-Path -LiteralPath $worksGeneratedDir)) {
     New-Item -ItemType Directory -Path $worksGeneratedDir -Force | Out-Null
 }
 
 $currentDefaultMapPath = Join-Path $root 'map_data\default.map'
-$vanillaDefaultMapPath = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\map_data\default.map'
-$trackingPath = Join-Path $root 'Works\analysis\generated\final_orijinal_tracking_preserve_old_ids.csv'
+$vanillaDefaultMapPath = Join-Path $VanillaGameRoot 'map_data\default.map'
+$trackingPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_orijinal_tracking_preserve_old_ids.csv'
 $definitionPath = Join-Path $root 'map_data\definition.csv'
-$testCopyPath = Join-Path $root 'test_files\map_data\default.map'
 
 $summaryPath = Join-Path $worksGeneratedDir 'default_map_vanilla_east_merge_summary.md'
 $categoryReportPath = Join-Path $worksGeneratedDir 'default_map_vanilla_east_merge_category_report.csv'
@@ -348,10 +350,6 @@ foreach ($line in $managedBlock) {
 
 [System.IO.File]::WriteAllLines($currentDefaultMapPath, $rewrittenLines, [System.Text.UTF8Encoding]::new($false))
 
-if (Test-Path -LiteralPath (Split-Path -Parent $testCopyPath)) {
-    Copy-Item -LiteralPath $currentDefaultMapPath -Destination $testCopyPath -Force
-}
-
 $definitionNames = Get-DefinitionNameMap -Path $definitionPath
 $sampleNames = @(
     'Tonchai Range',
@@ -410,7 +408,6 @@ $summaryLines = @(
     ('- imported east final province ids: `{0}`' -f $importedFinalIds.Count),
     ('- target categories: `{0}`' -f ($targetKeys -join ', ')),
     ('- live default.map updated: `{0}`' -f $currentDefaultMapPath),
-    ('- test_files default.map synced: `{0}`' -f (Test-Path -LiteralPath $testCopyPath)),
     '',
     '## Per-category counts',
     ''

@@ -1,17 +1,19 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit')
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$reportDir = Join-Path $RepoRoot 'Works/analysis/generated/provinces_duplicate_rgb_audit'
+$modRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+$worksRoot = Join-Path (Split-Path -Parent $modRoot) '.codex\works'
+$reportDir = Join-Path $worksRoot 'analysis\generated\provinces_duplicate_rgb_audit'
 $null = New-Item -ItemType Directory -Path $reportDir -Force
 
-$masterPath = Join-Path $RepoRoot 'Works/analysis/generated/final_master_preserve_old_ids.csv'
-$finalPngPath = Join-Path $RepoRoot 'map_data/provinces.png'
-$modPngPath = Join-Path $RepoRoot 'Works/map_data_sources/provinces_modlu_kalan.png'
-$origPngPath = Join-Path $RepoRoot 'Works/map_data_sources/provinces_orijinal_dogu.png'
+$masterPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_master_preserve_old_ids.csv'
+$finalPngPath = Join-Path $modRoot 'map_data\provinces.png'
+$modPngPath = Join-Path $worksRoot 'map_data_sources\provinces_modlu_kalan.png'
+$origPngPath = Join-Path $worksRoot 'map_data_sources\provinces_orijinal_dogu.png'
 $outCsv = Join-Path $reportDir 'dual_source_rgb_presence.csv'
 $outMd = Join-Path $reportDir 'dual_source_rgb_presence.md'
 
@@ -154,8 +156,8 @@ $md = @(
     '',
     '- Target set: `source_origin=both` rows from `final_master_preserve_old_ids.csv`',
     '- final image: `map_data/provinces.png`',
-    '- west source: `Works/map_data_sources/provinces_modlu_kalan.png`',
-    '- east source: `Works/map_data_sources/provinces_orijinal_dogu.png`',
+    '- west source: `.codex/works/map_data_sources/provinces_modlu_kalan.png`',
+    '- east source: `.codex/works/map_data_sources/provinces_orijinal_dogu.png`',
     '',
     ('- total audited RGB rows: `{0}`' -f $outputRows.Count),
     ('- live RGBs with pixels coming from both sources: `{0}`' -f $bothLive.Count),

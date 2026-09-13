@@ -371,15 +371,17 @@ function Get-IdRangesText {
     return ($parts -join ', ')
 }
 
-$repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
-$generatedRoot = Join-Path $repoRoot 'Works\analysis\generated\missing_landed_title_source_cluster'
+$projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
+$codexRoot = Join-Path $projectRoot '.codex'
+$modRoot = Join-Path $projectRoot 'BookmarksGit'
+$generatedRoot = Join-Path $codexRoot 'works\analysis\generated\missing_landed_title_source_cluster'
 New-Item -ItemType Directory -Path $generatedRoot -Force | Out-Null
 
 $paths = @{
     Log = 'C:\Users\bsgho\Documents\Paradox Interactive\Crusader Kings III\logs\error.log'
-    FinalMaster = Join-Path $repoRoot 'Works\analysis\generated\final_master_preserve_old_ids.csv'
-    Definition = Join-Path $repoRoot 'map_data\definition.csv'
-    LiveLanded = Join-Path $repoRoot 'common\landed_titles\00_landed_titles.txt'
+    FinalMaster = Join-Path $codexRoot 'works\analysis\generated\province_definition\final_master_preserve_old_ids.csv'
+    Definition = Join-Path $modRoot 'map_data\definition.csv'
+    LiveLanded = Join-Path $modRoot 'common\landed_titles\00_landed_titles.txt'
     ModSourceDir = 'C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2216670956\0backup\common\landed_titles'
     VanillaSourceDir = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles'
 }

@@ -10,12 +10,13 @@ from collections import Counter, defaultdict
 from pathlib import Path
 
 
-BOOKMARKS_ROOT = Path(__file__).resolve().parents[2]
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+BOOKMARKS_ROOT = PROJECT_ROOT / "BookmarksGit"
+WORKS_ROOT = PROJECT_ROOT / ".codex" / "works"
 DEFAULT_FONT_PATH = BOOKMARKS_ROOT / "fonts" / "mapfont" / "Paradox_King_Script.otf"
 DEFAULT_LOC_FOLDER = BOOKMARKS_ROOT / "localization"
 DEFAULT_OUTPUT_DIR = (
-    BOOKMARKS_ROOT
-    / "works"
+    WORKS_ROOT
     / "analysis"
     / "generated"
     / "font_missing_chars_paradox_king_script"

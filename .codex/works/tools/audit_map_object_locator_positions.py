@@ -73,7 +73,11 @@ INSTANCE_RE = re.compile(
 
 
 def repo_root() -> Path:
-    return Path(__file__).resolve().parents[2]
+    for candidate in Path(__file__).resolve().parents:
+        mod_root = candidate / "BookmarksGit"
+        if mod_root.is_dir():
+            return mod_root
+    raise RuntimeError("Cannot locate project root containing BookmarksGit")
 
 
 def read_definition(path: Path) -> tuple[dict[int, dict[str, Any]], dict[tuple[int, int, int], list[int]]]:
@@ -416,7 +420,14 @@ def main() -> None:
     definition_path = root / "map_data" / "definition.csv"
     provinces_path = root / "map_data" / "provinces.png"
     locator_dir = root / "gfx" / "map" / "map_object_data"
-    out_dir = root / "works" / "analysis" / "generated" / "map_object_locator_audit"
+    out_dir = (
+        root.parent
+        / ".codex"
+        / "works"
+        / "analysis"
+        / "generated"
+        / "map_object_locator_audit"
+    )
     out_dir.mkdir(parents=True, exist_ok=True)
 
     definition, rgb_to_ids = read_definition(definition_path)

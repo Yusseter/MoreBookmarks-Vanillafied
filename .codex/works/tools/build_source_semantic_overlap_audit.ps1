@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [string]$RepoRoot = '.',
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit'),
     [string]$VanillaGameRoot = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game',
     [string]$ModSourceRoot = 'C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2216670956\0backup'
 )
@@ -586,13 +586,14 @@ function Resolve-AutoDecisionRecommendation {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$outputDir = Join-Path $root 'Works\analysis\generated\source_semantic_overlap_audit'
+$worksRoot = Join-Path (Split-Path -Parent $root) '.codex\works'
+$outputDir = Join-Path $worksRoot 'analysis\generated\source_semantic_overlap_audit'
 if (-not (Test-Path -LiteralPath $outputDir)) {
     New-Item -ItemType Directory -Path $outputDir -Force | Out-Null
 }
 
-$conflictsPath = Join-Path $root 'Works\analysis\generated\source_rgb_overlap_audit\source_rgb_overlap_conflicts.csv'
-$sameIdPath = Join-Path $root 'Works\analysis\generated\source_rgb_overlap_audit\source_rgb_overlap_same_id.csv'
+$conflictsPath = Join-Path $worksRoot 'analysis\generated\source_rgb_overlap_audit\source_rgb_overlap_conflicts.csv'
+$sameIdPath = Join-Path $worksRoot 'analysis\generated\source_rgb_overlap_audit\source_rgb_overlap_same_id.csv'
 $auditPath = Join-Path $outputDir 'source_rgb_overlap_semantic_audit.csv'
 $decisionsPath = Join-Path $outputDir 'source_rgb_overlap_semantic_decisions.csv'
 $summaryPath = Join-Path $outputDir 'source_rgb_overlap_semantic_summary.md'

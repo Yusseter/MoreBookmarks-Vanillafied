@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import argparse
 import csv
@@ -83,36 +83,43 @@ class ManualRow:
 
 
 def parse_args() -> argparse.Namespace:
-    repo_root = Path(__file__).resolve().parents[2]
-    leviathon_repo = Path(r"F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit")
+    project_root = Path(__file__).resolve().parents[3]
+    mod_root = project_root / "BookmarksGit"
+    works_root = project_root / ".codex/works"
+    leviathon_repo = project_root.parent / "Leviathonlx MoreBookmarks-Plus" / "BookmarksGit"
     parser = argparse.ArgumentParser(
-        description="Build a non-barony east title scope from a province mask PNG and compare it to title_relation_master_manuel.csv."
+        description="Build a non-barony east title scope and compare it to the archived full relation baseline."
     )
     parser.add_argument(
         "--mask-png",
         type=Path,
-        default=repo_root / "works" / "map_data_sources" / "provinces_birlesim_dogu 2026-04-19.png",
+        default=works_root
+        / "pipeline_inputs/map/scopes/east_title_scope_2026-04-19.png",
     )
-    parser.add_argument("--definition-csv", type=Path, default=repo_root / "map_data" / "definition.csv")
+    parser.add_argument("--definition-csv", type=Path, default=mod_root / "map_data/definition.csv")
     parser.add_argument(
         "--landed-titles",
         type=Path,
-        default=repo_root / "common" / "landed_titles" / "00_landed_titles.txt",
+        default=mod_root / "common/landed_titles/00_landed_titles.txt",
     )
     parser.add_argument(
         "--mod-landed-titles",
         type=Path,
         default=leviathon_repo / "common" / "landed_titles" / "00_landed_titles.txt",
     )
-    parser.add_argument("--manual-csv", type=Path, default=repo_root / "title_relation_master_manuel.csv")
+    parser.add_argument(
+        "--legacy-relation-csv",
+        "--manual-csv",
+        dest="manual_csv",
+        type=Path,
+        default=works_root
+        / "archive/title_relations/legacy_full_title_relations.csv",
+    )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=repo_root
-        / "works"
-        / "analysis"
-        / "generated"
-        / "title_relation_manual_validation"
+        default=works_root
+        / "analysis/generated/title_relation_manual_validation"
         / OUTPUT_SUBDIR,
     )
     return parser.parse_args()
@@ -800,10 +807,10 @@ def main() -> int:
     }
 
     args.output_dir.mkdir(parents=True, exist_ok=True)
-    comparison_path = args.output_dir / "title_relation_master_manuel_mask_east_scope.csv"
-    manual_like_path = args.output_dir / "title_relation_master_manuel_mask_scope_manual_like.csv"
-    worklist_path = args.output_dir / "title_relation_master_manuel_mask_scope_worklist.csv"
-    preserved_notes_path = args.output_dir / "title_relation_master_manuel_mask_scope_worklist_preserved_notes.csv"
+    comparison_path = args.output_dir / "title_relation_mask_east_scope_comparison.csv"
+    manual_like_path = args.output_dir / "title_relation_mask_east_scope_manual_like.csv"
+    worklist_path = args.output_dir / "title_relation_mask_east_scope_worklist.csv"
+    preserved_notes_path = args.output_dir / "title_relation_mask_east_scope_preserved_notes.csv"
     titles_path = args.output_dir / "mask_east_scope_titles.csv"
     provinces_path = args.output_dir / "mask_east_scope_provinces.csv"
     unmatched_rgb_path = args.output_dir / "mask_east_scope_unmatched_rgb.csv"

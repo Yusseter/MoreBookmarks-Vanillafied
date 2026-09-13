@@ -1,10 +1,15 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path,
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit'),
     [string]$VanillaGameRoot = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game'
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
+
+$modRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+$projectRoot = Split-Path -Parent $modRoot
+$codexRoot = Join-Path $projectRoot '.codex'
+$worksRoot = Join-Path $codexRoot 'works'
 
 function New-IntSet {
     New-Object 'System.Collections.Generic.HashSet[int]'
@@ -127,24 +132,25 @@ function Get-DefinitionNameMap {
 }
 
 $categories = @('sea_zones', 'river_provinces', 'lakes', 'impassable_mountains', 'impassable_seas')
-$modDefaultText = git show HEAD:BookmarksGit/map_data/default.map | Out-String
+$gitPrefix = ((& git -C $modRoot rev-parse --show-prefix) | Out-String).Trim().Replace('\', '/')
+$modDefaultText = & git -C $modRoot show "HEAD:${gitPrefix}map_data/default.map" | Out-String
 if (-not $modDefaultText.Trim()) {
     throw 'Failed to read mod default.map from git HEAD.'
 }
 
 $vanillaDefaultPath = Join-Path $VanillaGameRoot 'map_data/default.map'
 $vanillaDefaultText = Get-Content -Path $vanillaDefaultPath -Raw -Encoding UTF8
-$currentDefaultPath = Join-Path $RepoRoot 'map_data/default.map'
+$currentDefaultPath = Join-Path $modRoot 'map_data\default.map'
 $currentDefaultText = Get-Content -Path $currentDefaultPath -Raw -Encoding UTF8
 
 $modSets = Get-CategorySetsFromText -Text $modDefaultText -Categories $categories
 $vanillaSets = Get-CategorySetsFromText -Text $vanillaDefaultText -Categories $categories
 $currentSets = Get-CategorySetsFromText -Text $currentDefaultText -Categories $categories
 
-$masterPath = Join-Path $RepoRoot 'Works/analysis/generated/final_master_preserve_old_ids.csv'
-$placeholderPath = Join-Path $RepoRoot 'Works/analysis/generated/final_placeholder_inventory_preserve_old_ids.csv'
-$definitionPath = Join-Path $RepoRoot 'map_data/definition.csv'
-$reportDir = Join-Path $RepoRoot 'Works/analysis/generated/default_map_source_split'
+$masterPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_master_preserve_old_ids.csv'
+$placeholderPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_placeholder_inventory_preserve_old_ids.csv'
+$definitionPath = Join-Path $modRoot 'map_data\definition.csv'
+$reportDir = Join-Path $worksRoot 'analysis\generated\default_map_source_split'
 $null = New-Item -ItemType Directory -Path $reportDir -Force
 
 $masterRows = Import-Csv -Path $masterPath
@@ -296,9 +302,7 @@ foreach ($line in (Convert-IdsToDefaultMapLines -Category 'impassable_mountains'
 
 $newDefaultText = ($newLines -join "`r`n") + "`r`n"
 
-$testDefaultPath = Join-Path $RepoRoot 'test_files/map_data/default.map'
 Set-Content -Path $currentDefaultPath -Value $newDefaultText -Encoding UTF8
-Set-Content -Path $testDefaultPath -Value $newDefaultText -Encoding UTF8
 
 $diffRows = New-Object 'System.Collections.Generic.List[object]'
 $summaryRows = New-Object 'System.Collections.Generic.List[object]'

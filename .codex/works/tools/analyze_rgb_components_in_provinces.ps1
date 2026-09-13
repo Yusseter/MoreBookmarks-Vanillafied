@@ -1,13 +1,15 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path,
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit'),
     [string[]]$RgbList = @('135,36,34')
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$pngPath = Join-Path $RepoRoot 'map_data/provinces.png'
-$reportDir = Join-Path $RepoRoot 'Works/analysis/generated/provinces_rgb_components'
+$modRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+$worksRoot = Join-Path (Split-Path -Parent $modRoot) '.codex\works'
+$pngPath = Join-Path $modRoot 'map_data\provinces.png'
+$reportDir = Join-Path $worksRoot 'analysis\generated\provinces_rgb_components'
 $null = New-Item -ItemType Directory -Path $reportDir -Force
 
 Add-Type -AssemblyName System.Drawing

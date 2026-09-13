@@ -866,19 +866,21 @@ function Resolve-CanonicalMappingV2 {
 	}
 }
 
-$repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
-$generatedRoot = Join-Path $repoRoot 'Works\analysis\generated\title_relation_mapping'
-$masterPath = Join-Path $repoRoot 'Works\map_data_sources\title_relation_master.csv'
+$projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
+$codexRoot = Join-Path $projectRoot '.codex'
+$modRoot = Join-Path $projectRoot 'BookmarksGit'
+$generatedRoot = Join-Path $codexRoot 'works\analysis\generated\title_relation_mapping'
+$masterPath = Join-Path $codexRoot 'works\pipeline_inputs\title_relations\title_relation_baseline.csv'
 $inventoryPath = Join-Path $generatedRoot 'title_relation_source_inventory.csv'
 $summaryPath = Join-Path $generatedRoot 'title_relation_master_seed_summary.md'
 New-Item -ItemType Directory -Path $generatedRoot -Force | Out-Null
 
 $paths = @{
 	ModSource = 'C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2216670956\0backup\common\landed_titles\00_landed_titles.txt'
-	CurrentLive = Join-Path $repoRoot 'common\landed_titles\00_landed_titles.txt'
-	FinalModlu = Join-Path $repoRoot 'Works\analysis\generated\final_modlu_tracking_preserve_old_ids.csv'
-	FinalOrijinal = Join-Path $repoRoot 'Works\analysis\generated\final_orijinal_tracking_preserve_old_ids.csv'
-	ProvinceRelationMaster = Join-Path $repoRoot 'works\map_data_sources\province_relation_master.csv'
+	CurrentLive = Join-Path $modRoot 'common\landed_titles\00_landed_titles.txt'
+	FinalModlu = Join-Path $codexRoot 'works\analysis\generated\province_definition\final_modlu_tracking_preserve_old_ids.csv'
+	FinalOrijinal = Join-Path $codexRoot 'works\analysis\generated\province_definition\final_orijinal_tracking_preserve_old_ids.csv'
+	ProvinceRelationMaster = Join-Path $codexRoot 'works\pipeline_inputs\province_relations\province_relation_baseline.csv'
 	Vanilla00 = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt'
 	Vanilla01 = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\01_japan.txt'
 	Vanilla02 = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\02_china.txt'

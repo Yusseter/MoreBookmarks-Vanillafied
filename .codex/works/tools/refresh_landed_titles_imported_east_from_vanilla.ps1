@@ -1,6 +1,7 @@
 [CmdletBinding()]
 param(
-    [string]$RepoRoot = '.'
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit'),
+    [string]$VanillaGameRoot = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game'
 )
 
 Set-StrictMode -Version Latest
@@ -380,11 +381,12 @@ function Get-BaronyProvinceMapFromRoots {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
+$codexRoot = Join-Path (Split-Path -Parent $root) '.codex'
+$worksRoot = Join-Path $codexRoot 'works'
 $repoLandedTitles = Join-Path $root 'common\landed_titles\00_landed_titles.txt'
-$testLandedTitles = Join-Path $root 'test_files\common\landed_titles\00_landed_titles.txt'
-$trackingPath = Join-Path $root 'Works\analysis\generated\final_orijinal_tracking_preserve_old_ids.csv'
+$trackingPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_orijinal_tracking_preserve_old_ids.csv'
 $definitionPath = Join-Path $root 'map_data\definition.csv'
-$generatedDir = Join-Path $root 'Works\analysis\generated\landed_titles_vanilla_refresh'
+$generatedDir = Join-Path $worksRoot 'analysis\generated\landed_titles_vanilla_refresh'
 if (-not (Test-Path -LiteralPath $generatedDir)) {
     New-Item -ItemType Directory -Path $generatedDir -Force | Out-Null
 }
@@ -415,7 +417,7 @@ foreach ($row in (Import-Csv -Path $trackingPath)) {
     }
 }
 
-$vanillaCommonBase = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles'
+$vanillaCommonBase = Join-Path $VanillaGameRoot 'common\landed_titles'
 $rootSpecs = @(
     @{ Root = 'e_viet'; File = Join-Path $vanillaCommonBase '00_landed_titles.txt' },
     @{ Root = 'e_tibet'; File = Join-Path $vanillaCommonBase '00_landed_titles.txt' },
@@ -477,7 +479,6 @@ $liveRewritten = Remove-TopLevelBlocksAndAppend `
     -MarkerComment 'Refreshed imported vanilla east landed title roots'
 
 Write-TextUtf8 -Path $repoLandedTitles -Text $liveRewritten
-Write-TextUtf8 -Path $testLandedTitles -Text $liveRewritten
 
 $refreshedBaronyMap = Get-BaronyProvinceMapFromRoots -Text $liveRewritten -Roots $removeRoots
 $validationRows = New-Object System.Collections.Generic.List[object]

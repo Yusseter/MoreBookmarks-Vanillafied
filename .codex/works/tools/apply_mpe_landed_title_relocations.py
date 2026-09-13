@@ -1,12 +1,13 @@
-﻿from pathlib import Path
+from pathlib import Path
 import csv
 import hashlib
 import re
 from collections import defaultdict, Counter
 
-TARGET = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+TARGET = PROJECT_ROOT / "BookmarksGit"
 MPE = Path(r"C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\3726274827")
-OUT = TARGET / r"works\analysis\generated\mpe_import_add_1"
+OUT = PROJECT_ROOT / r".codex\works\analysis\generated\mpe_import_add_1"
 
 LANDED = TARGET / r"common\landed_titles\00_landed_titles.txt"
 SOURCE_LANDED = MPE / r"common\landed_titles\00_landed_titles.txt"
@@ -29,16 +30,6 @@ def sha256(path):
     with path.open("rb") as f:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
-    return h.hexdigest().upper()
-
-
-def tree_hash(root):
-    h = hashlib.sha256()
-    if not root.exists():
-        return "MISSING"
-    for path in sorted(p for p in root.rglob("*") if p.is_file()):
-        h.update(path.relative_to(root).as_posix().encode("utf-8", "surrogateescape") + b"\0")
-        h.update(bytes.fromhex(sha256(path)))
     return h.hexdigest().upper()
 
 
@@ -392,7 +383,6 @@ def update_decision_csvs():
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     before_hash = sha256(LANDED)
-    before_test_hash = tree_hash(TARGET / "test_files")
 
     update_decision_csvs()
 
@@ -542,7 +532,6 @@ def main():
         write_csv(OUT / "mpe_landed_titles_relocation_duplicate_provinces.csv", duplicate_province_rows, ["province", "baronies", "count"])
 
     after_hash = sha256(LANDED)
-    after_test_hash = tree_hash(TARGET / "test_files")
     action_counts = Counter(row.get("action", "") for row in apply_rows)
 
     summary = [
@@ -555,7 +544,6 @@ def main():
         f"- duplicate province assignment rows: `{len(duplicate_province_rows)}`",
         f"- final landed_titles brace depth: `{post_data['final_depth']}`",
         f"- landed_titles changed: `{before_hash != after_hash}`",
-        f"- test_files unchanged: `{before_test_hash == after_test_hash}`",
         "",
         "## Action Counts",
         "",

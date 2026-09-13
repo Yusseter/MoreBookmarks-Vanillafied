@@ -1,5 +1,5 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path,
+    [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
     [string]$MergeInventoryCsv = '',
     [string]$DecisionCsv = '',
     [string]$ApplyReportCsv = '',
@@ -29,7 +29,7 @@ function Export-Utf8Csv {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated'
+$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated\province_definition'
 
 if ([string]::IsNullOrWhiteSpace($MergeInventoryCsv)) {
     $MergeInventoryCsv = Join-Path $generatedDir 'definition_merge_inventory.csv'

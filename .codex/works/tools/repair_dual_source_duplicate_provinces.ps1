@@ -1,22 +1,23 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit')
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$reportDir = Join-Path $RepoRoot 'Works/analysis/generated/provinces_duplicate_rgb_repair'
+$modRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+$codexRoot = Join-Path (Split-Path -Parent $modRoot) '.codex'
+$worksRoot = Join-Path $codexRoot 'works'
+$reportDir = Join-Path $worksRoot 'analysis\generated\provinces_duplicate_rgb_repair'
 $null = New-Item -ItemType Directory -Path $reportDir -Force
 
-$auditCsvPath = Join-Path $RepoRoot 'Works/analysis/generated/provinces_duplicate_rgb_audit/dual_source_rgb_presence.csv'
-$placeholderInventoryPath = Join-Path $RepoRoot 'Works/analysis/generated/final_placeholder_inventory_preserve_old_ids.csv'
-$placeholderPixelMapPath = Join-Path $RepoRoot 'Works/analysis/generated/placeholder_pixel_map_preserve_old.csv'
-$finalPngPath = Join-Path $RepoRoot 'map_data/provinces.png'
-$testPngPath = Join-Path $RepoRoot 'test_files/map_data/provinces.png'
-$modPngPath = Join-Path $RepoRoot 'Works/map_data_sources/provinces_modlu_kalan.png'
-$origPngPath = Join-Path $RepoRoot 'Works/map_data_sources/provinces_orijinal_dogu.png'
-$definitionPath = Join-Path $RepoRoot 'map_data/definition.csv'
-$testDefinitionPath = Join-Path $RepoRoot 'test_files/map_data/definition.csv'
+$auditCsvPath = Join-Path $worksRoot 'analysis\generated\provinces_duplicate_rgb_audit\dual_source_rgb_presence.csv'
+$placeholderInventoryPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_placeholder_inventory_preserve_old_ids.csv'
+$placeholderPixelMapPath = Join-Path $worksRoot 'analysis\generated\province_definition\placeholder_pixel_map_preserve_old.csv'
+$finalPngPath = Join-Path $modRoot 'map_data\provinces.png'
+$modPngPath = Join-Path $worksRoot 'map_data_sources\provinces_modlu_kalan.png'
+$origPngPath = Join-Path $worksRoot 'map_data_sources\provinces_orijinal_dogu.png'
+$definitionPath = Join-Path $modRoot 'map_data\definition.csv'
 
 $backupFinalPng = Join-Path $reportDir 'provinces_before_dual_source_split.png'
 $backupDefinition = Join-Path $reportDir 'definition_before_dual_source_split.csv'
@@ -195,7 +196,6 @@ foreach ($assignment in $assignments) {
 $tempOutput = Join-Path $reportDir 'provinces_after_dual_source_split.png'
 [ProvinceDuplicateRepair]::Apply($finalPngPath, $modPngPath, $origPngPath, $tempOutput, $nativeAssignments)
 Copy-Item -Path $tempOutput -Destination $finalPngPath -Force
-Copy-Item -Path $tempOutput -Destination $testPngPath -Force
 
 for ($i = 0; $i -lt $assignments.Count; $i++) {
     $assignments[$i].changed_pixels = $nativeAssignments[$i].ChangedPixels
@@ -228,7 +228,6 @@ function Update-DefinitionFile {
 }
 
 Update-DefinitionFile -Path $definitionPath -RepairAssignments $assignments
-Update-DefinitionFile -Path $testDefinitionPath -RepairAssignments $assignments
 
 $assignmentCsv = Join-Path $reportDir 'dual_source_duplicate_repair_assignments.csv'
 $assignments | Export-Csv -Path $assignmentCsv -NoTypeInformation -Encoding UTF8

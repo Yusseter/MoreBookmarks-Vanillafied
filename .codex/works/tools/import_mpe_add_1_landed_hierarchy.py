@@ -6,9 +6,10 @@ import sys
 from collections import Counter, defaultdict
 
 
-TARGET = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+TARGET = PROJECT_ROOT / "BookmarksGit"
 MPE = Path(r"C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\3726274827")
-OUT = TARGET / r"works\analysis\generated\mpe_import_add_1"
+OUT = PROJECT_ROOT / r".codex\works\analysis\generated\mpe_import_add_1"
 
 REPORT_PATH = OUT / "mpe_landed_titles_hierarchy_import_report.csv"
 LOC_REPORT_PATH = OUT / "mpe_landed_titles_hierarchy_localization_report.csv"
@@ -27,16 +28,6 @@ def sha256(path):
     with open(path, "rb") as f:
         for chunk in iter(lambda: f.read(1024 * 1024), b""):
             h.update(chunk)
-    return h.hexdigest().upper()
-
-
-def tree_hash(root):
-    h = hashlib.sha256()
-    if not root.exists():
-        return "MISSING"
-    for path in sorted(p for p in root.rglob("*") if p.is_file()):
-        h.update(path.relative_to(root).as_posix().encode("utf-8", "surrogateescape") + b"\0")
-        h.update(bytes.fromhex(sha256(path)))
     return h.hexdigest().upper()
 
 
@@ -409,7 +400,6 @@ def main():
 
     landed_path = TARGET / r"common\landed_titles\00_landed_titles.txt"
     loc_path = TARGET / r"localization\replace\english\z_MB_titles_l_english.yml"
-    test_root = TARGET / "test_files"
     provinces_path = TARGET / r"map_data\provinces.png"
     definition_path = TARGET / r"map_data\definition.csv"
 
@@ -417,7 +407,6 @@ def main():
     before_loc_hash = sha256(loc_path)
     before_provinces_hash = sha256(provinces_path)
     before_definition_hash = sha256(definition_path)
-    before_test_hash = tree_hash(test_root)
 
     id_rows = read_csv(OUT / "mpe_import_id_map.csv")
     id_map = {int(row["old_mpe_id"]): int(row["target_id"]) for row in id_rows}
@@ -738,7 +727,6 @@ def main():
     after_loc_hash = sha256(loc_path)
     after_provinces_hash = sha256(provinces_path)
     after_definition_hash = sha256(definition_path)
-    after_test_hash = tree_hash(test_root)
 
     validation_rows = [
         {
@@ -756,11 +744,6 @@ def main():
             "status": "validation",
             "note": "definition_csv_unchanged",
             "target_action": "pass" if before_definition_hash == after_definition_hash else "fail",
-        },
-        {
-            "status": "validation",
-            "note": "test_files_tree_unchanged",
-            "target_action": "pass" if before_test_hash == after_test_hash else "fail",
         },
     ]
     report_rows.extend(validation_rows)
@@ -808,7 +791,6 @@ def main():
         f"- localization changed: {before_loc_hash != after_loc_hash}",
         f"- provinces.png unchanged: {before_provinces_hash == after_provinces_hash}",
         f"- definition.csv unchanged: {before_definition_hash == after_definition_hash}",
-        f"- test_files unchanged: {before_test_hash == after_test_hash}",
         f"- landed_titles brace depth: {post_titles['final_depth']}",
         "",
         "## Status Counts",
@@ -822,7 +804,7 @@ def main():
     summary_lines.extend([f"- `{title}`" for title in created_counties] or ["- none"])
     SUMMARY_PATH.write_text("\n".join(summary_lines) + "\n", encoding="utf-8")
 
-    hafiza = TARGET / "hafiza.md"
+    hafiza = PROJECT_ROOT / ".codex" / "memory" / "project_memory.md"
     hafiza_lines, hafiza_newline, hafiza_bom, _ = read_text_lines(hafiza)
     header = "## 2026-05-15 MPE Add 1 Landed Hierarchy Import"
     if header in hafiza_lines:
@@ -844,17 +826,16 @@ def main():
             "- Yeni kural: MPE province/title importunda eksik `c_*` county bloklari olusturulabilir; parent `d_*` duchy yoksa uygun mevcut `k_*`/`e_*` altinda `d_*` de olusturulabilir.",
             "- Sinir: parent `k_*`/`e_*` hedef landed_titles icinde yoksa otomatik root/subtree migration yapilmaz; satir rapora dusurulur.",
             "- `c_*` ve `d_*` acilis satirlarina `# Yusseter: MPE ... source provinces ...` yorumu eklenecek; `b_*` acilis satirlarinda `# Yusseter: MPE_<old_id>` yorumu korunacak.",
-            "- Bu tur icin yeni arac: `works/tools/import_mpe_add_1_landed_hierarchy.py`.",
+            "- Bu tur icin yeni arac: `.codex/works/tools/import_mpe_add_1_landed_hierarchy.py`.",
             "- Arac `map_data/provinces.png` ve `map_data/definition.csv` dosyalarini degistirmez; yalniz eksik landed_titles hiyerarsisini ve localization'i tamamlar.",
             f"- Olusturulan duchy: `{len(created_duchies)}`; county: `{len(created_counties)}`; barony: `{len(created_baronies)}`.",
             f"- Localization eklenen title: `{loc_counts.get('added', 0)}`; source localization bulunamayan: `{loc_counts.get('missing_source_localization', 0)}`.",
             f"- `provinces.png` unchanged: `{before_provinces_hash == after_provinces_hash}`; `definition.csv` unchanged: `{before_definition_hash == after_definition_hash}`.",
-            f"- `test_files` bu MPE turunda yine degistirilmedi: `{before_test_hash == after_test_hash}`.",
             f"- Landed_titles brace depth: `{post_titles['final_depth']}`.",
             "- Raporlar:",
-            "  - `works/analysis/generated/mpe_import_add_1/mpe_landed_titles_hierarchy_import_report.csv`",
-            "  - `works/analysis/generated/mpe_import_add_1/mpe_landed_titles_hierarchy_localization_report.csv`",
-            "  - `works/analysis/generated/mpe_import_add_1/mpe_landed_titles_hierarchy_import_summary.md`",
+            "  - `.codex/works/analysis/generated/mpe_import_add_1/mpe_landed_titles_hierarchy_import_report.csv`",
+            "  - `.codex/works/analysis/generated/mpe_import_add_1/mpe_landed_titles_hierarchy_localization_report.csv`",
+            "  - `.codex/works/analysis/generated/mpe_import_add_1/mpe_landed_titles_hierarchy_import_summary.md`",
         ]
     )
     write_text_lines(hafiza, hafiza_lines, hafiza_newline, hafiza_bom, True)

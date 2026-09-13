@@ -50,22 +50,36 @@ class SourceCandidate:
 
 
 def parse_args() -> argparse.Namespace:
-    repo_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
+    mod_root = project_root / "BookmarksGit"
+    works_root = project_root / ".codex/works"
     parser = argparse.ArgumentParser(
         description="Infer landed title source identity using block metadata, capital, and province provenance."
     )
-    parser.add_argument("--current-landed-titles", type=Path, default=repo_root / "common/landed_titles/00_landed_titles.txt")
-    parser.add_argument("--definition", type=Path, default=repo_root / "map_data/definition.csv")
-    parser.add_argument("--manual-csv", type=Path, default=repo_root / "title_relation_master_manuel_new.csv")
+    parser.add_argument("--current-landed-titles", type=Path, default=mod_root / "common/landed_titles/00_landed_titles.txt")
+    parser.add_argument("--definition", type=Path, default=mod_root / "map_data/definition.csv")
+    parser.add_argument(
+        "--relation-csv",
+        "--manual-csv",
+        dest="manual_csv",
+        type=Path,
+        default=works_root
+        / "pipeline_inputs/title_relations/curated_title_relations.csv",
+    )
     parser.add_argument(
         "--east-mask",
         type=Path,
-        default=repo_root / "works/map_data_sources/provinces_birlesim_dogu 2026-04-19.png",
+        default=works_root
+        / "pipeline_inputs/map/scopes/east_title_scope_2026-04-19.png",
     )
     parser.add_argument(
         "--mod-landed-titles-dir",
         type=Path,
-        default=Path(r"F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\common\landed_titles"),
+        default=project_root.parent
+        / "Leviathonlx MoreBookmarks-Plus"
+        / "BookmarksGit"
+        / "common"
+        / "landed_titles",
     )
     parser.add_argument(
         "--vanilla-landed-titles-dir",
@@ -75,22 +89,25 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--mod-tracking",
         type=Path,
-        default=repo_root / "works/analysis/generated/final_modlu_tracking_preserve_old_ids.csv",
+        default=works_root
+        / "analysis/generated/province_definition/final_modlu_tracking_preserve_old_ids.csv",
     )
     parser.add_argument(
         "--orijinal-tracking",
         type=Path,
-        default=repo_root / "works/analysis/generated/final_orijinal_tracking_preserve_old_ids.csv",
+        default=works_root
+        / "analysis/generated/province_definition/final_orijinal_tracking_preserve_old_ids.csv",
     )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=repo_root / "works/analysis/generated/landed_title_source_identity",
+        default=works_root / "analysis/generated/landed_title_source_identity",
     )
     parser.add_argument(
         "--scope-title-csv",
         type=Path,
-        default=repo_root / "works/analysis/generated/east_kingdom_closure_scope/east_kingdom_closure_titles.csv",
+        default=works_root
+        / "analysis/generated/east_kingdom_closure_scope/east_kingdom_closure_titles.csv",
     )
     return parser.parse_args()
 

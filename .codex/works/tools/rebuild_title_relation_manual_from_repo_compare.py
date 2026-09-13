@@ -11,7 +11,10 @@ TITLE_PATTERN = re.compile(r"^\s*([ekdcbh]_[A-Za-z0-9_]+)\s*=\s*\{")
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Rebuild title_relation_master_manuel.csv so mod_title_id reflects current repo title ids and marks differing mappings."
+        description=(
+            "Rebuild a title relation CSV so mod_title_id reflects current repo "
+            "title ids and marks differing mappings."
+        )
     )
     parser.add_argument("--master-csv", type=Path, required=True)
     parser.add_argument("--current-landed-titles", type=Path, required=True)

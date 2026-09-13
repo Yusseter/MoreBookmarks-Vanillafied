@@ -36,17 +36,20 @@ class TitleBlock:
 
 
 def parse_args() -> argparse.Namespace:
-    repo_root = Path(__file__).resolve().parents[2]
-    output_dir = repo_root / "works/analysis/generated/landed_titles_source_audit"
+    project_root = Path(__file__).resolve().parents[3]
+    mod_root = project_root / "BookmarksGit"
+    codex_root = project_root / ".codex"
+    output_dir = (
+        codex_root / "works/analysis/generated/landed_titles_source_audit"
+    )
     parser = argparse.ArgumentParser(
         description="Preview or apply county block replacements from county_source_fix_plan.csv."
     )
     parser.add_argument("--fix-plan", type=Path, default=output_dir / "county_source_fix_plan.csv")
-    parser.add_argument("--current-landed-titles", type=Path, default=repo_root / "common/landed_titles/00_landed_titles.txt")
     parser.add_argument(
-        "--test-landed-titles",
+        "--current-landed-titles",
         type=Path,
-        default=repo_root / "test_files/common/landed_titles/00_landed_titles.txt",
+        default=mod_root / "common/landed_titles/00_landed_titles.txt",
     )
     parser.add_argument("--output-dir", type=Path, default=output_dir)
     parser.add_argument("--action", default="replace_with_mod_block")
@@ -245,15 +248,12 @@ def main() -> int:
         raise RuntimeError(f"No fix plan rows found for action={args.action}")
 
     current_file = read_text_file(args.current_landed_titles)
-    test_file = read_text_file(args.test_landed_titles)
     current_blocks = parse_title_blocks(current_file.text)
-    test_blocks = parse_title_blocks(test_file.text)
 
     source_files: dict[Path, TextFile] = {}
     source_blocks_by_file: dict[Path, dict[str, list[TitleBlock]]] = {}
     preview_rows: list[dict[str, object]] = []
     current_replacements: dict[str, str] = {}
-    test_replacements: dict[str, str] = {}
 
     for row in plan_rows:
         county_id = row["county_id"]
@@ -264,21 +264,16 @@ def main() -> int:
 
         source_block = pick_source_block(source_blocks_by_file[source_path], county_id, source_line)
         current_block = single_target_block(current_blocks, county_id)
-        test_block = single_target_block(test_blocks, county_id)
         status = "ok"
         if source_block is None:
             status = "error:source_block_not_found"
         elif current_block is None:
             status = "error:current_block_not_found_once"
-        elif test_block is None:
-            status = "error:test_block_not_found_once"
 
         source_hash = source_block.normalized_hash if source_block else ""
         current_hash = current_block.normalized_hash if current_block else ""
-        test_hash = test_block.normalized_hash if test_block else ""
         if status == "ok":
             current_replacements[county_id] = make_replacement(source_block, current_block, current_file)
-            test_replacements[county_id] = make_replacement(source_block, test_block, test_file)
 
         preview_rows.append(
             {
@@ -287,13 +282,9 @@ def main() -> int:
                 "source_block_path": f"{source_path}:{source_block.start_line if source_block else source_line}",
                 "current_start_line": current_block.start_line if current_block else "",
                 "current_end_line": current_block.end_line if current_block else "",
-                "test_start_line": test_block.start_line if test_block else "",
-                "test_end_line": test_block.end_line if test_block else "",
                 "current_province_ids": " ".join(str(value) for value in current_block.province_ids) if current_block else "",
                 "source_province_ids": " ".join(str(value) for value in source_block.province_ids) if source_block else "",
                 "current_equals_source": "yes" if current_hash and current_hash == source_hash else "no",
-                "test_equals_source": "yes" if test_hash and test_hash == source_hash else "no",
-                "current_equals_test_before": "yes" if current_hash and current_hash == test_hash else "no",
                 "current_hash": current_hash,
                 "source_hash": source_hash,
             }
@@ -307,13 +298,9 @@ def main() -> int:
         "source_block_path",
         "current_start_line",
         "current_end_line",
-        "test_start_line",
-        "test_end_line",
         "current_province_ids",
         "source_province_ids",
         "current_equals_source",
-        "test_equals_source",
-        "current_equals_test_before",
         "current_hash",
         "source_hash",
     ]
@@ -326,7 +313,6 @@ def main() -> int:
 
     if args.apply:
         apply_replacements(current_file, current_blocks, current_replacements)
-        apply_replacements(test_file, test_blocks, test_replacements)
         write_csv(report_path, preview_rows, fieldnames)
         print(f"applied rows: {len(preview_rows)}")
     else:

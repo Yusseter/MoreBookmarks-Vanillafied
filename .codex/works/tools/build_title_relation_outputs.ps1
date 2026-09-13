@@ -171,9 +171,11 @@ function Build-RewriteText {
 	return $result
 }
 
-$repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
-$generatedRoot = Join-Path $repoRoot 'Works\analysis\generated\title_relation_mapping'
-$masterPath = Join-Path $repoRoot 'Works\map_data_sources\title_relation_master.csv'
+$projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
+$codexRoot = Join-Path $projectRoot '.codex'
+$repoRoot = Join-Path $projectRoot 'BookmarksGit'
+$generatedRoot = Join-Path $codexRoot 'works\analysis\generated\title_relation_mapping'
+$masterPath = Join-Path $codexRoot 'works\pipeline_inputs\title_relations\title_relation_baseline.csv'
 $inventoryPath = Join-Path $generatedRoot 'title_relation_source_inventory.csv'
 $safeMapPath = Join-Path $generatedRoot 'title_relation_safe_rewrite_map.csv'
 $manualReviewPath = Join-Path $generatedRoot 'title_relation_manual_review.csv'

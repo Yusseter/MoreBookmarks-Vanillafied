@@ -23,8 +23,8 @@ LOCATOR_FILES = {
 }
 
 
-def repo_root() -> Path:
-    return Path(__file__).resolve().parents[2]
+def project_root() -> Path:
+    return Path(__file__).resolve().parents[3]
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -139,8 +139,10 @@ def collect_instance_blocks(lines: list[str]) -> list[dict[str, int | None]]:
 
 
 def candidate_rows() -> list[dict[str, str]]:
-    root = repo_root()
-    audit_dir = root / "works" / "analysis" / "generated" / "map_object_locator_audit"
+    root = project_root()
+    audit_dir = (
+        root / ".codex" / "works" / "analysis" / "generated" / "map_object_locator_audit"
+    )
     rows = read_csv(audit_dir / CANDIDATE_FILE)
     selected: list[dict[str, str]] = []
     seen: set[tuple[str, str]] = set()
@@ -159,9 +161,11 @@ def candidate_rows() -> list[dict[str, str]]:
 
 
 def apply_candidates(apply: bool) -> dict[str, int]:
-    root = repo_root()
-    audit_dir = root / "works" / "analysis" / "generated" / "map_object_locator_audit"
-    locator_dir = root / "gfx" / "map" / "map_object_data"
+    root = project_root()
+    audit_dir = (
+        root / ".codex" / "works" / "analysis" / "generated" / "map_object_locator_audit"
+    )
+    locator_dir = root / "BookmarksGit" / "gfx" / "map" / "map_object_data"
 
     rows = candidate_rows()
     by_file: dict[str, list[dict[str, str]]] = defaultdict(list)

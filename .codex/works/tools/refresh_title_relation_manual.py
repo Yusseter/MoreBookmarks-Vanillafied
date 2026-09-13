@@ -25,7 +25,7 @@ class RefreshStats:
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(
-        description="Refresh title_relation_master_manuel.csv against current mod title ids."
+        description="Refresh a title relation CSV against current mod title ids."
     )
     parser.add_argument("--manual-input", type=Path, required=True)
     parser.add_argument("--master-csv", type=Path, required=True)

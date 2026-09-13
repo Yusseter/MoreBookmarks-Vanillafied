@@ -233,15 +233,16 @@ function Apply-ReplacementsToHistoryText {
 	return (($outputLines -join "`r`n").TrimEnd() + "`r`n")
 }
 
-$repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
-$generatedRoot = Join-Path $repoRoot 'works\analysis\generated\province_relation_mapping'
-$masterPath = Join-Path $repoRoot 'works\map_data_sources\province_relation_master.csv'
+$projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
+$codexRoot = Join-Path $projectRoot '.codex'
+$modRoot = Join-Path $projectRoot 'BookmarksGit'
+$generatedRoot = Join-Path $codexRoot 'works\analysis\generated\province_relation_mapping'
+$masterPath = Join-Path $codexRoot 'works\pipeline_inputs\province_relations\province_relation_baseline.csv'
 $reportPath = Join-Path $generatedRoot 'province_relation_history_apply_report.csv'
 $summaryPath = Join-Path $generatedRoot 'province_relation_history_apply_summary.md'
 $sourceHistoryDir = 'C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2216670956\0backup\history\provinces'
 $targetPaths = @(
-	(Join-Path $repoRoot 'history\provinces\00_MB_PROVINCES.txt'),
-	(Join-Path $repoRoot 'test_files\history\provinces\00_MB_PROVINCES.txt')
+	(Join-Path $modRoot 'history\provinces\00_MB_PROVINCES.txt')
 )
 
 New-Item -ItemType Directory -Path $generatedRoot -Force | Out-Null

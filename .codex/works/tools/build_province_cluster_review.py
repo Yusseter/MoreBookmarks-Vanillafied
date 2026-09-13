@@ -7,12 +7,23 @@ from pathlib import Path
 from typing import Dict, Iterable, List
 
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-GENERATED_ROOT = REPO_ROOT / "works" / "analysis" / "generated" / "province_relation_mapping" / "cluster_reviews"
-MASTER_PATH = REPO_ROOT / "works" / "map_data_sources" / "province_relation_master.csv"
-CURRENT_LANDED_TITLES_PATH = REPO_ROOT / "common" / "landed_titles" / "00_landed_titles.txt"
-LIVE_HISTORY_PATH = REPO_ROOT / "history" / "provinces" / "00_MB_PROVINCES.txt"
-TEST_HISTORY_PATH = REPO_ROOT / "test_files" / "history" / "provinces" / "00_MB_PROVINCES.txt"
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+CODEX_ROOT = PROJECT_ROOT / ".codex"
+WORKS_ROOT = CODEX_ROOT / "works"
+MOD_ROOT = PROJECT_ROOT / "BookmarksGit"
+GENERATED_ROOT = (
+    WORKS_ROOT / "analysis" / "generated" / "province_relation_mapping" / "cluster_reviews"
+)
+MASTER_PATH = (
+    WORKS_ROOT
+    / "pipeline_inputs"
+    / "province_relations"
+    / "province_relation_baseline.csv"
+)
+CURRENT_LANDED_TITLES_PATH = (
+    MOD_ROOT / "common" / "landed_titles" / "00_landed_titles.txt"
+)
+LIVE_HISTORY_PATH = MOD_ROOT / "history" / "provinces" / "00_MB_PROVINCES.txt"
 SOURCE_HISTORY_DIR = Path(
     r"C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2216670956\0backup\history\provinces"
 )
@@ -287,7 +298,6 @@ def main() -> None:
     target_title_block_ids = get_province_ids_from_title_block(current_landed_titles_text, args.target_title_block) if args.target_title_block else set()
     source_history_blocks = get_numeric_history_blocks_from_directory(SOURCE_HISTORY_DIR)
     live_history_blocks = get_numeric_history_blocks_from_file(LIVE_HISTORY_PATH)
-    test_history_blocks = get_numeric_history_blocks_from_file(TEST_HISTORY_PATH)
 
     rows = read_csv(MASTER_PATH)
     target_candidates: Dict[str, List[Dict[str, str]]] = {}
@@ -338,7 +348,6 @@ def main() -> None:
                 "source_history_exists": "yes" if source_province_id in source_history_blocks else "no",
                 "source_history_file": source_history_blocks.get(source_province_id, ""),
                 "live_target_history_exists": "yes" if (row.get("target_province_id") or "") in live_history_blocks else "no",
-                "test_target_history_exists": "yes" if (row.get("target_province_id") or "") in test_history_blocks else "no",
             }
         )
         meta = target_meta.get(row.get("target_province_id") or "", {})
@@ -404,7 +413,6 @@ def main() -> None:
         "source_history_exists",
         "source_history_file",
         "live_target_history_exists",
-        "test_target_history_exists",
         "target_kind",
         "promotion_hint",
         "notes",

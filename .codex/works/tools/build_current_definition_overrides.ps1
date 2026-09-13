@@ -1,11 +1,12 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path,
+    [string]$RepoRoot = '',
     [string]$CurrentDefinitionCsv = '',
     [string]$BaselineDefinitionCsv = '',
     [string]$FinalMasterCsv = '',
     [string]$ModluDefinitionCsv = '',
     [string]$OrijinalDefinitionCsv = '',
-    [string]$ManualLocatorCsv = '',
+    [Alias('ManualLocatorCsv')]
+    [string]$LocatorSeedCsv = '',
     [string]$DiffAuditCsv = '',
     [string]$OverrideCandidatesCsv = '',
     [string]$SummaryPath = ''
@@ -35,26 +36,44 @@ function Export-Utf8Csv {
 function Resolve-Roots {
     param([string]$Root)
 
+    if ([string]::IsNullOrWhiteSpace($Root)) {
+        $Root = Join-Path $PSScriptRoot '..\..\..'
+    }
     $resolvedRoot = (Resolve-Path -LiteralPath $Root).Path
-    if ((Split-Path -Leaf $resolvedRoot) -ieq 'works') {
+    $leaf = Split-Path -Leaf $resolvedRoot
+
+    if ($leaf -ieq 'BookmarksGit') {
+        $projectRoot = Split-Path -Parent $resolvedRoot
         return [pscustomobject]@{
-            ProjectRoot = (Split-Path -Parent $resolvedRoot)
-            WorksRoot = $resolvedRoot
+            ModRoot = $resolvedRoot
+            WorksRoot = Join-Path $projectRoot '.codex\works'
         }
     }
 
-    $candidateWorks = Join-Path $resolvedRoot 'works'
-    if (Test-Path -LiteralPath (Join-Path $candidateWorks 'analysis')) {
+    $candidateMod = Join-Path $resolvedRoot 'BookmarksGit'
+    $candidateWorks = Join-Path $resolvedRoot '.codex\works'
+    if (
+        (Test-Path -LiteralPath (Join-Path $candidateMod 'map_data')) -and
+        (Test-Path -LiteralPath (Join-Path $candidateWorks 'analysis'))
+    ) {
         return [pscustomobject]@{
-            ProjectRoot = $resolvedRoot
+            ModRoot = $candidateMod
             WorksRoot = $candidateWorks
         }
     }
 
-    return [pscustomobject]@{
-        ProjectRoot = $resolvedRoot
-        WorksRoot = $resolvedRoot
+    if (
+        ($leaf -ieq 'works') -and
+        ((Split-Path -Leaf (Split-Path -Parent $resolvedRoot)) -ieq '.codex')
+    ) {
+        $projectRoot = Split-Path -Parent (Split-Path -Parent $resolvedRoot)
+        return [pscustomobject]@{
+            ModRoot = Join-Path $projectRoot 'BookmarksGit'
+            WorksRoot = $resolvedRoot
+        }
     }
+
+    throw "Cannot resolve project, BookmarksGit, and .codex/works roots from: $resolvedRoot"
 }
 
 function Convert-RgbPartsToString {
@@ -146,7 +165,7 @@ function Add-SourceRows {
     }
 }
 
-function Read-ManualLocatorIds {
+function Read-LocatorSeedIds {
     param(
         [string]$Path,
         [System.Collections.Generic.HashSet[int]]$MarkerIds
@@ -157,7 +176,7 @@ function Read-ManualLocatorIds {
         $seedRows = foreach ($id in ($MarkerIds | Sort-Object)) {
             [pscustomobject]@{
                 province_id = $id
-                reason = 'definition_marker_manual_locator_seed'
+                reason = 'definition_marker_locator_seed'
             }
         }
         Export-Utf8Csv -Rows $seedRows -Path $Path
@@ -254,12 +273,12 @@ function New-OverrideRow {
 }
 
 $roots = Resolve-Roots -Root $RepoRoot
-$projectRoot = $roots.ProjectRoot
+$modRoot = $roots.ModRoot
 $worksRoot = $roots.WorksRoot
-$generatedDir = Join-Path $worksRoot 'analysis\generated'
+$generatedDir = Join-Path $worksRoot 'analysis\generated\province_definition'
 
 if ([string]::IsNullOrWhiteSpace($CurrentDefinitionCsv)) {
-    $CurrentDefinitionCsv = Join-Path $projectRoot 'map_data\definition.csv'
+    $CurrentDefinitionCsv = Join-Path $modRoot 'map_data\definition.csv'
 }
 if ([string]::IsNullOrWhiteSpace($BaselineDefinitionCsv)) {
     $BaselineDefinitionCsv = Join-Path $generatedDir 'definition_birlesim_final_preserve_old.csv'
@@ -273,8 +292,8 @@ if ([string]::IsNullOrWhiteSpace($ModluDefinitionCsv)) {
 if ([string]::IsNullOrWhiteSpace($OrijinalDefinitionCsv)) {
     $OrijinalDefinitionCsv = Join-Path $worksRoot 'map_data_sources\definition_orijinal.csv'
 }
-if ([string]::IsNullOrWhiteSpace($ManualLocatorCsv)) {
-    $ManualLocatorCsv = Join-Path $worksRoot 'manual\manual_locator_provinces.csv'
+if ([string]::IsNullOrWhiteSpace($LocatorSeedCsv)) {
+    $LocatorSeedCsv = Join-Path $worksRoot 'pipeline_inputs\map\definition_marker_locator_seeds.csv'
 }
 if ([string]::IsNullOrWhiteSpace($DiffAuditCsv)) {
     $DiffAuditCsv = Join-Path $generatedDir 'current_definition_diff_audit.csv'
@@ -288,7 +307,7 @@ if ([string]::IsNullOrWhiteSpace($SummaryPath)) {
 
 $currentDefinition = Read-DefinitionFile -Path $CurrentDefinitionCsv
 $baselineDefinition = Read-DefinitionFile -Path $BaselineDefinitionCsv
-$manualLocatorIds = Read-ManualLocatorIds -Path $ManualLocatorCsv -MarkerIds $currentDefinition.ManualMarkerIds
+$locatorSeedIds = Read-LocatorSeedIds -Path $LocatorSeedCsv -MarkerIds $currentDefinition.ManualMarkerIds
 
 $masterRows = @(Import-Csv -Path $FinalMasterCsv)
 $masterById = @{}
@@ -347,7 +366,7 @@ foreach ($id in ($allIds | Sort-Object)) {
     if (-not [string]::IsNullOrWhiteSpace($currentRgb) -and $sourceByRgb.ContainsKey($currentRgb)) {
         $sourceMatches = @($sourceByRgb[$currentRgb].ToArray())
     }
-    $manualLocator = $manualLocatorIds.Contains([int]$id)
+    $manualLocator = $locatorSeedIds.Contains([int]$id)
     $duplicateCurrentRgb = (-not [string]::IsNullOrWhiteSpace($currentRgb) -and $currentDefinition.RgbCounts.ContainsKey($currentRgb) -and [int]$currentDefinition.RgbCounts[$currentRgb] -gt 1)
 
     $overrideStatus = 'audit_only'
@@ -412,7 +431,7 @@ $summaryLines.Add(('- baseline definition: `{0}`' -f $BaselineDefinitionCsv)) | 
 $summaryLines.Add(('- final master: `{0}`' -f $FinalMasterCsv)) | Out-Null
 $summaryLines.Add(('- diff audit csv: `{0}`' -f $DiffAuditCsv)) | Out-Null
 $summaryLines.Add(('- override candidates csv: `{0}`' -f $OverrideCandidatesCsv)) | Out-Null
-$summaryLines.Add(('- manual locator csv: `{0}`' -f $ManualLocatorCsv)) | Out-Null
+$summaryLines.Add(('- locator seed csv: `{0}`' -f $LocatorSeedCsv)) | Out-Null
 $summaryLines.Add('') | Out-Null
 $summaryLines.Add('## Diff Counts') | Out-Null
 $summaryLines.Add('') | Out-Null
@@ -426,9 +445,9 @@ foreach ($group in @($auditExportRows | Group-Object override_status | Sort-Obje
     $summaryLines.Add(('- `{0}`: `{1}`' -f $group.Name, $group.Count)) | Out-Null
 }
 $summaryLines.Add('') | Out-Null
-$summaryLines.Add('## Manual Locator') | Out-Null
+$summaryLines.Add('## Locator Seeds') | Out-Null
 $summaryLines.Add('') | Out-Null
-$summaryLines.Add(('- manual locator province IDs: `{0}`' -f (($manualLocatorIds | Sort-Object) -join ', '))) | Out-Null
+$summaryLines.Add(('- locator seed province IDs: `{0}`' -f (($locatorSeedIds | Sort-Object) -join ', '))) | Out-Null
 $summaryLines.Add(('- manual marker province IDs seen in definition: `{0}`' -f (($currentDefinition.ManualMarkerIds | Sort-Object) -join ', '))) | Out-Null
 $summaryLines.Add('') | Out-Null
 $summaryLines.Add('## Validation') | Out-Null

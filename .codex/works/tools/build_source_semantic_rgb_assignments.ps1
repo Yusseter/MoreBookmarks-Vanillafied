@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [string]$RepoRoot = '.'
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit')
 )
 
 Set-StrictMode -Version Latest
@@ -158,7 +158,8 @@ function Get-SuggestedRgbKeys {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$generatedDir = Join-Path $root 'Works\analysis\generated\source_semantic_overlap_audit'
+$worksRoot = Join-Path (Split-Path -Parent $root) '.codex\works'
+$generatedDir = Join-Path $worksRoot 'analysis\generated\source_semantic_overlap_audit'
 $decisionsPath = Join-Path $generatedDir 'source_rgb_overlap_semantic_decisions.csv'
 $assignmentsPath = Join-Path $generatedDir 'source_rgb_overlap_auto_rgb_assignments.csv'
 $summaryPath = Join-Path $generatedDir 'source_rgb_overlap_auto_rgb_assignments_summary.md'
@@ -172,8 +173,8 @@ $targetRows = @(
 
 $usedRgbKeys = New-Object 'System.Collections.Generic.HashSet[int]'
 Collect-UsedRgbKeysFromDefinition -Path (Join-Path $root 'map_data\definition.csv') -TargetSet $usedRgbKeys
-Collect-UsedRgbKeysFromDefinition -Path (Join-Path $root 'Works\map_data_sources\definition_modlu.csv') -TargetSet $usedRgbKeys
-Collect-UsedRgbKeysFromDefinition -Path (Join-Path $root 'Works\map_data_sources\definition_orijinal.csv') -TargetSet $usedRgbKeys
+Collect-UsedRgbKeysFromDefinition -Path (Join-Path $worksRoot 'map_data_sources\definition_modlu.csv') -TargetSet $usedRgbKeys
+Collect-UsedRgbKeysFromDefinition -Path (Join-Path $worksRoot 'map_data_sources\definition_orijinal.csv') -TargetSet $usedRgbKeys
 
 foreach ($row in $decisions) {
     if (-not [string]::IsNullOrWhiteSpace([string]$row.rgb)) {

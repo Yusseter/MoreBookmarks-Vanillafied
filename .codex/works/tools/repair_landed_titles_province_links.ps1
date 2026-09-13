@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [string]$RepoRoot = '.'
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit')
 )
 
 Set-StrictMode -Version Latest
@@ -84,11 +84,13 @@ function Normalize-ProvinceName {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
+$codexRoot = Join-Path (Split-Path -Parent $root) '.codex'
+$worksRoot = Join-Path $codexRoot 'works'
 $landedTitlesPath = Join-Path $root 'common\landed_titles\00_landed_titles.txt'
 $definitionPath = Join-Path $root 'map_data\definition.csv'
-$placeholderInventoryPath = Join-Path $root 'Works\analysis\generated\final_placeholder_inventory_preserve_old_ids.csv'
-$orijinalTrackingPath = Join-Path $root 'Works\analysis\generated\final_orijinal_tracking_preserve_old_ids.csv'
-$generatedDir = Join-Path $root 'Works\analysis\generated\landed_titles_link_repair'
+$placeholderInventoryPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_placeholder_inventory_preserve_old_ids.csv'
+$orijinalTrackingPath = Join-Path $worksRoot 'analysis\generated\province_definition\final_orijinal_tracking_preserve_old_ids.csv'
+$generatedDir = Join-Path $worksRoot 'analysis\generated\landed_titles_link_repair'
 if (-not (Test-Path -LiteralPath $generatedDir)) {
     New-Item -ItemType Directory -Path $generatedDir -Force | Out-Null
 }
@@ -266,11 +268,6 @@ for ($i = 0; $i -lt $lines.Length; $i++) {
 $outText = (($output -join "`r`n").TrimEnd() + "`r`n")
 Write-TextUtf8 -Path $landedTitlesPath -Text $outText
 
-$testCopyPath = Join-Path $root 'test_files\common\landed_titles\00_landed_titles.txt'
-if (Test-Path -LiteralPath (Split-Path -Parent $testCopyPath)) {
-    Copy-Item -LiteralPath $landedTitlesPath -Destination $testCopyPath -Force
-}
-
 $reportArray = $reportRows.ToArray()
 Export-Utf8Csv -Rows $reportArray -Path $reportPath
 
@@ -284,7 +281,6 @@ $summaryLines = @(
     '# landed_titles province link repair summary',
     '',
     ('- live file updated: `{0}`' -f $landedTitlesPath),
-    ('- test_files copy synced: `{0}`' -f (Test-Path -LiteralPath $testCopyPath)),
     ('- province assignments scanned: `{0}`' -f @($reportArray).Count),
     ('- rewritten: `{0}`' -f $rewrittenCount),
     ('- kept: `{0}`' -f $keptCount),

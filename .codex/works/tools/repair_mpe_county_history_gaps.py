@@ -1,4 +1,4 @@
-﻿from __future__ import annotations
+from __future__ import annotations
 
 import argparse
 import csv
@@ -7,15 +7,17 @@ from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
-ROOT = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+ROOT = PROJECT_ROOT / "BookmarksGit"
+WORKS_ROOT = PROJECT_ROOT / ".codex" / "works"
 MPE_ROOT = Path(r"C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\3726274827")
-OUT_DIR = ROOT / "works" / "analysis" / "generated" / "mpe_import_add_1" / "consistency_fix"
+OUT_DIR = WORKS_ROOT / "analysis" / "generated" / "mpe_import_add_1" / "consistency_fix"
 LAND_ROOT = ROOT / "common" / "landed_titles" / "00_landed_titles.txt"
 YB_PROVINCES = ROOT / "history" / "provinces" / "00_yb_MPE_PROVINCES.txt"
 YB_TITLES = ROOT / "history" / "titles" / "00_YB_MPE.txt"
 MB_PROVINCES = ROOT / "history" / "provinces" / "00_MB_PROVINCES.txt"
 MPE_PROVINCES = MPE_ROOT / "history" / "provinces" / "z_MPE_province.txt"
-ID_MAP = ROOT / "works" / "analysis" / "generated" / "mpe_import_add_1" / "mpe_import_id_map.csv"
+ID_MAP = WORKS_ROOT / "analysis" / "generated" / "mpe_import_add_1" / "mpe_import_id_map.csv"
 
 TITLE_START_RE = re.compile(r"^\s*(?P<name>[ekdcb]_[A-Za-z0-9_\-']+)\s*=\s*\{")
 PROVINCE_START_RE = re.compile(r"^\s*(?P<id>\d+)\s*=\s*\{")

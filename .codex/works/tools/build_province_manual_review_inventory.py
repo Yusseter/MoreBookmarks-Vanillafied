@@ -6,10 +6,28 @@ from pathlib import Path
 from typing import Dict, List
 
 
-REPO_ROOT = Path(__file__).resolve().parents[2]
-MASTER_PATH = REPO_ROOT / "works" / "map_data_sources" / "province_relation_master.csv"
-GENERATED_ROOT = REPO_ROOT / "works" / "analysis" / "generated" / "province_relation_mapping" / "manual_review_inventory"
-CLUSTER_REVIEW_ROOT = REPO_ROOT / "works" / "analysis" / "generated" / "province_relation_mapping" / "cluster_reviews"
+PROJECT_ROOT = Path(__file__).resolve().parents[3]
+WORKS_ROOT = PROJECT_ROOT / ".codex" / "works"
+MASTER_PATH = (
+    WORKS_ROOT
+    / "pipeline_inputs"
+    / "province_relations"
+    / "province_relation_baseline.csv"
+)
+GENERATED_ROOT = (
+    WORKS_ROOT
+    / "analysis"
+    / "generated"
+    / "province_relation_mapping"
+    / "manual_review_inventory"
+)
+CLUSTER_REVIEW_ROOT = (
+    WORKS_ROOT
+    / "analysis"
+    / "generated"
+    / "province_relation_mapping"
+    / "cluster_reviews"
+)
 
 
 def read_csv(path: Path) -> List[Dict[str, str]]:

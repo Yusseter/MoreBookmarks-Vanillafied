@@ -1,15 +1,17 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path
+    [string]$RepoRoot = (Join-Path $PSScriptRoot '..\..\..\BookmarksGit')
 )
 
 Set-StrictMode -Version Latest
 $ErrorActionPreference = 'Stop'
 
-$auditCsvPath = Join-Path $RepoRoot 'Works/analysis/generated/provinces_duplicate_rgb_audit/dual_source_rgb_presence.csv'
-$finalPngPath = Join-Path $RepoRoot 'map_data/provinces.png'
-$modPngPath = Join-Path $RepoRoot 'Works/map_data_sources/provinces_modlu_kalan.png'
-$origPngPath = Join-Path $RepoRoot 'Works/map_data_sources/provinces_orijinal_dogu.png'
-$reportDir = Join-Path $RepoRoot 'Works/analysis/generated/provinces_duplicate_rgb_diagnostics'
+$modRoot = (Resolve-Path -LiteralPath $RepoRoot).Path
+$worksRoot = Join-Path (Split-Path -Parent $modRoot) '.codex\works'
+$auditCsvPath = Join-Path $worksRoot 'analysis\generated\provinces_duplicate_rgb_audit\dual_source_rgb_presence.csv'
+$finalPngPath = Join-Path $modRoot 'map_data\provinces.png'
+$modPngPath = Join-Path $worksRoot 'map_data_sources\provinces_modlu_kalan.png'
+$origPngPath = Join-Path $worksRoot 'map_data_sources\provinces_orijinal_dogu.png'
+$reportDir = Join-Path $worksRoot 'analysis\generated\provinces_duplicate_rgb_diagnostics'
 $outCsv = Join-Path $reportDir 'dual_source_conflict_diagnostics.csv'
 $outMd = Join-Path $reportDir 'dual_source_conflict_diagnostics.md'
 
@@ -228,8 +230,8 @@ $md = @(
     '',
     '- Scope: only `live_contains_both = True` and `names_differ = True` rows',
     '- Final image: `map_data/provinces.png`',
-    '- West source image: `Works/map_data_sources/provinces_modlu_kalan.png`',
-    '- East source image: `Works/map_data_sources/provinces_orijinal_dogu.png`',
+    '- West source image: `.codex/works/map_data_sources/provinces_modlu_kalan.png`',
+    '- East source image: `.codex/works/map_data_sources/provinces_orijinal_dogu.png`',
     '',
     ('- conflict rows: `{0}`' -f $outputRows.Count),
     '',

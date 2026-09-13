@@ -33,11 +33,17 @@ class TitleBlock:
 
 
 def parse_args() -> argparse.Namespace:
-    repo_root = Path(__file__).resolve().parents[2]
+    project_root = Path(__file__).resolve().parents[3]
+    mod_root = project_root / "BookmarksGit"
+    works_root = project_root / ".codex/works"
     parser = argparse.ArgumentParser(
         description="Audit current county blocks against expected map source and vanilla/mod source blocks."
     )
-    parser.add_argument("--current-landed-titles", type=Path, default=repo_root / "common/landed_titles/00_landed_titles.txt")
+    parser.add_argument(
+        "--current-landed-titles",
+        type=Path,
+        default=mod_root / "common/landed_titles/00_landed_titles.txt",
+    )
     parser.add_argument(
         "--vanilla-landed-titles-dir",
         type=Path,
@@ -46,20 +52,39 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument(
         "--mod-landed-titles-dir",
         type=Path,
-        default=Path(r"F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit\common\landed_titles"),
+        default=project_root.parent
+        / "Leviathonlx MoreBookmarks-Plus"
+        / "BookmarksGit"
+        / "common"
+        / "landed_titles",
     )
-    parser.add_argument("--definition-csv", type=Path, default=repo_root / "map_data/definition.csv")
+    parser.add_argument(
+        "--definition-csv",
+        type=Path,
+        default=mod_root / "map_data/definition.csv",
+    )
     parser.add_argument(
         "--east-mask",
         type=Path,
-        default=repo_root / "works/map_data_sources/provinces_birlesim_dogu 2026-04-19.png",
+        default=(
+            works_root
+            / "pipeline_inputs/map/scopes/east_title_scope_2026-04-19.png"
+        ),
     )
-    parser.add_argument("--mod-kalan-mask", type=Path, default=repo_root / "works/map_data_sources/provinces_modlu_kalan.png")
-    parser.add_argument("--final-provinces", type=Path, default=repo_root / "map_data/provinces.png")
+    parser.add_argument(
+        "--mod-kalan-mask",
+        type=Path,
+        default=works_root / "map_data_sources/provinces_modlu_kalan.png",
+    )
+    parser.add_argument(
+        "--final-provinces",
+        type=Path,
+        default=mod_root / "map_data/provinces.png",
+    )
     parser.add_argument(
         "--output-dir",
         type=Path,
-        default=repo_root / "works/analysis/generated/landed_titles_source_audit",
+        default=works_root / "analysis/generated/landed_titles_source_audit",
     )
     return parser.parse_args()
 

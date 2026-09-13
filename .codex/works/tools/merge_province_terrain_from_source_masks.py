@@ -8,21 +8,33 @@ from pathlib import Path
 from PIL import Image
 
 
-REPO_ROOT_DEFAULT = Path(r"F:\Storage\Codding\git\Crusader Kings III\Yusseter MoreBookmarksPlus\BookmarksGit")
-SOURCE_MOD_ROOT_DEFAULT = Path(r"F:\Storage\Codding\git\Crusader Kings III\Leviathonlx MoreBookmarks-Plus\BookmarksGit")
+PROJECT_ROOT_DEFAULT = Path(__file__).resolve().parents[3]
+REPO_ROOT_DEFAULT = PROJECT_ROOT_DEFAULT / "BookmarksGit"
+WORKS_ROOT_DEFAULT = PROJECT_ROOT_DEFAULT / ".codex" / "works"
+SOURCE_MOD_ROOT_DEFAULT = (
+    PROJECT_ROOT_DEFAULT.parent / "Leviathonlx MoreBookmarks-Plus" / "BookmarksGit"
+)
 VANILLA_ROOT_DEFAULT = Path(r"E:\XboxGames\Crusader Kings III\Content\game")
 
 MASKS = {
-    "modlu_kalan": Path(r"works\map_data_sources\provinces_modlu_kalan 2026-04-26.png"),
-    "orijinal_dogu": Path(r"works\map_data_sources\provinces_orijinal_dogu 2026-04-26.png"),
+    "modlu_kalan": Path(
+        "pipeline_inputs/map/scopes/province_terrain_upstream_scope_2026-04-26.png"
+    ),
+    "orijinal_dogu": Path(
+        "pipeline_inputs/map/scopes/province_terrain_vanilla_scope_2026-04-26.png"
+    ),
 }
 
 PROVINCE_TERRAIN_REL = Path(r"common\province_terrain\00_province_terrain.txt")
 PROVINCE_PROPERTIES_REL = Path(r"common\province_terrain\01_province_properties.txt")
-FINAL_MASTER_REL = Path(r"works\analysis\generated\final_master_preserve_old_ids.csv")
+FINAL_MASTER_REL = Path(
+    r"analysis\generated\province_definition\final_master_preserve_old_ids.csv"
+)
 DEFINITION_REL = Path(r"map_data\definition.csv")
-LEGACY_PLACEHOLDER_DEFINITION_REL = Path(r"works\analysis\generated\definition_birlesim_final_preserve_old.csv")
-GENERATED_REL = Path(r"works\analysis\generated\province_terrain_merge")
+LEGACY_PLACEHOLDER_DEFINITION_REL = Path(
+    r"analysis\generated\province_definition\definition_birlesim_final_preserve_old.csv"
+)
+GENERATED_REL = Path(r"analysis\generated\province_terrain_merge")
 
 
 def read_text(path: Path) -> str:
@@ -238,11 +250,21 @@ def source_entry_maps(repo_root: Path, source_mod_root: Path, vanilla_root: Path
     }
 
 
-def build_merge_plan(repo_root: Path, source_mod_root: Path, vanilla_root: Path):
+def build_merge_plan(
+    repo_root: Path,
+    works_root: Path,
+    source_mod_root: Path,
+    vanilla_root: Path,
+):
     rgb_to_ids, id_to_name, id_to_rgb, duplicate_rgbs = parse_definition(repo_root / DEFINITION_REL)
-    legacy_placeholder_rgbs = parse_legacy_placeholder_rgbs(repo_root / LEGACY_PLACEHOLDER_DEFINITION_REL)
-    final_rows = parse_final_master(repo_root / FINAL_MASTER_REL)
-    masks = {subset: load_mask_rgbs(repo_root / rel_path) for subset, rel_path in MASKS.items()}
+    legacy_placeholder_rgbs = parse_legacy_placeholder_rgbs(
+        works_root / LEGACY_PLACEHOLDER_DEFINITION_REL
+    )
+    final_rows = parse_final_master(works_root / FINAL_MASTER_REL)
+    masks = {
+        subset: load_mask_rgbs(works_root / rel_path)
+        for subset, rel_path in MASKS.items()
+    }
     entries = source_entry_maps(repo_root, source_mod_root, vanilla_root)
 
     rgb_membership = defaultdict(list)
@@ -548,14 +570,26 @@ def summarize(report_rows, issue_rows):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument("--repo-root", type=Path, default=REPO_ROOT_DEFAULT)
+    parser.add_argument(
+        "--repo-root",
+        "--mod-root",
+        dest="repo_root",
+        type=Path,
+        default=REPO_ROOT_DEFAULT,
+    )
+    parser.add_argument("--works-root", type=Path, default=WORKS_ROOT_DEFAULT)
     parser.add_argument("--source-mod-root", type=Path, default=SOURCE_MOD_ROOT_DEFAULT)
     parser.add_argument("--vanilla-root", type=Path, default=VANILLA_ROOT_DEFAULT)
     parser.add_argument("--write", action="store_true")
     parser.add_argument("--write-reports", action="store_true")
     args = parser.parse_args()
 
-    plan, report_rows, issue_rows, entries = build_merge_plan(args.repo_root, args.source_mod_root, args.vanilla_root)
+    plan, report_rows, issue_rows, entries = build_merge_plan(
+        args.repo_root,
+        args.works_root,
+        args.source_mod_root,
+        args.vanilla_root,
+    )
     summary = summarize(report_rows, issue_rows)
     blockers = [row for row in issue_rows if str(row["status"]).startswith("blocker_")]
 
@@ -567,7 +601,7 @@ def main():
         print("write skipped because blockers exist")
         args.write = False
 
-    generated_root = args.repo_root / GENERATED_REL
+    generated_root = args.works_root / GENERATED_REL
     if args.write or args.write_reports:
         write_csv(
             generated_root / "province_terrain_merge_report.csv",
@@ -592,13 +626,9 @@ def main():
 
         live_terrain = args.repo_root / PROVINCE_TERRAIN_REL
         live_properties = args.repo_root / PROVINCE_PROPERTIES_REL
-        test_terrain = args.repo_root / "test_files" / PROVINCE_TERRAIN_REL
-        test_properties = args.repo_root / "test_files" / PROVINCE_PROPERTIES_REL
 
         write_text(live_terrain, terrain_text)
         write_text(live_properties, property_text)
-        write_text(test_terrain, terrain_text)
-        write_text(test_properties, property_text)
 
 
 if __name__ == "__main__":

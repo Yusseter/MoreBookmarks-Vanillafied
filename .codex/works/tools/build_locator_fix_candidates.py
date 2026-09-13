@@ -85,8 +85,8 @@ class ProvinceGeometry:
         return max(self.max_x - self.min_x, self.max_y - self.min_y, 32)
 
 
-def repo_root() -> Path:
-    return Path(__file__).resolve().parents[2]
+def project_root() -> Path:
+    return Path(__file__).resolve().parents[3]
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -547,9 +547,12 @@ def confidence_for_candidate(
 
 
 def build_candidates() -> dict[str, int]:
-    root = repo_root()
-    audit_dir = root / "works" / "analysis" / "generated" / "map_object_locator_audit"
-    locator_dir = root / "gfx" / "map" / "map_object_data"
+    root = project_root()
+    mod_root = root / "BookmarksGit"
+    audit_dir = (
+        root / ".codex" / "works" / "analysis" / "generated" / "map_object_locator_audit"
+    )
+    locator_dir = mod_root / "gfx" / "map" / "map_object_data"
 
     compact_rows = read_csv(audit_dir / COMPACT_PROBLEM_FILE)
     near_rows = read_csv(audit_dir / COMPACT_NEAR_FILE)
@@ -586,12 +589,12 @@ def build_candidates() -> dict[str, int]:
 
     target_rows = list(target_by_key.values())
 
-    definition, rgb_to_ids = read_definition(root / "map_data" / "definition.csv")
+    definition, rgb_to_ids = read_definition(mod_root / "map_data" / "definition.csv")
     landed_province_ids = parse_landed_title_barony_provinces(
-        root / "common" / "landed_titles" / "00_landed_titles.txt"
+        mod_root / "common" / "landed_titles" / "00_landed_titles.txt"
     )
 
-    image = Image.open(root / "map_data" / "provinces.png").convert("RGB")
+    image = Image.open(mod_root / "map_data" / "provinces.png").convert("RGB")
     width, height = image.size
     pixels = image.load()
     image_present = set(image.getdata())

@@ -540,17 +540,18 @@ function Get-BaronyAssignments {
     return $rows.ToArray()
 }
 
-$repoRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..')).Path
-$generatedRoot = Join-Path $repoRoot 'Works\analysis\generated\landed_titles_full_source_repair'
+$projectRoot = (Resolve-Path (Join-Path $PSScriptRoot '..\..\..')).Path
+$codexRoot = Join-Path $projectRoot '.codex'
+$modRoot = Join-Path $projectRoot 'BookmarksGit'
+$generatedRoot = Join-Path $codexRoot 'works\analysis\generated\landed_titles_full_source_repair'
 New-Item -ItemType Directory -Path $generatedRoot -Force | Out-Null
 
 $paths = @{
-    LiveLanded = Join-Path $repoRoot 'common\landed_titles\00_landed_titles.txt'
-    TestLanded = Join-Path $repoRoot 'test_files\common\landed_titles\00_landed_titles.txt'
-    FinalModlu = Join-Path $repoRoot 'Works\analysis\generated\final_modlu_tracking_preserve_old_ids.csv'
-    FinalOrijinal = Join-Path $repoRoot 'Works\analysis\generated\final_orijinal_tracking_preserve_old_ids.csv'
-    SplitAssignments = Join-Path $repoRoot 'Works\analysis\generated\source_semantic_staging_fix\source_semantic_same_id_split_id_assignments.csv'
-    DefaultMap = Join-Path $repoRoot 'map_data\default.map'
+    LiveLanded = Join-Path $modRoot 'common\landed_titles\00_landed_titles.txt'
+    FinalModlu = Join-Path $codexRoot 'works\analysis\generated\province_definition\final_modlu_tracking_preserve_old_ids.csv'
+    FinalOrijinal = Join-Path $codexRoot 'works\analysis\generated\province_definition\final_orijinal_tracking_preserve_old_ids.csv'
+    SplitAssignments = Join-Path $codexRoot 'works\analysis\generated\source_semantic_staging_fix\source_semantic_same_id_split_id_assignments.csv'
+    DefaultMap = Join-Path $modRoot 'map_data\default.map'
     ModSource = 'C:\Program Files (x86)\Steam\steamapps\workshop\content\1158310\2216670956\0backup\common\landed_titles\00_landed_titles.txt'
     Vanilla00 = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt'
     Vanilla01 = 'C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\01_japan.txt'
@@ -700,7 +701,6 @@ if (@($duplicateRows).Count -gt 0) {
 }
 
 Write-TextUtf8Bom -Path $paths.LiveLanded -Text $rebuiltText
-Write-TextUtf8Bom -Path $paths.TestLanded -Text $rebuiltText
 
 $summaryLines = New-Object System.Collections.Generic.List[string]
 $summaryLines.Add('# Managed Landed Titles Rebuild') | Out-Null

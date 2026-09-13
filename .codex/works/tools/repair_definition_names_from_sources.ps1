@@ -1,5 +1,5 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path,
+    [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
     [string]$MasterCsv = '',
     [string]$ModluDefinitionCsv = '',
     [string]$OrijinalDefinitionCsv = '',
@@ -153,8 +153,8 @@ function Repair-DefinitionFile {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated'
-$mapDataDir = Join-Path $root 'map_data'
+$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated\province_definition'
+$mapDataDir = Join-Path $root 'map_data_sources'
 
 if ([string]::IsNullOrWhiteSpace($MasterCsv)) {
     $MasterCsv = Join-Path $generatedDir 'final_master_preserve_old_ids.csv'

@@ -37,8 +37,11 @@ STATUS_PRIORITY = {
 
 
 def parse_args() -> argparse.Namespace:
-    repo_root = Path(__file__).resolve().parents[2]
-    default_dir = repo_root / "works/analysis/generated/landed_titles_source_audit"
+    project_root = Path(__file__).resolve().parents[3]
+    default_dir = (
+        project_root
+        / ".codex/works/analysis/generated/landed_titles_source_audit"
+    )
     parser = argparse.ArgumentParser(description="Build a compact county source manual-review worklist CSV.")
     parser.add_argument("--audit-csv", type=Path, default=default_dir / "county_source_audit.csv")
     parser.add_argument("--fix-plan-csv", type=Path, default=default_dir / "county_source_fix_plan.csv")

@@ -1,5 +1,5 @@
 param(
-    [string]$RepoRoot = (Get-Location).Path,
+    [string]$RepoRoot = (Split-Path -Parent $PSScriptRoot),
     [string]$AssignmentCsv = '',
     [string]$AssignmentPlaceholderCsv = '',
     [string]$MasterCsv = '',
@@ -40,7 +40,7 @@ function As-Bool {
 }
 
 $root = (Resolve-Path -LiteralPath $RepoRoot).Path
-$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated'
+$generatedDir = Join-Path (Join-Path $root 'analysis') 'generated\province_definition'
 
 if ([string]::IsNullOrWhiteSpace($AssignmentCsv)) {
     $AssignmentCsv = Join-Path $generatedDir 'id_policy_preserve_old_assignments.csv'

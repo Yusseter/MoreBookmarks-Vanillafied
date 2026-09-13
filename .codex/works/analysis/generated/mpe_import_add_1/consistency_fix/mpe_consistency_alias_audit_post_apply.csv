@@ -1,6 +1,0 @@
-old_mpe_barony,replacement_barony,old_mpe_id,donor_final_id,target_old_id,target_county,target_title_count,target_active_province,target_definition_name,donor_title_count,donor_active_title_paths,donor_definition_name,status
-b_gialta,b_yalta,22830,13359,9837,c_kerch,1,9837,Yalta,0,,"Gialta, MPE_22830",ok
-b_symbolon,b_yamboli,22831,13360,9836,c_kerch,1,,Yamboli,1,e_byzantium > k_pontus > d_klimata > c_cherson > b_symbolon,"Symbolon, MPE_22831",blocker_donor_still_title_associated
-b_phoros,b_mangup,22832,13361,9835,c_kerch,1,9835,Mangup,0,,"Phoros, MPE_22832",ok
-b_anapa,b_batacrim,21385,12922,9838,c_tmutarakan,1,9838,BataCrim,1,e_caspian-pontic_steppe > k_khazaria > d_tmutarakan > c_tmutarakan > b_anapa,"Anapa, MPE_21385",blocker_donor_still_title_associated
-b_soldaia,b_sukdak,22833,13362,9833,c_theodosia,1,9837,Sougdaia,1,e_byzantium > k_pontus > d_cherson > c_kerch > b_soldaia,"Soldaia, MPE_22833",blocker_donor_still_title_associated

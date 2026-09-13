@@ -1,3 +1,0 @@
-county_id,decision,reason,expected_source,current_block_source,source_block_path,current_start_line,current_end_line,source_start_line,source_end_line,current_province_ids,source_province_ids,current_color_count,source_color_count,color_change_count
-c_deqen,apply_color_only,safe_color_only,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:69004,91064,91079,69004,69017,9316 9317,9316 9317,3,3,1
-c_quqen,apply_color_only,safe_color_only,vanilla,vanilla_closest,C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game\common\landed_titles\00_landed_titles.txt:69843,91941,91989,69843,69891,9464 9467 9466 9465,9464 9467 9466 9465,5,5,1

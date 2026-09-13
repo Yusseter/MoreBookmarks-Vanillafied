@@ -1,7 +1,0 @@
-county,capital_barony,capital_province,current_value_source,assigned_levi_donor_county,donor_mode,levi_donor_capital_barony,levi_donor_capital_province,levi_donor_landed_titles_exists,levi_donor_title_history_exists,levi_donor_capital_province_history_exists,needs_user_donor_mapping,needs_reapply_from_levi,status
-c_anket,b_mozdok,13318,mpe_source:21446,,missing_user_or_same_levi_donor,,,no,no,no,yes,no,needs_user_levi_donor_mapping
-c_avaria,b_kubachi,13342,current_capital_history,,missing_user_or_same_levi_donor,,,no,no,no,yes,no,needs_user_levi_donor_mapping
-c_darginia,b_zirichgeran,13343,mpe_source:21475,,missing_user_or_same_levi_donor,,,no,no,no,yes,no,needs_user_levi_donor_mapping
-c_lezgin,b_lezgin,13347,mpe_source:21478,,missing_user_or_same_levi_donor,,,no,no,no,yes,no,needs_user_levi_donor_mapping
-c_maskut,b_kuba,13350,mpe_source:21482,,missing_user_or_same_levi_donor,,,no,no,no,yes,no,needs_user_levi_donor_mapping
-c_ubykh,b_ubykh,13313,mpe_source:21441,,missing_user_or_same_levi_donor,,,no,no,no,yes,no,needs_user_levi_donor_mapping

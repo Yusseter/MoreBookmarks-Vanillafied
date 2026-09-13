@@ -1,5 +1,0 @@
-action,source_title,source_county,target_county,description
-alias_replace,,,,Replace MPE alias barony keys with old Levi barony keys while preserving old province IDs.
-kerch_semantic_remap,,,,Move MPE c_kerch content into active c_korchev; keep current c_kerch as old Levi c_cherson/c_kerch identity.
-move_barony,b_targim,,c_ossetia,User b_targin note resolves to active b_targim; move it under c_ossetia.
-move_county_children,,c_lazia,c_avaria,"Move immediate c_lazia barony children into c_avaria, then disable empty c_lazia."

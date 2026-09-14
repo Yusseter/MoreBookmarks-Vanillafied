@@ -106106,7 +106106,7 @@ e_japan = { # Localized as Nippon
 		ai_primary_priority = {
 			if = {
 				limit = {
-					culture = culture:yamato
+					culture = culture:japanese
 				}
 				add = @correct_culture_primary_score
 			}

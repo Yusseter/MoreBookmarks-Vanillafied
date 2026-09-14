@@ -64523,8 +64523,9 @@ c_zuining = {
 	}
 	738.5.23 = {
 		holder = YiTribesYangch2
-		liege = d_tonghai
+		liege = k_dali # Yusseter: d_shicheng geçişi
 	}
+	748.1.1 = { liege = d_tonghai }
 	769.11.18 = {
 		holder = YiTribesYangch3
 	}

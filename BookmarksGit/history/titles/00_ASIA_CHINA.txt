@@ -781,6 +781,27 @@ k_guannei = {
 	1329.9.18 = {
 		holder = Chucai7  # Yelü Abaoji succeeds his father Ruan
 	}
+
+	# Yusseter: Merged k_yongxingjun_china history.
+	#Song
+
+	961.1.1 = { holder = 1400343 liege = h_china  } #Wang Yanchao
+	964.1.1 = { holder = 1401026 } #Wu Tingzuo
+	#971.5.20 = { name = "Guanxi" }
+	971.5.20 = { holder = zhuojun_zhao_008 } #Zhao Tingmei
+	976.11.21 = { holder = yidu_xu_001 liege = h_china } #Xu Zhongxuan
+	977.1.1 = { holder = 0 }
+	997.4.12 = { holder = xiaoyi_zhao_002 }
+	1018.1.1 = { holder = shanggu_kou_223 }
+	1031.8.13 = { holder = fengqiu_zhao_03 } #Zhao He
+	1033.5.25 = { holder = 0 }
+	1065.6.1 = { holder = wannian_wang_004 } #Wang Tao
+	1081.1.1 = { holder = henan_lv_037 }
+	1099.1.1 = { holder = qiantang_yu_002 }
+	1120.1.1 = { holder = ruyang_ren_001 } #Ren Liang
+	1130.1.1 = { holder = song_general_024 }
+	1132.5.15 = { holder = fucheng_liu_005 }
+	1144.1.1 = { holder = 0 }
 }
 
 # EAST_TITLE_REWRITE_COLLISION: Yusseter: k_zhou_china, k_jingxi, k_liang_china, k_bianjing, k_henan to k_henan
@@ -933,30 +954,6 @@ k_hebei = {
 	1220.1.1 = {
 		holder = 0
 	}
-}
-
-# EAST_TITLE_REWRITE_COLLISION: direct k_yongxingjun_china -> k_guannei; same-run duplicate target in history_titles; manual merge needed.
-k_guannei = {
-
-	#Song
-
-	961.1.1 = { holder = 1400343 liege = h_china  } #Wang Yanchao
-	964.1.1 = { holder = 1401026 } #Wu Tingzuo
-	#971.5.20 = { name = "Guanxi" }
-	971.5.20 = { holder = zhuojun_zhao_008 } #Zhao Tingmei
-	976.11.21 = { holder = yidu_xu_001 liege = h_china } #Xu Zhongxuan
-	977.1.1 = { holder = 0 }
-	997.4.12 = { holder = xiaoyi_zhao_002 }
-	1018.1.1 = { holder = shanggu_kou_223 }
-	1031.8.13 = { holder = fengqiu_zhao_03 } #Zhao He
-	1033.5.25 = { holder = 0 }
-	1065.6.1 = { holder = wannian_wang_004 } #Wang Tao
-	1081.1.1 = { holder = henan_lv_037 }
-	1099.1.1 = { holder = qiantang_yu_002 }
-	1120.1.1 = { holder = ruyang_ren_001 } #Ren Liang
-	1130.1.1 = { holder = song_general_024 }
-	1132.5.15 = { holder = fucheng_liu_005 }
-	1144.1.1 = { holder = 0 }
 }
 
 # EAST_TITLE_REWRITE_COLLISION: Yusseter: k_jinghubei, k_jingnan, k_jingxinan, k_huguang to k_shannan
@@ -24165,8 +24162,8 @@ k_qianzhong = {
 	
 		name = "k_ziqi"
 		effect = {
-			set_coa = k_ziqi
-			set_capital_county = c_siyuan
+			set_coa = k_qianzhong
+			set_capital_county = title:c_siyuan
 		}
 	}
 	1136.1.1 = { holder = SEAsiaMB584	}
@@ -24180,7 +24177,7 @@ k_qianzhong = {
 		reset_name = yes
 		effect = {
 			reset_coa = yes
-			set_capital_county = c_luodian
+			set_capital_county = title:c_luodian
 		}
 	}
 }

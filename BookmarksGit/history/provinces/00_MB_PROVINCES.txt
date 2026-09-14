@@ -5493,21 +5493,7 @@ religion = tengri_pagan
 	}
 }
 
-563 = {	#563 - Taganrog
-	
-	# Misc
-	culture = mogyer
-	religion = tengri_pagan
-	
-	# History
-	895.1.1 = { culture = pecheneg }
-	1046.1.1 = { culture = torkil }
-	1060.1.1 = { culture = cuman }
-	1227.1.1 = { religion = maturidi } 
-	1300.1.1 = {
-		culture = crimean
-	}
-}
+# Yusseter: province 563 was repurposed as b_karoia; its active history is in 00_yb_MPE_PROVINCES.txt.
 
 564 = {	#564 - Bakhmut
 	
@@ -6640,7 +6626,8 @@ religion = nakh_pagan
 	# Misc
 	culture = caucasian_avar
 	religion = nakh_pagan
-	holding = tribal_holding
+	# Yusseter: preserve the asil-mod timeline while using the MPE holding after the hierarchy relocation.
+	holding = nomad_holding
 	# History
 	1317.1.1 = {
 		religion = maturidi	
@@ -43218,15 +43205,8 @@ religion = tengri_pagan
 	holding = none
 }
 
-5302 = {	#Tatartopa
-	#old name of a city founnd on XVIIIth maps
-	holding = none
-}
-
-5303 = {	#Besinada
-	#city according to XVIIIth maps
-	holding = none
-}
+# Yusseter: provinces 5302 and 5303 were repurposed as b_digora and b_besinada;
+# their active histories are in 00_yb_MPE_PROVINCES.txt.
 
 5304 = {	#Balanjar
 	holding = city_holding
@@ -43246,16 +43226,7 @@ holding = tribal_holding
 
 }
 
-5306 = {	#Durdzukia
-	#city and region
-	holding = none
-	#1066.1.1 = {
-	#	holding = church_holding
-	#}
-	1187.1.1 = {
-		holding = church_holding
-	}
-}
+# Yusseter: province 5306 was repurposed as b_gumse; its active history is in 00_yb_MPE_PROVINCES.txt.
 
 5307 = {	#Kizlyar
 	holding = none
@@ -43511,13 +43482,7 @@ religion = tengri_pagan
 	}
 }
 
-5342 = {	#Sambalut
-	holding = none
-	#holding = city_holding
-	1187.1.1 = {
-		holding = city_holding
-	}
-}
+# Yusseter: province 5342 was repurposed as b_gumik; its active history is in 00_yb_MPE_PROVINCES.txt.
 
 5343 = {	#5343 - Samiran
 	

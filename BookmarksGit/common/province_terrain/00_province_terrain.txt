@@ -9120,7 +9120,6 @@ default_coastal_sea=coastal_sea
 9831=hills
 9832=forest
 9833=mountains
-9834=mountains
 9835=mountains
 9836=mountains
 9837=mountains

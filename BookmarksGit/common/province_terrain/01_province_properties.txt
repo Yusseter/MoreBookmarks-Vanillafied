@@ -10825,7 +10825,6 @@
 9831 ={ winter_severity_bias = 0.0 } #Oropioi
 9832 ={ winter_severity_bias = 0.4 } #Kimmerikon
 9833 ={ winter_severity_bias = 0.8 } #Sougdaia
-9834 ={ winter_severity_bias = 0.8 } #Alouston
 9835 ={ winter_severity_bias = 0.8 } #Mangup
 9836 ={ winter_severity_bias = 0.8 } #Yamboli
 9837 ={ winter_severity_bias = 0.8 } #Yalta

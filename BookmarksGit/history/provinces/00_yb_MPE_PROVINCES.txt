@@ -586,10 +586,6 @@ religion = khabzism
 
 }
 
-13314 = { #b_sochi # Yusseter: MPE_21442
-	holding = none
-}
-
 13315 = { #b_sulak # Yusseter: MPE_21443
 	holding = none
 }
@@ -914,21 +910,9 @@ religion = nakh_pagan
 	}
 }
 
-603 = { # b_zaur # Yusseter: MPE province history asil_mod donor c_cabardinia/603
-	culture = alan
-	religion = alan_pagan
-	holding = tribal_holding
-	965.1.2 = {
-		religion = georgian_orthodox
-	}
-	1187.1.1 = {
-		holding = castle_holding
-	}
-}
+# Yusseter: b_zaur/603 uses existing asil_mod history in 00_MB_PROVINCES.txt.
 
-675 = { # b_kumukh # Yusseter: MPE province history donor c_philan/13322
-	holding = nomad_holding
-}
+# Yusseter: b_kumukh/675 uses the consolidated asil-mod timeline and MPE holding in 00_MB_PROVINCES.txt.
 
 5342 = { # b_gumik # Yusseter: MPE province history donor c_samander/5305
 	

@@ -229,7 +229,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 #Asia;;;;;;;;
 #From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 #Japan;;;;;;;;
--1;-1;;-1;-1;-1;-1;-1;
 9550;9554;river_large;8610;-1;-1;-1;-1;Pagan-Myitche
 9588;9590;river_large;8608;5969;1608;-1;-1;Sriksetra-Thayetmyo
 9599;9626;river_large;8607;6015;1501;-1;-1;Krapan-Bogale
@@ -374,3 +373,4 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 10647;10643;sea;12633;7749;2227;7801;2287;Hokomazu-Amami
 10536;10539;sea;12596;7819;2677;7803;2657;Kishima-Jikajima
 11397;11398;sea;12723;-1;-1;-1;-1;-1
+-1;-1;;-1;-1;-1;-1;-1;

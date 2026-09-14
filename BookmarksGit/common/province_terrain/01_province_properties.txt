@@ -3,6 +3,8 @@
 @afghan_mountains = 0.60
 @azerbaijan_mountains = 0.40
 @the_alps = 0.80
+@khingan_mountains = 1.00
+@changbai_sikhote_mountains = 0.90
 
 1 ={ winter_severity_bias = 0.9 } #VESTFIRDIR
 2 ={ winter_severity_bias = 0.9 } #REYKJAVIK

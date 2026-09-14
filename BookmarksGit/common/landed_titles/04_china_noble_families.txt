@@ -1,4 +1,6 @@
 ﻿# New noble family for the custom character in Song of Splendor bookmark
+@never_primary_score = -1000
+
 c_nf_new_noble_dynasty = {
     color = { 100 100 100 }
     capital = c_yangzhou

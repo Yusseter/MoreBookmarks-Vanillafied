@@ -610,7 +610,6 @@ antioch_pentarch_region = {
 		d_monyul
 		d_lhoyul
 		d_dzayul
-		d_xia
 		d_langshan
 		d_zhenfan
 		d_liangzhou
@@ -659,6 +658,9 @@ antioch_pentarch_region = {
 		d_kucha
 		d_bayad
 		
+	}
+	counties = {
+		c_huaiyuan
 	}
 }
 

@@ -15,20 +15,20 @@ global_flood_region = {
 ### ASIA
 yellow_river_region = { # Yellow River
 	counties = {
-		c_binzhou_china c_dizhou c_dezhou c_bozhou_1 c_weizhou c_chanzhou_china c_weizhou_1 c_huaizhou c_mengzhou_china c_shanzhou_2 c_hezhong c_tongzhou c_tongguan_china c_henan c_zhengzhou c_huazhou c_puzhou_2 c_yunzhou c_jizhou_liang_china c_qizhou c_zichuan c_danzhou c_cizhou
+		c_hejian c_jizhou c_dizhou c_dezhou c_bozhou_1 c_weizhou c_xiangzhou c_weizhou_1 c_huaizhou c_jiangzhou_2 c_shanzhou_2 c_hezhong c_tongzhou c_huayin c_henan c_zhengzhou c_huazhou c_puzhou_2 c_yunzhou c_beizhou c_xingzhou c_qizhou c_zichuan c_danzhou c_cizhou
 		
 	}
 }
 yangtze_river_region = { # Yangtze River
 	counties = {
 # EAST_TITLE_REWRITE_SECOND_REFERENCE: c_jiangzhou_wu_china has second mapping to c_nankang; manual review needed.
-		c_nantong_china c_taizhou_1 c_yangzhou c_chuzhou_2 c_liyang_2 c_lujiang c_shuzhou c_qizhou_1 c_huangzhou c_hanyang c_fuzhou_3 c_jiangling c_jingmen c_xiazhou_1 c_liyang c_langzhou c_yuezhou_1 c_ezhou c_yunyang c_chizhou c_taiping c_jiangning c_runzhou c_changzhou c_suzhou_2
+		c_taizhou_1 c_yangzhou c_chuzhou_2 c_chuzhou_1 c_liyang_2 c_lujiang c_shouzhou c_shuzhou c_qizhou_1 c_huangzhou c_hanyang c_fuzhou_3 c_jiangling c_xiangyang c_xiazhou_1 c_liyang c_langzhou c_yuezhou_1 c_ezhou c_yunyang c_chizhou c_jiangning c_runzhou c_changzhou c_suzhou_2
 	}
 }
 pearl_river_region = { # Pearl River
 	counties = {
 # EAST_TITLE_REWRITE_SECOND_REFERENCE: c_yulinzhou_china has second mapping to c_baizhou; manual review needed.
-		c_dongguan c_guangzhou_1 c_kangzhou c_wuzhou_1 c_gongzhou c_hengzhou_1 c_yongzhou_1 c_jinlongzhou_china c_qinzhou_2 c_yulin c_xunzhou_2 c_tengzhou c_shuangzhou c_xinzhou_1
+		c_dongguan c_guangzhou_1 c_kangzhou c_wuzhou_1 c_gongzhou c_hengzhou_1 c_yongzhou_1 c_rangzhou c_binh_nguyen c_tianzhou c_qinzhou_2 c_yulin c_xunzhou_2 c_tengzhou c_shuangzhou c_xinzhou_1
 	}
 }
 tigris_river_region = { # Tigris River
@@ -38,12 +38,12 @@ tigris_river_region = { # Tigris River
 }
 irrawaddy_river_region = { # Irrawaddy River
 	counties = {
-		c_takon c_myedu c_hanlin c_sagaing c_pakokku c_salin c_minbu c_mindon c_myede c_kanaung c_pantanaw c_myaungmya c_bogale c_dala c_tharrawaddy c_sriksetra c_beikthano c_magwe c_pagan c_ava c_madaya c_hinthada
+		c_takon c_hanlan c_sagaing c_yamethin c_minbu c_sriksetra c_magwe c_pagan c_ava c_madaya c_hinthada c_dagon c_kusumi c_pegu
 	}
 }
 mekong_river_region = { # Mekong River
 	counties = {
-		c_ca_mau c_can_tho c_angkor_borey c_dviradapura c_prey_nokor c_sambhupura c_thala_borivat c_stung_treng c_kracheh_nokor c_vyadhapura c_sadek c_binh_dai c_ubon_ratchathani c_pakse c_khemarat c_kampong_kdei
+		c_ca_mau c_angkor_borey c_pursat c_sambhupura c_koh_ker c_prea_vihear c_stung_treng c_kracheh_nokor c_vyadhapura c_baigaur c_binh_dai c_ubon_ratchathani c_sanasomboon
 	}
 }
 amur_river_region = { # Amur River
@@ -216,7 +216,7 @@ himalaya_earthquake_region = {
 # 13 in e_bengal, 34 in k_pagan, 2 in k_dvaravati, 12 in e_tibet, 23 in e_liangyi, 82 in total. give it same level as himalaya.
 sichuan_myanmar_earthquake_region = {
 	kingdoms = {
-		k_pagan k_shan k_laos k_dali
+		k_pagan k_mongnai k_dali
 	}
 	duchies = {
 		# k_kamarupa
@@ -228,6 +228,8 @@ sichuan_myanmar_earthquake_region = {
 		# k_bengal
 		c_suvarnagram
 		c_samatata c_karmanta c_harikela
+		# Former k_laos footprint in the current projection
+		c_luang_prabang c_moeng_long c_sam_nuea c_vien_chan
 	}
 }
 # about 100 counties
@@ -265,7 +267,7 @@ north_pacific_earthquake_region = {
 
 world_asia_southeast_islands_weak_earthquake_region = {
 	kingdoms = {
-		k_tanjungnagara k_burune k_sulu k_tarakan k_banjar
+		k_tanjungnagara
 	}
 }
 world_asia_north_east_and_korea_weak_earthquake_region = {

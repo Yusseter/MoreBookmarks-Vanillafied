@@ -24,8 +24,8 @@ tgp_cao_region = {
 	}
 }
 tgp_chen_region = {
-	duchies = {
-		d_anqing
+	counties = {
+		c_huaining c_anzhou c_qizhou_1 c_ezhou c_huangzhou c_hanyang
 	}
 }
 tgp_cheng_region = {
@@ -50,7 +50,10 @@ tgp_dao_region = {
 }
 tgp_deng_region = {
 	duchies = {
-		d_nanyang_china d_xiangdeng
+		d_xiangdeng
+	}
+	counties = {
+		c_ruzhou c_shangzhou
 	}
 }
 tgp_di_region = {
@@ -81,7 +84,7 @@ tgp_gui_region = {
 }
 tgp_guo_region = {
 	duchies = {
-		d_shaanguo_china
+		d_shanguo
 	}
 }
 tgp_han_region = {
@@ -121,7 +124,7 @@ tgp_ji_region = {
 }
 tgp_ji_hebei_region = {
 	kingdoms = {
-		k_zhao_china 
+		k_hebei
 	}
 }
 tgp_jiao_region = {
@@ -171,7 +174,10 @@ tgp_liao_region = {
 }
 tgp_lu_region = {
 	duchies = {
-		d_yihai_china
+		d_yanhai
+	}
+	counties = {
+		c_xuzhou_1 c_qizhou c_yunzhou c_zichuan
 	}
 }
 tgp_min_region = {
@@ -191,7 +197,7 @@ tgp_peng_region = {
 }
 tgp_qi_region = {
 	duchies = {
-		d_denglai_china d_ziqing
+		d_ziqing
 	}
 }
 tgp_qi_guannei_region = {
@@ -201,7 +207,7 @@ tgp_qi_guannei_region = {
 }
 tgp_qian_region = {
 	kingdoms = {
-		k_qianzhong k_luodian
+		k_qianzhong
 	}
 }
 tgp_qin_region = {
@@ -246,7 +252,7 @@ tgp_tan_region = {
 }
 tgp_tang_region = {
 	duchies = {
-		d_hedong d_yiding_china
+		d_hedong d_yideng
 	}
 	counties = {
 		c_tangzhou
@@ -289,7 +295,10 @@ tgp_xiang_region = {
 }
 tgp_xing_region = {
 	duchies = {
-		d_xingming d_xiangwei_china
+		d_xingming
+	}
+	counties = {
+		c_weizhou_1 c_longde c_huaizhou c_zezhou
 	}
 }
 tgp_xu_region = {
@@ -314,7 +323,10 @@ tgp_yang_region = {
 }
 tgp_yin_region = {
 	duchies = {
-		d_xingming d_xiangwei_china d_heyang d_jianning
+		d_xingming d_heyang d_jianning
+	}
+	counties = {
+		c_longde c_zezhou
 	}
 }
 tgp_ying_region = {
@@ -354,7 +366,10 @@ tgp_yue_2_region = {
 }
 tgp_zhao_region = {
 	duchies = {
-		d_xingming d_xiangwei_china d_chengde d_cangjing
+		d_xingming d_chengde d_cangjing
+	}
+	counties = {
+		c_weizhou_1 c_longde c_huaizhou c_zezhou
 	}
 }
 tgp_zheng_region = {
@@ -375,12 +390,12 @@ tgp_zou_region = {
 
 tgp_duchy_chinese_naming_region = {
 	kingdoms = {
-		k_hedong k_guannei k_longxi_china k_zhao_china k_huainan
+		k_hedong k_guannei k_longxi_china k_hebei k_huainan
 	}
 }
 
 tgp_county_chinese_naming_region = {
 	kingdoms = {
-		k_qingxu k_liang_china k_henan
+		k_qingxu k_henan
 	}
 }

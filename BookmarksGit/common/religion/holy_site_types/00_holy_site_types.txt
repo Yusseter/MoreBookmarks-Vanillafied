@@ -2412,7 +2412,7 @@ madminiya = {
 	}
 	
 tatartopa = {
-	county = c_cabardinia
+	county = c_digoria
 	barony = b_tatartopa
 	
 	character_modifier = {
@@ -2423,7 +2423,7 @@ tatartopa = {
 }
 
 kakovka = {
-	county = c_oleshye
+	county = c_kamyan
 	barony = b_kakovka
 	
 	character_modifier = {
@@ -3442,7 +3442,7 @@ caucasian_albania = {
 }
 
 ciscaucasia = {
-	county = c_derbent
+	county = c_maskut
 	barony = b_kuba
 
 	character_modifier = {
@@ -3871,7 +3871,7 @@ zizipuwu = {
 
 taihe = {
 	county = c_dali
-	barony = b_dali
+	barony = b_dali_1
 
 	character_modifier = {
 		name = holy_site_taihe_effect_name
@@ -3892,7 +3892,7 @@ lugu_lake = {
 }
 
 kengtung = {
-	county = c_kengtung
+	county = c_moeng_laem
 
 	character_modifier = {
 		name = holy_site_kengtung_effect_name
@@ -4001,7 +4001,7 @@ hsenwi = {
 	}
 }
 chiang_mai = {
-	county = c_chiang_mai
+	county = c_haripunjaya
 	#barony = b_samosir
 
 	character_modifier = {
@@ -5652,7 +5652,7 @@ odishi = {
 }
 
 abaza = {
-	county = c_maghas
+	county = c_besinada
 	barony = b_etzeri
 
 	character_modifier = {
@@ -6574,7 +6574,7 @@ wudang_shan = {
 }
 maoshan = {
 	county = c_runzhou
-	barony = b_zhangqiu
+	barony = b_jintan
 
 	character_modifier = {
 		monthly_piety_gain_mult = 0.1
@@ -7310,8 +7310,8 @@ koya = { # Mount Koya
 }
 
 haguro = { # Mount Haguro
-	county = c_mogami
-	barony = b_okitama
+	county = c_tokisara
+	barony = b_tokisara
 
 	character_modifier = {
 		name = holy_site_haguro_effect_name

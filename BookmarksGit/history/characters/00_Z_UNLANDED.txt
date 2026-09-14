@@ -195,8 +195,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12467
-					origin = province:12467
+					location = province:13028
+					origin = province:13028
 					inheritable = yes
 				}
 				spawn_army = {
@@ -206,8 +206,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12467
-					origin = province:12467
+					location = province:13028
+					origin = province:13028
 					inheritable = yes
 				}
 				spawn_army = {
@@ -217,8 +217,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12467
-					origin = province:12467
+					location = province:13028
+					origin = province:13028
 					inheritable = yes
 				}
 				spawn_army = {
@@ -235,8 +235,8 @@
 						type = crossbowmen
 						stacks = 8
 					}
-					location = province:12467
-					origin = province:12467
+					location = province:13028
+					origin = province:13028
 					inheritable = yes
 				}
 			}
@@ -308,8 +308,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12412
-					origin = province:12412
+					location = province:12283
+					origin = province:12283
 					inheritable = yes
 				}
 				spawn_army = {
@@ -319,8 +319,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12412
-					origin = province:12412
+					location = province:12283
+					origin = province:12283
 					inheritable = yes
 				}
 				spawn_army = {
@@ -330,8 +330,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12412
-					origin = province:12412
+					location = province:12283
+					origin = province:12283
 					inheritable = yes
 				}
 				spawn_army = {
@@ -348,8 +348,8 @@
 						type = crossbowmen
 						stacks = 8
 					}
-					location = province:12412
-					origin = province:12412
+					location = province:12283
+					origin = province:12283
 					inheritable = yes
 				}
 			}
@@ -397,8 +397,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12229
-					origin = province:12229
+					location = province:10399
+					origin = province:10399
 					inheritable = yes
 				}
 				spawn_army = {
@@ -408,8 +408,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12229
-					origin = province:12229
+					location = province:10399
+					origin = province:10399
 					inheritable = yes
 				}
 				spawn_army = {
@@ -419,8 +419,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12229
-					origin = province:12229
+					location = province:10399
+					origin = province:10399
 					inheritable = yes
 				}
 				spawn_army = {
@@ -437,8 +437,8 @@
 						type = crossbowmen
 						stacks = 8
 					}
-					location = province:12229
-					origin = province:12229
+					location = province:10399
+					origin = province:10399
 					inheritable = yes
 				}
 			}
@@ -486,8 +486,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12174
-					origin = province:12174
+					location = province:12378
+					origin = province:12378
 					inheritable = yes
 				}
 				spawn_army = {
@@ -497,8 +497,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12174
-					origin = province:12174
+					location = province:12378
+					origin = province:12378
 					inheritable = yes
 				}
 				spawn_army = {
@@ -508,8 +508,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12174
-					origin = province:12174
+					location = province:12378
+					origin = province:12378
 					inheritable = yes
 				}
 				spawn_army = {
@@ -526,8 +526,8 @@
 						type = crossbowmen
 						stacks = 8
 					}
-					location = province:12174
-					origin = province:12174
+					location = province:12378
+					origin = province:12378
 					inheritable = yes
 				}
 			}
@@ -575,8 +575,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12805
-					origin = province:12805
+					location = province:10422
+					origin = province:10422
 					inheritable = yes
 				}
 				spawn_army = {
@@ -586,8 +586,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12805
-					origin = province:12805
+					location = province:10422
+					origin = province:10422
 					inheritable = yes
 				}
 				spawn_army = {
@@ -597,8 +597,8 @@
 						type = handpicked_faithful
 						stacks = 4
 					}
-					location = province:12805
-					origin = province:12805
+					location = province:10422
+					origin = province:10422
 					inheritable = yes
 				}
 				spawn_army = {
@@ -615,8 +615,8 @@
 						type = crossbowmen
 						stacks = 8
 					}
-					location = province:12805
-					origin = province:12805
+					location = province:10422
+					origin = province:10422
 					inheritable = yes
 				}
 			}

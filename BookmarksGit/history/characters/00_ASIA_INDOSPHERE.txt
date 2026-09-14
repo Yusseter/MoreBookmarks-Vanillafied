@@ -6942,15 +6942,15 @@ bai006 = {
 			spawn_army = {
 				name = event_troop_default_name
 				levies = 1075
-				location = province:10678
-				origin = province:10678
+				location = province:11488
+				origin = province:11488
 				war = scope:starting_dali_war
 			}
 			spawn_army = {
 				name = event_troop_default_name
 				levies = 1075
-				location = province:10678
-				origin = province:10678
+				location = province:11488
+				origin = province:11488
 				war = scope:starting_dali_war
 			}
 		}
@@ -163252,14 +163252,14 @@ hedong_kew_001 = { #高永年 Gao Yongnian. 河東路蕃官如京副使 until 10
 				inheritable = yes
 				name = mongol_event_troops
 				levies = 1000
-				location = province:9546
-				origin = province:9546
+				location = province:12157
+				origin = province:12157
 			}
 			spawn_army = {
 				name = event_troop_default_name
 				levies = 2000
-				location = province:9546
-				origin = province:9546
+				location = province:12157
+				origin = province:12157
 				inheritable = yes
 			}
 		}

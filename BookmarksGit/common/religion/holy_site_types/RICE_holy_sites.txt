@@ -65,7 +65,7 @@ kataragama = {
 # From ROA
 
 zwegabin = {
-	county = c_mawlamyine
+	county = c_thaton
 	barony = b_mawlamyine
 
 	character_modifier = {

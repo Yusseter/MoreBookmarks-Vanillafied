@@ -8021,31 +8021,6 @@ d_qiongguan = {
 	1066.1.1 = {change_development_level = 10 }
 	# Yusseter 0
 	750.1.1 = { government = tribal_government }
-	769.1.1 = {  holder = SEAsiaMMB200 liege = d_lingnan	}
-	820.1.1 = {  holder = SEAsiaMMB201	}
-	840.1.1 = {  holder = SEAsiaMMB202	}
-	860.1.1 = {  holder = SEAsiaMMB203	}
-	900.1.1 = {  holder = SEAsiaMMB204	}
-	902.1.13 = { liege = h_china }
-	917.9.5 = { liege = e_lingnan }
-	930.1.1 = {  holder = SEAsiaMMB205	}
-	955.1.1 = {  holder = SEAsiaMMB206	}
-	971.3.4 = { liege = d_lingnan }
-	980.1.1 = {  holder = SEAsiaMMB207	}
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: d_guiguan_china has second mapping to d_jingjiang; manual review needed.
-	997.1.1 = { liege = d_guiguan }
-	1005.1.1 = { holder = SEAsiaMMB208	}
-	1040.1.1 = { holder = SEAsiaMMB209	}
-	1070.1.1 = { holder = SEAsiaMMB210	}
-	1100.1.1 = { holder = SEAsiaMMB211	}
-	1115.1.1 = { holder = SEAsiaMMB212	}
-	1140.1.1 = { holder = SEAsiaMMB213	}
-	1180.1.1 = { holder = SEAsiaMMB214	}
-	1210.1.1 = { holder = SEAsiaMMB215	}
-	1250.1.1 = { holder = SEAsiaMMB216	}
-	1286.1.1 = { liege = d_eyue }
-	1300.1.1 = { holder = SEAsiaMMB217	}
-	1310.1.1 = { holder = SEAsiaMMB218	}
 	#861.1.1 = {
 	#	liege = h_china
 	#	government = feudal_government

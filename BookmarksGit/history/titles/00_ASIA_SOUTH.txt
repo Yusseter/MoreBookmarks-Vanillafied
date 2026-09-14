@@ -46985,7 +46985,7 @@ k_dvaravati = {
 		holder=1000202034 #Indraditya
 		government = mandala_government
 		name = "k_sukhothai"
-		effect = { set_coa = k_sukhothai }
+		# Yusseter: Keep the projected title CoA because k_sukhothai is not a separate title here.
 	}
 	1270.1.1 = {
 		holder=1000202035 #Ban-Muang
@@ -63689,7 +63689,7 @@ k_mongnai = {
 
 	1115.1.1 = {
 		name = "k_mong_mao"
-		effect = { set_coa = "k_mong_mao" }
+		# Yusseter: Keep the projected title CoA because k_mong_mao is not a separate title here.
 	}
 	1115.1.1 = { holder = Mongmao0	 }
 	1112.1.1 = { holder = Mongmao1	 }

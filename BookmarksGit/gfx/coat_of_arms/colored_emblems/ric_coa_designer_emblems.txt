@@ -60,7 +60,7 @@ ce_majapahit_02.dds = { colors = 2 category = ric_generic }
 ce_makara_01.dds = { colors = 2 category = ric_generic }
 ce_makara_02.dds = { colors = 1 category = ric_generic }
 ce_makara_03.dds = { colors = 2 category = ric_generic }
-ce_malayari_01.dds = { colors = 1 category = ric_generic }
+ce_malyari_01.dds = { colors = 1 category = ric_generic }
 ce_mandalay_01.dds = { colors = 1 category = ric_generic }
 ce_naga_01.dds = { colors = 1 category = ric_generic }
 ce_naga_02.dds = { colors = 1 category = ric_generic }

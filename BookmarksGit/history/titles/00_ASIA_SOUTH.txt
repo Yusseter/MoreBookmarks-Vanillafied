@@ -38981,7 +38981,7 @@ k_pagan = {
 	#}
 	1299.5.11 = { # Yusseter
 		holder = 80000035
-		name = "k_myinsaing" effect = { set_coa = k_myinsaing }
+		name = "k_myinsaing" effect = { set_coa = k_pagan }
 	}
 	1310.2.19 = { # Yusseter
 		holder = 80000036

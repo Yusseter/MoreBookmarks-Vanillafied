@@ -24,14 +24,15 @@ first = {
 	arrow_type = "silkRoadArrow"
 	# Chang'an to Dunhuang
 	provinces = {
-		12743 # Chang'an (Ziwuguan) # Due to special building restrictions in Chang'an and Chuxian
-		12819
-		12813
-		12811
-		12841
-		12846
-		12919
-		12972
+		12218 # Chang'an (Zhouzhi)
+		12206
+		12205
+		12356
+		12357
+		12359
+		12354
+		12360
+		12368 # Lanzhou
 		9526
 		9523
 		9516
@@ -132,17 +133,26 @@ fourth = {
 	is_primary = yes
 	arrow_type = "silkRoadArrow"
 	provinces = {
-		12743 # Chang'an (Ziwuguan) # Due to special building restrictions in Chang'an and Chuxian
-		12689
-		12634
-		12649
-		12664
-		12602
-		12546
-		12506
-		12412
+		12218 # Chang'an (Zhouzhi)
+		8787
+		8788
+		8789
+		8790
+		13107
+		8795
+		8800
+		8338
+		8528
+		7513
+		12284
+		12283 # Chengdu
+		12452
+		12291
 		12292
-		9330
+		12281
+		12282
+		12269
+		12277
 		9334 # Now entering Tibet
 		9335
 		9325
@@ -243,29 +253,27 @@ sixth = {
 seventh = {
 	arrow_type = "silkRoadArrow"
 	provinces = {
-		12784 # Guangzhou
-		11811
-		11896
-		12004
-		12111
-		12163
-		12169
-		12229
-		12224
-		12253
-		12288
-		12403
-		12476
-		12465
-		12400
-		12345
-		12261
-		12252
-		12335
-		12350
-		12382
-		12364
-		12412	
+		8892 # Nanhai
+		12982
+		8963
+		8961
+		8965
+		8970
+		12989 # Changsha
+		10399
+		10323
+		12097
+		12095
+		12092
+		8782
+		8784
+		8776
+		8780
+		10446
+		8756
+		13019
+		12958
+		12283 # Chengdu
 	}
 }
 
@@ -306,6 +314,15 @@ ninth = {
 		673
 		9900
 		5759
+	}
+}
+
+# Vanilla east: Nanhai to Chengdu
+yb_vanilla_east_ninth = {
+	arrow_type = "silkRoadArrow"
+	provinces = {
+		8892 # Nanhai
+		12283 # Chengdu
 	}
 }
 
@@ -418,38 +435,25 @@ fifthteenth = {
 	arrow_type = "silkRoadArrow"
 
 	provinces = {
-		12398
-		14182
-		12370
-		14181
-		12376
-		14180
-		12240
-		14176
-		14175
-		12166
-		12162
-		14183
-		12203
-		12089
-		12064
-		12012
-		11991
-		11928
-		11868
-		11807
-		11808
-		12974
-		12939
-		12869
-		12837
-		12834
-		12859
-		12857
-		12829
-		12801
-		12743
-		
+		7074 # Beijing
+		7077
+		7114
+		12446
+		10360
+		10363
+		10362
+		10357
+		10469
+		10472 # Kaifeng
+		10471
+		8801 # Luoyang
+		12326
+		9073
+		12324
+		10418
+		13038
+		10430 # Chang'an
+		12218 # Chang'an (Zhouzhi)
 	}
 }
 
@@ -520,22 +524,18 @@ nineteenth = {
 twentieth = {
 	arrow_type = "silkRoadArrow"
 	provinces = {
-	
-		12368 # Hangzhou
-		12386
-		12489
-		12520
-		12545	
-		12569
-		12618
-		14164
-		12627
-		12643
-		12687
-		12740
-		12796
-		12869
-
+		10326 # Suzhou
+		10330
+		10332
+		8935
+		8936
+		13009
+		10377
+		9274
+		9391
+		9542
+		9218
+		10472 # Kaifeng
 	}
 }
 
@@ -543,22 +543,11 @@ twentieth = {
 twentyfirst = {
 	arrow_type = "silkRoadArrow"
 	provinces = {
-		10824 # Van Don
-		10867 # Thanh Long
-		10814
-		10886
-		11346
-		11349
-		11339
-		10896
-		13102
-		13086 # Kunming
-		10675 # Dali
-		13062
+		10869 # Dali
+		10875
 		9316
 		9314
 		9310
-		
 		9303 # Lhatok
 	}
 }
@@ -599,96 +588,10 @@ twentythird = {
 
 # Southern China route Dai Viet (Thanh Long) to Changsha, Hanzhou, Dali (for Dali section replacing vanilla 'Gonjo to Dali' so arrow goes in correct direction)
 
-twentyfourth = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-		10824 # Van Don
-		10885
-		10883
-		12668
-		12708
-		12713
-		14134
-		12775
-		14130
-		11785
-		11788
-		11893
-		11939
-		12004 # Hengyang
-	}
-}
 
-twentyfifth = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-		12708 # Nanning
-		12684
-		12612
-		14136
-		12640
-		14142
-		12654
-		12720
-		12784 # Guangzhou
-	}
-}
 
-twentysixth = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-		13086 # Kunming
-		13084
-		10893
-		11327
-		10465 # Yibin
-		10468
-		12260
-		12311
-		12412 # Chengdu
-	}
-}
 
-twentyseventh = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-		12203 # Beijing/Youzhou
-		12262
-		12285
-		12299
-		12232 # Datong
-		12154
-		12109
-		12189
-		12301
-		12338
-		12343 #Tiande
-		9537
-		9542
-		9543
-		9546
-		11944
-		11890
-		11764
-		12972 # Lanzhou
-	}
-}
 
-twentyeighth = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-		12972 # Lanzhou
-		9419
-		9432
-		9433
-		9438
-		9451
-		9449
-		9448
-		9306
-		9302 # Qamdo
-	}
-}
 
 twentyninth = {
 	arrow_type = "silkRoadArrow"
@@ -715,33 +618,7 @@ twentyninth = {
 	}
 }
 
-thirtieth = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-		11820 # Quanzhou -- Since it seemed really wrong for Quanzhou to have no route. This was one of the major port cities though maybe the intent was to add it when the maritime routes get added
-		11907
-		12112
-		12106
-		12201
-		12149
-		12121
-		12077
-		12074
-		12111 # Changsha
-	}
-}
 
-thirtyfirst = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-		11820 # Quanzhou -- Since it seemed really wrong for Quanzhou to have no route. This was one of the major port cities though maybe the intent was to add it when the maritime routes get added
-		12956
-		11818
-		12948
-		11813
-		11811 # Shaoguan (chose this over Guangzhou, the other route in this direction, to not connect start points)
-	}
-}
 
 thirtysecond = {
 	arrow_type = "silkRoadArrow"
@@ -783,19 +660,6 @@ thirtyfourth = {
 	}
 }
 
-thirtyfifth = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-		12075 # Lanzhou
-		12026
-		11990
-		11938
-		12979
-		12959
-		12873
-		12829 # Tongguan Pass
-	}
-}
 
 thirtysixth = {
 	arrow_type = "silkRoadArrow"
@@ -1019,60 +883,5 @@ fiftyfirst = {
 		6042 # Cairo
 		6055
 		6053 # Alexandria
-	}
-}
-
-fiftysecond = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-		10675 # Dali/Yunnan
-		13043
-		13039
-		9643
-		10967
-		9550
-		9575
-		9588
-		11061
-		11534
-		9627
-		11540
-		12995
-		13051
-		10638
-		10632
-		13348
-		11559
-		13444 # Angkor
-	}
-}
-
-fiftythird = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-
-		13170 # Kundrung
-		13157
-		13397
-		11452
-		11457
-		10613
-		13444 # Angkor
-		
-	}
-}
-
-fiftyfourth = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-
-		9643 # Tagaung
-		11752
-		9658
-		853
-		831
-		
-		1319 # Bikrampur
-		
 	}
 }

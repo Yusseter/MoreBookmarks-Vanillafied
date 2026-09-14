@@ -38,7 +38,6 @@ tgp_silk_road_downstream_effect = {
 				# Secondary
 				situation_sub_region:region_silk_road_proper_tibet = { add_to_temporary_list = second_sub_regions }
 				situation_sub_region:region_silk_road_proper_central_asia = { add_to_temporary_list = second_sub_regions }
-				situation_sub_region:region_silk_road_proper_sea = { add_to_temporary_list = second_sub_regions }
 				# Tertiary
 				situation_sub_region:region_silk_road_proper_india = { add_to_temporary_list = third_sub_regions }
 				situation_sub_region:region_silk_road_proper_transcaspia = { add_to_temporary_list = third_sub_regions }
@@ -93,14 +92,6 @@ tgp_silk_road_downstream_effect = {
 			situation:silk_road_situation = {
 				# Secondary
 				situation_sub_region:region_silk_road_proper_occident = { add_to_temporary_list = second_sub_regions }
-			}
-		}
-		
-		# SEA
-		situation:silk_road_situation.situation_sub_region:region_silk_road_proper_sea = {
-			situation:silk_road_situation = {
-				# Secondary
-				situation_sub_region:region_silk_road_proper_india = { add_to_temporary_list = second_sub_regions }
 			}
 		}
 	}

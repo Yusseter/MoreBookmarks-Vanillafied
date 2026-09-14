@@ -257,20 +257,6 @@ neutral_situation.0008 = { # OCCIDENT
 	}
 }
 
-neutral_situation.0009 = { # SEA - MB
-	hidden = yes
-	scope = situation
-	trigger = { exists = situation:silk_road_situation }
-	immediate = {
-		situation:silk_road_situation.situation_sub_region:region_silk_road_proper_sea = { tgp_silk_road_downstream_effect = yes }
-		# Finally, queue the event up again for a year hence.
-		trigger_event = {
-			id = neutral_situation.0003 # India
-			months = 2
-		}
-	}
-}
-
 neutral_situation.0007 = { # INNOVATION SETUP
 	hidden = yes
 	scope = situation
@@ -320,9 +306,6 @@ neutral_situation.0007 = { # INNOVATION SETUP
 			situation_sub_region:region_silk_road_proper_transcaspia = {
 				set_variable = { name = innovation value = scope:innovation_3 }
 			}
-			situation_sub_region:region_silk_road_proper_sea = {
-				set_variable = { name = innovation value = scope:innovation_3 }
-			}
 			situation_sub_region:region_silk_road_proper_occident = {
 				set_variable = { name = innovation value = scope:innovation_4 }
 			}
@@ -365,9 +348,6 @@ neutral_situation.0007 = { # INNOVATION SETUP
 				situation_sub_region:region_silk_road_proper_india = {
 					set_variable = { name = innovation value = culture_innovation:innovation_waterworks }
 				}
-				situation_sub_region:region_silk_road_proper_sea = {
-					set_variable = { name = innovation value = culture_innovation:innovation_waterworks }
-				}
 				situation_sub_region:region_silk_road_proper_transcaspia = {
 					set_variable = { name = innovation value = culture_innovation:innovation_waterworks }
 				}
@@ -394,9 +374,6 @@ neutral_situation.0007 = { # INNOVATION SETUP
 				situation_sub_region:region_silk_road_proper_india = {
 					set_variable = { name = innovation value = culture_innovation:innovation_champa_rice }
 				}
-				situation_sub_region:region_silk_road_proper_sea = {
-					set_variable = { name = innovation value = culture_innovation:innovation_champa_rice }
-				}
 				situation_sub_region:region_silk_road_proper_transcaspia = {
 					set_variable = { name = innovation value = culture_innovation:innovation_champa_rice }
 				}
@@ -421,9 +398,6 @@ neutral_situation.0007 = { # INNOVATION SETUP
 					set_variable = { name = innovation value = culture_innovation:innovation_pharmacopoeia }
 				}
 				situation_sub_region:region_silk_road_proper_india = {
-					set_variable = { name = innovation value = culture_innovation:innovation_coking }
-				}
-				situation_sub_region:region_silk_road_proper_sea = {
 					set_variable = { name = innovation value = culture_innovation:innovation_coking }
 				}
 				situation_sub_region:region_silk_road_proper_transcaspia = {

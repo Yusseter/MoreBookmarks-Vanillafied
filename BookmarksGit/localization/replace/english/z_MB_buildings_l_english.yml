@@ -21,13 +21,6 @@
  building_constantinople_market_02: "Sprawling Bazaar of Constantinople"
  building_constantinople_market_02_desc: "The unrivaled mistress of trade, Constantinople stands at the confluence of continents. As the ultimate western terminus of the Silk Road, this market receives the great caravans and maritime fleets of the East, controlling the flow of luxury goods into all of Europe and the Mediterranean. Its wealth is matched only by its strategic importance."
  
- building_type_angkor_market_01: "$building_angkor_market_01$"
- building_type_angkor_market_01_desc: "$building_angkor_market_01_desc$"
- building_angkor_market_01: "Bazaar of Angkor"
- building_angkor_market_01_desc: "Situated at the heart of the great Khmer Empire, this bazaar serves as the bustling commercial center of the peninsula. Goods flow through the royal cities and into its markets, connecting the wealth of inland Southeast Asia to the maritime world."
- building_angkor_market_02: "Sprawling Bazaar of Angkor"
- building_angkor_market_02_desc: "Situated at the heart of the great Khmer Empire, this bazaar serves as the bustling commercial center of the peninsula. Goods flow through the royal cities and into its markets, connecting the wealth of inland Southeast Asia to the maritime world."
- 
 ########################################################################################################################MB
  #Bronze works
  building_type_wap_bronze_industry_01: "Bronze Work Industry"

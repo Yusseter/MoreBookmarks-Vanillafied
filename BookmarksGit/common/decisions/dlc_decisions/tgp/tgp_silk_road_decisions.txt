@@ -35,7 +35,6 @@ visit_silk_road_market_decision = {
 			silk_road_valid_market_to_visit_trigger = { SUB_REGION = transcaspia }
 			silk_road_valid_market_to_visit_trigger = { SUB_REGION = occident }
 			silk_road_valid_market_to_visit_trigger = { SUB_REGION = middle_east }
-			silk_road_valid_market_to_visit_trigger = { SUB_REGION = sea }
 		}
 	}
 
@@ -438,61 +437,6 @@ visit_silk_road_market_decision = {
 				}
 			}
 		}
-		
-		item = { # Angkor
-			value = c_angkor
-			is_shown = { always = yes }
-			is_valid = {
-				custom_tooltip = {
-					text = no_building_at_silk_road_market_desc
-					title:c_angkor = {
-						any_county_province = { has_building_with_flag = silk_road_node }
-					}
-	            }
-				custom_tooltip = {
-					text = no_available_innovation_at_silk_road_market_desc
-					silk_road_valid_market_to_visit_trigger = { SUB_REGION = sea }
-	            }
-			}
-			localization = visit_silk_road_market_decision_dvin
-			icon = "gfx/interface/icons/travel/icon_travel_silk_road_marketplace.dds"
-			ai_chance = {
-				value = 1
-				if = {
-					limit = {
-						root.location = {
-							squared_distance = {
-								target = title:c_angkor.title_province
-								value <= squared_distance_small
-							}
-						}
-					}
-					multiply = 10
-				}
-				if = {
-					limit = {
-						root.location = {
-							squared_distance = {
-								target = title:c_angkor.title_province
-								value <= squared_distance_large
-							}
-						}
-					}
-					multiply = 2
-				}
-				if = {
-					limit = {
-						root.location = {
-							squared_distance = {
-								target = title:c_angkor.title_province
-								value > squared_distance_huge
-							}
-						}
-					}
-					multiply = 0.1
-				}
-			}
-		}
 	}
 
 	effect = {
@@ -521,9 +465,6 @@ visit_silk_road_market_decision = {
 			
 			scope:c_baghdad = { # Baghdad
 				title:c_baghdad = { tgp_silk_road_decision_scope_effect = yes }
-			}
-			scope:c_angkor = { # Angkor
-				title:c_angkor = { tgp_silk_road_decision_scope_effect = yes }
 			}
 		}
 		if = {
@@ -622,7 +563,6 @@ visit_silk_road_market_decision = {
 				silk_road_valid_market_to_visit_trigger = { SUB_REGION = occident }
 				
 				silk_road_valid_market_to_visit_trigger = { SUB_REGION = middle_east }
-				silk_road_valid_market_to_visit_trigger = { SUB_REGION = sea }
 			}
 		}
 	}

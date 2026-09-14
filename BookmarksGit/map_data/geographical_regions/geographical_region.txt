@@ -4395,7 +4395,6 @@ dlc_tgp_silk_road_route_region = { # the actual route (lines)
 		#
 		
 		dlc_tgp_silk_road_route_mideast
-		dlc_tgp_silk_road_route_sea
 
 	}
 }
@@ -4412,41 +4411,20 @@ tgp_silk_road_region = { # These determine the 'regions' of the Silkroad situati
 		#
 		
 		tgp_silk_road_mideast_region
-		tgp_silk_road_sea_region
 	}
 }
 
-tgp_silk_road_china_region = { # 
+tgp_silk_road_china_region = {
 	kingdoms = {
-		k_xia_china
-		k_viet
-		k_lingnan
-		k_hunan
-		k_fujian
-		k_liangzhe
-		k_huainan
-		k_qianzhong
-		k_xichuan
-		k_xingyuan
-		k_guannei
-		k_shannan
-		k_henan
-		k_qingxu
-		k_hedong
-		k_youji
-		k_daibei
-		k_khitan
-		k_goguryeo
-		k_dali
-		k_hebei
+		k_henan k_qingxu k_hebei k_hedong k_youji k_daibei k_guannei
+		k_jiangdong k_liangzhe k_fujian k_huainan k_jiangxi k_shannan
+		k_hunan k_xichuan k_xingyuan k_dongchuan k_kuizhou k_qianzhong
+		k_lingnan k_lingxi k_dali k_viet
 	}
 	duchies = {
-		d_qincheng d_langshan
+		# Yusseter: Vanilla k_guannei split.
+		d_fengxiang d_qincheng d_xingfeng
 	}
-	counties = {
-		c_chengzhou
-	}
-	# Yusseter: No current title counterpart: k_tay_bac k_weichu k_dian k_laos
 }
 
 tgp_silk_road_tibet_region = {
@@ -4503,7 +4481,8 @@ tgp_silk_road_india_region = {
 
 tgp_silk_road_central_asia_region = {
 	kingdoms = {
-		#k_xia
+		# Yusseter: Vanilla k_xia is projected under k_xia_china.
+		k_xia_china
 		#Always thought it weird Dzungaria and Zhetysu weren't part of the Silk Road
 		k_zhetysu
 		k_dzungaria
@@ -4612,24 +4591,6 @@ tgp_silk_road_mideast_region = {
 	}
 }
 
-tgp_silk_road_sea_region = {
-	kingdoms = {
-		k_tagaung
-		k_pagan
-		k_arakan
-		k_haripunjaya
-		k_chenla
-		k_loeu
-		k_champa
-		k_dvaravati
-		k_pegu
-		k_shan
-		k_funan
-		k_thaton
-	}
-}
-
-
 #tgp_silk_road_south_india_region = {
 #	kingdoms = {
 #		k_maharastra
@@ -4645,80 +4606,46 @@ tgp_silk_road_sea_region = {
 dlc_tgp_silk_road_route_china = {
 	should_remember_counties_order = yes
 	counties = {
-	
-	
-		# Liaoyang to Lanzhou
-		
-		c_LIAO_shenyang
-		c_LIAO_xianzhou
-		c_LIAO_jinzhou
-		c_lnj_liaoxi
-		c_pinzhou
-		c_luanzhou_yan_china
-		c_jizhou_1
+	# Bejing to Weizhou, via Kaifeng and Chang'an
 		c_youzhou # Beijing
+		c_zhuozhou
 		c_mozhou
-		c_qingzhou_hebei_china
-		c_cangzhou
-		c_jingzhou_wei_china
+		c_hejian
+		c_jizhou
 		c_beizhou
 		c_bozhou_1
 		c_weizhou
-		c_chanzhou_china
+		c_puzhou_2
 		c_huazhou
-		c_bianzhou
+		c_bianzhou # Kaifeng
 		c_zhengzhou
 		c_henan
 		c_shanzhou_2
-		c_tongguan_china
+		c_guozhou
 		c_huayin
-		c_jingzhao # Chang'an -- Trade Post
+		c_jingzhao # Chang'an
 		c_fengxiang
 		c_longzhou_2
 		c_qinzhou_1
 		c_weizhou_2
-		c_didao_xizhou_china
-		c_lanzhou_1 # Lanzhou -- To Central Asia Route
-		
-		#Hangzhou to Kaifeng #For some reason Paradox started at Suzhou instead of Hangzhou
-		
-		c_hangzhou
-		c_xiuzhou
-		c_suzhou_2
-		c_changzhou
-		c_runzhou
-		c_jiangning
-		c_chuzhou_2
-		c_haozhou
-		c_shouzhou_song_china
-		c_yingzhou
-		c_huaining
-		c_yingchuan
-		# c_bianzhou
-		
-		# Chang'an to Chengdu (Tibet route)
-		
-		# c_jingzhao
+	# Chang'an to Chengdu
 		c_yangzhou_1
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_nanzheng_china has second mapping to c_jizhou_2; manual review needed.
 		c_xingyuan
-		c_xingqing
 		c_lizhou_2
 		c_jianzhou_1
 		c_mianzhou
+		c_tongchuan
 		c_hanzhou
 		c_chengdu
-		c_qingchengshan_china
 		c_qiongzhou
-		c_yazhou_2 # Yazhou -- To Tibet Route
-		
-		# Chendu to Nanhai
-		
+		c_meizhou
+		c_yazhou_2
+		c_qiongbu
+	# Chengdu to Nanhai, via Changsha
 		# c_chengdu
 		c_jianyang
-		c_tongchuan
+		c_puzhou
 		c_suining
-		c_hezhou_ba_china
 		c_yuzhou_2
 		c_fuzhou_4
 		c_zhongzhou
@@ -4726,117 +4653,30 @@ dlc_tgp_silk_road_route_china = {
 		c_kuizhou
 		c_guizhou
 		c_xiazhou_1
-		c_jiangling
 		c_liyang
 		c_yuezhou_1
-		c_tanzhou
+		c_tanzhou # Changsha
 		c_hengzhou
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_chenzhou_hunan_china has second mapping to c_guiyang; manual review needed.
 		c_chenzhou_1
-		c_shaozhou_1
-		c_guangzhou_1
-		
-		# Dali to Lhatok
-		
-		c_dali # Dali
+		c_lianzhou
+		c_yingde
+		c_guangzhou_1 # Nanhai
+	# Kaifeng to Suzhou
+		# c_bianzhou # Kaifeng
+		c_huaining
+		c_songzhou
+		c_bozhou
+		c_yingzhou
+		c_haozhou
+		c_chuzhou_2
+		c_yangzhou
+		c_jiangning
+		c_runzhou
+		c_changzhou
+		c_suzhou_2 # Suzhou
+	#Dali to Tibet
+		c_dali
 		c_jianchuan
-		c_deqen	# Deqen -- To Tibet Route
-		
-		
-		# MB added - Southern routes for Thanh Long
-		
-		c_kinh_mon # Van Don
-		c_thang_long
-		c_bac_ha
-		c_lang_giang
-		c_lang_son
-		c_rangzhou
-		c_yongzhou_1
-		c_qinzhou_2
-		c_hengzhou_1
-		c_gongzhou
-		c_liuzhou
-		c_guizhou_1
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_yongzhou_hunan_china has second mapping to c_quanzhou_2; manual review needed.
-		c_yongzhou
-		
-		c_lianzhou_1
-		c_luozhou
-		c_gaozhou
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_nanenzhou_china has second mapping to c_chunzhou; manual review needed.
-		c_enzhou
-		c_xinzhou_1
-		c_shuangzhou
-		
-		c_lam_thao
-		c_yen_bai
-		c_muze
-		c_dzi_khe
-		c_tonghai
-		c_anning_yn
-		c_lu_khuon
-		c_huichuan
-		c_xiangcheng
-		c_maso
-		c_chengji
-		
-		c_jianchang_1
-		c_khuo
-		c_quzhou_1
-		c_yinzhou_1
-		c_jiazhou
-		c_meizhou
-		
-		c_tanzhou_2
-		c_guizhou_2
-		c_hongzhou_2
-		c_datong_2
-		c_yingzhou_5
-		c_shuozhou
-		c_lanzhou
-		c_fuzhou
-		c_linzhou
-		c_shengzhou
-		c_lxj_yunneizhou
-		c_tiande
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_langshan has second mapping to c_lxj_fengzhou; manual review needed.
-		c_langshan
-		c_keyimen
-		c_huaiyuan
-		c_lingzhou
-		c_xiongzhou
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_huizhou_china has second mapping to c_wulan; manual review needed.
-		c_huizhou
-		
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_quanzhou_china has second mapping to c_xinghua; manual review needed.
-		c_quanzhou
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_fuzou_china has second mapping to c_funing; manual review needed.
-		c_fuzhou_1
-		c_wenzhou_2
-		c_chuzhou
-		c_xin_an
-		c_xinhzou
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_fuzhou_jiangxi_china has second mapping to c_jianchang; manual review needed.
-		c_fuzhou_2
-# EAST_TITLE_REWRITE_SECOND_REFERENCE: c_yunzhou_jiangxi_china has second mapping to c_linjiang; manual review needed.
-		c_yunzhou_2
-		c_yuanzhou
-		
-		c_zhangzhou
-		c_tingzhou
-		c_meizhou_1
-		c_xunzhou
-		
-		c_xianzhou_china
-		c_taiyuan
-		c_fenzhou
-		c_pingyang
-		c_jiangzhou_2
-		c_hezhong
-		
-		c_yongchang_yongchang
-		
-		
 	}
 }
 
@@ -4881,6 +4721,7 @@ dlc_tgp_silk_road_route_tibet = {
 		# c_lhatok
 		c_gonjo
 		c_markam # Markam -- To China Route
+		c_deqen # Deqen -- To Dali Route
 		
 		#
 		
@@ -5076,6 +4917,7 @@ dlc_tgp_silk_road_route_central_asia = {
 		c_fanhe
 		c_liangzhou
 		c_guangwu # Yongdeng -- To China Route
+		c_lanzhou_1 # Lanzhou -- To China Route
 		
 		#
 		
@@ -5385,60 +5227,6 @@ dlc_tgp_silk_road_route_mideast = {
 		c_alexandria
 	}
 }
-
-dlc_tgp_silk_road_route_sea = {
-	should_remember_counties_order = yes
-	counties = {
-		
-		c_yang_wen_dun
-		c_zhen_xi
-		c_myitkyina
-		c_bhamo
-		c_myataung
-		c_takon
-		c_madaya
-		c_kyaukse
-		c_ava
-		c_pagan
-		c_magwe
-		c_beikthano
-		c_myede
-		c_sriksetra
-		c_tharrawaddy
-		c_dagon
-		c_pegu
-		c_sittaung
-		c_thaton
-		c_mawlamyine
-		c_thanbyuzayat
-		c_dawei
-		c_nong_lu
-		c_kanchanaburi
-		c_nakhon_pathom
-		c_ayutthaya
-		c_dong_si_mahosot
-		c_kabin_buri
-		c_sra_kaeo
-		c_neang
-		c_chhmar
-		c_angkor
-		
-		c_binh_dai
-		c_sadek
-		c_can_tho
-		c_angkor_borey
-		c_dviradapura
-		c_pursat
-		c_bakan
-		
-		c_hanlan
-		c_thaungdut
-		
-	
-	}
-}
-
-
 
 ##### END SILK ROAD
 

@@ -1,5 +1,5 @@
 # Auto generated file, do not edit manually. Created using console command dump_bookmark_portraits
-# History database id:10125010
+# History database id:japanese_minamoto_murakami_12
 bookmark_japan_morofusa_toshifusa={
 	type=male
 	id=68078

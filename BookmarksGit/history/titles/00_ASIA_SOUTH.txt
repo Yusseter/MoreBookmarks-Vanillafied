@@ -58002,10 +58002,8 @@ k_viet = {
 	#862.1.1 = { holder = 0 } #Cai Xi
 	#863.1.1 = { holder = 0 } #Song Rong
 	#864.1.1 = { holder = 0 } #Zhang Yin
-	865.7.27 = { holder = bohai_gao_275 liege = h_china } #Gao Pian
 	865.7.27 = { holder = han_3310 liege = h_china } #Gao Pian
 	866.7.16 = { holder = 1406392 name = JINGHAI } #Wang Yanqguan
-	866.11.11 = { holder = bohai_gao_275 } #Gao Pian
 	866.11.11 = { holder = han_3310 } #Gao Pian
 	868.8.22 = { holder = bohai_gao_285 } #Gao Xun
 	873.1.1 = { holder = 1400462 } #Zeng Yan

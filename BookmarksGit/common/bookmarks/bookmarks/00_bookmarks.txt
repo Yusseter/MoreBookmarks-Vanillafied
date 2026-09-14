@@ -3118,7 +3118,7 @@ bm_1066_japan = {
 		culture = japanese
 		religion = shinto
 		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_HARD"
-		history_id = 10125001
+		history_id = japanese_minamoto_murakami_11 # Yusseter: current character ID
 		position = { 650 820 }
 
 		animation = acknowledging
@@ -3131,7 +3131,7 @@ bm_1066_japan = {
 			birth = 1035.1.1
 			culture = japanese
 			religion = shinto
-			history_id = 10125010
+			history_id = japanese_minamoto_murakami_12 # Yusseter: current character ID
 			animation = personality_zealous
 		}
 

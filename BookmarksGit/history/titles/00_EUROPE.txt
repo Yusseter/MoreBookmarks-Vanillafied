@@ -24184,7 +24184,7 @@ c_fraga = {
 		holder = 73810
 	}
 	802.12.1 = {
-		holder = qasi.0004
+		holder = YB_qasi_0004
 	}
 
 	862.1.1 = {
@@ -24328,7 +24328,7 @@ c_fraga_1 = {
 		holder = 73810
 	}
 	802.12.1 = {
-		holder = qasi.0004
+		holder = YB_qasi_0004
 	}
 
 	862.1.1 = {

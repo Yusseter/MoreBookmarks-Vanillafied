@@ -33381,7 +33381,7 @@ c_mianzhou = { # Yusseter: Optional, reback for projection. From c_jianzhou_1
 	870.6.28 = { holder = 1402901 } #Wu Xinglu
 	871.5.20 = { holder = 1402950 } #Lu Yan
 	873.12.31 = { holder = 1402979 } #Niu Cong
-	875.2.11 = { holder = bohai_gao_275 } #Gao Pian
+	875.2.11 = { holder = han_3310 } #Gao Pian
 	878.2.19 = { holder = 1403128 } #Cui Anqian
 	880.4.29 = { holder = 1404587 } #Yun Qiansong - prefect until 890.2.17
 	890.2.17 = { holder = 1404586 liege = d_qiongnan } #Du Youqian - prefect since 890.2.17

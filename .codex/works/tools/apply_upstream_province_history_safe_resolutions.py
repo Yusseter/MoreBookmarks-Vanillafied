@@ -96,12 +96,23 @@ def classify_resolution(
     decision = row["decision"]
     sources = sources_for(source_lookup, province_id)
 
-    if decision == "take_upstream_change":
-        if sources != {"mod_kalan"}:
-            raise RuntimeError(
-                f"upstream candidate {province_id} is not exclusively mod_kalan: {sorted(sources)}"
+    if decision in {
+        "take_upstream_change",
+        "review_exact_diff_semantic_take_upstream_change",
+    }:
+        if sources == {"mod_kalan"}:
+            return (
+                "apply_upstream_block",
+                "current semantics equal base; live source is mod_kalan",
             )
-        return "apply_upstream_block", "ours equals base; live source is mod_kalan"
+        if sources and sources.issubset(EAST_SOURCES):
+            return (
+                "keep_current_custom_east",
+                "upstream changed a province governed by the custom east source",
+            )
+        raise RuntimeError(
+            f"upstream candidate {province_id} has unexpected sources: {sorted(sources)}"
+        )
 
     if decision in {"manual_both_modified", "manual_both_added_differently"}:
         if not sources or not sources.issubset(EAST_SOURCES):

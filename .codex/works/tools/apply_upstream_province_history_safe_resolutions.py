@@ -79,6 +79,25 @@ def sources_for(lookup: dict[int, list[dict[str, str]]], province_id: int) -> se
     return {row["province_source"] for row in lookup.get(province_id, []) if row["province_source"]}
 
 
+def read_alternate_history_sources(repo_root: Path) -> dict[int, tuple[str, ...]]:
+    history_dir = repo_root / "BookmarksGit/history/provinces"
+    target_path = (repo_root / RELATIVE_PATH).resolve()
+    lookup: dict[int, set[str]] = defaultdict(set)
+    for path in sorted(history_dir.glob("*.txt")):
+        if path.resolve() == target_path:
+            continue
+        relative_path = path.relative_to(repo_root).as_posix()
+        snapshot = audit.parse_snapshot(
+            relative_path, path.read_text(encoding="utf-8-sig")
+        )
+        for province_id in snapshot.blocks:
+            lookup[province_id].add(relative_path)
+    return {
+        province_id: tuple(sorted(paths))
+        for province_id, paths in lookup.items()
+    }
+
+
 def semantic_counter(snapshot: audit.Snapshot, province_id: int) -> Counter[str]:
     return Counter(
         block.semantic_key for block in snapshot.block_lists.get(province_id, ())
@@ -91,6 +110,7 @@ def classify_resolution(
     base: audit.Snapshot,
     ours: audit.Snapshot,
     upstream: audit.Snapshot,
+    alternate_history_sources: dict[int, tuple[str, ...]],
 ) -> tuple[str, str]:
     province_id = int(row["province_id"])
     decision = row["decision"]
@@ -122,11 +142,18 @@ def classify_resolution(
         return "keep_current_custom_east", "live province comes from custom east source"
 
     if decision == "manual_ours_deleted_upstream_modified":
-        if sources:
-            raise RuntimeError(
-                f"deleted upstream-modified province {province_id} still has live source: {sorted(sources)}"
+        if not sources:
+            return "keep_current_deletion", "province id has no live landed source"
+        alternate_files = alternate_history_sources.get(province_id, ())
+        if sources == {"final_only_unclassified"} and alternate_files:
+            return (
+                "keep_current_relocated_history",
+                "current history is supplied by " + "|".join(alternate_files),
             )
-        return "keep_current_deletion", "province id has no live landed source"
+        raise RuntimeError(
+            f"deleted upstream-modified province {province_id} still has live source "
+            f"{sorted(sources)} without alternate current history"
+        )
 
     if decision == "manual_duplicate_id":
         if ours.duplicate_counts.get(province_id):
@@ -236,12 +263,20 @@ def main() -> None:
     upstream = audit.parse_snapshot("upstream", upstream_text)
     rows = audit.build_rows(base, ours, upstream)
     source_lookup = read_source_lookup(repo_root / SOURCE_IDENTITY_PATH)
+    alternate_history_sources = read_alternate_history_sources(repo_root)
 
     resolved_rows: list[dict[str, str]] = []
     candidate_ids: list[int] = []
     resolution_counts: Counter[str] = Counter()
     for row in rows:
-        resolution, reason = classify_resolution(row, source_lookup, base, ours, upstream)
+        resolution, reason = classify_resolution(
+            row,
+            source_lookup,
+            base,
+            ours,
+            upstream,
+            alternate_history_sources,
+        )
         province_id = int(row["province_id"])
         if resolution == "apply_upstream_block":
             candidate_ids.append(province_id)
@@ -250,6 +285,9 @@ def main() -> None:
             {
                 **row,
                 "current_sources": "|".join(sorted(sources_for(source_lookup, province_id))),
+                "alternate_history_files": "|".join(
+                    alternate_history_sources.get(province_id, ())
+                ),
                 "resolution": resolution,
                 "reason": reason,
             }

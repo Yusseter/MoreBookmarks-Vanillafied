@@ -48745,7 +48745,7 @@ c_zhenxi = {
 	
 	1201.10.5 = {
 		holder = YiTribesXiuzhi18  # Yy_Gge
-		liege = d_ningjiang_china
+		liege = d_kuizhong
 	}
 	
 	1215.1.1 = {
@@ -48768,7 +48768,7 @@ c_zhenxi = {
 		holder = YiTribesXiuzhi20  # Po_Hle
 	}
 	
-	1285.1.1 = { liege = d_xichuan_china }
+	1285.1.1 = { liege = d_xichuan }
 	
 	1287.3.9 = {
 		holder = YiTribesXiuzhi21  # Ssy_Nuo

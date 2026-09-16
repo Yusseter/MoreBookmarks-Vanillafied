@@ -6645,3 +6645,18 @@ Yeni raporlar:
 - Vanilla yapısında SEA subregion, Angkor market ve Angkor bağlantı okları bulunmadığından upstream'e özgü eksik SEA/Angkor kolu Yusseter'a kısmen uyarlanmayacaktır.
 - SEA/Angkor kolu region, situation, market, building, decision, effect, event, localization ve ok tüketicilerinden birlikte kaldırılacaktır; yalnız market ekleyen yarım çözüm uygulanmayacaktır.
 - Önceki “kullanıcı tasarım tercihi bekleniyor” kaydı tarihsel durumu anlatır; karar artık beklemede değildir.
+
+### 2026-09-16 Asıl Mod `74a26a897` Merge Kapanışı
+
+- Asıl modun güncel `main` ucu `74a26a897e8c26e2b1a91680447a3adcffa960c6` olarak yeniden doğrulandı ve `2ef00cf8d` merge commitinde Yusseter'a alındı. Push yapılmadı.
+- Asıl mod checkout'undaki ilgisiz kirli harita/descriptor/yerel çalışma dosyaları yok sayılmadı; kapsam açısından incelendi. Merge kaynağı yeniden üretilebilir `upstream/main` Git commit nesnesi olarak tutuldu.
+- Gerçek merge çatışmaları yalnız `00_MB_PROVINCES.txt` ve `geographical_region.txt` dosyalarındaydı. Province history çözümü vanilla-doğu, taşınmış MPE history ve Yusseter kimliklerini korudu; region çözümü SEA/Angkor hariç tutma kararını korurken yeni bağımsız upstream regionlarını aldı.
+- Merge sonrası Tiger iki tanımsız `c_zhenxi` liege referansı buldu. `d_ningjiang_china -> d_kuizhong` ve `d_xichuan_china -> d_xichuan` düzeltmeleri `88553632a` commitinde uygulandı; yeni holder kronolojisi korundu.
+- CK3-Tiger, VS Code eklentisinin kullandığı aynı `1.19.0` binary ve aynı `BookmarksGit/ck3-tiger.conf` ile çalıştırıldı. Yusseter sonucu `16435`, asıl mod sonucu `16139` rapordur; güncel Yusseter JSON'u VS Code Tiger loguna yayımlandı.
+- Final repo closure sonucu: `6004` bulgu, `245` ham blocker, `145` bağımsız blocker kökü, `32 full`, `3 partial`, `0 stale`.
+- Aktif entegrasyon/Yusseter blocker kökü `0`dır. Kalan `145` kökün tamamı karara uygun biçimde son asıl-mod cleanup geçişine ertelenmiştir: `87` shared baseline ve `58` asıl-mod source-native regresyon kökü.
+- Genel geographical-region auditinde blocker yoktur; `11420/11420` doğrudan referans geçerlidir. Silk Road market auditindeki tek blocker ortak asıl-mod Constantinople localization biçim hatasıdır ve şimdilik ertelenmiştir.
+- Province-history auditindeki iki blocker (`gaianites`, `religion = buryat`) ortak asıl-mod borcudur. MPE current-state closure blocker üretmemiştir.
+- Üç bilinçli partial alan kalır: oyun motoru bookmark/runtime smoke testi, Silk Road market GUI/travel smoke testi ve hedef tracking görüntüsü güncel mapten eski olduğu için province-relation manuel karar katmanı.
+- Merge öncesinde saklanan `BookmarksGit/fonts/fonts.font` kullanıcı WIP'i çalışma ağacına hash eşitliğiyle geri getirildi. `pre-upstream-20260914-fonts-wip` stash'i güvenlik yedeği olarak korunur; font değişikliği commitlenmedi.
+- Son kullanıcı adımı: VS Code Problems görünümünü yenilemek için `ck3tiger: Get problems from the log file`; ardından uygun olduğunda `1178.10.1` bookmark'ında kısa runtime smoke testi.

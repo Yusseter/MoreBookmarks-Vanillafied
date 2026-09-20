@@ -192,6 +192,20 @@ def add_text_references(
                 add_reference(references, int(value), "geographical_region")
 
 
+def default_map_range_only_ids(text: str) -> set[int]:
+    range_ids: set[int] = set()
+    explicit_ids: set[int] = set()
+    for _key, entry_type, block in DEFAULT_MAP_ENTRY_RE.findall(strip_comments(text)):
+        values = [int(value) for value in INTEGER_RE.findall(block)]
+        if entry_type == "RANGE" and len(values) >= 2:
+            range_ids.update(
+                range(min(values[0], values[1]), max(values[0], values[1]) + 1)
+            )
+        else:
+            explicit_ids.update(values)
+    return range_ids - explicit_ids
+
+
 REFERENCE_PATHS = [
     "BookmarksGit/common/landed_titles",
     "BookmarksGit/history/provinces",
@@ -495,6 +509,14 @@ def main() -> int:
     palette_bounds = infer_palette_bounds(image, color_counts, definition, defined_rgbs)
     palette_counts = palette_color_counts(image, palette_bounds)
     references = collect_reference_index(mod_root)
+    default_map_path = mod_root / "map_data/default.map"
+    range_only_default_map_ids = (
+        default_map_range_only_ids(
+            default_map_path.read_text(encoding="utf-8-sig", errors="replace")
+        )
+        if default_map_path.exists()
+        else set()
+    )
     baseline_references = revision_reference_index(repo_root, args.baseline_revision)
     relation_master = read_relation_master(repo_root)
 
@@ -543,6 +565,11 @@ def main() -> int:
         only_impassable_registration = bool(ref_labels) and all(
             label in {"default_map:impassable_mountains", "province_terrain"}
             for label in ref_labels
+        )
+        only_default_map_range_registration = (
+            province_id in range_only_default_map_ids
+            and bool(ref_labels)
+            and all(label.startswith("default_map:") for label in ref_labels)
         )
         relation = relation_master.get(province_id, {})
         relation_target_text = relation.get("target_province_id", "").strip()
@@ -598,9 +625,13 @@ def main() -> int:
         elif (
             map_pixel_count == 0
             and is_placeholder
-            and only_impassable_registration
+            and (only_impassable_registration or only_default_map_range_registration)
         ):
-            status = "reserved_placeholder_impassable_registration"
+            status = (
+                "reserved_placeholder_default_map_range"
+                if only_default_map_range_registration
+                else "reserved_placeholder_impassable_registration"
+            )
             severity = "info"
             provenance = "intentional_placeholder_policy"
         elif map_pixel_count == 0 and geometry_reference_labels:

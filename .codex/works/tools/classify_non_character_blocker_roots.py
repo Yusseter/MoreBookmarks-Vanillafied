@@ -53,7 +53,7 @@ DEFAULT_ASIL_MOD_REPO = (
     Path(__file__).resolve().parents[3].parent / "Leviathonlx MoreBookmarks-Plus"
 )
 DEFAULT_BASELINE = "09588cbb5212a31bc4a373b6990b2c4da1203a35"
-DEFAULT_MERGED_SOURCE = "ed1520220"
+DEFAULT_MERGED_SOURCE = "74a26a897"
 CHARACTER_SUBSYSTEMS = {"character_title_history", "bookmark_runtime"}
 HEADER_RE = re.compile(r"^\s*([A-Za-z0-9_.'-]+)\s*=\s*\{")
 ENGLISH_HEADER_RE = re.compile(r"^\s*l_english:\s*$")

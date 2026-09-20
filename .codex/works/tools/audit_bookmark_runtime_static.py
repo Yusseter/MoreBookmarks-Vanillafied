@@ -18,7 +18,7 @@ DEFAULT_VANILLA_GAME_ROOT = Path(
     r"C:\Program Files (x86)\Steam\steamapps\common\Crusader Kings III\game"
 )
 DEFAULT_BASELINE = "09588cbb5212a31bc4a373b6990b2c4da1203a35"
-DEFAULT_MERGED_SOURCE = "ed1520220"
+DEFAULT_MERGED_SOURCE = "74a26a897"
 OUTPUT_PATH = (
     ".codex/works/analysis/generated/repo_integration_closure/"
     "bookmark_runtime_static"

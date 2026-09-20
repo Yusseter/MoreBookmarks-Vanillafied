@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import csv
 import hashlib
+import io
 import json
 import os
 import re
@@ -39,6 +40,10 @@ PROVINCE_SEMANTICS_PATH = (
 TIGER_CLASSIFICATION_PATH = (
     ".codex/works/analysis/generated/repo_integration_closure/"
     "tiger_current_only_classification"
+)
+TIGER_CURRENT_PRIORITY_PATH = (
+    ".codex/works/analysis/generated/repo_integration_closure/"
+    "ck3_tiger_current_only_priority.csv"
 )
 TIGER_P0_TRIAGE_PATH = (
     ".codex/works/analysis/generated/repo_integration_closure/"
@@ -156,17 +161,22 @@ def read_text(path: Path) -> str:
 def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if not rows:
-        path.write_text("", encoding="utf-8")
+        payload = b""
+        if not path.exists() or path.read_bytes() != payload:
+            path.write_bytes(payload)
         return
     fields: list[str] = []
     for row in rows:
         for key in row:
             if key not in fields:
                 fields.append(key)
-    with path.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fields)
-        writer.writeheader()
-        writer.writerows(rows)
+    buffer = io.StringIO(newline="")
+    writer = csv.DictWriter(buffer, fieldnames=fields)
+    writer.writeheader()
+    writer.writerows(rows)
+    payload = buffer.getvalue().encode("utf-8-sig")
+    if not path.exists() or path.read_bytes() != payload:
+        path.write_bytes(payload)
 
 
 def read_csv(path: Path) -> list[dict[str, str]]:
@@ -2760,6 +2770,7 @@ def main() -> int:
     )
     tiger_classification_sources = [
         repo_root / ".codex/works/tools/classify_ck3_tiger_current_only.py",
+        repo_root / TIGER_CURRENT_PRIORITY_PATH,
         tiger_current_path,
         repo_root / LANDED_PATH,
         repo_root
@@ -2771,6 +2782,18 @@ def main() -> int:
         repo_root / (
             ".codex/works/analysis/generated/repo_semantic_compatibility/"
             "source_shared_title_reference_candidates.csv"
+        ),
+        repo_root / (
+            ".codex/works/analysis/generated/repo_integration_closure/"
+            "localization_requirements.csv"
+        ),
+        repo_root / (
+            ".codex/works/analysis/generated/repo_integration_closure/"
+            "bookmark_runtime_static/bookmark_runtime_static_findings_compact.csv"
+        ),
+        repo_root / (
+            ".codex/works/analysis/generated/repo_semantic_compatibility/"
+            "upstream_since_last_merge.csv"
         ),
     ]
     tiger_classification_exists, tiger_classification_stale = report_freshness(

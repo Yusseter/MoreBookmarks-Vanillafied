@@ -609,6 +609,35 @@ def values(entries: list[dict[str, str]]) -> set[str]:
     return {entry["value"] for entry in entries}
 
 
+def localization_literal(value: str) -> str:
+    value = value.strip()
+    if len(value) >= 2 and value.startswith('"') and value.endswith('"'):
+        return value[1:-1]
+    return value
+
+
+def effective_localization_value(
+    mod_entries: list[dict[str, str]],
+    vanilla_entries: list[dict[str, str]],
+) -> tuple[str, str, str]:
+    if mod_entries:
+        rank = max(localization_rank(entry["path"]) for entry in mod_entries)
+        entries = [
+            entry for entry in mod_entries
+            if localization_rank(entry["path"]) == rank
+        ]
+        origin = "mod"
+    else:
+        entries = vanilla_entries
+        origin = "vanilla" if entries else ""
+    distinct = values(entries)
+    if len(distinct) == 1:
+        return next(iter(distinct)), origin, "resolved"
+    if not distinct:
+        return "", "", "missing"
+    return " | ".join(sorted(distinct)), origin, "ambiguous"
+
+
 def localization_duplicate_rows(
     repo_root: Path,
     asil_repo: Path,
@@ -917,12 +946,29 @@ def missing_asset_rows(
     return output
 
 
-def mapped_localization_rows(repo_root: Path) -> list[dict[str, str]]:
+def mapped_localization_rows(
+    repo_root: Path,
+    vanilla_root: Path,
+) -> list[dict[str, str]]:
     requirements = read_csv(repo_root / INPUT_ROOT / "localization_requirements.csv")
+    mapped_requirements = [
+        row for row in requirements
+        if row.get("status") == "missing_effective_mapped_source_available"
+    ]
+    target_bases = {
+        row.get("key", "")[:-4]
+        if row.get("key", "").endswith("_adj")
+        else row.get("key", "")
+        for row in mapped_requirements
+    }
+    current_base_entries = scan_localization_texts(
+        repo_root / "BookmarksGit/localization", repo_root, target_bases
+    )
+    vanilla_base_entries = scan_localization_texts(
+        vanilla_root / "localization", vanilla_root, target_bases
+    )
     output: list[dict[str, str]] = []
-    for row in requirements:
-        if row.get("status") != "missing_effective_mapped_source_available":
-            continue
+    for row in mapped_requirements:
         key = row.get("key", "")
         source_key = row.get("source_key", "")
         target_base = key[:-4] if key.endswith("_adj") else key
@@ -931,18 +977,37 @@ def mapped_localization_rows(repo_root: Path) -> list[dict[str, str]]:
         source_tier = source_base.split("_", 1)[0]
         same_tier = target_tier == source_tier
         requirement = row.get("requirement", "")
+        target_base_value, target_base_origin, target_base_status = (
+            effective_localization_value(
+                current_base_entries.get(target_base, []),
+                vanilla_base_entries.get(target_base, []),
+            )
+        )
+        source_matches_target_base = (
+            target_base_status == "resolved"
+            and localization_literal(row.get("source_value", ""))
+            == localization_literal(target_base_value)
+        )
         if requirement == "title_base":
             priority = "P1"
             confidence = "high" if same_tier else "medium"
             recommendation = "copy_verified_mapped_base_value_to_target_key"
-        elif same_tier:
+        elif not same_tier:
+            priority = "P1"
+            confidence = "medium" if source_matches_target_base else "low"
+            recommendation = "manual_cross_tier_adjective_review"
+        elif target_base_status != "resolved":
+            priority = "P1"
+            confidence = "low"
+            recommendation = "resolve_target_base_localization_before_adjective_review"
+        elif source_matches_target_base:
             priority = "P2"
-            confidence = "medium"
-            recommendation = "batch_candidate_after_adjective_context_review"
+            confidence = "high"
+            recommendation = "copy_mapped_adjective_after_final_context_review"
         else:
             priority = "P1"
             confidence = "low"
-            recommendation = "manual_cross_tier_adjective_review"
+            recommendation = "author_adjective_from_current_target_context"
         output.append({
             "target_key": key,
             "requirement": requirement,
@@ -950,6 +1015,13 @@ def mapped_localization_rows(repo_root: Path) -> list[dict[str, str]]:
             "source_value": row.get("source_value", ""),
             "source_path": row.get("source_path", ""),
             "source_origin": row.get("source_origin", ""),
+            "target_base_key": target_base,
+            "target_base_value": target_base_value,
+            "target_base_origin": target_base_origin,
+            "target_base_status": target_base_status,
+            "source_matches_target_base": (
+                "yes" if source_matches_target_base else "no"
+            ),
             "target_tier": target_tier,
             "source_tier": source_tier,
             "same_tier": "yes" if same_tier else "no",
@@ -1424,7 +1496,7 @@ def main() -> int:
         args.baseline_revision,
         findings,
     )
-    mapped = mapped_localization_rows(repo_root)
+    mapped = mapped_localization_rows(repo_root, vanilla_root)
     ancillary, region_references = ancillary_structural_rows(
         repo_root,
         asil_repo,

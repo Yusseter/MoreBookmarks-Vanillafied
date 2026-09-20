@@ -10,7 +10,7 @@ from typing import Iterable
 
 
 DEFAULT_BASE = "09588cbb5"
-DEFAULT_MERGED_SOURCE = "ed1520220"
+DEFAULT_MERGED_SOURCE = "74a26a897"
 DEFAULT_LATEST_SOURCE = "upstream/main"
 OUTPUT_PATH = Path(
     ".codex/works/analysis/generated/repo_change_closure"

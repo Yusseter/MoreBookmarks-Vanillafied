@@ -16,7 +16,7 @@ import audit_upstream_title_history_merge as history_merge
 
 
 DEFAULT_PREMERGE_REVISION = "09588cbb5"
-DEFAULT_MERGED_SOURCE_REVISION = "ed1520220"
+DEFAULT_MERGED_SOURCE_REVISION = "74a26a897"
 DEFAULT_ASIL_MOD_REPO = (
     Path(__file__).resolve().parents[3].parent / "Leviathonlx MoreBookmarks-Plus"
 )

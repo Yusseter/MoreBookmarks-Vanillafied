@@ -23,7 +23,7 @@ bubonic_plague = {
 			}
 			triggered_desc = {
 				trigger = {
-					outbreak_province = province:8748
+					outbreak_province = province:10108 # Yusseter: Killala in the merged map.
 					outbreak_intensity = apocalyptic
 				}
 				desc = epidemic_green_death

@@ -49,6 +49,7 @@ MODIFIED_PROVINCE_REFERENCE_DEDICATED_PREFIXES = (
     "BookmarksGit/gfx/map/map_object_data/",
 )
 TITLE_TOKEN_RE = re.compile(r"\b([hekdcb]_[A-Za-z0-9_'\-]+)\b")
+TITLE_HISTORY_NAME_RE = re.compile(r'\bname\s*=\s*(?:"[^"]*"|[A-Za-z0-9_\-]+)')
 HOLDER_RE = re.compile(r"^\s*holder\s*=\s*([A-Za-z0-9_.\-]+)\b")
 CHARACTER_HEADER_RE = re.compile(r"^\s*([A-Za-z0-9_.\-]+)\s*=\s*\{")
 BLAME_HEADER_RE = re.compile(r"^([0-9a-f]{40})\s+\d+\s+(\d+)(?:\s+\d+)?$")
@@ -664,8 +665,13 @@ def premerge_relation(path, source_blobs, premerge_blobs) -> str:
     return "changed_or_replaced_by_merge"
 
 
-def active_title_tokens(line: str) -> set[str]:
-    return set(TITLE_TOKEN_RE.findall(strip_comment(line)))
+def active_title_tokens(line: str, path: str) -> set[str]:
+    if path.startswith("BookmarksGit/common/coat_of_arms/"):
+        return set()
+    clean = strip_comment(line)
+    if path.startswith("BookmarksGit/history/titles/"):
+        clean = TITLE_HISTORY_NAME_RE.sub("", clean)
+    return set(TITLE_TOKEN_RE.findall(clean))
 
 
 def active_province_ids(line: str, path: str) -> set[int]:
@@ -728,7 +734,9 @@ def build_source_shared_file_audit(
                 clean = strip_comment(line).strip()
                 if not clean:
                     continue
-                for source_title in active_title_tokens(line):
+                for source_title in active_title_tokens(line, relative):
+                    if source_title in current_title_ids:
+                        continue
                     target_title = source_to_current_title.get(source_title, source_title)
                     if target_title == source_title or target_title not in current_title_ids:
                         continue
@@ -774,10 +782,11 @@ def build_source_shared_file_audit(
                         "candidate_province_id": target,
                         "candidate_name": str(target_meta["name"]) if target_meta else "",
                         "confidence": confidence, "candidate_source": candidate_source,
+                        "context_validation": "not_checked", "auto_apply": "no",
                         "evidence": evidence, "premerge_relation": relation,
                         "exact_source_file": "yes" if exact_source_file else "no",
                         "classification": "source_semantic_province_reference",
-                        "severity": "high" if confidence == "high" else "review",
+                        "severity": "review",
                         "line_preview": clean[:300],
                         "recommendation": "verify_reference_then_remap_to_current_province",
                     })
@@ -858,8 +867,11 @@ def build_combined_findings(silk_rows, history_rows, title_rows, province_rows):
             "classification": "integration_candidate", "severity": row["severity"],
             "path": row["path"], "line": row["line"],
             "object": row["source_province_id"], "current_value": row["source_province_id"],
-            "candidate_value": row["candidate_province_id"], "confidence": row["confidence"],
-            "reason": f"{row['source_name']} -> {row['current_same_id_name']}; {row['premerge_relation']}",
+            "candidate_value": row["candidate_province_id"], "confidence": "context_unverified",
+            "reason": (
+                f"{row['source_name']} -> {row['current_same_id_name']}; "
+                f"identity_confidence={row['confidence']}; {row['premerge_relation']}"
+            ),
             "recommendation": row["recommendation"],
         })
     return findings
@@ -974,8 +986,8 @@ def main() -> int:
         f"- longstanding copies: `{shared_counts['longstanding_source_copy']}`",
         f"- added by merge: `{shared_counts['added_by_merge']}`",
         f"- changed/replaced by merge: `{shared_counts['changed_or_replaced_by_merge']}`",
-        f"- mapped-title reference candidates: `{len(shared_title_rows)}`",
-        f"- province semantic-drift candidates: `{len(shared_province_rows)}`",
+        f"- undefined mapped-title reference candidates: `{len(shared_title_rows)}`",
+        f"- province semantic-drift candidates requiring context review: `{len(shared_province_rows)}`",
         "", "## Combined Findings", "",
         *[f"- {key}: `{value}`" for key, value in sorted(finding_counts.items())],
         "", "## Rules", "",
@@ -984,6 +996,8 @@ def main() -> int:
         "- requires_remap means landed barony identity or an accepted province relation proves a different current ID.",
         "- Resolved vanilla-east plan rows are validated against vanilla provenance instead of asıl-mod same-ID semantics.",
         "- Modified landed-title and map-object locator province references remain covered by their dedicated audits.",
+        "- Defined current titles, coat-of-arms definitions/textures, and title-history display names are not missing-title references.",
+        "- Province candidate confidence measures identity evidence, not whether the calling effect intends that place; no candidate is auto-applied.",
         "- manual_review proves semantic drift but does not yet prove one safe target.",
         "- Candidate rows are not automatic apply instructions.",
         "", "## New Asıl-Mod Commits Not Yet Merged", "",

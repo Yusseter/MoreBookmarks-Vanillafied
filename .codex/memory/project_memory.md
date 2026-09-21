@@ -6677,3 +6677,10 @@ Yeni raporlar:
 - `d_sanggan` (740), `d_shimen` (906) ve `k_hedong` (869) için önceki Tiger sınıflandırmasındaki `current_only_or_adapted_line` etiketi semantik kökeni göstermiyor: current title kimlikleri asıl moddaki `d_zhenwu_china`, `d_jianchang` ve `k_jin_china` kimliklerinden yeniden yazılmış. Asıl-mod Tiger aynı tarihlerde aynı holdersız-liege hatalarını raporluyor. `k_hedong` için 954 tarihli preexisting Yusseter satırının da aynı kaynak hatası var.
 - Hatalar yanlış pozitif değil; Tiger'a göre bu tarihlerde liege ataması etkisiz. İlk ve sonraki bookmark başlangıçları doğrudan hata tarihlerine denk gelmiyor, fakat bu tarihsel satırları kendiliğinden güvenli yapmaz. Asıl-mod borcunu erteleme kararı geçerli; canlı title-history değiştirilmedi.
 - Satır, holder aralığı, kaynak Git blob ve bookmark kanıtı: `.codex/works/analysis/reports/2026.09.20-title-history-liege-provenance.md`. Üç kökü Yusseter'a özgü yeni regresyon olarak düzeltme kuyruğuna koyma.
+
+### 2026-09-20 Kaynakla Ortak Referans Adayları
+
+- 191 title adayı gerçek tanımsız referans değildi: 99 CoA sözdizimi, 2 title-history `name` değeri ve 90 canlı tanımlı title kullanımı. Semantic audit parser'ı bunları artık entegrasyon hatası saymıyor; `e_dai_viet`, `d_luoshi` ve `k_goryeo` başka tier'lara körlemesine çevrilmemeli.
+- Dokuz province satırı altı kaynak ID'sine bağlı. Tang, Min, Tibet ve Moğol satırlarında asıl-mod ID'si kendi yorum/bağlamıyla da çelişiyor; Balhae konumu kaynakta belirsiz. Janggala satırı gerçek province projection farkı taşısa da Kahuripan zaten yakındaki Panjalu kaydında kullanıldığından otomatik eşleme güvenli değil.
+- Kanıt ve sonraki karar sınırları: `.codex/works/analysis/reports/2026.09.20-source-shared-reference-review.md`. Canlı `BookmarksGit/` dosyaları değiştirilmedi; asıl-moddan gelen hatalara dokunmama kararı sürüyor.
+- Bağlı sınıflandırıcılar doğru sırayla yenilendi. Final closure `5930` bulgu, `245` blocker, `5424` review ve `261` info; coverage `32 full`, `3 partial`, `0 stale`. Önceki `6121` bulgudan düşen `191` satır yalnız yanlış title-aday gürültüsüdür; blocker sayısı değişmedi.

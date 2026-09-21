@@ -6684,3 +6684,13 @@ Yeni raporlar:
 - Dokuz province satırı altı kaynak ID'sine bağlı. Tang, Min, Tibet ve Moğol satırlarında asıl-mod ID'si kendi yorum/bağlamıyla da çelişiyor; Balhae konumu kaynakta belirsiz. Janggala satırı gerçek province projection farkı taşısa da Kahuripan zaten yakındaki Panjalu kaydında kullanıldığından otomatik eşleme güvenli değil.
 - Kanıt ve sonraki karar sınırları: `.codex/works/analysis/reports/2026.09.20-source-shared-reference-review.md`. Canlı `BookmarksGit/` dosyaları değiştirilmedi; asıl-moddan gelen hatalara dokunmama kararı sürüyor.
 - Bağlı sınıflandırıcılar doğru sırayla yenilendi. Final closure `5930` bulgu, `245` blocker, `5424` review ve `261` info; coverage `32 full`, `3 partial`, `0 stale`. Önceki `6121` bulgudan düşen `191` satır yalnız yanlış title-aday gürültüsüdür; blocker sayısı değişmedi.
+
+### 2026-09-22 Title-History Source-Overwrite İncelemesi
+
+- `title_history_source_overwrite_candidates.csv` içindeki `384` title, ortak Git atası `35211ffab5`, pre-merge Yusseter `09588cbb5` ve birleşmiş asıl mod `74a26a897` arasında katman ve doğrudan entry düzeyinde karşılaştırıldı.
+- `355` title'da Yusseter'a özgü kayıp bir delta yoktur. Farklar asıl modun normal tarih gelişimi, iki tarafta aynı değişim veya yalnız biçim farkıdır.
+- `25` title'daki `48` benzersiz Yusseter entry'sinin tamamı güncel dosyalarda zaten korunmaktadır. Bunlar için geri yükleme yapılmayacaktır.
+- Altı gerçek aynı-key çatışmasının ikisinde mevcut dosya Yusseter kararını korur: `c_BAL_west_hyeondeok / 860.1.1` ve `c_lingzhou / 1227.2.1`.
+- Üç çatışmada güncel kaynak kronolojisi korunur: `c_jianchuan / 760.1.1`, `c_xiazhou / 1210.1.1` ve `c_yinzhou / 1210.1.1`. Eski holder'ları geri getirmek, `21` bookmark'ın tamamında geçerli olan yeni zincirleri ezip başka title'larda kullanılan karakterleri yeniden çoğaltacağından güvenli bir regresyon düzeltmesi değildir.
+- `c_SUM_riak_nan_berbedur / 750.1.1` içindeki eski holder satırı Yusseter'a özgü değildir; asıl mod commit'i `fb3ecdb9237c51b4ddf10ebda4a3e9227ae446fc` kökenlidir. Tek satırı geri getirmek aktif bookmark'lardaki ertelenmiş `Indonesia*` kaynak borcunu çözmez.
+- Sonuç: bu `384` aday için canlı `BookmarksGit` değişikliği gerekmez. Ayrıntılı kanıt `.codex/works/analysis/reports/2026.09.22-title-history-source-overwrite-review.md` dosyasındadır; `fonts.font` kullanıcı WIP'i değişmeden kalmıştır.

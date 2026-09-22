@@ -161,6 +161,13 @@ def classify(
                 "author the missing value or prove the key is internal-only",
             )
         if classification == "conflicting_duplicate_key":
+            if provenance == "shared_asil_mod_baseline":
+                return (
+                    "deferred_asil_mod_localization_conflict_review",
+                    "P2",
+                    "deferred_until_final_asil_mod_cleanup",
+                    "retain as source-shared evidence and review in the final asıl-mod cleanup pass",
+                )
             return (
                 "localization_override_conflict_review",
                 "P1",

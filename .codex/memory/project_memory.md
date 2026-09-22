@@ -6703,3 +6703,12 @@ Yeni raporlar:
 - Tek cross-tier aday `d_qiongguan_adj <- c_wananzhou_adj`, `412` vanilla-native satır içindedir; eski county sıfatı duchy'ye kopyalanmadı. Genel kural: eski mapped source adjective değeri yeni target title'a otomatik taşınmaz.
 - Yenilenen P1 raporunda mapped-localization adayı `0`; CK3-Tiger current-only sınıflandırmasında vanilla-native satır tam olarak `412`dir. Ayrıntılı kanıt `.codex/works/analysis/reports/2026.09.22-title-adjective-localization-review.md` dosyasındadır.
 - Ertelenen asıl-mod blocker kökleri ile kullanıcının `BookmarksGit/fonts/fonts.font` WIP'i değiştirilmedi.
+
+### 2026-09-22 Duplicate Localization Kaynak Ayrımı
+
+- P1 raporundaki `840` conflicting duplicate localization key, current değer kümesi ile güncel asıl-mod değer kümesi birebir karşılaştırılarak yeniden ayrıldı.
+- `838` satırın değer kümesi güncel asıl modla tamamen aynıdır. Bunlar `shared_asil_mod_baseline`, P2 ve `deferred_until_final_asil_mod_cleanup` olarak görünür tutulur; mevcut karara göre son asıl-mod cleanup geçişine kadar canlı dosyada düzeltilmez.
+- Yalnız `b_thang_long` ve `d_thang_long` Yusseter'da asıl moddan ek eski değer taşıyordu. `Đại La` ve `Kinh Bắc` adları upstream `35b5dab6c` kimlik yeniden-adlandırmasından kalmış, upstream `c41083975` cleanup commitinde kaldırılmış; Yusseter merge'i kaldırmaları kaçırmıştı.
+- Eski `b_thang_long: "Đại La"`, `b_thang_long_adj: "Đại La"`, `d_thang_long: "Kinh Bắc"` ve `d_thang_long_adj: "Kinh Bắc"` satırları kaldırıldı; upstream ile uyumlu `d_thang_long_adj: "Thăng Long"` eklendi. Tekil `b_thang_long: "Thăng Long"` ve `d_thang_long: "Thăng Long"` değerleri korundu.
+- Düzeltme sonrası duplicate localization satırı `838`, source-current değer farkı `0`, Thăng Long duplicate satırı `0`dır. Genel aktif P1 review satırı `1034 -> 194` düşerken `838` ortak satır kaybolmadı; ertelenmiş P2 kaynak borcu olarak kaldı.
+- Ayrıntılı kanıt `.codex/works/analysis/reports/2026.09.22-localization-duplicate-source-review.md` dosyasındadır. `BookmarksGit/fonts/fonts.font` kullanıcı WIP'i değiştirilmedi.

@@ -1194,12 +1194,21 @@ def audit_localization(
     for key, entries in sorted(mod_keys.items()):
         values = {entry["value"] for entry in entries}
         if len(entries) > 1 and len(values) > 1:
+            source_entries = source_keys.get(key, [])
+            source_values = {entry["value"] for entry in source_entries}
+            if len(source_values) > 1 and values == source_values:
+                duplicate_provenance = "shared_asil_mod_baseline"
+            elif source_values and source_values < values:
+                duplicate_provenance = "mixed_yusseter_and_asil_mod"
+            else:
+                duplicate_provenance = "yusseter_current_only"
             rows.append(finding(
                 "localization", "duplicate_keys", "conflicting_duplicate_key",
                 "review", "high", entries[-1]["path"], entries[-1]["line"], key,
                 "same mod localization key has differing values",
                 "verify_intended_load_order_or_keep_one_value",
                 current_value=" | ".join(sorted(values)),
+                provenance=duplicate_provenance,
             ))
 
     requirement_specs = [

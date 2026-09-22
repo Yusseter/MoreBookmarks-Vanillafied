@@ -341,7 +341,6 @@ def history_duplicate_rows(
                 asil_wanted.update(
                     source_title
                     for source_title in title_relations.get(current_title, [])
-                    if source_title[:2] == current_title[:2]
                 )
         asil = runtime.parse_blocks(
             runtime.read_layer_texts(asil_repo, current_dir, "asil_mod"),
@@ -405,6 +404,17 @@ def history_duplicate_rows(
                 for block in asil.get(source_title, [])
                 if same_layer(block)
             ]
+            related_source_objects = (
+                title_relations.get(object_id, [])
+                if domain == "title_history"
+                else []
+            )
+            related_asil_blocks = [
+                block
+                for source_title in related_source_objects
+                for block in asil.get(source_title, [])
+                if same_layer(block)
+            ]
             vanilla_blocks = [
                 block for block in vanilla.get(object_id, []) if same_layer(block)
             ]
@@ -424,9 +434,18 @@ def history_duplicate_rows(
             mapped_asil_body_signature = sorted(
                 canonical_block_body(block.lines) for block in mapped_asil_blocks
             )
+            related_asil_body_signature = sorted(
+                canonical_block_body(block.lines) for block in related_asil_blocks
+            )
             mapped_asil_signature_match = bool(
                 mapped_asil_blocks
                 and current_body_signature == mapped_asil_body_signature
+            )
+            related_asil_projection_match = bool(
+                layer_name == "development"
+                and len(related_source_objects) > 1
+                and related_asil_blocks
+                and current_body_signature == related_asil_body_signature
             )
             vanilla_signature = sorted(
                 canonical_lines(block.lines) for block in vanilla_blocks
@@ -441,6 +460,13 @@ def history_duplicate_rows(
                 semantic_source_provenance = "shared_exact_asil_mod_source"
             elif mapped_asil_signature_match:
                 semantic_source_provenance = "shared_mapped_asil_mod_source"
+            elif (
+                current_signature == baseline_signature
+                and related_asil_projection_match
+            ):
+                semantic_source_provenance = (
+                    "intentional_additive_asil_projection"
+                )
             recommended_action = comparison["recommendation"]
             if (
                 mapped_asil_signature_match
@@ -448,6 +474,12 @@ def history_duplicate_rows(
             ):
                 recommended_action = (
                     "defer_or_fix_mapped_asil_source_conflict_first"
+                )
+            elif semantic_source_provenance == (
+                "intentional_additive_asil_projection"
+            ):
+                recommended_action = (
+                    "retain_additive_source_hierarchy_projection"
                 )
             output.append({
                 "domain": domain,
@@ -495,6 +527,19 @@ def history_duplicate_rows(
                 "current_matches_mapped_asil_body_signature": (
                     "yes" if mapped_asil_signature_match else "no"
                 ),
+                "related_asil_source_objects": ";".join(
+                    related_source_objects
+                ),
+                "related_asil_source_block_count": str(
+                    len(related_asil_blocks)
+                ),
+                "related_asil_source_locations": " | ".join(
+                    f"{block.key}@{block.path.split(':', 1)[-1]}:{block.start_line}"
+                    for block in related_asil_blocks
+                ),
+                "current_matches_related_asil_body_signature": (
+                    "yes" if related_asil_projection_match else "no"
+                ),
                 "current_matches_vanilla_signature": (
                     "yes" if current_signature == vanilla_signature else "no"
                 ),
@@ -504,10 +549,15 @@ def history_duplicate_rows(
                     asil_blocks,
                 ),
                 "recommended_priority": (
-                    "P1"
-                    if comparison["comparison"]
-                    in {"exact_duplicate", "overlapping_conflicting_fields"}
-                    else "P2"
+                    "P3"
+                    if semantic_source_provenance
+                    == "intentional_additive_asil_projection"
+                    else (
+                        "P1"
+                        if comparison["comparison"]
+                        in {"exact_duplicate", "overlapping_conflicting_fields"}
+                        else "P2"
+                    )
                 ),
                 "recommended_action": recommended_action,
                 "closure_path": source.get("path", ""),

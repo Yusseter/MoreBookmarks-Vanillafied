@@ -11,6 +11,10 @@ INPUT_PATH = (
     ".codex/works/analysis/generated/repo_integration_closure/"
     "repo_integration_closure_findings.csv"
 )
+P1_HISTORY_PATH = (
+    ".codex/works/analysis/generated/repo_integration_closure/"
+    "p1_structural_localization_roots/history_duplicate_block_audit.csv"
+)
 OUTPUT_PATH = (
     ".codex/works/analysis/generated/repo_integration_closure/"
     "review_surface_triage"
@@ -205,6 +209,29 @@ def classify(
         )
 
     if domain == "title_history":
+        if provenance == "intentional_additive_asil_projection":
+            return (
+                "intentional_additive_title_history_projection",
+                "P3",
+                "no",
+                (
+                    "retain the source hierarchy contributions; CK3 adds the "
+                    "duplicate title-history blocks together"
+                ),
+            )
+        if provenance in {
+            "shared_exact_asil_mod_source",
+            "shared_mapped_asil_mod_source",
+        }:
+            return (
+                "deferred_asil_mod_title_history_review",
+                "P2",
+                "deferred_until_final_asil_mod_cleanup",
+                (
+                    "retain as source-shared evidence and review in the final "
+                    "asıl-mod cleanup pass"
+                ),
+            )
         priority = "P1" if classification == "duplicate_title_block_same_layer" else "P2"
         return (
             "title_history_structure_or_source_overwrite_review",
@@ -372,6 +399,23 @@ def main() -> int:
         row for row in read_csv(repo_root / INPUT_PATH)
         if row.get("severity") == "review"
     ]
+    p1_history_provenance = {
+        (row.get("domain", ""), row.get("object", "")): row.get(
+            "semantic_source_provenance", ""
+        )
+        for row in read_csv(repo_root / P1_HISTORY_PATH)
+    }
+    for row in review_rows:
+        if row.get("classification") not in {
+            "duplicate_title_block_same_layer",
+            "duplicate_province_block",
+        }:
+            continue
+        provenance = p1_history_provenance.get(
+            (row.get("domain", ""), row.get("object", "")), ""
+        )
+        if provenance:
+            row["provenance"] = provenance
     grouped: dict[tuple[str, str, str], list[dict[str, str]]] = defaultdict(list)
     for row in review_rows:
         grouped[(

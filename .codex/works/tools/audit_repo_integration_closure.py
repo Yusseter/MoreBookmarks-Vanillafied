@@ -3883,6 +3883,25 @@ def main() -> int:
     if tiger_p0_verified_live_raw_count != tiger_p0_live_raw_count:
         tiger_p0_status = "stale"
 
+    p1_root = repo_root / P1_STRUCTURAL_LOCALIZATION_PATH
+    p1_history_report = p1_root / "history_duplicate_block_audit.csv"
+    p1_history_rows = read_csv(p1_history_report)
+    p1_history_evidence = {
+        (row.get("domain", ""), row.get("object", "")): row
+        for row in p1_history_rows
+    }
+    for row in findings:
+        if row.get("classification") not in {
+            "duplicate_title_block_same_layer",
+            "duplicate_province_block",
+        }:
+            continue
+        evidence = p1_history_evidence.get(
+            (row.get("domain", ""), row.get("object", ""))
+        )
+        if evidence and evidence.get("semantic_source_provenance"):
+            row["provenance"] = evidence["semantic_source_provenance"]
+
     review_surface_report = (
         repo_root / REVIEW_SURFACE_TRIAGE_PATH
         / "repo_review_surface_triage.csv"
@@ -3907,7 +3926,10 @@ def main() -> int:
     }
     review_surface_sources = [
         repo_root / ".codex/works/tools/classify_repo_review_surface.py",
+        repo_root
+        / ".codex/works/tools/classify_p1_structural_localization_roots.py",
         repo_root / ".codex/works/tools/audit_repo_integration_closure.py",
+        p1_history_report,
         *tiger_sources,
     ]
     review_surface_exists, review_surface_stale = report_freshness(
@@ -3941,8 +3963,6 @@ def main() -> int:
         int(row.get("finding_count") or 0) for row in review_surface_rows
     )
 
-    p1_root = repo_root / P1_STRUCTURAL_LOCALIZATION_PATH
-    p1_history_report = p1_root / "history_duplicate_block_audit.csv"
     p1_asset_report = p1_root / "missing_asset_reference_audit.csv"
     p1_localization_report = p1_root / "localization_duplicate_key_audit.csv"
     p1_mapped_report = p1_root / "mapped_localization_candidate_audit.csv"
@@ -3956,7 +3976,6 @@ def main() -> int:
         p1_ancillary_report,
         p1_region_report,
     ]
-    p1_history_rows = read_csv(p1_history_report)
     p1_asset_rows = read_csv(p1_asset_report)
     p1_localization_rows = read_csv(p1_localization_report)
     p1_mapped_rows = read_csv(p1_mapped_report)

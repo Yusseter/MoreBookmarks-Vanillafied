@@ -6712,3 +6712,12 @@ Yeni raporlar:
 - Eski `b_thang_long: "Đại La"`, `b_thang_long_adj: "Đại La"`, `d_thang_long: "Kinh Bắc"` ve `d_thang_long_adj: "Kinh Bắc"` satırları kaldırıldı; upstream ile uyumlu `d_thang_long_adj: "Thăng Long"` eklendi. Tekil `b_thang_long: "Thăng Long"` ve `d_thang_long: "Thăng Long"` değerleri korundu.
 - Düzeltme sonrası duplicate localization satırı `838`, source-current değer farkı `0`, Thăng Long duplicate satırı `0`dır. Genel aktif P1 review satırı `1034 -> 194` düşerken `838` ortak satır kaybolmadı; ertelenmiş P2 kaynak borcu olarak kaldı.
 - Ayrıntılı kanıt `.codex/works/analysis/reports/2026.09.22-localization-duplicate-source-review.md` dosyasındadır. `BookmarksGit/fonts/fonts.font` kullanıcı WIP'i değiştirilmedi.
+
+### 2026-09-22 Title-History Additive Projection İncelemesi
+
+- `24` duplicate title-history kökü provenance ve CK3'ün additive blok davranışıyla yeniden sınıflandırıldı; hiçbir kanıt satırı silinmedi.
+- `c_JAV_galuh` içindeki iki development bloğu, asıl moddaki `c_galuh` ile `k_galuh` bloklarının; `d_SUM_aceh` içindeki iki blok ise `d_SUM_aceh` ile `k_samudera` bloklarının tam gövde kümesiyle birebir eşleşir.
+- Bu iki yapı, birden fazla kaynak hierarchy katkısının tek projected Yusseter title üzerinde birlikte korunmasıdır. Bloklardan birini silmek düzeltme değil, development katkısı kaybı olur; ikisi de `intentional_additive_asil_projection`, P3 ve `retain_additive_source_hierarchy_projection` olarak kapatıldı.
+- Kalan `22` duplicate title-history kökünün `20`si güncel asıl modla exact, `2`si mapped kaynakla ortaktır. Bunlar P2 `deferred_asil_mod_title_history_review` olarak son asıl-mod cleanup geçişine ertelendi.
+- Ayrıntılı kanıt `.codex/works/analysis/reports/2026.09.22-title-history-additive-projection-review.md` dosyasındadır. Canlı `BookmarksGit` içeriği ve kullanıcının `fonts.font` WIP'i değiştirilmedi.
+- Final closure `5496` bulgu, `245` blocker, `4990` review ve `261` info; coverage `32 full`, `3 partial`, `0 stale`. Review öncelikleri `P1=170`, `P2=2614`, `P3=2206`; fallback `0`dır.

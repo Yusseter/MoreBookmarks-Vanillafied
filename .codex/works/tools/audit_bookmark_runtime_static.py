@@ -1082,6 +1082,12 @@ def main() -> int:
                 source_liege_sig = (
                     source_state.liege if source_id in source.events else "absent"
                 )
+                liege_provenance = classify_provenance(
+                    state.liege, premerge_liege_sig, source_liege_sig
+                )
+                source_native_independent_design = (
+                    liege_provenance == "upstream_integration"
+                )
                 differs = bool(pre_state.liege or source_state.liege)
                 independent_rows.append(
                     {
@@ -1091,18 +1097,42 @@ def main() -> int:
                         "asil_mod_title_id": source_id,
                         "asil_mod_liege": source_state.liege,
                         "classification": (
-                            "reference_has_liege_review" if differs else "standalone_or_shared_review"
+                            "source_native_independent_county_design"
+                            if source_native_independent_design
+                            else (
+                                "reference_has_liege_review"
+                                if differs else "standalone_or_shared_review"
+                            )
                         ),
                     }
                 )
                 if differs:
+                    issue = "independent_county_differs_from_reference"
+                    severity = "review"
+                    confidence = "medium"
+                    reason = (
+                        "county is isolated while premerge or asıl-mod counterpart "
+                        "has a liege"
+                    )
+                    recommendation = "manual_realm_hierarchy_review"
+                    if source_native_independent_design:
+                        issue = "source_native_independent_county_design"
+                        severity = "info"
+                        confidence = "high"
+                        reason = (
+                            "current independent-county state matches the current "
+                            "asıl-mod source and replaces the premerge liege state"
+                        )
+                        recommendation = (
+                            "retain_source_design_unless_gameplay_review_finds_problem"
+                        )
                     findings.append(
                         {
                             "domain": "runtime",
                             "category": "realm_hierarchy",
-                            "issue": "independent_county_differs_from_reference",
-                            "severity": "review",
-                            "confidence": "medium",
+                            "issue": issue,
+                            "severity": severity,
+                            "confidence": confidence,
                             "title_id": title_id,
                             "bookmark_date": str(date),
                             "holder": state.holder,
@@ -1111,15 +1141,13 @@ def main() -> int:
                             "government": state.government,
                             "path": state.holder_path,
                             "line": str(state.holder_line or ""),
-                            "reason": "county is isolated while premerge or asıl-mod counterpart has a liege",
-                            "recommendation": "manual_realm_hierarchy_review",
+                            "reason": reason,
+                            "recommendation": recommendation,
                             "source_title_id": source_id,
                             "current_signature": current_sig,
                             "premerge_signature": premerge_sig,
                             "asil_mod_signature": source_sig,
-                            "provenance": classify_provenance(
-                                state.liege, premerge_liege_sig, source_liege_sig
-                            ),
+                            "provenance": liege_provenance,
                             "provenance_basis": "effective_liege_state",
                         }
                     )

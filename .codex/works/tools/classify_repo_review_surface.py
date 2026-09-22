@@ -195,6 +195,16 @@ def classify(
 
     if domain == "province_history":
         if classification == "duplicate_province_block":
+            if provenance == "intentional_additive_mpe_province_projection":
+                return (
+                    "intentional_additive_mpe_province_history_projection",
+                    "P3",
+                    "no",
+                    (
+                        "retain the separate source and MPE projection blocks; "
+                        "duplicate province-history blocks are loaded additively"
+                    ),
+                )
             return (
                 "province_history_duplicate_structure_review",
                 "P1",

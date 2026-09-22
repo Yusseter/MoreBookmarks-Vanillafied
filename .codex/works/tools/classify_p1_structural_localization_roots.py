@@ -428,6 +428,19 @@ def history_duplicate_rows(
             asil_signature = sorted(
                 canonical_lines(block.lines) for block in asil_blocks
             )
+            current_signature_counts = Counter(current_signature)
+            asil_signature_counts = Counter(asil_signature)
+            current_contains_asil_block_multiset = bool(asil_blocks) and not (
+                asil_signature_counts - current_signature_counts
+            )
+            additive_current_block_count = max(
+                len(blocks) - len(asil_blocks), 0
+            )
+            mpe_projection_blocks = [
+                block
+                for block in blocks
+                if any("Yusseter: MPE" in line for line in block.lines)
+            ]
             current_body_signature = sorted(
                 canonical_block_body(block.lines) for block in blocks
             )
@@ -446,6 +459,14 @@ def history_duplicate_rows(
                 and len(related_source_objects) > 1
                 and related_asil_blocks
                 and current_body_signature == related_asil_body_signature
+            )
+            intentional_additive_mpe_province_projection = bool(
+                domain == "province_history"
+                and current_signature == baseline_signature
+                and additive_current_block_count > 0
+                and current_contains_asil_block_multiset
+                and mpe_projection_blocks
+                and not comparison["conflicting_fields"]
             )
             vanilla_signature = sorted(
                 canonical_lines(block.lines) for block in vanilla_blocks
@@ -467,6 +488,10 @@ def history_duplicate_rows(
                 semantic_source_provenance = (
                     "intentional_additive_asil_projection"
                 )
+            elif intentional_additive_mpe_province_projection:
+                semantic_source_provenance = (
+                    "intentional_additive_mpe_province_projection"
+                )
             recommended_action = comparison["recommendation"]
             if (
                 mapped_asil_signature_match
@@ -480,6 +505,12 @@ def history_duplicate_rows(
             ):
                 recommended_action = (
                     "retain_additive_source_hierarchy_projection"
+                )
+            elif semantic_source_provenance == (
+                "intentional_additive_mpe_province_projection"
+            ):
+                recommended_action = (
+                    "retain_layered_mpe_province_history_projection"
                 )
             output.append({
                 "domain": domain,
@@ -518,6 +549,16 @@ def history_duplicate_rows(
                 "current_matches_asil_signature": (
                     "yes" if exact_asil_signature_match else "no"
                 ),
+                "current_contains_asil_block_multiset": (
+                    "yes" if current_contains_asil_block_multiset else "no"
+                ),
+                "additive_current_block_count": str(
+                    additive_current_block_count
+                ),
+                "mpe_projection_block_evidence": " | ".join(
+                    f"{block.path.split(':', 1)[-1]}:{block.start_line}"
+                    for block in mpe_projection_blocks
+                ),
                 "mapped_asil_source_objects": ";".join(mapped_source_objects),
                 "mapped_asil_source_block_count": str(len(mapped_asil_blocks)),
                 "mapped_asil_source_locations": " | ".join(
@@ -551,7 +592,10 @@ def history_duplicate_rows(
                 "recommended_priority": (
                     "P3"
                     if semantic_source_provenance
-                    == "intentional_additive_asil_projection"
+                    in {
+                        "intentional_additive_asil_projection",
+                        "intentional_additive_mpe_province_projection",
+                    }
                     else (
                         "P1"
                         if comparison["comparison"]

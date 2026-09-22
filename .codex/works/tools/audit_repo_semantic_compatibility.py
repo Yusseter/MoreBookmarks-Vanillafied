@@ -121,17 +121,22 @@ def normalize_text(text: str) -> str:
 def write_csv(path: Path, rows: list[dict[str, str]]) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     if not rows:
-        path.write_text("", encoding="utf-8")
+        payload = b""
+        if not path.exists() or path.read_bytes() != payload:
+            path.write_bytes(payload)
         return
     fieldnames: list[str] = []
     for row in rows:
         for key in row:
             if key not in fieldnames:
                 fieldnames.append(key)
-    with path.open("w", encoding="utf-8-sig", newline="") as handle:
-        writer = csv.DictWriter(handle, fieldnames=fieldnames)
-        writer.writeheader()
-        writer.writerows(rows)
+    buffer = io.StringIO(newline="")
+    writer = csv.DictWriter(buffer, fieldnames=fieldnames)
+    writer.writeheader()
+    writer.writerows(rows)
+    payload = buffer.getvalue().encode("utf-8-sig")
+    if not path.exists() or path.read_bytes() != payload:
+        path.write_bytes(payload)
 
 
 def parse_definition(text: str) -> dict[int, dict[str, object]]:

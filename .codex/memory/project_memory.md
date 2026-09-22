@@ -6721,3 +6721,12 @@ Yeni raporlar:
 - Kalan `22` duplicate title-history kökünün `20`si güncel asıl modla exact, `2`si mapped kaynakla ortaktır. Bunlar P2 `deferred_asil_mod_title_history_review` olarak son asıl-mod cleanup geçişine ertelendi.
 - Ayrıntılı kanıt `.codex/works/analysis/reports/2026.09.22-title-history-additive-projection-review.md` dosyasındadır. Canlı `BookmarksGit` içeriği ve kullanıcının `fonts.font` WIP'i değiştirilmedi.
 - Final closure `5496` bulgu, `245` blocker, `4990` review ve `261` info; coverage `32 full`, `3 partial`, `0 stale`. Review öncelikleri `P1=170`, `P2=2614`, `P3=2206`; fallback `0`dır.
+
+### 2026-09-22 Province-History Katmanlı Projection İncelemesi
+
+- Yedi duplicate province-history kökü (`606`, `5276`, `5279`, `5280`, `5281`, `5321`, `5344`) tam blok ve doğrudan alan düzeyinde incelendi. Hepsi pre-merge Yusseter baseline'ıyla aynıdır, güncel asıl-mod blok kümesini eksiksiz içerir ve açık bir `Yusseter: MPE` donor bloğu taşır.
+- `5276`, `5279`, `5280`, `5281` ve `5321` ayrık additive katkılardır. `606` ile `5344` yalnız aynı değerli `holding` girdilerini; `606` ayrıca aynı değerli `1320.1.1` girdisini tekrarlar. Hiçbir satırda alan değeri çakışması yoktur.
+- Tiger'ın CK3 province-history yükleyicisi birden fazla province girdisini geçerli kabul edip blokları append eder. Kaynak ve MPE katmanını birleştirmek efektif sonucu değiştirmeden sonraki upstream merge riskini artıracağından canlı history düzenlenmedi.
+- Yedi satır `intentional_additive_mpe_province_projection`, P3 ve `retain_layered_mpe_province_history_projection` olarak sınıflandırıldı. Kural ID'lere sabitlenmedi; baseline eşitliği, asıl-mod blok altkümesi, ek blok, açık MPE donor kanıtı ve sıfır alan çakışması birlikte zorunludur.
+- Semantik audit CSV yazıcısı, içerik değişmiyorsa dosya zaman damgasını artık ilerletmez. Böylece boş semantik raporların Tiger/P0/P1/review freshness zincirini her closure koşusunda stale yapması kapatıldı.
+- Ayrıntılı kanıt `.codex/works/analysis/reports/2026.09.22-province-history-layered-projection-review.md` dosyasındadır. Final closure `5496` bulgu, `245` blocker, `4990` review ve `261` info; coverage `32 full`, `3 partial`, `0 stale`. Review öncelikleri `P1=163`, `P2=2614`, `P3=2213`; fallback `0`dır. Canlı `BookmarksGit` içeriği ve kullanıcının `fonts.font` WIP'i değiştirilmedi.

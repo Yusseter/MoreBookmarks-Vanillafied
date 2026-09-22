@@ -559,6 +559,34 @@ def read_title_mapping(path: Path) -> dict[str, str]:
     return mapping
 
 
+def read_source_to_current_title_candidates(path: Path) -> dict[str, list[str]]:
+    candidates: dict[str, set[str]] = defaultdict(set)
+    with path.open("r", encoding="utf-8-sig", newline="") as handle:
+        for raw in csv.DictReader(handle, skipinitialspace=True):
+            current_tokens = [
+                token.replace("(second)", "").strip()
+                for token in re.split(
+                    r"[&;]", (raw.get("source_title_id") or "")
+                )
+            ]
+            source_tokens = [
+                token.replace("(second)", "").strip()
+                for token in re.split(r"[&;]", (raw.get("mod_title_id") or ""))
+            ]
+            current_tokens = [
+                token for token in current_tokens if TITLE_ID_RE.fullmatch(token)
+            ]
+            source_tokens = [
+                token for token in source_tokens if TITLE_ID_RE.fullmatch(token)
+            ]
+            for source in source_tokens:
+                candidates[source].update(current_tokens)
+    return {
+        source: sorted(current_titles)
+        for source, current_titles in candidates.items()
+    }
+
+
 def normalize_current_history_path(path: str) -> str:
     relative = path.split(":", 1)[-1].lstrip("/")
     return f"BookmarksGit/{relative}"
@@ -953,9 +981,13 @@ def main() -> int:
         current_mod / "common/landed_titles/00_landed_titles.txt"
     )
     county_ids = sorted(title_id for title_id in landed_blocks if title_id.startswith("c_"))
-    title_mapping = read_title_mapping(
+    title_relation_path = (
         repo_root
         / ".codex/works/pipeline_inputs/title_relations/curated_title_relations.csv"
+    )
+    title_mapping = read_title_mapping(title_relation_path)
+    source_to_current_titles = read_source_to_current_title_candidates(
+        title_relation_path
     )
     holder_reference_rows = build_title_holder_reference_provenance(
         current,
@@ -1085,8 +1117,41 @@ def main() -> int:
                 liege_provenance = classify_provenance(
                     state.liege, premerge_liege_sig, source_liege_sig
                 )
+                source_liege_candidates = list(
+                    source_to_current_titles.get(source_state.liege, [])
+                )
+                if (
+                    source_state.liege in landed_blocks
+                    and source_state.liege not in source_liege_candidates
+                ):
+                    source_liege_candidates.append(source_state.liege)
+                    source_liege_candidates.sort()
+                source_liege_higher_candidates = [
+                    candidate
+                    for candidate in source_liege_candidates
+                    if candidate.startswith(("h_", "e_", "k_", "d_"))
+                ]
+                if not source_state.liege:
+                    source_liege_relation_status = "source_liege_absent"
+                elif not source_liege_candidates:
+                    source_liege_relation_status = (
+                        "source_liege_has_no_current_relation_candidate"
+                    )
+                elif source_liege_higher_candidates:
+                    source_liege_relation_status = (
+                        "source_liege_has_current_higher_title_candidate"
+                    )
+                else:
+                    source_liege_relation_status = (
+                        "source_liege_collapses_below_required_tier"
+                    )
                 source_native_independent_design = (
                     liege_provenance == "upstream_integration"
+                )
+                projection_collapsed_source_liege = (
+                    liege_provenance == "preexisting_yusseter"
+                    and source_liege_relation_status
+                    == "source_liege_collapses_below_required_tier"
                 )
                 differs = bool(pre_state.liege or source_state.liege)
                 independent_rows.append(
@@ -1096,12 +1161,25 @@ def main() -> int:
                         "premerge_liege": pre_state.liege,
                         "asil_mod_title_id": source_id,
                         "asil_mod_liege": source_state.liege,
+                        "asil_mod_liege_current_candidates": " | ".join(
+                            source_liege_candidates
+                        ),
+                        "asil_mod_liege_higher_candidates": " | ".join(
+                            source_liege_higher_candidates
+                        ),
+                        "asil_mod_liege_relation_status": (
+                            source_liege_relation_status
+                        ),
                         "classification": (
                             "source_native_independent_county_design"
                             if source_native_independent_design
                             else (
-                                "reference_has_liege_review"
-                                if differs else "standalone_or_shared_review"
+                                "projection_collapsed_source_liege"
+                                if projection_collapsed_source_liege
+                                else (
+                                    "reference_has_liege_review"
+                                    if differs else "standalone_or_shared_review"
+                                )
                             )
                         ),
                     }
@@ -1126,6 +1204,17 @@ def main() -> int:
                         recommendation = (
                             "retain_source_design_unless_gameplay_review_finds_problem"
                         )
+                    elif projection_collapsed_source_liege:
+                        issue = "projection_collapsed_source_liege"
+                        severity = "info"
+                        confidence = "high"
+                        reason = (
+                            "the source liege maps only to current county-tier titles, "
+                            "so the source hierarchy cannot be restored directly"
+                        )
+                        recommendation = (
+                            "retain_independence_until_a_higher_tier_relation_is_curated"
+                        )
                     findings.append(
                         {
                             "domain": "runtime",
@@ -1149,6 +1238,15 @@ def main() -> int:
                             "asil_mod_signature": source_sig,
                             "provenance": liege_provenance,
                             "provenance_basis": "effective_liege_state",
+                            "asil_mod_liege_current_candidates": " | ".join(
+                                source_liege_candidates
+                            ),
+                            "asil_mod_liege_higher_candidates": " | ".join(
+                                source_liege_higher_candidates
+                            ),
+                            "asil_mod_liege_relation_status": (
+                                source_liege_relation_status
+                            ),
                         }
                     )
 

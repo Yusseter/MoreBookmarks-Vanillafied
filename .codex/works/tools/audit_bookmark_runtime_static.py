@@ -1073,6 +1073,15 @@ def main() -> int:
                 source_id = title_mapping.get(title_id, title_id)
                 pre_state = premerge.state_at(title_id, date)
                 source_state = source.state_at(source_id, date)
+                current_sig = signature(current, title_id, date, current_lives)
+                premerge_sig = signature(premerge, title_id, date, premerge_lives)
+                source_sig = signature(source, source_id, date, source_lives)
+                premerge_liege_sig = (
+                    pre_state.liege if title_id in premerge.events else "absent"
+                )
+                source_liege_sig = (
+                    source_state.liege if source_id in source.events else "absent"
+                )
                 differs = bool(pre_state.liege or source_state.liege)
                 independent_rows.append(
                     {
@@ -1105,10 +1114,13 @@ def main() -> int:
                             "reason": "county is isolated while premerge or asıl-mod counterpart has a liege",
                             "recommendation": "manual_realm_hierarchy_review",
                             "source_title_id": source_id,
-                            "current_signature": signature(current, title_id, date, current_lives),
-                            "premerge_signature": signature(premerge, title_id, date, premerge_lives),
-                            "asil_mod_signature": signature(source, source_id, date, source_lives),
-                            "provenance": "yusseter_current_only",
+                            "current_signature": current_sig,
+                            "premerge_signature": premerge_sig,
+                            "asil_mod_signature": source_sig,
+                            "provenance": classify_provenance(
+                                state.liege, premerge_liege_sig, source_liege_sig
+                            ),
+                            "provenance_basis": "effective_liege_state",
                         }
                     )
 

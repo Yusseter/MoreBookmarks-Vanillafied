@@ -6,8 +6,8 @@
     }
   },
   "ignores": [
-    ".codex/prompts/**",
-    ".codex/works/analysis/generated/**",
-    ".codex/works/archive/**"
+    ".*/**",
+    "development/analysis/generated/**",
+    "development/archive/**"
   ]
 }

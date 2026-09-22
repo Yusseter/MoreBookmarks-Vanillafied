@@ -47,4 +47,4 @@
 *.exe binary
 
 # Archived raw diff evidence
-.codex/works/archive/merge_restore_backups/** -whitespace
+development/archive/merge_restore_backups/** -whitespace

@@ -19,12 +19,8 @@ tmp/
 temp/
 wip/
 
-# Local Codex files
-.codex/prompts/
-.codex/memory/local/
-
 # Generated analysis files
-.codex/works/analysis/generated/
+development/analysis/generated/
 
 # Python cache
 __pycache__/

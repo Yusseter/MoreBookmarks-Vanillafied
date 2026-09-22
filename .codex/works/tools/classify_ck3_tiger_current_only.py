@@ -590,6 +590,20 @@ def generic_classification(
                     "no_action",
                     "P3",
                 )
+            if status == "vanilla_native_title_adjective_gap":
+                return (
+                    "vanilla_native_title_adjective_gap",
+                    "",
+                    (
+                        "current_base="
+                        f"{requirement.get('current_base_value', '')}; "
+                        "vanilla_base="
+                        f"{requirement.get('vanilla_base_value', '')}"
+                    ),
+                    "high",
+                    "no_action_unless_runtime_evidence_requires_explicit_adjective",
+                    "P3",
+                )
             if status == "missing_everywhere":
                 return (
                     "localization_missing_everywhere",

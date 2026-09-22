@@ -6694,3 +6694,12 @@ Yeni raporlar:
 - Üç çatışmada güncel kaynak kronolojisi korunur: `c_jianchuan / 760.1.1`, `c_xiazhou / 1210.1.1` ve `c_yinzhou / 1210.1.1`. Eski holder'ları geri getirmek, `21` bookmark'ın tamamında geçerli olan yeni zincirleri ezip başka title'larda kullanılan karakterleri yeniden çoğaltacağından güvenli bir regresyon düzeltmesi değildir.
 - `c_SUM_riak_nan_berbedur / 750.1.1` içindeki eski holder satırı Yusseter'a özgü değildir; asıl mod commit'i `fb3ecdb9237c51b4ddf10ebda4a3e9227ae446fc` kökenlidir. Tek satırı geri getirmek aktif bookmark'lardaki ertelenmiş `Indonesia*` kaynak borcunu çözmez.
 - Sonuç: bu `384` aday için canlı `BookmarksGit` değişikliği gerekmez. Ayrıntılı kanıt `.codex/works/analysis/reports/2026.09.22-title-history-source-overwrite-review.md` dosyasındadır; `fonts.font` kullanıcı WIP'i değişmeden kalmıştır.
+
+### 2026-09-22 Title Adjective Localization İncelemesi
+
+- Önceki P1 raporundaki `422` mapped title-adjective adayı current, vanilla ve raw vanilla landed-title katmanlarıyla yeniden incelendi; hedef title'ların tamamı vanilla'da tanımlıdır.
+- `412` hedefin etkin current base adı vanilla base adıyla birebir aynıdır ve vanilla da bunlar için açık `_adj` anahtarı sağlamaz. Bu satırlar `vanilla_native_title_adjective_gap`, `P3` ve `no_action_unless_runtime_evidence_requires_explicit_adjective` olarak sınıflandırılır.
+- Yusseter'ın vanilla'dan gerçekten farklı görünen ad verdiği `10` title için current hedef adıyla açık İngilizce adjective anahtarı `BookmarksGit/localization/replace/english/z_MB_titles_l_english.yml` dosyasına eklendi: `c_ca_mau_adj`, `c_hai_dong_adj`, `c_hengzhou_adj`, `c_hequ_adj`, `c_jianchuan_adj`, `c_longzhou_adj`, `c_luyang_adj`, `c_yunzhou_adj`, `d_wuxin_adj` ve `d_youzhou_adj`.
+- Tek cross-tier aday `d_qiongguan_adj <- c_wananzhou_adj`, `412` vanilla-native satır içindedir; eski county sıfatı duchy'ye kopyalanmadı. Genel kural: eski mapped source adjective değeri yeni target title'a otomatik taşınmaz.
+- Yenilenen P1 raporunda mapped-localization adayı `0`; CK3-Tiger current-only sınıflandırmasında vanilla-native satır tam olarak `412`dir. Ayrıntılı kanıt `.codex/works/analysis/reports/2026.09.22-title-adjective-localization-review.md` dosyasındadır.
+- Ertelenen asıl-mod blocker kökleri ile kullanıcının `BookmarksGit/fonts/fonts.font` WIP'i değiştirilmedi.

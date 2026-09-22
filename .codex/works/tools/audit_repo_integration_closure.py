@@ -1008,6 +1008,50 @@ def scan_localization(
     return dict(keys), files, rows
 
 
+def localization_precedence(path: str) -> int:
+    normalized = "/" + path.replace("\\", "/").lower().strip("/") + "/"
+    if "/localization/replace/" in normalized:
+        return 2
+    if "/localization/english/replace/" in normalized:
+        return 1
+    return 0
+
+
+def localization_literal(value: str) -> str:
+    value = value.strip()
+    if len(value) >= 2 and value.startswith('"') and value.endswith('"'):
+        return value[1:-1]
+    return value
+
+
+def effective_localization_literal(
+    mod_entries: list[dict[str, str]],
+    vanilla_entries: list[dict[str, str]],
+) -> str:
+    if mod_entries:
+        rank = max(localization_precedence(entry["path"]) for entry in mod_entries)
+        entries = [
+            entry for entry in mod_entries
+            if localization_precedence(entry["path"]) == rank
+        ]
+    else:
+        entries = vanilla_entries
+    values = {localization_literal(entry["value"]) for entry in entries}
+    return next(iter(values)) if len(values) == 1 else ""
+
+
+def collect_raw_vanilla_title_ids(vanilla_root: Path) -> set[str]:
+    result: set[str] = set()
+    directory = vanilla_root / "common/landed_titles"
+    for path in sorted(directory.rglob("*.txt")):
+        snapshot = merge_state.build_snapshot(
+            f"vanilla/{path.relative_to(directory).as_posix()}",
+            read_text(path),
+        )
+        result.update(snapshot.titles)
+    return result
+
+
 def load_title_relation_map(path: Path) -> dict[str, str]:
     relations: dict[str, str] = {}
     if not path.is_file():
@@ -1144,6 +1188,7 @@ def audit_localization(
         repo_root
         / ".codex/works/pipeline_inputs/title_relations/curated_title_relations.csv"
     )
+    vanilla_title_ids = collect_raw_vanilla_title_ids(vanilla_root)
     requirements: list[dict[str, str]] = []
 
     for key, entries in sorted(mod_keys.items()):
@@ -1175,6 +1220,22 @@ def audit_localization(
             key, mod_keys, vanilla_keys, source_keys, title_relations
         )
         title_key = key[:-4] if requirement == "title_adj" else key
+        current_base_value = ""
+        vanilla_base_value = ""
+        if (
+            requirement == "title_adj"
+            and status == "missing_effective_mapped_source_available"
+            and title_key in vanilla_title_ids
+        ):
+            current_base_value = effective_localization_literal(
+                mod_keys.get(title_key, []),
+                vanilla_keys.get(title_key, []),
+            )
+            vanilla_base_value = effective_localization_literal(
+                [], vanilla_keys.get(title_key, [])
+            )
+            if current_base_value and current_base_value == vanilla_base_value:
+                status = "vanilla_native_title_adjective_gap"
         if status.startswith("missing_") and title_key in noble_family_titles:
             status = "runtime_generated_noble_family_name"
             source_value = ""
@@ -1213,6 +1274,11 @@ def audit_localization(
             "fallback_candidate_key": fallback_key,
             "fallback_candidate_origin": fallback_origin,
             "fallback_candidate_basis": fallback_basis,
+            "current_base_value": current_base_value,
+            "vanilla_base_value": vanilla_base_value,
+            "vanilla_title_defined": (
+                "yes" if title_key in vanilla_title_ids else "no"
+            ),
         })
         if status.startswith("missing_"):
             mapped_source = source_key and source_key != key

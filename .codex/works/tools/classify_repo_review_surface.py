@@ -99,6 +99,7 @@ def classify(
         ("ck3_tiger", "color_formatting_quality"),
         ("ck3_tiger", "localization_hash_collision_review"),
         ("ck3_tiger", "temporal_history_quality_review"),
+        ("ck3_tiger", "vanilla_native_title_adjective_gap"),
         ("localization", "internal_color_template_title_review"),
         ("localization", "internal_null_sentinel_title_review"),
         ("localization", "obsolete_unreferenced_title_localization_review"),

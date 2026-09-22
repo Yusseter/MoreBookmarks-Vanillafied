@@ -29,7 +29,8 @@
 
 - Write new maintained project documentation, TODO entries, README guidance, plans, and skills in English; communicate with the user in Turkish. Preserve historical Turkish notes and personal prompt text. Ask only when a document's audience or an explicit request leaves its language unclear.
 - Preserve encoding, CK3 localization BOMs, meaningful whitespace, and Turkish prose. Avoid mass reformatting or translating historical notes as part of another task.
+- Follow `.editorconfig` for new indentation: tabs by default, spaces for Python, YAML, Markdown, and CK3 localization. Apply formatting only within the task's actual edit scope.
 - Use concise English names for new paths and the plan naming rules in `.codex/plans/README.md`. A rename must preserve content and update active consumers.
 - When commits are authorized, group them by purpose, stage explicit paths or hunks, and inspect the staged diff. Use the configured Git identity and descriptive English summary/body text, without an AI co-author line or a required conventional prefix.
 - Use the user's supplied commit examples as references for tone and useful detail. Do not infer a fixed paragraph count, layout, or mandatory Copilot standard; describe the actual staged change.
-- Continue an authorized commit sequence without asking again for each commit. Leave unrelated WIP and unresolved decisions outside it. Do not push; the user reviews and pushes.
+- Continue an authorized commit sequence without asking again for each commit. Leave unrelated WIP and unresolved decisions outside it. The user permits a push when it is necessary or useful; choose deliberately, verify the destination and outgoing commits, and report what was pushed. This does not authorize force-pushes or history rewrites.

@@ -1,0 +1,20 @@
+root = true
+
+# Indentation only: preserve existing encoding, line endings, and file contents.
+[*]
+indent_style = tab
+indent_size = 4
+tab_width = 4
+
+[*.py]
+indent_style = space
+indent_size = 4
+
+[*.{yml,yaml,md}]
+indent_style = space
+indent_size = 2
+
+# CK3 localization entries conventionally use one leading space.
+[*_l_*.yml]
+indent_style = space
+indent_size = 1

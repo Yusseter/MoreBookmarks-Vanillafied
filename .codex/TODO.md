@@ -11,11 +11,11 @@ Updated: 2026-09-22. This file tracks the current work sequence; historical plan
 
 ## Current Sequence
 
-Scope: the remaining topics from the August 2 project organization request. The user authorized continuing in this order and asking about decisions when needed. Next item: `TAB-01`.
+Scope: the remaining topics from the August 2 project organization request. The user authorized continuing in this order and asking about decisions when needed. Next item: `SKILL-01`.
 
 - [x] `ORG-01`: Add project working rules in [AGENTS.md](../AGENTS.md), keep memory separate, and define how existing CK3 skills and future knowledge additions should be used.
 - [x] `TODO-01`: Track completed, upcoming, and deferred work in this single list.
-- [ ] `TAB-01`: Define file-type-aware tab/space settings for the Yusseter project folder. The user prefers literal tabs; preserve format requirements such as Python and localization indentation. Check effective editor settings first; avoid bulk reformatting and changes to upstream or vanilla editor settings.
+- [x] `TAB-01`: Added [EditorConfig](../.editorconfig), [Yusseter folder settings](../.vscode/settings.json), and [extension recommendations](../.vscode/extensions.json). Tabs use a 4-column display; Python, YAML, Markdown, and localization keep space-based rules. The installed EditorConfig parser resolved all eight checked filename cases correctly. No bulk conversion or changes to sibling source folders were made; live VS Code UI behavior has not been separately observed.
 - [ ] `SKILL-01`: Compare verified general CK3 lessons with the existing `ck3-modding` and `ck3-modding-wiki` content. Prepare reusable, sourced guidance for gaps; choose an existing or separate skill according to scope. Do not turn project-specific ID decisions into general engine rules.
 - [ ] `CUSTOM-01`: Inventory personal changes unrelated to projection with the user. Fonts, intentional map edits, and title colors are starting examples; `# Yusseter:` comments are not a complete inventory. Do not extract, revert, or move these changes to another mod until intent and ownership are clear.
 
@@ -38,3 +38,5 @@ Scope: the remaining topics from the August 2 project organization request. The 
 ## Return Point
 
 2026-09-22: Commit organization led into a new upstream merge, game testing, and issue review without a recorded return to the remaining organization topics. The user's reminder restored the sequence above. This documentation step requires no game source changes or audit regeneration.
+
+2026-09-22: Working rules and task tracking were committed as `f7213149f`. Indentation configuration is complete; resume with sourced CK3 knowledge additions (`SKILL-01`). The user also permitted pushing when necessary or useful; publishing remains a deliberate action, not an automatic end-of-task step.

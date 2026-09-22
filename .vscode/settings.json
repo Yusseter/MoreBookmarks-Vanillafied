@@ -1,0 +1,33 @@
+{
+	"editor.detectIndentation": false,
+	"editor.insertSpaces": false,
+	"editor.tabSize": 4,
+	"[json]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"[jsonc]": {
+		"editor.insertSpaces": false,
+		"editor.tabSize": 4
+	},
+	"[python]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 4
+	},
+	"[yaml]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"[markdown]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"[prompt]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 2
+	},
+	"[paradox-loc]": {
+		"editor.insertSpaces": true,
+		"editor.tabSize": 1
+	}
+}

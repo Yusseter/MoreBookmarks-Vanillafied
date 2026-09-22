@@ -29,6 +29,23 @@ New repository skills belong in `.agents/skills/<skill-name>/SKILL.md` at the re
 
 Discovery and location references: [OpenAI AGENTS.md documentation](https://learn.chatgpt.com/docs/agent-configuration/agents-md) and [skills documentation](https://learn.chatgpt.com/docs/build-skills).
 
+## Editor Indentation
+
+The repository [EditorConfig](../.editorconfig) defines indentation by filename. [VS Code folder settings](../.vscode/settings.json) disable automatic indentation detection for Yusseter MBP, so existing space-indented files cannot silently change the default tab preference. The sibling upstream and vanilla folders retain their own settings.
+
+| File type | New indentation |
+| --- | --- |
+| CK3 scripts, GUI, font definitions, JSON, PowerShell, other text | Tabs, displayed as 4 columns |
+| Python | 4 spaces |
+| YAML and Markdown, including prompt files | 2 spaces |
+| CK3 localization (`*_l_*.yml`) | 1 space |
+
+The installed EditorConfig extension applies the filename-specific localization rule even when the file uses YAML language mode. Without it, the YAML fallback still uses spaces. Existing content, encoding/BOM, line endings, and formatter selection are unchanged; these settings do not run a bulk conversion. Reopen a file if an already-open editor retains its previous indentation setting.
+
+[Extension recommendations](../.vscode/extensions.json) list EditorConfig for these rules and Markdownlint for the repository's existing Markdown checks. Recommendations do not install extensions automatically.
+
+Behavior references: [VS Code indentation](https://code.visualstudio.com/docs/editing/codebasics#_indentation), [EditorConfig properties](https://editorconfig.org/#supported-properties), and [VS Code extension recommendations](https://code.visualstudio.com/docs/configure/extensions/extension-marketplace#_workspace-recommended-extensions).
+
 ## Organization Rules
 
 - Write new maintained documentation in English. Keep user-facing conversation in Turkish and preserve historical notes and personal prompt content in their original language.

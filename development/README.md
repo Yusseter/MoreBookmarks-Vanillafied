@@ -12,6 +12,7 @@ The playable mod is in `BookmarksGit/`. This directory contains its supporting t
 | `analysis/generated/` | Reproducible outputs, grouped by system and ignored by Git |
 | `analysis/reports/` | Selected findings and validation reports |
 | `archive/` | Historical evidence and reference snapshots |
+| `local/` | Private working notes, plans, request archives, and local record history; ignored by the main repository |
 
 Start with the [tool guide](tools/README.md), [map refresh workflow](map_data_sources/README.md), and [analysis guide](analysis/README.md).
 Tools resolve external source folders from explicit arguments or documented defaults; see [the workspace](../Yusseter-MBP-Development.code-workspace) for the current upstream and vanilla locations.

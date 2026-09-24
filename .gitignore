@@ -3,7 +3,9 @@
 Thumbs.db
 desktop.ini
 
-# IDE, local editor and agent folders
+# IDE, local editor and agent folders and files
+.codex/skills/
+/AGENTS.md
 .idea/
 .vs/
 .history/
@@ -18,8 +20,7 @@ desktop.ini
 tmp/
 temp/
 wip/
-
-# Generated analysis files
+development/local/
 development/analysis/generated/
 
 # Python cache

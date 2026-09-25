@@ -46,8 +46,13 @@ innovation_irish_muire = {
 	icon = @maa_01
 
 	potential = {
-		has_cultural_pillar = heritage_goidelic
-	}
+        OR = {
+			this = culture:irish
+			any_parent_culture_or_above = {
+				this = culture:irish
+			}
+		}
+    }
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -74,8 +79,13 @@ innovation_irish_ostmen = {
 	icon = @maa_01
 
 	potential = {
-		has_cultural_pillar = heritage_goidelic
-	}
+        OR = {
+			this = culture:irish
+			any_parent_culture_or_above = {
+				this = culture:irish
+			}
+		}
+    }
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -102,8 +112,13 @@ innovation_welsh_rhyfelwyr = {
 	icon = @maa_01
 
 	potential = {
-		has_cultural_pillar = heritage_brythonic
-	}
+        OR = {
+			this = culture:welsh
+			any_parent_culture_or_above = {
+				this = culture:welsh
+			}
+		}
+    }
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -130,8 +145,13 @@ innovation_welsh_saethwyr = {
 	icon = @special_maa_02
 
 	potential = {
-		has_cultural_pillar = heritage_brythonic
-	}
+        OR = {
+			this = culture:welsh
+			any_parent_culture_or_above = {
+				this = culture:welsh
+			}
+		}
+    }
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -150,10 +170,10 @@ innovation_welsh_saethwyr = {
 	flag = global_maa
 }
 
-innovation_lithuanian_bajorija = {
+innovation_lithuanian_bajorija = { # Changed to late Medieval
 	skill = martial
 	group = culture_group_regional
-	culture_era = culture_era_high_medieval
+	culture_era = culture_era_late_medieval
 
 	icon = @maa_01
 
@@ -166,7 +186,7 @@ innovation_lithuanian_bajorija = {
 		if = {
 			limit = {
 				NOT = {
-					has_cultural_era_or_later = culture_era_high_medieval
+					has_cultural_era_or_later = culture_era_late_medieval
 				}
 			}
 			multiply = 0
@@ -222,14 +242,18 @@ innovation_komnenian_army = {
 
 	icon = @maa_01
 
-	can_progress = { #Unlocked by event.
-		custom_description = {
-			text = "innovation_unlocked_by_decision_trigger"
-			is_target_in_global_variable_list = {
-				name = unavailable_unique_decisions
-				target = flag:flag_reformed_byz_military
-			}
-		}
+	#can_progress = { #Unlocked by event.
+	#	custom_description = {
+	#		text = "innovation_unlocked_by_decision_trigger"
+	#		is_target_in_global_variable_list = {
+	#			name = unavailable_unique_decisions
+	#			target = flag:flag_reformed_byz_military
+	#		}
+	#	}
+	#}
+	
+	potential = {
+		has_cultural_pillar = heritage_byzantine
 	}
 
 	character_modifier = {
@@ -375,10 +399,10 @@ innovation_mongol_cataphract = {
 	flag = global_maa
 }
 
-innovation_milan_famiglia_ducale = {
+innovation_milan_famiglia_ducale = { # Moved to Renaissance
 	skill = martial
 	group = culture_group_regional
-	culture_era = culture_era_high_medieval
+	culture_era = culture_era_renaissance
 
 	icon = @special_maa_01
 
@@ -391,7 +415,7 @@ innovation_milan_famiglia_ducale = {
 		if = {
 			limit = {
 				NOT = {
-					has_cultural_era_or_later = culture_era_high_medieval
+					has_cultural_era_or_later = culture_era_renaissance
 				}
 			}
 			multiply = 0
@@ -403,10 +427,10 @@ innovation_milan_famiglia_ducale = {
 	flag = global_maa
 }
 
-innovation_voulge = {
+innovation_voulge = { # This has no place in this entire timeframe to be honest
 	skill = martial
 	group = culture_group_regional
-	culture_era = culture_era_high_medieval
+	culture_era = culture_era_renaissance
 
 	icon = @maa_01
 
@@ -419,7 +443,7 @@ innovation_voulge = {
 		if = {
 			limit = {
 				NOT = {
-					has_cultural_era_or_later = culture_era_high_medieval
+					has_cultural_era_or_later = culture_era_renaissance
 				}
 			}
 			multiply = 0
@@ -431,10 +455,10 @@ innovation_voulge = {
 	flag = global_maa
 }
 
-innovation_english_billmen = {
+innovation_english_billmen = { # Moved to Renaissance
 	skill = martial
 	group = culture_group_regional
-	culture_era = culture_era_high_medieval
+	culture_era = culture_era_renaissance
 
 	icon = @maa_01
 
@@ -450,7 +474,7 @@ innovation_english_billmen = {
 		if = {
 			limit = {
 				NOT = {
-					has_cultural_era_or_later = culture_era_high_medieval
+					has_cultural_era_or_later = culture_era_renaissance
 				}
 			}
 			multiply = 0
@@ -546,12 +570,21 @@ innovation_hungarian_banderium = {
 	flag = global_maa
 }
 
-innovation_genoese_crossbowmen = {
+innovation_genoese_crossbowmen = { # Locked this to Ligurian
 	skill = martial
 	group = culture_group_regional
 	culture_era = culture_era_high_medieval
 	region = custom_northern_italy
 	icon = @special_maa_02
+	
+	potential = {
+        OR = {
+			this = culture:ligurian
+			any_parent_culture_or_above = {
+				this = culture:ligurian
+			}
+		}
+    }
 	
 	ai_weight_for_fascination = {
 		value = 100
@@ -647,6 +680,7 @@ innovation_hindu_arabic_numeral_european = {
             has_cultural_pillar = heritage_iberian
             has_cultural_pillar = heritage_east_slavic
             has_cultural_pillar = heritage_west_slavic
+			has_cultural_pillar = heritage_south_slavic # Was missing. Assume an oversight
             has_cultural_pillar = heritage_magyar
         }
     }

@@ -464,5 +464,5 @@ impassable_seas = LIST { 1293 12550 12763 12764 12765 12766 12767 }
 # VANILLA EAST DEFAULT MAP END
 
 # Yusseter: Custom impassable terrains
-impassable_mountains = RANGE { 14623 14629 }
-impassable_mountains = RANGE { 14641 14660 }
+# Retired optional areas retain their definition IDs, but no longer have map pixels.
+impassable_mountains = LIST { 14628 14629 14641 14642 }

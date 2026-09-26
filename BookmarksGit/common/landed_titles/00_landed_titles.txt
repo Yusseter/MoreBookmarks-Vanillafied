@@ -90781,7 +90781,7 @@ e_amur = {
 				color = { 60 80 150 }
 
 				cultural_names = {
-					name_list_yamato = cn_iburi
+					name_list_yamato = cn_c_hidaka
 					name_list_emishi = cn_iburi
 				}
 
@@ -91115,6 +91115,15 @@ e_amur = {
 
 e_andong = { # Localized as Āndōng
 	color = { 50 50 50 }
+
+	can_be_named_after_dynasty = no
+	can_use_nomadic_naming = no
+	definite_form = yes
+	disable_regnal_numbers = yes
+
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 
 	capital = c_LIAO_linhuang
 
@@ -93140,6 +93149,7 @@ h_china = {
 		capital = c_bianzhou
 
 		color = { 230 200 10 }
+		can_use_nomadic_naming = no
 
 
 		definite_form = yes
@@ -95115,6 +95125,7 @@ h_china = {
 
 	e_yongliang = { # Localized as Guānzhōng
 		color = { 180 180 190 }
+		can_use_nomadic_naming = no
 
 		capital = c_jingzhao
 
@@ -95833,6 +95844,7 @@ h_china = {
 
 	e_jingyang = { # Localized as Jīngyáng
 		color = { 169 40 40 }
+		can_use_nomadic_naming = no
 
 		capital = c_jiangning
 
@@ -97863,6 +97875,7 @@ h_china = {
 
 	e_liangyi = { # Localized as Bāshǔ
 		color = { 60 150 190 }
+		can_use_nomadic_naming = no
 
 		capital = c_chengdu
 
@@ -99167,9 +99180,9 @@ h_china = {
 				c_quzhou_1 = {
 					color = { 35 248 93 }
 
-					#cultural_names = { # Yusseter: REVIEW_ASIL_MOD_CULTURAL_NAMES
-					#	name_list_han = cn_wumeng
-					#}
+					cultural_names = { # Yusseter: REVIEW_ASIL_MOD_CULTURAL_NAMES
+						name_list_han = cn_wumeng
+					}
 
 					b_zhuti = {
 						province = 10882
@@ -99554,9 +99567,9 @@ h_china = {
 				c_weiyuan = {
 					color = { 215 225 187 }
 
-					#cultural_names = { # Yusseter: REVIEW_ASIL_MOD_CULTURAL_NAMES
-					#	name_list_han = cn_yinyuan
-					#}
+					cultural_names = { # Yusseter: REVIEW_ASIL_MOD_CULTURAL_NAMES
+						name_list_han = cn_yinyuan
+					}
 
 					b_weiyuan_1 = {
 						province = 10864
@@ -99677,9 +99690,9 @@ h_china = {
 				c_muze = {
 					color = { 255 224 134 }
 
-					#cultural_names = { # Yusseter: REVIEW_ASIL_MOD_CULTURAL_NAMES
-					#	name_list_han = cn_gejiu
-					#}
+					cultural_names = { # Yusseter: REVIEW_ASIL_MOD_CULTURAL_NAMES
+						name_list_han = cn_gejiu
+					}
 
 					b_muze = {
 						province = 11478
@@ -100256,6 +100269,7 @@ h_china = {
 
 	e_lingnan = { # Localized as Lǐngnán
 		color = { 0 120 31 }
+		can_use_nomadic_naming = no
 
 		cultural_names = {
 			name_list_vietnamese = cn_nam_viet
@@ -102094,7 +102108,7 @@ h_china = {
 	}
 
 	e_xi_xia = { # Localized as Héxī
-		color = { 55 55 50 }
+		color = { 0 100 200 }
 
 		capital = c_huaiyuan
 	
@@ -102102,6 +102116,7 @@ h_china = {
 		definite_form = yes
 
 		can_be_named_after_dynasty = no
+		can_use_nomadic_naming = no
 
 		k_xia_china = { # Localized as Xia
 			color = { 111 137 254 }
@@ -102388,6 +102403,7 @@ h_china = {
 
 			d_langshan = {
 				color = { 58 61 36 }
+				can_use_nomadic_naming = no
 
 				capital = c_langshan
 
@@ -113361,6 +113377,7 @@ e_nusantara = { # Created by decision # Localized as Srivijaya
 
 e_goryeo = { # Localized as Goguryeo
 	color = { 220 205 250 }
+	can_use_nomadic_naming = no
 
 	capital = c_gaeseong
 

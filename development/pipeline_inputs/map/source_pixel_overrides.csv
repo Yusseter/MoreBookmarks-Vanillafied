@@ -1,7 +1,0 @@
-target,x,y,expected_r,expected_g,expected_b,replacement_r,replacement_g,replacement_b,reason
-provinces_orijinal,7462,1525,135,57,44,93,24,166,preserve_pyeonggang_source_correction
-provinces_orijinal,7463,1525,135,57,44,93,24,166,preserve_pyeonggang_source_correction
-provinces_orijinal,7462,1526,135,57,44,93,24,166,preserve_pyeonggang_source_correction
-provinces_orijinal,7463,1526,135,57,44,93,24,166,preserve_pyeonggang_source_correction
-provinces_birlesim,5956,2345,51,0,178,136,150,129,preserve_existing_merge_source_boundary
-provinces_birlesim,5956,2346,51,0,178,136,150,129,preserve_existing_merge_source_boundary

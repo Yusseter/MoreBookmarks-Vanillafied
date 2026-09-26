@@ -1,2 +1,0 @@
-raw_upstream_title_id,history_layer,upstream_change,resolution,current_target,target_donor_count,mapping_targets,base_path,upstream_path,base_line,upstream_line,ours_path,ours_line,entry_audit_status,detail
-c_baishan_china,regional,deleted,manual_ours_modified_upstream_deleted,c_BAL_east_hyeondeok,1,c_BAL_east_hyeondeok,BookmarksGit/history/titles/00_ASIA_NORTH.txt,,40812,,BookmarksGit/history/titles/00_ASIA_NORTH.txt,40711,manual_block_level_resolution,not eligible for entry-level merge

@@ -1,41 +1,13 @@
-# Development Resources
+# Personal Workspace
 
-The playable mod is in `BookmarksGit/`. This directory contains its supporting tools and data; it is not loaded by the game.
-
-## Layout
-
-| Directory | Purpose |
+| Location | Purpose |
 | --- | --- |
-| `tools/` | Reusable audits, transformations, and controlled application commands |
-| `pipeline_inputs/` | Permanent mapping tables, decisions, exceptions, and scope definitions |
-| `map_data_sources/` | Source maps and user-edited visual documents |
-| `analysis/generated/` | Reproducible outputs, grouped by system and ignored by Git |
-| `analysis/reports/` | Selected findings and validation reports |
-| `archive/` | Historical evidence and reference snapshots |
-| `local/` | Personal tasks and notes, reusable private archives, and a separate working-record area; ignored by the main repository |
+| [TODO.md](TODO.md) | Your task list; not automatically populated or reordered |
+| [map_data_sources/manual_edit_files/](map_data_sources/manual_edit_files/) | Your editable `provinces-3.pdn` and `provinces-4.pdn` documents |
+| `local/notes/personal/` | Private personal notes |
+| [local/archive/font-customizations/noto-serif-ui/](local/archive/font-customizations/noto-serif-ui/README.md) | Preserved font customization for reuse |
+| [local/archive/testing-helpers/tributary/](local/archive/testing-helpers/tributary/README.md) | Preserved mod testing definitions |
 
-Start with the [tool guide](tools/README.md), [map refresh workflow](map_data_sources/README.md), and [analysis guide](analysis/README.md).
-Tools resolve external source folders from explicit arguments or documented defaults; see [the workspace](../Yusseter-MBP-Development.code-workspace) for the current upstream and vanilla locations.
+Technical tools, analysis, and automation inputs are in the local [.agents/development](../.agents/development/README.md) workspace. Your prepared requests remain available in [its prompt archive](../.agents/development/prompts/); their contents are unchanged.
 
-## Data Safety
-
-- Keep `map_data_sources/manual_sources/` and `pipeline_inputs/title_relations/curated_title_relations.csv` under manual control. Generators must not overwrite them.
-- Pipeline inputs affect behavior and require review; do not treat them as disposable generated reports.
-- Do not copy generated maps into `BookmarksGit/` without the corresponding definition and mapping checks.
-- Some legacy commands apply changes directly. Inspect a command's documentation before running it; do not assume every command defaults to dry-run.
-- Historical snapshots stay unchanged. Two relation tools explicitly read `archive/title_relations/` as reference baselines; other archive content is not an active input.
-- Preserved generated reports are snapshots, not proof that the current inputs and tool revisions have been validated. Regenerate the relevant chain before relying on freshness-sensitive outputs.
-- Tools write execution notes beside their generated reports, not into personal working records.
-
-## Editor Indentation
-
-[EditorConfig](../.editorconfig) and [VS Code folder settings](../.vscode/settings.json) control new indentation without reformatting existing files.
-
-| File type | New indentation |
-| --- | --- |
-| CK3 scripts, GUI, fonts, JSON, PowerShell, other text | Tabs, displayed as 4 columns |
-| Python | 4 spaces |
-| YAML and Markdown | 2 spaces |
-| CK3 localization (`*_l_*.yml`) | 1 space |
-
-[Recommended extensions](../.vscode/extensions.json) provide EditorConfig and Markdownlint support. Encoding, BOMs, and line endings are preserved; sibling workspace folders retain their own settings.
+`local/` is ignored by the main repository; the TODO and PDNs are not automatically included in private history. Local version tracking is not an off-device backup.

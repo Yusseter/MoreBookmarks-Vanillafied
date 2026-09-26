@@ -1,8 +1,0 @@
-mapping_status,count
-ambiguous_multiple_upstream_titles,114
-ambiguous_reverse_mapping,65
-duplicate_definition_manual_review,8
-mapped,15355
-no_upstream_counterpart,2162
-upstream_added_without_current_mapping,4
-upstream_changed_without_current_mapping,16

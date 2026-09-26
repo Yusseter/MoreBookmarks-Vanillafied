@@ -7571,17 +7571,20 @@ religion = jacobite #no syriac in CK3
 }
 
 828 = {	# 828 - Chatigama
-	
+
 	# Misc
 	culture = bengali
 	religion = theravada
-	
+
 	holding = city_holding
-	
+
 	# History
 
 	1150.1.1 = {
 		religion = kalikula_shaktism
+	}
+	1050.1.1 = {
+		culture = rakhine
 	}
 }
 
@@ -13513,7 +13516,7 @@ religion = jacobite #no syriac in CK3
 }
 
 1481 = {	# XIAPI
-	culture = han
+	culture = jianghuai
 	religion = dhyana
 	holding = castle_holding
 }
@@ -49903,12 +49906,15 @@ religion = jacobite
 }
 
 5997 = {	# JIZHOU
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	# History
 	1150.1.1 = {
 		religion = mantrayana
+	}
+	938.1.1 = {
+		culture = yan
 	}
 }
 
@@ -57445,7 +57451,7 @@ religion = jacobite
 }
 
 7074 = {	# YOUZHOU
-	culture = han
+	culture = jilu
 	religion = dhyana
 	holding = castle_holding
 	# History
@@ -57454,6 +57460,9 @@ religion = jacobite
 	}
 	1153.1.1 = {
 		religion = jingxue
+	}
+	938.1.1 = {
+		culture = yan
 	}
 }
 
@@ -57466,7 +57475,7 @@ religion = jacobite
 }
 
 7077 = {	# ZHUOZHOU
-	culture = han
+	culture = jilu
 	religion = dhyana
 	holding = castle_holding
 	# History
@@ -57516,7 +57525,7 @@ religion = jacobite
 }
 
 7088 = {	# MO
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	# History
@@ -57587,7 +57596,7 @@ religion = jacobite
 }
 
 7096 = {	# HEJIAN
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	# History
@@ -68904,7 +68913,7 @@ religion = jacobite
 	religion = jingxue
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -68945,7 +68954,7 @@ religion = jacobite
 	religion = moism
 	holding = castle_holding
 	1050.1.1 = {
-		culture = min
+		culture = yao
 		religion = dhyana
 	}
 }
@@ -69002,7 +69011,7 @@ religion = jacobite
 	religion = jingxue
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -69025,7 +69034,7 @@ religion = jacobite
 	culture = sichuan
 	religion = jingxue
 	holding = castle_holding
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -69069,7 +69078,7 @@ religion = jacobite
 	religion = dhyana
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -69169,13 +69178,12 @@ religion = jacobite
 }
 
 8818 = {	# JIANAN
-	culture = han
+	culture = min
 	religion = vinaya
 	holding = castle_holding
 	# History
-	1150.1.1 = {
+	1050.1.1 = {
 		religion = daoxue
-		culture = min
 	}
 }
 
@@ -69208,12 +69216,9 @@ religion = jacobite
 }
 
 8825 = {	# MAO
-	culture = han
+	culture = wu
 	religion = pundarika
 	holding = castle_holding
-	1050.1.1 = {
-		culture = wu
-	}
 }
 
 8826 = {	# XIANGSHAN
@@ -69225,12 +69230,9 @@ religion = jacobite
 }
 
 8828 = {	# KUAIJI
-	culture = han
+	culture = wu
 	religion = pundarika
 	holding = castle_holding
-	1050.1.1 = {
-		culture = wu
-	}
 }
 
 8829 = {	# ZHUJI
@@ -69246,7 +69248,7 @@ religion = jacobite
 }
 
 8832 = {	# YONGJIA
-	culture = han
+	culture = wu
 	religion = mingism
 	holding = castle_holding
 	special_building = liangzhe_mines_01
@@ -69254,18 +69256,12 @@ religion = jacobite
 	1150.1.1 = {
 		religion = daoxue
 	}
-	1050.1.1 = {
-		culture = wu
-	}
 }
 
 8833 = {	# LISHUI 1
-	culture = han
+	culture = wu
 	religion = shangqing
 	holding = castle_holding
-	1150.1.1 = {
-		culture = wu
-	}
 }
 
 8834 = {	# LONGQUAN 1
@@ -69277,15 +69273,12 @@ religion = jacobite
 }
 
 8836 = {	# JINHUA
-	culture = han
+	culture = wu
 	religion = pundarika
 	holding = castle_holding
 	# History
 	1150.1.1 = {
 		religion = daoxue
-	}
-	1050.1.1 = {
-		culture = wu
 	}
 }
 
@@ -69381,17 +69374,17 @@ religion = jacobite
 }
 
 8853 = {	# YE 1
-	culture = han
+	culture = qi
 	religion = pundarika
 	holding = castle_holding
 	867.1.1 = {
 		special_building = jiaodong_mines_01
 	}
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
-	1130.1.1 = {
+	1170.1.1 = {
 		religion = quanzhen
 	}
 }
@@ -69405,11 +69398,11 @@ religion = jacobite
 }
 
 8856 = {	# ZHUCHENG
-	culture = han
+	culture = qi
 	religion = pundarika
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -69431,7 +69424,7 @@ religion = jacobite
 }
 
 8861 = {	# YIDU 2
-	culture = han
+	culture = qi
 	religion = sukhavati
 	holding = castle_holding
 }
@@ -69441,7 +69434,7 @@ religion = jacobite
 }
 
 8863 = {	# ZICHUAN
-	culture = han
+	culture = jilu
 	religion = sukhavati
 	holding = castle_holding
 }
@@ -69479,7 +69472,7 @@ religion = jacobite
 }
 
 8872 = {	# YANCI
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	# History
@@ -69505,7 +69498,7 @@ religion = jacobite
 }
 
 8877 = {	# LICHENG
-	culture = han
+	culture = jilu
 	religion = sukhavati
 	holding = castle_holding
 	1140.1.1 = {
@@ -69546,7 +69539,7 @@ religion = jacobite
 	religion = jingxue
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -69584,7 +69577,7 @@ religion = jacobite
 }
 
 8891 = {	# QINGCHI
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	   # History
@@ -69679,12 +69672,9 @@ religion = jacobite
 }
 
 8905 = {	# QUJIANG 1
-	culture = han
+	culture = hakka
 	religion = dhyana
 	holding = castle_holding
-	1050.1.1 = {
-		culture = hakka
-	}
 }
 
 8906 = {	# LECHANG
@@ -69808,7 +69798,7 @@ religion = jacobite
 }
 
 8928 = {	# SHUANGSHUI
-	culture = han
+	culture = min
 	religion = zhengyi
 	holding = castle_holding
 	1050.1.1 = {
@@ -69829,7 +69819,7 @@ religion = jacobite
 }
 
 8932 = {	# HAILING
-	culture = han
+	culture = jianghuai
 	religion = vinaya
 	holding = castle_holding
 	# History
@@ -69839,7 +69829,7 @@ religion = jacobite
 }
 
 8933 = {	# JIANGDU
-	culture = han
+	culture = jianghuai
 	religion = vinaya
 	holding = castle_holding
 	# History
@@ -69859,7 +69849,7 @@ religion = jacobite
 }
 
 8936 = {	# LIUHE
-	culture = han
+	culture = jianghuai
 	religion = dhyana
 	holding = castle_holding
 }
@@ -69869,7 +69859,7 @@ religion = jacobite
 }
 
 8938 = {	# LIYANG
-	culture = han
+	culture = jianghuai
 	religion = dhyana
 	holding = castle_holding
 }
@@ -69887,7 +69877,7 @@ religion = jacobite
 }
 
 8942 = {	# HEFEI
-	culture = han
+	culture = jianghuai
 	religion = dhyana
 	holding = castle_holding
 }
@@ -69897,7 +69887,7 @@ religion = jacobite
 }
 
 8944 = {	# HUAINING
-	culture = han
+	culture = jianghuai
 	religion = avatamsaka
 	holding = castle_holding
 	# History
@@ -69927,7 +69917,7 @@ religion = jacobite
 }
 
 8950 = {	# SHANYANG
-	culture = han
+	culture = jianghuai
 	religion = pundarika
 	holding = castle_holding
 	# History
@@ -69947,6 +69937,7 @@ religion = jacobite
 	# History
 	1072.1.1 = {
 	   culture = xiang
+		religion = dhyana
 	}
 }
 
@@ -69966,12 +69957,20 @@ religion = jacobite
 	culture = yao
 	religion = dab_qhuas
 	holding = castle_holding
+	1050.1.1 = {
+		culture = xiang
+		religion = dhyana
+	}
 }
 
 8957 = {	# XIANGYUAN 1
 	culture = yao
 	religion = dab_qhuas
 	holding = castle_holding
+	1050.1.1 = {
+		culture = xiang
+		religion = dhyana
+	}
 }
 
 8958 = {	# DALI
@@ -70015,6 +70014,10 @@ religion = jacobite
 	religion = dab_qhuas
 	holding = castle_holding
 	special_building = guiyang_mines_01
+	1072.1.1 = {
+		culture = xiang
+		religion = dhyana
+	}
 }
 
 8966 = {	# YIZHANG
@@ -70043,12 +70046,12 @@ religion = jacobite
 	1035.1.1 = {
 		special_building = shigu_academy_01
 	}
-	1050.1.1 = {
-		culture = xiang
-		religion = dhyana
-	}
 	1140.1.1 = {
 		religion = zhengyi
+	}
+	1072.1.1 = {
+		culture = xiang
+		religion = dhyana
 	}
 }
 
@@ -70061,7 +70064,7 @@ religion = jacobite
 }
 
 8973 = {	# HUANGGANG
-	culture = han
+	culture = jianghuai
 	religion = dhyana
 	holding = castle_holding
 }
@@ -70079,13 +70082,13 @@ religion = jacobite
 }
 
 8977 = {	# QICHUN
-	culture = han
+	culture = jianghuai
 	religion = dhyana
 	holding = castle_holding
 }
 
 8978 = {	# HANYANG
-	culture = han
+	culture = chu
 	religion = shangqing
 	holding = castle_holding
 	1140.1.1 = {
@@ -70102,7 +70105,7 @@ religion = jacobite
 }
 
 8981 = {	# ANLU
-	culture = han
+	culture = jianghuai
 	religion = pundarika
 	holding = castle_holding
 	# History
@@ -70116,7 +70119,7 @@ religion = jacobite
 }
 
 8983 = {	# YIYANG
-	culture = han
+	culture = jianghuai
 	religion = pundarika
 	holding = castle_holding
 	# History
@@ -70134,27 +70137,21 @@ religion = jacobite
 }
 
 8986 = {	# YUNYANG 1
-	culture = han
+	culture = gan
 	religion = zhengyi
 	holding = castle_holding
-	
+
 	special_building_slot = white_deer_grotto_academy_01
 	# History
 	960.1.1 = {
 		special_building = white_deer_grotto_academy_01
 	}
-	1050.1.1 = {
-		culture = gan
-	}
 }
 
 8987 = {	# DUCHANG
-	culture = han
+	culture = gan
 	religion = zhengyi
 	holding = castle_holding
-	1050.1.1 = {
-		culture = gan
-	}
 }
 
 8988 = {	# FULIANG
@@ -70162,24 +70159,18 @@ religion = jacobite
 }
 
 8989 = {	# POYANG
-	culture = han
+	culture = gan
 	religion = zhengyi
 	holding = castle_holding
-	1050.1.1 = {
-		culture = gan
-	}
 }
 
 8990 = {	# NANCHANG
-	culture = han
+	culture = gan
 	religion = sukhavati
 	holding = castle_holding
 	# History
-	1050.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
-		culture = gan
-	}
-	960.1.1 = {
 	}
 }
 
@@ -72443,19 +72434,26 @@ religion = jacobite
 	# Misc
 	culture = tani
 	religion = donyipoloism
-	
+
 	holding = tribal_holding
-	
+
 	# History
+	1000.1.1 = {
+		culture = khampa
+		religion = lamaism
+	}
+	1100.1.1 = {
+		religion = kagyu
+	}
 }
 
 9176 = {	# Golag
 	# Misc
-	culture = tani
+	culture = derung
 	religion = donyipoloism
-	
+
 	holding = tribal_holding
-	
+
 	# History
 }
 
@@ -74102,45 +74100,42 @@ religion = jacobite
 }
 
 9329 = {	# YICHUN
-	culture = han
+	culture = gan
 	religion = vinaya
 	holding = castle_holding
 	# History
 	1150.1.1 = {
 		religion = daoxue
 	}
-	1050.1.1 = {
-		culture = gan
-	}
 }
 
 9330 = {	# 9330 - Darzedo
-	
+
 	# Misc
-	culture = qiang
+	culture = keru
 	religion = rrmeaism
-	
+
 	holding = castle_holding
-	
+
 	# History
 	1200.1.1 = {
-		culture = khampa
+
 		religion = lamaism
 	} #Tibetan culture continues to spread in Kham and Amdo
 }
 
 9331 = {	# 9331 - Lhagang
-	
+
 	# Misc
 	culture = qiang
 	religion = rrmeaism
-	
+
 	holding = castle_holding
-	
+
 	# History
 	1100.1.1 = {
-		culture = khampa
-		religion = kagyu
+		culture = yi
+		religion = bimoism
 	}
 }
 
@@ -74171,16 +74166,17 @@ religion = jacobite
 }
 
 9334 = {	# 9334 - Dawu
-	
+
 	# Misc
 	culture = qiang
 	religion = rrmeaism
-	
+
 	holding = castle_holding
-	
+
 	# History
 	1200.1.1 = {
 		religion = lamaism
+		culture = khampa
 	} #Tibetan culture continues to spread in Kham and Amdo
 }
 
@@ -74982,9 +74978,7 @@ religion = jacobite
 	culture = han
 	religion = dhyana
 	holding = castle_holding
-	1009.1.1 = {
-	}
-	1130.1.1 = {
+	1170.1.1 = {
 		religion = quanzhen
 	}
 }
@@ -75292,13 +75286,13 @@ religion = jacobite
 	# Misc
 	culture = tuyuhun
 	religion = eastern_tengri
-	
+
 	holding = castle_holding
-	
+
 	# History
-	700.1.1 = {
-		religion = maturidi
+	1300.1.1 = {
 		culture = salar
+		religion = maturidi
 	}
 }
 
@@ -75995,24 +75989,24 @@ religion = jacobite
 }
 
 9463 = {	# 9463 - Barkam
-	
+
 	# Misc
-	culture = qiang
+	culture = keru
 	religion = rrmeaism
-	
+
 	holding = castle_holding
-	
+
 	# History
 }
 
 9464 = {	# 9464 - Quqen
-	
+
 	# Misc
-	culture = qiang
+	culture = keru
 	religion = rrmeaism
-	
+
 	holding = castle_holding
-	
+
 	# History
 }
 
@@ -76587,22 +76581,25 @@ religion = jacobite
 
 9525 = {	# Dajing
 	# Misc
-	culture = han
+	culture = liang
 	religion = sukhavati
-	
+
 	holding = castle_holding
-	
+
 	# History
 	1100.1.1 = {
-		religion = sakya
+		religion = kagyu
 	}
 	1300.1.1 = {
-		culture = han
+		culture = liang
 		religion = mahayana
 	}
 	932.1.1 = {
 		culture = tangut
 		religion = vajrayana
+	}
+	1260.1.1 = {
+		religion = sakya
 	}
 }
 
@@ -76616,11 +76613,11 @@ religion = jacobite
 
 9528 = {	# Yongdeng
 	# Misc
-	culture = han
+	culture = liang
 	religion = sukhavati
-	
+
 	holding = castle_holding
-	
+
 	# History
 	1140.1.1 = {
 		religion = pundarika
@@ -76643,11 +76640,11 @@ religion = jacobite
 
 9531 = {	# Baiyin
 	# Misc
-	culture = han
+	culture = liang
 	religion = sukhavati
-	
+
 	holding = castle_holding
-	
+
 	# History
 	1140.1.1 = {
 		religion = pundarika
@@ -76696,9 +76693,9 @@ religion = jacobite
 	# Misc
 	culture = shatuo
 	religion = eastern_tengri
-	
+
 	holding = tribal_holding
-	
+
 	# History
 	1050.1.1 = {
 		holding = castle_holding
@@ -76708,6 +76705,9 @@ religion = jacobite
 		religion = avatamsaka
 	}
 	1100.1.1 = {
+		religion = kagyu
+	}
+	1260.1.1 = {
 		religion = sakya
 	}
 }
@@ -76722,6 +76722,9 @@ religion = jacobite
 		religion = avatamsaka
 	}
 	1100.1.1 = {
+		religion = kagyu
+	}
+	1260.1.1 = {
 		religion = sakya
 	}
 }
@@ -76737,9 +76740,9 @@ religion = jacobite
 	# Misc
 	culture = shatuo
 	religion = eastern_tengri
-	
+
 	holding = tribal_holding
-	
+
 	# History
 	1002.1.1 = {
 		culture = tangut
@@ -76749,12 +76752,16 @@ religion = jacobite
 		holding = castle_holding
 	}
 	1100.1.1 = {
-		religion = sakya
+		religion = kagyu
 	}
 	1230.1.1 = {
 		culture = ongud
-		religion = nestorian
+
 	}#Tanguts flee the capital region
+	1300.1.1 = {
+		culture = tumed
+		religion = eastern_tengri
+	}
 }
 
 9541 = {	# Wuliji
@@ -76785,7 +76792,7 @@ religion = jacobite
 }
 
 9545 = {	# DAYU
-	culture = sheren
+	culture = yao
 	religion = zhengyi
 	holding = castle_holding
 	1050.1.1 = {
@@ -77072,11 +77079,14 @@ religion = jacobite
 	# Misc
 	culture = bengali
 	religion = mahayana
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 
+	1050.1.1 = {
+		culture = rakhine
+	}
 }
 
 9582 = {	# Dianga
@@ -77509,11 +77519,11 @@ religion = jacobite
 
 9624 = {	# Kale
 	# Misc
-	culture = meitei
+	culture = zo
 	religion = sanamahi_pagan
-	
+
 	holding = tribal_holding
-	
+
 	# History
 	1077.4.11 = {
 		holding = temple_citadel_holding
@@ -80613,6 +80623,9 @@ religion = catholic
 	960.1.1 = {
 		religion = sukhavati
 	}
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 10139 = {	# FUCHENG
@@ -81221,15 +81234,12 @@ religion = catholic
 }
 
 10326 = {	# WU
-	culture = han
+	culture = wu
 	religion = vinaya
 	holding = castle_holding
 	# History
 	1150.1.1 = {
 		religion = daoxue
-	}
-	1050.1.1 = {
-		culture = wu
 	}
 }
 
@@ -81238,15 +81248,12 @@ religion = catholic
 }
 
 10328 = {	# JIAXING
-	culture = han
+	culture = wu
 	religion = vinaya
 	holding = castle_holding
 	# History
 	1150.1.1 = {
 		religion = daoxue
-	}
-	1050.1.1 = {
-		culture = wu
 	}
 }
 
@@ -81255,27 +81262,19 @@ religion = catholic
 }
 
 10330 = {	# CHANSGHU
-	culture = han
+	culture = wu
 	religion = dhyana
 	holding = castle_holding
-	1050.1.1 = {
-		culture = wu
-	}
 }
 
 10331 = {	# JIANGNING
-	culture = han
+	culture = wu
 	religion = dhyana
 	holding = castle_holding
 	special_building_slot = maoshan_academy_01
 	# History
 	860.1.1 = {
 		special_building = maoshan_academy_01
-	}
-	1150.1.1 = {
-		culture = wu
-	}
-	937.1.1 = {
 	}
 }
 
@@ -81284,12 +81283,9 @@ religion = catholic
 }
 
 10333 = {	# DANTU
-	culture = han
+	culture = wu
 	religion = dhyana
 	holding = castle_holding
-	1150.1.1 = {
-		culture = wu
-	}
 }
 
 10334 = {	# JINTAN
@@ -81325,13 +81321,12 @@ religion = catholic
 }
 
 10340 = {	# XUANCHENG
-	culture = han
+	culture = wu
 	religion = vinaya
 	holding = castle_holding
 	# History
-	1150.1.1 = {
+	1050.1.1 = {
 		religion = daoxue
-		culture = wu
 	}
 }
 
@@ -81340,15 +81335,12 @@ religion = catholic
 }
 
 10342 = {	# WUCHENG 2
-	culture = han
+	culture = wu
 	religion = mingism
 	holding = castle_holding
 	# History
 	1150.1.1 = {
 		religion = daoxue
-	}
-	1050.1.1 = {
-		culture = wu
 	}
 }
 
@@ -81415,6 +81407,9 @@ religion = catholic
 	1150.1.1 = {
 		religion = dhyana
 	}
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 10354 = {	# NEIHUANG
@@ -81433,6 +81428,9 @@ religion = catholic
 	1000.1.1 = {
 		religion = dhyana
 	}
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 10357 = {	# DUNQIU
@@ -81443,6 +81441,9 @@ religion = catholic
 	culture = han
 	religion = dhyana
 	holding = castle_holding
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 10359 = {	# QINGHE
@@ -81456,7 +81457,7 @@ religion = catholic
 }
 
 10361 = {	# LINQING
-	culture = han
+	culture = jilu
 	religion = maitreya
 	holding = castle_holding
 	# History
@@ -81466,7 +81467,7 @@ religion = catholic
 }
 
 10362 = {	# GAOTANG
-	culture = han
+	culture = jilu
 	religion = dhyana
 	holding = castle_holding
 }
@@ -81482,14 +81483,14 @@ religion = catholic
 }
 
 10365 = {	# PENGLAI
-	culture = han
+	culture = qi
 	religion = pundarika
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
-	1130.1.1 = {
+	1170.1.1 = {
 		religion = quanzhen
 	}
 }
@@ -81503,12 +81504,9 @@ religion = catholic
 }
 
 10368 = {	# SHE 1
-	culture = han
+	culture = wu
 	religion = shangqing
 	holding = castle_holding
-	1050.1.1 = {
-		culture = wu
-	}
 }
 
 10369 = {	# JIANPING
@@ -81532,12 +81530,9 @@ religion = catholic
 }
 
 10374 = {	# QIUPU
-	culture = han
+	culture = wu
 	religion = sukhavati
 	holding = castle_holding
-	1150.1.1 = {
-		culture = wu
-	}
 }
 
 10375 = {	# QINGYANG
@@ -81603,8 +81598,8 @@ religion = catholic
 }
 
 10389 = {	# LONGSHUI
-	culture = hmong
-	religion = dab_qhuas
+	culture = sui
+	religion = satsana_phi
 	holding = castle_holding
 }
 
@@ -81629,12 +81624,9 @@ religion = catholic
 }
 
 10395 = {	# JIANGXIA
-	culture = han
+	culture = jianghuai
 	religion = dhyana
 	holding = castle_holding
-	1150.1.1 = {
-		culture = gan
-	}
 }
 
 10396 = {	# WUCHANG
@@ -81654,11 +81646,11 @@ religion = catholic
 	religion = pundarika
 	holding = castle_holding
 	# History
-	1000.1.1 = {
-		religion = daoxue
-	}
 	1050.1.1 = {
-		culture = xiang
+		culture = gan
+	}
+	1150.1.1 = {
+		religion = daoxue
 	}
 }
 
@@ -81679,6 +81671,9 @@ religion = catholic
 	culture = han
 	religion = sukhavati
 	holding = castle_holding
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 10404 = {	# ANYI
@@ -81689,6 +81684,9 @@ religion = catholic
 	culture = han
 	religion = dhyana
 	holding = castle_holding
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 10406 = {	# NANBU
@@ -81730,8 +81728,8 @@ religion = catholic
 }
 
 10414 = {	# NANCHUAN
-	culture = hmong
-	religion = dab_qhuas
+	culture = sichuan
+	religion = dhyana
 	holding = tribal_holding
 }
 
@@ -81766,21 +81764,21 @@ religion = catholic
 }
 
 10422 = {	# QUSHAN
-	culture = han
+	culture = jianghuai
 	religion = pundarika
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
 
 10423 = {	# LINYI
-	culture = han
+	culture = qi
 	religion = pundarika
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -81821,12 +81819,15 @@ religion = catholic
 	religion = jingxue
 	holding = castle_holding
 	special_building_slot = giant_wild_goose_pagoda_01
-	
+
 	# History
 	652.1.1 = {
 		special_building = giant_wild_goose_pagoda_01
 	}
-	1000.1.1 = {
+	900.1.1 = {
+		culture = qin
+	}
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -81913,10 +81914,13 @@ religion = catholic
 }
 
 10450 = {	# HAMI 2
-	religion = bimoism
-	culture = yi
+	religion = satsana_phi
+	culture = tai
 
 	holding = castle_holding
+	1170.1.1 = {
+		culture = bouxcuengh
+	}
 }
 
 10454 = {	# BAOJING 1
@@ -81986,7 +81990,7 @@ religion = catholic
 	religion = dhyana
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -82045,8 +82049,8 @@ religion = catholic
 }
 
 10480 = {	# WUCHUAN
-	culture = tujia
-	religion = nuo
+	culture = gelao
+	religion = satsana_phi
 	holding = tribal_holding
 }
 
@@ -82143,8 +82147,11 @@ religion = catholic
 
 10501 = {	# NAGAOKA
 	culture = japanese
-	religion = mantrayana
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = mantrayana
+	}
 }
 
 10502 = {	# KAMI
@@ -82187,8 +82194,11 @@ religion = catholic
 
 10511 = {	# NAKATA
 	culture = japanese
-	religion = mantrayana
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = mantrayana
+	}
 }
 
 10512 = {	# KAIFU
@@ -82205,8 +82215,11 @@ religion = catholic
 
 10515 = {	# YASHIMA
 	culture = japanese
-	religion = mantrayana
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = mantrayana
+	}
 }
 
 10516 = {	# SANGAWA
@@ -82219,14 +82232,20 @@ religion = catholic
 
 10518 = {	# OITA
 	culture = kyushu
-	religion = pundarika
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = pundarika
+	}
 }
 
 10519 = {	# WULONG 1
-	culture = yi
-	religion = bimoism
+	culture = tai
+	religion = satsana_phi
 	holding = tribal_holding
+	1170.1.1 = {
+		culture = bouxcuengh
+	}
 }
 
 10520 = {	# AMABE
@@ -82311,8 +82330,11 @@ religion = catholic
 
 10534 = {	# SAGA
 	culture = kyushu
-	religion = pundarika
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = pundarika
+	}
 }
 
 10535 = {	# HENGSHAN 1
@@ -82443,7 +82465,7 @@ religion = catholic
 }
 
 10563 = {	# YORA
-	culture = japanese
+	culture = kyushu
 	religion = shinto
 	holding = castle_holding
 	special_building_slot = tsushima_mines_01
@@ -82574,8 +82596,11 @@ religion = catholic
 
 10589 = {	# JŌTŌ
 	culture = japanese
-	religion = mantrayana
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = mantrayana
+	}
 }
 
 10590 = {	# MASHIMA
@@ -82616,13 +82641,16 @@ religion = catholic
 
 10598 = {	# FUKUHARA
 	culture = japanese
-	religion = pundarika
+	religion = yogacara
 	holding = castle_holding
 	867.1.1 = {
 		special_building_slot = tada_mines_01
 	}
 	1037.1.1 = {
 		special_building = tada_mines_01
+	}
+	806.1.1 = {
+		religion = pundarika
 	}
 }
 
@@ -82645,7 +82673,7 @@ religion = catholic
 
 10603 = {	# KYO
 	culture = japanese
-	religion = pundarika
+	religion = yogacara
 	holding = castle_holding
 	special_building_slot = heian_palace_01
 
@@ -82653,7 +82681,8 @@ religion = catholic
 	790.1.1 = {
 		special_building = heian_palace_01
 	}
-	765.1.1 = {
+	806.1.1 = {
+		religion = pundarika
 	}
 }
 
@@ -82663,8 +82692,11 @@ religion = catholic
 
 10606 = {	# KAWACHI
 	culture = japanese
-	religion = mantrayana
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = mantrayana
+	}
 }
 
 10608 = {	# AWAJI
@@ -82699,8 +82731,11 @@ religion = catholic
 
 10614 = {	# NAGUSA
 	culture = japanese
-	religion = mantrayana
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = mantrayana
+	}
 }
 
 10615 = {	# KONGŌBU-JI
@@ -82889,10 +82924,13 @@ religion = catholic
 	religion = shinto
 	holding = castle_holding
 	special_building_slot = itoigawa_mines_01
-	
+
 	# History
 	867.1.1 = {
 		special_building = itoigawa_mines_01
+	}
+	1185.1.1 = {
+		culture = togoku
 	}
 }
 
@@ -82908,6 +82946,9 @@ religion = catholic
 	culture = japanese
 	religion = shugendo
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10656 = { # MASHITA
@@ -82930,6 +82971,9 @@ religion = catholic
 	culture = japanese
 	religion = shinto
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10661 = {
@@ -82964,8 +83008,14 @@ religion = catholic
 
 10667 = { # ASHIKAGA
 	culture = japanese
-	religion = pundarika
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = pundarika
+	}
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10668 = { # FUTARA
@@ -82991,6 +83041,9 @@ religion = catholic
 	culture = japanese
 	religion = shinto
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10673 = { # AGATSUMA
@@ -83044,11 +83097,11 @@ religion = catholic
 	culture = hmong
 	religion = dab_qhuas
 	holding = castle_holding
-	1000.1.1 = {
-		religion = daoxue
-	}
 	1050.1.1 = {
 		culture = xiang
+	}
+	1150.1.1 = {
+		religion = daoxue
 	}
 }
 
@@ -83056,6 +83109,9 @@ religion = catholic
 	culture = japanese
 	religion = shugendo
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10683 = { # KOMA
@@ -83079,6 +83135,9 @@ religion = catholic
 	culture = japanese
 	religion = shugendo
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10687 = { # SHIDA
@@ -83093,6 +83152,9 @@ religion = catholic
 	culture = japanese
 	religion = shugendo
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10691 = { # FUCHI
@@ -83162,9 +83224,9 @@ religion = catholic
 	1178.1.1 = {
 		holding = castle_holding
 	}
-	1124.1.1 = {
-	}
 	1150.1.1 = {
+		culture = oshu
+		religion = shinto
 	}
 }
 
@@ -83189,6 +83251,8 @@ religion = catholic
 	religion = kamuyism_pagan
 	holding = castle_holding
 	1100.1.1 = {
+		culture = oshu
+		religion = shugendo
 	}
 }
 
@@ -83221,6 +83285,7 @@ religion = catholic
 	holding = castle_holding
 	# History
 	1088.1.1 = {
+		culture = oshu
 	}
 }
 
@@ -83277,6 +83342,9 @@ religion = catholic
 	culture = japanese
 	religion = shinto
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10723 = { # b_Goryeo_Donggye_Ingnyeong
@@ -83325,6 +83393,9 @@ religion = catholic
 	culture = japanese
 	religion = shinto
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10733 = { # ŌNO
@@ -83337,8 +83408,11 @@ religion = catholic
 
 10735 = { # NYŪ
 	culture = japanese
-	religion = pundarika
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = pundarika
+	}
 }
 
 10736 = { # TSURUGA
@@ -83375,8 +83449,11 @@ religion = catholic
 
 10742 = { # KŌKA
 	culture = japanese
-	religion = pundarika
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = pundarika
+	}
 }
 
 10743 = { # GUJŌ
@@ -83405,14 +83482,26 @@ religion = catholic
 
 10747 = { # FUWA
 	culture = japanese
-	religion = pundarika
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = pundarika
+	}
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10748 = { # ATSUMI
 	culture = japanese
-	religion = pundarika
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = pundarika
+	}
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10749 = { # SHITARA
@@ -83439,6 +83528,9 @@ religion = catholic
 	culture = japanese
 	religion = shinto
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10755 = { # MIE
@@ -83480,6 +83572,9 @@ religion = catholic
 	culture = japanese
 	religion = shinto
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10762 = { # ICHINOMIYA
@@ -83494,12 +83589,21 @@ religion = catholic
 	culture = japanese
 	religion = shugendo
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10765 = { # KAMAKURA
 	culture = japanese
 	religion = shugendo
 	holding = castle_holding
+	1185.1.1 = {
+		culture = togoku
+	}
+	1200.1.1 = {
+		religion = dhyana
+	}
 }
 
 10766 = { # HAKONE
@@ -83508,8 +83612,14 @@ religion = catholic
 
 10767 = { # KATSUSHIKA
 	culture = japanese
-	religion = mantrayana
+	religion = yogacara
 	holding = castle_holding
+	806.1.1 = {
+		religion = mantrayana
+	}
+	1185.1.1 = {
+		culture = togoku
+	}
 }
 
 10768 = { # CHIBA
@@ -83683,15 +83793,13 @@ religion = catholic
 }
 
 10804 = {
-	culture = khmer
-	religion = shaivism
+	culture = dega
+	religion = kuy_animism
 	holding = temple_citadel_holding
-	600.1.1 = {
-	}
 }
 
 10805 = {
-	culture = dega
+	culture = stieng
 	religion = kuy_animism
 	holding = temple_citadel_holding
 	600.1.1 = { #Vat Phou
@@ -83717,6 +83825,18 @@ religion = catholic
 	culture = khmer
 	religion = shaivism
 	holding = temple_citadel_holding
+	1113.1.1 = {
+		religion = vaishnavism
+	}
+	1181.1.1 = {
+		religion = mahayana
+	}
+	1243.1.1 = {
+		religion = shaivism
+	}
+	1295.1.1 = {
+		religion = theravada
+	}
 }
 
 10810 = {
@@ -83727,6 +83847,18 @@ religion = catholic
 	culture = khmer
 	religion = shaivism
 	holding = temple_citadel_holding
+	1113.1.1 = {
+		religion = vaishnavism
+	}
+	1181.1.1 = {
+		religion = mahayana
+	}
+	1243.1.1 = {
+		religion = shaivism
+	}
+	1295.1.1 = {
+		religion = theravada
+	}
 }
 
 10812 = {
@@ -83750,16 +83882,25 @@ religion = catholic
 	religion = shaivism
 	holding = temple_citadel_holding
 	special_building_slot = angkor_wat_01
-	
+
 	# History
 	1150.1.1 = {
 		special_building = angkor_wat_01
 	}
-	1300.1.1 = {
-		religion = theravada
-	}
 	802.1.1 = {
 		religion = shaivism
+	}
+	1113.1.1 = {
+		religion = vaishnavism
+	}
+	1181.1.1 = {
+		religion = mahayana
+	}
+	1243.1.1 = {
+		religion = shaivism
+	}
+	1295.1.1 = {
+		religion = theravada
 	}
 }
 
@@ -83779,7 +83920,7 @@ religion = catholic
 		holding = temple_citadel_holding
 	}
 	1170.1.1 = {
-		culture = lao
+		culture = lue
 		religion = mahayana
 	}
 }
@@ -83893,7 +84034,7 @@ religion = catholic
 }
 
 10839 = {
-	culture = muong
+	culture = viet
 	religion = phat_giao
 	holding = castle_holding
 }
@@ -83970,9 +84111,12 @@ religion = catholic
 }
 
 10855 = {
-	culture = viet
-	religion = phat_giao
+	culture = tai
+	religion = satsana_phi
 	holding = castle_holding
+	1100.1.1 = {
+		culture = bouxcuengh
+	}
 }
 
 10856 = {
@@ -83997,9 +84141,12 @@ religion = catholic
 }
 
 10860 = {
-	culture = muong
+	culture = viet
 	religion = phat_giao
 	holding = castle_holding
+	938.1.1 = {
+		culture = muong
+	}
 }
 
 10861 = {
@@ -84034,6 +84181,13 @@ religion = catholic
 	culture = hani
 	religion = benzhu
 	holding = castle_holding
+	1050.1.1 = {
+		culture = tai
+		religion = satsana_phi
+	}
+	1180.1.1 = {
+		culture = nua
+	}
 }
 
 10865 = { #b_nongdong
@@ -84057,6 +84211,10 @@ religion = catholic
 	culture = lisu
 	holding = castle_holding
 	religion = bimoism
+	1100.1.1 = {
+		culture = yi
+		religion = bimoism
+	}
 }
 
 10869 = {	# DALI 1
@@ -84111,6 +84269,10 @@ religion = catholic
 	culture = lisu
 	religion = bimoism
 	holding = castle_holding
+	1100.1.1 = {
+		culture = yi
+		religion = bimoism
+	}
 }
 
 10878 = { # b_Goryeo_Donggye_Yeju
@@ -84148,6 +84310,10 @@ religion = catholic
 	culture = lisu
 	religion = bimoism
 	holding = castle_holding
+	1100.1.1 = {
+		culture = yi
+		religion = bimoism
+	}
 }
 
 10885 = { #b_shanju_ruku
@@ -84200,8 +84366,8 @@ religion = catholic
 	culture = tai
 	religion = satsana_phi
 	holding = tribal_holding
-	1150.1.1 = {
-		culture = lao
+	1180.1.1 = {
+		culture = lue
 		religion = mahayana
 	}
 }
@@ -84271,6 +84437,10 @@ religion = catholic
 	1066.1.1 = {
 		holding = castle_holding
 	}
+	1180.1.1 = {
+		culture = lue
+		religion = satsana_phi
+	}
 }
 
 10905 = {	# HEPU
@@ -84292,21 +84462,24 @@ religion = catholic
 	900.1.1 = {
 		religion = shaivism
 	}
+	1113.1.1 = {
+		religion = vaishnavism
+	}
+	1181.1.1 = {
+		religion = mahayana
+	}
+	1243.1.1 = {
+		religion = shaivism
+	}
+	1295.1.1 = {
+		religion = theravada
+	}
 }
 
 10909 = {
-	culture = mon
-	religion = mahayana
+	culture = khmu
+	religion = kuy_animism
 	holding = temple_citadel_holding
-	1100.1.1 = {
-		culture = tai
-	}
-	1170.1.1 = {
-		culture = lao
-	}
-	1250.1.1 = {
-		religion = theravada
-	}
 }
 
 10911 = { #b_nakhon_pathom
@@ -84340,6 +84513,10 @@ religion = catholic
 	culture = cham
 	religion = chamic_shaivism
 	holding = temple_citadel_holding
+	1100.1.1 = {
+		culture = khmer
+		religion = shaivism
+	}
 }
 
 10915 = {
@@ -84398,6 +84575,18 @@ religion = catholic
 	culture = khmer
 	religion = shaivism
 	holding = temple_citadel_holding
+	1113.1.1 = {
+		religion = vaishnavism
+	}
+	1181.1.1 = {
+		religion = mahayana
+	}
+	1243.1.1 = {
+		religion = shaivism
+	}
+	1295.1.1 = {
+		religion = theravada
+	}
 }
 
 10928 = {
@@ -84691,8 +84880,8 @@ religion = catholic
 }
 
 10982 = { #b_monyin
-	culture = naga
-	religion = sanamahi_pagan
+	culture = kado
+	religion = ari
 	holding = tribal_holding
 }
 
@@ -84713,7 +84902,7 @@ religion = catholic
 }
 
 10987 = { #b_momauk
-	culture = burmese
+	culture = bamar
 	religion = burmic
 	holding = castle_holding
 	800.1.1 = {
@@ -84734,7 +84923,7 @@ religion = catholic
 }
 
 10989 = { #b_myitkyina
-	culture = kachin
+	culture = achang
 	religion = burmic
 	holding = tribal_holding
 }
@@ -85334,7 +85523,7 @@ religion = catholic
 
 11102 = {	#b_BOR_Brunei
 	culture = malay
-	religion = mahayana
+	religion = vajrayana
 	holding = temple_citadel_holding
 }
 
@@ -85471,15 +85660,23 @@ religion = catholic
 }
 
 11128 = {	#b_BOR_Kota_Waringin
-	culture = banjar
+	culture = ngaju
 	religion = kaharingan
 	holding = temple_citadel_holding
+	1300.1.1 = {
+		culture = banjar
+		religion = shaivism
+	}
 }
 
 11129 = {	#b_BOR_Sampit
-	culture = banjar
+	culture = ngaju
 	religion = umboh
 	holding = tribal_holding
+	1300.1.1 = {
+		culture = banjar
+		religion = shaivism
+	}
 }
 
 11130 = {	#b_BOR_Pembuang
@@ -85499,17 +85696,23 @@ religion = catholic
 }
 
 11134 = {	#b_BOR_Banjar
-	culture = banjar
+	culture = ngaju
 	religion = vajrayana
 	holding = tribal_holding
+	1300.1.1 = {
+		culture = banjar
+	}
 }
 
 11135 = {	#b_BOR_Taiao
-	culture = banjar
+	culture = ngaju
 	religion = vajrayana
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = temple_citadel_holding
+	}
+	1300.1.1 = {
+		culture = banjar
 	}
 }
 
@@ -85992,7 +86195,7 @@ religion = catholic
 
 11254 = {	#b_SUM_Lamuri
 	culture = acehnese
-	religion = mahayana
+	religion = vajrayana
 	holding = temple_citadel_holding
 	1178.1.1 = {
 		holding = castle_holding
@@ -86012,12 +86215,12 @@ religion = catholic
 
 11257 = {	#b_SUM_Perlak
 	culture = acehnese
-	religion = mahayana
+	religion = vajrayana
 	holding = temple_citadel_holding
 	1178.1.1 = {
 		holding = castle_holding
 	}
-	980.1.1 = {
+	840.1.1 = {
 		religion = ashari
 	}
 }
@@ -86438,6 +86641,9 @@ religion = catholic
 	culture = javanese
 	religion = mahayana
 	holding = temple_citadel_holding
+	850.1.1 = {
+		religion = shaivism
+	}
 }
 
 11344 = {	#b_JAV_Dieng
@@ -86446,6 +86652,9 @@ religion = catholic
 	holding = castle_holding
 	special_building_slot = dieng_plateau_01
 	special_building = dieng_plateau_01
+	850.1.1 = {
+		religion = shaivism
+	}
 }
 
 11345 = {	#b_JAV_Poh_Pitu
@@ -86661,7 +86870,7 @@ religion = catholic
 
 11397 = {	#b_MAL_Tumasik
 	culture = malay
-	religion = mahayana
+	religion = vajrayana
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
@@ -86707,7 +86916,7 @@ religion = catholic
 
 11406 = {	#b_MAL_Pekan
 	culture = malay
-	religion = mahayana
+	religion = vajrayana
 	holding = temple_citadel_holding
 }
 
@@ -86805,22 +87014,9 @@ religion = catholic
 	culture = mon
 	religion = shaivism
 	holding = temple_citadel_holding
-	1230.1.1 = {
-	}
-	124.1.1 = {
-	}
 	1300.1.1 = {
-		culture = siamese
-	}
-	1453.1.1 = {
-	}
-	648.1.1 = {
-	}
-	767.1.1 = {
-	}
-	885.1.1 = {
-	}
-	903.1.1 = {
+		culture = dambro
+		religion = theravada
 	}
 }
 
@@ -86847,10 +87043,15 @@ religion = catholic
 	culture = moklen
 	religion = umboh
 	holding = temple_citadel_holding
-	170.1.1 = {
-	}
 	530.1.1 = {
 		culture = mon
+	}
+	50.1.1 = {
+		religion = vaishnavism
+	}
+	1300.1.1 = {
+		culture = dambro
+		religion = theravada
 	}
 }
 
@@ -86899,7 +87100,7 @@ religion = catholic
 }
 
 11440 = {
-	culture = dega
+	culture = stieng
 	religion = kuy_animism
 	holding = tribal_holding
 }
@@ -86922,8 +87123,17 @@ religion = catholic
 
 11443 = {
 	culture = khmu
-	religion = kuy_animism
+	religion = mahayana
 	holding = temple_citadel_holding
+	900.1.1 = {
+		culture = tai
+	}
+	1170.1.1 = {
+		culture = lao
+	}
+	1250.1.1 = {
+		religion = theravada
+	}
 }
 
 11444 = {
@@ -86935,11 +87145,14 @@ religion = catholic
 }
 
 11446 = {	# SAM NUEA
-	culture = muong
+	culture = viet
 	religion = phat_giao
 	holding = castle_holding
 	special_building_slot = plain_of_jars_01
 	special_building = plain_of_jars_01
+	938.1.1 = {
+		culture = muong
+	}
 }
 
 11447 = {
@@ -87089,8 +87302,8 @@ religion = catholic
 }
 
 11478 = {	# MUZE
-	culture = yi
-	religion = bimoism
+	culture = hani
+	religion = benzhu
 	holding = castle_holding
 }
 
@@ -87118,6 +87331,10 @@ religion = catholic
 	culture = hani
 	religion = benzhu
 	holding = tribal_holding
+	1180.1.1 = {
+		culture = lue
+		religion = satsana_phi
+	}
 }
 
 11483 = { #b_chiang_tong
@@ -87599,6 +87816,9 @@ religion = catholic
 	1204.1.1 = {
 		culture = mongol
 	}
+	1300.1.1 = {
+		culture = daur
+	}
 }
 
 11609 = {	#Banukhol
@@ -87607,6 +87827,9 @@ religion = catholic
 	holding = herder_holding
 	1204.1.1 = {
 		culture = mongol
+	}
+	1300.1.1 = {
+		culture = daur
 	}
 }
 
@@ -87641,6 +87864,9 @@ religion = catholic
 	1204.1.1 = {
 		culture = mongol
 	}
+	1300.1.1 = {
+		culture = daur
+	}
 }
 
 11617 = {	#Gangoluul
@@ -87657,6 +87883,9 @@ religion = catholic
 	holding = nomad_holding
 	1204.1.1 = {
 		culture = mongol
+	}
+	1300.1.1 = {
+		culture = daur
 	}
 }
 
@@ -88061,6 +88290,9 @@ religion = catholic
 	930.1.1 = {
 		culture = jurchen
 	}
+	1150.1.1 = {
+		culture = nanai
+	}
 }
 
 11697 = {	#Henghetieli
@@ -88433,7 +88665,7 @@ religion = catholic
 		holding = castle_holding
 	}
 	1150.1.1 = {
-		culture = han
+		culture = yan
 	}
 }
 
@@ -88452,11 +88684,18 @@ religion = catholic
 }
 
 11762 = {
-	culture = han
+	culture = jilu
 	religion = dhyana
 	holding = nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
+	}
+	938.1.1 = {
+		culture = liaodong
+	}
+	1100.1.1 = {
+		culture = jurchen
+		religion = dhyana
 	}
 }
 
@@ -88475,11 +88714,18 @@ religion = catholic
 }
 
 11765 = {
-	culture = han
+	culture = jilu
 	religion = dhyana
 	holding = nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
+	}
+	938.1.1 = {
+		culture = liaodong
+	}
+	1100.1.1 = {
+		culture = jurchen
+		religion = dhyana
 	}
 }
 
@@ -88523,12 +88769,15 @@ religion = catholic
 }
 
 11773 = {	#Yizhou
-	culture = han
+	culture = jilu
 	religion = avatamsaka
 	holding = nomad_holding
 	1066.1.1 = {
 		religion = dhyana
 		holding = castle_holding
+	}
+	938.1.1 = {
+		culture = yan
 	}
 }
 
@@ -88600,11 +88849,14 @@ religion = catholic
 }
 
 11785 = {	#Shenyang
-	culture = han
+	culture = jilu
 	religion = dhyana
 	holding = castle_holding
 	1150.1.1 = {
 		culture = jurchen
+	}
+	938.1.1 = {
+		culture = liaodong
 	}
 }
 
@@ -88629,7 +88881,7 @@ religion = catholic
 	religion = sukhavati
 	holding = castle_holding
 	1140.1.1 = {
-		culture = han
+		culture = liaodong
 		religion = sukhavati
 	}
 	900.1.1 = {
@@ -88654,13 +88906,13 @@ religion = catholic
 	religion = sukhavati
 	holding = castle_holding
 	special_building_slot = xiuyan_mines_01
-	
+
 	# History
 	867.1.1 = {
 		special_building = xiuyan_mines_01
 	}
 	1140.1.1 = {
-		culture = han
+		culture = liaodong
 		religion = sukhavati
 	}
 	900.1.1 = {
@@ -88834,6 +89086,9 @@ religion = catholic
 	930.1.1 = {
 		culture = jurchen
 	}
+	1150.1.1 = {
+		culture = nanai
+	}
 }
 
 11817 = {	#Yingzhou
@@ -88988,6 +89243,23 @@ religion = catholic
 
 11842 = {	#Nanjing
 	culture = goguryeo
+	religion = sukhavati
+	holding = castle_holding
+	1066.1.1 = {
+		holding = nomad_holding
+	}
+	990.1.1 = {
+		culture = jurchen
+		religion = dhyana
+	}
+}
+
+11843 = {	#Nanhaikou
+	holding = none
+}
+
+11844 = {	#Fengzhou
+	culture = goguryeo
 	religion = avatamsaka
 	holding = castle_holding
 	1066.1.1 = {
@@ -89000,23 +89272,6 @@ religion = catholic
 	916.1.1 = {
 		culture = balhae
 		religion = mu
-	}
-}
-
-11843 = {	#Nanhaikou
-	holding = none
-}
-
-11844 = {	#Fengzhou
-	culture = balhae
-	religion = avatamsaka
-	holding = castle_holding
-	1066.1.1 = {
-		holding = nomad_holding
-	}
-	1150.1.1 = {
-		culture = jurchen
-		religion = avatamsaka
 	}
 }
 
@@ -89080,6 +89335,9 @@ religion = catholic
 	holding = nomad_holding
 	930.1.1 = {
 		culture = jurchen
+	}
+	1150.1.1 = {
+		culture = nanai
 	}
 }
 
@@ -89162,7 +89420,7 @@ religion = catholic
 		holding = nomad_holding
 	}
 	1150.1.1 = {
-		culture = nanai
+		culture = ulch
 	}
 	930.1.1 = {
 		culture = jurchen
@@ -89256,6 +89514,9 @@ religion = catholic
 	culture = nanai
 	religion = abkaism
 	holding = tribal_holding
+	1150.1.1 = {
+		culture = ulch
+	}
 }
 
 11882 = {	#Heishanan
@@ -89266,12 +89527,18 @@ religion = catholic
 	culture = nanai
 	religion = abkaism
 	holding = tribal_holding
+	1150.1.1 = {
+		culture = ulch
+	}
 }
 
 11884 = {	#Heishuiyang
 	culture = nanai
 	religion = abkaism
 	holding = tribal_holding
+	1170.1.1 = {
+		culture = oroch
+	}
 }
 
 11885 = {	#Shuishanpu
@@ -89286,6 +89553,9 @@ religion = catholic
 	culture = nanai
 	religion = abkaism
 	holding = tribal_holding
+	1170.1.1 = {
+		culture = oroch
+	}
 }
 
 11888 = {	#Elejiang
@@ -89303,6 +89573,9 @@ religion = catholic
 	1066.1.1 = {
 		holding = nomad_holding
 	}
+	1170.1.1 = {
+		culture = oroch
+	}
 }
 
 11891 = {	#Bixinshang
@@ -89316,6 +89589,9 @@ religion = catholic
 	1066.1.1 = {
 		holding = nomad_holding
 	}
+	1150.1.1 = {
+		culture = ulch
+	}
 }
 
 11893 = {	#Mohean
@@ -89324,6 +89600,9 @@ religion = catholic
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = nomad_holding
+	}
+	1150.1.1 = {
+		culture = ulch
 	}
 }
 
@@ -89428,9 +89707,6 @@ religion = catholic
 	1066.1.1 = {
 		holding = nomad_holding
 	}
-	1150.1.1 = {
-		culture = udege
-	}
 	930.1.1 = {
 		culture = jurchen
 	}
@@ -89446,9 +89722,6 @@ religion = catholic
 	holding = castle_holding
 	1066.1.1 = {
 		holding = nomad_holding
-	}
-	1150.1.1 = {
-		culture = udege
 	}
 	930.1.1 = {
 		culture = jurchen
@@ -89538,7 +89811,7 @@ religion = catholic
 	1000.1.1 = {
 		culture = goryeo
 	}
-	1140.1.1 = {
+	1170.1.1 = {
 		religion = dhyana
 	}
 }
@@ -89554,7 +89827,7 @@ religion = catholic
 	1000.1.1 = {
 		culture = goryeo
 	}
-	1140.1.1 = {
+	1170.1.1 = {
 		religion = dhyana
 	}
 }
@@ -89574,7 +89847,7 @@ religion = catholic
 	1000.1.1 = {
 		culture = goryeo
 	}
-	1140.1.1 = {
+	1170.1.1 = {
 		religion = dhyana
 	}
 }
@@ -89955,7 +90228,7 @@ religion = catholic
 	1000.1.1 = {
 		culture = goryeo
 	}
-	1140.1.1 = {
+	1170.1.1 = {
 		religion = dhyana
 	}
 }
@@ -90036,7 +90309,7 @@ religion = catholic
 	1000.1.1 = {
 		culture = goryeo
 	}
-	1140.1.1 = {
+	1170.1.1 = {
 		religion = dhyana
 	}
 }
@@ -90048,7 +90321,7 @@ religion = catholic
 	1000.1.1 = {
 		culture = goryeo
 	}
-	1140.1.1 = {
+	1170.1.1 = {
 		religion = dhyana
 	}
 }
@@ -90089,7 +90362,7 @@ religion = catholic
 	1000.1.1 = {
 		culture = goryeo
 	}
-	1140.1.1 = {
+	1170.1.1 = {
 		religion = dhyana
 	}
 }
@@ -90150,7 +90423,7 @@ religion = catholic
 	1000.1.1 = {
 		culture = goryeo
 	}
-	1140.1.1 = {
+	1170.1.1 = {
 		religion = dhyana
 	}
 }
@@ -90174,7 +90447,7 @@ religion = catholic
 	1000.1.1 = {
 		culture = goryeo
 	}
-	1140.1.1 = {
+	1170.1.1 = {
 		religion = dhyana
 	}
 }
@@ -90198,8 +90471,8 @@ religion = catholic
 }
 
 12071 = {	# ESHAN
-	culture = kam
-	religion = moism
+	culture = hmong
+	religion = dab_qhuas
 	holding = tribal_holding
 }
 
@@ -90247,6 +90520,10 @@ religion = catholic
 	culture = hmong
 	religion = dab_qhuas
 	holding = tribal_holding
+	1200.1.1 = {
+		culture = sichuan
+		religion = dhyana
+	}
 }
 
 12082 = {	# YELANG
@@ -90268,13 +90545,11 @@ religion = catholic
 }
 
 12086 = {	# ZIGUI
-	culture = han
+	culture = chu
 	religion = pundarika
 	holding = castle_holding
 	1000.1.1 = {
 		religion = dhyana
-	}
-	700.1.1 = {
 	}
 }
 
@@ -90283,7 +90558,7 @@ religion = catholic
 }
 
 12088 = {	# FANGLING
-	culture = han
+	culture = chu
 	religion = shangqing
 	holding = castle_holding
 }
@@ -90297,7 +90572,7 @@ religion = catholic
 }
 
 12091 = {	# YILING
-	culture = han
+	culture = chu
 	religion = dhyana
 	holding = castle_holding
 }
@@ -90307,14 +90582,12 @@ religion = catholic
 }
 
 12093 = {	# JIANGLING
-	culture = han
+	culture = chu
 	religion = pundarika
 	holding = castle_holding
 	# History
 	1000.1.1 = {
 		religion = dhyana
-	}
-	700.1.1 = {
 	}
 }
 
@@ -90332,13 +90605,13 @@ religion = catholic
 }
 
 12097 = {	# LIYANG 1
-	culture = han
+	culture = chu
 	religion = dhyana
 	holding = castle_holding
 }
 
 12098 = {	# WULING
-	culture = han
+	culture = chu
 	religion = dhyana
 	holding = castle_holding
 }
@@ -90352,13 +90625,13 @@ religion = catholic
 }
 
 12101 = {	# JINGLING
-	culture = han
+	culture = chu
 	religion = dhyana
 	holding = castle_holding
 }
 
 12102 = {	# CHANGSHOU
-	culture = han
+	culture = chu
 	religion = dhyana
 	holding = castle_holding
 }
@@ -90368,7 +90641,7 @@ religion = catholic
 }
 
 12104 = {	# SUI
-	culture = han
+	culture = chu
 	religion = dhyana
 	holding = castle_holding
 }
@@ -90411,7 +90684,7 @@ religion = catholic
 }
 
 12113 = {	# XIANGYANG
-	culture = han
+	culture = chu
 	religion = pundarika
 	holding = castle_holding
 	# History
@@ -90429,14 +90702,14 @@ religion = catholic
 }
 
 12116 = {	# WUDANG
-	culture = han
+	culture = chu
 	religion = shangqing
 	holding = castle_holding
 	special_building_slot = wudang_mountain_temples_01
 	647.1.1 = {
 		special_building = wudang_mountain_temples_01
 	}
-	1066.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -90464,6 +90737,9 @@ religion = catholic
 	religion = vinaya
 	holding = castle_holding
 	# History
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 12122 = {	# SHANGLUO 1
@@ -90503,11 +90779,11 @@ religion = catholic
 	special_building = yungang_grottoes_01
 	# History
 	1000.1.1 = {
-		culture = khitan
+
 		religion = avatamsaka
 	}
-	1190.1.1 = {
-		culture = ongud
+	923.1.1 = {
+		culture = jin
 	}
 }
 
@@ -90521,11 +90797,11 @@ religion = catholic
 	holding = castle_holding
 	# History
 	1000.1.1 = {
-		culture = khitan
+
 		religion = avatamsaka
 	}
-	1190.1.1 = {
-		culture = ongud
+	923.1.1 = {
+		culture = jin
 	}
 }
 
@@ -90539,10 +90815,8 @@ religion = catholic
 	culture = shatuo
 	religion = mantrayana
 	holding = castle_holding
-	1140.1.1 = {
-	}
-	1190.1.1 = {
-		culture = ongud
+	923.1.1 = {
+		culture = jin
 	}
 }
 
@@ -90574,6 +90848,9 @@ religion = catholic
 	1000.1.1 = {
 		religion = sukhavati
 	}
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 12138 = {	# LISHI
@@ -90581,7 +90858,7 @@ religion = catholic
 	religion = khurmazta
 	holding = castle_holding
 	980.1.1 = {
-		culture = han
+		culture = jin
 		religion = sukhavati
 	}
 }
@@ -90602,7 +90879,10 @@ religion = catholic
 	culture = han
 	religion = sukhavati
 	holding = castle_holding
-	1130.1.1 = {
+	923.1.1 = {
+		culture = jin
+	}
+	1170.1.1 = {
 		religion = quanzhen
 	}
 }
@@ -90640,8 +90920,8 @@ religion = catholic
 	1140.1.1 = {
 		religion = sukhavati
 	}
-	1190.1.1 = {
-		culture = ongud
+	923.1.1 = {
+		culture = jin
 	}
 }
 
@@ -90653,8 +90933,8 @@ religion = catholic
 	1000.1.1 = {
 		religion = sukhavati
 	}
-	1190.1.1 = {
-		culture = ongud
+	923.1.1 = {
+		culture = jin
 	}
 }
 
@@ -90663,7 +90943,7 @@ religion = catholic
 }
 
 12151 = {	# YI
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	# History
@@ -90684,7 +90964,7 @@ religion = catholic
 }
 
 12154 = {	# ANXI
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	# History
@@ -90709,10 +90989,10 @@ religion = catholic
 	holding = castle_holding
 	# History
 	1100.1.1 = {
-		religion = sakya
+		religion = kagyu
 	}
 	1230.1.1 = {
-		culture = han
+		culture = liang
 		religion = mahayana
 	}
 	932.1.1 = {
@@ -90735,11 +91015,14 @@ religion = catholic
 	holding = castle_holding
 	# History
 	1100.1.1 = {
-		religion = sakya
+		religion = kagyu
 	}
 	932.1.1 = {
 		culture = tangut
 		religion = vajrayana
+	}
+	1260.1.1 = {
+		religion = sakya
 	}
 }
 
@@ -90752,11 +91035,14 @@ religion = catholic
 	religion = melieism
 	holding = castle_holding
 	1100.1.1 = {
-		religion = sakya
+		religion = kagyu
 	}
 	932.1.1 = {
 		culture = tangut
 		religion = vajrayana
+	}
+	1260.1.1 = {
+		religion = sakya
 	}
 }
 
@@ -90766,11 +91052,14 @@ religion = catholic
 	holding = castle_holding
 	# History
 	1100.1.1 = {
-		religion = sakya
+		religion = kagyu
 	}
 	932.1.1 = {
 		culture = tangut
 		religion = vajrayana
+	}
+	1260.1.1 = {
+		religion = sakya
 	}
 }
 
@@ -90818,20 +91107,23 @@ religion = catholic
 	holding = castle_holding
 	# History
 	1038.1.1 = {
-		culture = tangut
+		culture = jin
 		religion = avatamsaka
 	}
 }
 
 12174 = {	# CIRLNJ XINGTANG
-	culture = han
+	culture = jilu
 	religion = dhyana
 	holding = castle_holding
 	# History
 	1000.1.1 = {
 		religion = avatamsaka
 	}
-	1130.1.1 = {
+	938.1.1 = {
+		culture = yan
+	}
+	1170.1.1 = {
 		religion = quanzhen
 	}
 }
@@ -90891,7 +91183,7 @@ religion = catholic
 	holding = castle_holding
 	# History
 	1038.1.1 = {
-		culture = tangut
+		culture = jin
 		religion = avatamsaka
 	}
 }
@@ -90913,8 +91205,11 @@ religion = catholic
 	holding = castle_holding
 	# History
 	960.1.1 = {
-		culture = han
+		culture = qin
 		religion = sukhavati
+	}
+	1337.1.1 = {
+		religion = ashari
 	}
 }
 
@@ -90929,10 +91224,13 @@ religion = catholic
 
 	# History
 	960.1.1 = {
-		culture = han
+		culture = qin
 		religion = sukhavati
 	}
 
+	1337.1.1 = {
+		religion = ashari
+	}
 }
 
 12188 = {	# PINGLIANG
@@ -90951,6 +91249,9 @@ religion = catholic
 	1000.1.1 = {
 		religion = sukhavati
 	}
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 12191 = {	# HUAIAN
@@ -90968,6 +91269,9 @@ religion = catholic
 	# History
 	1000.1.1 = {
 		religion = sukhavati
+	}
+	900.1.1 = {
+		culture = qin
 	}
 }
 
@@ -90993,12 +91297,18 @@ religion = catholic
 	1000.1.1 = {
 		religion = sukhavati
 	}
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 12198 = {	# XINPING
 	culture = han
 	religion = sukhavati
 	holding = castle_holding
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 12199 = {	# SANSHUI
@@ -91012,6 +91322,9 @@ religion = catholic
 	# History
 	1000.1.1 = {
 		religion = sukhavati
+	}
+	900.1.1 = {
+		culture = qin
 	}
 }
 
@@ -91031,6 +91344,9 @@ religion = catholic
 	1140.1.1 = {
 		religion = pundarika
 	}
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 12204 = {	# QIANYANG
@@ -91045,6 +91361,9 @@ religion = catholic
 	culture = han
 	religion = sukhavati
 	holding = castle_holding
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 12207 = {	# PURUN
@@ -91058,6 +91377,9 @@ religion = catholic
 	# History
 	1000.1.1 = {
 		religion = sukhavati
+	}
+	900.1.1 = {
+		culture = qin
 	}
 }
 
@@ -91076,6 +91398,9 @@ religion = catholic
 	# History
 	1000.1.1 = {
 		religion = sukhavati
+	}
+	923.1.1 = {
+		culture = jin
 	}
 }
 
@@ -91100,7 +91425,10 @@ religion = catholic
 	religion = jingxue
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	900.1.1 = {
+		culture = qin
+	}
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -91156,7 +91484,10 @@ religion = catholic
 	religion = jingxue
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	900.1.1 = {
+		culture = qin
+	}
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -91169,6 +91500,9 @@ religion = catholic
 	1000.1.1 = {
 		religion = sukhavati
 	}
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 12225 = {	# YUNYAN
@@ -91179,6 +91513,9 @@ religion = catholic
 	culture = han
 	religion = zhengyi
 	holding = castle_holding
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 12227 = {	# QINSHUI
@@ -91209,6 +91546,9 @@ religion = catholic
 	culture = han
 	religion = vinaya
 	holding = castle_holding
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 12234 = {	# HESHUN
@@ -91227,6 +91567,9 @@ religion = catholic
 	culture = han
 	religion = vinaya
 	holding = castle_holding
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 12238 = {	# MIANSHANG
@@ -91240,6 +91583,9 @@ religion = catholic
 	# History
 	1000.1.1 = {
 		religion = mantrayana
+	}
+	923.1.1 = {
+		culture = jin
 	}
 }
 
@@ -91259,6 +91605,9 @@ religion = catholic
 	culture = han
 	religion = dhyana
 	holding = castle_holding
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 12244 = {	# SHILOU
@@ -91280,6 +91629,9 @@ religion = catholic
 	# History
 	1000.1.1 = {
 		religion = dhyana
+	}
+	900.1.1 = {
+		culture = qin
 	}
 }
 
@@ -91308,6 +91660,9 @@ religion = catholic
 	1150.1.1 = {
 		religion = dhyana
 	}
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 12253 = {	# LONGGANG
@@ -91333,11 +91688,11 @@ religion = catholic
 }
 
 12257 = {	# LINGSHOU
-	culture = han
+	culture = jilu
 	religion = zhengyi
 	holding = castle_holding
 	# History
-	1130.1.1 = {
+	1170.1.1 = {
 		religion = quanzhen
 	}
 }
@@ -91346,6 +91701,13 @@ religion = catholic
 	culture = hmong
 	religion = dab_qhuas
 	holding = castle_holding
+	1150.1.1 = {
+		culture = yao
+		religion = dhyana
+	}
+	1300.1.1 = {
+		culture = maonan
+	}
 }
 
 12259 = {	# LENGZHOU
@@ -91353,15 +91715,18 @@ religion = catholic
 }
 
 12260 = {	# SIYUAN
-	culture = yi
-	religion = bimoism
+	culture = gelao
+	religion = satsana_phi
 	holding = tribal_holding
 }
 
 12261 = {	# YANCHUAN 1
-	culture = yi
-	religion = bimoism
+	culture = tai
+	religion = satsana_phi
 	holding = tribal_holding
+	1170.1.1 = {
+		culture = bouxcuengh
+	}
 }
 
 12262 = {	# QINGXI 2
@@ -91381,8 +91746,8 @@ religion = catholic
 }
 
 12266 = {	# NANPING
-	culture = hmong
-	religion = dab_qhuas
+	culture = sui
+	religion = satsana_phi
 	holding = tribal_holding
 }
 
@@ -91397,7 +91762,7 @@ religion = catholic
 }
 
 12269 = {	# NUOZUO
-	culture = qiang
+	culture = keru
 	religion = rrmeaism
 	holding = castle_holding
 }
@@ -91421,8 +91786,8 @@ religion = catholic
 }
 
 12274 = {	# QUSHUI 1
-	culture = yi
-	religion = bimoism
+	culture = hmong
+	religion = dab_qhuas
 	holding = tribal_holding
 }
 
@@ -91542,8 +91907,8 @@ religion = catholic
 }
 
 12296 = {	# HUIZHOU
-	culture = yi
-	religion = bimoism
+	culture = hmong
+	religion = dab_qhuas
 	holding = tribal_holding
 }
 
@@ -91632,7 +91997,7 @@ religion = catholic
 		culture = bouxcuengh
 	}
 	1150.1.1 = {
-		culture = yue
+		culture = yao
 		religion = dhyana
 	}
 }
@@ -91659,7 +92024,7 @@ religion = catholic
 }
 
 12316 = {	# SHOUCHUN
-	culture = han
+	culture = jianghuai
 	religion = dhyana
 	holding = castle_holding
 }
@@ -91703,7 +92068,10 @@ religion = catholic
 	religion = dhyana
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	900.1.1 = {
+		culture = qin
+	}
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -91717,17 +92085,16 @@ religion = catholic
 	religion = dhyana
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
 
 12327 = {	# SHAOWU
-	culture = han
+	culture = min
 	religion = vinaya
 	holding = castle_holding
-	1150.1.1 = {
-		culture = min
+	1050.1.1 = {
 		religion = daoxue
 	}
 }
@@ -91748,12 +92115,18 @@ religion = catholic
 	culture = qiang
 	religion = zhengyi
 	holding = castle_holding
+	1150.1.1 = {
+		culture = qin
+	}
 }
 
 12332 = {	# TONGGU
 	culture = qiang
 	religion = zhengyi
 	holding = castle_holding
+	1150.1.1 = {
+		culture = qin
+	}
 }
 
 12333 = {	# CHANGDAO
@@ -91764,6 +92137,9 @@ religion = catholic
 	culture = han
 	religion = shangqing
 	holding = castle_holding
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 12335 = {	# HECHI
@@ -91859,11 +92235,8 @@ religion = catholic
 	culture = tuyuhun
 	religion = vajrayana
 	holding = castle_holding
-	1100.1.1 = {
-		religion = sakya
-	}
 	932.1.1 = {
-		culture = amdo
+		culture = liang
 		religion = vajrayana
 	}
 }
@@ -91885,7 +92258,7 @@ religion = catholic
 }
 
 12357 = {	# CHENGJI
-	culture = han
+	culture = liang
 	religion = sukhavati
 	holding = castle_holding
 }
@@ -91895,7 +92268,7 @@ religion = catholic
 }
 
 12359 = {	# LONGXI
-	culture = han
+	culture = liang
 	religion = sukhavati
 	holding = castle_holding
 }
@@ -91912,6 +92285,9 @@ religion = catholic
 	culture = qiang
 	religion = zhengyi
 	holding = castle_holding
+	1150.1.1 = {
+		culture = qin
+	}
 }
 
 12363 = {	# YOUCHUAN
@@ -91940,6 +92316,7 @@ religion = catholic
 	holding = castle_holding
 	1140.1.1 = {
 		religion = pundarika
+		culture = tangut
 	}
 }
 
@@ -91987,12 +92364,9 @@ religion = catholic
 }
 
 12378 = {	# LINHAI
-	culture = han
+	culture = wu
 	religion = pundarika
 	holding = castle_holding
-	1050.1.1 = {
-		culture = wu
-	}
 }
 
 12379 = {	# ANGU
@@ -92000,7 +92374,7 @@ religion = catholic
 }
 
 12380 = {	# DONGGUAN
-	culture = han
+	culture = min
 	religion = dhyana
 	holding = castle_holding
 	1050.1.1 = {
@@ -92047,7 +92421,7 @@ religion = catholic
 }
 
 12389 = {	# ANDE
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	# History
@@ -92083,9 +92457,7 @@ religion = catholic
 		culture = ongud
 	}
 	1140.1.1 = {
-		religion = kagyu
-	}
-	867.1.1 = {
+		religion = eastern_tengri
 	}
 }
 
@@ -92094,12 +92466,10 @@ religion = catholic
 	religion = mahayana
 	holding = castle_holding
 	1140.1.1 = {
-		religion = kagyu
+		religion = eastern_tengri
 	}
 	1190.1.1 = {
 		culture = ongud
-	}
-	867.1.1 = {
 	}
 }
 
@@ -92134,11 +92504,11 @@ religion = catholic
 	1000.1.1 = {
 		religion = avatamsaka
 	}
-	1130.1.1 = {
-		religion = quanzhen
+	923.1.1 = {
+		culture = jin
 	}
-	1190.1.1 = {
-		culture = ongud
+	1170.1.1 = {
+		religion = quanzhen
 	}
 }
 
@@ -92155,6 +92525,9 @@ religion = catholic
 	# History
 	1000.1.1 = {
 		religion = avatamsaka
+	}
+	923.1.1 = {
+		culture = jin
 	}
 }
 
@@ -92211,11 +92584,7 @@ religion = catholic
 		holding = castle_holding
 	}
 	1140.1.1 = {
-		religion = kagyu
-	}
-	1215.1.1 = {
-	}
-	936.1.1 = {
+		religion = avatamsaka
 	}
 }
 
@@ -92230,12 +92599,10 @@ religion = catholic
 	religion = mahayana
 	holding = castle_holding
 	1140.1.1 = {
-		religion = kagyu
+		religion = eastern_tengri
 	}
 	1190.1.1 = {
 		culture = ongud
-	}
-	867.1.1 = {
 	}
 }
 
@@ -92255,11 +92622,14 @@ religion = catholic
 }
 
 12417 = {	# CIRLZJ LIUHETING
-	culture = han
+	culture = jilu
 	religion = avatamsaka
 	holding = nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
+	}
+	938.1.1 = {
+		culture = yan
 	}
 }
 
@@ -92296,7 +92666,7 @@ religion = catholic
 		holding = castle_holding
 	}
 	1150.1.1 = {
-		culture = han
+		culture = yan
 	}
 }
 
@@ -92315,16 +92685,19 @@ religion = catholic
 		holding = castle_holding
 	}
 	1150.1.1 = {
-		culture = han
+		culture = yan
 	}
 }
 
 12425 = {	# CIRLZJ LUEXIATING
-	culture = han
+	culture = jilu
 	religion = avatamsaka
 	holding = nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
+	}
+	938.1.1 = {
+		culture = yan
 	}
 }
 
@@ -92364,8 +92737,8 @@ religion = catholic
 }
 
 12433 = {	#Birija
-	culture = nanai
-	religion = abkaism
+	culture = evenk
+	religion = bugaism
 	holding = tribal_holding
 }
 
@@ -92403,6 +92776,9 @@ religion = catholic
 	culture = han
 	religion = dhyana
 	holding = castle_holding
+	900.1.1 = {
+		culture = qin
+	}
 }
 
 12441 = {	# WENCHENG
@@ -92421,7 +92797,8 @@ religion = catholic
 	1000.1.1 = {
 		religion = sukhavati
 	}
-	940.1.1 = {
+	900.1.1 = {
+		culture = qin
 	}
 }
 
@@ -92430,7 +92807,7 @@ religion = catholic
 }
 
 12445 = {	# XINDU
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	   # History
@@ -92450,7 +92827,7 @@ religion = catholic
 }
 
 12448 = {	# RAOYANG
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	# History
@@ -92469,7 +92846,7 @@ religion = catholic
 }
 
 12450 = {	# PINGJI
-	culture = han
+	culture = jilu
 	religion = dhyana
 	holding = castle_holding
 }
@@ -92612,6 +92989,9 @@ religion = catholic
 	culture = nanai
 	religion = abkaism
 	holding = tribal_holding
+	1150.1.1 = {
+		culture = ulch
+	}
 }
 
 12482 = {	#Kuru
@@ -92626,7 +93006,7 @@ religion = catholic
 	960.1.1 = {
 		religion = dhyana
 	}
-	1050.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -92704,14 +93084,9 @@ religion = catholic
 	culture = mon
 	religion = mahayana
 	holding = temple_citadel_holding
-	1150.1.1 = {
-		culture = tai
-	}
-	1170.1.1 = {
-		culture = lao
-	}
-	1250.1.1 = {
-		religion = theravada
+	900.1.1 = {
+		culture = kuy
+		religion = kuy_animism
 	}
 }
 
@@ -92817,12 +93192,6 @@ religion = catholic
 	1000.1.1 = {
 		culture = ongud
 	}
-	1140.1.1 = {
-		religion = kagyu
-	}
-	900.1.1 = {
-		religion = mahayana
-	}
 }
 
 12561 = {	#b_gobi_khatan_suudal
@@ -92839,7 +93208,7 @@ religion = catholic
 	holding = nomad_holding
 	930.1.1 = {
 		culture = kerait
-		religion = nestorian
+
 	}
 }
 
@@ -92849,7 +93218,10 @@ religion = catholic
 	holding = nomad_holding
 	930.1.1 = {
 		culture = kerait
-		religion = nestorian
+
+	}
+	1300.1.1 = {
+		culture = mongol
 	}
 }
 
@@ -92863,7 +93235,10 @@ religion = catholic
 	holding = nomad_holding
 	930.1.1 = {
 		culture = kerait
-		religion = nestorian
+
+	}
+	1300.1.1 = {
+		culture = mongol
 	}
 }
 
@@ -92877,12 +93252,6 @@ religion = catholic
 	holding = nomad_holding
 	1000.1.1 = {
 		culture = ongud
-	}
-	1140.1.1 = {
-		religion = kagyu
-	}
-	900.1.1 = {
-		religion = mahayana
 	}
 }
 
@@ -93105,9 +93474,13 @@ religion = catholic
     }
 
 12930 = {	# SHECHENG
-	culture = be
+	culture = hlai
 	religion = moism
 	holding = castle_holding
+	1150.1.1 = {
+		culture = min
+		religion = dhyana
+	}
 }
 
 12931 = {	# QIONGSHAN
@@ -93126,10 +93499,6 @@ religion = catholic
 	culture = hlai
 	religion = moism
 	holding = castle_holding
-	1150.1.1 = {
-		culture = min
-		religion = dhyana
-	}
 }
 
 12935 = {	# LEHUI
@@ -93141,7 +93510,7 @@ religion = catholic
 }
 
 12937 = {	# NINGYUAN
-	culture = hlai
+	culture = be
 	religion = moism
 	holding = castle_holding
 }
@@ -93155,7 +93524,7 @@ religion = catholic
 }
 
 12940 = {	# YILUN
-	culture = hlai
+	culture = be
 	religion = moism
 	holding = castle_holding
 }
@@ -93173,9 +93542,13 @@ religion = catholic
 }
 
 12944 = {	# LIODONG
-	culture = be
+	culture = hlai
 	religion = moism
 	holding = castle_holding
+	1150.1.1 = {
+		culture = min
+		religion = dhyana
+	}
 }
 
 12947 = {	# QIANHUA
@@ -93244,15 +93617,11 @@ religion = catholic
 		religion = vajrayana
 	}
 	1140.1.1 = {
-		religion = sakya
-	}
-	1227.1.1 = {
+		religion = kagyu
 	}
 	1230.1.1 = {
-		culture = han
+		culture = liang
 		religion = mahayana
-	}
-	990.1.1 = {
 	}
 }
 
@@ -93267,11 +93636,8 @@ religion = catholic
 	culture = tuyuhun
 	religion = vajrayana
 	holding = castle_holding
-	1100.1.1 = {
-		religion = sakya
-	}
 	932.1.1 = {
-		culture = amdo
+		culture = liang
 		religion = vajrayana
 	}
 }
@@ -93289,7 +93655,7 @@ religion = catholic
     }
 
 12966 = {	# BEIHAI
-	culture = han
+	culture = qi
 	religion = sukhavati
 	holding = castle_holding
 }
@@ -93378,15 +93744,15 @@ religion = catholic
 }
 
 12989 = {	# CHANGSHA
-	culture = han
+	culture = gan
 	religion = dhyana
 	holding = castle_holding
 	# History
-	1000.1.1 = {
-		religion = daoxue
-	}
 	1050.1.1 = {
 		culture = xiang
+	}
+	1150.1.1 = {
+		religion = daoxue
 	}
 }
 
@@ -93403,12 +93769,11 @@ religion = catholic
 }
 
 12993 = {	# QINGJIANG
-	culture = han
+	culture = gan
 	religion = sukhavati
 	holding = castle_holding
 	# History
-	1050.1.1 = {
-		culture = gan
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -93474,7 +93839,7 @@ religion = catholic
 }
 
 13009 = {	# ZHAOYI
-	culture = han
+	culture = jianghuai
 	religion = shangqing
 	holding = castle_holding
 	# History
@@ -93512,12 +93877,15 @@ religion = catholic
 }
 
 13017 = {	# PINGZHOU 1
-	culture = han
+	culture = jilu
 	religion = vinaya
 	holding = castle_holding
 	# History
 	1150.1.1 = {
 		religion = mantrayana
+	}
+	938.1.1 = {
+		culture = yan
 	}
 }
 
@@ -93604,7 +93972,10 @@ religion = catholic
 	religion = jingxue
 	holding = castle_holding
 	# History
-	1000.1.1 = {
+	900.1.1 = {
+		culture = qin
+	}
+	1150.1.1 = {
 		religion = daoxue
 	}
 }
@@ -93623,6 +93994,9 @@ religion = catholic
 	culture = han
 	religion = zhengyi
 	holding = castle_holding
+	923.1.1 = {
+		culture = jin
+	}
 }
 
 13042 = {	# JIANCHANG
@@ -93630,13 +94004,12 @@ religion = catholic
 }
 
 13043 = {	# GAOAN
-	culture = han
+	culture = gan
 	religion = sukhavati
 	holding = castle_holding
 	# History
-	1050.1.1 = {
+	1150.1.1 = {
 		religion = daoxue
-		culture = gan
 	}
 }
 
@@ -93644,8 +94017,8 @@ religion = catholic
 	culture = shatuo
 	religion = sukhavati
 	holding = castle_holding
-	1190.1.1 = {
-		culture = ongud
+	923.1.1 = {
+		culture = jin
 	}
 }
 
@@ -93803,16 +94176,13 @@ religion = catholic
 
 13080 = {	# YUNZHOU 6
 	culture = shatuo
-	religion = dhyana
+	religion = mahayana
 	holding = castle_holding
-	1000.1.1 = {
-		religion = avatamsaka
+	923.1.1 = {
+		culture = jin
 	}
-	1130.1.1 = {
-		religion = quanzhen
-	}
-	1190.1.1 = {
-		culture = ongud
+	1140.1.1 = {
+		religion = pundarika
 	}
 }
 
@@ -93824,8 +94194,8 @@ religion = catholic
 	culture = shatuo
 	religion = mantrayana
 	holding = castle_holding
-	1190.1.1 = {
-		culture = ongud
+	923.1.1 = {
+		culture = jin
 	}
 }
 
@@ -93870,8 +94240,8 @@ religion = catholic
 }
 
 13093 = {	# GUILE
-	culture = hmong
-	religion = dab_qhuas
+	culture = sui
+	religion = satsana_phi
 	holding = tribal_holding
 }
 
@@ -93954,7 +94324,7 @@ religion = catholic
 }
 
 13113 = {	# LINHUAI
-	culture = han
+	culture = jianghuai
 	religion = vinaya
 	holding = castle_holding
 	# History
@@ -94016,11 +94386,14 @@ religion = catholic
 	religion = eastern_tengri
 	holding = castle_holding
 	1140.1.1 = {
-		religion = sakya
+		religion = kagyu
 	}
 	932.1.1 = {
 		culture = tangut
 		religion = vajrayana
+	}
+	1260.1.1 = {
+		religion = sakya
 	}
 }
 
@@ -94076,7 +94449,7 @@ religion = catholic
 	holding = castle_holding
 	# History
 	1038.1.1 = {
-		culture = tangut
+		culture = jin
 		religion = avatamsaka
 	}
 }
@@ -94093,6 +94466,10 @@ religion = catholic
 	culture = yao
 	religion = dab_qhuas
 	holding = castle_holding
+	1072.1.1 = {
+		culture = xiang
+		religion = dhyana
+	}
 }
 
 13143 = {	# XIYAN
@@ -94136,9 +94513,12 @@ religion = catholic
 }
 
 13152 = {	# WUHOU
-	culture = yi
-	religion = bimoism
+	culture = sui
+	religion = satsana_phi
 	holding = tribal_holding
+	960.1.1 = {
+		culture = maonan
+	}
 }
 
 13153 = {	# JIANGZHOU
@@ -94251,10 +94631,7 @@ religion = catholic
             930.1.1 = {
                 culture = ongud
             }
-			1020.1.2 = {
-				religion = nestorian
-			}
-			
+
         }
 
 14661 = {	# Kismayo

@@ -51554,6 +51554,7 @@ d_kambuja_devaraja = {
 #}
 
 c_koh_ker = {
+	300.1.1 = { change_development_level = 8 }
 	550.1.1 = {
 		holder = 42000000
 	}
@@ -51595,6 +51596,7 @@ c_koh_ker = {
 	750.1.1 = {
 		holder = 1000076070 #Rajendravarman I
 	}
+	769.1.1 = { change_development_level = 12 }
 	790.1.1 = {
 		holder = 1000076071 #Mahipatavarman
 	}
@@ -51630,6 +51632,7 @@ c_koh_ker = {
 	968.1.1 = {
 		holder = 42001999
 	}
+	1000.1.1 = { change_development_level = 18 }
 	1001.1.1 = {
 		holder = 42000020
 	}
@@ -51643,6 +51646,7 @@ c_koh_ker = {
 		holder = 42000024
 	}
 	1066.1.1 = {
+		change_development_level = 15
 		holder = 420025
 	}
 	1080.1.1 = {
@@ -51655,18 +51659,23 @@ c_koh_ker = {
 	1113.1.1 = {
 		holder = 420030
 	}
+	1124.1.1 = { change_development_level = 20 }
 	1150.1.1 = {
 		holder = 420031
 	}
 	1156.1.1 = {
 		holder = 420032
+		liege = k_funan
 	}
 	1165.1.1 = {
 		holder = 420034
 	}
+	1166.1.1 = { change_development_level = 24 }
+	1204.1.1 = { change_development_level = 29 }
 	1218.1.1 = {
 		holder = 420035
 	}
+	1241.1.1 = { change_development_level = 33 }
 	1243.1.1 = {
 		holder = 420036
 	}
@@ -51677,6 +51686,7 @@ c_koh_ker = {
 	1307.1.1 = {
 		holder = 1000080102 #Indrajayavarman
 	}
+	1310.1.1 = { change_development_level = 39 }
 	1327.1.1 = {
 		holder = 1000080103 #Jayavarman IX
 	}

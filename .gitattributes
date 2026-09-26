@@ -46,5 +46,8 @@
 *.pdf binary
 *.exe binary
 
+# Preserve existing line endings in relocated upstream material
+upstream-extras/** text=auto
+
 # Archived raw diff evidence
-development/archive/merge_restore_backups/** -whitespace
+.agents/development/archive/merge_restore_backups/** -whitespace

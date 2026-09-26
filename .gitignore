@@ -4,7 +4,8 @@ Thumbs.db
 desktop.ini
 
 # IDE, local editor and agent folders and files
-.codex/skills/
+.agents/
+.codex/
 /AGENTS.md
 .idea/
 .vs/
@@ -21,7 +22,9 @@ tmp/
 temp/
 wip/
 development/local/
-development/analysis/generated/
+
+# Relocated upstream files
+!/upstream-extras/**
 
 # Python cache
 __pycache__/

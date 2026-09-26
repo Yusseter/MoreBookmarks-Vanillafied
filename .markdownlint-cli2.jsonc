@@ -7,7 +7,7 @@
   },
   "ignores": [
     ".*/**",
-    "development/analysis/generated/**",
-    "development/archive/**"
+    "development/local/**",
+    "upstream-extras/**"
   ]
 }

@@ -91504,6 +91504,10 @@ e_andong = { # Localized as Āndōng
     }
 	
 	k_goguryeo = { # Localized as Goguryeo
+		cultural_names = {
+			name_list_yamato = cn_koma
+			name_list_emishi = cn_koma
+		}
 		color = { 84 59 191 }
 		
 		capital = c_LIAO_shenyang
@@ -92866,6 +92870,7 @@ e_andong = { # Localized as Āndōng
 			can_be_named_after_dynasty = no
 
 			c_BAL_solbin = {	#Shuaibin
+				can_be_named_after_dynasty = no
 				color = { 80 130 190 }
 
 				cultural_names = {
@@ -92936,6 +92941,7 @@ e_andong = { # Localized as Āndōng
 			}
 
 			c_BAL_anbyeon = {	#Anbian
+				can_be_named_after_dynasty = no
 				color = { 45 145 210 }
 
 				cultural_names = {
@@ -93161,6 +93167,7 @@ h_china = {
 		}
 
 		k_henan = {
+			can_be_named_after_dynasty = no
 			color = { 255 250 5 }
 
 			capital = c_henan
@@ -93338,6 +93345,7 @@ h_china = {
 				}
 			}
 			d_shanguo = {
+				can_be_named_after_dynasty = no
 				color = { 164 109 8 }
 
 				capital = c_shanzhou_2
@@ -93509,6 +93517,7 @@ h_china = {
 			}
 		}
 		k_qingxu = {
+			can_be_named_after_dynasty = no
 			color = { 240 140 0 }
 
 			capital = c_qingzhou
@@ -93628,6 +93637,7 @@ h_china = {
 				}
 			}
 			d_yanhai = {
+				can_be_named_after_dynasty = no
 				color = { 240 140 30 }
 
 				capital = c_yanzhou
@@ -93930,11 +93940,13 @@ h_china = {
 			}
 		}
 		k_hebei = {
+			can_be_named_after_dynasty = no
 			color = { 210 220 100 }
 
 			capital = c_weizhou
 
 			d_weibo = {
+				can_be_named_after_dynasty = no
 				color = { 210 220 100 }
 
 				capital = c_weizhou
@@ -94056,6 +94068,7 @@ h_china = {
 				}
 			}
 			d_chengde = {
+				can_be_named_after_dynasty = no
 				color = { 150 160 40 }
 
 				capital = c_zhenzhou
@@ -94231,6 +94244,7 @@ h_china = {
 			}
 		}
 		k_hedong = {
+			can_be_named_after_dynasty = no
 			color = { 190 150 70 }
 
 			capital = c_taiyuan
@@ -94414,6 +94428,7 @@ h_china = {
 				}
 			}
 			d_hezhong = {
+				can_be_named_after_dynasty = no
 				color = { 160 110 50 }
 
 				capital = c_hezhong
@@ -94737,6 +94752,7 @@ h_china = {
 				}
 			}
 			d_yideng = {
+				can_be_named_after_dynasty = no
 				color = { 190 100 70 }
 
 				capital = c_dingzhou
@@ -94946,6 +94962,7 @@ h_china = {
 				}
 			}
 			d_sanggan = {
+				can_be_named_after_dynasty = no
 				color = { 90 55 20 }
 
 				capital = c_yongxing
@@ -95139,6 +95156,7 @@ h_china = {
 		}
 
 		k_longxi_china = {
+			can_be_named_after_dynasty = no
 			color = { 146 192 20 }
 
 			capital = c_qinzhou_1
@@ -95273,6 +95291,7 @@ h_china = {
 				}
 			}
 			d_fengxiang = {
+				can_be_named_after_dynasty = no
 				color = { 100 104 100 }
 
 				capital = c_fengxiang
@@ -95453,6 +95472,7 @@ h_china = {
 		}
 
 		k_guannei = {
+			can_be_named_after_dynasty = no
 			color = { 150 150 140 }
 
 			capital = c_jingzhao
@@ -95693,6 +95713,7 @@ h_china = {
 				}
 			}
 			d_fufang = {
+				can_be_named_after_dynasty = no
 				capital = c_fuzhou_5
 
 				color = { 100 92 110 }
@@ -95780,6 +95801,7 @@ h_china = {
 				}
 			}
 			d_jingyuan = {
+				can_be_named_after_dynasty = no
 				color = { 190 190 180 }
 
 				capital = c_jingzhou
@@ -96058,6 +96080,7 @@ h_china = {
 			}
 		}
 		k_liangzhe = {
+			can_be_named_after_dynasty = no
 			color = { 120 30 120 }
 
 			capital = c_hangzhou
@@ -96571,6 +96594,7 @@ h_china = {
 			}
 		}
 		k_huainan = {
+			can_be_named_after_dynasty = no
 			color = { 150 120 190 }
 
 			capital = c_yangzhou
@@ -96819,6 +96843,7 @@ h_china = {
 			}
 		}
 		k_jiangxi = {
+			can_be_named_after_dynasty = no
 			color = { 200 130 120 }
 
 			capital = c_hongzhou
@@ -97165,6 +97190,7 @@ h_china = {
 			}
 		}
 		k_shannan = {
+			can_be_named_after_dynasty = no
 			color = { 250 30 30 }
 
 			capital = c_xiangyang
@@ -97638,6 +97664,7 @@ h_china = {
 			}
 		}
 		k_hunan = {
+			can_be_named_after_dynasty = no
 			color = { 250 100 40 }
 
 			capital = c_tanzhou
@@ -97889,6 +97916,7 @@ h_china = {
 		}
 
 		k_xichuan = {
+			can_be_named_after_dynasty = no
 			color = { 50 140 180 }
 
 			capital = c_chengdu
@@ -98104,6 +98132,7 @@ h_china = {
 			}
 		}
 		k_xingyuan = {
+			can_be_named_after_dynasty = no
 			color = { 27 149 167 }
 
 			capital = c_xingyuan
@@ -99361,6 +99390,7 @@ h_china = {
 		}
 
 	k_dali = {
+			disable_regnal_numbers = yes
 			color = { 240 240 220 }
 
 			capital = c_dali
@@ -99417,6 +99447,9 @@ h_china = {
 				}
 			}
 			d_jianchuan = {
+				cultural_names = {
+					name_list_han = cn_jianchuan
+				}
 				color = { 239 255 168 }
 
 				capital = c_jianchuan
@@ -99527,6 +99560,10 @@ h_china = {
 				capital = c_yinsheng
 
 				c_yinsheng = {
+					cultural_names = {
+						name_list_han = cn_yinsheng
+						name_list_bai = cn_yinsheng
+					}
 					color = { 223 227 202 }
 
 					b_menggu = {
@@ -99728,6 +99765,7 @@ h_china = {
 		}
 
 		k_viet = {
+			can_be_named_after_dynasty = no
 			color = { 20 110 140 }
 
 			capital = c_thang_long
@@ -100285,6 +100323,7 @@ h_china = {
 		}
 
 		k_lingnan = {
+			can_be_named_after_dynasty = no
 			color = { 0 120 21 }
 
 			capital = c_guangzhou_1
@@ -100812,6 +100851,7 @@ h_china = {
 		}
 
 		k_lingxi = {
+			can_be_named_after_dynasty = no
 			color = { 81 127 99 }
 
 			capital = c_guizhou_1
@@ -102156,6 +102196,14 @@ h_china = {
 					color = { 63 34 33 }
 
 					cultural_names = {
+						name_list_mongol = cn_iryai
+						name_list_buryat = cn_iryai
+						name_list_oirat = cn_iryai
+						name_list_naiman = cn_iryai
+						name_list_kerait = cn_iryai
+						name_list_khitan = cn_iryai
+						name_list_tuyuhun = cn_iryai
+						name_list_jurchen = cn_iryai
 						name_list_tangut = cn_xingqing
 					}
 
@@ -109855,6 +109903,8 @@ e_burma = { # Localized as Tambadipa
 	capital = c_pagan
 	
 	k_pagan = {
+		can_be_named_after_dynasty = no
+		definite_form = yes
 		color = { 143 70 136 }
 		capital = c_pagan
 
@@ -110169,6 +110219,9 @@ e_burma = { # Localized as Tambadipa
 				}
 			}
 			c_toungoo = {
+				cultural_names = {
+					name_list_pyu = cn_beikthano
+				}
 				color = { 153 73 148 }
 
 				b_toungoo = {
@@ -110296,6 +110349,10 @@ e_burma = { # Localized as Tambadipa
 		}
 
 		d_ramannadesa = {
+			cultural_names = {
+				name_list_mon = cn_sadhuim
+				name_list_tai = cn_suthamwadee
+			}
 			color = { 146 53 164 }
 
 			capital = c_thaton
@@ -110466,6 +110523,10 @@ e_burma = { # Localized as Tambadipa
 				}
 			}
 			c_nyaungshwe = {
+				cultural_names = {
+					name_list_karen = cn_kambojarattha
+					name_list_burmese = cn_inle
+				}
 				color = { 175 112 180 }
 
 				b_nyaungshwe = {
@@ -110523,6 +110584,10 @@ e_burma = { # Localized as Tambadipa
 				}
 			}
 			c_moeng_laem = {
+				cultural_names = {
+					name_list_palaungic = cn_khemarattha
+					name_list_han = cn_menggen
+				}
 				color = { 209 34 218 }
 
 				b_moeng_laem = {
@@ -110550,6 +110615,11 @@ e_burma = { # Localized as Tambadipa
 			can_be_named_after_dynasty = no
 
 			c_momauk = {
+				cultural_names = {
+					name_list_han = cn_ma_ling
+					name_list_bai = cn_ma_ling
+					name_list_yi = cn_ma_ling
+				}
 				color = { 76 38 80 }
 
 				b_momauk = {
@@ -110748,6 +110818,9 @@ e_suvarnabhumi = {
 				}
 			}
 			c_nakhon_pathom = {
+				cultural_names = {
+					name_list_tai = cn_suphannaphum
+				}
 				color = { 187 104 7 }
 
 				b_nakhon_pathom = {
@@ -110897,6 +110970,11 @@ e_suvarnabhumi = {
 			}
 
 			c_THAI_tenasserim = {
+				cultural_names = {
+					name_list_burmese = cn_tanintharyi
+					name_list_tai = cn_tanaosri
+					name_list_mon = cn_bik
+				}
 				color = { 240 185 4 }
 
 				b_THAI_Tenasserim = {
@@ -110933,6 +111011,9 @@ e_suvarnabhumi = {
 			}
 		}
 		d_haripunjaya = {
+			cultural_names = {
+				name_list_mon = cn_haripunchai
+			}
 			color = { 148 113 4 }
 			capital = c_haripunjaya
 
@@ -111101,6 +111182,9 @@ e_suvarnabhumi = {
 		}
 	
 		d_muang_sua = {
+			cultural_names = {
+				name_list_tai = cn_muang_sua
+			}
 			color = { 185 82 6 }
 
 			capital = c_luang_prabang
@@ -111777,6 +111861,9 @@ e_kambuja = { # Localized as Kambujadesa
 			}
 	
 			c_muang_fa_daet = {
+				cultural_names = {
+					name_list_mon = cn_fa_daet
+				}
 				color = { 32 75 67 }
 
 				b_muang_fa_daet = {
@@ -111868,6 +111955,7 @@ e_nusantara = { # Created by decision # Localized as Srivijaya
 		capital = c_PHI_tondo
 
 		d_PHI_tondo = {
+			can_be_named_after_dynasty = no
 		   color = { 205 150 21 }
 
 			capital = c_PHI_tondo
@@ -114412,6 +114500,7 @@ e_goryeo = { # Localized as Goguryeo
 		}
 
 		d_tamna = {
+			can_be_named_after_dynasty = no
             color = { 45 245 135 }
 
             capital = c_tamna
@@ -114559,6 +114648,9 @@ k_yongson_throne = {
 ########################################################################################SOUTHEAST ASIA########################################################################################
 
 e_srivijaya = {
+	can_create = {
+		rule_title_creation_imperial_power_projection_title_creation_trigger = yes
+	}
 	color = { 15 105 125 }
 
 	capital = c_JAV_mataram
@@ -115514,6 +115606,13 @@ e_srivijaya = {
 			}
 
 			c_THAI_tambralinga = {
+				cultural_names = {
+					name_list_tai = cn_tampornling
+					name_list_han = cn_tanmaling
+					name_list_tamil = cn_madamalingam
+					name_list_sinhala = cn_madamalingam
+					name_list_telugu = cn_madamalingam
+				}
 				color = { 65 153 143 }
 
 				b_THAI_Ligor = {	#aka Nakhon Si Thammarat
@@ -115797,6 +115896,9 @@ e_srivijaya = {
 			capital = c_BOR_brunei
 
 			c_BOR_brunei = {
+				cultural_names = {
+					name_list_malay = cn_brunei
+				}
 				color = { 17 92 92 }
 
 				b_BOR_Brunei = {

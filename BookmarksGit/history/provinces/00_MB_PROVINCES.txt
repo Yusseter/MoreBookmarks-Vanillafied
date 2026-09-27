@@ -69304,15 +69304,12 @@ religion = jacobite
 }
 
 8841 = {	# QIANTANG
-	culture = han
+	culture = wu
 	religion = vinaya
 	holding = castle_holding
 	# History
 	1150.1.1 = {
 		religion = daoxue
-		culture = wu
-	}
-	1050.1.1 = {
 		culture = wu
 	}
 	1130.1.1 = {
@@ -87292,8 +87289,8 @@ religion = catholic
 }
 
 11476 = {	# MENGGU
-	culture = achang
-	religion = burmic
+	culture = lahu
+	religion = bimoism
 	holding = castle_holding
 }
 

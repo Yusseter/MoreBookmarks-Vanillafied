@@ -254,9 +254,9 @@ break_subject_contract_and_establish_tributary_effect = {
 }
 
 
-# Equal-rank mapped rulers cannot reproduce source vassalage. Never release a vassal
-# or replace an existing tributary contract to approximate that relationship.
-# Called in the prospective tributary's scope, after the source setup has run.
+# Yusseter: Equal-rank mappings use a guarded approximation of source vassalage.
+# Yusseter: Never release a vassal or replace an existing tributary contract.
+# Yusseter: Called in the prospective tributary's scope after source setup.
 yb_establish_mapped_title_tributary_effect = {
 	if = {
 		limit = {
@@ -8412,6 +8412,14 @@ base_769_tributary_setup_effect = {
     }
 
 
+
+	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
+	title:c_JAV_galuh.holder = {
+		save_scope_as = suzerain
+		title:c_JAV_cimanuk.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -8802,6 +8810,14 @@ base_867_tributary_setup_effect = {
     }
 
 
+
+	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
+	title:c_JAV_galuh.holder = {
+		save_scope_as = suzerain
+		title:c_JAV_cimanuk.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -8960,9 +8976,6 @@ base_936_tributary_setup_effect = {
         title:c_JAV_galuh.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-        title:c_JAV_cimanuk.holder = { # Yusseter
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
         title:d_BOR_tanjungpura.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -9008,9 +9021,6 @@ base_936_tributary_setup_effect = {
         title:d_sizhou.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:d_bozhou_qian_china.holder = { # Yusseter: Optional, reback
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
     }
 	
 	title:e_rajastan.holder = {
@@ -9026,7 +9036,7 @@ base_936_tributary_setup_effect = {
 	# K_CHU
     title:k_hunan.holder = {
         save_scope_as = suzerain
-		title:c_yingzhou_4.holder = { # Yusseter: Optional, reback; d_bozhou_qian_china
+		title:d_bozhou_qian_china.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
         title:c_yezhou.holder = {
@@ -9391,6 +9401,14 @@ base_936_tributary_setup_effect = {
     }
 
 
+
+	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
+	title:c_JAV_galuh.holder = {
+		save_scope_as = suzerain
+		title:c_JAV_cimanuk.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -9438,9 +9456,6 @@ base_997_tributary_setup_effect = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
         title:c_JAV_galuh.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-        title:c_JAV_cimanuk.holder = { # Yusseter
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
         title:d_BOR_tanjungpura.holder = {
@@ -9896,6 +9911,14 @@ base_997_tributary_setup_effect = {
     }
 
 
+
+	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
+	title:c_JAV_galuh.holder = {
+		save_scope_as = suzerain
+		title:c_JAV_cimanuk.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -9929,9 +9952,6 @@ base_1018_tributary_setup_effect = {
 		title:c_JAV_galuh.holder = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-        title:c_JAV_cimanuk.holder = { # Yusseter
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
 		title:c_MAL_kedah.holder = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -10343,6 +10363,14 @@ base_1018_tributary_setup_effect = {
         }
     }
 
+
+	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
+	title:c_JAV_galuh.holder = {
+		save_scope_as = suzerain
+		title:c_JAV_cimanuk.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -10767,6 +10795,14 @@ base_1031_tributary_setup_effect = {
     }
 
 
+
+	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
+	title:c_JAV_galuh.holder = {
+		save_scope_as = suzerain
+		title:c_JAV_cimanuk.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -11310,6 +11346,14 @@ base_1066_tributary_setup_effect = {
 	}
 
 
+
+	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
+	title:c_JAV_galuh.holder = {
+		save_scope_as = suzerain
+		title:c_JAV_cimanuk.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -11822,6 +11866,14 @@ base_1081_tributary_setup_effect = {
 	}
 
 
+
+	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
+	title:c_JAV_galuh.holder = {
+		save_scope_as = suzerain
+		title:c_JAV_cimanuk.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -12347,6 +12399,14 @@ base_1099_tributary_setup_effect = {
     }
 
 
+
+	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
+	title:c_JAV_galuh.holder = {
+		save_scope_as = suzerain
+		title:c_JAV_cimanuk.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -12865,6 +12925,14 @@ base_1144_tributary_setup_effect = {
 	title:d_SUM_aceh.holder = {
 		save_scope_as = suzerain
 		title:d_panai.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+
+	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
+	title:c_JAV_galuh.holder = {
+		save_scope_as = suzerain
+		title:c_JAV_cimanuk.holder = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}

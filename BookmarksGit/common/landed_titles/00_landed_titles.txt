@@ -110357,6 +110357,13 @@ e_burma = { # Localized as Tambadipa
 
 			capital = c_thaton
 
+			ai_primary_priority = {
+				if = {
+					limit = { culture = culture:mon }
+					add = @correct_culture_primary_score
+				}
+			}
+
 			c_thaton = { # Localized as Sadhuim
 				color = { 95 59 118 }
 
@@ -110775,6 +110782,14 @@ e_suvarnabhumi = {
 	k_dvaravati = {
 		color = { 227 118 5 }
 		capital = c_lop_buri
+
+		ai_primary_priority = {
+			# Yusseter: Keep the Sukhothai preference separate from earlier Lavo rulers.
+			if = {
+				limit = { has_title = title:d_sukhothai }
+				add = @always_primary_score
+			}
+		}
 
 		d_lop_buri = { # Localized as Lavapura
 			color = { 255 81 5 }

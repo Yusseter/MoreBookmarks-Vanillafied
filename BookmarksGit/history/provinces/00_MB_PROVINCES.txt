@@ -68928,11 +68928,8 @@ religion = jacobite
 
 8774 = {	# TONGJIANG
 	culture = sichuan
-	religion = avatamsaka
+	religion = zhengyi
 	holding = castle_holding
-	1000.1.1 = {
-		religion = dhyana
-	}
 }
 
 8775 = {	# WUNING 1
@@ -91663,7 +91660,7 @@ religion = catholic
 }
 
 12253 = {	# LONGGANG
-	culture = han
+	culture = jilu
 	religion = mantrayana
 	holding = castle_holding
 	# History

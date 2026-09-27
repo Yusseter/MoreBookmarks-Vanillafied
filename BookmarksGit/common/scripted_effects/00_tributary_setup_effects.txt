@@ -255,8 +255,8 @@ break_subject_contract_and_establish_tributary_effect = {
 
 
 # Yusseter: Equal-rank mappings use a guarded approximation of source vassalage.
-# Yusseter: Never release a vassal or replace an existing tributary contract.
-# Yusseter: Called in the prospective tributary's scope after source setup.
+# Never release a vassal or replace an existing tributary contract.
+# Called in the prospective tributary's scope after source setup.
 yb_establish_mapped_title_tributary_effect = {
 	if = {
 		limit = {

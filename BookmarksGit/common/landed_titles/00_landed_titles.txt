@@ -110433,6 +110433,9 @@ e_burma = { # Localized as Tambadipa
 				}
 			}
 			c_dagon = {
+				cultural_names = {
+					name_list_tai = cn_tagoeng
+				}
 				color = { 165 31 163 }
 
 				b_dagon = {
@@ -110524,6 +110527,7 @@ e_burma = { # Localized as Tambadipa
 			}
 			c_nyaungshwe = {
 				cultural_names = {
+					name_list_palaungic = cn_kambojarattha
 					name_list_karen = cn_kambojarattha
 					name_list_burmese = cn_inle
 				}
@@ -111013,6 +111017,7 @@ e_suvarnabhumi = {
 		d_haripunjaya = {
 			cultural_names = {
 				name_list_mon = cn_haripunchai
+				name_list_tai = cn_lamphun
 			}
 			color = { 148 113 4 }
 			capital = c_haripunjaya

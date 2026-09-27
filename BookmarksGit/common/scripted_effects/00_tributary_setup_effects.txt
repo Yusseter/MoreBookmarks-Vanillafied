@@ -254,6 +254,30 @@ break_subject_contract_and_establish_tributary_effect = {
 }
 
 
+# Equal-rank mapped rulers cannot reproduce source vassalage. Never release a vassal
+# or replace an existing tributary contract to approximate that relationship.
+# Called in the prospective tributary's scope, after the source setup has run.
+yb_establish_mapped_title_tributary_effect = {
+	if = {
+		limit = {
+			exists = $SUZERAIN$
+			is_alive = yes
+			is_independent_ruler = yes
+			is_tributary = no
+			NOT = { this = $SUZERAIN$ }
+			NOT = { $SUZERAIN$.top_suzerain = this }
+			$SUZERAIN$ = {
+				is_alive = yes
+				is_independent_ruler = yes
+			}
+		}
+		start_tributary_interaction_effect = {
+			SUZERAIN = $SUZERAIN$
+			TRIBUTARY = this
+		}
+	}
+}
+
 # Base game sets tribs by character which is a gigantic pain in the ass. It's more prone to typos, can't be easily copy and pasted between bookmarks, and requires you commenting everything so you know what the hell you're looking at. Doing my tribs by title similar to T4N
 # Tribs of tribs DO work but they give an error that can be ignored. Annoyingly it doesn't seem like you can do confederations by title and are forced to use characters
 
@@ -8037,15 +8061,6 @@ mpo_1337_tributary_setup_effect = {
 
 base_769_tributary_setup_effect = {
 
-    title:c_dagon.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_hinthada.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-        title:c_kusumi.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_THAI_tambralinga.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_THAI_takua_pa.holder = {
@@ -12338,24 +12353,12 @@ base_1099_tributary_setup_effect = {
 
 base_1144_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_SUM_lampung.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_SUM_pasemah.holder = {
     #        break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
     #    }
     #}
-    title:d_SUM_aceh.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_panai.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
 	# E_SRIVIJAYA
     title:e_srivijaya.holder = {
         save_scope_as = suzerain
@@ -12851,6 +12854,20 @@ base_1144_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	title:d_SUM_aceh.holder = {
+		save_scope_as = suzerain
+		title:d_panai.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -12886,30 +12903,12 @@ base_1171_tributary_setup_effect = {
 	#	add_confederation_member = character:1064892
 	#}
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_haripunjaya.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_sukhothai.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_SUM_lampung.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_SUM_pasemah.holder = {
     #        break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
     #    }
     #}
-    title:d_SUM_aceh.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_panai.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
 	# E_SRIVIJAYA
     title:e_srivijaya.holder = {
         save_scope_as = suzerain
@@ -13450,36 +13449,38 @@ base_1171_tributary_setup_effect = {
         }
     }
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	title:d_haripunjaya.holder = {
+		save_scope_as = suzerain
+		title:d_sukhothai.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	title:d_SUM_aceh.holder = {
+		save_scope_as = suzerain
+		title:d_panai.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
 
 base_1178_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_haripunjaya.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_sukhothai.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_SUM_lampung.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_SUM_pasemah.holder = {
     #        break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
     #    }
     #}
-    title:d_SUM_aceh.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_panai.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
 	# E_SRIVIJAYA
     title:e_srivijaya.holder = {
         save_scope_as = suzerain
@@ -13975,36 +13976,38 @@ base_1178_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	title:d_haripunjaya.holder = {
+		save_scope_as = suzerain
+		title:d_sukhothai.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	title:d_SUM_aceh.holder = {
+		save_scope_as = suzerain
+		title:d_panai.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
 
 base_1187_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_haripunjaya.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_sukhothai.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_SUM_lampung.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_SUM_pasemah.holder = {
     #        break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
     #    }
     #}
-    title:d_SUM_aceh.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_panai.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
 	# E_SRIVIJAYA
     title:e_srivijaya.holder = {
         save_scope_as = suzerain
@@ -14492,24 +14495,32 @@ base_1187_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	title:d_haripunjaya.holder = {
+		save_scope_as = suzerain
+		title:d_sukhothai.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	title:d_SUM_aceh.holder = {
+		save_scope_as = suzerain
+		title:d_panai.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
 
 base_1194_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_haripunjaya.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_sukhothai.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_SUM_lampung.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_SUM_pasemah.holder = {
@@ -15006,6 +15017,20 @@ base_1194_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	title:d_haripunjaya.holder = {
+		save_scope_as = suzerain
+		title:d_sukhothai.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -15508,18 +15533,6 @@ base_1198_tributary_setup_effect = {
 
 base_1204_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_haripunjaya.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_sukhothai.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_SUM_lampung.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_SUM_pasemah.holder = {
@@ -16030,18 +16043,26 @@ base_1204_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	title:d_haripunjaya.holder = {
+		save_scope_as = suzerain
+		title:d_sukhothai.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
 
 base_1211_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_panduranga.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_baigaur.holder = {
@@ -16603,6 +16624,14 @@ base_1211_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -17492,18 +17521,6 @@ base_1234_tributary_setup_effect = {
 
 base_1246_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_sukhothai.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_tun_sun.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_panduranga.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_baigaur.holder = {
@@ -17941,23 +17958,19 @@ base_1246_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
 base_1258_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_sukhothai.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_tun_sun.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_panduranga.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_baigaur.holder = {
@@ -18357,24 +18370,20 @@ base_1258_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
 
 base_1286_tributary_setup_effect = {
 
-	title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_sukhothai.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_tun_sun.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_panduranga.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_baigaur.holder = {
@@ -18767,24 +18776,20 @@ base_1286_tributary_setup_effect = {
     }
 	
 	
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
 
 base_1300_tributary_setup_effect = {
 
-	title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_sukhothai.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_tun_sun.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_panduranga.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_baigaur.holder = {
@@ -19132,24 +19137,20 @@ base_1300_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
 
 base_1310_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_sukhothai.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_tun_sun.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_panduranga.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_baigaur.holder = {
@@ -19506,24 +19507,20 @@ base_1310_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
 
 base_1324_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_sukhothai.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_tun_sun.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_panduranga.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_baigaur.holder = {
@@ -19872,24 +19869,20 @@ base_1324_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
 
 base_1337_tributary_setup_effect = {
 
-    title:c_momauk.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:c_monyin.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
-    title:d_sukhothai.holder = { # Yusseter
-        save_scope_as = suzerain
-        title:d_tun_sun.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
     #title:c_panduranga.holder = { # Yusseter
     #    save_scope_as = suzerain
     #    title:c_baigaur.holder = {
@@ -20549,6 +20542,14 @@ base_1337_tributary_setup_effect = {
     }
 
 
+
+	# Apply mapped-rank fallbacks only after the source tributary setup.
+	title:c_momauk.holder = {
+		save_scope_as = suzerain
+		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 

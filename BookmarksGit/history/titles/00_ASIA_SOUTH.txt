@@ -64060,7 +64060,8 @@ c_quzhou_1 = {
 	741.3.22 = {
 		holder = YiTribesJiaohe2  # Qu_Ha
 	}
-	760.1.1 = {  holder = SEAsiaMB590 liege = d_tuodong government = clan_government	}
+	# Yusseter: Preserve the source Dali realm without substituting d_tuodong's ruler.
+	760.1.1 = {  holder = SEAsiaMB590 liege = k_dali government = clan_government	}
 	769.5.17 = {
 		holder = YiTribesJiaohe3  # Ssy_Huo
 	}
@@ -64147,7 +64148,7 @@ c_dongchuan = {
 	}
 	739.3.22 = {
 		holder = YiTribesWeimo2
-		liege = d_tuodong
+		liege = k_dali # Yusseter: Preserve the source Dali realm without substituting d_tuodong's ruler.
 	}
 	771.11.30 = {
 		holder = YiTribesWeimo3

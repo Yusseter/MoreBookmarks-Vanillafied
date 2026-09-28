@@ -39979,9 +39979,37 @@ c_pegu = {
 	1180.1.1 = { holder = monMB129 	 }
 	1210.1.1 = { holder = monMB130 	 }
 	1250.1.1 = { holder = monMB131 	 }
-	1287.4.4={
-		holder=0
-		liege=0
+	#Wareru Dynasty
+	1287.4.4 = {
+		liege="k_pegu"
+	}
+	1287.4.4 = {
+		holder=1000080307 #Wareru
+	}
+	1307.1.1 = {
+		holder=1000080308 #Hkun-Law
+	}
+	1311.4.10 = {
+		holder=1000080309 #Saw-O
+	}
+	1323.9.1 = {
+		holder=1000080311 #Saw-Zein
+	}
+
+	#Zein Pun Dynasty
+	1330.4.1 = {
+		holder=1000080312 #Zein-Pun
+	}
+
+	#Wareru Dynasty (restored)
+	1330.4.7 = {
+		holder=1000080313 #Saw-E
+	}
+	1330.5.1 = {
+		holder=1000080314 #Binnya-E-Law
+	}
+	1348.1.1 = {
+		holder=1000080315 #Binnya-U
 	}
 
 }
@@ -64061,7 +64089,7 @@ c_quzhou_1 = {
 		holder = YiTribesJiaohe2  # Qu_Ha
 	}
 	# Yusseter: Preserve the source Dali realm without substituting d_tuodong's ruler.
-	760.1.1 = {  holder = SEAsiaMB590 liege = k_dali government = clan_government	}
+	760.1.1 = {  liege = k_dali government = clan_government	}
 	769.5.17 = {
 		holder = YiTribesJiaohe3  # Ssy_Huo
 	}
@@ -64078,7 +64106,6 @@ c_quzhou_1 = {
 		holder = YiTribesJiaohe7  # Shy_Po
 	}
 	900.1.1 = {
-		holder = NuosuMB2  # A_Chy (first character to rule during the period)
 		#de_jure_liege = d_dongchuan # Yusseter
 	}
 
@@ -64383,7 +64410,7 @@ c_shicheng = {
 	}
 	1066.1.1 = { change_development_level = 9 }
 
-	760.1.1 = {  holder = SEAsiaMB590 government = clan_government	}
+	760.1.1 = {  government = clan_government	}
 	900.1.1 = { liege = k_dali government = clan_government	}
 	1091.11.24 = {
 		holder = YiTribesPung14
@@ -65446,7 +65473,6 @@ c_muze = {
 	#Da Yining
 	#Dali
 	936.1.1 = {
-		holder = NuosuMB34  # Fe_Lo (first character to rule during the period)
 		#de_jure_liege = d_zuining # Yusseter
 		#liege = d_zuining # Yusseter
 	}
@@ -73644,11 +73670,23 @@ c_SUM_panai = {
 	}
 	1260.1.1={
 		holder=1000201006 #Danang
+		liege = 0 # Yusseter: Preserve the co-held source d_aru's independence.
 	}
 	1290.1.1={
 		holder=1000201007 #Yeop
 		government = clan_government
 		succession_laws = { clan_impassive_partition_succession_law  }
+	}
+	# Yusseter: Follow the co-held source d_aru through its Java and Samudera transitions.
+	1292.1.1={
+		liege = k_yavakadvipa
+	}
+	1293.1.1={
+		liege = d_SUM_aceh
+	}
+	# Yusseter: Preserve the independence of the co-held source d_aru and k_aru.
+	1299.1.1={
+		liege = 0
 	}
 	1320.1.1={
 		holder=1000201008 #Zulkarnain
@@ -73720,14 +73758,16 @@ c_SUM_rokan = {
 	}
 	1260.1.1={
 		holder=1000201006 #Danang
+		liege = 0 # Yusseter: Match the co-held c_SUM_panai while its source ruler is independent.
 	}
 	1290.1.1={
 		holder=1000201007 #Yeop
 	}
-	1292.1.1 = { holder = malayMB151 	 }
+	# Yusseter: Retain this county's existing allegiance when it passes to a different ruler.
+	1292.1.1 = { holder = malayMB151 liege = e_srivijaya }
 	1300.1.1 = {
 		holder = malayMB152
-		liege = e_srivijaya
+		liege = 0 # Yusseter: Source k_aru maps to a county; startup uses a guarded tributary fallback.
 	}
 	1325.1.1 = { holder = malayMB153 	 }
 
@@ -74769,7 +74809,7 @@ c_SUM_pekanbaru = {
 	1286.1.1 = { liege = k_yavakadvipa 	 }
 	1300.1.1 = {
 		holder = malayMB152
-		liege = e_srivijaya
+		liege = 0 # Yusseter: Source k_aru maps to a county; startup uses a guarded tributary fallback.
 	}
 	1325.1.1 = { holder = malayMB153 	 }
 
@@ -74837,7 +74877,7 @@ c_SUM_kampar = {
 	1292.1.1 = { holder = malayMB151 	 }
 	1300.1.1 = {
 		holder = malayMB152
-		liege = e_srivijaya
+		liege = 0 # Yusseter: Source k_aru maps to a county; startup uses a guarded tributary fallback.
 	}
 	1325.1.1 = { holder = malayMB153 	 }
 
@@ -74933,7 +74973,7 @@ c_SUM_meranti = {
 	1292.1.1 = { holder = malayMB151 	 }
 	1300.1.1 = {
 		holder = malayMB152
-		liege = e_srivijaya
+		liege = 0 # Yusseter: Source k_aru maps to a county; startup uses a guarded tributary fallback.
 	}
 	1325.1.1 = { holder = malayMB153 	 }
 
@@ -75103,8 +75143,7 @@ c_SUM_muara_takus = {
 	}
 	1286.1.1 = { liege = k_yavakadvipa 	 }
 	1300.1.1 = {
-		holder = malayMB152
-		liege = e_srivijaya
+		liege = 0 # Yusseter: Source k_aru maps to a county; startup uses a guarded tributary fallback.
 	}
 	1304.2.19 = {
 		holder = Indonesia750  # Tunggawijaya

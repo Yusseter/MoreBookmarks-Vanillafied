@@ -19209,6 +19209,16 @@ base_1300_tributary_setup_effect = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}
+	# Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
+	title:c_SUM_panai.holder = {
+		save_scope_as = suzerain
+		title:c_SUM_pekanbaru.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+		title:c_SUM_muara_takus.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -19579,6 +19589,16 @@ base_1310_tributary_setup_effect = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}
+	# Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
+	title:c_SUM_panai.holder = {
+		save_scope_as = suzerain
+		title:c_SUM_pekanbaru.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+		title:c_SUM_muara_takus.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -19938,6 +19958,16 @@ base_1324_tributary_setup_effect = {
 	title:c_momauk.holder = {
 		save_scope_as = suzerain
 		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	# Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
+	title:c_SUM_panai.holder = {
+		save_scope_as = suzerain
+		title:c_SUM_pekanbaru.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+		title:c_SUM_muara_takus.holder = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}
@@ -20611,6 +20641,16 @@ base_1337_tributary_setup_effect = {
 	title:c_momauk.holder = {
 		save_scope_as = suzerain
 		title:c_monyin.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	# Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
+	title:c_SUM_panai.holder = {
+		save_scope_as = suzerain
+		title:c_SUM_pekanbaru.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+		title:c_SUM_muara_takus.holder = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}

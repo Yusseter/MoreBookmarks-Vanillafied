@@ -64305,6 +64305,7 @@ c_shicheng = {
 	}
 	738.5.9 = {
 		holder = YiTribesPung2
+		liege = k_dali # Yusseter: Preserve the co-held source d_shicheng's early allegiance.
 	}
 	769.11.17 = {
 		holder = YiTribesPung3

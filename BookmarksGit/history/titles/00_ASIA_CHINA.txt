@@ -29405,7 +29405,7 @@ c_rongshui = {
 c_qingyuan = {
 	766.1.1 = { change_development_level = 4 }
 	1032.1.1 = { change_development_level = 8 }
-	760.1.1 = { holder = MBLuoshi }
+	760.1.1 = { holder = MBLuoshi liege = d_guiguan } # Yusseter: Restore mapped c_fushuizhou_china's initial allegiance.
 	865.1.1 = { holder = yi003 }
 	927.1.1 = { holder = yi005 liege = d_bozhou_qian_china }
 	#970.1.1 = { # Yusseter

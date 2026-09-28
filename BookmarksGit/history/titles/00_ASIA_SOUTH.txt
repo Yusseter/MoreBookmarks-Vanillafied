@@ -54472,6 +54472,7 @@ c_ubon_ratchathani = {
 	}
 	955.1.1 = {
 		holder = kuyMB80
+		liege = e_kambuja # Yusseter: Preserve d_shrestapura's dated affiliation.
 	}
 	980.1.1 = {
 		holder = kuyMB81
@@ -58631,6 +58632,10 @@ c_nam_dinh = {
 	730.1.1 = {
 		holder = NgoMB1		# Tung — covers the 769 bookmark
 	}
+	739.8.22 = {
+		holder = NgoMB2
+		liege = k_viet
+	}
 	768.11.15 = {
 		holder = NgoMB3		# Vinh
 	}
@@ -58639,6 +58644,9 @@ c_nam_dinh = {
 	}
 	824.4.27 = {
 		holder = NgoMB5		# Con
+	}
+	851.6.19 = {
+		holder = 1418009
 	}
 	930.1.1 = {
 		holder = 1418010	# Ngo Quyen
@@ -59829,6 +59837,7 @@ c_ma_linh = {
 	1210.1.1 = { holder = SEAsiaMB396	}
 	1250.1.1 = { holder = SEAsiaMB397	}
 	1300.1.1 = { holder = SEAsiaMB398	}
+	1306.1.1 = { liege = k_viet } # Yusseter: Restore d_tribhuvanadevi's transfer to mapped e_dai_viet.
 	1325.1.1 = { holder = SEAsiaMB399	}
 }
 ### Yusseter: COMMENTED FOR TESTING
@@ -64912,7 +64921,8 @@ c_chengji = {
 	840.1.1 = {  holder = SEAsiaMB744	}
 	860.1.1 = {  holder = SEAsiaMB745	}
 	900.1.1 = {  holder = SEAsiaMB746	}
-	930.1.1 = {  holder = SEAsiaMB747 }
+	# Yusseter: d_lung_dong maps to county-rank c_nongdong; retain its k_dali realm instead.
+	930.1.1 = {  holder = SEAsiaMB747 liege = k_dali }
 	955.1.1 = {  holder = SEAsiaMB748	}
 	980.1.1 = {  holder = SEAsiaMB749	}
 	1005.1.1 = { holder = SEAsiaMB750	}
@@ -64931,6 +64941,11 @@ c_weichu = {
 	730.1.1 = {
 		holder = YiTribesNing1  # Mu_Zim
 	}
+	738.5.23 = {
+		holder = YiTribesNing2
+	}
+	# Yusseter: Source d_lung_dong enters k_dali in 760; its county-rank mapping cannot receive vassals.
+	760.1.1 = { liege = k_dali }
 	769.11.30 = {
 		holder = YiTribesNing3  # La_Bbu
 	}
@@ -65713,6 +65728,10 @@ c_jingzhou_2 = {
 	}
 	738.5.22 = {
 		holder = YiTribesBipan2  # Nyi_Da
+	}
+	763.11.19 = {
+		holder = YiTribesBipan3
+		liege = d_huichuan
 	}
 	791.9.4 = {
 		holder = YiTribesBipan4  # Shu_Wa
@@ -67329,6 +67348,7 @@ c_JAV_kalingga = {
 	#	de_jure_liege = k_yavakadvipa
 	#	liege = k_yavakadvipa
 	#}
+	1066.1.1 = { liege = k_yavakadvipa } # Yusseter: Restore mapped k_panjalu allegiance without the de jure change.
 	1070.1.1 = { holder = javaMB11 	 }
 	1090.1.1 = {
 		de_jure_liege = k_yavakadvipa

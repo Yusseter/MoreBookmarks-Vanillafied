@@ -48803,35 +48803,41 @@ c_nanzhou = {
 	1201.1.1= { holder = Bozhou_Yang_029 }
 	1233.1.1= { holder = Bozhou_Yang_030 }
 	1243.1.1= { holder = Bozhou_Yang_033 }
-	1266.1.1= { holder = Bozhou_Yang_035 }
+	1266.1.1= { holder = Bozhou_Yang_035 liege = k_xichuan } # Yusseter: Source k_sichuan.
 }
 
 c_yizhou_3 = {
 	766.1.1 = { change_development_level = 4 }
 	1032.1.1 = { change_development_level = 8 }
-	857.1.1 = {
-		liege = 0
+	# Yusseter: Preserve the mapped c_pingyi_china succession, not c_rongyi_china's holders.
+	730.1.1 = { holder = YiTribesXie1 }
+	738.9.11 = {
+		holder = YiTribesXie2
+		liege = d_bozhou_qian_china
 	}
-	#876.9.1 = {	holder = Bozhou_Yang_001 }
-	915.1.1 = {	holder = Bozhou_Yang_002 government = feudal_government }
-	961.1.1= { holder = Bozhou_Yang_003 }
-	965.1.1 = { liege = h_china }
+	768.4.30 = { holder = YiTribesXie3 }
+	799.6.22 = { holder = YiTribesXie4 }
+	823.10.7 = { holder = YiTribesXie5 }
+	851.5.16 = { holder = YiTribesXie6 }
+	879.12.3 = { holder = YiTribesXie7 }
+	907.3.14 = { holder = YiTribesXie8 }
+	936.7.25 = { holder = YiTribesXie9 }
+	964.11.19 = { holder = YiTribesXie10 }
 	970.1.1 = {
 		#de_jure_liege = k_guannei # Yusseter
 	}
-	975.1.1= { holder = Bozhou_Yang_004 }
-	977.1.1= { holder = Bozhou_Yang_006 }
-	998.1.1= { holder = Bozhou_Yang_007 }
-	1044.1.1= { holder = Bozhou_Yang_010 }
-	1073.1.1= { holder = Bozhou_Yang_011 }
-	1095.1.1= { holder = Bozhou_Yang_014 }
-	1110.1.1= { holder = Bozhou_Yang_019 }
-	1137.1.1= { holder = Bozhou_Yang_022 }
-	1149.1.1= { holder = Bozhou_Yang_024 }
-	1201.1.1= { holder = Bozhou_Yang_029 }
-	1233.1.1= { holder = Bozhou_Yang_030 }
-	1243.1.1= { holder = Bozhou_Yang_033 }
-	1266.1.1= { holder = Bozhou_Yang_035 }
+	993.8.4 = { holder = YiTribesXie11 }
+	1021.2.27 = { holder = YiTribesXie12 }
+	1049.10.13 = { holder = YiTribesXie13 }
+	1078.5.30 = { holder = YiTribesXie14 }
+	1108.1.17 = { holder = YiTribesXie15 }
+	1137.9.8 = { holder = YiTribesXie16 }
+	1165.4.22 = { holder = YiTribesXie17 }
+	1193.11.6 = { holder = YiTribesXie18 }
+	1222.6.28 = { holder = YiTribesXie19 }
+	1251.9.14 = { holder = YiTribesXie20 }
+	1280.3.5 = { holder = YiTribesXie21 }
+	1309.12.19 = { holder = YiTribesXie22 }
 }
 
 d_sizhou = {
@@ -49110,6 +49116,10 @@ c_guile = {
 	730.1.1 = {
 		holder = YiTribesLuijiu1  # Nyi_Ha (covers 730 start and 769 bookmark)
 	}
+	738.9.3 = {
+		holder = YiTribesLuijiu2
+		liege = d_luodian
+	}
 	762.4.17 = {
 		holder = YiTribesLuijiu3  # Shu_Ha
 	}
@@ -49178,6 +49188,10 @@ c_guile = {
 c_nanping = {
 	730.1.1 = {
 		holder = YiTribesLuijiu1  # Nyi_Ha (covers 730 start and 769 bookmark)
+	}
+	738.9.3 = {
+		holder = YiTribesLuijiu2
+		liege = d_luodian
 	}
 	762.4.17 = {
 		holder = YiTribesLuijiu3  # Shu_Ha
@@ -49249,6 +49263,10 @@ c_shaoqing = {
 	730.1.1 = {
 		holder = YiTribesJilu1
 	}
+	738.9.5 = {
+		holder = YiTribesJilu2
+		liege = d_luodian
+	}
 	769.11.18 = {
 		holder = YiTribesJilu3
 	}
@@ -49311,6 +49329,10 @@ c_shaoqing = {
 c_juzhou = {
 	730.1.1 = {
 		holder = YiTribesNagou1
+	}
+	742.8.19 = {
+		holder = YiTribesNagou2
+		liege = d_luodian
 	}
 	768.3.27 = {
 		holder = YiTribesNagou3
@@ -49401,6 +49423,9 @@ c_wulong = {
 	}
 	738.9.5 = {
 		holder = YiTribesQingzong2  # Shu_Ha
+	}
+	755.3.18 = {
+		liege = d_xiyuan # Yusseter: Mapped from source d_yushi.
 	}
 	769.3.18 = {
 		holder = YiTribesQingzong3  # Nyi_Po

@@ -8501,9 +8501,7 @@ base_867_tributary_setup_effect = {
         title:d_bozhou_qian_china.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-        title:c_shaoqing.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+        # Yusseter: Source d_luoshi's holder is not represented by c_shaoqing; keep its Luodian vassalage.
         title:c_tianzhou.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -9131,9 +9129,7 @@ base_936_tributary_setup_effect = {
 		title:c_hsenwi.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_shaoqing.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+        # Yusseter: Source d_luoshi's holder is not represented by c_shaoqing; keep its Luodian vassalage.
 		title:c_momauk.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }

@@ -8796,9 +8796,7 @@ base_867_tributary_setup_effect = {
         title:c_phetchabun.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_nan_asia.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		# Yusseter: Source d_nan has no holder before 1096; do not target the earlier county ruler.
 		title:d_muang_sua.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -9385,9 +9383,7 @@ base_936_tributary_setup_effect = {
         title:c_phetchabun.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_nan_asia.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		# Yusseter: Source d_nan has no holder before 1096; do not target the earlier county ruler.
 		title:d_muang_sua.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -9876,9 +9872,7 @@ base_997_tributary_setup_effect = {
         title:c_phetchabun.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_nan_asia.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		# Yusseter: Source d_nan has no holder before 1096; do not target the earlier county ruler.
 		title:d_muang_sua.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -10348,9 +10342,7 @@ base_1018_tributary_setup_effect = {
         title:c_phetchabun.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_nan_asia.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		# Yusseter: Source d_nan has no holder before 1096; do not target the earlier county ruler.
 		title:d_muang_sua.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -10779,9 +10771,7 @@ base_1031_tributary_setup_effect = {
         title:c_phetchabun.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_nan_asia.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		# Yusseter: Source d_nan has no holder before 1096; do not target the earlier county ruler.
 		title:d_muang_sua.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -11279,9 +11269,7 @@ base_1066_tributary_setup_effect = {
         title:c_phetchabun.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_nan_asia.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		# Yusseter: Source d_nan has no holder before 1096; do not target the earlier county ruler.
 		title:d_muang_sua.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -11836,9 +11824,7 @@ base_1081_tributary_setup_effect = {
         title:c_phetchabun.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_nan_asia.holder = {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		# Yusseter: Source d_nan has no holder before 1096; do not target the earlier county ruler.
 		title:d_muang_sua.holder = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }

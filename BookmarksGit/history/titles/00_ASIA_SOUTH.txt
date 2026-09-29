@@ -56887,7 +56887,7 @@ c_nan_asia = {
 
 	#Phayao Dynasty (most are placeholders)
 	1096.1.1 = {
-		#liege="d_nan" # Yusseter
+		liege = 0 # Yusseter: The co-held source d_nan is independent.
 	}
 	1118.1.1 = {
 		holder=1000202088 #Khun-Khun
@@ -73065,7 +73065,8 @@ c_SUM_perlak = {
 
 	#Maulana Saiyid Dynasty
 	840.1.1={
-		#liege="d_perlak" # Yusseter
+		# Yusseter: Preserve the co-held d_perlak political timeline after its rank is merged.
+		liege = 0
 	}
 	840.1.1={
 		holder=1000080703 #Abdul-Aziz I
@@ -73105,11 +73106,17 @@ c_SUM_perlak = {
 	1109.1.1={
 		holder=1000080713 #Ahmad
 	}
+	1129.1.1={
+		liege = d_SUM_aceh # Yusseter: Source d_perlak enters k_samudera.
+	}
 	1135.1.1={
 		holder=1000080714 #Mahmud II
 	}
 	1160.1.1={
 		holder=1000080715 #Usman
+	}
+	1161.1.1={
+		liege = 0 # Yusseter: Source d_perlak leaves k_samudera.
 	}
 	1173.1.1={
 		holder=1000080716 #Muhammad

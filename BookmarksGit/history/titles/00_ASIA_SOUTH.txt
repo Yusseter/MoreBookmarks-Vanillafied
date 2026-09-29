@@ -64563,6 +64563,7 @@ c_shicheng = {
 #}
 
 c_zuining = {
+	# Yusseter: Keep c_ni_jiao's succession; the Shizong rulers remain on c_muze.
 	# 867.1.1 = { change_development_level = 4 }
 	# 1066.1.1 = { change_development_level = 9 }
 
@@ -64591,7 +64592,6 @@ c_zuining = {
 		holder = YiTribesYangch7
 	}
 	900.1.1 = {
-		holder = NuosuMB34  # Fe_Lo (first character to rule during the period)
 		#de_jure_liege = d_zuining # Yusseter
 		#liege = d_zuining # Yusseter
 	}
@@ -64610,55 +64610,30 @@ c_zuining = {
 	972.1.6 = {
 		holder = YiTribesYangch10
 	}
-	944.4.3 = {
-		holder = YiTribesShizong9  # Lu_Zhe
-	}
-
-	973.8.29 = {
-		holder = YiTribesShizong10  # Bbu_Nju
-	}
 
 	1001.10.28 = {
 		holder = YiTribesYangch11
-	}
-	1002.5.14 = {
-		holder = YiTribesShizong11  # Va_Huo
 	}
 
 	1032.5.19 = {
 		holder = YiTribesYangch12
 	}
-	1031.11.23 = {
-		holder = YiTribesShizong12  # Yo_Ha
-	}
 
 	1061.2.11 = {
 		holder = YiTribesYangch13
 	}
-	1059.2.16 = {
-		holder = YiTribesShizong13  # Lur_Shy
-	}
 
 	1090.9.7 = {
 		holder = YiTribesYangch14
-	}
-	1088.7.5 = {
-		holder = YiTribesShizong14  # Ssy_Huo
 	}
 
 	1119.6.24 = {
 		holder = YiTribesYangch15
 		liege = d_xiyuan
 	}
-	1118.10.8 = {
-		holder = YiTribesShizong15  # Nde_Wa
-	}
 
 	1148.11.3 = {
 		holder = YiTribesYangch16
-	}
-	1147.4.19 = {
-		holder = YiTribesShizong16  # Qu_Po
 	}
 	1177.4.8 = {
 		holder = YiTribesYangch17
@@ -64666,39 +64641,20 @@ c_zuining = {
 	1204.8.30 = {
 		holder = YiTribesYangch18
 	}
-	1176.8.30 = {
-		holder = YiTribesShizong17  # Yy_Ke
-	}
 	1233.12.17 = {
 		holder = YiTribesYangch19
 	}
-	1205.6.14 = {
-		holder = YiTribesShizong18  # Bi_Hxa
-	}
-	1234.3.7 = {
-		holder = YiTribesShizong19  # Lo_Na
-	}
-
 
 	1262.7.5 = {
 		holder = YiTribesYangch20
-	}
-	1262.12.25 = {
-		holder = YiTribesShizong20  # Shu_Qi
 	}
 
 	1291.3.22 = {
 		holder = YiTribesYangch21
 	}
-	1291.9.18 = {
-		holder = YiTribesShizong21  # Jji_Zze
-	}
 
 	1320.9.28 = {
 		holder = YiTribesYangch22
-	}
-	1320.5.11 = {
-		holder = YiTribesShizong22  # Wa_Nde
 	}
 }
 

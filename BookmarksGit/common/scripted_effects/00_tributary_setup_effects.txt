@@ -16682,6 +16682,13 @@ base_1211_tributary_setup_effect = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}
+	# Yusseter: Preserve d_pribpri's Lavapura dependency after the 1208 rank split.
+	title:d_lop_buri.holder = {
+		save_scope_as = suzerain
+		title:d_tun_sun.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -16729,7 +16736,7 @@ base_1220_tributary_setup_effect = {
 	# e_kambuja
     title:e_kambuja.holder = {
         save_scope_as = suzerain
-		title:k_dvaravati.holder = {
+		title:d_lop_buri.holder = { # Yusseter: Follow the k_lavapura ruler, not the merged Sukhothai title.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		title:c_mukdahan.holder = {
@@ -17128,6 +17135,13 @@ base_1220_tributary_setup_effect = {
     }
 
 
+	# Yusseter: Preserve d_pribpri's Lavapura dependency after the 1208 rank split.
+	title:d_lop_buri.holder = {
+		save_scope_as = suzerain
+		title:d_tun_sun.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 
@@ -17176,7 +17190,7 @@ base_1234_tributary_setup_effect = {
 	# e_kambuja
     title:e_kambuja.holder = {
         save_scope_as = suzerain
-		title:k_dvaravati.holder = {
+		title:d_lop_buri.holder = { # Yusseter: Follow the k_lavapura ruler, not the merged Sukhothai title.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		title:c_mukdahan.holder = {
@@ -17566,6 +17580,13 @@ base_1234_tributary_setup_effect = {
     }
 
 
+	# Yusseter: Preserve d_pribpri's Lavapura dependency after the 1208 rank split.
+	title:d_lop_buri.holder = {
+		save_scope_as = suzerain
+		title:d_tun_sun.holder = {
+			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
 }
 
 

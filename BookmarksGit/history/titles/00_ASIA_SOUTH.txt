@@ -39695,8 +39695,10 @@ c_vaisali = {
 	1279.1.1 = {
 		holder=1000080283 #Mengdi
 	}
+	1299.5.10 = { liege = 0 } # Yusseter: Preserve the co-held source k_arakan ruler's independence after d_arakan changes hands.
 	1385.1.1 = {
 		holder=1000080284 #Utstsanangay
+		liege = d_arakan # Yusseter: The source county and duchy return to the same ruler.
 	}
 	1387.1.1 = {
 		holder=1000080285 #Thiwarit
@@ -46724,6 +46726,7 @@ c_THAI_tenasserim = {
 	1200.1.1={
 		holder=1000202271 #Jettharaja
 	}
+	1208.1.1 = { liege = d_lop_buri } # Yusseter: Keep Lavapura allegiance after k_dvaravati adopts Sukhothai.
 	1230.1.1={
 		holder=1000202272 #Dittaraja
 	}
@@ -47839,6 +47842,7 @@ c_nakhon_pathom = {
 	1200.1.1={
 		holder=1000202134 #Kumanna
 	}
+	1208.1.1 = { liege = d_lop_buri } # Yusseter: Keep Lavapura allegiance after k_dvaravati adopts Sukhothai.
 	1230.1.1={
 		holder=1000202135 #Siripunnaraja
 	}
@@ -48627,6 +48631,7 @@ d_tun_sun = {
 	1115.1.1 = { holder = monMB70 	 }
 	1140.1.1 = { holder = monMB71 	 }
 	1180.1.1 = { holder = monMB72 	 }
+	1208.1.1 = { liege = 0 } # Yusseter: Equal-rank Lavapura dependency uses guarded tributary setup.
 	1210.1.1 = { holder = monMB73 	 }
 	1238.1.1 = {
 		liege="k_dvaravati"
@@ -49376,14 +49381,14 @@ c_yongchang_jingmadian = {
 
 	760.1.1 = {
 		holder = SEAsiaMB191
-		liege = d_yongchang # Yusseter
+		liege = 0 # Yusseter: Keep the selected c_hopang history, not c_man_kueng's different ruler allegiance.
 		government = tribal_government # Yusseter
 	}
 	820.1.1 = {  holder = SEAsiaMB192	}
 	840.1.1 = {  holder = SEAsiaMB193	}
 	860.1.1 = {  holder = SEAsiaMB194	}
 	900.1.1 = {  holder = SEAsiaMB195	}
-	930.1.1 = {  holder = SEAsiaMB196	}
+	930.1.1 = { holder = SEAsiaMB196 liege = d_yongchang } # Yusseter: Co-held source c_manglon enters Yongchang at this date.
 	955.1.1 = {  holder = SEAsiaMB197	}
 	980.1.1 = {  holder = SEAsiaMB198	}
 	1005.1.1 = { holder = SEAsiaMB199	}

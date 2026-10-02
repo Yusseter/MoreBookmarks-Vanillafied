@@ -12898,11 +12898,11 @@ c_minzhou = {
 	1132.1.16 = { holder = song_general_021 } #吴玠
 	1144.1.1 = {
 		holder = song_general_022
-		liege = d_yongxing # Yusseter: d_longnan_china
+		liege = k_xingyuan # Yusseter: Use d_longnan_china's mapped k_lizhou overlord.
 	}
 	1167.6.6 = { holder = 1801605 }
 	1180.1.1 = { holder = xinchang_shi_044 }
-	1246.1.1 = { holder = 93073 }
+	1246.1.1 = { holder = 93073 liege = d_yongxing } # Yusseter: Retain the existing Mongol-era affiliation after k_lizhou ends.
 	1252.1.1 = { holder = 93077 }
 
 	1285.1.1 = { holder = song_ma_002M6 liege = d_xichuan }
@@ -13001,11 +13001,11 @@ c_chengzhou = {
 	1132.1.16 = { holder = song_general_021 } #吴玠
 	1144.1.1 = {
 		holder = song_general_022
-		liege = d_yongxing # Yusseter: d_longnan_china
+		liege = k_xingyuan # Yusseter: Use d_longnan_china's mapped k_lizhou overlord.
 	}
 	1167.6.6 = { holder = xianyou_ye_036 } #Yuwen Zizhen - prefect until 1195
 	1211.1.1 = { holder = anxi_du_036M3 }
-	1246.1.1 = { holder = 93073 }
+	1246.1.1 = { holder = 93073 liege = d_yongxing } # Yusseter: Retain the existing Mongol-era affiliation after k_lizhou ends.
 	1252.1.1 = { holder = 93077 }
 
 	1285.1.1 = { holder = song_ma_002M6 liege = d_xichuan }
@@ -13100,11 +13100,11 @@ c_jiezhou = {
 	1132.1.16 = { holder = song_general_021 } #吴玠
 	1144.1.1 = {
 		holder = song_general_022
-		liege = d_yongxing # Yusseter: d_longnan_china
+		liege = k_xingyuan # Yusseter: Use d_longnan_china's mapped k_lizhou overlord.
 	}
 	1167.6.6 = { holder = 1801605 }
 	1180.1.1 = { holder = xinchang_shi_044 }
-	1246.1.1 = { holder = 93073 }
+	1246.1.1 = { holder = 93073 liege = d_yongxing } # Yusseter: Retain the existing Mongol-era affiliation after k_lizhou ends.
 	1252.1.1 = { holder = 93077 }
 
 	1285.1.1 = { holder = song_ma_002M6 liege = d_xichuan }
@@ -13152,7 +13152,7 @@ c_wenzhou = {
 	#Later Shu
 	934.7.19 = {
 		holder = later_shu_li_002
-		liege = d_qincheng # Yusseter: d_longnan_china
+		liege = e_liangyi # Yusseter: Preserve d_longnan_china's Later Shu allegiance.
 	} #Zhao Jiliang
 	947.7.21 = { holder = yushe_zhang_001 liege = d_xingyuan } #Zhang Qianzhao - should go to Wuxing Jiedushi, but there are no known rulers for this period.
 	949.1.1 = { holder = later_shu_an_001 } #An Siqian
@@ -13185,11 +13185,11 @@ c_wenzhou = {
 	1133.7.10 = { holder = chengji_liu_006  } #Liu Qi - prefect in 1134.1.26
 	1144.1.1 = {
 		holder = song_general_022
-		liege = d_yongxing # Yusseter: d_longnan_china
+		liege = k_xingyuan # Yusseter: Use d_longnan_china's mapped k_lizhou overlord.
 	}
 	1170.1.1 = { holder = 1801591 }
 	1174.1.1 = { holder = 1803177 }
-	1246.1.1 = { holder = 93073 }
+	1246.1.1 = { holder = 93073 liege = d_yongxing } # Yusseter: Retain the existing Mongol-era affiliation after k_lizhou ends.
 	1252.1.1 = { holder = 93077 }
 
 	1285.1.1 = { holder = song_ma_002M6 liege = d_xichuan }

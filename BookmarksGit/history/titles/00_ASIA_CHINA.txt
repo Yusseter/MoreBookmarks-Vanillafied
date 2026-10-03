@@ -33648,6 +33648,7 @@ c_longzhou = {
 	1245.11.22 = {
 		holder = ChengjiLiuHanMB4  # Liangsi
 	}
+	1246.1.1 = { liege = d_xingyuan } # Yusseter: Follow the co-held Jianzhou allegiance after k_lizhou becomes unheld.
 	
 	1273.7.30 = {
 		holder = ChengjiLiuHanMB5  # Changliang

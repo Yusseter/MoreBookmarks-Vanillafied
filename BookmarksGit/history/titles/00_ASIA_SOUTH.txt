@@ -68112,7 +68112,7 @@ c_JAV_madura = {
 		holder=1000076185 #Airlangga
 	}
 	1042.1.1={
-		#liege="d_janggala" # Yusseter
+		liege = 0 # Yusseter: Preserve the co-held Janggala ruler's independence until 1090.
 	}
 	1042.1.1 = {
 		holder=1000076187 #Garasakan
@@ -68311,7 +68311,7 @@ c_JAV_lumajang = {
 		holder=1000076185 #Airlangga
 	}
 	1042.1.1={
-		#liege="d_janggala" # Yusseter
+		liege = 0 # Yusseter: Preserve the co-held Janggala ruler's independence until 1090.
 	}
 	1042.1.1 = {
 		holder=1000076187 #Garasakan

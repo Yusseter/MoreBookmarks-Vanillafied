@@ -953,3 +953,9 @@ RICE_philippines_and_eastern_indonesia = {
 		d_JAV_mataram d_JAV_taruma d_IDO_bali d_IDO_lesser_sunda d_IDO_timor d_papua
 	}
 }
+
+RICE_sycamore_fig_region = {
+	regions = {
+		world_africa_east world_middle_east_arabia world_middle_east_jerusalem world_africa_north_east
+	}
+}

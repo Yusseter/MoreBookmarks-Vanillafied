@@ -1,10 +1,14 @@
 ﻿#Semitic Doctrines - Old Egpytian
 
 egyptian_cult_isis_doctrine = {		# Isis
+	doctrine_group_type = doctrine_egyptian_cult
+	index = 0
+	divergence = 50
+	
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = egyptian_cult_isis_doctrine }
+			limit = { rite_has_doctrine = egyptian_cult_isis_doctrine }
 			value = 0
 		}
 		else = {
@@ -17,10 +21,14 @@ egyptian_cult_isis_doctrine = {		# Isis
 }
 
 egyptian_cult_serapis_doctrine = {		# Serapis
+	doctrine_group_type = doctrine_egyptian_cult
+	index = 1
+	divergence = 50
+	
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = egyptian_cult_serapis_doctrine }
+			limit = { rite_has_doctrine = egyptian_cult_serapis_doctrine }
 			value = 0
 		}
 		else = {
@@ -34,10 +42,14 @@ egyptian_cult_serapis_doctrine = {		# Serapis
 }
 
 egyptian_cult_ammon_doctrine = {		# Ammon/Amun
+	doctrine_group_type = doctrine_egyptian_cult
+	index = 2
+	divergence = 50
+	
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = egyptian_cult_ammon_doctrine }
+			limit = { rite_has_doctrine = egyptian_cult_ammon_doctrine }
 			value = 0
 		}
 		else = {
@@ -50,10 +62,14 @@ egyptian_cult_ammon_doctrine = {		# Ammon/Amun
 }
 
 egyptian_cult_apedemak_doctrine = {		# Apedemak
+	doctrine_group_type = doctrine_egyptian_cult
+	index = 3
+	divergence = 50
+	
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = egyptian_cult_apedemak_doctrine }
+			limit = { rite_has_doctrine = egyptian_cult_apedemak_doctrine }
 			value = 0
 		}
 		else = {
@@ -66,10 +82,14 @@ egyptian_cult_apedemak_doctrine = {		# Apedemak
 }
 
 egyptian_cult_mandulis_doctrine = {		# Mandulis
+	doctrine_group_type = doctrine_egyptian_cult
+	index = 4
+	divergence = 50
+	
 	piety_cost = {
 		value = faith_doctrine_cost_mid
 		if = {
-			limit = { has_doctrine = egyptian_cult_mandulis_doctrine }
+			limit = { rite_has_doctrine = egyptian_cult_mandulis_doctrine }
 			value = 0
 		}
 		else = {

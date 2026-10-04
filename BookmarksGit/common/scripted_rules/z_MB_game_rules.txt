@@ -56,45 +56,6 @@ can_hybridize_culture = {
 	##### Changed from Vanilla ^^^^^
 }
 
-# Determines if a character can convert faith via the convert faith UI, on top of the piety requirement
-# Root is the faith creator
-# scope:new_faith is the faith they want to convert to
-faith_conversion = {
-	is_adult = yes
-	NOT = { faith.religious_head = root }
-	is_in_ongoing_great_holy_war = no
-	# Can't (or shouldn't) convert to faiths that are meant to be resurrected via decision, event, etc.
-	custom_tooltip = {
-		text = faith_conversion_cost_conversion_blocked_till_decision_taken
-		NOT = {
-			scope:new_faith = { has_variable = block_conversion_till_decision_taken }
-		}
-	}
-	custom_tooltip = {
-		text = faith_conversion_cost_conversion_blocked_till_nebulous_circumstances
-		NOT = {
-			scope:new_faith = { has_variable = block_conversion_till_nebulous_circumstances }
-		}
-	}
-	###Variable for Non-Sectarian Islam to block conversions
-	custom_tooltip = {
-		text = faith_conversion_blocked_ALB
-		NOT = {
-			scope:new_faith = { has_variable = block_conversion_ALB }
-		}
-	}
-}
-																																					  
-cares_about_powerful_vassal_council_position = { # root is powerful vassal, minor change
-	can_be_councillor_basics_trigger = yes
-	NOT = { this = liege.diarch }
-	is_designated_diarch = no
-	NAND = { # If faith has eldership powerful vassal adjustment, they don't care when below age 50
-		faith = { has_doctrine_parameter = mz_eldership_powerful_vassal_adjustment }
-		age < 50
-	}
-}
-
 # Can this character cross water (sea, rivers) while on raid?
 # root: the potential raider
 can_raid_across_water = { can_raid_across_water_trigger = yes }
@@ -135,4 +96,5 @@ can_adopt_court_language = {
 		is_vassal_or_below_of = scope:target
 	}
 	in_diplomatic_range = scope:target
+	NOT = { has_title = title:k_papal_state } # The Papacy always keeps Latin, so never let the AI shop around
 }

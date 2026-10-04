@@ -435,6 +435,10 @@ fifthteenth = {
 	arrow_type = "silkRoadArrow"
 
 	provinces = {
+		11974 # Yusseter: Projected Korean route extension.
+		11980
+		11962
+		11794
 		7074 # Beijing
 		7077
 		7114

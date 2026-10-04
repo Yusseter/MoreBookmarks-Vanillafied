@@ -44,13 +44,6 @@ halberdiers_unit = {
 		heavy_cavalry = 1
 		heavy_infantry = 1
 	}
-	
-	can_recruit = {
-		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
-		}
-	}
 
 	should_show_when_unavailable = {
 		government_allows = subject_men_at_arms
@@ -94,10 +87,7 @@ mande_hunter = {
 	}
 
 	can_recruit = {
-		NOR = {
-			government_has_flag = government_is_nomadic
-			government_has_flag = government_is_herder
-		}
+		NOT = { government_has_flag = government_is_in_steppe }
 		valid_for_maa_trigger = { PARAMETER = unlock_maa_mande_hunter }
 	}
 	

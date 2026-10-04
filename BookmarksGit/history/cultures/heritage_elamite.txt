@@ -28,7 +28,6 @@
 	discover_innovation = innovation_hereditary_rule
 	discover_innovation = innovation_manorialism
 	discover_innovation = innovation_royal_prerogative
-	discover_innovation = innovation_hindu_arabic_numeral
 }
 1099.1.1 = {
 	discover_innovation = innovation_arched_saddle

@@ -36318,7 +36318,7 @@ d_konkana = {
 	995.1.1 = {
 		holder = 74535	#Rattaraja
 	}
-	1020.1.1 = {
+	1018.1.1 = {
 		holder = 0
 	}
 }
@@ -51077,6 +51077,9 @@ e_kambuja = {
 	657.1.1 = {
 		holder = 420008888
 		government = mandala_government
+	} 
+	681.1.1 = {
+		holder = 0
 	}
 
 	# Founding of Khmer Empire

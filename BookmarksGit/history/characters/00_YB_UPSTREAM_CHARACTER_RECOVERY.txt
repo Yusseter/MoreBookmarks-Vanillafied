@@ -4,7 +4,7 @@
 12782000={
 	name=character_name_12782000 #Masataka
 	dynasty=10007536 #Kiyohara
-	religion="shinto"
+	rite="shinto"
 	culture="japanese"
 	1030.1.1={
 		birth=yes

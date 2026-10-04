@@ -59455,7 +59455,8 @@ c_thang_long = {
 #	1325.1.1 = { holder = SEAsiaMB152	}
 #}
 c_binh_nguyen = {
-	760.1.1 = {  holder = SEAsiaMB134 liege = k_viet	}
+	# Yusseter: Keep c_con_linh's source allegiance; co-held c_lam_tay retains d_lo's history.
+	760.1.1 = {  holder = SEAsiaMB134	}
 	820.1.1 = {  holder = SEAsiaMB135	}
 	840.1.1 = {  holder = SEAsiaMB136	}
 	860.1.1 = {  holder = SEAsiaMB137	}

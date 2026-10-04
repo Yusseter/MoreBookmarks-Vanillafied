@@ -1,3 +1,5 @@
+# Yusseter: Use verified 1.20 Rite keys for the projected MPE history.
+# Unresolved source keys remain unchanged pending upstream definitions.
 12787 = { #b_hypanis # Yusseter: MPE_21341
 	holding = none
 }
@@ -83,7 +85,7 @@
 
 # Misc
 culture = khazar
-religion = tengri_pagan
+rite = tengri_pagan
 
 # History
 895.1.1 = { culture = pecheneg }
@@ -124,14 +126,14 @@ religion = tengri_pagan
 	
 	# Misc
 	culture = khazar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
-	808.1.1 = { religion = kabarism }
+	808.1.1 = { rite = kabarism }
 1016.1.1 = { culture = pecheneg }
-1016.1.1 = { religion = tengri_pagan }
+1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman } 
 1227.1.1 = { religion = maturidi } 
@@ -151,14 +153,14 @@ religion = tengri_pagan
 	
 	# Misc
 	culture = khazar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
-	808.1.1 = { religion = kabarism }
+	808.1.1 = { rite = kabarism }
 1016.1.1 = { culture = pecheneg }
-1016.1.1 = { religion = tengri_pagan }
+1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman } 
 1227.1.1 = { religion = maturidi } 
@@ -214,10 +216,10 @@ religion = tengri_pagan
 	
 	# Misc
 culture = khazar
-religion = tengri_pagan
+rite = tengri_pagan
 
 # History
-808.1.1 = { religion = kabarism }
+808.1.1 = { rite = kabarism }
 
 1220.1.1 = { religion = maturidi }
 #Mongol invasion
@@ -251,7 +253,7 @@ religion = tengri_pagan
 	
 	# Misc
 culture = circassian #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
-religion = khabzism
+rite = khabzism
 
 # History
 #966.1.1 = { culture = pecheneg }
@@ -281,7 +283,7 @@ religion = khabzism
 	
 	# Misc
 culture = circassian #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
-religion = khabzism
+rite = khabzism
 
 # History
 #966.1.1 = { culture = pecheneg }
@@ -507,7 +509,7 @@ religion = khabzism
 	
 	# Misc
 	culture = circassian
-	religion = khabzism
+	rite = khabzism
 	
 	#holding = castle_holding
 	
@@ -536,7 +538,7 @@ religion = khabzism
 	
 	# Misc
 	culture = circassian
-	religion = khabzism
+	rite = khabzism
 	
 	#holding = castle_holding
 	
@@ -557,7 +559,7 @@ religion = khabzism
 	
 	# Misc
 	culture = circassian
-	religion = khabzism
+	rite = khabzism
 	
 	#holding = castle_holding
 	
@@ -602,10 +604,10 @@ religion = khabzism
 	
 	# Misc
 culture = khazar
-religion = tengri_pagan
+rite = tengri_pagan
 
 # History
-808.1.1 = { religion = kabarism }
+808.1.1 = { rite = kabarism }
 
 1220.1.1 = { religion = maturidi }
 #Mongol invasion
@@ -623,7 +625,7 @@ religion = tengri_pagan
 		
 	# Misc
 	culture = caucasian_avar
-	religion = nakh_pagan
+	rite = nakh_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
@@ -656,11 +658,11 @@ religion = tengri_pagan
 	
 # Misc
 culture = lezgi
-religion = nakh_pagan
+rite = nakh_pagan
 holding = tribal_holding
 
 # History
-808.1.1 = { religion = kabarism }
+808.1.1 = { rite = kabarism }
 
 1089.1.1 = { religion = maturidi }
 
@@ -686,7 +688,7 @@ holding = tribal_holding
 		
 	# Misc
 	culture = caucasian_avar
-	religion = nakh_pagan
+	rite = nakh_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
@@ -707,7 +709,7 @@ holding = tribal_holding
 		
 	# Misc
 	culture = caucasian_avar
-	religion = nakh_pagan
+	rite = nakh_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
@@ -736,11 +738,11 @@ holding = tribal_holding
 	
 # Misc
 culture = lezgi
-religion = nakh_pagan
+rite = nakh_pagan
 holding = tribal_holding
 
 # History
-808.1.1 = { religion = kabarism }
+808.1.1 = { rite = kabarism }
 
 1089.1.1 = { religion = maturidi }
 
@@ -754,7 +756,7 @@ holding = tribal_holding
 		
 	# Misc
 	culture = caucasian_avar
-	religion = nakh_pagan
+	rite = nakh_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
@@ -766,11 +768,11 @@ holding = tribal_holding
 13343 = { # b_zirichgeran # Yusseter: MPE province history asil_mod donor c_derbent/674
 	# Misc
 culture = lezgi
-religion = nakh_pagan
+rite = nakh_pagan
 
 # History
 1089.1.1 = { religion = maturidi }
-1259.1.1 = { religion = ismaili }
+1259.1.1 = { rite = ismaili }
 
 	holding = castle_holding
 	867.1.1 = {
@@ -798,11 +800,11 @@ religion = nakh_pagan
 13347 = { # b_lezgin # Yusseter: MPE province history asil_mod donor c_derbent/674
 	# Misc
 culture = lezgi
-religion = nakh_pagan
+rite = nakh_pagan
 
 # History
 1089.1.1 = { religion = maturidi }
-1259.1.1 = { religion = ismaili }
+1259.1.1 = { rite = ismaili }
 
 	holding = castle_holding
 	867.1.1 = {
@@ -822,11 +824,11 @@ religion = nakh_pagan
 13350 = { # b_kuba # Yusseter: MPE province history asil_mod donor c_derbent/674
 	# Misc
 culture = lezgi
-religion = nakh_pagan
+rite = nakh_pagan
 
 # History
 1089.1.1 = { religion = maturidi }
-1259.1.1 = { religion = ismaili }
+1259.1.1 = { rite = ismaili }
 
 	holding = castle_holding
 	867.1.1 = {
@@ -918,11 +920,11 @@ religion = nakh_pagan
 	
 # Misc
 culture = lezgi
-religion = nakh_pagan
+rite = nakh_pagan
 holding = tribal_holding
 
 # History
-808.1.1 = { religion = kabarism }
+808.1.1 = { rite = kabarism }
 
 1089.1.1 = { religion = maturidi }
 
@@ -932,14 +934,14 @@ holding = tribal_holding
 	
 	# Misc
 	culture = khazar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	
 	#holding = castle_holding
 	
 	# History
-	808.1.1 = { religion = kabarism }
+	808.1.1 = { rite = kabarism }
 1016.1.1 = { culture = pecheneg }
-1016.1.1 = { religion = tengri_pagan }
+1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman } 
 1227.1.1 = { religion = maturidi } 
@@ -955,7 +957,7 @@ holding = tribal_holding
 
 # Misc
 culture = khazar
-religion = tengri_pagan
+rite = tengri_pagan
 
 # History
 895.1.1 = { culture = pecheneg }
@@ -974,7 +976,7 @@ religion = tengri_pagan
 	
 # Misc
 culture = khazar
-religion = tengri_pagan
+rite = tengri_pagan
 
 # History
 895.1.1 = { culture = pecheneg }
@@ -993,7 +995,7 @@ religion = tengri_pagan
 	
 # Misc
 culture = khazar
-religion = tengri_pagan
+rite = tengri_pagan
 
 # History
 895.1.1 = { culture = pecheneg }
@@ -1012,7 +1014,7 @@ religion = tengri_pagan
 	
 # Misc
 culture = mogyer
-religion = tengri_pagan
+rite = tengri_pagan
 
 # History
 893.1.1 = { culture = pecheneg }
@@ -1028,7 +1030,7 @@ religion = tengri_pagan
 
 563 = { # b_karoia # Yusseter: MPE province history donor c_tana/596
 	culture = khazar
-	religion = tengri_pagan
+	rite = tengri_pagan
 	#holding = castle_holding
 	1000.1.2 = {
 		culture = cuman
@@ -1064,7 +1066,7 @@ religion = tengri_pagan
 		
 	# Misc
 	culture = caucasian_avar
-	religion = nakh_pagan
+	rite = nakh_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {

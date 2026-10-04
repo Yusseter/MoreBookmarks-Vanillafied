@@ -6,7 +6,7 @@ YB_qasi_0004 = {
 	father = 73810
 	mother = 73811
 
-	religion = muwalladi
+	rite = maliki
 	culture = basque
 
 	794.1.1 = {

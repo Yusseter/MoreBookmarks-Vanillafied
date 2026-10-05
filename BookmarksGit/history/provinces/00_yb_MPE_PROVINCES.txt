@@ -319,7 +319,7 @@ rite = khabzism
 
 13274 = { # b_skhimar # Yusseter: MPE province history donor c_maghas/5299
 	culture = alan
-	religion = alan_pagan
+	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
 		religion = georgian_orthodox
@@ -339,7 +339,7 @@ rite = khabzism
 
 13277 = { # b_aorsi # Yusseter: MPE province history donor c_maghas/5299
 	culture = alan
-	religion = alan_pagan
+	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
 		religion = georgian_orthodox
@@ -355,7 +355,7 @@ rite = khabzism
 
 13279 = { # b_maikop # Yusseter: MPE province history donor c_maghas/5299
 	culture = alan
-	religion = alan_pagan
+	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
 		religion = georgian_orthodox
@@ -371,7 +371,7 @@ rite = khabzism
 
 13281 = { # b_tapanta # Yusseter: MPE province history donor c_maghas/5299
 	culture = alan
-	religion = alan_pagan
+	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
 		religion = georgian_orthodox
@@ -412,7 +412,7 @@ rite = khabzism
 	
 	# Misc
 	culture = alan
-	religion = alan_pagan
+	rite = alan_pagan
 	
 	holding = tribal_holding
 	
@@ -439,7 +439,7 @@ rite = khabzism
 
 13292 = { # b_gaeliat # Yusseter: MPE province history asil_mod donor c_cabardinia/603
 	culture = alan
-	religion = alan_pagan
+	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
 		religion = georgian_orthodox
@@ -463,7 +463,7 @@ rite = khabzism
 
 13296 = { # b_cabarda # Yusseter: MPE province history asil_mod donor c_cabardinia/603
 	culture = alan
-	religion = alan_pagan
+	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
 		religion = georgian_orthodox
@@ -891,7 +891,7 @@ rite = nakh_pagan
 	
 	# Misc
 	culture = alan
-	religion = alan_pagan
+	rite = alan_pagan
 	
 	holding = tribal_holding
 	
@@ -902,7 +902,7 @@ rite = nakh_pagan
 
 5302 = { # b_digora # Yusseter: MPE province history asil_mod donor c_cabardinia/603
 	culture = alan
-	religion = alan_pagan
+	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
 		religion = georgian_orthodox
@@ -1045,7 +1045,7 @@ rite = tengri_pagan
 
 606 = { # b_baksan # Yusseter: MPE county capital donor donor_county:c_don_portage:same_county_barony:b_majar
 	culture = alan # Yusseter: MPE county capital donor donor_county:c_don_portage:same_county_barony:b_majar
-	religion = alan_pagan # Yusseter: MPE county capital donor donor_county:c_don_portage:same_county_barony:b_majar
+	rite = alan_pagan # Yusseter: MPE county capital donor donor_county:c_don_portage:same_county_barony:b_majar
 	
 	# Misc
 	
@@ -1058,7 +1058,7 @@ rite = tengri_pagan
 
 5344 = { # b_petigoria # Yusseter: MPE county capital donor same_county_barony:b_majar
 	culture = alan # Yusseter: MPE county capital donor same_county_barony:b_majar
-	religion = alan_pagan # Yusseter: MPE county capital donor same_county_barony:b_majar
+	rite = alan_pagan # Yusseter: MPE county capital donor same_county_barony:b_majar
 	holding = none
 }
 

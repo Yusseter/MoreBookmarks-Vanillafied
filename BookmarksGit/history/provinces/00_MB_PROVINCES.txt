@@ -4342,7 +4342,7 @@ rite = orthodox
 	}
 	1382.1.1 = {
 		culture = turkish
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -5384,7 +5384,7 @@ rite = slavic_pagan
 	# History
 	893.1.1 = { culture = pecheneg }
 	1044.1.1 = { culture = cuman }
-	1227.1.1 = { rite = maturidi } 
+	1227.1.1 = { rite = hanafi } 
 	1300.1.1 = {
 		culture = crimean
 	}
@@ -5403,7 +5403,7 @@ rite = tengri_pagan
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { rite = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -5422,7 +5422,7 @@ rite = tengri_pagan
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { rite = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -5445,7 +5445,7 @@ rite = tengri_pagan
 1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman } 
-1227.1.1 = { rite = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -5510,7 +5510,7 @@ rite = tengri_pagan
 # History
 893.1.1 = { culture = pecheneg }
 1044.1.1 = { culture = cuman }
-1227.1.1 = { rite = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -5536,7 +5536,7 @@ rite = tengri_pagan
 	966.1.1 = { rite = tengri_pagan } 
 	1050.1.1 = { culture = cuman } 
 	1050.1.1 = { rite = tengri_pagan } 
-	1236.1.1 = { rite = maturidi } 
+	1236.1.1 = { rite = hanafi } 
 	1236.1.1 = { culture = cuman }
 	1300.1.1 = { culture = chernigovan }
 
@@ -5742,7 +5742,7 @@ rite = tengri_pagan
 	holding = none
 	965.1.2 = {
 		culture = bolghar
-		rite = maturidi
+		rite = hanafi
 		holding = city_holding
 	}
 }
@@ -5902,7 +5902,7 @@ rite = tengri_pagan
 966.1.1 = { culture = torkil } 
 1050.1.1 = { culture = cuman } 
 1050.1.1 = { rite = tengri_pagan } 
-1300.1.1 = { rite = maturidi } 
+1300.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = mishar
 	}
@@ -5926,7 +5926,7 @@ rite = tengri_pagan
 966.1.1 = { culture = torkil } 
 1050.1.1 = { culture = cuman } 
 1050.1.1 = { rite = tengri_pagan } 
-1300.1.1 = { rite = maturidi } 
+1300.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = mishar
 	}
@@ -5958,7 +5958,7 @@ rite = tengri_pagan
 1044.1.1 = { culture = torkil }
 1050.1.1 = { culture = cuman } 
 1050.1.1 = { rite = tengri_pagan } 
-1227.1.1 = { rite = maturidi } 
+1227.1.1 = { rite = hanafi } 
 
 1300.1.1 = {
 	culture = crimean
@@ -5985,13 +5985,13 @@ rite = khabzism
 #1044.1.1 = { culture = torkil }
 #1050.1.1 = { culture = cuman } 
 #1050.1.1 = { rite = tengri_pagan } 
-#1227.1.1 = { rite = maturidi } 
+#1227.1.1 = { rite = hanafi } 
 #1300.1.1 = {
 #	culture = tatars
 #}
 1300.1.1 = {
 		culture = crimean
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -6068,7 +6068,7 @@ rite = tengri_pagan
 1300.1.1 = {
 		culture = nogai
 	}
-1320.1.1 = { rite = maturidi }
+1320.1.1 = { rite = hanafi }
 }
 
 606 = {	#606 - Petigoria
@@ -6098,7 +6098,7 @@ holding = tribal_holding
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 	1066.1.1 = {
 		buildings = {
 			palisades_01
@@ -6121,7 +6121,7 @@ holding = tribal_holding
 	rite = tengri_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	976.1.1 = {
 		holding = castle_holding
@@ -6138,7 +6138,7 @@ holding = tribal_holding
 		}
 	}
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 		holding = castle_holding
 	}
 	1066.1.1 = {
@@ -6157,7 +6157,7 @@ holding = tribal_holding
 	holding = tribal_holding
 	965.1.2 = {
 		culture = bolghar
-		rite = ashari
+		rite = shafii
 	}
 	976.1.1 = {
 		holding = castle_holding
@@ -6180,7 +6180,7 @@ holding = tribal_holding
 	rite = tengri_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 		holding = castle_holding
 	}
 	#1300.1.1 = {
@@ -6194,7 +6194,7 @@ holding = tribal_holding
 	rite = magyar_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	1200.1.1 = {
 		culture = chiyalik
@@ -6220,7 +6220,7 @@ holding = tribal_holding
 	1300.1.1 = {
 		culture = kazani
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 617 = {	#617 - Uzen
@@ -6237,10 +6237,10 @@ holding = tribal_holding
 	1040.1.1 = { culture = cuman } 
 	1040.1.1 = { rite = tengri_pagan } 
 	
-	1225.1.1 = { rite = ashari } 
+	1225.1.1 = { rite = shafii } 
 	1300.1.1 = {
 		culture = nogai
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -6269,7 +6269,7 @@ holding = tribal_holding
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 	
 
 }
@@ -6315,7 +6315,7 @@ holding = tribal_holding
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 620 = {	#620 - Itil
@@ -6360,7 +6360,7 @@ holding = tribal_holding
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 621 = {	# 621 - Akkityk
@@ -6381,7 +6381,7 @@ holding = tribal_holding
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 622 = {	# SHANGRAO
@@ -6408,7 +6408,7 @@ holding = tribal_holding
 	1300.1.1 = {
 		culture = tatars
 	}
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 	
 
 }
@@ -6423,7 +6423,7 @@ holding = tribal_holding
 	
 	# History
 	1171.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = turkmeni
@@ -6440,7 +6440,7 @@ holding = tribal_holding
 	
 	# History
 	1171.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = turkmeni
@@ -6457,7 +6457,7 @@ holding = tribal_holding
 	
 	# History
 	1171.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = turkmeni
@@ -6473,7 +6473,7 @@ holding = tribal_holding
 	holding = castle_holding
 	
 	# History
-	900.1.1 = { rite = ashari }
+	900.1.1 = { rite = shafii }
 	
 	1320.1.1 = { rite = ismaili }
 
@@ -6490,7 +6490,7 @@ holding = tribal_holding
 	# History
 	900.1.1 = { 
 	culture = azeri
-	rite = ashari }
+	rite = shafii }
 	1320.1.1 = { rite = ismaili }
 
 
@@ -6590,7 +6590,7 @@ culture = lezgi
 rite = nakh_pagan
 
 # History
-1089.1.1 = { rite = maturidi }
+1089.1.1 = { rite = hanafi }
 1259.1.1 = { rite = ismaili }
 
 	holding = castle_holding
@@ -6617,7 +6617,7 @@ rite = nakh_pagan
 	holding = nomad_holding
 	# History
 	1317.1.1 = {
-		rite = maturidi	
+		rite = hanafi	
 	}
 	
 }
@@ -6762,7 +6762,7 @@ rite = nakh_pagan
 	
 	#1160.1.1 = { 
 	#	culture = kurdish 
-	#	rite = ashari 
+	#	rite = shafii 
 	#}
 	#1230.1.1 = { 
 	#	rite = alevi 
@@ -6859,7 +6859,7 @@ rite = jacobite #no syriac in CK3
 }
 1121.1.1 = { 
 	culture = turkish
-	rite = ashari 
+	rite = shafii 
 }
 1230.1.1 = { 
 	rite = alevi 
@@ -6980,7 +6980,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 }
 
 743 = {	# 743 - Kyzikos
@@ -7088,7 +7088,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	1185.1.1 = { culture = anatolian_turkish }
-	1185.1.1 = { rite = maturidi }
+	1185.1.1 = { rite = hanafi }
 
 }
 
@@ -7141,7 +7141,7 @@ rite = jacobite #no syriac in CK3
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -7162,7 +7162,7 @@ rite = jacobite #no syriac in CK3
 			}
 	}
 	1097.8.26 = { culture = turkish }
-	1097.8.26 = { rite = maturidi }
+	1097.8.26 = { rite = hanafi }
 	1150.1.1 = { culture = anatolian_turkish }
 }
 
@@ -7259,7 +7259,7 @@ rite = jacobite #no syriac in CK3
 	#}
 	1081.1.1 = { #Earlier for the sake of having a cultural head get set
 		culture = turkish
-		rite = maturidi 
+		rite = hanafi 
 	}
 	1150.1.1 = { culture = anatolian_turkish }
 }
@@ -8375,7 +8375,7 @@ rite = jacobite #no syriac in CK3
 	1300.1.1 = {
 		culture = bashkir
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 897 = {		#Iletsk	AKA Sol-Iletsk
@@ -8400,7 +8400,7 @@ rite = jacobite #no syriac in CK3
 	# History
 	1060.1.1 = {
 		culture = kipchak
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -8423,7 +8423,7 @@ rite = jacobite #no syriac in CK3
 	1300.1.1 = {
 		culture = chagatai
 	}
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 }
 
 903 = {		#Afrasiyab
@@ -8837,7 +8837,7 @@ rite = jacobite #no syriac in CK3
 	}
 	1084.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 	1124.1.1 = {
 		culture = georgian
@@ -9275,7 +9275,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 
-	1313.1.1 = { rite = ashari }
+	1313.1.1 = { rite = shafii }
 }
 
 1133 = {	# 1133 - Vadodara
@@ -9330,7 +9330,7 @@ rite = jacobite #no syriac in CK3
 	
 	# Misc
 	culture = sindhi
-	rite = ashari
+	rite = shafii
 	
 	# History
 	830.1.1 = {
@@ -9349,7 +9349,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	830.1.1 = {
 		rite = mutazila
@@ -9949,7 +9949,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	830.1.1 = {
 		rite = mutazila
@@ -9993,13 +9993,13 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -10042,7 +10042,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	900.1.1 = { culture = karluk } 
-	1020.1.1 = { rite = maturidi } 
+	1020.1.1 = { rite = hanafi } 
 	1060.1.1 = {
 		culture = kipchak
 		rite = tengri_pagan
@@ -10050,7 +10050,7 @@ rite = jacobite #no syriac in CK3
 	1300.1.1 = {
 		culture = chagatai
 	}
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 }
 
 1182 = {	# 1182 - Bawangaja
@@ -10111,7 +10111,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 980.1.1 = {	culture = tajik }
-1005.1.1 = {	rite = maturidi }
+1005.1.1 = {	rite = hanafi }
 1066.1.1 = {
 
 		buildings = {
@@ -10180,7 +10180,7 @@ rite = jacobite #no syriac in CK3
 	# History
 	
 	950.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1173.1.1 = {
 		culture = afghan
@@ -10195,7 +10195,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	1066.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -12059,7 +12059,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	830.1.1 = {
 		rite = mutazila
@@ -12247,7 +12247,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	830.1.1 = {
 		rite = mutazila
@@ -12266,7 +12266,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
@@ -12275,7 +12275,7 @@ rite = jacobite #no syriac in CK3
 		rite = nizari
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -12303,7 +12303,7 @@ rite = jacobite #no syriac in CK3
 		rite = nizari
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -12316,7 +12316,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	830.1.1 = {
 		rite = mutazila
@@ -12335,13 +12335,13 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	870.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -12366,7 +12366,7 @@ rite = jacobite #no syriac in CK3
 	# History
 	
 	950.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1100.1.1 = {
 		culture = afghan
@@ -12575,7 +12575,7 @@ rite = jacobite #no syriac in CK3
 		holding = castle_holding
 	}
 	1066.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	
 	effect = {
@@ -12690,7 +12690,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -12703,7 +12703,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -12716,7 +12716,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -12742,13 +12742,13 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	870.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -12761,13 +12761,13 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -12954,7 +12954,7 @@ rite = jacobite #no syriac in CK3
 		culture = karluk
 	}
 	1050.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	
 	1300.1.1 = {
 		culture = chagatai
@@ -12971,7 +12971,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	934.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	#1134.1.1 = { #The Khitan migration didn't make all of central Asia Khitan
 	#	culture = qitai
@@ -12992,7 +12992,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	1080.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	#1134.1.1 = {
 	#	culture = qitai
@@ -13044,7 +13044,7 @@ rite = jacobite #no syriac in CK3
 	867.1.1 = {
 		culture = sogdian
 	}
-	1020.1.1 = { rite = maturidi } 
+	1020.1.1 = { rite = hanafi } 
 	1020.1.1 = { culture = turkish } 
 	1060.1.1 = {
 	culture = kipchak
@@ -13053,7 +13053,7 @@ rite = jacobite #no syriac in CK3
 	1300.1.1 = {
 		culture = chagatai
 	}
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 
 }
 
@@ -13107,7 +13107,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	1030.1.1 = {	rite = maturidi }
+	1030.1.1 = {	rite = hanafi }
 	1050.1.1 = { culture = kashgari }
 	1300.1.1 = {
 		culture = chagatai
@@ -13132,7 +13132,7 @@ rite = jacobite #no syriac in CK3
 			add_special_building = sunday_bazaar_01
 		}
 	}
-	1020.1.1 = {rite = maturidi } #major Buddhist revolt ca. 970
+	1020.1.1 = {rite = hanafi } #major Buddhist revolt ca. 970
 	1050.1.1 = { culture = kashgari }
 	1066.1.1 = {
 		buildings = {
@@ -13148,7 +13148,7 @@ rite = jacobite #no syriac in CK3
 		culture = chagatai
 	}
 	1360.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	#Tughlugh Timur Khan reinforces Islam in Chagatai
 	
 }
@@ -13167,7 +13167,7 @@ rite = jacobite #no syriac in CK3
 	867.1.1 = {
 		special_building = hetian_mines_01
 	}
-	1080.1.1 = {	rite = maturidi } #major Buddhist revolt ca. 1050
+	1080.1.1 = {	rite = hanafi } #major Buddhist revolt ca. 1050
 	1100.1.1 = {	culture = karluk }
 	1066.1.1 = {
 			buildings = {
@@ -13190,7 +13190,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-1080.1.1 = {	rite = maturidi } #major Buddhist revolt ca. 1050
+1080.1.1 = {	rite = hanafi } #major Buddhist revolt ca. 1050
 1100.1.1 = {	culture = karluk }
 1300.1.1 = {
 		culture = chagatai
@@ -13245,7 +13245,7 @@ rite = jacobite #no syriac in CK3
 	# History
 1250.1.1 = {	culture = uyghur }
 1250.1.1 = {
-	rite = maturidi
+	rite = hanafi
 	
 }
 1250.1.1 = { culture = karluk }
@@ -13269,7 +13269,7 @@ rite = jacobite #no syriac in CK3
 	# History
 	1050.1.1 = { culture = kashgari }
 	1160.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -15506,7 +15506,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	867.1.1 = { rite = muwalladi }
+	867.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	1305.1.1 = { culture = portuguese }
 	1305.1.1 = { rite = catholic }
@@ -15515,7 +15515,7 @@ rite = jacobite #no syriac in CK3
 1748 = {	# Faro
 	#Misc	
 	culture = mozarab
-	rite = muwalladi
+	rite = maliki
 	
 	holding = castle_holding
 	
@@ -15541,7 +15541,7 @@ rite = jacobite #no syriac in CK3
 		# History
 	867.1.1 = {
 		culture = andalusian
-		rite = muwalladi
+		rite = maliki
 	}
 	1253.1.1 = { culture = portuguese }
 	1253.1.1 = { rite = catholic }
@@ -15555,7 +15555,7 @@ rite = jacobite #no syriac in CK3
 		# History
 	867.1.1 = {
 		culture = andalusian
-		rite = muwalladi
+		rite = maliki
 	}
 	1235.1.1 = { culture = portuguese }
 	1235.1.1 = { rite = catholic }
@@ -15621,7 +15621,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	#950.1.1 = { culture = andalusian rite = muwalladi }
+	#950.1.1 = { culture = andalusian rite = maliki }
 	1150.1.1 = { culture = portuguese }
 	1150.1.1 = { rite = catholic }
 }
@@ -15798,7 +15798,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	#950.1.1 = { rite = muwalladi culture = andalusian }
+	#950.1.1 = { rite = maliki culture = andalusian }
 	1150.1.1 = { culture = portuguese }
 	1150.1.1 = { rite = catholic }
 }
@@ -15833,7 +15833,7 @@ rite = jacobite #no syriac in CK3
 	# History
 	944.1.1 = {
 		culture = andalusian
-		rite = muwalladi
+		rite = maliki
 	}
 	1163.1.1 = {
 		culture = portuguese
@@ -16297,7 +16297,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History							   
 	#950.1.1 = {
-	#	rite = muwalladi
+	#	rite = maliki
 	#	culture = andalusian
 	#}
 	1236.1.1 = { culture = asturleonese }
@@ -16338,7 +16338,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	867.1.1 = { rite = muwalladi }
+	867.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	875.1.1 = { special_building_slot = alcazaba_badajoz_01
 		    special_building = alcazaba_badajoz_01 }
@@ -16358,7 +16358,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { rite = muwalladi }
+	812.1.1 = { rite = maliki }
 	934.1.1 = { culture = andalusian }
 	1245.3.19 = {
 		culture = castilian
@@ -16377,12 +16377,12 @@ rite = jacobite #no syriac in CK3
 1840 = {	# HUELVA
 	# Misc
 	culture = mozarab
-	rite = muwalladi
+	rite = maliki
 	
 	holding = castle_holding
 	
 	# History
-	867.1.1 = { rite = muwalladi }
+	867.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	1277.1.1 = { culture = castilian }
 	1277.1.1 = { rite = catholic }
@@ -16399,7 +16399,7 @@ rite = jacobite #no syriac in CK3
 1843 = {	# CADIZ
 	#Misc
 	culture = mozarab
-	rite = muwalladi
+	rite = maliki
 	
 	holding = castle_holding
 	
@@ -16419,7 +16419,7 @@ rite = jacobite #no syriac in CK3
 1845 = {	# ALGECIRAS
 	#Misc
 	culture = mozarab
-	rite = muwalladi
+	rite = maliki
 	
 	holding = castle_holding
 	
@@ -16444,12 +16444,12 @@ rite = jacobite #no syriac in CK3
 1846 = {	# MALAGA
 	#Misc
 	culture = mozarab
-	rite = muwalladi
+	rite = maliki
 	
 	holding = castle_holding
 	
 	# History
-	867.1.1 = { rite = muwalladi }
+	867.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	1066.1.1 = {
 		buildings = {
@@ -16480,7 +16480,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { rite = muwalladi }
+	812.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	955.1.1 = { special_building_slot = alcazaba_almeria_01
 		    special_building = alcazaba_almeria_01 }
@@ -16512,7 +16512,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { rite = muwalladi }
+	812.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	1281.1.1 = { culture = castilian }
 	1281.1.1 = { rite = catholic }
@@ -16526,7 +16526,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { rite = muwalladi 
+	812.1.1 = { rite = maliki 
 		    special_building_slot = fort_alicante_01
 		    special_building = fort_alicante_01
 		  }
@@ -16545,7 +16545,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { rite = muwalladi }
+	812.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	1259.1.1 = { culture = catalan }
 	1259.1.1 = { rite = catholic }
@@ -16559,12 +16559,12 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	#812.1.1 = { rite = muwalladi }
+	#812.1.1 = { rite = maliki }
 	#867.1.1 = { culture = andalusian } #Had a large Mozarab population still during El Cid's conquest
 	1094.1.1 = { culture = castilian }
 	1094.1.1 = { rite = catholic }
 	1102.1.1 = { culture = andalusian }
-	1102.1.1 = { rite = muwalladi }
+	1102.1.1 = { rite = maliki }
 	1251.1.1 = { culture = catalan }
 	1251.1.1 = { rite = catholic }
 
@@ -16909,7 +16909,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	867.1.1 = { culture = andalusian 
-				rite = muwalladi	}
+				rite = maliki	}
 	1131.1.1 = { culture = aragonese }
 	1131.1.1 = { rite = catholic }
 }
@@ -17129,7 +17129,7 @@ rite = jacobite #no syriac in CK3
 		}
 		duchy_capital_building = blacksmiths_01								 
 	}					   
-	#950.1.1 = { culture = andalusian rite = muwalladi }
+	#950.1.1 = { culture = andalusian rite = maliki }
 	
 	1066.1.1 = {
 		buildings = {
@@ -17167,7 +17167,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	#950.1.1 = { culture = andalusian 
-	#			rite = muwalladi	}
+	#			rite = maliki	}
 	#1131.1.1 = { culture = castilian }
 	#1131.1.1 = { rite = catholic }
 	
@@ -17203,7 +17203,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	#950.1.1 = { culture = andalusian 
-	#			rite = muwalladi	}
+	#			rite = maliki	}
 	#1131.1.1 = { culture = castilian }
 	#1131.1.1 = { rite = catholic }
 }
@@ -17229,7 +17229,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	#950.1.1 = { culture = andalusian 
-	#			rite = muwalladi	}
+	#			rite = maliki	}
 	1144.1.1 = { culture = castilian }
 	1144.1.1 = { rite = catholic }
 }
@@ -17243,7 +17243,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	#950.1.1 = { culture = andalusian 
-	#			rite = muwalladi	}
+	#			rite = maliki	}
 	1131.1.1 = { culture = aragonese }
 	1131.1.1 = { rite = catholic }
 
@@ -17266,7 +17266,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	#950.1.1 = { culture = andalusian 
-	#			rite = muwalladi	}
+	#			rite = maliki	}
 	1144.1.1 = { culture = castilian }
 	1144.1.1 = { rite = catholic }
 }
@@ -17463,7 +17463,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { rite = muwalladi }
+	812.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	1212.1.1 = { culture = castilian }
 	1212.1.1 = { rite = catholic }
@@ -17481,7 +17481,7 @@ rite = jacobite #no syriac in CK3
 	
 	
 	# History
-	900.1.1 = { rite = muwalladi }
+	900.1.1 = { rite = maliki }
 	900.1.1 = { culture = andalusian }
 	1212.1.1 = { culture = castilian }
 	1212.1.1 = { rite = catholic }
@@ -17497,7 +17497,7 @@ rite = jacobite #no syriac in CK3
 	rite = mozarabic_church
 	holding = castle_holding
 	# History
-	812.1.1 = { rite = muwalladi }
+	812.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	1215.1.1 = { culture = castilian }
 	1215.1.1 = { rite = catholic }
@@ -17509,7 +17509,7 @@ rite = jacobite #no syriac in CK3
 	culture = mozarab 
 	rite = mozarabic_church
 		# History
-	812.1.1 = { rite = muwalladi }
+	812.1.1 = { rite = maliki }
 	812.1.1 = { culture = andalusian }
 	1280.1.1 = { culture = castilian }
 	1280.1.1 = { rite = catholic }
@@ -17532,7 +17532,7 @@ rite = jacobite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	812.1.1 = { rite = muwalladi }
+	812.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	1281.1.1 = { culture = castilian }
 	1281.1.1 = { rite = catholic }
@@ -17569,7 +17569,7 @@ rite = jacobite #no syriac in CK3
 1977 = {	# JAEN
 	#Misc
 	culture = mozarab
-	rite = muwalladi
+	rite = maliki
 	
 	holding = castle_holding
 	
@@ -17591,7 +17591,7 @@ rite = jacobite #no syriac in CK3
 	
 	# History
 	811.1.1 = {
-		rite = muwalladi
+		rite = maliki
 		special_building = alhambra_01
 	}
 	867.1.1 = {
@@ -17616,7 +17616,7 @@ rite = jacobite #no syriac in CK3
 1979 = {	# CABRA
 	#Misc
 	culture = mozarab
-	rite = muwalladi
+	rite = maliki
 	
 	holding = castle_holding
 	
@@ -17641,7 +17641,7 @@ rite = jacobite #no syriac in CK3
 1981 = {	# SEVILLE
 	#Misc
 	culture = mozarab
-	rite = muwalladi
+	rite = maliki
 	
 	holding = castle_holding
 	
@@ -17730,12 +17730,12 @@ rite = jacobite #no syriac in CK3
 1991 = {	# NIEBLA
 	# Misc
 	culture = mozarab
-	rite = muwalladi
+	rite = maliki
 	
 	holding = castle_holding
 	
 	# History
-	867.1.1 = { rite = muwalladi }
+	867.1.1 = { rite = maliki }
 	867.1.1 = { culture = andalusian }
 	1277.1.1 = { culture = castilian }
 	1277.1.1 = { rite = catholic }
@@ -17773,7 +17773,7 @@ rite = jacobite #no syriac in CK3
 	}
 	934.1.1 = { 
 		#culture = andalusian 
-		#rite = muwalladi
+		#rite = maliki
 		buildings = {
 			castle_04
 			farm_estates_01
@@ -17796,7 +17796,7 @@ rite = jacobite #no syriac in CK3
 	rite = mozarabic_church
 	
 	# History
-	900.1.1 = { rite = muwalladi }
+	900.1.1 = { rite = maliki }
 	900.1.1 = { culture = andalusian }
 	1246.1.1 = { rite = catholic }
 	1255.1.1 = { culture = castilian }
@@ -22204,7 +22204,7 @@ rite = catholic
 	holding = city_holding
 	869.1.1 = {
 		culture = siqilli
-		rite = ashari
+		rite = shafii
 	}
 	1070.1.1 = {
 		culture = sicilian
@@ -22222,7 +22222,7 @@ rite = catholic
 	holding = castle_holding
 	856.9.1 = {
 		culture = siqilli
-		rite = ashari
+		rite = shafii
 	}
 	867.1.1 = {
 		buildings = {
@@ -22253,7 +22253,7 @@ rite = catholic
 	
 	874.1.24 = {
 		culture = siqilli
-		rite = ashari
+		rite = shafii
 	}
 	1102.1.1 = {
 		culture = sicilian
@@ -22267,7 +22267,7 @@ rite = catholic
 	holding = castle_holding
 	904.1.1 = {
 		culture = siqilli
-		rite = ashari
+		rite = shafii
 	}
 	1066.1.1 = {
 		buildings = {
@@ -22320,7 +22320,7 @@ rite = catholic
 	holding = castle_holding
 	895.1.1 = {
 		culture = siqilli
-		rite = ashari
+		rite = shafii
 	}
 	1127.1.1 = {
 		rite = catholic
@@ -27203,7 +27203,7 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -27216,7 +27216,7 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -27229,7 +27229,7 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -27242,7 +27242,7 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	830.1.1 = {
 		rite = mutazila
@@ -27256,7 +27256,7 @@ holding = none
 	
 	# Misc
 	culture = sindhi
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -27266,7 +27266,7 @@ holding = none
 	
 	# Misc
 	culture = sindhi
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -27276,7 +27276,7 @@ holding = none
 	
 	# Misc
 	culture = sindhi
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -27358,7 +27358,7 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -27371,7 +27371,7 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -27384,7 +27384,7 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -27397,7 +27397,7 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -27410,13 +27410,13 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -27429,13 +27429,13 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -27448,13 +27448,13 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -27467,13 +27467,13 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -27486,13 +27486,13 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -27505,13 +27505,13 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -27524,7 +27524,7 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	867.1.1 = {
 		holding = city_holding
@@ -27533,7 +27533,7 @@ holding = none
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -27546,13 +27546,13 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -27565,13 +27565,13 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -27584,13 +27584,13 @@ holding = none
 	
 	# History
 	800.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1000.1.1 = {
 		rite = ismaili
 	}
 	1180.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -32385,7 +32385,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -32419,7 +32419,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -32432,7 +32432,7 @@ rite = orthodox
 	rite = mazdayasna
 	holding = castle_holding
 	1060.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1066.1.1 = {
 		buildings = {
@@ -32481,7 +32481,7 @@ rite = orthodox
 		culture = persian_turkish # Obviously not historical but a culture needs to exist on the map for the cultural head to be properly set when the culture is played by the AI and Nishapur and Damghan are the primary areas where the Turks entered Persia
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1221.1.1 = {
 		buildings = {
@@ -32503,7 +32503,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -32524,7 +32524,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -32557,7 +32557,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1060.1.1 = {
 		culture = tajik
@@ -32588,7 +32588,7 @@ rite = orthodox
 	1060.1.1 = { rite = imami }
 	1130.1.1 = { culture = turkish }
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = turkmeni
@@ -32616,7 +32616,7 @@ rite = orthodox
 	}
 	1130.1.1 = { culture = turkish }
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = turkmeni
@@ -32641,7 +32641,7 @@ rite = orthodox
 	holding = castle_holding
 	1060.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = turkmeni
@@ -32665,7 +32665,7 @@ rite = orthodox
 	}
 	1130.1.1 = { culture = turkish }
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = turkmeni
@@ -32696,7 +32696,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1060.1.1 = {
 		culture = turkish
@@ -32717,13 +32717,13 @@ rite = orthodox
 	rite = mazdayasna	
 	holding = castle_holding
 	1060.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
 4047 = {	#Qashan	AKA Kashan
 	culture = persian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -32754,7 +32754,7 @@ rite = orthodox
 	rite = mazdayasna	
 	holding = castle_holding
 	1060.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -32773,7 +32773,7 @@ rite = orthodox
 	rite = mazdayasna
 	holding = castle_holding
 	#1160.1.1 = {
-	#	rite = ashari
+	#	rite = shafii
 	#}
 }
 
@@ -32788,7 +32788,7 @@ rite = orthodox
 	rite = mazdayasna
 	holding = city_holding
 	1160.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -32809,7 +32809,7 @@ rite = orthodox
 		rite = nizari
 	}
 	1270.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -32847,7 +32847,7 @@ rite = orthodox
 		rite = nizari
 	}
 	1270.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -32883,7 +32883,7 @@ rite = orthodox
 	culture = baloch #FP3 change after research
 	rite = mutazila
 	holding = castle_holding
-	950.1.1 = { rite = ashari }
+	950.1.1 = { rite = shafii }
 	1050.1.1 = { culture = persian } #FP3 change after research													
 }
 
@@ -32899,7 +32899,7 @@ rite = orthodox
 
 4079 = {	#Anar
 	culture = persian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -32919,7 +32919,7 @@ rite = orthodox
 	culture = baloch #FP3 change after research 
 	rite = azariqa
 	holding = castle_holding
-	890.1.1 = { rite = ashari }
+	890.1.1 = { rite = shafii }
 	1050.1.1 = { culture = bandari } #May be too far north for Bandari but it connects the 2 other areas due to the wasteland
 }
 
@@ -32944,7 +32944,7 @@ rite = orthodox
 	rite = mazdayasna
 	holding = castle_holding
 	790.1.1 = { rite = mutazila }
-	950.1.1 = { rite = ashari }	
+	950.1.1 = { rite = shafii }	
 }
 
 4089 = {	#Jirfut
@@ -32952,7 +32952,7 @@ rite = orthodox
 	rite = mazdayasna
 	holding = castle_holding
 	790.1.1 = { rite = mutazila }
-	950.1.1 = { rite = ashari }	
+	950.1.1 = { rite = shafii }	
 }
 
 4090 = {	#Maghun
@@ -32972,7 +32972,7 @@ rite = orthodox
 	rite = ismaili
 	holding = castle_holding
 	1160.1.1 = {
-		rite = ashari
+		rite = shafii
 		culture = aschomi
 	}
 }
@@ -32991,11 +32991,11 @@ rite = orthodox
 	culture = persian
 	rite = mazdayasna
 	holding = castle_holding
-	800.1.1 = { rite = ashari }
+	800.1.1 = { rite = shafii }
 	837.1.1 = {
 		rite = mutazila
 	}
-	940.1.1 = { rite = ashari }						
+	940.1.1 = { rite = shafii }						
 }
 
 4097 = {	#Muralziyan
@@ -33025,7 +33025,7 @@ rite = orthodox
 
 4103 = {	#Qumisha	#AKA Shahreza 
 	culture = persian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -33040,7 +33040,7 @@ rite = orthodox
 
 4106 = {	#Isfahan
 	culture = persian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	769.1.1 = {		
 		special_building_slot = the_friday_mosque_01
@@ -33069,7 +33069,7 @@ rite = orthodox
 
 4109 = {	#Qom
 	culture = persian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -33084,7 +33084,7 @@ rite = orthodox
 
 4112 = {	#Asbid-Dasht
 	culture = luri
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -33104,7 +33104,7 @@ rite = orthodox
 	culture = luri
 	rite = khurramism #based on Cambridge History of Iran, they had a series of fortresses in the mountains here
 	holding = castle_holding
-	935.1.1 = { rite = ashari } #khurramites exterminated by Imad al-Dawla, the Buyid founder 																					   
+	935.1.1 = { rite = shafii } #khurramites exterminated by Imad al-Dawla, the Buyid founder 																					   
 }
 
 4117 = {	#Iqlid	#AKA Eqlid
@@ -33118,7 +33118,7 @@ rite = orthodox
 	holding = castle_holding
 	special_building = tomb_of_cyrus_01
 	1160.1.1 = {
-		rite = ashari
+		rite = shafii
 		culture = persian
 	}
 }
@@ -33138,7 +33138,7 @@ rite = orthodox
 
 4122 = {	#Lurijan
 	culture = khuzi
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -33491,7 +33491,7 @@ rite = orthodox
 	rite = ismaili
 	holding = castle_holding
 	1160.1.1 = {
-		rite = ashari
+		rite = shafii
 		
 	}
 }
@@ -33505,7 +33505,7 @@ rite = orthodox
 	rite = ismaili
 	holding = castle_holding
 	1160.1.1 = {
-		rite = ashari
+		rite = shafii
 		
 	}
 }
@@ -33527,11 +33527,11 @@ rite = orthodox
 	culture = aschomi
 	rite = mazdayasna
 	holding = castle_holding
-	800.1.1 = { rite = ashari}
+	800.1.1 = { rite = shafii}
 	903.1.1 = {
 	}
 	1160.1.1 = {
-		rite = ashari
+		rite = shafii
 		culture = persian
 	}
 	1300.1.1 = { rite = imami }
@@ -33586,7 +33586,7 @@ rite = orthodox
 	culture = bandari
 	rite = mazdayasna
 	holding = castle_holding
-	790.1.1 = { rite = ashari }
+	790.1.1 = { rite = shafii }
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
@@ -33600,7 +33600,7 @@ rite = orthodox
 	}
 	1337.1.1 = {
 		#culture = bedouin
-		rite = ashari
+		rite = shafii
 		buildings = {
 			castle_03
 			common_tradeport_08
@@ -33640,7 +33640,7 @@ rite = orthodox
 	culture = aschomi
 	rite = mazdayasna
 	holding = castle_holding
-	790.1.1 = { rite = ashari }
+	790.1.1 = { rite = shafii }
 	867.1.1 = {
 		buildings = {
 			common_tradeport_01
@@ -33658,7 +33658,7 @@ rite = orthodox
 	rite = mazdayasna
 	holding = castle_holding
 	1337.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -33708,7 +33708,7 @@ rite = orthodox
 	rite = mahayana
 	holding = castle_holding
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	} #-Province Mapping province - I'm not entirley sure what Paradox was going for with the massive buddhist prescence in Afghanistan so late into the game
 }
 
@@ -33724,7 +33724,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -33736,7 +33736,7 @@ rite = orthodox
 		rite = azariqa
 	}
 	880.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = hazara
@@ -33774,7 +33774,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	
 }
@@ -33791,7 +33791,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -33834,7 +33834,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1066.1.1 = {
 		buildings = {
@@ -33873,7 +33873,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -33889,7 +33889,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -33899,7 +33899,7 @@ rite = orthodox
 	holding = castle_holding
 	special_building_slot = minarets_and_remains_of_jam_01
 	1066.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = hazara
@@ -33921,7 +33921,7 @@ rite = orthodox
 	culture = afghan
 	rite = mahayana
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	} #-Province Mapping province - I'm not entirley sure what Paradox was going for with the massive buddhist prescence in Afghanistan so late into the game
 
 }
@@ -33939,7 +33939,7 @@ rite = orthodox
 	rite = mahayana
 	holding = castle_holding
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	} 
 	1300.1.1 = {
 		culture = hazara
@@ -33988,7 +33988,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1066.1.1 = {		
 		buildings = {
@@ -34016,7 +34016,7 @@ rite = orthodox
 	rite = gayomarthianism
 	holding = castle_holding
 	900.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		culture = tajik
 	}
 	1000.1.1 = {
@@ -34059,7 +34059,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -34088,7 +34088,7 @@ rite = orthodox
 		rite = karrami
 	}
 	1250.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = tajik
@@ -34109,7 +34109,7 @@ rite = orthodox
 
 4256 = {	#Tustar
 	culture = luri
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -34133,7 +34133,7 @@ rite = orthodox
 
 4261 = {	#Saburkhawasht
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	special_building = falak_ol_aflak_citadel_01
 }
@@ -34225,7 +34225,7 @@ rite = orthodox
 		rite = azariqa
 	}
 	880.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}		
 	
 }
@@ -34242,7 +34242,7 @@ rite = orthodox
 		rite = azariqa
 	}
 	880.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	
 }
 
@@ -34265,7 +34265,7 @@ rite = orthodox
 		rite = azariqa
 	}
 	880.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -34278,7 +34278,7 @@ rite = orthodox
 	rite = zurvanism
 	holding = castle_holding
 	880.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -34302,7 +34302,7 @@ rite = orthodox
 		holding = castle_holding
 	}
 	
-	950.1.1 = {	rite = maturidi }
+	950.1.1 = {	rite = hanafi }
 }
 
 4290 = {	#Qarnin
@@ -34361,7 +34361,7 @@ rite = orthodox
 		rite = azariqa
 	}
 	880.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -34394,7 +34394,7 @@ rite = orthodox
 	culture = luri
 	rite = mazdayasna
 	holding = castle_holding
-	800.1.1 = { rite = ashari }
+	800.1.1 = { rite = shafii }
 	1300.1.1 = { rite = imami }
 }
 
@@ -34410,7 +34410,7 @@ rite = orthodox
 	culture = khuzi
 	rite = mazdayasna
 	holding = castle_holding
-	800.1.1 = { rite = ashari }
+	800.1.1 = { rite = shafii }
 }
 
 4309 = {	#Idhaj	#AKA Izeh
@@ -34548,14 +34548,14 @@ rite = orthodox
 
 4332 = {	#Dinawar
 	culture = persian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	1100.1.1 = { culture = kurdish }
 }
 
 4333 = {	#Hamadan
 	culture = persian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	
 	768.1.1 = {
@@ -34589,7 +34589,7 @@ rite = orthodox
 		culture = tajik
 	}
 	1000.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1066.1.1 = {		
 		buildings = {
@@ -34625,7 +34625,7 @@ rite = orthodox
 	rite = mahayana
 	holding = castle_holding
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = tajik
@@ -34645,7 +34645,7 @@ rite = orthodox
 		special_building = buddhas_of_bamian_01
 	}
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = hazara
@@ -34689,7 +34689,7 @@ rite = orthodox
 	rite = mahayana
 	holding = castle_holding
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = tajik
@@ -34718,7 +34718,7 @@ rite = orthodox
 		special_building = sar_i_sang_mines_01 #famous lapis lazuli mine, in use since prehistorical times
 	}
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1090.1.1 = { rite = ismaili }
 	1300.1.1 = {
@@ -34736,7 +34736,7 @@ rite = orthodox
 	rite = nuristani_pagan
 	holding = castle_holding
 	#993.1.1 = {
-	#	rite = maturidi
+	#	rite = hanafi
 	#}
 	#1090.1.1 = { rite = ismaili }
 }
@@ -34764,7 +34764,7 @@ rite = orthodox
 	rite = mahayana
 	holding = castle_holding
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1090.1.1 = { rite = ismaili }
 }
@@ -34774,7 +34774,7 @@ rite = orthodox
 	rite = mahayana
 	holding = castle_holding
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = tajik
@@ -34795,7 +34795,7 @@ rite = orthodox
 	rite = mahayana
 	holding = castle_holding
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = tajik
@@ -34819,7 +34819,7 @@ rite = orthodox
 		culture = tajik
 	}
 	1000.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	
 	
 }
@@ -34859,7 +34859,7 @@ rite = orthodox
 		culture = tajik
 	}
 	1000.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	
 }
 
@@ -34875,7 +34875,7 @@ rite = orthodox
 		culture = tajik
 	}
 	1000.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	
 }
 
@@ -34907,7 +34907,7 @@ rite = orthodox
 		culture = tajik
 	}
 	1000.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	
 	
 }
@@ -34933,7 +34933,7 @@ rite = orthodox
 	rite = gayomarthianism
 	holding = castle_holding
 	900.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		culture = tajik
 	}	
 	1300.1.1 = {
@@ -34951,7 +34951,7 @@ rite = orthodox
 	rite = gayomarthianism
 	holding = castle_holding
 	900.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		culture = tajik
 	}	
 	1300.1.1 = {
@@ -34974,7 +34974,7 @@ rite = orthodox
 	rite = gayomarthianism
 	holding = castle_holding
 	900.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		culture = tajik
 	}
 	1300.1.1 = {
@@ -34996,7 +34996,7 @@ rite = orthodox
 		}
 	}
 	900.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		culture = tajik
 	}
 	1066.1.1 = {
@@ -35060,7 +35060,7 @@ rite = orthodox
 	rite = gayomarthianism
 	holding = castle_holding
 	900.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		culture = tajik
 	}	
 	1300.1.1 = {
@@ -35087,7 +35087,7 @@ rite = orthodox
 		}
 	}
 	900.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		culture = tajik
 	}	
 	1066.1.1 = {		
@@ -35136,7 +35136,7 @@ rite = orthodox
 	rite = gayomarthianism
 	holding = castle_holding
 	900.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		#culture = tajik
 	}
 	1220.1.1 = {
@@ -35172,7 +35172,7 @@ rite = orthodox
 	rite = gayomarthianism
 	holding = castle_holding
 	900.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		culture = tajik
 	}	
 	#1230.1.1 = { culture = turkish }
@@ -35197,7 +35197,7 @@ rite = orthodox
 		culture = karluk
 	}
 	1050.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1066.1.1 = {
 		buildings = {
@@ -35235,7 +35235,7 @@ rite = orthodox
 		culture = karluk
 	}
 	1050.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -35275,7 +35275,7 @@ rite = orthodox
 		culture = karluk
 	}
 	1050.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -35298,7 +35298,7 @@ rite = orthodox
 		culture = karluk
 	}
 	1050.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -35333,7 +35333,7 @@ rite = orthodox
 		culture = karluk
 	}
 	1050.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -35354,7 +35354,7 @@ rite = orthodox
 	holding = castle_holding
 	1060.1.1 = {
 		
-		rite = maturidi
+		rite = hanafi
 	}
 	1230.1.1 = {
 		culture = turkish
@@ -35397,7 +35397,7 @@ rite = orthodox
 	rite = gayomarthianism
 	holding = castle_holding
 	1060.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1198.1.1 = {
 		culture = turkish
@@ -35424,7 +35424,7 @@ rite = orthodox
 	rite = gayomarthianism
 	holding = castle_holding
 	1060.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1198.1.1 = {
 		culture = turkish
@@ -35457,7 +35457,7 @@ rite = orthodox
 	rite = gayomarthianism
 	holding = castle_holding
 	1060.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1198.1.1 = {
 		culture = turkish
@@ -35473,7 +35473,7 @@ rite = orthodox
 	holding = castle_holding
 	1060.1.1 = {
 		#culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 	1066.1.1 = {
 		buildings = {
@@ -35505,7 +35505,7 @@ rite = orthodox
 	holding = castle_holding
 	1060.1.1 = {
 		#culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -35538,7 +35538,7 @@ rite = orthodox
 	867.1.1 = {
 		holding = castle_holding
 	}
-	950.1.1 = {	rite = maturidi }
+	950.1.1 = {	rite = hanafi }
 	
 }
 
@@ -35562,7 +35562,7 @@ rite = orthodox
 		rite = azariqa
 	}
 	880.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	
 }
 
@@ -35578,7 +35578,7 @@ rite = orthodox
 		rite = azariqa
 	}
 	880.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -35610,7 +35610,7 @@ rite = orthodox
 		rite = azariqa
 	}
 	880.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -35626,7 +35626,7 @@ rite = orthodox
 		rite = azariqa
 	}
 	880.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1100.1.1 = {
 		culture = brahuii
@@ -35658,7 +35658,7 @@ rite = orthodox
 	holding = tribal_holding
 	867.1.1 = {
 		holding = castle_holding }
-	950.1.1 = {	rite = maturidi }
+	950.1.1 = {	rite = hanafi }
 	#1066.1.1 = {
 	#building = military_academy_01
 	#}
@@ -35685,7 +35685,7 @@ rite = orthodox
 	rite = mahayana
 	holding = castle_holding
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	} #-Province Mapping province - I'm not entirley sure what Paradox was going for with the massive buddhist prescence in Afghanistan so late into the game
 }
 
@@ -35701,7 +35701,7 @@ rite = orthodox
 	
 	1066.1.1 = {
 	holding = city_holding
-	rite = ashari
+	rite = shafii
 	}
 }
 
@@ -35714,7 +35714,7 @@ rite = orthodox
 	# History
 
 	1000.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -35728,7 +35728,7 @@ rite = orthodox
 	# History
 
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -35746,7 +35746,7 @@ rite = orthodox
 	}
 	1066.1.1 = {
 		holding = castle_holding
-		rite = maturidi
+		rite = hanafi
 	}
 	
 }
@@ -35764,7 +35764,7 @@ rite = orthodox
 	}
 
 	#1000.1.1 = {
-	#	rite = maturidi
+	#	rite = hanafi
 	#}
 
 }
@@ -35781,7 +35781,7 @@ rite = orthodox
 	
 	1066.1.1 = {
 		holding = castle_holding
-		rite = maturidi
+		rite = hanafi
 	}
 	1337.1.1 = {
 		culture = afghan
@@ -35795,7 +35795,7 @@ rite = orthodox
 	rite = imami
 	holding = castle_holding
 	993.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	#History
 
@@ -35843,7 +35843,7 @@ rite = orthodox
 	holding = castle_holding	
 	1060.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = turkmeni
@@ -35860,7 +35860,7 @@ rite = orthodox
 	holding = castle_holding	
 	1060.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 	1300.1.1 = {
 		culture = turkmeni
@@ -35902,7 +35902,7 @@ rite = orthodox
 	
 	# History
 	870.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1150.1.1 = { 
 		culture = azeri 
@@ -35946,7 +35946,7 @@ rite = orthodox
 	
 	# History
 	820.1.1 = { culture = azeri }
-	820.1.1 = { rite = ashari }
+	820.1.1 = { rite = shafii }
 	1320.1.1 = { rite = ismaili }
 
 }
@@ -35960,7 +35960,7 @@ rite = orthodox
 	rite = khurramism
 	holding = castle_holding
 	870.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1160.1.1 = {	
 		culture = persian_turkish 
@@ -36001,7 +36001,7 @@ rite = orthodox
 	}
 	1055.1.1 = {
 		culture = maghrebi
-		rite = ashari
+		rite = shafii
 	}
 	1120.1.1 = {
 		culture = libyan
@@ -36016,7 +36016,7 @@ rite = orthodox
        rite = nukkari
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1050.1.1 = {
        holding = tribal_holding
@@ -36027,7 +36027,7 @@ rite = orthodox
    }
    1187.1.1 = {
        holding = castle_holding
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36061,7 +36061,7 @@ rite = orthodox
        rite = nukkari
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1050.1.1 = {
        holding = tribal_holding
@@ -36070,7 +36070,7 @@ rite = orthodox
        culture = libyan
    }
    1187.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36082,7 +36082,7 @@ rite = orthodox
        rite = nukkari
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1050.1.1 = {
        culture = maghrebi
@@ -36111,7 +36111,7 @@ rite = orthodox
 	1066.1.1 = {
 		rite = ibadi
 	}
-	1171.1.1 = { rite = ashari }
+	1171.1.1 = { rite = shafii }
 }
 
 4560 = {	#NALUT
@@ -36126,7 +36126,7 @@ rite = orthodox
        rite = nukkari
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1050.1.1 = {
        culture = maghrebi
@@ -36145,7 +36145,7 @@ rite = orthodox
        rite = nukkari
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1050.1.1 = {
        culture = maghrebi
@@ -36154,7 +36154,7 @@ rite = orthodox
        culture = libyan
    }
    1230.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1280.1.1 = {
        holding = castle_holding
@@ -36171,7 +36171,7 @@ rite = orthodox
 		holding = tribal_holding
 	}
 	1187.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -36236,7 +36236,7 @@ rite = orthodox
 		rite = ibadi
 	}
 	1187.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -36251,7 +36251,7 @@ rite = orthodox
        rite = ismaili
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1057.1.1 = {
        culture = maghrebi
@@ -36263,7 +36263,7 @@ rite = orthodox
        culture = tunisian
    }
    1230.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36280,7 +36280,7 @@ rite = orthodox
        culture = maghrebi
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1057.1.1 = {
        culture = maghrebi
@@ -36293,7 +36293,7 @@ rite = orthodox
        culture = tunisian
    }
    1230.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36314,7 +36314,7 @@ rite = orthodox
        culture = maghrebi # Fatimid capital
    }
    972.1.1 = {
-       rite = ashari # Zirid capital
+       rite = shafii # Zirid capital
    }
    1057.1.1 = {
        culture = maghrebi
@@ -36327,7 +36327,7 @@ rite = orthodox
        culture = tunisian
    }
    1230.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36357,7 +36357,7 @@ rite = orthodox
        }
    }
    972.1.1 = {
-       rite = ashari # Zirid period
+       rite = shafii # Zirid period
    }
    1147.1.1 = {
        rite = masmudi
@@ -36366,7 +36366,7 @@ rite = orthodox
        culture = tunisian
    }
    1230.1.1 = {
-       rite = ashari # Hafsid capital
+       rite = shafii # Hafsid capital
    }
 }
 
@@ -36383,14 +36383,14 @@ rite = orthodox
    rite = african_church
    holding = castle_holding
    800.1.1 = {
-       rite = ashari
+       rite = shafii
        culture = maghrebi
    }
    909.1.1 = {
        rite = ismaili
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1147.1.1 = {
        rite = masmudi
@@ -36399,7 +36399,7 @@ rite = orthodox
        culture = tunisian
    }
    1230.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36420,7 +36420,7 @@ rite = orthodox
    }
    972.1.1 = {
        culture = tagelmust
-       rite = ashari
+       rite = shafii
    }
    1057.1.1 = {
        culture = maghrebi
@@ -36429,7 +36429,7 @@ rite = orthodox
        culture = algerian
    }
    1230.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36441,7 +36441,7 @@ rite = orthodox
        rite = ismaili
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1057.1.1 = {
        culture = maghrebi
@@ -36450,7 +36450,7 @@ rite = orthodox
        culture = tunisian
    }
    1230.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36482,7 +36482,7 @@ rite = orthodox
        rite = ismaili # Fatimid control
    }
    972.1.1 = {
-       rite = ashari # Zirid period
+       rite = shafii # Zirid period
    }
    1057.1.1 = {
        culture = maghrebi # Banu Hilal impact
@@ -36494,7 +36494,7 @@ rite = orthodox
        culture = tunisian
    }
    1230.1.1 = {
-       rite = ashari # Hafsid period
+       rite = shafii # Hafsid period
    }
 }
 
@@ -36524,14 +36524,14 @@ rite = orthodox
        rite = ismaili
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1054.1.1 = {
        holding = tribal_holding
 	   culture = zanata
    }
    1230.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36590,7 +36590,7 @@ rite = orthodox
        rite = ismaili
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1057.1.1 = {
        culture = maghrebi # Banu Hilal
@@ -36599,7 +36599,7 @@ rite = orthodox
        culture = tunisian
    }
    1230.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36716,13 +36716,13 @@ rite = orthodox
        rite = ismaili
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1054.1.1 = {
        holding = tribal_holding
    }
    1057.1.1 = {
-       rite = ashari
+       rite = shafii
        culture = zanata
    }
 }
@@ -36764,7 +36764,7 @@ rite = orthodox
        rite = ismaili
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
        culture = tagelmust # Zirid influence
    }
    1057.1.1 = {
@@ -36774,7 +36774,7 @@ rite = orthodox
        culture = algerian
    }
    1230.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36801,7 +36801,7 @@ rite = orthodox
 		holding = tribal_holding
 	}
 	1285.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -36812,7 +36812,7 @@ rite = orthodox
 4636 = {	#JIJEL
 	holding = castle_holding
 	culture = kutama
-	rite = ashari
+	rite = shafii
 }
 
 4637 = {    #BEJAIA
@@ -36820,7 +36820,7 @@ rite = orthodox
    rite = african_church
    holding = castle_holding
    909.1.1 = { 
-       rite = ashari 
+       rite = shafii 
        culture = kutama # Strong Kutama base
    }
    1066.1.1 = {
@@ -36838,14 +36838,14 @@ rite = orthodox
 
 4639 = {    #SATIF
    culture = kutama
-   rite = ashari
+   rite = shafii
    holding = castle_holding
    1147.1.1 = {
        culture = kutama
        rite = masmudi
    }
    1235.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36866,7 +36866,7 @@ rite = orthodox
    }
    972.1.1 = {
        culture = tagelmust
-       rite = ashari
+       rite = shafii
    }
    1057.1.1 = {
        culture = zanata
@@ -36901,12 +36901,12 @@ rite = orthodox
    }
    972.1.1 = {
        culture = tagelmust
-       rite = ashari
+       rite = shafii
    }
    1057.1.1 = {
        holding = tribal_holding
        culture = zanata
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -36927,7 +36927,7 @@ rite = orthodox
    }
    972.1.1 = {
        culture = zanata
-	   rite = ashari
+	   rite = shafii
    }
 }
 
@@ -36944,7 +36944,7 @@ rite = orthodox
    rite = african_church
    holding = castle_holding
    909.1.1 = { 
-       rite = ashari 
+       rite = shafii 
        culture = kutama
    }
    972.1.1 = {
@@ -36971,7 +36971,7 @@ rite = orthodox
    rite = african_church
    holding = castle_holding
    909.1.1 = { 
-       rite = ashari 
+       rite = shafii 
        culture = zanata
    }
    1015.1.1 = {
@@ -36996,13 +36996,13 @@ rite = orthodox
    }
    972.1.1 = {
        culture = zanata
-       rite = ashari
+       rite = shafii
    }
    1147.1.1 = {
        rite = masmudi
    }
    1235.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37028,7 +37028,7 @@ rite = orthodox
    }
    972.1.1 = {
        culture = zanata # Zanata return
-	   rite = ashari
+	   rite = shafii
    }
 }
 
@@ -37064,7 +37064,7 @@ rite = orthodox
    rite = african_church
    holding = castle_holding
    909.1.1 = { 
-       rite = ashari 
+       rite = shafii 
        culture = zanata
    }
    1015.1.1 = {
@@ -37088,14 +37088,14 @@ rite = orthodox
    rite = african_church
    holding = castle_holding
    909.1.1 = { 
-       rite = ashari 
+       rite = shafii 
        culture = zanata
    }
    1147.1.1 = {
        rite = masmudi
    }
    1235.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37122,7 +37122,7 @@ rite = orthodox
    }
    1015.1.1 = {
        culture = zanata # Maghrawa return
-       rite = ashari
+       rite = shafii
    }
    1066.1.1 = {
        buildings = {
@@ -37135,7 +37135,7 @@ rite = orthodox
        rite = masmudi
    }
    1235.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37148,7 +37148,7 @@ rite = orthodox
    rite = ibadi
    holding = castle_holding
    947.1.1 = { 
-       rite = ashari
+       rite = shafii
        culture = hawwara
    }
    1015.1.1 = {
@@ -37158,7 +37158,7 @@ rite = orthodox
        rite = masmudi
    }
    1235.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37174,7 +37174,7 @@ rite = orthodox
    culture = zanata
    rite = ibadi
    holding = castle_holding
-   947.1.1 = { rite = ashari }
+   947.1.1 = { rite = shafii }
    1147.1.1 = {
        culture = masmuda
        rite = masmudi
@@ -37183,7 +37183,7 @@ rite = orthodox
        culture = zanata
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37192,7 +37192,7 @@ rite = orthodox
    rite = african_church
    holding = castle_holding
    936.1.1 = {
-       rite = ashari
+       rite = shafii
        culture = ghumara
    }
    1147.1.1 = {
@@ -37201,7 +37201,7 @@ rite = orthodox
    }
    1269.1.1 = {
        culture = zanata
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37222,7 +37222,7 @@ rite = orthodox
    rite = african_church
    holding = castle_holding
    800.1.1 = { 
-       rite = ashari 
+       rite = shafii 
        culture = maghrebi
    }
    1066.1.1 = {
@@ -37242,7 +37242,7 @@ rite = orthodox
    rite = african_church
    holding = castle_holding
    800.1.1 = { 
-       rite = ashari 
+       rite = shafii 
        culture = ghumara
    }
    867.1.1 = {
@@ -37262,7 +37262,7 @@ rite = orthodox
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37308,7 +37308,7 @@ rite = orthodox
 
 4694 = {    #FES
    culture = zanata
-   rite = ashari
+   rite = shafii
    holding = castle_holding
    867.1.1 = {
        buildings = {
@@ -37320,7 +37320,7 @@ rite = orthodox
        rite = ismaili
    }
    972.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1066.1.1 = {
        buildings = {
@@ -37338,7 +37338,7 @@ rite = orthodox
        culture = moroccan
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37362,14 +37362,14 @@ rite = orthodox
    culture = zanata
    rite = ibadi
    holding = castle_holding
-   947.1.1 = { rite = ashari }
+   947.1.1 = { rite = shafii }
    1147.1.1 = {
        culture = masmuda
        rite = masmudi
    }
    1269.1.1 = {
        culture = tagelmust
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37377,7 +37377,7 @@ rite = orthodox
    culture = masmuda
    rite = ibadi
    holding = castle_holding
-   974.1.1 = { rite = ashari }
+   974.1.1 = { rite = shafii }
    1147.1.1 = {
        rite = masmudi
    }
@@ -37385,7 +37385,7 @@ rite = orthodox
        culture = tagelmust
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37402,13 +37402,13 @@ rite = orthodox
    rite = barghawata
    holding = castle_holding
    1058.1.1 = {
-       rite = ashari # Almoravid conquest
+       rite = shafii # Almoravid conquest
    }
    1147.1.1 = {
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37422,13 +37422,13 @@ rite = orthodox
 
 4706 = {    #MRIRA
    culture = masmuda
-   rite = ashari
+   rite = shafii
    holding = castle_holding
    1147.1.1 = {
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
 	   culture = tagelmust
    }
 }
@@ -37443,7 +37443,7 @@ rite = orthodox
 
 4709 = {    #TADLA
    culture = masmuda
-   rite = ashari
+   rite = shafii
    holding = castle_holding
    867.1.1 = {
        rite = zayidi
@@ -37456,7 +37456,7 @@ rite = orthodox
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari 
+       rite = shafii 
        culture = tagelmust # Marinid
    }
 }
@@ -37487,13 +37487,13 @@ rite = orthodox
 
 4716 = {    #TINMALLAL
    culture = masmuda
-   rite = ashari
+   rite = shafii
    holding = castle_holding
    1147.1.1 = {
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37503,7 +37503,7 @@ rite = orthodox
 
 4718 = {    #MARRAKESH
    culture = masmuda
-   rite = ashari
+   rite = shafii
    holding = castle_holding
    867.1.1 = {
        rite = zayidi
@@ -37512,13 +37512,13 @@ rite = orthodox
        rite = ismaili
    }
    1056.1.1 = {
-       rite = ashari # Almoravid
+       rite = shafii # Almoravid
    }
    1147.1.1 = {
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari # Marinid
+       rite = shafii # Marinid
 	   culture = moroccan
    }
 }
@@ -37539,13 +37539,13 @@ rite = orthodox
        }
    }
    1058.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1147.1.1 = {
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37559,7 +37559,7 @@ rite = orthodox
 
 4723 = {    #AGADIR
    culture = masmuda
-   rite = ashari
+   rite = shafii
    holding = tribal_holding
    1058.1.1 = {
        holding = castle_holding
@@ -37568,13 +37568,13 @@ rite = orthodox
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
 4724 = {    #TARUDANT
    culture = masmuda
-   rite = ashari
+   rite = shafii
    holding = tribal_holding
    1058.1.1 = {
        holding = castle_holding
@@ -37583,7 +37583,7 @@ rite = orthodox
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37597,7 +37597,7 @@ rite = orthodox
 
 4727 = {    #IFNI
    culture = tagelmust
-   rite = ashari
+   rite = shafii
    holding = tribal_holding
    1058.1.1 = {
        culture = masmuda
@@ -37606,7 +37606,7 @@ rite = orthodox
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37640,7 +37640,7 @@ rite = orthodox
 
 4735 = {    #TAZAGOURT
    culture = tagelmust
-   rite = ashari
+   rite = shafii
    holding = tribal_holding
    1058.1.1 = {
        culture = masmuda
@@ -37649,13 +37649,13 @@ rite = orthodox
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
 4736 = {    #TUDGHA
    culture = tagelmust
-   rite = ashari
+   rite = shafii
    holding = tribal_holding
    1058.1.1 = {
        culture = masmuda
@@ -37665,7 +37665,7 @@ rite = orthodox
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
 	   culture = tagelmust
    }
 }
@@ -37675,7 +37675,7 @@ rite = orthodox
    rite = sufri
    holding = castle_holding
    1058.1.1 = {
-       rite = ashari
+       rite = shafii
        culture = masmuda
    }
    1066.1.1 = {
@@ -37689,7 +37689,7 @@ rite = orthodox
    }
    1269.1.1 = {
        culture = tagelmust
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -37702,14 +37702,14 @@ rite = orthodox
    rite = sufri
    holding = castle_holding
    1058.1.1 = {
-       rite = ashari
+       rite = shafii
        culture = masmuda
    }
    1147.1.1 = {
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
 	   culture = zanata
    }
    1300.1.1 = { 
@@ -37741,13 +37741,13 @@ rite = orthodox
    culture = zanata
    rite = ibadi
    holding = castle_holding
-   947.1.1 = { rite = ashari }
+   947.1.1 = { rite = shafii }
    1147.1.1 = {
        culture = masmuda
        rite = masmudi
    }
    1269.1.1 = {
-       rite = ashari
+       rite = shafii
 	   culture = zanata
    }
    1300.1.1 = { 
@@ -37773,7 +37773,7 @@ rite = orthodox
    holding = tribal_holding
    972.1.1 = {
        culture = tagelmust
-	   rite = ashari
+	   rite = shafii
    }
    1015.1.1 = {
        culture = zanata # Maghrawa
@@ -37827,7 +37827,7 @@ rite = orthodox
 	holding = tribal_holding
 	special_building = taghaza_mines_01								
 	1050.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -37860,7 +37860,7 @@ rite = orthodox
 	rite = khurramism
 	holding = castle_holding
 	
-	900.1.1 = { rite = ashari }
+	900.1.1 = { rite = shafii }
 }
 
 4768 = {	#Darband-Qarabuli
@@ -37879,7 +37879,7 @@ rite = orthodox
 	culture = kurdish
 	rite = khurramism
 	holding = castle_holding
-	900.1.1 = { rite = ashari }
+	900.1.1 = { rite = shafii }
 }
 
 4772 = {	#Salmas
@@ -37891,7 +37891,7 @@ rite = orthodox
 	
 	#Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 	1200.1.1 = {
@@ -37904,11 +37904,11 @@ rite = orthodox
 	
 	#Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 	867.1.1 = { rite = sufri } #to cover the rebellion
-	900.1.1 = { rite = ashari }
+	900.1.1 = { rite = shafii }
 	1166.1.1 = {
 		rite = yazidi
 	}
@@ -37918,7 +37918,7 @@ rite = orthodox
 	
 	#Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 	1166.1.1 = {
@@ -37930,7 +37930,7 @@ rite = orthodox
 	
 	#Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 	1200.1.1 = {
@@ -37945,7 +37945,7 @@ rite = orthodox
 	
 	# History
 	867.1.1 = { rite = sufri } #to cover the rebellion
-	900.1.1 = { rite = ashari }
+	900.1.1 = { rite = shafii }
 	1200.1.1 = { rite = yazidi }
 
 }
@@ -37954,7 +37954,7 @@ rite = orthodox
 	
 	# Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -37964,7 +37964,7 @@ rite = orthodox
 	
 	# Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -37972,7 +37972,7 @@ rite = orthodox
 
 4780 = {	#Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -37980,7 +37980,7 @@ rite = orthodox
 
 4781 = {	#Kermanshah
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -38002,19 +38002,19 @@ rite = orthodox
 
 4786 = {	#As-saimara
 	culture = luri
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
 4787 = {	#Siravan
 	culture = luri
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
 4788 = {	#Misc
 	culture = iraqi
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38025,7 +38025,7 @@ rite = orthodox
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38036,7 +38036,7 @@ rite = orthodox
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38047,7 +38047,7 @@ rite = orthodox
 	
 	# Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38057,7 +38057,7 @@ rite = orthodox
 	
 	# Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38067,7 +38067,7 @@ rite = orthodox
 	
 	# Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38077,7 +38077,7 @@ rite = orthodox
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38088,7 +38088,7 @@ rite = orthodox
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38107,7 +38107,7 @@ rite = orthodox
 	holding = castle_holding
 	# Misc
 	culture = iraqi
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38127,7 +38127,7 @@ rite = orthodox
 
 4797 = {	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38138,7 +38138,7 @@ rite = orthodox
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38149,7 +38149,7 @@ rite = orthodox
 	
 	# Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38157,7 +38157,7 @@ rite = orthodox
 
 4800 = {	#Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38167,7 +38167,7 @@ rite = orthodox
 	
 	# Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38177,7 +38177,7 @@ rite = orthodox
 	
 	# Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38185,7 +38185,7 @@ rite = orthodox
 
 4803 = {	#Misc
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38213,7 +38213,7 @@ rite = orthodox
 	}
 	940.1.1 = { 
 		culture = syromesopotamian
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -38247,7 +38247,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1200.1.1 = { rite = yazidi }
 
 }
@@ -38259,7 +38259,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1200.1.1 = { rite = yazidi }
 
 }
@@ -38331,7 +38331,7 @@ rite = orthodox
 	867.1.1 = { rite = julianists}
 	900.1.1 = { rite = jacobite }
 	1100.1.1 = { 
-		rite = ashari
+		rite = shafii
 	}
 	1162.1.1 = {
 		rite = yazidi
@@ -38353,7 +38353,7 @@ rite = orthodox
 
 4818 = {	#Misc
 	culture = luri
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	# History
 
@@ -38363,7 +38363,7 @@ rite = orthodox
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38371,7 +38371,7 @@ rite = orthodox
 
 4820 = {	#Misc
 	culture = persian
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38391,7 +38391,7 @@ rite = orthodox
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38401,7 +38401,7 @@ rite = orthodox
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38411,7 +38411,7 @@ rite = orthodox
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38422,7 +38422,7 @@ rite = orthodox
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	holding = church_holding
 	
@@ -38435,7 +38435,7 @@ rite = orthodox
 	
 	# Misc
 	culture = iraqi
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili}
@@ -38448,7 +38448,7 @@ rite = orthodox
 	holding = church_holding # So the University is visible in the mapmode																   
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38459,7 +38459,7 @@ rite = orthodox
 	
 	# Misc
 	culture = iraqi
-	rite = ashari
+	rite = shafii
 	
 	# History
 	769.1.1 = {
@@ -38507,7 +38507,7 @@ rite = orthodox
 
 4829 = {	#Misc
 	culture = syromesopotamian
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38532,7 +38532,7 @@ rite = orthodox
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38553,7 +38553,7 @@ rite = orthodox
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -38584,7 +38584,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1200.1.1 = { rite = yazidi }
 
 }
@@ -38596,7 +38596,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1200.1.1 = { rite = yazidi }
 
 }
@@ -38608,7 +38608,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1200.1.1 = { rite = yazidi }
 
 }
@@ -38620,7 +38620,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1200.1.1 = { rite = yazidi }
 
 }
@@ -38639,7 +38639,7 @@ rite = orthodox
 			pastures_01
 		}
 	}
-	1100.1.1 = { culture = kurdish rite = ashari }
+	1100.1.1 = { culture = kurdish rite = shafii }
 
 }
 
@@ -38650,7 +38650,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1200.1.1 = { rite = yazidi }
 
 }
@@ -38664,7 +38664,7 @@ rite = orthodox
 	# History
 	1100.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -38676,7 +38676,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -38713,7 +38713,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -38724,7 +38724,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -38735,7 +38735,7 @@ rite = orthodox
 	rite = nestorian
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -38743,7 +38743,7 @@ rite = orthodox
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38776,7 +38776,7 @@ rite = orthodox
 	# History
 1110.1.1 = { 
 	culture = kurdish
-	rite = ashari
+	rite = shafii
 }
 
 }
@@ -38785,7 +38785,7 @@ rite = orthodox
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	holding = church_holding
 	
@@ -38800,7 +38800,7 @@ rite = orthodox
 	# History
 	1086.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -38815,7 +38815,7 @@ rite = orthodox
 	873.1.1 = { rite = paulician }
 	970.1.1 = { rite = armenian_apostolic }
 	1097.8.26 = {
-		rite = ashari 
+		rite = shafii 
 		culture = kurdish
 	}
 
@@ -38830,7 +38830,7 @@ rite = orthodox
 	# History
 	1164.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -38849,7 +38849,7 @@ rite = jacobite
 	}
 	1164.1.1 = {
 		culture = kurdish
-		rite = ashari 
+		rite = shafii 
 	}
 
 }
@@ -38863,7 +38863,7 @@ rite = jacobite
 	# History
 	1164.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -38881,7 +38881,7 @@ rite = jacobite
 }
 	1170.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -38904,7 +38904,7 @@ rite = jacobite
 	# History
 	1164.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -38918,7 +38918,7 @@ rite = jacobite
 	# History
 	1164.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -38930,7 +38930,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	1270.1.1 = { rite = ashari }
+	1270.1.1 = { rite = shafii }
 
 }
 
@@ -38944,7 +38944,7 @@ rite = jacobite
 	1098.1.1 = { culture = armenian }
 	1170.1.1 = {
 		culture = levantine
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -38956,7 +38956,7 @@ rite = jacobite
 	rite = jacobite
 	
 	# History
-	1270.1.1 = { rite = ashari culture = levantine }
+	1270.1.1 = { rite = shafii culture = levantine }
 
 }
 
@@ -38967,14 +38967,14 @@ rite = jacobite
 	rite = jacobite
 	
 	# History
-	1120.1.1 = { rite = ashari culture = syromesopotamian }
+	1120.1.1 = { rite = shafii culture = syromesopotamian }
 }
 
 4877 = {	# 4877 - Bajarwan
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -38990,7 +38990,7 @@ rite = jacobite
 	1098.1.1 = { culture = armenian }
 	1170.1.1 = {
 		culture = levantine
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -38999,7 +38999,7 @@ rite = jacobite
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -39009,7 +39009,7 @@ rite = jacobite
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -39019,7 +39019,7 @@ rite = jacobite
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -39029,7 +39029,7 @@ rite = jacobite
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -39044,7 +39044,7 @@ rite = jacobite
 	# History
 	1070.1.1 = { 
 		culture = syromesopotamian
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -39103,7 +39103,7 @@ rite = jacobite
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 	1320.1.1 = { culture = levantine }
 
@@ -39118,7 +39118,7 @@ rite = jacobite
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 	1320.1.1 = { culture = levantine }
 
@@ -39133,7 +39133,7 @@ rite = jacobite
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 	1320.1.1 = { culture = anatolian_turkish }
 
@@ -39219,7 +39219,7 @@ rite = jacobite
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 	1320.1.1 = { culture = levantine }
 
@@ -42923,7 +42923,7 @@ rite = magyar_pagan
 	900.1.1 = { rite = tengri_pagan } 
 	1046.1.1 = { culture = torkil }
 	1060.1.1 = { culture = cuman }
-	1227.1.1 = { rite = maturidi } 
+	1227.1.1 = { rite = hanafi } 
 	1300.1.1 = {
 		culture = crimean
 	}
@@ -42947,7 +42947,7 @@ rite = magyar_pagan
 	900.1.1 = { rite = tengri_pagan } 
 	1046.1.1 = { culture = torkil }
 	1060.1.1 = { culture = cuman }
-	1227.1.1 = { rite = maturidi } 
+	1227.1.1 = { rite = hanafi } 
 	1300.1.1 = {
 		culture = crimean
 	}
@@ -42983,7 +42983,7 @@ rite = magyar_pagan
 1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman } 
-1227.1.1 = { rite = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -43039,7 +43039,7 @@ rite = tengri_pagan
 1044.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = kipchak }
-1227.1.1 = { rite = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = mishar
 	}
@@ -43058,7 +43058,7 @@ rite = tengri_pagan
 1050.1.1 = { culture = cuman } 
 1050.1.1 = { rite = tengri_pagan } 
 1070.1.1 = { culture = kipchak } 
-1313.1.1= { rite = maturidi } 
+1313.1.1= { rite = hanafi } 
 1300.1.1 = {
 	culture = crimean
 }
@@ -43079,7 +43079,7 @@ rite = tengri_pagan
 966.1.1 = { culture = pecheneg }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = kipchak }
-1227.1.1 = { rite = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = mishar
 	}
@@ -43182,7 +43182,7 @@ holding = tribal_holding
 # History
 808.1.1 = { rite = kabarism }
 
-1089.1.1 = { rite = maturidi }
+1089.1.1 = { rite = hanafi }
 
 }
 
@@ -43224,7 +43224,7 @@ rite = tengri_pagan
 	}
 }
 
-1225.1.1 = { rite = maturidi }
+1225.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = nogai
 	}
@@ -43258,7 +43258,7 @@ rite = tengri_pagan
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 5314 = {	#617 - Uzen
@@ -43275,10 +43275,10 @@ rite = tengri_pagan
 	1040.1.1 = { culture = cuman } 
 	1040.1.1 = { rite = tengri_pagan } 
 	
-	1225.1.1 = { rite = ashari } 
+	1225.1.1 = { rite = shafii } 
 	1300.1.1 = {
 		culture = nogai
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -43321,7 +43321,7 @@ rite = tengri_pagan
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 5320 = {	#Lozova
@@ -43408,7 +43408,7 @@ rite = tengri_pagan
 #1044.1.1 = { culture = torkil }
 #1050.1.1 = { culture = cuman } 
 #1050.1.1 = { rite = tengri_pagan } 
-#1227.1.1 = { rite = maturidi } 
+#1227.1.1 = { rite = hanafi } 
 #1300.1.1 = {
 #	culture = tatars
 #}
@@ -43453,7 +43453,7 @@ rite = tengri_pagan
 # History
 808.1.1 = { rite = kabarism }
 
-1220.1.1 = { rite = maturidi }
+1220.1.1 = { rite = hanafi }
 #Mongol invasion
 1300.1.1 = {
 		culture = nogai
@@ -43661,7 +43661,7 @@ rite = tengri_pagan
 966.1.1 = { culture = torkil } 
 1050.1.1 = { culture = cuman } 
 1050.1.1 = { rite = tengri_pagan } 
-1300.1.1 = { rite = maturidi } 
+1300.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = mishar
 	}
@@ -43826,7 +43826,7 @@ rite = tengri_pagan
 	rite = tengri_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	965.1.1 = {
 		holding = castle_holding
@@ -43853,7 +43853,7 @@ rite = tengri_pagan
 	rite = tengri_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 		holding = castle_holding
 	}
 }
@@ -43886,7 +43886,7 @@ rite = tengri_pagan
 	rite = magyar_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	1200.1.1 = {
 		culture = chiyalik
@@ -43910,7 +43910,7 @@ rite = tengri_pagan
 	rite = tengri_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -43931,7 +43931,7 @@ rite = tengri_pagan
 	rite = tengri_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 		holding = castle_holding
 	}
 }
@@ -43957,7 +43957,7 @@ rite = tengri_pagan
 	rite = tengri_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -43966,7 +43966,7 @@ rite = tengri_pagan
 	rite = tengri_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -44205,7 +44205,7 @@ rite = tengri_pagan
 	rite = magyar_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	1200.1.1 = {
 		culture = chiyalik
@@ -44236,7 +44236,7 @@ rite = tengri_pagan
 	
 	# History
 	915.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	1200.1.1 = {
 		culture = chiyalik
@@ -44258,7 +44258,7 @@ rite = tengri_pagan
 	
 	# History
 	915.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -44278,7 +44278,7 @@ rite = tengri_pagan
 	
 	# History
 	915.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -44307,7 +44307,7 @@ rite = tengri_pagan
 	
 	# History
 	915.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -44326,7 +44326,7 @@ rite = tengri_pagan
 	rite = magyar_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	1200.1.1 = {
 		culture = chiyalik
@@ -44351,7 +44351,7 @@ rite = tengri_pagan
 	rite = magyar_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	1200.1.1 = {
 		culture = chiyalik
@@ -44373,7 +44373,7 @@ rite = tengri_pagan
 	rite = magyar_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	1200.1.1 = {
 		culture = chiyalik
@@ -44411,7 +44411,7 @@ rite = tengri_pagan
 	1300.1.1 = {
 		culture = bashkir
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 5502 = {	#Ilekskoi Gorodok
@@ -44437,12 +44437,12 @@ rite = tengri_pagan
 	930.1.1 = { rite = tengri_pagan }
 	965.1.2 = {
 		culture = bolghar
-		rite = ashari
+		rite = shafii
 		holding = castle_holding
 	}
 	1300.1.1 = {
 		culture = kazani
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -44475,7 +44475,7 @@ rite = tengri_pagan
 966.1.1 = { culture = torkil } 
 1050.1.1 = { culture = cuman } 
 1050.1.1 = { rite = tengri_pagan } 
-1300.1.1 = { rite = maturidi } 
+1300.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = mishar
 	}
@@ -44492,7 +44492,7 @@ rite = tengri_pagan
 	# History
 	1200.1.1 = {
 		culture = chiyalik
-		rite = ashari
+		rite = shafii
 	}
 	
 }
@@ -44525,7 +44525,7 @@ rite = tengri_pagan
 	rite = magyar_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	1200.1.1 = {
 		culture = chiyalik
@@ -44539,7 +44539,7 @@ rite = tengri_pagan
 	rite = magyar_pagan
 	holding = tribal_holding
 	922.1.2 = {
-		rite = ashari
+		rite = shafii
 	}
 	1200.1.1 = {
 		culture = chiyalik
@@ -44956,8 +44956,8 @@ rite = tengri_pagan
 	
 	# History
 	1265.1.1 = { culture = anatolian_turkish }
-	1265.1.1 = { rite = maturidi }
-	1300.1.1 = { rite = maturidi }
+	1265.1.1 = { rite = hanafi }
+	1300.1.1 = { rite = hanafi }
 
 }
 
@@ -45060,7 +45060,7 @@ rite = tengri_pagan
 	holding = castle_holding
 	
 	# History
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 }
 
 5570 = {	# 5570 - Crius
@@ -45097,7 +45097,7 @@ rite = tengri_pagan
 	
 	# History
 	1205.1.1 = { culture = anatolian_turkish }
-	1205.1.1 = { rite = maturidi }
+	1205.1.1 = { rite = hanafi }
 
 }
 
@@ -45123,7 +45123,7 @@ rite = tengri_pagan
 	
 	# History
 	1097.8.26 = { culture = turkish }
-	1097.8.26 = { rite = maturidi }
+	1097.8.26 = { rite = hanafi }
 	1150.1.1 = { culture = anatolian_turkish }
 
 }
@@ -45198,7 +45198,7 @@ rite = tengri_pagan
 	
 	# History
 	1097.8.26 = { culture = turkish }
-	1097.8.26 = { rite = maturidi }
+	1097.8.26 = { rite = hanafi }
 	1150.1.1 = { culture = anatolian_turkish }
 
 }
@@ -45218,7 +45218,7 @@ rite = tengri_pagan
 		culture = pontic
 	}
 	1261.1.1 = { culture = anatolian_turkish }
-	1261.1.1 = { rite = maturidi }
+	1261.1.1 = { rite = hanafi }
 
 }
 
@@ -45266,7 +45266,7 @@ rite = tengri_pagan
 		culture = pontic
 	}
 	1205.1.1 = { culture = anatolian_turkish }
-	1205.1.1 = { rite = maturidi }
+	1205.1.1 = { rite = hanafi }
 
 }
 
@@ -45354,7 +45354,7 @@ rite = tengri_pagan
 	715.1.1 = { rite = iconoclast }
 	860.1.1 = { rite = orthodox }
 	1099.1.1 = { culture = turkish }
-	1099.1.1 = { rite = maturidi }
+	1099.1.1 = { rite = hanafi }
 	1150.1.1 = { culture = anatolian_turkish }
 
 }
@@ -45407,7 +45407,7 @@ rite = tengri_pagan
 	715.1.1 = { rite = iconoclast }
 	860.1.1 = { rite = orthodox }
 	1099.1.1 = { culture = turkish }
-	1099.1.1 = { rite = maturidi }
+	1099.1.1 = { rite = hanafi }
 	1150.1.1 = { culture = anatolian_turkish }
 
 }
@@ -45471,7 +45471,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45498,7 +45498,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45550,7 +45550,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45583,7 +45583,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45598,7 +45598,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45613,7 +45613,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45628,7 +45628,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45679,7 +45679,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45694,7 +45694,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45709,7 +45709,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45724,7 +45724,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45745,7 +45745,7 @@ rite = tengri_pagan
 	}
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi 
+		rite = hanafi 
 	}
 	1150.1.1 = { culture = anatolian_turkish }
 }
@@ -45761,7 +45761,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45776,7 +45776,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45791,7 +45791,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45806,7 +45806,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45821,7 +45821,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45901,7 +45901,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45916,7 +45916,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45931,7 +45931,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45967,7 +45967,7 @@ rite = tengri_pagan
 	}
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi 
+		rite = hanafi 
 	}
 	1150.1.1 = { culture = anatolian_turkish }
 }
@@ -45983,7 +45983,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -45998,7 +45998,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46208,7 +46208,7 @@ rite = tengri_pagan
 	# History
 	1220.1.1 = {
 		culture = turkish
-		rite = maturidi 
+		rite = hanafi 
 	}
 	1250.1.1 = { culture = anatolian_turkish }
 }
@@ -46224,7 +46224,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46239,7 +46239,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46256,7 +46256,7 @@ rite = tengri_pagan
 	860.1.1 = { rite = orthodox }
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi 
+		rite = hanafi 
 	}
 	1150.1.1 = { culture = anatolian_turkish }
 
@@ -46273,7 +46273,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46289,7 +46289,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46307,7 +46307,7 @@ rite = tengri_pagan
 	860.1.1 = { rite = orthodox }
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi 
+		rite = hanafi 
 	}
 	1150.1.1 = { culture = anatolian_turkish }
 }
@@ -46323,7 +46323,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46338,7 +46338,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46353,7 +46353,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46368,7 +46368,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46383,7 +46383,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46398,7 +46398,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46413,7 +46413,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi 
+		rite = hanafi 
 	}
 	1150.1.1 = { culture = anatolian_turkish }
 }
@@ -46429,7 +46429,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46444,7 +46444,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46459,7 +46459,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46474,7 +46474,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46489,7 +46489,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46504,7 +46504,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46519,7 +46519,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46537,7 +46537,7 @@ rite = tengri_pagan
 	}
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi 
+		rite = hanafi 
 	}
 	1150.1.1 = { culture = anatolian_turkish }
 }
@@ -46553,7 +46553,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46568,7 +46568,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46583,7 +46583,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46598,7 +46598,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46613,7 +46613,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46628,7 +46628,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -46701,7 +46701,7 @@ rite = tengri_pagan
 	715.1.1 = { rite = iconoclast }
 	860.1.1 = { rite = orthodox }
 	1097.8.26 = { culture = turkish }
-	1097.8.26 = { rite = maturidi }
+	1097.8.26 = { rite = hanafi }
 	1150.1.1 = { culture = anatolian_turkish }
 
 }
@@ -46729,7 +46729,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46745,7 +46745,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46764,7 +46764,7 @@ rite = tengri_pagan
 	}
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46795,7 +46795,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46811,7 +46811,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46827,7 +46827,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46867,7 +46867,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi 
+		rite = hanafi 
 	}
 	1150.1.1 = { culture = anatolian_turkish }
 
@@ -46884,7 +46884,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46900,7 +46900,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46916,7 +46916,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46932,7 +46932,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46948,7 +46948,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -46964,7 +46964,7 @@ rite = tengri_pagan
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -47712,7 +47712,7 @@ rite = armenian_apostolic
 	}
 	#1084.1.1 = {
 	#	culture = kurdish
-	#	rite = ashari
+	#	rite = shafii
 	#}
 	1124.1.1 = {
 		culture = georgian
@@ -47744,7 +47744,7 @@ rite = armenian_apostolic
 	}
 	#1084.1.1 = {
 	#	culture = kurdish
-	#	rite = ashari
+	#	rite = shafii
 	#}
 	1124.1.1 = {
 		culture = georgian
@@ -47769,7 +47769,7 @@ rite = armenian_apostolic
 	}
 	#1084.1.1 = {
 	#	culture = kurdish
-	#	rite = ashari
+	#	rite = shafii
 	#}
 	1124.1.1 = {
 		culture = georgian
@@ -47793,7 +47793,7 @@ rite = armenian_apostolic
 	}
 	1084.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 	1124.1.1 = {
 		culture = georgian
@@ -47817,7 +47817,7 @@ rite = armenian_apostolic
 	}
 	1084.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 	1124.1.1 = {
 		culture = georgian
@@ -47966,7 +47966,7 @@ rite = armenian_apostolic
 	
 	# History
 	1150.1.1 = { 
-		rite = ashari
+		rite = shafii
 	}
 	1320.1.1 = { rite = ismaili }
 
@@ -48013,7 +48013,7 @@ rite = armenian_apostolic
 	# History
 	950.1.1 = { 
 		culture = azeri
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -48171,7 +48171,7 @@ rite = armenian_apostolic
 	
 	# History
 	820.1.1 = { culture = azeri }
-	820.1.1 = { rite = ashari }
+	820.1.1 = { rite = shafii }
 	1320.1.1 = { rite = ismaili }
 
 }
@@ -48805,7 +48805,7 @@ rite = jacobite
 #}
 #	1177.1.1 = {
 #		culture = kurdish
-#		rite = ashari
+#		rite = shafii
 #	}
 #	1320.1.1 = { culture = levantine }
 
@@ -48820,7 +48820,7 @@ rite = jacobite
 	# History
 	1177.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 	1320.1.1 = { culture = levantine }
 
@@ -48834,7 +48834,7 @@ rite = jacobite
 	
 	# History
 	1268.1.1 = { culture = levantine }
-	1268.1.1 = { rite = ashari }
+	1268.1.1 = { rite = shafii }
 
 }
 
@@ -48846,7 +48846,7 @@ rite = jacobite
 	
 	# History
 	1268.1.1 = { culture = levantine }
-	1268.1.1 = { rite = ashari }
+	1268.1.1 = { rite = shafii }
 
 }
 
@@ -48860,7 +48860,7 @@ rite = jacobite
 
 	#1190.1.1 = { culture = armenian }
 	#1268.1.1 = { culture = levantine }
-	#1268.1.1 = { rite = ashari }
+	#1268.1.1 = { rite = shafii }
 
 }
 
@@ -48868,7 +48868,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -48878,7 +48878,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -48891,7 +48891,7 @@ rite = jacobite
 	rite = jacobite
 	
 	# History
-	1120.1.1 = { rite = ashari culture = levantine }
+	1120.1.1 = { rite = shafii culture = levantine }
 }
 
 5909 = {	# 5909 - As-Suwaydiya
@@ -48902,7 +48902,7 @@ rite = jacobite
 	
 	# History
 	1268.1.1 = { culture = levantine }
-	1268.1.1 = { rite = ashari }
+	1268.1.1 = { rite = shafii }
 
 }
 
@@ -48945,7 +48945,7 @@ rite = jacobite
 	
 	# History
 	1268.1.1 = { culture = levantine }
-	1268.1.1 = { rite = ashari }
+	1268.1.1 = { rite = shafii }
 
 }
 
@@ -48957,7 +48957,7 @@ rite = jacobite
 	holding = city_holding
 	# History
 	1268.1.1 = { culture = levantine }
-	1268.1.1 = { rite = ashari }
+	1268.1.1 = { rite = shafii }
 
 }
 
@@ -48977,7 +48977,7 @@ rite = jacobite
 	
 	# History
 	1120.1.1 = { rite = nizari }
-	#1271.1.1 = { rite = ashari }
+	#1271.1.1 = { rite = shafii }
 
 }
 
@@ -48988,7 +48988,7 @@ rite = jacobite
 	rite = nizari
 	holding = castle_holding
 	# History
-	#1271.1.1 = { rite = ashari culture = levantine }
+	#1271.1.1 = { rite = shafii culture = levantine }
 
 }
 
@@ -48999,7 +48999,7 @@ rite = jacobite
 	rite = alawite
 	holding = castle_holding
 	# History
-	#1295.1.1 = { rite = ashari }
+	#1295.1.1 = { rite = shafii }
 
 }
 
@@ -49010,7 +49010,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49021,7 +49021,7 @@ rite = jacobite
 	rite = alawite
 	holding = castle_holding
 	# History
-	#1295.1.1 = { rite = ashari culture = levantine }
+	#1295.1.1 = { rite = shafii culture = levantine }
 
 }
 
@@ -49073,7 +49073,7 @@ rite = jacobite
 			murex_farm_02
 		}
 	}
-	1295.1.1 = { rite = ashari }
+	1295.1.1 = { rite = shafii }
 
 }
 
@@ -49084,7 +49084,7 @@ rite = jacobite
 	rite = jerusalem_melkite
 	
 	# History
-	1270.1.1 = { rite = ashari }
+	1270.1.1 = { rite = shafii }
 
 }
 
@@ -49092,7 +49092,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49102,7 +49102,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	867.1.1 = {
@@ -49118,7 +49118,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1016.1.1 = { rite = druze }
 
 }
@@ -49130,7 +49130,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1016.1.1 = { rite = druze }
 
 }
@@ -49139,7 +49139,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49152,7 +49152,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49164,7 +49164,7 @@ rite = jacobite
 	holding = castle_holding
 	
 	# History
-	900.1.1 = { rite = ashari culture = levantine
+	900.1.1 = { rite = shafii culture = levantine
 		    special_building = citadel_homs_01 }
 	1066.1.1 = {
 		buildings = {
@@ -49182,7 +49182,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49193,7 +49193,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49204,7 +49204,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49215,7 +49215,7 @@ rite = jacobite
 	rite = jacobite
 	
 	# History
-	1271.1.1 = { rite = ashari }
+	1271.1.1 = { rite = shafii }
 
 }
 
@@ -49223,7 +49223,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	769.1.1 = {
@@ -49249,7 +49249,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	1271.1.1 = { rite = ashari }
+	1271.1.1 = { rite = shafii }
 
 }
 
@@ -49260,7 +49260,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	1271.1.1 = { rite = ashari }
+	1271.1.1 = { rite = shafii }
 
 }
 
@@ -49271,7 +49271,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1016.1.1 = { rite = druze }
 
 }
@@ -49280,7 +49280,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49290,7 +49290,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49300,7 +49300,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49310,7 +49310,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49320,7 +49320,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49330,7 +49330,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49340,7 +49340,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49350,7 +49350,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49360,7 +49360,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49373,7 +49373,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49384,7 +49384,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49395,7 +49395,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49406,7 +49406,7 @@ rite = jacobite
 	rite = melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	923.1.1 = { rite = imami }						   
 
 }
@@ -49415,7 +49415,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	923.1.1 = { rite = imami }						   
@@ -49426,7 +49426,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49436,7 +49436,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49446,7 +49446,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49456,7 +49456,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49466,7 +49466,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49476,7 +49476,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49489,7 +49489,7 @@ rite = jacobite
 	rite = jerusalem_melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49500,7 +49500,7 @@ rite = jacobite
 	rite = jerusalem_melkite
 	
 	# History
-	1270.1.1 = { rite = ashari }
+	1270.1.1 = { rite = shafii }
 
 }
 
@@ -49526,7 +49526,7 @@ rite = jacobite
 		}
 	}
 	1140.1.1 = { rite = catholic culture = outremer }
-	1295.1.1 = { rite = ashari culture = levantine }
+	1295.1.1 = { rite = shafii culture = levantine }
 
 }
 
@@ -49537,7 +49537,7 @@ rite = jacobite
 	rite = jerusalem_melkite
 	holding = church_holding
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49548,9 +49548,9 @@ rite = jacobite
 	rite = jerusalem_melkite
 	holding = city_holding
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1140.1.1 = { rite = catholic culture = outremer }
-	1295.1.1 = { rite = ashari culture = levantine }
+	1295.1.1 = { rite = shafii culture = levantine }
 
 }
 
@@ -49558,7 +49558,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49568,7 +49568,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	holding = city_holding
 	# History
 
@@ -49603,7 +49603,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	# History
 	864.1.1 = {
@@ -49627,7 +49627,7 @@ rite = jacobite
 	holding = city_holding
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	985.1.1 = { # al-Aziz Billah traces it's site (To be changed into an event eventually)
 		special_building_slot = mashad_al_husain_01
 	}
@@ -49652,7 +49652,7 @@ rite = jacobite
 	rite = jerusalem_melkite
 	holding = city_holding
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49660,7 +49660,7 @@ rite = jacobite
 	
 	# Misc
 	culture = badawi
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49674,7 +49674,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -49688,7 +49688,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49698,7 +49698,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49706,7 +49706,7 @@ rite = jacobite
 
 5974 = {	#AQABA
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -49717,7 +49717,7 @@ rite = jacobite
 
 5976 = {	#MAAN
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -49729,7 +49729,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49739,7 +49739,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49749,7 +49749,7 @@ rite = jacobite
 	
 	# Misc
 	culture = badawi
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49757,7 +49757,7 @@ rite = jacobite
 
 5981 = {	#MAAB
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -49771,7 +49771,7 @@ rite = jacobite
 
 5984 = {	#AMMAN
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -49782,7 +49782,7 @@ rite = jacobite
 	rite = jerusalem_melkite
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -49799,13 +49799,13 @@ rite = jacobite
 
 5988 = {	#AL-JILAT
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
 5989 = {	#QURAQIR
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -49813,7 +49813,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili}
@@ -49826,7 +49826,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49836,7 +49836,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = church_holding
 	# History
 	850.1.1 = { rite = ismaili}
@@ -49852,7 +49852,7 @@ rite = jacobite
 	
 	# Misc
 	culture = iraqi
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = {
@@ -49864,7 +49864,7 @@ rite = jacobite
 	}
 	1066.1.1 = {
 		culture = iraqi
-		rite = ashari
+		rite = shafii
 		buildings = {
 			plantations_01
 			pastures_01
@@ -49877,7 +49877,7 @@ rite = jacobite
 	
 	#Misc
 	culture = iraqi
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -49887,7 +49887,7 @@ rite = jacobite
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili }
@@ -49898,7 +49898,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili}
@@ -49922,7 +49922,7 @@ rite = jacobite
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili }
@@ -49933,7 +49933,7 @@ rite = jacobite
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili }
@@ -49944,7 +49944,7 @@ rite = jacobite
 	
 	#Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -49956,7 +49956,7 @@ rite = jacobite
 	
 	#Misc
 	culture = iraqi
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili culture = madan }
@@ -49967,7 +49967,7 @@ rite = jacobite
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili }
@@ -49988,7 +49988,7 @@ rite = jacobite
 	
 	#Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -50009,7 +50009,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -50019,7 +50019,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -50029,7 +50029,7 @@ rite = jacobite
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -50051,7 +50051,7 @@ rite = jacobite
 		rite = mutazila
 		culture = iraqi
 	}
-	940.1.1 = { rite = ashari }						
+	940.1.1 = { rite = shafii }						
 }
 
 6012 = {	#Huwaiza
@@ -50066,7 +50066,7 @@ rite = jacobite
 	culture = khuzi
 	rite = mazdakism
 	holding = castle_holding
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 }
 
 6015 = {	#Jubba
@@ -50079,9 +50079,9 @@ rite = jacobite
 
 6017 = {	#Abbadan
 	culture = iraqi
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 }
 
 6018 = {	#Basiyan
@@ -50092,7 +50092,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	# History
 	850.1.1 = { rite = ismaili culture = madan }
@@ -50109,7 +50109,7 @@ rite = jacobite
 	
 	# Misc
 	culture = iraqi
-	rite = ashari
+	rite = shafii
 	
 	# History
 	700.1.1 = { rite = south_mesopotamian_pagan culture = madan }
@@ -50121,7 +50121,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili }
@@ -50132,7 +50132,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = city_holding
 	# History
 	850.1.1 = { rite = ismaili }
@@ -50151,7 +50151,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili }
@@ -50162,7 +50162,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -50172,7 +50172,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	
 	# History
 	850.1.1 = { rite = ismaili }
@@ -50181,7 +50181,7 @@ rite = jacobite
 
 6030 = {	#FIRAUN
 	culture = badawi
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -50199,13 +50199,13 @@ rite = jacobite
 
 6033 = {	#AT-TUR
 	culture = badawi
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	909.1.1 = {
 		rite = ismaili
 	}
 	1171.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -50227,7 +50227,7 @@ rite = jacobite
 
 6038 = {	#FARAMA
 	culture = badawi
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -50237,7 +50237,7 @@ rite = jacobite
 
 6040 = {	#BILBAYS
 	culture = egyptian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	
 }
@@ -50248,7 +50248,7 @@ rite = jacobite
 
 6042 = {	#CAIRO
 	culture = egyptian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	#867.1.1 = { name = "Fustat" }	
 	860.1.1 = {
@@ -50268,7 +50268,7 @@ rite = jacobite
 		}
 	}
 	1130.1.1 = { rite = hafizi }
-	1175.1.1 = { rite = ashari }
+	1175.1.1 = { rite = shafii }
 }
 
 6043 = {	#DAQAHLA
@@ -50284,7 +50284,7 @@ rite = jacobite
 	holding = castle_holding
 	# Misc
 	culture = egyptian
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -50292,7 +50292,7 @@ rite = jacobite
 
 6046 = {	#DUMIYAT
 	culture = egyptian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	1166.1.1 = { rite = karaism } #Nearby Damira possibly had the 3rds largest Karaite population after Cairo and Alexandria. Wasn't a majority of the province but it gives a way to represent the large Jewish population middle ages Egypt had and helps spawn characters (in a perfect world CK3 would let you set religion/culture by barony but alas). Preferably Karaite would have a doctrine that makes them more accepted by Islam
 	
@@ -50314,7 +50314,7 @@ rite = jacobite
 	
 	# History
 	767.1.1 = { rite = coptic }
-	990.1.1 = { culture = egyptian rite = ashari } 
+	990.1.1 = { culture = egyptian rite = shafii } 
 
 }
 
@@ -50326,7 +50326,7 @@ rite = jacobite
 	culture = egyptian_coptic
 	rite = coptic
 	holding = castle_holding
-	955.1.1 = { culture = egyptian rite = ashari } 
+	955.1.1 = { culture = egyptian rite = shafii } 
 }
 
 6052 = {	#RASHID
@@ -50334,7 +50334,7 @@ rite = jacobite
 	rite = coptic
 	holding = castle_holding
 	900.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -50375,7 +50375,7 @@ rite = jacobite
 	# History
 	1100.1.1 = { culture = egyptian }
 	1171.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 
@@ -50391,7 +50391,7 @@ rite = jacobite
 
 6057 = {	#GIZA
 	culture = egyptian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	767.1.1 = {
 		special_building = the_pyramids_01
@@ -50399,7 +50399,7 @@ rite = jacobite
 	909.1.1 = {
 	rite = ismaili
 	}
-	1171.1.1 = { rite = ashari } 
+	1171.1.1 = { rite = shafii } 
 }
 
 6058 = {	#BUSIR
@@ -50412,7 +50412,7 @@ rite = jacobite
 
 6060 = {	#AL-FAYYUM
 	culture = egyptian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	
 }
@@ -50427,7 +50427,7 @@ rite = jacobite
 
 6063 = {	#AL-BAHNASA
 	culture = egyptian
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	1000.1.1 = { culture = saidi }
 }
@@ -50448,8 +50448,8 @@ rite = jacobite
 	culture = egyptian_coptic
 	rite = coptic
 	holding = castle_holding
-	#1171.1.1 = { rite = ashari}
-	1035.1.1 = { culture = saidi rite = ashari }
+	#1171.1.1 = { rite = shafii}
+	1035.1.1 = { culture = saidi rite = shafii }
 }
 
 6068 = {	#ANSINA
@@ -50464,7 +50464,7 @@ rite = jacobite
 	culture = egyptian_coptic
 	rite = coptic
 	holding = castle_holding
-	1075.1.1 = { culture = saidi rite = ashari }
+	1075.1.1 = { culture = saidi rite = shafii }
 	
 }
 
@@ -50479,7 +50479,7 @@ rite = jacobite
 	rite = coptic
 	
 	# History
-	1099.1.1 = { culture = saidi rite = ashari }
+	1099.1.1 = { culture = saidi rite = shafii }
 
 
 }
@@ -50528,7 +50528,7 @@ rite = jacobite
 	holding = castle_holding
 	
 	1171.1.1 = { culture = saidi }
-	1250.1.1 = { rite = ashari }
+	1250.1.1 = { rite = shafii }
 
 }
 
@@ -50542,7 +50542,7 @@ rite = jacobite
    holding = tribal_holding
    1030.1.1 = { 
        culture = siwi
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -50555,7 +50555,7 @@ rite = jacobite
    rite = coptic
    holding = tribal_holding
    1030.1.1 = { 
-       rite = ashari 
+       rite = shafii 
        culture = siwi
    }
 }
@@ -50576,10 +50576,10 @@ rite = jacobite
    rite = coptic
    holding = tribal_holding
    1050.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1171.1.1 = { 
-       rite = ashari 
+       rite = shafii 
    }
 }
 
@@ -50588,11 +50588,11 @@ rite = jacobite
    rite = coptic
    holding = tribal_holding
    1050.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1171.1.1 = { 
        culture = saidi 
-       rite = ashari 
+       rite = shafii 
    }
 }
 
@@ -50613,13 +50613,13 @@ rite = jacobite
 
 6093 = {    #SIWA
    culture = siwi  # Distinct Siwa Berber culture
-   rite = ashari
+   rite = shafii
    holding = tribal_holding
    909.1.1 = {
        rite = ismaili
    }
    1000.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    # Maintains Siwi culture throughout - isolated oasis
 }
@@ -50638,13 +50638,13 @@ rite = jacobite
 
 6097 = {    #SULLUM
    culture = luwata
-   rite = ashari
+   rite = shafii
    holding = tribal_holding
    909.1.1 = {
        rite = ismaili
    }
    1000.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1050.1.1 = {
        culture = maghrebi
@@ -50656,13 +50656,13 @@ rite = jacobite
 
 6098 = {    #TOBRUK
    culture = luwata
-   rite = ashari
+   rite = shafii
    holding = tribal_holding
    909.1.1 = {
        rite = ismaili
    }
    1000.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1050.1.1 = {
        culture = maghrebi
@@ -50674,13 +50674,13 @@ rite = jacobite
 
 6099 = {    #DERNA
    culture = luwata
-   rite = ashari
+   rite = shafii
    holding = castle_holding
    909.1.1 = {
        rite = ismaili
    }
    1000.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1050.1.1 = {
        holding = tribal_holding
@@ -50712,13 +50712,13 @@ rite = jacobite
 
 6104 = {    #BARQA-AL-MARJ
    culture = luwata
-   rite = ashari
+   rite = shafii
    holding = castle_holding
    909.1.1 = {
        rite = ismaili # Fatimid control
    }
    1000.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1050.1.1 = {
        holding = tribal_holding
@@ -50744,13 +50744,13 @@ rite = jacobite
 
 6106 = {    #AWJILA
    culture = luwata
-   rite = ashari
+   rite = shafii
    holding = tribal_holding
    909.1.1 = {
        rite = ismaili
    }
    1000.1.1 = {
-       rite = ashari
+       rite = shafii
    }
    1150.1.1 = {
 	   culture = libyan
@@ -50775,7 +50775,7 @@ rite = jacobite
 
 6109 = {	#QUSAYR
 	culture = badawi
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -50797,7 +50797,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin #beja
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -50807,7 +50807,7 @@ rite = jacobite
 	
 	# Misc
 	culture = bedouin #beja
-	rite = ashari
+	rite = shafii
 	
 	# History
 
@@ -50999,7 +50999,7 @@ rite = jacobite
 
 6154 = {	#AL-HASA
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	899.1.1 = {
 		rite = qarmatian
 	}
@@ -51055,7 +51055,7 @@ rite = jacobite
 
 6158 = {	#AL-QATIF
 	culture = bahraini
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
@@ -51078,7 +51078,7 @@ rite = jacobite
 
 6161 = {	#KAZIMA
 	culture = bahraini
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
@@ -51114,7 +51114,7 @@ rite = jacobite
 
 6168 = {	#ATH-THALABIYA
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51132,7 +51132,7 @@ rite = jacobite
 
 6172 = {	#HAIL
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51154,7 +51154,7 @@ rite = jacobite
 
 6178 = {	#AL-JAWF
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51199,7 +51199,7 @@ rite = jacobite
 
 6188 = {	#TABUK
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
@@ -51223,7 +51223,7 @@ rite = jacobite
 
 6192 = {	#TAYMA
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51374,7 +51374,7 @@ rite = jacobite
 
 6223 = {	#MAKKA	aka Mecca
 	culture = hejazi
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	769.1.1 = {
 		holding = castle_holding
@@ -51419,7 +51419,7 @@ rite = jacobite
 
 6229 = {	#AD-DATHINA
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51468,7 +51468,7 @@ rite = jacobite
 
 6240  = {	#ATTAR
 	culture = himyarite
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	1080.1.1 = {
 		culture = yemeni
@@ -51500,7 +51500,7 @@ rite = jacobite
 
 6244 = {	#WADI_TATHLITH
 	culture = hejazi
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51510,7 +51510,7 @@ rite = jacobite
 
 6246 = {	#AQIQ TAMRA
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51528,7 +51528,7 @@ rite = jacobite
 
 6250 = {	#FALAJ
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51542,13 +51542,13 @@ rite = jacobite
 
 6253 = {	#YAMAMA
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
 6254 = {	#AL-ARID
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51558,7 +51558,7 @@ rite = jacobite
 
 6257 = {	#NUFUD-AS-SURRAH
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51572,7 +51572,7 @@ rite = jacobite
 
 6260 = {	#AN-NIBAJ
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51582,7 +51582,7 @@ rite = jacobite
 
 6262 = {	#UNAYZA
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51596,7 +51596,7 @@ rite = jacobite
 
 6265 = {	#DARIYA
 	culture = bedouin
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -51677,7 +51677,7 @@ rite = jacobite
 
 6280  = {	#ZABID
 	culture = yemeni
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	769.1.1 = {
 		special_building = generic_university
@@ -51690,7 +51690,7 @@ rite = jacobite
 
 6282  = {	#AL MANDAB
 	culture = yemeni
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -51700,7 +51700,7 @@ rite = jacobite
 
 6284  = {	#TAIZ
 	culture = yemeni
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
@@ -51741,7 +51741,7 @@ rite = jacobite
 
 6291  = {	#SAQRA
 	culture = yemeni
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -51777,7 +51777,7 @@ rite = jacobite
 
 6299 = {	#MAIN
 	culture = hadhrami
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 	
 	850.1.1 = { rite = zayidi }
@@ -51785,7 +51785,7 @@ rite = jacobite
 
 6300 = {	#WABAR
 	culture = hadhrami
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 	
 	850.1.1 = { rite = zayidi }
@@ -51893,7 +51893,7 @@ rite = jacobite
 	rite = nubian_orthodox
 	holding = castle_holding
 	
-	1300.1.1 = { rite = ashari }
+	1300.1.1 = { rite = shafii }
 	
 }
 
@@ -51918,7 +51918,7 @@ rite = jacobite
 	rite = nubian_orthodox
 	holding = castle_holding
 	
-	1300.1.1 = { rite = ashari }
+	1300.1.1 = { rite = shafii }
 	
 }
 
@@ -51931,7 +51931,7 @@ rite = jacobite
 	rite = nubian_orthodox
 	holding = castle_holding
 	
-	1300.1.1 = { rite = ashari }
+	1300.1.1 = { rite = shafii }
 	
 }
 
@@ -51940,7 +51940,7 @@ rite = jacobite
 	rite = nubian_orthodox
 	holding = castle_holding
 	
-	1300.1.1 = { rite = ashari }
+	1300.1.1 = { rite = shafii }
 	
 }
 
@@ -52073,7 +52073,7 @@ rite = jacobite
 	rite = nubian_orthodox
 	holding = castle_holding
 	
-	1300.1.1 = { rite = ashari }
+	1300.1.1 = { rite = shafii }
 	
 }
 
@@ -52120,7 +52120,7 @@ rite = jacobite
 	rite = beja_pagan
 	
 	# History
-	1090.1.1 = { rite = ashari }
+	1090.1.1 = { rite = shafii }
 	}
 
 6375 = {
@@ -52129,7 +52129,7 @@ rite = jacobite
 	rite = beja_pagan
 	
 	# History
-	1090.1.1 = { rite = ashari }
+	1090.1.1 = { rite = shafii }
 	1300.1.1 = {
 		holding = castle_holding
 	}
@@ -52141,14 +52141,14 @@ rite = jacobite
 	rite = beja_pagan
 	
 	# History
-	1090.1.1 = { rite = ashari }
+	1090.1.1 = { rite = shafii }
 }
 
 6377 = {	# 6377 - SUAKIN
 	
 	# Misc
 	culture = hejazi
-	rite = ashari
+	rite = shafii
 	
 	# History
 	
@@ -52156,7 +52156,7 @@ rite = jacobite
 		holding = castle_holding
 	}
 	
-	1230.1.1 = { rite = ashari } #Muslim rulers of Sawakin since the 13th century
+	1230.1.1 = { rite = shafii } #Muslim rulers of Sawakin since the 13th century
 	
 }
 
@@ -52166,7 +52166,7 @@ rite = jacobite
 	rite = beja_pagan
 	
 	# History
-	1090.1.1 = { rite = ashari }
+	1090.1.1 = { rite = shafii }
 }
 
 6380 = {	# 6380 - BADI
@@ -52337,7 +52337,7 @@ rite = jacobite
 	rite = kushitism_pagan
 	holding = castle_holding
 	#1150.1.1 = {
-	#	rite = ashari
+	#	rite = shafii
 	#}
 }
 
@@ -52428,7 +52428,7 @@ rite = jacobite
    holding = tribal_holding
    1050.1.1 = {
        culture = tuareg
-	   rite = ashari
+	   rite = shafii
    }
 }
 
@@ -52442,7 +52442,7 @@ rite = jacobite
    holding = tribal_holding
    1000.1.1 = {
        culture = tuareg
-	   rite = ashari
+	   rite = shafii
    }
 }
 
@@ -52456,7 +52456,7 @@ rite = jacobite
    holding = tribal_holding
    1000.1.1 = {
        culture = tuareg
-	   rite = ashari
+	   rite = shafii
    }
 }
 
@@ -52558,7 +52558,7 @@ rite = jacobite
 	
 	#History
 	1000.1.1 = {
-       rite = ashari
+       rite = shafii
    }
 }
 
@@ -52571,7 +52571,7 @@ rite = jacobite
 	#History
 	1100.1.1 = {
        culture = zanata
-	   rite = ashari
+	   rite = shafii
    }
 }
 
@@ -52585,7 +52585,7 @@ rite = jacobite
 	rite = wahbiya
 	holding = tribal_holding
 	1050.1.1 = {
-		rite = ashari
+		rite = shafii
 	} #Almoravid
 }
 
@@ -52598,7 +52598,7 @@ rite = jacobite
 	#	holding = castle_holding
 	#}
 	1050.1.1 = {
-		rite = ashari
+		rite = shafii
 	} #Almoravid
 }
 
@@ -52615,7 +52615,7 @@ rite = jacobite
 	#	holding = castle_holding
 	#}
 	1050.1.1 = {
-		rite = ashari
+		rite = shafii
 	} #Almoravid
 }
 
@@ -52625,7 +52625,7 @@ rite = jacobite
 	rite = wahbiya
 	holding = tribal_holding
 	1050.1.1 = {
-		rite = ashari
+		rite = shafii
 	} #Almoravid
 }
 
@@ -52641,7 +52641,7 @@ rite = jacobite
 		special_building = ijil_mines_01
 	}
 	1050.1.1 = {
-		rite = ashari
+		rite = shafii
 	} #Almoravid
 	
 }
@@ -52655,7 +52655,7 @@ rite = jacobite
 		rite = wahbiya 
 	}
 	1050.1.1 = {
-		rite = ashari
+		rite = shafii
 	} #Almoravid
 }
 
@@ -52673,7 +52673,7 @@ rite = jacobite
 	rite = amazigh_pagan
 	holding = tribal_holding
 	1050.1.1 = {
-		rite = ashari
+		rite = shafii
 	} #Almoravid
 }
 
@@ -52687,7 +52687,7 @@ rite = jacobite
 	rite = amazigh_pagan
 	holding = tribal_holding
 	1050.1.1 = {
-		rite = ashari
+		rite = shafii
 	} #Almoravid
 }
 
@@ -56316,7 +56316,7 @@ rite = jacobite
 	rite = idoism_pagan
 	
 	# History
-	#1097.1.1 = { rite = ashari }
+	#1097.1.1 = { rite = shafii }
 
 }
 
@@ -57394,7 +57394,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7066 = {	#Azgyl
@@ -57431,7 +57431,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7071 = {	#Chumishtikul
@@ -57568,7 +57568,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = tatars
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7095 = {	# 7095 - Barsuki
@@ -57589,7 +57589,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = tatars
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7096 = {	# HEJIAN
@@ -57618,7 +57618,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = chagatai
 	}
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 }
 
 7099 = {	#Airyuk
@@ -57638,7 +57638,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = tatars
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7100 = {	#Irgis
@@ -57668,7 +57668,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = tatars
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7104 = {	# 7104 - Kalmas
@@ -57726,7 +57726,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = chagatai
 	}
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 }
 
 7112 = {	#Kara-Mugai
@@ -57803,7 +57803,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = chagatai
 	}
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 }
 
 7124 = {	#Oktyabr
@@ -57826,7 +57826,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = chagatai
 	}
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 }
 
 7126 = {	#Sawran
@@ -57863,7 +57863,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = chagatai
 	}
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 }
 
 7130 = {	#Sary-Ozek
@@ -57895,7 +57895,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = chagatai
 	}
-	1300.1.1 = { rite = maturidi }
+	1300.1.1 = { rite = hanafi }
 }
 
 7134 = {	#Akkum
@@ -57953,7 +57953,7 @@ rite = jacobite
 		rite = tengri_pagan
 	}
 	950.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		#culture = kipchak
 	}
 	1300.1.1 = {
@@ -57974,7 +57974,7 @@ rite = jacobite
 		culture = karluk
 	}
 	1055.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1250.1.1 = {
 		culture = kirghiz
@@ -58027,7 +58027,7 @@ rite = jacobite
 	
 	# History
 	950.1.1 = {
-		rite = maturidi
+		rite = hanafi
 		culture = chigil
 	}
 	1250.1.1 = {
@@ -58055,7 +58055,7 @@ rite = jacobite
 	
 	# History
 	1080.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1066.1.1 = {
 
@@ -58098,7 +58098,7 @@ rite = jacobite
 		culture = kipchak
 	}
 	1055.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1250.1.1 = {
 		culture = kirghiz
@@ -58133,7 +58133,7 @@ rite = jacobite
 	
 	# History
 	934.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	#1134.1.1 = { #The Khitan migration didn't make all of central Asia Khitan
 	#	culture = qitai
@@ -58154,7 +58154,7 @@ rite = jacobite
 	
 	# History
 	934.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	#1134.1.1 = { #The Khitan migration didn't make all of central Asia Khitan
 	#	culture = qitai
@@ -58179,7 +58179,7 @@ rite = jacobite
 	
 	# History
 	1080.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1066.1.1 = {
 	holding = castle_holding
@@ -58223,7 +58223,7 @@ rite = jacobite
 	
 	# History
 	934.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1134.1.1 = {
 		culture = qitai
@@ -58267,7 +58267,7 @@ rite = jacobite
 	
 	# History
 	934.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1134.1.1 = {
 		culture = qitai
@@ -58368,7 +58368,7 @@ rite = jacobite
 	rite = tengri_pagan
 	holding = tribal_holding
 	934.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1066.1.1 = {
 		culture = yenisei_kirghiz
@@ -58393,7 +58393,7 @@ rite = jacobite
 	
 	# History
 	934.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 	1066.1.1 = {
 		culture = yenisei_kirghiz
@@ -58561,7 +58561,7 @@ rite = jacobite
 	
 	# History
 	1080.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -58625,7 +58625,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7222 = {	#Taisugan
@@ -58655,7 +58655,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7225 = {	#Isanbai
@@ -58689,7 +58689,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7228 = {	#Hyan
@@ -58732,7 +58732,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7234 = {	#Temir
@@ -58776,7 +58776,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = nogai
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 }
 
 7239 = {	# 7239 - Kos Uba
@@ -58795,7 +58795,7 @@ rite = jacobite
 	1300.1.1 = {
 		culture = tatars
 	}
-	1320.1.1 = { rite = maturidi }
+	1320.1.1 = { rite = hanafi }
 
 }
 
@@ -66386,7 +66386,7 @@ rite = jacobite
 	# History
 	1006.1.1 = {
 		culture = uyghur
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -66401,7 +66401,7 @@ rite = jacobite
 	# History
 	1006.1.1 = {
 		culture = uyghur
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -66416,13 +66416,13 @@ rite = jacobite
 	# History
 	1006.1.1 = {
 		culture = uyghur
-		rite = maturidi
+		rite = hanafi
 	}
 	1233.1.1 = {
 		rite = nestorian
 	}	#Strong Nestorian presence recorded by Marco Polo
 	1360.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	#Tughlugh Timur Khan reinforces Islam in Chagatai
 
 }
@@ -66438,7 +66438,7 @@ rite = jacobite
 	# History
 	1006.1.1 = {
 		culture = uyghur
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -66461,13 +66461,13 @@ rite = jacobite
 	# History
 	1006.1.1 = {
 		culture = uyghur
-		rite = maturidi
+		rite = hanafi
 	}
 	1233.1.1 = {
 		rite = nestorian
 	}	#Strong Nestorian presence recorded by Marco Polo
 	1360.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	#Tughlugh Timur Khan reinforces Islam in Chagatai
 
 }
@@ -66484,12 +66484,12 @@ rite = jacobite
 	1000.1.1 = {
 		culture = karluk
 	}
-	1115.1.1 = {	rite = maturidi }
+	1115.1.1 = {	rite = hanafi }
 	1233.1.1 = {
 		rite = nestorian
 	}	#Strong Nestorian presence recorded by Marco Polo
 	1360.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	#Tughlugh Timur Khan reinforces Islam in Chagatai
 	1300.1.1 = {
 		culture = chagatai
@@ -66507,13 +66507,13 @@ rite = jacobite
 	# History
 	1006.1.1 = {
 		culture = uyghur
-		rite = maturidi
+		rite = hanafi
 	}
 	1233.1.1 = {
 		rite = nestorian
 	}	#Strong Nestorian presence recorded by Marco Polo
 	1360.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	#Tughlugh Timur Khan reinforces Islam in Chagatai
 
 }
@@ -66527,7 +66527,7 @@ rite = jacobite
 	holding = castle_holding
 	
 	# History
-	1020.1.1 = {rite = maturidi } #major Buddhist revolt ca. 970
+	1020.1.1 = {rite = hanafi } #major Buddhist revolt ca. 970
 	1050.1.1 = { culture = kashgari }
 	1066.1.1 = {
 		buildings = {
@@ -66543,7 +66543,7 @@ rite = jacobite
 		culture = chagatai
 	}
 	1360.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}	#Tughlugh Timur Khan reinforces Islam in Chagatai
 	
 }
@@ -66561,7 +66561,7 @@ rite = jacobite
 		culture = uyghur
 	}
 	1006.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -66578,7 +66578,7 @@ rite = jacobite
 		culture = uyghur
 	}
 	1006.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -66595,7 +66595,7 @@ rite = jacobite
 		culture = uyghur
 	}
 	1006.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -66612,7 +66612,7 @@ rite = jacobite
 		culture = uyghur
 	}
 	1006.1.1 = {
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -66717,7 +66717,7 @@ rite = jacobite
 	# History
 950.1.1 = {	culture = uyghur }
 1200.1.1 = {
-	rite = maturidi
+	rite = hanafi
 	
 }
 1250.1.1 = { culture = karluk }
@@ -67344,7 +67344,7 @@ rite = jacobite
 
 8280 = {	#DAHLAK_KEBIR
 	culture = hejazi
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -67372,7 +67372,7 @@ rite = jacobite
 
 8286 = {	#BURI
 	culture = afar
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -67584,9 +67584,9 @@ rite = jacobite
 
 8332 = {	#EDD
 	culture = afar
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
-	#1030.1.1 = { rite = ashari }
+	#1030.1.1 = { rite = shafii }
 }
 
 8333 = {	#RAGALI
@@ -67632,7 +67632,7 @@ rite = jacobite
 
 8342 = {	#TADJOURA
 	culture = afar
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 }
 
@@ -67659,7 +67659,7 @@ rite = jacobite
 
 8347 = {	#IFAT
 	culture = argobba
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 }
 
@@ -67685,7 +67685,7 @@ rite = jacobite
 	holding = castle_holding
 	
 	1066.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -67704,7 +67704,7 @@ rite = jacobite
 	holding = tribal_holding
 	#holding = castle_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 	1300.1.1 = {
 		holding = castle_holding
@@ -67719,7 +67719,7 @@ rite = jacobite
 		holding = castle_holding
 	}
 	1140.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -67731,7 +67731,7 @@ rite = jacobite
 		holding = castle_holding
 	}
 	1140.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -67851,7 +67851,7 @@ rite = jacobite
 	culture = ethiopian
 	rite = waaqism_pagan
 	holding = castle_holding
-	890.1.1 = { rite = ashari }
+	890.1.1 = { rite = shafii }
 }
 
 8379 = {	#BURJI
@@ -67877,7 +67877,7 @@ rite = jacobite
 	rite = waaqism_pagan
 	holding = tribal_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -67927,7 +67927,7 @@ rite = jacobite
 	holding = tribal_holding
 	#holding = castle_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -67964,7 +67964,7 @@ rite = jacobite
 
 8400 = {	#ZAILA
 	culture = somali
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
@@ -67996,7 +67996,7 @@ rite = jacobite
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68007,7 +68007,7 @@ rite = jacobite
 
 8406 = {	#DAKKAR
 	culture = harla
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	
 	1275.1.1 = {
@@ -68017,7 +68017,7 @@ rite = jacobite
 
 8407 = {	#HARAR
 	culture = harla
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	1275.1.1 = {
 		culture = harar
@@ -68029,7 +68029,7 @@ rite = jacobite
 	rite = waaqism_pagan
 	holding = castle_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68091,7 +68091,7 @@ rite = jacobite
 	rite = waaqism_pagan
 	holding = tribal_holding
 	#1030.1.1 = {
-	#	rite = ashari
+	#	rite = shafii
 	#}
 }
 
@@ -68109,7 +68109,7 @@ rite = jacobite
 	holding = tribal_holding
 	1066.1.1 = {
 		#holding = castle_holding
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68119,7 +68119,7 @@ rite = jacobite
 	holding = tribal_holding
 	1066.1.1 = {
 		#holding = castle_holding
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68145,7 +68145,7 @@ rite = jacobite
 	holding = tribal_holding
 	1066.1.1 = {
 		#holding = castle_holding
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68155,10 +68155,10 @@ rite = jacobite
 
 8432 = {	#RAS_HAFUN
 	culture = somali
-	rite = ashari
+	rite = shafii
 	holding = tribal_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68178,7 +68178,7 @@ rite = jacobite
 	rite = fandaanano
 	holding = tribal_holding
 	#1030.1.1 = {
-	#	rite = ashari
+	#	rite = shafii
 	#}
 }
 
@@ -68233,7 +68233,7 @@ rite = jacobite
 	rite = waaqism_pagan
 	holding = tribal_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68269,7 +68269,7 @@ rite = jacobite
 
 8463 = {	#MOGADISHU
 	culture = somali
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	1066.1.1 = {
 		buildings = {
@@ -68293,7 +68293,7 @@ rite = jacobite
 	rite = waaqism_pagan
 	holding = tribal_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68307,7 +68307,7 @@ rite = jacobite
 	holding = tribal_holding
 	#holding = castle_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68316,7 +68316,7 @@ rite = jacobite
 	rite = waaqism_pagan
 	holding = castle_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68325,7 +68325,7 @@ rite = jacobite
 	rite = waaqism_pagan
 	holding = tribal_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -68342,7 +68342,7 @@ rite = jacobite
 	rite = waaqism_pagan
 	holding = tribal_holding
 	1030.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -75283,7 +75283,7 @@ rite = jacobite
 	# History
 	1300.1.1 = {
 		culture = salar
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -77280,7 +77280,7 @@ rite = jacobite
 	# History
 	1006.1.1 = {
 		culture = uyghur
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -77295,7 +77295,7 @@ rite = jacobite
 	# History
 	1006.1.1 = {
 		culture = uyghur
-		rite = maturidi
+		rite = hanafi
 	}
 }
 
@@ -77333,7 +77333,7 @@ rite = jacobite
 	
 	# History
 1080.1.1 = {	culture = karluk }
-1080.1.1 = {	rite = maturidi }
+1080.1.1 = {	rite = hanafi }
 1300.1.1 = {
 		culture = chagatai
 	}
@@ -77361,7 +77361,7 @@ rite = jacobite
 	holding = castle_holding
 	
 	# History
-	1080.1.1 = {	rite = maturidi } #major Buddhist revolt ca. 1050
+	1080.1.1 = {	rite = hanafi } #major Buddhist revolt ca. 1050
 	1100.1.1 = {	culture = karluk }
 	1066.1.1 = {
 			buildings = {
@@ -77468,7 +77468,7 @@ rite = jacobite
 	holding = castle_holding
 	
 	# History
-1080.1.1 = {	rite = maturidi } #major Buddhist revolt ca. 1050
+1080.1.1 = {	rite = hanafi } #major Buddhist revolt ca. 1050
 1100.1.1 = {	culture = karluk }
 1300.1.1 = {
 		culture = chagatai
@@ -78332,7 +78332,7 @@ rite = jacobite
 	holding = castle_holding
 	874.1.24 = {
 		culture = siqilli
-		rite = ashari
+		rite = shafii
 	}
 	1102.1.1 = {
 		culture = sicilian
@@ -78346,7 +78346,7 @@ rite = jacobite
 	holding = castle_holding
 	874.1.24 = {
 		culture = siqilli
-		rite = ashari
+		rite = shafii
 	}
 	1102.1.1 = {
 		culture = sicilian
@@ -78360,7 +78360,7 @@ rite = jacobite
 	holding = castle_holding
 	869.1.1 = {
 		culture = siqilli
-		rite = ashari
+		rite = shafii
 	}
 	1070.1.1 = {
 		culture = sicilian
@@ -78374,7 +78374,7 @@ rite = jacobite
 	holding = castle_holding
 	869.1.1 = {
 		culture = siqilli
-		rite = ashari
+		rite = shafii
 	}
 	1070.1.1 = {
 		culture = sicilian
@@ -78706,7 +78706,7 @@ rite = jacobite
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -78714,7 +78714,7 @@ rite = jacobite
 9774 = {	# Faro
 	#Misc	
 	culture = visigothic
-	rite = muwalladi
+	rite = maliki
 	
 	holding = city_holding
 	
@@ -78742,7 +78742,7 @@ rite = jacobite
 	# History
 	944.1.1 = {
 		culture = andalusian
-		rite = muwalladi
+		rite = maliki
 	}
 	1163.1.1 = {
 		culture = portuguese
@@ -79236,7 +79236,7 @@ rite = catholic
 	#1337.1.1 = { b_kypsela = castle }
 	
 	1382.1.1 = { culture = turkish }
-	1382.1.1 = { rite = ashari }
+	1382.1.1 = { rite = shafii }
 }
 
 9830 = {		#Hagia Sophia - Mainly just to land the Ecumenical Patriarch. Special building in Constantinople due to bonuses
@@ -79450,9 +79450,9 @@ rite = catholic
 	rite = jerusalem_melkite
 	holding = castle_holding
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1140.1.1 = { rite = catholic culture = outremer }
-	1295.1.1 = { rite = ashari culture = levantine }
+	1295.1.1 = { rite = shafii culture = levantine }
 
 }
 
@@ -79460,7 +79460,7 @@ rite = catholic
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	# History
 
@@ -79474,9 +79474,9 @@ rite = catholic
 	holding = castle_holding
 	
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1140.1.1 = { rite = catholic culture = outremer }
-	1295.1.1 = { rite = ashari culture = levantine }
+	1295.1.1 = { rite = shafii culture = levantine }
 
 }
 
@@ -79487,11 +79487,11 @@ rite = catholic
 	rite = jerusalem_melkite
 	holding = castle_holding
 	# History
-	769.1.1 = { rite = ashari 
+	769.1.1 = { rite = shafii 
 		special_building_slot = port_yaffa_01
 		special_building = port_yaffa_01}
 	1140.1.1 = { rite = catholic culture = outremer }
-	1295.1.1 = { rite = ashari culture = levantine }
+	1295.1.1 = { rite = shafii culture = levantine }
 
 }
 
@@ -79502,7 +79502,7 @@ rite = catholic
 	rite = jerusalem_melkite
 	holding = church_holding
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 
 }
 
@@ -79513,9 +79513,9 @@ rite = catholic
 	rite = jerusalem_melkite
 	holding = castle_holding
 	# History
-	867.1.1 = { rite = ashari }
+	867.1.1 = { rite = shafii }
 	1140.1.1 = { rite = catholic culture = outremer }
-	1295.1.1 = { rite = ashari culture = levantine }
+	1295.1.1 = { rite = shafii culture = levantine }
 
 }
 
@@ -79523,7 +79523,7 @@ rite = catholic
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	holding = castle_holding
 	# History
 
@@ -79533,7 +79533,7 @@ rite = catholic
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	holding = church_holding
 	# History
 
@@ -79543,7 +79543,7 @@ rite = catholic
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	# History
 	769.1.1 = {
@@ -79558,7 +79558,7 @@ rite = catholic
 	
 	# Misc
 	culture = levantine
-	rite = ashari
+	rite = shafii
 	
 	769.1.1 = {
 		holding = castle_holding	
@@ -79595,7 +79595,7 @@ rite = catholic
 	rite = jerusalem_melkite
 	holding = castle_holding
 	# History
-	1295.1.1 = { rite = ashari }
+	1295.1.1 = { rite = shafii }
 
 }
 
@@ -79643,7 +79643,7 @@ rite = catholic
 			watchtowers_01
 		}
 	}
-	#1295.1.1 = { rite = ashari }
+	#1295.1.1 = { rite = shafii }
 
 }
 
@@ -79660,7 +79660,7 @@ rite = catholic
 	1286.1.1 = {
 		holding = church_holding
 	}
-	1295.1.1 = { rite = ashari }
+	1295.1.1 = { rite = shafii }
 
 }
 
@@ -79672,7 +79672,7 @@ rite = catholic
 	holding = castle_holding
 	# History
 	#1268.1.1 = { culture = levantine }
-	#1268.1.1 = { rite = ashari }
+	#1268.1.1 = { rite = shafii }
 
 }
 
@@ -79946,7 +79946,7 @@ rite = catholic
 	}
 	1084.1.1 = {
 		culture = kurdish
-		rite = ashari
+		rite = shafii
 	}
 	1124.1.1 = {
 		culture = georgian
@@ -80008,7 +80008,7 @@ rite = catholic
 	
 	# History
 	900.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -80023,7 +80023,7 @@ rite = catholic
 	
 	# History
 	
-	1150.1.1 = { culture = azeri rite = ashari }
+	1150.1.1 = { culture = azeri rite = shafii }
 	1320.1.1 = { rite = ismaili }
 	
 }
@@ -80038,7 +80038,7 @@ rite = catholic
 	
 	# History
 	900.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 
 }
@@ -80391,7 +80391,7 @@ rite = catholic
 	# History
 	1100.1.1 = {
 		culture = turkish
-		rite = maturidi
+		rite = hanafi
 	}
 
 }
@@ -80643,7 +80643,7 @@ rite = catholic
 10148 = {	# Faro
 	#Misc	
 	culture = visigothic
-	rite = muwalladi
+	rite = maliki
 	
 	holding = church_holding
 	
@@ -80665,7 +80665,7 @@ rite = catholic
 	holding = church_holding
 	
 	# History
-	811.1.1 = { rite = muwalladi }
+	811.1.1 = { rite = maliki }
 	936.1.1 = { culture = andalusian }
 	1264.1.1 = {
 		culture = portuguese
@@ -80676,11 +80676,11 @@ rite = catholic
 10150 = {	# BEJA
 	holding = church_holding
 	culture = andalusian
-	rite = muwalladi
+	rite = maliki
 		# History
 	944.1.1 = {
 		culture = andalusian
-		rite = muwalladi
+		rite = maliki
 	}
 	1163.1.1 = {
 		culture = portuguese
@@ -80696,13 +80696,13 @@ rite = catholic
 	holding = city_holding
 	# Misc
 	culture = visigothic
-	rite = muwalladi
+	rite = maliki
 	
 	
 	# History
 	936.1.1 = {
 		culture = andalusian
-		rite = muwalladi
+		rite = maliki
 	}
 	1233.1.1 = {
 		culture = portuguese
@@ -80713,12 +80713,12 @@ rite = catholic
 10153 = {	# Lisboa
 	# Misc
 	culture = visigothic
-	rite = muwalladi
+	rite = maliki
 	
 	# History
 	936.1.1 = {
 		culture = andalusian
-		rite = muwalladi
+		rite = maliki
 	}
 	1163.1.1 = {
 		culture = portuguese
@@ -86192,7 +86192,7 @@ rite = catholic
 		holding = castle_holding
 	}
 	1267.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -86212,7 +86212,7 @@ rite = catholic
 		holding = castle_holding
 	}
 	840.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -86965,7 +86965,7 @@ rite = catholic
 	rite = shaivism
 	holding = temple_citadel_holding
 	1130.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -91200,7 +91200,7 @@ rite = catholic
 		rite = sukhavati
 	}
 	1337.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -91220,7 +91220,7 @@ rite = catholic
 	}
 
 	1337.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -94646,7 +94646,7 @@ rite = catholic
 	}
 
 	1100.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -94667,7 +94667,7 @@ rite = catholic
 	special_building = swahili_port_lamu
 
 	1100.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -94728,7 +94728,7 @@ rite = catholic
 	special_building = swahili_port_mombasa
 
 	1200.1.1 = {
-		rite = ashari # urbanization begins in the 11th century, stone houses in the 13th century
+		rite = shafii # urbanization begins in the 11th century, stone houses in the 13th century
 	}
 }
 
@@ -94756,7 +94756,7 @@ rite = catholic
 	holding = castle_holding
 
 	1100.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 
@@ -94782,7 +94782,7 @@ rite = catholic
 	special_building = swahili_port_zanzibar
 
 	1000.1.1 = {
-		rite = ashari
+		rite = shafii
 	}
 }
 

@@ -91,7 +91,7 @@ rite = tengri_pagan
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { religion = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -136,7 +136,7 @@ rite = tengri_pagan
 1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman } 
-1227.1.1 = { religion = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -163,7 +163,7 @@ rite = tengri_pagan
 1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman } 
-1227.1.1 = { religion = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -221,7 +221,7 @@ rite = tengri_pagan
 # History
 808.1.1 = { rite = kabarism }
 
-1220.1.1 = { religion = maturidi }
+1220.1.1 = { rite = hanafi }
 #Mongol invasion
 1300.1.1 = {
 		culture = nogai
@@ -609,7 +609,7 @@ rite = tengri_pagan
 # History
 808.1.1 = { rite = kabarism }
 
-1220.1.1 = { religion = maturidi }
+1220.1.1 = { rite = hanafi }
 #Mongol invasion
 1300.1.1 = {
 		culture = nogai
@@ -629,7 +629,7 @@ rite = tengri_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
-		religion = maturidi	
+		rite = hanafi	
 	}
 	
 }
@@ -664,7 +664,7 @@ holding = tribal_holding
 # History
 808.1.1 = { rite = kabarism }
 
-1089.1.1 = { religion = maturidi }
+1089.1.1 = { rite = hanafi }
 
 }
 
@@ -692,7 +692,7 @@ holding = tribal_holding
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
-		religion = maturidi	
+		rite = hanafi	
 	}
 	
 }
@@ -713,7 +713,7 @@ holding = tribal_holding
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
-		religion = maturidi	
+		rite = hanafi	
 	}
 	
 }
@@ -744,7 +744,7 @@ holding = tribal_holding
 # History
 808.1.1 = { rite = kabarism }
 
-1089.1.1 = { religion = maturidi }
+1089.1.1 = { rite = hanafi }
 
 }
 
@@ -760,7 +760,7 @@ holding = tribal_holding
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
-		religion = maturidi	
+		rite = hanafi	
 	}
 	
 }
@@ -771,7 +771,7 @@ culture = lezgi
 rite = nakh_pagan
 
 # History
-1089.1.1 = { religion = maturidi }
+1089.1.1 = { rite = hanafi }
 1259.1.1 = { rite = ismaili }
 
 	holding = castle_holding
@@ -803,7 +803,7 @@ culture = lezgi
 rite = nakh_pagan
 
 # History
-1089.1.1 = { religion = maturidi }
+1089.1.1 = { rite = hanafi }
 1259.1.1 = { rite = ismaili }
 
 	holding = castle_holding
@@ -827,7 +827,7 @@ culture = lezgi
 rite = nakh_pagan
 
 # History
-1089.1.1 = { religion = maturidi }
+1089.1.1 = { rite = hanafi }
 1259.1.1 = { rite = ismaili }
 
 	holding = castle_holding
@@ -926,7 +926,7 @@ holding = tribal_holding
 # History
 808.1.1 = { rite = kabarism }
 
-1089.1.1 = { religion = maturidi }
+1089.1.1 = { rite = hanafi }
 
 }
 
@@ -944,7 +944,7 @@ holding = tribal_holding
 1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman } 
-1227.1.1 = { religion = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -963,7 +963,7 @@ rite = tengri_pagan
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { religion = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -982,7 +982,7 @@ rite = tengri_pagan
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { religion = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -1001,7 +1001,7 @@ rite = tengri_pagan
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { religion = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -1019,7 +1019,7 @@ rite = tengri_pagan
 # History
 893.1.1 = { culture = pecheneg }
 1044.1.1 = { culture = cuman }
-1227.1.1 = { religion = maturidi } 
+1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -1070,7 +1070,7 @@ rite = tengri_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
-		religion = maturidi	
+		rite = hanafi	
 	}
 	
 }

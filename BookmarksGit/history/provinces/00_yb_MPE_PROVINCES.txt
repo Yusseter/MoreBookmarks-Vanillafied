@@ -322,7 +322,7 @@ rite = khabzism
 	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
-		religion = georgian_orthodox
+		rite = georgian_rite
 	}
 	1187.1.1 = {
 		holding = castle_holding
@@ -342,7 +342,7 @@ rite = khabzism
 	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
-		religion = georgian_orthodox
+		rite = georgian_rite
 	}
 	1187.1.1 = {
 		holding = castle_holding
@@ -358,7 +358,7 @@ rite = khabzism
 	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
-		religion = georgian_orthodox
+		rite = georgian_rite
 	}
 	1187.1.1 = {
 		holding = castle_holding
@@ -374,7 +374,7 @@ rite = khabzism
 	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
-		religion = georgian_orthodox
+		rite = georgian_rite
 	}
 	1187.1.1 = {
 		holding = castle_holding
@@ -397,7 +397,7 @@ rite = khabzism
 	
 	# History
 
-	1320.1.1 = { religion = georgian_orthodox }
+	1320.1.1 = { rite = georgian_rite }
 }
 
 13285 = { #b_chegem # Yusseter: MPE_21411
@@ -418,7 +418,7 @@ rite = khabzism
 	
 	# History
 
-	1320.1.1 = { religion = georgian_orthodox }
+	1320.1.1 = { rite = georgian_rite }
 }
 
 13288 = { #b_etzeri # Yusseter: MPE_21414
@@ -442,7 +442,7 @@ rite = khabzism
 	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
-		religion = georgian_orthodox
+		rite = georgian_rite
 	}
 	1187.1.1 = {
 		holding = castle_holding
@@ -466,7 +466,7 @@ rite = khabzism
 	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
-		religion = georgian_orthodox
+		rite = georgian_rite
 	}
 	1187.1.1 = {
 		holding = castle_holding
@@ -515,7 +515,7 @@ rite = khabzism
 	
 	# History
 	965.1.2 = {
-		religion = circassian_christianity
+		rite = circassian_rite
 	}
 	1187.1.1 = {
 		holding = castle_holding
@@ -544,7 +544,7 @@ rite = khabzism
 	
 	# History
 	965.1.2 = {
-		religion = circassian_christianity
+		rite = circassian_rite
 	}
 	1187.1.1 = {
 		holding = castle_holding
@@ -565,7 +565,7 @@ rite = khabzism
 	
 	# History
 	965.1.2 = {
-		religion = circassian_christianity
+		rite = circassian_rite
 	}
 	1187.1.1 = {
 		holding = castle_holding
@@ -580,7 +580,7 @@ rite = khabzism
 	
 	# Misc
 	culture = circassian
-	religion = georgian_orthodox
+	rite = georgian_rite
 	
 	holding = castle_holding
 	
@@ -897,7 +897,7 @@ rite = nakh_pagan
 	
 	# History
 
-	1320.1.1 = { religion = georgian_orthodox }
+	1320.1.1 = { rite = georgian_rite }
 }
 
 5302 = { # b_digora # Yusseter: MPE province history asil_mod donor c_cabardinia/603
@@ -905,7 +905,7 @@ rite = nakh_pagan
 	rite = alan_pagan
 	holding = tribal_holding
 	965.1.2 = {
-		religion = georgian_orthodox
+		rite = georgian_rite
 	}
 	1187.1.1 = {
 		holding = castle_holding
@@ -1053,7 +1053,7 @@ rite = tengri_pagan
 	
 	# History
 
-	1320.1.1 = { religion = georgian_orthodox }
+	1320.1.1 = { rite = georgian_rite }
 }
 
 5344 = { # b_petigoria # Yusseter: MPE county capital donor same_county_barony:b_majar

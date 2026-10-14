@@ -276,7 +276,6 @@
 32 = {	# Misc
 	culture = irish
 	rite = insular_celtic
-	terrain = hills
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
@@ -1595,7 +1594,6 @@ holding = church_holding
 	# Misc
 	culture = karelian
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -1623,7 +1621,6 @@ holding = church_holding
 	# Misc
 	culture = karelian
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -1635,7 +1632,6 @@ holding = church_holding
 	# Misc
 	culture = karelian
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = slavic_rite }
@@ -1726,7 +1722,6 @@ holding = church_holding
 	# Misc
 	culture = karelian
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -1754,7 +1749,6 @@ holding = church_holding
 	# Misc
 	culture = finnish
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1158.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -1767,7 +1761,6 @@ holding = church_holding
 	# Misc
 	culture = finnish
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1158.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -1799,7 +1792,6 @@ holding = church_holding
 	# Misc
 	culture = finnish
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1158.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -1812,7 +1804,6 @@ holding = church_holding
 	# Misc
 	culture = karelian
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -1824,7 +1815,6 @@ holding = church_holding
 	# Misc
 	culture = karelian
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -1836,7 +1826,6 @@ holding = church_holding
 	# Misc
 	culture = karelian
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -1864,7 +1853,6 @@ holding = church_holding
 	# Misc
 	culture = karelian
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -1974,7 +1962,6 @@ holding = church_holding
 	# Misc
 	culture = karelian
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -2008,7 +1995,6 @@ holding = church_holding
 	# Misc
 	culture = finnish
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -2020,7 +2006,6 @@ holding = church_holding
 	# Misc
 	culture = karelian
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1292.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -2045,7 +2030,6 @@ holding = church_holding
 	# Misc
 	culture = finnish
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -2073,7 +2057,6 @@ holding = church_holding
 	# Misc
 	culture = finnish
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -2085,7 +2068,6 @@ holding = church_holding
 	# Misc
 	culture = finnish
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -2097,7 +2079,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -2128,7 +2109,6 @@ holding = church_holding
 	# Misc
 	culture = finnish
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1158.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -2157,7 +2137,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -2169,7 +2148,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -3361,7 +3339,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = mountain
 }
 
 374 = {	# 373 - JAHKAMAKKE
@@ -3369,7 +3346,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = mountain
 }
 
 380 = {	# 380 - SIGGEVARA
@@ -3387,7 +3363,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = mountain
 }
 
 382 = {	# 382 - UBMEJE
@@ -3395,7 +3370,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 
 }
 
@@ -3491,7 +3465,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = mountain
 
 }
 
@@ -3500,7 +3473,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = mountain
 }
 
 403 = {	# LINCHUAN
@@ -3555,7 +3527,6 @@ holding = church_holding
 	# Misc
 	culture = sitonian
 	rite = sami_pagan
-	terrain = forest
 }
 
 422 = {	# 422 - BITON
@@ -3563,7 +3534,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 	
 
 }
@@ -3598,7 +3568,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 	
 
 }
@@ -3608,7 +3577,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 
 }
 
@@ -3678,7 +3646,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = {
@@ -3707,7 +3674,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = {
@@ -3721,7 +3687,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = {
@@ -3735,7 +3700,6 @@ holding = church_holding
 	# Misc
 	culture = finnish
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -3747,7 +3711,6 @@ holding = church_holding
 	# Misc
 	culture = sami
 	rite = sami_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = { rite = roman_rite }	#Northern Crusades
@@ -3787,7 +3750,6 @@ holding = church_holding
 	# Misc
 	culture = finnish
 	rite = finnish_pagan
-	terrain = forest
 	
 	# History
 	1250.1.1 = {
@@ -4093,7 +4055,6 @@ rite = byzantine_rite
 	# Misc
 	culture = greek
 	rite = byzantine_rite
-	terrain = mountain
 	
 	# History
 	#1129.1.1 = { trade_post = b_morosini }
@@ -4134,7 +4095,6 @@ rite = byzantine_rite
 	# Misc
 	culture = greek
 	rite = byzantine_rite
-	terrain = mountain
 	
 	# History
 	#1189.1.1 = { trade_post = b_morosini }
@@ -4322,7 +4282,7 @@ rite = byzantine_rite
 	rite = byzantine_rite
 	
 	867.1.1 = { rite = bulgarian_rite } 
-875.1.1 = { rite = paulician }
+875.1.1 = { rite = paulician_rite }
 970.1.1 = { rite = bogomilist }
 }
 
@@ -6825,7 +6785,7 @@ rite = nakh_pagan
 	
 	# Misc
 	culture = greek
-	rite = paulician
+	rite = paulician_rite
 		
 	holding = castle_holding
 		
@@ -6873,7 +6833,7 @@ rite = antiochian_rite #no syriac in CK3
 	holding = castle_holding
 		
 		# History
-	830.1.1 = { rite = paulician }
+	830.1.1 = { rite = paulician_rite }
 	
 	890.1.1 = {
 		culture = armenian
@@ -6890,7 +6850,7 @@ rite = antiochian_rite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	830.1.1 = { rite = paulician }
+	830.1.1 = { rite = paulician_rite }
 	
 	890.1.1 = {
 		culture = armenian
@@ -6905,7 +6865,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = greek
-	rite = paulician
+	rite = paulician_rite
 	
 	holding = castle_holding
 	
@@ -7242,7 +7202,7 @@ rite = antiochian_rite #no syriac in CK3
 	holding = castle_holding
 	
 	# History
-	715.1.1 = { rite = iconoclast }
+	715.1.1 = { rite = iconoclast_rite }
 	860.1.1 = { rite = byzantine_rite }
 	1066.1.1 = {
 		buildings = {
@@ -7274,7 +7234,7 @@ rite = antiochian_rite #no syriac in CK3
 		special_building_slot = cilician_gates
 		special_building = cilician_gates
 	}
-	715.1.1 = { rite = iconoclast }
+	715.1.1 = { rite = iconoclast_rite }
 	860.1.1 = { rite = byzantine_rite }
 	1081.1.1 = {
 		culture = cappadocian
@@ -9017,7 +8977,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = kannada
 	rite = yapaniya
-	terrain = jungle
 	
 	# History
 }
@@ -9066,7 +9025,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -9223,7 +9181,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = telugu
 	rite = vaishnavism
-	terrain = jungle
 	
 	# History
 }
@@ -9387,7 +9344,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = tuluva
 	rite = srikula_shaktism
-	terrain = mountain
 	
 	# History
 }
@@ -9487,7 +9443,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = marathi
 	rite = digambara
-	terrain = mountain
 	
 	# History
 }
@@ -9877,7 +9832,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = rajput
 	rite = svetambara
-	terrain = jungle
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -9931,7 +9885,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = rajput
 	rite = svetambara
-	terrain = desert
 	
 	# History
 	1250.1.1 = { culture = marwari }
@@ -10249,7 +10202,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = kannada
 	rite = yapaniya
-	terrain = mountain
 	
 	# History
 }
@@ -10272,7 +10224,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = kannada
 	rite = yapaniya
-	terrain = mountain
 	
 	# History
 	1066.1.1 = {
@@ -10299,7 +10250,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = kannada
 	rite = shaivism
-	terrain = hills
 	
 	# History
 	700.1.1 = {
@@ -10373,7 +10323,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = tamil
 	rite = ganaptism
-	terrain = hills
 	
 	# History
 }
@@ -10493,7 +10442,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = telugu
 	rite = svetambara
-	terrain = jungle
 	special_building_slot = amaravati_stupa_01
 	special_building = amaravati_stupa_01
 	# History
@@ -10637,7 +10585,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = marathi
 	rite = ganaptism
-	terrain = jungle
 	special_building_slot = mayureshwar_temple_01
 	special_building = mayureshwar_temple_01
 	# History
@@ -10693,7 +10640,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = kannada
 	rite = srikula_shaktism
-	terrain = hills
 	
 	# History
 }
@@ -10762,7 +10708,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = telugu
 	rite = svetambara
-	terrain = hills
 	special_building_slot = venkateswara_temple_01
 	special_building = venkateswara_temple_01
 	# History
@@ -10822,7 +10767,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = telugu
 	rite = shaivism
-	terrain = jungle
 	
 	# History
 }
@@ -10881,7 +10825,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = oriya
 	rite = vaishnavism
-	terrain = mountain
 	
 	# History
 }
@@ -11249,7 +11192,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = sambalpuri
 	rite = sarnaism
-	terrain = jungle
 
 	holding = tribal_holding
 
@@ -11277,7 +11219,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = telugu
 	rite = svetambara
-	terrain = jungle
 	
 	# History
 	1066.1.1 = {
@@ -11464,7 +11405,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = marathi
 	rite = vaishnavism
-	terrain = jungle
 	
 	# History
 }
@@ -11513,7 +11453,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = marathi
 	rite = shaivism
-	terrain = hills
 	
 	# History
 }
@@ -11535,7 +11474,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = kannada
 	rite = smartism
-	terrain = jungle
 	
 	# History
 }
@@ -12438,7 +12376,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = hindustani
 	rite = kalikula_shaktism
-	terrain = jungle
 	
 	# History
 	950.1.1 = {
@@ -12867,7 +12804,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = marathi
 	rite = digambara
-	terrain = mountain
 	special_building_slot = mahalakshmi_temple_01
 	special_building = mahalakshmi_temple_01
 	# History
@@ -15013,7 +14949,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = gaelic
 	rite = norse_pagan
-	terrain = hills
 	holding =  tribal_holding 
 	900.1.1 = {	
 		culture = gall_goidel
@@ -15026,7 +14961,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = gaelic
 	rite = norse_pagan
-	terrain = hills
 	holding =  tribal_holding 
 	900.1.1 = {	
 		culture = gall_goidel
@@ -15042,7 +14976,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = gaelic
 	rite = roman_rite
-	terrain = hills
 	holding =  tribal_holding 
 	900.1.1 = {	
 		culture = gall_goidel
@@ -15057,7 +14990,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = gaelic
 	rite = norse_pagan
-	terrain = hills
 	holding =  tribal_holding 
 	900.1.1 = {	
 		culture = gall_goidel
@@ -15073,7 +15005,6 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = gaelic
 	rite = norse_pagan
-	terrain = hills
 	holding =  tribal_holding 
 	900.1.1 = {	
 		culture = gall_goidel
@@ -22777,7 +22708,7 @@ rite = carolingian_christianity
 	holding = castle_holding
 	856.9.1 = {
 		culture = siqilli
-		rite = maliki
+		rite = shafii
 	}
 	867.1.1 = {
 		buildings = {
@@ -22822,7 +22753,7 @@ rite = carolingian_christianity
 	holding = castle_holding
 	904.1.1 = {
 		culture = siqilli
-		rite = maliki
+		rite = shafii
 	}
 	1066.1.1 = {
 		buildings = {
@@ -22875,7 +22806,7 @@ rite = carolingian_christianity
 	holding = castle_holding
 	895.1.1 = {
 		culture = siqilli
-		rite = maliki
+		rite = shafii
 	}
 	1127.1.1 = {
 		rite = roman_rite
@@ -27338,7 +27269,6 @@ holding = none
 	# Misc
 	culture = rajput
 	rite = svetambara
-	terrain = jungle
 	
 	# History
 	700.1.1 = {
@@ -27357,7 +27287,6 @@ holding = none
 	# Misc
 	culture = rajput
 	rite = svetambara
-	terrain = jungle
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -27372,7 +27301,6 @@ holding = none
 	# Misc
 	culture = rajput
 	rite = svetambara
-	terrain = jungle
 	
 	holding = church_holding
 	
@@ -27389,7 +27317,6 @@ holding = none
 	# Misc
 	culture = rajput
 	rite = svetambara
-	terrain = jungle
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -29240,7 +29167,6 @@ holding = none
 	# Misc
 	culture = rajput
 	rite = svetambara
-	terrain = desert
 	
 	# History
 
@@ -39832,7 +39758,7 @@ rite = byzantine_rite
 	rite = armenian_rite
 	
 	# History
-	873.1.1 = { rite = paulician }
+	873.1.1 = { rite = paulician_rite }
 	970.1.1 = { rite = armenian_rite }
 	1097.8.26 = {
 		rite = shafii 
@@ -46371,7 +46297,7 @@ rite = tengri_pagan
 	holding = castle_holding
 	
 	# History
-	715.1.1 = { rite = iconoclast }
+	715.1.1 = { rite = iconoclast_rite }
 	860.1.1 = { rite = byzantine_rite }
 	1099.1.1 = { culture = turkish }
 	1099.1.1 = { rite = hanafi }
@@ -46424,7 +46350,7 @@ rite = tengri_pagan
 	holding = castle_holding
 	
 	# History
-	715.1.1 = { rite = iconoclast }
+	715.1.1 = { rite = iconoclast_rite }
 	860.1.1 = { rite = byzantine_rite }
 	1099.1.1 = { culture = turkish }
 	1099.1.1 = { rite = hanafi }
@@ -46526,7 +46452,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = greek
-	rite = paulician
+	rite = paulician_rite
 	
 	
 	holding = castle_holding
@@ -46545,7 +46471,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = greek
-	rite = paulician
+	rite = paulician_rite
 	
 	holding = castle_holding
 	
@@ -46578,7 +46504,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = greek
-	rite = paulician
+	rite = paulician_rite
 		
 	holding = castle_holding
 		
@@ -46752,7 +46678,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = greek
-	rite = paulician
+	rite = paulician_rite
 	
 	holding = castle_holding
 	
@@ -46849,7 +46775,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = greek
-	rite = paulician
+	rite = paulician_rite
 	
 	holding = castle_holding
 	
@@ -46964,7 +46890,7 @@ rite = tengri_pagan
 	holding = castle_holding
 	
 	# History
-	715.1.1 = { rite = iconoclast }
+	715.1.1 = { rite = iconoclast_rite }
 	860.1.1 = { rite = byzantine_rite }
 	1081.1.1 = {
 		culture = cappadocian
@@ -46980,7 +46906,7 @@ rite = tengri_pagan
 	holding = castle_holding
 	
 	# History
-	715.1.1 = { rite = iconoclast }
+	715.1.1 = { rite = iconoclast_rite }
 	860.1.1 = { rite = byzantine_rite }
 	1081.1.1 = {
 		culture = cappadocian
@@ -47272,7 +47198,7 @@ rite = tengri_pagan
 	holding = castle_holding
 	
 	# History
-	715.1.1 = { rite = iconoclast }
+	715.1.1 = { rite = iconoclast_rite }
 	860.1.1 = { rite = byzantine_rite }
 	1100.1.1 = {
 		culture = turkish
@@ -47323,7 +47249,7 @@ rite = tengri_pagan
 	holding = castle_holding
 	
 	# History
-	715.1.1 = { rite = iconoclast }
+	715.1.1 = { rite = iconoclast_rite }
 	860.1.1 = { rite = byzantine_rite }
 	1100.1.1 = {
 		culture = turkish
@@ -47718,7 +47644,7 @@ rite = tengri_pagan
 	holding = castle_holding
 	
 	# History
-	715.1.1 = { rite = iconoclast }
+	715.1.1 = { rite = iconoclast_rite }
 	860.1.1 = { rite = byzantine_rite }
 	1097.8.26 = { culture = turkish }
 	1097.8.26 = { rite = hanafi }
@@ -47993,7 +47919,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = armenian
-	rite = paulician
+	rite = paulician_rite
 		
 	holding = castle_holding
 		
@@ -48179,7 +48105,7 @@ rite = tengri_pagan
 	holding = castle_holding
 	
 	# History
-	873.1.1 = { rite = paulician }
+	873.1.1 = { rite = paulician_rite }
 	915.1.1 = { rite = tondrakian_rite }
 	970.1.1 = { rite = armenian_rite }
 
@@ -64206,7 +64132,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	special_building_slot = dhandayuthapani_temple_01
 	special_building = dhandayuthapani_temple_01
@@ -64236,7 +64161,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -64264,7 +64188,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	special_building_slot = arulmigu_solaimalai_temple_01
 	special_building = arulmigu_solaimalai_temple_01
 	# History
@@ -64293,7 +64216,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = kaumaram
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -64321,7 +64243,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -64803,7 +64724,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -64829,7 +64749,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -64855,7 +64774,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -64881,7 +64799,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -64907,7 +64824,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -64933,7 +64849,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -64959,7 +64874,6 @@ rite = antiochian_rite
 	# Misc
 	culture = tamil
 	rite = svetambara
-	terrain = hills
 	
 	# History
 	1066.1.1 = {
@@ -65133,7 +65047,6 @@ rite = antiochian_rite
 	# Misc
 	culture = telugu
 	rite = svetambara
-	terrain = jungle
 	
 	# History
 	1066.1.1 = {
@@ -65211,7 +65124,6 @@ rite = antiochian_rite
 	# Misc
 	culture = telugu
 	rite = svetambara
-	terrain = jungle
 	
 	# History
 	1066.1.1 = {
@@ -65342,7 +65254,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = yapaniya
-	terrain = hills
 	
 	# History
 }
@@ -65366,7 +65277,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = yapaniya
-	terrain = hills
 	
 	# History
 }
@@ -65675,7 +65585,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = yapaniya
-	terrain = mountain
 	
 	# History
 	1150.1.1 = {
@@ -65701,7 +65610,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = yapaniya
-	terrain = mountain
 	
 	# History
 }
@@ -65724,7 +65632,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = yapaniya
-	terrain = mountain
 	
 	# History
 }
@@ -65747,7 +65654,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = yapaniya
-	terrain = mountain
 	
 	# History
 	special_building_slot = gammateshwara_statue_01
@@ -65774,7 +65680,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = yapaniya
-	terrain = mountain
 	
 	# History
 }
@@ -65797,7 +65702,6 @@ rite = antiochian_rite
 	# Misc
 	culture = marathi
 	rite = digambara
-	terrain = mountain
 	
 	# History
 }
@@ -65820,7 +65724,6 @@ rite = antiochian_rite
 	# Misc
 	culture = marathi
 	rite = digambara
-	terrain = mountain
 	
 	# History
 }
@@ -65844,7 +65747,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = shaivism
-	terrain = hills
 	
 	# History
 }
@@ -65868,7 +65770,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = shaivism
-	terrain = hills
 	
 	# History
 }
@@ -65893,7 +65794,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = shaivism
-	terrain = mountain
 	
 	# History
 }
@@ -65918,7 +65818,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = shaivism
-	terrain = mountain
 	
 	# History
 }
@@ -65943,7 +65842,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = srikula_shaktism
-	terrain = mountain
 	
 	# History
 }
@@ -65968,7 +65866,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = shaivism
-	terrain = mountain
 	
 	# History
 	1150.1.1 = {
@@ -65996,7 +65893,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = shaivism
-	terrain = mountain
 	
 	# History
 	700.1.1 = {
@@ -66067,7 +65963,6 @@ rite = antiochian_rite
 	# Misc
 	culture = marathi
 	rite = digambara
-	terrain = mountain
 	
 	# History
 }
@@ -66093,7 +65988,6 @@ rite = antiochian_rite
 	# Misc
 	culture = marathi
 	rite = yapaniya
-	terrain = jungle
 	
 	# History
 }
@@ -66202,7 +66096,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = shaivism
-	terrain = jungle
 	
 	# History
 }
@@ -66224,7 +66117,6 @@ rite = antiochian_rite
 	# Misc
 	culture = kannada
 	rite = shaivism
-	terrain = jungle
 	
 	# History
 }
@@ -66250,7 +66142,6 @@ rite = antiochian_rite
 	# Misc
 	culture = marathi
 	rite = digambara
-	terrain = jungle
 	
 	# History
 }
@@ -66276,7 +66167,6 @@ rite = antiochian_rite
 	# Misc
 	culture = marathi
 	rite = digambara
-	terrain = jungle
 	
 	# History
 }
@@ -66490,7 +66380,6 @@ rite = antiochian_rite
 	# Misc
 	culture = marathi
 	rite = shaivism
-	terrain = mountain
 	
 	# History
 	700.1.1 = {
@@ -66516,7 +66405,6 @@ rite = antiochian_rite
 	# Misc
 	culture = marathi
 	rite = digambara
-	terrain = mountain
 	
 	# History
 }
@@ -66808,7 +66696,6 @@ rite = antiochian_rite
 	# Misc
 	culture = oriya
 	rite = srikula_shaktism
-	terrain = jungle
 	
 	# History
 }
@@ -66827,7 +66714,6 @@ rite = antiochian_rite
 	# Misc
 	culture = oriya
 	rite = srikula_shaktism
-	terrain = jungle
 	
 	# History
 }
@@ -66846,7 +66732,6 @@ rite = antiochian_rite
 	# Misc
 	culture = oriya
 	rite = srikula_shaktism
-	terrain = jungle
 	
 	# History
 }
@@ -66889,7 +66774,6 @@ rite = antiochian_rite
 	# Misc
 	culture = marathi
 	rite = digambara
-	terrain = mountain
 	
 	# History
 }
@@ -79391,7 +79275,7 @@ rite = antiochian_rite
 	holding = castle_holding
 	874.1.24 = {
 		culture = siqilli
-		rite = maliki
+		rite = shafii
 	}
 	1102.1.1 = {
 		culture = sicilian
@@ -79405,7 +79289,7 @@ rite = antiochian_rite
 	holding = castle_holding
 	874.1.24 = {
 		culture = siqilli
-		rite = maliki
+		rite = shafii
 	}
 	1102.1.1 = {
 		culture = sicilian
@@ -79419,7 +79303,7 @@ rite = antiochian_rite
 	holding = castle_holding
 	869.1.1 = {
 		culture = siqilli
-		rite = maliki
+		rite = shafii
 	}
 	1070.1.1 = {
 		culture = sicilian
@@ -79433,7 +79317,7 @@ rite = antiochian_rite
 	holding = castle_holding
 	869.1.1 = {
 		culture = siqilli
-		rite = maliki
+		rite = shafii
 	}
 	1070.1.1 = {
 		culture = sicilian
@@ -80157,7 +80041,6 @@ rite = roman_rite
 	# Misc
 	culture = welsh
 	rite = roman_rite
-	terrain = plains
 	holding = tribal_holding
 	942.1.1 = {
 		holding = castle_holding
@@ -80170,7 +80053,6 @@ rite = roman_rite
 	# Misc
 	culture = gaelic
 	rite = norse_pagan
-	terrain = plains
 	
 	holding =  tribal_holding 
 	900.1.1 = {	
@@ -80186,7 +80068,6 @@ rite = roman_rite
 	culture = gaelic
 	rite = insular_celtic
 	holding =  tribal_holding 
-	terrain = plains
 	
 	holding =  none 
 	895.1.1 = {	#Incorporated into Mann & the Isles in 886-ish, then give it a decade for the conversion job to root out the last of the local holdouts.
@@ -80202,7 +80083,6 @@ rite = roman_rite
 	# Misc
 	culture = gaelic
 	rite = insular_celtic
-	terrain = plains
 	
 	holding =  none 
 	895.1.1 = {	#Incorporated into Mann & the Isles in 886-ish, then give it a decade for the conversion job to root out the last of the local holdouts.
@@ -80215,7 +80095,6 @@ rite = roman_rite
 	# Misc
 	culture = gaelic
 	rite = insular_celtic
-	terrain = plains
 	
 	holding = tribal_holding 
 	895.1.1 = {	#Incorporated into Mann & the Isles in 886-ish, then give it a decade for the conversion job to root out the last of the local holdouts.
@@ -80231,7 +80110,6 @@ rite = roman_rite
 	# Misc
 	culture = gaelic
 	rite = insular_celtic
-	terrain = plains
 	
 	holding =  church_holding 
 	895.1.1 = {	#Incorporated into Mann & the Isles in 886-ish, then give it a decade for the conversion job to root out the last of the local holdouts.
@@ -80260,7 +80138,6 @@ rite = roman_rite
 	# Misc
 	culture = gaelic
 	rite = insular_celtic
-	terrain = plains
 	
 	holding =  none 
 	895.1.1 = {	#Incorporated into Mann & the Isles in 886-ish, then give it a decade for the conversion job to root out the last of the local holdouts.
@@ -80273,7 +80150,6 @@ rite = roman_rite
 	# Misc
 	culture = gaelic
 	rite = insular_celtic
-	terrain = plains
 	
 	holding =  church_holding 
 	895.1.1 = {	#Incorporated into Mann & the Isles in 886-ish, then give it a decade for the conversion job to root out the last of the local holdouts.

@@ -2,6 +2,10 @@
 # Christian #
 #############
 
+# Yusseter: Holy-site locations use the projected map's title identities.
+# Existing locations are retained where source-map splits have no confirmed counterpart.
+# New sites without a matching barony use county-level locations instead.
+
 # Catholic
 
 jerusalem = {
@@ -1759,6 +1763,7 @@ pagan = { # Shwedagon Pagoda - A sacred stupa built around year 500
 
 ava = { # Mahamuni Buddhist Temple near present-day Mandalay
 	county = c_ava
+	barony = b_ava
 
 	county_holder_character_modifier = {
 		stewardship = 1
@@ -2124,6 +2129,7 @@ konarak = {
 #Southeast Asia
 angkor = { #Shaivism
 	county = c_angkor
+	barony = b_angkor
 
 	county_holder_character_modifier = {
 		tributary_opinion = 3
@@ -2149,6 +2155,7 @@ angkor = { #Shaivism
 
 bantey_srei = { #Vaishnavism
 	county = c_angkor
+	barony = b_angkor
 
 	county_holder_character_modifier = {
 		county_opinion_add = 3
@@ -2198,8 +2205,7 @@ borobudur = { #Mahayana
 }
 
 muara_takus = { #Vajrayana
-	county = c_SUM_muara_takus
-	barony = b_SUM_Muara_Takus
+	county = c_SUM_palembang
 
 	county_holder_character_modifier = {
 		tributary_opinion = 3
@@ -2250,7 +2256,6 @@ prambanan = { #Shaivism & Krishnaism
 
 kalasan = { #Vajrayana & Mahayana
 	county = c_JAV_mataram
-	barony = b_JAV_Mataram
 
 	county_holder_character_modifier = {
 		powerful_vassal_opinion = 3
@@ -2327,6 +2332,7 @@ my_son = { #Shaivism
 
 bayon = { #Mahayana
 	county = c_angkor
+	barony = b_angkor
 
 	county_holder_character_modifier = {
 		county_opinion_add = 3
@@ -2867,7 +2873,7 @@ rebgong = {
 }
 
 xingqing = {
-	county = c_lingzhou
+	county = c_xingqing
 
 	county_holder_character_modifier = {
 		same_faith_opinion = 3
@@ -3165,7 +3171,7 @@ badd = { #Site of Babak Khorammdin Fort, and the khurramite last stand
 }
 
 ctesiphon = { #Important site for Mazdakism 
-	county = c_baghdad
+	county = c_iskaf
 	barony = b_an-nahrawan
 
 	county_holder_character_modifier = {
@@ -3190,7 +3196,7 @@ ctesiphon = { #Important site for Mazdakism
 }
 
 ani = { #Great temple site in Zoroastrian Armenia 
-	county = c_hayk
+	county = c_ani
 	barony = b_ani
 
 	county_holder_character_modifier = {
@@ -5415,8 +5421,7 @@ suzhou = {
 mount_heng = {
 	#One of the 5 great Mountains of China
 	#Numerous Temples, such as the Hanging Temple
-	county = c_yingzhou_5
-	barony = b_hengshan_2
+	county = c_shuozhou
 
 	county_holder_character_modifier = {
 		direct_vassal_opinion = 3
@@ -5520,8 +5525,7 @@ mount_tai = {
 
 mount_mian = {
 	#Important Taoist and Buddhist site
-	county = c_fenzhou
-	barony = b_lingshi
+	county = c_yangcheng
 
 	county_holder_character_modifier = {
 		martial = 1
@@ -5657,7 +5661,6 @@ luyi = {
 ishizuchi = {
 	# Ishizuchi, sacred Shugendo mountain
 	county = c_iyo
-	barony = b_ishizuchi
 
 	county_holder_character_modifier = {
 		learning = 1
@@ -5682,7 +5685,6 @@ ishizuchi = {
 fuji = {
 	# Fujisan
 	county = c_suruga
-	barony = b_fuji
 
 	county_holder_character_modifier = {
 		councillor_opinion = 3
@@ -5707,7 +5709,6 @@ fuji = {
 haku = {
 	# Hakusan, sacred Shugendo mountain
 	county = c_kaga
-	barony = b_haku
 
 	county_holder_character_modifier = {
 		vassal_levy_contribution_add = 0.05
@@ -5736,7 +5737,6 @@ haku = {
 
 ise_jingu = { # Ise Grand Shrine, home of the Saigu
 	county = c_ise
-	barony = b_ise_jingu
 
 	county_holder_character_modifier = {
 		learning = 1
@@ -5760,7 +5760,6 @@ ise_jingu = { # Ise Grand Shrine, home of the Saigu
 
 koya = { # Mount Koya
 	county = c_kii
-	barony = b_kongobu_ji
 
 	county_holder_character_modifier = {
 		clergy_opinion = 3
@@ -5784,7 +5783,7 @@ koya = { # Mount Koya
 
 haguro = { # Mount Haguro
 	county = c_tokisara
-	barony = b_tokisara
+	barony = b_okitama
 
 	county_holder_character_modifier = {
 		mountains_development_growth_factor = 0.1
@@ -6084,7 +6083,7 @@ siang = {
 }
 
 tengchong = {
-	county = c_monyin
+	county = c_yongchang_yongchang
 
 	county_holder_character_modifier = {
 		clergy_opinion = 3
@@ -6181,7 +6180,7 @@ jinglong = {
 }
 
 jianchang = {
-	county = c_jingzhou_2
+	county = c_jianchang_1
 
 	county_holder_character_modifier = {
 		learning = 1
@@ -6213,7 +6212,7 @@ jianchang = {
 # Jinglong already covered elsewhere
 
 zhaotong = {
-	county = c_huizhou
+	county = c_dongchuan
 
 	county_holder_character_modifier = {
 		knight_effectiveness_mult = 0.05
@@ -6238,7 +6237,7 @@ zhaotong = {
 }
 
 xuhen = {
-	county = c_jingzhou_2
+	county = c_leizhou
 
 	county_holder_character_modifier = {
 		tributary_opinion = 3
@@ -6339,7 +6338,7 @@ donggang = {
 #####################
 
 cotabato = {
-	county = c_PHI_cotabato
+	county = c_PHI_maguindanao
 
 	county_holder_character_modifier = {
 		tributary_opinion = 3
@@ -6747,7 +6746,6 @@ amandee = {
 
 sefa_utaki = {
 	county = c_ucinaa
-	barony = b_simajiri
 
 	county_holder_character_modifier = {
 		martial = 1
@@ -6823,7 +6821,7 @@ awa = {
 #####################
 
 iban = {
-	county = c_BOR_iban
+	county = c_BOR_kutai_jauh
 
 	county_holder_character_modifier = {
 		martial = 1
@@ -6918,7 +6916,7 @@ sukadana = {
 }
 
 kutai = {
-	county = c_BOR_kutai_utara
+	county = c_BOR_martapura
 
 	county_holder_character_modifier = {
 		prowess = 2
@@ -7029,7 +7027,7 @@ qufu = {
 }
 
 quzhou = {
-	county = c_quzhou
+	county = c_xin_an
 
 	county_holder_character_modifier = {
 		learning = 1
@@ -7052,7 +7050,7 @@ quzhou = {
 }
 
 linzi = {
-	county = c_qingzhou
+	county = c_zichuan
 
 	county_holder_character_modifier = {
 		monthly_prestige_gain_mult = 0.025
@@ -7126,7 +7124,7 @@ zhuolu = {
 }
 
 dongting = {
-	county = c_langzhou_1
+	county = c_yuezhou_1
 
 	county_holder_character_modifier = {
 		levy_reinforcement_rate = 0.1
@@ -7204,7 +7202,6 @@ qiongzhou = {
 
 amparita = {
 	county = c_SuMa_ajatappareng
-	barony = b_SUL_Amparita
 
 	county_holder_character_modifier = {
 		jungle_tax_mult = 0.05
@@ -7276,7 +7273,7 @@ papua_selatan = {
 }
 
 kepala_burung = {
-	county = c_kepala_burung
+	county = c_SuMa_raja_ampat
 
 	county_holder_character_modifier = {
 		vassal_opinion = 5
@@ -7331,7 +7328,7 @@ hoanya = {
 }
 
 sonba_i = {
-	county = c_IDO_sonba_i
+	county = c_IDO_wehale
 
 	county_holder_character_modifier = {
 		learning = 1
@@ -7354,7 +7351,7 @@ sonba_i = {
 }
 
 riak_nan_berbedur = {
-	county = c_SUM_riak_nan_berbedur
+	county = c_SUM_muara_takus
 
 	county_holder_character_modifier = {
 		monthly_prestige_gain_mult = 0.05
@@ -7408,7 +7405,6 @@ gangganegara = {
 
 nutapkauspe = {
 	county = c_menas
-	barony = b_opereperkep
 
 	county_holder_character_modifier = {
 		men_at_arms_maintenance = -0.025
@@ -7434,7 +7430,7 @@ nutapkauspe = {
 
 makkarinupuri = {
 	county = c_ioci
-	barony = b_aptapet_ainu
+	barony = b_ioci
 
 	county_holder_character_modifier = {
 		martial = 1
@@ -7584,7 +7580,7 @@ muze = {
 }
 
 sizhou = {
-	county = c_sizhou
+	county = c_sizhou_2
 
 	county_holder_character_modifier = {
 		monthly_prestige_gain_mult = 0.05
@@ -8193,7 +8189,6 @@ tiantai = {
 hiei = {
 	# Main Tendai temple overlooking Kyoto
 	county = c_omi
-	barony = b_enryaku_ji
 
 	county_holder_character_modifier = {
 		monthly_piety_gain_mult = 0.05
@@ -8242,7 +8237,6 @@ heiankyo = {
 
 kizuki = {
 	county = c_izumo
-	barony = b_kizuki_taisha
 
 	county_holder_character_modifier = {
 		clergy_opinion = 3
@@ -8266,7 +8260,6 @@ kizuki = {
 
 kashima = {
 	county = c_hitachi
-	barony = b_kashima_hitachi
 
 	county_holder_character_modifier = {
 		tax_mult = 0.025
@@ -8286,6 +8279,277 @@ kashima = {
 	faith_character_modifier_scaled = {
 		scale = holy_site_total_artifact_rarity
 		monthly_income_mult = 0.005
+	}
+}
+
+
+# MUSLIM ENHANCEMENTS
+
+tamasna = {
+	county = c_tamasna
+
+	county_holder_character_modifier = {
+		prowess_per_piety_level = 1
+		max_combat_roll = 4
+	}
+
+	faith_character_modifier = {
+		prowess_per_piety_level = 1
+		max_combat_roll = 4
+	}
+}
+
+ceuta = {
+	county = c_ceuta
+
+	county_holder_character_modifier = {
+		same_faith_opinion = 5
+		domain_tax_same_faith_mult = 0.1
+	}
+
+	faith_character_modifier = {
+		same_faith_opinion = 5
+		domain_tax_same_faith_mult = 0.1
+	}
+}
+
+mila = {
+	county = c_satif
+
+	county_holder_character_modifier = {
+		same_faith_opinion = 5
+		domain_tax_same_faith_mult = 0.1
+	}
+
+	faith_character_modifier = {
+		same_faith_opinion = 5
+		domain_tax_same_faith_mult = 0.1
+	}
+}
+
+arrajan = {
+	county = c_arrajan
+
+	county_holder_character_modifier = {
+		councillor_opinion = 7
+	}
+
+	faith_character_modifier = {
+		councillor_opinion = 7
+	}
+}
+
+isfahan = {
+	county = c_isfahan
+
+	county_holder_character_modifier = {
+		county_opinion_add = 12
+	}
+
+	faith_character_modifier = {
+		county_opinion_add = 12
+	}
+}
+
+tlemcen = { #Replaced with Tahert
+	county = c_tlemcen
+
+	county_holder_character_modifier = {
+		prowess_per_piety_level = 1
+		monthly_county_control_growth_factor = 0.1
+	}
+
+	faith_character_modifier = {
+		prowess_per_piety_level = 1
+		monthly_county_control_growth_factor = 0.1
+	}
+}
+
+tahert = {
+	county = c_tahert
+
+	county_holder_character_modifier = {
+		prowess_per_piety_level = 1
+		monthly_county_control_growth_factor = 0.1
+	}
+
+	faith_character_modifier = {
+		prowess_per_piety_level = 1
+		monthly_county_control_growth_factor = 0.1
+	}
+}
+
+karbala = {
+	county = c_karbala
+	barony = b_karbala
+
+	county_holder_character_modifier = {
+		prowess = 3
+		max_combat_roll = 5
+	}
+
+	faith_character_modifier = {
+		prowess = 3
+		max_combat_roll = 5
+	}
+}
+
+cappadocia = {
+	county = c_cappadocia
+
+	county_holder_character_modifier = {
+		church_holding_build_gold_cost = -0.05
+		monthly_county_control_growth_factor = 0.1
+	}
+
+	faith_character_modifier = {
+		church_holding_build_gold_cost = -0.05
+		monthly_county_control_growth_factor = 0.1
+	}
+}
+
+mardin = {
+	county = c_upper_khabur
+	barony = b_mardin
+
+	county_holder_character_modifier = {
+		monthly_county_control_growth_factor = 0.1
+		county_opinion_add = 10
+	}
+
+	faith_character_modifier = {
+		monthly_county_control_growth_factor = 0.1
+		county_opinion_add = 10
+	}
+}
+
+edikukalama = {
+	county = c_baghdad
+	barony = b_al-farasa
+
+	county_holder_character_modifier = {
+		max_combat_roll = 5
+		levy_size = 0.08
+	}
+
+	faith_character_modifier = {
+		max_combat_roll = 5
+		levy_size = 0.08
+	}
+}
+
+ekhulkhul = {
+	county = c_harran
+	barony = b_harran
+
+	county_holder_character_modifier = {
+		monthly_prestige_gain_per_knight_mult = 0.02
+		knight_effectiveness_mult = 0.1
+	}
+
+	faith_character_modifier = {
+		monthly_prestige_gain_per_knight_mult = 0.02
+		knight_effectiveness_mult = 0.1
+	}
+}
+
+ur = {
+	county = c_basra
+	barony = b_bajlan
+
+	county_holder_character_modifier = {
+		learning_per_piety_level = 2
+		church_holding_build_gold_cost = -0.05
+	}
+
+	faith_character_modifier = {
+		learning_per_piety_level = 2
+		church_holding_build_gold_cost = -0.05
+	}
+}
+
+# Shrine of Imam Ali ar-Ridha, the eighth Imam: famed for his learning and his treatise on medicine, and held to be the guarantor of those who visit him
+tus = {
+	county = c_tus
+	barony = b_tus
+
+	county_holder_character_modifier = {
+		learning = 1
+		stress_loss_mult = 0.05
+	}
+
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		epidemic_resistance = 1
+		travel_danger = -1
+	}
+
+	faith_character_modifier = {
+		learning_per_piety_level = 1
+		stress_loss_mult = 0.1
+	}
+
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		health = 0.01
+		monthly_lifestyle_xp_gain_mult = 0.01
+	}
+}
+
+# Shrine of Fatima al-Ma'suma, daughter of the seventh Imam and sister of the eighth: a refuge of the Prophet's household and a seat of Twelver devotion and scholarship
+# Override of the vanilla site of the same name, which no vanilla faith uses any more.
+qom = {
+	county = c_qom
+	barony = b_qom
+
+	county_holder_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+		same_faith_opinion = 3
+	}
+
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		development_growth_factor = 0.01
+		county_opinion_add = 1
+	}
+
+	faith_character_modifier = {
+		monthly_piety_gain_mult = 0.05
+		same_faith_opinion = 5
+	}
+
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		monthly_piety_gain_mult = 0.01
+		piety_level_impact_mult = 0.01
+	}
+}
+
+# The twin shrines of Musa al-Kadhim and Muhammad al-Jawad, the seventh and ninth Imams, in the Quraysh cemetery of Baghdad
+kadhimayn = {
+	county = c_iskaf
+	barony = b_baquba
+
+	county_holder_character_modifier = {
+		diplomacy = 1
+		direct_vassal_opinion = 3
+	}
+
+	county_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		county_opinion_add = 1
+		monthly_county_control_growth_factor = 0.01
+	}
+
+	faith_character_modifier = {
+		diplomacy = 1
+		direct_vassal_opinion = 5
+	}
+
+	faith_character_modifier_scaled = {
+		scale = holy_site_total_artifact_rarity
+		stress_loss_mult = 0.01
+		same_faith_opinion = 0.5
 	}
 }
 
@@ -8750,271 +9014,589 @@ zwegabin = {
 	}
 }
 
-tamasna = {
-	county = c_tamasna
+################################################################################################
+# Migrated from 00_holy_site_types_OLD.txt (sites referenced by faith files, updated to current format)
+################################################################################################
+
+alwa = {
+	county = c_alodia
 
 	county_holder_character_modifier = {
-		prowess_per_piety_level = 1
-		max_combat_roll = 4
+		same_culture_opinion = 5
 	}
 
 	faith_character_modifier = {
-		prowess_per_piety_level = 1
-		max_combat_roll = 4
+		same_culture_opinion = 5
 	}
 }
 
-ceuta = {
-	county = c_ceuta
+aquileia = {
+	county = c_aquileia
 
 	county_holder_character_modifier = {
-		same_faith_opinion = 5
-		domain_tax_same_faith_mult = 0.1
+		intrigue_per_piety_level = 1
 	}
 
 	faith_character_modifier = {
-		same_faith_opinion = 5
-		domain_tax_same_faith_mult = 0.1
+		intrigue_per_piety_level = 1
 	}
 }
 
-mila = {
-	county = c_satif
+asir = {
+	county = c_asir
 
 	county_holder_character_modifier = {
-		same_faith_opinion = 5
-		domain_tax_same_faith_mult = 0.1
+		health = 0.1
 	}
 
 	faith_character_modifier = {
-		same_faith_opinion = 5
-		domain_tax_same_faith_mult = 0.1
+		health = 0.1
 	}
 }
 
-arrajan = {
-	county = c_arrajan
+ballaleshwar = {
+	county = c_surparaka
+	barony = b_ambaranatha
 
 	county_holder_character_modifier = {
-		councillor_opinion = 7
+		direct_vassal_opinion = 5
 	}
 
 	faith_character_modifier = {
-		councillor_opinion = 7
+		direct_vassal_opinion = 5
 	}
 }
 
-isfahan = {
-	county = c_isfahan
+caucasian_albania = {
+	county = c_shaki
 
 	county_holder_character_modifier = {
-		county_opinion_add = 12
+		martial = 1
 	}
 
 	faith_character_modifier = {
-		county_opinion_add = 12
+		martial = 1
 	}
 }
 
-tlemcen = { #Replaced with Tahert
-	county = c_tlemcen
+changan = {
+	county = c_jingzhao
 
 	county_holder_character_modifier = {
-		prowess_per_piety_level = 1
-		monthly_county_control_growth_factor = 0.1
+		monthly_piety_gain_mult = 0.2
+		martial = 1
 	}
 
 	faith_character_modifier = {
-		prowess_per_piety_level = 1
-		monthly_county_control_growth_factor = 0.1
+		monthly_piety_gain_mult = 0.2
+		martial = 1
 	}
 }
 
-tahert = {
-	county = c_tahert
+chiang_mai = {
+	county = c_haripunjaya
 
 	county_holder_character_modifier = {
-		prowess_per_piety_level = 1
-		monthly_county_control_growth_factor = 0.1
+		development_growth_factor = 0.1
+		build_gold_cost = -0.1
 	}
 
 	faith_character_modifier = {
-		prowess_per_piety_level = 1
-		monthly_county_control_growth_factor = 0.1
+		development_growth_factor = 0.1
+		build_gold_cost = -0.1
 	}
 }
 
-karbala = {
-	county = c_karbala
-	barony = b_karbala
+dhandayuthapani = {
+	county = c_kongu
+	barony = b_kovai
 
 	county_holder_character_modifier = {
-		prowess = 3
-		max_combat_roll = 5
+		dynasty_house_opinion = 5
 	}
 
 	faith_character_modifier = {
-		prowess = 3
-		max_combat_roll = 5
+		dynasty_house_opinion = 5
 	}
 }
 
-cappadocia = {
-	county = c_cappadocia
+eastern_india = {
+	county = c_cumbum
 
 	county_holder_character_modifier = {
-		church_holding_build_gold_cost = -0.05
-		monthly_county_control_growth_factor = 0.1
-	}
-
-	faith_character_modifier = {
-		church_holding_build_gold_cost = -0.05
-		monthly_county_control_growth_factor = 0.1
-	}
-}
-
-mardin = {
-	county = c_upper_khabur
-	barony = b_mardin
-
-	county_holder_character_modifier = {
-		monthly_county_control_growth_factor = 0.1
-		county_opinion_add = 10
-	}
-
-	faith_character_modifier = {
-		monthly_county_control_growth_factor = 0.1
-		county_opinion_add = 10
-	}
-}
-
-edikukalama = {
-	county = c_baghdad
-	barony = b_al-farasa
-
-	county_holder_character_modifier = {
-		max_combat_roll = 5
-		levy_size = 0.08
-	}
-
-	faith_character_modifier = {
-		max_combat_roll = 5
-		levy_size = 0.08
-	}
-}
-
-ekhulkhul = {
-	county = c_harran
-	barony = b_harran
-
-	county_holder_character_modifier = {
-		monthly_prestige_gain_per_knight_mult = 0.02
-		knight_effectiveness_mult = 0.1
-	}
-
-	faith_character_modifier = {
-		monthly_prestige_gain_per_knight_mult = 0.02
-		knight_effectiveness_mult = 0.1
-	}
-}
-
-ur = {
-	county = c_basra
-	barony = b_bajlan
-
-	county_holder_character_modifier = {
-		learning_per_piety_level = 2
-		church_holding_build_gold_cost = -0.05
-	}
-
-	faith_character_modifier = {
-		learning_per_piety_level = 2
-		church_holding_build_gold_cost = -0.05
-	}
-}
-
-# Shrine of Imam Ali ar-Ridha, the eighth Imam: famed for his learning and his treatise on medicine, and held to be the guarantor of those who visit him
-tus = {
-	county = c_tus
-	barony = b_tus
-
-	county_holder_character_modifier = {
-		learning = 1
-		stress_loss_mult = 0.05
-	}
-
-	county_modifier_scaled = {
-		scale = holy_site_total_artifact_rarity
-		epidemic_resistance = 1
-		travel_danger = -1
+		learning_per_piety_level = 1
 	}
 
 	faith_character_modifier = {
 		learning_per_piety_level = 1
-		stress_loss_mult = 0.1
-	}
-
-	faith_character_modifier_scaled = {
-		scale = holy_site_total_artifact_rarity
-		health = 0.01
-		monthly_lifestyle_xp_gain_mult = 0.01
 	}
 }
 
-# Shrine of Fatima al-Ma'suma, daughter of the seventh Imam and sister of the eighth: a refuge of the Prophet's household and a seat of Twelver devotion and scholarship
-# Override of the vanilla site of the same name, which no vanilla faith uses any more.
-qom = {
-	county = c_qom
-	barony = b_qom
+ephesus = {
+	county = c_ionia
+	barony = b_ephesos
 
 	county_holder_character_modifier = {
-		monthly_piety_gain_mult = 0.05
-		same_faith_opinion = 3
-	}
-
-	county_modifier_scaled = {
-		scale = holy_site_total_artifact_rarity
-		development_growth_factor = 0.01
-		county_opinion_add = 1
+		men_at_arms_cap = 1
 	}
 
 	faith_character_modifier = {
-		monthly_piety_gain_mult = 0.05
+		men_at_arms_cap = 1
+	}
+}
+
+er_hai_lake = {
+	county = c_dali
+
+	county_holder_character_modifier = {
+		health = 0.1
+	}
+
+	faith_character_modifier = {
+		health = 0.1
+	}
+}
+
+faras = {
+	county = c_faras
+
+	county_holder_character_modifier = {
+		vassal_limit = 3
+	}
+
+	faith_character_modifier = {
+		vassal_limit = 3
+	}
+}
+
+gandzasar = {
+	county = c_khachen
+	barony = b_gandzasar
+
+	county_holder_character_modifier = {
+		different_faith_liege_opinion = 10
+	}
+
+	faith_character_modifier = {
+		different_faith_liege_opinion = 10
+	}
+}
+
+ghadames = {
+	county = c_ghadames
+
+	county_holder_character_modifier = {
+		vassal_limit = 3
+	}
+
+	faith_character_modifier = {
+		vassal_limit = 3
+	}
+}
+
+girjatmaj = {
+	county = c_trikuta
+	barony = b_seunapura
+
+	county_holder_character_modifier = {
+		different_faith_opinion = 5
+	}
+
+	faith_character_modifier = {
+		different_faith_opinion = 5
+	}
+}
+
+ha_long = {
+	county = c_long_hung
+
+	county_holder_character_modifier = {
+		development_growth_factor = 0.05
+		diplomacy_per_piety_level = 1
+	}
+
+	faith_character_modifier = {
+		development_growth_factor = 0.05
+		diplomacy_per_piety_level = 1
+	}
+}
+
+luntai = {
+	county = c_luntai
+
+	county_holder_character_modifier = {
+		supply_duration = 0.2
+		max_combat_roll = 4
+	}
+
+	faith_character_modifier = {
+		supply_duration = 0.2
+		max_combat_roll = 4
+	}
+}
+
+luxembourg = {
+	county = c_luxembourg
+
+	county_holder_character_modifier = {
+		martial_per_prestige_level = 1
+	}
+
+	faith_character_modifier = {
+		martial_per_prestige_level = 1
+	}
+}
+
+madurai = {
+	county = c_madurai
+	barony = b_madurai
+
+	county_holder_character_modifier = {
+		build_gold_cost = -0.05
+	}
+
+	faith_character_modifier = {
+		build_gold_cost = -0.05
+	}
+}
+
+mankessim = {
+	county = c_fante
+
+	county_holder_character_modifier = {
+		monthly_prestige_gain_mult = 0.15
+	}
+
+	faith_character_modifier = {
+		monthly_prestige_gain_mult = 0.15
+	}
+}
+
+# For Northwest African Christians
+marrakesh = {
+	county = c_marrakesh
+	barony = b_aitiyat
+
+	county_holder_character_modifier = {
+		same_faith_opinion = 10
+	}
+
+	faith_character_modifier = {
+		same_faith_opinion = 10
+	}
+}
+
+mayureshwar = {
+	county = c_kondana
+	barony = b_kondana
+
+	county_holder_character_modifier = {
+		same_culture_opinion = 5
+	}
+
+	faith_character_modifier = {
+		same_culture_opinion = 5
+	}
+}
+
+messina = {
+	county = c_messina
+
+	county_holder_character_modifier = {
+		naval_movement_speed_mult = 0.2
+	}
+
+	faith_character_modifier = {
+		naval_movement_speed_mult = 0.2
+	}
+}
+
+milan = {
+	county = c_lombardia #Archdiocese of Milan.
+	barony = b_monza #Prevents override of duchy building
+
+	county_holder_character_modifier = {
 		same_faith_opinion = 5
-	}
-
-	faith_character_modifier_scaled = {
-		scale = holy_site_total_artifact_rarity
-		monthly_piety_gain_mult = 0.01
-		piety_level_impact_mult = 0.01
-	}
-}
-
-# The twin shrines of Musa al-Kadhim and Muhammad al-Jawad, the seventh and ninth Imams, in the Quraysh cemetery of Baghdad
-kadhimayn = {
-	county = c_baghdad
-	barony = b_baquba
-
-	county_holder_character_modifier = {
-		diplomacy = 1
-		direct_vassal_opinion = 3
-	}
-
-	county_modifier_scaled = {
-		scale = holy_site_total_artifact_rarity
-		county_opinion_add = 1
-		monthly_county_control_growth_factor = 0.01
+		learning_per_piety_level = 1
 	}
 
 	faith_character_modifier = {
-		diplomacy = 1
+		same_faith_opinion = 5
+		learning_per_piety_level = 1
+	}
+}
+
+mount_agung = {
+	county = c_IDO_bali
+
+	county_holder_character_modifier = {
+		defender_advantage = 5
+		monthly_piety_gain_mult = 0.1
+	}
+
+	faith_character_modifier = {
+		defender_advantage = 5
+		monthly_piety_gain_mult = 0.1
+	}
+}
+
+# Important site for early Christians & Jews
+najran = {
+	county = c_najran
+
+	county_holder_character_modifier = {
+		different_faith_liege_opinion = 10 #Muhammed was tolerant of local faiths
+		stewardship = 1 #Major trade city
+	}
+
+	faith_character_modifier = {
+		different_faith_liege_opinion = 10 #Muhammed was tolerant of local faiths
+		stewardship = 1 #Major trade city
+	}
+}
+
+oudalan = {
+	county = c_oudalan #aprox location of the home of Songhai magic
+
+	county_holder_character_modifier = {
+		intrigue = 1
+	}
+
+	faith_character_modifier = {
+		intrigue = 1
+	}
+}
+
+# Relics of St. Luke
+padua = {
+	county = c_polesine
+	barony = b_este #Prevents override of duchy building
+
+	county_holder_character_modifier = {
+		men_at_arms_cap = 1
+	}
+
+	faith_character_modifier = {
+		men_at_arms_cap = 1
+	}
+}
+
+paris = {
+	county = c_ile_de_france
+
+	county_holder_character_modifier = {
+		health = 0.1
+		learning = 1
+	}
+
+	faith_character_modifier = {
+		health = 0.1
+		learning = 1
+	}
+}
+
+pazhamudircholai = {
+	county = c_uraiyur
+	barony = b_dindigul
+
+	county_holder_character_modifier = {
 		direct_vassal_opinion = 5
 	}
 
-	faith_character_modifier_scaled = {
-		scale = holy_site_total_artifact_rarity
-		stress_loss_mult = 0.01
-		same_faith_opinion = 0.5
+	faith_character_modifier = {
+		direct_vassal_opinion = 5
 	}
 }
 
+# Where Hussite movement started
+prague = {
+	county = c_praha
+	barony = b_vysehrad #Prevents override of duchy building
+
+	county_holder_character_modifier = {
+		martial = 1
+		learning = 1
+	}
+
+	faith_character_modifier = {
+		martial = 1
+		learning = 1
+	}
+}
+
+# Origin of a handful of messianic jewish sects
+rai = {
+	county = c_rayy
+
+	county_holder_character_modifier = {
+		martial = 1
+		learning = 1
+	}
+
+	faith_character_modifier = {
+		martial = 1
+		learning = 1
+	}
+}
+
+rameswaram = {
+	county = c_madurai
+	barony = b_rameshvaram
+
+	county_holder_character_modifier = {
+		different_culture_opinion = 5
+	}
+
+	faith_character_modifier = {
+		different_culture_opinion = 5
+	}
+}
+
+selenga = {
+	county = c_selenga
+
+	county_holder_character_modifier = {
+		learning = 1
+		personal_scheme_phase_duration_add = miniscule_scheme_phase_duration_bonus_value
+	}
+
+	faith_character_modifier = {
+		learning = 1
+		personal_scheme_phase_duration_add = miniscule_scheme_phase_duration_bonus_value
+	}
+}
+
+sis = {
+	county = c_cilicia
+
+	county_holder_character_modifier = {
+		learning = 1
+	}
+
+	faith_character_modifier = {
+		learning = 1
+	}
+}
+
+suyab = {
+	county = c_suyab
+
+	county_holder_character_modifier = {
+		diplomacy = 1
+		martial = 1
+	}
+
+	faith_character_modifier = {
+		diplomacy = 1
+		martial = 1
+	}
+}
+
+tambora = {
+	county = c_IDO_lombok_and_sumbawa
+
+	county_holder_character_modifier = {
+		martial_per_piety_level = 1
+		knight_effectiveness_mult = 0.1
+	}
+
+	faith_character_modifier = {
+		martial_per_piety_level = 1
+		knight_effectiveness_mult = 0.1
+	}
+}
+
+tatamailau = {
+	county = c_IDO_wehale
+
+	county_holder_character_modifier = {
+		defender_advantage = 5
+		diplomacy = 1
+	}
+
+	faith_character_modifier = {
+		defender_advantage = 5
+		diplomacy = 1
+	}
+}
+
+tiruchendur = {
+	county = c_tirunelveli
+	barony = b_korkai
+
+	county_holder_character_modifier = {
+		clergy_opinion = 5
+	}
+
+	faith_character_modifier = {
+		clergy_opinion = 5
+	}
+}
+
+ucchi_pillayar = {
+	county = c_uraiyur
+	barony = b_uraiyur
+
+	county_holder_character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+	}
+
+	faith_character_modifier = {
+		monthly_piety_gain_per_knight_mult = 0.01
+	}
+}
+
+uliastai = {
+	county = c_uliastai
+
+	county_holder_character_modifier = {
+		fertility = 0.10
+		knight_effectiveness_mult = 0.2
+		prowess_per_piety_level = 1
+	}
+
+	faith_character_modifier = {
+		fertility = 0.10
+		knight_effectiveness_mult = 0.2
+		prowess_per_piety_level = 1
+	}
+}
+
+wanggameti = {
+	county = c_IDO_humba
+
+	county_holder_character_modifier = {
+		health = 0.1
+	}
+
+	faith_character_modifier = {
+		health = 0.1
+	}
+}
+
+yoshkar-ola = {
+	county = c_yoshkar-ola
+
+	county_holder_character_modifier = {
+		taiga_max_combat_roll = 4
+		archers_toughness_mult = 0.1
+	}
+
+	faith_character_modifier = {
+		taiga_max_combat_roll = 4
+		archers_toughness_mult = 0.1
+	}
+}
+
+zizipuwu = {
+	county = c_quzhou_1
+	barony = b_zhuti
+
+	county_holder_character_modifier = {
+		monthly_prestige_gain_per_happy_powerful_vassal_mult = 0.03
+	}
+
+	faith_character_modifier = {
+		monthly_prestige_gain_per_happy_powerful_vassal_mult = 0.03
+	}
+}

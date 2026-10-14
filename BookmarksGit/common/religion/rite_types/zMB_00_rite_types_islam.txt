@@ -11,6 +11,7 @@ nabi = { # Literal companions of and the followers of the Prophet (saw) at his t
 	faith = sadr_al_islam
 	icon = islam_alhamdulillah_06 # 1.20 icon (ME custom icon kept unused: ALB.dds)
 	convert = no
+	history = yes
 
 	color = { 0.4 0 0.2 }
 
@@ -32,6 +33,7 @@ sahabah = { # Literal companions of and the followers of the Prophet (saw) at hi
 	faith = sadr_al_islam
 	icon = islam_takbir_08
 	convert = no
+	history = yes
 
 	color = { 0.4 0 0.2 }
 
@@ -53,6 +55,7 @@ tabiun = { # Those who never met the Prophet (saw), but the ones who came after 
 	faith = sadr_al_islam
 	icon = islam_prayermat_01
 	convert = no
+	history = yes
 
 	color = { 0.4 0 0.2 }
 
@@ -238,7 +241,7 @@ african_folk_islam = { # West African Syncretic Sunni Islam
 	}
 
 	doctrines = {
-		tenet_unreformed_syncretism
+		mz_doctrine_unreformed_syncretism
 		muhammad_succession_sunni_doctrine
 		doctrine_bastardry_legitimization
 		doctrine_divorce_allowed
@@ -792,7 +795,7 @@ baqli = { # Baqlism/Baqliyyah, a form of Qarmatianism that was preached by Abu H
 		doctrine_pilgrimage_forbidden
 		doctrine_me_ablution_none # No Ablution (Abolition of Islamic observances)
 		#doctrine_me_fasting_month_none # No Ramadan
-		tenet_eastern_syncretism
+		mz_doctrine_eastern_syncretism
 	}
 
 	localization = {
@@ -1147,7 +1150,7 @@ barghawata = { # Barghawatism - The Berberist religion of Salih ibn Tarif
 		doctrine_pilgrimage_encouraged
 		##doctrine_me_fasting_month_rajab # Fasting in Rajab
 		special_doctrine_is_barghawata_faith # Barghawata trait doctrine
-		tenet_unreformed_syncretism
+		mz_doctrine_unreformed_syncretism
 	}
 }
 
@@ -1176,7 +1179,7 @@ hamimist = { # Ha-Mimism - The Berberist religion of Ha-Mim ibn Mann-Allah al-Ma
 		doctrine_pilgrimage_encouraged
 		##doctrine_me_fasting_month_rajab # Fasting in Rajab
 		special_doctrine_is_hamimist_faith # Ha-Mimist trait doctrine
-		tenet_unreformed_syncretism
+		mz_doctrine_unreformed_syncretism
 	}
 }
 
@@ -1204,7 +1207,7 @@ kaduist = { # Kaduist - The Berberist religion of Kadu ibn Mu'arik al-Mawati
 		doctrine_witchcraft_virtuous # From Berber Paganism
 		doctrine_pilgrimage_encouraged
 		special_doctrine_is_kaduist_faith # Kaduist trait doctrine
-		tenet_unreformed_syncretism
+		mz_doctrine_unreformed_syncretism
 	}
 }
 

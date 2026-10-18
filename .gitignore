@@ -10,6 +10,7 @@ desktop.ini
 .idea/
 .vs/
 .history/
+*.code-workspace
 
 # Temporary files
 ~$*
@@ -30,14 +31,6 @@ development/local/
 __pycache__/
 *.pyc
 *.pyo
-
-# Large map files
-# Upstream does not use Git LFS, so this fork keeps these oversized local files out of Git.
-
-# Live mod files
-BookmarksGit/map_data/heightmap.png
-BookmarksGit/gfx/map/terrain/detail_index.tga
-BookmarksGit/gfx/map/terrain/detail_intensity.tga
 
 # Coat of arms files
 BookmarksGit/gfx/coat_of_arms/**/*.asset

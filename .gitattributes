@@ -2,6 +2,8 @@
 * text=auto
 
 # Text files
+*.txt text eol=lf
+*.yml text eol=lf
 *.md text eol=lf
 *.json text eol=lf
 *.jsonc text eol=lf
@@ -14,21 +16,22 @@
 .gitattributes text eol=lf
 
 # CK3 text files
-*.txt text
-*.yml text
-*.gui text
-*.gfx text
-*.font text
-*.asset text
-*.mod text
-*.info text
-*.map text
-*.conf text
-*.settings text
-*.editordata text
-*.particle2 text
-*.terrain text
-*.heightmap text
+# Defer checkout line endings to Git configuration instead of the general LF rules.
+BookmarksGit/**/*.txt text !eol
+BookmarksGit/**/*.yml text !eol
+BookmarksGit/**/*.gui text !eol
+BookmarksGit/**/*.gfx text !eol
+BookmarksGit/**/*.font text !eol
+BookmarksGit/**/*.asset text !eol
+BookmarksGit/**/*.mod text !eol
+BookmarksGit/**/*.info text !eol
+BookmarksGit/**/*.map text !eol
+BookmarksGit/**/*.conf text !eol
+BookmarksGit/**/*.settings text !eol
+BookmarksGit/**/*.editordata text !eol
+BookmarksGit/**/*.particle2 text !eol
+BookmarksGit/**/*.terrain text !eol
+BookmarksGit/**/*.heightmap text !eol
 
 # Binary files
 *.png binary
@@ -46,8 +49,5 @@
 *.pdf binary
 *.exe binary
 
-# Preserve existing line endings in relocated upstream material
-upstream-extras/** text=auto
-
-# Archived raw diff evidence
-.agents/development/archive/merge_restore_backups/** -whitespace
+# Use automatic text detection without forcing checkout line endings in relocated upstream material
+upstream-extras/** text=auto !eol

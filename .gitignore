@@ -31,14 +31,3 @@ development/local/
 __pycache__/
 *.pyc
 *.pyo
-
-# Coat of arms files
-BookmarksGit/gfx/coat_of_arms/**/*.asset
-BookmarksGit/gfx/coat_of_arms/**/*.dds
-BookmarksGit/gfx/coat_of_arms/**/*.jpg
-BookmarksGit/gfx/coat_of_arms/**/*.mesh
-BookmarksGit/gfx/coat_of_arms/**/*.png
-
-# Font files
-BookmarksGit/fonts/**/*.ttf
-BookmarksGit/fonts/**/*.otf

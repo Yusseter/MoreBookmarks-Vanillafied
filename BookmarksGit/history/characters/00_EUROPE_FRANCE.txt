@@ -271,20 +271,21 @@ MB_PreuillyEschivard1 = {
 	}
 }
 
-MB_PreuillyEngebaud = {
+MB_PreuillyEngebaud = { # REPLACES existing (00_EUROPE_FRANCE). Engebaud, provost of Tours before 1132, archbishop 1147-1156
 	name = "Engebaud_MB"
 	dynasty = 315
 	rite = roman_rite
 	culture = french
 	father = 91305
 	mother = 40375
+	trait = education_learning_3
 	1075.1.1 = {
 		birth = yes
 	}
 	1146.1.1 = {
-		trait = devoted #became bishop of Tours
+		trait = devoted
 	}
-	1157.1.1 = {
+	1156.9.1 = {
 		death = yes
 	}
 }
@@ -1022,14 +1023,14 @@ MB_PreuillyLouise = {
 	}
 }
 
-1066540 = {
-	name = "G_rard_MB" #Gérard, son of Thibaud II de Rougemont and Alix de Traves; archbishop of Besançon 1220-1228 (MedLands; Wikipedia's table says 1221-1225 — MedLands is more precise and gives the mother's name, so I went with it)
+1066540 = { # REPLACES existing (00_EUROPE_FRANCE.txt)
+	name = "G_rard_MB" #Gérard, son of Thibaud II de Rougemont and Alix de Traves; bishop of Lausanne 1220, archbishop of Besançon 1221-1225
 	dynasty=1000020500
 	rite="roman_rite"
 	culture="arpitan"
 	father=1066539
 	1160.1.1 = { birth = yes }
-	1228.1.1 = { death = yes } #was 1225.1.1
+	1225.3.15 = { death = yes }
 }
 
 1066543 = {
@@ -3442,17 +3443,18 @@ MB_PreuillyLouise = {
 	}
 }
 
-138423 = {
-	name = "Humbert" #Bishop Humbert II de Baugé of Lyon/StJeanBaptiste
+138423 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_4 (ecclesiastical.txt)
+	name = "Humbert" #Humbert de Bâgé, bishop of Autun 1140-1148; resigned Lyon to become a Carthusian
 	rite = "roman_rite"
 	culture = arpitan
 	dynasty = 13110 #de Baugé
 	father = 1066614
+	trait = education_learning_4
 	1098.1.1 = {
-		birth = "1098.1.1" #unknown
+		birth = "1098.1.1"
 	}
 	1153.1.1 = {
-		death = "1153.1.1 "
+		death = yes
 	}
 }
 
@@ -3910,14 +3912,14 @@ Bauge2 = {
 	}
 }
 
-205685 = {
-	name = "Rainaut" #Renaud d'Albon archbishop of Lyon
+205685 = { # REPLACES existing (00_EUROPE_FRANCE.txt)
+	name = "Rainaut" #Renaud de Forez, archbishop of Lyon, regent of Forez 1203-1215
 	dynasty = 232
 	rite = "roman_rite"
 	culture = "arpitan"
 	father = 205680 #Guigues II de Forez
-	1178.1.1 = {
-		birth = "1178.1.1"
+	1165.1.1 = {
+		birth = "1165.1.1"
 	}
 	1226.10.21 = {
 		death = yes
@@ -4087,13 +4089,14 @@ Bauge2 = {
 	}
 }
 
-168096 = {
-	name = "Sobon"
+168096 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_vienne_1066_4 (ecclesiastical.txt)
+	name = "Sobon" #Sobon, archbishop of Vienne
 	dynasty = 57
 	rite = "carolingian_christianity"
 	culture = "arpitan"
 	father = 168094
 	mother = 163174
+	trait = education_learning_4
 	887.1.1 = {
 		birth = "887.1.1"
 	}
@@ -4235,17 +4238,18 @@ Bauge2 = {
 	}
 }
 
-138366 = {
-	name = "RobE_rt" #Bishop Robert de La Tour du Pin
+138366 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_vienne_1178_1 (ecclesiastical.txt)
+	name = "RobE_rt" #Robert de La Tour du Pin, bishop of Viviers 1171-1173, archbishop of Vienne and archchancellor of Burgundy
 	rite = "roman_rite"
 	culture = "arpitan"
 	dynasty = 57
 	father = 138414 #Geraud de la Tour du Pin
+	trait = education_learning_4
 	1140.1.1 = {
-		birth = "1140.1.1" #unknown
+		birth = "1140.1.1"
 	}
-	1190.1.1 = {
-		death = yes #unknown still alive in 1188.5
+	1195.6.17 = {
+		death = yes
 	}
 }
 
@@ -7806,39 +7810,43 @@ arpitan0001 = {
 	}
 }
 
-138420 = {
-	name = "Pierre" #Bishop Pierre I of Lyon/StJeanBaptiste
+138420 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_7 (ecclesiastical.txt)
+	name = "Pierre" #Pierre, Cluniac, bishop of Viviers; died at Antioch while papal legate
 	rite = "roman_rite"
 	culture = arpitan
+	trait = education_learning_4
 	1080.1.1 = {
-		birth = "1080.1.1" #unknown
+		birth = "1080.1.1"
 	}
-	1139.1.1 = {
-		death = "1139.1.1 "
-	}
-}
-
-138421 = {
-	name = "Foulque" #Bishop Foulque of Lyon/StJeanBaptiste
-	rite = "roman_rite"
-	culture = arpitan
-	1090.1.1 = {
-		birth = "1090.1.1" #unknown
-	}
-	1142.1.1 = {
-		death = "1142.1.1 "
+	1139.5.29 = {
+		death = yes
 	}
 }
 
-138422 = {
-	name = "AmE_dE_e" #Bishop Amédée I of Lyon/StJeanBaptiste
+138421 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_6 (ecclesiastical.txt)
+	name = "Foulque" #Falcon de Bothéon, dean of Saint-Jean de Lyon
+	dynasty = MB_dynn_botheon
 	rite = "roman_rite"
 	culture = arpitan
+	trait = education_learning_4
 	1090.1.1 = {
-		birth = "1090.1.1" #unknown
+		birth = "1090.1.1"
 	}
-	1148.1.1 = {
-		death = "1148.1.1 "
+	1142.1.28 = {
+		death = yes
+	}
+}
+
+138422 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_5 (ecclesiastical.txt)
+	name = "AmE_dE_e" #Amédée I
+	rite = "roman_rite"
+	culture = arpitan
+	trait = education_learning_4
+	1090.1.1 = {
+		birth = "1090.1.1"
+	}
+	1147.4.22 = {
+		death = yes
 	}
 }
 
@@ -13112,7 +13120,7 @@ Nouatre10 = {
 }
 
 ####################################### Dynasty: 321 - Salins #######################################
-205702 = {
+205702 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Maurette de Salins, wife of Gérard I of Mâcon and Vienne
 	name = "Marie"
 	female = yes
 	dynasty = 321
@@ -13125,6 +13133,7 @@ Nouatre10 = {
 	trait = greedy
 	trait = honest
 	trait = education_stewardship_3
+	father = MB_salins_gaucher_ii
 	1129.1.1 = {
 		birth = "1129.1.1"
 	}
@@ -13503,8 +13512,8 @@ Nouatre10 = {
 	}
 }
 
-292 = {
-	name = "Hugues"
+292 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_besancon_1178_9 (ecclesiastical.txt)
+	name = "Hugues" #Hugues III de Bourgogne, archbishop of Besançon
 	dynasty = 681
 	martial = 7
 	diplomacy = 7
@@ -13521,9 +13530,21 @@ Nouatre10 = {
 	1054.7.16 = {
 		rite = roman_rite
 	}
-	1099.1.1 = {
+	1100.9.13 = {
 		death = yes
 	}
+}
+
+MB_besancon_etienne_vienne = { # Étienne de Vienne, son of Gérard I, count of Mâcon and Vienne, and Maurette de Salins; elected 1191
+	name = "E_tienne"
+	dynasty = 681
+	father = 205701
+	mother = 205702
+	rite = roman_rite
+	culture = burgundian_oil
+	trait = education_learning_2
+	1160.1.1 = { birth = yes }
+	1193.6.11 = { death = yes }
 }
 
 295 = {
@@ -13574,8 +13595,8 @@ Nouatre10 = {
 	}
 }
 
-294 = {
-	name = "Guy"
+294 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_vienne_1178_8 (ecclesiastical.txt)
+	name = "Guy" #Guy de Bourgogne, archbishop of Vienne, Pope Callixtus II
 	dynasty = 681
 	martial = 4
 	diplomacy = 6
@@ -18309,7 +18330,7 @@ frankish0006 = {
 	}
 }
 
-190421 = {
+190421 = { # REPLACES existing (00_EUROPE_FRANCE). Hugh, son of Drogo of Champagne; archbishop of Rouen 722, bishop of Paris and Bayeux, abbot of Fontenelle and Jumièges; d. at Jumièges
 	name = "Hugh"
 	dynasty = 25061 #Karling
 	rite = "carolingian_christianity"
@@ -18318,7 +18339,7 @@ frankish0006 = {
 	690.1.1 = {
 		birth = yes
 	}
-	730.1.1 = {
+	730.4.9 = {
 		death = yes
 	}
 }
@@ -23983,9 +24004,10 @@ lothaire_the_lame = {
 }
 
 ####################################### Dynasty: 7389 - Guideschi #######################################
-168184 = {
+168184 = { # REPLACES existing (00_EUROPE_FRANCE). Lambert, son of Wido, count in Neustria
 	name = "Lambert"
 	dynasty = 7389
+	father = MB_widonid_wido
 	rite = "carolingian_christianity"
 	culture = "frankish"
 	730.1.1 = {
@@ -27641,16 +27663,16 @@ Stavelot15 = {
 	}
 }
 
-190449 = {
+190449 = { # REPLACES existing (00_EUROPE_FRANCE). Remigius, son of Charles Martel by a concubine; archbishop of Rouen 755, envoy to Italy 760
 	name = "Remigius"
 	rite = "carolingian_christianity"
 	culture = "frankish"
 	father = 131721
 	trait = bastard
-	740.1.1 = {
+	720.1.1 = {
 		birth = yes
 	}
-	787.1.1 = {
+	772.1.19 = {
 		death = yes
 	}
 }
@@ -30121,9 +30143,21 @@ Lamarche4 = {
 	}
 }
 
-20132 = {
+MB_gournay_hugh_2 = { # Hugues II de Gournay, d. as a monk at Bec
+	name = "Hugues"
+	dynasty = 101691
+	rite = "carolingian_christianity"
+	culture = "norman"
+	1000.1.1 = { birth = yes }
+	1054.7.16 = { rite = roman_rite }
+	1074.1.1 = { death = yes }
+	trait = education_martial_2
+}
+
+20132 = { # REPLACES existing (00_EUROPE_FRANCE). Manassès I of Reims, son of Hugues II de Gournay and Adelaide of Dammartin
 	name = "Manasses"
 	dynasty = 101691
+	father = MB_gournay_hugh_2
 	martial = 8
 	diplomacy = 5
 	intrigue = 5
@@ -30143,6 +30177,30 @@ Lamarche4 = {
 	1081.12.27 = {
 		death = yes
 	}
+}
+
+MB_gournay_hugh_3 = { # Hugues III de Gournay, husband of Basilia Flaitel
+	name = "Hugues"
+	dynasty = 101691
+	father = MB_gournay_hugh_2
+	rite = "carolingian_christianity"
+	culture = "norman"
+	1032.1.1 = { birth = yes }
+	1054.7.16 = { rite = roman_rite }
+	1094.1.1 = { death = yes }
+	trait = education_martial_3
+}
+
+MB_gournay_gerard = { # Gérard de Gournay, d. on the First Crusade
+	name = "GE_rard"
+	dynasty = 101691
+	father = MB_gournay_hugh_3
+	rite = "roman_rite"
+	culture = "norman"
+	1060.1.1 = { birth = yes }
+	1104.1.1 = { death = yes }
+	trait = education_martial_3
+	trait = faith_warrior
 }
 
 ####################################### Dynasty: 101704 - Ridefort #######################################
@@ -31533,46 +31591,56 @@ Thourotte4 = {
 }
 
 ####################################### Dynasty: 1027024 - Roussillon #######################################
-138439 = {
-	name = "AdE_mar" #Bishop Aymar de Roussillon of Lyon/StJeanBaptiste
+138439 = { # REPLACES existing (00_EUROPE_FRANCE.txt)
+	name = "AdE_mar" #Aymar de Roussillon, son of Artaud IV de Roussillon
 	dynasty = 1027024
 	rite = "roman_rite"
 	culture = french
 	1210.1.1 = {
-		birth = "1210.1.1" #unknown
+		birth = "1210.1.1"
 	}
-	1283.1.1 = {
-		death = yes #unknown
+	1283.10.7 = {
+		death = yes
 	}
 }
 
 ####################################### Dynasty: 1027025 - Pontigny #######################################
-138436 = {
-	name = "Guichard" #Bishop Guichard de Pontigny of Lyon/StJeanBaptiste
-	dynasty = 1027025
+138436 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_1 (ecclesiastical.txt)
+	name = "Guichard" #Guichard, Cistercian, abbot of Pontigny 1136-1165; made the Permutatio of 1173 with the count of Forez
 	rite = "roman_rite"
 	culture = french
+	trait = education_learning_4
 	1110.1.1 = {
-		birth = "1110.1.1" #unknown
+		birth = "1110.1.1"
 	}
-	1181.9.27 = {
+	1180.7.27 = {
 		death = yes
 	}
 }
 
 ####################################### Dynasty: 1027026 - Beauvoir #######################################
-138435 = {
-	name = "Dreux" #Bishop Drogon de Beauvoir of Lyon/StJeanBaptiste
+MB_beauvoir_siboud = { # Siboud I de Beauvoir
+	name = "Siboud"
+	dynasty = 1027026
+	rite = roman_rite
+	culture = french
+	1065.1.1 = { birth = yes }
+	1130.1.1 = { death = yes }
+}
+
+138435 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_2 (ecclesiastical.txt)
+	name = "Dreux" #Drogon de Beauvoir, elect of Lyon, partisan of the antipope Victor IV; expelled in 1167
 	dynasty = 1027026
 	rite = "roman_rite"
 	culture = french
+	father = MB_beauvoir_siboud
 	trait = cynical
 	trait = education_learning_1
 	1100.1.1 = {
-		birth = "1100.1.1" #unknown
+		birth = "1100.1.1"
 	}
 	1167.1.1 = {
-		death = yes #unknown
+		death = yes
 	}
 }
 
@@ -32333,10 +32401,9 @@ Thourotte4 = {
 }
 
 ####################################### Dynasty: 13102 - Brosse #######################################
-40155 = {
+40155 = { # REPLACES existing (00_EUROPE_FRANCE). Rothilde, heiress of Brosse
 	name = "Rothilde"
 	female = yes
-	dynasty = 13102 #de Brosse
 	rite = "carolingian_christianity"
 	culture = french
 	932.1.1 = {
@@ -32345,6 +32412,28 @@ Thourotte4 = {
 	987.1.1 = {
 		death = yes
 	}
+}
+
+MB_brosse_bernard_2 = { # Bernard II, vicomte de Brosse
+	name = "Bernard"
+	dynasty = 13102
+	father = 40306
+	rite = "roman_rite"
+	culture = "french"
+	1060.1.1 = { birth = yes }
+	1115.1.1 = { death = yes }
+	trait = education_martial_2
+}
+
+MB_brosse_bernard_3 = { # Bernard III, vicomte de Brosse
+	name = "Bernard"
+	dynasty = 13102
+	father = MB_brosse_bernard_2
+	rite = "roman_rite"
+	culture = "french"
+	1100.1.1 = { birth = yes }
+	1165.1.1 = { death = yes }
+	trait = education_martial_2
 }
 
 40306 = {
@@ -32397,13 +32486,15 @@ Thourotte4 = {
 }
 
 ####################################### Dynasty: 13109 - Die #######################################
-138409 = {
-	name = "Hugues" #Bishop Hugues de Die/de Bourgogne of Lyon/StJeanBaptiste
+138409 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_11 (ecclesiastical.txt)
+	name = "Hugues" #Hugues de Die, bishop of Die from 1074, papal legate in Gaul; died at Susa
 	dynasty = 13109 #de Die
 	rite = "carolingian_christianity"
 	culture = french
+	trait = education_learning_4
+	trait = devoted
 	1040.1.1 = {
-		birth = "1040.1.1" #unknown
+		birth = "1040.1.1"
 	}
 	1054.7.16 = {
 		rite = roman_rite
@@ -32837,12 +32928,23 @@ Saulx5 = {
 }
 
 ####################################### Dynasty: 2001322 - Châtre #######################################
-303424 = {
+MB_deols_launus = { # Launus, lord of Déols, husband of Arsindis
+	name = "Launus"
+	dynasty = 2001322
+	rite = "carolingian_christianity"
+	culture = "french"
+	845.1.1 = { birth = yes }
+	917.1.1 = { death = yes }
+	trait = education_martial_2
+}
+
+303424 = { # REPLACES existing (00_EUROPE_FRANCE). Ebbes the Noble, founder of the abbey of Déols 917
 	name = "Ebbes" #Ebbes the Noble of Deols
 	dynasty = 2001322 #de La Châtre
+	father = MB_deols_launus
 	rite = carolingian_christianity
 	culture = french
-	893.1.1 = { #random guess
+	870.1.1 = {
 		birth = yes
 	}
 	935.1.1 = {
@@ -36131,12 +36233,12 @@ JoinvilleFather1 = {
 	}
 }
 
-JoinvilleFather = {
+JoinvilleFather = { # REPLACES existing (00_EUROPE_FRANCE). Son of Jean de Joinville
 	name = "Geoffrey"
-	dynasty = 241
+	dynasty = 23110
 	rite = "roman_rite"
 	culture = french
-	father = JoinvilleFather1
+	father = MB_joinville_jean
 	1262.1.1 = {
 		birth = "1262.1.1"
 	}
@@ -36145,9 +36247,9 @@ JoinvilleFather = {
 	}
 }
 
-462650 = {
+462650 = { # REPLACES existing (00_EUROPE_FRANCE). Anseau de Joinville, son of Jean de Joinville; seneschal of Champagne, marshal of France
 	name = "Ansel"
-	dynasty = 241
+	dynasty = 23110
 	martial = 5
 	diplomacy = 4
 	intrigue = 7
@@ -36155,18 +36257,18 @@ JoinvilleFather = {
 	rite = "roman_rite"
 	culture = french
 	trait = education_intrigue_1
-	father = JoinvilleFather
-	1298.1.1 = {
-		birth = "1298.1.1"
+	father = MB_joinville_jean
+	1265.1.1 = {
+		birth = "1265.1.1"
 	}
-	1348.1.1 = {
+	1343.1.1 = {
 		death = yes
 	}
 }
 
-465400 = {
+465400 = { # REPLACES existing (00_EUROPE_FRANCE)
 	name = "Nicolas"
-	dynasty = 241
+	dynasty = 23110
 	martial = 5
 	diplomacy = 6
 	intrigue = 4
@@ -36184,10 +36286,10 @@ JoinvilleFather = {
 	}
 }
 
-454535 = {
+454535 = { # REPLACES existing (00_EUROPE_FRANCE)
 	name = "Alix"
 	female = yes
-	dynasty = 241
+	dynasty = 23110
 	martial = 5
 	diplomacy = 7
 	intrigue = 7
@@ -37972,9 +38074,10 @@ MB_Chatellerault12 = {
 }
 
 ####################################### Dynasty: 40010 - Parthenay #######################################
-40060 = {
+40060 = { # REPLACES existing (00_EUROPE_FRANCE). Simon de Parthenay, brother and vidame of Archbishop Joscelin
 	name = "Simon"
 	dynasty = 40010
+	father = MB_parthenay_guillaume
 	martial = 2
 	diplomacy = 10
 	intrigue = 5
@@ -37983,8 +38086,8 @@ MB_Chatellerault12 = {
 	culture = french
 	trait = gluttonous
 	trait = education_intrigue_4
-	1045.1.1 = {
-		birth = "1045.1.1"
+	1035.1.1 = {
+		birth = "1035.1.1"
 	}
 	1054.7.16 = {
 		rite = roman_rite
@@ -37992,7 +38095,7 @@ MB_Chatellerault12 = {
 	1061.1.1 = {
 		add_spouse = 40055
 	}
-	1095.1.1 = {
+	1075.1.1 = {
 		death = yes
 	}
 }
@@ -38485,11 +38588,12 @@ MB_Chatellerault12 = {
 	}
 }
 
-138419 = {
-	name = "Renaud" #Renaud de Semur Bishop of Lyon/St Jean Baptiste
+138419 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_8 (ecclesiastical.txt)
+	name = "Renaud" #Renaud de Semur, abbot of Vézelay 1106-1128, nephew of Saint Hugh of Cluny
 	dynasty = 40022 #de Semur
 	rite = "roman_rite"
 	culture = french
+	trait = education_learning_4
 	father = 40348 #Geoffroy III de Sémur
 	mother = 40345 #Ermengarde de Sémur
 	1074.1.1 = {
@@ -38499,6 +38603,7 @@ MB_Chatellerault12 = {
 		death = yes
 	}
 }
+
 
 ####################################### Dynasty: 413 - Poitiers #######################################
 90130 = {
@@ -40321,9 +40426,20 @@ MB_Chatellerault12 = {
 }
 
 ####################################### Dynasty: 5067 - Corbeil #######################################
-161330 = {
+MB_corbeil_root = { # FABRICATED - father of William de Corbeil and his attested brothers Ranulf and Helgot
+	name = "Hugues"
+	dynasty = 5067
+	rite = roman_rite
+	culture = french
+	1040.1.1 = { birth = yes } # estimated
+	1100.1.1 = { death = yes } # estimated
+	trait = education_martial_2
+}
+
+161330 = { # REPLACES existing - William de Corbeil, prior of St Osyth, Archbishop 1123-1136, papal legate
 	name = "Guillaume"
 	dynasty = 5067
+	father = MB_corbeil_root
 	rite = "roman_rite"
 	culture = french
 	trait = education_learning_2
@@ -40334,6 +40450,29 @@ MB_Chatellerault12 = {
 		death = yes
 	}
 }
+
+MB_corbeil_ranulf = { # Ranulf de Corbeil - attested brother of William; FABRICATED as father of Pierre I (Sens line)
+	name = "Ranulf"
+	dynasty = 5067
+	rite = roman_rite
+	culture = french
+	father = MB_corbeil_root
+	1072.1.1 = { birth = yes } # estimated
+	1135.1.1 = { death = yes } # estimated
+	trait = education_martial_2
+}
+
+MB_corbeil_helgot = { # Helgot de Corbeil - attested brother of William
+	name = "Helgot"
+	dynasty = 5067
+	rite = roman_rite
+	culture = french
+	father = MB_corbeil_root
+	1075.1.1 = { birth = yes } # estimated
+	1140.1.1 = { death = yes } # estimated
+	trait = education_martial_2
+}
+
 
 ####################################### Dynasty: 5069 - Garlande #######################################
 91133 = {
@@ -41853,7 +41992,7 @@ Grandpre6 = { #
 	}
 }
 
-40443 = {
+40443 = { # REPLACES existing (00_EUROPE_FRANCE). Gelduin de Joigny, archbishop of Sens 1032, deposed for simony at Reims 1049
 	name = "Gilduin"
 	dynasty = 5090
 	martial = 3
@@ -41862,10 +42001,12 @@ Grandpre6 = { #
 	stewardship = 4
 	rite = "carolingian_christianity"
 	culture = french
+	trait = education_learning_2
+	trait = greedy
 	father = 40440
 	mother = 40441
-	1019.1.1 = {
-		birth = "1019.1.1"
+	1005.1.1 = {
+		birth = "1005.1.1"
 	}
 	1049.1.1 = {
 		death = yes
@@ -42739,6 +42880,7 @@ MB_Harcourt17 = {
 	diplomacy = 6
 	intrigue = 4
 	stewardship = 7
+	father = 1227373
 	rite = "carolingian_christianity"
 	culture = french
 	trait = education_learning_3
@@ -45193,7 +45335,7 @@ MB_Harcourt17 = {
 	}
 }
 
-386 = {
+386 = { # REPLACES existing (00_EUROPE_FRANCE). Hugues de Blois, son of Theobald the Trickster and Liutgarde of Vermandois; archbishop of Bourges 969-985
 	name = "Hugues"
 	dynasty = 721
 	martial = 7
@@ -45205,10 +45347,10 @@ MB_Harcourt17 = {
 	trait = education_learning_3
 	father = 382
 	mother = 411
-	954.1.1 = {
-		birth = "954.1.1"
+	947.1.1 = {
+		birth = "947.1.1"
 	}
-	1010.1.1 = {
+	985.12.17 = {
 		death = yes
 	}
 }
@@ -45868,7 +46010,7 @@ MB_Harcourt17 = {
 	}
 }
 
-91160 = {
+91160 = { # REPLACES existing (00_EUROPE_FRANCE). Bishop of Chartres 1165, archbishop of Sens 1168, cardinal of Santa Sabina 1179; d. at Laon
 	name = "Guillaume" #Guillaume aux Blanches Mains
 	dynasty = 721 #Blois
 	rite = "roman_rite"
@@ -45879,7 +46021,7 @@ MB_Harcourt17 = {
 	1135.1.1 = {
 		birth = "1135.1.1"
 	}
-	1202.1.1 = {
+	1202.9.7 = {
 		death = yes
 	}
 }
@@ -46523,9 +46665,10 @@ MB_Harcourt17 = {
 }
 
 ####################################### Dynasty: 7211 - Toucy #######################################
-34597 = {
+34597 = { # REPLACES existing (00_EUROPE_FRANCE). Narjot de Toucy, son of Ithier
 	name = "Narjot"
 	dynasty = 7211
+	father = MB_toucy_ithier
 	rite = "roman_rite"
 	culture = french
 	1187.1.1 = {
@@ -46820,7 +46963,7 @@ MB_Harcourt17 = {
 	}
 }
 
-1799 = {
+1799 = { # REPLACES existing (00_EUROPE_FRANCE). Fulk the Red, son of Ingelger and Adelais of Amboise
 	name = "Foulques"
 	dynasty = 723
 	martial = 4
@@ -46833,6 +46976,7 @@ MB_Harcourt17 = {
 	trait = cynical
 	trait = education_intrigue_1
 	father = 168061
+	mother = MB_amboise_adelais
 	870.1.1 = {
 		birth = "870.1.1"
 		give_nickname = nick_the_red
@@ -48158,10 +48302,21 @@ MB_Harcourt17 = {
 }
 
 ####################################### Dynasty: 738 - Roucy #######################################
-271 = {
+MB_roucy_renaud = { # Renaud, count of Roucy
+	name = "Renaud"
+	dynasty = 738
+	rite = "carolingian_christianity"
+	culture = "french"
+	920.1.1 = { birth = yes }
+	967.5.10 = { death = yes }
+	trait = education_martial_3
+}
+
+271 = { # REPLACES existing (00_EUROPE_FRANCE). Ermentrude, daughter of Renaud of Roucy
 	name = "Ermentrude"
 	female = yes
 	dynasty = 738
+	father = MB_roucy_renaud
 	martial = 6
 	diplomacy = 5
 	intrigue = 7
@@ -48178,12 +48333,13 @@ MB_Harcourt17 = {
 	}
 }
 
-1226513 = {
+1226513 = { # REPLACES existing (00_EUROPE_FRANCE). Brunon de Roucy, son of Renaud, bishop of Langres
 	name="Brunon" #980/1015, Brunon de Roucy
 	rite="carolingian_christianity"
 	culture="french"
 	trait=education_learning_1
 	dynasty=738
+	father = MB_roucy_renaud
 	956.1.1 = {
 		birth = yes
 	}
@@ -48191,6 +48347,18 @@ MB_Harcourt17 = {
 		death = yes
 	}
 }
+
+MB_roucy_giselbert = { # Giselbert, count of Roucy
+	name = "Giselbert"
+	dynasty = 738
+	father = MB_roucy_renaud
+	rite = "carolingian_christianity"
+	culture = "french"
+	950.1.1 = { birth = yes }
+	991.1.1 = { death = yes }
+	trait = education_martial_2
+}
+
 
 ####################################### Dynasty: 742 - Sémur-en-Brionnais #######################################
 94012 = {
@@ -50008,7 +50176,7 @@ BrienneRamerupt5 = {
 }
 
 ####################################### Dynasty: 8695 - Thoire #######################################
-70940 = {
+70940 = { # REPLACES existing (00_EUROPE_FRANCE.txt)
 	name = "Humbert"
 	dynasty = 8695 #Thoire
 	martial = 3
@@ -50020,6 +50188,7 @@ BrienneRamerupt5 = {
 	culture = french
 	trait = education_diplomacy_4
 	trait = arbitrary
+	father = MB_thoire_humbert_jr
 	1293.1.1 = {
 		birth = "1293.1.1"
 	}
@@ -50193,13 +50362,16 @@ BrienneRamerupt5 = {
 }
 
 ####################################### Dynasty: 8755 - Ramerupt #######################################
-32294 = {
+32294 = { # REPLACES existing (00_EUROPE_FRANCE). Hilduin IV of Montdidier and Ramerupt
 	name = "Hilduin"
 	dynasty = 8755
 	rite = "carolingian_christianity"
 	culture = french
 	1013.1.1 = {
 		birth = "1013.1.1"
+	}
+	1045.1.1 = {
+		add_spouse = MB_roucy_alix
 	}
 	1054.7.16 = {
 		rite = roman_rite
@@ -50209,13 +50381,14 @@ BrienneRamerupt5 = {
 	}
 }
 
-161973 = {
+161973 = { # REPLACES existing (00_EUROPE_FRANCE)
 	name = "Adela"
 	female = yes
 	dynasty = 8755 #de Ramerupt
 	culture = french
 	rite = "carolingian_christianity"
 	father = 32294
+	mother = MB_roucy_alix
 	1050.1.1 = {
 		birth = "1050.1.1"
 	}
@@ -50227,12 +50400,13 @@ BrienneRamerupt5 = {
 	}
 }
 
-32290 = {
+32290 = { # REPLACES existing (00_EUROPE_FRANCE). Ebles II of Roucy
 	name = "Ebles"
 	dynasty = 8755
 	rite = "roman_rite"
 	culture = french
 	father = 32294
+	mother = MB_roucy_alix
 	1059.1.1 = {
 		birth = "1059.1.1"
 	}
@@ -50244,13 +50418,14 @@ BrienneRamerupt5 = {
 	}
 }
 
-71589 = {
+71589 = { # REPLACES existing (00_EUROPE_FRANCE). Felicie de Roucy, queen of Aragon
 	name = "Felicie"
 	dynasty = 8755
 	female = yes
 	rite = "roman_rite"
 	culture = french
 	father = 32294
+	mother = MB_roucy_alix
 	1060.1.1 = {
 		birth = "1060.1.1"
 	}
@@ -50259,13 +50434,14 @@ BrienneRamerupt5 = {
 	}
 }
 
-161972 = {
+161972 = { # REPLACES existing (00_EUROPE_FRANCE)
 	name = "Aelis"
 	female = yes
 	dynasty = 8755 #de Ramerupt
 	culture = french
 	rite = "roman_rite"
 	father = 32294
+	mother = MB_roucy_alix
 	1061.1.1 = {
 		birth = "1061.1.1"
 	}
@@ -52705,9 +52881,10 @@ Sens1 = {
 }
 
 ####################################### Dynasty: 94 - Sully #######################################
-91327 = {
+91327 = { # REPLACES existing (00_EUROPE_FRANCE). Gilles II de Sully
 	name = "Gilles" #Gilles II de Sully
 	dynasty = 94 #Sully
+	father = MB_sully_gilon
 	rite = "carolingian_christianity"
 	culture = french
 	1030.1.1 = {
@@ -55142,7 +55319,7 @@ Bourbon1 = {
 	}
 }
 
-91170 = {
+91170 = { # REPLACES existing (00_EUROPE_FRANCE)
 	name = "Jean" #Jean I de Courtenay-Champignelles
 	dynasty_house = house_Courtenay #Capetian house of Courtenay
 	rite = "roman_rite"
@@ -55155,7 +55332,7 @@ Bourbon1 = {
 	1270.5.1 = {
 		trait = faith_warrior
 	}
-	1270.8.20 = {
+	1270.8.17 = {
 		death = yes
 	}
 }
@@ -55223,7 +55400,7 @@ Bourbon1 = {
 	}
 }
 
-91172 = {
+91172 = { # REPLACES existing (00_EUROPE_FRANCE). Nephew of Archbishop Jean
 	name = "Robert" #Robert de Courtenay-Champignelles
 	dynasty_house = house_Courtenay #Capetian house of Courtenay
 	rite = "roman_rite"
@@ -55233,7 +55410,7 @@ Bourbon1 = {
 	1251.1.1 = {
 		birth = "1251.1.1"
 	}
-	1324.1.1 = {
+	1324.3.3 = {
 		death = yes
 	}
 }
@@ -55609,7 +55786,7 @@ Bourbon1 = {
 	}
 }
 
-91044 = {
+91044 = { # REPLACES existing (00_EUROPE_FRANCE). d. at Courville
 	name = "Henri" #Henri de Dreux
 	dynasty_house = house_Dreux #Capetian house of Dreux
 	rite = "roman_rite"
@@ -55620,7 +55797,7 @@ Bourbon1 = {
 	1193.1.1 = {
 		birth = "1193.1.1"
 	}
-	1240.1.1 = {
+	1240.7.6 = {
 		death = yes
 	}
 }
@@ -66018,8 +66195,22 @@ Stavelot35 = {
 	}
 }
 
-91173 = {
+MB_chateauduloir_haimon = { # Haimon, lord of Château-du-Loir
+	name = "Haimon"
+	dynasty = MB_dynn_chateau_du_loir
+	rite = "carolingian_christianity"
+	culture = "french"
+	965.1.1 = { birth = yes }
+	1000.1.1 = { add_spouse = 1227380 }
+	1030.1.1 = { death = yes }
+	trait = education_martial_2
+}
+
+91173 = { # REPLACES existing (00_EUROPE_FRANCE). Gervais de Château-du-Loir, son of Haimon and Hildeburg de Bellême, nephew of Bishop Avesgaud; bishop of Le Mans 1036; crowned Philip I in 1059
 	name = "Gervais" #Gervais de Bellème
+	dynasty = MB_dynn_chateau_du_loir
+	father = MB_chateauduloir_haimon
+	mother = 1227380
 	rite = "carolingian_christianity"
 	culture = french
 	trait = education_learning_3
@@ -66082,8 +66273,20 @@ Stavelot35 = {
 	}
 }
 
-91174 = {
+MB_bellay_berlay = { # Berlay II, lord of Montreuil-Bellay
+	name = "Berlay"
+	dynasty = MB_dynn_bellay
+	rite = "carolingian_christianity"
+	culture = "french"
+	990.1.1 = { birth = yes }
+	1050.1.1 = { death = yes }
+	trait = education_martial_2
+}
+
+91174 = { # REPLACES existing (00_EUROPE_FRANCE). Renaud du Bellay, son of Berlay II of Montreuil-Bellay and Grace; treasurer of Saint-Martin de Tours
 	name = "Renaud" #Renaud I du Bellay
+	dynasty = MB_dynn_bellay
+	father = MB_bellay_berlay
 	rite = "carolingian_christianity"
 	culture = french
 	trait = education_learning_3
@@ -66093,7 +66296,7 @@ Stavelot35 = {
 	1054.7.16 = {
 		rite = roman_rite
 	}
-	1096.1.1 = {
+	1096.1.21 = {
 		death = yes
 	}
 }
@@ -66302,7 +66505,7 @@ Stavelot37 = {
 	}
 }
 
-91176 = {
+91176 = { # REPLACES existing (00_EUROPE_FRANCE). Raoul le Verd, provost of Reims
 	name = "Raoul" #Raoul le Verd
 	rite = "carolingian_christianity"
 	culture = french
@@ -66313,7 +66516,7 @@ Stavelot37 = {
 	1054.7.16 = {
 		rite = roman_rite
 	}
-	1124.1.1 = {
+	1124.7.23 = {
 		death = yes
 	}
 }
@@ -66360,15 +66563,27 @@ Stavelot38 = { #House Beaumont
 	}
 }
 
-91177 = {
-	name = "Raymond" #Raymond de Martingné
+MB_martigne_briand = { # Briand, lord of Martigné in Anjou
+	name = "Briand"
+	dynasty = MB_dynn_martigne
+	rite = "roman_rite"
+	culture = "french"
+	1035.1.1 = { birth = yes }
+	1095.1.1 = { death = yes }
+	trait = education_martial_2
+}
+
+91177 = { # REPLACES existing (00_EUROPE_FRANCE). Renaud de Martigné, son of Briand; bishop of Angers 1102-1124
+	name = "Renaud" #Renaud de Martigné
+	dynasty = MB_dynn_martigne
+	father = MB_martigne_briand
 	rite = "roman_rite"
 	culture = french
 	trait = education_learning_3
 	1060.1.1 = {
 		birth = "1060.1.1"
 	}
-	1138.1.1 = {
+	1138.1.13 = {
 		death = yes
 	}
 }
@@ -66465,15 +66680,27 @@ Stavelot39 = {
 	}
 }
 
-91178 = {
+MB_mauvoisin_raoul = { # Raoul Mauvoisin, lord of Rosny
+	name = "Raoul"
+	dynasty = MB_dynn_mauvoisin
+	rite = "roman_rite"
+	culture = "french"
+	1050.1.1 = { birth = yes }
+	1110.1.1 = { death = yes }
+	trait = education_martial_2
+}
+
+91178 = { # REPLACES existing (00_EUROPE_FRANCE). Samson de Mauvoisin, son of Raoul Mauvoisin and Odesinde; provost of Chartres
 	name = "Samson" #Samson de Mauvoisin
+	dynasty = MB_dynn_mauvoisin
+	father = MB_mauvoisin_raoul
 	rite = "roman_rite"
 	culture = french
 	trait = education_learning_3
 	1080.1.1 = {
 		birth = "1080.1.1"
 	}
-	1161.1.1 = {
+	1161.9.21 = {
 		death = yes
 	}
 }
@@ -66744,7 +66971,7 @@ Stavelot42 = {
 	}
 }
 
-91179 = {
+91179 = { # REPLACES existing (00_EUROPE_FRANCE). Abbot of Cîteaux 1194, cardinal 1190, cardinal-bishop of Palestrina 1200; d. of plague at Ghent
 	name = "Guy" #Guy Paré
 	rite = "roman_rite"
 	culture = french
@@ -66753,10 +66980,7 @@ Stavelot42 = {
 	1140.1.1 = {
 		birth = "1140.1.1"
 	}
-	1205.1.1 = {
-		trait = bubonic_plague
-	}
-	1207.1.1 = {
+	1206.7.30 = {
 		death = yes
 	}
 }
@@ -66810,7 +67034,7 @@ Stavelot44 = {
 	}
 }
 
-91180 = {
+91180 = { # REPLACES existing (00_EUROPE_FRANCE). Archdeacon of Paris; d. at Pavia returning from the Fifth Crusade
 	name = "AlbE_ric" #Albéric de Humbert
 	rite = "roman_rite"
 	culture = french
@@ -66821,7 +67045,7 @@ Stavelot44 = {
 	1209.6.1 = {
 		trait = faith_warrior
 	}
-	1219.1.1 = {
+	1218.12.24 = {
 		death = yes
 	}
 }
@@ -67023,8 +67247,9 @@ Stavelot46 = {
 	}
 }
 
-91182 = {
-	name = "Juhel" #Yves de Saint-Martin
+91182 = { # REPLACES existing (00_EUROPE_FRANCE). Juhel de Mathefelon, of the lords of Mathefelon in Anjou; archbishop of Tours c.1228-1245
+	name = "Juhel" #Juhel de Mathefelon
+	dynasty = MB_dynn_mathefelon
 	rite = "roman_rite"
 	culture = french
 	trait = education_learning_2
@@ -67034,7 +67259,7 @@ Stavelot46 = {
 	1248.8.25 = {
 		trait = faith_warrior
 	}
-	1250.1.1 = {
+	1250.12.18 = {
 		death = yes
 	}
 }
@@ -67052,15 +67277,27 @@ Stavelot46 = {
 	}
 }
 
-91183 = {
+MB_beaumetz_gilles = { # Gilles de Beaumetz, castellan of Bapaume, husband of Agnès de Coucy
+	name = "Gilles"
+	dynasty = MB_dynn_beaumetz
+	rite = "roman_rite"
+	culture = "french"
+	1160.1.1 = { birth = yes }
+	1220.1.1 = { death = yes }
+	trait = education_martial_2
+}
+
+91183 = { # REPLACES existing (00_EUROPE_FRANCE). Thomas de Beaumetz, son of Gilles, castellan of Bapaume, and Agnès de Coucy
 	name = "Thomas" #Thomas de Beaumetz/Beaumes
+	dynasty = MB_dynn_beaumetz
+	father = MB_beaumetz_gilles
 	rite = "roman_rite"
 	culture = french
 	trait = education_learning_3
 	1190.1.1 = {
 		birth = "1190.1.1"
 	}
-	1263.1.1 = {
+	1263.2.15 = {
 		death = yes
 	}
 }
@@ -67204,7 +67441,7 @@ Stavelot46 = {
 	}
 }
 
-91184 = {
+91184 = { # REPLACES existing (00_EUROPE_FRANCE)
 	name = "Pierre" #Pierre Barbet
 	rite = "roman_rite"
 	culture = french
@@ -67212,7 +67449,7 @@ Stavelot46 = {
 	1220.1.1 = {
 		birth = "1220.1.1"
 	}
-	1298.1.1 = {
+	1298.10.3 = {
 		death = yes
 	}
 }
@@ -67358,15 +67595,27 @@ Stavelot49 = { #House Chiny
 	}
 }
 
-91185 = {
+MB_trie_renaud = { # Renaud de Trie, killed at Courtrai
+	name = "Renaud"
+	dynasty = MB_dynn_trie
+	rite = "roman_rite"
+	culture = "french"
+	1240.1.1 = { birth = yes }
+	1302.7.11 = { death = yes }
+	trait = education_martial_3
+}
+
+91185 = { # REPLACES existing (00_EUROPE_FRANCE). Guillaume de Trie, son of Renaud de Trie, brother of Mathieu de Trie, marshal of France; bishop of Bayeux 1312-1324
 	name = "Guillaume" #Guillaume de Trie
+	dynasty = MB_dynn_trie
+	father = MB_trie_renaud
 	rite = "roman_rite"
 	culture = french
 	trait = education_learning_3
-	1250.1.1 = {
-		birth = "1250.1.1"
+	1270.1.1 = {
+		birth = "1270.1.1"
 	}
-	1331.1.1 = {
+	1334.9.26 = {
 		death = yes
 	}
 }
@@ -67397,28 +67646,32 @@ Stavelot49 = { #House Chiny
 	}
 }
 
-91186 = {
+91186 = { # REPLACES existing (00_EUROPE_FRANCE). Jean de Vienne, of Vienne-en-Bessin in Normandy; bishop of Avranches 1328 and Thérouanne 1331
 	name = "Jean" #Jean II de Vienne
+	dynasty = MB_dynn_vienne_bessin
 	rite = "roman_rite"
-	culture = french
+	culture = norman
 	trait = education_learning_3
-	1270.1.1 = {
-		birth = "1270.1.1"
+	1280.1.1 = {
+		birth = "1280.1.1"
 	}
-	1351.1.1 = {
+	1351.6.14 = {
 		death = yes
 	}
 }
 
-138397 = {
-	name = "Guillaume" #Bishop Guillaume IV de Flavacourt
+138397 = { # REPLACES existing (00_EUROPE_FRANCE). Guillaume de Flavacourt, bishop of Viviers 1319 and Carcassonne 1322, archbishop of Auch 1323 and Rouen 1357
+	name = "Guillaume"
+	dynasty = MB_dynn_flavacourt
+	father = MB_flavacourt_eustache
 	rite = "roman_rite"
 	culture = french
-	1270.1.1 = {
-		birth = "1270.1.1" #unknown
+	trait = education_learning_3
+	1285.1.1 = {
+		birth = "1285.1.1"
 	}
-	1322.1.1 = {
-		death = yes #unknown
+	1359.1.1 = {
+		death = yes
 	}
 }
 
@@ -67448,14 +67701,40 @@ Stavelot49 = { #House Chiny
 	}
 }
 
-138340 = {
-	name = "Benard" #Benard de Farges/Fargis Bishop of Agen
+MB_fargues_berenger = { # Bérenger-Guillaume de Fargues
+	name = "Berenguier"
+	dynasty = MB_dynn_fargues
 	rite = "roman_rite"
-	culture = french
-	1280.1.1 = {
-		birth = "1280.1.1" #unknown
+	culture = "occitan"
+	1240.1.1 = { birth = yes }
+	1265.1.1 = { add_spouse = MB_got_marquesa }
+	1305.1.1 = { death = yes }
+	trait = education_martial_2
+}
+
+MB_got_marquesa = { # de Got, sister of Pope Clement V
+	name = "Marquesa"
+	female = yes
+	dynasty = 8797
+	father = 138342
+	rite = "roman_rite"
+	culture = "occitan"
+	1245.1.1 = { birth = yes }
+	1310.1.1 = { death = yes }
+}
+
+138340 = { # REPLACES existing (00_EUROPE_FRANCE). Bernard de Fargues, nephew of Clement V; bishop of Agen 1306, archbishop of Rouen 1306 and Narbonne 1311
+	name = "Benard"
+	dynasty = MB_dynn_fargues
+	father = MB_fargues_berenger
+	mother = MB_got_marquesa
+	rite = "roman_rite"
+	culture = occitan
+	trait = education_learning_3
+	1270.1.1 = {
+		birth = "1270.1.1"
 	}
-	1341.7.1 = {
+	1341.8.22 = {
 		death = yes
 	}
 }
@@ -69498,11 +69777,12 @@ Dax3 = {
 #==================================================================================================#
 
 ####################################### Dynasty: 1000020121 - Durfort #######################################
-1063508 = {
+1063508 = { # REPLACES existing (00_EUROPE_FRANCE)
 	name="Astòrgio" ##Hector/Ettore de Durfort/Astòrgio di Duraforte appointed conte di Romagna in 1349. suffered a big defeat in 1351. attested last 4th of may 1352. Came from Limoges, seemingly minor nobility.
 	rite="roman_rite"
 	culture="occitan"
 	dynasty=1000020121
+	father = MB_durfort_raimond
 	1295.1.1={
 		birth=yes
 	}
@@ -69865,8 +70145,8 @@ Dax3 = {
 	}
 }
 
-1227283 = {
-	name="Rostaning" #Rostaning, son of Guy I, made archbishop of Aix in 1056(until 1082)
+1227283 = { # REPLACES existing (00_EUROPE_FRANCE.txt)
+	name="Rostaning" #Rostan de Fos, son of Guy I, archbishop of Aix 1056-1082; resigned the see and was still living in 1085
 	dynasty=1000227204
 	rite="carolingian_christianity"
 	culture="occitan"
@@ -69879,7 +70159,7 @@ Dax3 = {
 	1054.7.16 = {
 		rite = roman_rite
 	}
-	1082.1.1 = {
+	1086.1.1 = {
 		death=yes
 	}
 }
@@ -69943,16 +70223,17 @@ Dax3 = {
 	}
 }
 
-1227289 = {
-	name="Gui" #Gui, second son of Gui IV, attested 1180 and 1188.
+1227289 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES MB_aix_gui_fos (ecclesiastical.txt)
+	name="Gui" #Gui de Fos, second son of Gui IV; provost of Aix from c.1175 and archbishop of Aix 1186-1212
 	dynasty=1000227204
 	rite="roman_rite"
 	culture="occitan"
 	father=1227288
+	trait = education_learning_3
 	1135.1.1 = {
 		birth=yes
 	}
-	1189.1.1 = {
+	1212.3.12 = {
 		death=yes
 	}
 }
@@ -72291,45 +72572,77 @@ Gevaudan8 = {
 	}
 }
 
-138424 = {
-	name = "HE_racle" #Bishop Héracle de Montboissier of Lyon/StJeanBaptiste
+138424 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_3 (ecclesiastical.txt)
+	name = "HE_racle" #Héracle de Montboissier, brother of Peter the Venerable; received the Golden Bull of Frederick Barbarossa in 1157
 	dynasty = 13111
 	rite = "roman_rite"
 	culture = occitan
-	1100.1.1 = {
-		birth = "1100.1.1" #unknown
+	father = 1093040
+	trait = education_learning_4
+	1102.1.1 = {
+		birth = "1102.1.1"
 	}
-	1163.1.1 = {
-		death = yes #unknown
+	1163.11.11 = {
+		death = yes
 	}
 }
 
 ####################################### Dynasty: 13114 - Villars #######################################
-138440 = {
-	name = "Enric" #Bishop Henry I de Villars of Lyon/StJeanBaptiste
+MB_thoire_etienne = { # Étienne II, sire de Thoire et de Villars, husband of Béatrix de Faucigny
+	name = "E_tienne"
+	dynasty = 8695
+	rite = roman_rite
+	culture = french
+	1205.1.1 = { birth = yes }
+	1250.1.1 = { death = yes }
+}
+
+MB_thoire_humbert = { # Humbert III, sire de Thoire et de Villars
+	name = "Humbert"
+	dynasty = 8695
+	father = MB_thoire_etienne
+	rite = roman_rite
+	culture = french
+	1236.1.1 = { birth = yes }
+	1301.5.14 = { death = yes } # buried at Saint-Claude
+}
+
+MB_thoire_humbert_jr = { # Humbert, sire de Thoire et de Villars, emancipated by his father in 1291
+	name = "Humbert"
+	dynasty = 8695
+	father = MB_thoire_humbert
+	rite = roman_rite
+	culture = french
+	1270.1.1 = { birth = yes }
+	1336.1.1 = { death = yes }
+}
+
+138440 = { # REPLACES existing (00_EUROPE_FRANCE.txt)
+	name = "Enric" #Henri I de Villars, canon of Lyon by 1270, archbishop of Lyon 1295-1301
 	rite = "roman_rite"
 	culture = "occitan"
-	dynasty = 13114
+	dynasty = 8695
+	father = MB_thoire_etienne
 	trait = zealous
-	1210.1.1 = {
-		birth = "1210.1.1" #unknown
+	1238.1.1 = {
+		birth = "1238.1.1"
 	}
 	1301.7.18 = {
 		death = yes
 	}
 }
 
-138441 = {
-	name = "Loui" #Bishop Louis I de Villars of Lyon/StJeanBaptiste
+138441 = { # REPLACES existing (00_EUROPE_FRANCE.txt)
+	name = "Loui" #Louis de Villars, concluded the "Philippines" with Philip IV in 1307
 	rite = "roman_rite"
 	culture = "occitan"
-	dynasty = 13114
+	dynasty = 8695
 	trait = zealous
-	father = 138440
-	1250.1.1 = {
-		birth = "1250.1.1" #unknown
+	father = MB_thoire_humbert
+	1268.1.1 = {
+		birth = "1268.1.1"
 	}
-	1308.11.1 = {
+	1308.7.4 = {
 		death = yes
 	}
 }
@@ -73790,16 +74103,16 @@ Trencavel1 = {
 }
 
 ####################################### Dynasty: 5007 - Roche-Aymon #######################################
-138425 = {
-	name = "Raolf" #Bishop Raoul de la Roche Aymon of Lyon/StJeanBaptiste
+138425 = { # REPLACES existing (00_EUROPE_FRANCE.txt)
+	name = "Raolf" #Raoul de la Roche-Aymon, abbot of Clairvaux 1224-1232, bishop of Agen
 	rite = "roman_rite"
 	culture = "occitan"
 	dynasty = 5007
 	1180.1.1 = {
-		birth = "1180.1.1" #unknown
+		birth = "1180.1.1"
 	}
-	1236.1.1 = {
-		death = yes #unknown
+	1236.3.5 = {
+		death = yes
 	}
 }
 
@@ -82803,32 +83116,36 @@ occitan0058 = {
 	}
 }
 
-138407 = {
-	name = "Ubert" #Bishop Humbert I of Lyon/St Jean Baptiste
+138407 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1066_1 (ecclesiastical.txt)
+	name = "Ubert" #Humbert, provost of the chapter of Lyon; deposed for simony by Gregory VII in 1076
 	rite = "carolingian_christianity"
 	culture = "occitan"
-	1030.1.1 = {
-		birth = "1030.1.1" #unknown
+	trait = education_learning_4
+	trait = stubborn
+	trait = trusting
+	1025.1.1 = {
+		birth = "1025.1.1"
 	}
 	1054.7.16 = {
 		rite = roman_rite
 	}
-	1080.1.1 = {
-		death = yes #deposed in 1076
+	1077.6.11 = {
+		death = yes
 	}
 }
 
-138413 = {
-	name = "GE_buin" #Bishop Gébuin of Lyon/Saint Jubin
+138413 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_12 (ecclesiastical.txt)
+	name = "GE_buin" #Gébuin, archdeacon of Langres, from Lorraine; received the primacy of Lyon from Gregory VII in 1079
 	rite = "carolingian_christianity"
 	culture = "occitan"
+	trait = education_learning_4
 	1030.1.1 = {
-		birth = "1030.1.1" #unknown
+		birth = "1030.1.1"
 	}
 	1054.7.16 = {
 		rite = roman_rite
 	}
-	1082.1.1 = {
+	1082.4.18 = {
 		death = yes
 	}
 }
@@ -82916,26 +83233,28 @@ occitan0058 = {
 	}
 }
 
-138415 = {
-	name = "Josserand" #Bishop Gaucerand of Lyon/Saint Jubin
+138415 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_10 (ecclesiastical.txt)
+	name = "Josserand" #Gaucerand
 	rite = "roman_rite"
 	culture = "occitan"
+	trait = education_learning_4
 	1060.1.1 = {
-		birth = "1060.1.1" #unknown
+		birth = "1060.1.1"
 	}
-	1118.1.1 = {
+	1118.3.22 = {
 		death = yes
 	}
 }
 
-138416 = {
-	name = "Ubald" #Bishop Humbaud of Lyon/Saint Jubin
+138416 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES et_lyon_1178_9 (ecclesiastical.txt)
+	name = "Ubald" #Humbaud, archdeacon of Autun; papal legate from 1126; died on the road to Rome
 	rite = "roman_rite"
 	culture = "occitan"
+	trait = education_learning_4
 	1060.1.1 = {
-		birth = "1060.1.1" #unknown
+		birth = "1060.1.1"
 	}
-	1125.1.1 = {
+	1128.11.3 = {
 		death = yes
 	}
 }
@@ -83118,16 +83437,26 @@ occitan0138 = {
 	}
 }
 
-138368 = {
-	name = "Burnon" #Bishop Burnon de Viviers
+138368 = { # REPLACES existing (00_EUROPE_FRANCE.txt). Also REPLACES MB_vienne_bournon (ecclesiastical.txt)
+	name = "Burnon" #Burnon, bishop of Viviers, archbishop of Vienne 1216-1218
 	rite = "roman_rite"
 	culture = "occitan"
+	trait = education_learning_1
 	1150.1.1 = {
-		birth = "1150.1.1" #unknown
+		birth = "1150.1.1"
 	}
 	1220.1.1 = {
-		death = yes #unknown
+		death = yes
 	}
+}
+
+MB_bernin_guigues = { # Guigues de Bernin, lord of the maison forte de la Veyrie
+	name = "Guigues"
+	dynasty = MB_dynn_bernin
+	rite = roman_rite
+	culture = arpitan
+	1160.1.1 = { birth = yes }
+	1225.1.1 = { death = yes }
 }
 
 138270 = {
@@ -83409,14 +83738,15 @@ occitan0138 = {
 	}
 }
 
-138274 = {
-	name = "Gualhart" #Bishop Gaillard de Saumate
+138274 = { # REPLACES existing (00_EUROPE_FRANCE.txt)
+	name = "Gualhart" #Gaillard Saumate, bishop of Riez and Maguelone, archbishop of Arles
 	rite = "roman_rite"
 	culture = "occitan"
+	trait = education_learning_3
 	1290.1.1 = {
-		birth = "1290.1.1" #unknown
+		birth = "1290.1.1"
 	}
-	1323.1.1 = {
+	1323.7.31 = {
 		death = yes
 	}
 }
@@ -85507,12 +85837,29 @@ occitan0138 = {
 	}
 }
 
-1227230 = {
-	name="Aicard" #Aicard, son of Geoffroy, archbishop of Arles 1070-1113.
+MB_millau_rixende = { # Rixende de Millau, wife of Viscount Geoffroy I of Marseille, sister of Richard de Millau
+	name = "RichE_nda"
+	female = yes
+	dynasty = 22005
+	father = 10032 # Richard II de Millau
+	mother = 10033 # Rixinde de Narbonne
+	rite = carolingian_christianity
+	culture = occitan
+	1022.1.1 = { birth = yes }
+	1042.1.1 = { add_spouse = 1227229 }
+	1054.7.16 = {
+		rite = roman_rite
+	}
+	1080.1.1 = { death = yes }
+}
+
+1227230 = { # REPLACES existing (00_EUROPE_FRANCE.txt)
+	name="Aicard" #Aicard, son of Geoffroy, archbishop of Arles 1070-1080, deposed at the Council of Avignon; held the see by force until 1113; on the First Crusade 1099-1102
 	dynasty=13104
 	rite="carolingian_christianity"
 	culture="provencal" #provencal
 	father=1227229
+	mother=MB_millau_rixende
 	trait = education_learning_4
 	1044.1.1 = {
 		birth=yes
@@ -85520,7 +85867,7 @@ occitan0138 = {
 	1054.7.16 = {
 		rite = roman_rite
 	}
-	1113.1.1 = {
+	1113.8.1 = {
 		death=yes
 	}
 }

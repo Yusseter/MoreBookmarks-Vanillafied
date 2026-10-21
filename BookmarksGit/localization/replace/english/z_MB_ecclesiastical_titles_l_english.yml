@@ -322,6 +322,7 @@
  d_et_kashgar: "Kashgar and Navekath"
  # China
  d_et_china: "Beth Sinaye"
+ KATAIONG: "Katai and Ong"
  # Tangut
  d_et_tangut: "Tangut"
  # Hamadan
@@ -330,6 +331,8 @@
  d_et_azerbaijan: "Adarbaigan"
  # basra
  d_et_maishan: "Maishan"
+ # Acerenza 
+ d_et_acerenza: "Acerenza "
 
  ## Africa
  # Alexandria

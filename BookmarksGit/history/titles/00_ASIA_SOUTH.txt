@@ -38979,7 +38979,7 @@ k_pagan = {
 	#1299.5.10  = { # Yusseter
 	#	holder = 0 #Fall of Pagan due to the Mongols. Beginning of Warring States period
 	#}
-	1299.5.10 = { # Yusseter: Preserve k_myinsaing's succession date.
+	1299.5.10 = { # Yusseter: 1299.5.11
 		holder = 80000035
 		name = "k_myinsaing" effect = { set_coa = k_pagan }
 	}
@@ -38989,7 +38989,7 @@ k_pagan = {
 
 	#Pinya
 
-	1313.2.7 = { # Yusseter: Preserve k_myinsaing's succession date.
+	1313.2.7 = { # Yusseter: 1313.2.8
 		holder = 80000037
 		name = PINYA
 		effect = { reset_coa = yes } # Yusseter
@@ -47012,11 +47012,10 @@ k_dvaravati = {
 	}
 
 	#Phra Ruang Dynasty
-	1208.1.1 = {
+	1208.1.1 = { # Yusseter: Keep the projected title CoA because k_sukhothai is not a separate title here.
 		holder=1000202034 #Indraditya
 		government = mandala_government
 		name = "k_sukhothai"
-		# Yusseter: Keep the projected title CoA because k_sukhothai is not a separate title here.
 	}
 	1270.1.1 = {
 		holder=1000202035 #Ban-Muang
@@ -49381,7 +49380,7 @@ c_yongchang_jingmadian = {
 
 	760.1.1 = {
 		holder = SEAsiaMB191
-		liege = 0 # Yusseter: Keep the selected c_hopang history, not c_man_kueng's different ruler allegiance.
+		liege = 0 # Yusseter: d_yongchang # Keep the selected c_hopang history, not c_man_kueng's different ruler allegiance.
 		government = tribal_government # Yusseter
 	}
 	820.1.1 = {  holder = SEAsiaMB192	}
@@ -59457,8 +59456,7 @@ c_thang_long = {
 #	1300.1.1 = { holder = SEAsiaMB151	}
 #	1325.1.1 = { holder = SEAsiaMB152	}
 #}
-c_binh_nguyen = {
-	# Yusseter: Keep c_con_linh's source allegiance; co-held c_lam_tay retains d_lo's history.
+c_binh_nguyen = { # Yusseter: Keep c_con_linh's source allegiance; co-held c_lam_tay retains d_lo's history.
 	760.1.1 = {  holder = SEAsiaMB134	}
 	820.1.1 = {  holder = SEAsiaMB135	}
 	840.1.1 = {  holder = SEAsiaMB136	}
@@ -63743,9 +63741,8 @@ c_yinsheng = {
 
 k_mongnai = {
 
-	1115.1.1 = {
+	1115.1.1 = { # Yusseter: Keep the projected title CoA because k_mong_mao is not a separate title here.
 		name = "k_mong_mao"
-		# Yusseter: Keep the projected title CoA because k_mong_mao is not a separate title here.
 	}
 	1115.1.1 = { holder = Mongmao0	 }
 	1112.1.1 = { holder = Mongmao1	 }
@@ -64097,8 +64094,7 @@ c_quzhou_1 = {
 	741.3.22 = {
 		holder = YiTribesJiaohe2  # Qu_Ha
 	}
-	# Yusseter: Preserve the source Dali realm without substituting d_tuodong's ruler.
-	760.1.1 = {  liege = k_dali government = clan_government	}
+	760.1.1 = {  liege = k_dali government = clan_government	} # Yusseter: Preserve the source Dali realm without substituting d_tuodong's ruler.
 	769.5.17 = {
 		holder = YiTribesJiaohe3  # Ssy_Huo
 	}
@@ -64184,7 +64180,7 @@ c_dongchuan = {
 	}
 	739.3.22 = {
 		holder = YiTribesWeimo2
-		liege = k_dali # Yusseter: Preserve the source Dali realm without substituting d_tuodong's ruler.
+		liege = k_dali # Yusseter: d_tuodong # Preserve the source Dali realm without substituting d_tuodong's ruler.
 	}
 	771.11.30 = {
 		holder = YiTribesWeimo3
@@ -64567,8 +64563,7 @@ c_shicheng = {
 #	1325.1.1 = { holder = SEAsiaMB608	}
 #}
 
-c_zuining = {
-	# Yusseter: Keep c_ni_jiao's succession; the Shizong rulers remain on c_muze.
+c_zuining = { # Yusseter: Keep c_ni_jiao's succession; the Shizong rulers remain on c_muze.
 	# 867.1.1 = { change_development_level = 4 }
 	# 1066.1.1 = { change_development_level = 9 }
 
@@ -64911,8 +64906,7 @@ c_chengji = {
 	840.1.1 = {  holder = SEAsiaMB744	}
 	860.1.1 = {  holder = SEAsiaMB745	}
 	900.1.1 = {  holder = SEAsiaMB746	}
-	# Yusseter: d_lung_dong maps to county-rank c_nongdong; retain its k_dali realm instead.
-	930.1.1 = {  holder = SEAsiaMB747 liege = k_dali }
+	930.1.1 = {  holder = SEAsiaMB747 liege = k_dali } # Yusseter: d_lung_dong maps to county-rank c_nongdong; retain its k_dali realm instead.
 	955.1.1 = {  holder = SEAsiaMB748	}
 	980.1.1 = {  holder = SEAsiaMB749	}
 	1005.1.1 = { holder = SEAsiaMB750	}
@@ -64934,8 +64928,7 @@ c_weichu = {
 	738.5.23 = {
 		holder = YiTribesNing2
 	}
-	# Yusseter: Source d_lung_dong enters k_dali in 760; its county-rank mapping cannot receive vassals.
-	760.1.1 = { liege = k_dali }
+	760.1.1 = { liege = k_dali } # Yusseter: Source d_lung_dong enters k_dali in 760; its county-rank mapping cannot receive vassals.
 	769.11.30 = {
 		holder = YiTribesNing3  # La_Bbu
 	}
@@ -73069,8 +73062,7 @@ c_SUM_perlak = {
 	}
 
 	#Maulana Saiyid Dynasty
-	840.1.1={
-		# Yusseter: Preserve the co-held d_perlak political timeline after its rank is merged.
+	840.1.1={ # Yusseter: Preserve the co-held d_perlak political timeline after its rank is merged.
 		liege = 0
 	}
 	840.1.1={
@@ -73645,15 +73637,13 @@ c_SUM_panai = {
 		government = clan_government
 		succession_laws = { clan_impassive_partition_succession_law  }
 	}
-	# Yusseter: Follow the co-held source d_aru through its Java and Samudera transitions.
-	1292.1.1={
+	1292.1.1={ # Yusseter: Follow the co-held source d_aru through its Java and Samudera transitions.
 		liege = k_yavakadvipa
 	}
 	1293.1.1={
 		liege = d_SUM_aceh
 	}
-	# Yusseter: Preserve the independence of the co-held source d_aru and k_aru.
-	1299.1.1={
+	1299.1.1={ # Yusseter: Preserve the independence of the co-held source d_aru and k_aru.
 		liege = 0
 	}
 	1320.1.1={
@@ -73731,8 +73721,7 @@ c_SUM_rokan = {
 	1290.1.1={
 		holder=1000201007 #Yeop
 	}
-	# Yusseter: Retain this county's existing allegiance when it passes to a different ruler.
-	1292.1.1 = { holder = malayMB151 liege = e_srivijaya }
+	1292.1.1 = { holder = malayMB151 liege = e_srivijaya } # Yusseter: Retain this county's existing allegiance when it passes to a different ruler.
 	1300.1.1 = {
 		holder = malayMB152
 		liege = 0 # Yusseter: Source k_aru maps to a county; startup uses a guarded tributary fallback.

@@ -254,10 +254,9 @@ break_subject_contract_and_establish_tributary_effect = {
 }
 
 
-# Yusseter: Equal-rank mappings use a guarded approximation of source vassalage.
-# Never release a vassal or replace an existing tributary contract.
-# Called in the prospective tributary's scope after source setup.
-yb_establish_mapped_title_tributary_effect = {
+yb_establish_mapped_title_tributary_effect = { # Yusseter: Equal-rank mappings use a guarded approximation of source vassalage.
+	# Never release a vassal or replace an existing tributary contract.
+	# Called in the prospective tributary's scope after source setup.
 	if = {
 		limit = {
 			exists = $SUZERAIN$
@@ -8306,7 +8305,7 @@ base_769_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -8413,8 +8412,7 @@ base_769_tributary_setup_effect = {
 
 
 
-	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
-	title:c_JAV_galuh.holder ?= {
+	title:c_JAV_galuh.holder ?= { # Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -8674,7 +8672,7 @@ base_867_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -8807,8 +8805,7 @@ base_867_tributary_setup_effect = {
 
 
 
-	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
-	title:c_JAV_galuh.holder ?= {
+	title:c_JAV_galuh.holder ?= { # Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -9128,7 +9125,7 @@ base_936_tributary_setup_effect = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
         # Yusseter: Source d_luoshi's holder is not represented by c_shaoqing; keep its Luodian vassalage.
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -9394,8 +9391,7 @@ base_936_tributary_setup_effect = {
 
 
 
-	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
-	title:c_JAV_galuh.holder ?= {
+	title:c_JAV_galuh.holder ?= { # Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -9645,7 +9641,7 @@ base_997_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -9902,8 +9898,7 @@ base_997_tributary_setup_effect = {
 
 
 
-	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
-	title:c_JAV_galuh.holder ?= {
+	title:c_JAV_galuh.holder ?= { # Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -10105,7 +10100,7 @@ base_1018_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -10352,8 +10347,7 @@ base_1018_tributary_setup_effect = {
     }
 
 
-	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
-	title:c_JAV_galuh.holder ?= {
+	title:c_JAV_galuh.holder ?= { # Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -10782,8 +10776,7 @@ base_1031_tributary_setup_effect = {
 
 
 
-	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
-	title:c_JAV_galuh.holder ?= {
+	title:c_JAV_galuh.holder ?= { # Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -11054,7 +11047,7 @@ base_1066_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -11331,8 +11324,7 @@ base_1066_tributary_setup_effect = {
 
 
 
-	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
-	title:c_JAV_galuh.holder ?= {
+	title:c_JAV_galuh.holder ?= { # Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -11572,7 +11564,7 @@ base_1081_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -11849,8 +11841,7 @@ base_1081_tributary_setup_effect = {
 
 
 
-	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
-	title:c_JAV_galuh.holder ?= {
+	title:c_JAV_galuh.holder ?= { # Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -12078,7 +12069,7 @@ base_1099_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -12382,8 +12373,7 @@ base_1099_tributary_setup_effect = {
 
 
 
-	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
-	title:c_JAV_galuh.holder ?= {
+	title:c_JAV_galuh.holder ?= { # Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -12613,7 +12603,7 @@ base_1144_tributary_setup_effect = {
 		title:d_sipsongpanna.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -12911,8 +12901,7 @@ base_1144_tributary_setup_effect = {
 		}
 	}
 
-	# Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
-	title:c_JAV_galuh.holder ?= {
+	title:c_JAV_galuh.holder ?= { # Yusseter: Preserve the mapped Galuh dependency without releasing existing vassals.
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -13144,7 +13133,7 @@ base_1171_tributary_setup_effect = {
 		title:d_sipsongpanna.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -13711,7 +13700,7 @@ base_1178_tributary_setup_effect = {
 		title:d_sipsongpanna.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -14237,7 +14226,7 @@ base_1187_tributary_setup_effect = {
 		title:c_moeng_long.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -15287,7 +15276,7 @@ base_1198_tributary_setup_effect = {
 		title:c_moeng_long.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -15792,7 +15781,7 @@ base_1204_tributary_setup_effect = {
 		title:c_moeng_long.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -16382,7 +16371,7 @@ base_1211_tributary_setup_effect = {
 		title:c_moeng_long.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -16682,8 +16671,7 @@ base_1211_tributary_setup_effect = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}
-	# Yusseter: Preserve d_pribpri's Lavapura dependency after the 1208 rank split.
-	title:d_lop_buri.holder ?= {
+	title:d_lop_buri.holder ?= { # Yusseter: Preserve d_pribpri's Lavapura dependency after the 1208 rank split.
 		save_scope_as = suzerain
 		title:d_tun_sun.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -17135,8 +17123,7 @@ base_1220_tributary_setup_effect = {
     }
 
 
-	# Yusseter: Preserve d_pribpri's Lavapura dependency after the 1208 rank split.
-	title:d_lop_buri.holder ?= {
+	title:d_lop_buri.holder ?= { # Yusseter: Preserve d_pribpri's Lavapura dependency after the 1208 rank split.
 		save_scope_as = suzerain
 		title:d_tun_sun.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -17580,8 +17567,7 @@ base_1234_tributary_setup_effect = {
     }
 
 
-	# Yusseter: Preserve d_pribpri's Lavapura dependency after the 1208 rank split.
-	title:d_lop_buri.holder ?= {
+	title:d_lop_buri.holder ?= { # Yusseter: Preserve d_pribpri's Lavapura dependency after the 1208 rank split.
 		save_scope_as = suzerain
 		title:d_tun_sun.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -17804,7 +17790,7 @@ base_1246_tributary_setup_effect = {
 		title:c_moeng_long.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
+		title:c_monyin.holder ?= { # Yusseter: title:c_momauk.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -19216,8 +19202,7 @@ base_1300_tributary_setup_effect = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}
-	# Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
-	title:c_SUM_panai.holder ?= {
+	title:c_SUM_panai.holder ?= { # Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
 		save_scope_as = suzerain
 		title:c_SUM_pekanbaru.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -19596,8 +19581,7 @@ base_1310_tributary_setup_effect = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}
-	# Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
-	title:c_SUM_panai.holder ?= {
+	title:c_SUM_panai.holder ?= { # Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
 		save_scope_as = suzerain
 		title:c_SUM_pekanbaru.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -19968,8 +19952,7 @@ base_1324_tributary_setup_effect = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}
-	# Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
-	title:c_SUM_panai.holder ?= {
+	title:c_SUM_panai.holder ?= { # Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
 		save_scope_as = suzerain
 		title:c_SUM_pekanbaru.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
@@ -20651,8 +20634,7 @@ base_1337_tributary_setup_effect = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}
-	# Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
-	title:c_SUM_panai.holder ?= {
+	title:c_SUM_panai.holder ?= { # Yusseter: Preserve source k_aru's two mapped vassal rulers without changing title ranks.
 		save_scope_as = suzerain
 		title:c_SUM_pekanbaru.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }

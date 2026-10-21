@@ -705,7 +705,7 @@ k_jiangxi = {
 }
 
 # EAST_TITLE_REWRITE_COLLISION: Yusseter: k_qin_china, k_jingzhaofu, k_shaanxi to k_guannei
-k_guannei = {
+k_guannei = { # Yusseter: Merged k_yongxingjun_china history.
 		
 	766.1.1 = { change_development_level = 12 }
 	936.1.1 = { change_development_level = 10 }
@@ -795,7 +795,6 @@ k_guannei = {
 		holder = Chucai7  # Yelü Abaoji succeeds his father Ruan
 	}
 
-	# Yusseter: Merged k_yongxingjun_china history.
 	#Song
 
 	961.1.1 = { holder = 1400343 liege = h_china  } #Wang Yanchao
@@ -12911,7 +12910,7 @@ c_minzhou = {
 	1132.1.16 = { holder = song_general_021 } #吴玠
 	1144.1.1 = {
 		holder = song_general_022
-		liege = k_xingyuan # Yusseter: Use d_longnan_china's mapped k_lizhou overlord.
+		liege = k_xingyuan # Yusseter: d_yongxing # Use d_longnan_china's mapped k_lizhou overlord.
 	}
 	1167.6.6 = { holder = 1801605 }
 	1180.1.1 = { holder = xinchang_shi_044 }
@@ -13014,7 +13013,7 @@ c_chengzhou = {
 	1132.1.16 = { holder = song_general_021 } #吴玠
 	1144.1.1 = {
 		holder = song_general_022
-		liege = k_xingyuan # Yusseter: Use d_longnan_china's mapped k_lizhou overlord.
+		liege = k_xingyuan # Yusseter: d_yongxing # Use d_longnan_china's mapped k_lizhou overlord.
 	}
 	1167.6.6 = { holder = xianyou_ye_036 } #Yuwen Zizhen - prefect until 1195
 	1211.1.1 = { holder = anxi_du_036M3 }
@@ -13113,7 +13112,7 @@ c_jiezhou = {
 	1132.1.16 = { holder = song_general_021 } #吴玠
 	1144.1.1 = {
 		holder = song_general_022
-		liege = k_xingyuan # Yusseter: Use d_longnan_china's mapped k_lizhou overlord.
+		liege = k_xingyuan # Yusseter: d_yongxing # Use d_longnan_china's mapped k_lizhou overlord.
 	}
 	1167.6.6 = { holder = 1801605 }
 	1180.1.1 = { holder = xinchang_shi_044 }
@@ -13153,7 +13152,7 @@ c_wenzhou = {
 	913.1.4 = { liege = e_liangyi }
 	916.1.4 = { #Wang Zonglu liege = d_wuxing
 		holder = 1403341
-		# Yusseter: liege = d_longnan_china
+		#liege = d_longnan_china # Yusseter
 	}
 	#916.1.28 = { liege = d_longnan_china }
 	920.1.1 = { holder = 1403342 } # Wang Chengjie
@@ -13165,7 +13164,7 @@ c_wenzhou = {
 	#Later Shu
 	934.7.19 = {
 		holder = later_shu_li_002
-		liege = e_liangyi # Yusseter: Preserve d_longnan_china's Later Shu allegiance.
+		liege = e_liangyi # Yusseter: d_qincheng # Preserve d_longnan_china's Later Shu allegiance.
 	} #Zhao Jiliang
 	947.7.21 = { holder = yushe_zhang_001 liege = d_xingyuan } #Zhang Qianzhao - should go to Wuxing Jiedushi, but there are no known rulers for this period.
 	949.1.1 = { holder = later_shu_an_001 } #An Siqian
@@ -13198,7 +13197,7 @@ c_wenzhou = {
 	1133.7.10 = { holder = chengji_liu_006  } #Liu Qi - prefect in 1134.1.26
 	1144.1.1 = {
 		holder = song_general_022
-		liege = k_xingyuan # Yusseter: Use d_longnan_china's mapped k_lizhou overlord.
+		liege = k_xingyuan # Yusseter: d_yongxing # Use d_longnan_china's mapped k_lizhou overlord.
 	}
 	1170.1.1 = { holder = 1801591 }
 	1174.1.1 = { holder = 1803177 }
@@ -48820,10 +48819,9 @@ c_nanzhou = {
 	1266.1.1= { holder = Bozhou_Yang_035 liege = k_xichuan } # Yusseter: Source k_sichuan.
 }
 
-c_yizhou_3 = {
+c_yizhou_3 = { # Yusseter: Preserve the mapped c_pingyi_china succession, not c_rongyi_china's holders.
 	766.1.1 = { change_development_level = 4 }
 	1032.1.1 = { change_development_level = 8 }
-	# Yusseter: Preserve the mapped c_pingyi_china succession, not c_rongyi_china's holders.
 	730.1.1 = { holder = YiTribesXie1 }
 	738.9.11 = {
 		holder = YiTribesXie2

@@ -111071,7 +111071,7 @@ d_laamp_pongyi_thaing_fellowship = {
 
 d_laamp_ravine_lords = {
 	color = { 100 100 100 }
-	capital = c_quoc_oai # Yusseter: Projected county counterpart.
+	capital = c_quoc_oai # Yusseter: c_phu_hoa
 
 	definite_form = yes
 	landless = yes
@@ -111086,7 +111086,7 @@ d_laamp_ravine_lords = {
 
 d_laamp_sirafi_mariners = {
 	color = { 100 100 100 }
-	capital = c_SUM_palembang # Yusseter: Projected county counterpart.
+	capital = c_SUM_palembang # Yusseter: c_palembang
 
 	definite_form = yes
 	landless = yes
@@ -111131,7 +111131,7 @@ d_laamp_white_tigers = { # Baek_ho of the White Tigers
 
 d_laamp_pathwalkers = {
 	color = { 100 100 100 }
-	capital = c_thang_long # Yusseter: Projected county counterpart.
+	capital = c_thang_long # Yusseter: c_thanh_long
 
 	definite_form = yes
 	landless = yes
@@ -111161,7 +111161,7 @@ d_laamp_delta_company = {
 
 d_laamp_leaf_hermits = {
 	color = { 100 100 100 }
-	capital = c_JAV_janggala # Yusseter: Projected county counterpart.
+	capital = c_JAV_janggala # Yusseter: c_kahuripan
 
 	definite_form = yes
 	landless = yes
@@ -112121,8 +112121,7 @@ e_suvarnabhumi = {
 		capital = c_lop_buri
 
 		ai_primary_priority = {
-			# Yusseter: Keep the Sukhothai preference separate from earlier Lavo rulers.
-			if = {
+			if = { # Yusseter: Keep the Sukhothai preference separate from earlier Lavo rulers.
 				limit = { has_title = title:d_sukhothai }
 				add = @always_primary_score
 			}
@@ -112456,7 +112455,7 @@ e_suvarnabhumi = {
 				name_list_han = cn_jinglong
 				name_list_tai = cn_moeng_lu
 				# Yusseter 0
-				# Yusseter: REVIEW_ASIL_MOD_CULTURAL_NAMES
+				# REVIEW_ASIL_MOD_CULTURAL_NAMES
 				name_list_bai = cn_jinglong
 				name_list_yi = cn_jinglong
 				# Yusseter 1
@@ -112469,7 +112468,7 @@ e_suvarnabhumi = {
 				cultural_names = {
 					name_list_han = cn_jinglong
 					# Yusseter 0
-					# Yusseter: REVIEW_ASIL_MOD_CULTURAL_NAMES
+					# REVIEW_ASIL_MOD_CULTURAL_NAMES
 					name_list_bai = cn_jinglong
 					name_list_yi = cn_jinglong
 					# Yusseter 1
@@ -112481,7 +112480,7 @@ e_suvarnabhumi = {
 					cultural_names = {
 						name_list_han = cn_jinglong
 						# Yusseter 0
-						# Yusseter: REVIEW_ASIL_MOD_CULTURAL_NAMES
+						# REVIEW_ASIL_MOD_CULTURAL_NAMES
 						name_list_bai = cn_jinglong
 						name_list_yi = cn_jinglong
 						# Yusseter 1

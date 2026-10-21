@@ -769,8 +769,7 @@ custom_tai_migration_origin = {
 }
 
 custom_tai_migration_target = {
-	counties = {
-		# Yusseter: Source counties split across these current-projection counties.
+	counties = { # Yusseter: Source counties split across these current-projection counties.
 		c_sukhothai c_chakangrao c_lop_buri c_nakhon_pathom c_khu_bua c_haripunjaya c_lampang c_hlaingbwe c_thaton c_phetchabun c_THAI_phetchaburi c_dong_si_mahosot c_canasha c_muang_fa_daet c_mukdahan c_pursat c_mueang_phra_rot c_ku_kaeo c_vien_chan
 	}
 }
@@ -2482,8 +2481,7 @@ special_mongol_empire_conquest_region_prio_4 = {
 		d_ziqing d_yanhai
 
 		#k_longxi_china
-		# Yusseter: d_xihe's prio-3 successors are already assigned; d_xinan is the remaining successor here.
-		d_fengxiang d_qincheng d_xinan
+		d_fengxiang d_qincheng d_xinan # Yusseter: d_xihe's prio-3 successors are already assigned; d_xinan is the remaining successor here.
 	}
 }
 
@@ -4420,8 +4418,7 @@ tgp_silk_road_china_region = {
 		k_lingnan k_lingxi k_dali k_viet
 		k_goryeo
 	}
-	duchies = {
-		# Yusseter: Vanilla k_guannei split.
+	duchies = { # Yusseter: Vanilla k_guannei split.
 		d_fengxiang d_qincheng d_xingfeng
 	}
 }
@@ -4480,8 +4477,7 @@ tgp_silk_road_india_region = {
 
 tgp_silk_road_central_asia_region = {
 	kingdoms = {
-		# Yusseter: Vanilla k_xia is projected under k_xia_china.
-		k_xia_china
+		k_xia_china # Yusseter: Vanilla k_xia is projected under k_xia_china.
 		#Always thought it weird Dzungaria and Zhetysu weren't part of the Silk Road
 		k_zhetysu
 		k_dzungaria
@@ -4604,8 +4600,7 @@ tgp_silk_road_mideast_region = {
 
 dlc_tgp_silk_road_route_china = {
 	counties = {
-		# Yusseter: Projected upstream Korean route extension.
-		c_gaeseong c_pyeongju c_hwangju c_seogyeong c_taeju c_gwiju c_uiju c_BAL_west_amnok
+		c_gaeseong c_pyeongju c_hwangju c_seogyeong c_taeju c_gwiju c_uiju c_BAL_west_amnok # Yusseter: Projected upstream Korean route extension.
 	# Bejing to Weizhou, via Kaifeng and Chang'an
 		c_youzhou # Beijing
 		c_zhuozhou
@@ -7674,22 +7669,19 @@ et_1187_kashgar_region = {
 }
 
 et_769_china_region = {
-	# Yusseter: Use the projected county identities for the source church region.
-	counties = {
+	counties = { # Yusseter: Use the projected county identities for the source church region.
 		c_jingzhao c_henan
 	}
 }
 
 et_1282_tangut_region = {
-	# Yusseter: Use the curated county counterparts, including same-name collisions.
-	counties = {
+	counties = { # Yusseter: Use the curated county counterparts, including same-name collisions.
 		c_iliq c_ghulja c_kash c_huaiyuan c_lingzhou c_xiazhou c_yinzhou c_suizhou c_xiongzhou c_wuyuan c_weizhou_3 c_quye c_linzhou c_youzhou_2 c_langshan c_keyimen c_ganzhou c_linze c_gaotai c_jinta c_suzhou_mbp c_yumen c_zhenfan c_tengger c_alxa c_liangzhou c_fanhe c_baishan c_zhanyin c_guangwu c_qilin c_yalong c_guazhou c_changma c_hongliuyuan c_shazhou c_yumenguan c_subei c_yijinai c_wentugaole c_heihe c_mazongshan c_aksay c_haltang c_dunhuang
 	}
 }
 
 et_1282_katai_ong_region = {
-	# Yusseter: Use curated county counterparts; omit source-only counties marked none.
-	counties = {
+	counties = { # Yusseter: Use curated county counterparts; omit source-only counties marked none.
 		c_youzhou c_tanzhou_2 c_guizhou_2 c_yongxing c_LIAO_xianzhou c_LIAO_jinzhou c_LIAO_chaoyang c_lnj_liaoxibei c_lnj_liaoxi c_LIAO_liaozhou c_pinzhou c_jizhou_1 c_hejian c_mozhou c_zhuozhou c_cangzhou c_dezhou c_dizhou c_taiyuan c_liaozhou c_yangcheng c_fenzhou c_daizhou c_xinzhou c_lanzhou c_fuzhou c_shizhou c_shengzhou c_datong_2 c_hongzhou_2 c_shuozhou c_yuzhou c_huaian c_yingzhou_5 c_jiangzhou_2 c_xizhou c_cizhou c_hezhong c_pingyang c_jiushijiuquan c_qingshan c_rouyuan c_tiande c_lxj_yunneizhou c_jingzhao c_henan c_yizhou_1 c_dingzhou c_zhenzhou c_shenzhou_1 c_zhaozhou c_xingzhou c_mingzhou c_beizhou c_longde c_bozhou_1 c_weizhou c_xiangzhou c_weizhou_1 c_zezhou c_huaizhou c_jizhou
 	}
 }
@@ -8080,8 +8072,7 @@ dlc_mpo_steppe_southern_steppe = {
 		#Tibet
 		d_nagormo d_amdo d_zadoi d_qumarleb d_tuyuhun d_qamdo d_nangqen d_lingtsang d_rutog d_aksai_chin d_nagchu d_conyi d_xining d_golog d_malho d_shanzhou d_nyima
 		#Southern Steppe
-		# Yusseter: Source d_xihe is already represented by d_xinan and d_yunshuo in this region.
-		d_xinan d_langshan d_yijinai d_aksay d_guiyi d_ganzhou d_zhenfan d_yunshuo d_liangzhou d_shuofang d_xiasui d_yanmen d_youzhou d_liaoxi d_tiande d_sanggan d_yanyun_yuyi d_LIAO_zhongjing d_khorezm d_uzboy
+		d_xinan d_langshan d_yijinai d_aksay d_guiyi d_ganzhou d_zhenfan d_yunshuo d_liangzhou d_shuofang d_xiasui d_yanmen d_youzhou d_liaoxi d_tiande d_sanggan d_yanyun_yuyi d_LIAO_zhongjing d_khorezm d_uzboy # Yusseter: Source d_xihe is already represented by d_xinan and d_yunshuo in this region.
 		#Transoxiana
 		d_soghd d_merv d_osrushana d_guzgan d_balkh d_ferghana
 		#Turkestan

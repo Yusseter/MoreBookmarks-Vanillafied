@@ -44689,7 +44689,7 @@ b_grancanaria: "Tamarán"
  d_uglich: "Uglich"
 
 # Yusseter 0
-# Yusseter: MPE ADD 1 LAND TITLE LOCALIZATION
+# MPE ADD 1 LAND TITLE LOCALIZATION
  b_abazin: "Abazin"
  b_abdzakh: "Abdzakh"
  b_alagir: "Alagir"
@@ -44940,7 +44940,7 @@ b_grancanaria: "Tamarán"
  cn_southscythia: "South Scythia"
  cn_tanais: "Tanais"
  cn_tmutarakan: "Tamatarcha"
- # Yusseter: MPE Add 1 adjective closure; use the title name where no source adjective exists.
+ # MPE Add 1 adjective closure; use the title name where no source adjective exists.
  c_abdzakh_adj: "Abdzakh"
  c_anket_adj: "Anketian"
  c_aorsia_adj: "Aorsian"
@@ -45052,7 +45052,7 @@ b_grancanaria: "Tamarán"
  d_tana_adj: "Tanan"
  d_zichia_adj: "Zichian"
  k_caucasus_adj: "Alanian"
- # Yusseter: Current-only title adjective closure; use verified donors or the effective base title name.
+ # Current-only title adjective closure; use verified donors or the effective base title name.
  c_andamans_adj: "Handumans"
  c_BAL_fuzhou_adj: "Fuzhou"
  c_bizhou_adj: "Bizhou"

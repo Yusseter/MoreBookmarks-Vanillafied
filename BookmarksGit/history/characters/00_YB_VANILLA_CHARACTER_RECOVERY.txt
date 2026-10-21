@@ -1,5 +1,4 @@
-﻿# Yusseter: restore vanilla qasi.0004 under a CK3-safe ID
-YB_qasi_0004 = {
+﻿YB_qasi_0004 = { # Yusseter: restore vanilla qasi.0004 under a CK3-safe ID
 	name = "Yuwartas"
 	dynasty = 12293
 

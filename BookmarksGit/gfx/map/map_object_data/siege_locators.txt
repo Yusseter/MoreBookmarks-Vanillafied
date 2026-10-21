@@ -3523,7 +3523,8 @@ game_object_locator={
 		}
 		{
 			id=597
-			position={ 3053 0 2944 } # Yusseter: Auto fixed from locator candidate
+			position={ 3053 0 2944 } # Yusseter
+			#position={ 3029.000000 0.000000 2925.000000 }
 			rotation={ 0.000000 0.633989 0.000000 0.773342 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -3739,7 +3740,8 @@ game_object_locator={
 		}
 		{
 			id=674
-			position={ 3510 0 2626 } # Yusseter: Auto fixed from locator candidate
+			position={ 3510 0 2626 } # Yusseter
+			#position={ 3509.635986 0.000000 2599.182373 }
 			rotation={ 0.000000 0.850651 0.000000 0.525731 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -8383,7 +8385,8 @@ game_object_locator={
 		}
 		{
 			id=1807
-			position={ 905.390961 0 2598.706177 } # Yusseter: Auto fixed from locator candidate
+			position={ 905.390961 0 2598.706177 } # Yusseter
+			#position={ 885.000000 0.000000 2596.000000 }
 			rotation={ 0.000000 0.802293 0.000000 0.596931 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -13597,7 +13600,8 @@ game_object_locator={
 		}
 		{
 			id=2683
-			position={ 1297 0 3239 } # Yusseter: Auto fixed from locator candidate
+			position={ 1297 0 3239 } # Yusseter
+			#position={ 1296.799194 0.000000 3221.165771 }
 			rotation={ 0.000000 0.937885 0.000000 0.346946 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -28615,7 +28619,8 @@ game_object_locator={
 		}
 		{
 			id=5305
-			position={ 3455 0 2742 } # Yusseter: Auto fixed from locator candidate
+			position={ 3455 0 2742 } # Yusseter
+			#position={ 3461.000000 0.000000 2713.000000 }
 			rotation={ -0.000000 -0.666921 -0.000000 0.745128 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -54415,7 +54420,8 @@ game_object_locator={
 		}
 		{
 			id=10244
-			position={ 1132.792786 0 3204.500000 } # Yusseter: Auto fixed from locator candidate
+			position={ 1132.792786 0 3204.500000 } # Yusseter
+			#position={ 1131.641846 0.000000 3217.401855 }
 			rotation={ -0.000000 -0.000025 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -69823,7 +69829,8 @@ game_object_locator={
 		}
 		{
 			id=14635
-			position={ 6379.756836 0 2944.387451 } # Yusseter: Auto fixed from locator candidate
+			position={ 6379.756836 0 2944.387451 } # Yusseter
+			#position={ 6496.000000 0.000000 1976.000000 }
 			rotation={ 0.000000 -0.894427 0.000000 0.447214 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
@@ -69835,13 +69842,15 @@ game_object_locator={
 		}
 		{ # Yusseter: MBP_12459
 			id=14637
-			position={ 6369.461181 0 2991.414551 } # Yusseter: Auto fixed from locator candidate
+			position={ 6369.461181 0 2991.414551 } # Yusseter
+			#position={ 6370.000000 0.000000 2998.000000 }
 			rotation={ -0.000000 -0.000025 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}
 		{ # Yusseter: MBP_12557
 			id=14638
-			position={ 6257.155762 0 3028.914551 } # Yusseter: Auto fixed from locator candidate
+			position={ 6257.155762 0 3028.914551 } # Yusseter
+			#position={ 6257.518555 0.000000 3035.261963 }
 			rotation={ -0.000000 -0.000025 -0.000000 1.000000 }
 			scale={ 1.000000 1.000000 1.000000 }
 		}

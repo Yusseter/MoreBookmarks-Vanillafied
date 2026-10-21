@@ -7328,7 +7328,7 @@ d_et_china = { # China - East Syriac metropolitan province of Beth Sinaye (China
 		clerical_region = et_1282_katai_ong_region
 		name = KATAIONG
 		effect = {
-			set_capital_county = title:c_youzhou # Yusseter: Use the projected Khanbaliq county.
+			set_capital_county = title:c_youzhou # Yusseter: title:c_youzhou_china
 			title_domicile ?= {
 				move_domicile = title:c_youzhou.title_province
 			}

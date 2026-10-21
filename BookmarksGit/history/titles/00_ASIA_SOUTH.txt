@@ -64202,10 +64202,6 @@ c_dongchuan = {
 	896.6.7 = {
 		holder = YiTribesWeimo7
 	}
-	900.1.1 = {
-		holder = NuosuMB2  # A_Chy (first character to rule during the period)
-		#de_jure_liege = d_dongchuan # Yusseter
-	}
 
 	924.1.29 = {
 		holder = YiTribesWeimo8

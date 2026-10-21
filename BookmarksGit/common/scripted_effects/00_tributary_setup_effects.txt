@@ -8306,7 +8306,7 @@ base_769_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -8674,7 +8674,7 @@ base_867_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -9128,7 +9128,7 @@ base_936_tributary_setup_effect = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
         # Yusseter: Source d_luoshi's holder is not represented by c_shaoqing; keep its Luodian vassalage.
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -9645,7 +9645,7 @@ base_997_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -10105,7 +10105,7 @@ base_1018_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -11054,7 +11054,7 @@ base_1066_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -11572,7 +11572,7 @@ base_1081_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -12078,7 +12078,7 @@ base_1099_tributary_setup_effect = {
 		title:c_hsenwi.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -12613,7 +12613,7 @@ base_1144_tributary_setup_effect = {
 		title:d_sipsongpanna.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -13144,7 +13144,7 @@ base_1171_tributary_setup_effect = {
 		title:d_sipsongpanna.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -13711,7 +13711,7 @@ base_1178_tributary_setup_effect = {
 		title:d_sipsongpanna.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -14237,7 +14237,7 @@ base_1187_tributary_setup_effect = {
 		title:c_moeng_long.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -15287,7 +15287,7 @@ base_1198_tributary_setup_effect = {
 		title:c_moeng_long.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -15792,7 +15792,7 @@ base_1204_tributary_setup_effect = {
 		title:c_moeng_long.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -16382,7 +16382,7 @@ base_1211_tributary_setup_effect = {
 		title:c_moeng_long.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter
@@ -17804,7 +17804,7 @@ base_1246_tributary_setup_effect = {
 		title:c_moeng_long.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_momauk.holder ?= {
+		title:c_monyin.holder ?= { # Yusseter: Preserve the c_hkamti counterpart.
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:c_utiri_pale.holder ?= { # Yusseter

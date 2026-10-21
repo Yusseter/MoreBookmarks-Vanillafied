@@ -38979,7 +38979,7 @@ k_pagan = {
 	#1299.5.10  = { # Yusseter
 	#	holder = 0 #Fall of Pagan due to the Mongols. Beginning of Warring States period
 	#}
-	1299.5.11 = { # Yusseter
+	1299.5.10 = { # Yusseter: Preserve k_myinsaing's succession date.
 		holder = 80000035
 		name = "k_myinsaing" effect = { set_coa = k_pagan }
 	}
@@ -38989,7 +38989,7 @@ k_pagan = {
 
 	#Pinya
 
-	1313.2.8 = {
+	1313.2.7 = { # Yusseter: Preserve k_myinsaing's succession date.
 		holder = 80000037
 		name = PINYA
 		effect = { reset_coa = yes } # Yusseter

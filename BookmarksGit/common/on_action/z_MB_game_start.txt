@@ -18073,6 +18073,8 @@ MB_set_noble_families = {
 			if = { # Yusseter: k_dongxia to k_balhae
 				limit = {
 					exists = title:k_balhae.holder
+					game_start_date >= 1215.1.1 # Yusseter
+					game_start_date < 1233.1.1 # Yusseter
 					has_tgp_dlc_trigger = yes
 				}
 				title:k_balhae.holder = {
@@ -18082,6 +18084,8 @@ MB_set_noble_families = {
 			if = { # Yusseter: k_dongxia to k_balhae
 				limit = {
 					exists = title:k_balhae.holder
+					game_start_date >= 1215.1.1 # Yusseter
+					game_start_date < 1233.1.1 # Yusseter
 				}
 				title:k_balhae.holder ?= {
 					every_vassal_or_below = {
@@ -23272,7 +23276,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_dali.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_dali.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23310,7 +23314,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_silla.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_silla.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23349,7 +23353,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_goguryeo.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_goguryeo.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23425,7 +23429,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_goguryeo.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_goguryeo.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23465,7 +23469,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_goguryeo.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_goguryeo.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23504,7 +23508,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:e_goryeo.holder = title:h_china.holder
-						has_government = celestial_government
+						title:e_goryeo.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23542,7 +23546,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_baekje.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_baekje.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23581,7 +23585,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_balhae.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_balhae.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23651,10 +23655,12 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 			if = { # Yusseter: k_dongxia to k_balhae
 				limit = {
 					exists = title:k_balhae.holder
+					game_start_date >= 1215.1.1 # Yusseter
+					game_start_date < 1233.1.1 # Yusseter
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_balhae.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_balhae.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23692,7 +23698,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_xia.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_xia.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23732,7 +23738,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_xia_china.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_xia_china.holder = { has_government = celestial_government }
 					}
 				}
 
@@ -23808,7 +23814,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					has_tgp_dlc_trigger = yes
 					NOR = { # Yusseter
 						title:k_jinghai.holder = title:h_china.holder
-						has_government = celestial_government
+						title:k_jinghai.holder = { has_government = celestial_government }
 					}
 				}
 				title:k_jinghai.holder = { change_government = meritocratic_government }
@@ -23837,7 +23843,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					exists = title:e_dai_viet.holder
 					NOR = { # Yusseter
 						title:e_dai_viet.holder = title:h_china.holder
-						has_government = celestial_government
+						title:e_dai_viet.holder = { has_government = celestial_government }
 					}
 				}
 				title:e_dai_viet.holder = { change_government = meritocratic_government }
@@ -24158,7 +24164,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 					game_start_date <= 1220.5.16
 					NOR = { # Yusseter
 						title:e_andong.holder = title:h_china.holder
-						has_government = celestial_government
+						title:e_andong.holder = { has_government = celestial_government }
 					}
 				}
 		

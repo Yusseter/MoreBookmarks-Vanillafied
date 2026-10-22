@@ -10835,9 +10835,9 @@ base_1066_tributary_setup_effect = {
 	# E_JAPAN
 	title:e_japan.holder ?= {
 		save_scope_as = suzerain
-		#title:c_shiwa.holder ?= { # Yusseter
-			#break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		#}
+		title:c_tsugaru.holder ?= { # Yusseter: title:c_shiwa.holder
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 	
 	# E_EGYPT
@@ -11383,9 +11383,9 @@ base_1081_tributary_setup_effect = {
 	# E_JAPAN
 	title:e_japan.holder ?= {
 		save_scope_as = suzerain
-		#title:c_shiwa.holder ?= { # Yusseter
-			#break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		#}
+		title:c_tsugaru.holder ?= { # Yusseter: title:c_shiwa.holder
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 	
 	# E_PERSIA
@@ -13662,7 +13662,7 @@ base_1178_tributary_setup_effect = {
 	# E_BYZANTIUM
     title:e_byzantium.holder ?= {
         save_scope_as = suzerain
-		title:k_cilician.holder ?= {
+		title:d_cilicia.holder ?= { # Yusseter: title:k_cilician.holder
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		title:k_hungary.holder ?= {

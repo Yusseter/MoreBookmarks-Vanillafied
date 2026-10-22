@@ -40334,6 +40334,7 @@ k_balhae = {
 	# Yusseter: k_dongxia
 	1215.1.1 = {
 		holder = jurchen1477
+		liege = 0 # Yusseter
 		name = "k_dongxia" #effect = { set_coa = k_dongxia }
 	}
 	1233.1.1 = {

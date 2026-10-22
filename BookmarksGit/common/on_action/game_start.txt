@@ -460,7 +460,7 @@ on_game_start = {
 			##China
 
 			# Chang'an (Tang)
-			province:13745 = {
+			province:10603 = { # Yusseter: province:13745
 				add_province_modifier = coronation_tradition_modifier
 				set_variable = {
 					name = coronation_tradition_location
@@ -477,7 +477,7 @@ on_game_start = {
 				}
 			}
 			# Changle (Min)
-			province:12368 = {
+			province:8841 = { # Yusseter: province:12368
 				add_province_modifier = coronation_tradition_modifier
 				set_variable = {
 					name = coronation_tradition_location
@@ -536,7 +536,7 @@ on_game_start = {
 			}
 			##Tibet
 			# Lhasa (Tibet) - Capital of Tibetan Empire. Let's let it persist the whole game
-			province:13586 = {
+			province:11974 = { # Yusseter: province:13586
 				add_province_modifier = coronation_tradition_modifier
 				set_variable = {
 					name = coronation_tradition_location
@@ -642,7 +642,7 @@ on_game_start = {
 				}
 			}
 			# Chang'an (Tang)
-			province:13745 = {
+			province:10603 = { # Yusseter: province:13745
 				add_province_modifier = coronation_tradition_modifier
 				set_variable = {
 					name = coronation_tradition_location

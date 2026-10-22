@@ -25686,6 +25686,8 @@ d_chengde = {
 	980.1.1 = { holder = 0 }
 	997.5.8 = { holder = hedong_pei_505 }
 	1018.1.1 = { holder = jiyuan_li_001 }
+	1044.1.1 = { liege = h_china } # Yusseter: Preserve k_hebeixi's source affiliation only within its ruler's recorded lifetime.
+	1045.1.1 = { liege = k_hebei } # Yusseter
 	1063.1.1 = { holder = 1803234 } #Zhou Hang
 	1081.1.1 = { holder = 1801635 }
 	1099.1.1 = { holder = anyang_li_004 }

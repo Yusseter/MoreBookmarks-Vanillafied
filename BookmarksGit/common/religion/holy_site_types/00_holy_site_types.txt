@@ -8852,7 +8852,7 @@ kordofan = {
 
 kyaikhtiyo = {
 	    county = c_thaton
-	barony = b_donwun
+	#barony = b_donwun # Yusseter: No confirmed projected barony.
 
 	county_holder_character_modifier = {
 		development_growth_factor = 0.1

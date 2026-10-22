@@ -9735,7 +9735,7 @@ b_grancanaria: "Tamarán"
  b_hineboun: "Hineboun"
  b_hineboun_adj: "Hineboun"
  b_hinggan: "Hinggan"
- b_hinggan_adj: "Hinggan"
+ #b_hinggan_adj: "Hinggan" # Yusseter: Conflicts with grand_wedding_completed_guest.
  b_hinglajgarh: "Hinglajgarh"
  b_hingula: "Hingula"
  b_hino: "Hino"

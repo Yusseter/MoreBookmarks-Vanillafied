@@ -7,12 +7,12 @@
 
 
 
-#NJominiMap = { # Yusseter: Use the vanilla sea level with the vanilla heightmap.
-#	#WORLD_EXTENTS_X = 8191
-#	#WORLD_EXTENTS_Y = 51
-#	#WORLD_EXTENTS_Z = 4095
-#	WATERLEVEL = 3.1
-#}
+NJominiMap = {
+	#WORLD_EXTENTS_X = 8191
+	#WORLD_EXTENTS_Y = 51
+	#WORLD_EXTENTS_Z = 4095
+	WATERLEVEL = 3.1
+}
 
 
 

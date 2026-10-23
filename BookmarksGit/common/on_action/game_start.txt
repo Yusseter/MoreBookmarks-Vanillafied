@@ -1355,7 +1355,8 @@ on_game_start = {
 
 
 		title:b_didao_china.title_province = { add_great_building = the_great_wall_02 }
-		title:b_lanzhou_china.title_province = { add_great_building = the_great_wall_02 }
+		title:b_jincheng_1.title_province = { add_great_building = the_great_wall_02 } # Yusseter
+		#title:b_lanzhou_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_longgoubao_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_yuanzhou_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_huaian_2.title_province = { add_great_building = the_great_wall_02 } # Yusseter

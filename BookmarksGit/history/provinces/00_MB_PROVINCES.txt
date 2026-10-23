@@ -87200,7 +87200,7 @@ rite = roman_rite
 11248 = { #Marakele / Great Andaman
 	culture = ongan
 	rite = kadai
-	terrain = jungle
+	#terrain = jungle # Yusseter
 
 	holding = tribal_holding
 }
@@ -94445,7 +94445,7 @@ rite = roman_rite
 	# Misc
 	culture = aslian
 	rite = kadai
-	terrain = jungle
+	#terrain = jungle # Yusseter
 
 	holding = tribal_holding
 }

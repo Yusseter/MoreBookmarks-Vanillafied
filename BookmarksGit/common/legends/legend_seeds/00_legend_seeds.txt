@@ -767,7 +767,7 @@ pyusawhti = { # Burmese legend claiming ancestry from a dragon goddess
 		
 		OR = {
 				has_title = title:k_pagan
-				has_title = title:k_pinya
+				#has_title = title:k_pinya # Yusseter
 				has_title = title:k_pegu
 				has_title = title:k_sagaing
 			}

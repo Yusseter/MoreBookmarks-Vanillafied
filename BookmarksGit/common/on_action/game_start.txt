@@ -1358,11 +1358,14 @@ on_game_start = {
 		title:b_lanzhou_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_longgoubao_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_yuanzhou_china.title_province = { add_great_building = the_great_wall_02 }
-		title:b_baimachuan_china.title_province = { add_great_building = the_great_wall_02 }
+		title:b_huaian_2.title_province = { add_great_building = the_great_wall_02 } # Yusseter
+		#title:b_baimachuan_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_yanzhouwuyuan_china.title_province = { add_great_building = the_great_wall_02 }
-		title:b_changze_china.title_province = { add_great_building = the_great_wall_02 }
+		title:b_wuyan.title_province = { add_great_building = the_great_wall_02 } # Yusseter
+		#title:b_changze_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_ningshuo_china.title_province = { add_great_building = the_great_wall_02 }
-		title:b_tongwan_china.title_province = { add_great_building = the_great_wall_02 }
+		title:b_ningshuo.title_province = { add_great_building = the_great_wall_02 } # Yusseter
+		#title:b_tongwan_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_yinzhou_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_yincheng_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_linzhou_china.title_province = { add_great_building = the_great_wall_02 }

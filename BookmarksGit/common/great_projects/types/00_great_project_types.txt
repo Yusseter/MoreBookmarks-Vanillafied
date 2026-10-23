@@ -5258,13 +5258,13 @@ great_wall = { # This is a project to upgrade pre-existing wall sections within 
 		}
 		walls_19 = { # b_baimachuan_china
 			is_shown = {
-				title:b_baimachuan_china.title_province = {
+				title:b_huaian_2.title_province = { # Yusseter: title:b_baimachuan_china.title_province
 					NOT = { has_building_or_higher = the_great_wall_04 }
 					province_owner ?= { top_liege = root.top_liege }
 				}
 			}
 			on_complete = {
-				title:b_baimachuan_china.title_province = { set_great_building = the_great_wall_04 }
+				title:b_huaian_2.title_province = { set_great_building = the_great_wall_04 } # Yusseter: title:b_baimachuan_china.title_province
 				contributor_great_wall_reward_effect = yes
 			}
 
@@ -5338,13 +5338,13 @@ great_wall = { # This is a project to upgrade pre-existing wall sections within 
 		}
 		walls_21 = { # b_changze_china
 			is_shown = {
-				title:b_changze_china.title_province = {
+				title:b_wuyan.title_province = { # Yusseter: title:b_changze_china.title_province
 					NOT = { has_building_or_higher = the_great_wall_04 }
 					province_owner ?= { top_liege = root.top_liege }
 				}
 			}
 			on_complete = {
-				title:b_changze_china.title_province = { set_great_building = the_great_wall_04 }
+				title:b_wuyan.title_province = { set_great_building = the_great_wall_04 } # Yusseter: title:b_changze_china.title_province
 				contributor_great_wall_reward_effect = yes
 			}
 
@@ -5418,13 +5418,13 @@ great_wall = { # This is a project to upgrade pre-existing wall sections within 
 		}
 		walls_23 = { # b_tongwan_china
 			is_shown = {
-				title:b_tongwan_china.title_province = {
+				title:b_ningshuo.title_province = { # Yusseter: title:b_tongwan_china.title_province
 					NOT = { has_building_or_higher = the_great_wall_04 }
 					province_owner ?= { top_liege = root.top_liege }
 				}
 			}
 			on_complete = {
-				title:b_tongwan_china.title_province = { set_great_building = the_great_wall_04 }
+				title:b_ningshuo.title_province = { set_great_building = the_great_wall_04 } # Yusseter: title:b_tongwan_china.title_province
 				contributor_great_wall_reward_effect = yes
 			}
 

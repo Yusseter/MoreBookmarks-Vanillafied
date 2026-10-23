@@ -41097,7 +41097,8 @@ c_BAL_west_hyeondeok = {
 	1138.1.1 = { holder = MBJurchen1 }
 	1188.1.1 = { holder = jurchen1289 }
 	1205.1.1 = { holder = jurchen1290 liege = d_BAL_moe_su }
-	1220.1.1 = { holder = JurchenPucha36 }
+	1220.1.1 = { holder = JurchenPucha36 liege = d_sumo_china } # Yusseter
+	#1220.1.1 = { holder = JurchenPucha36 }
 	1243.4.26 = { holder = JurchenPucha42 }
 	1270.3.18 = { holder = JurchenPucha48 }
 	1297.8.17 = { holder = JurchenPucha54 }
@@ -41141,7 +41142,8 @@ c_BAL_east_hyeondeok = {
 	1138.1.1 = { holder = MBJurchen1 }
 	1188.1.1 = { holder = jurchen1289 }
 	1205.1.1 = { holder = jurchen1290 liege = d_BAL_moe_su }
-	1220.1.1 = { holder = NieHanMB7 }
+	1220.1.1 = { holder = NieHanMB7 liege = d_sumo_china } # Yusseter
+	#1220.1.1 = { holder = NieHanMB7 }
 	1240.1.5 = { holder = NieHanMB8 }
 	1268.4.9 = { holder = NieHanMB9 }
 	1297.8.23 = { holder = NieHanMB10 }

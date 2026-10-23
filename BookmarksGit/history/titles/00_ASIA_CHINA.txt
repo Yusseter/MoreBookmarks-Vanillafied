@@ -27671,7 +27671,8 @@ c_xingzhou = {
 	692.1.1 = { holder = dongping_bi_011 } #Bi Jing - prefect at some point
 	#
 	755.1.1 = { holder = 1406185 } #Yan Guoqing - administrator
-	756.1.1 = { holder = dongping_bi_014 liege = d_zelu }
+	756.1.1 = { holder = dongping_bi_014 liege = h_china } # Yusseter
+	#756.1.1 = { holder = dongping_bi_014 liege = d_zelu }
 	#
 	847.1.1 = { holder = 1401372 } #Zhi Song - prefect in 851
 	#
@@ -27854,7 +27855,8 @@ c_mingzhou = {
 	738.1.1 = { holder = 1802305 } #Shen Congdao - prefect at some point
 	#
 	754.1.1 = { holder = dongping_bi_013 } #Bi Kang - prefect until 755
-	755.1.1 = { holder = dongping_bi_014 liege = d_zelu }
+	755.1.1 = { holder = dongping_bi_014 liege = h_china } # Yusseter
+	#755.1.1 = { holder = dongping_bi_014 liege = d_zelu }
 	#
 	867.1.1 = { holder = 1401257 liege = d_zelu government = feudal_government  } #Mr. Lu, name unknown
 	871.1.1 = { holder = longxi_li_1036 } #No Jiedushi

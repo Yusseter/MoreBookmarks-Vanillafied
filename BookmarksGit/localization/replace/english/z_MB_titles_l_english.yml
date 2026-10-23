@@ -29098,6 +29098,7 @@ b_grancanaria: "Tamarán"
  c_butsu_adj: "Butsu"
  c_butuan: "Butuan"
  c_butuan_adj: "Butuanon"
+ c_PHI_butuan_adj: "$c_butuan_adj$" # Yusseter
  c_butungmuna: "Butungmuna"
  c_butuo: "Butuo"
  c_butuo_adj: "Butuo"

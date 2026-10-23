@@ -4395,7 +4395,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Qiu_90B1" }
+				dynasty ?= { # Yusseter
+					OR = {
+						dynasty_has_base_name = "dynn_Qiu_90B1"
+						dynasty_has_base_name = "dynn_Qiu3"				# MB: China super-dynasty 丘 (Bohai Qiu)
+					}
+				}
 			}
 			100 = "ce_seal_name_qiu_90b1.dds"
 		}

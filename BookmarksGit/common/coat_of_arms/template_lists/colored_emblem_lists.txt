@@ -3662,6 +3662,7 @@
 						dynasty_has_base_name = "dynn_Wang_738B"
 						dynasty_has_base_name = "dynn_Wang_738B_KO"
 						dynasty_has_base_name = "dynn_Vuong_738B"
+						dynasty_has_base_name = "dynn_Wang1"			# MB: China super-dynasty # Yusseter
 					}
 				}
 			}
@@ -3675,6 +3676,7 @@
 						dynasty_has_base_name = "dynn_Li_674E"
 						dynasty_has_base_name = "dynn_I_674E"
 						dynasty_has_base_name = "dynn_Ly_674E"
+						dynasty_has_base_name = "dynn_Li1"				# MB: China super-dynasty # Yusseter
 					}
 				}
 			}
@@ -3688,6 +3690,7 @@
 						dynasty_has_base_name = "dynn_Zhang_5F35"
 						dynasty_has_base_name = "dynn_Jang_5F35"
 						dynasty_has_base_name = "dynn_Truong_5F35"
+						dynasty_has_base_name = "dynn_Zhang1"			# MB: China super-dynasty # Yusseter
 					}
 				}
 			}
@@ -3701,6 +3704,7 @@
 						dynasty_has_base_name = "dynn_Liu_5289"
 						dynasty_has_base_name = "dynn_Yu_5289"
 						dynasty_has_base_name = "dynn_Luu_5289"
+						dynasty_has_base_name = "dynn_Liu1"				# MB: China super-dynasty 劉 # Yusseter
 					}
 				}
 			}
@@ -3715,6 +3719,7 @@
 						dynasty_has_base_name = "dynn_Tran_9673"
 						dynasty_has_base_name = "dynn_Jin_C9C4"			# MB: Korea Jin (generic, assigned 陳) # Yusseter
 						dynasty_has_base_name = "dynn_Jin_kor"			# MB: Korea Jin (generic) # Yusseter
+						dynasty_has_base_name = "dynn_Chen1"			# MB: China super-dynasty 陳 # Yusseter
 					}
 				}
 			}
@@ -3729,6 +3734,7 @@
 						dynasty_has_base_name = "dynn_Yang_694A_KO"
 						dynasty_has_base_name = "dynn_An_694A"
 						dynasty_has_base_name = "dynn_Duong_694A"
+						dynasty_has_base_name = "dynn_Yang1"			# MB: China super-dynasty 楊 # Yusseter
 					}
 				}
 			}
@@ -3743,6 +3749,7 @@
 						dynasty_has_base_name = "dynn_Hoang_9EC3"
 						dynasty_has_base_name = "dynn_Huang_9EC4"
 						dynasty_has_base_name = "dynn_Hwang"			# MB: Korea Hwang 黃 # Yusseter
+						dynasty_has_base_name = "dynn_Huang1"			# MB: China super-dynasty 黃 # Yusseter
 					}
 				}
 			}
@@ -3756,6 +3763,7 @@
 						dynasty_has_base_name = "dynn_Zhao_8D99"
 						dynasty_has_base_name = "dynn_Jo_8D99"
 						dynasty_has_base_name = "dynn_Trieu_8D99"
+						dynasty_has_base_name = "dynn_Zhao1"			# MB: China super-dynasty 趙 # Yusseter
 					}
 				}
 			}
@@ -3769,6 +3777,7 @@
 						dynasty_has_base_name = "dynn_Wu_5433"
 						dynasty_has_base_name = "dynn_O_5433"
 						dynasty_has_base_name = "dynn_Ngo_5433"
+						dynasty_has_base_name = "dynn_Wu1"				# MB: China super-dynasty 吳 # Yusseter
 					}
 				}
 			}
@@ -3781,6 +3790,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Zhou_5468"
 						dynasty_has_base_name = "dynn_Ju_5468"
+						dynasty_has_base_name = "dynn_Zhou1"			# MB: China super-dynasty 周 # Yusseter
 					}
 				}
 			}
@@ -3793,6 +3803,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Xu_5F90"
 						dynasty_has_base_name = "dynn_Seo_5F90"
+						dynasty_has_base_name = "dynn_Xu1"				# MB: China super-dynasty 徐 # Yusseter
 					}
 				}
 			}
@@ -3805,6 +3816,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Sun_5B6B"
 						dynasty_has_base_name = "dynn_Ton_5B6B"
+						dynasty_has_base_name = "dynn_Sun1"				# MB: China super-dynasty 孫 # Yusseter
 					}
 				}
 			}
@@ -3817,6 +3829,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Ma_99AC"
 						dynasty_has_base_name = "dynn_Ma_99AC_KO"
+						dynasty_has_base_name = "dynn_Ma1"				# MB: China super-dynasty 馬 # Yusseter
 					}
 				}
 			}
@@ -3830,6 +3843,7 @@
 						dynasty_has_base_name = "dynn_Zhu_6731"
 						dynasty_has_base_name = "dynn_Ju_6731"
 						dynasty_has_base_name = "dynn_Chu_6731"
+						dynasty_has_base_name = "dynn_Zhu1"				# MB: China super-dynasty 朱 # Yusseter
 					}
 				}
 			}
@@ -3855,6 +3869,7 @@
 						dynasty_has_base_name = "dynn_Guo_90ED"
 						dynasty_has_base_name = "dynn_Gwak_90ED"
 						dynasty_has_base_name = "dynn_Quach_90ED"
+						dynasty_has_base_name = "dynn_Guo1"				# MB: China super-dynasty 郭 # Yusseter
 					}
 				}
 			}
@@ -3881,6 +3896,7 @@
 						dynasty_has_base_name = "dynn_Rim_6797"
 						dynasty_has_base_name = "dynn_Lam_6797"
 						dynasty_has_base_name = "dynn_Yim"				# MB: Korea Yim 林 # Yusseter
+						dynasty_has_base_name = "dynn_Lin1"				# MB: China super-dynasty 林 # Yusseter
 					}
 				}
 			}
@@ -3894,6 +3910,7 @@
 						dynasty_has_base_name = "dynn_Gao_9AD8"
 						dynasty_has_base_name = "dynn_Go_9AD8"
 						dynasty_has_base_name = "dynn_Cao_9AD8"
+						dynasty_has_base_name = "dynn_Gao1"				# MB: China super-dynasty 高 # Yusseter
 					}
 				}
 			}
@@ -3919,6 +3936,7 @@
 						dynasty_has_base_name = "dynn_Zheng_912D"
 						dynasty_has_base_name = "dynn_Jeong_912D"
 						dynasty_has_base_name = "dynn_Trinh_912D"
+						dynasty_has_base_name = "dynn_Zheng1"			# MB: China super-dynasty 鄭 # Yusseter
 					}
 				}
 			}
@@ -3931,6 +3949,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Liang_6881"
 						dynasty_has_base_name = "dynn_Yang_6881"
+						dynasty_has_base_name = "dynn_Liang1"			# MB: China super-dynasty 梁 # Yusseter
 					}
 				}
 			}
@@ -3943,6 +3962,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Xie_8B1D"
 						dynasty_has_base_name = "dynn_Ta_8B1D"
+						dynasty_has_base_name = "dynn_Xie1"				# MB: China super-dynasty 謝 # Yusseter
 					}
 				}
 			}
@@ -3956,6 +3976,7 @@
 						dynasty_has_base_name = "dynn_Song_5B8B"
 						dynasty_has_base_name = "dynn_Song_5B8B_KO"
 						dynasty_has_base_name = "dynn_Tong_5B8B"
+						dynasty_has_base_name = "dynn_Song1"			# MB: China super-dynasty 宋 # Yusseter
 					}
 				}
 			}
@@ -3964,7 +3985,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Tang_5510" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Tang_5510"
+						dynasty_has_base_name = "dynn_Tang1"			# MB: China super-dynasty 唐
+					}
+				}
 			}
 			100 = "ce_seal_name_tang_5510.dds"
 		}
@@ -3976,6 +4002,7 @@
 						dynasty_has_base_name = "dynn_Xu_8A31"
 						dynasty_has_base_name = "dynn_Heo_8F09"		# MB: Korea Heo 許 (note: key hex may be typo, should be 8A31)
 						dynasty_has_base_name = "dynn_Heo"		# MB: Korea Heo 許
+						dynasty_has_base_name = "dynn_Xu2"				# MB: China super-dynasty 許 # Yusseter
 					}
 				}
 			}
@@ -3988,6 +4015,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Deng_9127"
 						dynasty_has_base_name = "dynn_Dang_9127"
+						dynasty_has_base_name = "dynn_Deng1"			# MB: China super-dynasty 鄧 # Yusseter
 					}
 				}
 			}
@@ -4000,6 +4028,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Han_97D3"
 						dynasty_has_base_name = "dynn_Han_97D3_KO"
+						dynasty_has_base_name = "dynn_Han1"				# MB: China super-dynasty 韓 # Yusseter
 					}
 				}
 			}
@@ -4013,6 +4042,7 @@
 						dynasty_has_base_name = "dynn_Feng_99AE"
 						dynasty_has_base_name = "dynn_Pung_99AE"
 						dynasty_has_base_name = "dynn_Phung_99AE"
+						dynasty_has_base_name = "dynn_Feng2"			# MB: China super-dynasty 馮 # Yusseter
 					}
 				}
 			}
@@ -4021,7 +4051,13 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Cao_66F9" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Cao_66F9"
+						dynasty_has_base_name = "dynn_Cao"				# MB: China super-dynasty 曹 (short key)
+						dynasty_has_base_name = "dynn_Cao1"				# MB: China super-dynasty 曹 (numbered key)
+					}
+				}
 			}
 			100 = "ce_seal_name_cao_66f9.dds"
 		}
@@ -4042,7 +4078,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Xiao_856D" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Xiao_856D"
+						dynasty_has_base_name = "dynn_Xiao1"			# MB: China super-dynasty 蕭
+					}
+				}
 			}
 			100 = "ce_seal_name_xiao_856d.dds"
 		}
@@ -4072,6 +4113,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Pan_6F58"
 						dynasty_has_base_name = "dynn_Phan_6F58"
+						dynasty_has_base_name = "dynn_Pan1"				# MB: China super-dynasty 潘 # Yusseter
 					}
 				}
 			}
@@ -4080,7 +4122,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Yuan_8881" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Yuan_8881"
+						dynasty_has_base_name = "dynn_Yuan1"			# MB: China super-dynasty 袁
+					}
+				}
 			}
 			100 = "ce_seal_name_yuan_8881.dds"
 		}
@@ -4091,6 +4138,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Cai_8521"
 						dynasty_has_base_name = "dynn_Chae_8521"
+						dynasty_has_base_name = "dynn_Cai1"				# MB: China super-dynasty 蔡 # Yusseter
 					}
 				}
 			}
@@ -4099,14 +4147,25 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Jiang_8523" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Jiang_8523"
+						dynasty_has_base_name = "dynn_Jiang1"			# MB: China super-dynasty 蔣
+					}
+				}
 			}
 			100 = "ce_seal_name_jiang_8523.dds"
 		}
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Yu_4F59" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Yu_4F59"
+						dynasty_has_base_name = "dynn_Yu4"				# MB: China super-dynasty 余 (Luoyuan branch)
+						dynasty_has_base_name = "dynn_Yu6"				# MB: China super-dynasty 余 (Shangrao branch)
+					}
+				}
 			}
 			100 = "ce_seal_name_yu_4f59.dds"
 		}
@@ -4130,6 +4189,7 @@
 						dynasty_has_base_name = "dynn_Du_675C"
 						dynasty_has_base_name = "dynn_Du_675C_KO"
 						dynasty_has_base_name = "dynn_Do_675C"
+						dynasty_has_base_name = "dynn_Du1"				# MB: China super-dynasty 杜 # Yusseter
 					}
 				}
 			}
@@ -4152,7 +4212,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Wei_9B4F" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Wei_9B4F"
+						dynasty_has_base_name = "dynn_Wei1"				# MB: China super-dynasty 魏
+					}
+				}
 			}
 			100 = "ce_seal_name_wei_9b4f.dds"
 		}
@@ -4176,6 +4241,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Lu_5442"
 						dynasty_has_base_name = "dynn_Yeo_5442"
+						dynasty_has_base_name = "dynn_Lv1"				# MB: China super-dynasty 呂 # Yusseter
 					}
 				}
 			}
@@ -4188,6 +4254,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Ding_4E01"
 						dynasty_has_base_name = "dynn_Dinh_4E01"
+						dynasty_has_base_name = "dynn_Ding1"			# MB: China super-dynasty 丁 # Yusseter
 					}
 				}
 			}
@@ -4200,6 +4267,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Ren_4EFB"
 						dynasty_has_base_name = "dynn_Im_4EFB"
+						dynasty_has_base_name = "dynn_Ren1"				# MB: China super-dynasty 任 # Yusseter
 					}
 				}
 			}
@@ -4222,7 +4290,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Shen_6C88" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Shen_6C88"
+						dynasty_has_base_name = "dynn_Shen1"			# MB: China super-dynasty 沈
+					}
+				}
 			}
 			100 = "ce_seal_name_shen_6c88.dds"
 		}
@@ -4252,6 +4325,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Cui_5D14"
 						dynasty_has_base_name = "dynn_Choe_5D14"
+						dynasty_has_base_name = "dynn_Cui1"				# MB: China super-dynasty 崔 # Yusseter
 					}
 				}
 			}
@@ -4272,7 +4346,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Lu_9678" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Lu_9678"
+						dynasty_has_base_name = "dynn_Lu2"				# MB: China super-dynasty 陸 (Wujun)
+					}
+				}
 			}
 			100 = "ce_seal_name_lu_9678.dds"
 		}
@@ -4283,6 +4362,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Fan_8303"
 						dynasty_has_base_name = "dynn_Pham_8303"
+						dynasty_has_base_name = "dynn_Fan1"				# MB: China super-dynasty 范 # Yusseter
 					}
 				}
 			}
@@ -4291,7 +4371,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Wang_6C6A" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Wang_6C6A"
+						dynasty_has_base_name = "dynn_Wang3"			# MB: China super-dynasty 汪 (Xin'an)
+					}
+				}
 			}
 			100 = "ce_seal_name_wang_6c6a.dds"
 		}
@@ -4324,14 +4409,24 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Wei_97CB" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Wei_97CB"
+						dynasty_has_base_name = "dynn_Wei2"				# MB: China super-dynasty 韋 (Jingzhao)
+					}
+				}
 			}
 			100 = "ce_seal_name_wei_97cb.dds"
 		}
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Jia_8CC8" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Jia_8CC8"
+						dynasty_has_base_name = "dynn_Jia1"				# MB: China super-dynasty 賈
+					}
+				}
 			}
 			100 = "ce_seal_name_jia_8cc8.dds"
 		}
@@ -4357,7 +4452,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Fang_65B9" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Fang_65B9"
+						dynasty_has_base_name = "dynn_Fang2"			# MB: China super-dynasty 方 (Chun'an)
+					}
+				}
 			}
 			100 = "ce_seal_name_fang_65b9.dds"
 		}
@@ -4417,7 +4517,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Hou_4FAF" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Hou_4FAF"
+						dynasty_has_base_name = "dynn_Hou1"				# MB: China super-dynasty 侯
+					}
+				}
 			}
 			100 = "ce_seal_name_hou_4faf.dds"
 		}
@@ -4435,6 +4540,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Yin_5C39"
 						dynasty_has_base_name = "dynn_Yun_5C39"
+						dynasty_has_base_name = "dynn_Yin1"				# MB: China super-dynasty 尹 (Daibei) # Yusseter
 					}
 				}
 			}
@@ -4461,6 +4567,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Duan_6BB5"
 						dynasty_has_base_name = "dynn_Doan_6BB5"
+						dynasty_has_base_name = "dynn_Duan1"			# MB: China super-dynasty 段 # Yusseter
 					}
 				}
 			}
@@ -4536,7 +4643,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Mao_6BDB" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Mao_6BDB"
+						dynasty_has_base_name = "dynn_Mao1"				# MB: China super-dynasty 毛
+					}
+				}
 			}
 			100 = "ce_seal_name_mao_6bdb.dds"
 		}
@@ -4589,6 +4701,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Wu_6B66"
 						dynasty_has_base_name = "dynn_Vu_6B66"
+						dynasty_has_base_name = "dynn_Wu2"				# MB: China super-dynasty 武 (Zetian Wu) # Yusseter
 					}
 				}
 			}
@@ -4597,7 +4710,12 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Qian_9322" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Qian_9322"
+						dynasty_has_base_name = "dynn_Qian1"			# MB: China super-dynasty 錢
+					}
+				}
 			}
 			100 = "ce_seal_name_qian_9322.dds"
 		}
@@ -4615,6 +4733,7 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Yan_56B4"
 						dynasty_has_base_name = "dynn_Nghiem_56B4"
+						dynasty_has_base_name = "dynn_Yan1"				# MB: China super-dynasty 嚴 (Linchuan Yan) # Yusseter
 					}
 				}
 			}
@@ -4733,6 +4852,7 @@
 						dynasty_has_base_name = "dynn_Wen_6587"
 						dynasty_has_base_name = "dynn_Mun_6587"
 						dynasty_has_base_name = "dynn_Van_6587"
+						dynasty_has_base_name = "dynn_Wen2"				# MB: China super-dynasty 文 (Jiexi Wen) # Yusseter
 					}
 				}
 			}
@@ -4874,7 +4994,12 @@
 
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Murong_6155_5BB9" }
+				dynasty ?= {
+					OR = { # Yusseter
+						dynasty_has_base_name = "dynn_Murong_6155_5BB9"
+						dynasty_has_base_name = "dynn_Murong"			# MB: China super-dynasty 慕容 (short key)
+					}
+				}
 			}
 			100 = "ce_seal_name_rong_5bb9.dds"
 		}

@@ -3713,6 +3713,8 @@
 					OR = {
 						dynasty_has_base_name = "dynn_Chen_9673"
 						dynasty_has_base_name = "dynn_Tran_9673"
+						dynasty_has_base_name = "dynn_Jin_C9C4"			# MB: Korea Jin (generic, assigned 陳) # Yusseter
+						dynasty_has_base_name = "dynn_Jin_kor"			# MB: Korea Jin (generic) # Yusseter
 					}
 				}
 			}
@@ -3740,6 +3742,7 @@
 						dynasty_has_base_name = "dynn_Huang_9EC3"
 						dynasty_has_base_name = "dynn_Hoang_9EC3"
 						dynasty_has_base_name = "dynn_Huang_9EC4"
+						dynasty_has_base_name = "dynn_Hwang"			# MB: Korea Hwang 黃 # Yusseter
 					}
 				}
 			}
@@ -3877,6 +3880,7 @@
 						dynasty_has_base_name = "dynn_Lin_6797"
 						dynasty_has_base_name = "dynn_Rim_6797"
 						dynasty_has_base_name = "dynn_Lam_6797"
+						dynasty_has_base_name = "dynn_Yim"				# MB: Korea Yim 林 # Yusseter
 					}
 				}
 			}
@@ -3967,7 +3971,13 @@
 	
 		special_selection = {
 			trigger = {
-				dynasty ?= { dynasty_has_base_name = "dynn_Xu_8A31" }
+				dynasty ?= { # Yusseter
+					OR = {
+						dynasty_has_base_name = "dynn_Xu_8A31"
+						dynasty_has_base_name = "dynn_Heo_8F09"		# MB: Korea Heo 許 (note: key hex may be typo, should be 8A31)
+						dynasty_has_base_name = "dynn_Heo"		# MB: Korea Heo 許
+					}
+				}
 			}
 			100 = "ce_seal_name_xu_8a31.dds"
 		}

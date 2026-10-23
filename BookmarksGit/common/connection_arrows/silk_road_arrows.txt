@@ -318,13 +318,13 @@ ninth = {
 }
 
 # Vanilla east: Nanhai to Chengdu
-yb_vanilla_east_ninth = {
-	arrow_type = "silkRoadArrow"
-	provinces = {
-		8892 # Nanhai
-		12283 # Chengdu
-	}
-}
+#yb_vanilla_east_ninth = { # Yusseter
+#	arrow_type = "silkRoadArrow"
+#	provinces = {
+#		8892 # Nanhai
+#		12283 # Chengdu
+#	}
+#}
 
 # Pataliputra to Chatigama
 tenth = {

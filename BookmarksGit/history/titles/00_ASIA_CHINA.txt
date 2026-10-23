@@ -8401,9 +8401,9 @@ d_yideng = {
 	}
 	#Yuan
 
-	1285.1.1 = {
-		de_jure_liege = k_north_zhili
-	}
+	#1285.1.1 = { # Yusseter
+	#	de_jure_liege = k_north_zhili
+	#}
 	1294.2.18 = {
 		holder = 217269
 	}

@@ -8729,7 +8729,7 @@ choklema = {
 
 cising = {
 	 # Qixing
-	county = c_nankan
+	county = c_hoanya # Yusseter: c_nankan
 
 	county_holder_character_modifier = {
 		stewardship_per_piety_level = 1

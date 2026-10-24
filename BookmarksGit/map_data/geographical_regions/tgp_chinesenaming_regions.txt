@@ -1,4 +1,4 @@
-tgp_ba_region = {
+﻿tgp_ba_region = {
 	kingdoms = {
 		k_xichuan
 	}

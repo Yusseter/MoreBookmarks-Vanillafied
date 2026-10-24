@@ -63761,7 +63761,7 @@ k_mongnai = {
 	1315.1.1 = { holder = Mongmao14	 }
 	1330.1.1 = { holder = Mongmao15	 }
 	1115.1.1 = {
-		reset_name = yes
+		#reset_name = yes # Yusseter: Keep the source regime name assigned above.
 		effect = { reset_coa = yes }
 	}
 

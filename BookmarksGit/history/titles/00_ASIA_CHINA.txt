@@ -8378,7 +8378,8 @@ d_yideng = {
 	#1073.11.23 = { liege = h_china }
 	1119.9.18 = { holder = changshan_wang_007 } #Wang Huanzhi
 	1121.4.1 = { holder = 0 effect = { set_capital_county = title:c_dingzhou }  }
-	1122.7.6 = { holder = 1413121 } #Yelü Ding
+	1122.7.6 = { holder = 1413121 liege = 0 } #Yelü Ding # Yusseter
+	#1122.7.6 = { holder = 1413121 } #Yelü Ding
 	#Song Yanshanfu
 	1124.1.1 = { holder = tiezhou_guo_001 liege = h_china reset_name = yes } #Guo Yaoshi - defects to Song, made prefect
 	#Jin

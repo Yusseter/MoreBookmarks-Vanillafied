@@ -6787,7 +6787,7 @@ on_game_start_after_lobby = {
 				}
 			}
 			#Panjalu
-			province:11356 = {
+			province:11355 = { # Yusseter: province:11356
 				add_great_building = mandala_capital_01
 				add_to_global_variable_list = { # Add to list so it can be found by the PoI
 					name = mandala_poi_list
@@ -6795,7 +6795,7 @@ on_game_start_after_lobby = {
 				}
 			}
 			#Janggala
-			province:11014 = {
+			province:11356 = { # Yusseter: province:11014
 				add_great_building = mandala_capital_01
 				add_to_global_variable_list = { # Add to list so it can be found by the PoI
 					name = mandala_poi_list

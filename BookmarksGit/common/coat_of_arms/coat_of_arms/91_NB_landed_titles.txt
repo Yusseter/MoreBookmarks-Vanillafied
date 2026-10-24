@@ -54281,6 +54281,7 @@ e_angkor = {
 		instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 }  }
 	}
 }
+e_suvarnabhumi = e_angkor # Yusseter
 k_funan = { # Yasodhara
 	pattern = "pattern_solid.dds"
 	color1 = rgb { 0 20 50 }
@@ -54338,7 +54339,7 @@ k_haripunjaya = {
 		instance = { position = { 0.5 0.5 } scale = { 0.9 0.9 }  }
 	}
 }
-e_suvarnabhumi = {
+e_burma = { # Yusseter: e_suvarnabhumi
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
 	color2 = "blue"
@@ -54768,23 +54769,133 @@ k_jinghai = {
 		instance = { position = { 0.5 0.64 } scale = { 0.65 0.75 }  }
 	}
 }
-d_hai_dong = {
-	pattern = "pattern_waves_01.dds"
-	color1 = white
-	color2 = "red"
-	colored_emblem = {
-		texture = "ce_waves_04.dds"
-		color1 = "red"
-		color2 = "white"
-		instance = { position = { 0.5 0.6 } scale = { 1 1 } }
+# Yusseter 0
+d_thang_long={
+	pattern="pattern_solid.dds"
+	color1=blue
+	color2=white
+	color3=yellow
+	colored_emblem={
+		color1=white
+		texture="ce_seal_pictorial_frame_oval.dds"
+		instance={
+			scale={ 0.830000 0.830000 }
+		}
+
 	}
-	colored_emblem = {
-		texture = "ce_rising_sun.dds"
-		color1 = "red"
-		color2 = "white"
-		instance = { position = { 0.5 0.25 } scale = { 1 1 } }
+
+	colored_emblem={
+		color1=white
+		texture="ce_seal_name_jiao_4ea4.dds"
+		instance={
+			scale={ 0.650000 0.650000 }
+			depth=1.010000
+		}
+
 	}
+
 }
+
+d_hai_dong={
+	pattern="pattern_waves_01.dds"
+	color1=white
+	color2=red
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="ce_waves_04.dds"
+		instance={
+			position={ 0.500000 0.600000 }
+			depth=1.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=red
+		color2=white
+		texture="ce_chuhan_hai.dds"
+		instance={
+			position={ 0.500000 0.250000 }
+			scale={ 0.870000 0.870000 }
+		}
+
+	}
+
+}
+
+d_lam_tay={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=blue
+	color3=white
+	colored_emblem={
+		color1=white
+		texture="ce_seal_pictorial_frame_oval.dds"
+		instance={
+			scale={ 0.860000 0.860000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_seal_name_feng_5cf0.dds"
+		instance={
+			position={ 0.490000 0.490000 }
+			scale={ 0.730000 0.730000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+d_nghe_an={
+	pattern="pattern_solid.dds"
+	color1=green_light
+	color2=blue
+	color3=white
+	colored_emblem={
+		color1=green_light
+		texture="ce_seal_name_huan_9a69.dds"
+		instance={
+			position={ 0.500000 0.510000 }
+			scale={ 0.650000 0.650000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=white
+		texture="ce_seal_pictorial_frame_circle_full.dds"
+		instance={
+			scale={ 0.770000 0.770000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+
+#d_hai_dong = {
+#	pattern = "pattern_waves_01.dds"
+#	color1 = white
+#	color2 = "red"
+#	colored_emblem = {
+#		texture = "ce_waves_04.dds"
+#		color1 = "red"
+#		color2 = "white"
+#		instance = { position = { 0.5 0.6 } scale = { 1 1 } }
+#	}
+#	colored_emblem = {
+#		texture = "ce_rising_sun.dds"
+#		color1 = "red"
+#		color2 = "white"
+#		instance = { position = { 0.5 0.25 } scale = { 1 1 } }
+#	}
+#}
+# Yusseter 1
 d_chiang_mai = {
 	pattern = "pattern_solid.dds"
 	color1 = "blue"
@@ -55989,6 +56100,7 @@ d_hanzhong_china = {
 		instance = { position = { 0.5 0.45 } scale = { 1.0 1.0 }  }
 	}
 }
+d_xingyuan = d_hanzhong_china # Yusseter
 d_dongchuan = {
 	pattern = "pattern_solid.dds"
 	color1 = { 193 200 56 }
@@ -56232,6 +56344,7 @@ d_xuanshe_china = {
 		instance = { scale = { 1.8 1.8 } position = { 0.5 0.45 }  }		
 	}		
 }
+d_xuanshe = d_xuanshe_china # Yusseter
 d_jiangdong = {
 	pattern = "pattern_solid.dds"
 	color1 = { 101 120 65 }
@@ -58657,6 +58770,7 @@ d_malgal_china = {
 		instance = { scale = { 0.8 0.8 } position = { 0.5 0.45 }  }		
 	}		
 }
+d_BAL_moe_su = d_malgal_china # Yusseter
 d_LIAO_shangjing = {
 	pattern = "pattern_solid.dds"
 	color1 = { 60 80 100 }
@@ -59193,6 +59307,7 @@ c_zhaozhou_pingle_china = {
 		}
 	}
 }
+c_zhaozhou_1 = c_zhaozhou_pingle_china # Yusseter
 
 c_zhangzhou_min_china = {
 	pattern="pattern_solid.dds"
@@ -59227,6 +59342,7 @@ c_zhangzhou_min_china = {
 		}
 	}
 }
+c_zhangzhou = c_zhangzhou_min_china # Yusseter
 
 k_yavakadvipa={
 	pattern="pattern__solid_designer.dds"
@@ -59313,6 +59429,7 @@ d_mutsu = {
 		}
 	}
 }
+d_hitakami = d_mutsu # Yusseter
 
 c_echigo = { # Kiso
 	pattern = "pattern_solid.dds"

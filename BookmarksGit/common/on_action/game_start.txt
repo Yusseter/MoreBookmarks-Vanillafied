@@ -1368,15 +1368,19 @@ on_game_start = {
 		title:b_ningshuo_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_ningshuo.title_province = { add_great_building = the_great_wall_02 } # Yusseter
 		#title:b_tongwan_china.title_province = { add_great_building = the_great_wall_02 }
-		title:b_yinzhou_china.title_province = { add_great_building = the_great_wall_02 }
-		title:b_yincheng_china.title_province = { add_great_building = the_great_wall_02 }
-		title:b_linzhou_china.title_province = { add_great_building = the_great_wall_02 }
+		title:b_rulin.title_province = { add_great_building = the_great_wall_02 } # Yusseter
+		#title:b_yinzhou_china.title_province = { add_great_building = the_great_wall_02 }
+		title:b_linzhou_yincheng.title_province = { add_great_building = the_great_wall_02 } # Yusseter
+		#title:b_yincheng_china.title_province = { add_great_building = the_great_wall_02 }
+		title:b_linzhou_xintai.title_province = { add_great_building = the_great_wall_02 } # Yusseter
+		#title:b_linzhou_china.title_province = { add_great_building = the_great_wall_02 }
 		title:b_baodejun_china.title_province = { add_great_building = the_great_wall_02 }
 
 		#Liao Region
 		title:b_datong_china.title_province = { add_great_building = the_great_wall_03 }
 		title:b_qingsaijun_china.title_province = { add_great_building = the_great_wall_03 }
-		title:b_wende_guihuazhou_china.title_province = { add_great_building = the_great_wall_03 }
+		title:b_wende.title_province = { add_great_building = the_great_wall_03 } # Yusseter
+		#title:b_wende_guihuazhou_china.title_province = { add_great_building = the_great_wall_03 }
 		title:b_xuande_monan_china.title_province = { add_great_building = the_great_wall_03 }
 
 		### COA ###

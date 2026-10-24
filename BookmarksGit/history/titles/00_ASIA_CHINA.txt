@@ -158,7 +158,8 @@ h_china = {
 	#Later Liang
 	907.6.27 = { holder = 1400469
 		name = "LIANG"
-		effect = { set_coa = k_henan set_color_from_title = title:k_henan set_capital_county = title:c_bianzhou }
+		effect = { set_coa = k_liang_china set_color_from_title = title:k_henan set_capital_county = title:c_bianzhou } # Yusseter
+		#effect = { set_coa = k_henan set_color_from_title = title:k_henan set_capital_county = title:c_bianzhou }
 	} #朱温
 	912.7.18 = { holder = 1400476 } #Zhu Yougui
 	913.3.27 = { holder = 1400481 } #Zhu Yuozhen
@@ -197,7 +198,8 @@ h_china = {
 	951.2.25 = { #郭威
 		holder = 1401268
 		name = "ZHOU"
-		effect = { set_coa = k_henan set_color_from_title = title:k_henan }
+		effect = { set_coa = mbv_k_zhou_china set_color_from_title = title:k_henan } # Yusseter
+		#effect = { set_coa = k_henan set_color_from_title = title:k_henan }
 	}
 	954.2.22 = { holder = 1401283 }
 	959.7.27 = { holder = 1401287 }
@@ -716,7 +718,7 @@ k_guannei = { # Yusseter: Merged k_yongxingjun_china history.
 	351.1.1 = {
 		name = "k_qin_china"
 		effect = {
-			set_coa = k_guannei
+			set_coa = mbv_k_qin_china # Yusseter: k_guannei
 			set_capital_county = title:c_fengxiang
 		}
 	}
@@ -752,7 +754,8 @@ k_guannei = { # Yusseter: Merged k_yongxingjun_china history.
 	1135.2.9 = { # Jin Xizong Wanyan Dan
 		holder = jurchen97
 		name = "k_jingzhaofu"
-		effect = { set_coa = k_guannei }
+		effect = { set_coa = mbv_k_jingzhaofu } # Yusseter
+		#effect = { set_coa = k_guannei }
 	}
 	1146.1.1 = { holder = yilimin_wendihan_001 } # Wendihan Puri - made prefect
 	1149.1.1 = { holder = jurchen113 }
@@ -781,7 +784,8 @@ k_guannei = { # Yusseter: Merged k_yongxingjun_china history.
 
 	1285.1.1  = {
 		name = "k_shaanxi"
-		effect = { set_coa = k_guannei }
+		effect = { set_coa = mbv_k_shaanxi } # Yusseter
+		#effect = { set_coa = k_guannei }
 		liege = h_china
 	}
 	1285.1.1 = {
@@ -1119,7 +1123,7 @@ k_liangzhe = {
 		liege = h_china
 		name = "WUYUE"
 		effect = {
-			set_coa = k_liangzhe
+			set_coa = k_wuyue # Yusseter: k_liangzhe
 			set_capital_county = title:c_hangzhou
 		}
 	}
@@ -1145,7 +1149,7 @@ k_liangzhe = {
 	978.6.9 = {
 		name = "k_liangzhe"
 		effect = {
-			set_coa = k_liangzhe
+			set_coa = mbv_k_liangzhe # Yusseter: k_liangzhe
 			set_capital_county = title:c_hangzhou
 		}
 	}
@@ -1231,7 +1235,8 @@ k_qingxu = {
 	1138.1.1 = { #Liu Yu
 		holder = fucheng_liu_003 liege = e_andong
 		name = k_shandong_east
-		effect = { set_coa = k_qingxu }
+		effect = { set_coa = mbv_k_shandong_east } # Yusseter
+		#effect = { set_coa = k_qingxu }
 	}
 	#1128.2.3 = { holder = fucheng_liu_003 liege = e_andong } #Liu Yu
 	1146.10.18 = { holder = jurchen455 }
@@ -1325,7 +1330,7 @@ k_xichuan = {
 		liege = h_china
 		name = "k_chengdufu"
 		effect = {
-			set_coa = k_xichuan
+			set_coa = mbv_k_chengdufu # Yusseter: k_xichuan
 			set_capital_county = title:c_chengdu
 		}
 	}
@@ -1386,7 +1391,8 @@ k_xingyuan = {
 	1001.1.1 = {
 		holder = 1800002 liege = h_china
 		name = k_lizhou
-		effect = { set_coa = k_xingyuan }
+		effect = { set_coa = mbv_k_lizhou } # Yusseter
+		#effect = { set_coa = k_xingyuan }
 	}
 	1018.1.1 = { holder = dongyang_teng_012 }
 
@@ -1800,7 +1806,8 @@ k_fujian = {
 	
 	909.4.27 = { # Yusseter
 		name = "k_min"
-		effect = { set_coa = k_fujian }
+		effect = { set_coa = mbv_k_min } # Yusseter
+		#effect = { set_coa = k_fujian }
 	}
 	909.4.27 = { holder = 1406717 }
 	925.12.30 = { holder = 1406725 } #Wang Yanhan
@@ -1859,7 +1866,8 @@ k_lingxi = {
 	971.3.4 = {
 		liege = h_china
 		name = k_guangnanxi
-		effect = { set_coa = k_lingxi }
+		effect = { set_coa = mbv_k_guangnanxi } # Yusseter
+		#effect = { set_coa = k_lingxi }
 	}
 	997.1.1 = { holder = fufeng_ma_136 }
 	1018.1.1 = { holder = baizhang_cao_007 }

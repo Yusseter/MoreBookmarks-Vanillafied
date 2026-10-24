@@ -42402,6 +42402,7 @@ b_grancanaria: "Tamarán"
  k_bintan_adj: "Bintan"
  k_bisaya: "Kabisay-an"
  k_bisaya_adj: "Bisaya"
+ k_kabisay-an_adj: "$k_bisaya_adj$" # Yusseter
  k_bjarmaland: "Bjarmaland"
  k_bjarmaland_adj: "Bjarmalander"
  k_blemmyia: "Beja"

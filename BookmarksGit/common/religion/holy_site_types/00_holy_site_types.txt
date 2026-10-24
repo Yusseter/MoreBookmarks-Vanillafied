@@ -8871,7 +8871,7 @@ myitsone = {
 }
 
 patungkuonu = {
-	county = c_bunun
+	county = c_siraya # Yusseter: c_bunun
 
 	county_holder_character_modifier = {
 		mountains_advantage = 5
@@ -8963,14 +8963,14 @@ taungbyone = {
 	}
 }
 
-tsukasaya = {
-	county = c_miyako
-
-	county_holder_character_modifier = {
-		defender_advantage = 5
-		monthly_piety_gain_mult = 0.1
-	}
-}
+#tsukasaya = { # Yusseter: Miyako has no retained county; ryukyu_animism uses sefa_utaki.
+#	county = c_miyako
+#
+#	county_holder_character_modifier = {
+#		defender_advantage = 5
+#		monthly_piety_gain_mult = 0.1
+#	}
+#}
 
 uiska = {
 	county = c_uiska

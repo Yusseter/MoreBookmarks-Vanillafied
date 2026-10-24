@@ -2670,7 +2670,8 @@ ryukyu_animism = {
 	}
 
 	holy_sites = {
-		tsukasaya
+		sefa_utaki # Yusseter
+		#tsukasaya
 		iraya
 		sawara
 	}

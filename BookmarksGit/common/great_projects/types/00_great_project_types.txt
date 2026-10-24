@@ -4658,13 +4658,13 @@ great_wall = { # This is a project to upgrade pre-existing wall sections within 
 		}
 		walls_06 = { # b_baojing
 			is_shown = {
-				title:b_baojing.title_province = {
+				title:b_dingyaun.title_province = { # Yusseter: title:b_baojing.title_province
 					NOT = { has_building_or_higher = the_great_wall_04 }
 					province_owner ?= { top_liege = root.top_liege }
 				}
 			}
 			on_complete = {
-				title:b_baojing.title_province = { set_great_building = the_great_wall_04 }
+				title:b_dingyaun.title_province = { set_great_building = the_great_wall_04 } # Yusseter: title:b_baojing.title_province
 				contributor_great_wall_reward_effect = yes
 			}
 
@@ -5058,13 +5058,13 @@ great_wall = { # This is a project to upgrade pre-existing wall sections within 
 		}
 		walls_14 = { # b_didao_china
 			is_shown = {
-				title:b_didao_china.title_province = {
+				title:b_didao.title_province = { # Yusseter: title:b_didao_china.title_province
 					NOT = { has_building_or_higher = the_great_wall_04 }
 					province_owner ?= { top_liege = root.top_liege }
 				}
 			}
 			on_complete = {
-				title:b_didao_china.title_province = { set_great_building = the_great_wall_04 }
+				title:b_didao.title_province = { set_great_building = the_great_wall_04 } # Yusseter: title:b_didao_china.title_province
 				contributor_great_wall_reward_effect = yes
 			}
 

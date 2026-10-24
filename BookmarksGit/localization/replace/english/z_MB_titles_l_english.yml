@@ -7014,6 +7014,8 @@
  b_dibri: "Dibri"
  b_didao_china: "Dídàoxiàn"
  b_didao_china_adj: "Dídàoxiàn"
+ b_didao: "$b_didao_china$" # Yusseter
+ b_didao_adj: "$b_didao_china_adj$" # Yusseter
  b_didesa: "Didesa"
  b_didymoteichon: "Didymoteichon"
  b_die: "Die"
@@ -7082,7 +7084,8 @@
  b_dingxiang_china: "Dìngxiāngxiàn"
  b_dingxiang_china_adj: "Dìngxiāngxiàn"
  b_dingyuanying: "Tānliáng"
- b_baojing: "Dìngyuǎn"
+ b_dingyaun: "Dìngyuǎn" # Yusseter
+ #b_baojing: "Dìngyuǎn"
  b_dingzhouanxi_china: "Ānxǐxiàn"
  b_dingzhouanxi_china_adj: "Ānxǐxiàn"
  b_dinh_ca: "Dinh Ca"

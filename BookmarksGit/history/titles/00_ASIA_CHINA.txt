@@ -48801,7 +48801,7 @@ c_nanzhou = {
 	766.1.1 = { change_development_level = 4 }
 	1032.1.1 = { change_development_level = 8 }
 	857.1.1 = {
-		liege = d_bozhou_qian_china
+		liege = 0 # Yusseter: d_bozhou_qian_china
 	}
 	#876.9.1 = {	holder = Bozhou_Yang_001 }
 	#915.1.1 = {	holder = Bozhou_Yang_002 government = feudal_government }

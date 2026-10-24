@@ -26322,8 +26322,10 @@ b_grancanaria: "Tamarán"
  b_xianyin_TEMP_adj: "Xianyin"
  b_xianzhou_dongmou_china: "Xianzhōu"
  b_xianzhou_dongmou_china_adj: "Xianzhōu"
- b_pinggao: "Xiāoguān"
- b_pinggao_adj: "Xiāoguān"
+ b_xioaguan: "Xiāoguān" # Yusseter
+ #b_pinggao: "Xiāoguān"
+ b_xioaguan_adj: "Xiāoguān" # Yusseter
+ #b_pinggao_adj: "Xiāoguān"
  b_xiapi_china: "Xiàpīxiàn"
  b_xiapi_china_adj: "Xiàpīxiàn"
  b_xiaxian_china: "Xiàxiàn"
@@ -27018,6 +27020,8 @@ b_grancanaria: "Tamarán"
  b_yuanyangpo_china_adj: "Yuānyāngpō"
  b_yuanzhou_china: "Pínggāoxiàn"
  b_yuanzhou_china_adj: "Pínggāoxiàn"
+ b_pinggao: "$b_yuanzhou_china$" # Yusseter
+ b_pinggao_adj: "$b_yuanzhou_china_adj$" # Yusseter
  b_yuchka: "Yuchka"
  b_yuchujiang_TEMP: "Yuchujiang"
  b_yuchujiang_TEMP_adj: "Yuchujiang"

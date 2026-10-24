@@ -1379,7 +1379,8 @@ on_game_start = {
 		title:b_baodejun_china.title_province = { add_great_building = the_great_wall_02 }
 
 		#Liao Region
-		title:b_datong_china.title_province = { add_great_building = the_great_wall_03 }
+		title:b_yunzhong.title_province = { add_great_building = the_great_wall_03 } # Yusseter
+		#title:b_datong_china.title_province = { add_great_building = the_great_wall_03 }
 		title:b_qingsaijun_china.title_province = { add_great_building = the_great_wall_03 }
 		title:b_wende.title_province = { add_great_building = the_great_wall_03 } # Yusseter
 		#title:b_wende_guihuazhou_china.title_province = { add_great_building = the_great_wall_03 }

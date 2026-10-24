@@ -6696,7 +6696,7 @@ great_wall_extend_to_liaodong = {
 				province_owner ?= { top_liege = root.top_liege }
 			}
 		}
-		title:b_gaimouzhou_china.title_province = {
+		title:b_Liao_Guidezhou.title_province = { # Yusseter: title:b_gaimouzhou_china.title_province
 			save_temporary_scope_as = great_wall_extend_province
 			custom_tooltip = {
 				text = great_wall_extend_to_top_liege_of_province
@@ -6796,7 +6796,7 @@ great_wall_extend_to_liaodong = {
 		title:b_fushan_china.title_province = {
 			province_owner ?= { top_liege = scope:owner.top_liege }
 		}
-		title:b_gaimouzhou_china.title_province = {
+		title:b_Liao_Guidezhou.title_province = { # Yusseter: title:b_gaimouzhou_china.title_province
 			province_owner ?= { top_liege = scope:owner.top_liege }
 		}
 		title:b_wulongshan_china.title_province = {
@@ -6863,7 +6863,8 @@ great_wall_extend_to_liaodong = {
 
 			title:b_nansuzhou_xianzhou_china.title_province = { add_great_building = the_great_wall_04 }
 			title:b_fushan_china.title_province = { add_great_building = the_great_wall_04 }
-			title:b_gaimouzhou_china.title_province = { add_great_building = the_great_wall_04 }
+			title:b_Liao_Guidezhou.title_province = { add_great_building = the_great_wall_04 } # Yusseter
+			#title:b_gaimouzhou_china.title_province = { add_great_building = the_great_wall_04 }
 			title:b_wulongshan_china.title_province = { add_great_building = the_great_wall_04 }
 			title:b_chengmu_china.title_province = { add_great_building = the_great_wall_04 }
 			title:b_baiyacheng_china.title_province = { add_great_building = the_great_wall_liaodong }

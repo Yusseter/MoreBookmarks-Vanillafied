@@ -23621,6 +23621,10 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 				limit = {
 					exists = title:k_balhae.holder
 					game_start_date >= 936.8.7
+					OR = { # Yusseter: Dongxia uses the meritocratic branch below.
+						game_start_date < 1215.1.1
+						game_start_date >= 1233.1.1
+					}
 					has_tgp_dlc_trigger = yes
 				}
 

@@ -73064,6 +73064,7 @@ c_SUM_perlak = {
 	#Maulana Saiyid Dynasty
 	840.1.1={ # Yusseter: Preserve the co-held d_perlak political timeline after its rank is merged.
 		liege = 0
+		government = mandala_government
 	}
 	840.1.1={
 		holder=1000080703 #Abdul-Aziz I
@@ -73131,6 +73132,7 @@ c_SUM_perlak = {
 	#Samudra Dynasty
 	1292.1.1={
 		liege="d_SUM_aceh"
+		government = clan_government # Yusseter
 	}
 	1292.1.1={
 		holder=1000080721 #Malik

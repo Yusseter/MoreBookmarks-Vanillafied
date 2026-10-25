@@ -83139,7 +83139,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 }
 
@@ -88449,7 +88449,7 @@ rite = roman_rite
 11529 = {	#Zhen
 	culture = mongol
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 }
 
 11530 = {	#Ulantolgod
@@ -88459,7 +88459,7 @@ rite = roman_rite
 11531 = {	#Elskhol
 	culture = mongol
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 }
 
 11532 = {	#Chusolalin
@@ -88495,7 +88495,7 @@ rite = roman_rite
 11539 = {	#Dutulunels
 	culture = mongol
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 }
 
 11540 = {	#Semkut
@@ -88509,7 +88509,7 @@ rite = roman_rite
 11542 = {	#Tarhanalin
 	culture = mongol
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 }
 
 11543 = {	#Ichar Ekin
@@ -88523,7 +88523,7 @@ rite = roman_rite
 11545 = {	#Karepuri
 	culture = mongol
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11546 = {	#Kyursugol
@@ -88538,13 +88538,13 @@ rite = roman_rite
 11548 = {	#Khaldun
 	culture = mongol
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11549 = {	#Ononum
 	culture = mongol
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = herder_holding # Yusseter: nomad_holding
 }
 
 11550 = {	#Orgilalkham
@@ -88554,7 +88554,7 @@ rite = roman_rite
 11551 = {	#Paljigol
 	culture = mongol
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11552 = {	#Ingedei
@@ -88576,7 +88576,7 @@ rite = roman_rite
 11556 = {	#Doodonon
 	culture = mongol
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11557 = {	#Zatalbar
@@ -88586,7 +88586,7 @@ rite = roman_rite
 11558 = {	#Khoyorgol
 	culture = mongol
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11559 = {	#Kukuchol
@@ -88600,7 +88600,7 @@ rite = roman_rite
 11561 = {	#Kanchuku
 	culture = mongol
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1150.1.1 = {
 		culture = tajiuud
 	}
@@ -88636,7 +88636,7 @@ rite = roman_rite
 11568 = {	#Ulanhulud
 	culture = tataric
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 	1150.1.1 = {
 		culture = tajiuud
 	}
@@ -88648,7 +88648,7 @@ rite = roman_rite
 11569 = {	#Nuurkhoorond
 	culture = tataric
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1150.1.1 = {
 		culture = tajiuud
 	}
@@ -88660,7 +88660,7 @@ rite = roman_rite
 11570 = {	#Zuunbuir
 	culture = onggirad
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 }
 
 11571 = {	#Xisaiyin
@@ -88670,7 +88670,7 @@ rite = roman_rite
 11572 = {	#Jiasaihe
 	culture = qay
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 }
 
 11573 = {	#Dongheisha
@@ -88708,13 +88708,13 @@ rite = roman_rite
 11581 = {	#Jiangbian
 	culture = mongol
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 }
 
 11582 = {	#Hepung
 	culture = mongol
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1150.1.1 = {
 		culture = tajiuud
 	}
@@ -88746,7 +88746,7 @@ rite = roman_rite
 11588 = {	#Urtolgod
 	culture = mongol
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11589 = {	#Gantsaardal
@@ -88778,7 +88778,7 @@ rite = roman_rite
 11595 = {	#Khiltsaiz
 	culture = mongol
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11596 = {	#Nuurkhoid
@@ -88788,7 +88788,7 @@ rite = roman_rite
 11597 = {	#Ergunegol
 	culture = mongol
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11598 = {	#Tazimurekh
@@ -88798,7 +88798,7 @@ rite = roman_rite
 11599 = {	#Mongotalbai
 	culture = mongol
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = herder_holding # Yusseter: nomad_holding
 }
 
 11600 = {	#Tomorels
@@ -88824,7 +88824,7 @@ rite = roman_rite
 11605 = {	#Arguntokhoi
 	culture = mongol
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 }
 
 11606 = {	#Oyuulvzar
@@ -88838,7 +88838,7 @@ rite = roman_rite
 11608 = {	#Huraalin
 	culture = jadran
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = herder_holding # Yusseter: nomad_holding
 	1204.1.1 = {
 		culture = mongol
 	}
@@ -88850,7 +88850,7 @@ rite = roman_rite
 11609 = {	#Banukhol
 	culture = jadran
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 	1204.1.1 = {
 		culture = mongol
 	}
@@ -88906,7 +88906,7 @@ rite = roman_rite
 11619 = {	#Telburgol
 	culture = jadran
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1204.1.1 = {
 		culture = mongol
 	}
@@ -88926,7 +88926,7 @@ rite = roman_rite
 11622 = {	#Pibeihe
 	culture = jadran
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1204.1.1 = {
 		culture = mongol
 	}
@@ -88935,7 +88935,7 @@ rite = roman_rite
 11623 = {	#Oyuhulun
 	culture = onggirad
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11624 = {	#Khailangol
@@ -88974,7 +88974,7 @@ rite = roman_rite
 11631 = {	#Jialingxi
 	culture = jadran
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1150.1.1 = {
 		culture = daur
 	}
@@ -88983,7 +88983,7 @@ rite = roman_rite
 11632 = {	#Jiapowo
 	culture = jadran
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1150.1.1 = {
 		culture = daur
 	}
@@ -89008,7 +89008,7 @@ rite = roman_rite
 11638 = {	#Jiahuangtou
 	culture = shiwei
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = nomad_holding # Yusseter: herder_holding
 	1150.1.1 = {
 		culture = daur
 	}
@@ -89056,7 +89056,7 @@ rite = roman_rite
 11647 = {	#Zhongnenjiang
 	culture = shiwei
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = herder_holding # Yusseter: nomad_holding
 }
 
 11648 = {	#Yalujiang
@@ -89070,7 +89070,7 @@ rite = roman_rite
 11650 = {	#Jialuotuo
 	culture = shiwei
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11651 = {	#Nendadu
@@ -89088,7 +89088,7 @@ rite = roman_rite
 11654 = {	#Taizhou
 	culture = shiwei
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		culture = khitan
 	}
@@ -89123,7 +89123,7 @@ rite = roman_rite
 11661 = {	#Ruzhejiang
 	culture = shiwei
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = herder_holding # Yusseter: nomad_holding
 }
 
 11662 = {	#Heyucun
@@ -89167,7 +89167,7 @@ rite = roman_rite
 11671 = {	#Puyu
 	culture = shiwei
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 	1150.1.1 = {
 		culture = daur
 	}
@@ -89213,7 +89213,7 @@ rite = roman_rite
 11680 = {	#Mergen
 	culture = jadran
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1150.1.1 = {
 		culture = daur
 	}
@@ -89226,7 +89226,7 @@ rite = roman_rite
 11682 = {	#Jiashanbei
 	culture = shiwei
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = herder_holding # Yusseter: nomad_holding
 	1150.1.1 = {
 		culture = daur
 	}
@@ -89237,7 +89237,7 @@ rite = roman_rite
 	rite = eastern_tengri
 	holding = herder_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = herder_holding # Yusseter: nomad_holding
 	}
 }
 
@@ -89282,7 +89282,7 @@ rite = roman_rite
 11691 = {	#Ilanshan
 	culture = shiwei
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = herder_holding # Yusseter: nomad_holding
 }
 
 11692 = {	#Haixidu
@@ -89300,7 +89300,7 @@ rite = roman_rite
 11695 = {	#Dazhou
 	culture = mohe
 	rite = abkaism
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1150.1.1 = {
 		culture = nanai
 	}
@@ -89312,7 +89312,7 @@ rite = roman_rite
 11696 = {	#Dahedu
 	culture = mohe
 	rite = abkaism
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	930.1.1 = {
 		culture = jurchen
 	}
@@ -89355,7 +89355,7 @@ rite = roman_rite
 11703 = {	#Ulanulagai
 	culture = qay
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1050.1.1 = {
 		culture = khitan
 	}
@@ -89387,12 +89387,13 @@ rite = roman_rite
 11709 = {	#Linhuang
 	culture = khitan
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	918.1.1 = {
-		holding = castle_holding
+		holding = tribal_holding # Yusseter: castle_holding
 	}
 	936.1.1 = {
 		rite = avatamsaka
+		holding = castle_holding # Yusseter
 	}
 }
 
@@ -89438,7 +89439,7 @@ rite = roman_rite
 11716 = { # Fengzhou
 	culture = khitan
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		rite = avatamsaka
 		holding = castle_holding
@@ -89473,12 +89474,13 @@ rite = roman_rite
 11721 = {	#Dading
 	culture = khitan
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
 	930.1.1 = {
 		rite = avatamsaka
+		holding = castle_holding # Yusseter
 	}
 }
 
@@ -89493,7 +89495,7 @@ rite = roman_rite
 11724 = {	#Wuzhou
 	culture = qay
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 }
 
 11725 = {	#Matudi
@@ -89536,7 +89538,7 @@ rite = roman_rite
 11733 = {	#Ningzhou
 	culture = shiwei
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		culture = khitan
 	}
@@ -89549,13 +89551,13 @@ rite = roman_rite
 11735 = {	#Changchun
 	culture = khitan
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 }
 
 11736 = {	#Yizhou
 	culture = khitan
 	rite = eastern_tengri
-	holding = castle_holding
+	holding = nomad_holding # Yusseter: castle_holding
 	1066.1.1 = {
 		holding = nomad_holding
 	}
@@ -89602,7 +89604,7 @@ rite = roman_rite
 11746 = {	#Changchun
 	culture = khitan
 	rite = eastern_tengri
-	holding = castle_holding
+	holding = nomad_holding # Yusseter: castle_holding
 	1066.1.1 = {
 		holding = nomad_holding
 	}
@@ -89636,7 +89638,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding # Yusseter: nomad_holding
 	}
 	926.1.1 = {
 		culture = jurchen
@@ -89654,7 +89656,7 @@ rite = roman_rite
 11754 = {	#Wuanzhou
 	culture = khitan
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		rite = avatamsaka
 		holding = castle_holding
@@ -89668,7 +89670,7 @@ rite = roman_rite
 11756 = {	#Longhuazhou
 	culture = khitan
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		rite = avatamsaka
 		holding = castle_holding
@@ -89686,7 +89688,7 @@ rite = roman_rite
 11759 = {	#Chaoyang
 	culture = khitan
 	rite = avatamsaka
-	holding = nomad_holding
+	holding = castle_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
@@ -89712,7 +89714,7 @@ rite = roman_rite
 11762 = {
 	culture = jilu
 	rite = dhyana
-	holding = nomad_holding
+	holding = castle_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
@@ -89773,7 +89775,7 @@ rite = roman_rite
 11769 = {	#Wuzhou
 	culture = khitan
 	rite = avatamsaka
-	holding = nomad_holding
+	holding = castle_holding # Yusseter: nomad_holding
 }
 
 11770 = {	#Yuanzhou
@@ -89836,7 +89838,7 @@ rite = roman_rite
 11779 = {	#Fuzhou
 	culture = khitan
 	rite = eastern_tengri
-	holding = castle_holding
+	holding = nomad_holding # Yusseter: castle_holding
 	1066.1.1 = {
 		holding = nomad_holding
 	}
@@ -89856,10 +89858,11 @@ rite = roman_rite
 11782 = {	#Yinzhou
 	culture = khitan
 	rite = eastern_tengri
-	holding = castle_holding
+	holding = nomad_holding # Yusseter: castle_holding
 	1120.1.1 = {
 		culture = jurchen
 		rite = dhyana
+		holding = castle_holding # Yusseter
 	}
 	900.1.1 = {
 		culture = khitan
@@ -89989,7 +89992,7 @@ rite = roman_rite
 	rite = sukhavati
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding # Yusseter: nomad_holding
 	}
 	1140.1.1 = {
 		culture = han
@@ -90021,7 +90024,7 @@ rite = roman_rite
 	rite = sukhavati
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding # Yusseter: nomad_holding
 	}
 	990.1.1 = {
 		culture = jurchen
@@ -90038,7 +90041,7 @@ rite = roman_rite
 	rite = sukhavati
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding # Yusseter: nomad_holding
 	}
 	990.1.1 = {
 		culture = jurchen
@@ -90051,7 +90054,7 @@ rite = roman_rite
 	rite = sukhavati
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding # Yusseter: nomad_holding
 	}
 	990.1.1 = {
 		culture = jurchen
@@ -90072,24 +90075,27 @@ rite = roman_rite
 	rite = abkaism
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	1124.1.1 = {
 		rite = dhyana
+		holding = castle_holding # Yusseter
 	}
 	1234.1.1 = {
+		holding = tribal_holding # Yusseter
 	}
 	930.1.1 = {
 		culture = jurchen
+		holding = tribal_holding # Yusseter
 	}
 }
 
 11813 = {	#Mozhou
 	culture = mohe
 	rite = abkaism
-	holding = castle_holding
+	holding = tribal_holding # Yusseter: castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	930.1.1 = {
 		culture = jurchen
@@ -90108,9 +90114,10 @@ rite = roman_rite
 11816 = {	#Delizhen
 	culture = mohe
 	rite = abkaism
-	holding = nomad_holding
+	holding = castle_holding # Yusseter: nomad_holding
 	930.1.1 = {
 		culture = jurchen
+		holding = tribal_holding # Yusseter
 	}
 	1150.1.1 = {
 		culture = nanai
@@ -90120,7 +90127,7 @@ rite = roman_rite
 11817 = {	#Yingzhou
 	culture = mohe
 	rite = abkaism
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	916.1.1 = {
 		culture = jurchen
 	}
@@ -90143,7 +90150,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding # Yusseter: nomad_holding
 	}
 	926.1.1 = {
 		culture = jurchen
@@ -90180,13 +90187,14 @@ rite = roman_rite
 	rite = avatamsaka
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	916.1.1 = {
 		culture = jurchen
 		rite = abkaism
 	}
 	950.1.1 = {
+		holding = tribal_holding # Yusseter
 	}
 }
 
@@ -90199,11 +90207,12 @@ rite = roman_rite
 	rite = avatamsaka
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	916.1.1 = {
 		culture = jurchen
 		rite = abkaism
+		holding = tribal_holding # Yusseter
 	}
 }
 
@@ -90252,7 +90261,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	916.1.1 = {
 		culture = jurchen
@@ -90289,7 +90298,7 @@ rite = roman_rite
 	rite = avatamsaka
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding # Yusseter: nomad_holding
 	}
 	1150.1.1 = {
 		culture = jurchen
@@ -90318,7 +90327,7 @@ rite = roman_rite
 	rite = avatamsaka
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding # Yusseter: nomad_holding
 	}
 	1150.1.1 = {
 		culture = jurchen
@@ -90331,7 +90340,7 @@ rite = roman_rite
 	rite = avatamsaka
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding # Yusseter: nomad_holding
 	}
 	1150.1.1 = {
 		culture = jurchen
@@ -90358,7 +90367,7 @@ rite = roman_rite
 11854 = {	#Huligai
 	culture = mohe
 	rite = abkaism
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	930.1.1 = {
 		culture = jurchen
 	}
@@ -90382,7 +90391,7 @@ rite = roman_rite
 11858 = {	#Baihuaicun
 	culture = mohe
 	rite = abkaism
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1150.1.1 = {
 		culture = nanai
 	}
@@ -90416,7 +90425,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	1150.1.1 = {
 		culture = nanai
@@ -90443,7 +90452,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	1150.1.1 = {
 		culture = ulch
@@ -90460,15 +90469,16 @@ rite = roman_rite
 11870 = {	#Yizhou
 	culture = mohe
 	rite = abkaism
-	holding = tribal_holding
+	holding = castle_holding # Yusseter: tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	1150.1.1 = {
 		culture = nanai
 	}
 	930.1.1 = {
 		culture = jurchen
+		holding = tribal_holding # Yusseter
 	}
 }
 
@@ -90477,7 +90487,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	930.1.1 = {
 		culture = jurchen
@@ -90505,7 +90515,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	1150.1.1 = {
 		culture = udege
@@ -90520,7 +90530,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 }
 
@@ -90597,7 +90607,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	1170.1.1 = {
 		culture = oroch
@@ -90613,7 +90623,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	1150.1.1 = {
 		culture = ulch
@@ -90625,7 +90635,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	1150.1.1 = {
 		culture = ulch
@@ -90645,7 +90655,7 @@ rite = roman_rite
 	rite = abkaism
 	holding = tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 }
 
@@ -90660,11 +90670,12 @@ rite = roman_rite
 11899 = {	#Ningzhou
 	culture = udege
 	rite = abkaism
-	holding = tribal_holding
+	holding = castle_holding # Yusseter: tribal_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	930.1.1 = {
+		holding = tribal_holding # Yusseter
 	}
 }
 
@@ -90681,9 +90692,10 @@ rite = roman_rite
 	rite = abkaism
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	930.1.1 = {
+		holding = tribal_holding # Yusseter
 	}
 }
 
@@ -90700,9 +90712,10 @@ rite = roman_rite
 	rite = abkaism
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	930.1.1 = {
+		holding = tribal_holding # Yusseter
 	}
 }
 
@@ -90731,10 +90744,11 @@ rite = roman_rite
 	rite = abkaism
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	930.1.1 = {
 		culture = jurchen
+		holding = tribal_holding # Yusseter
 	}
 }
 
@@ -90747,10 +90761,11 @@ rite = roman_rite
 	rite = abkaism
 	holding = castle_holding
 	1066.1.1 = {
-		holding = nomad_holding
+		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	930.1.1 = {
 		culture = jurchen
+		holding = tribal_holding # Yusseter
 	}
 }
 
@@ -93568,7 +93583,7 @@ rite = roman_rite
 12406 = {	# CIRLXJ YANGCHENG
 	culture = khitan
 	rite = avatamsaka
-	holding = nomad_holding
+	holding = castle_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
@@ -93605,12 +93620,18 @@ rite = roman_rite
 12411 = {	# CIRLXJ HUANZHOU
 	culture = khitan
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
 	1140.1.1 = {
 		rite = avatamsaka
+	}
+	936.1.1 = { # Yusseter
+		holding = castle_holding
+	}
+	1215.1.1 = { # Yusseter
+		holding = tribal_holding
 	}
 }
 
@@ -93650,7 +93671,7 @@ rite = roman_rite
 12417 = {	# CIRLZJ LIUHETING
 	culture = jilu
 	rite = avatamsaka
-	holding = nomad_holding
+	holding = castle_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
@@ -93687,7 +93708,7 @@ rite = roman_rite
 12422 = {	# CIRLZJ QINHUANGDAO
 	culture = khitan
 	rite = avatamsaka
-	holding = nomad_holding
+	holding = castle_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
@@ -93706,7 +93727,7 @@ rite = roman_rite
 12424 = {	# CIRLZJ YUHEJING
 	culture = khitan
 	rite = avatamsaka
-	holding = nomad_holding
+	holding = castle_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
@@ -93718,7 +93739,7 @@ rite = roman_rite
 12425 = {	# CIRLZJ LUEXIATING
 	culture = jilu
 	rite = avatamsaka
-	holding = nomad_holding
+	holding = castle_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
@@ -93738,7 +93759,7 @@ rite = roman_rite
 12428 = {	# CIRLZJ CAODANGZHEN
 	culture = khitan
 	rite = avatamsaka
-	holding = nomad_holding
+	holding = castle_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
 	}
@@ -94171,7 +94192,7 @@ rite = roman_rite
 12553 = {	#b_GOBI_Khulugur
 	culture = tataric
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1215.1.1 = {
 		culture = mongol
 	}
@@ -94184,7 +94205,7 @@ rite = roman_rite
 12555 = {	#b_GOBI_Miggan
 	culture = tataric
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	1215.1.1 = {
 		culture = mongol
 	}
@@ -94241,7 +94262,7 @@ rite = roman_rite
 12564 = {	#b_GOBI_Deed_Ongi
 	culture = qun
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	930.1.1 = {
 		culture = kerait
 
@@ -94258,7 +94279,7 @@ rite = roman_rite
 12566 = {	#b_GOBI_Ulaan_Nuur
 	culture = qun
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = tribal_holding # Yusseter: nomad_holding
 	930.1.1 = {
 		culture = kerait
 
@@ -94275,7 +94296,7 @@ rite = roman_rite
 12568 = {	#b_GOBI_Ochikhi
 	culture = shatuo
 	rite = eastern_tengri
-	holding = nomad_holding
+	holding = herder_holding # Yusseter: nomad_holding
 	1000.1.1 = {
 		culture = ongud
 	}
@@ -94288,7 +94309,7 @@ rite = roman_rite
 12570 = {	#b_GOBI_Durma
 	culture = tataric
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 	1215.1.1 = {
 		culture = mongol
 	}
@@ -94301,7 +94322,7 @@ rite = roman_rite
 12572 = {	#b_GOBI_Kur_Chagan
 	culture = tataric
 	rite = eastern_tengri
-	holding = herder_holding
+	holding = tribal_holding # Yusseter: herder_holding
 	1215.1.1 = {
 		culture = mongol
 	}

@@ -4429,7 +4429,7 @@ tgp_silk_road_china_region = {
 		k_jiangdong k_liangzhe k_fujian k_huainan k_jiangxi k_shannan
 		k_hunan k_xichuan k_xingyuan k_dongchuan k_kuizhou k_qianzhong
 		k_lingnan k_lingxi k_dali k_viet
-		k_goryeo
+		#k_goryeo # Yusseter: Keep the vanilla eastern Silk Road boundary.
 	}
 	duchies = { # Yusseter: Vanilla k_guannei split.
 		d_fengxiang d_qincheng d_xingfeng
@@ -4613,7 +4613,7 @@ tgp_silk_road_mideast_region = {
 
 dlc_tgp_silk_road_route_china = {
 	counties = {
-		c_gaeseong c_pyeongju c_hwangju c_seogyeong c_taeju c_gwiju c_uiju c_BAL_west_amnok # Yusseter: Projected upstream Korean route extension.
+		#c_gaeseong c_pyeongju c_hwangju c_seogyeong c_taeju c_gwiju c_uiju c_BAL_west_amnok # Yusseter: Exclude the source-only Korean extension.
 	# Bejing to Weizhou, via Kaifeng and Chang'an
 		c_youzhou # Beijing
 		c_zhuozhou

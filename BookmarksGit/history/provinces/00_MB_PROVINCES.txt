@@ -6845,7 +6845,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = greek
-	rite = melkite
+	rite = byzantine_rite
 	
 	holding = castle_holding
 	
@@ -7184,7 +7184,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = greek
-	rite = melkite
+	rite = byzantine_rite
 	
 	holding = castle_holding
 	
@@ -7245,7 +7245,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = greek
-	rite = melkite
+	rite = byzantine_rite
 	
 	holding = castle_holding
 	
@@ -7266,7 +7266,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 		culture = armenian
-		rite = melkite
+		rite = byzantine_rite
 	
 	holding = castle_holding
 	
@@ -8951,7 +8951,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = tamil
-	rite = malankaran
+	rite = malankaran_rite
 	
 	# History
 	950.1.1 = {
@@ -10298,7 +10298,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = malankaran
+	rite = malankaran_rite
 	
 	# History
 }
@@ -16155,7 +16155,7 @@ rite = antiochian_rite #no syriac in CK3
 }
 
 1820 = {	# PONFERRADA
-	holding = none
+	holding = castle_holding
 }
 
 1821 = {	# ASTORGA
@@ -18193,9 +18193,16 @@ rite = antiochian_rite #no syriac in CK3
 }
 
 2053 = {	#SANKT GALLEN
-	culture = swabian
-	rite = roman_rite
 	holding = church_holding
+	effect = {
+		if = {
+			limit = {
+				has_pam_dlc_trigger = yes
+			}
+			add_special_building_slot = pam_abbey_of_st_gall_01
+			add_special_building = pam_abbey_of_st_gall_01
+		}
+	}
 }
 
 2054 = {	#KONSTANZ
@@ -18234,6 +18241,14 @@ rite = antiochian_rite #no syriac in CK3
 
 2059 = {	#AVIGNON
 	holding = church_holding
+	effect = {
+		if = {
+			limit = {
+				has_pam_dlc_trigger = yes
+			}
+			add_special_building_slot = pam_palais_de_papes_01
+		}
+	}
 }
 
 2060 = {	#APT
@@ -20905,12 +20920,17 @@ rite = carolingian_christianity
 
 2390 = {	#REIMS
 	culture = frankish
-	790.1.1 = { culture = french }
-	1200.1.1 = {
-		culture = champenois
-	}
 	rite = carolingian_christianity
 	holding = church_holding
+	effect = {
+		if = {
+			limit = {
+				has_pam_dlc_trigger = yes
+			}
+			add_special_building_slot = pam_reims_cathedral_01
+		}
+	}
+	790.1.1 = { culture = french }
 	867.1.1 = {
 		buildings = {
 			monastic_schools_01
@@ -20924,6 +20944,9 @@ rite = carolingian_christianity
 			monastic_schools_02
 			hunting_grounds_01
 		}
+	}
+	1200.1.1 = {
+		culture = champenois
 	}
 }
 
@@ -22268,11 +22291,18 @@ rite = carolingian_christianity
 	rite = roman_rite
 	holding = castle_holding
 	#
+	buildings = {
+		castle_02
+		farm_estates_01
+	}
 	special_building = the_colosseum_01
 	duchy_capital_building = aurelian_walls_01
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1066.1.1 = {
 		buildings = {
-			castle_03
+			castle_02
 			farm_estates_02
 			#curtain_walls_01
 			cereal_fields_02
@@ -22282,11 +22312,30 @@ rite = carolingian_christianity
 }
 
 2576 = {	#OSTIA
-	holding = city_holding
+	holding = church_holding
+	effect = {
+		if = {
+			limit = {
+				has_pam_dlc_trigger = yes
+			}
+			add_special_building_slot = pam_lateran_basilica_01
+		}
+	}
+	1066.1.1 = {
+		effect = {
+			if = {
+				limit = {
+					has_pam_dlc_trigger = yes
+				}
+				add_special_building = pam_lateran_basilica_01
+			}
+		}
+	}
 }
 
 2577 = {	#VATICAN
 	holding = church_holding
+	special_building = holy_site_st_peters_basilica_01 # Old St. Peter's Basilica, started in early 4th century.
 }
 
 2578 = {	#PALO
@@ -39887,7 +39936,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	1270.1.1 = { rite = shafii }
@@ -49795,7 +49844,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = antiochian
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	1268.1.1 = { culture = levantine }
@@ -49807,7 +49856,8 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = antiochian
-	rite = melkite
+	rite = byzantine_rite
+	holding = castle_holding
 	
 	# History
 	1268.1.1 = { culture = levantine }
@@ -49819,7 +49869,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = antiochian
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 
@@ -49863,7 +49913,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = antiochian
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	1268.1.1 = { culture = levantine }
@@ -49875,7 +49925,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = antiochian
-	rite = melkite
+	rite = byzantine_rite
 
 	# History												
 	holding = castle_holding
@@ -49906,7 +49956,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = antiochian
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	1268.1.1 = { culture = levantine }
@@ -49918,7 +49968,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = antiochian
-	rite = melkite
+	rite = byzantine_rite
 	holding = city_holding
 	# History
 	1268.1.1 = { culture = levantine }
@@ -49936,7 +49986,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	holding = castle_holding
 	
@@ -49972,7 +50022,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50019,7 +50069,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = city_holding
 	# History
 	769.1.1 = {
@@ -50046,7 +50096,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	
 	# History
 	1270.1.1 = { rite = shafii }
@@ -50080,7 +50130,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50092,7 +50142,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = syriac
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50114,7 +50164,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50144,7 +50194,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50155,7 +50205,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50166,7 +50216,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50211,7 +50261,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	1271.1.1 = { rite = shafii }
@@ -50222,7 +50272,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	1271.1.1 = { rite = shafii }
@@ -50233,7 +50283,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50335,7 +50385,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50346,7 +50396,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50357,7 +50407,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50368,7 +50418,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50451,7 +50501,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -50462,7 +50512,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	
 	# History
 	1270.1.1 = { rite = shafii }
@@ -50473,7 +50523,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = castle_holding
 	# History
 	867.1.1 = {
@@ -50499,7 +50549,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = church_holding
 	# History
 	867.1.1 = { rite = shafii }
@@ -50510,7 +50560,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = city_holding
 	# History
 	867.1.1 = { rite = shafii }
@@ -50543,7 +50593,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	
 	# History
 	769.1.1 = {
@@ -50588,7 +50638,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = city_holding
 	
 	# History
@@ -50614,7 +50664,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = city_holding
 	# History
 	867.1.1 = { rite = shafii }
@@ -50744,7 +50794,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	
 	# History
 	867.1.1 = { rite = shafii }
@@ -51305,7 +51355,7 @@ rite = antiochian_rite
 
 6053 = {	#ALEXANDRIA
 	culture = egyptian_coptic
-	rite = alexandrian_melkite
+	rite = coptic_rite
 	holding = castle_holding
 	#867.1.1 = {
 	#	special_building_slot = port_alexandria_01
@@ -64023,7 +64073,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = malankaran
+	rite = malankaran_rite
 	
 	# History
 	950.1.1 = {
@@ -64095,7 +64145,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = malankaran
+	rite = malankaran_rite
 	
 	# History
 }
@@ -80446,7 +80496,7 @@ rite = roman_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = castle_holding
 	# History
 	867.1.1 = { rite = shafii }
@@ -80469,7 +80519,7 @@ rite = roman_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = castle_holding
 	
 	# History
@@ -80483,7 +80533,7 @@ rite = roman_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = castle_holding
 	# History
 	769.1.1 = { rite = shafii 
@@ -80498,7 +80548,7 @@ rite = roman_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = church_holding
 	# History
 	867.1.1 = { rite = shafii }
@@ -80509,7 +80559,7 @@ rite = roman_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = castle_holding
 	# History
 	867.1.1 = { rite = shafii }
@@ -80591,7 +80641,7 @@ rite = roman_rite
 	
 	# Misc
 	culture = levantine
-	rite = jerusalem_melkite
+	rite = byzantine_rite
 	holding = castle_holding
 	# History
 	1295.1.1 = { rite = shafii }
@@ -80667,7 +80717,7 @@ rite = roman_rite
 	
 	# Misc
 	culture = antiochian
-	rite = melkite
+	rite = byzantine_rite
 	holding = castle_holding
 	# History
 	#1268.1.1 = { culture = levantine }

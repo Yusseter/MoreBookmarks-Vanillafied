@@ -23214,6 +23214,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 						has_government = theocracy_government
 						has_government = ecclesiastical_government
 						has_government = monastic_holy_order_government
+						has_government = holy_order_government
 						has_government = tribal_government
 						has_government = wanua_government
 					}
@@ -23244,6 +23245,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 							has_government = theocracy_government
 							has_government = ecclesiastical_government
 							has_government = monastic_holy_order_government
+							has_government = holy_order_government
 							has_government = tribal_government
 							has_government = wanua_government
 						}
@@ -23292,6 +23294,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23330,6 +23333,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23369,6 +23373,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23405,6 +23410,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23445,6 +23451,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23485,6 +23492,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23524,6 +23532,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23562,6 +23571,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23601,6 +23611,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23640,6 +23651,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23680,6 +23692,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23718,6 +23731,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -23758,6 +23772,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 							}
 							OR = {
@@ -24108,6 +24123,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = tribal_government 
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 							}
 							OR = {
 								has_government = feudal_government
@@ -24143,6 +24159,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = tribal_government 
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 							}
 							OR = {
 								has_government = feudal_government
@@ -24185,6 +24202,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = tribal_government 
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 							}
 							OR = {
 								has_government = feudal_government
@@ -24722,6 +24740,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 								has_government = nomad_government
 							}
@@ -24760,6 +24779,7 @@ MB_set_government = { # Sets governments by script. Much cleaner than doing hist
 								has_government = theocracy_government
 								has_government = ecclesiastical_government
 								has_government = monastic_holy_order_government
+								has_government = holy_order_government
 								has_government = tribal_government
 								has_government = nomad_government
 							}
@@ -24796,7 +24816,7 @@ MB_set_de_jure = {
 				game_start_date >= 750.1.1 # Yusseter: 769.1.1
 			}
 
-			title:k_papal_states = { set_de_jure_liege_title = title:e_italy }
+			#title:k_papal_states = { set_de_jure_liege_title = title:e_italy }
 
 			#title:k_liuqiu = { set_de_jure_liege_title = title:e_kalimantan } # I don't want China conquering it # Yusseter
 

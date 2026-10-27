@@ -980,6 +980,9 @@ holding = church_holding
 	rite = estonian_pagan
 	holding = tribal_holding
 	# History
+	1224.1.1 = {
+		holding = castle_holding
+	}
 	1290.1.1 = {
 		rite = roman_rite
 	}
@@ -1072,8 +1075,10 @@ holding = church_holding
 
 }
 
-109 = {		#VENDEN
-	holding = none
+109 = { # Wenden
+	1202.1.1 = {
+		holding = castle_holding
+	}
 }
 
 110 = {		#PILTENE
@@ -15760,6 +15765,9 @@ rite = antiochian_rite #no syriac in CK3
 	
 	1066.1.1 = {
 		holding = church_holding
+	}
+	1232.1.1 = {
+		holding = castle_holding
 	}
 }
 
@@ -31038,6 +31046,9 @@ rite = byzantine_rite
 
 3740 = {	#Kos
 	holding = church_holding
+	1315.1.1 = {
+		holding = castle_holding
+	}
 }
 
 3741 = {	#Lindos

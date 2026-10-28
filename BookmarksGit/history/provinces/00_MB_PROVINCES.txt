@@ -12535,6 +12535,8 @@ rite = antiochian_rite #no syriac in CK3
 	culture = punjabi
 	rite = kalikula_shaktism
 	
+	holding = castle_holding
+	
 	# History
 
 }
@@ -15805,6 +15807,9 @@ rite = antiochian_rite #no syriac in CK3
 1778 = {	# AVIS
 	holding = none
 	culture = andalusian
+	1176.1.1 = {
+		holding = castle_holding
+	}
 }
 
 1779 = {	# MONTEMOR
@@ -19048,6 +19053,9 @@ culture = gallo_roman
 
 2155 = {	#LORIENT
 	holding = none
+	1029.1.1 = {
+		holding = church_holding
+	}
 }
 
 2156 = {	#QUIMPER
@@ -21471,10 +21479,7 @@ rite = carolingian_christianity
 }
 
 2451 = {	#AMERSFOORT
-	holding = none
-	1050.1.1 = {
-		holding = city_holding
-	}
+	holding = church_holding
 }
 
 2452 = {	#STEENWIJK-localization:KUYNRE
@@ -22479,7 +22484,7 @@ rite = carolingian_christianity
 }
 
 2602 = {	#CASSINO
-	holding = none
+	holding = church_holding
 }
 
 2603 = {	#CLUIELI
@@ -23473,7 +23478,7 @@ rite = carolingian_christianity
 }
 
 2736 = {	#BESENSHEIM
-	holding = none
+	holding = church_holding
 }
 
 2737 = {	#ERBACH
@@ -24020,7 +24025,17 @@ rite = carolingian_christianity
 }
 
 2810 = {	#STRALSUND
+	culture = ranian
+	rite = slavic_west
 	holding = none
+	850.1.1 = {
+		holding = church_holding
+	}
+	1220.1.1 = { rite = roman_rite }
+	1234.1.1 = {
+		holding = city_holding
+	}
+	1240.1.1 = { culture = german_pommeranian }
 }
 
 2811 = {	#RUGEN
@@ -25255,7 +25270,10 @@ holding = none
 }
 
 2968 = {	#DEGGENDORF
-	holding = city_holding
+	holding = church_holding
+	1212.1.1 = {
+		holding = city_holding
+	}
 }
 
 2969 = {	#WALDKIRCHEN
@@ -28396,6 +28414,8 @@ holding = none
 	culture = punjabi
 	rite = vaishnavism
 	
+	holding = castle_holding
+	
 	# History
 	800.1.1 = {
 		rite = shafii
@@ -28406,7 +28426,6 @@ holding = none
 	1180.1.1 = {
 		rite = hanafi
 	}
-
 }
 
 3413 = {	# 3413 - Kabirwala
@@ -28763,7 +28782,9 @@ holding = none
 	rite = mahayana
 	
 	# History
-
+	1001.12.1 = {
+		holding = castle_holding
+	}
 }
 
 3442 = {	# 3442 - Lund_Nandana
@@ -32770,7 +32791,9 @@ rite = byzantine_rite
 	rite = vajrayana
 	
 	# History
-
+	1240.1.1 = {
+		holding = church_holding
+	}
 }
 
 3956 = {	# 3956 - Lakhimpur
@@ -40195,6 +40218,9 @@ rite = antiochian_rite
 	rite = byzantine_rite
 	
 	# History
+	799.1.1 = {
+		holding = castle_holding
+	}
 	1000.1.1 = {
 		culture = armenian
 		rite = armenian_rite
@@ -45965,7 +45991,13 @@ rite = tengri_pagan
 	holding = none
 	
 	# History
-
+	1231.1.1 = {
+		holding = castle_holding
+	}
+	1265.1.1 = {
+		culture = anatolian_turkish
+		rite = hanafi
+	}
 }
 
 5561 = {	# 5561 - Gordium
@@ -46195,7 +46227,9 @@ rite = tengri_pagan
 	holding = none
 	
 	# History
-
+	1290.1.1 = {
+		holding = church_holding
+	}
 }
 
 5579 = {	# 5579 - Papira
@@ -46732,6 +46766,9 @@ rite = tengri_pagan
 	1100.1.1 = {
 		culture = turkish
 		rite = hanafi
+	}
+	1205.1.1 = {
+		holding = city_holding
 	}
 }
 
@@ -50465,7 +50502,9 @@ rite = antiochian_rite
 	rite = shafii
 	
 	# History
-
+	830.1.1 = {
+		holding = church_holding
+	}
 }
 
 5954 = {	# 5954 - Zurra
@@ -50587,7 +50626,9 @@ rite = antiochian_rite
 	rite = shafii
 	
 	# History
-
+	1099.6.3 = {
+		holding = castle_holding
+	}
 }
 
 5964 = {	# 5964 - Nablus
@@ -58953,6 +58994,9 @@ rite = antiochian_rite
 7138 = {	#Isfijab
 	holding = none
 	#holding = city_holding
+	840.1.1 = {
+		holding = castle_holding
+	}
 }
 
 7139 = {	#Chakpak
@@ -59015,6 +59059,9 @@ rite = antiochian_rite
 7144 = {	#Nevaket	AKA Navekat or Nevkat
 	holding = none
 	#holding = city_holding
+	1017.1.2 = {
+		holding = castle_holding
+	}
 }
 
 7145 = {	#Ashpara

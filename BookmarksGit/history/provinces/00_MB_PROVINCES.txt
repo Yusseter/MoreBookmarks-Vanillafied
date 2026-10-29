@@ -14592,7 +14592,7 @@ rite = antiochian_rite #no syriac in CK3
 	#	#Fairly depopulated before the scandinavians
 	#	#Left empty to not have everything built
 	#}
-	1187.1.1 = {
+	1127.1.1 = {
 		holding = church_holding
 	}
 }
@@ -17005,6 +17005,9 @@ rite = antiochian_rite #no syriac in CK3
 
 1911 = {	# VALENCIA DE CAMPOS
 	holding = none
+	904.1.1 = {
+		holding = church_holding
+	}
 }
 
 1912 = {	# AVILA
@@ -18057,8 +18060,8 @@ rite = antiochian_rite #no syriac in CK3
 
 2032 = {	#CHARTREUSE = PALADRU
 	holding = none
-	1100.1.1 = {
-		holding = castle_holding
+	1084.1.1 = {
+		holding = church_holding
 	}
 }
 
@@ -19886,6 +19889,9 @@ culture = gallo_roman
 
 2256 = {	#LOUDUN
 	holding = none
+	1101.1.1 = {
+		holding = church_holding
+	}
 }
 
 2257 = {	#THOUARS
@@ -20238,7 +20244,12 @@ rite = carolingian_christianity
 }
 
 2303 = {	#SEMUR EN BRIONNAIS
-	holding = city_holding
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 
 2304 = {	#CLUNY
@@ -20381,6 +20392,9 @@ rite = carolingian_christianity
 
 2324 = {	#Perche / Mortagne
 	holding = none
+	1109.1.1 = {
+		holding = church_holding
+	}
 }
 
 2325 = {	#ALENCON
@@ -22106,6 +22120,9 @@ rite = carolingian_christianity
 
 2544 = {	#VALLOMBROSA
 	holding = none
+	1036.1.1 = {
+		holding = church_holding
+	}
 }
 
 2545 = {	#PRATO
@@ -22148,7 +22165,7 @@ rite = carolingian_christianity
 
 2551 = {	#CAMALDOLI
 	holding = none
-	1010 = {
+	1010.1.1 = {
 		holding = church_holding
 	}
 }
@@ -22405,7 +22422,9 @@ rite = carolingian_christianity
 }
 
 2588 = {	#RIETI
-	holding = city_holding
+	culture = italian
+	rite = roman_rite
+	holding = castle_holding
 }
 
 2589 = {	#TIVOLI
@@ -22996,6 +23015,9 @@ rite = carolingian_christianity
 
 2661 = {	#ISILI
 	holding = none
+	1116.1.1 = {
+		holding = church_holding
+	}
 }
 
 2662 = {	#SASSARI
@@ -23009,6 +23031,9 @@ rite = carolingian_christianity
 
 2663 = {	#ARDARA
 	holding = none
+	1127.1.1 = {
+		holding = church_holding
+	}
 }
 
 2664 = {	#PORTO TORRES
@@ -25012,6 +25037,9 @@ holding = none
 
 2933 = {	#ARNSTEIN
 	holding = none
+	936.9.13 = {
+		holding = church_holding
+	}
 }
 
 2934 = {	#SANGERHAUSEN
@@ -26306,6 +26334,9 @@ holding = none
 
 3106 = {	#WINDISCHE BUHEL
 	holding = none
+	1165.1.1 = {
+		holding = church_holding
+	}
 }
 
 3107 = {	#ENGELBERG
@@ -26866,6 +26897,9 @@ holding = none
 
 3177 = {	#LEHNIN
 	holding = none
+	1180.1.1 = {
+		holding = church_holding
+	}
 }
 
 3178 = {	#DAHME
@@ -30375,6 +30409,9 @@ holding = none
 3624 = {	# 3624 - Stanimaka
 	culture = bulgarian
 	rite = bulgarian_rite
+	1083.1.1 = {
+		holding = church_holding
+	}
 }
 
 3625 = {	# 3625 - Krichim
@@ -30467,6 +30504,9 @@ holding = none
 3639 = {	# 3639 - Devol
 	culture = bulgarian
 	rite = bulgarian_rite
+	886.1.1 = {
+		holding = church_holding
+	}
 }
 
 3640 = {	# 3640 - Kastoria
@@ -30482,6 +30522,9 @@ holding = none
 3642 = {	# 3642 - Zegligovo
 	culture = bulgarian
 	rite = bulgarian_rite
+	1067.1.1 = {
+		holding = church_holding
+	}
 }
 
 3643 = {	# 3643 - Skopje
@@ -30554,6 +30597,9 @@ holding = none
 3655 = {	# 3655 - Kratovo
 	culture = bulgarian
 	rite = bulgarian_rite
+	1150.1.1 = {
+		holding = church_holding
+	}
 }
 
 3656 = {	# 3656 - Velbazhd
@@ -30667,6 +30713,9 @@ holding = none
 3674 = {	# 3674 - Rila
 	culture = bulgarian
 	rite = bulgarian_rite
+	927.1.1 = {
+		holding = church_holding
+	}
 }
 
 3675 = {	# 3675 - Lom
@@ -30710,6 +30759,9 @@ holding = none
 3682 = {	# 3682 - Cherven
 	culture = bulgarian
 	rite = bulgarian_rite
+	1230.1.1 = {
+		holding = church_holding
+	}
 }
 
 3683 = {	# 3683 - Elena
@@ -30966,6 +31018,9 @@ rite = byzantine_rite
 
 3727 = {	#Boudounitsa AKA Mendenitsa
 	holding = none
+	946.1.1 = {
+		holding = church_holding
+	}
 }
 
 3728 = {	#Levadia
@@ -31191,6 +31246,9 @@ rite = byzantine_rite
 
 3765 = {	#Kypsela
 	holding = none
+	1152.1.1 = {
+		holding = church_holding
+	}
 }
 
 3766 = {	# 3766 - Ainos
@@ -31643,6 +31701,9 @@ rite = byzantine_rite
 3824 = {	#Zirc
 	holding = none
 	#1st mention in late XIIth
+	996.1.1 = {
+		holding = church_holding
+	}
 }
 
 3825 = {	#Vasarhely
@@ -34362,6 +34423,9 @@ rite = byzantine_rite
 
 4156 = {	#CHYNOV
 	holding = none
+	1149.1.1 = {
+		holding = church_holding
+	}
 }
 
 4157 = {	#BECHYNE
@@ -42502,6 +42566,9 @@ rite = antiochian_rite
 
 5132 = {	#Vetrino
 	holding = none
+	1128.1.1 = {
+		holding = church_holding
+	}
 }
 
 5133 = {	#Hlybokaye
@@ -43680,6 +43747,9 @@ rite = antiochian_rite
 
 5237 = {	#Sudogda
 	holding = none
+	1200.1.1 = {
+		holding = church_holding
+	}
 }
 
 5238 = {	#Yegoryevsk
@@ -43718,6 +43788,9 @@ rite = antiochian_rite
 
 5241 = {	#Ivanovo
 	holding = none
+	1207.1.1 = {
+		holding = church_holding
+	}
 }
 
 5242 = {	#Gavrilovskoye
@@ -47849,7 +47922,7 @@ rite = tengri_pagan
 	culture = greek
 	rite = byzantine_rite
 	
-	holding = none
+	holding = church_holding
 	
 	# History
 	1100.1.1 = {
@@ -68426,6 +68499,9 @@ rite = antiochian_rite
 
 8285 = {	#SHIMAZANA
 	holding = none
+	550.1.1 = {
+		holding = church_holding
+	}
 }
 
 8286 = {	#BURI
@@ -68455,7 +68531,10 @@ rite = antiochian_rite
 }
 
 8291 = {	#TIGRE
-	#holding = none
+	holding = none
+	550.1.1 = {
+		holding = church_holding
+	}
 }
 
 8292 = {	#WALDABBA
@@ -79334,6 +79413,9 @@ rite = antiochian_rite
 	900.1.1 = {
 		culture = italian
 	}
+	1138.1.1 = {
+		holding = church_holding
+	}
 }
 
 9721 = {	#RAVENNA
@@ -81594,6 +81676,10 @@ rite = roman_rite
 	holding = none
 }
 
+10106 = {	#BANGOR
+	holding = church_holding
+}
+
 10107 = {	#CLOGHER
 	holding = none
 }
@@ -81942,6 +82028,9 @@ rite = roman_rite
 
 10247 = {	#BAPAUME
 	holding = none
+	1097.1.1 = {
+		holding = church_holding
+	}
 }
 
 10248 = {	#DEVEREN

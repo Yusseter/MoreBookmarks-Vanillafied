@@ -7360,7 +7360,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kachari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = church_holding
 	
@@ -7372,7 +7372,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kachari
-	rite = vajrayana
+	rite = mantranaya
 	special_building_slot = kamakhya_temple_01
 	special_building = kamakhya_temple_01
 
@@ -7386,7 +7386,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kachari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -7398,7 +7398,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kachari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = city_holding
 	
@@ -7410,7 +7410,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kachari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -7422,7 +7422,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kachari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = church_holding
 	
@@ -7434,7 +7434,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kachari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = tribal_holding
 	
@@ -7536,7 +7536,8 @@ rite = antiochian_rite #no syriac in CK3
 
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka # Yusseter
+	#rite = theravada
 
 	holding = city_holding
 
@@ -7578,7 +7579,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -7590,7 +7591,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -7602,7 +7603,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -7614,7 +7615,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -7626,7 +7627,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7638,7 +7639,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7650,7 +7651,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -7662,7 +7663,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -7674,7 +7675,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7699,7 +7700,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = city_holding
 	
@@ -7711,7 +7712,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -7723,7 +7724,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7735,7 +7736,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -7747,7 +7748,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7759,7 +7760,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -7771,7 +7772,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7785,7 +7786,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -7806,7 +7807,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = assamese
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -7818,7 +7819,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = assamese
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -7830,7 +7831,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = assamese
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7861,7 +7862,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -7873,7 +7874,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -7885,7 +7886,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -7897,7 +7898,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7909,7 +7910,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -7921,7 +7922,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7933,7 +7934,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7945,7 +7946,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -7957,7 +7958,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7969,7 +7970,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7981,7 +7982,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -7993,7 +7994,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8005,7 +8006,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = city_holding
 	
@@ -8020,7 +8021,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = church_holding
 	
@@ -8032,7 +8033,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -8044,7 +8045,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -8056,7 +8057,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = city_holding
 	
@@ -8068,7 +8069,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = church_holding
 	
@@ -8084,7 +8085,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -8096,7 +8097,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8108,7 +8109,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = city_holding
 	
@@ -8120,7 +8121,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -8132,7 +8133,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = city_holding
 	
@@ -8144,7 +8145,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -8156,7 +8157,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = church_holding
 
@@ -8168,7 +8169,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -8180,7 +8181,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = church_holding
 	
@@ -8192,7 +8193,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -8204,7 +8205,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = pudgalavada
 	
 	holding = church_holding
 	
@@ -8216,7 +8217,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = pudgalavada
 	
 	holding = none
 	
@@ -8228,7 +8229,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = pudgalavada
 	
 	holding = none
 	
@@ -8397,7 +8398,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	holding = none
 	
@@ -8409,7 +8410,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8424,7 +8425,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8436,7 +8437,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -8448,7 +8449,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8460,7 +8461,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8472,7 +8473,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8484,7 +8485,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -8496,7 +8497,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8508,7 +8509,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = city_holding
 	
@@ -8520,7 +8521,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = church_holding
 	
@@ -8532,7 +8533,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = none
 	
@@ -8550,7 +8551,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -8565,7 +8566,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -8580,7 +8581,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -8589,7 +8590,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = marathi
-	rite = shaivism
+	rite = mattamayura
 	
 	# History
 
@@ -8599,7 +8600,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = church_holding
 	
@@ -8614,7 +8615,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = none #city_holding
 	
@@ -8629,7 +8630,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = none
 	
@@ -8641,7 +8642,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = none
 	
@@ -8653,7 +8654,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -8665,7 +8666,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8677,7 +8678,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -8689,7 +8690,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -8703,7 +8704,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8715,7 +8716,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none #church_holding
 	
@@ -8727,7 +8728,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -8739,7 +8740,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	special_building_slot = ratnagiri_01
 	special_building = ratnagiri_01
 	holding = church_holding
@@ -8829,22 +8830,19 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = tamil
-	rite = yapaniya
+	rite = dravida_saiva # The Pandya court turned from Jainism to Shaivism under Arikesari Maravarman and Sambandar in the 7th century
 	
 	special_building_slot = madurai_temple_01
 	special_building = madurai_temple_01
 
 	# History
-	1066.1.1 = {
-		rite = shaivism
-	}
 }
 
 1113 = {	# 1113 - Kara
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -8900,7 +8898,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = tamil
-	rite = shaivism
+	rite = dravida_saiva
 	
 	# History
 	867.1.1 = {
@@ -8914,7 +8912,7 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	1066.1.1 = {
 		special_building = brihadeeswarar_temple_01
-		rite = shaivism
+		rite = dravida_saiva
 	}
 }
 
@@ -8934,7 +8932,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = tamil
-	rite = vaishnavism
+	rite = sri_vaishnavism
 	
 	# History
 }
@@ -8981,7 +8979,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = yapaniya
+	rite = digambara
 	
 	# History
 }
@@ -9003,7 +9001,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = tamil
-	rite = yapaniya
+	rite = dravida_sangha
 	special_building_slot = kailasanathar_temple_01
 	special_building = kailasanathar_temple_01	
 	# History
@@ -9029,11 +9027,11 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
-	1066.1.1 = {
-		rite = svetambara
+	1050.1.1 = {
+		rite = sri_vaishnavism # Srirangam, seat of Yamunacharya and Ramanuja
 	}
 }
 
@@ -9054,7 +9052,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -9077,18 +9075,18 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
 1123 = {	# 1123 - Vengipura
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	holding = castle_holding
 	
@@ -9111,7 +9109,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = tuluva
-	rite = yapaniya
+	rite = digambara
 	
 	# History
 }
@@ -9147,7 +9145,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = gujarati
-	rite = yapaniya
+	rite = svetambara
 	
 	# History
 	1066.1.1 = {
@@ -9185,7 +9183,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = vaishnavism
+	rite = jagannatha
 	
 	# History
 }
@@ -9211,13 +9209,16 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	1250.1.1 = { culture = marwari }
 
+	1150.1.1 = {
+		rite = kharatara #Jinadatta Sūri preaches the Kharatara reform across Marwar and Ajmer
+	}
 }
 
 1131 = {	# 1131 - Karmanta
 	
 	# Misc
 	culture = tripuri
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = tribal_holding
 	
@@ -9251,7 +9252,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = gujarati
-	rite = yapaniya
+	rite = svetambara
 	
 	# History
 	
@@ -9323,7 +9324,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -9357,7 +9358,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	1050.1.1 = {
@@ -9382,7 +9383,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -9407,7 +9408,7 @@ rite = antiochian_rite #no syriac in CK3
 
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -9426,7 +9427,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -9477,7 +9478,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bhil
-	rite = vaishnavism
+	rite = bhagavata
 
 	holding = tribal_holding
 	
@@ -9492,7 +9493,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1250.1.1 = { culture = mewari }
@@ -9503,7 +9504,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = rajput
-	rite = shaivism
+	rite = mattamayura
 	
 	# History
 	769.1.1 = {
@@ -9521,12 +9522,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = rajput
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	1000.1.1 = { culture = malvi }
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -9535,7 +9536,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -9550,7 +9551,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -9565,7 +9566,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = church_holding
 	
@@ -9577,7 +9578,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -9606,7 +9607,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = tribal_holding
 	
@@ -9632,7 +9633,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -9654,7 +9655,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -9715,14 +9716,14 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = castle_holding
 	
 	# History
 	1000.1.1 = { culture = bhojpuri }
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -9731,7 +9732,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = pudgalavada
 	special_building_slot = varanasi_temples_01
 	special_building = varanasi_temples_01
 	holding = castle_holding
@@ -9739,7 +9740,7 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	1000.1.1 = { culture = bhojpuri }
 	1150.1.1 = {
-		rite = shaivism
+		rite = pashupata
 	}
 	
 }
@@ -9761,7 +9762,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = tribal_holding
 	
@@ -9776,14 +9777,14 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = pudgalavada
 	
 	holding = castle_holding
 	
 	# History
 	1000.1.1 = { culture = bhojpuri }
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -9792,12 +9793,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 	
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -9806,7 +9807,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	1000.1.1 = {
@@ -9819,15 +9820,15 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = mahayana
+		rite = madhyamaka
 	}
 	1100.1.1 = { culture = bundeli }
 	1150.1.1 = {
-		rite = svetambara
+		rite = digambara
 	}
 
 }
@@ -9836,7 +9837,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -9850,13 +9851,13 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = mahayana
+	rite = madhyamaka
 	
 	# History
 	
 	1100.1.1 = { culture = bundeli }
 	1150.1.1 = {
-		rite = shaivism
+		rite = mattamayura
 	}
 
 }
@@ -9865,7 +9866,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1250.1.1 = { culture = bundeli }
@@ -9876,7 +9877,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	1000.1.1 = {
@@ -9894,6 +9895,9 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	1250.1.1 = { culture = marwari }
 
+	1150.1.1 = {
+		rite = kharatara #Jinadatta Sūri preaches the Kharatara reform across Marwar and Ajmer
+	}
 }
 
 1175 = {	# 1175 - Aror
@@ -9924,6 +9928,9 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	1250.1.1 = { culture = marwari }
 
+	1150.1.1 = {
+		rite = kharatara #Jinadatta Sūri preaches the Kharatara reform across Marwar and Ajmer
+	}
 }
 
 1177 = {	# 1177 - Kundina
@@ -9944,7 +9951,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -9963,12 +9970,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kangri
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 	
 	1150.1.1 = {
-		rite = shaivism
+		rite = pashupata
 	}
 
 }
@@ -9977,12 +9984,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 	
 	1150.1.1 = {
-		rite = shaivism
+		rite = pashupata
 	}
 
 }
@@ -10083,7 +10090,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -10093,7 +10100,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	700.1.1 = {
@@ -10116,12 +10123,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 	
 	1150.1.1 = {
-		rite = shaivism
+		rite = pashupata
 	}
 
 }
@@ -10130,7 +10137,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 	
@@ -10146,7 +10153,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	1066.1.1 = {
@@ -10159,12 +10166,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 	
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = pancaratra
 	}
 
 }
@@ -10206,9 +10213,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = yapaniya
+	rite = digambara
 	
 	# History
+	1120.1.1 = {
+		rite = sri_vaishnavism # Ramanuja at Melkote (1098-1122) and the conversion of Vishnuvardhana; Belur Chennakeshava 1117
+	}
 }
 
 1197 = {	# 1197 - Dwarasamudra
@@ -10228,7 +10238,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = yapaniya
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
@@ -10254,7 +10264,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 	700.1.1 = {
@@ -10349,7 +10359,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -10371,7 +10381,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -10393,11 +10403,11 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = shaivism
+		rite = dravida_saiva
 	}
 }
 
@@ -10424,7 +10434,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = svetambara
+	rite = yapaniya
 	
 	# History
 }
@@ -10446,12 +10456,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	special_building_slot = amaravati_stupa_01
 	special_building = amaravati_stupa_01
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -10472,7 +10482,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	holding = castle_holding
 	
@@ -10493,7 +10503,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -10521,7 +10531,7 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	#	830.1.1 = { capital = b_manyakheta }
 	1066.1.1 = {
-		rite = shaivism
+		rite = kalamukha
 	}
 }
 
@@ -10564,7 +10574,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -10611,16 +10621,19 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = tamil
-	rite = vaishnavism
+	rite = sri_vaishnavism
 	
 	# History
+	1050.1.1 = {
+		rite = sri_vaishnavism # Birthplace of Nammalvar; the Alvar hymns became the Tamil Veda of the Sri Vaishnavas
+	}
 }
 
 1215 = {	# 1215 - Etawah
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -10666,7 +10679,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = yapaniya
+	rite = digambara
 	
 	# History
 }
@@ -10688,7 +10701,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	special_building_slot = alampur_jogulamba_temple_01
 	# History
 	#1336.1.1 = { b_vijayanagara = castle }
@@ -10712,7 +10725,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	special_building_slot = venkateswara_temple_01
 	special_building = venkateswara_temple_01
 	# History
@@ -10751,7 +10764,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -10771,7 +10784,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -10793,7 +10806,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = vaishnavism
+	rite = jagannatha
 	
 	holding = castle_holding
 	
@@ -10829,7 +10842,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = vaishnavism
+	rite = jagannatha
 	
 	# History
 }
@@ -10894,7 +10907,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -10921,7 +10934,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -10941,7 +10954,7 @@ rite = antiochian_rite #no syriac in CK3
 	holding = tribal_holding
 	
 	# History
-	1000.1.1 = { culture = magadhi rite = vaishnavism }
+	1000.1.1 = { culture = magadhi rite = bhagavata }
 
 }
 
@@ -10989,13 +11002,13 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
 	# History
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -11004,13 +11017,13 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
 	# History
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -11019,7 +11032,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -11031,7 +11044,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = tribal_holding
 	
@@ -11050,14 +11063,14 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
 	# History
 	
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -11066,7 +11079,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -11117,7 +11130,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = tribal_holding
 	
@@ -11157,12 +11170,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 
 	# History
 	
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -11171,14 +11184,14 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = castle_holding
 	
 	# History
 	1000.1.1 = { culture = bhojpuri }
 	1150.1.1 = {
-		rite = shaivism
+		rite = pashupata
 	}
 	
 }
@@ -11223,11 +11236,11 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -11274,7 +11287,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 	769.1.1 = {
@@ -11299,7 +11312,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 	
@@ -11324,7 +11337,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -11345,7 +11358,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -11409,7 +11422,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -11457,7 +11470,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = marathi
-	rite = shaivism
+	rite = pashupata
 	
 	# History
 }
@@ -11499,7 +11512,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = gujarati
-	rite = digambara
+	rite = svetambara
 	
 	# History
 	1000.1.1 = { culture = kathiawari }
@@ -11579,7 +11592,7 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	1066.1.1 = {
 		holding = castle_holding
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -11595,7 +11608,7 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	1000.1.1 = { culture = nagpuri }
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 
@@ -11634,7 +11647,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -11644,7 +11657,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -11662,7 +11675,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = tribal_holding
 	
@@ -11675,11 +11688,11 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = mahayana
+	rite = madhyamaka
 	
 	# History
 	1150.1.1 = {
-		rite = shaivism
+		rite = mattamayura
 	}
 	1175.1.1 = { culture = bagheli }
 	1330.1.1 = {
@@ -11692,7 +11705,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -11711,13 +11724,13 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 	
 	1000.1.1 = { culture = bhojpuri }
 	1150.1.1 = {
-		rite = shaivism
+		rite = pashupata
 	}
 
 }
@@ -11726,7 +11739,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	holding = none
 	
@@ -11738,7 +11751,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -11748,14 +11761,14 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	holding = castle_holding
 	
 	# History
 	
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -11792,7 +11805,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# History
 	1066.1.1 = {
-		rite = shaivism
+		rite = mattamayura
 	}
 }
 
@@ -11800,11 +11813,11 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 	1100.1.1 = {
 		holding = castle_holding
@@ -11816,7 +11829,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	special_building_slot = ujjayini_temple_city_01
 	special_building = ujjayini_temple_city_01
 	# History
@@ -11862,7 +11875,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = gujarati
-	rite = digambara
+	rite = svetambara
 	holding = castle_holding
 	# History
 
@@ -11872,17 +11885,20 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = gujarati
-	rite = digambara
+	rite = svetambara
 	
 	# History
 
+	1150.1.1 = {
+		rite = kharatara #Jinadatta Sūri preaches the Kharatara reform across Marwar and Ajmer
+	}
 }
 
 1295 = {	# 1295 - Kanthakota
 	
 	# Misc
 	culture = sindhi
-	rite = digambara
+	rite = svetambara
 	
 	# History
 	
@@ -11939,7 +11955,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 
 	holding = castle_holding
 
@@ -11961,21 +11977,24 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	1250.1.1 = { culture = harauti }
 
+	1228.1.1 = {
+		rite = tapa_gaccha #Jagaccandra Sūri receives the title Tapā from the ruler of Mewar
+	}
 }
 
 1301 = {	# 1301 - Mahoba
 	
 	# Misc
 	culture = awadhi
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = mahayana
+		rite = madhyamaka
 	}
 	1100.1.1 = { culture = bundeli }
 	1150.1.1 = {
-		rite = shaivism
+		rite = mattamayura
 	}
 
 }
@@ -11989,6 +12008,9 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	1250.1.1 = { culture = mewari }
 
+	1228.1.1 = {
+		rite = tapa_gaccha #Jagaccandra Sūri receives the title Tapā from the ruler of Mewar
+	}
 }
 
 1303 = {	# 1303 - Ranikot
@@ -12014,12 +12036,15 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = rajput
-	rite = digambara
+	rite = svetambara
 	holding = castle_holding
 	
 	# History
 	1250.1.1 = { culture = marwari }
 	
+	1150.1.1 = {
+		rite = kharatara #Jinadatta Sūri preaches the Kharatara reform across Marwar and Ajmer
+	}
 }
 
 1306 = {	# 1306 - Tara
@@ -12042,7 +12067,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -12054,7 +12079,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -12081,13 +12106,13 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
 	# History
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -12096,7 +12121,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = garo
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -12112,7 +12137,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bengali
-	rite = theravada
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -12127,14 +12152,14 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bihari
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
 	# History
 	1000.1.1 = { culture = nagpuri }
 	1150.1.1 = {
-		rite = shaivism
+		rite = pashupata
 	}
 
 }
@@ -12143,12 +12168,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 	
 	1150.1.1 = {
-		rite = shaivism
+		rite = pashupata
 	}
 
 }
@@ -12202,7 +12227,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -12224,7 +12249,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	#700.1.1 = {
@@ -12271,7 +12296,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	870.1.1 = {
@@ -12301,7 +12326,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	
@@ -12326,6 +12351,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	1250.1.1 = { culture = mewari }
 
+	1228.1.1 = {
+		rite = tapa_gaccha #Jagaccandra Sūri receives the title Tapā from the ruler of Mewar
+	}
 }
 
 1346 = {	# 1346 - Shakambhari
@@ -12337,17 +12365,23 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	1250.1.1 = { culture = dhundari }
 
+	1150.1.1 = {
+		rite = kharatara #Jinadatta Sūri preaches the Kharatara reform across Marwar and Ajmer
+	}
 }
 
 1349 = {	# 1349 - Vikramapura
 	
 	# Misc
 	culture = rajput
-	rite = digambara
+	rite = svetambara
 	
 	# History
 	1250.1.1 = { culture = marwari }
 
+	1150.1.1 = {
+		rite = kharatara #Jinadatta Sūri preaches the Kharatara reform across Marwar and Ajmer
+	}
 }
 
 1350 = {	# 1350 - Reni
@@ -12396,7 +12430,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1250.1.1 = { culture = dhundari }
@@ -12412,13 +12446,16 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	1250.1.1 = { culture = marwari }
 
+	1150.1.1 = {
+		rite = kharatara #Jinadatta Sūri preaches the Kharatara reform across Marwar and Ajmer
+	}
 }
 
 1355 = {	# 1355 - Ranthambore
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1250.1.1 = { culture = harauti }
@@ -12429,7 +12466,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	holding = castle_holding
 	# History
 	1100.1.1 = { culture = kannauji }
@@ -12440,7 +12477,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1050.1.1 = {
@@ -12454,7 +12491,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	1000.1.1 = {
@@ -12468,7 +12505,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = svetambara
+	rite = kastha
 	special_building_slot = krishna_janmasthan_temple_01
 	special_building = krishna_janmasthan_temple_01											
 	# History
@@ -12483,7 +12520,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = sinhala
-	rite = theravada
+	rite = mahavihara
 	
 	holding = castle_holding
 	
@@ -12494,7 +12531,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	1066.1.1 = {
@@ -12561,7 +12598,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	769.1.1 = {
@@ -12593,7 +12630,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	special_building_slot = har_ki_pauri_temple_01
 	special_building = har_ki_pauri_temple_01								  
 	# History
@@ -12607,7 +12644,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	1000.1.1 = {
@@ -12679,7 +12716,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	870.1.1 = {
@@ -12698,7 +12735,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -12717,7 +12754,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -12757,7 +12794,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = tamil
-	rite = vaishnavism
+	rite = sri_vaishnavism
 	
 	# History
 }
@@ -12766,7 +12803,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -12861,13 +12898,13 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	special_building_slot = sravasti_01
 	special_building = sravasti_01
 	# History
 	
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -12876,12 +12913,12 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 	
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 
 }
@@ -13045,7 +13082,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = saka
-	rite = mahayana
+	rite = yogacara
 	
 	holding = castle_holding
 	
@@ -13100,7 +13137,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = saka
-	rite = mahayana
+	rite = yogacara
 	
 	holding = castle_holding
 	
@@ -13128,7 +13165,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = saka
-	rite = mahayana
+	rite = yogacara
 	
 	holding = castle_holding
 	
@@ -13205,7 +13242,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = saka
-	rite = mahayana
+	rite = yogacara
 	
 	holding = castle_holding
 	
@@ -13535,6 +13572,9 @@ rite = antiochian_rite #no syriac in CK3
 
 1505 = {	#Tonbridge
 	holding = none
+	1242.1.1 = {
+		holding = church_holding
+	}
 }
 
 1506 = {	#Lewes
@@ -14158,6 +14198,9 @@ rite = antiochian_rite #no syriac in CK3
 
 1585 = {	#Boston
 	holding = none
+	1131.1.1 = {
+		holding = church_holding
+	}
 }
 
 1586 = {	#Bolingbroke
@@ -16731,6 +16774,9 @@ rite = antiochian_rite #no syriac in CK3
 
 1877 = {	# MANRESA/Cardona
 	holding = none
+	1025.1.1 = {
+		holding = church_holding
+	}
 }
 
 1878 = {	# 1878 - URGELL
@@ -20314,6 +20360,9 @@ rite = carolingian_christianity
 
 2313 = {	#HERRY
 	holding = none
+	930.1.1 = {
+		holding = church_holding
+	}
 }
 
 2314 = {	#SANCERRE
@@ -20505,6 +20554,9 @@ rite = carolingian_christianity
 	holding = none
 	1000.1.1 = {
 		holding = city_holding
+	}
+	1113.1.1 = {
+		holding = church_holding
 	}
 }
 
@@ -22223,7 +22275,9 @@ rite = carolingian_christianity
 
 2559 = {	#IMPRUNETA
 	holding = none
-	#left blank to keep an empty holding
+	1245.1.1 = {
+		holding = church_holding
+	}
 }
 
 2560 = {	#SIENA
@@ -22370,6 +22424,9 @@ rite = carolingian_christianity
 
 2578 = {	#PALO
 	holding = none
+	1250.1.1 = {
+		holding = church_holding
+	}
 }
 
 2579 = {	#FARFA
@@ -22430,6 +22487,9 @@ rite = carolingian_christianity
 2589 = {	#TIVOLI
 
 	holding = none
+	1201.1.1 = {
+		holding = church_holding
+	}
 }
 
 2590 = {	#VELLETRI
@@ -22490,7 +22550,12 @@ rite = carolingian_christianity
 }
 
 2599 = {	#MACERATA
+	culture = italian
+	rite = roman_rite
 	holding = none
+	1231.1.1 = {
+		holding = church_holding
+	}
 }
 
 2600 = {	#AVEZZANO
@@ -22516,6 +22581,9 @@ rite = carolingian_christianity
 	holding = none
 	1070.1.1 = {
 		culture = sicilian
+	}
+	1263.6.1 = {
+		holding = church_holding
 	}
 }
 
@@ -23049,6 +23117,9 @@ rite = carolingian_christianity
 
 2666 = {	#MONTAGNANA
 	holding = none
+	1232.1.1 = {
+		holding = church_holding
+	}
 }
 
 2669 = {	#ALIFE
@@ -23200,6 +23271,9 @@ rite = carolingian_christianity
 
 2688 = {	#SIEGBURG
 	holding = city_holding
+	1064.1.1 = {	#The abbey of St Michael on the Michaelsberg, founded by Archbishop Anno of Cologne, whose abbots became lords of the town below it
+		holding = church_holding
+	}
 }
 
 2689 = {	#SAYN
@@ -23438,7 +23512,7 @@ rite = carolingian_christianity
 }
 
 2724 = {	#WEISSENBURG
-	holding = none
+	holding = church_holding
 }
 
 2725 = {	#BITSCH
@@ -25306,6 +25380,9 @@ holding = none
 
 2969 = {	#WALDKIRCHEN
 	holding = none
+	1011.1.1 = {
+		holding = church_holding
+	}
 }
 
 2970 = {	#SCHARDING
@@ -27265,6 +27342,42 @@ holding = none
 	holding = church_holding
 }
 
+3266 = {	# 3266 - Magampura
+	
+	# Misc
+	culture = sinhala
+	rite = abhayagiri
+	
+	# History
+	1165.1.1 = {
+		rite = mahavihara #Parākramabāhu I unites the sangha under the Mahāvihāra
+	}
+}
+
+3271 = {	# 3271 - Gimhathiththa
+	
+	# Misc
+	culture = sinhala
+	rite = abhayagiri
+	
+	# History
+	1165.1.1 = {
+		rite = mahavihara #Parākramabāhu I unites the sangha under the Mahāvihāra
+	}
+}
+
+3272 = {	# 3272 - Anurādhapura, seat of the Abhayagiri, Jetavana and Mahāvihāra monasteries
+	
+	# Misc
+	culture = sinhala
+	rite = abhayagiri
+	
+	# History
+	1165.1.1 = {
+		rite = mahavihara #Parākramabāhu I unites the sangha under the Mahāvihāra
+	}
+}
+
 3275 = {	# 1194 - Nagadipa
 	
 	# County Title
@@ -27272,25 +27385,67 @@ holding = none
 	
 	# Misc
 	culture = tamil
-	rite = theravada
+	rite = abhayagiri
 	
 	# History
+	1165.1.1 = {
+		rite = mahavihara #Parākramabāhu I unites the sangha under the Mahāvihāra
+	}
 }
 
 3276 = {	# 1215 - Dakhina Desa
 	
 	# Misc
 	culture = sinhala
-	rite = theravada
+	rite = abhayagiri
 	
 	# History
+	1165.1.1 = {
+		rite = mahavihara #Parākramabāhu I unites the sangha under the Mahāvihāra
+	}
+}
+
+3278 = {	# 3278 - Senkadagalapura
+	
+	# Misc
+	culture = sinhala
+	rite = abhayagiri
+	
+	# History
+	1165.1.1 = {
+		rite = mahavihara #Parākramabāhu I unites the sangha under the Mahāvihāra
+	}
+}
+
+3280 = {	# 3280 - Batticaloa
+	
+	# Misc
+	culture = sinhala
+	rite = abhayagiri
+	
+	# History
+	1165.1.1 = {
+		rite = mahavihara #Parākramabāhu I unites the sangha under the Mahāvihāra
+	}
+}
+
+3281 = {	# 3281 - Trincomalee
+	
+	# Misc
+	culture = sinhala
+	rite = abhayagiri
+	
+	# History
+	1165.1.1 = {
+		rite = mahavihara #Parākramabāhu I unites the sangha under the Mahāvihāra
+	}
 }
 
 3284 = {	# 3284 - anuradhapura
 	
 	# Misc
 	culture = sinhala
-	rite = theravada
+	rite = mahavihara
 	
 	# History
 	867.1.1 = {
@@ -27301,7 +27456,7 @@ holding = none
 3288 = { 
 	# Misc
 	culture = sinhala
-	rite = theravada
+	rite = mahavihara
 
 	# History
 	867.1.1 = {
@@ -27337,7 +27492,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -27373,7 +27528,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -27387,7 +27542,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	700.1.1 = {
@@ -27405,7 +27560,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -27419,7 +27574,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	holding = church_holding
 	
@@ -27435,7 +27590,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -27463,7 +27618,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -27491,7 +27646,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	holding = church_holding
 	
@@ -27503,7 +27658,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	holding = city_holding
 	
@@ -27558,7 +27713,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	holding = church_holding
 	
@@ -27571,7 +27726,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -27582,7 +27737,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -27593,7 +27748,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	1000.1.1 = { culture = malvi }
@@ -27604,7 +27759,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -27614,7 +27769,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -27624,7 +27779,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -27634,7 +27789,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -27648,6 +27803,9 @@ holding = none
 	
 	# History
 	1250.1.1 = { culture = marwari }
+	1150.1.1 = {
+		rite = kharatara #Jinadatta Sūri preaches the Kharatara reform across Marwar and Ajmer
+	}
 }
 
 3343 = {	# 3343 - Ranakpur
@@ -27666,7 +27824,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -27691,7 +27849,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -27731,7 +27889,7 @@ holding = none
 	
 	# Misc
 	culture = gujarati
-	rite = yapaniya
+	rite = svetambara
 	
 	holding = church_holding
 	
@@ -27805,7 +27963,7 @@ holding = none
 	
 	# Misc
 	culture = gujarati
-	rite = digambara
+	rite = svetambara
 	
 	# History
 
@@ -27815,7 +27973,7 @@ holding = none
 	
 	# Misc
 	culture = gujarati
-	rite = digambara
+	rite = svetambara
 	
 	# History
 
@@ -27825,7 +27983,7 @@ holding = none
 	
 	# Misc
 	culture = gujarati
-	rite = digambara
+	rite = svetambara
 	
 	# History
 	700.1.1 = {
@@ -27838,7 +27996,7 @@ holding = none
 	
 	# Misc
 	culture = gujarati
-	rite = digambara
+	rite = svetambara
 	
 	# History
 
@@ -27848,7 +28006,7 @@ holding = none
 	
 	# Misc
 	culture = gujarati
-	rite = shaivism
+	rite = pashupata
 	
 	# History
 
@@ -27921,7 +28079,7 @@ holding = none
 	
 	# Misc
 	culture = gujarati
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -27931,7 +28089,7 @@ holding = none
 	
 	# Misc
 	culture = gujarati
-	rite = digambara
+	rite = svetambara
 	
 	# History
 
@@ -27941,7 +28099,7 @@ holding = none
 	
 	# Misc
 	culture = gujarati
-	rite = digambara
+	rite = svetambara
 	
 	# History
 
@@ -28083,7 +28241,7 @@ holding = none
 	
 	# Misc
 	culture = gujarati
-	rite = shaivism
+	rite = pashupata
 	
 	holding = city_holding
 	
@@ -28108,7 +28266,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = digambara
+	rite = svetambara
 	
 	# History
 
@@ -28118,7 +28276,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = digambara
+	rite = svetambara
 	
 	holding = none
 	
@@ -28130,7 +28288,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = digambara
+	rite = svetambara
 	holding = castle_holding
 	
 	# History
@@ -28141,7 +28299,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = digambara
+	rite = svetambara
 	
 	# History
 
@@ -28151,7 +28309,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = digambara
+	rite = svetambara
 	
 	holding = church_holding
 	
@@ -28370,7 +28528,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -28389,7 +28547,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -28408,7 +28566,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -28427,7 +28585,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -28446,7 +28604,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = castle_holding
 	
@@ -28466,7 +28624,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -28485,7 +28643,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -28507,7 +28665,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -28526,7 +28684,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -28545,7 +28703,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	800.1.1 = {
@@ -28564,7 +28722,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28574,7 +28732,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28584,7 +28742,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28633,7 +28791,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28643,7 +28801,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28664,7 +28822,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 	867.1.1 = {
@@ -28678,7 +28836,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28688,7 +28846,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28698,7 +28856,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28708,7 +28866,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28718,7 +28876,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28728,12 +28886,12 @@ holding = none
 	
 	# Misc
 	culture = kangri
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 	
 	1150.1.1 = {
-		rite = vaishnavism
+		rite = pancaratra
 	}
 
 }
@@ -28742,7 +28900,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28752,7 +28910,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28762,7 +28920,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28772,7 +28930,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28782,7 +28940,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	holding = city_holding
 	
 	
@@ -28799,7 +28957,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 	700.1.1 = {
@@ -28813,7 +28971,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 	1001.12.1 = {
@@ -28825,7 +28983,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28835,7 +28993,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vajrayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28845,7 +29003,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vajrayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28855,7 +29013,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vajrayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28865,7 +29023,7 @@ holding = none
 	
 	# Misc
 	culture = punjabi
-	rite = vajrayana
+	rite = sarvastivada
 	
 	# History
 
@@ -28875,7 +29033,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28885,7 +29043,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28895,7 +29053,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28905,7 +29063,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28915,7 +29073,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28925,7 +29083,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28935,7 +29093,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -28945,7 +29103,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29005,7 +29163,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = svetambara
+	rite = kastha
 	
 	holding = church_holding
 	
@@ -29017,7 +29175,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -29027,7 +29185,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -29037,7 +29195,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29047,7 +29205,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29057,7 +29215,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -29067,7 +29225,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -29077,7 +29235,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29087,7 +29245,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	special_building_slot = sankassa_01
 	special_building = sankassa_01					   
 	# History
@@ -29098,7 +29256,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29108,7 +29266,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29118,7 +29276,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29128,7 +29286,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29138,7 +29296,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29148,7 +29306,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29158,7 +29316,7 @@ holding = none
 	
 	# Misc
 	culture = hindustani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 
@@ -29168,7 +29326,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = digambara
+	rite = svetambara
 	
 	# History
 
@@ -29218,7 +29376,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -29228,7 +29386,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -29238,7 +29396,7 @@ holding = none
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -30159,6 +30317,9 @@ holding = none
 3590 = {	#Rujno
 	holding = none
 	#XVIth century ?
+	1190.1.1 = {	#Studenica, the lavra of the Mother of God founded by Stefan Nemanja, where he took the habit in 1196 and Sava was hegumen from 1207
+		holding = church_holding
+	}
 }
 
 3591 = {	#Sjenica
@@ -32829,7 +32990,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -32839,7 +33000,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -32849,7 +33010,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 	1240.1.1 = {
@@ -32861,7 +33022,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -32871,7 +33032,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -32883,7 +33044,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = vajrayana
+	rite = pudgalavada
 	
 	# History
 
@@ -32893,11 +33054,11 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = mahayana
+		rite = madhyamaka
 	}
 
 }
@@ -32906,11 +33067,11 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = mahayana
+		rite = madhyamaka
 	}
 
 }
@@ -32919,11 +33080,11 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = mahayana
+		rite = madhyamaka
 	}
 
 }
@@ -32932,7 +33093,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = mahayana
+	rite = madhyamaka
 	
 	# History
 
@@ -32942,7 +33103,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = mahayana
+	rite = madhyamaka
 	
 	# History
 
@@ -32952,7 +33113,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = mahayana
+	rite = madhyamaka
 	
 	# History
 
@@ -32982,7 +33143,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = mahayana
+	rite = madhyamaka
 	
 	# History
 
@@ -32992,7 +33153,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 	769.1.1 = {
@@ -33006,7 +33167,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = rajput
-	rite = svetambara
+	rite = kastha
 	
 	# History
 
@@ -33028,11 +33189,11 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = awadhi
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = mahayana
+		rite = madhyamaka
 	}
 
 }
@@ -33066,6 +33227,9 @@ rite = byzantine_rite
 	holding = none
 	#1st mention in 1135
 	#Roman fortress long before that
+	1250.1.1 = {
+		holding = church_holding
+	}
 }
 
 3977 = {	#Szentgotthard
@@ -33090,7 +33254,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -33102,7 +33266,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -33114,7 +33278,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -33126,7 +33290,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -33138,7 +33302,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none #city_holding
 	
@@ -33150,7 +33314,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -33162,7 +33326,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -33174,7 +33338,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -33186,7 +33350,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none #city_holding
 	
@@ -33198,7 +33362,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = church_holding
 	
@@ -33210,7 +33374,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none #city_holding
 	
@@ -33294,7 +33458,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -33306,7 +33470,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -34784,7 +34948,7 @@ rite = byzantine_rite
 
 4201 = {	#Azadawan
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	993.1.1 = {
 		rite = hanafi
@@ -34974,7 +35138,7 @@ rite = byzantine_rite
 
 4225 = {	#Firuzkuh	#AKA Chagcharan
 	culture = tajik
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	special_building_slot = minarets_and_remains_of_jam_01
 	1066.1.1 = {
@@ -34998,7 +35162,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	993.1.1 = {
 		rite = hanafi
 	} #-Province Mapping province - I'm not entirley sure what Paradox was going for with the massive buddhist prescence in Afghanistan so late into the game
@@ -35015,7 +35179,7 @@ rite = byzantine_rite
 
 4231 = {	#Dih-e-Khalaf
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	993.1.1 = {
 		rite = hanafi
@@ -35667,7 +35831,7 @@ rite = byzantine_rite
 
 4335 = {	#Balkh
 	culture = sogdian
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
@@ -35711,7 +35875,7 @@ rite = byzantine_rite
 
 4341 = {	#Samanjan
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	993.1.1 = {
 		rite = hanafi
@@ -35725,7 +35889,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -35745,7 +35909,7 @@ rite = byzantine_rite
 4345 = {
 	# Misc
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -35775,7 +35939,7 @@ rite = byzantine_rite
 
 4351 = {	#Khulm
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	993.1.1 = {
 		rite = hanafi
@@ -35801,7 +35965,7 @@ rite = byzantine_rite
 
 4355 = {	#Badakhshan
 	culture = pamiri
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	1.1.1 = {
 		special_building = sar_i_sang_mines_01 #famous lapis lazuli mine, in use since prehistorical times
@@ -35850,7 +36014,7 @@ rite = byzantine_rite
 
 4362 = {	#Wakhan
 	culture = pamiri
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	993.1.1 = {
 		rite = hanafi
@@ -35860,7 +36024,7 @@ rite = byzantine_rite
 
 4363 = {	#Shughnan
 	culture = pamiri
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	993.1.1 = {
 		rite = hanafi
@@ -35881,7 +36045,7 @@ rite = byzantine_rite
 
 4366 = {	#Upper Karran
 	culture = pamiri
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	993.1.1 = {
 		rite = hanafi
@@ -35902,7 +36066,7 @@ rite = byzantine_rite
 
 4369 = {	#Chaghaniyan
 	culture = sogdian
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	900.1.1 = {
 		culture = tajik
@@ -35942,7 +36106,7 @@ rite = byzantine_rite
 
 4376 = {	#Halavand
 	culture = sogdian
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	900.1.1 = {
 		culture = tajik
@@ -35958,7 +36122,7 @@ rite = byzantine_rite
 
 4378 = {	#Pargar
 	culture = sogdian
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	900.1.1 = {
 		culture = tajik
@@ -35990,7 +36154,7 @@ rite = byzantine_rite
 
 4383 = {	#Rasht
 	culture = sogdian
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	900.1.1 = {
 		culture = tajik
@@ -36771,7 +36935,7 @@ rite = byzantine_rite
 
 4498 = {	#Kandahar
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	holding = castle_holding
 	993.1.1 = {
 		rite = hanafi
@@ -36812,7 +36976,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -36894,7 +37058,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	
 	#History
 
@@ -36904,7 +37068,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = afghan
-	rite = mahayana
+	rite = sarvastivada
 	
 	#History
 
@@ -39014,8 +39178,12 @@ rite = byzantine_rite
 	#Misc
 	culture = kurdish
 	rite = shafii
+	holding = none
 	
 	# History
+	595.1.1 = {	#Beth Abe in Marga, founded by Jacob of Lashom, a monk of the Great Monastery of Mount Izla
+		holding = church_holding
+	}
 	1166.1.1 = {
 		rite = yazidi
 	}
@@ -39372,6 +39540,9 @@ rite = byzantine_rite
 	rite = shafii
 	
 	# History
+	640.1.1 = {
+		holding = church_holding
+	}
 	1200.1.1 = { rite = yazidi }
 
 }
@@ -39755,8 +39926,12 @@ rite = byzantine_rite
 	# Misc
 	culture = kurdish
 	rite = nestorian
+	holding = none
 	
 	# History
+	363.1.1 = {	#Mor Mattai on Mount Alfaf, founded by the hermit Mattai in the reign of Julian
+		holding = church_holding
+	}
 	867.1.1 = { rite = shafii }
 	1200.1.1 = { rite = yazidi }
 
@@ -39802,6 +39977,9 @@ rite = byzantine_rite
 	rite = antiochian_rite
 	
 	# History
+	397.1.1 = {
+		holding = church_holding
+	}
 
 }
 
@@ -40236,8 +40414,12 @@ rite = antiochian_rite
 	# Misc
 	culture = armenian
 	rite = armenian_rite
+	holding = none
 	
 	# History
+	790.1.1 = {	#Mor Barsauma in the mountains of Gargar, first named when Patriarch George of Beltan was buried there on 1 December 790
+		holding = church_holding
+	}
 	1177.1.1 = {
 		culture = kurdish
 		rite = shafii
@@ -45727,7 +45909,9 @@ rite = tengri_pagan
 	holding = none
 	
 	# History
-
+	1049.1.1 = {	#The Nea Moni of Chios, whose church was finished in 1049, held lands on the Asian shore opposite the island
+		holding = church_holding
+	}
 }
 
 5533 = {	# 5533 - Miletus
@@ -47019,6 +47203,9 @@ rite = tengri_pagan
 	holding = none
 	
 	# History
+	1173.1.1 = {	#Skevra near Lambron, the monastery of the Hethumid lords of Lambron, whose earliest dated manuscript was written in 1173
+		holding = church_holding
+	}
 
 }
 
@@ -47785,6 +47972,9 @@ rite = tengri_pagan
 	holding = none
 	
 	# History
+	1100.1.1 = {	#Kykkos, founded in the Troodos by the hermit Isaiah under Alexios Komnenos
+		holding = church_holding
+	}
 
 }
 
@@ -51982,6 +52172,9 @@ rite = antiochian_rite
 
 6119 = {	#CENTRAL_JBL _QUZLUM
 	holding = none
+	356.1.1 = {	#The monastery of St Antony at the foot of Mount Qalzam, gathered round the cave of Antony the Great after his death in 356
+		holding = church_holding
+	}
 }
 
 6120 = {	#SOUTH_JBL _QUZLUM
@@ -61623,7 +61816,7 @@ rite = antiochian_rite
 	# History
 	867.1.1 = {
 		culture = uyghur
-		rite = vajrayana
+		rite = sarvastivada
 	}
 	930.1.2 = {
 		culture = naiman
@@ -61652,7 +61845,7 @@ rite = antiochian_rite
 	# History
 	867.1.1 = {
 		culture = uyghur
-		rite = vajrayana
+		rite = sarvastivada
 	}
 	930.1.2 = {
 		culture = naiman
@@ -64160,7 +64353,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = konkani
-	rite = yapaniya
+	rite = digambara
 	
 	# History
 }
@@ -64182,7 +64375,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = vaishnavism
+	rite = sri_vaishnavism
 	
 	# History
 }
@@ -64229,7 +64422,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = vaishnavism
+	rite = sri_vaishnavism
 	
 	# History
 	950.1.1 = {
@@ -64254,7 +64447,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = vaishnavism
+	rite = sri_vaishnavism
 	
 	# History
 }
@@ -64298,7 +64491,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = vaishnavism
+	rite = sri_vaishnavism
 	
 	# History
 }
@@ -64486,7 +64679,7 @@ rite = antiochian_rite
 	special_building_slot = ramanathaswamy_temple_01
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = sri_vaishnavism
 	}
 }
 
@@ -64511,7 +64704,7 @@ rite = antiochian_rite
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = sri_vaishnavism
 	}
 }
 
@@ -64536,7 +64729,7 @@ rite = antiochian_rite
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = sri_vaishnavism
 	}
 }
 
@@ -64562,7 +64755,7 @@ rite = antiochian_rite
 	special_building = subramaniya_swamy_temple_01
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = sri_vaishnavism
 	}
 }
 
@@ -64587,7 +64780,7 @@ rite = antiochian_rite
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = sri_vaishnavism
 	}
 }
 
@@ -64607,7 +64800,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = vaishnavism
+	rite = sri_vaishnavism
 	
 	# History
 }
@@ -64630,7 +64823,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = dravida_saiva
 	
 	# History
 }
@@ -64653,7 +64846,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = dravida_saiva
 	
 	# History
 }
@@ -64676,7 +64869,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = dravida_saiva
 	
 	# History
 }
@@ -64698,7 +64891,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
@@ -64724,7 +64917,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = dravida_saiva
 	
 	# History
 }
@@ -64747,7 +64940,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = dravida_saiva
 	
 	# History
 }
@@ -64769,7 +64962,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
@@ -64795,7 +64988,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = dravida_saiva
 	
 	# History
 }
@@ -64818,7 +65011,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = dravida_saiva
 	
 	# History
 }
@@ -64840,11 +65033,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = yapaniya
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = sri_vaishnavism
 	}
 }
 
@@ -64866,7 +65059,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = shaivism
+	rite = dravida_saiva
 	
 	# History
 }
@@ -64888,11 +65081,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = yapaniya
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = sri_vaishnavism
 	}
 }
 
@@ -64913,11 +65106,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = yapaniya
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = sri_vaishnavism
 	}
 }
 
@@ -64938,7 +65131,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
@@ -64963,7 +65156,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
@@ -64988,11 +65181,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
-		rite = shaivism
+		rite = dravida_saiva
 	}
 }
 
@@ -65013,7 +65206,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
@@ -65038,7 +65231,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
@@ -65063,7 +65256,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
@@ -65088,7 +65281,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
@@ -65118,7 +65311,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
@@ -65148,7 +65341,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	1066.1.1 = {
@@ -65178,7 +65371,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	
@@ -65190,13 +65383,13 @@ rite = antiochian_rite
 		}
 	}
 	
+	850.1.1 = {
+		rite = dravida_saiva # Vijayalaya Chola takes Thanjavur (c. 848); Chola patronage of the Shaiva temples
+	}
 	1025.1.1 = {
 		buildings = {
 			castle_03
 		}
-	}
-	1066.1.1 = {
-		rite = krishnaism
 	}
 }
 
@@ -65222,7 +65415,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tamil
-	rite = svetambara
+	rite = dravida_sangha
 	
 	# History
 	768.1.1 = {
@@ -65261,11 +65454,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -65287,11 +65480,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -65313,11 +65506,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	special_building_slot = mallikarjuna_temple_01
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -65338,11 +65531,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -65364,11 +65557,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -65390,11 +65583,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -65416,11 +65609,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -65442,11 +65635,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = svetambara
+	rite = digambara
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -65535,7 +65728,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65557,7 +65750,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65579,7 +65772,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65601,7 +65794,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65623,7 +65816,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65645,7 +65838,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65667,7 +65860,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65689,7 +65882,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65711,7 +65904,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65733,7 +65926,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65755,7 +65948,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65777,7 +65970,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65824,7 +66017,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = yapaniya
+	rite = digambara
 	
 	# History
 }
@@ -65846,7 +66039,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = yapaniya
+	rite = digambara
 	
 	# History
 }
@@ -65868,7 +66061,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = yapaniya
+	rite = digambara
 	
 	# History
 	special_building_slot = gammateshwara_statue_01
@@ -65894,7 +66087,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = yapaniya
+	rite = digambara
 	
 	# History
 }
@@ -65961,7 +66154,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -65984,7 +66177,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66008,7 +66201,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66032,7 +66225,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66080,7 +66273,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 	1150.1.1 = {
@@ -66107,7 +66300,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 	700.1.1 = {
@@ -66133,7 +66326,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66155,7 +66348,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66289,7 +66482,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = digambara
+	rite = yapaniya
 	
 	# History
 }
@@ -66310,7 +66503,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66331,7 +66524,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kannada
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66487,7 +66680,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -66508,7 +66701,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -66529,7 +66722,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -66594,7 +66787,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 	700.1.1 = {
@@ -66643,7 +66836,7 @@ rite = antiochian_rite
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -66666,7 +66859,7 @@ rite = antiochian_rite
 	
 	# History
 	1066.1.1 = {
-		rite = shaivism
+		rite = kalamukha
 	}
 }
 
@@ -66684,7 +66877,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66703,7 +66896,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66727,7 +66920,7 @@ rite = antiochian_rite
 	
 	# History
 	1066.1.1 = {
-		rite = shaivism
+		rite = kalamukha
 	}
 }
 
@@ -66747,7 +66940,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66769,7 +66962,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 	
@@ -66796,7 +66989,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66818,7 +67011,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -66840,7 +67033,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	holding = castle_holding
 	
@@ -66864,7 +67057,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	holding = church_holding
 	
@@ -66888,7 +67081,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 	769.1.1 = {
@@ -66967,7 +67160,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = telugu
-	rite = shaivism
+	rite = kalamukha
 	
 	# History
 }
@@ -67136,7 +67329,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -67157,7 +67350,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = shaivism
+	rite = mattamayura
 	
 	# History
 }
@@ -67178,7 +67371,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = shaivism
+	rite = mattamayura
 	
 	# History
 }
@@ -67199,7 +67392,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = shaivism
+	rite = mattamayura
 	
 	# History
 }
@@ -67223,7 +67416,7 @@ rite = antiochian_rite
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 	1100.1.1 = {
 		holding = castle_holding
@@ -67249,7 +67442,7 @@ rite = antiochian_rite
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -67271,7 +67464,7 @@ rite = antiochian_rite
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -67288,7 +67481,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -67306,7 +67499,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -67324,7 +67517,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = marathi
-	rite = vaishnavism
+	rite = bhagavata
 	
 	# History
 }
@@ -67347,7 +67540,7 @@ rite = antiochian_rite
 	
 	# History
 	1066.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata
 	}
 }
 
@@ -67355,7 +67548,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = punjabi
-	rite = mahayana
+	rite = sarvastivada
 	
 	# History
 
@@ -67501,7 +67694,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -67516,7 +67709,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -67531,7 +67724,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -67553,7 +67746,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -67576,7 +67769,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -67622,7 +67815,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -67674,7 +67867,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tocharian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -67691,7 +67884,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tocharian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = church_holding
 	
@@ -67708,7 +67901,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tocharian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = city_holding
 	
@@ -67725,7 +67918,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tocharian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -68018,7 +68211,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = khitan
-	rite = vajrayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -68103,7 +68296,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = khitan
-	rite = vajrayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -68134,7 +68327,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = khitan
-	rite = vajrayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -68148,7 +68341,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = khitan
-	rite = vajrayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -68743,6 +68936,9 @@ rite = antiochian_rite
 8336 = {	#DABAHU
 	holding = none
 	#holding = castle_holding
+	1248.1.1 = {	#Hayq Estifanos, where Iyasus Moa gathered his monks on the island of the lake
+		holding = church_holding
+	}
 }
 
 8337 = {	#SOUTH_DANAKIL
@@ -71396,7 +71592,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -71432,7 +71628,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -71513,7 +71709,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -71534,7 +71730,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = city_holding
 	
@@ -71552,7 +71748,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = church_holding
 	
@@ -71584,7 +71780,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -71605,7 +71801,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = city_holding
 	
@@ -71623,7 +71819,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = church_holding
 	
@@ -71641,7 +71837,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -71662,7 +71858,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = church_holding
 	
@@ -71700,7 +71896,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = church_holding
 	
@@ -71717,7 +71913,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = balti
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -71737,7 +71933,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = church_holding
 	
@@ -71754,7 +71950,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = city_holding
 	
@@ -71771,7 +71967,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -71788,7 +71984,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = shina #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -71805,7 +72001,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = church_holding
 	
@@ -71822,7 +72018,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = balti
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -71842,7 +72038,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = church_holding
 	
@@ -71859,7 +72055,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = balti
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -71879,7 +72075,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kashmiri #Dardic
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = city_holding
 	
@@ -72146,7 +72342,7 @@ rite = antiochian_rite
 9050 = {
 	# Misc
 	culture = zhangzhung #Kinnauri
-	rite = shaivism
+	rite = pashupata
 	
 	holding = castle_holding
 	
@@ -72573,7 +72769,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = city_holding
 	
@@ -72584,7 +72780,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = church_holding
 	
@@ -72597,7 +72793,7 @@ rite = antiochian_rite
 
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = city_holding
 	
@@ -72610,7 +72806,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	special_building_slot = kedarnath_temple_01
 	special_building = kedarnath_temple_01
 	holding = castle_holding
@@ -72626,7 +72822,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	special_building_slot = badrinath_temple_01
 	special_building = badrinath_temple_01
 	holding = castle_holding
@@ -72641,7 +72837,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = castle_holding
 	
@@ -72663,7 +72859,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = church_holding
 	
@@ -72674,7 +72870,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = castle_holding
 	
@@ -72685,7 +72881,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = city_holding
 	
@@ -72696,7 +72892,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = church_holding
 	
@@ -72718,7 +72914,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = castle_holding
 	
@@ -72740,7 +72936,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = castle_holding
 	
@@ -72751,7 +72947,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = city_holding
 	
@@ -72762,7 +72958,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = church_holding
 	
@@ -72773,7 +72969,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = castle_holding
 	
@@ -72784,7 +72980,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = church_holding
 	
@@ -72795,7 +72991,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = city_holding
 	
@@ -72806,7 +73002,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = church_holding
 	
@@ -72817,7 +73013,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = castle_holding
 	
@@ -72828,7 +73024,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = mahayana
+	rite = madhyamaka
 	special_building_slot = maya_devi_temple_01
 	special_building = maya_devi_temple_01
 	holding = church_holding #The Buddha's Birthplace
@@ -72840,7 +73036,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = magar
-	rite = vajrayana
+	rite = madhyamaka
 	
 	holding = castle_holding
 	
@@ -72851,7 +73047,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = castle_holding
 	
@@ -72862,7 +73058,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = church_holding
 	
@@ -72873,7 +73069,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = city_holding
 	
@@ -72895,7 +73091,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali
-	rite = shaivism
+	rite = pashupata
 	
 	holding = church_holding
 	
@@ -72906,7 +73102,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = newar #Maithili-Newars
-	rite = shaivism
+	rite = newar_buddhism #Svayambhū and the bāhāḥ courtyard monasteries of Kathmandu
 	
 	holding = castle_holding
 	
@@ -72918,7 +73114,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = newar #Newar
-	rite = shaivism
+	rite = pashupata
 	
 	holding = castle_holding
 	
@@ -72929,7 +73125,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = newar #Maithili
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = castle_holding
 	
@@ -72973,7 +73169,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali #Maithili
-	rite = shaivism
+	rite = pashupata
 	
 	holding = church_holding
 	
@@ -72984,7 +73180,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali #Maithili
-	rite = shaivism
+	rite = pashupata
 	
 	holding = city_holding
 	
@@ -73061,7 +73257,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali #Newar
-	rite = shaivism
+	rite = pashupata
 	
 	holding = city_holding
 	
@@ -73072,7 +73268,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali #Newar
-	rite = shaivism
+	rite = pashupata
 	
 	holding = city_holding
 	
@@ -73083,7 +73279,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = nepali #Newar
-	rite = shaivism
+	rite = pashupata
 	
 	holding = church_holding
 	
@@ -73391,7 +73587,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tani
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = tribal_holding
 	
@@ -73402,7 +73598,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = city_holding
 	
@@ -73413,7 +73609,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon
-	rite = vaishnavism
+	rite = bhagavata
 	
 	holding = church_holding
 	
@@ -76405,7 +76601,7 @@ rite = antiochian_rite
 9418 = {	# Shanzhou/Zongge (Ping'an)
 	# Misc
 	culture = liang
-	rite = mahayana
+	rite = sukhavati
 	
 	holding = castle_holding
 	
@@ -76451,7 +76647,7 @@ rite = antiochian_rite
 	} #Tibetans overtake the Xining area
 	1104.1.1 = {
 		culture = liang
-		rite = mahayana
+		rite = dhyana
 	} #Song dynasty retakes Xining after centuries of Tibetan control
 	1140.1.1 = {
 		rite = pundarika 
@@ -76472,7 +76668,7 @@ rite = antiochian_rite
 	} #Tibetans overtake the Xining area
 	1104.1.1 = {
 		culture = han
-		rite = mahayana
+		rite = dhyana
 	} #Song dynasty retakes Xining after centuries of Tibetan control
 }
 
@@ -77262,7 +77458,7 @@ rite = antiochian_rite
 9479 = {	# Subei
 	# Misc
 	culture = tuyuhun
-	rite = vajrayana
+	rite = lamaism
 	
 	holding = castle_holding
 	
@@ -77379,7 +77575,7 @@ rite = antiochian_rite
 	
 	# History
 	926.1.1 = { #Ganzhou Uyghur Kingdom conversion; stays generic Tibetan-influenced Buddhism, not tied to Tangut court school politics
-		rite = vajrayana
+		rite = sukhavati
 	}
 
 }
@@ -77400,7 +77596,7 @@ rite = antiochian_rite
 		culture = yughur
 	}
 	926.1.1 = { #Ganzhou Uyghur Kingdom conversion; stays generic Tibetan-influenced Buddhism, not tied to Tangut court school politics
-		rite = vajrayana
+		rite = sukhavati
 	}
 
 
@@ -77464,7 +77660,7 @@ rite = antiochian_rite
 		rite = manichean
 	}
 	1080.1.1 = {
-		rite = mahayana
+		rite = avatamsaka
 	}
 }
 
@@ -77481,7 +77677,7 @@ rite = antiochian_rite
 9505 = {	# Hangtian
 	# Misc
 	culture = liang
-	rite = mahayana
+	rite = sukhavati
 	
 	holding = castle_holding
 	
@@ -77492,7 +77688,7 @@ rite = antiochian_rite
 	}
 	1050.1.1 = {
 		culture = tangut
-		rite = vajrayana
+		rite = avatamsaka
 	}
 	1140.1.1 = {
 		rite = kagyu #Kagyu imperial preceptor patronage (Tangut court, mid-12th c.)
@@ -77512,7 +77708,7 @@ rite = antiochian_rite
 	
 	# History
 	1000.1.1 = {
-		rite = vajrayana
+		rite = avatamsaka
 	}
 	1032.1.1 = {
 		holding = castle_holding
@@ -77647,14 +77843,14 @@ rite = antiochian_rite
 9518 = {	# Zhenfan/Sogo Khoto (Minqin)
 	# Misc
 	culture = han
-	rite = mahayana
+	rite = sukhavati
 	
 	holding = tribal_holding #farmlands
 	
 	# History
 	769.1.1 = {
 		culture = tangut
-		rite = vajrayana
+		rite = lamaism
 	}
 	1100.1.1 = {
 		rite = kagyu #Kagyu imperial preceptor patronage (Tangut court, mid-12th c.)
@@ -77698,7 +77894,7 @@ rite = antiochian_rite
 	}
 	936.1.1 = {
 		culture = tangut
-		rite = vajrayana
+		rite = avatamsaka
 	}
 	1100.1.1 = {
 		rite = kagyu #Kagyu imperial preceptor patronage (Tangut court, mid-12th c.)
@@ -77708,7 +77904,7 @@ rite = antiochian_rite
 	}
 	1300.1.1 = {
 		culture = liang
-		rite = mahayana
+		rite = dhyana
 	}#Tangut culture begins to be absorbed
 }
 
@@ -77729,11 +77925,13 @@ rite = antiochian_rite
 	}
 	1300.1.1 = {
 		culture = liang
-		rite = mahayana
+		rite = dhyana # Yusseter
+		#rite = mahayana
 	}
 	932.1.1 = {
 		culture = tangut
-		rite = vajrayana
+		rite = avatamsaka # Yusseter
+		#rite = vajrayana
 	}
 	1260.1.1 = {
 		rite = sakya
@@ -77959,25 +78157,23 @@ rite = antiochian_rite
 	holding = none
 }
 
-9550 = {	# Pagan
+9550 = { # Yusseter	# Pagan
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	867.1.1 = {
 		special_building_slot = ananda_temple_01
 		culture = burmese
 	}
 	1056.1.1 = {
-		rite = theravada
+		rite = ramanna
 	}
 	1105.1.1 = {
 		special_building = ananda_temple_01
-	}
-	700.1.1 = {
 	}
 }
 
@@ -78009,16 +78205,16 @@ rite = antiochian_rite
 	holding = none
 }
 
-9556 = {	# Ava
+9556 = { # Yusseter	# Ava
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	1056.1.1 = {
-		rite = theravada
+		rite = ramanna
 	}
 	1040.1.1 = {
 		culture = burmese
@@ -78038,18 +78234,18 @@ rite = antiochian_rite
 	}
 }
 
-9559 = {	# Kyaukse
+9559 = { # Yusseter	# Kyaukse
 	# Note: An important and fertile area of the Pagan period.
-	
+
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = tribal_holding
-	
+
 	# History
 	1056.1.1 = {
-		rite = theravada
+		rite = ramanna
 	}
 	1170.1.1 = {
 		holding = temple_citadel_holding
@@ -78070,16 +78266,16 @@ rite = antiochian_rite
 	holding = none
 }
 
-9562 = {	# Minbu
+9562 = { # Yusseter	# Minbu
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	1056.1.1 = {
-		rite = theravada
+		rite = ramanna
 	}
 	882.1.1 = {
 		culture = burmese
@@ -78105,17 +78301,17 @@ rite = antiochian_rite
 	holding = none
 }
 
-9568 = {	# Sagaing
+9568 = { # Yusseter	# Sagaing
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	1175.1.1 = {
 		culture = burmese
-		rite = theravada
+		rite = ramanna
 	}
 }
 
@@ -78132,19 +78328,19 @@ rite = antiochian_rite
 	}
 }
 
-9571 = {	# Yamethin
+9571 = { # Yusseter	# Yamethin
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	1040.1.1 = {
 		culture = burmese
 	}
 	1050.1.1 = {
-		rite = theravada
+		rite = ramanna
 	}
 }
 
@@ -78160,34 +78356,34 @@ rite = antiochian_rite
 	holding = none
 }
 
-9575 = {	# Magwe
+9575 = { # Yusseter	# Magwe
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	1223.1.1 = {
-		rite = theravada
+		rite = ramanna
 	}
 	882.1.1 = {
 		culture = burmese
 	}
 }
 
-9576 = {	# Vaisali
+9576 = { # Yusseter	# Vaisali
 	# Misc
 	culture = bengali
-	rite = mahayana
-	
+	rite = madhyamaka
+
 	holding = temple_citadel_holding
-	
+
 	# History
 
 	1050.1.1 = {
 		culture = rakhine
-		rite = theravada
+		rite = ramanna
 	}
 }
 
@@ -78215,7 +78411,8 @@ rite = antiochian_rite
 9581 = {	# Ramu
 	# Misc
 	culture = bengali
-	rite = mahayana
+	rite = madhyamaka # Yusseter
+	#rite = mahayana
 
 	holding = temple_citadel_holding
 
@@ -78245,17 +78442,17 @@ rite = antiochian_rite
 	holding = none
 }
 
-9585 = {	# Sandoway
+9585 = { # Yusseter	# Sandoway
 	# Misc
 	culture = bengali
-	rite = mahayana
-	
+	rite = madhyamaka
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	1050.1.1 = {
 		culture = rakhine
-		rite = theravada
+		rite = ramanna
 	}
 }
 
@@ -78267,16 +78464,16 @@ rite = antiochian_rite
 	holding = church_holding
 }
 
-9588 = {	# Sriksetra
+9588 = { # Yusseter	# Sriksetra
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	1000.1.1 = {
-		rite = theravada
+		rite = ramanna
 	}
 	1193.1.1 = {
 		culture = burmese
@@ -78291,31 +78488,31 @@ rite = antiochian_rite
 	holding = none
 }
 
-9591 = {	# Hinthada
+9591 = { # Yusseter	# Hinthada
 	# Misc
 	culture = mon
-	rite = theravada
-	
+	rite = ramanna
+
 	holding = temple_citadel_holding
-	
+
 	# History
-	
+
 }
 
 9592 = {	# Myanaung
 	holding = none
 }
 
-9593 = {	# Toungoo
+9593 = { # Yusseter	# Toungoo
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	1062.1.1 = {
-		rite = theravada
+		rite = ramanna
 	}
 	1100.1.1 = {
 		culture = burmese
@@ -78335,13 +78532,13 @@ rite = antiochian_rite
 	}
 }
 
-9596 = {	# Pegu
+9596 = { # Yusseter	# Pegu
 	# Misc
 	culture = mon
-	rite = theravada
-	
+	rite = ramanna
+
 	holding = temple_citadel_holding
-	
+
 	# History
 
 }
@@ -78350,21 +78547,17 @@ rite = antiochian_rite
 	holding = city_holding
 }
 
-9598 = {	# Dagon
+9598 = { # Yusseter	# Dagon
 	# Misc
 	culture = mon
-	rite = theravada
-	
+	rite = ramanna
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	867.1.1 = {
 		special_building_slot = shwedagon_pagoda_01
 		special_building = shwedagon_pagoda_01
-	}
-	860.1.1 = {
-	}
-	900.1.1 = {
 	}
 }
 
@@ -78419,7 +78612,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tocharian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78434,7 +78627,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tocharian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78449,7 +78642,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78461,7 +78654,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78473,7 +78666,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = saka
-	rite = mahayana
+	rite = yogacara
 	
 	holding = castle_holding
 	
@@ -78490,7 +78683,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78502,7 +78695,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = saka
-	rite = mahayana
+	rite = yogacara
 	
 	holding = castle_holding
 	
@@ -78525,7 +78718,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78537,7 +78730,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78549,7 +78742,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78561,7 +78754,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78573,7 +78766,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78585,7 +78778,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78597,7 +78790,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sogdian
-	rite = mahayana
+	rite = yogacara
 	
 	holding = none
 	
@@ -78609,7 +78802,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = saka
-	rite = mahayana
+	rite = yogacara
 	
 	holding = castle_holding
 	
@@ -78678,13 +78871,13 @@ rite = antiochian_rite
 	holding = none
 }
 
-9627 = {	# Thaton
+9627 = { # Yusseter	# Thaton
 	# Misc
 	culture = mon
-	rite = theravada
-	
+	rite = ramanna
+
 	holding = temple_citadel_holding
-	
+
 	# History
 
 }
@@ -78705,14 +78898,14 @@ rite = antiochian_rite
 	holding = none
 }
 
-9632 = {	# Kusumi (AKA Bassein)
-	
+9632 = { # Yusseter	# Kusumi (AKA Bassein)
+
 	# Misc
 	culture = mon
-	rite = theravada
-	
+	rite = ramanna
+
 	holding = temple_citadel_holding
-	
+
 	# History
 
 }
@@ -78738,13 +78931,13 @@ rite = antiochian_rite
 	holding = none
 }
 
-9637 = {	# Sittaung
+9637 = { # Yusseter	# Sittaung
 	# Misc
 	culture = mon
-	rite = theravada
-	
+	rite = ramanna
+
 	holding = temple_citadel_holding
-	
+
 	# History
 
 }
@@ -78762,17 +78955,17 @@ rite = antiochian_rite
 	}
 }
 
-9640 = {	# Madaya
+9640 = { # Yusseter	# Madaya
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 	1175.1.1 = {
 		culture = burmese
-		rite = theravada
+		rite = ramanna
 	}
 }
 
@@ -78788,24 +78981,24 @@ rite = antiochian_rite
 	}
 }
 
-9643 = {	# Takon (AKA Tagaung)
+9643 = { # Yusseter	# Takon (AKA Tagaung)
 	# Misc
 	culture = pyu
 	rite = ari
-	
+
 	holding = temple_citadel_holding
-	
+
 	# History
 
 	special_building_slot = hpakant_mines_01
-	
+
 	# History
 	867.1.1 = {
 		special_building = hpakant_mines_01
 	}
 	1175.1.1 = {
 		culture = burmese
-		rite = theravada
+		rite = ramanna
 	}
 }
 
@@ -78838,7 +79031,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = oriya
-	rite = vaishnavism
+	rite = jagannatha
 	
 	holding = city_holding
 	
@@ -78850,7 +79043,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = oriya
-	rite = vaishnavism
+	rite = jagannatha
 	
 	holding = church_holding
 	
@@ -78862,7 +79055,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = city_holding
 	
@@ -78874,7 +79067,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = oriya
-	rite = mahayana
+	rite = madhyamaka
 	
 	holding = none
 	
@@ -78886,7 +79079,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = oriya
-	rite = vaishnavism
+	rite = jagannatha
 	
 	holding = none
 	
@@ -78898,7 +79091,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = oriya
-	rite = vaishnavism
+	rite = jagannatha
 	
 	holding = none
 	
@@ -78924,7 +79117,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -78936,7 +79129,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = bihari
-	rite = vajrayana
+	rite = mantranaya
 	
 	holding = none
 	
@@ -79834,11 +80027,14 @@ rite = antiochian_rite
 	}
 }
 
-9768 = {	#ALIFE
+9768 = {	#AVELLINO
 		culture = lombard
 	rite = roman_rite
 	holding = castle_holding
 	1098.1.1 = { culture = sicilian }
+	1124.1.1 = {
+		holding = church_holding
+	}
 }
 
 9769 = {	#BENEVENTO
@@ -81771,6 +81967,9 @@ rite = roman_rite
 
 10125 = {	#SANTHIA
 	holding = none
+	1003.1.1 = {
+		holding = church_holding
+	}
 }
 
 10126 = {	#MONDOVI
@@ -82263,6 +82462,9 @@ rite = roman_rite
 
 10287 = {	#WAREMME
 	holding = none
+	1210.1.1 = {
+		holding = church_holding
+	}
 }
 
 10288 = {	#GELDENAKEN
@@ -85015,7 +85217,8 @@ rite = roman_rite
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 	900.1.1 = {
 		culture = khmer
-		rite = shaivism
+		rite = devaraja # Yusseter
+		#rite = shaivism
 		holding = temple_citadel_holding # Yusseter
 	}
 }
@@ -85053,21 +85256,18 @@ rite = roman_rite
 	holding = church_holding
 }
 
-10809 = {
+10809 = { # Yusseter
 	culture = khmer
-	rite = shaivism
+	rite = devaraja
 	holding = temple_citadel_holding
-	1113.1.1 = {
-		rite = vaishnavism
-	}
 	1181.1.1 = {
-		rite = mahayana
+		rite = lokesvara
 	}
 	1243.1.1 = {
-		rite = shaivism
+		rite = devaraja
 	}
 	1295.1.1 = {
-		rite = theravada
+		rite = mahavihara
 	}
 }
 
@@ -85075,21 +85275,18 @@ rite = roman_rite
 	holding = church_holding
 }
 
-10811 = {
+10811 = { # Yusseter
 	culture = khmer
-	rite = shaivism
+	rite = devaraja
 	holding = temple_citadel_holding
-	1113.1.1 = {
-		rite = vaishnavism
-	}
 	1181.1.1 = {
-		rite = mahayana
+		rite = lokesvara
 	}
 	1243.1.1 = {
-		rite = shaivism
+		rite = devaraja
 	}
 	1295.1.1 = {
-		rite = theravada
+		rite = mahavihara
 	}
 }
 
@@ -85109,9 +85306,9 @@ rite = roman_rite
 	holding = none
 }
 
-10816 = {
+10816 = { # Yusseter
 	culture = khmer
-	rite = shaivism
+	rite = devaraja
 	holding = temple_citadel_holding
 	special_building_slot = angkor_wat_01
 
@@ -85120,19 +85317,16 @@ rite = roman_rite
 		special_building = angkor_wat_01
 	}
 	802.1.1 = {
-		rite = shaivism
-	}
-	1113.1.1 = {
-		rite = vaishnavism
+		rite = devaraja
 	}
 	1181.1.1 = {
-		rite = mahayana
+		rite = lokesvara
 	}
 	1243.1.1 = {
-		rite = shaivism
+		rite = devaraja
 	}
 	1295.1.1 = {
-		rite = theravada
+		rite = mahavihara
 	}
 }
 
@@ -85153,25 +85347,32 @@ rite = roman_rite
 	}
 	1170.1.1 = {
 		culture = lue
-		rite = mahayana
+		rite = lokesvara # Yusseter
+		#rite = mahayana
 	}
 }
 
-10821 = { #b_khu_bua
+10821 = { # Yusseter #b_khu_bua
 	culture = mon
-	rite = theravada
+	rite = ramanna
 	holding = temple_citadel_holding
+	1300.1.1 = {
+		rite = mahavihara
+	}
 }
 
-10822 = {	#b_lop_buri
+10822 = { # Yusseter	#b_lop_buri
 	culture = mon
-	rite = theravada
+	rite = ramanna
 	holding = temple_citadel_holding
 	1150.1.1 = {
 		culture = tai
 	}
 	1230.1.1 = {
 		culture = siamese
+	}
+	1300.1.1 = {
+		rite = mahavihara
 	}
 }
 
@@ -85243,7 +85444,8 @@ rite = roman_rite
 
 10835 = {
 	culture = khmer
-	rite = shaivism
+	rite = chamic_shaivism # Yusseter
+	#rite = shaivism
 	holding = temple_citadel_holding
 }
 
@@ -85600,7 +85802,8 @@ rite = roman_rite
 	holding = tribal_holding
 	1180.1.1 = {
 		culture = lue
-		rite = mahayana
+		rite = lokesvara # Yusseter
+		#rite = mahayana
 	}
 }
 
@@ -85623,7 +85826,8 @@ rite = roman_rite
 	rite = satsana_phi
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 	1050.1.1 = {
-		rite = theravada
+		rite = ramanna # Yusseter
+		#rite = theravada
 	}
 	1315.1.1 = {
 		culture = lanna
@@ -85687,24 +85891,21 @@ rite = roman_rite
 	holding = city_holding
 }
 
-10908 = {
+10908 = { # Yusseter
 	culture = khmer
-	rite = shaivism
+	rite = devaraja
 	holding = temple_citadel_holding
 	900.1.1 = {
-		rite = shaivism
-	}
-	1113.1.1 = {
-		rite = vaishnavism
+		rite = devaraja
 	}
 	1181.1.1 = {
-		rite = mahayana
+		rite = lokesvara
 	}
 	1243.1.1 = {
-		rite = shaivism
+		rite = devaraja
 	}
 	1295.1.1 = {
-		rite = theravada
+		rite = mahavihara
 	}
 }
 
@@ -85714,16 +85915,13 @@ rite = roman_rite
 	holding = temple_citadel_holding
 }
 
-10911 = { #b_nakhon_pathom
+10911 = { # Yusseter #b_nakhon_pathom
 	culture = mon
-	rite = theravada
+	rite = ramanna
 	holding = temple_citadel_holding
-	1200.1.1 = {
-	}
 	1300.1.1 = {
 		culture = siamese
-	}
-	600.1.1 = {
+		rite = mahavihara
 	}
 }
 
@@ -85733,7 +85931,8 @@ rite = roman_rite
 	holding = temple_citadel_holding
 	1050.1.1 = {
 		culture = khmer
-		rite = shaivism
+		rite = devaraja # Yusseter
+		#rite = shaivism
 	}
 }
 
@@ -85747,7 +85946,8 @@ rite = roman_rite
 	holding = temple_citadel_holding
 	1100.1.1 = {
 		culture = khmer
-		rite = shaivism
+		rite = devaraja # Yusseter
+		#rite = shaivism
 	}
 }
 
@@ -85789,7 +85989,8 @@ rite = roman_rite
 
 10924 = {
 	culture = khmer
-	rite = shaivism
+	rite = devaraja # Yusseter
+	#rite = shaivism
 	holding = temple_citadel_holding
 }
 
@@ -85803,21 +86004,18 @@ rite = roman_rite
 	holding = church_holding
 }
 
-10927 = {
+10927 = { # Yusseter
 	culture = khmer
-	rite = shaivism
+	rite = devaraja
 	holding = temple_citadel_holding
-	1113.1.1 = {
-		rite = vaishnavism
-	}
 	1181.1.1 = {
-		rite = mahayana
+		rite = lokesvara
 	}
 	1243.1.1 = {
-		rite = shaivism
+		rite = devaraja
 	}
 	1295.1.1 = {
-		rite = theravada
+		rite = mahavihara
 	}
 }
 
@@ -85862,10 +86060,12 @@ rite = roman_rite
 
 10935 = {
 	culture = mon
-	rite = mahayana
+	rite = ramanna # Yusseter
+	#rite = mahayana
 	holding = temple_citadel_holding
 	1250.1.1 = {
-		rite = theravada
+		rite = mahavihara # Yusseter
+		#rite = theravada
 	}
 }
 
@@ -85935,13 +86135,15 @@ rite = roman_rite
 
 10952 = { #b_lampang
 	culture = mon
-	rite = mahayana
+	rite = ramanna # Yusseter
+	#rite = mahayana
 	holding = temple_citadel_holding
 	1100.1.1 = {
 		culture = tai
 	}
 	1280.1.1 = {
-		rite = theravada
+		rite = ramanna # Yusseter
+		#rite = theravada
 	}
 	1315.1.1 = {
 		culture = lanna
@@ -85975,10 +86177,12 @@ rite = roman_rite
 		culture = siamese
 	}
 	1250.1.1 = {
-		rite = theravada
+		rite = mahavihara # Yusseter
+		#rite = theravada
 	}
 	800.1.1 = {
-		rite = mahayana
+		rite = ramanna # Yusseter
+		#rite = mahayana
 	}
 }
 
@@ -85996,7 +86200,8 @@ rite = roman_rite
 
 10960 = {
 	culture = wa
-	rite = theravada
+	rite = ramanna # Yusseter
+	#rite = theravada
 	holding = tribal_holding
 
 	1070.1.1 = {
@@ -86010,15 +86215,18 @@ rite = roman_rite
 	}
 }
 
-10961 = { #b_sukhothai
+10961 = { # Yusseter #b_sukhothai
 	culture = mon
-	rite = theravada
+	rite = ramanna
 	holding = temple_citadel_holding
 	1100.1.1 = {
 		culture = tai
 	}
 	1230.1.1 = {
 		culture = siamese
+	}
+	1277.1.1 = {
+		rite = mahavihara
 	}
 }
 
@@ -86057,7 +86265,8 @@ rite = roman_rite
 	rite = satsana_phi
 	holding = tribal_holding
 	1060.1.1 = {
-		rite = theravada
+		rite = ramanna # Yusseter
+		#rite = theravada
 	}
 	1100.1.1 = {
 		culture = shan
@@ -86144,7 +86353,8 @@ rite = roman_rite
 	}
 	1050.1.1 = {
 		culture = tai
-		rite = theravada
+		rite = ramanna # Yusseter
+		#rite = theravada
 	}
 	1100.1.1 = {
 		culture = shan
@@ -86183,7 +86393,8 @@ rite = roman_rite
 
 10995 = { #b_thanbyuzayat
 	culture = mon
-	rite = theravada
+	rite = ramanna # Yusseter
+	#rite = theravada
 	holding = tribal_holding
 	1070.1.1 = {
 		holding = temple_citadel_holding
@@ -86328,7 +86539,8 @@ rite = roman_rite
 		culture = pampangan
 	}
 	900.1.1 = {
-		rite = vajrayana
+		rite = kasogatan # Yusseter
+		#rite = vajrayana
 		holding = castle_holding # Yusseter
 	}
 }
@@ -86422,7 +86634,8 @@ rite = roman_rite
 	rite = malyari
 	holding = tribal_holding
 	1000.1.1 = {
-		rite = vajrayana
+		rite = kasogatan # Yusseter
+		#rite = vajrayana
 		holding = castle_holding # Yusseter
 	}
 	970.1.1 = {
@@ -86640,7 +86853,8 @@ rite = roman_rite
 	}
 	1060.1.1 = {
 		culture = bisaya
-		rite = vajrayana
+		rite = kasogatan # Yusseter
+		#rite = vajrayana
 	}
 }
 
@@ -86759,7 +86973,8 @@ rite = roman_rite
 
 11102 = {	#b_BOR_Brunei
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = temple_citadel_holding
 }
 
@@ -86848,7 +87063,8 @@ rite = roman_rite
 
 11118 = {	#b_BOR_Santubong
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = tribal_holding # Yusseter: temple_citadel_holding
@@ -86883,7 +87099,8 @@ rite = roman_rite
 
 11125 = {	#b_BOR_Sukadana
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = temple_citadel_holding
 }
 
@@ -86901,7 +87118,8 @@ rite = roman_rite
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 	1300.1.1 = {
 		culture = banjar
-		rite = shaivism
+		rite = kasaiwan # Yusseter
+		#rite = shaivism
 	}
 }
 
@@ -86911,7 +87129,8 @@ rite = roman_rite
 	holding = tribal_holding
 	1300.1.1 = {
 		culture = banjar
-		rite = shaivism
+		rite = kasaiwan # Yusseter
+		#rite = shaivism
 	}
 }
 
@@ -86933,7 +87152,8 @@ rite = roman_rite
 
 11134 = {	#b_BOR_Banjar
 	culture = ngaju
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = castle_holding # Yusseter: tribal_holding
 	1300.1.1 = {
 		culture = banjar
@@ -86942,7 +87162,8 @@ rite = roman_rite
 
 11135 = {	#b_BOR_Taiao
 	culture = ngaju
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = castle_holding # Yusseter: tribal_holding
 	1066.1.1 = {
 		holding = temple_citadel_holding
@@ -86965,7 +87186,8 @@ rite = roman_rite
 
 11138 = {	#b_BOR_Pasir
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = castle_holding # Yusseter: tribal_holding
 	1066.1.1 = {
 		holding = temple_citadel_holding
@@ -87009,7 +87231,8 @@ rite = roman_rite
 
 11146 = {	#b_BOR_Muara_Kaman
 	culture = malay
-	rite = shaivism
+	rite = kasaiwan # Yusseter
+	#rite = shaivism
 	holding = castle_holding # Yusseter: tribal_holding
 
 
@@ -87032,7 +87255,8 @@ rite = roman_rite
 
 11150 = {	#b_BOR_Sangkulirang
 	culture = malay
-	rite = shaivism
+	rite = kasaiwan # Yusseter
+	#rite = shaivism
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = tribal_holding # Yusseter: temple_citadel_holding
@@ -87045,7 +87269,8 @@ rite = roman_rite
 
 11152 = {	#b_BOR_Tapean
 	culture = malay
-	rite = shaivism
+	rite = kasaiwan # Yusseter
+	#rite = shaivism
 	holding = tribal_holding
 }
 
@@ -87110,7 +87335,8 @@ rite = roman_rite
 	rite = aluk
 	holding = tribal_holding
 	1000.1.1 = {
-		rite = vajrayana
+		rite = kasogatan # Yusseter
+		#rite = vajrayana
 	}
 	1300.1.1 = {
 		holding = castle_holding # Yusseter
@@ -87274,7 +87500,8 @@ rite = roman_rite
 	rite = aluk
 	holding = tribal_holding
 	1000.1.1 = {
-		rite = vajrayana
+		rite = kasogatan # Yusseter
+		#rite = vajrayana
 	}
 }
 
@@ -87437,7 +87664,8 @@ rite = roman_rite
 
 11254 = {	#b_SUM_Lamuri
 	culture = acehnese
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = temple_citadel_holding
 	1178.1.1 = {
 		holding = castle_holding
@@ -87457,7 +87685,8 @@ rite = roman_rite
 
 11257 = {	#b_SUM_Perlak
 	culture = acehnese
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = temple_citadel_holding
 	1178.1.1 = {
 		holding = castle_holding
@@ -87489,7 +87718,8 @@ rite = roman_rite
 
 11263 = {	#b_SUM_Panai
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = temple_citadel_holding
 }
 
@@ -87507,7 +87737,8 @@ rite = roman_rite
 
 11267 = {	#b_SUM_Rokan
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = castle_holding # Yusseter: tribal_holding
 	1166.1.1 = {
 		holding = temple_citadel_holding
@@ -87536,7 +87767,8 @@ rite = roman_rite
 
 11272 = {	#b_SUM_Kampar
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = castle_holding # Yusseter: tribal_holding
 	1166.1.1 = {
 		holding = temple_citadel_holding
@@ -87549,7 +87781,8 @@ rite = roman_rite
 
 11274 = {	#b_SUM_Suir
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = castle_holding # Yusseter: tribal_holding
 }
 
@@ -87585,7 +87818,8 @@ rite = roman_rite
 
 11282 = {	#b_SUM_Indragiri
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = temple_citadel_holding
 }
 
@@ -87599,7 +87833,8 @@ rite = roman_rite
 
 11285 = {	#b_SUM_Dharmasraya
 	culture = minangkabau
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = temple_citadel_holding
 }
 
@@ -87639,7 +87874,8 @@ rite = roman_rite
 
 11294 = {	#b_SUM_Jambi
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = temple_citadel_holding
 	special_building_slot = muaro_jambi_01
 	# History
@@ -87654,7 +87890,8 @@ rite = roman_rite
 
 11296 = {	#b_SUM_Palembang
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = temple_citadel_holding
 }
 
@@ -87697,7 +87934,8 @@ rite = roman_rite
 
 11305 = {	#b_SUM_Mesuji
 	culture = komering
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = castle_holding # Yusseter: tribal_holding
 }
 
@@ -87817,7 +88055,8 @@ rite = roman_rite
 
 11330 = {	#b_JAV_Pakuan_Pajajaran
 	culture = sunda
-	rite = vaishnavism
+	rite = kasaiwan # Yusseter
+	#rite = vaishnavism
 	holding = temple_citadel_holding
 }
 
@@ -87839,7 +88078,8 @@ rite = roman_rite
 
 11335 = {	#b_JAV_Cimanuk
 	culture = sunda
-	rite = shaivism
+	rite = kasaiwan # Yusseter
+	#rite = shaivism
 	holding = castle_holding
 }
 
@@ -87849,7 +88089,8 @@ rite = roman_rite
 
 11337 = {	#b_JAV_Kawali
 	culture = sunda
-	rite = shaivism
+	rite = kasaiwan # Yusseter
+	#rite = shaivism
 	holding = temple_citadel_holding
 }
 
@@ -87881,21 +88122,25 @@ rite = roman_rite
 
 11343 = {	#b_JAV_Mataram
 	culture = javanese
-	rite = mahayana
+	rite = kasogatan # Yusseter
+	#rite = mahayana
 	holding = temple_citadel_holding
 	850.1.1 = {
-		rite = shaivism
+		rite = kasaiwan # Yusseter
+		#rite = shaivism
 	}
 }
 
 11344 = {	#b_JAV_Dieng
 	culture = javanese
-	rite = mahayana
+	rite = kasogatan # Yusseter
+	#rite = mahayana
 	holding = castle_holding
 	special_building_slot = dieng_plateau_01
 	special_building = dieng_plateau_01
 	850.1.1 = {
-		rite = shaivism
+		rite = kasaiwan # Yusseter
+		#rite = shaivism
 	}
 }
 
@@ -87945,7 +88190,8 @@ rite = roman_rite
 
 11356 = {	#b_JAV_Kahuripan
 	culture = javanese
-	rite = shaivism
+	rite = kasaiwan # Yusseter
+	#rite = shaivism
 	holding = castle_holding
 	1166.1.1 = {
 		holding = temple_citadel_holding
@@ -87972,7 +88218,8 @@ rite = roman_rite
 
 11361 = {	#b_JAV_Sampang
 	culture = madura
-	rite = shaivism
+	rite = kasaiwan # Yusseter
+	#rite = shaivism
 	holding = temple_citadel_holding
 }
 
@@ -87992,12 +88239,12 @@ rite = roman_rite
 	holding = city_holding
 }
 
-11366 = {	#b_IDO_Bedulu
+11366 = { # Yusseter	#b_IDO_Bedulu
 	culture = bali
-	rite = shaivism
+	rite = kasaiwan
 	holding = temple_citadel_holding
 	special_building_slot = besakih_temple_01
-	
+
 	# History
 	865.1.1 = {
 		special_building = besakih_temple_01
@@ -88112,7 +88359,8 @@ rite = roman_rite
 
 11397 = {	#b_MAL_Tumasik
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = castle_holding # Yusseter: tribal_holding
 	1066.1.1 = {
 		holding = castle_holding
@@ -88158,7 +88406,8 @@ rite = roman_rite
 
 11406 = {	#b_MAL_Pekan
 	culture = malay
-	rite = vajrayana
+	rite = kasogatan # Yusseter
+	#rite = vajrayana
 	holding = temple_citadel_holding
 }
 
@@ -88186,7 +88435,8 @@ rite = roman_rite
 
 11412 = {	#b_MAL_Kelantan
 	culture = malay
-	rite = shaivism
+	rite = dravida_saiva # Yusseter
+	#rite = shaivism
 	holding = castle_holding
 	1078.1.1 = {
 		holding = temple_citadel_holding
@@ -88199,7 +88449,8 @@ rite = roman_rite
 
 11414 = {	#b_MAL_Patani
 	culture = malay
-	rite = shaivism
+	rite = dravida_saiva # Yusseter
+	#rite = shaivism
 	holding = temple_citadel_holding
 }
 
@@ -88213,7 +88464,8 @@ rite = roman_rite
 
 11417 = {	#b_MAL_Kedah
 	culture = malay
-	rite = shaivism
+	rite = dravida_saiva # Yusseter
+	#rite = shaivism
 	holding = temple_citadel_holding
 	1130.1.1 = {
 		rite = shafii
@@ -88233,7 +88485,8 @@ rite = roman_rite
 
 11420 = {	#b_MAL_Beruas
 	culture = malay
-	rite = shaivism
+	rite = dravida_saiva # Yusseter
+	#rite = shaivism
 	holding = temple_citadel_holding
 }
 
@@ -88254,11 +88507,13 @@ rite = roman_rite
 
 11424 = {	#b_THAI_Ligor
 	culture = mon
-	rite = shaivism
+	rite = dravida_saiva # Yusseter
+	#rite = shaivism
 	holding = temple_citadel_holding
 	1300.1.1 = {
 		culture = dambro
-		rite = theravada
+		rite = mahavihara # Yusseter
+		#rite = theravada
 	}
 }
 
@@ -88289,11 +88544,13 @@ rite = roman_rite
 		culture = mon
 	}
 	50.1.1 = {
-		rite = vaishnavism
+		rite = bhagavata # Yusseter
+		#rite = vaishnavism
 	}
 	1300.1.1 = {
 		culture = dambro
-		rite = theravada
+		rite = mahavihara # Yusseter
+		#rite = theravada
 	}
 }
 
@@ -88307,7 +88564,8 @@ rite = roman_rite
 
 11432 = {	#b_THAI_Tenasserim
 	culture = mon
-	rite = theravada
+	rite = ramanna # Yusseter
+	#rite = theravada
 	holding = temple_citadel_holding
 }
 
@@ -88327,10 +88585,13 @@ rite = roman_rite
 	holding = none
 }
 
-11437 = {	#b_THAI_Phetchaburi
+11437 = { # Yusseter	#b_THAI_Phetchaburi
 	culture = mon
-	rite = theravada
+	rite = ramanna
 	holding = temple_citadel_holding
+	1300.1.1 = {
+		rite = mahavihara
+	}
 }
 
 11438 = {
@@ -88349,7 +88610,8 @@ rite = roman_rite
 
 11441 = {
 	culture = mon
-	rite = theravada
+	rite = ramanna # Yusseter
+	#rite = theravada
 	holding = temple_citadel_holding
 	1100.1.1 = {
 		culture = tai
@@ -88365,7 +88627,8 @@ rite = roman_rite
 
 11443 = {
 	culture = khmu
-	rite = mahayana
+	rite = ramanna # Yusseter
+	#rite = mahayana
 	holding = temple_citadel_holding
 	900.1.1 = {
 		culture = tai
@@ -88374,7 +88637,8 @@ rite = roman_rite
 		culture = lao
 	}
 	1250.1.1 = {
-		rite = theravada
+		rite = mahavihara # Yusseter
+		#rite = theravada
 	}
 }
 
@@ -88405,15 +88669,18 @@ rite = roman_rite
 	holding = city_holding
 }
 
-11449 = {
+11449 = { # Yusseter
 	culture = mon
-	rite = theravada
+	rite = ramanna
 	holding = temple_citadel_holding
 	1150.1.1 = {
 		culture = tai
 	}
 	1230.1.1 = {
 		culture = siamese
+	}
+	1277.1.1 = {
+		rite = mahavihara
 	}
 }
 
@@ -88562,7 +88829,8 @@ rite = roman_rite
 	rite = burmic
 	holding = castle_holding # Yusseter: tribal_holding
 	1060.1.1 = {
-		rite = theravada
+		rite = ramanna # Yusseter
+		#rite = theravada
 	}
 	1100.1.1 = {
 		culture = shan
@@ -88592,7 +88860,8 @@ rite = roman_rite
 	rite = satsana_phi
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 	1050.1.1 = {
-		rite = theravada
+		rite = ramanna # Yusseter
+		#rite = theravada
 	}
 	1315.1.1 = {
 		culture = lanna
@@ -92254,11 +92523,13 @@ rite = roman_rite
 	}
 	1230.1.1 = {
 		culture = liang
-		rite = mahayana
+		rite = dhyana # Yusseter
+		#rite = mahayana
 	}
 	932.1.1 = {
 		culture = tangut
-		rite = vajrayana
+		rite = avatamsaka # Yusseter
+		#rite = vajrayana
 	}
 }
 
@@ -92272,7 +92543,8 @@ rite = roman_rite
 
 12160 = {	# MINGSHA
 	culture = tuyuhun
-	rite = vajrayana
+	rite = lamaism # Yusseter
+	#rite = vajrayana
 	holding = castle_holding
 	# History
 	1100.1.1 = {
@@ -92280,7 +92552,8 @@ rite = roman_rite
 	}
 	932.1.1 = {
 		culture = tangut
-		rite = vajrayana
+		rite = avatamsaka # Yusseter
+		#rite = vajrayana
 	}
 	1260.1.1 = {
 		rite = sakya
@@ -92300,7 +92573,8 @@ rite = roman_rite
 	}
 	932.1.1 = {
 		culture = tangut
-		rite = vajrayana
+		rite = avatamsaka # Yusseter
+		#rite = vajrayana
 	}
 	1260.1.1 = {
 		rite = sakya
@@ -92317,7 +92591,8 @@ rite = roman_rite
 	}
 	932.1.1 = {
 		culture = tangut
-		rite = vajrayana
+		rite = avatamsaka # Yusseter
+		#rite = vajrayana
 	}
 	1260.1.1 = {
 		rite = sakya
@@ -92599,7 +92874,8 @@ rite = roman_rite
 
 12203 = {	# QIANYUAN
 	culture = han
-	rite = vajrayana
+	rite = lamaism # Yusseter
+	#rite = vajrayana
 	holding = castle_holding
 	special_building = kaibao_mines_01
 	1140.1.1 = {
@@ -93494,11 +93770,13 @@ rite = roman_rite
 
 12352 = {	# HUINING
 	culture = tuyuhun
-	rite = vajrayana
+	rite = lamaism # Yusseter
+	#rite = vajrayana
 	holding = castle_holding
 	932.1.1 = {
 		culture = liang
-		rite = vajrayana
+		rite = avatamsaka # Yusseter
+		#rite = vajrayana
 	}
 }
 
@@ -93711,7 +93989,8 @@ rite = roman_rite
 
 12393 = {	# FUMIN
 	culture = shatuo
-	rite = mahayana
+	rite = dhyana # Yusseter
+	#rite = mahayana
 	holding = castle_holding
 	# History
 	1000.1.1 = {
@@ -93724,7 +94003,8 @@ rite = roman_rite
 
 12394 = {	# CIRLXJ WULANCHABU
 	culture = shatuo
-	rite = mahayana
+	rite = dhyana # Yusseter
+	#rite = mahayana
 	holding = castle_holding
 	1140.1.1 = {
 		rite = eastern_tengri
@@ -93863,7 +94143,8 @@ rite = roman_rite
 
 12413 = {	# CIRLXJ KANGBAO
 	culture = shatuo
-	rite = mahayana
+	rite = dhyana # Yusseter
+	#rite = mahayana
 	holding = castle_holding
 	1140.1.1 = {
 		rite = eastern_tengri
@@ -94288,7 +94569,8 @@ rite = roman_rite
 	holding = tribal_holding
 	1060.1.1 = {
 		culture = tai
-		rite = theravada
+		rite = ramanna # Yusseter
+		#rite = theravada
 	}
 	1100.1.1 = {
 		culture = tai
@@ -94303,15 +94585,18 @@ rite = roman_rite
 	holding = none
 }
 
-12504 = { #b_chakangrao
+12504 = { # Yusseter #b_chakangrao
 	culture = mon
-	rite = theravada
+	rite = ramanna
 	holding = temple_citadel_holding
 	1150.1.1 = {
 		culture = tai
 	}
 	1230.1.1 = {
 		culture = siamese
+	}
+	1277.1.1 = {
+		rite = mahavihara
 	}
 }
 
@@ -94341,16 +94626,19 @@ rite = roman_rite
 
 12511 = {
 	culture = mon
-	rite = mahayana
+	rite = ramanna # Yusseter
+	#rite = mahayana
 	holding = temple_citadel_holding
 	1250.1.1 = {
-		rite = theravada
+		rite = mahavihara # Yusseter
+		#rite = theravada
 	}
 }
 
 12512 = {
 	culture = mon
-	rite = mahayana
+	rite = ramanna # Yusseter
+	#rite = mahayana
 	holding = temple_citadel_holding
 	900.1.1 = {
 		culture = kuy
@@ -94882,14 +95170,16 @@ rite = roman_rite
 	# History
 	1002.1.1 = {
 		culture = tangut
-		rite = vajrayana
+		rite = avatamsaka # Yusseter
+		#rite = vajrayana
 	}
 	1140.1.1 = {
 		rite = kagyu
 	}
 	1230.1.1 = {
 		culture = liang
-		rite = mahayana
+		rite = dhyana # Yusseter
+		#rite = mahayana
 	}
 }
 
@@ -94902,11 +95192,13 @@ rite = roman_rite
 
 12962 = {	# WULAN
 	culture = tuyuhun
-	rite = vajrayana
+	rite = lamaism # Yusseter
+	#rite = vajrayana
 	holding = castle_holding
 	932.1.1 = {
 		culture = liang
-		rite = vajrayana
+		rite = avatamsaka # Yusseter
+		#rite = vajrayana
 	}
 }
 
@@ -95444,7 +95736,8 @@ rite = roman_rite
 
 13080 = {	# YUNZHOU 6
 	culture = shatuo
-	rite = mahayana
+	rite = dhyana # Yusseter
+	#rite = mahayana
 	holding = castle_holding
 	923.1.1 = {
 		culture = jin
@@ -95658,7 +95951,8 @@ rite = roman_rite
 	}
 	932.1.1 = {
 		culture = tangut
-		rite = vajrayana
+		rite = avatamsaka # Yusseter
+		#rite = vajrayana
 	}
 	1260.1.1 = {
 		rite = sakya

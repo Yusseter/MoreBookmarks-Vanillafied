@@ -1007,7 +1007,7 @@ holding = church_holding
 
 102 = {		#VALMIERA
 	culture = latgalian
-	rite = baltic_pagan
+	rite = latvian_pagan
 	holding = tribal_holding
 	1224.1.1 = {
 		holding = castle_holding
@@ -1017,7 +1017,7 @@ holding = church_holding
 
 103 = {		#KOKENOIS
 	culture = latgalian
-	rite = baltic_pagan
+	rite = latvian_pagan
 	holding = tribal_holding
 	1202.1.1 = {
 		holding = castle_holding
@@ -1027,7 +1027,7 @@ holding = church_holding
 
 104 = {		#RIGA
 	culture = livonians
-	rite = baltic_pagan
+	rite = estonian_pagan
 	holding = tribal_holding
 	1066.1.1 = {
 		buildings = {
@@ -1054,7 +1054,7 @@ holding = church_holding
 
 107 = {		#MITAU
 	culture = zemgalian
-	rite = baltic_pagan
+	rite = latvian_pagan
 	holding = tribal_holding
 	1290.1.1 = { rite = roman_rite } # To the livonians order.
 	1229.1.1 = {
@@ -1141,7 +1141,7 @@ holding = church_holding
 
 117 = {		#DUNDAGA
 	culture = livonians
-	rite = baltic_pagan
+	rite = estonian_pagan
 	holding = tribal_holding
 	1253.1.1 = {
 		holding = castle_holding
@@ -1169,7 +1169,7 @@ holding = church_holding
 
 120 = {		#RAGNIT
 	culture = prussian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	1274.1.1 = {
 		holding = castle_holding
@@ -1257,7 +1257,7 @@ holding = church_holding
 
 133 = {		#SELPILS
 	culture = selonian
-	rite = baltic_pagan
+	rite = latvian_pagan
 	holding = tribal_holding
 	1218.1.1 = { rite = roman_rite } # Bishopery of Selija
 	1209.1.1 = {
@@ -1275,7 +1275,7 @@ holding = church_holding
 
 136 = {		#JERSIKA
 	culture = latgalian
-	rite = baltic_pagan
+	rite = latvian_pagan
 	holding = tribal_holding
 	1202.1.1 = {
 		holding = castle_holding
@@ -1311,7 +1311,7 @@ holding = church_holding
 
 141 = {		#ALUKSNE
 	culture = latgalian
-	rite = baltic_pagan
+	rite = latvian_pagan
 	holding = tribal_holding
 	1240.1.1 = {
 		holding = castle_holding
@@ -1478,7 +1478,7 @@ holding = church_holding
 
 157 = {		#SUVALKAI
 	culture = sudovian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	1253.1.1 = {
 		holding = castle_holding #Grand Duchy of Lithuania formed
@@ -1500,7 +1500,7 @@ holding = church_holding
 
 161 = {		#GRODNO
 	culture = sudovian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	1253.1.1 = {
 		holding = castle_holding #Grand Duchy of Lithuania formed
@@ -3480,14 +3480,17 @@ holding = church_holding
 	rite = sami_pagan
 }
 
-403 = {	# LINCHUAN
+403 = { # Yusseter	# LINCHUAN
 	culture = yao
 	rite = vinaya
 	holding = castle_holding
 	# History
 	1150.1.1 = {
-		rite = daoxue
+
 		culture = gan
+	}
+	1175.1.1 = {
+		rite = xinxue
 	}
 }
 
@@ -3507,13 +3510,16 @@ holding = church_holding
 	holding = none
 }
 
-418 = {	# NANCHENG
+418 = { # Yusseter	# NANCHENG
 	culture = yao
 	rite = vinaya
 	holding = castle_holding
 	1150.1.1 = {
 		culture = gan
-		rite = daoxue
+
+	}
+	1175.1.1 = {
+		rite = xinxue
 	}
 }
 
@@ -3531,7 +3537,7 @@ holding = church_holding
 	
 	# Misc
 	culture = sitonian
-	rite = sami_pagan
+	rite = finnish_pagan
 }
 
 422 = {	# 422 - BITON
@@ -3547,7 +3553,7 @@ holding = church_holding
 	
 	# Misc
 	culture = sitonian
-	rite = sami_pagan
+	rite = finnish_pagan
 	holding = tribal_holding
 
 }
@@ -3663,7 +3669,7 @@ holding = church_holding
 	
 	# Misc
 	culture = sitonian
-	rite = sami_pagan
+	rite = finnish_pagan
 	
 	holding = tribal_holding
 	
@@ -3739,7 +3745,7 @@ holding = church_holding
 	
 	# Misc
 	culture = sitonian
-	rite = sami_pagan
+	rite = finnish_pagan
 	
 	holding = tribal_holding
 	
@@ -3961,7 +3967,7 @@ rite = byzantine_rite
 	
 	# Misc
 	culture = bulgarian
-	rite = tengri_pagan
+	rite = tangra
 	
 	867.1.1 = { rite = bulgarian_rite } 
 	
@@ -4363,7 +4369,7 @@ rite = byzantine_rite
 
 498 = {	# 498 - Mesembria
 	culture = bulgarian
-	rite = tengri_pagan
+	rite = tangra
 	
 	867.1.1 = { rite = bulgarian_rite } 
 	
@@ -4377,7 +4383,7 @@ rite = byzantine_rite
 	
 	# History
 	holding = castle_holding
-	681.1.1 = { rite = tengri_pagan }
+	681.1.1 = { rite = tangra }
 	865.1.1 = { rite = bulgarian_rite }
 	
 
@@ -4391,7 +4397,7 @@ rite = byzantine_rite
 	# History
 	
 	824.1.1 = { culture = bulgarian }
-	824.1.1 = { rite = tengri_pagan }
+	824.1.1 = { rite = tangra }
 	865.1.1 = { rite = bulgarian_rite }
 
 }
@@ -4486,7 +4492,7 @@ rite = slavic_south
 
 507 = {	# 507 - Nikopolis
 	culture = bulgarian
-	rite = tengri_pagan
+	rite = tangra
 	
 	867.1.1 = { rite = bulgarian_rite } 
 	1066.1.1 = {
@@ -4505,7 +4511,7 @@ rite = slavic_south
 	rite = bulgarian_rite
 	
 	# History
-	681.1.1 = { rite = tengri_pagan }
+	681.1.1 = { rite = tangra }
 	865.1.1 = { rite = bulgarian_rite }
 	
 	#1187.1.1 = { b_slivopole = castle }
@@ -4513,7 +4519,7 @@ rite = slavic_south
 
 509 = {	# 509 - Karvuna
 	culture = bulgarian
-	rite = tengri_pagan
+	rite = tangra
 	
 	867.1.1 = { rite = bulgarian_rite } 
 	
@@ -4526,7 +4532,7 @@ rite = slavic_south
 	rite = bulgarian_rite
 	
 	# History
-	681.1.1 = { rite = tengri_pagan }
+	681.1.1 = { rite = tangra }
 	holding = castle_holding
 	867.1.1 = {
 		buildings = {
@@ -4582,7 +4588,7 @@ rite = slavic_south
 	
 	holding = tribal_holding
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 	
 	854.1.1 = { culture = kabars }
 	895.1.1 = { culture = bulgarian }
@@ -4643,7 +4649,7 @@ rite = slavic_south
 	holding = tribal_holding
 	1046.1.1 = { culture = pecheneg }
 	1046.1.1 = { rite = tengri_pagan }
-	1125.1.1 = { culture = vlach }
+	1125.1.1 = { culture = vlach rite = tangra }
 	1125.1.1 = { rite = byzantine_rite }
 	1220.1.1 = {
 		holding = castle_holding
@@ -4657,7 +4663,7 @@ rite = slavic_south
 
 517 = {		#Temes
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	940.1.1 = { culture = mogyer
@@ -4675,7 +4681,7 @@ rite = slavic_south
 
 518 = {		#Bacs
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	926.1.1 = { culture = mogyer
@@ -4712,7 +4718,7 @@ rite = slavic_south
 
 520 = {		#Bihar / b_nagyvarad
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	895.1.1 = { culture = kabars }
@@ -4726,7 +4732,7 @@ rite = slavic_south
 
 521 = {		#Csanad
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	926.1.1 = { culture = mogyer
@@ -4753,7 +4759,7 @@ rite = slavic_south
 
 523 = {		#Hewes
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	895.1.1 = { culture = mogyer
 	rite = magyar_pagan }
@@ -4772,7 +4778,7 @@ rite = slavic_south
 
 524 = {		#Gemer
 	culture = nitravan
-	rite = tengri_pagan
+	rite = tangra
 	holding = castle_holding
 
 	926.1.1 = { culture = mogyer
@@ -4990,7 +4996,7 @@ rite = slavic_south
 
 539 = {		#Marmaros
 	culture = belocroat
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	#926.1.1 = { culture = mogyer
@@ -5017,7 +5023,7 @@ rite = slavic_south
 	
 	895.1.1 = {
 	culture = kabars 
-	rite = tengri_pagan 
+	rite = tangra 
 	}
 	1000.1.1 = {
 		holding = castle_holding
@@ -5068,7 +5074,7 @@ rite = slavic_south
 	895.1.1 = { culture = pecheneg }
 	900.1.1 = { rite = tengri_pagan } 
 	1046.1.1 = { culture = torkil }
-	1060.1.1 = { culture = cuman }
+	1060.1.1 = { culture = cuman rite = tash_baba }
 	1300.1.1 = {
 		culture = crimean
 	}
@@ -5342,7 +5348,7 @@ rite = slavic_south
 	
 	# Misc
 	culture = mogyer
-	rite = tengri_pagan
+	rite = magyar_pagan
 	
 	# History
 	893.1.1 = { culture = pecheneg }
@@ -5360,7 +5366,7 @@ rite = slavic_south
 	
 # Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 895.1.1 = { culture = pecheneg }
@@ -5379,7 +5385,7 @@ rite = tengri_pagan
 
 # Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 895.1.1 = { culture = pecheneg }
@@ -5398,7 +5404,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = khazar
-	rite = tengri_pagan
+	rite = tangra
 	
 	#holding = castle_holding
 	
@@ -5407,7 +5413,7 @@ rite = tengri_pagan
 1016.1.1 = { culture = pecheneg }
 1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
-1060.1.1 = { culture = cuman } 
+1060.1.1 = { culture = cuman rite = tash_baba } 
 1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
@@ -5468,7 +5474,7 @@ rite = tengri_pagan
 	
 # Misc
 culture = mogyer
-rite = tengri_pagan
+rite = magyar_pagan
 
 # History
 893.1.1 = { culture = pecheneg }
@@ -5488,7 +5494,7 @@ rite = tengri_pagan
 
 566 = {	#566 - Oskol
 	culture = khazar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 
 # History
@@ -5497,8 +5503,8 @@ rite = tengri_pagan
 	895.1.1 = { culture = alan } # was garnisioned by alans.
 	966.1.1 = { culture = torkil } 
 	966.1.1 = { rite = tengri_pagan } 
-	1050.1.1 = { culture = cuman } 
-	1050.1.1 = { rite = tengri_pagan } 
+	1050.1.1 = { culture = cuman rite = tash_baba } 
+	1050.1.1 = { rite = tash_baba } 
 	1236.1.1 = { rite = hanafi } 
 	1236.1.1 = { culture = cuman }
 	1300.1.1 = { culture = chernigovan }
@@ -5625,7 +5631,7 @@ rite = tengri_pagan
 
 575 = {		#Moskva
 	culture = meshchera
-	rite = mari_pagan
+	rite = erzya_pagan
 	holding = tribal_holding
 	1025.1.1 = {
 		holding = castle_holding
@@ -5669,7 +5675,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = meshchera
-	rite = mari_pagan
+	rite = erzya_pagan
 	
 	holding = tribal_holding
 	
@@ -5687,7 +5693,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = meshchera
-	rite = mordvin_pagan
+	rite = erzya_pagan
 	
 	holding = tribal_holding
 	
@@ -5712,7 +5718,7 @@ rite = tengri_pagan
 
 580 = {		#Ryazan
 	culture = meshchera
-	rite = mari_pagan
+	rite = erzya_pagan
 	holding = tribal_holding
 	1020.1.1 = {
 		holding = castle_holding
@@ -5724,7 +5730,7 @@ rite = tengri_pagan
 
 581 = {		#Murom
 	culture = muroma
-	rite = mari_pagan
+	rite = erzya_pagan
 	holding = tribal_holding
 	1025.1.1 = {
 		holding = castle_holding
@@ -5742,7 +5748,7 @@ rite = tengri_pagan
 
 582 = {		#Vladimir
 	culture = meshchera
-	rite = mari_pagan
+	rite = erzya_pagan
 	holding = tribal_holding
 	995.1.1 = {
 		holding = castle_holding
@@ -5765,7 +5771,7 @@ rite = tengri_pagan
 
 584 = {		#Nizhny Novgorod
 	culture = muroma
-	rite = mari_pagan
+	rite = erzya_pagan
 	holding = tribal_holding
 	1221.1.1 = { culture = ryazanian }
 	1221.1.1 = { rite = slavic_rite }
@@ -5825,7 +5831,7 @@ rite = tengri_pagan
 
 590 = {		#Cheboksary
 	culture = chuvash
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 }
 
@@ -5838,15 +5844,15 @@ rite = tengri_pagan
 
 592 = {		#Saratov
 	culture = chuvash
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	825.1.1 = { culture = pecheneg } 
 	867.1.1 = { culture = alan rite = alan_pagan }
-	930.1.1 = { rite = tengri_pagan }
-	940.1.1 = { culture = khazar } 
+	930.1.1 = { rite = alan_pagan }
+	940.1.1 = { culture = khazar rite = tangra } 
 	966.1.1 = { culture = torkil } 
 	1050.1.1 = { culture = cuman } 
-	1050.1.1 = { rite = tengri_pagan } 
+	1050.1.1 = { rite = tash_baba } 
 	1300.1.1 = {
 		culture = kazani
 	}
@@ -5855,7 +5861,7 @@ rite = tengri_pagan
 
 593 = {		#Khopyor
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 	holding = tribal_holding
 	
 # History
@@ -5864,7 +5870,7 @@ rite = tengri_pagan
 893.1.1 = { culture = khazar } 
 966.1.1 = { culture = torkil } 
 1050.1.1 = { culture = cuman } 
-1050.1.1 = { rite = tengri_pagan } 
+1050.1.1 = { rite = tash_baba } 
 1300.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = mishar
@@ -5880,7 +5886,7 @@ rite = tengri_pagan
 	
 # Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 
@@ -5888,7 +5894,7 @@ rite = tengri_pagan
 893.1.1 = { culture = khazar } 
 966.1.1 = { culture = torkil } 
 1050.1.1 = { culture = cuman } 
-1050.1.1 = { rite = tengri_pagan } 
+1050.1.1 = { rite = tash_baba } 
 1300.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = mishar
@@ -5897,7 +5903,7 @@ rite = tengri_pagan
 
 596 = {		#Tana
 	culture = khazar
-	rite = tengri_pagan
+	rite = tangra
 	#holding = castle_holding
 	1000.1.2 = {
 		culture = cuman
@@ -5914,13 +5920,13 @@ rite = tengri_pagan
 	
 	# Misc
 culture = bolghar #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
-rite = tengri_pagan
+rite = tangra
 
 # History
 966.1.1 = { culture = pecheneg }
 1044.1.1 = { culture = torkil }
 1050.1.1 = { culture = cuman } 
-1050.1.1 = { rite = tengri_pagan } 
+1050.1.1 = { rite = tash_baba } 
 1227.1.1 = { rite = hanafi } 
 
 1300.1.1 = {
@@ -6019,12 +6025,12 @@ rite = khabzism
 	
 # Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 808.1.1 = { rite = kabarism }
 1050.1.1 = { culture = cuman } 
-1050.1.1 = { rite = tengri_pagan } 
+1050.1.1 = { rite = tash_baba } 
 1070.1.1 = { culture = kipchak } 
 
 #Mongol invasion
@@ -6047,16 +6053,16 @@ rite = tengri_pagan
 
 607 = {	#607 - Sarkel
 	
-# Misc
-culture = khazar
-rite = tengri_pagan
-holding = tribal_holding
-# History
-1050.1.1 = { culture = cuman } 
-1050.1.1 = { rite = tengri_pagan } 
-1070.1.1 = { culture = kipchak } 
-
-#Mongol invasion
+	# Misc
+	culture = khazar
+	rite = tangra
+	holding = tribal_holding
+	# History
+	1050.1.1 = { culture = cuman } 
+	1050.1.1 = { rite = tash_baba } 
+	1070.1.1 = { culture = kipchak } 
+	
+	#Mongol invasion
 
 	1300.1.1 = {
 		culture = nogai
@@ -6081,7 +6087,7 @@ holding = tribal_holding
 
 609 = {		#Samar
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	922.1.2 = {
 		rite = hanafi
@@ -6093,7 +6099,7 @@ holding = tribal_holding
 
 610 = {		#Bolghar
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	867.1.1 = {
 		buildings = {
@@ -6140,7 +6146,7 @@ holding = tribal_holding
 
 614 = {		#Ashli
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	922.1.2 = {
 		rite = hanafi
@@ -6179,6 +6185,7 @@ holding = tribal_holding
 	}
 	1000.1.2 = {
 		culture = bolghar
+		rite = tangra
 	}
 	1300.1.1 = {
 		culture = kazani
@@ -6197,8 +6204,8 @@ holding = tribal_holding
 	# History
 	893.1.1 = { culture = torkil } 
 	
-	1040.1.1 = { culture = cuman } 
-	1040.1.1 = { rite = tengri_pagan } 
+	1040.1.1 = { culture = cuman rite = tash_baba } 
+	1040.1.1 = { rite = tash_baba } 
 	
 	1225.1.1 = { rite = hanafi } 
 	1300.1.1 = {
@@ -6212,7 +6219,7 @@ holding = tribal_holding
 	
 	# Misc
 	culture = khazar
-	rite = tengri_pagan
+	rite = tangra
 	
 	#holding = castle_holding
 	
@@ -6240,7 +6247,7 @@ holding = tribal_holding
 619 = {		#Saray	AKA "Old Sarai" or "Sarai Batu"
 	# Misc
 	culture = khazar
-	rite = tengri_pagan
+	rite = tangra
 	
 	holding = tribal_holding
 	
@@ -6258,7 +6265,7 @@ holding = tribal_holding
 		culture = kipchak
 	}
 	1050.1.2 = {
-		rite = tengri_pagan
+		rite = tash_baba
 	}
 	1240.1.2 = {
 		culture = mongol 
@@ -6285,7 +6292,7 @@ holding = tribal_holding
 	
 	# Misc
 	culture = khazar
-	rite = tengri_pagan
+	rite = tangra
 	
 	holding = tribal_holding
 	
@@ -6303,7 +6310,7 @@ holding = tribal_holding
 		culture = kipchak
 	}
 	1050.1.2 = {
-		rite = tengri_pagan
+		rite = tash_baba
 	}
 	1240.1.2 = {
 		culture = mongol 
@@ -6337,6 +6344,7 @@ holding = tribal_holding
 	# History
 	1066.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -6367,6 +6375,7 @@ holding = tribal_holding
 	# History
 	1066.1.2 = {
 		culture = kipchak
+		rite = tash_baba
 	}
 	1300.1.1 = {
 		culture = tatars
@@ -7312,8 +7321,8 @@ rite = antiochian_rite #no syriac in CK3
 	holding = tribal_holding
 	
 	# History
-	1150.1.1 = { culture = chutia }
-	1228.1.1 = { culture = ahom holding = castle_holding }
+	1150.1.1 = { culture = chutia rite = kechai_khati }
+	1228.1.1 = { culture = ahom rite = deodhai holding = castle_holding }
 
 }
 
@@ -7841,7 +7850,7 @@ rite = antiochian_rite #no syriac in CK3
 
 853 = { # 853 - Unakoti
     culture = tripuri
-    rite = sanamahi_pagan
+    rite = chaturdasha
     holding = tribal_holding
 }
 
@@ -8311,7 +8320,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bashkir
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -8334,6 +8343,7 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	1055.1.2 = {
 		culture = kimek
+		rite = tash_baba
 	}
 	1300.1.1 = {
 		culture = bashkir
@@ -8382,6 +8392,7 @@ rite = antiochian_rite #no syriac in CK3
 	900.1.1 = { culture = karluk } 
 	1060.1.1 = {
 		culture = kipchak
+		rite = tash_baba
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -9478,7 +9489,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bhil
-	rite = bhagavata
+	rite = badava
 
 	holding = tribal_holding
 	
@@ -9595,7 +9606,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = sambalpuri
-	rite = sarnaism
+	rite = bhagavata
 	
 	holding = tribal_holding
 	
@@ -9691,7 +9702,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = sambalpuri
-	rite = sarnaism
+	rite = bhagavata
 	
 	holding = tribal_holding
 	
@@ -9937,7 +9948,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kamarupi
-	rite = bathouism
+	rite = kechai_khati
 	
 	holding = tribal_holding
 	
@@ -10007,7 +10018,7 @@ rite = antiochian_rite #no syriac in CK3
 	1020.1.1 = { rite = hanafi } 
 	1060.1.1 = {
 		culture = kipchak
-		rite = tengri_pagan
+		rite = tash_baba
 	} 
 	1300.1.1 = {
 		culture = chagatai
@@ -10413,7 +10424,7 @@ rite = antiochian_rite #no syriac in CK3
 
 1205 = {	#Narim	#AKA Narym
 	culture = samoyed
-	rite = kuptyng
+	rite = nenets_pagan
 	
 	holding = herder_holding
 }
@@ -10850,8 +10861,8 @@ rite = antiochian_rite #no syriac in CK3
 1227 = {	# 1227 - Cakrakuta
 	
 	# Misc
-	culture = sambalpuri
-	rite = sarnaism
+	culture = gond
+	rite = koyapunem
 	
 	holding = tribal_holding
 	
@@ -10878,7 +10889,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = oriya
-	rite = kalikula_shaktism
+	rite = dharni
 	
 	holding = tribal_holding
 	
@@ -10886,16 +10897,13 @@ rite = antiochian_rite #no syriac in CK3
 	1066.1.1 = {
 		holding = castle_holding
 	}
-	1150.1.1 = {
-		rite = saura
-	}
 }
 
 1230 = {	# 1230 - Suvarnapura
 	
 	# Misc
 	culture = sambalpuri
-	rite = sarnaism
+	rite = pashupata
 	
 	holding = tribal_holding
 	
@@ -11158,7 +11166,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = sambalpuri
-	rite = sarnaism
+	rite = koyapunem
 	
 	holding = tribal_holding
 	
@@ -11208,8 +11216,8 @@ rite = antiochian_rite #no syriac in CK3
 	#b_barsoor = temple
 	
 	# Misc
-	culture = sambalpuri
-	rite = sarnaism
+	culture = gond
+	rite = koyapunem
 
 	holding = tribal_holding
 
@@ -11431,7 +11439,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bhil
-	rite = saura
+	rite = badava
 
 	holding = tribal_holding
 	
@@ -11584,15 +11592,14 @@ rite = antiochian_rite #no syriac in CK3
 1271 = {	# 1271 - Tripuri
 	
 	# Misc
-	culture = gond
-	rite = koyapunem
+	culture = bagheli
+	rite = mattamayura
 	
 	holding = tribal_holding
 	
 	# History
 	1066.1.1 = {
 		holding = castle_holding
-		rite = bhagavata
 	}
 
 }
@@ -11625,6 +11632,7 @@ rite = antiochian_rite #no syriac in CK3
 	# History
 	930.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -11841,7 +11849,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = bhil
-	rite = saura
+	rite = badava
 
 	holding = castle_holding
 	
@@ -11867,7 +11875,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# History
 
-	995.1.1 = { culture = bhil }
+	995.1.1 = { culture = bhil rite = badava }
 	
 }
 
@@ -12925,7 +12933,7 @@ rite = antiochian_rite #no syriac in CK3
 
 1423 = {	#Nasrabad
 	culture = sogdian
-	rite = manichean
+	rite = khurmazta
 	holding = castle_holding
 	950.1.1 = {
 		culture = karluk
@@ -12976,11 +12984,11 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	#1134.1.1 = {
 	#	culture = qitai
-	#	rite = vajrayana
+	#	rite = yogacara
 	#}
 	1220.1.1 = {
 		culture = oirat
-		rite = tengri_pagan
+		rite = eastern_tengri
 	}
 	1240.1.2 = {
 		holding = castle_holding
@@ -13028,7 +13036,7 @@ rite = antiochian_rite #no syriac in CK3
 	1020.1.1 = { culture = turkish } 
 	1060.1.1 = {
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	} 
 	1300.1.1 = {
 		culture = chagatai
@@ -13050,7 +13058,7 @@ rite = antiochian_rite #no syriac in CK3
 1434 = {	# 1434 - Karkaraly
 	
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -13062,7 +13070,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -13098,7 +13106,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = saka
-	rite = manichean
+	rite = yogacara
 	
 	holding = castle_holding
 	
@@ -13258,12 +13266,12 @@ rite = antiochian_rite #no syriac in CK3
 
 1446 = {	#Kara Khoja	AKA Qocho AKA Gaochan
 	culture = uyghur
-	rite = manichean
+	rite = sarvastivada
 	holding = castle_holding
-	954.2.22 = {
-		rite = sarvastivada
+	866.6.1 = { # Pugu Jun takes Beshbalik and Qocho, and the Uyghur idiquts bring the Manichaean church with them
+		rite = manichean
 	}
-	1001.1.1 = {
+	1008.1.1 = { # The Manichaean monasteries of Qocho are turned into Buddhist temples
 		rite = yogacara
 	}
 	1066.1.1 = {
@@ -13322,12 +13330,12 @@ rite = antiochian_rite #no syriac in CK3
 
 1449 = {	#Bugur	AKA Luntai
 	culture = uyghur
-	rite = manichean
+	rite = sarvastivada
 	holding = castle_holding
-	954.2.22 = {
-		rite = sarvastivada
+	866.6.1 = { # Pugu Jun takes Beshbalik and Qocho, and the Uyghur idiquts bring the Manichaean church with them
+		rite = manichean
 	}
-	1001.1.1 = {
+	1008.1.1 = { # The Manichaean monasteries of Qocho are turned into Buddhist temples
 		rite = yogacara
 	}
 }
@@ -13340,6 +13348,7 @@ rite = antiochian_rite #no syriac in CK3
 	
     900.1.1 = {
         culture = naiman
+        rite = eastern_tengri
     }
  
 	holding = tribal_holding
@@ -13391,6 +13400,7 @@ rite = antiochian_rite #no syriac in CK3
 
     900.1.1 = {
         culture = qun
+        rite = tengri_pagan
     }
     930.1.1 = {
         culture = kerait
@@ -13403,6 +13413,9 @@ rite = antiochian_rite #no syriac in CK3
 	#Historical capital of the Mongol Empire, founded in the XIIIth
 	culture = uyghur
     rite = manichean
+	840.1.1 = { # The Kirghiz destroy the Uyghur khaganate
+		rite = tengri_pagan
+	}
 	holding = tribal_holding
 	867.1.1 = {
 		buildings = {
@@ -13434,10 +13447,11 @@ rite = antiochian_rite #no syriac in CK3
 1458 = {	#Tarvagatai
 	#Named after local mountain
 	culture = siqar
-    rite = ulganism
+    rite = tengri_pagan
 
     900.1.1 = {
         culture = dukha
+        rite = ulganism
     }
 	holding = tribal_holding
 }
@@ -13466,7 +13480,7 @@ rite = antiochian_rite #no syriac in CK3
 	
 	# Misc
 	culture = yeniseian
-	rite = kuptyng
+	rite = yeniseian_pagan
 	
 	holding = nomad_holding
 	
@@ -13475,7 +13489,7 @@ rite = antiochian_rite #no syriac in CK3
 
 1463 = {	#Tomsk	#AKA Erchis
 	culture = samoyed
-	rite = kuptyng
+	rite = nenets_pagan
 	holding = tribal_holding
 	
 }
@@ -13484,11 +13498,12 @@ rite = antiochian_rite #no syriac in CK3
 	holding = none
 }
 
-1469 = {	# PUTIAN
+1469 = { # Yusseter	# PUTIAN
 	culture = min
-	rite = mingism
+	rite = dhyana
 	holding = castle_holding
-	700.1.1 = {
+	850.1.1 = {
+		rite = mingism
 	}
 }
 
@@ -24013,7 +24028,7 @@ rite = carolingian_christianity
 
 2801 = {	#KIEL
 	culture = obotrite
-	rite = slavic_west
+	rite = slavic_prove
 	holding = tribal_holding
 	# Christianity only arrived with the Danish king Valdemar I
 	1172.1.1 = {
@@ -24050,7 +24065,7 @@ rite = carolingian_christianity
 
 2804 = {	#LÜBECK
 	culture = obotrite
-	rite = slavic_west
+	rite = slavic_prove
 	holding = tribal_holding
 	# Christianity only arrived with the Danish king Valdemar I
 	950.1.1 = {
@@ -24078,7 +24093,7 @@ rite = carolingian_christianity
 
 2806 = {	#RATZEBURG
 	culture = obotrite
-	rite = slavic_west
+	rite = slavic_prove
 	holding = tribal_holding
 	1100.1.1 = { rite = roman_rite }
 	1160.1.1 = {
@@ -24090,7 +24105,7 @@ rite = carolingian_christianity
 
 2807 = {	#WISMAR
 	culture = obotrite
-	rite = slavic_west
+	rite = slavic_prove
 	holding = tribal_holding
 	1160.1.1 = {
 		holding = castle_holding
@@ -24102,7 +24117,7 @@ rite = carolingian_christianity
 
 2808 = {	#SCHWERIN
 	culture = obotrite
-	rite = slavic_west
+	rite = slavic_prove
 	holding = tribal_holding
 	1160.1.1 = {
 		holding = castle_holding
@@ -24113,7 +24128,7 @@ rite = carolingian_christianity
 
 2809 = {	#ROSTOCK
 	culture = lutici
-	rite = slavic_west
+	rite = slavic_svarozic
 	holding = tribal_holding
 	1167.1.1 = {
 		holding = castle_holding
@@ -24125,7 +24140,7 @@ rite = carolingian_christianity
 
 2810 = {	#STRALSUND
 	culture = ranian
-	rite = slavic_west
+	rite = slavic_svantevit
 	holding = none
 	850.1.1 = {
 		holding = church_holding
@@ -24139,7 +24154,7 @@ rite = carolingian_christianity
 
 2811 = {	#RUGEN
 	culture = ranian
-	rite = slavic_west
+	rite = slavic_svantevit
 	holding = tribal_holding
 	1168.1.1 = {
 		holding = castle_holding
@@ -24150,7 +24165,7 @@ rite = carolingian_christianity
 
 2812 = {	#WERLE
 	culture = lutici
-	rite = slavic_west
+	rite = slavic_svarozic
 	holding = tribal_holding
 	1165.1.1 = {
 		holding = castle_holding
@@ -24169,7 +24184,7 @@ rite = carolingian_christianity
 
 2814 = {	#HAVELBERG
 	culture = obotrite
-	rite = slavic_west
+	rite = slavic_prove
 	holding = tribal_holding
 	1124.1.1 = {
 		holding = castle_holding
@@ -24193,7 +24208,7 @@ rite = carolingian_christianity
 
 2817 = {	#WOLGAST
 	culture = pommeranian
-	rite = slavic_west
+	rite = slavic_triglav
 	holding = tribal_holding
 	1128.1.1 = {
 		holding = castle_holding
@@ -24206,7 +24221,7 @@ rite = carolingian_christianity
 
 2818 = {	#b_swinoujscie WOLIN
 	culture = pommeranian
-	rite = slavic_west
+	rite = slavic_triglav
 	holding = tribal_holding
 	1128.1.1 = {
 		holding = castle_holding
@@ -24250,7 +24265,7 @@ rite = carolingian_christianity
 
 2823 = {	#SZCZECZIN
 	culture = pommeranian
-	rite = slavic_west
+	rite = slavic_triglav
 	holding = tribal_holding
 	1140.1.1 = {
 		holding = castle_holding
@@ -24275,7 +24290,7 @@ rite = carolingian_christianity
 
 2826 = {	#b_cammin KOLOBRZEG
 	culture = pommeranian
-	rite = slavic_west
+	rite = slavic_triglav
 	holding = tribal_holding
 	1124.1.1 = {
 		holding = castle_holding
@@ -24286,7 +24301,7 @@ rite = carolingian_christianity
 
 2827 = {	#SLUPSK
 	culture = pommeranian
-	rite = slavic_west
+	rite = slavic_triglav
 	holding = tribal_holding
 	1124.1.1 = {
 		holding = castle_holding
@@ -24310,7 +24325,7 @@ rite = carolingian_christianity
 
 2830 = {	#GDANSK
 	culture = pommeranian
-	rite = slavic_west
+	rite = slavic_triglav
 	holding = tribal_holding
 	997.1.1 = {
 		holding = castle_holding
@@ -24356,7 +24371,7 @@ rite = carolingian_christianity
 
 2835 = {	#TRUSO
 	culture = prussian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	1229.1.1 = {
 		holding = castle_holding
@@ -24913,7 +24928,7 @@ holding = none
 
 2906 = {	#MAGDEBURG
 	culture = lutici
-	rite = slavic_west
+	rite = slavic_svarozic
 	867.1.1 = { rite = roman_rite }
 	
 						 
@@ -25750,7 +25765,7 @@ holding = none
 
 3024 = {	#DUBEN
 	culture = polabian
-	rite = slavic_west
+	rite = slavic_prove
 	holding = none
 }
 
@@ -26784,7 +26799,7 @@ holding = none
 
 3152 = {	#b_landsberg SANTOK
 	culture = pommeranian
-	rite = slavic_west
+	rite = slavic_triglav
 	holding = tribal_holding
 	1124.1.1 = {
 		holding = castle_holding
@@ -26799,7 +26814,7 @@ holding = none
 
 3154 = {	#b_soldin CEDYNIA
 	culture = polabian
-	rite = slavic_west
+	rite = slavic_prove
 	holding = tribal_holding
 	1173.1.1 = {
 		holding = castle_holding
@@ -26832,7 +26847,7 @@ holding = none
 
 3158 = {	#BERLIN
 	culture = lutici
-	rite = slavic_west
+	rite = slavic_svarozic
 	holding = tribal_holding
 	1124.1.1 = {
 		holding = castle_holding
@@ -26848,7 +26863,7 @@ holding = none
 
 3160 = {	#PRENZLAU
 	culture = lutici
-	rite = slavic_west
+	rite = slavic_svarozic
 	holding = tribal_holding
 	1124.1.1 = {
 		holding = castle_holding
@@ -26882,7 +26897,7 @@ holding = none
 
 3166 = {	#BRANDENBURG
 	culture = lutici
-	rite = slavic_west
+	rite = slavic_svarozic
 	holding = tribal_holding
 	1124.1.1 = {
 		holding = castle_holding
@@ -26898,7 +26913,7 @@ holding = none
 
 3168 = {	#RUPPIN
 	culture = lutici
-	rite = slavic_west
+	rite = slavic_svarozic
 	holding = tribal_holding
 	1129.1.1 = { rite = roman_rite }
 	1160.1.1 = { culture = saxon } 
@@ -26957,7 +26972,7 @@ holding = none
 
 3175 = {	#BRENE
 	culture = polabian
-	rite = slavic_west
+	rite = slavic_prove
 	holding = none
 	
 	1000.1.1 = {
@@ -27043,7 +27058,7 @@ holding = none
 
 3187 = {	#WALCZ
 	culture = pommeranian
-	rite = slavic_west
+	rite = slavic_triglav
 	holding = tribal_holding
 	1124.1.1 = {
 		holding = castle_holding
@@ -27065,7 +27080,7 @@ holding = none
 
 3190 = {	#b_hammerstein SZCZYTNO
 	culture = pommeranian
-	rite = slavic_west
+	rite = slavic_triglav
 	holding = tribal_holding
 	1124.1.1 = {
 		holding = castle_holding
@@ -27111,7 +27126,7 @@ holding = none
 
 3196 = {	#b_schwetz SWIECIE
 	culture = pommeranian
-	rite = slavic_west
+	rite = slavic_triglav
 	holding = tribal_holding
 	1000.1.1 = {
 		holding = castle_holding
@@ -27129,7 +27144,7 @@ holding = none
 
 3198 = {	#CHELMNO
 	culture = prussian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	1230.1.1 = { rite = roman_rite } 
 	1230.1.1 = {
@@ -27173,7 +27188,7 @@ holding = none
 
 3204 = {	#LECBARG
 	culture = prussian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	1240.1.1 = {
 		holding = castle_holding
@@ -27204,7 +27219,7 @@ holding = none
 
 3208 = {	#RINS
 	culture = prussian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = none
 	997.1.1 = {
 		holding = city_holding
@@ -27231,7 +27246,7 @@ holding = none
 
 3212 = {	#ALNASTEINI
 	culture = galindian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	1284.1.1 = {
 		holding = castle_holding
@@ -27249,7 +27264,7 @@ holding = none
 
 3214 = {	#YLAVIA
 	culture = galindian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	1237.1.1 = {
 		holding = castle_holding
@@ -27266,7 +27281,7 @@ holding = none
 
 3216 = {	#TWANGSTE
 	culture = prussian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	867.1.1 = {
 		buildings = {
@@ -27294,7 +27309,7 @@ holding = none
 
 3218 = {	#POKARWIS
 	culture = prussian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	1242.1.1 = {
 		holding = castle_holding
@@ -27311,7 +27326,7 @@ holding = none
 
 3220 = {	#WORMDETEN
 	culture = prussian
-	rite = baltic_pagan
+	rite = prussian_pagan
 	holding = tribal_holding
 	1237.1.1 = {
 		holding = castle_holding
@@ -30645,7 +30660,7 @@ holding = none
 
 3636 = {	# 3636 - Kran
 	culture = bulgarian
-	rite = tengri_pagan
+	rite = tangra
 	
 	867.1.1 = { rite = bulgarian_rite } 
 	
@@ -30690,7 +30705,7 @@ holding = none
 
 3643 = {	# 3643 - Skopje
 	culture = bulgarian
-	rite = tengri_pagan
+	rite = tangra
 	
 	867.1.1 = { rite = bulgarian_rite } 
 }
@@ -30765,7 +30780,7 @@ holding = none
 
 3656 = {	# 3656 - Velbazhd
 	culture = bulgarian
-	rite = tengri_pagan
+	rite = tangra
 	
 	867.1.1 = { rite = bulgarian_rite } 
 	1175.1.1 = { rite = bogomilist }
@@ -30778,7 +30793,7 @@ holding = none
 
 3658 = {	# 3658 - Vranje
 	culture = bulgarian
-	rite = tengri_pagan
+	rite = tangra
 	
 	867.1.1 = { rite = bulgarian_rite } 
 	1210.1.1 = {
@@ -30896,7 +30911,7 @@ holding = none
 
 3678 = {	# 3678 - Vratsa
 	culture = bulgarian
-	rite = tengri_pagan
+	rite = tangra
 	
 	867.1.1 = { rite = bulgarian_rite } 
 
@@ -30962,7 +30977,7 @@ holding = none
 	holding = castle_holding #Possible it wasn't built till the 800's
 	
 	# History
-	681.1.1 = { rite = tengri_pagan }
+	681.1.1 = { rite = tangra }
 	
 	800.1.1 = {
 		buildings = {
@@ -30987,7 +31002,7 @@ holding = none
 
 3691 = {	# 3691 - Aytos
 	culture = bulgarian
-	rite = tengri_pagan
+	rite = tangra
 	
 	867.1.1 = { rite = bulgarian_rite } 
 }
@@ -31008,7 +31023,7 @@ holding = none
 	
 900.1.1 = { rite = bulgarian_rite }
 1046.1.1 = { culture = pecheneg }
-1046.1.1 = { rite = manichean}
+1046.1.1 = { rite = tengri_pagan }
 1091.4.29 = { culture = bulgarian }
 1091.4.29 = { rite = bulgarian_rite }
 }
@@ -31266,7 +31281,7 @@ rite = byzantine_rite
 
 3739 = {	#Szerem
 	culture = slavonian
-	rite = tengri_pagan
+	rite = tangra
 
 	holding = tribal_holding
 	1000.1.1 = {
@@ -31625,7 +31640,7 @@ rite = byzantine_rite
 
 3803 = {	#Buda
 	culture = blatno_slavic
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	925.1.1 = { culture = mogyer
@@ -31650,7 +31665,7 @@ rite = byzantine_rite
 
 3805 = {	#Szekesfehervar
 	culture = blatno_slavic
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	895.1.1 = { culture = mogyer
 	rite = magyar_pagan }
@@ -31703,7 +31718,7 @@ rite = byzantine_rite
 
 3809 = {	#Komarom
 	culture = nitravan
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	940.1.1 = { rite = roman_rite }
 	997.1.1 = {
@@ -31758,7 +31773,7 @@ rite = byzantine_rite
 
 3815 = {	#Poszony
 	culture = nitravan
-	rite = tengri_pagan
+	rite = tangra
 	holding = castle_holding
 
 	940.1.1 = { rite = roman_rite }
@@ -31778,7 +31793,7 @@ rite = byzantine_rite
 
 3817 = {	#Sopron
 	culture = carantanian
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	997.1.1 = {
@@ -31809,7 +31824,7 @@ rite = byzantine_rite
 
 3820 = {	#Vasvar
 	culture = dudlebian
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	950.1.1 = { culture = mogyer
 	rite = magyar_pagan }
@@ -31842,7 +31857,7 @@ rite = byzantine_rite
 
 3823 = {	#Gyor
 	culture = nitravan
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 
 	997.1.1 = {
@@ -31874,7 +31889,7 @@ rite = byzantine_rite
 
 3826 = {	#Veszprem
 	culture = blatno_slavic
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	950.1.1 = { culture = mogyer
 	rite = magyar_pagan }
@@ -31891,7 +31906,7 @@ rite = byzantine_rite
 
 3827 = {	#Kolon
 	culture = dudlebian
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	950.1.1 = { culture = mogyer
 	rite = magyar_pagan }
@@ -31958,7 +31973,7 @@ rite = byzantine_rite
 
 3835 = {	#Somogyvar
 	culture = blatno_slavic
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	1000.1.1 = {
@@ -32003,7 +32018,7 @@ rite = byzantine_rite
 
 3839 = {	#Tolna
 	culture = blatno_slavic
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	895.1.1 = { culture = kabars }
 	1000.1.1 = {
@@ -32033,7 +32048,7 @@ rite = byzantine_rite
 
 3842 = {	#Baranyavar
 	culture = blatno_slavic
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	895.1.1 = { culture = kabars }
 	1000.1.1 = {
@@ -32205,7 +32220,7 @@ rite = byzantine_rite
 
 3863 = {	#Bodrog
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	926.1.1 = { culture = mogyer
@@ -32234,7 +32249,7 @@ rite = byzantine_rite
 
 3865 = {	#Csongrad
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	895.1.1 = { culture = mogyer
@@ -32317,7 +32332,7 @@ rite = byzantine_rite
 
 3873 = {	#Bekes
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	926.1.1 = { culture = mogyer
@@ -32350,7 +32365,7 @@ rite = byzantine_rite
 
 3877 = {	#Kevevar
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	940.1.1 = { culture = mogyer
@@ -32454,7 +32469,7 @@ rite = byzantine_rite
 
 3889 = {	#Szabolcs
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	895.1.1 = { culture = kabars }
@@ -32557,7 +32572,7 @@ rite = byzantine_rite
 
 3903 = {	#Zarand
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	926.1.1 = { culture = mogyer
@@ -32580,7 +32595,7 @@ rite = byzantine_rite
 
 3905 = {	#Arad
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	940.1.1 = { culture = mogyer
@@ -32607,7 +32622,7 @@ rite = byzantine_rite
 
 3907 = {	#Szatmar
 	culture = avar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	926.1.1 = { culture = mogyer
@@ -32702,7 +32717,7 @@ rite = byzantine_rite
 
 3919 = {	#Beszterce
 	culture = vlach
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 	926.1.1 = { culture = mogyer
@@ -32755,7 +32770,7 @@ rite = byzantine_rite
 	}
 	895.1.1 = {
 	culture = kabars 
-	rite = tengri_pagan 
+	rite = tangra 
 	}
 	935.1.1 = {
 		special_building = turda_mines_01
@@ -41112,7 +41127,7 @@ rite = antiochian_rite
 	holding = tribal_holding
 	1046.1.1 = { culture = pecheneg }
 	1046.1.1 = { rite = tengri_pagan }
-	1125.1.1 = { culture = vlach }
+	1125.1.1 = { culture = vlach rite = tangra }
 	1125.1.1 = { rite = byzantine_rite }
 	1220.1.1 = {
 		holding = castle_holding
@@ -41145,7 +41160,7 @@ rite = antiochian_rite
 	holding = tribal_holding
 	1046.1.1 = { culture = pecheneg }
 	1046.1.1 = { rite = tengri_pagan }
-	1125.1.1 = { culture = vlach }
+	1125.1.1 = { culture = vlach rite = tangra }
 	1125.1.1 = { rite = byzantine_rite }
 	1220.1.1 = {
 		holding = castle_holding
@@ -41191,14 +41206,14 @@ rite = antiochian_rite
 	holding = tribal_holding
 	# Misc
 	culture = bolghar
-	862.1.1 = { culture = bulgarian }
+	862.1.1 = { culture = bulgarian rite = tangra }
 	
 	rite = tengri_pagan
 	
 	# History
 	900.1.1 = { rite = byzantine_rite culture = bulgarian }
 	927.1.1 = { culture = pecheneg }
-	927.1.1 = { rite = manichean }
+	927.1.1 = { rite = tengri_pagan }
 	1123.1.1 = { culture = vlach }
 	1123.1.1 = { rite = byzantine_rite }
 	1246.1.1 = {
@@ -41230,14 +41245,14 @@ rite = antiochian_rite
 	holding = tribal_holding
 	# Misc
 	culture = bolghar
-	862.1.1 = { culture = bulgarian }
+	862.1.1 = { culture = bulgarian rite = tangra }
 	
 	rite = tengri_pagan
 	
 	# History
 	900.1.1 = { rite = byzantine_rite culture = bulgarian }
 	927.1.1 = { culture = pecheneg }
-	927.1.1 = { rite = manichean }
+	927.1.1 = { rite = tengri_pagan }
 	1123.1.1 = { culture = vlach }
 	1246.1.1 = {
 		rite = vlach_rite
@@ -41258,7 +41273,7 @@ rite = antiochian_rite
 	holding = tribal_holding
 	# Misc
 	culture = bolghar
-	862.1.1 = { culture = bulgarian }
+	862.1.1 = { culture = bulgarian rite = tangra }
 	
 	rite = tengri_pagan
 
@@ -41268,7 +41283,7 @@ rite = antiochian_rite
 	}
 	900.1.1 = { rite = byzantine_rite culture = vlach }
 	927.1.1 = { culture = pecheneg }
-	927.1.1 = { rite = manichean }
+	927.1.1 = { rite = tengri_pagan }
 	1125.1.1 = { culture = vlach }
 	1125.1.1 = { rite = byzantine_rite }
 	1246.1.1 = {
@@ -41291,12 +41306,12 @@ rite = antiochian_rite
 5000 = {	# 5000 - Buzau
 	culture = bolghar
 	holding = tribal_holding
-	862.1.1 = { culture = vlach }
+	862.1.1 = { culture = vlach rite = tangra }
 	
 	rite = tengri_pagan
 	800.1.1 = { rite = byzantine_rite }
 	927.1.1 = { culture = pecheneg }
-	927.1.1 = { rite = manichean }
+	927.1.1 = { rite = tengri_pagan }
 	1125.1.1 = { culture = vlach }
 	1125.1.1 = { rite = byzantine_rite }
 	1246.1.1 = {
@@ -41319,7 +41334,7 @@ rite = antiochian_rite
 	holding = tribal_holding
 	# Misc
 	culture = bolghar
-	862.1.1 = { culture = vlach }
+	862.1.1 = { culture = vlach rite = tangra }
 	
 	rite = tengri_pagan
 
@@ -41329,7 +41344,7 @@ rite = antiochian_rite
 	}
 	900.1.1 = { rite = byzantine_rite culture = vlach }
 	927.1.1 = { culture = pecheneg }
-	927.1.1 = { rite = manichean }
+	927.1.1 = { rite = tengri_pagan }
 	1125.1.1 = { culture = vlach }
 	1125.1.1 = { rite = byzantine_rite }
 	1246.1.1 = {
@@ -41402,7 +41417,7 @@ rite = antiochian_rite
 	
 	holding = tribal_holding
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 	
 	854.1.1 = { culture = kabars }
 	895.1.1 = { culture = bulgarian }
@@ -41435,7 +41450,7 @@ rite = antiochian_rite
 	
 	holding = tribal_holding
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 	
 	854.1.1 = { culture = kabars }
 	895.1.1 = { culture = bulgarian }
@@ -41461,7 +41476,7 @@ rite = antiochian_rite
 	
 	holding = tribal_holding
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 
 	
 	854.1.1 = { culture = kabars }
@@ -43009,7 +43024,7 @@ rite = antiochian_rite
 
 5164 = {	#Torzhok
 	culture = vyatichi
-	rite = finnish_pagan
+	rite = slavic_east
 	holding = tribal_holding
 	867.1.1 = { culture = ilmenian }
 	990.1.1 = { culture = russian }
@@ -43744,7 +43759,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = meshchera
-	rite = mordvin_pagan
+	rite = erzya_pagan
 	
 	#holding = castle_holding
 	
@@ -43763,7 +43778,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = meshchera
-	rite = mordvin_pagan
+	rite = erzya_pagan
 	
 	holding = none
 	
@@ -43783,7 +43798,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = meshchera
-	rite = mordvin_pagan
+	rite = erzya_pagan
 	
 	#holding = castle_holding
 	
@@ -43801,7 +43816,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = meshchera
-	rite = mordvin_pagan
+	rite = erzya_pagan
 	
 	holding = none
 	
@@ -43893,7 +43908,7 @@ rite = antiochian_rite
 
 5231 = {	#Tula
 	culture = meshchera
-	rite = mari_pagan
+	rite = erzya_pagan
 	holding = none
 	1025.1.1 = {
 		holding = city_holding
@@ -44154,6 +44169,7 @@ rite = slavic_east
 1139.1.1 = { culture = pecheneg } # Berendi returns to the steppes.
 1300.1.1 = {
 		culture = crimean
+		rite = tash_baba
 	}
 }
 
@@ -44179,7 +44195,7 @@ rite = magyar_pagan
 895.1.1 = { culture = pecheneg }
 900.1.1 = { rite = tengri_pagan } 
 1046.1.1 = { culture = torkil }
-1060.1.1 = { culture = cuman }
+1060.1.1 = { culture = cuman rite = tash_baba }
 1300.1.1 = {
 		culture = crimean
 	}
@@ -44198,7 +44214,7 @@ rite = magyar_pagan
 895.1.1 = { culture = pecheneg }
 900.1.1 = { rite = tengri_pagan } 
 1046.1.1 = { culture = torkil }
-1060.1.1 = { culture = cuman } 
+1060.1.1 = { culture = cuman rite = tash_baba } 
 1300.1.1 = {
 		culture = crimean
 	}
@@ -44225,7 +44241,7 @@ rite = magyar_pagan
 	895.1.1 = { culture = pecheneg }
 	900.1.1 = { rite = tengri_pagan } 
 	1046.1.1 = { culture = torkil }
-	1060.1.1 = { culture = cuman }
+	1060.1.1 = { culture = cuman rite = tash_baba }
 	1227.1.1 = { rite = hanafi } 
 	1300.1.1 = {
 		culture = crimean
@@ -44249,7 +44265,7 @@ rite = magyar_pagan
 	895.1.1 = { culture = pecheneg }
 	900.1.1 = { rite = tengri_pagan } 
 	1046.1.1 = { culture = torkil }
-	1060.1.1 = { culture = cuman }
+	1060.1.1 = { culture = cuman rite = tash_baba }
 	1227.1.1 = { rite = hanafi } 
 	1300.1.1 = {
 		culture = crimean
@@ -44275,7 +44291,7 @@ rite = magyar_pagan
 	
 	# Misc
 	culture = khazar
-	rite = tengri_pagan
+	rite = tangra
 	
 	#holding = castle_holding
 	
@@ -44285,7 +44301,7 @@ rite = magyar_pagan
 1016.1.1 = { culture = pecheneg }
 1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
-1060.1.1 = { culture = cuman } 
+1060.1.1 = { culture = cuman rite = tash_baba } 
 1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = crimean
@@ -44335,13 +44351,13 @@ rite = magyar_pagan
 	
 # Misc
 culture = mogyer
-rite = tengri_pagan
+rite = magyar_pagan
 
 # History
 893.1.1 = { culture = pecheneg }
 1044.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
-1060.1.1 = { culture = kipchak }
+1060.1.1 = { culture = kipchak rite = tash_baba }
 1227.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = mishar
@@ -44355,11 +44371,11 @@ rite = tengri_pagan
 	
 	# Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 1050.1.1 = { culture = cuman } 
-1050.1.1 = { rite = tengri_pagan } 
+1050.1.1 = { rite = tash_baba } 
 1070.1.1 = { culture = kipchak } 
 1313.1.1= { rite = hanafi } 
 1300.1.1 = {
@@ -44375,7 +44391,7 @@ rite = tengri_pagan
 	
 # Misc
 culture = bolghar #major Volga Bulgar population due to repopulation and garrisoning under the Khazars
-rite = tengri_pagan
+rite = tangra
 # History
 
 # History
@@ -44514,7 +44530,7 @@ holding = tribal_holding
 holding = tribal_holding	
 # Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 
@@ -44541,7 +44557,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = khazar
-	rite = tengri_pagan
+	rite = tangra
 	
 	#holding = castle_holding
 	
@@ -44575,8 +44591,8 @@ rite = tengri_pagan
 	# History
 	893.1.1 = { culture = torkil } 
 	
-	1040.1.1 = { culture = cuman } 
-	1040.1.1 = { rite = tengri_pagan } 
+	1040.1.1 = { culture = cuman rite = tash_baba } 
+	1040.1.1 = { rite = tash_baba } 
 	
 	1225.1.1 = { rite = hanafi } 
 	1300.1.1 = {
@@ -44620,6 +44636,7 @@ rite = tengri_pagan
 	}
 	1055.1.2 = {
 		culture = kipchak
+		rite = tash_baba
 	}
 	1300.1.1 = {
 		culture = nogai
@@ -44661,7 +44678,7 @@ rite = tengri_pagan
 
 5328 = {	#Kuzeyrog	#ficitonal
 	culture = khazar
-	rite = tengri_pagan
+	rite = tangra
 	#holding = castle_holding
 	1000.1.2 = {
 		culture = cuman
@@ -44751,7 +44768,7 @@ rite = tengri_pagan
 	
 	# Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 808.1.1 = { rite = kabarism }
@@ -44814,7 +44831,7 @@ rite = tengri_pagan
 
 5353 = {	#Tambov
 	culture = moksha
-	rite = erzya_pagan
+	rite = moksha_pagan
 	holding = tribal_holding
 }
 
@@ -44828,7 +44845,7 @@ rite = tengri_pagan
 
 5356 = {	#Matya
 	culture = moksha
-	rite = erzya_pagan
+	rite = moksha_pagan
 	holding = tribal_holding
 }
 
@@ -44845,12 +44862,11 @@ rite = tengri_pagan
 
 5359 = {	#Lachyk-Uba
 	culture = mordvin
-	rite = moksha_pagan
+	rite = erzya_pagan
 	holding = tribal_holding
 	1209.1.2 = {
 		holding = castle_holding
 		#rite = slavic_rite
-		#culture = ryazanian
 	}
 }
 
@@ -44864,12 +44880,11 @@ rite = tengri_pagan
 
 5362 = {	#Rakcha
 	culture = mordvin
-	rite = moksha_pagan
+	rite = erzya_pagan
 	holding = tribal_holding
 	1209.1.2 = {
 		holding = castle_holding
 		#rite = slavic_rite
-		#culture = ryazanian
 	}
 }
 
@@ -44887,7 +44902,7 @@ rite = tengri_pagan
 
 5366 = {	#Penza
 	culture = moksha
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 }
 
@@ -44910,7 +44925,7 @@ rite = tengri_pagan
 
 5371 = {	#Karatayak
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 	holding = tribal_holding
 
 # History
@@ -44920,7 +44935,7 @@ rite = tengri_pagan
 	930.1.1 = { culture = alan } 
 	966.1.1 = { culture = torkil } 
 	1061.1.1 = { culture = cuman } 
-	1061.1.1 = { rite = tengri_pagan } 
+	1061.1.1 = { rite = tash_baba } 
 	1200.1.1 = { rite = slavic_rite } 
 	#1200.1.1 = { culture = russian } 
 	1300.1.1 = { culture = ryazanian }
@@ -44956,14 +44971,14 @@ rite = tengri_pagan
 
 5377 = {	#Balachev
 	culture = chuvash
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	
 825.1.1 = { culture = pecheneg } 
 893.1.1 = { culture = khazar } 
 966.1.1 = { culture = torkil } 
 1050.1.1 = { culture = cuman } 
-1050.1.1 = { rite = tengri_pagan } 
+1050.1.1 = { rite = tash_baba } 
 1300.1.1 = { rite = hanafi } 
 1300.1.1 = {
 		culture = mishar
@@ -45024,7 +45039,7 @@ rite = tengri_pagan
 	culture = mordvin
 	rite = erzya_pagan
 	holding = tribal_holding
-	960.1.1 = { culture = moksha } 
+	960.1.1 = { culture = moksha rite = moksha_pagan } 
 	1300.1.1 = {
 		culture = kazani
 	}
@@ -45036,11 +45051,11 @@ rite = tengri_pagan
 
 5390 = {	#Petrovsk
 	culture = moksha
-	rite = erzya_pagan
+	rite = moksha_pagan
 	holding = tribal_holding
 	1300.1.1 = {
 		culture = kazani
-		rite = tengri_pagan
+		rite = tash_baba
 	}
 	
 }
@@ -45126,7 +45141,7 @@ rite = tengri_pagan
 
 5408 = {	#Yar Calli
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	922.1.2 = {
 		rite = hanafi
@@ -45153,7 +45168,7 @@ rite = tengri_pagan
 
 5412 = {	#Karabolam
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	922.1.2 = {
 		rite = hanafi
@@ -45210,7 +45225,7 @@ rite = tengri_pagan
 
 5422 = {	#Jalmat
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	922.1.2 = {
 		rite = hanafi
@@ -45231,7 +45246,7 @@ rite = tengri_pagan
 
 5426 = {	# 5426 - Bugurslan
 	culture = bolghar
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	922.1.2 = {
 		rite = hanafi
@@ -45257,7 +45272,7 @@ rite = tengri_pagan
 
 5431 = {	#Salavat
 	culture = bashkir
-	rite = tengri_pagan
+	rite = tash_baba
 	holding = tribal_holding
 	922.1.2 = {
 		rite = hanafi
@@ -45266,7 +45281,7 @@ rite = tengri_pagan
 
 5432 = {	#Kumertau
 	culture = bashkir
-	rite = tengri_pagan
+	rite = tash_baba
 	holding = tribal_holding
 	922.1.2 = {
 		rite = hanafi
@@ -45533,7 +45548,7 @@ rite = tengri_pagan
 5479 = {	#Prigoro Tabynsk
 	# Misc
 	culture = bashkir
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -45555,7 +45570,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = bashkir
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -45575,7 +45590,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = bashkir
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -45604,7 +45619,7 @@ rite = tengri_pagan
 	
 	# Misc
 	culture = bashkir
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -45710,6 +45725,7 @@ rite = tengri_pagan
 	}
 	1055.1.2 = {
 		culture = kipchak
+		rite = tash_baba
 	}
 	1300.1.1 = {
 		culture = bashkir
@@ -45737,7 +45753,7 @@ rite = tengri_pagan
 	
 	# History
 	867.1.1 = { culture = alan rite = alan_pagan }
-	930.1.1 = { rite = tengri_pagan }
+	930.1.1 = { rite = alan_pagan }
 	965.1.2 = {
 		culture = bolghar
 		rite = hanafi
@@ -45771,15 +45787,15 @@ rite = tengri_pagan
 
 5509 = {	#Atkarsk
 	culture = chuvash
-	rite = tengri_pagan
+	rite = tangra
 	holding = tribal_holding
 	825.1.1 = { culture = pecheneg } 
-893.1.1 = { culture = khazar } 
-966.1.1 = { culture = torkil } 
-1050.1.1 = { culture = cuman } 
-1050.1.1 = { rite = tengri_pagan } 
-1300.1.1 = { rite = hanafi } 
-1300.1.1 = {
+	893.1.1 = { culture = khazar } 
+	966.1.1 = { culture = torkil } 
+	1050.1.1 = { culture = cuman } 
+	1050.1.1 = { rite = tash_baba } 
+	1300.1.1 = { rite = hanafi } 
+	1300.1.1 = {
 		culture = mishar
 	}
 }
@@ -49751,7 +49767,7 @@ rite = armenian_rite
 	
 	# Misc
 	culture = vepsian
-	rite = bjarmian_pagan
+	rite = finnish_pagan
 	
 	holding = none
 	
@@ -50064,7 +50080,7 @@ rite = armenian_rite
 	
 	# Misc
 	culture = bashkir
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -50076,7 +50092,7 @@ rite = armenian_rite
 5893 = {	#Kostanay	AKA Koustanaï
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -58416,7 +58432,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -58428,7 +58444,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -58488,7 +58504,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -58501,7 +58517,7 @@ rite = antiochian_rite
 	#Mostly placeholder
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -58516,7 +58532,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -58531,7 +58547,7 @@ rite = antiochian_rite
 7040 = {	#Astrakhanka
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -58558,6 +58574,7 @@ rite = antiochian_rite
 	# History
 	930.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	
 	1066.1.2 = {
@@ -58575,7 +58592,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = laktan
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	holding = nomad_holding
 	
@@ -58598,7 +58615,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = laktan
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	holding = herder_holding
 	
@@ -58635,7 +58652,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = laktan
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	holding = nomad_holding
 	
@@ -58661,7 +58678,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -58691,7 +58708,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = laktan
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	holding = nomad_holding
 	
@@ -58720,6 +58737,7 @@ rite = antiochian_rite
 	# History
 	1066.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -58757,6 +58775,7 @@ rite = antiochian_rite
 	# History
 	1066.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -58780,7 +58799,7 @@ rite = antiochian_rite
 	holding = church_holding
 }
 
-7074 = {	# YOUZHOU
+7074 = { # Yusseter	# YOUZHOU
 	culture = jilu
 	rite = dhyana
 	holding = castle_holding
@@ -58789,10 +58808,13 @@ rite = antiochian_rite
 		rite = avatamsaka
 	}
 	1153.1.1 = {
-		rite = jingxue
+		rite = shuxue
 	}
 	938.1.1 = {
 		culture = yan
+	}
+	1271.1.1 = {
+		rite = daoxue
 	}
 }
 
@@ -58894,6 +58916,7 @@ rite = antiochian_rite
 	# History
 	900.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -58915,6 +58938,7 @@ rite = antiochian_rite
 	# History
 	900.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -58947,6 +58971,7 @@ rite = antiochian_rite
 	900.1.1 = { culture = karluk } 
 	1060.1.1 = {
 		culture = kipchak
+		rite = tash_baba
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -58964,6 +58989,7 @@ rite = antiochian_rite
 	# History
 	930.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -58994,6 +59020,7 @@ rite = antiochian_rite
 	# History
 	900.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -59015,6 +59042,7 @@ rite = antiochian_rite
 	# History
 	950.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -59052,6 +59080,7 @@ rite = antiochian_rite
 	# History
 	1066.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -59118,6 +59147,7 @@ rite = antiochian_rite
 	900.1.1 = { culture = karluk } 
 	1066.1.1 = {
 		culture = kipchak
+		rite = tash_baba
 	}
 	1240.1.2 = {
 		culture = mongol 
@@ -59155,6 +59185,7 @@ rite = antiochian_rite
 	900.1.1 = { culture = karluk } 
 	1066.1.1 = {
 		culture = kipchak
+		rite = tash_baba
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -59192,6 +59223,7 @@ rite = antiochian_rite
 	900.1.1 = { culture = karluk } 
 	1066.1.1 = {
 		culture = kipchak
+		rite = tash_baba
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -59227,6 +59259,7 @@ rite = antiochian_rite
 	}
 	1300.1.1 = {
 		culture = chagatai
+		rite = eastern_tengri
 	}
 	1300.1.1 = { rite = hanafi }
 }
@@ -59301,7 +59334,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -59425,7 +59458,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	holding = tribal_holding
 	
@@ -59532,11 +59565,12 @@ rite = antiochian_rite
 	}
 	1220.1.1 = {
 		culture = oirat
-		rite = tengri_pagan
+		rite = eastern_tengri
 		holding = castle_holding				  
 	}
 	1250.1.1 = {
 		culture = kirghiz
+		rite = ulganism
 	}
 }
 
@@ -59570,10 +59604,11 @@ rite = antiochian_rite
 	}
 	1220.1.1 = {
 		culture = oirat
-		rite = tengri_pagan
+		rite = eastern_tengri
 	}
 	1250.1.1 = {
 		culture = kirghiz
+		rite = ulganism
 	}
 }
 
@@ -59615,10 +59650,11 @@ rite = antiochian_rite
 	1220.1.1 = {
 		holding = castle_holding				  
 		culture = oirat
-		rite = tengri_pagan
+		rite = eastern_tengri
 	}
 	1250.1.1 = {
 		culture = kirghiz
+		rite = ulganism
 	}
 }
 
@@ -59646,7 +59682,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -59675,7 +59711,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -59714,7 +59750,7 @@ rite = antiochian_rite
 	}
 	1220.1.1 = {
 		culture = oirat
-		rite = tengri_pagan
+		rite = eastern_tengri
 	}
 }
 
@@ -59739,7 +59775,7 @@ rite = antiochian_rite
 	}
 	1220.1.1 = {
 		culture = oirat
-		rite = tengri_pagan
+		rite = eastern_tengri
 	}
 }
 
@@ -59760,11 +59796,11 @@ rite = antiochian_rite
 
 	#1134.1.1 = {
 	#	culture = qitai
-	#	rite = vajrayana
+	#	rite = yogacara
 	#}
 	1220.1.1 = {
 		culture = oirat
-		rite = tengri_pagan
+		rite = eastern_tengri
 	}
 }
 
@@ -59799,11 +59835,11 @@ rite = antiochian_rite
 
 	#1134.1.1 = {
 	#	culture = qitai
-	#	rite = vajrayana
+	#	rite = yogacara
 	#}
 	1220.1.1 = {
 		culture = oirat
-		rite = tengri_pagan
+		rite = eastern_tengri
 	}
 }
 
@@ -59847,7 +59883,7 @@ rite = antiochian_rite
 	}
 	1220.1.1 = {
 		culture = oirat
-		rite = tengri_pagan
+		rite = eastern_tengri
 	}
 }
 
@@ -59956,7 +59992,7 @@ rite = antiochian_rite
 7221 = {	#Manatau
 	#Appears as "Mana-Taou" on map BBB, at latitude 50° & longitutde 48°
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	holding = tribal_holding
 	867.1.1 = {
 		culture = pecheneg
@@ -59986,7 +60022,7 @@ rite = antiochian_rite
 7224 = {	#Jaksybai
 	#Lake "Djaksy Baï" on map BBB at latitude 49° & longitutde 49°
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	holding = tribal_holding
 	867.1.1 = {
 		culture = pecheneg
@@ -60017,7 +60053,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -60063,7 +60099,7 @@ rite = antiochian_rite
 7233 = {	#Basagha
 	#As "Bassagha mountain" on map AAA, north east of the Caspian Sea
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	holding = tribal_holding
 	867.1.1 = {
 		culture = pecheneg
@@ -60104,7 +60140,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -60128,7 +60164,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	867.1.1 = {
@@ -60158,7 +60194,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	867.1.1 = {
@@ -60195,7 +60231,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	867.1.1 = {
@@ -60232,7 +60268,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	867.1.1 = {
@@ -60281,6 +60317,7 @@ rite = antiochian_rite
 	# History
 	950.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -60301,6 +60338,7 @@ rite = antiochian_rite
 	# History
 	930.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -60336,6 +60374,7 @@ rite = antiochian_rite
 	# History
 	930.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -60361,6 +60400,7 @@ rite = antiochian_rite
 	# History
 	930.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -60391,6 +60431,7 @@ rite = antiochian_rite
 	# Histor
 	930.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -60425,6 +60466,7 @@ rite = antiochian_rite
 	# History
 	950.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -60447,6 +60489,7 @@ rite = antiochian_rite
 	# History
 	930.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 
 	1066.1.2 = {
@@ -60465,6 +60508,7 @@ rite = antiochian_rite
 	# History
 	930.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -60487,6 +60531,7 @@ rite = antiochian_rite
 	# History
 	930.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	
 	1066.1.2 = {
@@ -60525,6 +60570,7 @@ rite = antiochian_rite
 	# History
 	950.1.1 = {
 		culture = cuman
+		rite = tash_baba
 	}
 	1066.1.2 = {
 		culture = kipchak
@@ -60555,7 +60601,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -60581,7 +60627,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	holding = tribal_holding
 	
 	#holding = castle_holding
@@ -60603,7 +60649,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	holding = tribal_holding
 	
 	#holding = castle_holding
@@ -60641,7 +60687,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	holding = tribal_holding
 	
 	#holding = castle_holding
@@ -60653,7 +60699,7 @@ rite = antiochian_rite
 	#As "Mts Arkalyk" on map BBB, coordinates 46°;68°
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -60679,7 +60725,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -60693,7 +60739,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -60727,7 +60773,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -60769,7 +60815,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -60811,7 +60857,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	867.1.1 = {
@@ -60831,7 +60877,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	867.1.1 = {
@@ -60853,7 +60899,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 }
@@ -60882,7 +60928,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 }
@@ -60891,7 +60937,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	867.1.1 = {
@@ -60903,7 +60949,7 @@ rite = antiochian_rite
 	#"Mts Ak-Taïliak" on map BBB, north of Degelen
 	# Misc
 	culture = kipchak
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	867.1.1 = {
@@ -60930,7 +60976,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 
@@ -60945,7 +60991,7 @@ rite = antiochian_rite
 	#As "Sasyk Koul" on map BBB, south of Semipalatinsk
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 }
@@ -60959,7 +61005,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 
@@ -60969,7 +61015,7 @@ rite = antiochian_rite
 	#As "Mts Kandygataï" on map BBB, east of the "Chaîne Tchinghiz"
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 }
@@ -61003,7 +61049,7 @@ rite = antiochian_rite
 7349 = {	#Ridder
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	holding = nomad_holding
 	930.1.2 = {
 		culture = naiman
@@ -61024,7 +61070,7 @@ rite = antiochian_rite
 	#River Tekar on map BBB, south of Semipalatinsk, just east of "Mts Arkalyk"
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 }
@@ -61032,7 +61078,7 @@ rite = antiochian_rite
 7356 = {	#Abugan
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -61043,7 +61089,7 @@ rite = antiochian_rite
 	#As "Djangyz Taou" on map BBB, north of Atbasar, latitude 49°
 	# Misc
 	culture = kimek
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	#holding = castle_holding
 	
@@ -61097,7 +61143,7 @@ rite = antiochian_rite
 
 7367 = {	#Umiai	#Fictional
 	culture = samoyed
-	rite = kuptyng
+	rite = nenets_pagan
 	
 	holding = herder_holding
 	
@@ -61105,7 +61151,7 @@ rite = antiochian_rite
 
 7368 = {	#Vasyugan	#Based on the local Vasyugan Mire
 	culture = samoyed
-	rite = kuptyng
+	rite = nenets_pagan
 	
 	holding = nomad_holding
 	
@@ -61131,7 +61177,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = samoyed
-	rite = kuptyng
+	rite = nenets_pagan
 	
 	holding = nomad_holding
 	
@@ -61145,7 +61191,7 @@ rite = antiochian_rite
 
 7375 = {	#Igaran	#Fictional
 	culture = samoyed
-	rite = kuptyng
+	rite = nenets_pagan
 	
 	holding = nomad_holding
 	
@@ -61163,7 +61209,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = samoyed
-	rite = kuptyng
+	rite = nenets_pagan
 	
 	holding = herder_holding
 	
@@ -61183,7 +61229,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = samoyed
-	rite = kuptyng
+	rite = nenets_pagan
 	
 	holding = herder_holding
 	
@@ -61212,7 +61258,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = samoyed
-	rite = kuptyng
+	rite = nenets_pagan
 	
 	holding = nomad_holding
 	
@@ -61242,7 +61288,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = laktan
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	holding = herder_holding
 	# History
@@ -61258,7 +61304,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = laktan
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	holding = nomad_holding
 	
@@ -61302,7 +61348,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = laktan
-	rite = tengri_pagan
+	rite = tash_baba
 	
 	holding = herder_holding
 	
@@ -61592,14 +61638,14 @@ rite = antiochian_rite
 
 7448 = {	#Sochur	#Fictional, based on local river
 	culture = samoyed
-	rite = kuptyng
+	rite = nenets_pagan
 	
 	holding = nomad_holding
 }
 
 7449 = {	#Yenisei	#AKA Yeniseysk
 	culture = yeniseian
-	rite = kuptyng
+	rite = yeniseian_pagan
 	
 	holding = nomad_holding
 }
@@ -61626,24 +61672,24 @@ rite = antiochian_rite
 
 7458 = {	#Hami	AKA Yizhou AKA Qumul
 	culture = uyghur
-	rite = manichean
+	rite = sarvastivada
 	holding = castle_holding
-	954.2.22 = {
-		rite = sarvastivada
+	866.6.1 = { # Pugu Jun takes Beshbalik and Qocho, and the Uyghur idiquts bring the Manichaean church with them
+		rite = manichean
 	}
-	1001.1.1 = {
+	1008.1.1 = { # The Manichaean monasteries of Qocho are turned into Buddhist temples
 		rite = yogacara
 	}
 }
 
 7459 = {	#Beshbalik	AKA Urumqi AKA Yizhou/Beiting
 	culture = uyghur
-	rite = manichean
+	rite = sarvastivada
 	holding = castle_holding
-	954.2.22 = {
-		rite = sarvastivada
+	866.6.1 = { # Pugu Jun takes Beshbalik and Qocho, and the Uyghur idiquts bring the Manichaean church with them
+		rite = manichean
 	}
-	1001.1.1 = {
+	1008.1.1 = { # The Manichaean monasteries of Qocho are turned into Buddhist temples
 		rite = yogacara
 	}
 }
@@ -61658,8 +61704,14 @@ rite = antiochian_rite
 
 7462 = {	#Jimsar	AKA Yulishi
 	culture = uyghur
-	rite = manichean
+	rite = sarvastivada
 	holding = castle_holding
+	866.6.1 = { # Pugu Jun takes Beshbalik and Qocho, and the Uyghur idiquts bring the Manichaean church with them
+		rite = manichean
+	}
+	1008.1.1 = { # The Manichaean monasteries of Qocho are turned into Buddhist temples
+		rite = yogacara
+	}
 	930.1.1 = {
         culture = basmyl
     }
@@ -61675,12 +61727,12 @@ rite = antiochian_rite
 
 7465 = {	#Yangjibalik	AKA Changji
 	culture = uyghur
-	rite = manichean
+	rite = sarvastivada
 	holding = castle_holding
-	954.2.22 = {
-		rite = sarvastivada
+	866.6.1 = { # Pugu Jun takes Beshbalik and Qocho, and the Uyghur idiquts bring the Manichaean church with them
+		rite = manichean
 	}
-	1001.1.1 = {
+	1008.1.1 = { # The Manichaean monasteries of Qocho are turned into Buddhist temples
 		rite = yogacara
 	}
 }
@@ -61700,10 +61752,16 @@ rite = antiochian_rite
 
 7469 = {	#Barkul
 	culture = uyghur
-	rite = manichean
+	rite = sarvastivada
 	holding = tribal_holding
 	900.2.22 = {
 		holding = castle_holding
+	}
+	866.6.1 = { # Pugu Jun takes Beshbalik and Qocho, and the Uyghur idiquts bring the Manichaean church with them
+		rite = manichean
+	}
+	1008.1.1 = { # The Manichaean monasteries of Qocho are turned into Buddhist temples
+		rite = yogacara
 	}
 	930.1.1 = {
         culture = basmyl
@@ -61754,6 +61812,7 @@ rite = antiochian_rite
 
     930.1.1 = {
         culture = naiman
+        rite = eastern_tengri
     }
 	
 	#holding = xx
@@ -61809,7 +61868,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = tengri_pagan
+	rite = ulganism
 	
 	#holding = xx
 	
@@ -61838,7 +61897,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = tengri_pagan
+	rite = ulganism
 	
 	#holding = xx
 	
@@ -62051,7 +62110,7 @@ rite = antiochian_rite
 7517 = {	#Mumo
 	#Likely the capital of the Rouran
 	culture = uyghur
-    rite = ulganism
+    rite = tengri_pagan
 
     930.1.1 = {
         culture = merkit
@@ -62113,7 +62172,10 @@ rite = antiochian_rite
 7525 = {	#Karabalgasun	AKA Ordu-Baliq AKA Mubalik
 	#Historical capital of the 1st Uyghur Khanate
 	culture = uyghur
-    rite = ulganism
+    rite = manichean
+	840.1.1 = { # The Kirghiz sack Ordu-Baliq
+		rite = tengri_pagan
+	}
 
     930.1.1 = {
         culture = kerait
@@ -62330,6 +62392,7 @@ rite = antiochian_rite
 	
 	900.1.1 = {
         culture = qun
+        rite = tengri_pagan
     }
     930.1.1 = {
         culture = kerait
@@ -62355,6 +62418,7 @@ rite = antiochian_rite
 
     900.1.1 = {
         culture = qun
+        rite = tengri_pagan
     }
     930.1.1 = {
         culture = kerait
@@ -62401,13 +62465,15 @@ rite = antiochian_rite
 7570 = {	#Ongi
 	#XVIIth century monasteries
 	culture = bayirku
-    rite = eastern_tengri
+    rite = ulganism
 
     900.1.1 = {
         culture = qun
+        rite = tengri_pagan
     }
     930.1.1 = {
         culture = kerait
+        rite = eastern_tengri
     }
 	holding = tribal_holding
 
@@ -62426,10 +62492,11 @@ rite = antiochian_rite
 7573 = {	#Tovkhon
 	#Monastery established in the XVIIth century
 	culture = uyghur
-    rite = eastern_tengri
+    rite = tengri_pagan
 
     930.1.1 = {
         culture = kerait
+        rite = eastern_tengri
     }
 	holding = tribal_holding
 
@@ -62438,7 +62505,7 @@ rite = antiochian_rite
 7574 = {	#Oigon
 	#Named after local lake
 	culture = siqar
-    rite = ulganism
+    rite = tengri_pagan
 	holding = herder_holding
 
     900.1.1 = {
@@ -62472,7 +62539,7 @@ rite = antiochian_rite
 	#Local settlement
  
 	culture = basmyl
-    rite = ulganism
+    rite = tengri_pagan
 
     900.1.1 = {
         culture = naiman
@@ -62514,7 +62581,7 @@ rite = antiochian_rite
 7585 = {	#Tomorbulag
 	#Provincial district
 	culture = siqar
-    rite = ulganism
+    rite = tengri_pagan
 
     900.1.1 = {
         culture = dukha
@@ -62527,7 +62594,7 @@ rite = antiochian_rite
 7586 = {	#Dood Tsagaan Nuur
 	#Named after local lake
 	culture = oirat
-	rite = ulganism
+	rite = eastern_tengri
 	holding = tribal_holding
 }
 
@@ -62539,7 +62606,7 @@ rite = antiochian_rite
 7588 = {	#Darkhad
 	#Named after the local Darkhad valley
 	culture = oirat
-	rite = ulganism
+	rite = eastern_tengri
 	holding = tribal_holding
 }
 
@@ -62602,7 +62669,7 @@ rite = antiochian_rite
 7596 = {	#Uvs Nuur
 	#Named after local lake
 	culture = basmyl
-    rite = ulganism
+    rite = tengri_pagan
 
     850.1.1 = {
         culture = cik
@@ -62610,6 +62677,7 @@ rite = antiochian_rite
     }
 	1175.1.1 = {
         culture = oirat
+        rite = eastern_tengri
     }
 	holding = tribal_holding
 }
@@ -62618,13 +62686,15 @@ rite = antiochian_rite
 	#Local city
 	   
 	culture = basmyl
-    rite = ulganism
+    rite = tengri_pagan
 
     1050.1.1 = {
         culture = az
+        rite = ulganism
     }
 	1175.1.1 = {
         culture = oirat
+        rite = eastern_tengri
     }
  
 	holding = tribal_holding
@@ -62644,7 +62714,7 @@ rite = antiochian_rite
 7600 = {	#Tesiin Gol
 	#Named after local mountain
 	culture = basmyl
-    rite = ulganism
+    rite = tengri_pagan
 
     850.1.1 = {
         culture = cik
@@ -62652,6 +62722,7 @@ rite = antiochian_rite
     }
 	1175.1.1 = {
         culture = oirat
+        rite = eastern_tengri
     }
 	holding = tribal_holding
 }
@@ -62679,7 +62750,7 @@ rite = antiochian_rite
 7605 = {	#Airag
 	#Named after local lake
 	culture = basmyl
-    rite = ulganism
+    rite = tengri_pagan
 
     900.1.1 = {
         culture = naiman
@@ -62735,11 +62806,12 @@ rite = antiochian_rite
 	#Named after local lake
 	   
 	culture = basmyl
-    rite = ulganism
+    rite = tengri_pagan
 	holding = herder_holding
 
     850.1.1 = {
         culture = az
+        rite = ulganism
     }
 
 }
@@ -62763,7 +62835,7 @@ rite = antiochian_rite
 	#Named after local mountain
 	   
 	culture = basmyl
-    rite = ulganism
+    rite = tengri_pagan
 
     900.1.1 = {
         culture = naiman
@@ -62774,7 +62846,7 @@ rite = antiochian_rite
  
 		  
 	1250.1.2 = {
-		rite = ulganism
+		rite = eastern_tengri
 	}
 }
 
@@ -63246,14 +63318,14 @@ rite = antiochian_rite
 7699 = {	#Kotokel
 	#Named after local lake
 	culture = barqut
-	rite = eastern_tengri
+	rite = boo_murgel
 	holding = tribal_holding
 }
 
 7700 = {	#Yera
 	#Named after local lake
 	culture = barqut
-	rite = eastern_tengri
+	rite = boo_murgel
 	holding = tribal_holding
 }
 
@@ -63275,7 +63347,7 @@ rite = antiochian_rite
 7704 = {	#Bargajan
 	#Named after local river
 	culture = barqut
-	rite = eastern_tengri
+	rite = boo_murgel
 	holding = tribal_holding
 }
 
@@ -63291,7 +63363,7 @@ rite = antiochian_rite
 7707 = {	#Muya
 	#Named after local river & mountain
 	culture = yukaghir
-	rite = eastern_tengri
+	rite = odul # Yukaghir shamanism
 	holding = tribal_holding
 }
 
@@ -63358,21 +63430,21 @@ rite = antiochian_rite
 7719 = {	#Chuya
 	#Named after local river
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	holding = herder_holding
 }
 
 7720 = {	#Kirenga
 	#Named after local river
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	holding = nomad_holding
 }
 
 7721 = {	#Nogoon-naluu
 	#Entirely fictional
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	holding = herder_holding
 }
 
@@ -63403,7 +63475,7 @@ rite = antiochian_rite
 
 7727 = {	#Ryty
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	holding = nomad_holding
 }
 
@@ -63421,7 +63493,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	1220.1.1 = {
 		rite = buryat
@@ -63437,10 +63509,11 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 	
 	#holding = xx
@@ -63455,7 +63528,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	
 	holding = nomad_holding
 	
@@ -63469,13 +63542,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = eastern_tengri
+	rite = ulganism
 	
 	#holding = xx
 	
 	# History
 	1000.1.2 = {
 		culture = yakut
+		rite = aiyy
 	}
 	1220.1.1 = {
 		culture = buryat
@@ -63486,13 +63560,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = eastern_tengri
+	rite = ulganism
 	
 	#holding = xx
 	
 	# History
 	1000.1.2 = {
 		culture = yakut
+		rite = aiyy
 	}
 	1220.1.1 = {
 		culture = buryat
@@ -63503,13 +63578,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = eastern_tengri
+	rite = ulganism
 	
 	#holding = xx
 	
 	# History
 	1000.1.2 = {
 		culture = yakut
+		rite = aiyy
 	}
 	1220.1.1 = {
 		culture = buryat
@@ -63520,7 +63596,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kott
-	rite = kuptyng
+	rite = yeniseian_pagan
 	
 	holding = herder_holding
 	
@@ -63531,13 +63607,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = eastern_tengri
+	rite = ulganism
 	
 	#holding = xx
 	
 	# History
 	1000.1.2 = {
 		culture = yakut
+		rite = aiyy
 	}
 	1220.1.1 = {
 		culture = buryat
@@ -63548,7 +63625,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yeniseian
-	rite = kuptyng
+	rite = yeniseian_pagan
 	
 	holding = nomad_holding
 	
@@ -63559,13 +63636,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = eastern_tengri
+	rite = ulganism
 	
 	#holding = xx
 	
 	# History
 	1000.1.2 = {
 		culture = yakut
+		rite = aiyy
 	}
 	1220.1.1 = {
 		culture = buryat
@@ -63576,13 +63654,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = eastern_tengri
+	rite = ulganism
 	
 	#holding = xx
 	
 	# History
 	1000.1.2 = {
 		culture = yakut
+		rite = aiyy
 	}
 	1220.1.1 = {
 		culture = buryat
@@ -63593,13 +63672,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = eastern_tengri
+	rite = ulganism
 	
 	#holding = xx
 	
 	# History
 	1000.1.2 = {
 		culture = yakut
+		rite = aiyy
 	}
 	1220.1.1 = {
 		culture = buryat
@@ -63610,7 +63690,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yeniseian
-	rite = kuptyng
+	rite = yeniseian_pagan
 	
 	holding = nomad_holding
 	
@@ -63624,13 +63704,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = eastern_tengri
+	rite = ulganism
 	
 	#holding = xx
 	
 	# History
 	1000.1.2 = {
 		culture = yakut
+		rite = aiyy
 	}
 	1220.1.1 = {
 		culture = buryat
@@ -63641,7 +63722,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kott
-	rite = kuptyng
+	rite = yeniseian_pagan
 	
 	holding = herder_holding
 	
@@ -63655,13 +63736,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = eastern_tengri
+	rite = ulganism
 	
 	#holding = xx
 	
 	# History
 	1000.1.2 = {
 		culture = yakut
+		rite = aiyy
 	}
 	1220.1.1 = {
 		culture = buryat
@@ -63672,13 +63754,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yenisei_kirghiz
-	rite = eastern_tengri
+	rite = ulganism
 	
 	#holding = xx
 	
 	# History
 	1000.1.2 = {
 		culture = yakut
+		rite = aiyy
 	}
 	1220.1.1 = {
 		culture = buryat
@@ -63689,7 +63772,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63699,6 +63782,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63706,7 +63790,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kott
-	rite = kuptyng
+	rite = yeniseian_pagan
 	
 	holding = nomad_holding
 	
@@ -63720,7 +63804,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63730,6 +63814,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63737,7 +63822,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63747,6 +63832,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63754,7 +63840,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63764,6 +63850,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63771,7 +63858,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63781,6 +63868,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63788,7 +63876,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kott
-	rite = kuptyng
+	rite = yeniseian_pagan
 	
 	holding = nomad_holding
 	
@@ -63802,7 +63890,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63812,6 +63900,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63819,7 +63908,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kott
-	rite = kuptyng
+	rite = yeniseian_pagan
 	
 	holding = nomad_holding
 	
@@ -63833,7 +63922,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63843,6 +63932,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63850,7 +63940,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63860,6 +63950,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63867,7 +63958,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63877,6 +63968,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63884,7 +63976,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kott
-	rite = kuptyng
+	rite = yeniseian_pagan
 	
 	holding = nomad_holding
 	
@@ -63898,7 +63990,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63908,6 +64000,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63915,7 +64008,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	
 	holding = herder_holding
 	
@@ -63925,6 +64018,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63932,7 +64026,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63942,6 +64036,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63949,7 +64044,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63959,6 +64054,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63966,7 +64062,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	
 	holding = herder_holding
 	
@@ -63976,6 +64072,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -63983,7 +64080,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -63993,6 +64090,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -64000,7 +64098,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -64010,6 +64108,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -64017,7 +64116,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -64027,6 +64126,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -64034,13 +64134,14 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	
 	holding = nomad_holding
 	
 	# History
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -64048,7 +64149,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -64058,6 +64159,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -64065,7 +64167,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	
 	holding = herder_holding
 	
@@ -64075,6 +64177,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -64082,7 +64185,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = evenk
-	rite = kuptyng
+	rite = bugaism
 	
 	#holding = xx
 	
@@ -64096,12 +64199,13 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	
 	holding = nomad_holding
 
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -64109,7 +64213,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -64119,6 +64223,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -64126,7 +64231,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = yakut
-	rite = eastern_tengri
+	rite = aiyy
 	
 	#holding = xx
 	
@@ -64136,6 +64241,7 @@ rite = antiochian_rite
 	#}
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -64157,12 +64263,13 @@ rite = antiochian_rite
 7778 = {	#Olkhon
 	#The island is an important place for siberian shamanism
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	
 	holding = nomad_holding
 	
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 	
 }
@@ -64174,12 +64281,13 @@ rite = antiochian_rite
 
 7780 = {	#Irkutsk
 	culture = yakut
-	rite = siberian_pagan
+	rite = aiyy
 	
 	holding = herder_holding
 
 	1220.1.1 = {
 		culture = buryat
+		rite = boo_murgel
 	}
 }
 
@@ -67557,8 +67665,8 @@ rite = antiochian_rite
 7947 = {	# 7947 - Waihind
 	
 	# Misc
-	culture = kashmiri #Dardic
-	rite = bon
+	culture = kashmiri
+	rite = trika_shaivism
 	
 	holding = none
 	
@@ -67581,8 +67689,8 @@ rite = antiochian_rite
 7949 = {	# 7949 - Kaghan
 	
 	# Misc
-	culture = kashmiri #Dardic
-	rite = bon
+	culture = kashmiri
+	rite = trika_shaivism
 	
 	holding = none
 	
@@ -67593,8 +67701,8 @@ rite = antiochian_rite
 7950 = {	# 7950 - Chilas
 	
 	# Misc
-	culture = kashmiri #Dardic
-	rite = bon
+	culture = kashmiri
+	rite = trika_shaivism
 	
 	holding = city_holding
 	
@@ -67605,8 +67713,8 @@ rite = antiochian_rite
 7951 = {	# 7951 - Kalam_TARIM
 	
 	# Misc
-	culture = kashmiri #Dardic
-	rite = bon
+	culture = kho
+	rite = nuristani_pagan
 	
 	holding = none
 	
@@ -67617,8 +67725,8 @@ rite = antiochian_rite
 7952 = {	# 7952 - Shandur
 	
 	# Misc
-	culture = kashmiri #Dardic
-	rite = bon
+	culture = kho
+	rite = nuristani_pagan
 	
 	holding = none
 	
@@ -67653,8 +67761,8 @@ rite = antiochian_rite
 7955 = {	# 7955 - Naltar
 	
 	# Misc
-	culture = kashmiri #Dardic
-	rite = bon
+	culture = kho
+	rite = nuristani_pagan
 	
 	holding = none
 	
@@ -67665,8 +67773,8 @@ rite = antiochian_rite
 7956 = {	# 7956 - Baltit
 	
 	# Misc
-	culture = kashmiri #Dardic
-	rite = bon
+	culture = shina
+	rite = trika_shaivism
 	
 	holding = none
 	
@@ -67681,8 +67789,8 @@ rite = antiochian_rite
 7957 = {	# 7957 - Tashkurgan
 	
 	# Misc
-	culture = kashmiri #Dardic
-	rite = bon
+	culture = shina
+	rite = trika_shaivism
 	
 	holding = none
 	
@@ -70115,13 +70223,10 @@ rite = antiochian_rite
 	holding = city_holding
 }
 
-8749 = {	# XUCHUAN
+8749 = { # Yusseter	# XUCHUAN
 	culture = sichuan
-	rite = zhengyi
+	rite = mantrayana
 	holding = castle_holding
-	1000.1.1 = {
-		rite = mantrayana
-	}
 }
 
 8750 = {	# GONGJING
@@ -70129,42 +70234,33 @@ rite = antiochian_rite
 	special_building = zigong_mines_01
 }
 
-8751 = {	# LUCHUAN
+8751 = { # Yusseter	# LUCHUAN
 	culture = sichuan
-	rite = zhengyi
+	rite = sukhavati
 	holding = castle_holding
 	# History
-	1000.1.1 = {
-		rite = sukhavati
-	}
 }
 
 8752 = {	# MIANSHUI
 	holding = city_holding
 }
 
-8753 = {	# JINGNAN
+8753 = { # Yusseter	# JINGNAN
 	culture = sichuan
-	rite = zhengyi
+	rite = sukhavati
 	holding = castle_holding
-	1000.1.1 = {
-		rite = sukhavati
-	}
 }
 
 8754 = {	# YONGCHUAN
 	holding = city_holding
 }
 
-8755 = {	# FANGYI
+8755 = { # Yusseter	# FANGYI
 	culture = sichuan
-	rite = zhengyi
+	rite = mantrayana
 	holding = castle_holding
 
 	# History
-	1000.1.1 = {
-		rite = mantrayana
-	}
 }
 
 8756 = {	# SUINING 1
@@ -70185,14 +70281,11 @@ rite = antiochian_rite
 	holding = city_holding
 }
 
-8760 = {	# NANCHONG
+8760 = { # Yusseter	# NANCHONG
 	culture = sichuan
-	rite = zhengyi
+	rite = mantrayana
 	holding = castle_holding
 	# History
-	1000.1.1 = {
-		rite = mantrayana
-	}
 }
 
 8761 = {	# LANGZHONG
@@ -70207,7 +70300,8 @@ rite = antiochian_rite
 
 8763 = {	# PENGCHI
 	culture = sichuan
-	rite = zhengyi
+	rite = mantrayana # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 }
 
@@ -70235,7 +70329,8 @@ rite = antiochian_rite
 
 8768 = {	# TONGCHUAN 1
 	culture = sichuan
-	rite = zhengyi
+	rite = mantrayana # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 }
 
@@ -70247,14 +70342,11 @@ rite = antiochian_rite
 	holding = city_holding
 }
 
-8771 = {	# KAIJIANG
+8771 = { # Yusseter	# KAIJIANG
 	culture = sichuan
-	rite = jingxue
+	rite = dhyana
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 8772 = {	# BAISHI
@@ -70267,7 +70359,8 @@ rite = antiochian_rite
 
 8774 = {	# TONGJIANG
 	culture = sichuan
-	rite = zhengyi
+	rite = mantrayana # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 }
 
@@ -70277,7 +70370,8 @@ rite = antiochian_rite
 
 8776 = {	# NANPU
 	culture = sichuan
-	rite = shangqing
+	rite = dhyana # Yusseter
+	#rite = shangqing
 	holding = castle_holding
 }
 
@@ -70301,7 +70395,8 @@ rite = antiochian_rite
 
 8780 = {	# LINJIANG
 	culture = sichuan
-	rite = shangqing
+	rite = zhengyi # Yusseter
+	#rite = shangqing
 	holding = castle_holding
 }
 
@@ -70342,14 +70437,11 @@ rite = antiochian_rite
 	holding = castle_holding
 }
 
-8788 = {	# NANZHENG
+8788 = { # Yusseter	# NANZHENG
 	culture = sichuan
-	rite = jingxue
+	rite = zhengyi
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 8789 = {	# XI
@@ -70362,17 +70454,15 @@ rite = antiochian_rite
 
 8791 = {	# HUACHENG
 	culture = sichuan
-	rite = zhengyi
+	rite = mantrayana # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 }
 
-8792 = {	# NANJIANG
+8792 = { # Yusseter	# NANJIANG
 	culture = sichuan
-	rite = jingxue
+	rite = zhengyi
 	holding = castle_holding
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 8793 = {	# JAICHUAN
@@ -70409,25 +70499,28 @@ rite = antiochian_rite
 	holding = castle_holding
 }
 
-8801 = {	# LUOYANG
+8801 = { # Yusseter	# LUOYANG
 	culture = han
 	rite = dhyana
 	holding = castle_holding
 	# History
-	1150.1.1 = {
+	1070.1.1 = {
 		rite = daoxue
 	}
 }
 
-8802 = {	# JINJIANG
+8802 = { # Yusseter	# JINJIANG
 	culture = min
-	rite = mingism
+	rite = dhyana
 	holding = castle_holding
 	special_building_slot = quanzhou_seaport_01
-	
+
 	# History
 	700.1.1 = { # We add the port roughly when the city itself was founded
 		special_building = quanzhou_seaport_01
+	}
+	850.1.1 = {
+		rite = mingism
 	}
 }
 
@@ -70449,7 +70542,8 @@ rite = antiochian_rite
 
 8806 = {	# LONGXI 1
 	culture = min
-	rite = mingism
+	rite = dhyana # Yusseter
+	#rite = mingism
 	holding = castle_holding
 }
 
@@ -70471,7 +70565,8 @@ rite = antiochian_rite
 
 8810 = {	# CHANGTING
 	culture = yao
-	rite = dab_qhuas
+	rite = shanha # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 	1150.1.1 = {
 		culture = min
@@ -70497,7 +70592,8 @@ rite = antiochian_rite
 
 8815 = {	# JIANPU
 	culture = yao
-	rite = dab_qhuas
+	rite = shanha # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 	1150.1.1 = {
 		culture = min
@@ -70513,12 +70609,12 @@ rite = antiochian_rite
 	holding = none
 }
 
-8818 = {	# JIANAN
+8818 = { # Yusseter	# JIANAN
 	culture = min
 	rite = vinaya
 	holding = castle_holding
 	# History
-	1050.1.1 = {
+	1170.1.1 = {
 		rite = daoxue
 	}
 }
@@ -70551,10 +70647,13 @@ rite = antiochian_rite
 	holding = church_holding
 }
 
-8825 = {	# MAO
+8825 = { # Yusseter	# MAO
 	culture = wu
 	rite = pundarika
 	holding = castle_holding
+	1190.1.1 = {
+		rite = xinxue
+	}
 }
 
 8826 = {	# XIANGSHAN
@@ -70583,13 +70682,19 @@ rite = antiochian_rite
 	holding = city_holding
 }
 
-8832 = {	# YONGJIA
+8832 = { # Yusseter	# YONGJIA
 	culture = wu
-	rite = mingism
+	rite = pundarika
 	holding = castle_holding
 	special_building = liangzhe_mines_01
 	# History
-	1150.1.1 = {
+	1000.1.1 = {
+		rite = mingism
+	}
+	1170.1.1 = {
+		rite = shigong
+	}
+	1241.1.1 = {
 		rite = daoxue
 	}
 }
@@ -70608,12 +70713,15 @@ rite = antiochian_rite
 	holding = none
 }
 
-8836 = {	# JINHUA
+8836 = { # Yusseter	# JINHUA
 	culture = wu
 	rite = pundarika
 	holding = castle_holding
 	# History
-	1150.1.1 = {
+	1170.1.1 = {
+		rite = shigong
+	}
+	1241.1.1 = {
 		rite = daoxue
 	}
 }
@@ -70639,17 +70747,20 @@ rite = antiochian_rite
 	holding = church_holding
 }
 
-8841 = {	# QIANTANG
+8841 = { # Yusseter	# QIANTANG
 	culture = wu
 	rite = vinaya
 	holding = castle_holding
 	# History
 	1150.1.1 = {
-		rite = daoxue
+
 		culture = wu
 	}
 	1130.1.1 = {
 		culture = han
+	}
+	1241.1.1 = {
+		rite = daoxue
 	}
 }
 
@@ -70669,14 +70780,11 @@ rite = antiochian_rite
 	holding = none
 }
 
-8846 = {	# LISHUI
+8846 = { # Yusseter	# LISHUI
 	culture = han
 	rite = vinaya
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 	1050.1.1 = {
 		culture = wu
 	}
@@ -70706,7 +70814,7 @@ rite = antiochian_rite
 	holding = church_holding
 }
 
-8853 = {	# YE 1
+8853 = { # Yusseter	# YE 1
 	culture = qi
 	rite = pundarika
 	holding = castle_holding
@@ -70714,9 +70822,6 @@ rite = antiochian_rite
 		special_building = jiaodong_mines_01
 	}
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 	1170.1.1 = {
 		rite = quanzhen
 	}
@@ -70730,14 +70835,11 @@ rite = antiochian_rite
 	holding = city_holding
 }
 
-8856 = {	# ZHUCHENG
+8856 = { # Yusseter	# ZHUCHENG
 	culture = qi
 	rite = pundarika
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 8857 = {	# JU
@@ -70851,7 +70953,7 @@ rite = antiochian_rite
 	holding = church_holding
 }
 
-8881 = {	# XIAQIU
+8881 = { # Yusseter	# XIAQIU
 	culture = han
 	rite = jingxue
 	holding = castle_holding
@@ -70861,20 +70963,20 @@ rite = antiochian_rite
 	960.1.1 = {
 		special_building = culai_academy_01
 	}
+	1313.1.1 = {
+		rite = daoxue
+	}
 }
 
 8882 = {	# JUYE
 	holding = church_holding
 }
 
-8883 = {	# XUCHANG
+8883 = { # Yusseter	# XUCHANG
 	culture = han
 	rite = jingxue
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 8884 = {	# DONGE
@@ -70942,12 +71044,13 @@ rite = antiochian_rite
 	}
 }
 
-8895 = {	# CHENGXIANG
+8895 = { # Yusseter	# CHENGXIANG
 	culture = yao
-	rite = dab_qhuas
+	rite = shanha
 	holding = castle_holding
 	1050.1.1 = {
 		culture = hakka
+		rite = dhyana
 	}
 }
 
@@ -70961,12 +71064,13 @@ rite = antiochian_rite
 	holding = castle_holding
 }
 
-8898 = {	# LEIXIANG
+8898 = { # Yusseter	# LEIXIANG
 	culture = yao
-	rite = dab_qhuas
+	rite = shanha
 	holding = castle_holding
 	1050.1.1 = {
 		culture = hakka
+		rite = dhyana
 	}
 }
 
@@ -71108,7 +71212,8 @@ rite = antiochian_rite
 
 8924 = {	# GAOYAO
 	culture = yao
-	rite = dab_qhuas
+	rite = mienic # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 }
 
@@ -71132,7 +71237,8 @@ rite = antiochian_rite
 
 8928 = {	# SHUANGSHUI
 	culture = min
-	rite = zhengyi
+	rite = dhyana # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 	1050.1.1 = {
 		culture = yue
@@ -71288,7 +71394,8 @@ rite = antiochian_rite
 
 8956 = {	# LINGLING
 	culture = yao
-	rite = dab_qhuas
+	rite = mienic # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 	1050.1.1 = {
 		culture = xiang
@@ -71298,7 +71405,8 @@ rite = antiochian_rite
 
 8957 = {	# XIANGYUAN 1
 	culture = yao
-	rite = dab_qhuas
+	rite = mienic # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 	1050.1.1 = {
 		culture = xiang
@@ -71312,7 +71420,8 @@ rite = antiochian_rite
 
 8959 = {	# HONGDAO
 	culture = yao
-	rite = dab_qhuas
+	rite = mienic # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 }
 
@@ -71322,7 +71431,8 @@ rite = antiochian_rite
 
 8961 = {	# GUIYANG
 	culture = yao
-	rite = dab_qhuas
+	rite = mienic # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 	# History
 	502.1.1 = {
@@ -71344,7 +71454,8 @@ rite = antiochian_rite
 
 8965 = {	# CHEN
 	culture = yao
-	rite = dab_qhuas
+	rite = mienic # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 	special_building = guiyang_mines_01
 	1072.1.1 = {
@@ -71369,9 +71480,9 @@ rite = antiochian_rite
 	holding = city_holding
 }
 
-8970 = {	# HENGYANG 1
+8970 = { # Yusseter	# HENGYANG 1
 	culture = yao
-	rite = dab_qhuas
+	rite = mienic
 	holding = castle_holding
 	# History
 	special_building_slot = shigu_academy_01
@@ -71379,12 +71490,9 @@ rite = antiochian_rite
 	1035.1.1 = {
 		special_building = shigu_academy_01
 	}
-	1140.1.1 = {
-		rite = zhengyi
-	}
 	1072.1.1 = {
 		culture = xiang
-		rite = dhyana
+		rite = shangqing
 	}
 }
 
@@ -71420,13 +71528,10 @@ rite = antiochian_rite
 	holding = castle_holding
 }
 
-8978 = {	# HANYANG
+8978 = { # Yusseter	# HANYANG
 	culture = chu
-	rite = shangqing
+	rite = dhyana
 	holding = castle_holding
-	1140.1.1 = {
-		rite = zhengyi
-	}
 }
 
 8979 = {	# HANCHUAN
@@ -71471,7 +71576,8 @@ rite = antiochian_rite
 
 8986 = {	# YUNYANG 1
 	culture = gan
-	rite = zhengyi
+	rite = lingbao # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 
 	special_building_slot = white_deer_grotto_academy_01
@@ -71483,7 +71589,8 @@ rite = antiochian_rite
 
 8987 = {	# DUCHANG
 	culture = gan
-	rite = zhengyi
+	rite = lingbao # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 }
 
@@ -71493,18 +71600,16 @@ rite = antiochian_rite
 
 8989 = {	# POYANG
 	culture = gan
-	rite = zhengyi
+	rite = dhyana # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 }
 
-8990 = {	# NANCHANG
+8990 = { # Yusseter	# NANCHANG
 	culture = gan
 	rite = sukhavati
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 8991 = {	# WUNING
@@ -71613,7 +71718,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = city_holding
 	
@@ -71646,7 +71751,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = church_holding
 	
@@ -71661,7 +71766,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = castle_holding
 	
@@ -71679,7 +71784,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = city_holding
 	
@@ -71694,7 +71799,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = church_holding
 	
@@ -71765,7 +71870,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none
 	
@@ -71918,12 +72023,6 @@ rite = antiochian_rite
 	holding = castle_holding
 	
 	# History
-	750.1.1 = {
-		rite = old_bon
-	}
-	800.1.1 = {
-		rite = lamaism
-	}
 	1100.1.1 = {
 		rite = kagyu
 	}
@@ -71938,12 +72037,6 @@ rite = antiochian_rite
 	holding = church_holding
 	
 	# History
-	750.1.1 = {
-		rite = old_bon
-	}
-	800.1.1 = {
-		rite = lamaism
-	}
 }
 
 9022 = {	# 9022 - Tolti
@@ -71955,12 +72048,6 @@ rite = antiochian_rite
 	holding = city_holding
 	
 	# History
-	750.1.1 = {
-		rite = old_bon
-	}
-	800.1.1 = {
-		rite = lamaism
-	}
 }
 
 9023 = {	# 9023 - Gultari
@@ -71972,12 +72059,6 @@ rite = antiochian_rite
 	holding = castle_holding
 	
 	# History
-	750.1.1 = {
-		rite = old_bon
-	}
-	800.1.1 = {
-		rite = lamaism
-	}
 }
 
 9024 = {	# 9024 - Astore
@@ -72006,12 +72087,6 @@ rite = antiochian_rite
 	holding = church_holding
 	
 	# History
-	750.1.1 = {
-		rite = old_bon
-	}
-	800.1.1 = {
-		rite = lamaism
-	}
 }
 
 9026 = {	# 9026 - Shigar
@@ -72023,12 +72098,6 @@ rite = antiochian_rite
 	holding = castle_holding
 	
 	# History
-	750.1.1 = {
-		rite = old_bon
-	}
-	800.1.1 = {
-		rite = lamaism
-	}
 	1100.1.1 = {
 		rite = kagyu
 	}
@@ -72043,12 +72112,6 @@ rite = antiochian_rite
 	holding = church_holding
 	
 	# History
-	750.1.1 = {
-		rite = old_bon
-	}
-	800.1.1 = {
-		rite = lamaism
-	}
 }
 
 9028 = {	# 9028 - Khaplu
@@ -72060,12 +72123,6 @@ rite = antiochian_rite
 	holding = castle_holding
 	
 	# History
-	750.1.1 = {
-		rite = old_bon
-	}
-	800.1.1 = {
-		rite = lamaism
-	}
 	1100.1.1 = {
 		rite = kagyu
 	}
@@ -72080,19 +72137,13 @@ rite = antiochian_rite
 	holding = city_holding
 	
 	# History
-	750.1.1 = {
-		rite = old_bon
-	}
-	800.1.1 = {
-		rite = lamaism
-	}
 }
 
 9030 = {	# 9030 - Khurnak
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #castle_holding
 	
@@ -72111,7 +72162,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72126,7 +72177,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72141,7 +72192,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #nomad
 	
@@ -72156,7 +72207,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72171,7 +72222,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #nomad
 	
@@ -72186,7 +72237,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72201,7 +72252,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding
 	
@@ -72220,7 +72271,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72235,7 +72286,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72250,7 +72301,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72265,7 +72316,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #nomad
 	
@@ -72279,7 +72330,7 @@ rite = antiochian_rite
 9044 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = castle_holding
 	
@@ -72293,7 +72344,7 @@ rite = antiochian_rite
 9045 = {
 	# Misc
 	culture = zhangzhung #Kinnauri
-	rite = old_bon
+	rite = gyer
 	
 	holding = church_holding
 	
@@ -72307,7 +72358,7 @@ rite = antiochian_rite
 9046 = {
 	# Misc
 	culture = zhangzhung #Kinnauri
-	rite = old_bon
+	rite = gyer
 	
 	holding = castle_holding
 	
@@ -72324,7 +72375,7 @@ rite = antiochian_rite
 9047 = {
 	# Misc
 	culture = zhangzhung #Kinnauri
-	rite = old_bon
+	rite = gyer
 	
 	holding = city_holding
 	
@@ -72364,7 +72415,7 @@ rite = antiochian_rite
 9052 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = castle_holding
 	
@@ -72381,7 +72432,7 @@ rite = antiochian_rite
 9053 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = church_holding
 	
@@ -72395,7 +72446,7 @@ rite = antiochian_rite
 9054 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = castle_holding
 	
@@ -72409,7 +72460,7 @@ rite = antiochian_rite
 9055 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = castle_holding
 	
@@ -72428,7 +72479,7 @@ rite = antiochian_rite
 9056 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #nomad
 	
@@ -72458,7 +72509,7 @@ rite = antiochian_rite
 9058 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #nomad
 	
@@ -72477,7 +72528,7 @@ rite = antiochian_rite
 9060 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72491,7 +72542,7 @@ rite = antiochian_rite
 9061 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #nomad
 	
@@ -72505,7 +72556,7 @@ rite = antiochian_rite
 9062 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72523,7 +72574,7 @@ rite = antiochian_rite
 9064 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72537,7 +72588,7 @@ rite = antiochian_rite
 9065 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72551,7 +72602,7 @@ rite = antiochian_rite
 9066 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = castle_holding
 	
@@ -72568,7 +72619,7 @@ rite = antiochian_rite
 9067 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = church_holding
 	
@@ -72582,7 +72633,7 @@ rite = antiochian_rite
 9068 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = castle_holding
 	
@@ -72599,7 +72650,7 @@ rite = antiochian_rite
 9070 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #nomad
 	
@@ -72616,7 +72667,7 @@ rite = antiochian_rite
 9071 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = none #nomad
 	
@@ -72641,7 +72692,7 @@ rite = antiochian_rite
 9075 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = castle_holding
 	
@@ -72658,7 +72709,7 @@ rite = antiochian_rite
 9076 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = city_holding
 	
@@ -72672,7 +72723,7 @@ rite = antiochian_rite
 9077 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = church_holding
 	
@@ -72686,7 +72737,7 @@ rite = antiochian_rite
 9078 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = castle_holding
 	
@@ -72705,6 +72756,9 @@ rite = antiochian_rite
 	holding = castle_holding
 	
 	# History
+	1100.1.1 = {
+		rite = bon
+	} # The Bön lineages of Lo and Dolpo
 }
 
 9080 = {
@@ -72754,7 +72808,7 @@ rite = antiochian_rite
 9086 = {
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = church_holding
 	
@@ -73046,7 +73100,7 @@ rite = antiochian_rite
 9111 = {	# 9111 - Kaski
 	
 	# Misc
-	culture = nepali
+	culture = magar
 	rite = pashupata
 	
 	holding = castle_holding
@@ -73057,7 +73111,7 @@ rite = antiochian_rite
 9112 = {	# 9112 - Tanahun
 	
 	# Misc
-	culture = nepali
+	culture = magar
 	rite = bhagavata
 	
 	holding = church_holding
@@ -73068,7 +73122,7 @@ rite = antiochian_rite
 9113 = {	# 9113 - Gorkha
 	
 	# Misc
-	culture = nepali
+	culture = magar
 	rite = pashupata
 	
 	holding = city_holding
@@ -73080,7 +73134,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kirati
-	rite = kiratism
+	rite = ridum
 	
 	holding = city_holding
 	
@@ -73124,19 +73178,20 @@ rite = antiochian_rite
 9118 = {	# 9118 - Janakpur
 	
 	# Misc
-	culture = newar #Maithili
-	rite = bhagavata
+	culture = bihari
+	rite = kalikula_shaktism
 	
 	holding = castle_holding
 	
 	# History
+	1100.1.1 = { culture = maithili }
 }
 
 9119 = {	# 9119 - Okhaldhunga
 	
 	# Misc
 	culture = kirati
-	rite = kiratism
+	rite = ridum
 	
 	holding = none
 	
@@ -73147,7 +73202,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kirati
-	rite = kiratism
+	rite = ridum
 	
 	holding = tribal_holding
 	
@@ -73235,7 +73290,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kirati
-	rite = yumaism
+	rite = kiratism
 	
 	holding = city_holding
 	
@@ -73246,7 +73301,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = kirati
-	rite = yumaism
+	rite = kiratism
 	
 	holding = tribal_holding
 	
@@ -73290,7 +73345,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = sikkimese #Lepcha
-	rite = lamaism
+	rite = mun
 	
 	holding = tribal_holding
 	
@@ -73301,7 +73356,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Lepcha
-	rite = old_bon
+	rite = pawo
 	
 	holding = city_holding
 	
@@ -73312,7 +73367,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Lepcha
-	rite = old_bon
+	rite = pawo
 	
 	holding = none
 	
@@ -73390,7 +73445,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Lepcha
-	rite = old_bon
+	rite = pawo
 	
 	holding = city_holding
 	
@@ -73429,7 +73484,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 	
 	holding = city_holding
 	
@@ -73465,7 +73520,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 	
 	holding = church_holding
 	
@@ -73476,7 +73531,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 	
 	holding = city_holding
 	
@@ -73487,7 +73542,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 	
 	holding = tribal_holding
 	
@@ -73501,7 +73556,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 	
 	holding = tribal_holding
 	
@@ -73515,7 +73570,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 	
 	holding = church_holding
 	
@@ -73526,7 +73581,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 	
 	holding = tribal_holding
 	
@@ -73540,7 +73595,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 	
 	holding = church_holding
 	
@@ -73576,7 +73631,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 	
 	holding = city_holding
 	
@@ -73686,7 +73741,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = deori #Lhoba
-	rite = donyipoloism
+	rite = kechai_khati
 	
 	holding = tribal_holding
 	
@@ -73723,7 +73778,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Lhoba
-	rite = old_bon
+	rite = pawo
 	
 	holding = tribal_holding
 	
@@ -73802,7 +73857,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 	
 	holding = church_holding
 	
@@ -74058,7 +74113,7 @@ rite = antiochian_rite
 9215 = {	# Nyima
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding
 	
@@ -74075,7 +74130,7 @@ rite = antiochian_rite
 9216 = {	# Aso
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #nomad
 	
@@ -74099,7 +74154,7 @@ rite = antiochian_rite
 9219 = {	# Garkung
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #nomad
 	
@@ -74217,7 +74272,7 @@ rite = antiochian_rite
 9235 = {	# Nang
 	# Misc
 	culture = lhomon #Lhoba
-	rite = old_bon
+	rite = pawo
 	
 	holding = castle_holding
 	
@@ -74429,12 +74484,8 @@ rite = antiochian_rite
 		rite = bon
 	}
 	1100.1.1 = {
-		rite = lamaism
 		culture = bodpa
 	}# Nagchu region becomes Tibeticized
-	1100.1.1 = {
-		rite = gelug
-	}
 }
 
 9256 = {	# Lhomar
@@ -74460,7 +74511,7 @@ rite = antiochian_rite
 9261 = {	# Cozhelhoma
 	# Misc
 	culture = zhangzhung
-	rite = old_bon
+	rite = gyer
 	
 	holding = tribal_holding #nomad
 	
@@ -74516,7 +74567,8 @@ rite = antiochian_rite
 
 9268 = {	# QIAO
 	culture = han
-	rite = dhyana
+	rite = shangqing # Yusseter
+	#rite = dhyana
 	holding = castle_holding
 	# History
 	1140.1.1 = {
@@ -74552,7 +74604,7 @@ rite = antiochian_rite
 
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 
 	holding = church_holding
 
@@ -74569,7 +74621,8 @@ rite = antiochian_rite
 
 9273 = {	# HAIKANG
 	culture = hlai
-	rite = moism
+	rite = hlaic # Yusseter
+	#rite = moism
 	holding = castle_holding
 	1050.1.1 = {
 		culture = min
@@ -74585,7 +74638,7 @@ rite = antiochian_rite
 
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 
 	holding = castle_holding
 
@@ -74603,7 +74656,7 @@ rite = antiochian_rite
 
 	# Misc
 	culture = lhomon #Monpa
-	rite = old_bon
+	rite = pawo
 
 	holding = city_holding
 
@@ -74617,7 +74670,7 @@ rite = antiochian_rite
 
 	# Misc
 	culture = lhomon #Lhoba
-	rite = old_bon
+	rite = pawo
 
 	holding = city_holding
 
@@ -74632,7 +74685,7 @@ rite = antiochian_rite
 
 	# Misc
 	culture = lhomon #Lhoba
-	rite = old_bon
+	rite = pawo
 
 	holding = church_holding
 
@@ -74647,7 +74700,7 @@ rite = antiochian_rite
 
 	# Misc
 	culture = lhomon #Lhoba
-	rite = old_bon
+	rite = pawo
 
 	holding = castle_holding
 
@@ -74665,21 +74718,21 @@ rite = antiochian_rite
 
 	# Misc
 	culture = lhomon
-	rite = old_bon
+	rite = pawo
 
 	holding = none
 
 	# History
 }
 
-9281 = {	# 9281 - Baxoi
-	
+9281 = { # Yusseter	# 9281 - Baxoi
+
 	# Misc
 	culture = lhomon
-	rite = old_bon
-	
+	rite = pawo
+
 	holding = castle_holding
-	
+
 	# History
 	1000.1.1 = {
 		culture = khampa
@@ -74690,14 +74743,14 @@ rite = antiochian_rite
 	}
 }
 
-9282 = {	# 9282 - Zogang
-	
+9282 = { # Yusseter	# 9282 - Zogang
+
 	# Misc
 	culture = lhomon
-	rite = old_bon
-	
+	rite = pawo
+
 	holding = castle_holding
-	
+
 	# History
 	1050.1.1 = {
 		culture = khampa
@@ -74903,9 +74956,6 @@ rite = antiochian_rite
 	1100.1.1 = {
 		culture = khampa
 	} #Tibetan culture continues to spread in Kham and Amdo
-	1100.1.1 = {
-		rite = kagyu
-	}
 }
 
 9296 = {	# 9296 - Arxog
@@ -74940,9 +74990,6 @@ rite = antiochian_rite
 	1100.1.1 = {
 		culture = khampa
 	} #Tibetan culture continues to spread in Kham and Amdo
-	1100.1.1 = {
-		rite = kagyu
-	}
 }
 
 9298 = {	# 9298 - Lhaxi
@@ -74977,9 +75024,6 @@ rite = antiochian_rite
 	1100.1.1 = {
 		culture = khampa
 	} #Tibetan culture continues to spread in Kham and Amdo
-	1100.1.1 = {
-		rite = kagyu
-	}
 }
 
 9300 = {	# 9300 - Riwoqe
@@ -75432,14 +75476,11 @@ rite = antiochian_rite
 	# History
 }
 
-9329 = {	# YICHUN
+9329 = { # Yusseter	# YICHUN
 	culture = gan
 	rite = vinaya
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 9330 = {	# 9330 - Darzedo
@@ -75802,9 +75843,6 @@ rite = antiochian_rite
 	1050.1.1 = {
 		rite = bon
 	}
-	1140.1.1 = {
-		rite = gelug
-	}
 	1250.1.1 = {
 		culture = amdo
 	} # The lower Changtang becomes Tibeticized
@@ -75820,9 +75858,6 @@ rite = antiochian_rite
 	# History
 	1050.1.1 = {
 		rite = bon
-	}
-	1140.1.1 = {
-		rite = gelug
 	}
 	1250.1.1 = {
 		culture = amdo
@@ -75962,7 +75997,7 @@ rite = antiochian_rite
 9369 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = tribal_holding #nomad
 	
@@ -75983,9 +76018,6 @@ rite = antiochian_rite
 	# History
 	1050.1.1 = {
 		rite = bon
-	}
-	1140.1.1 = {
-		rite = gelug
 	}
 	1250.1.1 = {
 		culture = amdo
@@ -76273,7 +76305,7 @@ rite = antiochian_rite
 9388 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = none #nomad
 	
@@ -76287,7 +76319,7 @@ rite = antiochian_rite
 9389 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = tribal_holding #nomad
 	
@@ -76300,26 +76332,23 @@ rite = antiochian_rite
 9390 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = none #nomad
 	
 	# History
 }
 
-9391 = {	# SONGCHENG
+9391 = { # Yusseter	# SONGCHENG
 	culture = han
 	rite = dhyana
 	holding = castle_holding
-	1170.1.1 = {
-		rite = quanzhen
-	}
 }
 
 9392 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = none #nomad
 	
@@ -76332,7 +76361,7 @@ rite = antiochian_rite
 9393 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = tribal_holding #nomad
 	
@@ -76345,7 +76374,7 @@ rite = antiochian_rite
 9395 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = tribal_holding #nomad
 	
@@ -76358,7 +76387,7 @@ rite = antiochian_rite
 9396 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = tribal_holding #nomad
 	
@@ -76371,7 +76400,7 @@ rite = antiochian_rite
 9397 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = none #nomad
 	
@@ -76384,7 +76413,7 @@ rite = antiochian_rite
 9398 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = none #nomad
 	
@@ -76397,7 +76426,7 @@ rite = antiochian_rite
 9399 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = tribal_holding #nomad
 	
@@ -76410,7 +76439,7 @@ rite = antiochian_rite
 9400 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = none #nomad
 	
@@ -76427,7 +76456,7 @@ rite = antiochian_rite
 9402 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = none #nomad
 	
@@ -76440,7 +76469,7 @@ rite = antiochian_rite
 9403 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = tribal_holding #nomad
 	
@@ -76454,7 +76483,7 @@ rite = antiochian_rite
 9404 = {	# Ulam
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = tribal_holding #nomad
 	
@@ -76472,7 +76501,7 @@ rite = antiochian_rite
 9406 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = tribal_holding
 	
@@ -76486,7 +76515,7 @@ rite = antiochian_rite
 9407 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = city_holding
 	
@@ -76502,7 +76531,7 @@ rite = antiochian_rite
 9408 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = none #nomad
 	
@@ -76515,7 +76544,7 @@ rite = antiochian_rite
 9409 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = none #nomad
 	
@@ -76528,7 +76557,7 @@ rite = antiochian_rite
 9410 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = none #nomad
 	
@@ -76545,7 +76574,7 @@ rite = antiochian_rite
 9412 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = church_holding
 	
@@ -76558,7 +76587,7 @@ rite = antiochian_rite
 9413 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = castle_holding
 	special_building = yungang_grottoes_01
@@ -76575,7 +76604,7 @@ rite = antiochian_rite
 9414 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = church_holding
 	
@@ -76636,7 +76665,7 @@ rite = antiochian_rite
 9421 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = castle_holding
 	
@@ -76657,7 +76686,7 @@ rite = antiochian_rite
 9422 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = city_holding
 	
@@ -76675,7 +76704,7 @@ rite = antiochian_rite
 9423 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = tribal_holding
 	
@@ -76690,7 +76719,7 @@ rite = antiochian_rite
 	
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = city_holding
 	
@@ -76719,7 +76748,7 @@ rite = antiochian_rite
 9426 = {
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = city_holding
 	
@@ -76733,7 +76762,7 @@ rite = antiochian_rite
 9427 = {	# Xigortang
 	# Misc
 	culture = tuyuhun
-	rite = tengri_pagan
+	rite = eastern_tengri
 	
 	holding = castle_holding
 	
@@ -76994,17 +77023,17 @@ rite = antiochian_rite
 	}
 }
 
-9443 = {	# 9443 - Jone
-	
+9443 = { # Yusseter	# 9443 - Jone
+
 	# Misc
 	culture = tangut
 	rite = melieism
-	
+
 	holding = castle_holding
-	
+
 	# History
 	800.1.1 = {
-		culture = baima
+		culture = amdo
 		rite = old_bon
 	} #Tibetan culture continues to spread in Kham and Amdo
 	1050.1.1 = {
@@ -77015,17 +77044,17 @@ rite = antiochian_rite
 	}
 }
 
-9444 = {	# 9444 - Tewo
-	
+9444 = { # Yusseter	# 9444 - Tewo
+
 	# Misc
 	culture = tangut
 	rite = melieism
-	
+
 	holding = castle_holding
-	
+
 	# History
 	800.1.1 = {
-		culture = baima
+		culture = amdo
 		rite = old_bon
 	} #Tibetan culture continues to spread in Kham and Amdo
 	1050.1.1 = {
@@ -77167,32 +77196,26 @@ rite = antiochian_rite
 9452 = {	# 9452 - Soxiq
 	
 	# Misc
-	culture = baima
-	rite = rrmeaism
+	culture = amdo
+	rite = old_bon
 	
 	holding = castle_holding
 	
 	# History
-	850.1.1 = {
-		rite = old_bon
-	}
 	1050.1.1 = {
 		rite = bon
 	}
 }
 
-9453 = {	# 9453 - Zoige
-	
+9453 = { # Yusseter	# 9453 - Zoige
+
 	# Misc
-	culture = baima
-	rite = rrmeaism
-	
+	culture = amdo
+	rite = old_bon
+
 	holding = castle_holding
-	
+
 	# History
-	850.1.1 = {
-		rite = old_bon
-	}
 	1050.1.1 = {
 		rite = bon
 	}
@@ -77232,22 +77255,19 @@ rite = antiochian_rite
 	}
 }
 
-9456 = {	# 9456 - Sungqu
-	
+9456 = { # Yusseter	# 9456 - Sungqu
+
 	# Misc
 	culture = qiang
 	rite = rrmeaism
-	
+
 	holding = castle_holding
-	
+
 	# History
 	650.1.1 = {
 		culture = baima
-		rite = old_bon
+		rite = chouchi
 	} #Sungqu becomes the main point of contact between the Tibetan and Chinese Empires
-	1050.1.1 = {
-		rite = bon
-	}
 }
 
 9457 = {	# 9457 - Choqu
@@ -77542,6 +77562,9 @@ rite = antiochian_rite
 		culture = yughur
 		rite = manichean
 	}
+	980.1.1 = { # The Ganzhou Uyghurs give up Manichaeism for Buddhism
+		rite = sukhavati
+	}
 	1032.1.1 = {
 		culture = tangut
 		rite = melieism
@@ -77563,6 +77586,9 @@ rite = antiochian_rite
 	894.1.1 = {
 		culture = yughur
 		rite = manichean
+	}
+	980.1.1 = { # The Ganzhou Uyghurs give up Manichaeism for Buddhism
+		rite = lamaism
 	}
 }
 
@@ -77659,6 +77685,9 @@ rite = antiochian_rite
 		culture = yughur
 		rite = manichean
 	}
+	980.1.1 = { # The Ganzhou Uyghurs give up Manichaeism for Buddhism
+		rite = sukhavati
+	}
 	1080.1.1 = {
 		rite = avatamsaka
 	}
@@ -77685,6 +77714,9 @@ rite = antiochian_rite
 	894.1.1 = {
 		culture = yughur
 		rite = manichean
+	}
+	980.1.1 = { # The Ganzhou Uyghurs give up Manichaeism for Buddhism
+		rite = sukhavati
 	}
 	1050.1.1 = {
 		culture = tangut
@@ -78016,18 +78048,21 @@ rite = antiochian_rite
 
 9536 = {	# LULING
 	culture = yao
-	rite = dab_qhuas
+	rite = shanha # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 	1150.1.1 = {
 		culture = gan
-		rite = zhengyi
+		rite = lingbao # Yusseter
+		#rite = zhengyi
 	}
 }
 
 9537 = {	# Wuluhai
 	# Misc
 	culture = shatuo
-	rite = eastern_tengri
+	rite = tengri_pagan # Yusseter
+	#rite = eastern_tengri
 
 	holding = tribal_holding
 
@@ -78049,7 +78084,8 @@ rite = antiochian_rite
 
 9538 = {	# JIUYUAN
 	culture = shatuo
-	rite = eastern_tengri
+	rite = tengri_pagan # Yusseter
+	#rite = eastern_tengri
 	holding = tribal_holding # Yusseter: castle_holding
 	# History
 	1038.1.1 = {
@@ -78074,7 +78110,8 @@ rite = antiochian_rite
 9540 = {	# Wuda/Ud
 	# Misc
 	culture = shatuo
-	rite = eastern_tengri
+	rite = tengri_pagan # Yusseter
+	#rite = eastern_tengri
 
 	holding = tribal_holding
 
@@ -78115,7 +78152,8 @@ rite = antiochian_rite
 
 9543 = {	# YUDU
 	culture = sheren
-	rite = zhengyi
+	rite = dhyana # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 	1050.1.1 = {
 		culture = hakka
@@ -78128,7 +78166,8 @@ rite = antiochian_rite
 
 9545 = {	# DAYU
 	culture = yao
-	rite = zhengyi
+	rite = dhyana # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 	1050.1.1 = {
 		culture = hakka
@@ -78138,7 +78177,8 @@ rite = antiochian_rite
 9546 = {	# Xingqing
 	# Misc
 	culture = sheren
-	rite = zhengyi
+	rite = dhyana # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 	1050.1.1 = {
 		culture = hakka
@@ -78427,13 +78467,13 @@ rite = antiochian_rite
 	holding = city_holding
 }
 
-9583 = {	# Thabeik_Taung/Thabeik Taung
+9583 = { # Yusseter	# Thabeik_Taung/Thabeik Taung
 	# Misc
 	culture = zo
-	rite = sanamahi_pagan
-	
+	rite = pathian
+
 	holding = temple_citadel_holding
-	
+
 	# History
 
 }
@@ -78832,12 +78872,12 @@ rite = antiochian_rite
 9620 = {	#Burgasutai
 	#On map AAA, south of Urtu Bulak
 	culture = uyghur
-	rite = manichean
+	rite = sarvastivada
 	holding = castle_holding
-	954.2.22 = {
-		rite = sarvastivada
+	866.6.1 = { # Pugu Jun takes Beshbalik and Qocho, and the Uyghur idiquts bring the Manichaean church with them
+		rite = manichean
 	}
-	1001.1.1 = {
+	1008.1.1 = { # The Manichaean monasteries of Qocho are turned into Buddhist temples
 		rite = yogacara
 	}
 }
@@ -78853,7 +78893,8 @@ rite = antiochian_rite
 9624 = {	# Kale
 	# Misc
 	culture = zo
-	rite = sanamahi_pagan
+	rite = pathian # Yusseter
+	#rite = sanamahi_pagan
 
 	holding = tribal_holding
 
@@ -79215,7 +79256,7 @@ rite = antiochian_rite
 
 9666 = {	#LÜBECK
 	culture = polabian
-	rite = slavic_west
+	rite = slavic_prove
 	holding = none
 	# Christianity only arrived with the Danish king Valdemar I
 
@@ -79228,7 +79269,7 @@ rite = antiochian_rite
 
 9667 = {	#RATZEBURG
 	culture = polabian
-	rite = slavic_west
+	rite = slavic_prove
 	holding = none
 	1182.1.1 = {
 		holding = city_holding
@@ -79240,7 +79281,7 @@ rite = antiochian_rite
 
 9668 = {	#WISMAR
 	culture = polabian
-	rite = slavic_west
+	rite = slavic_prove
 	holding = none
 	1200.1.1 = {
 		holding = church_holding
@@ -79252,7 +79293,7 @@ rite = antiochian_rite
 
 9669 = {	#WISMAR
 	culture = polabian
-	rite = slavic_west
+	rite = slavic_prove
 	holding = none
 	1248.1.1 = {
 		holding = church_holding
@@ -82144,7 +82185,8 @@ rite = roman_rite
 
 10203 = {	# SIE
 	culture = sichuan
-	rite = zhengyi
+	rite = sukhavati # Yusseter
+	#rite = zhengyi
 	holding = castle_holding # Yusseter: tribal_holding
 }
 
@@ -82658,28 +82700,22 @@ rite = roman_rite
 	holding = castle_holding
 }
 
-10326 = {	# WU
+10326 = { # Yusseter	# WU
 	culture = wu
 	rite = vinaya
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 10327 = {	# HUATING
 	holding = city_holding
 }
 
-10328 = {	# JIAXING
+10328 = { # Yusseter	# JIAXING
 	culture = wu
 	rite = vinaya
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 10329 = {	# YIXING
@@ -82709,7 +82745,8 @@ rite = roman_rite
 
 10333 = {	# DANTU
 	culture = wu
-	rite = dhyana
+	rite = shangqing # Yusseter
+	#rite = dhyana
 	holding = castle_holding
 }
 
@@ -82721,12 +82758,15 @@ rite = roman_rite
 	holding = church_holding
 }
 
-10336 = {	# CHANGXI
+10336 = { # Yusseter	# CHANGXI
 	culture = min
-	rite = mingism
+	rite = dhyana
 	holding = castle_holding
 	# History
-	1150.1.1 = {
+	845.1.1 = {
+		rite = mingism
+	}
+	1241.1.1 = {
 		rite = daoxue
 	}
 }
@@ -82745,28 +82785,22 @@ rite = roman_rite
 	holding = none
 }
 
-10340 = {	# XUANCHENG
+10340 = { # Yusseter	# XUANCHENG
 	culture = wu
 	rite = vinaya
 	holding = castle_holding
 	# History
-	1050.1.1 = {
-		rite = daoxue
-	}
 }
 
 10341 = {	# JINGDE
 	holding = none
 }
 
-10342 = {	# WUCHENG 2
+10342 = { # Yusseter	# WUCHENG 2
 	culture = wu
-	rite = mingism
+	rite = vinaya
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 10343 = {	# ANJI
@@ -82795,13 +82829,13 @@ rite = roman_rite
 	}
 }
 
-10348 = {	# JIANDE
+10348 = { # Yusseter	# JIANDE
 	culture = yao
 	rite = vinaya
 	holding = castle_holding
 	# History
 	1150.1.1 = {
-		rite = daoxue
+
 		culture = wu
 	}
 }
@@ -82845,7 +82879,7 @@ rite = roman_rite
 	holding = city_holding
 }
 
-10356 = {	# JI
+10356 = { # Yusseter	# JI
 	culture = han
 	rite = mantrayana
 	holding = castle_holding
@@ -82855,6 +82889,9 @@ rite = roman_rite
 	}
 	923.1.1 = {
 		culture = jin
+	}
+	1138.1.1 = {
+		rite = taiyi
 	}
 }
 
@@ -82907,14 +82944,11 @@ rite = roman_rite
 	holding = church_holding
 }
 
-10365 = {	# PENGLAI
+10365 = { # Yusseter	# PENGLAI
 	culture = qi
 	rite = pundarika
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 	1170.1.1 = {
 		rite = quanzhen
 	}
@@ -82928,10 +82962,13 @@ rite = roman_rite
 	holding = none
 }
 
-10368 = {	# SHE 1
+10368 = { # Yusseter	# SHE 1
 	culture = wu
-	rite = shangqing
+	rite = vinaya
 	holding = castle_holding
+	1200.1.1 = {
+		rite = daoxue
+	}
 }
 
 10369 = {	# JIANPING
@@ -83024,7 +83061,8 @@ rite = roman_rite
 
 10389 = {	# LONGSHUI
 	culture = sui
-	rite = satsana_phi
+	rite = kam_sui # Yusseter
+	#rite = satsana_phi
 	holding = tribal_holding # Yusseter: castle_holding
 }
 
@@ -83066,16 +83104,13 @@ rite = roman_rite
 	holding = none
 }
 
-10399 = {	# BALING
+10399 = { # Yusseter	# BALING
 	culture = han
 	rite = pundarika
 	holding = castle_holding
 	# History
 	1050.1.1 = {
 		culture = gan
-	}
-	1150.1.1 = {
-		rite = daoxue
 	}
 }
 
@@ -83092,12 +83127,15 @@ rite = roman_rite
 	holding = city_holding
 }
 
-10403 = {	# HEDONG
+10403 = { # Yusseter	# HEDONG
 	culture = han
 	rite = sukhavati
 	holding = castle_holding
 	900.1.1 = {
 		culture = qin
+	}
+	1247.1.1 = {
+		rite = quanzhen
 	}
 }
 
@@ -83124,7 +83162,8 @@ rite = roman_rite
 
 10408 = {	# BIANXI
 	culture = kam
-	rite = moism
+	rite = kam_sui # Yusseter
+	#rite = moism
 	holding = tribal_holding
 }
 
@@ -83188,24 +83227,18 @@ rite = roman_rite
 	holding = church_holding
 }
 
-10422 = {	# QUSHAN
+10422 = { # Yusseter	# QUSHAN
 	culture = jianghuai
 	rite = pundarika
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
-10423 = {	# LINYI
+10423 = { # Yusseter	# LINYI
 	culture = qi
 	rite = pundarika
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 10424 = {	# SHIAN
@@ -83223,7 +83256,8 @@ rite = roman_rite
 
 10426 = {	# YONGPING
 	culture = yao
-	rite = dab_qhuas
+	rite = mienic # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 }
 
@@ -83239,7 +83273,7 @@ rite = roman_rite
 	holding = none
 }
 
-10430 = {	# CHANGAN
+10430 = { # Yusseter	# CHANGAN
 	culture = han
 	rite = jingxue
 	holding = castle_holding
@@ -83252,7 +83286,7 @@ rite = roman_rite
 	900.1.1 = {
 		culture = qin
 	}
-	1150.1.1 = {
+	1313.1.1 = {
 		rite = daoxue
 	}
 }
@@ -83261,12 +83295,15 @@ rite = roman_rite
 	holding = city_holding
 }
 
-10432 = {	# MIN
+10432 = { # Yusseter	# MIN
 	culture = min
-	rite = mingism
+	rite = dhyana
 	holding = castle_holding
 	# History
-	1150.1.1 = {
+	845.1.1 = {
+		rite = mingism
+	}
+	1241.1.1 = {
 		rite = daoxue
 	}
 }
@@ -83339,7 +83376,8 @@ rite = roman_rite
 }
 
 10450 = {	# HAMI 2
-	rite = satsana_phi
+	rite = moism # Yusseter
+	#rite = satsana_phi
 	culture = tai
 
 	holding = castle_holding
@@ -83352,13 +83390,14 @@ rite = roman_rite
 	holding = church_holding
 }
 
-10455 = {
+10455 = { # Yusseter
 	culture = shatuo
-	rite = eastern_tengri
+	rite = tengri_pagan
 	holding = castle_holding
 	# History
 	1050.1.1 = {
 		culture = ongud
+		rite = eastern_tengri
 	}
 }
 
@@ -83372,12 +83411,12 @@ rite = roman_rite
 	}
 }
 
-10463 = {
+10463 = { # Yusseter
 	culture = amis
-	rite = formosa_animism
+	rite = alid
 	holding = tribal_holding
 	special_building_slot = fengtian_mines_01
-	
+
 	# History
 	1179.1.1 = {
 		special_building = fengtian_mines_01
@@ -83410,17 +83449,14 @@ rite = roman_rite
 	holding = city_holding
 }
 
-10471 = {	# GUANCHENG
+10471 = { # Yusseter	# GUANCHENG
 	culture = han
 	rite = dhyana
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
-10472 = {	# KAIFENG
+10472 = { # Yusseter	# KAIFENG
 	culture = han
 	rite = dhyana
 	holding = castle_holding
@@ -83429,11 +83465,16 @@ rite = roman_rite
 	# History
 	960.1.1 = {
 		special_building = kaifeng_palace_01
+		rite = jingxue
 	}
-	1066.1.1 = {
+	1075.1.1 = {
+		rite = jingshi
+	}
+	1127.1.1 = {
+		rite = shuxue
+	}
+	1313.1.1 = {
 		rite = daoxue
-	}
-	1044.1.1 = {
 	}
 }
 
@@ -83477,7 +83518,8 @@ rite = roman_rite
 
 10480 = {	# WUCHUAN
 	culture = gelao
-	rite = satsana_phi
+	rite = kam_sui # Yusseter
+	#rite = satsana_phi
 	holding = tribal_holding
 }
 
@@ -83491,7 +83533,8 @@ rite = roman_rite
 
 10483 = {	# LUYANG
 	culture = kam
-	rite = moism
+	rite = kam_sui # Yusseter
+	#rite = moism
 	holding = tribal_holding
 }
 
@@ -83669,7 +83712,8 @@ rite = roman_rite
 
 10519 = {	# WULONG 1
 	culture = tai
-	rite = satsana_phi
+	rite = moism # Yusseter
+	#rite = satsana_phi
 	holding = castle_holding # Yusseter: tribal_holding
 	1170.1.1 = {
 		culture = bouxcuengh
@@ -84041,7 +84085,8 @@ rite = roman_rite
 
 10592 = {	# TOMATA
 	culture = japanese
-	rite = shugendo
+	rite = shinto # Yusseter
+	#rite = shugendo
 	holding = castle_holding
 }
 
@@ -84051,7 +84096,8 @@ rite = roman_rite
 
 10594 = {	# SHIKAMA
 	culture = japanese
-	rite = shugendo
+	rite = shinto # Yusseter
+	#rite = shugendo
 	holding = castle_holding
 }
 
@@ -84129,7 +84175,8 @@ rite = roman_rite
 
 10608 = {	# AWAJI
 	culture = japanese
-	rite = shugendo
+	rite = shinto # Yusseter
+	#rite = shugendo
 	holding = castle_holding
 }
 
@@ -84281,7 +84328,8 @@ rite = roman_rite
 
 10638 = {	# KUWADA
 	culture = japanese
-	rite = shugendo
+	rite = shinto # Yusseter
+	#rite = shugendo
 	holding = castle_holding
 }
 
@@ -84301,7 +84349,8 @@ rite = roman_rite
 
 10642 = {
 	culture = siraya
-	rite = formosa_animism
+	rite = alid # Yusseter
+	#rite = formosa_animism
 	holding = tribal_holding
 }
 
@@ -84313,7 +84362,8 @@ rite = roman_rite
 
 10644 = {
 	culture = pepo
-	rite = formosa_animism
+	rite = alid # Yusseter
+	#rite = formosa_animism
 	holding = tribal_holding
 }
 
@@ -84372,7 +84422,8 @@ rite = roman_rite
 
 10655 = { # ŌNO
 	culture = japanese
-	rite = shugendo
+	rite = shinto # Yusseter
+	#rite = shugendo
 	holding = castle_holding
 	1185.1.1 = {
 		culture = togoku
@@ -84487,7 +84538,8 @@ rite = roman_rite
 
 10675 = { # KASHIMA
 	culture = japanese
-	rite = shugendo
+	rite = shinto # Yusseter
+	#rite = shugendo
 	holding = castle_holding
 }
 
@@ -84521,21 +84573,20 @@ rite = roman_rite
 	holding = none
 }
 
-10681 = {	# YUANLING
+10681 = { # Yusseter	# YUANLING
 	culture = hmong
 	rite = dab_qhuas
 	holding = castle_holding
 	1050.1.1 = {
 		culture = xiang
-	}
-	1150.1.1 = {
-		rite = daoxue
+		rite = dhyana
 	}
 }
 
 10682 = { # YATSUSHIRO
 	culture = japanese
-	rite = shugendo
+	rite = shinto # Yusseter
+	#rite = shugendo
 	holding = castle_holding
 	1185.1.1 = {
 		culture = togoku
@@ -84578,7 +84629,8 @@ rite = roman_rite
 
 10690 = { # TOYODA
 	culture = japanese
-	rite = shugendo
+	rite = shinto # Yusseter
+	#rite = shugendo
 	holding = castle_holding
 	1185.1.1 = {
 		culture = togoku
@@ -84611,7 +84663,7 @@ rite = roman_rite
 	holding = church_holding
 }
 
-10697 = {	 # ISAWA/HIRAIZUMI
+10697 = { # Yusseter	 # ISAWA/HIRAIZUMI
 	culture = emishi
 	rite = kamuyism_pagan
 	holding = castle_holding
@@ -84623,6 +84675,9 @@ rite = roman_rite
 	}
 	1178.1.1 = {
 		culture = oshu
+
+	}
+	1105.1.1 = {
 		rite = pundarika
 	}
 }
@@ -84683,7 +84738,8 @@ rite = roman_rite
 	holding = tribal_holding # Yusseter: castle_holding
 	1100.1.1 = {
 		culture = oshu
-		rite = shugendo
+		rite = shinto # Yusseter
+		#rite = shugendo
 		holding = castle_holding # Yusseter
 	}
 }
@@ -84970,10 +85026,13 @@ rite = roman_rite
 	holding = none
 }
 
-10756 = { # ANŌ
+10756 = { # Yusseter # ANŌ
 	culture = japanese
 	rite = shinto
 	holding = castle_holding
+	1285.1.1 = {
+		rite = watarai
+	}
 }
 
 10757 = { # ISE-JINGU / SAIKU 
@@ -85175,10 +85234,13 @@ rite = roman_rite
 	holding = none
 }
 
-10794 = { # MONBETSU
+10794 = { # Yusseter # MONBETSU
 	culture = ainu
 	rite = yzng
 	holding = tribal_holding
+	1100.1.1 = {
+		rite = kamuyism_pagan
+	}
 }
 
 10795 = {
@@ -85213,7 +85275,8 @@ rite = roman_rite
 
 10802 = {
 	culture = chong
-	rite = kuy_animism
+	rite = katuic # Yusseter
+	#rite = kuy_animism
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 	900.1.1 = {
 		culture = khmer
@@ -85229,13 +85292,15 @@ rite = roman_rite
 
 10804 = {
 	culture = dega
-	rite = kuy_animism
+	rite = yang # Yusseter
+	#rite = kuy_animism
 	holding = temple_citadel_holding
 }
 
 10805 = {
 	culture = stieng
-	rite = kuy_animism
+	rite = yang # Yusseter
+	#rite = kuy_animism
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 	600.1.1 = { #Vat Phou
 		special_building = generic_university
@@ -85248,7 +85313,8 @@ rite = roman_rite
 
 10807 = {
 	culture = dega
-	rite = kuy_animism
+	rite = yang # Yusseter
+	#rite = kuy_animism
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 }
 
@@ -85340,7 +85406,8 @@ rite = roman_rite
 
 10820 = {
 	culture = khmu
-	rite = kuy_animism
+	rite = hroi # Yusseter
+	#rite = kuy_animism
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = tribal_holding # Yusseter: temple_citadel_holding
@@ -85378,7 +85445,8 @@ rite = roman_rite
 
 10823 = {
 	culture = chong
-	rite = kuy_animism
+	rite = katuic # Yusseter
+	#rite = kuy_animism
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 }
 
@@ -85529,7 +85597,8 @@ rite = roman_rite
 
 10852 = {
 	culture = tai
-	rite = satsana_phi
+	rite = moism # Yusseter
+	#rite = satsana_phi
 	holding = tribal_holding
 	1100.1.1 = {
 		culture = bouxcuengh
@@ -85546,7 +85615,8 @@ rite = roman_rite
 
 10855 = {
 	culture = tai
-	rite = satsana_phi
+	rite = moism # Yusseter
+	#rite = satsana_phi
 	holding = castle_holding
 	1100.1.1 = {
 		culture = bouxcuengh
@@ -85613,7 +85683,8 @@ rite = roman_rite
 
 10864 = {	# WEIYUAN 1
 	culture = hani
-	rite = benzhu
+	rite = mopi # Yusseter
+	#rite = benzhu
 	holding = tribal_holding # Yusseter: castle_holding
 	1050.1.1 = {
 		culture = tai
@@ -85644,7 +85715,8 @@ rite = roman_rite
 10868 = { #c_huichuan
 	culture = lisu
 	holding = castle_holding
-	rite = bimoism
+	rite = lisu_lahu # Yusseter
+	#rite = bimoism
 	1100.1.1 = {
 		culture = yi
 		rite = bimoism
@@ -85701,7 +85773,8 @@ rite = roman_rite
 
 10877 = { #b_jianchang_mukui
 	culture = lisu
-	rite = bimoism
+	rite = lisu_lahu # Yusseter
+	#rite = bimoism
 	holding = castle_holding
 	1100.1.1 = {
 		culture = yi
@@ -85741,8 +85814,10 @@ rite = roman_rite
 }
 
 10884 = { #b_shanju_xiangcheng
-	culture = lisu
-	rite = bimoism
+	culture = nakhi # Yusseter
+	#culture = lisu
+	rite = daba # Yusseter
+	#rite = bimoism
 	holding = castle_holding
 	1100.1.1 = {
 		culture = yi
@@ -85867,7 +85942,8 @@ rite = roman_rite
 
 10904 = {	# BURI 2
 	culture = hani
-	rite = benzhu
+	rite = mopi # Yusseter
+	#rite = benzhu
 	holding = castle_holding # Yusseter: tribal_holding
 
 	1066.1.1 = {
@@ -85911,7 +85987,8 @@ rite = roman_rite
 
 10909 = {
 	culture = khmu
-	rite = kuy_animism
+	rite = hroi # Yusseter
+	#rite = kuy_animism
 	holding = temple_citadel_holding
 }
 
@@ -85996,7 +86073,8 @@ rite = roman_rite
 
 10925 = {
 	culture = dega
-	rite = kuy_animism
+	rite = yang # Yusseter
+	#rite = kuy_animism
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 }
 
@@ -86036,7 +86114,8 @@ rite = roman_rite
 
 10931 = {
 	culture = dega
-	rite = kuy_animism
+	rite = yang # Yusseter
+	#rite = kuy_animism
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 }
 
@@ -86087,13 +86166,15 @@ rite = roman_rite
 
 10940 = {
 	culture = bruso
-	rite = kuy_animism
+	rite = katuic # Yusseter
+	#rite = kuy_animism
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 }
 
 10941 = {
 	culture = khmu
-	rite = kuy_animism
+	rite = hroi # Yusseter
+	#rite = kuy_animism
 	holding = temple_citadel_holding
 }
 
@@ -86164,7 +86245,8 @@ rite = roman_rite
 
 10956 = { #b_phetchabun
 	culture = wa
-	rite = wa_animism
+	rite = lua # Yusseter
+	#rite = wa_animism
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 	1050.1.1 = {
 		culture = mon
@@ -86244,7 +86326,8 @@ rite = roman_rite
 
 10965 = {
 	culture = karen
-	rite = burmic
+	rite = karen_animism # Yusseter
+	#rite = burmic
 	holding = tribal_holding
 }
 
@@ -86309,7 +86392,8 @@ rite = roman_rite
 
 10979 = { #b_putao
 	culture = kachin
-	rite = burmic
+	rite = jinghpaw # Yusseter
+	#rite = burmic
 	holding = tribal_holding
 }
 
@@ -86669,7 +86753,8 @@ rite = roman_rite
 
 11043 = {	#b_PHI_Taytay
 	culture = palawan
-	rite = malyari
+	rite = dayawism # Yusseter
+	#rite = malyari
 	holding = tribal_holding
 	1000.1.1 = {
 		holding = tribal_holding
@@ -86678,7 +86763,8 @@ rite = roman_rite
 
 11044 = {	#b_PHI_Tagbanwa
 	culture = palawan
-	rite = malyari
+	rite = dayawism # Yusseter
+	#rite = malyari
 	holding = tribal_holding
 }
 
@@ -86841,7 +86927,7 @@ rite = roman_rite
 	holding = none
 }
 
-11075 = {	#b_PHI_Butuan
+11075 = { # Yusseter	#b_PHI_Butuan
 	culture = tawo
 	rite = dayawism
 	holding = tribal_holding
@@ -86850,10 +86936,11 @@ rite = roman_rite
 	}
 	1000.1.1 = {
 		holding = castle_holding # Yusseter
+		rite = kasogatan
 	}
 	1060.1.1 = {
 		culture = bisaya
-		rite = kasogatan # Yusseter
+		 # Yusseter
 		#rite = vajrayana
 	}
 }
@@ -86904,12 +86991,13 @@ rite = roman_rite
 	holding = none
 }
 
-11085 = {	#b_PHI_Matangal
+11085 = { # Yusseter	#b_PHI_Matangal
 	culture = buranun
-	rite = umboh
+	rite = dayawism
 	holding = tribal_holding
 	1100.1.1 = {
 		culture = sama
+		rite = umboh
 	}
 }
 
@@ -87013,7 +87101,8 @@ rite = roman_rite
 
 11110 = {	#b_BOR_Sibu
 	culture = iban
-	rite = kaharingan
+	rite = petara # Yusseter
+	#rite = kaharingan
 	holding = tribal_holding
 	1066.1.1 = {
 		holding = tribal_holding # Yusseter: temple_citadel_holding
@@ -87040,7 +87129,8 @@ rite = roman_rite
 
 11115 = {	#b_BOR_Sintang
 	culture = bidayuh
-	rite = kaharingan
+	rite = jubata # Yusseter
+	#rite = kaharingan
 	holding = tribal_holding
 	1178.1.1 = {
 		holding = tribal_holding # Yusseter: temple_citadel_holding
@@ -87073,7 +87163,8 @@ rite = roman_rite
 
 11119 = {	#b_BOR_Sambas
 	culture = bidayuh
-	rite = kaharingan
+	rite = jubata # Yusseter
+	#rite = kaharingan
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 }
 
@@ -87125,7 +87216,8 @@ rite = roman_rite
 
 11129 = {	#b_BOR_Sampit
 	culture = ngaju
-	rite = umboh
+	rite = kaharingan # Yusseter
+	#rite = umboh
 	holding = tribal_holding
 	1300.1.1 = {
 		culture = banjar
@@ -87330,12 +87422,12 @@ rite = roman_rite
 	holding = tribal_holding
 }
 
-11170 = {	#b_SUL_Makassar
+11170 = { # Yusseter	#b_SUL_Makassar
 	culture = makassar
-	rite = aluk
+	rite = attoriolong
 	holding = tribal_holding
 	1000.1.1 = {
-		rite = kasogatan # Yusseter
+		 # Yusseter
 		#rite = vajrayana
 	}
 	1300.1.1 = {
@@ -87371,7 +87463,8 @@ rite = roman_rite
 
 11177 = {	#b_SUL_Malangke
 	culture = mandar
-	rite = aluk
+	rite = attoriolong # Yusseter
+	#rite = aluk
 	holding = tribal_holding
 }
 
@@ -87495,12 +87588,12 @@ rite = roman_rite
 	holding = none
 }
 
-11203 = {	#b_SUL_Tamala
+11203 = { # Yusseter	#b_SUL_Tamala
 	culture = mandar
-	rite = aluk
+	rite = attoriolong
 	holding = tribal_holding
 	1000.1.1 = {
-		rite = kasogatan # Yusseter
+		 # Yusseter
 		#rite = vajrayana
 	}
 }
@@ -87567,13 +87660,15 @@ rite = roman_rite
 
 11217 = {	#b_MAL_Buru
 	culture = nunusaku
-	rite = nunusaku
+	rite = kakehan # Yusseter
+	#rite = nunusaku
 	holding = tribal_holding
 }
 
 11218 = {	#b_MAL_Ambwan
 	culture = nunusaku
-	rite = nunusaku
+	rite = kakehan # Yusseter
+	#rite = nunusaku
 	holding = tribal_holding
 }
 
@@ -87591,7 +87686,8 @@ rite = roman_rite
 
 11222 = {	#b_MAL_Waisai
 	culture = buli
-	rite = nunusaku
+	rite = gomanga # Yusseter
+	#rite = nunusaku
 	holding = tribal_holding
 }
 
@@ -87601,7 +87697,8 @@ rite = roman_rite
 
 11224 = {	#b_MAL_Bacan
 	culture = halmahera
-	rite = nunusaku
+	rite = gomanga # Yusseter
+	#rite = nunusaku
 	holding = tribal_holding
 }
 
@@ -87611,7 +87708,8 @@ rite = roman_rite
 
 11226 = {	#b_MAL_Tidore
 	culture = buli
-	rite = nunusaku
+	rite = gomanga # Yusseter
+	#rite = nunusaku
 	holding = tribal_holding
 }
 
@@ -87625,7 +87723,8 @@ rite = roman_rite
 
 11229 = {	#b_MAL_Ternate
 	culture = halmahera
-	rite = nunusaku
+	rite = gomanga # Yusseter
+	#rite = nunusaku
 	holding = tribal_holding
 	1285.1.1 = {
 		holding = castle_holding # Yusseter
@@ -87642,7 +87741,8 @@ rite = roman_rite
 
 11248 = { #Marakele / Great Andaman
 	culture = ongan
-	rite = kadai
+	rite = nicobarese # Yusseter
+	#rite = kadai
 	#terrain = jungle # Yusseter
 
 	holding = tribal_holding
@@ -88385,7 +88485,8 @@ rite = roman_rite
 
 11402 = {	#b_MAL_Gelanggi
 	culture = senoi
-	rite = kadai
+	rite = senoic # Yusseter
+	#rite = kadai
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 }
 
@@ -88417,7 +88518,8 @@ rite = roman_rite
 
 11408 = {	#b_MAL_Semantan
 	culture = semang
-	rite = kadai
+	rite = aslian_animism # Yusseter
+	#rite = kadai
 	holding = tribal_holding
 }
 
@@ -88604,7 +88706,8 @@ rite = roman_rite
 
 11440 = {
 	culture = stieng
-	rite = kuy_animism
+	rite = yang # Yusseter
+	#rite = kuy_animism
 	holding = tribal_holding
 }
 
@@ -88752,7 +88855,8 @@ rite = roman_rite
 
 11465 = {
 	culture = bruso
-	rite = kuy_animism
+	rite = katuic # Yusseter
+	#rite = kuy_animism
 	holding = tribal_holding
 }
 
@@ -88802,7 +88906,8 @@ rite = roman_rite
 
 11476 = {	# MENGGU
 	culture = lahu
-	rite = bimoism
+	rite = lisu_lahu # Yusseter
+	#rite = bimoism
 	holding = castle_holding
 }
 
@@ -88812,7 +88917,8 @@ rite = roman_rite
 
 11478 = {	# MUZE
 	culture = hani
-	rite = benzhu
+	rite = mopi # Yusseter
+	#rite = benzhu
 	holding = castle_holding
 }
 
@@ -88839,7 +88945,8 @@ rite = roman_rite
 
 11482 = { #b_moeng_long
 	culture = hani
-	rite = benzhu
+	rite = mopi # Yusseter
+	#rite = benzhu
 	holding = tribal_holding
 	1180.1.1 = {
 		culture = lue
@@ -89570,12 +89677,13 @@ rite = roman_rite
 	holding = none
 }
 
-11654 = {	#Taizhou
+11654 = { # Yusseter	#Taizhou
 	culture = shiwei
 	rite = eastern_tengri
 	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		culture = khitan
+		rite = muye
 	}
 }
 
@@ -89837,12 +89945,13 @@ rite = roman_rite
 	}
 }
 
-11703 = {	#Ulanulagai
+11703 = { # Yusseter	#Ulanulagai
 	culture = qay
 	rite = eastern_tengri
 	holding = tribal_holding # Yusseter: nomad_holding
 	1050.1.1 = {
 		culture = khitan
+		rite = muye
 	}
 	1140.1.1 = {
 		culture = qay
@@ -89871,7 +89980,8 @@ rite = roman_rite
 
 11709 = {	#Linhuang
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = tribal_holding # Yusseter: nomad_holding
 	918.1.1 = {
 		holding = tribal_holding # Yusseter: castle_holding
@@ -89892,7 +90002,8 @@ rite = roman_rite
 
 11712 = {	#Raozhou
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = nomad_holding
 	1066.1.1 = {
 		rite = avatamsaka
@@ -89902,7 +90013,8 @@ rite = roman_rite
 
 11713 = {	#Dalinuor
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
@@ -89923,7 +90035,8 @@ rite = roman_rite
 
 11716 = { # Fengzhou
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		rite = avatamsaka
@@ -89958,7 +90071,8 @@ rite = roman_rite
 
 11721 = {	#Dading
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
@@ -89985,7 +90099,8 @@ rite = roman_rite
 
 11725 = {	#Matudi
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = nomad_holding
 	1066.1.1 = {
 		rite = avatamsaka
@@ -90020,12 +90135,13 @@ rite = roman_rite
 	holding = none
 }
 
-11733 = {	#Ningzhou
+11733 = { # Yusseter	#Ningzhou
 	culture = shiwei
 	rite = eastern_tengri
 	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		culture = khitan
+		rite = muye
 	}
 }
 
@@ -90035,13 +90151,15 @@ rite = roman_rite
 
 11735 = {	#Changchun
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = tribal_holding # Yusseter: nomad_holding
 }
 
 11736 = {	#Yizhou
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = nomad_holding # Yusseter: castle_holding
 	1066.1.1 = {
 		holding = nomad_holding
@@ -90058,7 +90176,8 @@ rite = roman_rite
 
 11739 = {	#Horqin
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = nomad_holding
 }
 
@@ -90088,7 +90207,8 @@ rite = roman_rite
 
 11746 = {	#Changchun
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = nomad_holding # Yusseter: castle_holding
 	1066.1.1 = {
 		holding = nomad_holding
@@ -90140,7 +90260,8 @@ rite = roman_rite
 
 11754 = {	#Wuanzhou
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		rite = avatamsaka
@@ -90154,7 +90275,8 @@ rite = roman_rite
 
 11756 = {	#Longhuazhou
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		rite = avatamsaka
@@ -90322,7 +90444,8 @@ rite = roman_rite
 
 11779 = {	#Fuzhou
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = nomad_holding # Yusseter: castle_holding
 	1066.1.1 = {
 		holding = nomad_holding
@@ -90342,7 +90465,8 @@ rite = roman_rite
 
 11782 = {	#Yinzhou
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = nomad_holding # Yusseter: castle_holding
 	1120.1.1 = {
 		culture = jurchen
@@ -91987,7 +92111,8 @@ rite = roman_rite
 
 12068 = {	# LONGBIAO
 	culture = kam
-	rite = moism
+	rite = kam_sui # Yusseter
+	#rite = moism
 	holding = tribal_holding
 }
 
@@ -92089,7 +92214,8 @@ rite = roman_rite
 
 12088 = {	# FANGLING
 	culture = chu
-	rite = shangqing
+	rite = dhyana # Yusseter
+	#rite = shangqing
 	holding = castle_holding
 }
 
@@ -92200,7 +92326,8 @@ rite = roman_rite
 
 12110 = {	# RANG
 	culture = han
-	rite = shangqing
+	rite = dhyana # Yusseter
+	#rite = shangqing
 	holding = castle_holding
 }
 
@@ -92231,16 +92358,13 @@ rite = roman_rite
 	holding = city_holding
 }
 
-12116 = {	# WUDANG
+12116 = { # Yusseter	# WUDANG
 	culture = chu
 	rite = shangqing
 	holding = castle_holding
 	special_building_slot = wudang_mountain_temples_01
 	647.1.1 = {
 		special_building = wudang_mountain_temples_01
-	}
-	1150.1.1 = {
-		rite = daoxue
 	}
 }
 
@@ -92290,7 +92414,8 @@ rite = roman_rite
 
 12126 = {	# LINGUI
 	culture = yao
-	rite = dab_qhuas
+	rite = mienic # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 }
 
@@ -92405,14 +92530,14 @@ rite = roman_rite
 	holding = church_holding
 }
 
-12142 = {	# TAIYUAN
+12142 = { # Yusseter	# TAIYUAN
 	culture = han
 	rite = sukhavati
 	holding = castle_holding
 	923.1.1 = {
 		culture = jin
 	}
-	1170.1.1 = {
+	1222.1.1 = {
 		rite = quanzhen
 	}
 }
@@ -92648,7 +92773,7 @@ rite = roman_rite
 	}
 }
 
-12174 = {	# CIRLNJ XINGTANG
+12174 = { # Yusseter	# CIRLNJ XINGTANG
 	culture = jilu
 	rite = dhyana
 	holding = castle_holding
@@ -92659,7 +92784,7 @@ rite = roman_rite
 	938.1.1 = {
 		culture = yan
 	}
-	1170.1.1 = {
+	1188.1.1 = {
 		rite = quanzhen
 	}
 }
@@ -92957,16 +93082,13 @@ rite = roman_rite
 	holding = city_holding
 }
 
-12216 = {	# HUAYUAN
+12216 = { # Yusseter	# HUAYUAN
 	culture = han
-	rite = jingxue
+	rite = sukhavati
 	holding = castle_holding
 	# History
 	900.1.1 = {
 		culture = qin
-	}
-	1150.1.1 = {
-		rite = daoxue
 	}
 }
 
@@ -93016,16 +93138,13 @@ rite = roman_rite
 	holding = church_holding
 }
 
-12223 = {	# HEYANG 1
+12223 = { # Yusseter	# HEYANG 1
 	culture = han
-	rite = jingxue
+	rite = sukhavati
 	holding = castle_holding
 	# History
 	900.1.1 = {
 		culture = qin
-	}
-	1150.1.1 = {
-		rite = daoxue
 	}
 }
 
@@ -93048,7 +93167,8 @@ rite = roman_rite
 
 12226 = {	# JINCHENG
 	culture = han
-	rite = zhengyi
+	rite = sukhavati # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 	923.1.1 = {
 		culture = jin
@@ -93224,14 +93344,11 @@ rite = roman_rite
 	holding = none
 }
 
-12257 = {	# LINGSHOU
+12257 = { # Yusseter	# LINGSHOU
 	culture = jilu
-	rite = zhengyi
+	rite = dhyana
 	holding = castle_holding
 	# History
-	1170.1.1 = {
-		rite = quanzhen
-	}
 }
 
 12258 = {	# SHUKUN
@@ -93253,13 +93370,15 @@ rite = roman_rite
 
 12260 = {	# SIYUAN
 	culture = gelao
-	rite = satsana_phi
+	rite = kam_sui # Yusseter
+	#rite = satsana_phi
 	holding = castle_holding # Yusseter: tribal_holding
 }
 
 12261 = {	# YANCHUAN 1
 	culture = tai
-	rite = satsana_phi
+	rite = moism # Yusseter
+	#rite = satsana_phi
 	holding = castle_holding # Yusseter: tribal_holding
 	1170.1.1 = {
 		culture = bouxcuengh
@@ -93284,13 +93403,15 @@ rite = roman_rite
 
 12266 = {	# NANPING
 	culture = sui
-	rite = satsana_phi
+	rite = kam_sui # Yusseter
+	#rite = satsana_phi
 	holding = tribal_holding
 }
 
 12267 = {	# YINZHOU
 	culture = sichuan
-	rite = zhengyi
+	rite = sukhavati # Yusseter
+	#rite = zhengyi
 	holding = castle_holding # Yusseter: tribal_holding
 }
 
@@ -93344,14 +93465,11 @@ rite = roman_rite
 	holding = church_holding
 }
 
-12279 = {	# HANYUAN
+12279 = { # Yusseter	# HANYUAN
 	culture = sichuan
-	rite = zhengyi
+	rite = mantrayana
 	holding = castle_holding
 	# History
-	1000.1.1 = {
-		rite = mantrayana
-	}
 }
 
 12280 = {	# TONGWANG
@@ -93398,13 +93516,10 @@ rite = roman_rite
 	}
 }
 
-12288 = {	# LONGYOU
+12288 = { # Yusseter	# LONGYOU
 	culture = sichuan
 	rite = mantrayana
 	holding = castle_holding
-	1140.1.1 = {
-		rite = shangqing
-	}
 }
 
 12289 = {	# QIANQWI
@@ -93429,14 +93544,11 @@ rite = roman_rite
 	holding = church_holding
 }
 
-12293 = {	# BODAO
+12293 = { # Yusseter	# BODAO
 	culture = sichuan
-	rite = zhengyi
+	rite = mantrayana
 	holding = castle_holding
 	# History
-	1000.1.1 = {
-		rite = mantrayana
-	}
 }
 
 12294 = {	# YIBIN
@@ -93504,7 +93616,8 @@ rite = roman_rite
 
 12306 = {	# LEGU
 	culture = kam
-	rite = moism
+	rite = kam_sui # Yusseter
+	#rite = moism
 	holding = tribal_holding
 }
 
@@ -93522,7 +93635,8 @@ rite = roman_rite
 
 12310 = {	# RONGSHUI
 	culture = kam
-	rite = moism
+	rite = kam_sui # Yusseter
+	#rite = moism
 	holding = castle_holding
 }
 
@@ -93600,7 +93714,7 @@ rite = roman_rite
 	}
 }
 
-12324 = {	# HONGNONG
+12324 = { # Yusseter	# HONGNONG
 	culture = han
 	rite = dhyana
 	holding = castle_holding
@@ -93608,30 +93722,24 @@ rite = roman_rite
 	900.1.1 = {
 		culture = qin
 	}
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 12325 = {	# LUSHI
 	holding = city_holding
 }
 
-12326 = {	# SHAN
+12326 = { # Yusseter	# SHAN
 	culture = han
 	rite = dhyana
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
-12327 = {	# SHAOWU
+12327 = { # Yusseter	# SHAOWU
 	culture = min
 	rite = vinaya
 	holding = castle_holding
-	1050.1.1 = {
+	1170.1.1 = {
 		rite = daoxue
 	}
 }
@@ -93648,21 +93756,23 @@ rite = roman_rite
 	holding = church_holding
 }
 
-12331 = {	# JIANGLI
-	culture = qiang
-	rite = zhengyi
+12331 = { # Yusseter	# JIANGLI
+	culture = baima
+	rite = chouchi
 	holding = castle_holding
 	1150.1.1 = {
 		culture = qin
+		rite = sukhavati
 	}
 }
 
-12332 = {	# TONGGU
-	culture = qiang
-	rite = zhengyi
+12332 = { # Yusseter	# TONGGU
+	culture = baima
+	rite = chouchi
 	holding = castle_holding
 	1150.1.1 = {
 		culture = qin
+		rite = sukhavati
 	}
 }
 
@@ -93672,7 +93782,8 @@ rite = roman_rite
 
 12334 = {	# LIANGQUAN
 	culture = han
-	rite = shangqing
+	rite = dhyana # Yusseter
+	#rite = shangqing
 	holding = castle_holding
 	900.1.1 = {
 		culture = qin
@@ -93685,17 +93796,18 @@ rite = roman_rite
 
 12336 = {	# SHUNZHENG
 	culture = sichuan
-	rite = shangqing
+	rite = dhyana # Yusseter
+	#rite = shangqing
 	holding = castle_holding
 }
 
-12337 = {	# XINAN
+12337 = { # Yusseter	# XINAN
 	culture = yao
 	rite = vinaya
 	holding = castle_holding
 	# History
 	1150.1.1 = {
-		rite = daoxue
+
 		culture = wu
 	}
 }
@@ -93718,7 +93830,8 @@ rite = roman_rite
 
 12342 = {	# CANGWU
 	culture = kam
-	rite = moism
+	rite = kam_sui # Yusseter
+	#rite = moism
 	holding = castle_holding
 	1150.1.1 = {
 		culture = yue
@@ -93820,12 +93933,13 @@ rite = roman_rite
 	holding = city_holding
 }
 
-12362 = {	# HEZHENG
+12362 = { # Yusseter	# HEZHENG
 	culture = qiang
-	rite = zhengyi
+	rite = rrmeaism
 	holding = castle_holding
 	1150.1.1 = {
 		culture = qin
+		rite = sukhavati
 	}
 }
 
@@ -93975,7 +94089,8 @@ rite = roman_rite
 
 12391 = {	# JINHE
 	culture = shatuo
-	rite = manichean
+	rite = tengri_pagan # Yusseter
+	#rite = manichean
 	holding = castle_holding
 	# History
 	 1000.1.1 = {
@@ -94001,16 +94116,17 @@ rite = roman_rite
 	}
 }
 
-12394 = {	# CIRLXJ WULANCHABU
+12394 = { # Yusseter	# CIRLXJ WULANCHABU
 	culture = shatuo
 	rite = dhyana # Yusseter
 	#rite = mahayana
 	holding = castle_holding
 	1140.1.1 = {
-		rite = eastern_tengri
+		rite = tengri_pagan
 	}
 	1190.1.1 = {
 		culture = ongud
+		rite = eastern_tengri
 	}
 }
 
@@ -94038,7 +94154,7 @@ rite = roman_rite
 	holding = church_holding
 }
 
-12401 = {	# CIRLXJ ZHANGJIAKOU
+12401 = { # Yusseter	# CIRLXJ ZHANGJIAKOU
 	culture = shatuo
 	rite = dhyana
 	holding = castle_holding
@@ -94048,7 +94164,7 @@ rite = roman_rite
 	923.1.1 = {
 		culture = jin
 	}
-	1170.1.1 = {
+	1188.1.1 = {
 		rite = quanzhen
 	}
 }
@@ -94119,7 +94235,8 @@ rite = roman_rite
 
 12411 = {	# CIRLXJ HUANZHOU
 	culture = khitan
-	rite = eastern_tengri
+	rite = muye # Yusseter
+	#rite = eastern_tengri
 	holding = tribal_holding # Yusseter: nomad_holding
 	1066.1.1 = {
 		holding = castle_holding
@@ -94141,16 +94258,17 @@ rite = roman_rite
 	holding = castle_holding
 }
 
-12413 = {	# CIRLXJ KANGBAO
+12413 = { # Yusseter	# CIRLXJ KANGBAO
 	culture = shatuo
 	rite = dhyana # Yusseter
 	#rite = mahayana
 	holding = castle_holding
 	1140.1.1 = {
-		rite = eastern_tengri
+		rite = tengri_pagan
 	}
 	1190.1.1 = {
 		culture = ongud
+		rite = eastern_tengri
 	}
 }
 
@@ -94546,7 +94664,7 @@ rite = roman_rite
 	holding = none
 }
 
-12486 = {	# TONGYI
+12486 = { # Yusseter	# TONGYI
 	culture = sichuan
 	rite = vinaya
 	holding = castle_holding
@@ -94554,8 +94672,8 @@ rite = roman_rite
 	960.1.1 = {
 		rite = dhyana
 	}
-	1150.1.1 = {
-		rite = daoxue
+	1057.1.1 = {
+		rite = shuxue
 	}
 }
 
@@ -94565,7 +94683,8 @@ rite = roman_rite
 
 12502 = { #b_nan
 	culture = wa
-	rite = wa_animism
+	rite = lua # Yusseter
+	#rite = wa_animism
 	holding = tribal_holding
 	1060.1.1 = {
 		culture = tai
@@ -94642,7 +94761,8 @@ rite = roman_rite
 	holding = temple_citadel_holding
 	900.1.1 = {
 		culture = kuy
-		rite = kuy_animism
+		rite = katuic # Yusseter
+		#rite = kuy_animism
 	}
 }
 
@@ -94741,12 +94861,13 @@ rite = roman_rite
 	holding = none
 }
 
-12560 = {	#b_GOBI_Aibakha
+12560 = { # Yusseter	#b_GOBI_Aibakha
 	culture = shatuo
-	rite = eastern_tengri
+	rite = tengri_pagan
 	holding = nomad_holding
 	1000.1.1 = {
 		culture = ongud
+		rite = eastern_tengri
 	}
 }
 
@@ -94758,23 +94879,25 @@ rite = roman_rite
 	holding = none
 }
 
-12563 = {	#b_gobi_gashunn
+12563 = { # Yusseter	#b_gobi_gashunn
 	culture = qun
-	rite = eastern_tengri
+	rite = tengri_pagan
 	holding = nomad_holding
 	930.1.1 = {
 		culture = kerait
 
+		rite = eastern_tengri
 	}
 }
 
-12564 = {	#b_GOBI_Deed_Ongi
+12564 = { # Yusseter	#b_GOBI_Deed_Ongi
 	culture = qun
-	rite = eastern_tengri
+	rite = tengri_pagan
 	holding = tribal_holding # Yusseter: nomad_holding
 	930.1.1 = {
 		culture = kerait
 
+		rite = eastern_tengri
 	}
 	1300.1.1 = {
 		culture = mongol
@@ -94785,13 +94908,14 @@ rite = roman_rite
 	holding = none
 }
 
-12566 = {	#b_GOBI_Ulaan_Nuur
+12566 = { # Yusseter	#b_GOBI_Ulaan_Nuur
 	culture = qun
-	rite = eastern_tengri
+	rite = tengri_pagan
 	holding = tribal_holding # Yusseter: nomad_holding
 	930.1.1 = {
 		culture = kerait
 
+		rite = eastern_tengri
 	}
 	1300.1.1 = {
 		culture = mongol
@@ -94802,12 +94926,13 @@ rite = roman_rite
 	holding = none
 }
 
-12568 = {	#b_GOBI_Ochikhi
+12568 = { # Yusseter	#b_GOBI_Ochikhi
 	culture = shatuo
-	rite = eastern_tengri
+	rite = tengri_pagan
 	holding = herder_holding # Yusseter: nomad_holding
 	1000.1.1 = {
 		culture = ongud
+		rite = eastern_tengri
 	}
 }
 
@@ -94845,10 +94970,14 @@ rite = roman_rite
 	holding = none
 }
 
-12810 = {	#Tarayka
+12810 = { # Yusseter	#Tarayka
 	culture = nivkh
 	rite = yzng
 	holding = tribal_holding
+	1300.1.1 = {
+		culture = ainu
+		rite = kamuyism_pagan
+	}
 }
 
 12811 = {	#Esutoru
@@ -94877,20 +95006,27 @@ rite = roman_rite
 	holding = none
 }
 
-12817 = {	#Kushunkotan
+12817 = { # Yusseter	#Kushunkotan
 	culture = nivkh
 	rite = yzng
 	holding = tribal_holding
+	1250.1.1 = {
+		culture = ainu
+		rite = kamuyism_pagan
+	}
 }
 
 12818 = {	#Honto
 	holding = none
 }
 
-12819 = { # Kunasir
+12819 = { # Yusseter # Kunasir
 	culture = ainu
 	rite = yzng
 	holding = tribal_holding
+	1250.1.1 = {
+		rite = kamuyism_pagan
+	}
 }
 
 12820 = { # Iturup
@@ -94913,7 +95049,8 @@ rite = roman_rite
 
 12835 = {	#c_kepala_burung
 	culture = buli
-	rite = nunusaku
+	rite = gomanga # Yusseter
+	#rite = nunusaku
 	holding = tribal_holding
 }
 
@@ -94927,7 +95064,8 @@ rite = roman_rite
 
 12838 = {	#b_kaimana
 	culture = buli
-	rite = nunusaku
+	rite = gomanga # Yusseter
+	#rite = nunusaku
 	holding = tribal_holding
 }
 
@@ -94947,7 +95085,8 @@ rite = roman_rite
 
 12842 = {	#b_asmat
 	culture = buli
-	rite = nunusaku
+	rite = gomanga # Yusseter
+	#rite = nunusaku
 	holding = tribal_holding
 }
 
@@ -94974,7 +95113,8 @@ rite = roman_rite
 12849 = { #Nakkavaram / Nicobars
 	# Misc
 	culture = aslian
-	rite = kadai
+	rite = nicobarese # Yusseter
+	#rite = kadai
 	#terrain = jungle # Yusseter
 
 	holding = tribal_holding
@@ -95031,7 +95171,8 @@ rite = roman_rite
 
 12930 = {	# SHECHENG
 	culture = hlai
-	rite = moism
+	rite = hlaic # Yusseter
+	#rite = moism
 	holding = tribal_holding # Yusseter: castle_holding
 	1150.1.1 = {
 		culture = min
@@ -95053,7 +95194,8 @@ rite = roman_rite
 
 12934 = {	# WANAN 1
 	culture = hlai
-	rite = moism
+	rite = hlaic # Yusseter
+	#rite = moism
 	holding = tribal_holding # Yusseter: castle_holding
 }
 
@@ -95067,7 +95209,8 @@ rite = roman_rite
 
 12937 = {	# NINGYUAN
 	culture = be
-	rite = moism
+	rite = hlaic # Yusseter
+	#rite = moism
 	holding = tribal_holding # Yusseter: castle_holding
 }
 
@@ -95081,7 +95224,8 @@ rite = roman_rite
 
 12940 = {	# YILUN
 	culture = be
-	rite = moism
+	rite = hlaic # Yusseter
+	#rite = moism
 	holding = tribal_holding # Yusseter: castle_holding
 }
 
@@ -95099,7 +95243,8 @@ rite = roman_rite
 
 12944 = {	# LIODONG
 	culture = hlai
-	rite = moism
+	rite = hlaic # Yusseter
+	#rite = moism
 	holding = tribal_holding # Yusseter: castle_holding
 	1150.1.1 = {
 		culture = min
@@ -95303,7 +95448,7 @@ rite = roman_rite
 	holding = city_holding
 }
 
-12989 = {	# CHANGSHA
+12989 = { # Yusseter	# CHANGSHA
 	culture = gan
 	rite = dhyana
 	holding = castle_holding
@@ -95311,7 +95456,7 @@ rite = roman_rite
 	1050.1.1 = {
 		culture = xiang
 	}
-	1150.1.1 = {
+	1165.1.1 = {
 		rite = daoxue
 	}
 }
@@ -95328,14 +95473,11 @@ rite = roman_rite
 	holding = city_holding
 }
 
-12993 = {	# QINGJIANG
+12993 = { # Yusseter	# QINGJIANG
 	culture = gan
 	rite = sukhavati
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 12994 = {	# XINCHANG
@@ -95398,14 +95540,11 @@ rite = roman_rite
 	holding = none
 }
 
-13009 = {	# ZHAOYI
+13009 = { # Yusseter	# ZHAOYI
 	culture = jianghuai
-	rite = shangqing
+	rite = dhyana
 	holding = castle_holding
 	# History
-	1000.1.1 = {
-		rite = dhyana
-	}
 }
 
 13010 = {	# ANFENG
@@ -95479,7 +95618,8 @@ rite = roman_rite
 
 13025 = {	# BIYANG 1
 	culture = han
-	rite = shangqing
+	rite = dhyana # Yusseter
+	#rite = shangqing
 	holding = castle_holding
 }
 
@@ -95527,16 +95667,16 @@ rite = roman_rite
 	holding = church_holding
 }
 
-13038 = {	# PINGYI
+13038 = { # Yusseter	# PINGYI
 	culture = han
-	rite = jingxue
+	rite = shangqing
 	holding = castle_holding
 	# History
 	900.1.1 = {
 		culture = qin
 	}
-	1150.1.1 = {
-		rite = daoxue
+	1222.1.1 = {
+		rite = quanzhen
 	}
 }
 
@@ -95552,7 +95692,8 @@ rite = roman_rite
 
 13041 = {	# SHANGDANG
 	culture = han
-	rite = zhengyi
+	rite = sukhavati # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 	923.1.1 = {
 		culture = jin
@@ -95563,14 +95704,11 @@ rite = roman_rite
 	holding = church_holding
 }
 
-13043 = {	# GAOAN
+13043 = { # Yusseter	# GAOAN
 	culture = gan
 	rite = sukhavati
 	holding = castle_holding
 	# History
-	1150.1.1 = {
-		rite = daoxue
-	}
 }
 
 13044 = {	# SHUOZHOU 1
@@ -95701,14 +95839,18 @@ rite = roman_rite
 }
 
 13073 = {	# QUSHUI
-	culture = qiang
-	rite = zhengyi
+	culture = baima # Yusseter
+	#culture = qiang
+	rite = chouchi # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 }
 
 13074 = {	# JIANGYOU
-	culture = qiang
-	rite = rrmeaism
+	culture = baima # Yusseter
+	#culture = qiang
+	rite = chouchi # Yusseter
+	#rite = rrmeaism
 	holding = castle_holding
 }
 
@@ -95802,7 +95944,8 @@ rite = roman_rite
 
 13093 = {	# GUILE
 	culture = sui
-	rite = satsana_phi
+	rite = kam_sui # Yusseter
+	#rite = satsana_phi
 	holding = tribal_holding
 }
 
@@ -95860,7 +96003,8 @@ rite = roman_rite
 
 13107 = {	# MIANGU
 	culture = sichuan
-	rite = zhengyi
+	rite = dhyana # Yusseter
+	#rite = zhengyi
 	holding = castle_holding
 }
 
@@ -95944,7 +96088,8 @@ rite = roman_rite
 
 13126 = {	# CHANGZE
 	culture = shatuo
-	rite = eastern_tengri
+	rite = tengri_pagan # Yusseter
+	#rite = eastern_tengri
 	holding = castle_holding
 	1140.1.1 = {
 		rite = kagyu
@@ -96026,7 +96171,8 @@ rite = roman_rite
 
 13142 = {	# PINGYANG
 	culture = yao
-	rite = dab_qhuas
+	rite = mienic # Yusseter
+	#rite = dab_qhuas
 	holding = castle_holding
 	1072.1.1 = {
 		culture = xiang
@@ -96077,7 +96223,8 @@ rite = roman_rite
 
 13152 = {	# WUHOU
 	culture = sui
-	rite = satsana_phi
+	rite = kam_sui # Yusseter
+	#rite = satsana_phi
 	holding = castle_holding # Yusseter: tribal_holding
 	960.1.1 = {
 		culture = maonan
@@ -96151,12 +96298,13 @@ rite = roman_rite
     holding = herder_holding
 }
 
-        14635 = { # b_shouxiangcheng
+        14635 = { # Yusseter # b_shouxiangcheng
             culture = qun
-            rite = eastern_tengri
+            rite = tengri_pagan
 
             950.1.1 = {
                 culture = ongud
+		rite = eastern_tengri
             }
 			1020.1.2 = {
 				rite = eastern_tengri
@@ -96187,12 +96335,13 @@ rite = roman_rite
             holding = none
         }
 
-        14640 = { # b_wangjiriver_china
+        14640 = { # Yusseter # b_wangjiriver_china
             culture = qun
-            rite = eastern_tengri
+            rite = tengri_pagan
 
             930.1.1 = {
                 culture = ongud
+		rite = eastern_tengri
             }
 
         }

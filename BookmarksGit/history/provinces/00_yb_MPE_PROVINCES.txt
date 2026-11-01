@@ -85,18 +85,19 @@
 
 # Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra # Yusseter
+#rite = tengri_pagan
 
 # History
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { rite = hanafi } 
+1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
-		holding = castle_holding		   
+		holding = castle_holding
 	}
 }
 
@@ -123,25 +124,27 @@ rite = tengri_pagan
 }
 
 12884 = { # b_kirim # Yusseter: MPE province history donor c_kalos_limen/559
-	
+
 	# Misc
 	culture = khazar
-	rite = tengri_pagan
-	
+	rite = tangra
+
 	#holding = castle_holding
-	
+
 	# History
 	808.1.1 = { rite = kabarism }
 1016.1.1 = { culture = pecheneg }
 1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
-1060.1.1 = { culture = cuman } 
-1227.1.1 = { rite = hanafi } 
+1060.1.1 = { culture = cuman
+		rite = tash_baba
+}
+1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
-		holding = castle_holding		   
+		holding = castle_holding
 	}
 }
 
@@ -150,25 +153,27 @@ rite = tengri_pagan
 }
 
 12886 = { # b_theodoro # Yusseter: MPE province history donor c_kalos_limen/559
-	
+
 	# Misc
 	culture = khazar
-	rite = tengri_pagan
-	
+	rite = tangra
+
 	#holding = castle_holding
-	
+
 	# History
 	808.1.1 = { rite = kabarism }
 1016.1.1 = { culture = pecheneg }
 1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
-1060.1.1 = { culture = cuman } 
-1227.1.1 = { rite = hanafi } 
+1060.1.1 = { culture = cuman
+		rite = tash_baba
+}
+1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
-		holding = castle_holding		   
+		holding = castle_holding
 	}
 }
 
@@ -213,10 +218,10 @@ rite = tengri_pagan
 }
 
 12898 = { # b_kale_kuma # Yusseter: MPE province history asil_mod donor c_samiran/5343
-	
+
 	# Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 808.1.1 = { rite = kabarism }
@@ -601,10 +606,10 @@ rite = khabzism
 }
 
 13318 = { # b_mozdok # Yusseter: MPE province history asil_mod donor c_samiran/5343
-	
+
 	# Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 808.1.1 = { rite = kabarism }
@@ -931,25 +936,27 @@ holding = tribal_holding
 }
 
 5276 = { # b_saq_crimea # Yusseter: MPE province history donor c_kalos_limen/559
-	
+
 	# Misc
 	culture = khazar
-	rite = tengri_pagan
-	
+	rite = tangra
+
 	#holding = castle_holding
-	
+
 	# History
 	808.1.1 = { rite = kabarism }
 1016.1.1 = { culture = pecheneg }
 1016.1.1 = { rite = tengri_pagan }
 1044.1.1 = { culture = torkil }
-1060.1.1 = { culture = cuman } 
-1227.1.1 = { rite = hanafi } 
+1060.1.1 = { culture = cuman
+		rite = tash_baba
+}
+1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
-		holding = castle_holding		   
+		holding = castle_holding
 	}
 }
 
@@ -957,80 +964,82 @@ holding = tribal_holding
 
 # Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra # Yusseter
+#rite = tengri_pagan
 
 # History
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { rite = hanafi } 
+1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
-		holding = castle_holding		   
+		holding = castle_holding
 	}
 }
 
 5280 = { # b_hygreis # Yusseter: MPE province history donor c_khortytsia/557
-	
+
 # Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { rite = hanafi } 
+1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
-		holding = castle_holding		   
+		holding = castle_holding
 	}
 }
 
 5281 = { # b_tokmak # Yusseter: MPE province history donor c_khortytsia/557
-	
+
 # Misc
 culture = khazar
-rite = tengri_pagan
+rite = tangra
 
 # History
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { rite = hanafi } 
+1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
-		holding = castle_holding		   
+		holding = castle_holding
 	}
 }
 
 5321 = { # b_pokrovsk # Yusseter: MPE province history donor c_bakhmut/564
-	
+
 # Misc
 culture = mogyer
-rite = tengri_pagan
+rite = magyar_pagan
 
 # History
 893.1.1 = { culture = pecheneg }
 1044.1.1 = { culture = cuman }
-1227.1.1 = { rite = hanafi } 
+1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
-		holding = castle_holding		   
+		holding = castle_holding
 	}
 }
 
 563 = { # b_karoia # Yusseter: MPE province history donor c_tana/596
 	culture = khazar
-	rite = tengri_pagan
+	rite = tangra # Yusseter
+	#rite = tengri_pagan
 	#holding = castle_holding
 	1000.1.2 = {
 		culture = cuman
@@ -1039,7 +1048,7 @@ rite = tengri_pagan
 		culture = crimean
 	}
 	1337.1.1 = {
-		holding = castle_holding	
+		holding = castle_holding
 	}
 }
 

@@ -85,7 +85,7 @@
 
 # Misc
 culture = khazar
-rite = tangra # Yusseter
+rite = otuken_yish # Yusseter
 #rite = tengri_pagan
 
 # History
@@ -127,17 +127,17 @@ rite = tangra # Yusseter
 
 	# Misc
 	culture = khazar
-	rite = tangra
+	rite = otuken_yish
 
 	#holding = castle_holding
 
 	# History
 	808.1.1 = { rite = kabarism }
 1016.1.1 = { culture = pecheneg }
-1016.1.1 = { rite = tengri_pagan }
+1016.1.1 = { rite = otuken_yish }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman
-		rite = tash_baba
+		rite = otuken_yish
 }
 1227.1.1 = { rite = hanafi }
 1300.1.1 = {
@@ -156,17 +156,17 @@ rite = tangra # Yusseter
 
 	# Misc
 	culture = khazar
-	rite = tangra
+	rite = otuken_yish
 
 	#holding = castle_holding
 
 	# History
 	808.1.1 = { rite = kabarism }
 1016.1.1 = { culture = pecheneg }
-1016.1.1 = { rite = tengri_pagan }
+1016.1.1 = { rite = otuken_yish }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman
-		rite = tash_baba
+		rite = otuken_yish
 }
 1227.1.1 = { rite = hanafi }
 1300.1.1 = {
@@ -221,7 +221,8 @@ rite = tangra # Yusseter
 
 	# Misc
 culture = khazar
-rite = tangra
+rite = otuken_yish # Yusseter
+#rite = tangra
 
 # History
 808.1.1 = { rite = kabarism }
@@ -609,7 +610,8 @@ rite = khabzism
 
 	# Misc
 culture = khazar
-rite = tangra
+rite = otuken_yish # Yusseter
+#rite = tangra
 
 # History
 808.1.1 = { rite = kabarism }
@@ -777,7 +779,6 @@ rite = nakh_pagan
 
 # History
 1089.1.1 = { rite = hanafi }
-1259.1.1 = { rite = ismaili }
 
 	holding = castle_holding
 	867.1.1 = {
@@ -809,7 +810,6 @@ rite = nakh_pagan
 
 # History
 1089.1.1 = { rite = hanafi }
-1259.1.1 = { rite = ismaili }
 
 	holding = castle_holding
 	867.1.1 = {
@@ -833,7 +833,6 @@ rite = nakh_pagan
 
 # History
 1089.1.1 = { rite = hanafi }
-1259.1.1 = { rite = ismaili }
 
 	holding = castle_holding
 	867.1.1 = {
@@ -939,17 +938,17 @@ holding = tribal_holding
 
 	# Misc
 	culture = khazar
-	rite = tangra
+	rite = otuken_yish
 
 	#holding = castle_holding
 
 	# History
 	808.1.1 = { rite = kabarism }
 1016.1.1 = { culture = pecheneg }
-1016.1.1 = { rite = tengri_pagan }
+1016.1.1 = { rite = otuken_yish }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman
-		rite = tash_baba
+		rite = otuken_yish
 }
 1227.1.1 = { rite = hanafi }
 1300.1.1 = {
@@ -964,7 +963,7 @@ holding = tribal_holding
 
 # Misc
 culture = khazar
-rite = tangra # Yusseter
+rite = otuken_yish # Yusseter
 #rite = tengri_pagan
 
 # History
@@ -984,7 +983,8 @@ rite = tangra # Yusseter
 
 # Misc
 culture = khazar
-rite = tangra
+rite = otuken_yish # Yusseter
+#rite = tangra
 
 # History
 895.1.1 = { culture = pecheneg }
@@ -1003,7 +1003,8 @@ rite = tangra
 
 # Misc
 culture = khazar
-rite = tangra
+rite = otuken_yish # Yusseter
+#rite = tangra
 
 # History
 895.1.1 = { culture = pecheneg }
@@ -1038,7 +1039,7 @@ rite = magyar_pagan
 
 563 = { # b_karoia # Yusseter: MPE province history donor c_tana/596
 	culture = khazar
-	rite = tangra # Yusseter
+	rite = otuken_yish # Yusseter
 	#rite = tengri_pagan
 	#holding = castle_holding
 	1000.1.2 = {

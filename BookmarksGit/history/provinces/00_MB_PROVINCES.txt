@@ -8293,7 +8293,7 @@ rite = antiochian_rite #no syriac in CK3
 	culture = bengali
 	rite = madhyamaka
 	
-	holding = none
+	holding = church_holding	#the Buddhist viharas of Varendra
 	
 	# History
 
@@ -8456,7 +8456,7 @@ rite = antiochian_rite #no syriac in CK3
 	culture = bihari
 	rite = madhyamaka
 	
-	holding = none
+	holding = church_holding	#the Buddhist monasteries of Kukkutapada Hill
 	
 	# History
 
@@ -11066,6 +11066,7 @@ rite = antiochian_rite #no syriac in CK3
 }
 
 1219 = {	# 1219 - Potapi
+	holding = church_holding	#the temples of Pottapi
 	
 	# County Title
 	#title = c_potapi
@@ -28293,6 +28294,7 @@ holding = none
 }
 
 3284 = {	# 3284 - anuradhapura
+	holding = church_holding	#the forest monasteries of Arankele
 	
 	# Misc
 	culture = sinhala
@@ -28960,6 +28962,7 @@ holding = none
 }
 
 3371 = {	# 3371 - Vadnagar
+	holding = church_holding	#the Jain temples of Taranga near Vadnagar
 	
 	# Misc
 	culture = gujarati
@@ -29010,6 +29013,7 @@ holding = none
 }
 
 3376 = {	# 3376 - Ashaval
+	holding = church_holding	#the Jain temples of Ashaval
 	
 	# Misc
 	culture = gujarati
@@ -29106,6 +29110,7 @@ holding = none
 }
 
 3384 = {	# 3384 - Sanjan
+	holding = church_holding	#the temples of Sanjan
 	
 	# Misc
 	culture = gujarati
@@ -30354,6 +30359,7 @@ holding = none
 }
 
 3492 = {	# 3492 - Nagahrada
+	holding = church_holding	#the Jain temples of Nagda
 	
 	# Misc
 	culture = rajput
@@ -67111,6 +67117,7 @@ rite = antiochian_rite
 }
 
 7829 = {	# 1120 - Tagadur
+	holding = church_holding	#the temples of Kudalasangama
 	
 	# County Title
 	#title = c_tagadur
@@ -67617,6 +67624,7 @@ rite = antiochian_rite
 }
 
 7847 = {	# 1216 - Talakad
+	holding = church_holding	#the basadis of Mercara
 	
 	# County Title
 	#title = c_talakad
@@ -67891,6 +67899,7 @@ rite = antiochian_rite
 }
 
 7860 = {	# 1121 - Uchangidurga
+	holding = church_holding	#the temples of Nidugallu
 	
 	# County Title
 	#title = c_uchangidurga
@@ -68004,6 +68013,7 @@ rite = antiochian_rite
 }
 
 7865 = {	# 1196 - Srirangapatna
+	holding = church_holding	#the basadis of Belapura
 	
 	# County Title
 	#title = c_srirangapatna
@@ -68494,6 +68504,7 @@ rite = antiochian_rite
 }
 
 7887 = {	# 1265 - Sagar
+	holding = church_holding	#the Jain basadis of Kembhavi
 	
 	# County Title
 	#title = c_sagar
@@ -68803,6 +68814,7 @@ rite = antiochian_rite
 }
 
 7901 = {	# 1143 - Kalyani
+	holding = church_holding	#the Jain basadis of Malkhed
 	
 	# County Title
 	#title = c_kalyani
@@ -75834,7 +75846,7 @@ rite = antiochian_rite
 }
 
 9187 = {	# Dinggye
-	holding = none
+	holding = church_holding	#the monasteries of Dinggye
 }
 
 9188 = {	# LIANG
@@ -76011,11 +76023,11 @@ rite = antiochian_rite
 }
 
 9209 = {	# Namling
-	holding = none
+	holding = church_holding	#Ugpalung in the Tanak valley, seat of the Zur family
 }
 
 9210 = {	# Tobgyai
-	holding = none
+	holding = church_holding	#the monasteries of Tobgyai
 }
 
 9211 = {	# Qingtu
@@ -76166,7 +76178,7 @@ rite = antiochian_rite
 }
 
 9231 = {	# Qusum
-	holding = none
+	holding = church_holding	#the monasteries of Qusum
 }
 
 9232 = {	# Gonggar
@@ -76482,7 +76494,7 @@ rite = antiochian_rite
 }
 
 9266 = {	# Mila/mila_tibet
-	holding = none
+	holding = church_holding	#the monasteries of Mila
 }
 
 9267 = {	# SHENQIU
@@ -99731,4 +99743,8 @@ rite = hispanic_rite
 	
 	# History
 
+}
+
+3273 = { # b_polonnaruwa
+	holding = church_holding	#the Alahana Parivena of Polonnaruwa
 }

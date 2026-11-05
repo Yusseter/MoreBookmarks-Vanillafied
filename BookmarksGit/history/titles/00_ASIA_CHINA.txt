@@ -10592,6 +10592,10 @@ c_yingzhou_5 = {
 	1180.1.1 = { holder = JurchenSheyen17 }
 	1209.7.4 = { holder = JurchenSheyen25 }
 	#Yuan
+	1236.10.7 = { holder = 166913 }
+	1255.1.1 = { holder = Khorachar1 }
+	1289.9.28 = { holder = Khorachar3 }
+	1318.3.9 = { holder = Khorachar4 }
 }
 
 c_xiazhou = {
@@ -11744,6 +11748,7 @@ c_chengdu = {
 	1144.1.1 = { holder = wudi_li_011 }
 	1177.3.29 = { holder = yongkang_hu_014 } #Hu Yuanzhi - made prefect
 	#
+	1189.1.1 = { holder = 1803174 }
 	1209.5.5 = { holder = fengcheng_huang_025 } #Huang Chouruo - made prefect
 	#
 	1246.1.1 = { holder = 166911 }
@@ -11818,9 +11823,11 @@ c_hanzhou = {
 	1156.11.6 = { holder = luoyang_chong_022M }
 	1200.1.1 = { holder = gaoan_yan_045 }
 	1235.8.29 = {
-		holder = WudiLiHanMB10  # Dunli (eldest son of Chengsi)
+		holder = gaoan_yan_046
 	}
 	
+	1246.1.1 = { holder = 166911 }
+	1256.1.1 = { holder = 166912 }
 	1262.9.27 = {
 		holder = WudiLiHanMB46  # Jiuling (eldest son of Dunli)
 	}
@@ -11831,6 +11838,7 @@ c_hanzhou = {
 		holder = WudiLiHanMB47  # Yanruo (son of Jiuling)
 	}
 	
+	1314.12.3 = { holder = SEAsiaMMBMongol4 }
 	1352.8.4 = {
 		holder = WudiLiHanMB52  # Anqi (son of Yanruo, extends beyond 1337)
 	}
@@ -11883,7 +11891,10 @@ c_pengzhou = {
 	1132.11.8 = { holder = anyang_wang_002 } #Wang Si
 	1133.7.3 = { holder = song_general_025 } #Lu Fayuan
 	1144.1.1 = { holder = wudi_li_011 }
+	1145.1.1 = { holder = 1803174 }
 	1180.1.1 = { holder = huayang_fan_092 } #Fan Zhonfu - prefect at some point
+	1195.1.1 = { holder = 1803174 }
+	1211.1.1 = { holder = gaoan_yan_046 }
 	1246.1.1 = { holder = 166911 }
 	1256.1.1 = { holder = 166912 }
 	
@@ -11944,6 +11955,8 @@ c_jianyang = {
 	1133.7.3 = { holder = song_general_025 } #Lu Fayuan
 	1144.1.1 = { holder = 1801561 }
 	1170.1.1 = { holder = huayang_fan_094 }
+	1202.1.1 = { holder = 1803174 }
+	1211.1.1 = { holder = gaoan_yan_046 }
 	1224.1.1 = {
 		holder = XinyuYangHanMB1  # Deyi (eldest son of Zhiqing)
 	}
@@ -13380,9 +13393,11 @@ c_xingyuan = {
 	#1133.3.21 = { liege = e_jurchen_china } #劉子羽退南, 薩里罕入府
 	#Song
 	1144.10.29 = { holder = yuyao_hu_013 }
+	1185.1.1 = { holder = kaifeng_xiang_044 }
 	1188.6.27 = { holder = shuangliu_yuwen_017 } #Yuwen Jia - made prefect
 	#
 	1194.1.1 = { holder = kaifeng_xiang_044 }
+	1202.1.1 = { holder = boye_han_131 }
 	1206.1.1 = { holder = shaowu_huang_039 } #Liu Jia - made prefect
 	#
 	1214.4.13 = { holder = weishi_liu_147 } #Liu Jia - made prefect
@@ -13569,9 +13584,11 @@ c_jizhou_2 = {
 	#1133.3.21 = { liege = e_jurchen_china } #劉子羽退南, 薩里罕入府
 	#Song
 	1144.10.29 = { holder = yuyao_hu_013 }
+	1185.1.1 = { holder = kaifeng_xiang_044 }
 	1188.6.27 = { holder = shuangliu_yuwen_017 } #Yuwen Jia - made prefect
 	#
 	1194.1.1 = { holder = kaifeng_xiang_044 }
+	1202.1.1 = { holder = boye_han_131 }
 	1206.1.1 = { holder = shaowu_huang_039 } #Liu Jia - made prefect
 	#
 	1214.4.13 = { holder = weishi_liu_147 } #Liu Jia - made prefect
@@ -13687,6 +13704,7 @@ c_fengzhou = {
 		#de_jure_liege = d_xingyuan # Yusseter
 	}
 	1132.1.16 = { holder = song_general_021 } #吴玠
+	1139.7.18 = { holder = zhuojun_zhao_292 }
 	1144.10.29 = { holder = yuyao_hu_013 }
 	1185.1.1 = { holder = kaifeng_xiang_044 }
 	1202.1.1 = { holder = boye_han_131 }
@@ -13795,6 +13813,9 @@ c_xingqing = {
 	#1121.3.7 - prefect unknown
 	1120.1.1 = { holder = bohai_qiu_030 } #Qiu Dan - prefect in Xuanhe era
 	1132.1.16 = { holder = song_general_021 } #吴玠
+	1139.7.18 = { holder = zhuojun_zhao_292 }
+	1144.1.1 = { holder = chongan_jliu_012 }
+	1144.10.29 = { holder = yuyao_hu_013 }
 	1170.1.1 = { holder = changshan_wang_009 }
 	1175.1.1 = { holder = lingshou_han_085 }
 	1199.1.1 = { holder = xiaxian_sima_052 }
@@ -13894,6 +13915,9 @@ c_lizhou_2 = {
 	1130.10.23 = { holder = anyang_wang_003 } #Wang Yi - made prefect
 	#1131.4.29 = { holder = 217728 }
 	1132.7.21 = { holder = song_general_021 } #吴玠
+	1139.7.18 = { holder = zhuojun_zhao_292 }
+	1144.1.1 = { holder = chongan_jliu_012 }
+	1144.10.29 = { holder = yuyao_hu_013 }
 	1170.1.1 = { holder = changshan_wang_009 }
 	1180.1.1 = { holder = shaowu_huang_049 } #Huang Jun - made prefect
 	1185.1.1 = { holder = lingshou_han_085 }
@@ -14065,6 +14089,10 @@ c_bazhou = {
 	1125.1.1 = { holder = yiwu_zong_011 } #Zong Ze - made prefect
 	1126.9.19 = { holder = 217728 }
 	1133.6.26 = { holder = song_general_026 liege = d_xingyuan } #王彦
+	1139.2.12 = { holder = song_general_021 }
+	1139.7.18 = { holder = zhuojun_zhao_292 }
+	1144.1.1 = { holder = chongan_jliu_012 }
+	1144.10.29 = { holder = yuyao_hu_013 }
 	1170.1.1 = { holder = wanquan_xue_015M }
 	1175.1.1 = { holder = linchuan_wang_043 }
 	1204.1.1 = { holder = xianyou_fu_018 }
@@ -14266,6 +14294,7 @@ c_guozhou_1 = {
 	1133.7.1 = { holder = anyang_wang_002 } #Wang Si
 	1144.1.1 = { holder = guangdu_yuwen_008 }
 	1170.1.1 = { holder = hongnong_yang_491M }
+	1175.1.1 = { holder = jiangning_qin_018 }
 	1180.1.1 = { holder = putian_fang_235 }
 	1201.1.1 = { holder = putian_fang_236 }
 	1246.1.1 = { holder = 1231551 }
@@ -14354,6 +14383,7 @@ c_pengzhou_2 = {
 	1180.1.1 = { holder = chengwu_pang_021 }
 
 
+	1207.1.1 = { holder = boye_han_131 }
 	1236.1.1 = { holder = nanan_liu_012 }
 
 	1285.1.1 = { holder = taiyuan_murong_030M4 liege = d_xichuan }
@@ -14432,6 +14462,7 @@ c_quzhou = {
 	1144.1.1 = { holder = minxian_xu_011 }
 	1165.1.1 = { holder = houguan_lu_032 }
 	1180.1.1 = { holder = henan_lv_139 }
+	1203.1.1 = { holder = huayang_fan_097 }
 	1236.1.1 = { holder = nanan_liu_012 }
 
 	1285.1.1 = { holder = taiyuan_murong_030M4 liege = d_xichuan }
@@ -15116,7 +15147,9 @@ c_yangzhou = {
 	1010.12.1 = { holder = 217723 }
 	1014.1.1 = { holder = wanquan_xue_004 } #Xue Yan - prefect around this time
 	1014.4.19 = { holder = chuqiu_qi_006 } #Qi Lun - made prefect
-	1014.11.1 = { holder = 217722 }
+	1014.11.1 = { holder = 217723 }
+	1018.1.1 = { holder = chuqiu_qi_006 }
+	1021.1.1 = { holder = 217723 }
 	1022.3.23 = { holder = 217724 }
 	1023.3.17 = { holder = 1801690 } #Zhou Qi - made prefect
 	1023.10.13 = { holder = yuhang_sheng_005 } #Sheng Jing - made prefect
@@ -15435,7 +15468,9 @@ c_taizhou_1 = {
 	1010.12.1 = { holder = 217723 }
 	1014.1.1 = { holder = wanquan_xue_004 } #Xue Yan - prefect around this time
 	1014.4.19 = { holder = chuqiu_qi_006 } #Qi Lun - made prefect
-	1014.11.1 = { holder = 217722 }
+	1014.11.1 = { holder = 217723 }
+	1018.1.1 = { holder = chuqiu_qi_006 }
+	1021.1.1 = { holder = 217723 }
 	1022.3.23 = { holder = 217724 }
 	1023.3.17 = { holder = 1801690 } #Zhou Qi - made prefect
 	1023.10.13 = { holder = yuhang_sheng_005 } #Sheng Jing - made prefect
@@ -15552,6 +15587,8 @@ c_taizhou_1 = {
 	1170.1.1 = { holder = 1801626 }
 	1172.8.16 = { holder = jinling_hu_039 } #Hu Jianchang - made prefect
 	1177.8.29 = { holder = jinling_hu_045 }
+	1226.1.1 = { holder = zhuojun_zhao_596 }
+	1232.1.1 = { holder = lianjiang_li_035 }
 	1259.7.1 = { holder = jinling_du_022 } #Du Shu - made prefect
 
 	#Yuan
@@ -15679,12 +15716,16 @@ c_chuzhou_1 = {
 	1182.8.1 = { holder = 1801626 } #Zhang Jin - made prefect
 	#
 	1187.1.1 = { holder = tongshan_su_058 }
+	1195.1.1 = { holder = 1801626 }
+	1199.1.1 = { holder = jinjiang_lv_026 }
 	1205.7.6 = { holder = Cao1 } #Zhou Hu - prefect at some point
 	#
 	1212.1.1 = { holder = 1803175 } #Wang Nan - prefect in Jiading era
 	1220.1.1 = { holder = linan_qian_229M1 }
 	#Yuan
 	
+	1250.1.1 = { holder = lianjiang_li_035 }
+	1263.1.1 = { holder = yingdao_zhou_021 }
 	1279.3.18 = {
 		holder = YananHanHanMB5  # Xiujing
 		liege = d_biansong
@@ -15952,6 +15993,7 @@ c_liyang_2 = {
 	1141.1.1 = { holder = kaifeng_xiang_115 } #Cai Shen - prefect in 1141.3.20
 	1174.1.1 = { holder = jiangyin_ge_051 }
 	1187.1.1 = { holder = jixi_wang_136 }
+	1195.1.1 = { holder = xiaxian_sima_049 }
 	1206.1.1 = { holder = huayin_zhou_043 } #Zhou Hu - made prefect
 	#
 	#
@@ -16169,6 +16211,10 @@ c_shouzhou = {
 	1190.1.1 = { holder = fucheng_liu_011M3 }
 	#Yuan
 	
+	1215.1.1 = { holder = pingji_song_039 }
+	1243.1.1 = { holder = jinling_du_016 }
+	1248.7.19 = { holder = juancheng_li_034 }
+	1263.1.1 = { holder = jinling_du_027 }
 	1279.2.20 = {
 		holder = YongjiaLiuHanMB21  # Dunli (eldest son of Ziyi)
 		liege = d_biansong
@@ -16476,6 +16522,9 @@ c_guangzhou = {
 	1204.1.1 = { holder = huayin_zhou_043 } #Zhou Hu - made prefect
 	1213.1.1 = { holder = pingji_song_039 }
 	#Yuan
+	1243.1.1 = { holder = jinling_du_016 }
+	1248.7.19 = { holder = juancheng_li_034 }
+	1263.1.1 = { holder = jinling_du_027 }
 	1279.3.18 = {
 		holder = HuayinZhouHanMB4  # Zhining (eldest son of Deyi)
 		liege = d_biansong
@@ -16851,6 +16900,8 @@ c_zhengzhou = {
 	1130.10.12 = { holder = JurchenLi17 liege = d_biansong }
 	1169.8.15 = { holder = JurchenLi25 }
 	#Yuan
+	1196.11.28 = { holder = jurchen1072 }
+	1205.1.1 = { holder = jurchen187 }
 	1225.1.1 = {
 		holder = 172007
 	}
@@ -17379,6 +17430,12 @@ c_xiangyang = {
 	1176.1.1 = { holder = yanan_han_036 }
 	1201.1.1 = { holder = lianjiang_li_040 }
 
+	1243.1.1 = { holder = jinjiang_zeng_112 }
+	1252.1.1 = { holder = fenning_huang_060 }
+	1275.1.1 = { holder = zhuojun_zhao_610 }
+	1276.6.14 = { holder = zhuojun_zhao_609 }
+	1278.5.8 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = leping_xiang_015M3 liege = d_biansong }
 	1300.1.1 = { holder = leping_xiang_015M4 }
 	1320.1.1 = { holder = leping_xiang_015M5 }
@@ -18205,6 +18262,12 @@ c_suizhou_1 = {
 	1174.1.1 = { holder = 1801371 } #Cai Kan - made prefect
 	1211.1.1 = { holder = putian_fang_179 }
 
+	1245.1.1 = { holder = jinjiang_zeng_112 }
+	1252.1.1 = { holder = fenning_huang_060 }
+	1275.1.1 = { holder = zhuojun_zhao_610 }
+	1276.6.14 = { holder = zhuojun_zhao_609 }
+	1278.5.8 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = leping_xiang_015M3 liege = d_biansong }
 	1300.1.1 = { holder = leping_xiang_015M4 }
 	1320.1.1 = { holder = leping_xiang_015M5 }
@@ -18314,6 +18377,14 @@ c_yingzhou_2 = {
 	1156.12.1 = { holder = gushi_chen_048 }
 	1185.1.1 = { holder = meishan_su_074 }
 
+	1214.1.1 = { holder = lianjiang_li_040 }
+	1234.1.1 = { holder = nanfeng_zeng_089 }
+	1243.1.1 = { holder = jinjiang_zeng_112 }
+	1252.1.1 = { holder = fenning_huang_060 }
+	1275.1.1 = { holder = zhuojun_zhao_610 }
+	1276.6.14 = { holder = zhuojun_zhao_609 }
+	1278.5.8 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = leping_xiang_015M3 liege = d_biansong }
 	1300.1.1 = { holder = leping_xiang_015M4 }
 	1320.1.1 = { holder = leping_xiang_015M5 }
@@ -18428,6 +18499,12 @@ c_fuzhou_3 = {
 	1162.2.25 = { holder = 1803581 }
 	1189.1.1 = { holder = jiangyin_ge_058 }
 
+	1215.1.1 = { holder = weishi_liu_149 }
+	1268.1.1 = { holder = zhuojun_zhao_604 }
+	1274.8.12 = { holder = zhuojun_zhao_610 }
+	1276.6.14 = { holder = zhuojun_zhao_609 }
+	1278.5.8 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = lingshou_han_053M3 liege = d_eyue  }
 	1300.1.1 = { holder = lingshou_han_053M4}
 	1330.1.1 = { holder = lingshou_han_053M5}
@@ -18644,6 +18721,7 @@ c_hongzhou = {
 	1178.1.1 = { holder = sanyang_zhang_007 } #Zhang Ziyan - made prefect
 	#
 	1193.1.1 = { holder = putian_fang_118 }
+	1230.1.1 = { holder = huayin_zhou_045 }
 	1260.7.10 = {holder = jinling_du_022 } #du Shu - made prefect
 
 	1285.1.1 = { holder = SEAsiaMMB282 }
@@ -19635,6 +19713,7 @@ c_fuzhou_2 = {
 	1177.1.1 = { holder = yanan_han_033 } #Han Yanchun - prefect before death
 	1178.1.1 = { holder = jiangyin_ge_044 } #Ge Tan - prefect at some point
 	#
+	1180.1.1 = { holder = sanyang_zhang_007 }
 	1193.1.1 = { holder = wannian_li_005M3 }
 	1200.1.1 = { holder = wannian_li_005M4 }
 
@@ -19771,6 +19850,7 @@ c_jianchang = {
 	1177.1.1 = { holder = yanan_han_033 } #Han Yanchun - prefect before death
 	1178.1.1 = { holder = jiangyin_ge_044 } #Ge Tan - prefect at some point
 	#
+	1180.1.1 = { holder = sanyang_zhang_007 }
 	1193.1.1 = { holder = wannian_li_005M3 }
 	1200.1.1 = { holder = wannian_li_005M4 }
 
@@ -20081,6 +20161,7 @@ c_xinhzou = {
 	#
 	1197.1.27 = { holder = 1801626 } #Zhang Jin - made prefect
 	#
+	1199.1.1 = { holder = putian_song_040 }
 	1206.5.4 = { holder = linan_qian_229 } #Qian Xianzu - made prefect
 	1205.1.1 = { holder = jinjiang_zeng_109 } #Zeng Conglong - prefect around this time
 	1207.1.1 = { holder = xiaxian_sima_042 } #Sima Zun - newly appointed prefect in 1207.1.25
@@ -20866,6 +20947,7 @@ c_suzhou_2 = {
 	1189.2.18 = { holder = han_12651 } #光宗
 	1194.7.24 = { holder = NanchengDengHanMB10 liege = h_china } #寧宗
 	1224.9.17 = { holder = xiaxian_sima_043 } #理宗
+	1236.1.1 = { holder = zhuojun_zhao_596 }
 	1264.11.16 = { holder = zhuojun_zhao_604 } #度宗
 	1274.8.12 = { holder = zhuojun_zhao_610 } #宋恭帝
 	1276.6.14 = { holder = zhuojun_zhao_609 } #端宗
@@ -22271,7 +22353,8 @@ c_guangzhou_1 = {
 	1068.12.22 = { holder = 1803220 } #Wang Jing - made prefect
 	1070.7.11 = { holder = han_8052 }
 	1077.3.22 = { holder = nanfeng_zeng_015 } #Zeng Bu - made prefect
-	1078.9.19 = { holder = han_8052 }
+	1078.9.19 = { holder = 217726 }
+	1081.1.1 = { holder = nanfeng_zeng_015 }
 	1083.1.1 = { holder = chengan_wang_018 } #Wang Lin - made prefect
 	1084.5.24 = { holder = 217726 }
 	1085.4.1 = { holder = 217727 }
@@ -22303,6 +22386,8 @@ c_guangzhou_1 = {
 	1165.9.7 = { holder = lianjiang_li_036 }
 	1191.1.1 = { holder = 1803178 }
 	1211.1.1 = { holder = shaowu_huang_047 }
+	1226.1.1 = { holder = fenning_huang_049 }
+	1239.1.1 = { holder = xianyou_ye_042 }
 	1285.1.1 = { holder = jinling_hu_045M3 liege = d_jiangxi }
 	1310.1.1 = { holder = jinling_hu_045M4 }
 }
@@ -22468,7 +22553,8 @@ c_kangzhou = {
 	1068.12.22 = { holder = 1803220 } #Wang Jing - made prefect
 	1070.7.11 = { holder = han_8052 }
 	1077.3.22 = { holder = nanfeng_zeng_015 } #Zeng Bu - made prefect
-	1078.9.19 = { holder = han_8052 }
+	1078.9.19 = { holder = 217726 }
+	1081.1.1 = { holder = nanfeng_zeng_015 }
 	1083.1.1 = { holder = chengan_wang_018 } #Wang Lin - made prefect
 	1084.5.24 = { holder = 217726 }
 	1085.4.1 = { holder = 217727 }
@@ -22680,7 +22766,8 @@ c_duanzhou = {
 	1068.12.22 = { holder = 1803220 } #Wang Jing - made prefect
 	1070.7.11 = { holder = han_8052 }
 	1077.3.22 = { holder = nanfeng_zeng_015 } #Zeng Bu - made prefect
-	1078.9.19 = { holder = han_8052 }
+	1078.9.19 = { holder = 217726 }
+	1081.1.1 = { holder = nanfeng_zeng_015 }
 	1083.1.1 = { holder = chengan_wang_018 } #Wang Lin - made prefect
 	1084.5.24 = { holder = 217726 }
 	1085.4.1 = { holder = 217727 }
@@ -22896,7 +22983,8 @@ c_yingde = {
 	1068.12.22 = { holder = 1803220 } #Wang Jing - made prefect
 	1070.7.11 = { holder = han_8052 }
 	1077.3.22 = { holder = nanfeng_zeng_015 } #Zeng Bu - made prefect
-	1078.9.19 = { holder = han_8052 }
+	1078.9.19 = { holder = 217726 }
+	1081.1.1 = { holder = nanfeng_zeng_015 }
 	1083.1.1 = { holder = chengan_wang_018 } #Wang Lin - made prefect
 	1084.5.24 = { holder = 217726 }
 	1085.4.1 = { holder = 217727 }
@@ -23110,7 +23198,8 @@ c_dongguan = {
 	1068.12.22 = { holder = 1803220 } #Wang Jing - made prefect
 	1070.7.11 = { holder = han_8052 }
 	1077.3.22 = { holder = nanfeng_zeng_015 } #Zeng Bu - made prefect
-	1078.9.19 = { holder = han_8052 }
+	1078.9.19 = { holder = 217726 }
+	1081.1.1 = { holder = nanfeng_zeng_015 }
 	1083.1.1 = { holder = chengan_wang_018 } #Wang Lin - made prefect
 	1084.5.24 = { holder = 217726 }
 	1085.4.1 = { holder = 217727 }
@@ -23142,6 +23231,8 @@ c_dongguan = {
 	1165.9.7 = { holder = lianjiang_li_036 }
 	1191.1.1 = { holder = kaifeng_xiang_101 }
 	1211.1.1 = { holder = shaowu_huang_047 }
+	1226.1.1 = { holder = fenning_huang_049 }
+	1239.1.1 = { holder = xianyou_ye_042 }
 	1285.1.1 = { holder = jinling_hu_045M3 liege = d_jiangxi }
 	1310.1.1 = { holder = jinling_hu_045M4 }
 }
@@ -23640,8 +23731,12 @@ c_shuangzhou = {
 	1174.1.1 = { holder = 1801630 }
 	1185.1.1 = { holder = nantun_song_005 }
 	1201.1.1 = { holder = qingfeng_chao_121 }
+	1207.1.1 = { holder = 1803178 }
+	1211.1.1 = { holder = shaowu_huang_047 }
+	1226.1.1 = { holder = fenning_huang_049 }
 	1234.1.1 = { holder = fenning_huang_049 } #Huang E - made prefect
 	
+	1239.1.1 = { holder = xianyou_ye_042 }
 	1252.1.27 = {
 		holder = KaifengXiangHanMB24  # Chengqi (son of Liangsi)
 	}
@@ -24253,6 +24348,13 @@ c_shizhou_1 = {
 	1201.1.1 = { holder = rugao_wang_027 }
 	1207.1.1 = { holder = qingfeng_chao_128 }
 
+	1233.1.1 = { holder = xinchang_shi_049 }
+	1236.1.1 = { holder = nanan_liu_012 }
+	1272.1.1 = { holder = zhuojun_zhao_604 }
+	1274.8.12 = { holder = zhuojun_zhao_610 }
+	1276.6.14 = { holder = zhuojun_zhao_609 }
+	1278.5.8 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = jiangling_sun_009M3 liege = d_xichuan }
 	#Yuan
 	
@@ -24898,6 +25000,9 @@ c_youzhou = {
 		liege = e_mongol_empire 
 		name = "YUANBEIJING"
 	}
+	1234.2.9 = { holder = 172005 }
+	1241.12.11 = { holder = 172007 }
+	1248.1.1 = { holder = 217265 }
 	1248.11.7 = {
 		holder = Qasar12
 	}
@@ -25020,6 +25125,12 @@ c_tanzhou_2 = {
 	1125.12.22 = { holder = jurchen1329} #Wanyan Zonghan Tanzhou falls to Jin (三朝北盟會編/卷022)
 	1132.1.1 = { holder = jurchen377 } #銀朮可
 	1144.1.1 = { holder = tiezhou_guo_001 }
+	1145.1.1 = { holder = tiezhou_guo_002 }
+	1161.12.15 = { holder = jurchen120 }
+	1189.1.20 = { holder = jurchen132 }
+	1208.12.29 = { holder = jurchen175 }
+	1213.9.11 = { holder = jurchen122 }
+	1220.1.2 = { holder = Qasar10 }
 	1227.1.2 = {
 		holder = Qasar10
 		liege = e_mongol_empire 
@@ -26040,6 +26151,15 @@ c_jizhou = {
 		#de_jure_liege = d_yideng # Yusseter
 	}
 	1126.10.23 = { holder = xian_fan_002 liege = d_cangjing }
+	1135.6.4 = { holder = jurchen1339 }
+	1137.1.1 = { holder = jurchen383 }
+	1138.1.1 = { holder = jurchen1339 }
+	1150.1.1 = { holder = jurchen1012 }
+	1153.1.1 = { holder = jurchen473 }
+	1156.1.1 = { holder = jurchen99 }
+	1159.1.1 = { holder = jurchen1010 }
+	1161.1.1 = { holder = jurchen79 }
+	1161.12.15 = { holder = jurchen120 }
 	1165.1.1 = { holder = jinling_zhang_032 }
 	1192.1.1 = { holder = jurchen1470 }
 	1210.1.1 = { holder = jurchen1471 }
@@ -26637,7 +26757,7 @@ c_weizhou = {
 	1015.11.19 = { holder = jixian_wei_013 } #Wei Xianxin - made prefect
 	1017.8.22 = { holder = 217722 }
 	1017.9.23 = { holder = wannian_li_010 } #Li Shiheng - prefect at some point
-	1018.3.24 = { holder = 217722 }
+	1018.3.24 = { holder = 217723 }
 	1019.1.26 = { holder = qingchi_zhang_002 } #Zhang Zhibo - made prefect
 	1020.9.1 = { holder = 217723 }
 	1021.1.1 = { holder = 1803104 } #Wang Zeng - prefect around this time
@@ -27430,6 +27550,10 @@ c_yizhou_1 = {
 	1127.8.1 = { holder = jurchen119 } #宗辅
 	1144.1.1 = { holder = tiezhou_guo_001 }
 	1145.1.1 = { holder = jurchen120 }
+	1189.1.20 = { holder = jurchen132 }
+	1208.12.29 = { holder = jurchen175 }
+	1213.9.11 = { holder = jurchen122 }
+	1220.1.2 = { holder = Qasar10 }
 	1227.1.2 = {
 		holder = Qasar10
 		liege = e_mongol_empire 
@@ -28901,8 +29025,13 @@ c_guizhou_1 = {
 	#
 	1163.11.3 = { holder = leping_xiang_004 } #Xiang Bofen - made prefect
 	1166.1.1 = { holder = xiangyi_zheng_010 }
+	1171.8.23 = { holder = lianjiang_li_036 }
+	1191.1.1 = { holder = shaowu_huang_047 }
+	1195.1.1 = { holder = 1803178 }
 	1199.1.1 = { holder = fenning_huang_082 }
 
+	1232.1.1 = { holder = fenning_huang_049 }
+	1239.1.1 = { holder = xianyou_ye_042 }
 	1285.1.1 = { holder = jiaoshui_cai_021M5 liege = d_eyue }
 	1300.1.1 = { holder = jiaoshui_cai_021M6 }
 }
@@ -29048,9 +29177,13 @@ c_zhaozhou_1 = {
 	#
 	1163.11.3 = { holder = leping_xiang_004 } #Xiang Bofen - made prefect
 	1166.1.1 = { holder = han_12084 }
-	1180.1.1 = { holder = xiangyi_zheng_010 }
+	1180.1.1 = { holder = tangyin_yue_018 }
+	1186.8.23 = { holder = yangqu_wang_003 }
 	1199.1.1 = { holder = langzhong_chen_054M }
 
+	1220.1.1 = { holder = fenning_huang_082 }
+	1232.1.1 = { holder = fengcheng_huang_038 }
+	1259.1.1 = { holder = chuqiu_bian_029 }
 	1285.1.1 = { holder = jiaoshui_cai_021M5 liege = d_eyue }
 	1300.1.1 = { holder = jiaoshui_cai_021M6 }
 }
@@ -29123,6 +29256,8 @@ c_wuzhou_1 = {
 	1170.1.1 = { holder = huayang_fan_088 }
 	1187.1.1 = { holder = yangqu_wang_003 }
 	1199.1.1 = { holder = anxi_du_036M4 }
+	1250.1.1 = { holder = fengcheng_huang_038 }
+	1259.1.1 = { holder = chuqiu_bian_029 }
 	1268.1.25 = {
 		holder = MeishanHanMB10  # Shiji (eldest son of Wuji)
 	}
@@ -29204,6 +29339,8 @@ c_gongzhou = {
 	1170.1.1 = { holder = huayang_fan_088 }
 	1187.1.1 = { holder = yangqu_wang_003 }
 	1199.1.1 = { holder = anxi_du_036M4 }
+	1250.1.1 = { holder = fengcheng_huang_038 }
+	1259.1.1 = { holder = chuqiu_bian_029 }
 	1268.1.25 = {
 		holder = MeishanHanMB10  # Shiji (eldest son of Wuji)
 	}
@@ -29285,6 +29422,9 @@ c_xiangshan = {
 	1187.1.1 = { holder = yangqu_wang_003 }
 	1199.1.1 = { holder = yuyao_hu_023 }
 
+	1231.1.1 = { holder = fenning_huang_082 }
+	1232.1.1 = { holder = fengcheng_huang_038 }
+	1259.1.1 = { holder = chuqiu_bian_029 }
 	1268.1.25 = {
 		holder = MeishanHanMB10  # Shiji (eldest son of Wuji)
 	}
@@ -29366,6 +29506,9 @@ c_liuzhou = {
 	1168.1.1 = { holder = jinjiang_zeng_049 } #Zeng Tong - prefect before 1173.4.5
 	1187.1.1 = { holder = yangqu_wang_003 }
 
+	1199.1.1 = { holder = fenning_huang_082 }
+	1232.1.1 = { holder = fengcheng_huang_038 }
+	1259.1.1 = { holder = chuqiu_bian_029 }
 	1285.1.1 = { holder = jiaoshui_cai_021M5 liege = d_eyue }
 	1300.1.1 = { holder = jiaoshui_cai_021M6 }
 }
@@ -29423,6 +29566,12 @@ c_rongshui = {
 	1127.6.12 = { holder = zhuojun_zhao_292 } #髙宗
 	1144.1.1 = { holder = qiantang_shen_035 }
 
+	1149.10.27 = { holder = xiangyi_zheng_010 }
+	1171.8.23 = { holder = tangyin_yue_018 }
+	1186.8.23 = { holder = yangqu_wang_003 }
+	1199.1.1 = { holder = fenning_huang_082 }
+	1232.1.1 = { holder = fengcheng_huang_038 }
+	1259.1.1 = { holder = chuqiu_bian_029 }
 	1285.1.1 = { holder = jiaoshui_cai_021M5 liege = d_eyue }
 	1300.1.1 = { holder = jiaoshui_cai_021M6 }
 }
@@ -29457,12 +29606,58 @@ c_shukunzhou = {
 	936.1.1 = { change_development_level = 10 }
 	1032.1.1 = { change_development_level = 11 }
 	769.1.1 = { holder = 1406202 liege = d_guiguan }
+	787.1.1 = { holder = longxi_li_0965 }
+	788.9.4 = { holder = 1407955 }
+	789.6.18 = { holder = longxi_li_0965 }
+	789.7.21 = { holder = 1407295 }
+	791.6.30 = { holder = 1404238 }
+	795.8.15 = { holder = longxi_li_0965 }
+	805.2.25 = { holder = longxi_li_0966 }
+	806.2.11 = { holder = longxi_li_0967 }
+	808.1.1 = { holder = longxi_li_0920 }
+	815.1.1 = { holder = longxi_li_0967 }
+	817.1.1 = { holder = 1409561 }
+	820.4.9 = { holder = 1403724 }
+	822.3.27 = { holder = longxi_li_0973 }
+	824.2.25 = { holder = longxi_li_0974 }
+	827.1.9 = { holder = longxi_li_0984 }
+	833.7.12 = { holder = longxi_li_0921 }
+	837.1.12 = { holder = longxi_li_0984 }
+	840.2.10 = { holder = longxi_li_0993 }
+	845.1.1 = { holder = 1405107 }
+	847.2.19 = { holder = 1404141 }
+	849.1.1 = { holder = 1404164 }
+	860.1.1 = { holder = longxi_li_1036 }
+	861.1.1 = { holder = 1408737 }
 	866.1.1 = {
 		liege = d_guiguan
 		government = tribal_government
 	}
+	866.1.1 = { holder = longxi_li_1904 }
+	868.6.24 = { holder = 1408650 }
+	871.1.1 = { holder = 1408651 }
+	872.1.1 = { holder = longxi_li_1036 }
+	873.1.1 = { holder = 1401891 }
+	875.1.1 = { holder = longxi_li_1780 }
+	876.12.20 = { holder = 1408653 }
+	878.1.1 = { holder = 1408654 }
 	879.1.1 = { holder = 1408490 } #Zhang Congxun
 	#Song
+	883.1.1 = { holder = longxi_li_1041 }
+	885.1.1 = { holder = 1408655 }
+	894.1.1 = { holder = 1408656 }
+	896.1.7 = { holder = longxi_li_1047 }
+	896.1.19 = { holder = 1408657 }
+	896.2.1 = { holder = 1408659 }
+	900.11.1 = { holder = 1408486 }
+	908.6.2 = { holder = 1406562 }
+	912.1.1 = { holder = 1408455 }
+	927.7.18 = { holder = 1406561 }
+	930.1.1 = { holder = 1406568 }
+	934.4.24 = { holder = 1406569 }
+	949.11.10 = { holder = 1406570 }
+	951.12.9 = { holder = 1406530 }
+	958.9.18 = { holder = 1406546 }
 	970.1.1 = {
 		#de_jure_liege = d_guiguan_liuzhou_china # Yusseter
 	}
@@ -29783,10 +29978,30 @@ c_qinzhou_2 = {
 
 c_rangzhou = {
 	766.1.1 = { change_development_level = 12 }
+	871.1.1 = { holder = 1408948 }
+	875.2.14 = { holder = 1408955 }
+	879.1.1 = { holder = 1408490 }
+	882.10.16 = { holder = 1408930 }
+	892.1.1 = { holder = 1400325 }
+	897.1.1 = { holder = 1400326 }
+	901.1.1 = { holder = 1400328 }
+	911.10.1 = { holder = 1406526 }
 	936.1.1 = { change_development_level = 16 }
 	1032.1.1 = { change_development_level = 18 }
 
 	769.1.1 = { holder = longxi_li_0841 }
+	799.8.3 = { holder = longxi_li_0965 }
+	805.2.25 = { holder = 1406493 }
+	810.9.8 = { holder = longxi_li_0967 }
+	820.2.14 = { holder = longxi_li_0973 }
+	824.2.25 = { holder = longxi_li_0974 }
+	827.1.9 = { holder = longxi_li_0984 }
+	840.2.10 = { holder = longxi_li_0993 }
+	846.4.22 = { holder = longxi_li_1035 }
+	859.9.7 = { holder = 1401415 }
+	862.8.29 = { holder = 1408737 }
+	863.4.22 = { holder = 1412805 }
+	865.1.1 = { holder = longxi_li_2081 }
 	866.1.1 = { liege = d_thang_long }
 	936.1.1 = { holder = luoyang_jia_124 }
 	960.1.1 = { holder = guangyuan_nong_001 } #Nong Minfu
@@ -30419,6 +30634,10 @@ c_tanzhou = {
 	1178.8.17 = { holder = han_12371 }
 	1197.1.1 = { holder = nantun_song_009 }
 
+	1239.1.1 = { holder = meishan_jia_032 }
+	1264.1.1 = { holder = putian_li_017 }
+	1279.1.1 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = fuyang_xie_029M6 liege = d_eyue }
 	1300.1.1 = { holder = fuyang_xie_029M7 }
 }
@@ -30515,10 +30734,17 @@ c_hengzhou = {
 	1170.1.1 = { holder = weishi_liu_145 }
 	1173.6.1 = { holder = linchuan_wang_048 } #Wang Guangzu - prefect at some point
 	#
+	1175.1.1 = { holder = chongan_jliu_013 }
+	1178.8.17 = { holder = han_12371 }
 	1187.1.1 = { holder = fenning_huang_074 }
 	1197.1.1 = { holder = fenning_huang_077 }
 	1214.5.11 = { holder = 1803176 } #Wang Shu - made prefect
 
+	1216.1.1 = { holder = nantun_song_009 }
+	1239.1.1 = { holder = meishan_jia_032 }
+	1264.1.1 = { holder = putian_li_017 }
+	1279.1.1 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = xiaxian_sima_033M2 liege = d_eyue }
 	1300.1.1 = { holder = xiaxian_sima_033M3 }
 	1315.1.1 = { holder = xiaxian_sima_033M4 }
@@ -30595,6 +30821,10 @@ c_chenzhou_1 = {
 	1199.1.1 = { holder = mbsun04 }
 	1210.1.1 = { holder = mbsun05 }
 
+	1244.1.1 = { holder = meishan_jia_032 }
+	1264.1.1 = { holder = putian_li_017 }
+	1279.1.1 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = xiaxian_sima_033M2 liege = d_eyue }
 	1300.1.1 = { holder = xiaxian_sima_033M3 }
 	1315.1.1 = { holder = xiaxian_sima_033M4 }
@@ -30671,6 +30901,10 @@ c_guiyang = {
 	1199.1.1 = { holder = mbsun04 }
 	1210.1.1 = { holder = mbsun05 }
 
+	1244.1.1 = { holder = meishan_jia_032 }
+	1264.1.1 = { holder = putian_li_017 }
+	1279.1.1 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = xiaxian_sima_033M2 liege = d_eyue }
 	1300.1.1 = { holder = xiaxian_sima_033M3 }
 	1315.1.1 = { holder = xiaxian_sima_033M4 }
@@ -30747,6 +30981,7 @@ c_lianzhou = {
 	1187.1.1 = { holder = linan_lang_006 }
 	1202.11.1 = { holder = taiyuan_murong_031 } #Murong Yan - prefect in 1202.11.10
 	#
+	1204.1.1 = { holder = 1803178 }
 	1208.1.1 = { holder = bohai_ouyang_147 } #Ouyang Ji - prefect at some point
 
 	1232.5.28 = {
@@ -30857,6 +31092,10 @@ c_daozhou = {
 	1199.1.1 = { holder = mbsun04 }
 	1210.1.1 = { holder = mbsun05 }
 
+	1244.1.1 = { holder = meishan_jia_032 }
+	1264.1.1 = { holder = putian_li_017 }
+	1279.1.1 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = xiaxian_sima_033M2 liege = d_eyue }
 	1300.1.1 = { holder = xiaxian_sima_033M3 }
 	1315.1.1 = { holder = xiaxian_sima_033M4 }
@@ -30960,6 +31199,10 @@ c_yongzhou = {
 	1199.1.1 = { holder = mbsun04 }
 	1210.1.1 = { holder = mbsun05 }
 
+	1244.1.1 = { holder = meishan_jia_032 }
+	1264.1.1 = { holder = putian_li_017 }
+	1279.1.1 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = xiaxian_sima_033M2 liege = d_eyue }
 	1300.1.1 = { holder = xiaxian_sima_033M3 }
 	1315.1.1 = { holder = xiaxian_sima_033M4 }
@@ -31063,6 +31306,10 @@ c_quanzhou_2 = {
 	1199.1.1 = { holder = mbsun04 }
 	1210.1.1 = { holder = mbsun05 }
 
+	1244.1.1 = { holder = meishan_jia_032 }
+	1264.1.1 = { holder = putian_li_017 }
+	1279.1.1 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = xiaxian_sima_033M2 liege = d_eyue }
 	1300.1.1 = { holder = xiaxian_sima_033M3 }
 	1315.1.1 = { holder = xiaxian_sima_033M4 }
@@ -31141,6 +31388,11 @@ c_shaozhou = {
 	#
 	1160.1.1 = { holder = julu_guo_030 } #Su E - prefect at some point
 	1187.1.1 = { holder = julu_guo_030M }
+	1220.1.1 = { holder = nantun_song_009 }
+	1239.1.1 = { holder = meishan_jia_032 }
+	1264.1.1 = { holder = putian_li_017 }
+	1279.1.1 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = fuyang_xie_029M6 liege = d_eyue }
 	1300.1.1 = { holder = fuyang_xie_029M7 }
 }
@@ -31320,6 +31572,11 @@ c_fuzhou_1 = {
 	#
 	1200.3.13 = { holder = jinling_zhang_037 } #Zhang Yi - made prefect
 	1206.1.1 = { holder = fengcheng_huang_041 }
+	1221.1.1 = { holder = putian_song_055 }
+	1235.1.1 = { holder = guangdu_yuwen_042 }
+	1236.1.1 = { holder = de_an_wang_020 }
+	1248.1.1 = { holder = linan_lang_020 }
+	1281.1.1 = { holder = 217266 }
 	1285.1.1 = { holder = 1803227 liege = d_zhexi }
 	1308.1.1 = { holder = 1803227MM }
 	1320.1.1 = { holder = 1803227MM2 }
@@ -31500,6 +31757,11 @@ c_funing = {
 	#
 	1200.3.13 = { holder = jinling_zhang_037 } #Zhang Yi - made prefect
 	1206.1.1 = { holder = fengcheng_huang_041 }
+	1221.1.1 = { holder = putian_song_055 }
+	1235.1.1 = { holder = guangdu_yuwen_042 }
+	1236.1.1 = { holder = de_an_wang_020 }
+	1248.1.1 = { holder = linan_lang_020 }
+	1281.1.1 = { holder = 217266 }
 	1285.1.1 = { holder = 1803227 liege = d_zhexi }
 	1308.1.1 = { holder = 1803227MM }
 	1320.1.1 = { holder = 1803227MM2 }
@@ -31862,6 +32124,7 @@ c_zhangzhou = {
 	#
 	1219.1.1 = { holder = 1801227 } #Fu Yong - made prefect
 	#
+	1238.1.1 = { holder = de_an_wang_020 }
 	1247.1.1 = { holder = 1803172 } #Wang Pu - made prefect
 
 	1256.9.8 = {
@@ -32007,6 +32270,8 @@ c_jian_an = {
 	1234.1.1 = { holder = putian_song_055 }
 	1243.1.1 = { holder = de_an_wang_020 } #Wang Sui - prefect in 1243, 1244
 
+	1248.1.1 = { holder = linan_lang_020 }
+	1281.1.1 = { holder = 217266 }
 	1285.1.1 = { holder = 1803227 liege = d_zhexi }
 	1308.1.1 = { holder = 1803227MM }
 	1320.1.1 = { holder = 1803227MM2 }
@@ -32139,6 +32404,8 @@ c_shaowu = {
 	1234.1.1 = { holder = putian_song_055 }
 	1243.1.1 = { holder = de_an_wang_020 } #Wang Sui - prefect in 1243, 1244
 
+	1248.1.1 = { holder = linan_lang_020 }
+	1281.1.1 = { holder = 217266 }
 	1285.1.1 = { holder = 1803227 liege = d_zhexi }
 	1308.1.1 = { holder = 1803227MM }
 	1320.1.1 = { holder = 1803227MM2 }
@@ -32271,6 +32538,8 @@ c_nanjian = {
 	1234.1.1 = { holder = putian_song_055 }
 	1243.1.1 = { holder = de_an_wang_020 } #Wang Sui - prefect in 1243, 1244
 
+	1248.1.1 = { holder = linan_lang_020 }
+	1281.1.1 = { holder = 217266 }
 	1285.1.1 = { holder = 1803227 liege = d_zhexi }
 	1308.1.1 = { holder = 1803227MM }
 	1320.1.1 = { holder = 1803227MM2 }
@@ -32532,7 +32801,7 @@ c_yuezhou = {
 	1108.5.13 = { holder = putian_fang_614 } #Fang Hui - made prefect
 	1109.4.2 = { holder = jinyun_zhan_006 } #Zhan Shi - prefect around this time
 	1109.10.26 = { holder = putian_fang_614 } #Fang Hui - made prefect
-	11113.4.18 = { holder = 217728 }
+	1113.4.18 = { holder = 217728 }
 	1114.9.1 = { holder = huayang_wang_008 } #Wang Zhongni - made prefect
 	1116.6.13 = { holder = qiantang_qiang_004 } #Qiang Yuanming - prefect around this time
 	1117.11.20 = { holder = huayang_wang_008 } #Wang Zhongni - made prefect
@@ -32566,9 +32835,11 @@ c_yuezhou = {
 	1187.1.1 = { holder = tangyin_yue_021 }
 	1191.1.1 = { holder = jinjiang_zeng_056 }
 	1195.8.8 = { holder = jiangyin_ge_047 } #Ge Bi - made prefect
+	1199.1.1 = { holder = jinjiang_zeng_056 }
 	1206.1.1 = { holder = jinjiang_zeng_056 }
 	1231.6.22 = { holder = xianyou_ye_034 } #Ye Tang - made prefect
 
+	1239.1.1 = { holder = huayang_wang_033 }
 	1285.1.1 = { holder = nanchang_chen_022M3 liege = d_zhexi }
 	1300.1.1 = { holder = nanchang_chen_022M4 }
 }
@@ -32710,6 +32981,9 @@ c_wuzhou = {
 	1187.1.1 = { holder = guangdu_yuwen_011 }
 	1200.1.1 = { holder = song_ma_002M3 }
 
+	1225.1.1 = { holder = jinjiang_zeng_056 }
+	1234.1.1 = { holder = chuqiu_bian_027 }
+	1235.1.1 = { holder = huayang_wang_033 }
 	1285.1.1 = { holder = nanchang_chen_022M3 liege = d_zhexi }
 	1300.1.1 = { holder = nanchang_chen_022M4 }
 }
@@ -33088,6 +33362,7 @@ c_taizhou = {
 	1170.1.1 = { holder = xiaxian_sima_041 }
 	1184.7.24 = { holder = zhuojun_zhao_579 }
 	1196.1.1 = { holder = henan_lv_106 }
+	1202.1.1 = { holder = jinjiang_zeng_056 }
 	1210.11.18 = { holder = fenning_huang_056 } #Huang Xun - made prefect
 	#
 
@@ -33413,7 +33688,12 @@ c_mianzhou = { # Yusseter: Optional, reback for projection. From c_jianzhou_1
 	1100.2.23 = { holder = 217728 }
 	1119.1.1 = { holder = shaowu_huang_018 } #Wang Yun - prefect in 1120
 	1133.7.3 = { holder = song_general_025 } #Lu Fayuan
+	1139.2.18 = { holder = song_general_021 }
+	1139.7.18 = { holder = zhuojun_zhao_292 }
+	1144.1.1 = { holder = chongan_jliu_012 }
+	1144.10.29 = { holder = yuyao_hu_013 }
 	1145.1.1 = { holder = guangdu_yuwen_048 }
+	1189.1.1 = { holder = kaifeng_xiang_044 }
 	1201.1.1 = { holder = kaifeng_xiang_103 }
 	1217.3.14 = {
 		holder = ChengjiLiuHanMB3  # Zhining
@@ -33579,7 +33859,12 @@ c_jianzhou_1 = {
 	1100.2.23 = { holder = 217728 }
 	1119.1.1 = { holder = shaowu_huang_018 } #Wang Yun - prefect in 1120
 	1133.7.3 = { holder = song_general_025 } #Lu Fayuan
+	1139.2.18 = { holder = song_general_021 }
+	1139.7.18 = { holder = zhuojun_zhao_292 }
+	1144.1.1 = { holder = chongan_jliu_012 }
+	1144.10.29 = { holder = yuyao_hu_013 }
 	1145.1.1 = { holder = guangdu_yuwen_048 }
+	1189.1.1 = { holder = kaifeng_xiang_044 }
 	1201.1.1 = { holder = kaifeng_xiang_103 }
 	1217.3.14 = {
 		holder = ChengjiLiuHanMB3  # Zhining
@@ -33666,6 +33951,7 @@ c_longzhou = {
 	1174.1.1 = { holder = luoyuan_yu_019 }
 	#1211.1.1 = { holder = 14801392 } # Yusseter: For non-Yusseter bug
 
+	1211.1.1 = { holder = anxi_du_036M3 }
 	1217.3.14 = {
 		holder = ChengjiLiuHanMB3  # Zhining
 	}
@@ -34127,6 +34413,7 @@ c_yuzhou_2 = {
 	1124.1.1 = { holder = jiangling_sun_004 }
 	1133.7.1 = { holder = anyang_wang_002 } #Wang Si - made perfect
 	1144.1.1 = { holder = jinjiang_zeng_107 }
+	1172.1.1 = { holder = taiyuan_murong_033 }
 	1180.1.1 = { holder = wujun_lu_481 }
 	1199.1.1 = { holder = wujun_lu_488 }
 	1236.1.1 = { holder = nanan_liu_012 }
@@ -34209,8 +34496,16 @@ c_luzhou_2 = {
 	1135.7.20 = { holder = 1801219 }
 	1195.1.1 = { holder = huayang_fan_095 } #Fan Zhongyun - made prefect
 	#
+	1201.1.1 = { holder = huayang_fan_097 }
 	1205.1.1 = { holder = wujun_lu_459 } #Liu Jia - prefect until 1206
 
+	1232.1.1 = { holder = huayang_fan_097 }
+	1245.1.1 = { holder = zhuojun_zhao_596 }
+	1246.1.1 = { holder = 1231551 }
+	1258.1.1 = { holder = 1231552 }
+	1261.1.1 = { holder = 1410965 }
+	1270.1.1 = { holder = 217266 }
+	1271.2.18 = { holder = NSteppeMB179 }
 	1285.1.1 = { holder = linan_qian_229M3 liege = d_xichuan  }
 	1300.1.1 = { holder = linan_qian_229M4 }
 	1320.1.1 = { holder = linan_qian_229M5 }
@@ -34290,8 +34585,16 @@ c_changzhou_1 = {
 	1135.7.20 = { holder = 1801219 }
 	1195.1.1 = { holder = huayang_fan_095 } #Fan Zhongyun - made prefect
 	#
+	1201.1.1 = { holder = huayang_fan_097 }
 	1205.1.1 = { holder = wujun_lu_459 } #Liu Jia - prefect until 1206
 
+	1232.1.1 = { holder = huayang_fan_097 }
+	1245.1.1 = { holder = zhuojun_zhao_596 }
+	1246.1.1 = { holder = 1231551 }
+	1258.1.1 = { holder = 1231552 }
+	1261.1.1 = { holder = 1410965 }
+	1270.1.1 = { holder = 217266 }
+	1271.2.18 = { holder = NSteppeMB179 }
 	1285.1.1 = { holder = linan_qian_229M3 liege = d_xichuan  }
 	1300.1.1 = { holder = linan_qian_229M4 }
 	1320.1.1 = { holder = linan_qian_229M5 }
@@ -34414,6 +34717,7 @@ c_nanxi = {
 	1132.11.8 = { holder = anyang_wang_002 } #Wang Si
 	1133.7.3 = { holder = song_general_025 } #Lu Fayuan
 	1139.2.18 = { holder = song_ma_002M }
+	1175.1.1 = { holder = 1801219 }
 	1180.1.1 = { holder = henan_lv_146 }
 	1199.1.1 = { holder = 1801409 }
 
@@ -34483,6 +34787,7 @@ c_rongzhou = {
 	1132.11.8 = { holder = anyang_wang_002 } #Wang Si
 	1133.7.3 = { holder = song_general_025 } #Lu Fayuan
 	1139.2.18 = { holder = song_ma_002M }
+	1175.1.1 = { holder = 1801219 }
 	1180.1.1 = { holder = henan_lv_146 }
 	1199.1.1 = { holder = 1801409 }
 
@@ -34584,6 +34889,10 @@ c_lingzhou_1 = {
 	1135.7.5 = { holder = wuyuan_wang_021 }
 	1161.1.1 = { holder = raoyang_li_060 }
 
+	1212.1.1 = { holder = 1801219 }
+	1220.1.1 = { holder = putian_fang_502 }
+	1261.1.1 = { holder = nanan_liu_012 }
+	1267.1.1 = { holder = NSteppeMB179 }
 	1285.1.1 = { holder = linan_qian_229M3 liege = d_xichuan  }
 	1300.1.1 = { holder = linan_qian_229M4 }
 	1320.1.1 = { holder = linan_qian_229M5 }
@@ -35181,6 +35490,7 @@ c_guangde = {
 	1203.1.1 = { holder = shaowu_huang_040 }
 	1233.1.1 = { holder = sanyang_zhang_019 } #Shi Xiaolong - prefect in 1233.8.1
 
+	1245.1.1 = { holder = 1803584 }
 	1249.6.28 = {
 		holder = TangTaiyueHanMB10  # Maozhen
 	}
@@ -35874,6 +36184,8 @@ c_haozhou = {
 	1170.1.1 = { holder = de_an_wang_033 }
 	1178.1.1 = { holder = meishan_su_092 } #Su Song - prefect at some point
 	1187.1.1 = { holder = qingliu_zhang_039M2 }
+	1210.1.1 = { holder = xiaxian_sima_049 }
+	1213.1.1 = { holder = pingji_song_039 }
 	1229.1.1 = { holder = fuyang_xie_029M5 } #Du Gao - prefect around this time
 	#Yuan
 	
@@ -36366,6 +36678,7 @@ c_fuzhou_4 = {
 	1127.7.15 = { holder = zhuojun_zhao_292 }
 	1144.1.1 = { holder = taiyuan_murong_025 }
 	1170.1.1 = { holder = huayang_fan_128 }
+	1175.1.1 = { holder = taiyuan_murong_033 }
 	1180.1.1 = { holder = wujun_lu_481 }
 	1199.1.1 = { holder = wujun_lu_488 }
 	
@@ -36469,6 +36782,7 @@ c_zhongzhou = {
 	1127.7.15 = { holder = zhuojun_zhao_292 }
 	1144.1.1 = { holder = taiyuan_murong_025 }
 	1170.1.1 = { holder = huayang_fan_128 }
+	1175.1.1 = { holder = taiyuan_murong_033 }
 	1180.1.1 = { holder = jinjiang_lv_037 }
 	1198.1.1 = { holder = yanxian_zhu_050 }
 
@@ -36556,6 +36870,7 @@ c_wanzhou = {
 	1127.7.15 = { holder = zhuojun_zhao_292 }
 	1144.1.1 = { holder = taiyuan_murong_025 }
 	1165.1.1 = { holder = jingzhao_weng_081 }
+	1175.1.1 = { holder = taiyuan_murong_033 }
 	1180.1.1 = { holder = luoyuan_yu_015 }
 
 	1215.1.1 = {
@@ -36642,6 +36957,7 @@ c_kaizhou = {
 	1127.7.15 = { holder = zhuojun_zhao_292 }
 	1144.1.1 = { holder = taiyuan_murong_025 }
 	1165.1.1 = { holder = jingzhao_weng_081 }
+	1175.1.1 = { holder = taiyuan_murong_033 }
 	1180.1.1 = { holder = luoyuan_yu_015 }
 
 	1224.1.1 = {
@@ -36731,6 +37047,7 @@ c_tongzhou_1 = {
 	1127.7.15 = { holder = zhuojun_zhao_292 }
 	1144.1.1 = { holder = taiyuan_murong_025 }
 	1165.1.1 = { holder = jingzhao_weng_081 }
+	1175.1.1 = { holder = taiyuan_murong_033 }
 	1180.1.1 = { holder = luoyuan_yu_015 }
 	
 	1224.1.1 = {
@@ -37186,6 +37503,12 @@ c_xiazhou_1 = {
 	1170.1.1 = { holder = henan_xi_005M2 }
 	1185.1.1 = { holder = pingji_song_029 } #Song Shaogong - prefect at some point
 
+	1216.3.28 = { holder = weishi_liu_149 }
+	1268.1.1 = { holder = zhuojun_zhao_604 }
+	1274.8.12 = { holder = zhuojun_zhao_610 }
+	1276.6.14 = { holder = zhuojun_zhao_609 }
+	1278.5.8 = { holder = zhuojun_zhao_611 }
+	1279.3.19 = { holder = 217266 }
 	1285.1.1 = { holder = lingshou_han_053M3 liege = d_eyue  }
 	1300.1.1 = { holder = lingshou_han_053M4}
 	1330.1.1 = { holder = lingshou_han_053M5}
@@ -37548,6 +37871,10 @@ c_bizhou = {
 	1125.1.1 = { holder = yiwu_zong_011 } #Zong Ze - made prefect
 	1126.9.19 = { holder = 217728 }
 	1133.6.26 = { holder = song_general_026 liege = d_xingyuan } #王彦
+	1139.2.12 = { holder = song_general_021 }
+	1139.7.18 = { holder = zhuojun_zhao_292 }
+	1144.1.1 = { holder = chongan_jliu_012 }
+	1144.10.29 = { holder = yuyao_hu_013 }
 	1170.1.1 = { holder = wanquan_xue_015M }
 	1175.1.1 = { holder = linchuan_wang_043 }
 	1204.1.1 = { holder = xianyou_fu_018 }
@@ -37950,6 +38277,7 @@ c_anzhou = {
 	1201.1.1 = { holder = fengcheng_huang_009 }
 	1213.1.1 = { holder = putian_fang_314 }
 	
+	1251.1.1 = { holder = weishi_liu_149 }
 	1265.1.1 = {
 		holder = DeAnWangHanMB1  # Deyi (eldest son succeeds Wenji)
 	}
@@ -38112,6 +38440,7 @@ c_hanyang = {
 	1201.1.1 = { holder = wujun_lu_486 }
 	1231.1.1 = { holder = huayang_wang_028 }
 	
+	1249.1.1 = { holder = weishi_liu_149 }
 	1265.1.1 = {
 		holder = DeAnWangHanMB1  # Deyi (eldest son succeeds Wenji)
 	}
@@ -38248,6 +38577,8 @@ c_shenzhou = {
 	1170.1.1 = { holder = anxi_du_036M }
 	1175.1.1 = { holder = anxi_du_036M2 }
 	1201.1.1 = { holder = qingfeng_chao_122 }
+	1207.1.1 = { holder = jiangyin_ge_058 }
+	1215.1.1 = { holder = weishi_liu_149 }
 	1234.1.1 = { holder = meishan_jia_030 }
 	#Yuan
 	1279.3.18 = {
@@ -41428,6 +41759,10 @@ c_weizhou_4 = {
 	#Jin
 	1128.1.10 = { holder = jurchen119 } #完颜宗辅
 	1128.2.3 = { holder = chuqiu_bian_024 liege = d_ziqing } #Liu Yu
+	1150.1.1 = { holder = jurchen255 }
+	1150.4.1 = { holder = jurchen54 }
+	1162.1.1 = { holder = jurchen1313 }
+	1164.1.1 = { holder = jurchen373 }
 	1195.1.1 = { holder = jurchen450 }
 	1205.1.1 = { holder = jurchen1168 }
 	#Yuan
@@ -44770,6 +45105,8 @@ c_huaizhou = {
 	1058.1.1 = { holder = 217724 }
 	1062.1.1 = { holder = jinjiang_lv_012 } #Lü Shou - prefect at some point
 	#1069.1.22 = { holder = pingli_sun_004 } # Yusseter: For non-Yusseter bug
+	1069.1.22 = { holder = 217726 }
+	1081.1.1 = { holder = 1801635 }
 	1085.4.1 = { holder = 217727 }
 	1087.1.1 = { holder = xingyang_zheng_293 } #Zheng Yi - made prefect
 	1090.9.8 = { holder = guangdu_guo_024 } #Guo Yu - prefect at some point
@@ -45367,6 +45704,17 @@ c_xiongzhou = {
 
 	866.1.1 = { holder = 1415030 liege = d_xiasui } #Tuoba Sigong for perfect
 	867.1.1 = { holder = 1404398 } #Lu Fan
+	870.1.1 = { holder = 1401451 }
+	874.1.1 = { holder = longxi_li_0877 }
+	880.11.6 = { holder = 1400617 }
+	881.1.16 = { holder = 1415030 }
+	886.1.1 = { holder = 1415033 }
+	896.1.1 = { holder = 1415036 }
+	900.1.1 = { holder = 1415033 }
+	908.12.2 = { holder = 1415039 }
+	909.5.5 = { holder = 1415037 }
+	933.3.10 = { holder = 1415046 }
+	935.3.19 = { holder = 1415045 }
 	956.1.1 = {
 		holder = patron_028
 		liege = d_shuofang # Yusseter: d_xia
@@ -47787,6 +48135,8 @@ c_mozhou = {
 	1127.6.12 = { holder = guangdu_guo_043 liege = d_cangjing }
 	1165.1.1 = { holder = qingfeng_chao_114 }
 	#Yuan
+	1199.1.1 = { holder = JurchenKhitan17 }
+	1217.1.1 = { holder = jurchen1438 }
 	1220.1.1 = {
 		holder = JuluGuoHanMB9  # Wenben (oldest son of Jishan)
 		liege = d_cangjing
@@ -47882,6 +48232,11 @@ c_zhuozhou = {
 	}
 	1127.6.12 = { holder = julu_guo_027 liege = d_youzhou } # 大㚖
 	#Yuan
+	1148.1.1 = { holder = tiezhou_guo_002 }
+	1161.12.15 = { holder = jurchen120 }
+	1189.1.20 = { holder = jurchen132 }
+	1208.12.29 = { holder = jurchen175 }
+	1213.9.11 = { holder = jurchen122 }
 	1220.1.1 = {
 		holder = JuluGuoHanMB9  # Wenben (oldest son of Jishan)
 		liege = d_cangjing

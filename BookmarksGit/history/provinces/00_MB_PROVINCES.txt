@@ -14876,7 +14876,7 @@ rite = antiochian_rite #no syriac in CK3
 }
 
 1616 = {	#Melton
-	holding = none
+	holding = church_holding	#the leper hospital of Burton Lazars
 	#post CK timeframe
 }
 
@@ -18513,7 +18513,7 @@ rite = antiochian_rite #no syriac in CK3
 	culture = mozarab
 	rite = roman_rite
 	
-	holding = none
+	holding = castle_holding	#the fortress of Andujar
 }
 
 1987 = {	# ALARCOS
@@ -22955,7 +22955,7 @@ rite = carolingian_christianity
 }
 
 2541 = {	#CENTO
-	holding = none
+	holding = church_holding	#the abbey of Nonantola
 }
 
 2542 = {	#BOLOGNA
@@ -23138,7 +23138,7 @@ rite = carolingian_christianity
 }
 
 2565 = {	#CHIUSI
-	holding = none
+	holding = church_holding	#Monte Oliveto Maggiore and the churches of Chiusi
 	#left blank to keep an empty holding
 }
 

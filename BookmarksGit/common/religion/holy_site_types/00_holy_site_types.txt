@@ -11776,8 +11776,8 @@ kyaikhtiyo = {
 }
 
 myitsone = {
-	    county = c_takon
-	barony = b_takon
+	    county = c_myitkyina # Yusseter: c_takon
+	barony = b_myitkyina # Yusseter: b_takon
 
 	county_holder_character_modifier = {
 		learning_per_piety_level = 1
@@ -13675,7 +13675,7 @@ lolomatua = {
 # The Pagai islands of the Mentawai
 pagai = {
 	county = c_mentawai # Yusseter: c_pagai
-	#barony = b_bahat_monga # Yusseter
+	barony = b_sipura # Yusseter: b_bahat_monga # Southern Mentawai regional representation.
 
 	county_holder_character_modifier = {
 		learning_per_piety_level = 1
@@ -13753,7 +13753,7 @@ kerinci = {
 # Gunung Dempo, the sacred mountain of the Basemah, ringed by the Pasemah megaliths
 dempo = {
 	county = c_SUM_karang_brahi # Yusseter: c_empat_lawang
-	#barony = b_lahat # Yusseter
+	barony = b_SUM_Lahat # Yusseter: b_lahat
 
 	county_holder_character_modifier = {
 		knight_effectiveness_mult = 0.2
@@ -13860,7 +13860,7 @@ mount_bromo = {
 # Gunung Lawu, between Central and East Java
 lawu = {
 	county = c_JAV_mataram # Yusseter: c_jagaraga
-	#barony = b_lawu # Yusseter
+	barony = b_JAV_Wwatan # Yusseter: b_lawu
 
 	county_holder_character_modifier = {
 		fertility = 0.1
@@ -13886,7 +13886,7 @@ lawu = {
 # Gunung Merapi, above the Mataram plain
 merapi = {
 	county = c_JAV_mataram # Yusseter: c_mataram
-	#barony = b_mamrati # Yusseter
+	barony = b_JAV_Mamrati # Yusseter: b_mamrati
 
 	county_holder_character_modifier = {
 		knight_effectiveness_mult = 0.2
@@ -14187,7 +14187,7 @@ sandawa = {
 # Dawu, Kavulungan, the ancestral mountain of the Paiwan and Rukai: where the Paiwan nobles came down and the souls of the dead go
 kavulungan = {
 	county = c_siraya # Yusseter: c_kabeyawan
-	#barony = b_kabeyawan # Yusseter
+	barony = b_taiwan_pingtung # Yusseter: b_kabeyawan
 
 	county_holder_character_modifier = {
 		monthly_prestige_gain_mult = 0.05
@@ -14506,6 +14506,7 @@ doi_suthep = {
 # Kengtung, the Wa and Lawa town before the Tai Khun came
 kengtung = {
 	county = c_moeng_laem # Yusseter: c_kengtung
+	barony = b_keng_tung # Yusseter
 
 	county_holder_character_modifier = {
 		knight_effectiveness_mult = 0.2
@@ -14838,7 +14839,7 @@ makhel = {
 # Homalin on the Chindwin
 homalin = {
 	county = c_kale # Yusseter: c_homalin
-	#barony = b_homalin # Yusseter
+	barony = b_hsawnghsup # Yusseter: b_homalin
 
 	county_holder_character_modifier = {
 		same_faith_opinion = 5
@@ -14863,7 +14864,7 @@ homalin = {
 # Khonumthung (Natma Taung), the mountain where the Chin dead go
 khonumthung = {
 	county = c_kale # Yusseter: c_mindat
-	#barony = b_mindat # Yusseter
+	barony = b_chin # Yusseter: b_mindat
 
 	county_holder_character_modifier = {
 		monthly_piety_gain_mult = 0.05
@@ -15364,7 +15365,7 @@ xizhou_pillar = {
 # Asumui in Kunigami, the northern mountain of Okinawa, among the first utaki Amamichu made
 asumui = {
 	county = c_ucinaa # Yusseter: c_hokuzan
-	#barony = b_hokuzan # Yusseter
+	barony = b_kunjan_ucinaa # Yusseter: b_hokuzan
 
 	county_holder_character_modifier = {
 		monthly_piety_gain_mult = 0.05
@@ -15752,7 +15753,7 @@ altyn_kol = {
 # Saddle Peak, the highest mountain of the Andaman islands, in the country of the northern Great Andamanese tribes
 saddle_peak = {
 	county = c_andamans # Yusseter: c_hantuman
-	#barony = b_yerewa # Yusseter
+	barony = b_diglipur # Yusseter: b_yerewa
 
 	county_holder_character_modifier = {
 		monthly_piety_gain_mult = 0.05

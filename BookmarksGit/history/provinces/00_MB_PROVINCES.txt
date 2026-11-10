@@ -15497,7 +15497,7 @@ rite = antiochian_rite #no syriac in CK3
 }
 
 1684 = {	#Wigtown
-	holding = none
+	holding = church_holding
 }
 
 1685 = {	#Girvan
@@ -23304,11 +23304,7 @@ rite = carolingian_christianity
 }
 
 2589 = {	#TIVOLI
-
-	holding = none
-	1201.1.1 = {
-		holding = church_holding
-	}
+	holding = church_holding
 }
 
 2590 = {	#VELLETRI
@@ -25549,7 +25545,7 @@ rite = carolingian_christianity
 }
 
 2878 = {	#EICHTSTAD
-holding = none
+	holding = church_holding
 }
 
 2879 = {	#HIRSCHBERG
@@ -25826,6 +25822,9 @@ holding = none
 	culture = saxon
 	rite = roman_rite
 	holding = none
+	815.1.1 = {
+		holding = church_holding
+	}
 }
 
 2914 = {	#WOLDENBERG
@@ -41451,6 +41450,7 @@ rite = byzantine_rite
 4845 = {	# Misc
 	culture = kurdish
 	rite = maphrianate
+	holding = castle_holding
 	
 	# History
 
@@ -41646,14 +41646,15 @@ rite = antiochian_rite
 4869 = {	# 4869 - Edessa
 	
 	# Misc
-culture = syriac
-rite = antiochian_rite
+	culture = syriac
+	rite = antiochian_rite
+	holding = castle_holding
 	
 	# History
-	1030.1.1 = { 
-	culture = armenian 
-	rite = armenian_rite
-}
+	1030.1.1 = {
+		culture = armenian
+		rite = armenian_rite
+	}
 	1170.1.1 = {
 		culture = kurdish
 		rite = shafii
@@ -41883,6 +41884,7 @@ rite = antiochian_rite
 	# Misc
 	culture = armenian
 	rite = armenian_rite
+	holding = castle_holding
 	
 	# History
 	1177.1.1 = {
@@ -51683,6 +51685,7 @@ rite = antiochian_rite
 	# Misc
 	culture = antiochian
 	rite = melkite
+	holding = church_holding
 	
 	# History
 	1268.1.1 = { culture = levantine }
@@ -51722,6 +51725,7 @@ rite = antiochian_rite
 	# Misc
 	culture = levantine
 	rite = awzai
+	holding = church_holding
 	
 	# History
 	900.1.1 = {
@@ -52196,6 +52200,7 @@ rite = antiochian_rite
 	# Misc
 	culture = levantine
 	rite = awzai
+	holding = castle_holding
 	
 	# History
 	900.1.1 = {
@@ -53639,7 +53644,7 @@ rite = antiochian_rite
 }
 
 6094 = {	#AL-HAMAM
-	holding = none
+	holding = church_holding
 }
 
 6095 = {	#QASR_ASH_SHAMMAS

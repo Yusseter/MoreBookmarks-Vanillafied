@@ -29514,10 +29514,6 @@ c_liuzhou = {
 }
 
 c_rongshui = {
-	866.1.1 = {
-		government = tribal_government
-	}
-
 	#Tang
 # EAST_TITLE_REWRITE_SECOND_REFERENCE: d_guiguan_china has second mapping to d_jingjiang; manual review needed.
 	769.1.1 = { holder = 1406202 liege = d_guiguan }

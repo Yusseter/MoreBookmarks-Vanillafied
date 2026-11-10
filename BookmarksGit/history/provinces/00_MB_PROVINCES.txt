@@ -72439,6 +72439,8 @@ rite = antiochian_rite
 	culture = han
 	rite = dhyana
 	holding = castle_holding
+	special_building_slot = white_horse_temple_01 # Yusseter
+	special_building = white_horse_temple_01 # Yusseter
 	# History
 	1070.1.1 = {
 		rite = daoxue
@@ -72883,6 +72885,10 @@ rite = antiochian_rite
 
 8879 = {	# QIANFENG
 	holding = church_holding
+	special_building_slot = generic_university # Yusseter
+	1038.1.1 = { # Yusseter
+		special_building = generic_university
+	}
 }
 
 8880 = {	# FUQU
@@ -78291,6 +78297,10 @@ rite = antiochian_rite
 	culture = han
 	rite = dhyana
 	holding = castle_holding
+	special_building_slot = generic_university # Yusseter
+	1009.1.1 = { # Yusseter
+		special_building = generic_university
+	}
 }
 
 9392 = {
@@ -84873,6 +84883,10 @@ rite = hispanic_rite
 	rite = shangqing # Yusseter
 	#rite = dhyana
 	holding = castle_holding
+	special_building_slot = generic_university # Yusseter
+	1024.1.1 = { # Yusseter
+		special_building = generic_university
+	}
 }
 
 10334 = {	# JINTAN
@@ -86297,6 +86311,10 @@ rite = hispanic_rite
 
 10604 = {	# UJI
 	holding = church_holding
+	special_building_slot = generic_university # Yusseter
+	700.1.1 = { # Yusseter
+		special_building = generic_university
+	}
 }
 
 10606 = {	# KAWACHI
@@ -86626,11 +86644,15 @@ rite = hispanic_rite
 	culture = japanese
 	rite = yogacara
 	holding = castle_holding
+	special_building_slot = generic_university # Yusseter
 	806.1.1 = {
 		rite = pundarika
 	}
 	1185.1.1 = {
 		culture = togoku
+	}
+	1300.1.1 = { # Yusseter
+		special_building = generic_university
 	}
 }
 
@@ -86936,6 +86958,7 @@ rite = hispanic_rite
 	rite = yogacara
 	holding = castle_holding
 	850.1.1 = {
+		special_building = generic_university # Yusseter
 	}
 }
 
@@ -87432,6 +87455,9 @@ rite = hispanic_rite
 	rite = yang # Yusseter
 	#rite = kuy_animism
 	holding = temple_citadel_holding
+	600.1.1 = { # Yusseter
+		special_building = generic_university
+	}
 }
 
 10805 = {
@@ -87617,6 +87643,8 @@ rite = hispanic_rite
 	culture = cham
 	rite = chamic_shaivism
 	holding = temple_citadel_holding
+	special_building_slot = po_nagar_01 # Yusseter
+	special_building = po_nagar_01 # Yusseter
 }
 
 10827 = {	#Vijaya
@@ -87772,6 +87800,9 @@ rite = hispanic_rite
 
 10856 = {
 	holding = city_holding
+	300.1.1 = { # Yusseter
+		special_building = generic_university
+	}
 }
 
 10857 = {
@@ -87804,7 +87835,8 @@ rite = hispanic_rite
 	culture = viet
 	rite = phat_giao
 	holding = castle_holding
-	special_building_slot = citadel_thang_long_01
+	special_building_slot = tran_quoc_pagoda_01 # Yusseter: citadel_thang_long_01
+	special_building = tran_quoc_pagoda_01 # Yusseter
 	
 	# History
 	866.1.1 = {
@@ -88132,6 +88164,7 @@ rite = hispanic_rite
 	culture = khmer
 	rite = pashupata
 	holding = temple_citadel_holding
+	special_building_slot = preah_vihear_temple_01 # Yusseter
 	1181.1.1 = {
 		rite = lokesvara
 	}
@@ -88143,6 +88176,9 @@ rite = hispanic_rite
 	}
 	802.1.1 = {
 		rite = devaraja
+	}
+	1024.1.1 = { # Yusseter
+		special_building = preah_vihear_temple_01
 	}
 }
 
@@ -88157,6 +88193,14 @@ rite = hispanic_rite
 	culture = mon
 	rite = ramanna
 	holding = temple_citadel_holding
+	special_building_slot = phra_pathommachedi_01 # Yusseter
+	special_building = phra_pathommachedi_01 # Yusseter
+	600.1.1 = { # Yusseter
+		special_building = phra_pathommachedi_02
+	}
+	1200.1.1 = { # Yusseter
+		special_building = phra_pathommachedi_03
+	}
 	1300.1.1 = {
 		culture = siamese
 		rite = mahavihara
@@ -89666,7 +89710,8 @@ rite = hispanic_rite
 }
 
 11179 = {	#b_SUL_Malili
-	holding = none
+	holding = tribal_holding # Yusseter: none
+	special_building = matano_mines_01 # Yusseter
 }
 
 11180 = {	#b_SUL_Tamboa
@@ -90207,7 +90252,10 @@ rite = hispanic_rite
 }
 
 11301 = {	#b_SUM_Pedamaran
-	holding = none
+	holding = church_holding # Yusseter: none
+	660.1.1 = { # Yusseter
+		special_building = generic_university
+	}
 }
 
 11302 = {	#b_SUM_Minanga_Tamwan
@@ -90418,9 +90466,13 @@ rite = hispanic_rite
 	rite = kasogatan # Yusseter
 	#rite = mahayana
 	holding = temple_citadel_holding
+	special_building_slot = prambanan_temple_01 # Yusseter
 	850.1.1 = {
 		rite = kasaiwan # Yusseter
 		#rite = shaivism
+	}
+	900.1.1 = { # Yusseter
+		special_building = prambanan_temple_01
 	}
 }
 
@@ -95377,6 +95429,7 @@ rite = hispanic_rite
 
 12220 = {	# JINGYANG
 	holding = city_holding
+	special_building = generic_university # Yusseter
 }
 
 12221 = {	# LIQUAN
@@ -96730,12 +96783,16 @@ rite = hispanic_rite
 	culture = han
 	rite = vinaya
 	holding = castle_holding
+	special_building_slot = generic_university # Yusseter
 	# History
 	1000.1.1 = {
 		rite = sukhavati
 	}
 	900.1.1 = {
 		culture = qin
+	}
+	940.1.1 = { # Yusseter
+		special_building = generic_university
 	}
 }
 

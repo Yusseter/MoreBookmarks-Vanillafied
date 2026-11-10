@@ -8822,7 +8822,7 @@ rite = antiochian_rite #no syriac in CK3
 	culture = bihari
 	rite = madhyamaka
 	
-	holding = none
+	holding = church_holding
 	
 	# History
 
@@ -10716,6 +10716,7 @@ rite = antiochian_rite #no syriac in CK3
 	# Misc
 	culture = kannada
 	rite = kalamukha
+	holding = church_holding
 	
 	# History
 }
@@ -28915,6 +28916,7 @@ rite = carolingian_christianity
 	# Misc
 	culture = gujarati
 	rite = yapaniya
+	holding = church_holding
 	
 	# History
 
@@ -34283,6 +34285,7 @@ rite = byzantine_rite
 	# Misc
 	culture = awadhi
 	rite = pudgalavada
+	holding = church_holding
 	
 	# History
 
@@ -34898,7 +34901,7 @@ rite = byzantine_rite
 }
 
 4018 = {	#Rivand
-	holding = none
+	holding = church_holding
 }
 
 4019 = {	#Keshmar
@@ -34943,7 +34946,7 @@ rite = byzantine_rite
 }
 
 4025 = {	#Bistum
-	holding = none
+	holding = city_holding
 }
 
 4026 = {	#Damghan
@@ -36196,8 +36199,8 @@ rite = byzantine_rite
 }
 
 4196 = {	#Kariyan	#AKA Karyan
-	holding = none
-}
+	holding = church_holding
+}	
 
 4197 = {	#Bushkanat	#AKA Bushehr
 	holding = city_holding
@@ -36286,7 +36289,7 @@ rite = byzantine_rite
 4209 = {	#Khawaf
 	culture = tajik
 	rite = zurvanism # Khwaf, where Bihafarid began his preaching at Sirawand
-	holding = none
+	holding = city_holding
 	
 	987.1.1 = {
 		rite = hanafi
@@ -40806,6 +40809,7 @@ rite = byzantine_rite
 	# Misc
 	culture = levantine
 	rite = hanafi
+	holding = city_holding
 	
 	# History
 	
@@ -41279,10 +41283,10 @@ rite = byzantine_rite
 4830 = {	#Misc
 	culture = iraqi
 	rite = hanafi
+	holding = church_holding
 	# History
 	850.1.1 = {
 		rite = imami
-		holding = church_holding
 		special_building_slot = imam_hussain_shrine_01
 		special_building = imam_hussain_shrine_01
 	}
@@ -41306,10 +41310,11 @@ rite = byzantine_rite
 	# Misc
 	culture = levantine
 	rite = east_syriac_rite
+	holding = city_holding
 	
 	# History
 
-}
+}	
 
 4833 = {	# 4833 - Hit
 	
@@ -51976,12 +51981,10 @@ rite = antiochian_rite
 	# Misc
 	culture = levantine
 	rite = awzai
+	holding = castle_holding
+	special_building = damascus_mosque_01
 	
 	# History
-	867.1.1 = {
-		holding = castle_holding
-		special_building = damascus_mosque_01
-	}
 	900.1.1 = {
 		rite = shafii # The school of al-Shafi'i displaces that of al-Awza'i in Syria
 	}
@@ -52359,11 +52362,9 @@ rite = antiochian_rite
 	# Misc
 	culture = levantine
 	rite = awzai
+	holding = church_holding
 	
 	# History
-	830.1.1 = {
-		holding = church_holding
-	}
 	900.1.1 = {
 		rite = shafii # The school of al-Shafi'i displaces that of al-Awza'i in Syria
 	}
@@ -52500,6 +52501,7 @@ rite = antiochian_rite
 	# Misc
 	culture = levantine
 	rite = awzai
+	holding = city_holding
 	
 	# History
 	1099.6.3 = {
@@ -52839,6 +52841,7 @@ rite = antiochian_rite
 	# Misc
 	culture = iraqi
 	rite = hanafi
+	holding = church_holding
 	# History
 	850.1.1 = {
 		holding = castle_holding
@@ -53302,7 +53305,7 @@ rite = antiochian_rite
 }
 
 6047 = {	#SAMANNUD
-	holding = none
+	holding = city_holding
 }
 
 6048 = {	#BURULLUS
@@ -54608,10 +54611,7 @@ rite = antiochian_rite
 }
 
 6242 = {	#SADA
-	holding = none
-	1066.1.1 = {
-		holding = city_holding
-	}
+	holding = city_holding
 }
 
 6243 = {	#NAJRAN
@@ -61079,6 +61079,9 @@ rite = antiochian_rite
 7128 = {	#Yasï/Yasi
 	#Can be found on the historical atlas of central asia by Yuri Bregel
 	holding = none
+	1100.1.1 = {
+		holding = city_holding
+	}
 }
 
 7129 = {	# 7129 - Shavgar
@@ -67492,6 +67495,7 @@ rite = antiochian_rite
 	# Misc
 	culture = telugu
 	rite = digambara
+	holding = church_holding
 	special_building_slot = mallikarjuna_temple_01
 	# History
 	1066.1.1 = {
@@ -87052,7 +87056,7 @@ rite = hispanic_rite
 }
 
 10734 = { # SAKAI
-	holding = none
+	holding = church_holding # Yusseter: none
 }
 
 10735 = { # NYŪ
@@ -94393,7 +94397,7 @@ rite = hispanic_rite
 }
 
 12064 = { # b_Goryeo_Gyeongsang_Yeongju
-	holding = none
+	holding = church_holding # Yusseter: none
 }
 
 12065 = { # b_Goryeo_Gyeongsang_Yeongsan
@@ -97864,7 +97868,7 @@ rite = hispanic_rite
 }
 
 13004 = {	# ZOU
-	holding = none
+	holding = church_holding # Yusseter: none
 }
 
 13005 = {	# QIANJIANG

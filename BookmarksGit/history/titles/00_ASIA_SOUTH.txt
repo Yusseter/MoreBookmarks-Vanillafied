@@ -18042,6 +18042,8 @@ c_dipalpur = {
 
 	769.1.1 = {
 		holder = MB_anc_dipalpur_1 # forefather, holds from the 769 start
+
+		liege = "d_lahore"
 	}
 	797.1.1 = {
 		holder = MB_anc_dipalpur_2 # Shamsher Jhuti
@@ -18180,6 +18182,8 @@ c_bhera = {
 
 	769.1.1 = {
 		holder = MB_anc_bhera_1 # forefather, holds from the 769 start
+
+		liege = "d_lahore"
 	}
 	797.1.1 = {
 		holder = MB_anc_bhera_2 # Prithichand Kahlōṇ
@@ -18318,6 +18322,8 @@ c_shorkot = {
 
 	769.1.1 = {
 		holder = MB_anc_shorkot_1 # forefather, holds from the 769 start
+
+		liege = "d_lahore"
 	}
 	797.1.1 = {
 		holder = MB_anc_shorkot_2 # Shamsher Jhuti
@@ -19503,6 +19509,8 @@ c_udabhanda = {
 
 	769.1.1 = {
 		holder = MB_anc_udabhanda_1 # forefather, holds from the 769 start
+
+		liege = "k_punjab"
 	}
 	797.1.1 = {
 		holder = MB_anc_udabhanda_2 # Ajit Janda
@@ -19617,6 +19625,8 @@ c_purushapura = {
 
 	769.1.1 = {
 		holder = MB_anc_purushapura_1 # forefather, holds from the 769 start
+
+		liege = "k_punjab"
 	}
 	797.1.1 = {
 		holder = MB_anc_purushapura_2 # Budh Padda
@@ -19833,6 +19843,8 @@ c_bannu = {
 
 	769.1.1 = {
 		holder = MB_anc_bannu_1 # forefather, holds from the 769 start
+
+		liege = "k_punjab"
 	}
 	797.1.1 = {
 		holder = MB_anc_bannu_2 # Mohan Sihota
@@ -54722,6 +54734,8 @@ c_angkor = { # Hariharalaya and Yasodharapura (Angkor), the royal county; holder
 c_prea_vihear = {
 	769.1.1 = {
 		holder = MB_anc_lingapura_1 # forefather, holds from the 769 start
+
+		liege = "k_funan" # Yusseter: k_chenla
 	}
 	797.1.1 = {
 		holder = MB_anc_lingapura_2 # Veasna
@@ -63443,6 +63457,9 @@ c_panduranga = {
 		holder = SEAsiaMB361 # Po Patarsuar
 	}
 	1325.1.1 = { 	}
+	1328.1.1 = {
+		holder = SEAsiaMB361M # Po Binnasuar
+	}
 }
 c_baigaur = {
 	760.1.1 = {  holder = SEAsiaMB343	}
@@ -78080,6 +78097,9 @@ c_SUM_riak_nan_berbedur = {
 	}
 	768.3.22 = {
 		holder = MB_inderapura_2 # Purnawarman
+	}
+	769.1.1 = {
+		liege = "e_srivijaya"
 	}
 	795.11.17 = {
 		holder = MB_inderapura_3 # Wijayatunggawarman

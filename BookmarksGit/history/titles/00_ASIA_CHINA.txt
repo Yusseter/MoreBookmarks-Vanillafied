@@ -11649,7 +11649,9 @@ c_xinzhou = {
 	#Tang
 	674.1.1 = { holder = 1803836 } #Tang Jiahui - prefect until 676
 	#
-	755.12.20 = { holder = longxi_li_0625 }
+	755.12.20 = { holder = longxi_li_0625
+		liege = d_hedong # Yusseter: d_hedong_china
+	}
 	788.8.6 = {
 		holder = 1409561 # Xingli
 	}
@@ -24074,7 +24076,9 @@ c_xiuzhou = {
 	747.1.1 = { holder = dongping_bi_013 } #Bi Kang - made prefect
 	#
 	762.1.1 = { holder = 1800594 } #Li Dan - made prefect
-	763.1.1 = { holder = longxi_li_0727 } #Li Hu - prefect around this time
+	763.1.1 = { holder = longxi_li_0727
+		liege = d_jiangdong # Yusseter: d_zhenhai_china
+	} #Li Hu - prefect around this time
 	#
 	782.1.1 = {  } #Wang Gou - prefect around this time
 	785.1.1 = { holder = 1407955 } #Sun Cheng - prefect until 788.9.4
@@ -32458,7 +32462,7 @@ c_dizhou = {
 c_dezhou = {
 	766.1.1 = { change_development_level = 10 }
 	801.1.1 = {
-		liege = d_cangjing # Yusseter: d_henghai_china
+		liege = d_weibo # Yusseter: d_weibo_china
 		holder = 1401366
 	}
 	912.3.9 = {
@@ -35409,7 +35413,9 @@ c_shaozhou = {
 	#
 	685.1.1 = { holder = 1803917 } #Tang Zhengxin - prefect at some point
 	#
-	769.1.1 = { holder = 1800656 }
+	769.1.1 = { holder = 1800656
+		liege = d_jingnan # Yusseter: d_jingnan_china
+	}
 	865.1.1 = { holder = 1407494 liege = d_hunan } #Li Zhang
 	867.4.2 = { holder = 1405062 } #Yang Yan - made prefect
 	870.1.1 = { holder = 1416262 } #Yu Gui
@@ -51398,6 +51404,8 @@ c_xiongzhou = {
 	766.1.1 = { change_development_level = 8}
 	769.1.1 = {
 		holder = MB_anc_gaolan_china_1 # forefather, holds from the 769 start
+
+		liege = "d_shuofang" # Yusseter: d_shuofang_china
 	}
 	797.1.1 = {
 		holder = MB_anc_gaolan_china_2 # Sigong
@@ -55167,27 +55175,31 @@ c_nanzhou = {
 	766.1.1 = { change_development_level = 4 }
 	769.1.1 = {
 		holder = MB_anc_rongyi_china_1 # forefather, holds from the 769 start
+
+		liege = "d_bozhou_qian_china"
 	}
 	797.1.1 = {
 		holder = MB_anc_rongyi_china_2 # Bushe name
 	}
 	850.1.1 = {
 		holder = MB_anc_rongyi_china_3
-		holder = MB_anc_rongyi_china_3
-		holder = MB_anc_rongyi_china_3
-		holder = MB_anc_rongyi_china_3
-		holder = MB_anc_rongyi_china_3
+
+
+
+
+
+		liege = d_bozhou_qian_china
 	}
 	905.1.1 = {
 		holder = MB_anc_rongyi_china_4
-		holder = MB_anc_rongyi_china_4
-		holder = MB_anc_rongyi_china_4
-		holder = MB_anc_rongyi_china_4
-		holder = MB_anc_rongyi_china_4
+
+
+
+
 	}
 	1032.1.1 = { change_development_level = 8 }
 	857.1.1 = {
-		liege = 0 # Yusseter: d_bozhou_qian_china
+
 	}
 	#876.9.1 = {	holder = Bozhou_Yang_001 }
 	#915.1.1 = {	holder = Bozhou_Yang_002 government = feudal_government }
@@ -55687,14 +55699,26 @@ c_shaoqing = {
 	860.8.13 = {
 		holder = YiTribesJilu6
 	}
+	867.1.1 = {
+		holder = zangke003 # Shy Ji Bole
+	}
 	891.4.20 = {
-		holder = YiTribesJilu7
+
+	}
+	900.1.1 = {
+		holder = YiTribesJilu7 # Shy Ji Jìlù
 	}
 	922.1.9 = {
 		holder = YiTribesJilu8
 	}
+	930.1.1 = {
+		holder = zangke0136 # Jo Sse
+	}
 	953.7.14 = {
-		holder = YiTribesJilu9
+
+	}
+	960.1.1 = {
+		holder = YiTribesJilu9 # Jo Nuo Jìlù
 	}
 	983.3.28 = {
 		holder = YiTribesJilu10
@@ -56100,6 +56124,8 @@ c_sizhou = {
 	}
 	822.1.1 = {
 		holder = zangke0117
+
+		liege = d_bozhou_qian_china
 	}
 	870.1.1 = {
 		holder = zangke0118

@@ -19,285 +19,474 @@ d_tenno = { # Emperors of Japan (Including Legendary Emperors) - This is the rel
 		holder = 10041110 # Emperor Kosyo
 	}
 	119.8.9={
-		holder = 10041113 # Emperor Koan
+
+
+		holder_ignore_head_of_faith_requirement = 10041113 # Emperor Koan
 	}
 	149.5.4={
-		holder = 10041115 # Emperor Korei
+
+
+		holder_ignore_head_of_faith_requirement = 10041115 # Emperor Korei
 	}
 	185.12.30={
-		holder = 10041119 # Emperor Kogen
+
+
+		holder_ignore_head_of_faith_requirement = 10041119 # Emperor Kogen
 	}
 	203.9.14={
-		holder = 10041124 # Emperor Kaika
+
+
+		holder_ignore_head_of_faith_requirement = 10041124 # Emperor Kaika
 	}
 	235.2.19={
-		holder = 10041127 # Emperor Sujin
+
+
+		holder_ignore_head_of_faith_requirement = 10041127 # Emperor Sujin
 	}
 	258.9.9={
-		holder = 10041134 # Emperor Suinin
+
+
+		holder_ignore_head_of_faith_requirement = 10041134 # Emperor Suinin
 	}
 	292.5.30={
-		holder = 10041147 # Emperor Keiko
+
+
+		holder_ignore_head_of_faith_requirement = 10041147 # Emperor Keiko
 	}
 	330.12.18={
-		holder = 10041162 # Emperor Seimu
+
+
+		holder_ignore_head_of_faith_requirement = 10041162 # Emperor Seimu
 	}
 	340.6.28={
-		holder = 10041166 # Emperor Chuai
+
+
+		holder_ignore_head_of_faith_requirement = 10041166 # Emperor Chuai
 	}
 	344.2.5={
 		holder = 10041174 # Emperor Ojin
 	}
 	388.5.4={
-		holder = 10041180 # Emperor Nintoku
+
+
+		holder_ignore_head_of_faith_requirement = 10041180 # Emperor Nintoku
 	}
 	430.3.1={
-		holder = 10041185 # Emperor Richu
+
+
+		holder_ignore_head_of_faith_requirement = 10041185 # Emperor Richu
 	}
 	435.3.23={
-		holder = 10041187 # Emperor Hanzei
+
+
+		holder_ignore_head_of_faith_requirement = 10041187 # Emperor Hanzei
 	}
 	440.3.7={
-		holder = 10041188 # Emperor Ingyo
+
+
+		holder_ignore_head_of_faith_requirement = 10041188 # Emperor Ingyo
 	}
 	459.1.23={
-		holder = 10041200 # Emperor Anko
+
+
+		holder_ignore_head_of_faith_requirement = 10041200 # Emperor Anko
 	}
 	463.8.19={
-		holder = 10041201 # Emperor Yuryaku
+
+
+		holder_ignore_head_of_faith_requirement = 10041201 # Emperor Yuryaku
 	}
 	489.9.15={
-		holder = 10041203 # Emperor Seinei
+
+
+		holder_ignore_head_of_faith_requirement = 10041203 # Emperor Seinei
 	}
 	491.1.21={
-		holder = 10041210 # Emperor Kenzo
+
+
+		holder_ignore_head_of_faith_requirement = 10041210 # Emperor Kenzo
 	}
 	499.5.30={
-		holder = 10041209 # Emperor Ninken
+
+
+		holder_ignore_head_of_faith_requirement = 10041209 # Emperor Ninken
 	}
 	508.9.16={
-		holder = 10041213 # Emperor Buretsu
+
+
+		holder_ignore_head_of_faith_requirement = 10041213 # Emperor Buretsu
 	}
 	517.1.14={
-		holder = japanese_yamato_192 # Emperor Keitai
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_192 # Emperor Keitai
 	}
 	531.3.10={
-		holder = japanese_yamato_193 # Emperor Ankan
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_193 # Emperor Ankan
 	}
 	535.12.17={
-		holder = japanese_yamato_194 # Emperor Senka
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_194 # Emperor Senka
 	}
 	539.3.15={
-		holder = japanese_yamato_1 # Emperor Kinmei
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_1 # Emperor Kinmei
 	}
 	571.4.30={
-		holder = japanese_yamato_3 # Emperor Bidatsu
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_3 # Emperor Bidatsu
 	}
 	585.9.5={
-		holder = japanese_yamato_4 # Emperor Yomei
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_4 # Emperor Yomei
 	}
 	587.4.9={
-		holder = japanese_yamato_2 # Emperor Sushun
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_2 # Emperor Sushun
 	}
 	592.12.12={
-		holder = japanese_yamato_5 # Empress Suiko
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_5 # Empress Suiko
 	}
 	628.4.15={
-		holder = japanese_yamato_7 # Emperor Jomei
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_7 # Emperor Jomei
 	}
 	641.11.17={
-		holder = japanese_yamato_11 # Empress Kogyoku/Saimei
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_11 # Empress Kogyoku/Saimei
 	}
 	645.7.12={
-		holder = japanese_yamato_12 # Emperor Kotoku
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_12 # Emperor Kotoku
 	}
 	654.11.24={
-		holder = japanese_yamato_11 # Empress Kogyoku/Saimei
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_11 # Empress Kogyoku/Saimei
 	}
 	661.8.24={
-		holder = japanese_yamato_8 # Emperor Tenchi
+
 		liege = e_japan
 		government = japan_administrative_government
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_8 # Emperor Tenchi
 	}
 	672.1.9={
-		holder = japanese_yamato_14 # Emperor Kobun
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_14 # Emperor Kobun
 	}
 	672.8.21={
-		holder = japanese_yamato_9 # Emperor Tenmu
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_9 # Emperor Tenmu
 	}
 	686.10.1={
-		holder = japanese_yamato_15 # Empress Jito
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_15 # Empress Jito
 	}
 	697.8.22={
-		holder = japanese_yamato_17 # Emperor Monmu
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_17 # Emperor Monmu
 	}
 	707.7.18={
-		holder = japanese_yamato_18 # Empress Genmei
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_18 # Empress Genmei
 	}
 	715.10.3={
-		holder = japanese_yamato_19 # Empress Gensho
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_19 # Empress Gensho
 	}
 	721.12.29={
-		holder = japanese_yamato_20 # Emperor Shomu
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_20 # Emperor Shomu
 	}
 	749.8.19={
-		holder = japanese_yamato_21 # Empress Koken/Shotoku
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_21 # Empress Koken/Shotoku
 	}
 	758.9.7={
-		holder = japanese_yamato_180 # Emperor Junnin
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_180 # Emperor Junnin
 	}
 	764.11.6={
-		holder = japanese_yamato_21 # Empress Koken/Shotoku
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_21 # Empress Koken/Shotoku
 	}
 	770.8.28={
-		holder = japanese_yamato_23 # Emperor Konin
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_23 # Emperor Konin
 	}
 	781.4.30={
-		holder = japanese_yamato_24 # Emperor Kanmu
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_24 # Emperor Kanmu
 	}
 	806.4.9={
-		holder = japanese_yamato_25 # Emperor Heizei
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_25 # Emperor Heizei
 	}
 	809.5.8={
-		holder = japanese_yamato_26 # Emperor Saga
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_26 # Emperor Saga
 	}
 	823.6.9={
-		holder = japanese_yamato_27 # Emperor Junna
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_27 # Emperor Junna
 	}
 	833.3.30={
-		holder = japanese_yamato_28 # Emperor Ninmyo
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_28 # Emperor Ninmyo
 	}
 	850.5.6={
-		holder = japanese_yamato_29 # Emperor Montoku
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_29 # Emperor Montoku
 	}
 	858.10.7={
-		holder = japanese_yamato_30 # Emperor Seiwa
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_30 # Emperor Seiwa
 	}
 	876.12.18={
-		holder = japanese_yamato_31 # Emperor Yozei
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_31 # Emperor Yozei
 	}
 	884.3.23={
-		holder = japanese_yamato_32 # Emperor Koko
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_32 # Emperor Koko
 	}
 	887.9.17={
-		holder = japanese_yamato_33 # Emperor Uda
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_33 # Emperor Uda
 	}
 	897.8.14={
-		holder = japanese_yamato_34 # Emperor Daigo
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_34 # Emperor Daigo
+	}
+	930.10.23 = {
+		holder_ignore_head_of_faith_requirement = japanese_yamato_35 # Emperor Suzaku
 	}
 	930.12.14={
-		holder = japanese_yamato_35 # Emperor Suzaku
+
 	}
 	946.5.31={
-		holder = japanese_yamato_36 # Emperor Murakami
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_36 # Emperor Murakami
 	}
 	967.7.5={
-		holder = japanese_yamato_37 # Emperor Reizei
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_37 # Emperor Reizei
 	}
 	969.11.5={
-		holder = japanese_yamato_38 # Emperor Enyu
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_38 # Emperor Enyu
 	}
 	984.11.5={
-		holder = japanese_yamato_39 # Emperor Kazan
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_39 # Emperor Kazan
 	}
 	986.7.31={
-		holder = japanese_yamato_40 # Emperor Ichijo
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_40 # Emperor Ichijo
 	}
 	1011.7.16={
-		holder = japanese_yamato_41 # Emperor Sanjo
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_41 # Emperor Sanjo
 	}
 	1016.3.24={
-		holder = japanese_yamato_42 # Emperor Go-Ichijo
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_42 # Emperor Go-Ichijo
+	}
+	1036.1.1 = {
+		holder_ignore_head_of_faith_requirement = japanese_yamato_43 # Emperor Go-Suzaku
 	}
 	1036.5.15={
-		holder = japanese_yamato_43 # Emperor Go-Suzaku
+
 	}
 	1045.2.5={
-		holder = japanese_yamato_44 # Emperor Go-Reizei
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_44 # Emperor Go-Reizei
 	}
 	1068.5.22={
-		holder = japanese_yamato_45 # Emperor Go-Sanjo
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_45 # Emperor Go-Sanjo
 	}
 	1073.1.18={
-		holder = japanese_yamato_46 # Emperor Shirakawa
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_46 # Emperor Shirakawa
 	}
 	1086.12.16={
-		holder = japanese_yamato_47 # Emperor Horikawa
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_47 # Emperor Horikawa
 	}
 	1107.8.9={
-		holder = japanese_yamato_48 # Emperor Toba
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_48 # Emperor Toba
 	}
 	1123.2.19={
-		holder = japanese_yamato_49 # Emperor Sutoku
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_49 # Emperor Sutoku
 	}
 	1142.1.5={
-		holder = japanese_yamato_50 # Emperor Konoe
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_50 # Emperor Konoe
+	}
+	1155.8.22 = {
+		holder_ignore_head_of_faith_requirement = japanese_yamato_51 # Emperor Go-Shirakawa
 	}
 	1155.8.23={
-		holder = japanese_yamato_51 # Emperor Go-Shirakawa
+
 	}
 	1158.9.5={
-		holder = japanese_yamato_52 # Emperor Nijo
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_52 # Emperor Nijo
 	}
 	1165.8.3={
-		holder = japanese_yamato_53 # Emperor Rokujo
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_53 # Emperor Rokujo
 	}
 	1168.3.30={
-		holder = japanese_yamato_54 # Emperor Takakura
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_54 # Emperor Takakura
 	}
 	1180.5.18={
-		holder = japanese_yamato_56 # Emperor Antoku
+
+
+		holder_ignore_head_of_faith_requirement = japanese_yamato_56 # Emperor Antoku
 	}
 	1183.8.17={ # Taira's escape to the west
-		holder = 10041060 # Emperor Go-Toba
+
+
+		holder_ignore_head_of_faith_requirement = 10041060 # Emperor Go-Toba
 	}
 	1198.2.18={
-		holder = 10041061 # Emperor Tsuchimikado
+
+
+		holder_ignore_head_of_faith_requirement = 10041061 # Emperor Tsuchimikado
 	}
 	1210.12.12={
-		holder = 10041062 # Emperor Juntoku
+
+
+		holder_ignore_head_of_faith_requirement = 10041062 # Emperor Juntoku
 	}
 	1221.5.13={
-		holder = 10041063 # Emperor Chukyo
+
+
+		holder_ignore_head_of_faith_requirement = 10041063 # Emperor Chukyo
 	}
 	1221.7.29={
-		holder = 10041065 # Emperor Go-Horikawa
+
+
+		holder_ignore_head_of_faith_requirement = 10041065 # Emperor Go-Horikawa
 	}
 	1232.11.17={
-		holder = 10041066 # Emperor Shijo
+
+
+		holder_ignore_head_of_faith_requirement = 10041066 # Emperor Shijo
+	}
+	1242.2.10 = {
+		holder_ignore_head_of_faith_requirement = 10041067 # Emperor Go-Saga
 	}
 	1242.2.21={
-		holder = 10041067 # Emperor Go-Saga
+
 	}
 	1246.2.16={
-		holder = 10041068 # Emperor Go-Fukakusa
+
+
+		holder_ignore_head_of_faith_requirement = 10041068 # Emperor Go-Fukakusa
 	}
 	1260.1.9={
-		holder = 10041069 # Emperor Kameyama
+
+
+		holder_ignore_head_of_faith_requirement = 10041069 # Emperor Kameyama
 	}
 	1274.3.6={
-		holder = 10041070 # Emperor Go-Uda
+
+
+		holder_ignore_head_of_faith_requirement = 10041070 # Emperor Go-Uda
 	}
 	1287.11.27={
-		holder = 10041071 # Emperor Fushimi
+
+
+		holder_ignore_head_of_faith_requirement = 10041071 # Emperor Fushimi
 	}
 	1298.8.30={
-		holder = 10041072 # Emperor Go-Fushimi
+
+
+		holder_ignore_head_of_faith_requirement = 10041072 # Emperor Go-Fushimi
 	}
 	1301.3.2={
-		holder = 10041073 # Emperor Go-Nijo
+
+
+		holder_ignore_head_of_faith_requirement = 10041073 # Emperor Go-Nijo
+	}
+	1308.9.10 = {
+		holder_ignore_head_of_faith_requirement = 10041074 # Emperor Hanazono
 	}
 	1308.12.28={
-		holder = 10041074 # Emperor Hanazono
+
 	}
 	1318.4.30={
-		holder = 10041075 # Emperor Go-Daigo
+
+
+		holder_ignore_head_of_faith_requirement = 10041075 # Emperor Go-Daigo
 	}
 	1331.10.22={
-		holder = 10041076 # Emperor Kogon
+
+
+		holder_ignore_head_of_faith_requirement = 10041076 # Emperor Kogon
 	}
 	1336.9.20={
-		holder = 10041080 # Emperor Komyo
+
+
+		holder_ignore_head_of_faith_requirement = 10041080 # Emperor Komyo
 	}
 	1348.11.18={
 		holder = 10041081 # Emperor Suko
@@ -519,8 +708,11 @@ k_chrysanthemum_throne = { # Emperors of Japan (Including Legendary Emperors)
 	897.8.14={
 		holder = japanese_yamato_34 # Emperor Daigo
 	}
-	930.12.14={
+	930.10.23 = {
 		holder = japanese_yamato_35 # Emperor Suzaku
+	}
+	930.12.14={
+
 	}
 	946.5.31={
 		holder = japanese_yamato_36 # Emperor Murakami
@@ -543,8 +735,11 @@ k_chrysanthemum_throne = { # Emperors of Japan (Including Legendary Emperors)
 	1016.3.24={
 		holder = japanese_yamato_42 # Emperor Go-Ichijo
 	}
-	1036.5.15={
+	1036.1.1 = {
 		holder = japanese_yamato_43 # Emperor Go-Suzaku
+	}
+	1036.5.15={
+
 	}
 	1045.2.5={
 		holder = japanese_yamato_44 # Emperor Go-Reizei
@@ -567,8 +762,11 @@ k_chrysanthemum_throne = { # Emperors of Japan (Including Legendary Emperors)
 	1142.1.5={
 		holder = japanese_yamato_50 # Emperor Konoe
 	}
-	1155.8.23={
+	1155.8.22 = {
 		holder = japanese_yamato_51 # Emperor Go-Shirakawa
+	}
+	1155.8.23={
+
 	}
 	1158.9.5={
 		holder = japanese_yamato_52 # Emperor Nijo
@@ -600,8 +798,11 @@ k_chrysanthemum_throne = { # Emperors of Japan (Including Legendary Emperors)
 	1232.11.17={
 		holder = 10041066 # Emperor Shijo
 	}
-	1242.2.21={
+	1242.2.10 = {
 		holder = 10041067 # Emperor Go-Saga
+	}
+	1242.2.21={
+
 	}
 	1246.2.16={
 		holder = 10041068 # Emperor Go-Fukakusa
@@ -621,8 +822,11 @@ k_chrysanthemum_throne = { # Emperors of Japan (Including Legendary Emperors)
 	1301.3.2={
 		holder = 10041073 # Emperor Go-Nijo
 	}
-	1308.12.28={
+	1308.9.10 = {
 		holder = 10041074 # Emperor Hanazono
+	}
+	1308.12.28={
+
 	}
 	1318.4.30={
 		holder = 10041075 # Emperor Go-Daigo
@@ -943,10 +1147,10 @@ e_japan = {
 		holder = japanese_fujiwara_80 # Fujiwara Authority Restored
 	}
 	970.6.24 = {
-		holder = 11000079
+		holder = japanese_fujiwara_36 # Fujiwara Koretada
 	}
 	972.12.9 = {
-		holder = 11000080
+		holder = japanese_fujiwara_37 # Mido Kanemichi
 	}
 	977.12.20 = {
 		holder = japanese_fujiwara_84
@@ -1283,8 +1487,11 @@ c_yamashiro = {
 	897.8.14={
 		holder = japanese_yamato_34 # Emperor Daigo
 	}
-	930.12.14={
+	930.10.23 = {
 		holder = japanese_yamato_35 # Emperor Suzaku
+	}
+	930.12.14={
+
 	}
 	946.5.31={
 		holder = japanese_yamato_36 # Emperor Murakami
@@ -1307,8 +1514,11 @@ c_yamashiro = {
 	1016.3.24={
 		holder = japanese_yamato_42 # Emperor Go-Ichijo
 	}
-	1036.5.15={
+	1036.1.1 = {
 		holder = japanese_yamato_43 # Emperor Go-Suzaku
+	}
+	1036.5.15={
+
 	}
 	1045.2.5={
 		holder = japanese_yamato_44 # Emperor Go-Reizei
@@ -1331,8 +1541,11 @@ c_yamashiro = {
 	1142.1.5={
 		holder = japanese_yamato_50 # Emperor Konoe
 	}
-	1155.8.23={
+	1155.8.22 = {
 		holder = japanese_yamato_51 # Emperor Go-Shirakawa
+	}
+	1155.8.23={
+
 	}
 	1158.9.5={
 		holder = japanese_yamato_52 # Emperor Nijo
@@ -1364,8 +1577,11 @@ c_yamashiro = {
 	1232.11.17={
 		holder = 10041066 # Emperor Shijo
 	}
-	1242.2.21={
+	1242.2.10 = {
 		holder = 10041067 # Emperor Go-Saga
+	}
+	1242.2.21={
+
 	}
 	1246.2.16={
 		holder = 10041068 # Emperor Go-Fukakusa
@@ -1385,8 +1601,11 @@ c_yamashiro = {
 	1301.3.2={
 		holder = 10041073 # Emperor Go-Nijo
 	}
-	1308.12.28={
+	1308.9.10 = {
 		holder = 10041074 # Emperor Hanazono
+	}
+	1308.12.28={
+
 	}
 	1318.4.30={
 		holder = 10041075 # Emperor Go-Daigo
@@ -1613,10 +1832,10 @@ c_yamato = {
 		holder = japanese_fujiwara_80 # Fujiwara Authority Restored
 	}
 	970.6.24 = {
-		holder = 11000079
+		holder = japanese_fujiwara_36 # Fujiwara Koretada
 	}
 	972.1.1 = {
-		holder = 11000080
+		holder = japanese_fujiwara_37 # Mido Kanemichi
 	}
 	977.12.20 = {
 		holder = japanese_fujiwara_84
@@ -1678,8 +1897,11 @@ c_yamato = {
 	1275.7.3={
 		holder=11000641
 	}
+	1332.12.24 = {
+		holder = 10041901 # Prince Moriyoshi
+	}
 	1333.9.25={
-		holder=10041901 # Prince Moriyoshi
+
 	}
 	1334.11.19={
 		holder=10041075 # Emperor Go-Daigo
@@ -1702,7 +1924,7 @@ c_settsu = {
 
 
 	769.1.1={
-		holder=japanese_yamato_399
+		holder = 10243001 # Yamato Isobe
 	}
 	867.1.1={
 		holder=10041613
@@ -1796,9 +2018,13 @@ c_kawachi = {
 	964.1.1={
 		holder=10130636
 	}
-	1000.1.1={
-		holder=japanese_minamoto_seiwa_4
+	996.1.1 = {
+		holder = japanese_minamoto_seiwa_4 # Minamoto Yorinobu
 		government = japan_feudal_government
+	}
+	1000.1.1={
+
+
 	}
 	1020.1.1={ # 1031.4.26 in history
 	    holder=12532000 # Fujiwara Kinnori {Kawachi no Kami}
@@ -1824,8 +2050,11 @@ c_kawachi = {
 	1167.4.20={ # 1167.4.21 in history
 	    holder=japanese_minamoto_seiwa_345 # Fujiwara Mitsunori {Kawachi no Kami}
 	}
+	1181.1.1 = {
+		holder = 10120072 # Minamoto Yukiie
+	}
 	1183.8.16={ # 1183.8.17 in history
-		holder=10120072 # Minamoto Yukiie
+
 	}
 	1186.1.1={
 		holder=10130461 # Fujiwara Hidemune
@@ -1863,8 +2092,11 @@ c_kawachi = {
 	1315.8.11={
 		holder=10131921 # Hojo Tokiatsu
 	}
+	1320.5.24 = {
+		holder = 10132047 # Hojo [Tokiwa] Norisada
+	}
 	1320.7.8={
-		holder=10132047 # Hojo [Tokiwa] Norisada
+
 	}
 	1331.2.4={
 		holder=10132207 # Hojo [Fuonji] Nakatoki
@@ -1974,16 +2206,22 @@ c_omi = {
 	}
 
 	769.1.1={
-		holder=japanese_yamato_399
+		holder = 10243001 # Yamato Isobe
 	}
 	867.1.1={
 		holder=japanese_sugawara_3
 	}
+	880.10.11 = {
+		holder = japanese_fujiwara_177 # Fujiwara Tadafumi
+	}
 	916.6.10={
-		holder=11009825
+
+	}
+	947.7.16 = {
+		holder = 10210641 # Sugawara Sukemasa
 	}
 	961.12.25={
-		holder=10210641
+
 	}
 	997.10.6={
 		holder=japanese_minamoto_seiwa_22
@@ -2025,8 +2263,11 @@ c_omi = {
 	1242.4.7={ # 1242.4.7 in history
 		holder=12510083 # Kyogoku Ujinobu
 	}
+	1295.1.1 = {
+		holder = 12510090 # Kyogoku Munetsuna
+	}
 	1295.6.16={
-		holder=12510090 # Kyogoku Munetsuna
+
 	}
 	1297.9.27={
 		holder=12510100 # Sasaki [Kyogoku] Sadamune
@@ -2270,8 +2511,11 @@ c_musashi = {
 	850.1.1={
 		holder=japanese_minamoto_saga_23
 	}
+	869.2.13 = {
+		holder = japanese_ono_15 # Ono Tadanori
+	}
 	900.1.1={
-		holder=japanese_ono_15
+
 	}
 	903.1.1={
 		holder=10242131
@@ -2288,8 +2532,11 @@ c_musashi = {
 	995.1.1={
 		holder=12205003
 	}
+	1010.1.1 = {
+		holder = japanese_fujiwara_1575 # Fujiwara Hokke Kanemitsu
+	}
 	1018.3.18={
-		holder=japanese_fujiwara_1575
+
 	}
 	1037.1.1={
 		holder=11004689
@@ -2357,13 +2604,19 @@ c_kozuke = {
 		holder=japanese_fujiwara_211 # Fujiwara Washitori {Kozuke no Suke}
 	}
 	838.2.14={ # 838.2.15 in history
-		holder=10110000 # Yamato Kazuwara {Kozuke Taishu}
+		holder = japanese_yamato_164 # Yamato Kazuwara {Kozuke Taishu}
+	}
+	853.7.13 = {
+		holder = japanese_fujiwara_448 # Fujiwara Arikage {Kozuke no Suke}
 	}
 	863.3.6={ # 863.3.7 in history
-		holder=japanese_fujiwara_448 # Fujiwara Arikage {Kozuke no Suke}
+
+	}
+	885.11.12 = {
+		holder = japanese_minamoto_seiwa_1 # Yamato Sadazumi {Kozuke Taishu}
 	}
 	896.2.26={ # 896.2.27 in history
-		holder=japanese_minamoto_seiwa_1 # Yamato Sadazumi {Kozuke Taishu}
+
 	}
 	911.2.7={
 		holder=japanese_fujiwara_577 # Fujiwara Toshihito {Kozuke no Suke}
@@ -2400,12 +2653,18 @@ c_kozuke = {
 	1024.2.18={ # 1024.2.19 in history
 		holder=japanese_fujiwara_760 # Fujiwara Ienari {Kozuke no Suke}
 	}
+	1030.1.1 = {
+		holder = japanese_fujiwara_815 # Fujiwara Yoshito {Kozuke no Suke}
+	}
+	1033.1.1 = {
+		holder = japanese_fujiwara_761 # Fujiwara Akitsune
+	}
 	1043.1.1={
-		holder=japanese_fujiwara_815 # Fujiwara Yoshito {Kozuke no Suke}
+
 	}
 
 	1043.1.1={
-		holder=japanese_fujiwara_761
+
 	}
 	1063.1.1={
 		holder=japanese_fujiwara_762
@@ -2473,8 +2732,11 @@ c_shimosa = {
 	774.4.20={ # 774.4.21 in history
 		holder=japanese_fujiwara_1035 # Fujiwara Ototada {Shimousa no Kami}
 	}
+	781.7.1 = {
+		holder = japanese_fujiwara_426 # Fujiwara Matomo {Shimousa no Kami}
+	}
 	785.11.21={ # 785.11.22 in history
-		holder=japanese_fujiwara_426 # Fujiwara Matomo {Shimousa no Kami}
+
 	}
 	788.3.20={ # 788.3.21 in history
 		holder=11005037 # Fujiwara Takatoshi {Shimousa no Kami}
@@ -2482,8 +2744,11 @@ c_shimosa = {
 	795.2.28={ # 795.3.1 in history
 		holder=japanese_fujiwara_426 # Fujiwara Matomo {Shimousa no Kami}
 	}
+	797.7.23 = {
+		holder = japanese_fujiwara_526 # Fujiwara Chikanari {Shimousa no Kami}
+	}
 	828.2.4={ # 828.2.5 in history
-		holder=japanese_fujiwara_526 # Fujiwara Chikanari {Shimousa no Kami}
+
 	}
 	843.10.16={
 		holder=11004541
@@ -2501,8 +2766,11 @@ c_shimosa = {
 	936.1.1 = {
 		government = japan_feudal_government 
 	}
+	940.3.25 = {
+		holder = japanese_fujiwara_15 # Fujiwara Morosuke
+	}
 	949.9.9={
-		holder=japanese_fujiwara_15
+
 	}
 	960.5.31={
 		holder=japanese_fujiwara_48
@@ -2510,11 +2778,17 @@ c_shimosa = {
 	1029.11.25={
 		holder=11001001
 	}
+	1040.1.1 = {
+		holder = japanese_fujiwara_57 # Fujiwara Kinnari
+	}
+	1043.8.1 = {
+		holder = japanese_fujiwara_59 # Fujiwara Sanesue
+	}
 	1045.1.12={
-		holder=japanese_fujiwara_57
+
 	}
 	1043.8.3={
-		holder=japanese_fujiwara_59
+
 	}
 	1092.2.4={
 		holder=japanese_fujiwara_62
@@ -2569,8 +2843,11 @@ c_shimotsuke = {
 	765.1.1={
 		holder=japanese_fujiwara_400
 	}
+	777.1.1 = {
+		holder = japanese_fujiwara_527 # Fujiwara Akitsugu
+	}
 	784.1.1={
-		holder=japanese_fujiwara_527
+
 	}
 	805.1.1={
 		holder=japanese_fujiwara_18
@@ -2637,7 +2914,7 @@ c_hitachi = {
 	#1066.1.1 = { change_development_level = 12 }
 
 	719.8.3={ # 719.8.4 in history
-		holder=11000010 # Fujiwara Umakai {Hitachi no Suke}
+		holder = japanese_fujiwara_167 # Fujiwara Umakai {Hitachi no Suke}
 	}
 	719.8.3={ # adjusted
 		liege="e_japan"
@@ -2646,10 +2923,10 @@ c_hitachi = {
 		holder=japanese_fujiwara_266 # Fujiwara Kiyokawa {Hitachi no Suke}
 	}
 	814.7.24={ # 814.7.25 in history
-		holder=11000029 # Fujiwara Futakimaro {Hitachi no Suke}
+		holder = japanese_fujiwara_529 # Fujiwara Futakimaro {Hitachi no Suke}
 	}
 	830.1.31={ # 830.2.1 in history
-		holder=10110000 # Yamato Kazuwara {Hitachi Taishu}
+		holder = japanese_yamato_164 # Yamato Kazuwara {Hitachi Taishu}
 	}
 	841.5.3={
 		holder=11004531 # Fujiwara Haruoka {Hitachi no Suke}
@@ -2677,12 +2954,19 @@ c_hitachi = {
 		holder=11005357
 	}
 
-	950.1.1={ # 940.1.8 in history
-		holder=japanese_fujiwara_451 # Fujiwara Korechiyo {Hitachi no Suke}
+	940.1.8 = {
+		holder = japanese_fujiwara_451 # Fujiwara Korechiyo {Hitachi no Suke}
 		government = japan_feudal_government
 	}
+	943.1.1 = {
+		holder = japanese_taira_kanmu_16 # Taira Sadamori
+	}
+	950.1.1={ # 940.1.8 in history
+
+
+	}
 	982.4.5={ # 982.4.6 in history
-		holder=japanese_taira_kanmu_16 # Minamoto Mitsunaka {Hitachi no Suke}
+
 	}
 	989.11.16={ # 1020.10.14 in history
 		holder=japanese_taira_kanmu_21 # Taira Korehira {Hitachi no Suke}
@@ -2976,14 +3260,17 @@ c_mino = {
 	867.1.1={
 		holder=japanese_fujiwara_78
 	}
+	915.1.1 = {
+		holder = japanese_fujiwara_296 # Hokke-ke Motona
+	}
 	915.7.7={
-		holder=japanese_fujiwara_296
+
 	}
 	965.5.21={
 		holder=japanese_fujiwara_313
 	}
 	996.4.18={
-		holder=11007153
+		holder = japanese_fujiwara_962 # Fujiwara Tametoki
 	}
 	1002.1.1={
 		holder=japanese_fujiwara_970
@@ -3059,11 +3346,17 @@ c_hida = {
 	970.1.1={
 		holder=10220092
 	}
+	1012.8.6 = {
+		holder = 10220093 # Oe Takachika
+	}
 	1012.9.6={
-		holder=10220093
+
+	}
+	1046.6.1 = {
+		holder = 10220097 # Oe Shigehira
 	}
 	1046.6.6={
-		holder=10220097
+
 	}
 	1069.2.26={
 		holder=10220098
@@ -3081,8 +3374,11 @@ c_hida = {
 	1203.9.20={
 		holder=10220006
 	}
+	1215.1.1 = {
+		holder = japanese_oe_26 # Oe Hiromoto
+	}
 	1215.2.10={
-		holder=japanese_oe_26
+
 	}
 
 	1225.7.16={
@@ -3100,11 +3396,17 @@ c_hida = {
 	1293.1.1={
 		holder=10132156 # Hojo Morotoki
 	}
+	1311.9.22 = {
+		holder = 10131949 # Hojo [Osaragi] Munenobu
+	}
 	1311.11.13={
-		holder=10131949 # Hojo [Osaragi] Munenobu
+
+	}
+	1312.6.12 = {
+		holder = 10132071 # Hojo Hirotoki
 	}
 	1312.7.6={
-		holder=10132071 # Hojo Hirotoki
+
 	}
 	1315.8.11={
 		holder=10132050 # Hojo [Fuonji] Mototoki
@@ -3723,8 +4025,11 @@ c_izu = {
 	1310.1.3={
 		holder=10132114 # Hojo [Osaragi] Koresada
 	}
+	1327.9.22 = {
+		holder = 10132083 # Hojo Tokimasu
+	}
 	1327.9.27={
-		holder=10132083 # Hojo Tokimasu
+
 	}
 	1333.6.21={
 		holder=12396020 # Nikki Yoriaki
@@ -3783,14 +4088,20 @@ c_echizen = {
 	781.6.6={ # 781.6.7 in history
 		holder=japanese_fujiwara_210 # Fujiwara Takatori {Echizen no Kami}
 	}
+	784.6.2 = {
+		holder = japanese_fujiwara_20 # Fujiwara Uchimaro {Echizen no Kami}
+	}
 	786.3.2={ # 786.3.3 in history
-		holder=japanese_fujiwara_20 # Fujiwara Uchimaro {Echizen no Kami}
+
 	}
 	797.3.14={ # 797.3.15 in history
 		holder=11005037 # Fujiwara Takatoshi {Echizen no Kami}
 	}
+	808.6.30 = {
+		holder = japanese_fujiwara_522 # Fujiwara Nagaoka {Echizen no Kami}
+	}
 	835.1.1={
-		holder=japanese_fujiwara_522 # Fujiwara Nagaoka {Echizen no Kami}
+
 	}
 	849.3.4={ # 849.2.13 in history
 		holder=japanese_fujiwara_217 # Fujiwara Takafusa {Echizen no Kami}
@@ -3819,11 +4130,17 @@ c_echizen = {
 	1016.1.1={ # 1028.8.4 in history
 		holder=japanese_fujiwara_259 # Fujiwara Tamemori {Echizen no Kami}
 	}
+	1029.1.1 = {
+		holder = japanese_fujiwara_1507 # Fujiwara Sadanari {Echizen no Kami}
+	}
 	1058.12.1={ # 1058.12.2 in history
-		holder=japanese_fujiwara_1507 # Fujiwara Sadanari {Echizen no Kami}
+
+	}
+	1078.1.1 = {
+		holder = 11003052 # Fujiwara Yukikane
 	}
 	1087.1.1={
-		holder=11003052
+
 	}
 	1110.1.1={ # 1120.12.24 in history
 		holder=11003053 # Taira Tadamori {Echizen no Kami}
@@ -3844,8 +4161,11 @@ c_echizen = {
 	1161.2.3={
 		holder=japanese_taira_kanmu_66 # Taira Motomori {Echizen no Kami}
 	}
+	1162.5.2 = {
+		holder = japanese_taira_kanmu_150 # Taira Yasumori {Echizen no Kami}
+	}
 	1163.3.6={ # 1163.3.7 in history
-		holder=japanese_taira_kanmu_150 # Taira Yasumori {Echizen no Kami}
+
 	}
 	1167.1.29={
 		holder=japanese_taira_kanmu_44 # Taira Sukemori {Echizen no Kami}
@@ -4035,8 +4355,11 @@ c_kaga = {
 	856.8.6={
 		holder=japanese_fujiwara_73
 	}
+	908.1.1 = {
+		holder = japanese_fujiwara_289 # Hokke-ke Shigemoto
+	}
 	908.7.28={
-		holder=japanese_fujiwara_289
+
 	}
 	931.1.1={
 		holder=japanese_fujiwara_290
@@ -4053,11 +4376,17 @@ c_kaga = {
 	1039.6.1={ # 1031.4.8 in history
 		holder=japanese_fujiwara_1215 # Fujiwara Moronari {Kaga no Kami}
 	}
+	1081.10.5 = {
+		holder = japanese_fujiwara_740 # Fujiwara Tamefusa {Kaga no Kami}
+	}
 	1090.7.9={ # 1090.7.10 in history
-		holder=japanese_fujiwara_740 # Fujiwara Tamefusa {Kaga no Kami}
+
+	}
+	1115.4.27 = {
+		holder = japanese_fujiwara_691 # Fujiwara Saneyoshi {Kaga no Kami}
 	}
 	1119.2.16={ # 1119.2.17 in history
-		holder=japanese_fujiwara_691 # Fujiwara Saneyoshi {Kaga no Kami}
+
 	}
 	1121.5.6={
 		holder=japanese_fujiwara_639 # Fujiwara Suenari {Kaga no Kami}
@@ -4156,7 +4485,7 @@ c_noto = {
 
 
 	1130.2.15={ # 1130.2.16 in history
-		holder=11006012 # Fujiwara Akinaga {Etchu no Kami}
+		holder = japanese_fujiwara_926 # Fujiwara Akinaga {Etchu no Kami}
 	}
 	1154.2.20={
 		holder=11006310 # Fujiwara Takanori {Etchu no Kami}
@@ -4196,7 +4525,7 @@ c_noto = {
 		holder=japanese_fujiwara_601 # Shijo Takafusa
 	}
 	1197.1.1={
-		holder=11007613 # Shijo Takayasu
+		holder = 11007614 # Shijo Takayasu
 	}
 	1200.2.6={
 		liege="e_japan"
@@ -4302,7 +4631,7 @@ c_etchu = {
 
 
 	1130.2.15={ # 1130.2.16 in history
-		holder=11006012 # Fujiwara Akinaga {Etchu no Kami}
+		holder = japanese_fujiwara_926 # Fujiwara Akinaga {Etchu no Kami}
 	}
 	1154.2.20={
 		holder=11006310 # Fujiwara Takanori {Etchu no Kami}
@@ -4540,8 +4869,11 @@ c_kai = {
 	1186.3.31={
 		holder=japanese_minamoto_seiwa_156 # Takeda Ariyoshi
 	}
+	1200.1.1 = {
+		holder = japanese_minamoto_seiwa_157 # Takeda Nobumitsu
+	}
 	1200.2.6={
-		holder=japanese_minamoto_seiwa_157 # Takeda Nobumitsu
+
 	}
 	1221.7.6={
 		holder=12425100 # Toyama Kagetomo
@@ -5291,8 +5623,11 @@ c_izumo = {
 	1050.1.1={ # 1067.9.1 in history
 		holder=japanese_fujiwara_1394 # Fujiwara no Munezane
 	}
+	1090.1.1 = {
+		holder = 11005632 # Fujiwara no Tadakiyo
+	}
 	1097.1.29={ # 1097.1.30 in history
-		holder=11005632 # Fujiwara no Tadakiyo
+
 	}
 	1104.1.1={
 		holder=11006291 # Fujiwara no Ieyasu
@@ -5393,8 +5728,11 @@ c_oki = {
 	986.10.2={ #
 		holder= japanese_fujiwara_721
 	}
+	1001.5.20 = {
+		holder = japanese_fujiwara_737 # Fujiwara Takamitsu
+	}
 	1014.5.20={ #
-		holder= japanese_fujiwara_737
+
 	}
 	1043.1.1={ #
 		holder= japanese_fujiwara_738
@@ -5478,7 +5816,7 @@ c_harima = {
 	}
 
 	769.1.1={
-		holder=japanese_yamato_399
+		holder = 10243001 # Yamato Isobe
 	}
 	867.1.1={
 		holder=10041613
@@ -5508,8 +5846,11 @@ c_harima = {
 	1153.10.15={
 		holder=japanese_minamoto_seiwa_97
 	}
+	1170.1.1 = {
+		holder = 12630100 # Akamatsu Norikage
+	}
 	1170.4.25={
-		holder=12630100
+
 	}
 	1185.1.1={
 		government = japan_feudal_government
@@ -5546,21 +5887,33 @@ c_bizen = {
 	759.11.28={
 		holder=japanese_fujiwara_1036	# Fujiwara no Tadamaro
 	}
+	780.1.24 = {
+		holder = japanese_fujiwara_19 # Fujiwara no Fuyutsugu
+	}
 	810.2.17={ # 810.2.18 in history
-		holder=japanese_fujiwara_19	# Fujiwara no Fuyutsugu
+
+	}
+	826.8.30 = {
+		holder = 10242037 # Ono no Chikabu
 	}
 	839.10.16={ # 839.10.17 in history
-		holder=10242037	# Ono no Chikabu
+
 	}
 	848.3.21={ # 848.3.22 in history
 		holder=japanese_harusumi_1	# Harusumi no Yoshitada
 	}
+	870.3.24 = {
+		holder = japanese_fujiwara_1044 # Fujiwara no Yasunori
+	}
 	871.02.22={
-		holder=11005057	# Fujiwara no Yasunori
+
 	}
 
+	895.3.23 = {
+		holder = japanese_minamoto_saga_30 # Minamoto no Tatau
+	}
 	895.5.19={ # 893.2.1 in history
-		holder=japanese_minamoto_saga_30	# Minamoto no Tatau
+
 	}
 	915.7.6={ # 907.2.2 in history
 		holder=10057327	# Miyoshi no Kiyoyuki
@@ -5575,7 +5928,7 @@ c_bizen = {
 		holder=japanese_fujiwara_278	# Fujiwara no Arihira
 	}
 	958.02.21={
-		holder=11003313	# Fujiwara no Asatada
+		holder = japanese_fujiwara_715 # Fujiwara no Asatada
 	}
 	960.02.23={
 		holder=japanese_ono_19	# Ono no Yoshifuru
@@ -5638,8 +5991,11 @@ c_bizen = {
 	1226.1.1={
 		holder=japanese_toshima_6
 	}
+	1238.10.23 = {
+		holder = 12083000 # Kasai Kiyochika
+	}
 	1240.1.1={
-		holder=12083000
+
 	}
 	1250.1.1={
 		holder=12083010 # Kasai Tokikiyo
@@ -5678,21 +6034,33 @@ c_mimasaka = {
 	759.11.28={
 		holder=japanese_fujiwara_1036	# Fujiwara no Tadamaro
 	}
+	780.1.24 = {
+		holder = japanese_fujiwara_19 # Fujiwara no Fuyutsugu
+	}
 	810.2.17={ # 810.2.18 in history
-		holder=japanese_fujiwara_19	# Fujiwara no Fuyutsugu
+
+	}
+	826.8.30 = {
+		holder = 10242037 # Ono no Chikabu
 	}
 	839.10.16={ # 839.10.17 in history
-		holder=10242037	# Ono no Chikabu
+
 	}
 	848.3.21={ # 848.3.22 in history
 		holder=japanese_harusumi_1	# Harusumi no Yoshitada
 	}
+	870.3.24 = {
+		holder = japanese_fujiwara_1044 # Fujiwara no Yasunori
+	}
 	871.02.22={
-		holder=11005057	# Fujiwara no Yasunori
+
 	}
 
+	895.3.23 = {
+		holder = japanese_minamoto_saga_30 # Minamoto no Tatau
+	}
 	895.5.19={ # 893.2.1 in history
-		holder=japanese_minamoto_saga_30	# Minamoto no Tatau
+
 	}
 	915.7.6={ # 907.2.2 in history
 		holder=10057327	# Miyoshi no Kiyoyuki
@@ -5707,7 +6075,7 @@ c_mimasaka = {
 		holder=japanese_fujiwara_278	# Fujiwara no Arihira
 	}
 	958.02.21={
-		holder=11003313	# Fujiwara no Asatada
+		holder = japanese_fujiwara_715 # Fujiwara no Asatada
 	}
 	960.02.23={
 		holder=japanese_ono_19	# Ono no Yoshifuru
@@ -5780,8 +6148,11 @@ c_mimasaka = {
 		holder=11007387
 	}
 
+	1324.9.6 = {
+		holder = 12601801 # Toda Hidesada
+	}
 	1330.9.6={
-		holder=12601801 # Toda Hidesada
+
 	}
 	1356.6.1={
 		holder=10053505 # Akamatsu Sadanori
@@ -5805,21 +6176,33 @@ c_bitchu = {
 	759.11.28={
 		holder=japanese_fujiwara_1036	# Fujiwara no Tadamaro
 	}
+	780.1.24 = {
+		holder = japanese_fujiwara_19 # Fujiwara no Fuyutsugu
+	}
 	810.2.17={ # 810.2.18 in history
-		holder=japanese_fujiwara_19	# Fujiwara no Fuyutsugu
+
+	}
+	826.8.30 = {
+		holder = 10242037 # Ono no Chikabu
 	}
 	839.10.16={ # 839.10.17 in history
-		holder=10242037	# Ono no Chikabu
+
 	}
 	848.3.21={ # 848.3.22 in history
 		holder=japanese_harusumi_1	# Harusumi no Yoshitada
 	}
+	870.3.24 = {
+		holder = japanese_fujiwara_1044 # Fujiwara no Yasunori
+	}
 	871.02.22={
-		holder=11005057	# Fujiwara no Yasunori
+
 	}
 
+	895.3.23 = {
+		holder = japanese_minamoto_saga_30 # Minamoto no Tatau
+	}
 	895.5.19={ # 893.2.1 in history
-		holder=japanese_minamoto_saga_30	# Minamoto no Tatau
+
 	}
 	915.7.6={ # 907.2.2 in history
 		holder=10057327	# Miyoshi no Kiyoyuki
@@ -5834,7 +6217,7 @@ c_bitchu = {
 		holder=japanese_fujiwara_278	# Fujiwara no Arihira
 	}
 	958.02.21={
-		holder=11003313	# Fujiwara no Asatada
+		holder = japanese_fujiwara_715 # Fujiwara no Asatada
 	}
 	960.02.23={
 		holder=japanese_ono_19	# Ono no Yoshifuru
@@ -5946,8 +6329,11 @@ c_tanba = {
 		holder=japanese_tachibana_17
 	}
 
+	830.1.17 = {
+		holder = 11004530 # Fujiwara Miyafusa {Tanba no Kami}
+	}
 	841.6.5={ # 841.6.6 in history
-		holder=11004530 # Fujiwara Miyafusa {Tanba no Kami}
+
 	}
 	847.1.1={
 		holder=11004540
@@ -6204,17 +6590,23 @@ c_tajima = {
 	1110.1.1={ # 1108.3.15 in history
 		holder=japanese_taira_kanmu_31 # Taira Masamori
 	}
+	1121.4.1 = {
+		holder = japanese_taira_kanmu_75 # Taira Tadamasa
+	}
 	1124.4.21={
-		holder=japanese_taira_kanmu_75
+
 	}
 	1156.8.15={
 		holder=japanese_taira_kanmu_41 # Taira Tsunemasa {Tango no Kami}
+	}
+	1184.3.20 = {
+		holder = japanese_fujiwara_462 # Konoe Motomichi
 	}
 	1185.1.1={
 		government = japan_feudal_government
 	}
 	1185.4.25={
-		holder=japanese_fujiwara_462 # Yokoyama Tokihiro
+
 	}
 	1189.1.1={
 		holder=12600300 # Adachi Chikanaga
@@ -6328,8 +6720,11 @@ c_hoki = {
 	1275.12.1={
 		holder=12211400 # Shingu Yoritsura
 	}
+	1276.1.1 = {
+		holder = 10131793 # Hojo Kiyotoki
+	}
 	1285.12.14={
-		holder=10131793
+
 	}
 	1278.1.1={
 		holder=10131961
@@ -6376,7 +6771,7 @@ c_inaba = {
 		holder= japanese_fujiwara_718
 	}
 	986.10.2={
-		holder=11003330
+		holder = 11003331 # Fujiwara Kototaka
 	}
 	1012.1.1={
 		holder=11003331
@@ -6754,8 +7149,11 @@ c_awa = {
 	1115.10.15={
 		holder=12510020
 	}
+	1131.9.17 = {
+		holder = japanese_minamoto_uda_33 # Awata Shigeyoshi
+	}
 	1131.9.31={ # 1180.1.1 in history
-		holder=japanese_minamoto_uda_33 # Awata Shigeyoshi
+
 	}
 	1184.8.26={ # Battle of Dan-no-ura
 		holder=10120112
@@ -6782,8 +7180,11 @@ c_awa = {
 	1320.1.1={
 		holder=12691504 # Ogasawara Yorihisa
 	}
+	1334.1.1 = {
+		holder = 12691510 # Ogasawara Yoshimori
+	}
 	1334.7.1={
-		holder=12691510 # Ogasawara Yoshimori
+
 	}
 	#1336.3.1={ #Mainly just to have the Ogasawara still have some land due to this mod obviously not having the Shogunate province density
 	#	holder=10040509 # Hosokawa Kazuuji
@@ -6821,7 +7222,7 @@ c_tosa = {
 		holder=japanese_yamato_24
 	}
 	806.4.9={
-		holder=10110000
+		holder = japanese_yamato_164 # Yamato Kazuwara
 	}
 	853.7.13={
 		holder=japanese_taira_kanmu_4
@@ -6865,8 +7266,11 @@ c_tosa = {
 	1185.1.1={
 		government = japan_feudal_government
 	}
+	1213.5.24 = {
+		holder = japanese_taira_kanmu_526 # Miura Yoshimura
+	}
 	1213.11.20={
-		holder=japanese_taira_kanmu_526 # Miura Yoshimura
+
 	}
 	1239.12.31={
 		holder=12211052 # Miura Mitsumura
@@ -6879,8 +7283,11 @@ c_tosa = {
 	1255.1.1={
 		holder=12139534
 	}
+	1265.1.1 = {
+		holder = 12139535 # Kou Kanen
+	}
 	1289.2.27={
-		holder=12139535
+
 	}
 	1285.1.1={
 		holder=12139536
@@ -6930,8 +7337,11 @@ c_kii = {
 	870.1.1={
 		holder=japanese_tachibana_44
 	}
+	920.1.1 = {
+		holder = japanese_tachibana_125 # Toshiyuki
+	}
 	920.3.21={
-		holder=japanese_tachibana_125
+
 	}
 	955.1.1={
 		holder=japanese_tachibana_126
@@ -7059,13 +7469,16 @@ c_awaji = {
 		holder=12270000
 	}
 	1055.1.1={
-		holder=10110017
+		holder = japanese_taira_kanmu_27 # Taira Masanari
 	}
 	1070.1.1={
-		holder=10110300
+		holder = japanese_taira_kanmu_28 # Taira Masaie
+	}
+	1073.1.1 = {
+		holder = 10110302 # Taira Sukemori
 	}
 	1110.1.1={
-		holder=10110302
+
 	}
 	1130.1.1={
 		holder=10110303
@@ -7171,8 +7584,11 @@ c_chikuzen = {
 		holder= japanese_fujiwara_116
 		government = japan_feudal_government
 	}
+	1044.2.2 = {
+		holder = 12750018 # Munakata Tametada
+	}
 	1050.1.1={ #
-		holder= 12750018
+
 	}
 	1070.1.1={ #
 		holder= 12750019
@@ -7224,8 +7640,11 @@ c_hizen = {
 		holder= 10041397
 	}
 
+	800.1.1 = {
+		holder = 10252218 # Okura Sanekatsu
+	}
 	820.1.1={ #
-		holder= 10252218
+
 	}
 
 	830.1.1={
@@ -7234,8 +7653,11 @@ c_hizen = {
 	840.1.1={
 		holder=10290163
 	}
+	850.1.1 = {
+		holder = 10252219 # Okura Hirokatsu
+	}
 	860.1.1={ #
-		holder= 10252219
+
 	}
 	900.1.1={ #
 		holder= 10252222
@@ -7471,14 +7893,17 @@ c_tsushima = {
 	1199.1.1={
 		holder=10250269
 	}
+	1268.1.1 = {
+		holder = MB_yuan_hindu # Hindu - Yuan commander of both invasions of Japan
+	}
 	1274.11.4={
-		holder=11050400 # Khudun Hindus
+
 	}
 	1274.11.20={
 		holder=10069246 # So Moriaki
 	}
 	1281.6.9={
-		holder=11050400 # Khudun Hindus
+		holder = MB_yuan_hindu # Hindu - Yuan commander of both invasions of Japan
 	}
 	1281.8.22={
 		holder=10069246 # So Moriaki
@@ -7533,8 +7958,11 @@ c_chikugo = {
 	1110.1.1={ #
 		holder= 12810620
 	}
+	1150.1.1 = {
+		holder = 10057321 # Miyoshi Yasumitsu
+	}
 	1160.1.1={
-		holder=10057321
+
 	}
 	1170.1.1={
 		holder=japanese_fujiwara_999
@@ -7585,8 +8013,11 @@ c_buzen = {
 	909.1.1={ #
 		holder= 10290170
 	}
+	946.1.1 = {
+		holder = 10260301 # Usa Mochinori
+	}
 	948.1.1={ #
-		holder= 10260301
+
 	}
 	962.1.1={ #
 		holder= 10260302
@@ -7780,6 +8211,9 @@ d_south_saikaido = {
 	764.11.6={
 		holder=japanese_yamato_21 # Empress Koken/Shotoku
 	}
+	770.8.28 = {
+		holder = 0
+	}
 	1180.1.1={
 		holder=japanese_taira_kanmu_562 # Taira Nobuzumi
 	}
@@ -7801,8 +8235,11 @@ d_south_saikaido = {
 	1284.5.7={
 		holder=10060032 # Shimazu Tadamune
 	}
+	1325.12.7 = {
+		holder = 10060031 # Shimazu Sadahisa
+	}
 	1325.12.17={
-		holder=10060031 # Shimazu Sadahisa
+
 	}
 	1333.6.17={
 		holder=10060031 # Shimazu Sadahisa
@@ -7840,8 +8277,11 @@ c_higo = {
 		holder= 10041397
 	}
 
+	800.1.1 = {
+		holder = 10252218 # Okura Sanekatsu
+	}
 	820.1.1={ #
-		holder= 10252218
+
 	}
 
 	830.1.1={
@@ -7850,8 +8290,11 @@ c_higo = {
 	840.1.1={
 		holder=10290163
 	}
+	850.1.1 = {
+		holder = 10252219 # Okura Hirokatsu
+	}
 	860.1.1={ #
-		holder= 10252219
+
 	}
 	900.1.1={ #
 		holder= 10252222
@@ -7990,7 +8433,7 @@ c_hyuga = {
 		liege="d_south_saikaido"
 	}
 	1193.6.28={
-		holder=japanese_kudo_33 # Ito Suketoki
+		holder = 10130080 # Ito Suketoki
 	}
 	1252.7.24={
 		holder=10060538 # Ito Sukemitsu
@@ -8129,8 +8572,11 @@ c_satsuma = {
 	1284.5.7={
 		holder=10060032 # Shimazu Tadamune
 	}
+	1325.12.7 = {
+		holder = 10060031 # Shimazu Sadahisa
+	}
 	1325.12.17={
-		holder=10060031 # Shimazu Sadahisa
+
 	}
 	1333.6.17={
 		holder=10060031 # Shimazu Sadahisa
@@ -8238,7 +8684,10 @@ c_isawa = {
 	970.1.1 = {  holder = 12033001	}
 	1000.1.1 = {  holder = 12033005	}
 	1030.1.1 = {  holder = 12033010	}
-	1057.8.1 = {  holder = 12033021	}
+	1057.1.1 = {
+		holder = 12033021 # Abe Muneto
+	}
+	1057.8.1 = {  	}
 	1090.1.1={
 		liege="d_hitakami"
 	}
@@ -8251,9 +8700,13 @@ c_isawa = {
 	1125.1.1={
 		holder=12033055 # Fujiwara Motohira
 	}
+	1150.1.1 = {
+		liege = "d_hitakami" # Yusseter: d_mutsu
+		holder = japanese_fujiwara_497 # Fujiwara Hidehira
+	}
 	1157.4.29={
-		holder=japanese_fujiwara_497 # Fujiwara Hidehira
-		liege="d_hitakami"
+
+
 	}
 	1180.1.1={
 		holder=japanese_fujiwara_502 # Fujiwara Tadahira
@@ -8568,8 +9021,11 @@ c_iwase = {
 	850.1.1={
 		holder=japanese_minamoto_saga_28
 	}
+	895.9.17 = {
+		holder = japanese_fujiwara_327 # Fujiwara Hokke Hidesato
+	}
 	900.1.1={
-		holder=japanese_fujiwara_327
+
 	}
 	925.1.1={
 		holder=12033000
@@ -8600,8 +9056,11 @@ c_iwase = {
 	1179.12.31={ # 1180.1.1 in history
 		holder=japanese_fujiwara_500 # Fujiwara Yasuhira
 	}
+	1189.10.14 = {
+		holder = japanese_oyama_4 # Yuki Tomomitsu
+	}
 	1189.11.14={ # 1189.11.15 in history
-		holder=japanese_oyama_4 # Yuki Tomomitsu
+
 	}
 	1254.2.24={
 		holder=10010225 # Yuki Tomohiro
@@ -8936,10 +9395,13 @@ c_nushiro = {
 		holder=japanese_fujiwara_497
 	}
 	1170.1.1={
-		holder=1200011
+		holder = 12385000 # Murakami Tamekuni
+	}
+	1185.1.1 = {
+		holder = 12385012 # Murakami Nobukuni
 	}
 	1187.11.30={
-		holder=12385012
+
 	}
 	1205.1.1={
 		holder=12385020
@@ -8995,7 +9457,7 @@ c_tokisara = {
 	}
 
 	1088.1.1={
-		holder=12782001
+		holder = japanese_fujiwara_339 # Fujiwara Kiyohira
 	}
 
 	1120.1.1={
@@ -9005,8 +9467,11 @@ c_tokisara = {
 	1137.1.1={
 		holder=12030030
 	}
+	1157.1.1 = {
+		holder = japanese_fujiwara_501 # Fujiwara Kunihira
+	}
 	1157.4.29={
-		holder=japanese_fujiwara_501
+
 	}
 	1189.9.21={
 		holder=japanese_fujiwara_500 # Fujiwara Yasuhira
@@ -9336,6 +9801,12 @@ c_menas = {
 
 c_amami = {
 
+	769.1.1 = {
+		holder = MB_amami_1 # Satto - chief of Amami
+	}
+	830.1.1 = {
+		holder = MB_amami_2 # Amawari - chief of Amami
+	}
 	890.1.1={
 		holder=japanese_taira_kanmu_4
 	}

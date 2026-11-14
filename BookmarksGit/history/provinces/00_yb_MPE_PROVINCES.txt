@@ -137,7 +137,7 @@ rite = otuken_yish # Yusseter
 1016.1.1 = { rite = otuken_yish }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman
-		rite = otuken_yish
+
 }
 1227.1.1 = { rite = hanafi }
 1300.1.1 = {
@@ -166,7 +166,7 @@ rite = otuken_yish # Yusseter
 1016.1.1 = { rite = otuken_yish }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman
-		rite = otuken_yish
+
 }
 1227.1.1 = { rite = hanafi }
 1300.1.1 = {
@@ -948,7 +948,7 @@ holding = tribal_holding
 1016.1.1 = { rite = otuken_yish }
 1044.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman
-		rite = otuken_yish
+
 }
 1227.1.1 = { rite = hanafi }
 1300.1.1 = {

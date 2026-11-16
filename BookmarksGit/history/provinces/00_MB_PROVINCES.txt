@@ -24719,6 +24719,9 @@ rite = carolingian_christianity
 	1040.1.1 = {
 		holding = castle_holding
 	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 	1100.1.1 = { # German colonists from the Bavarian Nordgau settle the Egerland under the Vohburg margraves
 		culture = bavarian
 	}

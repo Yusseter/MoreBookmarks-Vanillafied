@@ -69466,6 +69466,9 @@ c_JAV_galuh = {
 	1091.1.1={
 		holder=1000080646 #Purnawijaya
 	}
+	1133.1.1 = { # Purnawijaya dies; Dewi-Citrawati's reign brought forward
+		holder = 1000080651 # Dewi-Citrawati
+	}
 	1152.1.1={
 		holder=1000080651 #Dewi-Citrawati
 	}

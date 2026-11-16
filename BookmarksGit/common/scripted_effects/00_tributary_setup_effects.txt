@@ -210,19 +210,7 @@ mpo_769_tributary_setup_effect = {
 		title:d_altay.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_gobi_altai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_sharga.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
-		title:c_agairik.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_balgun.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		# K_ANGARA
 		title:d_yenisei_kan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
@@ -243,16 +231,7 @@ mpo_769_tributary_setup_effect = {
 		}
 
 		# K_DORNOGOVI
-		title:d_SW_heicheziguo.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_gobi_shatuoguo.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_em_akhulun.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_em_hepung.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
@@ -265,19 +244,10 @@ mpo_769_tributary_setup_effect = {
 		}
 
 		# K_GOBI
-		title:d_em_tataria.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_murin_china.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_em_dutulun.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_em_gobidada.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_em_kherulendada.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:c_em_zhen.holder ?= {
@@ -429,9 +399,6 @@ mpo_769_tributary_setup_effect = {
 		title:k_zhetysu.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_tarbagatai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# OTHER
 		title:d_onggirad.holder ?= {
@@ -568,10 +535,19 @@ mpo_769_tributary_setup_effect = {
 		title:c_gobi_dorngovi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_manglai_china.holder ?= {
+		title:c_gobi_ulaantatar.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_gobi_ulaantatar.holder ?= {
+		title:d_SW_heicheziguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_em_khartereg.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_sonkhot.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_em_tataria.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -580,14 +556,8 @@ mpo_769_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_KHAKASSIA
-		title:c_abakan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_TUVA
-		title:c_stoyanka.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_MERKIT
 		title:c_ulan_ude.holder ?= {
@@ -703,14 +673,6 @@ mpo_769_tributary_setup_effect = {
 		#}
 	#}
 
-	title:c_gobi_dorngovi.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_sonkhot.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_ilga.holder ?= {
 		save_scope_as = suzerain
@@ -1112,12 +1074,6 @@ mpo_769_tributary_setup_effect = {
 		title:c_atamansku.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_jaksybai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_baisary.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_aral_il.holder ?= {
@@ -1401,6 +1357,12 @@ mpo_769_tributary_setup_effect = {
 		title:c_guzkol.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:d_tarbagatai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_chuguchak.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:c_betpa.holder ?= {
@@ -1462,6 +1424,9 @@ mpo_769_tributary_setup_effect = {
 
 		# K_ALTAI
 		title:c_zarman.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_sharga.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -1815,8 +1780,28 @@ mpo_769_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
+	
+	title:d_em_tataria.holder ?= {
+		save_scope_as = suzerain
+		
+		title:c_em_kherulendada.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_em_hepung.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 
 	#############################################################
+	# TERIQAN_CHINA hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_teriqan_china.holder ?= {
+		save_scope_as = suzerain
+		title:c_manglai_china.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -2077,12 +2062,6 @@ mpo_769_tributary_setup_effect = {
     }
 
     # Nanzhao
-    title:d_yongchang.holder ?= {
-        save_scope_as = suzerain
-        title:c_putao.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
 
     title:d_hereford.holder ?= {
         save_scope_as = suzerain
@@ -2208,12 +2187,6 @@ mpo_867_tributary_setup_effect = {
 		title:c_agairik.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_qinggil.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		title:c_balgun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
@@ -2264,9 +2237,6 @@ mpo_867_tributary_setup_effect = {
 		title:k_dornogovi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_SW_heicheziguo.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_gobi_shatuoguo.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -2275,9 +2245,6 @@ mpo_867_tributary_setup_effect = {
 		}
 
 		# K_GOBI
-		title:d_em_tataria.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_murin_china.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -2386,15 +2353,12 @@ mpo_867_tributary_setup_effect = {
 		}
 
 		# K_TYVA
-		title:c_ulaangom.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_uvs_nuur.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
 		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_ubsunur_hollow.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -2650,14 +2614,6 @@ mpo_867_tributary_setup_effect = {
 		#}
 	#}
 
-	title:c_gobi_dorngovi.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_sonkhot.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_gobi_ongi_gol.holder ?= {
 		save_scope_as = suzerain
@@ -3252,14 +3208,6 @@ mpo_867_tributary_setup_effect = {
 		}
 	}
 
-	title:c_em_dadaels.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_ulaantatar.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_alakol.holder ?= {
 		save_scope_as = suzerain
@@ -3297,14 +3245,6 @@ mpo_867_tributary_setup_effect = {
 		}
 	}
 
-	title:c_balgun.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_kara_asirgan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 	
 	title:d_gobi_altai.holder ?= {
 		save_scope_as = suzerain
@@ -3323,14 +3263,6 @@ mpo_867_tributary_setup_effect = {
 		}
 	}
 
-	title:c_agairik.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_narym_DZU.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_karkaraly.holder ?= {
 		save_scope_as = suzerain
@@ -3422,6 +3354,12 @@ mpo_867_tributary_setup_effect = {
 		title:d_tukhsi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:d_alakol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_tarbagatai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:c_BAL_fuzhou.holder ?= { # Yusseter: title:c_xianping_china.holder
@@ -3492,6 +3430,12 @@ mpo_867_tributary_setup_effect = {
 
 		# K_QARA_DALA
 		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -3819,6 +3763,43 @@ mpo_867_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# DORNOGOVI hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_dornogovi.holder ?= {
+		save_scope_as = suzerain
+		title:d_SW_heicheziguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_em_khartereg.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_sonkhot.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_ulaantatar.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_em_tataria.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# ALTAI hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_altai.holder ?= {
+		save_scope_as = suzerain
+		title:c_altay.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kara_asirgan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_narym_DZU.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_qinggil.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -4136,12 +4117,6 @@ mpo_867_tributary_setup_effect = {
     }
 
     # D_YONGCHANG
-    title:d_yongchang.holder ?= {
-        save_scope_as = suzerain
-        title:c_putao.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-    }
 
     # D_THATON
     title:d_ramannadesa.holder ?= {
@@ -4343,6 +4318,9 @@ mpo_936_tributary_setup_effect = {
 		title:d_murin_china.holder ?= { #1203
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_em_khartereg.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
     # E_KIRGHIZ_KHANATE
@@ -4428,6 +4406,12 @@ mpo_936_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_tarbagatai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_chuguchak.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -5567,6 +5551,90 @@ mpo_936_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# ALTAI hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_altai.holder ?= {
+		save_scope_as = suzerain
+		title:c_agairik.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_torangy_kul.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KERAIT hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_kerait.holder ?= {
+		save_scope_as = suzerain
+		title:d_arkhangai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KAZAKH hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_kazakh.holder ?= {
+		save_scope_as = suzerain
+		title:c_astrakhanka.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_teke.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# BETPA hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_betpa.holder ?= {
+		save_scope_as = suzerain
+		title:c_targyl.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KARABAS hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_karabas.holder ?= {
+		save_scope_as = suzerain
+		title:c_jasky_kart.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KARKARALY hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_karkaraly.holder ?= {
+		save_scope_as = suzerain
+		title:c_nurtay.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# TOKUMBAY hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_tokumbay.holder ?= {
+		save_scope_as = suzerain
+		title:c_arkalyk.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# ATBASAR hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_atbasar.holder ?= {
+		save_scope_as = suzerain
+		title:c_jangyztau.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KUSH-MURUN hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_kush-murun.holder ?= {
+		save_scope_as = suzerain
+		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -6058,6 +6126,37 @@ mpo_936_tributary_setup_effect = {
         }
     }
 
+    title:d_qara_bay.holder ?= {
+        save_scope_as = suzerain
+        title:c_chilia.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
+	
+	title:d_qabuqsin_yula.holder ?= {
+        save_scope_as = suzerain
+        title:c_perekop.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
+	
+	title:d_suru_kulbej.holder ?= {
+        save_scope_as = suzerain
+        title:c_kuzeytorg.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
+	
+	title:d_yawdi_ertim.holder ?= {
+        save_scope_as = suzerain
+        title:c_dnipro.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:c_kherson.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
+	
 	# Marca Geronis - In 936 the confederations were under East Francia though by 997 they had rebelled. Technically they should be under the Saxon Ostmark and Billungmark but you can't do tribs like that unless I make those 2 Marches independent
 
 	# D_SEVENERS
@@ -6188,12 +6287,6 @@ mpo_997_tributary_setup_effect = {
 		}
 
 		# K_GOBI
-		title:d_em_tataria.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_gobi_ongi_gol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_HENTII
 		title:d_EM_onon.holder ?= {
@@ -6219,20 +6312,17 @@ mpo_997_tributary_setup_effect = {
 		title:k_kerait.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_tarvagatai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_MONGOLIA
 		title:d_ogrash.holder ?= { #992
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_karakorum.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_TYVA
 		title:d_zavkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_otuken.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -6274,6 +6364,15 @@ mpo_997_tributary_setup_effect = {
 		title:d_murin_china.holder ?= { #1203
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:d_em_wuguguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_sonkhot.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_ulaantatar.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
     # K_ZHETYSU
@@ -6296,6 +6395,12 @@ mpo_997_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_zhetysu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_chuguchak.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -6482,14 +6587,6 @@ mpo_997_tributary_setup_effect = {
 		#}
 	#}
 
-	title:c_gobi_dorngovi.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_sonkhot.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_gobi_ongi_gol.holder ?= {
 		save_scope_as = suzerain
@@ -7014,9 +7111,6 @@ mpo_997_tributary_setup_effect = {
 		title:c_altay.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_balgun.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_DZUNGARIA
 		title:c_barkul.holder ?= {
@@ -7052,14 +7146,6 @@ mpo_997_tributary_setup_effect = {
 		}
 	}
 
-	title:c_em_dadaels.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_ulaantatar.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_tarbagatai.holder ?= {
 		save_scope_as = suzerain
@@ -7169,14 +7255,6 @@ mpo_997_tributary_setup_effect = {
 		}
 	}
 
-	title:c_balgun.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_kara_asirgan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_khokhoo.holder ?= {
 		save_scope_as = suzerain
@@ -7187,14 +7265,6 @@ mpo_997_tributary_setup_effect = {
 		}
 	}
 
-	title:c_agairik.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_narym_DZU.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_katu_yaryk.holder ?= {
 		save_scope_as = suzerain
@@ -7432,6 +7502,96 @@ mpo_997_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# ALTAI hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_altai.holder ?= {
+		save_scope_as = suzerain
+		title:c_boro_burgasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kara_asirgan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_narym_DZU.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_qinggil.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KERAIT hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_kerait.holder ?= {
+		save_scope_as = suzerain
+		title:d_arkhangai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KAZAKH hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_kazakh.holder ?= {
+		save_scope_as = suzerain
+		title:c_astrakhanka.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_teke.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# BETPA hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_betpa.holder ?= {
+		save_scope_as = suzerain
+		title:c_targyl.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KARABAS hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_karabas.holder ?= {
+		save_scope_as = suzerain
+		title:c_jasky_kart.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KARKARALY hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_karkaraly.holder ?= {
+		save_scope_as = suzerain
+		title:c_nurtay.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# TOKUMBAY hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_tokumbay.holder ?= {
+		save_scope_as = suzerain
+		title:c_arkalyk.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# ATBASAR hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_atbasar.holder ?= {
+		save_scope_as = suzerain
+		title:c_jangyztau.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KUSH-MURUN hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_kush-murun.holder ?= {
+		save_scope_as = suzerain
+		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -7996,9 +8156,6 @@ mpo_1018_tributary_setup_effect = {
 		}
 
 		# K_GOBI
-		title:d_em_tataria.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_HENTII
 		title:d_EM_onon.holder ?= {
@@ -8013,9 +8170,6 @@ mpo_1018_tributary_setup_effect = {
 
 		# K_KERAIT
 		title:k_kerait.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_arkhangai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_ovorkhangai.holder ?= {
@@ -8050,24 +8204,21 @@ mpo_1018_tributary_setup_effect = {
 		}
 
 		# K_TYVA
-		title:d_zavkhan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_harhiraa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_ulaangom.holder ?= { #1000
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		#title:c_qinggil.holder ?= { #1026
-		#    break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		#}
-		title:c_uvs_nuur.holder ?= { #1000
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
 		# OTHER
 		title:d_onggirad.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_LIAO_ulagaian.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_LIAO_horqinan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_ubsunur_hollow.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -8112,6 +8263,12 @@ mpo_1018_tributary_setup_effect = {
 		title:d_zhetysu.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_chuguchak.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# K_TATAR
@@ -8128,6 +8285,9 @@ mpo_1018_tributary_setup_effect = {
 
 		# K_GOBI
 		title:d_murin_china.holder ?= { #1203
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_em_wuguguo.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -8175,14 +8335,8 @@ mpo_1018_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GOBI
-		title:c_gobi_ongi_gol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_MONGOLIA
-		title:c_karakorum.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_khentii.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -8195,15 +8349,24 @@ mpo_1018_tributary_setup_effect = {
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_qinggil.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_koksemey.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_zavkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kara_asirgan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_tannu_ola.holder ?= {
 		save_scope_as = suzerain
 
 		# K_TUVA
-		title:c_stoyanka.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_western_tannu.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -8464,9 +8627,6 @@ mpo_1018_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_CASPIAN_STEPPE
-		title:c_saqsin.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_uzen_verchina.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -8754,14 +8914,6 @@ mpo_1018_tributary_setup_effect = {
 		}
 	}
 
-	title:d_hejes_china.holder ?= {
-		save_scope_as = suzerain
-
-		# K_KHITAN_CHINA
-		title:c_LIAO_ulagaian.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_ovorkhangai.holder ?= {
 		save_scope_as = suzerain
@@ -8771,6 +8923,9 @@ mpo_1018_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:c_ongi.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_arkhangai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -8838,14 +8993,6 @@ mpo_1018_tributary_setup_effect = {
 		}
 	}
 
-	title:c_LIAO_wuzhou.holder ?= {
-		save_scope_as = suzerain
-
-		# K_KHITAN_CHINA
-		title:c_LIAO_horqinan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_LIAO_linhuang.holder ?= { # Yusseter: title:d_xarmoron_china.holder
 		save_scope_as = suzerain
@@ -8861,12 +9008,6 @@ mpo_1018_tributary_setup_effect = {
 
 		# K_ALTAI
 		title:c_agairik.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_balgun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
@@ -9273,8 +9414,125 @@ mpo_1018_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
+	
+	title:d_qara_bay.holder ?= {
+        save_scope_as = suzerain
+        title:c_chilia.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
+	
+	title:d_qabuqsin_yula.holder ?= {
+        save_scope_as = suzerain
+        title:c_perekop.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
+	
+	title:d_suru_kulbej.holder ?= {
+        save_scope_as = suzerain
+        title:c_kuzeytorg.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
+	
+	title:d_yawdi_ertim.holder ?= {
+        save_scope_as = suzerain
+        title:c_dnipro.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:c_kherson.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
+	
+	title:d_bula_chopan.holder ?= {
+        save_scope_as = suzerain
+        title:c_saqsin.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:c_beksima.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:c_astrakhan.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }
 
 	#############################################################
+	# ALTAI hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_altai.holder ?= {
+		save_scope_as = suzerain
+		title:c_boro_burgasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KAZAKH hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_kazakh.holder ?= {
+		save_scope_as = suzerain
+		title:c_astrakhanka.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_teke.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# BETPA hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_betpa.holder ?= {
+		save_scope_as = suzerain
+		title:c_targyl.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KARABAS hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_karabas.holder ?= {
+		save_scope_as = suzerain
+		title:c_jasky_kart.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KARKARALY hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_karkaraly.holder ?= {
+		save_scope_as = suzerain
+		title:c_nurtay.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# TOKUMBAY hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_tokumbay.holder ?= {
+		save_scope_as = suzerain
+		title:c_arkalyk.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# ATBASAR hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_atbasar.holder ?= {
+		save_scope_as = suzerain
+		title:c_jangyztau.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KUSH-MURUN hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_kush-murun.holder ?= {
+		save_scope_as = suzerain
+		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -9754,9 +10012,6 @@ mpo_1066_tributary_setup_effect = {
 		title:k_dornogovi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_em_wuguguo.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_GOBI
 		title:d_em_tataria.holder ?= {
@@ -9776,9 +10031,6 @@ mpo_1066_tributary_setup_effect = {
 
 		# K_KERAIT
 		title:k_kerait.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_arkhangai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_ovorkhangai.holder ?= {
@@ -9813,15 +10065,18 @@ mpo_1066_tributary_setup_effect = {
 		}
 
 		# K_TYVA
-		title:c_ulaangom.holder ?= { #1000
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_uvs_nuur.holder ?= { #1000
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# OTHER
 		title:d_onggirad.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_ubsunur_hollow.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_LIAO_horqinan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_BAL_moe_su.holder ?= { # Yusseter: d_malgal_china
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -9878,17 +10133,15 @@ mpo_1066_tributary_setup_effect = {
 		title:d_zhetysu.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-	}
-
-	# K_KERAIT
-	title:k_kerait.holder ?= {
-		save_scope_as = suzerain
-
-		# K_KERAIT
-		title:c_ikh_bogd.holder ?= {
+		title:c_chuguchak.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
+
+	# K_KERAIT
 
 	# K_NAIMAN
 	title:k_altai.holder ?= {
@@ -9909,6 +10162,9 @@ mpo_1066_tributary_setup_effect = {
 		title:d_zavkhan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_qinggil.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# K_TATAR
@@ -9925,6 +10181,15 @@ mpo_1066_tributary_setup_effect = {
 
 		# K_GOBI
 		title:d_murin_china.holder ?= { #1203
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_em_wuguguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_sonkhot.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_ulaantatar.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -10106,15 +10371,15 @@ mpo_1066_tributary_setup_effect = {
 		title:c_em_dadaels.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_LIAO_ulagaian.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_ogrash.holder ?= {
 		save_scope_as = suzerain
 
 		# K_GOBI
-		title:c_gobi_ongi_gol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_MONGOLIA
 		title:c_khentii.holder ?= {
@@ -10233,14 +10498,6 @@ mpo_1066_tributary_setup_effect = {
 		#}
 	#}
 
-	title:c_gobi_dorngovi.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_sonkhot.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_gobi_ongi_gol.holder ?= {
 		save_scope_as = suzerain
@@ -10744,6 +11001,15 @@ mpo_1066_tributary_setup_effect = {
 		title:c_ongi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_ikh_bogd.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_pecheneg.holder ?= {
@@ -10937,23 +11203,7 @@ mpo_1066_tributary_setup_effect = {
 		}
 	}
 
-	title:c_em_dadaels.holder ?= {
-		save_scope_as = suzerain
 
-		# K_DORNOGOVI
-		title:c_gobi_ulaantatar.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
-
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_jinghiz.holder ?= {
 		save_scope_as = suzerain
@@ -11085,12 +11335,6 @@ mpo_1066_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_agairik.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -11141,29 +11385,19 @@ mpo_1066_tributary_setup_effect = {
 		}
 	}
 
-	title:c_agairik.holder ?= {
-		save_scope_as = suzerain
 
-		# K_ALTAI
-		title:c_narym_DZU.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
-
-	title:c_altay.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_qinggil.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_kush-murun.holder ?= {
 		save_scope_as = suzerain
 
 		# K_QARA_DALA
 		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -11483,6 +11717,22 @@ mpo_1066_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# AKALTAY hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_akaltay.holder ?= {
+		save_scope_as = suzerain
+		title:c_narym_DZU.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# KERAIT hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_kerait.holder ?= {
+		save_scope_as = suzerain
+		title:d_arkhangai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -11984,12 +12234,7 @@ mpo_1066_tributary_setup_effect = {
 		}
 	}
 
-	title:d_hilal.holder ?= {
-		save_scope_as = suzerain
-		title:d_tunis.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
+	# D_HILAL <- d_tunis removed: the Zirid emir holds both k_africa and d_tunis in this era, so this entry tried to make him a tributary of his own Hilalian tributary (loop refused by the game)
 
 	# C_TAKON
 	title:c_takon.holder ?= {
@@ -12005,6 +12250,13 @@ mpo_1066_tributary_setup_effect = {
 		save_scope_as = suzerain
 		title:c_JAV_cimanuk.holder ?= {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
+		}
+	}
+	
+	title:d_qara_bay.holder ?= {
+		save_scope_as = suzerain
+		title:c_chilia.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
 }
@@ -12073,9 +12325,6 @@ mpo_1081_tributary_setup_effect = {
 		title:k_dornogovi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_em_wuguguo.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_GOBI
 		title:d_em_tataria.holder ?= {
@@ -12095,9 +12344,6 @@ mpo_1081_tributary_setup_effect = {
 
 		# K_KERAIT
 		title:k_kerait.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_arkhangai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_ovorkhangai.holder ?= {
@@ -12132,15 +12378,18 @@ mpo_1081_tributary_setup_effect = {
 		}
 
 		# K_TYVA
-		title:c_ulaangom.holder ?= { #1000
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_uvs_nuur.holder ?= { #1000
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# OTHER
 		title:d_onggirad.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_ubsunur_hollow.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_LIAO_horqinan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_BAL_moe_su.holder ?= { # Yusseter: d_malgal_china
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -12189,6 +12438,12 @@ mpo_1081_tributary_setup_effect = {
 		title:d_zhetysu.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_chuguchak.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# K_TRANSOXIANA
@@ -12202,14 +12457,6 @@ mpo_1081_tributary_setup_effect = {
 	}
 
 	# K_KERAIT
-	title:k_kerait.holder ?= {
-		save_scope_as = suzerain
-
-		# K_KERAIT
-		title:c_ikh_bogd.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	# K_NAIMAN
 	title:k_altai.holder ?= {
@@ -12230,6 +12477,9 @@ mpo_1081_tributary_setup_effect = {
 		title:d_zavkhan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_qinggil.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# K_TATAR
@@ -12246,6 +12496,15 @@ mpo_1081_tributary_setup_effect = {
 
 		# K_GOBI
 		title:d_murin_china.holder ?= { #1203
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_em_wuguguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_sonkhot.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_ulaantatar.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -12427,15 +12686,15 @@ mpo_1081_tributary_setup_effect = {
 		title:c_em_dadaels.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_LIAO_ulagaian.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_ogrash.holder ?= {
 		save_scope_as = suzerain
 
 		# K_GOBI
-		title:c_gobi_ongi_gol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_MONGOLIA
 		title:c_khentii.holder ?= {
@@ -12551,14 +12810,6 @@ mpo_1081_tributary_setup_effect = {
 		#}
 	#}
 
-	title:c_gobi_dorngovi.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_sonkhot.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_gobi_ongi_gol.holder ?= {
 		save_scope_as = suzerain
@@ -13062,6 +13313,15 @@ mpo_1081_tributary_setup_effect = {
 		title:c_ongi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_ikh_bogd.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_pecheneg.holder ?= {
@@ -13255,23 +13515,7 @@ mpo_1081_tributary_setup_effect = {
 		}
 	}
 
-	title:c_em_dadaels.holder ?= {
-		save_scope_as = suzerain
 
-		# K_DORNOGOVI
-		title:c_gobi_ulaantatar.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
-
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_jinghiz.holder ?= {
 		save_scope_as = suzerain
@@ -13412,9 +13656,6 @@ mpo_1081_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -13465,20 +13706,18 @@ mpo_1081_tributary_setup_effect = {
 		}
 	}
 
-	title:c_altay.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_qinggil.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_kush-murun.holder ?= {
 		save_scope_as = suzerain
 
 		# K_QARA_DALA
 		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -13798,6 +14037,14 @@ mpo_1081_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# KERAIT hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_kerait.holder ?= {
+		save_scope_as = suzerain
+		title:d_arkhangai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -14210,12 +14457,7 @@ mpo_1081_tributary_setup_effect = {
 		}
 	}
 
-	title:d_hilal.holder ?= {
-		save_scope_as = suzerain
-		title:d_tunis.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
+	# D_HILAL <- d_tunis removed: the Zirid emir holds both k_africa and d_tunis in this era, so this entry tried to make him a tributary of his own Hilalian tributary (loop refused by the game)
 
 	# C_TAKON
 	title:c_takon.holder ?= {
@@ -14295,6 +14537,12 @@ mpo_1081_tributary_setup_effect = {
 			yb_establish_mapped_title_tributary_effect = { SUZERAIN = scope:suzerain }
 		}
 	}
+	title:d_qabuqsin_yula.holder ?= {
+        save_scope_as = suzerain
+        title:c_chilia.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+    }							  
 }
 
 
@@ -14359,9 +14607,6 @@ mpo_1099_tributary_setup_effect = {
 		title:k_dornogovi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_em_wuguguo.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_GOBI
 		title:d_em_tataria.holder ?= {
@@ -14378,9 +14623,6 @@ mpo_1099_tributary_setup_effect = {
 
 		# K_KERAIT
 		title:k_kerait.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_arkhangai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_ovorkhangai.holder ?= {
@@ -14406,15 +14648,12 @@ mpo_1099_tributary_setup_effect = {
 		}
 
 		# K_TYVA
-		title:c_ulaangom.holder ?= { #1000
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_uvs_nuur.holder ?= { #1000
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# OTHER
 		title:d_onggirad.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_ubsunur_hollow.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -14454,6 +14693,12 @@ mpo_1099_tributary_setup_effect = {
 		title:d_zhetysu.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_chuguchak.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	#title:e_caspian-pontic_steppe.holder ?= { #
@@ -14476,14 +14721,6 @@ mpo_1099_tributary_setup_effect = {
 	}
 
 	# K_KERAIT
-	title:k_kerait.holder ?= {
-		save_scope_as = suzerain
-
-		# K_KERAIT
-		title:c_ikh_bogd.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	# K_NAIMAN
 	title:k_altai.holder ?= {
@@ -14504,6 +14741,9 @@ mpo_1099_tributary_setup_effect = {
 		title:d_zavkhan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_qinggil.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# K_TATAR
@@ -14520,6 +14760,15 @@ mpo_1099_tributary_setup_effect = {
 
 		# K_GOBI
 		title:d_murin_china.holder ?= { #1203
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_em_wuguguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_sonkhot.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_ulaantatar.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -14631,9 +14880,6 @@ mpo_1099_tributary_setup_effect = {
 		}
 
 		# K_ZHETYSU
-		title:c_chuguchak.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:k_caspian_steppe.holder ?= {
@@ -14830,14 +15076,6 @@ mpo_1099_tributary_setup_effect = {
 		#}
 	#}
 
-	title:c_gobi_dorngovi.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_sonkhot.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_gobi_ongi_gol.holder ?= {
 		save_scope_as = suzerain
@@ -15341,6 +15579,15 @@ mpo_1099_tributary_setup_effect = {
 		title:c_ongi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_ikh_bogd.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_pecheneg.holder ?= {
@@ -15534,23 +15781,7 @@ mpo_1099_tributary_setup_effect = {
 		}
 	}
 
-	title:c_em_dadaels.holder ?= {
-		save_scope_as = suzerain
 
-		# K_DORNOGOVI
-		title:c_gobi_ulaantatar.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
-
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_jinghiz.holder ?= {
 		save_scope_as = suzerain
@@ -15691,9 +15922,6 @@ mpo_1099_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -15744,20 +15972,18 @@ mpo_1099_tributary_setup_effect = {
 		}
 	}
 
-	title:c_altay.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_qinggil.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_kush-murun.holder ?= {
 		save_scope_as = suzerain
 
 		# K_QARA_DALA
 		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -16080,6 +16306,14 @@ mpo_1099_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# KERAIT hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_kerait.holder ?= {
+		save_scope_as = suzerain
+		title:d_arkhangai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -16631,9 +16865,6 @@ mpo_1144_tributary_setup_effect = {
 		}
 
 		# K_KERAIT
-		title:d_arkhangai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_KHAKASSIA
 		title:d_khakass_hollow.holder ?= {
@@ -16661,9 +16892,7 @@ mpo_1144_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
-		title:c_balashagun.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
+		# c_balashagun removed: the gur-khan holds both e_turan and Balasagun in 1144 (self-loop)
 		# K_TUVA
 		title:d_tannu_ola.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
@@ -16675,12 +16904,6 @@ mpo_1144_tributary_setup_effect = {
 		}
 
 		# K_ZHETYSU
-		title:d_ili-alatau.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_tarbagatai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_zhetysu.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -16713,17 +16936,18 @@ mpo_1144_tributary_setup_effect = {
 		title:d_murin_china.holder ?= { #1203
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-	}
-
-	# K_KERAIT
-	title:k_kerait.holder ?= {
-		save_scope_as = suzerain
-
-		# K_KERAIT
-		title:c_ikh_bogd.holder ?= {
+		title:d_SW_heicheziguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_sonkhot.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_ulaantatar.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
+
+	# K_KERAIT
 
 	# K_NAIMAN
 	title:k_altai.holder ?= {
@@ -16744,6 +16968,9 @@ mpo_1144_tributary_setup_effect = {
 		title:d_zavkhan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_qinggil.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# K_KHAMAG
@@ -16751,9 +16978,6 @@ mpo_1144_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_DORNOGOVI
-		title:d_SW_heicheziguo.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_em_wuguguo.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -16970,6 +17194,9 @@ mpo_1144_tributary_setup_effect = {
 		title:c_em_dadaels.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_LIAO_ulagaian.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_ovorkhangai.holder ?= {
@@ -16983,6 +17210,15 @@ mpo_1144_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_ikh_bogd.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_mugodzhar_hills.holder ?= {
@@ -17108,14 +17344,6 @@ mpo_1144_tributary_setup_effect = {
 		#}
 	#}
 
-	title:c_gobi_dorngovi.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_sonkhot.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_gobi_ongi_gol.holder ?= {
 		save_scope_as = suzerain
@@ -17826,14 +18054,6 @@ mpo_1144_tributary_setup_effect = {
 		}
 	}
 
-	title:c_em_dadaels.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_ulaantatar.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_jinghiz.holder ?= {
 		save_scope_as = suzerain
@@ -17983,9 +18203,6 @@ mpo_1144_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -18016,16 +18233,14 @@ mpo_1144_tributary_setup_effect = {
 		title:d_SW_sushenguo.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
+		title:c_LIAO_longhuazhou.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:c_LIAO_horqinan.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
 	}
 
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_gurbantunggut.holder ?= {
 		save_scope_as = suzerain
@@ -18054,14 +18269,6 @@ mpo_1144_tributary_setup_effect = {
 		}
 	}
 
-	title:c_altay.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_qinggil.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:k_goguryeo.holder ?= {
 		save_scope_as = suzerain
@@ -18086,6 +18293,12 @@ mpo_1144_tributary_setup_effect = {
 
 		# K_QARA_DALA
 		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -18408,6 +18621,28 @@ mpo_1144_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# KERAIT hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_kerait.holder ?= {
+		save_scope_as = suzerain
+		title:d_arkhangai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:d_ili-alatau.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_tarbagatai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -18799,10 +19034,7 @@ mpo_1144_tributary_setup_effect = {
 	# C_TAKON
     title:c_takon.holder ?= {
         save_scope_as = suzerain
-        title:c_momauk.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-        title:c_hanlan.holder ?= {
+        title:c_hanlan.holder ?= { # Yusseter: c_maukkadaw
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
     }
@@ -18915,12 +19147,6 @@ mpo_1178_tributary_setup_effect = {
 		}
 
 		# K_ZHETYSU
-		title:d_ili-alatau.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_tarbagatai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_zhetysu.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -18953,6 +19179,15 @@ mpo_1178_tributary_setup_effect = {
 		title:d_murin_china.holder ?= { #1203
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:d_SW_heicheziguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_sonkhot.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_ulaantatar.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# K_KERAIT
@@ -18960,9 +19195,6 @@ mpo_1178_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_DORNOGOVI
-		title:d_SW_heicheziguo.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_em_wuguguo.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -18993,7 +19225,7 @@ mpo_1178_tributary_setup_effect = {
 		}
 
 		# K_KERAIT
-		title:c_ikh_bogd.holder ?= {
+		title:d_arkhangai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -19015,6 +19247,9 @@ mpo_1178_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_zavkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_qinggil.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -19218,6 +19453,9 @@ mpo_1178_tributary_setup_effect = {
 		title:c_em_dadaels.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_LIAO_ulagaian.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_ovorkhangai.holder ?= {
@@ -19231,6 +19469,15 @@ mpo_1178_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_ikh_bogd.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_mugodzhar_hills.holder ?= {
@@ -19353,14 +19600,6 @@ mpo_1178_tributary_setup_effect = {
 		#}
 	#}
 
-	title:c_gobi_dorngovi.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_sonkhot.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_gobi_ongi_gol.holder ?= {
 		save_scope_as = suzerain
@@ -20057,14 +20296,6 @@ mpo_1178_tributary_setup_effect = {
 		}
 	}
 
-	title:c_em_dadaels.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_ulaantatar.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_jinghiz.holder ?= {
 		save_scope_as = suzerain
@@ -20219,9 +20450,6 @@ mpo_1178_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -20252,16 +20480,14 @@ mpo_1178_tributary_setup_effect = {
 		title:d_SW_sushenguo.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-	}
-
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
+		title:c_LIAO_longhuazhou.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_LIAO_horqinan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
+
 
 	title:d_gurbantunggut.holder ?= {
 		save_scope_as = suzerain
@@ -20281,14 +20507,6 @@ mpo_1178_tributary_setup_effect = {
 		}
 	}
 
-	title:c_altay.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_qinggil.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:k_goguryeo.holder ?= {
 		save_scope_as = suzerain
@@ -20313,6 +20531,12 @@ mpo_1178_tributary_setup_effect = {
 
 		# K_QARA_DALA
 		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -20626,6 +20850,20 @@ mpo_1178_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:d_ili-alatau.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_tarbagatai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -21022,10 +21260,7 @@ mpo_1178_tributary_setup_effect = {
 	# C_TAKON
     title:c_takon.holder ?= {
         save_scope_as = suzerain
-        title:c_momauk.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-        title:c_hanlan.holder ?= {
+        title:c_hanlan.holder ?= { # Yusseter: c_maukkadaw
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
     }
@@ -21111,6 +21346,7 @@ mpo_1178_tributary_setup_effect = {
 }
 
 
+
 mpo_1187_tributary_setup_effect = {
 
 	#############################################################
@@ -21142,12 +21378,6 @@ mpo_1187_tributary_setup_effect = {
 		}
 
 		# K_ZHETYSU
-		title:d_ili-alatau.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_tarbagatai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_zhetysu.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -21180,6 +21410,15 @@ mpo_1187_tributary_setup_effect = {
 		title:d_murin_china.holder ?= { #1203
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:d_SW_heicheziguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_sonkhot.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_ulaantatar.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# K_KERAIT
@@ -21187,9 +21426,6 @@ mpo_1187_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_DORNOGOVI
-		title:d_SW_heicheziguo.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_em_wuguguo.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -21220,7 +21456,7 @@ mpo_1187_tributary_setup_effect = {
 		}
 
 		# K_KERAIT
-		title:c_ikh_bogd.holder ?= {
+		title:d_arkhangai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -21242,6 +21478,9 @@ mpo_1187_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_zavkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_qinggil.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -21439,6 +21678,9 @@ mpo_1187_tributary_setup_effect = {
 		title:c_em_dadaels.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_LIAO_ulagaian.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_ovorkhangai.holder ?= {
@@ -21452,6 +21694,15 @@ mpo_1187_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_ikh_bogd.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_mugodzhar_hills.holder ?= {
@@ -21577,14 +21828,6 @@ mpo_1187_tributary_setup_effect = {
 		#}
 	#}
 
-	title:c_gobi_dorngovi.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_sonkhot.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_gobi_ongi_gol.holder ?= {
 		save_scope_as = suzerain
@@ -22281,14 +22524,6 @@ mpo_1187_tributary_setup_effect = {
 		}
 	}
 
-	title:c_em_dadaels.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_ulaantatar.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_jinghiz.holder ?= {
 		save_scope_as = suzerain
@@ -22443,9 +22678,6 @@ mpo_1187_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -22476,16 +22708,14 @@ mpo_1187_tributary_setup_effect = {
 		title:d_SW_sushenguo.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-	}
-
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
+		title:c_LIAO_longhuazhou.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_LIAO_horqinan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
+
 
 	title:d_gurbantunggut.holder ?= {
 		save_scope_as = suzerain
@@ -22505,14 +22735,6 @@ mpo_1187_tributary_setup_effect = {
 		}
 	}
 
-	title:c_altay.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_qinggil.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:k_goguryeo.holder ?= {
 		save_scope_as = suzerain
@@ -22537,6 +22759,12 @@ mpo_1187_tributary_setup_effect = {
 
 		# K_QARA_DALA
 		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -22850,6 +23078,20 @@ mpo_1187_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:d_ili-alatau.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_tarbagatai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -23224,10 +23466,7 @@ mpo_1187_tributary_setup_effect = {
 	# C_TAKON
     title:c_takon.holder ?= {
         save_scope_as = suzerain
-        title:c_momauk.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-        title:c_hanlan.holder ?= {
+        title:c_hanlan.holder ?= { # Yusseter: c_maukkadaw
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
     }
@@ -23313,6 +23552,7 @@ mpo_1187_tributary_setup_effect = {
 }
 
 
+
 mpo_1194_tributary_setup_effect = {
 
 	#############################################################
@@ -23340,9 +23580,6 @@ mpo_1194_tributary_setup_effect = {
 
 		# K_ZHETYSU
 		title:d_ili-alatau.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_tarbagatai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_zhetysu.holder ?= {
@@ -23377,6 +23614,15 @@ mpo_1194_tributary_setup_effect = {
 		title:d_murin_china.holder ?= { #1203
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:d_SW_heicheziguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_sonkhot.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_gobi_ulaantatar.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# K_KERAIT
@@ -23385,6 +23631,9 @@ mpo_1194_tributary_setup_effect = {
 
 		# K_KERAIT
 		title:c_ikh_bogd.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_arkhangai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -23406,6 +23655,9 @@ mpo_1194_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_zavkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_qinggil.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -23609,6 +23861,9 @@ mpo_1194_tributary_setup_effect = {
 		title:c_em_dadaels.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_LIAO_ulagaian.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_ovorkhangai.holder ?= {
@@ -23622,6 +23877,12 @@ mpo_1194_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_mugodzhar_hills.holder ?= {
@@ -23747,14 +24008,6 @@ mpo_1194_tributary_setup_effect = {
 		#}
 	#}
 
-	title:c_gobi_dorngovi.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_sonkhot.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_gobi_ongi_gol.holder ?= {
 		save_scope_as = suzerain
@@ -24451,14 +24704,6 @@ mpo_1194_tributary_setup_effect = {
 		}
 	}
 
-	title:c_em_dadaels.holder ?= {
-		save_scope_as = suzerain
-
-		# K_DORNOGOVI
-		title:c_gobi_ulaantatar.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_jinghiz.holder ?= {
 		save_scope_as = suzerain
@@ -24613,9 +24858,6 @@ mpo_1194_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -24646,16 +24888,14 @@ mpo_1194_tributary_setup_effect = {
 		title:d_SW_sushenguo.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-	}
-
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
+		title:c_LIAO_horqinan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_LIAO_longhuazhou.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
+
 
 	title:d_gurbantunggut.holder ?= {
 		save_scope_as = suzerain
@@ -24675,14 +24915,6 @@ mpo_1194_tributary_setup_effect = {
 		}
 	}
 
-	title:c_altay.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_qinggil.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:k_goguryeo.holder ?= {
 		save_scope_as = suzerain
@@ -24707,6 +24939,12 @@ mpo_1194_tributary_setup_effect = {
 
 		# K_QARA_DALA
 		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -25020,6 +25258,17 @@ mpo_1194_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:d_tarbagatai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -25416,10 +25665,7 @@ mpo_1194_tributary_setup_effect = {
 	# C_TAKON
     title:c_takon.holder ?= {
         save_scope_as = suzerain
-        title:c_momauk.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-        title:c_hanlan.holder ?= {
+        title:c_hanlan.holder ?= { # Yusseter: c_maukkadaw
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
     }
@@ -25491,6 +25737,7 @@ mpo_1194_tributary_setup_effect = {
 }
 
 
+
 mpo_1204_tributary_setup_effect = {
 
 	#############################################################
@@ -25527,15 +25774,16 @@ mpo_1204_tributary_setup_effect = {
 		title:d_ili-alatau.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_tarbagatai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_qayaliq.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
 		# OTHER
 		title:d_qirghiz.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		
+		title:c_lepsink.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -25603,6 +25851,14 @@ mpo_1204_tributary_setup_effect = {
 		title:d_ubsunur_hollow.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		
+		title:d_teriqan_china.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		
+		title:c_karabalgasun.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# K_NAIMAN
@@ -25622,6 +25878,9 @@ mpo_1204_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_zavkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_qinggil.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -25854,6 +26113,9 @@ mpo_1204_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:c_em_dadaels.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_em_kherulendada.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -26112,17 +26374,6 @@ mpo_1204_tributary_setup_effect = {
 		}
 	}
 
-	title:c_qayaliq.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_aksuyek.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_uchkul.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_saran.holder ?= {
 		save_scope_as = suzerain
@@ -26498,6 +26749,12 @@ mpo_1204_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:c_ongi.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -26855,9 +27112,6 @@ mpo_1204_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -26882,16 +27136,17 @@ mpo_1204_tributary_setup_effect = {
 		title:d_SW_sushenguo.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
+		title:c_LIAO_ulagaian.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:c_LIAO_horqinan.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:c_LIAO_longhuazhou.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
 	}
 
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_gurbantunggut.holder ?= {
 		save_scope_as = suzerain
@@ -26911,14 +27166,6 @@ mpo_1204_tributary_setup_effect = {
 		}
 	}
 
-	title:c_altay.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ALTAI
-		title:c_qinggil.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:k_goguryeo.holder ?= {
 		save_scope_as = suzerain
@@ -26943,6 +27190,12 @@ mpo_1204_tributary_setup_effect = {
 
 		# K_QARA_DALA
 		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -27247,6 +27500,23 @@ mpo_1204_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:d_tarbagatai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_aksuyek.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_uchkul.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -27423,9 +27693,7 @@ mpo_1204_tributary_setup_effect = {
 		title:c_tindouf.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
-		title:c_sijilmasa.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
+		# c_sijilmasa removed at this gate: the caliph holds it himself in 1204 (self-loop)
 		title:c_draa.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
@@ -27653,10 +27921,7 @@ mpo_1204_tributary_setup_effect = {
 	# C_TAKON
     title:c_takon.holder ?= {
         save_scope_as = suzerain
-        title:c_momauk.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-        title:c_hanlan.holder ?= {
+        title:c_hanlan.holder ?= { # Yusseter: c_maukkadaw
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
     }
@@ -27728,6 +27993,7 @@ mpo_1204_tributary_setup_effect = {
 }
 
 
+
 mpo_1211_tributary_setup_effect = {
 
 	#############################################################
@@ -27754,15 +28020,16 @@ mpo_1211_tributary_setup_effect = {
 		title:d_ili-alatau.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_tarbagatai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_qayaliq.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
 		# OTHER
 		title:d_qirghiz.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		
+		title:c_lepsink.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -27884,6 +28151,10 @@ mpo_1211_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:c_beshbalik.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		
+		title:c_karabalgasun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -28105,6 +28376,9 @@ mpo_1211_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:c_em_dadaels.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_em_kherulendada.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -28366,17 +28640,6 @@ mpo_1211_tributary_setup_effect = {
 		}
 	}
 
-	title:c_qayaliq.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_aksuyek.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_uchkul.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_saran.holder ?= {
 		save_scope_as = suzerain
@@ -28754,6 +29017,12 @@ mpo_1211_tributary_setup_effect = {
 		title:c_ongi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_pecheneg.holder ?= {
@@ -29106,9 +29375,6 @@ mpo_1211_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -29133,16 +29399,17 @@ mpo_1211_tributary_setup_effect = {
 		title:d_SW_sushenguo.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
+		title:c_LIAO_ulagaian.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:c_LIAO_horqinan.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
+		title:c_LIAO_longhuazhou.holder ?= {
+            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+        }
 	}
 
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_altay.holder ?= {
 		save_scope_as = suzerain
@@ -29176,6 +29443,12 @@ mpo_1211_tributary_setup_effect = {
 
 		# K_QARA_DALA
 		title:c_abugan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_karasu.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kush-murun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -29480,6 +29753,23 @@ mpo_1211_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:d_tarbagatai.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_aksuyek.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_uchkul.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -29938,10 +30228,7 @@ mpo_1211_tributary_setup_effect = {
 	# C_TAKON
     title:c_takon.holder ?= {
         save_scope_as = suzerain
-        title:c_momauk.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-        title:c_hanlan.holder ?= {
+        title:c_hanlan.holder ?= { # Yusseter: c_maukkadaw
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
     }
@@ -30006,6 +30293,7 @@ mpo_1211_tributary_setup_effect = {
 		}
 	}
 }
+
 
 
 mpo_1234_tributary_setup_effect = {
@@ -30337,9 +30625,6 @@ mpo_1234_tributary_setup_effect = {
 		}
 
 		# K_CUMAN
-		title:d_kazakh.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_kokturgay.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -30423,12 +30708,6 @@ mpo_1234_tributary_setup_effect = {
 		}
 
 		# K_SYR_DARYA
-		title:c_sighnaq.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_chah.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_ZHETYSU
 		title:c_chuguchak.holder ?= {
@@ -30462,13 +30741,19 @@ mpo_1234_tributary_setup_effect = {
 		title:d_tarbagatai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_jinsko.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_kopathal.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_ili-alatau.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_aksuyek.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_uchkul.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -30741,17 +31026,6 @@ mpo_1234_tributary_setup_effect = {
 		}
 	}
 
-	title:c_kopathal.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_aksuyek.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_uchkul.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_kotera.holder ?= {
 		save_scope_as = suzerain
@@ -31213,6 +31487,12 @@ mpo_1234_tributary_setup_effect = {
 		title:c_ongi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_red_levedia.holder ?= {
@@ -31389,14 +31669,6 @@ mpo_1234_tributary_setup_effect = {
 		}
 	}
 
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_gurbantunggut.holder ?= {
 		save_scope_as = suzerain
@@ -31551,9 +31823,6 @@ mpo_1234_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -31895,6 +32164,22 @@ mpo_1234_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# CUMAN hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_cuman.holder ?= {
+		save_scope_as = suzerain
+		title:d_kazakh.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# TARBAGATAI hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_tarbagatai.holder ?= {
+		save_scope_as = suzerain
+		title:c_jinsko.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -32540,6 +32825,19 @@ mpo_1246_tributary_setup_effect = {
 		title:k_xia.holder ?= { # Yusseter: title:k_hexi.holder
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		
+		title:c_LIAO_horqinan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_BAL_changchun.holder ?= { # Yusseter: c_fuyu_china
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_em_wuguguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_SW_heicheziguo.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	##Proto Successors States
@@ -32813,10 +33111,16 @@ mpo_1246_tributary_setup_effect = {
 		}
 
 		# K_ZHETYSU
-		title:c_almaty.holder ?= {
+		title:d_tarbagatai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_tarbagatai.holder ?= {
+		title:c_aksuyek.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_uchkul.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -32949,9 +33253,6 @@ mpo_1246_tributary_setup_effect = {
 		}
 
 		# K_MORDVINIA
-		title:c_balachev.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_SYR_DARYA
 		title:c_chah.holder ?= {
@@ -33035,17 +33336,6 @@ mpo_1246_tributary_setup_effect = {
 	}
 
 	# -- the herders --
-	title:c_almaty.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_aksuyek.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_uchkul.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_baigaluuls.holder ?= {
 		save_scope_as = suzerain
@@ -33501,6 +33791,9 @@ mpo_1246_tributary_setup_effect = {
 		title:c_perekop.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_oleshye.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_em_wuguguo.holder ?= {
@@ -33508,6 +33801,9 @@ mpo_1246_tributary_setup_effect = {
 
 		# K_DORNOGOVI
 		title:c_em_karakopi.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_em_dutulun.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -33612,6 +33908,12 @@ mpo_1246_tributary_setup_effect = {
 		title:c_ongi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_pecheneg.holder ?= {
@@ -33682,6 +33984,9 @@ mpo_1246_tributary_setup_effect = {
 
 		# K_OGHUZ_IL
 		title:c_ustyurt.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_garabogazkol.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -33797,14 +34102,6 @@ mpo_1246_tributary_setup_effect = {
 		}
 	}
 
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_gurbantunggut.holder ?= {
 		save_scope_as = suzerain
@@ -33968,9 +34265,6 @@ mpo_1246_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -34725,6 +35019,7 @@ mpo_1246_tributary_setup_effect = {
 }
 
 
+
 mpo_1258_tributary_setup_effect = {
 
 	#############################################################
@@ -35294,6 +35589,15 @@ mpo_1258_tributary_setup_effect = {
 		title:d_tarbagatai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_aksuyek.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_uchkul.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	# E_PERSIA - Pre Ilkhanate
@@ -35440,14 +35744,8 @@ mpo_1258_tributary_setup_effect = {
 		}
 
 		# K_MORDVINIA
-		title:c_balachev.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_SYR_DARYA
-		title:c_chah.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_teriqan_china.holder ?= {
@@ -35526,17 +35824,6 @@ mpo_1258_tributary_setup_effect = {
 	}
 
 	# -- the herders --
-	title:c_almaty.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_aksuyek.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_uchkul.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_baigaluuls.holder ?= {
 		save_scope_as = suzerain
@@ -36103,6 +36390,12 @@ mpo_1258_tributary_setup_effect = {
 		title:c_ongi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_pecheneg.holder ?= {
@@ -36289,14 +36582,6 @@ mpo_1258_tributary_setup_effect = {
 		}
 	}
 
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_gurbantunggut.holder ?= {
 		save_scope_as = suzerain
@@ -36460,9 +36745,6 @@ mpo_1258_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -36629,9 +36911,6 @@ mpo_1258_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
-        title:d_ngari.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
 	}
 
 	title:d_ngari.holder ?= {
@@ -37228,9 +37507,6 @@ mpo_1286_tributary_setup_effect = {
 		}
 
 		# K_GOBI
-		title:c_gobi_ongi_gol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		title:d_murin_china.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
@@ -37670,9 +37946,6 @@ mpo_1286_tributary_setup_effect = {
 		}
 
 		# K_ZHETYSU
-		title:k_zhetysu.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_tarbagatai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -38458,6 +38731,12 @@ mpo_1286_tributary_setup_effect = {
 		title:c_ongi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_pecheneg.holder ?= {
@@ -38659,23 +38938,7 @@ mpo_1286_tributary_setup_effect = {
 		}
 	}
 
-	title:c_iliq.holder ?= {
-		save_scope_as = suzerain
 
-		# K_ZHETYSU
-		title:c_ghulja.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
-
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_jinghiz.holder ?= {
 		save_scope_as = suzerain
@@ -38821,9 +39084,6 @@ mpo_1286_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -39192,6 +39452,28 @@ mpo_1286_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:c_aksuyek.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_uchkul.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:c_ghulja.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -39368,10 +39650,7 @@ mpo_1286_tributary_setup_effect = {
 	# C_TAKON
 	title:c_takon.holder ?= {
 		save_scope_as = suzerain
-		title:c_momauk.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_hanlan.holder ?= {
+		title:c_hanlan.holder ?= { # Yusseter: c_maukkadaw
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -39627,9 +39906,6 @@ mpo_1300_tributary_setup_effect = {
 		}
 
 		# K_GOBI
-		title:c_gobi_ongi_gol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		title:d_murin_china.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
@@ -40075,9 +40351,6 @@ mpo_1300_tributary_setup_effect = {
 		}
 
 		# K_ZHETYSU
-		title:k_zhetysu.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_tarbagatai.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -40863,6 +41136,12 @@ mpo_1300_tributary_setup_effect = {
 		title:c_ongi.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
 	}
 
 	title:d_pecheneg.holder ?= {
@@ -41064,23 +41343,7 @@ mpo_1300_tributary_setup_effect = {
 		}
 	}
 
-	title:c_iliq.holder ?= {
-		save_scope_as = suzerain
 
-		# K_ZHETYSU
-		title:c_ghulja.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
-
-	title:c_chuguchak.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_guzkol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:d_jinghiz.holder ?= {
 		save_scope_as = suzerain
@@ -41226,9 +41489,6 @@ mpo_1300_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -41597,6 +41857,28 @@ mpo_1300_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:c_aksuyek.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_uchkul.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:c_ghulja.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_guzkol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 
@@ -41992,9 +42274,6 @@ mpo_1337_tributary_setup_effect = {
 		}
 
 		# K_GOBI
-		title:c_gobi_ongi_gol.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_GOGURYEO
 		title:k_goguryeo.holder ?= {
@@ -42267,9 +42546,6 @@ mpo_1337_tributary_setup_effect = {
 		title:d_saryarka.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_chumkar_kia.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_KHWAREZMIA
 		#Turkestan
@@ -42377,21 +42653,12 @@ mpo_1337_tributary_setup_effect = {
 		title:d_soghd.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_badakhshan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_karran.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_ZHETYSU
-		title:c_aksuyek.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_uchkul.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_alakol.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:d_badakhshan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -42464,6 +42731,9 @@ mpo_1337_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_barsuki.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_kos_uba.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -43083,9 +43353,6 @@ mpo_1337_tributary_setup_effect = {
 		title:c_baisary.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:c_kos_uba.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_barsuki.holder ?= {
@@ -43234,6 +43501,12 @@ mpo_1337_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:c_ongi.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_bombogor.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_khasagt_khairkhan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -43596,9 +43869,6 @@ mpo_1337_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_ALTAI
-		title:c_altay.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:c_zarman.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -43640,14 +43910,6 @@ mpo_1337_tributary_setup_effect = {
 		}
 	}
 
-	title:c_emil.holder ?= {
-		save_scope_as = suzerain
-
-		# K_ZHETYSU
-		title:c_jinsko.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-	}
 
 	title:c_altay.holder ?= {
 		save_scope_as = suzerain
@@ -43985,6 +44247,33 @@ mpo_1337_tributary_setup_effect = {
 	}
 
 	#############################################################
+	# TURGAY hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_turgay.holder ?= {
+		save_scope_as = suzerain
+		title:c_chumkar_kia.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:k_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:c_jinsko.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
+	# ZHETYSU hierarchy - active de jure duchies under the kingdom, held counties under their duchy lords
+	title:d_zhetysu.holder ?= {
+		save_scope_as = suzerain
+		title:c_aksuyek.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		title:c_uchkul.holder ?= {
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+	}
+
 	# NON-NOMADIC TRIBUTARIES
 	#############################################################
 

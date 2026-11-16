@@ -1437,7 +1437,7 @@ k_youji = {
 	1099.12.12 = { holder = 1413108 } #Yelü Heluwo
 	1110.10.11 = { holder = 1413109 } #Yelü Chun
 	#Northern Liao
-	1122.7.6 = { holder = 0 effect = { reset_coa = THIS } } #Yelü Ding
+	1122.7.6 = { holder = 0 effect = { reset_coa = yes } } #Yelü Ding
 	#Jin
 	1124.1.1 = { name = ZHONGJING_JIN } 
 	
@@ -24164,6 +24164,12 @@ c_xiuzhou = {
 	}
 	1129.9.16 = {  } #设行在
 	1162.7.24 = { holder = zhuojun_zhao_545 } #孝宗
+	1173.7.12 = { # the King of Liangzhe held no county 1173-1186; Xiuzhou serves as his seat
+		holder = tangyin_yue_021
+	}
+	1186.10.9 = {
+		holder = zhuojun_zhao_545 # Zhuojun Zhao Bocong
+	}
 	1189.2.18 = { holder = han_12651 } #光宗
 	1194.7.24 = { holder = ZhangHanMB28 liege = h_china } #寧宗
 	1213.8.27 = {
@@ -28299,7 +28305,10 @@ c_youzhou = {
 	924.4.14 = { holder = 1401905 } #Li Cunxian
 	925.1.24 = { holder = 1402055 } #Li Shaobin
 	#Liao
-	937.1.2 = { holder = 1400364 name = "LIAOBEIJING" } #Zhao Siwen
+	937.1.2 = { holder = 1400364
+		name = "LIAOBEIJING"
+		name = "BLIAOBEIJING" # Liao Southern Capital
+	} #Zhao Siwen
 	938.1.1 = { holder = 1400362 } #Zhao Yanshou
 	947.1.1 = { holder = 1413582 } #Xiao Haizhen
 	948.1.1 = { holder = 1400362 } #Zhao Yanshou
@@ -28343,7 +28352,10 @@ c_youzhou = {
 	#Northern Liao
 	1122.7.6 = { holder = 1413121 } #Yelü Ding
 	#Jin
-	1123.1.5 = { holder = jurchen42 liege = e_andong name = "JINBEIJING" } #斡魯 Captured by Jin (三朝北盟會編/卷012)
+	1123.1.5 = { holder = jurchen42 liege = e_andong
+		name = "JINBEIJING"
+		name = "BJINBEIJING" # Jin
+	} #斡魯 Captured by Jin (三朝北盟會編/卷012)
 	#Song Yanshanfu
 	1123.5.7 = { holder = yangqu_wang_001 liege = h_china } #Wang Anzhong, Transfered to Song (宋史/卷022)
 	1123.12.7 = { holder = yuhang_cai_001 } #Cai Jing - made prefect
@@ -28377,6 +28389,9 @@ c_youzhou = {
 		holder = Qasar10
 		liege = e_mongol_empire 
 		name = "YUANBEIJING"
+	}
+	1227.12.2 = {
+		name = "BYUANBEIJING" # Yuan
 	}
 	1234.2.9 = { holder = 172005 }
 	1241.12.11 = { holder = 172007 }
@@ -28428,9 +28443,6 @@ c_youzhou = {
 
 b_ji = {
 	2.1.1 = { name = "b_youzhoujixian_china" }
-	937.1.2 = { name = "BLIAOBEIJING" }
-	1123.1.5 = { name = "BJINBEIJING" }
-	1227.12.2 = { name = "BYUANBEIJING" }
 }
 
 c_tanzhou_2 = {
@@ -38031,6 +38043,9 @@ c_chuzhou = {
 	#
 	1131.10.24 = { holder = meishan_su_082 } #Su Chi - made prefect
 	#
+	1143.1.1 = { #Su Chi dies; Su Jian's tenure brought forward
+		holder = meishan_su_085 # Jian
+	}
 	1146.1.1 = { holder = meishan_su_085 } #Su Jian - prefect around this time
 	#
 	1159.3.29 = { holder = xianyou_ye_027 } #Ye Yong - made prefect
@@ -39445,6 +39460,12 @@ c_lingzhou_1 = {
 	1066.1.1 = { holder = patron_031s } #easteggs
 
 	#1072.1.23 = { name = "Lingjing" }
+	1073.1.1 = { #prefect unknown after Zhang Tianxi's death; bridged through Zhao Zongshi
+		holder = han_8052 # Zhuojun Zhao Zongshi
+	}
+	1077.3.22 = { #Zongshi dies; bridged through Zhao Yong until his recorded tenure
+		holder = 217727 # Zhuojun Zhao Yong
+	}
 	1085.4.1 = { holder = 217727 }
 	1099.1.1 = { holder = anxi_du_045 }
 	1100.2.23 = { holder = 217728 }
@@ -50976,7 +50997,7 @@ c_guozhou = {
 	1132.5.15 = { holder = fucheng_liu_005 } #Liu Yi - made prefect
 	#Jin
 	1139.1.1 = {
-		liege = e_andong
+		liege = k_henan # Yusseter: k_bianjing
 		holder = jurchen1063
 	}
 	1144.1.1 = {   }
@@ -57386,9 +57407,11 @@ c_shanzhou_mbp = { #兰州/蘭州
 	1032.1.1 = { holder = 1410022 } #Mozhanjiao
 	1058.1.1 = { holder = 1410023 } #Dongzhan
 	#1058.1.1 = { holder = 1410024 } #Muzheng
-	1073.1.1 = { holder = 1410025 } #Aligu
+	1073.1.1 = { holder = 1410025
+		liege = d_qincheng # Yusseter: d_longxi_china
+	} #Aligu
 	#Song
-	1082.3.15 = { holder = wuyuan_yao_004 liege = d_qincheng } #Yao Lin - made prefect
+	1082.3.15 = { holder = wuyuan_yao_004  } #Yao Lin - made prefect
 	1082.8.19 = { holder = 217727 }
 	1097.4.21 = { holder = shangdang_miao_003 } #Miao Lü - made prefect
 	1097.9.1 = { holder = 217727 }

@@ -28688,6 +28688,8 @@ c_guizhou_2 = {
 	}
 	1279.9.12 = {
 		holder = Qasar14
+
+		liege = h_china
 	}
 	1308.6.3 = {
 		holder = Qasar16
@@ -31090,6 +31092,9 @@ c_xiangzhou = {
 		holder = Hulegu1  # Temuge succeeds Hulegu
 	}
 	
+	1281.1.1 = {
+		liege = h_china
+	}
 	1285.1.1 = { liege = h_china } # Yusseter: From c_chanzhou_china
 	
 	1301.9.28 = {

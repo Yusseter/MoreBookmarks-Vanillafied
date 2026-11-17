@@ -462,6 +462,9 @@ MB_ghazi_aydin_hasan = { # Hasan, commander of the ghazi fleets of Aydin under U
 	1195.1.1 = {
 		birth = yes
 	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1250.1.1 = {
 		death = yes
 	}
@@ -519,6 +522,9 @@ Kasid1 = {
 	culture = turkish
 	1209.1.1 = {
 		birth = yes
+	}
+	1258.2.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1278.1.1 = {
 		death = yes
@@ -12889,6 +12895,9 @@ Ulashogi2 = {
 	1275.1.1 = {
 		birth = yes
 	}
+	1300.9.10 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1312.1.1 = {
 		death = yes
 	}
@@ -13774,6 +13783,9 @@ Ulashogi2 = {
 	1280.1.1 = {
 		birth = yes
 	}
+	1324.11.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1340.1.1 = {
 		death = yes
 	}
@@ -13817,7 +13829,7 @@ Ulashogi2 = {
 	name = "Kuntuvdi" #fictional
 	dynasty = 1042045
 	rite = otuken_yish
-	culture = cuman
+	culture = pecheneg
 	723.1.1 = {
 		birth = yes
 	}
@@ -13898,6 +13910,9 @@ Ulashogi2 = {
 	}
 	843.4.1 = {
 		add_spouse = 180263
+	}
+	850.1.1 = {
+		culture = turkish # the Oghuz displace the Pechenegs on the western steppe
 	}
 	875.1.1 = {
 		death = yes
@@ -14838,7 +14853,7 @@ Urusoba2 = {
 	name = "Bonyak" #fictional
 	dynasty = 1042195
 	rite = otuken_yish
-	culture = cuman
+	culture = pecheneg
 	728.1.1 = {
 		birth = yes
 	}
@@ -16686,6 +16701,9 @@ CatateaAlba7 = {
 	1250.1.1 = {
 		birth = yes
 	}
+	1286.3.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1297.1.1 = {
 		death = yes
 	}
@@ -16699,6 +16717,9 @@ CatateaAlba7 = {
 	culture = cuman
 	825.1.1 = {
 		birth = yes
+	}
+	850.1.1 = {
+		culture = turkish # the Oghuz displace the Pechenegs on the western steppe
 	}
 	890.1.1 = {
 		death = yes
@@ -22986,6 +23007,9 @@ karluk0018 = {
 	1050.1.1 = {
 		give_nickname = nick_izz_ad_dawla
 	}
+	1050.1.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1053.1.1 = {
 		death = {
 			death_reason=death_execution
@@ -23105,6 +23129,9 @@ karluk0018 = {
 	1050.1.1 = {
 		give_nickname = nick_baha_ad_dawla
 	}
+	1050.1.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1050.9.1 = {
 		death = yes
 	}
@@ -23125,6 +23152,9 @@ karluk0018 = {
 	trait = just
 	1012.1.1 = {
 		birth = yes
+	}
+	1050.1.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1053.1.1 = {
 		give_nickname = nick_jamal_ad_dawla
@@ -23165,6 +23195,9 @@ karluk0018 = {
 		#?
 		add_spouse=1230629
 	}
+	1050.1.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1072.1.1 = {
 		#?
 		death = yes
@@ -23204,6 +23237,9 @@ karluk0018 = {
 	trait = patient
 	1022.1.1 = {
 		birth = yes
+	}
+	1050.1.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1065.1.1 = {
 		effect = {
@@ -23260,6 +23296,9 @@ karluk0018 = {
 		birth = yes
 		culture = tajik
 	}
+	1050.1.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1053.1.1 = {
 		#?
 		death={
@@ -23278,6 +23317,9 @@ karluk0018 = {
 	1030.1.1 = {
 		birth = yes
 		culture = tajik
+	}
+	1050.1.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1053.1.1 = {
 		death={
@@ -23299,6 +23341,9 @@ karluk0018 = {
 	1050.1.1 = {
 		give_nickname = nick_baha_ad_dawla
 	}
+	1050.1.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1050.6.1 = {
 		death = yes
 	}
@@ -23309,7 +23354,7 @@ karluk0018 = {
 	dynasty = 790
 	father = 144133
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1052.1.1 = {
 		birth = yes
 	}
@@ -23326,7 +23371,7 @@ karluk0018 = {
 	dynasty = 790
 	father = 144133
 	rite = hanafi
-	culture = karluk
+	culture = persian_turkish
 	martial = 7
 	diplomacy = 5
 	intrigue = 5
@@ -23349,7 +23394,7 @@ karluk0018 = {
 	dynasty = 790
 	father = 144133
 	rite = hanafi
-	culture = karluk
+	culture = persian_turkish
 	1055.1.1 = {
 		birth = yes
 		culture = tajik
@@ -23367,7 +23412,7 @@ karluk0018 = {
 	dynasty = 790
 	father = 144134
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	martial = 5
 	diplomacy = 5
 	intrigue = 5
@@ -23393,7 +23438,7 @@ karluk0018 = {
 	father = 144135
 	mother = 1229959
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	martial = 7
 	diplomacy = 4
 	intrigue = 7
@@ -23419,7 +23464,7 @@ karluk0018 = {
 	dynasty = 790
 	father = 144135
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	martial = 3
 	diplomacy = 4
 	intrigue = 6
@@ -23443,7 +23488,7 @@ karluk0018 = {
 	dynasty = 790
 	father = 144137
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1104.1.1 = {
 		birth = yes
 	}
@@ -23460,7 +23505,7 @@ karluk0018 = {
 	dynasty = 790
 	father = 144137
 	rite = hanafi
-	culture = karluk
+	culture = persian_turkish
 	1104.1.1 = {
 		birth = yes
 		culture = tajik
@@ -23475,7 +23520,7 @@ karluk0018 = {
 	dynasty = 790
 	father = 144138
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	martial = 6
 	diplomacy = 5
 	intrigue = 3
@@ -23510,7 +23555,7 @@ karluk0018 = {
 	dynasty = 790
 	father = 144139
 	rite = hanafi
-	culture = karluk
+	culture = persian_turkish
 	1145.1.1 = {
 		birth = yes
 		culture = tajik
@@ -23542,7 +23587,7 @@ karluk0018 = {
 	dynasty = 790
 	father = 144139
 	rite = hanafi
-	culture = karluk
+	culture = persian_turkish
 	1151.1.1 = {
 		birth = yes
 		culture = tajik
@@ -24788,6 +24833,9 @@ karluk0045 = {
 	1075.1.1 = {
 		birth = yes
 	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1102.1.1 = {
 		give_nickname = nick_arslan_khan
 	}
@@ -24848,6 +24896,9 @@ karluk0046 = {
 	culture = turkish
 	1081.1.1 = {
 		birth = yes
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1132.1.1 = {
 		give_nickname = nick_rukn_ad_dunya
@@ -25017,6 +25068,9 @@ karluk0047 = {
 	}
 	1141.1.1 = {
 		give_nickname = nick_tamghach_khan
+	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1156.1.1 = {
 		death = yes
@@ -25291,6 +25345,9 @@ karluk0049 = {
 	1171.1.1 = {
 		give_nickname = nick_arslan_khan
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1204.1.1 = {
 		death = yes
 	}
@@ -25377,6 +25434,9 @@ karluk0050 = {
 	culture = turkish
 	1165.1.1 = {
 		birth = yes
+	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1212.1.1 = {
 		death = yes
@@ -27864,6 +27924,9 @@ BolgharMB39 = {
 		birth = yes
 		give_nickname = nick_ikhtiyar_al_din
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1206.3.15 = {
 		death = {
 			death_reason = death_murder_known
@@ -27895,6 +27958,9 @@ BolgharMB39 = {
 	1167.1.1 = {
 		birth = yes
 	}
+	1211.6.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1212.1.1 = {
 		death = yes
 	}
@@ -27909,6 +27975,9 @@ BolgharMB39 = {
 	1168.1.1 = {
 		birth = yes
 	}
+	1211.6.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1227.1.1 = {
 		death = yes
 	}
@@ -27922,6 +27991,9 @@ BolgharMB39 = {
 	culture = khalaj
 	1180.1.1 = {
 		birth = yes
+	}
+	1211.6.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1227.1.1 = {
 		death = yes
@@ -27969,6 +28041,9 @@ BolgharMB39 = {
 	trait = compassionate
 	1216.1.1 = {
 		birth = yes
+	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1290.1.1 = {
 		give_nickname = nick_shams_ad_din
@@ -28048,6 +28123,9 @@ BolgharMB39 = {
 	1242.1.1 = {
 		birth = yes
 	}
+	1267.6.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1296.1.1 = {
 		give_nickname = nick_ala_ad_din
 	}
@@ -28064,6 +28142,9 @@ BolgharMB39 = {
 	culture = khalaj
 	1264.1.1 = {
 		birth = yes
+	}
+	1300.9.10 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1328.1.1 = {
 		death = yes
@@ -28155,6 +28236,9 @@ BolgharMB39 = {
 	culture = khalaj
 	1292.1.1 = {
 		birth = yes
+	}
+	1337.5.24 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1360.1.1 = {
 		death = yes
@@ -63866,7 +63950,7 @@ NorthTribals3082 = {
 	name = "Mawdud" #placeholder Ghuzz character
 	dynasty = 7336 #Ghuzz
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1080.1.1 = {
 		birth = yes
 	}
@@ -63880,7 +63964,7 @@ NorthTribals3082 = {
 	dynasty = 7336 #Ghuzz
 	father = 1230149
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1100.1.1 = {
 		birth = yes
 	}
@@ -63894,7 +63978,7 @@ NorthTribals3082 = {
 	dynasty = 7336 #Ghuzz
 	father = 1230149
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1102.1.1 = {
 		birth = yes
 	}
@@ -63908,7 +63992,7 @@ NorthTribals3082 = {
 	dynasty = 7336 #Ghuzz
 	father = 1230149
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1104.1.1 = {
 		birth = yes
 	}
@@ -63922,7 +64006,7 @@ NorthTribals3082 = {
 	dynasty = 7336 #Ghuzz
 	father = 1230149
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1106.1.1 = {
 		birth = yes
 	}
@@ -63936,7 +64020,7 @@ NorthTribals3082 = {
 	dynasty = 7336 #Ghuzz
 	father = 1230151
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1123.1.1 = {
 		birth = yes
 	}
@@ -63950,7 +64034,7 @@ NorthTribals3082 = {
 	dynasty = 7336 #Ghuzz
 	father = 1230150
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1126.1.1 = {
 		birth = yes
 	}
@@ -63964,7 +64048,7 @@ NorthTribals3082 = {
 	dynasty = 7336 #Ghuzz
 	father = 1230151
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1128.1.1 = {
 		birth = yes
 	}
@@ -63978,7 +64062,7 @@ NorthTribals3082 = {
 	dynasty = 7336 #Ghuzz
 	father = 1230152
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1130.1.1 = {
 		birth = yes
 	}
@@ -63992,7 +64076,7 @@ NorthTribals3082 = {
 	dynasty = 7336
 	father = 1230148
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	stewardship = 8
 	trait = brave
 	1140.1.1 = {
@@ -64008,7 +64092,7 @@ NorthTribals3082 = {
 	dynasty = 7336
 	father = 93256
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1160.1.1 = {
 		birth = yes
 	}
@@ -64022,7 +64106,7 @@ NorthTribals3082 = {
 	dynasty = 7336
 	father = 93256
 	rite = hanafi
-	culture = tajik
+	culture = persian_turkish
 	1163.1.1 = {
 		birth = yes
 	}
@@ -70129,6 +70213,9 @@ tujue_04 = {
 	1195.1.1 = {
 		birth = yes
 	}
+	1234.4.6 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1235.1.1 = {
 		death={
 			death_reason=death_battle
@@ -70162,6 +70249,9 @@ tujue_04 = {
 		#? was fairly young when he was made shihna of Baghdad
 		birth = yes
 	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1097.1.1 = {
 		#assassinated
 		death = yes
@@ -70177,6 +70267,9 @@ tujue_04 = {
 	1060.1.1 = {
 		#?
 		birth = yes
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1116.1.1 = {
 		death = yes
@@ -70240,6 +70333,9 @@ tujue_04 = {
 		#?
 		birth = yes
 	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1136.1.1 = {
 		#alive during Sultan Mas'ud's reign
 		death = yes
@@ -70271,6 +70367,9 @@ tujue_04 = {
 	1117.1.1 = {
 		#?
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1155.1.1 = {
 		#?
@@ -70568,6 +70667,9 @@ tujue_04 = {
 		#?
 		birth = yes
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1172.1.1 = {
 		death = yes
 	}
@@ -70582,6 +70684,9 @@ tujue_04 = {
 	1132.1.1 = {
 		#?
 		birth = yes
+	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1189.1.1 = {
 		death = yes
@@ -70666,6 +70771,9 @@ tujue_04 = {
 		#?
 		birth = yes
 	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1153.1.1 = {
 		death={
 			death_reason=death_execution
@@ -70683,6 +70791,9 @@ tujue_04 = {
 	1113.1.1 = {
 		#? old enough be present in the Battle of Qatwan (1141)
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1153.1.1 = {
 		death={
@@ -70735,6 +70846,9 @@ tujue_04 = {
 	1074.1.1 = {
 		birth = yes
 	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1134.1.1 = {
 		death = yes
 	}
@@ -70748,6 +70862,9 @@ tujue_04 = {
 	culture = turkish
 	1105.1.1 = {
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1174.1.1 = {
 		death = yes
@@ -70763,6 +70880,9 @@ tujue_04 = {
 	1134.1.1 = {
 		birth = yes
 	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1188.1.1 = {
 		death = yes
 	}
@@ -70776,6 +70896,9 @@ tujue_04 = {
 	culture = turkish
 	1137.1.1 = {
 		birth = yes
+	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1207.1.1 = {
 		death = yes
@@ -70808,6 +70931,9 @@ tujue_04 = {
 	}
 	1198.1.1 = {
 		add_spouse=93298
+	}
+	1211.6.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1225.1.1 = {
 		add_spouse=93053
@@ -70842,6 +70968,9 @@ tujue_04 = {
 	trait = just
 	1113.1.1 = {
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1168.1.1 = {
 		death = yes
@@ -70881,6 +71010,9 @@ begteginid_1 = {
 	1154.4.1 = {
 		birth = yes
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1178.1.1 = {
 		give_nickname = nick_muzaffar_al_din
 	}
@@ -70903,6 +71035,9 @@ begteginid_5 = {
 	trait = education_stewardship_2
 	1158.1.1 = {
 		birth = yes
+	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1178.1.1 = {
 		give_nickname = nick_zayn_al_din
@@ -70939,6 +71074,9 @@ begteginid_5 = {
 	1041.1.1 = {
 		birth = yes
 	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1085.1.1 = {
 		death = yes
 	}
@@ -70953,6 +71091,9 @@ begteginid_5 = {
 	trait = education_martial_3
 	1121.1.1 = {
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1174.1.1 = {
 		death = {
@@ -70971,6 +71112,9 @@ begteginid_5 = {
 	1141.1.1 = {
 		birth = yes
 	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1185.1.1 = {
 		death = yes
 	}
@@ -70984,6 +71128,9 @@ begteginid_5 = {
 	culture = turkish
 	1163.1.1 = {
 		birth = yes
+	}
+	1187.8.31 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1188.1.1 = {
 		death = yes
@@ -70999,6 +71146,9 @@ begteginid_5 = {
 	1120.1.1 = {
 		birth = yes
 		culture = turkish
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1168.1.1 = {
 		death = yes
@@ -71028,6 +71178,9 @@ begteginid_5 = {
 	culture = turkish
 	1114.1.1 = {
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1169.1.1 = {
 		death = {
@@ -71073,6 +71226,9 @@ begteginid_5 = {
 	1160.1.1 = {
 		birth = yes
 	}
+	1187.8.31 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1195.1.1 = {
 		death = yes
 	}
@@ -71086,6 +71242,9 @@ begteginid_5 = {
 	culture = turkish
 	1163.1.1 = {
 		birth = yes
+	}
+	1187.8.31 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1221.1.1 = {
 		death = yes
@@ -71101,6 +71260,9 @@ begteginid_5 = {
 	1214.1.1 = {
 		birth = yes
 	}
+	1246.6.13 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1286.1.1 = {
 		death = yes
 	}
@@ -71114,6 +71276,9 @@ begteginid_5 = {
 	culture = turkish
 	1249.1.1 = {
 		birth = yes
+	}
+	1286.3.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1316.1.1 = {
 		death = yes
@@ -71129,6 +71294,9 @@ begteginid_5 = {
 	culture = turkish
 	1285.1.1 = {
 		birth = yes
+	}
+	1300.9.10 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1346.1.1 = {
 		death = yes
@@ -71268,6 +71436,9 @@ begteginid_5 = {
 	1146.1.1 = {
 		birth = yes
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1193.1.1 = {
 		death = yes
 	}
@@ -71281,6 +71452,9 @@ begteginid_5 = {
 	culture = turkish
 	1162.1.1 = {
 		birth = yes
+	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1206.1.1 = {
 		death = yes
@@ -71311,6 +71485,9 @@ begteginid_5 = {
 	1038.1.1 = {
 		birth = yes
 	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1092.1.1 = {
 		death = yes
 	}
@@ -71325,6 +71502,9 @@ begteginid_5 = {
 	1065.1.1 = {
 		birth = yes
 	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1113.1.1 = {
 		death = yes
 	}
@@ -71338,6 +71518,9 @@ begteginid_5 = {
 	culture = turkish
 	1049.1.1 = {
 		birth = yes
+	}
+	1081.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1102.1.1 = {
 		death = yes
@@ -71381,6 +71564,9 @@ begteginid_5 = {
 	1043.1.1 = {
 		birth = yes
 	}
+	1081.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1084.1.1 = {
 		rite = byzantine_rite
 	}
@@ -71401,6 +71587,9 @@ begteginid_5 = {
 	1149.1.1 = {
 		birth = yes
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1198.1.1 = {
 		death = yes
 	}
@@ -71414,6 +71603,9 @@ begteginid_5 = {
 	culture = turkish
 	1142.1.1 = {
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1198.1.10 = {
 		death = yes
@@ -71815,6 +72007,9 @@ begteginid_5 = {
 	1150.1.1 = {
 		birth = yes
 	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1200.1.1 = {
 		death = yes
 	}
@@ -71993,6 +72188,9 @@ begteginid_5 = {
 	1149.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1220.1.1 = {
 		death = yes
 	}
@@ -72011,6 +72209,9 @@ begteginid_5 = {
 	trait = education_intrigue_2
 	1150.1.1 = {
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1200.1.1 = {
 		death = yes
@@ -72178,6 +72379,9 @@ begteginid_5 = {
 	1150.1.1 = {
 		birth = yes
 	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1200.1.1 = {
 		death = yes
 	}
@@ -72220,6 +72424,9 @@ begteginid_5 = {
 	1150.1.1 = {
 		birth = yes
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1200.1.1 = {
 		death = yes
 	}
@@ -72240,6 +72447,9 @@ begteginid_5 = {
 	trait = education_martial_3
 	1150.1.1 = {
 		birth = yes
+	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1200.1.1 = {
 		death = yes
@@ -72274,6 +72484,9 @@ begteginid_5 = {
 	trait = education_intrigue_2
 	1150.1.1 = {
 		birth = yes
+	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1221.1.1 = {
 		death = yes
@@ -72312,6 +72525,9 @@ begteginid_5 = {
 	trait = education_martial_2
 	1300.1.1 = {
 		birth = yes
+	}
+	1324.11.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1350.1.1 = {
 		death = yes
@@ -72452,6 +72668,9 @@ begteginid_5 = {
 	1150.1.1 = {
 		birth = yes
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1221.1.1 = {
 		death = yes
 	}
@@ -72486,6 +72705,9 @@ Badr1 = {
 	1195.4.13 = {
 		birth = yes
 	}
+	1234.4.6 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1251.9.28 = {
 		death = yes
 	}
@@ -72500,6 +72722,9 @@ Badr2 = {
 	1223.8.5 = {
 		birth = yes
 	}
+	1258.2.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1280.6.17 = {
 		death = yes
 	}
@@ -72513,6 +72738,9 @@ Badr3 = {
 	culture = turkish
 	1250.11.19 = {
 		birth = yes
+	}
+	1286.3.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1300.1.1 = {
 		culture = turkmeni
@@ -72534,6 +72762,9 @@ Badr4 = {
 	1300.1.1 = {
 		culture = turkmeni
 	}
+	1310.6.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1330.10.12 = {
 		death = yes
 	}
@@ -72551,6 +72782,9 @@ Badr4 = {
 	trait = education_martial_2
 	1300.1.1 = {
 		birth = yes
+	}
+	1337.5.24 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1350.1.1 = {
 		death = yes
@@ -72571,6 +72805,9 @@ Badr4 = {
 	trait = education_martial_2
 	1150.1.1 = {
 		birth = yes
+	}
+	1171.8.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1200.1.1 = {
 		death = yes
@@ -72634,6 +72871,9 @@ Badr4 = {
 	1150.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1206.3.15 = {
 		death = yes
 	}
@@ -72695,6 +72935,9 @@ Badr4 = {
 	1300.1.1 = {
 		birth = yes
 	}
+	1324.11.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1350.1.1 = {
 		death = yes
 	}
@@ -72714,6 +72957,9 @@ Badr4 = {
 	trait = education_learning_2
 	1152.1.1 = {
 		birth = yes
+	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1242.1.1 = {
 		death = yes
@@ -72735,6 +72981,9 @@ Badr4 = {
 	1150.1.1 = {
 		birth = yes
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1200.1.1 = {
 		death = yes
 	}
@@ -72755,6 +73004,9 @@ Badr4 = {
 	trait = education_martial_2
 	1150.1.1 = {
 		birth = yes
+	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1200.1.1 = {
 		death = yes
@@ -73104,6 +73356,9 @@ Badr4 = {
 		birth = yes
 		give_nickname = nick_imad_al_din
 	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1146.9.14 = {
 		death = {
 			death_reason=death_murder #killed by his slave Yaranqush
@@ -73152,6 +73407,9 @@ Badr4 = {
 		birth = yes
 		give_nickname = nick_nur_al_din
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1174.4.15 = {
 		death = yes
 	}
@@ -73166,6 +73424,9 @@ Badr4 = {
 	1120.1.1 = {
 		birth = yes
 		give_nickname = nick_qutb_al_din
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1170.9.16 = {
 		death = yes
@@ -73186,6 +73447,9 @@ Badr4 = {
 	trait = education_intrigue_1
 	1148.1.1 = {
 		birth = yes
+	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1178.1.1 = {
 		give_nickname = nick_imad_al_din
@@ -73209,6 +73473,9 @@ Badr4 = {
 	1150.1.1 = {
 		birth = yes
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1178.1.1 = {
 		add_trait = consumption
 		give_nickname = nick_sayf_al_din
@@ -73226,6 +73493,9 @@ Badr4 = {
 	culture = turkish
 	1152.1.1 = {
 		birth = yes
+	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1178.1.1 = {
 		give_nickname = nick_izz_al_din
@@ -73247,6 +73517,9 @@ Badr4 = {
 	1174.1.1 = {
 		give_nickname = nick_as_salih
 	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1181.1.1 = {
 		death = yes
 	}
@@ -73263,6 +73536,9 @@ Zengid1 = {
 	}
 	1193.1.1 = {
 		give_nickname = nick_muizz_ad_din
+	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1208.1.1 = {
 		death = yes
@@ -73281,6 +73557,9 @@ Zengid1 = {
 	1193.1.1 = {
 		give_nickname = nick_nur_ad_din
 	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1211.1.1 = {
 		death = yes
 	}
@@ -73297,6 +73576,9 @@ Zengid2 = {
 	}
 	1208.1.1 = {
 		give_nickname = nick_muizz_ad_din
+	}
+	1234.4.6 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1241.1.1 = {
 		death = yes
@@ -73315,6 +73597,9 @@ Zengid2 = {
 	1211.1.1 = {
 		give_nickname = nick_izz_ad_din
 	}
+	1211.6.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1218.1.1 = {
 		death = yes
 	}
@@ -73331,6 +73616,9 @@ Zengid2 = {
 	}
 	1219.1.1 = {
 		give_nickname = nick_nasir_ad_din
+	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1233.12.1 = {
 		death = {
@@ -73349,6 +73637,9 @@ Zengid2 = {
 	1193.1.1 = {
 		#?
 		birth = yes
+	}
+	1211.6.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1236.5.1 = {
 		death = yes
@@ -73396,6 +73687,9 @@ Zengid3 = {
 	1215.1.1 = {
 		birth = yes
 	}
+	1246.6.13 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1290.1.1 = {
 		death = yes
 	}
@@ -73406,7 +73700,7 @@ Zengid3 = {
 	name = "Eldiguz_MB"
 	dynasty = 101876
 	rite = hanafi
-	culture = turkish
+	culture = persian_turkish
 	martial = 9
 	diplomacy = 7
 	intrigue = 8
@@ -73430,7 +73724,7 @@ Zengid3 = {
 	dynasty = 101876
 	father = 144051
 	rite = hanafi
-	culture = turkish
+	culture = persian_turkish
 	trait = education_martial_3
 	trait = ambitious
 	trait = patient
@@ -73454,7 +73748,7 @@ Zengid3 = {
 	dynasty = 101876
 	father = 144052
 	rite = hanafi
-	culture = turkish
+	culture = persian_turkish
 	martial = 4
 	diplomacy = 4
 	intrigue = 7
@@ -73492,6 +73786,9 @@ Zengid3 = {
 	1153.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1206.1.1 = {
 		give_nickname = nick_qutb_ad_din
 	}
@@ -73510,6 +73807,9 @@ Zengid3 = {
 	culture = turkish
 	1175.1.1 = {
 		birth = yes
+	}
+	1204.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1211.6.1 = {
 		death = {
@@ -73560,6 +73860,9 @@ Zengid3 = {
 	1200.1.1 = {
 		birth = yes
 	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1236.1.1 = {
 		give_nickname = nick_rukn_ad_din
 	}
@@ -73605,6 +73908,9 @@ Zengid3 = {
 	1206.1.1 = {
 		birth = yes
 	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1239.1.1 = {
 		give_nickname = nick_muizz_ad_din
 	}
@@ -73624,6 +73930,9 @@ Zengid3 = {
 	culture = turkish
 	1207.1.1 = {
 		birth = yes
+	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1229.1.1 = {
 		death = yes
@@ -73686,6 +73995,9 @@ Zengid3 = {
 	}
 	1246.1.1 = {
 		give_nickname = nick_nasir_ad_din
+	}
+	1246.6.13 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1266.2.19 = {
 		death={
@@ -73772,6 +74084,9 @@ FemaleIlutimishi2 = {
 	1158.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1200.1.1 = {
 		death = yes
 	}
@@ -73819,6 +74134,9 @@ FemaleIlutimishi2 = {
 	1206.1.1 = {
 		birth = yes
 	}
+	1211.6.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1222.1.1 = {
 		add_trait = just
 		add_trait = callous
@@ -73829,9 +74147,7 @@ FemaleIlutimishi2 = {
 	1223.1.1 = {
 		add_spouse = 170216
 	}
-	1242.5.15 = {
-		employer = 170201
-	}
+	# court entry removed: Balban already holds his own iqta when the sultan is enthroned
 	1266.1.1 = {
 		give_nickname = nick_ghiyath_ad_din
 	}
@@ -73863,6 +74179,9 @@ FemaleIlutimishi2 = {
 	trait = education_martial_3 #put down many revolts and defended Multan against the Mongols
 	1213.1.1 = {
 		birth = yes
+	}
+	1246.6.13 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1271.1.1 = {
 		#4 or 5 years after Balban's ascension to the throne; rumored to have been poisoned by Balban
@@ -73903,11 +74222,17 @@ FemaleIlutimishi2 = {
 	}
 	1246.1.1 = {
 		effect = {
-			create_betrothal = character:170202
+			if = {
+				limit = { is_adult = no is_married = no character:170202 ?= { is_alive = yes is_adult = no is_married = no } } # betrothals only bind children: at later starts the pair are already wed adults, or the bride is dead
+				create_betrothal = character:170202
+			}
 		}
 	}
 	1258.1.1 = {
 		add_spouse = 170202
+	}
+	1258.2.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1291.1.1 = {
 		death = yes
@@ -73938,6 +74263,9 @@ FemaleIlutimishi2 = {
 	culture = turkish
 	1231.1.1 = {
 		birth = yes
+	}
+	1267.6.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1302.1.1 = {
 		death = yes
@@ -73970,6 +74298,9 @@ FemaleIlutimishi2 = {
 	}
 	1286.1.1 = {
 		give_nickname = nick_muizz_ad_din
+	}
+	1286.3.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1289.1.1 = {
 		add_trait = incapable
@@ -74043,6 +74374,9 @@ FemaleIlutimishi2 = {
 	1251.1.1 = {
 		birth = yes
 	}
+	1258.2.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1288.1.1 = {
 		death = yes
 	}
@@ -74066,6 +74400,9 @@ FemaleIlutimishi2 = {
 	}
 	1320.1.1 = {
 		give_nickname = nick_ghiyath_ad_din
+	}
+	1324.11.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1325.2.1 = {
 		death = {
@@ -74108,6 +74445,9 @@ FemaleIlutimishi2 = {
 			set_realm_capital = title:c_delhi
 		}
 	}
+	1337.5.24 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1351.3.20 = {
 		death = yes
 	}
@@ -74121,6 +74461,9 @@ FemaleIlutimishi2 = {
 	culture = turkish
 	1302.1.1 = {
 		birth = yes
+	}
+	1324.11.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1348.1.1 = {
 		death = yes
@@ -74137,6 +74480,9 @@ FemaleIlutimishi2 = {
 	trait = temperate
 	1309.1.1 = {
 		birth = yes
+	}
+	1337.5.24 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1388.9.20 = {
 		death = yes
@@ -74240,6 +74586,9 @@ FemTughluqi4 = {
 	1174.1.1 = {
 		birth = yes
 	}
+	1234.4.6 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1236.1.1 = {
 		death = yes
 	}
@@ -74270,6 +74619,9 @@ FemTughluqi4 = {
 	1219.1.1 = {
 		birth = yes
 	}
+	1246.6.13 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1281.1.1 = {
 		death = {
 			death_reason = death_battle
@@ -74286,6 +74638,9 @@ FemTughluqi4 = {
 	1202.1.1 = {
 		birth = yes
 	}
+	1246.6.13 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1247.1.1 = {
 		death = yes
 	}
@@ -74299,6 +74654,9 @@ FemTughluqi4 = {
 	culture = turkish
 	1219.1.1 = {
 		birth = yes
+	}
+	1246.6.13 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1251.1.1 = {
 		death = yes
@@ -74314,6 +74672,9 @@ FemTughluqi4 = {
 	1208.1.1 = {
 		birth = yes
 	}
+	1246.6.13 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1257.1.1 = {
 		death = yes
 	}
@@ -74328,6 +74689,9 @@ FemTughluqi4 = {
 	1224.1.1 = {
 		birth = yes
 	}
+	1258.2.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1259.1.1 = {
 		death = yes
 	}
@@ -74341,6 +74705,9 @@ FemTughluqi4 = {
 	culture = turkish
 	1200.1.1 = {
 		birth = yes
+	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1268.1.1 = {
 		death = yes
@@ -74384,6 +74751,9 @@ FemTughluqi4 = {
 	1248.1.1 = {
 		birth = yes
 	}
+	1267.6.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1322.1.1 = {
 		death = yes
 	}
@@ -74397,6 +74767,9 @@ FemTughluqi4 = {
 	culture = turkish
 	1266.1.1 = {
 		birth = yes
+	}
+	1300.9.10 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1319.1.1 = {
 		death = yes
@@ -74412,6 +74785,9 @@ FemTughluqi4 = {
 	1267.1.1 = {
 		birth = yes
 	}
+	1300.9.10 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1331.1.1 = {
 		death = yes
 	}
@@ -74425,6 +74801,9 @@ FemTughluqi4 = {
 	culture = turkish
 	1268.1.1 = {
 		birth = yes
+	}
+	1300.9.10 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1328.6.1 = {
 		death = {
@@ -74456,6 +74835,9 @@ FemTughluqi4 = {
 	1270.1.1 = {
 		birth = yes
 	}
+	1300.9.10 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1328.12.1 = {
 		death = yes
 	}
@@ -74483,6 +74865,9 @@ FemTughluqi4 = {
 	culture = turkish
 	1275.1.1 = {
 		birth = yes
+	}
+	1337.5.24 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1338.1.1 = {
 		death = yes
@@ -74512,6 +74897,9 @@ FemTughluqi4 = {
 	1305.1.1 = {
 		birth = yes
 	}
+	1337.5.24 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1339.1.1 = {
 		death = yes
 	}
@@ -74526,6 +74914,9 @@ FemTughluqi4 = {
 	1280.1.1 = {
 		birth = yes
 	}
+	1310.6.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1328.1.1 = {
 		death = yes
 	}
@@ -74539,6 +74930,9 @@ FemTughluqi4 = {
 	culture = turkish
 	1304.1.1 = {
 		birth = yes
+	}
+	1337.5.24 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1339.1.1 = {
 		death = yes
@@ -74563,6 +74957,9 @@ FemTughluqi4 = {
 	1202.1.1 = {
 		add_spouse = 170301
 	}
+	1204.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1228.5.30 = {
 		death = {
 			death_reason=death_battle #drowned while trying to escape from Bhakkar
@@ -74580,6 +74977,9 @@ FemTughluqi4 = {
 	culture = turkish
 	1202.4.5 = {
 		birth = yes
+	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1261.3.1 = {
 		death = yes
@@ -74611,6 +75011,9 @@ FemTughluqi4 = {
 	trait = ambitious
 	1178.1.1 = {
 		birth = yes
+	}
+	1204.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1206.3.15 = {
 		add_pressed_claim = title:e_rajastan
@@ -74778,6 +75181,9 @@ FemTughluqi4 = {
 	1260.1.1 = {
 		birth = yes
 	}
+	1324.11.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1335.1.1 = {
 		death = yes
 	}
@@ -74793,6 +75199,9 @@ FemTughluqi4 = {
 	1150.1.1 = {
 		birth = yes
 	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1206.1.1 = {
 		death = yes
 	}
@@ -74806,6 +75215,9 @@ FemTughluqi4 = {
 	culture = turkish
 	1170.1.1 = {
 		birth = yes
+	}
+	1204.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1210.1.1 = {
 		death = yes
@@ -74842,6 +75254,9 @@ FemTughluqi4 = {
 	1280.1.1 = {
 		birth = yes
 	}
+	1286.3.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1360.1.1 = {
 		death = yes
 	}
@@ -74857,6 +75272,9 @@ FemTughluqi4 = {
 	trait = compassionate
 	1193.1.1 = {
 		birth = yes
+	}
+	1246.6.13 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1250.1.1 = {
 		death = yes
@@ -74874,6 +75292,9 @@ Bhadrid1 = {
 	1214.1.1 = {
 		birth = yes
 	}
+	1258.2.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1291.1.1 = {
 		death = yes
 	}
@@ -74887,6 +75308,9 @@ Bhadrid1 = {
 	culture = turkish
 	1150.1.1 = {
 		birth = yes
+	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1210.1.1 = {
 		death = yes
@@ -74915,6 +75339,9 @@ Bhadrid1 = {
 	culture = turkish
 	1198.1.1 = {
 		birth = yes
+	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1250.1.1 = {
 		death = yes
@@ -74989,6 +75416,9 @@ Bhadrid1 = {
 	1180.1.1 = {
 		birth = yes
 	}
+	1234.4.6 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1268.1.1 = {
 		death = yes
 	}
@@ -75033,6 +75463,9 @@ Bhadrid1 = {
 	1215.1.1 = {
 		birth = yes
 	}
+	1234.4.6 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1300.1.1 = {
 		culture=turkmeni
 	}
@@ -75069,6 +75502,9 @@ Bhadrid1 = {
 	}
 	1300.1.1 = {
 		culture=turkmeni
+	}
+	1310.6.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1355.1.1 = {
 		death = yes
@@ -75268,6 +75704,9 @@ Bhadrid1 = {
 	1100.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1173.1.1 = {
 		death = yes #killed by Ghurids
 	}
@@ -75352,6 +75791,9 @@ Bhadrid1 = {
 	1199.1.1 = {
 		birth = yes
 	}
+	1211.6.16 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1250.1.1 = {
 		add_spouse=71856
 	}
@@ -75373,6 +75815,9 @@ Bhadrid1 = {
 	1252.1.1 = {
 		birth = yes
 	}
+	1286.3.15 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1301.1.1 = {
 		death = yes
 	}
@@ -75387,6 +75832,9 @@ Bhadrid1 = {
 	culture = turkish
 	1255.1.1 = {
 		birth = yes
+	}
+	1286.3.15 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1298.1.1 = {
 		death = yes
@@ -75640,6 +76088,9 @@ Bhadrid1 = {
 	1123.9.6 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1185.9.1 = {
 		death = yes
 	}
@@ -75653,6 +76104,9 @@ Bhadrid1 = {
 	culture = turkish
 	1151.1.8 = {
 		birth = yes
+	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1210.3.4 = {
 		death = yes
@@ -75737,6 +76191,9 @@ Bhadrid1 = {
 	culture = turkish
 	1140.3.18 = {
 		birth = yes
+	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1195.4.9 = {
 		death = yes
@@ -76214,6 +76671,9 @@ Bhadrid1 = {
 	1130.1.1 = {
 		birth = yes
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1185.1.1 = {
 		death = yes
 	}
@@ -76298,6 +76758,9 @@ Bhadrid1 = {
 	1104.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1174.1.1 = {
 		death = yes
 	}
@@ -76311,6 +76774,9 @@ Bhadrid1 = {
 	culture = turkish
 	1100.1.1 = {
 		birth = yes
+	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1148.1.1 = {
 		death = yes
@@ -76341,6 +76807,9 @@ Bhadrid1 = {
 	1140.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1175.1.1 = {
 		death = yes
 		give_nickname = nick_muzaffar_al_din
@@ -76356,6 +76825,9 @@ Bhadrid1 = {
 	1158.1.1 = {
 		birth = yes
 	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1193.1.1 = {
 		death = yes
 	}
@@ -76369,6 +76841,9 @@ Bhadrid1 = {
 	culture = turkish
 	1178.1.1 = {
 		birth = yes
+	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1203.1.1 = {
 		death = yes
@@ -76384,6 +76859,9 @@ Bhadrid1 = {
 	1180.1.1 = {
 		birth = yes
 	}
+	1204.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1226.1.1 = {
 		death = yes
 	}
@@ -76397,6 +76875,12 @@ Bhadrid1 = {
 	culture = turkish
 	1200.1.1 = {
 		birth = yes
+	}
+	1234.4.6 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
+	1250.1.1 = {
+		culture = luri # ported from the game-start culture setup
 	}
 	1260.1.1 = {
 		death = yes
@@ -76413,6 +76897,9 @@ Bhadrid1 = {
 		#?
 		birth = yes
 	}
+	1250.1.1 = {
+		culture = luri # ported from the game-start culture setup
+	}
 	1258.1.1 = {
 		#?
 		death = yes
@@ -76427,6 +76914,9 @@ Bhadrid1 = {
 	culture = turkish
 	1220.1.1 = {
 		birth = yes
+	}
+	1250.1.1 = {
+		culture = luri # ported from the game-start culture setup
 	}
 	1261.1.1 = {
 		death = yes
@@ -76443,6 +76933,9 @@ Bhadrid1 = {
 	1222.1.1 = {
 		birth = yes
 	}
+	1250.1.1 = {
+		culture = luri # ported from the game-start culture setup
+	}
 	1262.1.1 = {
 		death = yes
 	}
@@ -76456,6 +76949,9 @@ Bhadrid1 = {
 	culture = turkish
 	1240.1.1 = {
 		birth = yes
+	}
+	1250.1.1 = {
+		culture = luri # ported from the game-start culture setup
 	}
 	1279.1.1 = {
 		#sent to the Ilkhan's court in 1263 at the instigation of his wife Terken Khatun
@@ -76471,6 +76967,9 @@ Bhadrid1 = {
 	culture = turkish
 	1241.1.1 = {
 		birth = yes
+	}
+	1250.1.1 = {
+		culture = luri # ported from the game-start culture setup
 	}
 	1264.1.1 = {
 		death = {
@@ -76489,6 +76988,9 @@ Bhadrid1 = {
 	culture = turkish
 	1244.1.1 = {
 		birth = yes
+	}
+	1250.1.1 = {
+		culture = luri # ported from the game-start culture setup
 	}
 	1272.1.1 = {
 		add_spouse=125530
@@ -76565,6 +77067,9 @@ Bhadrid1 = {
 	1066.1.1 = {
 		give_nickname = nick_sad_al_dawla
 	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1100.5.1 = {
 		#died in battle against supporters of Muhammad Tapar
 		death = {
@@ -76625,6 +77130,9 @@ Bhadrid1 = {
 	1050.1.1 = {
 		birth = yes
 	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1102.1.1 = {
 		death = yes
 	}
@@ -76669,6 +77177,9 @@ Bhadrid1 = {
 	1060.1.1 = {
 		birth = yes
 	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1110.1.1 = {
 		death = yes
 	}
@@ -76710,6 +77221,9 @@ Bhadrid1 = {
 	culture = turkish
 	1070.1.1 = {
 		birth = yes
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1126.11.26 = {
 		death = {
@@ -76755,6 +77269,9 @@ Bhadrid1 = {
 	1060.1.1 = {
 		birth = yes
 	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1112.1.1 = {
 		death = yes
 	}
@@ -76768,6 +77285,9 @@ Bhadrid1 = {
 	culture = turkish
 	1080.1.1 = {
 		birth = yes
+	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1126.1.1 = {
 		death = yes
@@ -76797,6 +77317,9 @@ Bhadrid1 = {
 	1110.1.1 = {
 		birth = yes
 	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1185.1.1 = {
 		death = yes
 	}
@@ -76811,6 +77334,9 @@ Bhadrid1 = {
 	1140.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1193.1.1 = {
 		death = yes
 	}
@@ -76824,6 +77350,9 @@ Bhadrid1 = {
 	culture = turkish
 	1160.1.1 = {
 		birth = yes
+	}
+	1194.9.30 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1207.7.1 = {
 		death = yes
@@ -76853,6 +77382,9 @@ Bhadrid1 = {
 	1080.1.1 = {
 		birth = yes
 	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1141.1.1 = {
 		death = yes
 	}
@@ -76866,6 +77398,9 @@ Bhadrid1 = {
 	culture = turkish
 	1120.1.1 = {
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1183.1.1 = {
 		death = yes
@@ -76894,6 +77429,9 @@ Bhadrid1 = {
 	culture = turkish
 	1070.1.1 = {
 		birth = yes
+	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1128.2.12 = {
 		death = yes
@@ -76964,6 +77502,9 @@ Bhadrid1 = {
 	culture = turkish
 	1124.1.1 = {
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1154.4.8 = {
 		death = yes
@@ -77092,6 +77633,9 @@ Bhadrid1 = {
 	culture = turkish
 	1050.1.1 = {
 		birth = yes
+	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1107.7.1 = {
 		death = yes
@@ -77306,7 +77850,10 @@ Bhadrid1 = {
 	}
 	1246.1.1 = {
 		effect = {
-			create_betrothal = character:32933
+			if = {
+				limit = { is_adult = no is_married = no character:32933 ?= { is_alive = yes is_adult = no is_married = no } } # betrothals only bind children: at later starts the pair are already wed adults, or the bride is dead
+				create_betrothal = character:32933
+			}
 		}
 	}
 	1256.1.1 = {
@@ -77486,6 +78033,9 @@ Bhadrid1 = {
 	1190.1.1 = {
 		birth = yes
 	}
+	1211.6.16 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1252.1.1 = {
 		death = yes
 	}
@@ -77609,6 +78159,9 @@ Hamid2 = {
 	1041.1.1 = {
 		birth = yes
 	}
+	1050.1.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1096.1.1 = {
 		death = yes
 	}
@@ -77619,7 +78172,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 20713
 	rite = hanafi
-	culture = turkish
+	culture = persian_turkish
 	martial = 6
 	diplomacy = 7
 	intrigue = 6
@@ -77643,7 +78196,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 144099
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	martial = 7
 	diplomacy = 6
 	intrigue = 5
@@ -77670,7 +78223,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 144099
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1100.1.1 = {
 		birth = yes
 	}
@@ -77684,7 +78237,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 144100
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1120.1.1 = {
 		birth = yes
 	}
@@ -77701,7 +78254,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 144100
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1121.1.1 = {
 		birth = yes
 	}
@@ -77718,7 +78271,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 144101
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	martial = 5
 	diplomacy = 6
 	intrigue = 4
@@ -77741,6 +78294,11 @@ Hamid2 = {
 			} #brother, rival for the throne
 		}
 	}
+	1172.12.12 = {
+		effect = {
+			set_realm_capital = title:c_gurganj # the shahs rule from Gurganj
+		}
+	}
 	1178.1.1 = {
 		give_nickname = nick_ala_al_din
 		add_prestige = 2000
@@ -77759,7 +78317,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 144101
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1153.1.1 = {
 		birth = yes
 	}
@@ -77777,7 +78335,7 @@ Hamid2 = {
 	father = 230000
 	mother = 1233223
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	martial = 6
 	diplomacy = 7
 	intrigue = 8
@@ -77792,6 +78350,9 @@ Hamid2 = {
 	}
 	1200.1.1 = {
 		give_nickname = nick_ala_ad_din
+		effect = {
+			set_realm_capital = title:c_gurganj # the shahs rule from Gurganj
+		}
 	}
 	1220.1.1 = {
 		add_trait = pneumonic
@@ -77809,7 +78370,7 @@ Hamid2 = {
 	father = 230000
 	mother = 1233223
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1171.1.1 = {
 		birth = yes
 	}
@@ -77824,7 +78385,7 @@ Hamid2 = {
 	father = 230000
 	mother = 1233223
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1175.1.1 = {
 		birth = yes
 	}
@@ -77838,7 +78399,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 93052
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1190.1.1 = {
 		birth = yes
 	}
@@ -77861,7 +78422,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 93052
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1191.1.1 = {
 		birth = yes #?
 	}
@@ -77878,7 +78439,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 93052
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	trait = ambitious
 	1192.1.1 = {
 		birth = yes
@@ -77893,7 +78454,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 93052
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1194.1.1 = {
 		birth = yes
 	}
@@ -77907,7 +78468,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 93052
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1196.1.1 = {
 		birth = yes
 	}
@@ -77924,7 +78485,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 93052
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1197.1.1 = {
 		birth = yes
 	}
@@ -77941,7 +78502,7 @@ Hamid2 = {
 	dynasty_house = house_anushtigar
 	father = 93053
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1212.1.1 = {
 		birth = yes
 	}
@@ -77956,7 +78517,7 @@ Hamid2 = {
 	father = 93053
 	mother = 1230227
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1226.1.1 = {
 		birth = yes
 	}
@@ -77970,7 +78531,7 @@ Anush1 = {
 	dynasty_house = house_anushtigar
 	father = 9305333
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1248.1.1 = {
 		birth = yes
 	}
@@ -77984,7 +78545,7 @@ Anush2 = {
 	dynasty_house = house_anushtigar
 	father = Anush1
 	rite = hanafi
-	culture = khwarezmian
+	culture = persian_turkish
 	1281.1.1 = {
 		birth = yes
 	}
@@ -78016,6 +78577,9 @@ Anush2 = {
 	culture = turkish
 	1069.1.1 = {
 		birth = yes
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1103.1.1 = {
 		death = yes
@@ -78093,6 +78657,9 @@ Anush2 = {
 	1102.1.1 = {
 		give_nickname = nick_rukn_ad_dawla
 	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1144.1.1 = {
 		death = yes
 	}
@@ -78109,6 +78676,9 @@ Anush2 = {
 	}
 	1122.1.1 = {
 		give_nickname = nick_husam_ad_din
+	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1125.1.1 = {
 		death = yes
@@ -78155,6 +78725,9 @@ Anush2 = {
 	1109.1.1 = {
 		give_nickname = nick_fakhr_ad_din
 	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1167.1.1 = {
 		death = yes
 	}
@@ -78168,6 +78741,9 @@ Anush2 = {
 	culture = turkish
 	1110.1.1 = {
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1154.1.1 = {
 		give_nickname = nick_najm_ad_din
@@ -78185,6 +78761,9 @@ Anush2 = {
 	culture = turkish
 	1120.1.1 = {
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1174.1.1 = {
 		give_nickname = nick_nur_ad_din
@@ -78223,6 +78802,9 @@ Anush2 = {
 	1176.1.1 = {
 		give_nickname = nick_qutb_ad_din
 	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1180.1.1 = {
 		death = yes
 	}
@@ -78245,6 +78827,9 @@ Anush2 = {
 	}
 	1185.1.1 = {
 		give_nickname = nick_qutb_ad_din
+	}
+	1187.8.31 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1202.1.1 = {
 		death = yes
@@ -78280,6 +78865,9 @@ Anush2 = {
 	1184.1.1 = {
 		give_nickname = nick_husam_ad_din
 	}
+	1187.8.31 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1200.1.1 = {
 		death = yes
 	}
@@ -78293,6 +78881,9 @@ Anush2 = {
 	culture = turkish
 	1154.1.1 = {
 		birth = yes
+	}
+	1187.8.31 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1201.1.1 = {
 		give_nickname = nick_nasir_ad_din
@@ -78328,6 +78919,9 @@ Anush2 = {
 	1206.1.1 = {
 		give_nickname = nick_imad_ad_din
 	}
+	1211.6.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1220.1.1 = {
 		death = yes
 	}
@@ -78341,6 +78935,9 @@ Anush2 = {
 	culture = turkish
 	1174.1.1 = {
 		birth = yes
+	}
+	1204.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1222.1.1 = {
 		give_nickname = nick_rukn_ad_din
@@ -78375,6 +78972,9 @@ Anush2 = {
 	culture = turkish
 	1190.1.1 = {
 		birth = yes
+	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1232.1.1 = {
 		give_nickname = nick_nur_ad_din
@@ -78700,6 +79300,9 @@ Afsar15 = {
 	1100.1.1 = {
 		birth = yes
 	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1175.1.1 = {
 		death = yes
 	}
@@ -78714,6 +79317,9 @@ Afsar16 = {
 	1125.1.1 = {
 		birth = yes
 	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1200.1.1 = {
 		death = yes
 	}
@@ -78727,6 +79333,9 @@ Afsar17 = {
 	culture = turkish
 	1150.1.1 = {
 		birth = yes
+	}
+	1204.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1225.1.1 = {
 		death = yes
@@ -78860,6 +79469,9 @@ Akkoyunlu0 = {
 	culture = turkish
 	1309.1.1 = {
 		birth = yes
+	}
+	1324.11.30 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1362.1.1 = {
 		death = yes
@@ -79375,6 +79987,9 @@ bayundur12 = {
 	1200.1.1 = {
 		birth = yes
 	}
+	1234.4.6 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1250.1.1 = {
 		death = yes
 	}
@@ -79430,6 +80045,9 @@ bayundur14 = {
 	culture = turkish
 	1250.1.1 = {
 		birth = yes
+	}
+	1286.3.15 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1320.1.1 = {
 		death = yes
@@ -79525,6 +80143,9 @@ Bayuundar1 = {
 	1045.1.1 = {
 		birth = yes
 	}
+	1081.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1118.1.1 = {
 		death = yes
 	}
@@ -79538,6 +80159,9 @@ Bayuundar1 = {
 	culture = turkish
 	1065.1.1 = {
 		birth = yes
+	}
+	1124.7.7 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1142.1.1 = {
 		death = yes
@@ -79553,6 +80177,9 @@ Bayuundar1 = {
 	1095.1.1 = {
 		birth = yes
 	}
+	1144.10.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1162.1.1 = {
 		death = yes
 	}
@@ -79566,6 +80193,9 @@ Bayuundar1 = {
 	culture = turkish
 	1105.1.1 = {
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1162.1.1 = {
 		death = yes
@@ -79595,6 +80225,9 @@ Bayuundar1 = {
 	1140.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1198.1.1 = {
 		death = yes
 	}
@@ -79609,6 +80242,9 @@ Bayuundar1 = {
 	1150.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1225.1.1 = {
 		death = yes
 	}
@@ -79622,6 +80258,9 @@ Bayuundar1 = {
 	culture = turkish
 	1165.1.1 = {
 		birth = yes
+	}
+	1204.5.16 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1227.1.1 = {
 		death = yes
@@ -79650,6 +80289,9 @@ Bayuundar1 = {
 	culture = turkish
 	1190.1.1 = {
 		birth = yes
+	}
+	1234.4.6 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1251.1.1 = {
 		death = yes
@@ -80161,6 +80803,9 @@ Salir5 = {
 	1050.1.1 = {
 		birth = yes
 	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1102.1.1 = {
 		death = yes
 	}
@@ -80189,6 +80834,9 @@ Salir5 = {
 	1082.1.1 = {
 		birth = yes
 	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1132.1.1 = {
 		death = yes
 	}
@@ -80202,6 +80850,9 @@ Salir5 = {
 	culture = turkish
 	1102.1.1 = {
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1168.1.1 = {
 		death = yes
@@ -80225,6 +80876,9 @@ Salir5 = {
 	1150.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1178.1.1 = {
 		give_nickname = nick_nasir_al_din
 	}
@@ -80242,6 +80896,9 @@ Salir5 = {
 	culture = turkish
 	1152.1.1 = {
 		birth = yes
+	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1200.1.1 = {
 		death = yes
@@ -80555,6 +81212,9 @@ Salir5 = {
 	1034.1.2 = {
 		employer=1230135
 	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1088.1.2 = {
 		death = yes
 	}
@@ -80575,6 +81235,9 @@ Salir5 = {
 	trait = education_martial_2
 	1022.1.2 = {
 		birth = yes
+	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1073.4.17 = {
 		death = {
@@ -80629,6 +81292,9 @@ Salir5 = {
 		#?
 		birth = yes
 	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1079.1.2 = {
 		#?
 		death = yes
@@ -80643,6 +81309,9 @@ Salir5 = {
 	culture = turkish
 	1027.1.1 = {
 		birth = yes
+	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1080.1.1 = {
 		death = yes
@@ -80686,6 +81355,9 @@ Salir5 = {
 	culture = turkish
 	1028.1.1 = {
 		birth = yes
+	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1078.1.1 = {
 		death = yes
@@ -80903,6 +81575,9 @@ Salir5 = {
 			}
 		}
 	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1072.11.1 = {
 		death = {
 			death_reason=death_accident
@@ -80927,6 +81602,9 @@ Salir5 = {
 	}
 	1063.9.4 = {
 		add_pressed_claim = title:e_persia
+	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1085.1.1 = {
 		#?
@@ -80972,6 +81650,9 @@ Salir5 = {
 	1037.1.1 = {
 		birth = yes
 	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1097.1.1 = {
 		death = yes
 	}
@@ -80985,6 +81666,9 @@ Salir5 = {
 	culture = turkish
 	1037.1.2 = {
 		birth = yes
+	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1083.1.2 = {
 		death = yes
@@ -81168,6 +81852,9 @@ Salir5 = {
 	1073.4.17 = {
 		add_trait="blind" #blind by Malik Shah's order, but unclear whether partially or fully
 	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1085.1.1 = {
 		death = yes
 	}
@@ -81262,6 +81949,9 @@ Salir5 = {
 			}
 		}
 	}
+	1081.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1086.1.1 = {
 		death = yes
 	}
@@ -81329,6 +82019,9 @@ Salir5 = {
 	1050.1.1 = {
 		birth = yes
 	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1100.1.1 = {
 		death = yes
 	}
@@ -81394,6 +82087,9 @@ Salir5 = {
 	1054.1.1 = {
 		birth = yes
 	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1084.1.1 = {
 		add_trait="blind"
 	}
@@ -81441,6 +82137,9 @@ Salir5 = {
 	1066.1.1 = {
 		give_nickname = nick_jalal_ad_dawla
 	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1092.11.1 = {
 		death = {
 			death_reason = death_murder
@@ -81456,6 +82155,9 @@ Salir5 = {
 	culture = turkish
 	1055.10.10 = {
 		birth = yes
+	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1096.1.1 = {
 		death={
@@ -81474,6 +82176,9 @@ Salir5 = {
 	1056.1.1 = {
 		birth = yes
 	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1100.1.1 = {
 		death = yes
 	}
@@ -81487,6 +82192,9 @@ Salir5 = {
 	culture = turkish
 	1056.6.1 = {
 		birth = yes
+	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1110.1.1 = {
 		death = yes
@@ -81509,6 +82217,9 @@ Salir5 = {
 	trait = education_martial_2
 	1057.1.2 = {
 		birth = yes
+	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1095.1.1 = {
 		death = {
@@ -81550,6 +82261,9 @@ Salir5 = {
 	1085.1.1 = {
 		add_spouse = 34263
 	}
+	1099.7.15 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1107.1.1 = {
 		death = {
 			death_reason=death_battle
@@ -81566,6 +82280,9 @@ Salir5 = {
 	culture = turkish
 	1058.1.2 = {
 		birth = yes
+	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1093.9.1 = {
 		death = {
@@ -81621,6 +82338,9 @@ Salir5 = {
 	}
 	1090.1.1 = {
 		rite = ismaili
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1101.1.1 = {
 		death = { death_reason=death_murder } #killed in a rebellion by his byzantine_rite hanafi atabeg, commanders, and ulema
@@ -81701,6 +82421,9 @@ Salir5 = {
 	trait = diligent
 	1072.1.1 = {
 		birth = yes
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1142.1.1 = {
 		death = yes
@@ -81794,6 +82517,9 @@ Salir5 = {
 	1079.1.1 = {
 		birth = yes
 	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1113.1.1 = {
 		death = yes
 	}
@@ -81808,6 +82534,9 @@ Salir5 = {
 	1080.1.1 = {
 		birth = yes
 	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1104.6.1 = {
 		death = yes
 	}
@@ -81821,6 +82550,9 @@ Salir5 = {
 	culture = turkish
 	1080.10.10 = {
 		birth = yes
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1120.1.1 = {
 		death = yes
@@ -81841,6 +82573,9 @@ Salir5 = {
 	}
 	1094.1.1 = {
 		give_nickname = nick_rukn_ad_din
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1104.12.22 = {
 		death={ death_reason=death_ill }
@@ -81894,6 +82629,9 @@ Salir5 = {
 	1082.1.1 = {
 		birth = yes
 	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1104.1.1 = {
 		give_nickname = nick_ghiyath_ad_din
 	}
@@ -81934,6 +82672,9 @@ Salir5 = {
 	trait = arrogant
 	1085.1.1 = {
 		birth = yes
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1157.5.8 = {
 		death={ death_reason=death_prison }
@@ -81990,6 +82731,9 @@ Salir5 = {
 	1088.1.1 = {
 		birth = yes
 	}
+	1124.7.7 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1130.1.1 = {
 		add_spouse = 34210
 	}
@@ -82007,6 +82751,9 @@ Salir5 = {
 	culture = turkish
 	1089.1.1 = {
 		birth = yes
+	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1135.1.1 = {
 		death = yes
@@ -82065,6 +82812,9 @@ Salir5 = {
 	1092.1.1 = {
 		birth = yes
 	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1156.1.1 = {
 		death = yes
 	}
@@ -82121,6 +82871,9 @@ Salir5 = {
 	culture = turkish
 	1101.1.1 = {
 		birth = yes
+	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1134.1.1 = {
 		give_nickname = nick_ghiyath_ad_din
@@ -82192,6 +82945,9 @@ Salir5 = {
 	1103.1.1 = {
 		birth = yes
 	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1175.1.1 = {
 		death = yes
 	}
@@ -82208,6 +82964,9 @@ Salir5 = {
 	}
 	1118.1.1 = {
 		give_nickname = nick_mughith_ad_din
+	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1131.1.1 = {
 		death = {
@@ -82253,6 +83012,9 @@ Salir5 = {
 	1108.6.6 = {
 		birth = yes
 	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1141.1.1 = {
 		#? probably died in captivity after Boz-Aba dethroned him in Fars
 		death={
@@ -82270,6 +83032,9 @@ Salir5 = {
 	culture = turkish
 	1109.1.1 = {
 		birth = yes
+	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1132.1.1 = {
 		give_nickname = nick_rukn_ad_din
@@ -82342,6 +83107,9 @@ Salir5 = {
 	culture = turkish
 	1120.1.1 = {
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1169.1.1 = {
 		death = yes
@@ -82477,6 +83245,9 @@ Salir5 = {
 			inheritable = yes
 		}
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1178.1.1 = {
 		give_nickname = nick_izz_al_din
 	}
@@ -82497,6 +83268,9 @@ Salir5 = {
 	1133.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1174.1.1 = {
 		death = yes
 	}
@@ -82510,6 +83284,9 @@ Salir5 = {
 	culture = turkish
 	1135.1.1 = {
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1185.1.1 = {
 		death = yes
@@ -82534,6 +83311,9 @@ Salir5 = {
 	}
 	1161.1.1 = {
 		give_nickname = nick_muizz_ad_din
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1175.12.31 = {
 		death = yes
@@ -82564,6 +83344,9 @@ Salir5 = {
 	1140.1.1 = {
 		birth = yes
 	}
+	1171.8.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1174.1.1 = {
 		death = yes
 	}
@@ -82578,6 +83361,9 @@ Salir5 = {
 	1141.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1176.1.1 = {
 		death = yes
 	}
@@ -82591,6 +83377,9 @@ Salir5 = {
 	culture = turkish
 	1142.1.1 = {
 		birth = yes
+	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1183.1.1 = {
 		death = yes
@@ -82644,6 +83433,9 @@ Salir5 = {
 	1155.1.1 = {
 		birth = yes
 	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1200.1.1 = {
 		death = yes
 	}
@@ -82657,6 +83449,9 @@ Salir5 = {
 	culture = turkish
 	1157.1.1 = {
 		birth = yes
+	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1194.1.1 = {
 		#### Killed by his brother Malikshah
@@ -82676,8 +83471,14 @@ Salir5 = {
 	1158.1.1 = {
 		birth = yes
 	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1200.1.1 = {
 		add_spouse = 1232633
+	}
+	1211.6.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1225.1.1 = {
 		death = yes
@@ -82693,6 +83494,9 @@ Salir5 = {
 	1158.1.1 = {
 		birth = yes
 	}
+	1187.8.31 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1208.1.1 = {
 		death = yes
 	}
@@ -82706,6 +83510,9 @@ Salir5 = {
 	culture = turkish
 	1159.1.1 = {
 		birth = yes
+	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1204.6.25 = {
 		### Killed alongside his children by his brother Sulaymanshah when he took Ankara
@@ -82724,6 +83531,9 @@ Salir5 = {
 	culture = turkish
 	1160.1.1 = {
 		birth = yes
+	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1220.1.1 = {
 		death = yes
@@ -82761,6 +83571,9 @@ Salir5 = {
 	1175.1.1 = {
 		give_nickname = nick_rukn_ad_din
 	}
+	1178.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1194.3.1 = {
 		death = {
 			death_reason = death_battle
@@ -82786,6 +83599,9 @@ Salir5 = {
 	1166.1.1 = {
 		birth = yes
 	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1196.1.1 = {
 		give_nickname = nick_rukn_ad_din
 	}
@@ -82803,6 +83619,9 @@ Salir5 = {
 	1167.1.1 = {
 		birth = yes
 	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1237.1.1 = {
 		death = yes
 	}
@@ -82817,6 +83636,9 @@ Salir5 = {
 	1168.1.1 = {
 		birth = yes
 	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1238.1.1 = {
 		death = yes
 	}
@@ -82830,6 +83652,9 @@ Salir5 = {
 	culture = turkish
 	1170.1.1 = {
 		birth = yes
+	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1240.1.1 = {
 		death = yes
@@ -82870,6 +83695,9 @@ Salir5 = {
 	1192.1.1 = {
 		give_nickname = nick_ghiyath_ad_din
 	}
+	1194.9.30 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1211.1.1 = {
 		effect = {
 			if = {
@@ -82895,6 +83723,9 @@ Salir5 = {
 	1172.1.1 = {
 		birth = yes
 	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1242.1.1 = {
 		death = yes
 	}
@@ -82911,6 +83742,9 @@ Salir5 = {
 	}
 	1204.1.1 = {
 		give_nickname = nick_izz_ad_din
+	}
+	1204.5.16 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1205.1.1 = {
 		death = {
@@ -82961,6 +83795,9 @@ Salir5 = {
 	1211.1.1 = {
 		give_nickname = nick_izz_ad_din
 	}
+	1211.6.16 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1220.1.1 = {
 		death = yes
 	}
@@ -82990,6 +83827,9 @@ Salir5 = {
 	}
 	1210.1.1 = {
 		remove_trait = rowdy # childhood trait ends at adulthood
+	}
+	1211.6.16 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1220.1.1 = {
 		give_nickname = nick_ala_ad_din
@@ -83109,6 +83949,9 @@ Salir5 = {
 	1208.1.1 = {
 		birth = yes
 	}
+	1220.5.16 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1281.1.1 = {
 		death = yes
 	}
@@ -83156,6 +83999,9 @@ Salir5 = {
 	culture = turkish
 	1223.1.1 = {
 		birth = yes
+	}
+	1246.6.13 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1262.1.1 = {
 		dynasty_house = house_soultanos
@@ -83381,6 +84227,9 @@ Salir5 = {
 	culture = turkish
 	1267.1.1 = {
 		birth = yes
+	}
+	1286.3.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1340.1.1 = {
 		death = yes
@@ -84509,6 +85358,9 @@ begdili89 = {
 	1066.1.1 = {
 		employer = 3040 #Alp Arslan
 	}
+	1081.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1092.1.1 = {
 		death = yes
 	}
@@ -84786,6 +85638,9 @@ Chavuldur1_1 = {
 	1052.1.1 = {
 		dynasty_house = house_oghuzdanishmend
 	}
+	1081.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1104.1.1 = {
 		death = yes
 	}
@@ -84883,6 +85738,9 @@ Chavuldur1_1 = {
 	culture = turkish
 	1300.1.1 = {
 		birth = yes
+	}
+	1324.11.30 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1360.1.1 = {
 		death = yes
@@ -85011,6 +85869,9 @@ chepni2 = {
 	1070.1.1 = {
 		birth = yes
 	}
+	1124.7.7 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1134.1.1 = {
 		death = yes
 	}
@@ -85067,6 +85928,9 @@ chepni2 = {
 	1104.1.1 = {
 		birth = yes
 	}
+	1144.10.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1164.1.1 = {
 		death = yes
 	}
@@ -85094,6 +85958,9 @@ chepni2 = {
 	culture = turkish
 	1106.1.1 = {
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1151.1.1 = {
 		death = yes
@@ -85166,6 +86033,9 @@ chepni2 = {
 	1120.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1172.1.1 = {
 		death = yes
 	}
@@ -85221,6 +86091,9 @@ chepni2 = {
 	culture = turkish
 	1127.1.1 = {
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1178.1.1 = {
 		death = yes
@@ -85278,6 +86151,9 @@ chepni2 = {
 	1140.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1180.1.1 = {
 		death = yes
 	}
@@ -85291,6 +86167,9 @@ chepni2 = {
 	culture = turkish
 	1141.1.1 = {
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1172.1.1 = {
 		death = yes
@@ -85306,6 +86185,9 @@ chepni2 = {
 	1152.1.1 = {
 		birth = yes
 	}
+	1178.10.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1202.1.1 = {
 		death = yes
 	}
@@ -85319,6 +86201,9 @@ chepni2 = {
 	culture = turkish
 	1182.1.1 = {
 		birth = yes
+	}
+	1211.6.16 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1232.1.1 = {
 		death = yes
@@ -86806,6 +87691,9 @@ Bayat15 = {
 	1100.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1175.1.1 = {
 		death = yes
 	}
@@ -86819,6 +87707,9 @@ Bayat16 = {
 	culture = turkish
 	1125.1.1 = {
 		birth = yes
+	}
+	1178.10.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1200.1.1 = {
 		death = yes
@@ -86903,6 +87794,9 @@ Bayat22 = {
 	culture = turkish
 	1275.1.1 = {
 		birth = yes
+	}
+	1337.5.24 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1350.1.1 = {
 		death = yes
@@ -87396,6 +88290,9 @@ Kayi15 = {
 	1100.1.1 = {
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1175.1.1 = {
 		death = yes
 	}
@@ -87455,6 +88352,9 @@ gunduz_alp = { #Enveri
 		#By tradition
 		birth = yes
 	}
+	1187.8.31 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
+	}
 	1236.1.1 = {
 		#By tradition
 		death = {
@@ -87500,6 +88400,9 @@ Kayi18 = {
 	culture = turkish
 	1176.1.1 = {
 		birth = yes
+	}
+	1211.6.16 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1227.1.1 = {
 		death = yes
@@ -87714,6 +88617,9 @@ Kayi22 = {
 	culture = turkish
 	1275.1.1 = {
 		birth = yes
+	}
+	1324.11.30 = {
+		culture = anatolian_turkish # ported from the game-start culture setup
 	}
 	1350.1.1 = {
 		death = yes
@@ -88033,6 +88939,9 @@ alayuntlu7 = {
 	1025.1.1 = {
 		birth = yes
 	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1072.1.1 = {
 		death = yes
 	}
@@ -88207,6 +89116,9 @@ bayramblacksheep = {
 	culture = turkish
 	1317.1.1 = {
 		birth = yes
+	}
+	1337.5.24 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1380.1.1 = {
 		death = yes
@@ -89520,6 +90432,9 @@ fictional_turkish_15 = { #Oghuz in Cumania 1066
 		birth = yes
 		culture = turkish
 	}
+	1066.9.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1088.1.1 = {
 		death = yes
 	}
@@ -89575,6 +90490,9 @@ fictional_turkish_17 = { #Oghuz in Cumania 1066
 		#?
 		birth = yes
 	}
+	1081.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1100.1.1 = {
 		#?
 		death = yes
@@ -89612,6 +90530,9 @@ fictional_turkish_28 = { #Herder 1066
 	1053.1.1 = {
 		birth = yes
 	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1111.1.1 = {
 		death = yes
 	}
@@ -89636,6 +90557,9 @@ fictional_turkish_28 = { #Herder 1066
 	1060.1.1 = {
 		birth = yes
 		culture = turkish
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1115.1.1 = {
 		death = yes
@@ -89665,6 +90589,9 @@ fictional_turkish_28 = { #Herder 1066
 	1061.1.1 = {
 		#?
 		birth = yes
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1106.1.1 = {
 		death = yes
@@ -89766,6 +90693,9 @@ fictional_turkish_28 = { #Herder 1066
 		#?
 		birth = yes
 	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1113.1.1 = {
 		#?
 		death = yes
@@ -89778,6 +90708,9 @@ fictional_turkish_28 = { #Herder 1066
 	culture = turkish
 	1070.1.1 = {
 		birth = yes
+	}
+	1099.7.15 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1122.1.1 = {
 		death = yes
@@ -89834,6 +90767,9 @@ fictional_turkish_28 = { #Herder 1066
 	1089.1.1 = {
 		birth = yes
 	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1140.1.1 = {
 		death = yes
 	}
@@ -89845,6 +90781,9 @@ fictional_turkish_28 = { #Herder 1066
 	culture = turkish
 	1090.1.1 = {
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1146.1.1 = {
 		death = yes
@@ -89870,6 +90809,9 @@ fictional_turkish_28 = { #Herder 1066
 	1090.1.1 = {
 		birth = yes
 	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1148.1.1 = {
 		death = yes
 	}
@@ -89881,6 +90823,9 @@ fictional_turkish_28 = { #Herder 1066
 	culture = turkish
 	1092.1.1 = {
 		birth = yes
+	}
+	1124.7.7 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1140.7.1 = {
 		death = yes
@@ -89900,6 +90845,9 @@ fictional_turkish_28 = { #Herder 1066
 	1098.1.1 = {
 		birth = yes
 	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1147.1.1 = {
 		death={
 			death_reason=death_execution
@@ -89915,6 +90863,9 @@ fictional_turkish_28 = { #Herder 1066
 	1099.1.1 = {
 		birth = yes
 	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1148.1.1 = {
 		death = {
 			death_reason = death_battle
@@ -89929,6 +90880,9 @@ fictional_turkish_28 = { #Herder 1066
 	culture = turkish
 	1100.1.1 = {
 		birth = yes
+	}
+	1144.10.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1147.1.1 = {
 		death = {
@@ -90062,6 +91016,9 @@ fictional_turkish_28 = { #Herder 1066
 		#?
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1167.1.1 = {
 		#fell from his horse after battle
 		death = {
@@ -90127,6 +91084,9 @@ fictional_turkish_28 = { #Herder 1066
 		#?
 		birth = yes
 	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
+	}
 	1195.1.1 = {
 		#?
 		death = yes
@@ -90166,6 +91126,9 @@ fictional_turkish_23 = { #Herder 1178
 	1140.1.1 = {
 		#?
 		birth = yes
+	}
+	1166.4.1 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1198.1.1 = {
 		death = yes
@@ -90216,6 +91179,9 @@ fictional_turkish_26 = { #Herder 1178
 	1161.1.1 = {
 		#?
 		birth = yes
+	}
+	1194.9.30 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1213.1.1 = {
 		#?
@@ -90286,6 +91252,9 @@ hayme_hatun = {
 	culture = turkish
 	1300.1.1 = {
 		birth = yes
+	}
+	1337.5.24 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1339.1.1 = {
 		death = yes
@@ -90996,6 +91965,9 @@ hayme_hatun = {
 	trait = education_stewardship_2
 	1194.1.1 = {
 		birth = yes
+	}
+	1234.4.6 = {
+		culture = persian_turkish # ported from the game-start culture setup
 	}
 	1235.1.1 = {
 		rite = hanafi
@@ -93968,6 +94940,11 @@ Khereid5 = {
 	}
 	1324.1.1 = {
 		add_spouse = 217263M
+	}
+	1327.1.1 = {
+		effect = {
+			set_realm_capital = title:c_kaisereia # Eretna rules from Kayseri
+		}
 	}
 	1331.1.1 = {
 		add_spouse = 93307M
@@ -112558,6 +113535,9 @@ MB_HerderKosUba5 = {
 	culture = cuman
 	839.4.15 = {
 		birth = yes
+	}
+	850.1.1 = {
+		culture = turkish # the Oghuz displace the Pechenegs on the western steppe
 	}
 	894.6.11 = {
 		death = yes

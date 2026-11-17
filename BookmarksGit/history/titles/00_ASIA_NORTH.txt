@@ -61899,6 +61899,9 @@ d_kashgar = {
 	1250.1.1 = {
 		holder = 248231
 	}
+	1281.1.1 = {
+		liege = e_turan
+	}
 	1287.1.1 = {
 		holder = 248232
 	}
@@ -61906,7 +61909,7 @@ d_kashgar = {
 		holder = 248233
 	}
 	1306.1.1 = {
-		liege = e_turan
+
 	}
 	1320.1.1 = {
 		holder = 248234
@@ -81822,7 +81825,10 @@ d_sagya = {
 		holder=247233
 	}
 	1243.1.1={
-		holder=247236
+
+	}
+	1248.1.1 = {
+		holder = 247236 # Drogön Chögyal Phagpa Khön
 	}
 	1267.1.1={
 		holder=247237

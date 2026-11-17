@@ -42202,6 +42202,8 @@ c_thaton = {
 	}
 	1287.1.1 = {
 		holder = 80000039
+
+		liege = k_pegu
 	}
 	1288.1.1 = {
 
@@ -68630,8 +68632,11 @@ k_sunda = {
 	1175.1.1={
 		holder=1000080655 #Darmasiksa
 	}
+	1265.1.1 = {
+		holder = 1000080662 # Ragasuci
+	}
 	1297.1.1={
-		holder=1000080662 #Ragasuci
+
 	}
 	1303.1.1={
 		holder=1000080663 #Citraganda
@@ -68754,8 +68759,11 @@ d_JAV_taruma = {
 	1175.1.1={
 		holder=1000080655 #Darmasiksa
 	}
+	1265.1.1 = {
+		holder = 1000080662 # Ragasuci
+	}
 	1297.1.1={
-		holder=1000080662 #Ragasuci
+
 	}
 	1303.1.1={
 		holder=1000080663 #Citraganda
@@ -69239,8 +69247,11 @@ c_JAV_sunda = {
 	1175.1.1={
 		holder=1000080655 #Darmasiksa
 	}
+	1265.1.1 = {
+		holder = 1000080662 # Ragasuci
+	}
 	1297.1.1={
-		holder=1000080662 #Ragasuci
+
 	}
 	1303.1.1={
 		holder=1000080663 #Citraganda
@@ -69481,8 +69492,11 @@ c_JAV_galuh = {
 	1175.1.1={
 		holder=1000080655 #Darmasiksa
 	}
+	1265.1.1 = {
+		holder = 1000080662 # Ragasuci
+	}
 	1297.1.1={
-		holder=1000080662 #Ragasuci
+
 	}
 	1303.1.1={
 		holder=1000080663 #Citraganda

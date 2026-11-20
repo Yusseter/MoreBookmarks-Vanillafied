@@ -557,6 +557,8 @@ d_jaintia = {
 	# Is any of this historical ? I don't know
 	520.1.1 = {
 		holder = khasi001
+
+		government = tribal_government
 	}
 	550.1.1 = {
 		holder = khasi002
@@ -642,6 +644,8 @@ d_jaintia = {
 	}
 	1210.1.1 = {
 		holder = 191547 # Jayanti Devi Minor Deva
+
+		government = feudal_government
 	}
 	1250.1.1 = {
 		holder = 191548 # Gokuladeva
@@ -3700,6 +3704,8 @@ k_ahom = {
 
 	1228.1.1 = {
 		holder = 191567 #Sukhapa
+
+		government = tribal_government
 	}
 	1268.1.1 = {
 		holder = 191568 #Sutepha
@@ -3728,6 +3734,8 @@ d_ahom = {
 
 	1228.1.1 = {
 		holder = 191567 #Sukhapa
+
+		government = tribal_government
 	}
 	1268.1.1 = {
 		holder = 191568 #Sutepha
@@ -4241,6 +4249,8 @@ k_chutia = {
 
 	1170.1.1 = {
 		holder = 191583	#Birpal
+
+		government = tribal_government
 	}
 	1220.1.1 = {
 		holder = 191584 #Gaurinarayan
@@ -4385,6 +4395,8 @@ d_sutiya = {
 	}
 	1170.1.1 = {
 		holder = 191583	#Birpal
+
+		government = tribal_government
 	}
 	1187.1.1 = {
 		liege = 0
@@ -4526,6 +4538,8 @@ c_haruppeswara = {
 	}
 	1228.1.1 = {
 		holder = 191567 #Sukhapa
+
+		government = tribal_government
 	}
 	1268.1.1 = {
 		holder = 191568 #Sutepha
@@ -4667,6 +4681,8 @@ c_charaideo = {
 	}
 	1170.1.1 = {
 		holder = 191583	#Birpal
+
+		government = tribal_government
 	}
 	1220.1.1 = {
 		holder = 191584 #Gaurinarayan
@@ -4773,6 +4789,8 @@ c_kundina = {
 
 	855.1.1 = {
 		holder = kachari014 #Nandisara
+
+		government = tribal_government
 	}
 	878.1.1 = {
 		holder = kachari015 #Dhirnarayana
@@ -4795,6 +4813,11 @@ c_kundina = {
 
 	1089.1.1 = {
 		holder = 191561 #Timgyadeva, Pala governor
+
+		government = tribal_government
+	}
+	1100.1.1 = {
+		government = feudal_government
 	}
 	1126.1.1 = {
 		holder = 191562#Vaidyadeva, Pala governor
@@ -4807,6 +4830,8 @@ c_kundina = {
 	}
 	1170.1.1 = {
 		holder = 191583	#Birpal
+
+		government = tribal_government
 	}
 	1220.1.1 = {
 		holder = 191584 #Gaurinarayan
@@ -4826,6 +4851,8 @@ k_kachari = {
 
 	1228.1.1 = {
 		holder = 191597 #Makardhwaj Narayan
+
+		government = tribal_government
 	}
 	1286.1.1 = {
 		holder = 191598 #Bhopal
@@ -4920,6 +4947,8 @@ d_para_lauhitya = {
 	}
 	835.1.1 = {
 		holder = 191587 #Virochana
+
+		government = tribal_government
 	}
 	885.1.1 = {
 		holder = 191588 #Vorahi
@@ -5057,6 +5086,8 @@ c_goalpara = {
 	}
 	835.1.1 = {
 		holder = 191587 #Virochana
+
+		government = tribal_government
 	}
 	885.1.1 = {
 		holder = 191588 #Vorahi
@@ -5176,6 +5207,8 @@ c_guvahati = {
 	}
 	835.1.1 = {
 		holder = 191587 #Virochana
+
+		government = tribal_government
 	}
 	885.1.1 = {
 		holder = 191588 #Vorahi
@@ -5296,6 +5329,8 @@ c_dimapur = {
 	}
 	835.1.1 = {
 		holder = 191587 #Virochana
+
+		government = tribal_government
 	}
 	885.1.1 = {
 		holder = 191588 #Vorahi
@@ -5346,6 +5381,8 @@ k_jaintia = {
 	# Is any of this historical ? I don't know
 	520.1.1 = {
 		holder = khasi001
+
+		government = tribal_government
 	}
 	550.1.1 = {
 		holder = khasi002
@@ -5427,6 +5464,8 @@ k_jaintia = {
 	}
 	1210.1.1 = {
 		holder = 191547
+
+		government = feudal_government
 	}
 	1250.1.1 = {
 		holder = 191548 #Gokuladeva
@@ -5540,6 +5579,8 @@ c_srihatta = {
 	# Is any of this historical ? I don't know
 	520.1.1 = {
 		holder = khasi001
+
+		government = tribal_government
 	}
 	550.1.1 = {
 		holder = khasi002
@@ -5621,6 +5662,8 @@ c_srihatta = {
 	}
 	1210.1.1 = {
 		holder = 191547
+
+		government = feudal_government
 	}
 	1250.1.1 = {
 		holder = 191548 #Gokuladeva
@@ -5637,6 +5680,8 @@ c_srihatta = {
 k_manipur = {
 	100.1.1 = {
 		holder = manipur001 #Ningthouja
+
+		government = tribal_government
 	}
 	154.1.1 = {
 		holder = manipur002 #Ningthouja
@@ -5737,6 +5782,8 @@ k_manipur = {
 d_manipur = {
 	100.1.1 = {
 		holder = manipur001 #Ningthouja
+
+		government = tribal_government
 	}
 	154.1.1 = {
 		holder = manipur002 #Ningthouja
@@ -5837,6 +5884,8 @@ d_manipur = {
 c_manipur = {
 	100.1.1 = {
 		holder = manipur001 #Ningthouja
+
+		government = tribal_government
 	}
 	154.1.1 = {
 		holder = manipur002 #Ningthouja
@@ -6447,10 +6496,14 @@ c_magadha = {
 
 	1290.1.1 = {
 		holder = 191168 #Pandita
+
+		government = theocracy_government
 	}
 
 	1300.1.1 = {
 		holder = 170280 #Tajuddin Hatim Khan
+
+		government = clan_government
 	}
 	1328.6.1 = {
 		holder = 170282 #Bahram Khan
@@ -6459,6 +6512,8 @@ c_magadha = {
 	1337.1.1 = {
 		holder = 191168
 		liege = e_rajastan
+
+		government = theocracy_government
 	}
 }
 
@@ -7456,6 +7511,9 @@ d_jharkand = {
 		holder = 190107 #Kaivarta
 		liege = k_bengal
 	}
+	879.1.1 = {
+		government = tribal_government
+	}
 	887.1.1 = {
 		holder = 190108 #Bhutapala
 	}#918 return to Pala
@@ -7468,6 +7526,8 @@ d_jharkand = {
 	1236.1.1 = {
 		holder = 191468
 		liege = k_gondwana
+
+		government = feudal_government
 	}
 	1250.1.1 = {
 		holder = 191470 #Karnadeva
@@ -7498,6 +7558,8 @@ d_jharkand = {
 c_jharkand = {
 	740.1.1 = {
 		holder = 191522 #Tribal Cheifs
+
+		government = tribal_government
 	}
 	858.1.1 = {
 		holder = 190109 #Ladahachandra (fictional ruler of Jharkand)
@@ -7532,6 +7594,9 @@ c_jharkand = {
 	1081.1.1 = {
 
 	}
+	1123.1.1 = {
+		government = feudal_government
+	}
 	1153.1.1 = {
 		holder = 190212 # Narasimha Cedi
 	}
@@ -7540,18 +7605,32 @@ c_jharkand = {
 	}
 	1159.1.1 = {
 		holder = 190213 #Jayasimha Cedi
+
+		government = tribal_government
+	}
+	1163.1.1 = {
+		government = feudal_government
 	}
 	1188.1.1 = {
 		holder = 191504
+
+		government = tribal_government
 	}
 	1210.1.1 = {
 		holder = 190214M
+
+		government = feudal_government
+	}
+	1211.1.1 = {
+		government = tribal_government
 	}
 	1212.1.1 = {	#Should really be Chauhans of Koriya
 		holder = 191162 #Raja Vyaghra Dev Baghela
 	}
 	1236.1.1 = {
 		holder = 191468
+
+		government = feudal_government
 	}
 	1250.1.1 = {
 		holder = 191470 #Karnadeva
@@ -7591,6 +7670,9 @@ c_rothas = {
 	858.1.1 = {
 		liege = k_bengal
 	}
+	879.1.1 = {
+		government = tribal_government
+	}
 	887.1.1 = {
 		holder = 190108 #Bhutapala
 	}#918 return to Pala
@@ -7605,16 +7687,28 @@ c_rothas = {
 	}
 	1032.1.1 = {
 		holder = 190116 #Salisuka
+
+		government = feudal_government
 	}
 	1032.1.1 = {
 		liege = k_gondwana
 	}
+	1038.1.1 = {
+		government = tribal_government
+	}
 	1077.1.1 = {
 		holder = 190211 #Gayakarna Cedi
+
+		government = feudal_government
+	}
+	1079.1.1 = {
+		government = tribal_government
 	}
 	1114.1.1 = {
 		holder = 191389 #Khadirapala
 		liege = d_kasi
+
+		government = feudal_government
 	}
 	1168.1.1 = {
 		holder = 191390 #Pratapadhawala Khayarwala
@@ -7632,6 +7726,8 @@ c_rothas = {
 	1240.1.1 = {
 		holder = 170267 #Tughral Tughan Khan
 		liege = k_bihar
+
+		government = clan_government
 	}
 	1246.1.1 = {
 		holder = 170268 #Tughlaq Tamar Khan
@@ -7679,6 +7775,8 @@ c_rothas = {
 	1337.1.1 = {
 		holder = 191168
 		liege = e_rajastan
+
+		government = theocracy_government
 	}
 }
 
@@ -7686,6 +7784,8 @@ c_rothas = {
 c_rajrappa = {
 	740.1.1 = {
 		holder = 191525
+
+		government = tribal_government
 	}
 	765.1.1 = {
 		liege = k_bengal
@@ -7734,6 +7834,8 @@ c_rajrappa = {
 c_munda = {
 	750.1.1 = {
 		holder = 191421 #Pasna
+
+		government = tribal_government
 	}
 	780.1.1 = {
 		holder = 191422 #Kramaditya
@@ -7789,6 +7891,8 @@ c_damin_i_koh = {
 	760.1.1 = {
 		holder = 191405 #Varnamana
 		liege = k_bihar
+
+		government = tribal_government
 	}
 	800.1.1 = {
 		holder = 191406 #Udayamana
@@ -10022,10 +10126,16 @@ c_gurgi = {
 	1030.1.1 = {
 		liege = k_gondwana
 	}
+	1038.1.1 = {
+		government = tribal_government
+	}
 	1079.1.1 = {
 		holder = 190211 #Gayakarna Cedi
 	}
 	#c.a. 1140 to Baghelas?
+	1123.1.1 = {
+		government = feudal_government
+	}
 	1153.1.1 = {
 		holder = 190212 # Narasimha Cedi
 	}
@@ -10224,9 +10334,14 @@ k_gondwana = {
 		holder = 190214M
 	}
 	#
+	1211.1.1 = {
+		government = tribal_government
+	}
 	1212.1.1 = {
 		holder = 191504 #Gond dynasty of Garha-Mandla
 		liege = 0
+
+		government = feudal_government
 	}
 	1250.1.1 = {
 		holder = 191505 #Gond dynasty of Garha-Mandla
@@ -10901,6 +11016,8 @@ c_bandhugadha = {
 	750.1.1 = {
 		holder = 191482 # Patel
 		liege = d_dahala
+
+		government = tribal_government
 	}
 	780.1.1 = {
 		holder = 191483 #Mukhia
@@ -10919,6 +11036,8 @@ c_bandhugadha = {
 	}
 	920.1.1 = {
 		holder = 190203 #Yuvaraja Cedi
+
+		government = feudal_government
 	}
 	945.1.1 = {
 		holder = 190204 #Lakshmanaraja Cedi
@@ -10952,12 +11071,21 @@ c_bandhugadha = {
 	}
 	1188.1.1 = {
 		holder = 191504
+
+		government = tribal_government
 	}
 	1210.1.1 = {
 		holder = 190214M
+
+		government = feudal_government
+	}
+	1211.1.1 = {
+		government = tribal_government
 	}
 	1212.1.1 = {
 		holder = MB_br_190214m_1 # bridge of the Trailokyamalla line
+
+		government = feudal_government
 	}
 	1240.1.1 = {
 		holder = 191470 #Karnadeva
@@ -12430,6 +12558,8 @@ c_kiranapura = {
 	740.1.1 = {
 		holder = 191294 #Ramachandra
 		liege = d_dahala
+
+		government = tribal_government
 	}
 	780.1.1 = {
 		holder = 191263 #Ahiraja
@@ -12457,6 +12587,9 @@ c_kiranapura = {
 	}
 	1100.1.1 = {
 		holder = 191270 #Bhuvanapala
+	}
+	1110.1.1 = {
+		government = feudal_government
 	}
 	1120.1.1 = {
 		holder = 191271 #Kirtipala
@@ -14219,6 +14352,8 @@ c_jumla = {
 	625.1.1={
 		liege="d_kurmanchal"
 		holder=247478 #Vashudev
+
+		government = feudal_government
 	}#Zhangzhung conquered by Tibet (Katyuri vassals)
 	658.1.1 = {
 		holder=247479 #Ashokdeva
@@ -14348,6 +14483,8 @@ c_bajura = {
 	625.1.1={
 		liege="d_kurmanchal"
 		holder=247478 #Vashudev
+
+		government = feudal_government
 	}#Zhangzhung conquered by Tibet (Katyuri vassals)
 	658.1.1 = {
 		holder=247479 #Ashokdeva
@@ -14477,6 +14614,8 @@ c_jagatipur = {
 	625.1.1={
 		liege="d_kurmanchal"
 		holder=247478 #Vashudev
+
+		government = feudal_government
 	}#Zhangzhung conquered by Tibet (Katyuri vassals)
 	658.1.1 = {
 		holder=247479 #Ashokdeva
@@ -14606,6 +14745,8 @@ c_dang = {
 	625.1.1={
 		liege="d_kurmanchal"
 		holder=247478 #Vashudev
+
+		government = feudal_government
 	}#Zhangzhung conquered by Tibet (Katyuri vassals)
 	658.1.1 = {
 		holder=247479 #Ashokdeva
@@ -14735,6 +14876,8 @@ c_lumbini = {
 	625.1.1={
 		liege="d_kurmanchal"
 		holder=247478 #Vashudev
+
+		government = feudal_government
 	}#Zhangzhung conquered by Tibet (Katyuri vassals)
 	658.1.1 = {
 		holder=247479 #Ashokdeva
@@ -14870,6 +15013,8 @@ c_kaski = {
 	625.1.1={
 		liege="d_kurmanchal"
 		holder=247478 #Vashudev
+
+		government = feudal_government
 	}#Zhangzhung conquered by Tibet (Katyuri vassals)
 	658.1.1 = {
 		holder=247479 #Ashokdeva
@@ -16136,6 +16281,8 @@ d_limbuwan = {
 	#Mung Mawrong Hang
 	760.1.1 = {
 		holder=304000 #Mung Mawrong Hang
+
+		government = tribal_government
 	}
 	#Mokwan San
 	810.1.1 = {
@@ -16176,6 +16323,8 @@ d_limbuwan = {
 c_ilam = {
 	760.1.1 = {
 		liege="d_limbuwan"
+
+		government = tribal_government
 	}
 	#Mung Mawrong Hang
 	760.1.1 = {
@@ -16282,6 +16431,8 @@ c_ilam = {
 c_yangwarok = {
 	760.1.1 = {
 		liege="d_limbuwan"
+
+		government = tribal_government
 	}
 	#Mung Mawrong Hang
 	760.1.1 = {
@@ -16468,6 +16619,8 @@ c_yangwarok = {
 c_khotang = {
 	760.1.1 = {
 		liege="d_limbuwan"
+
+		government = tribal_government
 	}
 	#Mung Mawrong Hang
 	760.1.1 = {
@@ -17623,12 +17776,16 @@ c_kalat = { #done
 
 	768.1.1 = {
 		holder = 188573 # Kaikanites
+
+		government = feudal_government
 	}
 	# 712-750: Umayyad governors
 	# 750-860: Abbasid governors
 	860.1.1 = {
 		liege = 0
 		holder = 1231304
+
+		government = clan_government
 	}
 	867.1.1 = { #Saffarid conquest
 		liege = d_sistan
@@ -19450,6 +19607,8 @@ d_gandhara = {
 
 	870.1.1 = { #Hindu Shahis expelled from Kabul and relocated to Udabhanda
 		holder = 175060
+
+		government = feudal_government
 	}
 	895.1.1 = {
 		holder = 1231300
@@ -19479,6 +19638,8 @@ d_gandhara = {
 	1041.8.1 = {
 		liege = k_kabulistan
 		holder = 1230360
+
+		government = clan_government
 	}
 	1048.1.1 = {
 		holder = 1230209
@@ -19522,6 +19683,8 @@ c_udabhanda = {
 	870.1.1 = { #Hindu Shahis expelled from Kabul and relocated to Udabhanda
 		liege = d_gandhara
 		holder = 175060
+
+		government = feudal_government
 	}
 	895.1.1 = {
 		holder = 1231300
@@ -19547,9 +19710,13 @@ c_udabhanda = {
 	1010.1.1={ #Mahmud Ghazni defeats the Hindu Shahi army at Waihind in 1008
 		liege = k_kabulistan
 		holder = 144125
+
+		government = clan_government
 	}
 	1013.1.1={ #Mahmud Ghazni captures Nandana
 		holder = 191972 #Kai Gohar
+
+		government = feudal_government
 	}
 	1021.1.1={
 		liege = d_lahore
@@ -19572,6 +19739,8 @@ c_udabhanda = {
 	1101.1.1={
 		holder = 191975 #Mu'azzam Han
 		#muslims
+
+		government = clan_government
 	}
 	1116.1.1 = {
 		liege = k_kabulistan
@@ -19856,6 +20025,8 @@ c_bannu = {
 	936.1.1 = {
 		liege = d_gandhara
 		holder = 261102
+
+		government = feudal_government
 	}
 	957.1.1 = {
 		holder = 1240003 # first Shahi ruler of the Punjabi/Lahore period of the dynasty. Led 2 attacks on the Ghaznavids in an attempt to stem the tide of Ghaznavid power
@@ -19869,6 +20040,8 @@ c_bannu = {
 	1005.1.1 = {
 		liege = d_zabulistan
 		holder = 144125 # Mahmud
+
+		government = clan_government
 	}
 	1021.1.1 = {
 		liege = d_lahore
@@ -19961,6 +20134,8 @@ c_urgun = {
 	680.1.1 = {
 		liege = d_sistan
 		holder = 188701 # Zunbil founder
+
+		government = feudal_government
 	}
 	687.1.1 = {
 		holder = 188702
@@ -19986,6 +20161,8 @@ c_urgun = {
 	860.1.1 = {
 		liege = 0
 		holder = 1231304
+
+		government = clan_government
 	}
 	867.1.1 = { #Saffarid conquest
 		liege = d_sistan
@@ -23180,6 +23357,8 @@ d_lata = {
 	570.1.1 = {
 		liege = k_gujarat
 		holder = 191624 # Dadda I
+
+		government = feudal_government
 	}
 	595.1.1 = {
 		holder = 191625 # Jayabhata I Pratihara
@@ -23281,6 +23460,8 @@ c_navasarika = {
 	570.1.1 = {
 		liege = d_lata
 		holder = 191624 # Dadda I Pratihara
+
+		government = feudal_government
 	}
 	595.1.1 = {
 		holder = 191625 # Jayabhata I Pratihara
@@ -23412,6 +23593,8 @@ c_navasarika = {
 	}
 	1305.1.1 = {
 		holder = 170246
+
+		government = clan_government
 	}
 	1316.1.3 = {
 		holder = 170247
@@ -23439,6 +23622,8 @@ c_khambat = {
 	570.1.1 = {
 		liege = d_lata
 		holder = 191624 # Dadda I Pratihara
+
+		government = feudal_government
 	}
 	595.1.1 = {
 		holder = 191625 # Jayabhata I Pratihara
@@ -23659,6 +23844,8 @@ c_vadodara = {
 	570.1.1 = {
 		liege = d_lata
 		holder = 191624 # Dadda I Pratihara
+
+		government = feudal_government
 	}
 	595.1.1 = {
 		holder = 191625 # Jayabhata I Pratihara
@@ -23751,6 +23938,8 @@ c_vadodara = {
 	}
 	1337.1.1 = {
 		holder = muzaffarid1
+
+		government = clan_government
 	}
 }
 
@@ -23765,6 +23954,8 @@ k_rajputana = {
 
 	550.1.1 = {
 		holder = 191605 # Harichandra
+
+		government = feudal_government
 	}
 	580.1.1 = {
 		holder = 191607 # Rajjila
@@ -23914,6 +24105,8 @@ d_maru = {
 	550.1.1 = {
 		liege = k_rajputana
 		holder = 191605 # Harichandra
+
+		government = feudal_government
 	}
 	580.1.1 = {
 		holder = 191607 # Rajjila
@@ -24079,6 +24272,8 @@ c_mandavyapura = {
 	550.1.1 = {
 		liege = d_maru
 		holder = 191605 # Harichandra
+
+		government = feudal_government
 	}
 	580.1.1 = {
 		holder = 191607 # Rajjila
@@ -24234,6 +24429,8 @@ c_medantaka = {
 	550.1.1 = {
 		liege = d_maru
 		holder = 191605 # Harichandra
+
+		government = feudal_government
 	}
 	580.1.1 = {
 		holder = 191607 # Rajjila
@@ -24359,6 +24556,8 @@ c_godwad = {
 	550.1.1 = {
 		liege = d_maru
 		holder = 191605 # Harichandra
+
+		government = feudal_government
 	}
 	580.1.1 = {
 		holder = 191607 # Rajjila
@@ -24503,6 +24702,8 @@ c_naddula = {
 	550.1.1 = {
 		liege = d_maru
 		holder = 191605 # Harichandra
+
+		government = feudal_government
 	}
 	580.1.1 = {
 		holder = 191607 # Rajjila
@@ -24637,6 +24838,8 @@ c_naddula = {
 	1299.1.1 = {
 		liege = e_rajastan
 		holder = 170246 # Ala-ud-din Muhammad
+
+		government = clan_government
 	}
 	1316.1.3 = {
 		holder = 170247 # Umar
@@ -24652,6 +24855,8 @@ c_naddula = {
 	1320.10.1 = {
 		liege = d_maru
 		holder = 188526 # Dungar-Singh Guhilot
+
+		government = feudal_government
 	}
 	1337.1.1 = {
 
@@ -29393,9 +29598,13 @@ k_gilgit = {
 	}
 	862.1.1 = {
 		holder = 247697
+
+		government = clan_government
 	}
 	870.1.1 = {
 		holder = 247698 # Garg
+
+		government = feudal_government
 	}
 	873.1.1= {
 
@@ -29422,6 +29631,8 @@ k_gilgit = {
 	#Trakhan Dynasty
 	1127.1.1= {
 		holder=247707 #Shamshir
+
+		government = clan_government
 	}
 	1149.1.1= {
 		holder=247708 #Chilis
@@ -29475,9 +29686,13 @@ c_gilgit = {
 	}
 	862.1.1 = {
 		holder = 247697
+
+		government = clan_government
 	}
 	870.1.1 = {
 		holder = 247698 # Garg
+
+		government = feudal_government
 	}
 	873.1.1= {
 
@@ -29504,6 +29719,8 @@ c_gilgit = {
 	#Trakhan Dynasty
 	1127.1.1= {
 		holder=247707 #Shamshir
+
+		government = clan_government
 	}
 	1149.1.1= {
 		holder=247708 #Chilis
@@ -29557,9 +29774,13 @@ c_yasin = {
 	}
 	862.1.1 = {
 		holder = 247697
+
+		government = clan_government
 	}
 	870.1.1 = {
 		holder = 247698 # Garg
+
+		government = feudal_government
 	}
 	873.1.1= {
 
@@ -29586,6 +29807,8 @@ c_yasin = {
 	#Trakhan Dynasty
 	1127.1.1= {
 		holder=247707 #Shamshir
+
+		government = clan_government
 	}
 	1149.1.1= {
 		holder=247708 #Chilis
@@ -29639,9 +29862,13 @@ c_golaghmuli = {
 	}
 	862.1.1 = {
 		holder = 247697
+
+		government = clan_government
 	}
 	870.1.1 = {
 		holder = 247698 # Garg
+
+		government = feudal_government
 	}
 	873.1.1= {
 
@@ -29668,6 +29895,8 @@ c_golaghmuli = {
 	#Trakhan Dynasty
 	1127.1.1= {
 		holder=247707 #Shamshir
+
+		government = clan_government
 	}
 	1149.1.1= {
 		holder=247708 #Chilis
@@ -29821,6 +30050,8 @@ d_dadhipadra = {
 	550.1.1 = {
 		liege = k_rajputana
 		holder = 191605 # Harichandra
+
+		government = feudal_government
 	}
 	580.1.1 = {
 		holder = 191607 # Rajjila
@@ -29941,6 +30172,8 @@ d_dadhipadra = {
 	}
 	1305.1.1 = {
 		holder = 191927 # Ain-ul-Mulk Multani
+
+		government = clan_government
 	}
 }
 
@@ -30185,6 +30418,8 @@ c_dadhipadra = {
 	570.1.1 = {
 		holder = 191624 #Dadda I Pratihara
 		liege = d_lata
+
+		government = feudal_government
 	}
 	595.1.1 = {
 		holder = 191625 #Jayabhata I Pratihara
@@ -30958,6 +31193,8 @@ d_anupa = {
 	760.1.1 = {
 		holder = 191380	#Nandaraja
 		liege = k_maharastra
+
+		government = tribal_government
 	}
 	775.1.1 = {
 		holder = 0
@@ -30965,6 +31202,8 @@ d_anupa = {
 	860.1.1 = {
 		holder = 74417
 		liege = k_maharastra
+
+		government = feudal_government
 	}
 	914.1.1 = {
 		holder = 0
@@ -30977,9 +31216,13 @@ c_mandapika = {
 	760.1.1 = {
 		holder = 191380	#Nandaraja
 		liege = d_anupa
+
+		government = tribal_government
 	}
 	814.1.1 = {
 		holder = 175030
+
+		government = feudal_government
 	}
 	830.1.1 = {
 		liege = d_dadhipadra
@@ -31035,6 +31278,8 @@ c_mandapika = {
 	}
 	1305.1.1 = {
 		holder = 170246
+
+		government = clan_government
 	}
 	1305.1.1 = {
 		holder = 191927 # Ain-ul-Mulk Multani
@@ -31047,6 +31292,11 @@ c_asirgarh = {
 	760.1.1 = {
 		liege = d_anupa
 		holder = 191380 # Nandaraja
+
+		government = tribal_government
+	}
+	814.1.1 = {
+		government = feudal_government
 	}
 	860.1.1 = {
 		holder = 74417
@@ -31118,6 +31368,8 @@ c_asirgarh = {
 	}
 	1305.1.1 = {
 		holder = 170246
+
+		government = clan_government
 	}
 	1316.1.3 = {
 		holder = 170247
@@ -31250,6 +31502,11 @@ c_thalner = {
 	760.1.1 = {
 		liege = d_anupa
 		holder = 191380 # Nandaraja
+
+		government = tribal_government
+	}
+	814.1.1 = {
+		government = feudal_government
 	}
 	860.1.1 = {
 		holder = 74417
@@ -31315,6 +31572,8 @@ c_thalner = {
 	}
 	1305.1.1 = {
 		holder = 170246
+
+		government = clan_government
 	}
 	1316.1.3 = {
 		holder = 170247
@@ -36394,12 +36653,16 @@ c_kambampet = {
 	}
 	1315.1.1 = {
 		holder = 170248 # Mubarak Khilji
+
+		government = clan_government
 	}
 	1317.1.1={
 
 	}
 	1320.6.1 = {
 		holder = musunuri_king_kapaya_nayaka # Kaapayanayaka Musunuri
+
+		government = feudal_government
 	}
 	1337.1.1 = {
 
@@ -37401,9 +37664,13 @@ c_vatsagulma = {
 	}
 	1160.1.1 = {
 		holder = 191370
+
+		government = tribal_government
 	}
 	1167.1.1 = {
 		holder = 74463
+
+		government = feudal_government
 	}
 	1176.1.1 = {
 		holder = 74464
@@ -37449,6 +37716,8 @@ c_vatsagulma = {
 	#Ruler Placeholder until something better#
 	1317.1.1 = {
 		holder = 170248
+
+		government = clan_government
 	}
 	1318.1.1 = {
 		holder = 170250
@@ -37601,6 +37870,8 @@ k_chanda = {
 	1337.1.1 = {
 		holder = 191339
 		liege = 0
+
+		government = tribal_government
 	}
 }
 
@@ -37640,6 +37911,8 @@ d_vidharba = {
 	1337.1.1 = {
 		holder = 191339
 		liege = 0
+
+		government = tribal_government
 	}
 }
 
@@ -37705,12 +37978,16 @@ c_acalapura = {
 	}
 	1160.1.1 = {
 		holder = 191370
+
+		government = tribal_government
 	}
 	1167.1.1 = {
 		holder = 191370
 	}
 	1176.1.1 = {
 		holder = 74464
+
+		government = feudal_government
 	}
 	1177.1.1 = {
 		holder = 74465
@@ -37729,12 +38006,18 @@ c_acalapura = {
 	}
 	1192.1.1 = {
 		holder = 191371
+
+		government = tribal_government
 	}
 	1210.1.1 = {
 		holder = 74656 # Singhana II of Devagari Seuna
+
+		government = feudal_government
 	}
 	1230.1.1 = {
 		holder = 191338 # Khandkya Ballal Singh Chanda
+
+		government = tribal_government
 	}
 	1320.10.1 = {
 		holder = 74723 # Hasan Bahmanī
@@ -37751,12 +38034,16 @@ c_acalapura = {
 	}
 	1311.1.1 = {
 		holder = 74661
+
+		government = feudal_government
 	}
 	1312.1.1 = {
 		holder = 74662
 	}
 	1317.1.1 = {
 		holder = 170248
+
+		government = clan_government
 	}
 	1318.1.1 = {
 		holder = 170250
@@ -37778,6 +38065,8 @@ c_ramagiri = {
 	700.1.1 = {
 		holder = 191362	#Fictional Pandits
 		liege = d_dahala
+
+		government = tribal_government
 	}
 	780.1.1 = {
 		holder = 191363	#Fictional Pandits
@@ -37837,6 +38126,8 @@ c_canda = {
 	650.1.1 = {
 		holder = 191323 #Kurumpruhoda Mana
 		liege = d_ratanpur
+
+		government = tribal_government
 	}
 	700.1.1 = {
 		holder = 191324 #Soorjat Badwaik Mana
@@ -37910,6 +38201,8 @@ c_vairagara = {
 	650.1.1 = {
 		holder = 191323 #Kurumpruhoda Mana
 		liege = d_ratanpur
+
+		government = tribal_government
 	}
 	700.1.1 = {
 		holder = 191324 #Soorjat Badwaik Mana
@@ -40642,6 +40935,8 @@ k_sagaing = {
 
 	1313.2.8 = {
 		holder = 80000048
+
+		government = mandala_government
 	}
 	1327.2.5 = {
 		holder = 80000049
@@ -40819,6 +41114,8 @@ k_pagan = {
 	1299.5.10 = { # Yusseter: 1299.5.11
 		holder = 80000035
 		name = "k_myinsaing" effect = { set_coa = k_pagan }
+
+		government = mandala_government
 	}
 	1310.2.19 = { # Yusseter
 		holder = 80000036
@@ -40840,6 +41137,8 @@ d_pagan = {
 
 	846.1.1 = {
 		holder = earlyburman001 #Pyinbya
+
+		government = mandala_government
 	}
 	876.1.1 = {
 		holder = earlyburman002 #Tannet
@@ -40928,6 +41227,8 @@ c_pagan = {
 
 	769.1.1 = {
 		holder = MB_anc_pagan_1 # forefather, holds from the 769 start
+
+		government = mandala_government
 	}
 	797.1.1 = {
 		holder = MB_anc_pagan_2 # Pyinbya
@@ -41020,6 +41321,8 @@ c_minbu = {
 
 	769.1.1 = {
 		holder = MB_anc_minbu_1 # forefather, holds from the 769 start
+
+		government = mandala_government
 	}
 	797.1.1 = {
 		holder = MB_anc_minbu_2 # Pyinbya
@@ -41102,6 +41405,8 @@ c_minbu = {
 c_sriksetra = {
 	660.1.1 = {
 		holder = pyu201
+
+		government = mandala_government
 	}
 	690.1.1 = {
 		holder = pyu202
@@ -41213,6 +41518,8 @@ d_arakan = {
 	}
 	788.1.1 = {
 		holder = arakan001 # Mahataingchandra
+
+		government = mandala_government
 	}
 	810.1.1 = {
 		holder = arakan002 #Suriyataingchandra
@@ -41507,6 +41814,8 @@ c_vaisali = {
 	#Sandra Dynasty
 	769.1.1 = {
 		holder = arakan001 # Mahataingchandra
+
+		government = mandala_government
 	}
 	788.1.1 = {
 
@@ -41768,7 +42077,9 @@ c_vaisali = {
 #}
 
 c_ramu = {
-	760.1.1 = {  holder = monMB153 }
+	760.1.1 = {  holder = monMB153
+		government = mandala_government
+	}
 	820.1.1 = {  holder = monMB154 }
 	840.1.1 = {  holder = monMB155 }
 	860.1.1 = {  holder = monMB156 }
@@ -41790,7 +42101,9 @@ c_ramu = {
 }
 
 c_thabeik_taung = {
-	760.1.1 = {  holder = monMB153 }
+	760.1.1 = {  holder = monMB153
+		government = mandala_government
+	}
 	820.1.1 = {  holder = monMB154 }
 	840.1.1 = {  holder = monMB155 }
 	860.1.1 = {  holder = monMB156 }
@@ -41815,6 +42128,8 @@ c_sandoway = {
 	146.1.1 = {
 		liege = "d_arakan"
 		holder = 1000203835 # Sanda
+
+		government = mandala_government
 	}
 	198.1.1 = {
 		holder = 1000203836 # Dipati
@@ -42108,6 +42423,8 @@ c_thaton = {
 
 	520.1.1 = {
 		holder = mon100 # Singha Thaton
+
+		government = mandala_government
 	}
 	583.1.1 = {
 		holder = mon101 # Tekka Thaton
@@ -42232,6 +42549,8 @@ c_pegu = {
 	#Pegu Dynasty
 	765.1.1 = {
 		holder=1000080287M
+
+		government = mandala_government
 	}
 	800.1.1 = {
 		holder=1000080287
@@ -42624,6 +42943,8 @@ d_sriksetra = {
 
 	660.1.1 = {
 		holder = pyu201
+
+		government = mandala_government
 	}
 	690.1.1 = {
 		holder = pyu202
@@ -42732,6 +43053,8 @@ c_hinthada  = {
 	#Ngapudaw Dynasty (Placeholders)
 	750.1.1 = {
 		#liege="d_dagon" # Yusseter
+
+		government = mandala_government
 	}
 	750.1.1 = {
 		holder=1000203927 #Thamala
@@ -43166,7 +43489,7 @@ c_magwe = {
 
 	750.1.1 = {
 		holder = PyuMB1
-		government = feudal_government
+		government = mandala_government
 	}
 
 	785.9.22 = {
@@ -43261,7 +43584,7 @@ c_toungoo = {
 
 	750.1.1 = {
 		holder = PyuMB1
-		government = feudal_government
+		government = mandala_government
 	}
 
 	785.9.22 = {
@@ -43556,7 +43879,7 @@ c_ava  = {
 
 	750.1.1 = {
 		holder = PyuMB25
-		government = feudal_government
+		government = mandala_government
 	}
 
 	786.12.4 = {
@@ -43654,7 +43977,7 @@ c_kyaukse  = {
 
 	750.1.1 = {
 		holder = PyuMB25
-		government = feudal_government
+		government = mandala_government
 	}
 
 	786.12.4 = {
@@ -43939,7 +44262,7 @@ c_yamethin  = {
 
 	750.1.1 = {
 		holder = PyuMB49
-		government = feudal_government
+		government = mandala_government
 	}
 
 	787.11.8 = {
@@ -44557,9 +44880,13 @@ d_chattogram = {
 	}
 	1204.1.1 = {
 		liege = 0
+
+		government = mandala_government
 	}
 	1231.1.1 = {
 		holder = 191541 #Vasudeva
+
+		government = feudal_government
 	}
 	1250.1.1 = {
 		holder = 191542 #Damodaradeva
@@ -44641,11 +44968,16 @@ c_chatigama = {
 		holder = 191546 #Harikaladeva Ranavankamalla
 		liege = k_bengal_east
 	}
+	1204.1.1 = {
+		government = mandala_government
+	}
 	1221.1.1 = {
 		liege = 0
 	}
 	1231.1.1 = {
 		holder = 191541 #Vasudeva
+
+		government = feudal_government
 	}
 	1250.1.1 = {
 		holder = 191542 #Damodaradeva
@@ -45398,6 +45730,8 @@ k_tripura = {
 
 	590.4.15 = {
 		holder = tripuri001 #Hamtor Fa
+
+		government = tribal_government
 	}
 	602.1.1 = {
 		holder = tripuri002 #Jangi Fa
@@ -45512,6 +45846,8 @@ d_tripura = {
 
 	590.4.15 = {
 		holder = tripuri001 #Hamtor Fa
+
+		government = tribal_government
 	}
 	602.1.1 = {
 		holder = tripuri002 #Jangi Fa
@@ -45628,6 +45964,8 @@ c_harikela = {
 
 	590.4.15 = {
 		holder = tripuri001 #Hamtor Fa
+
+		government = tribal_government
 	}
 	602.1.1 = {
 		holder = tripuri002 #Jangi Fa
@@ -46237,6 +46575,8 @@ c_sagaing = {
 	750.1.1 = {
 		holder = PyuMB73  # Aggadahtha
 		liege = d_tagaung # Yusseter: k_tagaung
+
+		government = mandala_government
 	}
 
 	787.9.22 = {
@@ -46443,6 +46783,8 @@ c_madaya = {
 	750.1.1 = {
 		holder = PyuMB73  # Aggadahtha
 		liege = d_tagaung # Yusseter: k_tagaung
+
+		government = mandala_government
 	}
 
 	787.9.22 = {
@@ -46546,6 +46888,8 @@ d_tagaung = {
 
 	490.1.1 = {
 		holder = pyu95
+
+		government = mandala_government
 	}
 	543.1.1 = {
 		holder = pyu96
@@ -46672,6 +47016,8 @@ c_takon = {
 
 	490.1.1 = {
 		holder = pyu95
+
+		government = mandala_government
 	}
 	543.1.1 = {
 		holder = pyu96
@@ -47103,6 +47449,8 @@ c_hanlan = {
 c_monyin = {
 	750.1.1 = {
 		holder = 769burma2
+
+		government = tribal_government
 	}
 	802.1.1 = {
 		holder = 769burma1
@@ -47175,7 +47523,9 @@ c_monyin = {
 #}
 c_putao = {
 
-	760.1.1 = {  holder = monMB324 }
+	760.1.1 = {  holder = monMB324
+		government = tribal_government
+	}
 	820.1.1 = {  holder = monMB325 }
 	840.1.1 = {  holder = monMB326 }
 	860.1.1 = {  holder = monMB327 }
@@ -47250,7 +47600,9 @@ c_putao = {
 #	1330.1.1 = { holder = Mongmao15	 }
 #}
 c_myitkyina = {
-	760.1.1 = {  holder = monMB324 }
+	760.1.1 = {  holder = monMB324
+		government = tribal_government
+	}
 	820.1.1 = {  holder = monMB325 }
 	840.1.1 = {  holder = monMB326 }
 	860.1.1 = {  holder = monMB327 }
@@ -47310,6 +47662,8 @@ c_momauk = {
 
 	750.1.1 = {
 		holder = 769burma2
+
+		government = tribal_government
 	}
 	802.1.1 = {
 		holder = 769burma1
@@ -47325,7 +47679,9 @@ c_momauk = {
 	1070.1.1 = { holder = SEAsiaMB11	 }
 	1100.1.1 = { holder = SEAsiaMB12	 }
 	1115.1.1 = { holder = SEAsiaMB13	 }
-	1130.1.1 = { holder = Mongkawng00 liege = 0	 }
+	1130.1.1 = { holder = Mongkawng00 liege = 0
+		government = tribal_government
+	}
 	1145.1.1 = { holder = Mongyang0 }
 	1150.1.1 = { holder = Mongyang1	 }
 	1175.1.1 = { holder = Mongyang2	 }
@@ -47364,6 +47720,8 @@ c_kale = {
 
 	100.1.1 = {
 		holder = manipur001 #Ningthouja
+
+		government = tribal_government
 	}
 	154.1.1 = {
 		holder = manipur002 #Ningthouja
@@ -47643,14 +48001,21 @@ d_ramannadesa = {
 		holder = mon031 #Maradi - Fictional son to have a playable vassal under Pagan in 1066
 		liege = 0
 	}
-	1080.1.1 = {  	 }
-	1070.1.1 = { holder = monMB106 	 }
+	1080.1.1 = {
+		government = mandala_government
+	}
+	1070.1.1 = { holder = monMB106
+		government = tribal_government
+	}
 	1100.1.1 = { holder = monMB107 	 }
 	1115.1.1 = { holder = monMB108 	 }
 	1140.1.1 = { holder = monMB109 	 }
 	1180.1.1 = { holder = monMB110 	 }
 	1210.1.1 = { holder = monMB111 	 }
 	1250.1.1 = { holder = monMB112 	 }
+	1287.1.1 = {
+		government = tribal_government
+	}
 	1287.4.4 = {
 		liege="k_pegu"
 	}
@@ -47865,6 +48230,8 @@ c_kusumi = {
 	#Ngapudaw Dynasty (Placeholders)
 	750.1.1 = {
 		#liege="d_dagon" # Yusseter
+
+		government = mandala_government
 	}
 	750.1.1 = {
 		holder=1000203927 #Thamala
@@ -48354,6 +48721,8 @@ c_dagon = {
 	#Ngapudaw Dynasty (Placeholders)
 	750.1.1 = {
 		#liege="d_dagon" # Yusseter
+
+		government = mandala_government
 	}
 	750.1.1 = {
 		holder=1000203927 #Thamala
@@ -49012,12 +49381,17 @@ c_dagon = {
 
 c_THAI_tenasserim = {
 	867.1.1 = { change_development_level = 5 }
+	956.1.1 = {
+		government = mandala_government
+	}
 	1066.1.1 = { change_development_level = 14 }
 
 
 	#Mergui Dynasty (placeholders)
 	750.1.1={
 		holder=1000203877 #Rudanta
+
+		government = tribal_government
 	}
 	760.1.1={
 		liege=d_ramannadesa # Yusseter: "k_thaton"
@@ -49095,7 +49469,9 @@ c_THAI_tenasserim = {
 c_thanbyuzayat = {
 	1066.1.1 = { change_development_level = 11 }
 
-	760.1.1 = {  holder = monMB77 liege = d_ramannadesa	 }
+	760.1.1 = {  holder = monMB77 liege = d_ramannadesa
+		government = mandala_government
+	}
 	820.1.1 = {  holder = monMB78	 }
 	840.1.1 = {  holder = monMB79	 }
 	860.1.1 = {  holder = monMB80	 }
@@ -49138,6 +49514,8 @@ c_sittaung = {
 	#Pegu Dynasty
 	765.1.1 = {
 		holder=1000080287M
+
+		government = mandala_government
 	}
 	800.1.1 = {
 		holder=1000080287
@@ -49400,6 +49778,8 @@ d_lop_buri = {
 	#Lavo Dynasty (most are placeholders)
 	700.1.1 = {
 		holder=1000202098 #Prathumsuriyawong
+
+		government = mandala_government
 	}
 	720.1.1 = {
 		holder=1000202099 #Mahasamudsakorn
@@ -49506,6 +49886,8 @@ c_lop_buri = {
 	#Lavo Dynasty (most are placeholders)
 	700.1.1 = {
 		liege="k_dvaravati"
+
+		government = mandala_government
 	}
 	700.1.1 = {
 		holder=1000202098 #Prathumsuriyawong
@@ -50138,6 +50520,8 @@ c_nakhon_pathom = {
 	#Supannabhum Dynasty (placeholders)
 	750.1.1={
 		holder=1000203874 #Chanraja
+
+		government = mandala_government
 	}
 	780.1.1={
 		holder=1000203875 #Kotama
@@ -50959,7 +51343,9 @@ c_nakhon_pathom = {
 
 d_tun_sun = {
 
-	760.1.1 = {  holder = monMB58	 }
+	760.1.1 = {  holder = monMB58
+		government = mandala_government
+	}
 	820.1.1 = {  holder = monMB59	 }
 	840.1.1 = {  holder = monMB60 liege = k_dvaravati	 }
 	860.1.1 = {  holder = monMB61	 }
@@ -50987,7 +51373,9 @@ d_tun_sun = {
 
 c_THAI_phetchaburi = {
 
-	760.1.1 = {  holder = monMB58	 }
+	760.1.1 = {  holder = monMB58
+		government = mandala_government
+	}
 	820.1.1 = {  holder = monMB59	 }
 	840.1.1 = {  holder = monMB60	 }
 	860.1.1 = {  holder = monMB61	 }
@@ -51011,7 +51399,9 @@ c_THAI_phetchaburi = {
 
 c_khu_bua = {
 
-	760.1.1 = {  holder = monMB58	 }
+	760.1.1 = {  holder = monMB58
+		government = mandala_government
+	}
 	820.1.1 = {  holder = monMB59	 }
 	840.1.1 = {  holder = monMB60	 }
 	860.1.1 = {  holder = monMB61	 }
@@ -51036,6 +51426,8 @@ c_khu_bua = {
 d_mukdahan = {
 	900.1.1 = {
 		holder = 42000014
+
+		government = mandala_government
 	}
 	923.1.1 = {
 		holder = 42000015 # Ishanavarman II
@@ -51349,6 +51741,8 @@ c_dong_si_mahosot = {
 	#Lavo Dynasty (most are placeholders)
 	700.1.1 = {
 		liege="k_dvaravati"
+
+		government = mandala_government
 	}
 	700.1.1 = {
 		holder=1000202098 #Prathumsuriyawong
@@ -51446,6 +51840,8 @@ c_mueang_phra_rot = {
 	#Lavo Dynasty (most are placeholders)
 	700.1.1 = {
 		liege="k_dvaravati"
+
+		government = mandala_government
 	}
 	700.1.1 = {
 		holder=1000202098 #Prathumsuriyawong
@@ -51664,7 +52060,9 @@ c_hsenwi = {
 	867.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 14 }
 
-	760.1.1 = {  holder = SEAsiaMB20	}
+	760.1.1 = {  holder = SEAsiaMB20
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB21	}
 	840.1.1 = {  holder = SEAsiaMB22	}
 	860.1.1 = {  holder = SEAsiaMB23	}
@@ -51679,6 +52077,9 @@ c_hsenwi = {
 	1115.1.1 = { holder = SEAsiaMB32	}
 	1140.1.1 = { holder = SEAsiaMB33	}
 	1180.1.1 = { holder = SEAsiaMB34	}
+	1200.1.1 = {
+		government = mandala_government
+	}
 	1210.1.1 = { holder = SEAsiaMB35	}
 	1250.1.1 = { holder = SEAsiaMB36	}
 	1300.1.1 = { holder = SEAsiaMB37	}
@@ -51700,7 +52101,9 @@ c_moeng_laem = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 13 }
 
-	760.1.1 = {  holder = SEAsiaMB153	}
+	760.1.1 = {  holder = SEAsiaMB153
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB154	}
 	840.1.1 = {  holder = SEAsiaMB155	}
 	860.1.1 = {  holder = SEAsiaMB156	}
@@ -51716,6 +52119,9 @@ c_moeng_laem = {
 	1140.1.1 = { holder = SEAsiaMB166	}
 	1180.1.1 = { holder = SEAsiaMB167	}
 	1210.1.1 = { holder = SEAsiaMB168 liege = 0	}
+	1243.1.1 = {
+		government = tribal_government
+	}
 	1250.1.1 = { holder = SEAsiaMB169	}
 	1300.1.1 = { holder = SEAsiaMB170	}
 	1325.1.1 = { holder = SEAsiaMB171	}
@@ -51779,7 +52185,9 @@ c_nyaungshwe = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 16 }
 
-	760.1.1 = {  holder = SEAsiaMB324	}
+	760.1.1 = {  holder = SEAsiaMB324
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB325	}
 	840.1.1 = {  holder = SEAsiaMB326	}
 	860.1.1 = {  holder = SEAsiaMB327	}
@@ -51789,7 +52197,9 @@ c_nyaungshwe = {
 	980.1.1 = {  holder = SEAsiaMB331	}
 	1005.1.1 = { holder = SEAsiaMB332	}
 	1040.1.1 = { holder = SEAsiaMB333	}
-	1050.1.1 = { holder = SEAsiaMB333 liege = k_pagan	}
+	1050.1.1 = { holder = SEAsiaMB333 liege = k_pagan
+		government = tribal_government
+	}
 	1070.1.1 = { holder = SEAsiaMB334	}
 	1100.1.1 = { holder = SEAsiaMB335	}
 	1115.1.1 = { holder = SEAsiaMB336	}
@@ -51881,7 +52291,9 @@ c_nyaungshwe = {
 #	1325.1.1 = { holder = SEAsiaMB266	}
 #}
 d_mongnai = {
-	760.1.1 = {  holder = SEAsiaMB267	}
+	760.1.1 = {  holder = SEAsiaMB267
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB268	}
 	840.1.1 = {  holder = SEAsiaMB269	}
 	860.1.1 = {  holder = SEAsiaMB270	}
@@ -51897,7 +52309,9 @@ d_mongnai = {
 	1140.1.1 = { holder = SEAsiaMB280	}
 	1180.1.1 = { holder = SEAsiaMB281	}
 	1210.1.1 = { holder = SEAsiaMB282	}
-	1250.1.1 = { holder = SEAsiaMB283	}
+	1250.1.1 = { holder = SEAsiaMB283
+		government = mandala_government
+	}
 	1300.1.1 = { holder = SEAsiaMB284	}
 	1325.1.1 = { holder = SEAsiaMB285	}
 }
@@ -51905,7 +52319,9 @@ c_mongnai = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 11 }
 
-	760.1.1 = {  holder = SEAsiaMB267	}
+	760.1.1 = {  holder = SEAsiaMB267
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB268	}
 	840.1.1 = {  holder = SEAsiaMB269	}
 	860.1.1 = {  holder = SEAsiaMB270	}
@@ -51921,7 +52337,9 @@ c_mongnai = {
 	1140.1.1 = { holder = SEAsiaMB280	}
 	1180.1.1 = { holder = SEAsiaMB281	}
 	1210.1.1 = { holder = SEAsiaMB282	}
-	1250.1.1 = { holder = SEAsiaMB283	}
+	1250.1.1 = { holder = SEAsiaMB283
+		government = mandala_government
+	}
 	1300.1.1 = { holder = SEAsiaMB284	}
 	1325.1.1 = { holder = SEAsiaMB285	}
 }
@@ -51980,6 +52398,8 @@ c_mongnai = {
 c_nandian = {
 	760.1.1 = {
 		holder = monMB305 # Tha Sit
+
+		government = meritocratic_government
 	}
 	820.1.1 = {
 		holder = monMB306 # Theinga
@@ -52018,6 +52438,8 @@ c_nandian = {
 	}
 	1112.1.1 = {
 		holder = Mongmao1 # Sao Sein Nga Möng Mao
+
+		government = tribal_government
 	}
 	1115.1.1 = {
 		holder = Mongmao0 # Hso Tai Hpa Möng Mao
@@ -52079,6 +52501,8 @@ k_chiang_hung = {
 	#Phanya Coeng Dynasty
 	1170.1.1 = {
 		holder=1000201985 #Phanya-Coeng
+
+		government = tribal_government
 	}
 	1192.1.1 = {
 		holder=1000201986 #Sam-Khai-Noeng
@@ -52117,7 +52541,9 @@ k_chiang_hung = {
 
 d_sipsongpanna = {
 
-	760.1.1 = {  holder = SEAsiaMB58	}
+	760.1.1 = {  holder = SEAsiaMB58
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB59	}
 	840.1.1 = {  holder = SEAsiaMB60	}
 	860.1.1 = {  holder = SEAsiaMB61	}
@@ -52221,7 +52647,9 @@ c_chiang_rung = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 11 }
 
-	760.1.1 = {  holder = SEAsiaMB58	}
+	760.1.1 = {  holder = SEAsiaMB58
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB59	}
 	840.1.1 = {  holder = SEAsiaMB60	}
 	860.1.1 = {  holder = SEAsiaMB61	}
@@ -52586,6 +53014,8 @@ d_muang_sua = {
 	#Lavachakkaraj Dynasty
 	638.1.1 = {
 		holder=1000202003 #Lavachakkaraj
+
+		government = tribal_government
 	}
 	665.1.1 = {
 		holder=1000202004 #Lao-Kao-Kaeo-Ma-Mueang
@@ -52646,6 +53076,11 @@ d_muang_sua = {
 	}
 	1174.1.1 = {
 		holder=1000202022 #Lao-Sin
+
+		government = mandala_government
+	}
+	1188.1.1 = {
+		government = tribal_government
 	}
 	1201.1.1 = {
 		holder=1000202023 #Lao-Ming
@@ -52668,6 +53103,9 @@ d_muang_sua = {
 	1292.1.1 = {
 		holder = muangsua21
 	}
+	1300.1.1 = {
+		government = mandala_government
+	}
 	1314.1.1 = {
 		holder = muangsua22
 	}
@@ -52677,6 +53115,8 @@ c_luang_prabang = {
 	#Apparently this one actually has characters made but just not filled in
 	698.1.1= {
 		holder = muangsua2
+
+		government = tribal_government
 	}
 	780.1.1= {
 		holder = muangsua3
@@ -52735,6 +53175,9 @@ c_luang_prabang = {
 	}
 	1271.1.1 = {
 		holder = muangsua21
+	}
+	1300.1.1 = {
+		government = mandala_government
 	}
 	1314.1.1 = {
 		holder = muangsua22
@@ -52916,7 +53359,9 @@ c_luang_prabang = {
 #	1325.1.1 = { holder = SEAsiaMB95	}
 #}
 c_moeng_long = {
-	760.1.1 = {  holder = SEAsiaMB77 	}
+	760.1.1 = {  holder = SEAsiaMB77
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB78	}
 	840.1.1 = {  holder = SEAsiaMB79	}
 	860.1.1 = {  holder = SEAsiaMB80	}
@@ -53777,6 +54222,8 @@ d_kambuja_devaraja = {
 	# Founding of Khmer Empire
 	802.1.1 = {
 		holder = 420010000
+
+		government = mandala_government
 	}
 	835.1.1 = {
 		holder = khmer_varman_9
@@ -54032,6 +54479,8 @@ c_koh_ker = {
 	300.1.1 = { change_development_level = 8 }
 	550.1.1 = {
 		holder = 42000000
+
+		government = mandala_government
 	}
 	555.1.1 = {
 		holder = 42000001
@@ -54447,6 +54896,8 @@ c_koh_ker = {
 c_ratanakiri = {
 	760.1.1 = {
 		holder = kuyMB36
+
+		government = tribal_government
 	}
 	820.1.1 = {
 		holder = kuyMB37
@@ -54633,6 +55084,8 @@ d_angkor = {
 c_angkor = { # Hariharalaya and Yasodharapura (Angkor), the royal county; holders follow e_kambuja (k_chenla before 802)
 	750.1.1 = {
 		holder = 1000076070 #Rajendravarman I
+
+		government = mandala_government
 	}
 	790.1.1 = {
 		holder = 1000076071 #Mahipatavarman
@@ -54738,6 +55191,8 @@ c_prea_vihear = {
 		holder = MB_anc_lingapura_1 # forefather, holds from the 769 start
 
 		liege = "k_funan" # Yusseter: k_chenla
+
+		government = tribal_government
 	}
 	797.1.1 = {
 		holder = MB_anc_lingapura_2 # Veasna
@@ -54771,6 +55226,8 @@ c_prea_vihear = {
 	}
 	900.1.1 = {
 		holder = MB_end_khmer004_1 # continuation of the Veasna line
+
+		government = mandala_government
 	}
 	942.1.1 = {
 		holder = MB_end_khmer004_2 # continuation of the Veasna line
@@ -55076,6 +55533,8 @@ d_angkor_borey = {
 	750.1.1 = {
 		holder = 4200111
 		liege = k_funan
+
+		government = mandala_government
 	}
 	774.1.1 = {
 		holder = 4200100
@@ -55138,6 +55597,8 @@ c_pursat = {
 	750.1.1 = {
 		holder = 4200111
 		liege = e_kambuja
+
+		government = mandala_government
 	}
 	774.1.1 = {
 		holder = 4200100
@@ -55323,6 +55784,8 @@ d_vyadhapura = {
 	760.1.1 = {
 		holder = khmerMB20
 		liege = k_funan
+
+		government = mandala_government
 	}
 	820.1.1 = {
 		holder = khmerMB21
@@ -55383,6 +55846,8 @@ d_vyadhapura = {
 c_angkor_borey = {
 	760.1.1 = {
 		holder = khmerMB20
+
+		government = mandala_government
 	}
 	820.1.1 = {
 		holder = khmerMB21
@@ -55442,6 +55907,8 @@ c_angkor_borey = {
 c_binh_long = {
 	760.1.1 = {
 		holder = khmerMB20
+
+		government = mandala_government
 	}
 	820.1.1 = {
 		holder = khmerMB21
@@ -55561,6 +56028,8 @@ c_binh_long = {
 c_kracheh_nokor = {
 	760.1.1 = {
 		holder = khmerMB20
+
+		government = mandala_government
 	}
 	820.1.1 = {
 		holder = khmerMB21
@@ -55620,6 +56089,8 @@ c_kracheh_nokor = {
 c_vyadhapura = {
 	760.1.1 = {
 		holder = khmerMB20
+
+		government = mandala_government
 	}
 	820.1.1 = {
 		holder = khmerMB21
@@ -55804,6 +56275,8 @@ d_baigaur = {
 c_binh_dai = {
 	760.1.1 = {
 		holder = khmerMB39
+
+		government = mandala_government
 	}
 	820.1.1 = {
 		holder = khmerMB40
@@ -55923,6 +56396,8 @@ c_binh_dai = {
 c_ca_mau = {
 	760.1.1 = {
 		holder = khmerMB39
+
+		government = mandala_government
 	}
 	820.1.1 = {
 		holder = khmerMB40
@@ -55993,6 +56468,8 @@ c_botum_sakor = {
 	750.1.1 = {
 		holder = 4200111
 		liege = e_kambuja
+
+		government = mandala_government
 	}
 	774.1.1 = {
 		holder = 4200100
@@ -56122,6 +56599,8 @@ d_ratanakiri = {
 	730.1.1 = {
 		holder = 42001093
 		liege = k_funan
+
+		government = mandala_government
 	}
 	739.1.1 = {
 		holder = 42001094
@@ -56153,7 +56632,7 @@ d_ratanakiri = {
 
 	1060.1.1 = {
 		holder = khmerv014
-		government = feudal_government
+		government = mandala_government
 		liege = e_kambuja
 	}
 	1100.1.1 = {
@@ -56184,6 +56663,8 @@ d_ratanakiri = {
 c_sambhupura = {
 	730.1.1 = {
 		holder = 42001093
+
+		government = mandala_government
 	}
 	739.1.1 = {
 		holder = 42001094
@@ -56257,6 +56738,8 @@ c_sambhupura = {
 c_stung_treng = {
 	730.1.1 = {
 		holder = 42001093
+
+		government = mandala_government
 	}
 	739.1.1 = {
 		holder = 42001094
@@ -56687,7 +57170,9 @@ c_mukdahan = {
 	1070.1.1 = { holder = monMB49 	 }
 	1100.1.1 = { holder = monMB50 	 }
 	1115.1.1 = { holder = monMB51 	 }
-	1140.1.1 = { holder = monMB52 liege = e_kambuja 	 }
+	1140.1.1 = { holder = monMB52 liege = e_kambuja
+		government = mandala_government
+	}
 	1180.1.1 = { holder = monMB53 	 }
 	1210.1.1 = { holder = monMB54 	 }
 	1250.1.1 = { holder = monMB55 liege = 0 	 }
@@ -56785,7 +57270,9 @@ c_mukdahan = {
 #	1325.1.1 = { holder = kuyMB110 	 }
 #}
 c_salo_tai = {
-	760.1.1 = {  holder = kuyMB111	 }
+	760.1.1 = {  holder = kuyMB111
+		government = tribal_government
+	}
 	820.1.1 = {  holder = kuyMB93	 }
 	840.1.1 = {  holder = kuyMB94	 }
 	860.1.1 = {  holder = kuyMB95	 }
@@ -56853,6 +57340,8 @@ d_phonsavan = {
 
 	760.1.1 = {
 		holder = kuyMB73
+
+		government = tribal_government
 	}
 	820.1.1 = {
 		holder = kuyMB55
@@ -56912,6 +57401,8 @@ d_phonsavan = {
 c_sanasomboon = {
 	760.1.1 = {
 		holder = kuyMB73
+
+		government = tribal_government
 	}
 	820.1.1 = {
 		holder = kuyMB55
@@ -57524,7 +58015,9 @@ d_canasapura = {
 	1325.1.1 = { holder = monMB19 	 }
 }
 c_canasha = {
-	760.1.1 = {  holder = monMB1	 }
+	760.1.1 = {  holder = monMB1
+		government = mandala_government
+	}
 	820.1.1 = {  holder = monMB2	 }
 	840.1.1 = {  holder = monMB3	 }
 	860.1.1 = {  holder = monMB4	 }
@@ -57990,6 +58483,8 @@ c_haripunjaya = {
 	#Hariphunchai Dynasty
 	742.1.1 = {
 		liege = d_haripunjaya # Yusseter: liege="k_haripunjaya"
+
+		government = mandala_government
 	}
 	742.1.1 = {
 		holder=1000202041 #Cammadevi
@@ -58169,6 +58664,8 @@ c_lampang = {
 	#Hariphunchai Dynasty
 	742.1.1 = {
 		liege = d_haripunjaya # Yusseter: liege="k_haripunjaya"
+
+		government = mandala_government
 	}
 	742.1.1 = {
 		holder=1000202041 #Cammadevi
@@ -58531,6 +59028,8 @@ d_sukhothai = {
 	1171.1.1 = {
 		holder=1000202033 #Jettharaja
 		#liege = k_haripunjaya # Yusseter
+
+		government = mandala_government
 	}
 	1208.1.1 = {
 		holder=1000202034 #Indraditya
@@ -58570,6 +59069,8 @@ c_hlaingbwe = {
 	#Hariphunchai Dynasty
 	742.1.1 = {
 		liege = d_haripunjaya # Yusseter: liege="k_haripunjaya"
+
+		government = mandala_government
 	}
 	742.1.1 = {
 		holder=1000202041 #Cammadevi
@@ -58722,6 +59223,8 @@ c_sukhothai = {
 	#Hariphunchai Dynasty
 	742.1.1 = {
 		liege = d_haripunjaya # Yusseter: liege="k_haripunjaya"
+
+		government = mandala_government
 	}
 	742.1.1 = {
 		holder=1000202041 #Cammadevi
@@ -58871,6 +59374,8 @@ c_chakangrao = {
 	#Hariphunchai Dynasty
 	742.1.1 = {
 		liege = d_haripunjaya # Yusseter: liege="k_haripunjaya"
+
+		government = mandala_government
 	}
 	742.1.1 = {
 		holder=1000202041 #Cammadevi
@@ -59070,9 +59575,14 @@ c_chakangrao = {
 #}
 c_phetchabun = {
 	867.1.1 = { change_development_level = 3 }
+	1050.1.1 = {
+		government = mandala_government
+	}
 	1066.1.1 = { change_development_level = 5 }
 
-	760.1.1 = {  holder = SEAsiaMB229	}
+	760.1.1 = {  holder = SEAsiaMB229
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB230	}
 	840.1.1 = {  holder = SEAsiaMB231	}
 	860.1.1 = {  holder = SEAsiaMB232	}
@@ -59081,7 +59591,7 @@ c_phetchabun = {
 	955.1.1 = {  holder = SEAsiaMB235	}
 	980.1.1 = {  holder = SEAsiaMB236	}
 	1005.1.1 = { holder = SEAsiaMB237	}
-	1040.1.1 = { holder = SEAsiaMB238 government = mandala_government	}
+	1040.1.1 = { holder = SEAsiaMB238 government = tribal_government	}
 	1070.1.1 = { holder = SEAsiaMB239	}
 	1100.1.1 = { holder = SEAsiaMB240	}
 	1115.1.1 = { holder = SEAsiaMB241	}
@@ -59449,6 +59959,8 @@ c_nan_asia = {
 	#Lavachakkaraj Dynasty
 	638.1.1 = {
 		liege="d_muang_sua"
+
+		government = tribal_government
 	}
 	638.1.1 = {
 		holder=1000202003 #Lavachakkaraj
@@ -59505,6 +60017,8 @@ c_nan_asia = {
 	#Phayao Dynasty (most are placeholders)
 	1096.1.1 = {
 		liege = 0 # Yusseter: The co-held source d_nan is independent.
+
+		government = tribal_government
 	}
 	1118.1.1 = {
 		holder=1000202088 #Khun-Khun
@@ -60183,7 +60697,9 @@ c_nan_asia = {
 #
 #}
 c_mae_hong_son = {
-	760.1.1 = {  holder = SEAsiaMB210	}
+	760.1.1 = {  holder = SEAsiaMB210
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB211	}
 	840.1.1 = {  holder = SEAsiaMB212	}
 	860.1.1 = {  holder = SEAsiaMB213	}
@@ -60284,6 +60800,8 @@ c_ngoenyang = {
 	#Lavachakkaraj Dynasty
 	638.1.1 = {
 		liege="d_muang_sua"
+
+		government = tribal_government
 	}
 	638.1.1 = {
 		holder=1000202003 #Lavachakkaraj
@@ -60347,6 +60865,11 @@ c_ngoenyang = {
 	}
 	1174.1.1 = {
 		holder=1000202022 #Lao-Sin
+
+		government = mandala_government
+	}
+	1188.1.1 = {
+		government = tribal_government
 	}
 	1201.1.1 = {
 		holder=1000202023 #Lao-Ming
@@ -60372,6 +60895,8 @@ c_chiang_khaeng = {
 	#Lavachakkaraj Dynasty
 	638.1.1 = {
 		liege="d_muang_sua"
+
+		government = tribal_government
 	}
 	638.1.1 = {
 		holder=1000202003 #Lavachakkaraj
@@ -60435,6 +60960,11 @@ c_chiang_khaeng = {
 	}
 	1174.1.1 = {
 		holder=1000202022 #Lao-Sin
+
+		government = mandala_government
+	}
+	1188.1.1 = {
+		government = tribal_government
 	}
 	1201.1.1 = {
 		holder=1000202023 #Lao-Ming
@@ -60557,7 +61087,9 @@ e_dai_viet = {
 	# Established 968
 
 	#Ngo dynasty
-	944.2.14 = { holder = 1418005 } #Duong Tam Kha
+	944.2.14 = { holder = 1418005
+		government = meritocratic_government
+	} #Duong Tam Kha
 	950.1.1 = { holder = 1418011 government = meritocratic_government } #Ngo Xuong Ngap
 	954.2.20 = { holder = 1418014 liege = 0 } #Ngo Xuong Van
 	965.1.1 = { holder = 0 }
@@ -60616,6 +61148,9 @@ e_dai_viet = {
 
 k_viet = {
 	300.1.1 = { change_development_level = 3 }
+	750.1.28 = {
+		government = celestial_government
+	}
 	779.5.23 = {
 		holder = 0
 	}
@@ -60627,6 +61162,9 @@ k_viet = {
 	}
 	820.8.27 = {
 		holder = 0
+	}
+	939.1.1 = {
+		government = meritocratic_government
 	}
 	1066.1.1 = { change_development_level = 7 }
 	
@@ -60690,16 +61228,18 @@ k_viet = {
 	938.11.19 = { holder = 1418010 } #Ngo Quyen
 	
 	#Ngo dynasty
-	944.2.14 = { holder = 1418005 reset_name = yes effect = { set_coa = k_viet } } #Duong Tam Kha
+	944.2.14 = { holder = 1418005 reset_name = yes effect = { set_coa = k_viet }
+		government = meritocratic_government
+	} #Duong Tam Kha
 	944.2.14 = { holder = 1418005 } #Duong Tam Kha
-	950.1.1 = { holder = 1418011 government = feudal_government } #Ngo Xuong Ngap
+	950.1.1 = { holder = 1418011 government = meritocratic_government } #Ngo Xuong Ngap
 	954.2.20 = { holder = 1418014 liege = 0 } #Ngo Xuong Van
 	965.1.1 = { holder = 0 }
 	#Dinh dynasty
 	968.1.1 = { holder = 1418022 } #Dinh Bo Linh
 	979.10.1 = { holder = 1418027 } #Dinh Toan
 	#Former Le Dynasty
-	980.8.19 = { holder = tien_le_002 name = k_viet government = feudal_government } #Le Hoan
+	980.8.19 = { holder = tien_le_002 name = k_viet government = meritocratic_government } #Le Hoan
 	1005.4.19 = { holder = tien_le_005 } #Le Long Viet
 	1005.11.8 = { holder = tien_le_007 } #Le Long Dinh
 	#Ly Dynasty
@@ -60751,6 +61291,8 @@ k_viet = {
 c_quoc_oai ={
 	730.1.1 = {
 		holder = MacMB1		# Quoc Viet (covers 769 bookmark)
+
+		government = celestial_government
 	}
 	735.9.3 = {
 		holder = MacMB2		# Tuan Kiet
@@ -60779,6 +61321,8 @@ c_quoc_oai ={
 	}
 	966.8.4 = {
 		holder = MacMB10	# Toan Trung
+
+		government = meritocratic_government
 	}
 	995.3.22 = {
 		holder = MacMB11	# Hien Tich (historically documented Ly dynasty scholar)
@@ -60917,6 +61461,8 @@ c_sam_nuea = {
 
 	730.1.1 = {
 		holder = LuuMB1		# Phong (covers 769 bookmark)
+
+		government = celestial_government
 	}
 	737.9.3 = {
 		holder = LuuMB2		# Trong Nghia
@@ -60944,6 +61490,8 @@ c_sam_nuea = {
 	}
 	939.8.18 = {
 		holder = LuuMB9		# Hoang Quan
+
+		government = meritocratic_government
 	}
 	955.1.1 = {  holder = SEAsiaMB482 liege = k_viet	}
 	968.2.25 = {
@@ -61125,6 +61673,8 @@ c_nghe_an = {
 	300.1.1 = { change_development_level = 8 }
 	730.1.1 = {
 		holder = BuiMB1		# Phuoc (covers 769 bookmark)
+
+		government = celestial_government
 	}
 	736.4.9 = {
 		holder = BuiMB2		# Trong Nghia
@@ -61153,6 +61703,8 @@ c_nghe_an = {
 	}
 	965.7.18 = {
 		holder = BuiMB10	# Khuong Nghia
+
+		government = meritocratic_government
 	}
 	994.4.3 = {
 		holder = BuiMB11	# Vinh San
@@ -61306,6 +61858,8 @@ d_nghe_an = {
 c_nam_dinh = {
 	730.1.1 = {
 		holder = NgoMB1		# Tung — covers the 769 bookmark
+
+		government = celestial_government
 	}
 	739.8.22 = {
 		holder = NgoMB2
@@ -61328,6 +61882,9 @@ c_nam_dinh = {
 	}
 	930.1.1 = {
 		holder = 1418010	# Ngo Quyen
+	}
+	939.1.1 = {
+		government = meritocratic_government
 	}
 	944.2.14 = {
 		holder = 1418011	# Ngo Xuong Ngap (eldest son)
@@ -61493,6 +62050,8 @@ d_hai_dong = {
 c_hai_dong = {
 	730.1.1 = {
 		holder = DoMB1		# Phuoc (covers 769 bookmark)
+
+		government = celestial_government
 	}
 	738.3.17 = {
 		holder = DoMB2		# Quoc Hung
@@ -61518,6 +62077,8 @@ c_hai_dong = {
 	}
 	967.1.1 = {
 		holder = DoMB8		# Nhat Vu — cadet branch survives defeat
+
+		government = meritocratic_government
 	}
 	1003.11.29 = {
 		holder = DoMB9		# Van Chuong
@@ -61579,6 +62140,8 @@ c_long_hung = {
 
 	730.1.1 = {
 		holder = DinhMB1		# Phong (covers 769 bookmark)
+
+		government = celestial_government
 	}
 	
 	736.11.22 = {
@@ -61612,6 +62175,8 @@ c_long_hung = {
 	
 	940.1.1 = {
 		holder = 1418022		# Dinh Bo Linh / Hoan
+
+		government = meritocratic_government
 	}
 	
 	979.10.1 = {
@@ -61706,7 +62271,9 @@ d_thang_long = {
 	#850.1.1 = { holder = 0 } #Cui Geng
 	#853.1.1 = { holder = 0 } #Li Zhuo
 	#855.1.1 = { holder = 0 } #Song Ya
-	857.1.1 = { holder = longxi_li_1438 } #Li Hongfu
+	857.1.1 = { holder = longxi_li_1438
+		government = celestial_government
+	} #Li Hongfu
 	858.1.19 = { holder = 1401150 } #Wang Shi
 	#860.1.1 = { holder = 0 } #Li E
 	#861.1.1 = { holder = 0 } #Wang Kuan
@@ -61729,7 +62296,9 @@ d_thang_long = {
 	937.5.10 = { holder = 1418008 } #Kieu Cong Tien
 	938.11.19 = { holder = 1418010 } #Ngo Quyen
 	#Ngo dynasty
-	939.1.1 = { liege = k_viet }
+	939.1.1 = { liege = k_viet
+		government = meritocratic_government
+	}
 	944.2.14 = { holder = 1418005 } #Duong Tam Kha
 	950.1.1 = { holder = 1418011 } #Ngo Xuong Ngap
 	954.2.20 = { holder = 1418014 } #Ngo Xuong Van
@@ -61886,6 +62455,9 @@ c_thang_long = {
 	#Tang
 	#627.1.1 = { holder = longxi_li_0204 } #Li Daliang - made prefect
 	#
+	750.1.28 = {
+		government = celestial_government
+	}
 	769.1.1 = { holder = longxi_li_0964 liege = h_china }
 	# #Wu Chongfu
 	#782.1.1 = { liege = d_jiaozhi } #Pu Liangjiao
@@ -61942,6 +62514,9 @@ c_thang_long = {
 	#937.5.10 = { holder = 1418008 } #Kieu Cong Tien
 	935.11.19 = { holder = 1418010 liege = k_viet } #Ngo Quyen
 	#Ngo Dynasty
+	939.1.1 = {
+		government = meritocratic_government
+	}
 	944.2.14 = { holder = 1418005 } #Duong Tam Kha
 	950.1.1 = { holder = 1418011 } #Ngo Xuong Ngap
 	954.2.20 = { holder = 1418014 } #Ngo Xuong Van
@@ -62112,7 +62687,9 @@ c_thang_long = {
 #	1325.1.1 = { holder = SEAsiaMB152	}
 #}
 c_binh_nguyen = { # Yusseter: Keep c_con_linh's source allegiance; co-held c_lam_tay retains d_lo's history.
-	760.1.1 = {  holder = SEAsiaMB134	}
+	760.1.1 = {  holder = SEAsiaMB134
+		government = tribal_government
+	}
 	820.1.1 = {  holder = SEAsiaMB135	}
 	840.1.1 = {  holder = SEAsiaMB136	}
 	860.1.1 = {  holder = SEAsiaMB137	}
@@ -62381,10 +62958,14 @@ k_champa = { #Just using Umbra's character list as both it and Rajas have the sa
 	}
 	986.1.1={
 		holder = 1000076040 # Ki Tsong
+
+		government = meritocratic_government
 	}
 
 	989.1.1={
 		holder = 1000076041 # Harivarman II
+
+		government = mandala_government
 	}
 	999.1.1={
 		holder = 1000076042 # Yan Pu Ku
@@ -62509,7 +63090,9 @@ c_ma_linh = {
 	300.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 15 }
 
-	760.1.1 = {  holder = SEAsiaMB381 liege = k_champa	}
+	760.1.1 = {  holder = SEAsiaMB381 liege = k_champa
+		government = mandala_government
+	}
 	820.1.1 = {  holder = SEAsiaMB382	}
 	840.1.1 = {  holder = SEAsiaMB383	}
 	860.1.1 = {  holder = SEAsiaMB384	}
@@ -62527,7 +63110,9 @@ c_ma_linh = {
 	1210.1.1 = { holder = SEAsiaMB396	}
 	1250.1.1 = { holder = SEAsiaMB397	}
 	1300.1.1 = { holder = SEAsiaMB398	}
-	1306.1.1 = { liege = k_viet } # Yusseter: Restore d_tribhuvanadevi's transfer to mapped e_dai_viet.
+	1306.1.1 = { liege = k_viet
+		government = meritocratic_government
+	} # Yusseter: Restore d_tribhuvanadevi's transfer to mapped e_dai_viet.
 	1325.1.1 = { holder = SEAsiaMB399	}
 }
 ### Yusseter: COMMENTED FOR TESTING
@@ -62563,6 +63148,8 @@ c_indrapura = {
 	377.1.1={
 		holder = 1000076006 # Bhadravarman I
 		liege = k_champa
+
+		government = mandala_government
 	}
 	387.1.1={
 		holder = 1000076007 # Gangaraja
@@ -62665,9 +63252,13 @@ c_indrapura = {
 	}
 	986.1.1={
 		holder = 1000076040 # Ki Tsong
+
+		government = meritocratic_government
 	}
 	989.1.1={
 		holder = 1000076041 # Harivarman II
+
+		government = mandala_government
 	}
 	999.1.1={
 		holder = 1000076042 # Yan Pu Ku
@@ -62970,6 +63561,8 @@ c_simhapura = {
 	}
 	377.1.1={
 		holder = 1000076006 # Bhadravarman I
+
+		government = mandala_government
 	}
 	387.1.1={
 		holder = 1000076007 # Gangaraja
@@ -63072,9 +63665,13 @@ c_simhapura = {
 	}
 	986.1.1={
 		holder = 1000076040 # Ki Tsong
+
+		government = meritocratic_government
 	}
 	989.1.1={
 		holder = 1000076041 # Harivarman II
+
+		government = mandala_government
 	}
 	999.1.1={
 		holder = 1000076042 # Yan Pu Ku
@@ -63171,7 +63768,9 @@ d_vijaya = {
 	300.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 15 }
 
-	760.1.1 = {  holder = SEAsiaMB362 liege = k_champa	}
+	760.1.1 = {  holder = SEAsiaMB362 liege = k_champa
+		government = mandala_government
+	}
 	820.1.1 = {  holder = SEAsiaMB363	}
 	840.1.1 = {  holder = SEAsiaMB364	}
 	860.1.1 = {  holder = SEAsiaMB365	}
@@ -63183,9 +63782,13 @@ d_vijaya = {
 
 	986.1.1={
 		holder = 1000076040 # Ki Tsong
+
+		government = meritocratic_government
 	}
 	989.1.1={
 		holder = 1000076041 # Harivarman II
+
+		government = mandala_government
 	}
 	999.1.1={
 		holder = 1000076042 # Yan Pu Ku
@@ -63276,7 +63879,9 @@ d_vijaya = {
 	}
 }
 c_vijaya = {
-	760.1.1 = {  holder = SEAsiaMB362	}
+	760.1.1 = {  holder = SEAsiaMB362
+		government = mandala_government
+	}
 	820.1.1 = {  holder = SEAsiaMB363	}
 	840.1.1 = {  holder = SEAsiaMB364	}
 	860.1.1 = {  holder = SEAsiaMB365	}
@@ -63288,9 +63893,13 @@ c_vijaya = {
 
 	986.1.1={
 		holder = 1000076040 # Ki Tsong
+
+		government = meritocratic_government
 	}
 	989.1.1={
 		holder = 1000076041 # Harivarman II
+
+		government = mandala_government
 	}
 	999.1.1={
 		holder = 1000076042 # Yan Pu Ku
@@ -63406,7 +64015,9 @@ d_panduranga = {
 	300.1.1 = { change_development_level = 8 }
 	1066.1.1 = { change_development_level = 15 }
 
-	760.1.1 = {  holder = SEAsiaMB343 liege = k_champa	}
+	760.1.1 = {  holder = SEAsiaMB343 liege = k_champa
+		government = mandala_government
+	}
 	820.1.1 = {  holder = SEAsiaMB344	}
 	840.1.1 = {  holder = SEAsiaMB345	}
 	860.1.1 = {  holder = SEAsiaMB346	}
@@ -63428,7 +64039,9 @@ d_panduranga = {
 	1328.1.1 = { holder = SEAsiaMB361M	}
 }
 c_panduranga = {
-	760.1.1 = {  holder = SEAsiaMB343	}
+	760.1.1 = {  holder = SEAsiaMB343
+		government = mandala_government
+	}
 	820.1.1 = {  holder = SEAsiaMB344	}
 	840.1.1 = {  holder = SEAsiaMB345	}
 	860.1.1 = {  holder = SEAsiaMB346	}
@@ -63464,7 +64077,9 @@ c_panduranga = {
 	}
 }
 c_baigaur = {
-	760.1.1 = {  holder = SEAsiaMB343	}
+	760.1.1 = {  holder = SEAsiaMB343
+		government = mandala_government
+	}
 	820.1.1 = {  holder = SEAsiaMB344	}
 	840.1.1 = {  holder = SEAsiaMB345	}
 	860.1.1 = {  holder = SEAsiaMB346	}
@@ -63583,7 +64198,9 @@ c_baigaur = {
 #	1325.1.1 = { holder = SEAsiaMB361	}
 #}
 c_kauthara = {
-	760.1.1 = {  holder = SEAsiaMB362 liege = k_champa	}
+	760.1.1 = {  holder = SEAsiaMB362 liege = k_champa
+		government = mandala_government
+	}
 	820.1.1 = {  holder = SEAsiaMB363	}
 	840.1.1 = {  holder = SEAsiaMB364	}
 	860.1.1 = {  holder = SEAsiaMB365	}
@@ -63591,7 +64208,12 @@ c_kauthara = {
 	930.1.1 = {  holder = SEAsiaMB367	}
 	955.1.1 = {  holder = SEAsiaMB368	}
 	980.1.1 = {  holder = SEAsiaMB369	}
-	1005.1.1 = { holder = SEAsiaMB370	}
+	986.1.1 = {
+		government = feudal_government
+	}
+	1005.1.1 = { holder = SEAsiaMB370
+		government = mandala_government
+	}
 	1040.1.1 = { holder = SEAsiaMB371	}
 	1070.1.1 = { holder = SEAsiaMB372	}
 	1100.1.1 = { holder = SEAsiaMB373	}
@@ -63611,6 +64233,8 @@ c_kauthara = {
 c_pleiku = {
 	760.1.1 = {
 		holder = kuyMB36
+
+		government = tribal_government
 	}
 	820.1.1 = {
 		holder = kuyMB37
@@ -63702,7 +64326,9 @@ d_MAL_langkasuka = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 
-	760.1.1 = {  holder = malayMB1 liege = e_srivijaya	 }
+	760.1.1 = {  holder = malayMB1 liege = e_srivijaya
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB2	 }
 	840.1.1 = {  holder = malayMB3	 }
 	860.1.1 = {  holder = malayMB4	 }
@@ -63772,7 +64398,9 @@ d_MAL_langkasuka = {
 #}
 c_MAL_patani = {
 
-	760.1.1 = {  holder = malayMB1	 }
+	760.1.1 = {  holder = malayMB1
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB2	 }
 	840.1.1 = {  holder = malayMB3	 }
 	860.1.1 = {  holder = malayMB4	 }
@@ -63801,6 +64429,8 @@ c_THAI_takua_pa = {
 	#Tambralinga Dynasty
 	750.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203939 #Megat
@@ -64660,8 +65290,11 @@ c_MAL_kedah = {
 	}
 	1135.1.1={
 		holder=1000080735 #Durbaraja II / Mudzaffar I
-		government = clan_government
+		government = mandala_government
 		succession_laws = { clan_impassive_partition_succession_law  }
+	}
+	1136.1.1 = {
+		government = clan_government
 	}
 	1179.7.27={
 		holder=1000080736 #Muadzam
@@ -64773,6 +65406,8 @@ c_MAL_johor = {
 	#Wirabangsa Dynasty (placeholders)
 	750.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203936 #Jusoh
@@ -64839,6 +65474,8 @@ c_MAL_johor = {
 	1299.1.1={
 		holder=1000080700 #Nila-Utama
 		liege = d_MAL_pahang
+
+		government = mandala_government
 	}
 	1347.1.1={
 		holder=1000080701 #Vikramavira
@@ -65183,7 +65820,9 @@ c_MAL_kelantan = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 
-	760.1.1 = {  holder = malayMB1	 }
+	760.1.1 = {  holder = malayMB1
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB2	 }
 	840.1.1 = {  holder = malayMB3	 }
 	860.1.1 = {  holder = malayMB4	 }
@@ -65314,6 +65953,8 @@ c_MAL_pahang = {
 	#Bangsajayah Dynasty (placeholders)
 	750.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203948 #Che
@@ -65390,6 +66031,8 @@ c_MAL_gelanggi = {
 	#Bangsajayah Dynasty (placeholders)
 	750.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203948 #Che
@@ -65466,6 +66109,8 @@ c_MAL_semantan = {
 	#Bangsajayah Dynasty (placeholders)
 	750.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203948 #Che
@@ -65767,7 +66412,7 @@ c_dali = {
 	# 704 tributary of Tibet
 
 	728.1.1 = {
-		government = clan_government
+		government = meritocratic_government
 		holder = 421003
 	}
 	748.1.1 = {
@@ -66044,6 +66689,9 @@ c_dali = {
 #}
 # EAST_TITLE_REWRITE_COLLISION: direct c_tuodong -> c_shanchan; same-run duplicate target in history_titles; manual merge needed.
 c_shanchan = {
+	760.1.1 = {
+		government = meritocratic_government
+	}
 	800.1.1 = { change_development_level = 14 }
 	1066.1.1 = { change_development_level = 20 }
 
@@ -66169,6 +66817,9 @@ c_shanchan = {
 # Yongchang Jiedushi (duke)
 d_yongchang = {
 	867.1.1 = { change_development_level = 5 }
+	902.1.1 = {
+		government = meritocratic_government
+	}
 	909.1.1 = {
 		holder = 1417020 # Shanzheng (historical)
 	}
@@ -66177,10 +66828,12 @@ d_yongchang = {
 	760.1.1 = {
 		holder = zheng0001
 		liege = k_dali
-		government = clan_government
+		government = meritocratic_government
 	}
 	777.1.1 = {
 		holder = zheng0002
+
+		government = tribal_government
 	}
 	800.1.1 = {
 		holder = zheng0003
@@ -66254,6 +66907,9 @@ d_yongchang = {
 }
 c_yongchang_yongchang = {
 	867.1.1 = { change_development_level = 6 }
+	902.1.1 = {
+		government = meritocratic_government
+	}
 	909.1.1 = {
 		holder = 1417020 # Shanzheng (historical)
 	}
@@ -66261,9 +66917,13 @@ c_yongchang_yongchang = {
 
 	760.1.1 = {
 		holder = zheng0001
+
+		government = meritocratic_government
 	}
 	777.1.1 = {
 		holder = zheng0002
+
+		government = tribal_government
 	}
 	800.1.1 = {
 		holder = zheng0003
@@ -66353,7 +67013,9 @@ c_yinsheng = {
 	}
 	1066.1.1 = { change_development_level = 10 }
 
-	760.1.1 = {  holder = SEAsiaMB723	}
+	760.1.1 = {  holder = SEAsiaMB723
+		government = meritocratic_government
+	}
 	820.1.1 = {  holder = SEAsiaMB724	}
 	840.1.1 = {  holder = SEAsiaMB725	}
 	860.1.1 = {  holder = SEAsiaMB726	}
@@ -66431,7 +67093,9 @@ k_mongnai = {
 		name = "k_mong_mao"
 	}
 	1115.1.1 = { holder = Mongmao0	 }
-	1112.1.1 = { holder = Mongmao1	 }
+	1112.1.1 = { holder = Mongmao1
+		government = tribal_government
+	}
 	1115.2.1 = {
 		holder = 0
 	}
@@ -66459,7 +67123,7 @@ k_mongnai = {
 
 d_tengchong = {
 
-	760.1.1 = {  holder = monMB305 liege = k_dali government = clan_government name=LISHUI }
+	760.1.1 = {  holder = monMB305 liege = k_dali government = meritocratic_government name=LISHUI }
 	820.1.1 = {  holder = monMB306 }
 	840.1.1 = {  holder = monMB307 }
 	860.1.1 = {  holder = monMB308 }
@@ -66472,7 +67136,9 @@ d_tengchong = {
 	1070.1.1 = { holder = monMB315	 }
 	1100.1.1 = { holder = monMB316	 }
 	1115.1.1 = { holder = Mongmao0	 }
-	1112.1.1 = { holder = Mongmao1	 }
+	1112.1.1 = { holder = Mongmao1
+		government = tribal_government
+	}
 	1115.2.1 = {
 		holder = 0
 	}
@@ -66600,7 +67266,7 @@ d_yinsheng = {
 	1066.1.1 = { change_development_level = 8 }
 
 
-	760.1.1 = {  holder = SEAsiaMB723 government = clan_government liege = k_dali }
+	760.1.1 = {  holder = SEAsiaMB723 government = meritocratic_government liege = k_dali }
 	820.1.1 = {  holder = SEAsiaMB724	}
 	840.1.1 = {  holder = SEAsiaMB725	}
 	860.1.1 = {  holder = SEAsiaMB726	}
@@ -66666,7 +67332,9 @@ d_yinsheng = {
 }
 
 c_buri = {
-	760.1.1 = {  holder = SEAsiaMB704 liege = d_yinsheng	government = clan_government }
+	760.1.1 = {  holder = SEAsiaMB704 liege = d_yinsheng
+		government = meritocratic_government # Yusseter: d_kainan
+ }
 	820.1.1 = {  holder = SEAsiaMB705	}
 	840.1.1 = {  holder = SEAsiaMB706	}
 	860.1.1 = {  holder = SEAsiaMB707	}
@@ -66687,7 +67355,9 @@ c_buri = {
 	1325.1.1 = { holder = SEAsiaMB722	}
 }
 c_weiyuan = {
-	760.1.1 = {  holder = SEAsiaMB704	}
+	760.1.1 = {  holder = SEAsiaMB704
+		government = meritocratic_government
+	}
 	820.1.1 = {  holder = SEAsiaMB705	}
 	840.1.1 = {  holder = SEAsiaMB706	}
 	860.1.1 = {  holder = SEAsiaMB707	}
@@ -66786,7 +67456,9 @@ c_quzhou_1 = {
 	741.3.22 = {
 		holder = YiTribesJiaohe2  # Qu_Ha
 	}
-	760.1.1 = {  liege = k_dali government = clan_government	} # Yusseter: Preserve the source Dali realm without substituting d_tuodong's ruler.
+	760.1.1 = {  liege = k_dali
+		government = meritocratic_government # Yusseter: d_shicheng
+	} # Yusseter: Preserve the source Dali realm without substituting d_tuodong's ruler.
 	769.5.17 = {
 		holder = YiTribesJiaohe3  # Ssy_Huo
 	}
@@ -66804,12 +67476,17 @@ c_quzhou_1 = {
 	}
 	900.1.1 = {
 		#de_jure_liege = d_dongchuan # Yusseter
+
+		government = clan_government
 	}
 
 	913.4.6 = {
 		holder = YiTribesJiaohe8  # Lu_Ddi
 	}
 
+	926.1.1 = {
+		government = meritocratic_government
+	}
 	942.1.30 = {
 		holder = YiTribesJiaohe9  # Bi_Qu
 	}
@@ -66873,6 +67550,8 @@ c_dongchuan = {
 	739.3.22 = {
 		holder = YiTribesWeimo2
 		liege = k_dali # Yusseter: d_tuodong # Preserve the source Dali realm without substituting d_tuodong's ruler.
+
+		government = meritocratic_government
 	}
 	771.11.30 = {
 		holder = YiTribesWeimo3
@@ -66891,8 +67570,13 @@ c_dongchuan = {
 		holder = YiTribesWeimo7
 	}
 
+	900.1.1 = {
+		government = clan_government
+	}
 	924.1.29 = {
 		holder = YiTribesWeimo8
+
+		government = meritocratic_government
 	}
 
 	952.9.15 = {
@@ -67027,6 +67711,8 @@ c_shicheng = {
 	738.5.9 = {
 		holder = YiTribesPung2
 		liege = k_dali # Yusseter: Preserve the co-held source d_shicheng's early allegiance.
+
+		government = meritocratic_government
 	}
 	769.11.17 = {
 		holder = YiTribesPung3
@@ -67104,7 +67790,7 @@ c_shicheng = {
 	1066.1.1 = { change_development_level = 9 }
 
 	760.1.1 = {  government = clan_government	}
-	900.1.1 = { liege = k_dali government = clan_government	}
+	900.1.1 = { liege = k_dali government = meritocratic_government	}
 	1091.11.24 = {
 		holder = YiTribesPung14
 	}
@@ -67265,6 +67951,8 @@ c_zuining = { # Yusseter: Keep c_ni_jiao's succession; the Shizong rulers remain
 	738.5.23 = {
 		holder = YiTribesYangch2
 		liege = k_dali # Yusseter: d_shicheng geçişi
+
+		government = meritocratic_government
 	}
 	748.1.1 = { liege = d_tonghai }
 	769.11.18 = {
@@ -67286,6 +67974,8 @@ c_zuining = { # Yusseter: Keep c_ni_jiao's succession; the Shizong rulers remain
 	900.1.1 = {
 		#de_jure_liege = d_zuining # Yusseter
 		#liege = d_zuining # Yusseter
+
+		government = clan_government
 	}
 	
 	916.8.9 = {
@@ -67296,6 +67986,9 @@ c_zuining = { # Yusseter: Keep c_ni_jiao's succession; the Shizong rulers remain
 		government = clan_government
 	}
 
+	937.1.1 = {
+		government = meritocratic_government
+	}
 	944.3.15 = {
 		holder = YiTribesYangch9
 	}
@@ -67322,6 +68015,8 @@ c_zuining = { # Yusseter: Keep c_ni_jiao's succession; the Shizong rulers remain
 	1119.6.24 = {
 		holder = YiTribesYangch15
 		liege = d_xiyuan
+
+		government = clan_government
 	}
 
 	1148.11.3 = {
@@ -67341,6 +68036,9 @@ c_zuining = { # Yusseter: Keep c_ni_jiao's succession; the Shizong rulers remain
 		holder = YiTribesYangch20
 	}
 
+	1279.3.19 = {
+		government = meritocratic_government
+	}
 	1291.3.22 = {
 		holder = YiTribesYangch21
 	}
@@ -67538,7 +68236,7 @@ c_nongdong = {
 	}
 	1066.1.1 = { change_development_level = 8 }
 
-	760.1.1 = {  holder = SEAsiaMB742 liege = k_dali government = clan_government	}
+	760.1.1 = {  holder = SEAsiaMB742 liege = k_dali government = meritocratic_government	}
 	820.1.1 = {  holder = SEAsiaMB743	}
 	840.1.1 = {  holder = SEAsiaMB744	}
 	860.1.1 = {  holder = SEAsiaMB745	}
@@ -67593,12 +68291,19 @@ c_nongdong = {
 	}
 }
 c_chengji = {
-	760.1.1 = {  holder = SEAsiaMB742	}
+	760.1.1 = {  holder = SEAsiaMB742
+		government = meritocratic_government
+	}
 	820.1.1 = {  holder = SEAsiaMB743	}
 	840.1.1 = {  holder = SEAsiaMB744	}
 	860.1.1 = {  holder = SEAsiaMB745	}
 	900.1.1 = {  holder = SEAsiaMB746	}
-	930.1.1 = {  holder = SEAsiaMB747 liege = k_dali } # Yusseter: d_lung_dong maps to county-rank c_nongdong; retain its k_dali realm instead.
+	914.4.19 = {
+		government = feudal_government
+	}
+	930.1.1 = {  holder = SEAsiaMB747 liege = k_dali
+		government = meritocratic_government
+	} # Yusseter: d_lung_dong maps to county-rank c_nongdong; retain its k_dali realm instead.
 	955.1.1 = {  holder = SEAsiaMB748	}
 	980.1.1 = {  holder = SEAsiaMB749	}
 	1005.1.1 = { holder = SEAsiaMB750	}
@@ -67616,6 +68321,8 @@ c_chengji = {
 c_weichu = {
 	730.1.1 = {
 		holder = YiTribesNing1  # Mu_Zim
+
+		government = clan_government
 	}
 	738.5.23 = {
 		holder = YiTribesNing2
@@ -67623,6 +68330,8 @@ c_weichu = {
 	760.1.1 = { liege = k_dali } # Yusseter: Source d_lung_dong enters k_dali in 760; its county-rank mapping cannot receive vassals.
 	769.11.30 = {
 		holder = YiTribesNing3  # La_Bbu
+
+		government = meritocratic_government
 	}
 	799.4.12 = {
 		holder = YiTribesNing4  # Nyi_Po
@@ -67714,7 +68423,7 @@ c_jianchuan = {
 		holder = DaliDong2  # Huaizhen
 	}
 	
-	760.1.1 = { liege = d_yongchang government = clan_government	}
+	760.1.1 = { liege = d_yongchang government = meritocratic_government	}
 	
 	769.11.15 = {
 		holder = DaliDong3  # Congbang
@@ -67740,7 +68449,9 @@ c_jianchuan = {
 		holder = DaliLi8  # Fuyuan
 	}
 	
-	936.1.1 = { liege = d_jianchuan government = clan_government	}
+	936.1.1 = { liege = d_jianchuan
+		government = meritocratic_government # Yusseter: d_yi_du
+	}
 	
 	939.5.8 = {
 		holder = DaliLi9  # Yuansu
@@ -67821,13 +68532,17 @@ c_jianchuan = {
 #	1325.1.1 = { holder = SEAsiaMB703	}
 #}
 c_xiangcheng = {
-	760.1.1 = {  holder = SEAsiaMB685	}
-	820.1.1 = {  holder = SEAsiaMB686	}
+	760.1.1 = {  holder = SEAsiaMB685
+		government = meritocratic_government
+	}
+	820.1.1 = {  holder = SEAsiaMB686
+		government = tribal_government
+	}
 	840.1.1 = {  holder = SEAsiaMB687	}
 	860.1.1 = {  holder = SEAsiaMB688	}
 	900.1.1 = {  holder = SEAsiaMB689	}
 	930.1.1 = {  holder = SEAsiaMB690	}
-	936.1.1 = { holder = 1417118 liege = k_dali government = clan_government	}
+	936.1.1 = { holder = 1417118 liege = k_dali government = meritocratic_government	}
 	969.1.1 = { holder = 1417119	}
 	974.1.1 = { holder = 1417120	}
 	997.1.1 = { holder = 1417121	}
@@ -67874,7 +68589,7 @@ d_jianchuan = {
 	930.1.1 = {
 		holder = 0
 	}
-	936.1.1 = { holder = 1417118 liege = k_dali government = clan_government	}
+	936.1.1 = { holder = 1417118 liege = k_dali government = meritocratic_government	}
 	969.1.1 = { holder = 1417119	}
 	974.1.1 = { holder = 1417120	}
 	997.1.1 = { holder = 1417121	}
@@ -67882,8 +68597,10 @@ d_jianchuan = {
 	1047.1.1 = { holder = 1417123	}
 	1066.1.1 = { change_development_level = 7 }
 
-	760.1.1 = {  holder = SEAsiaMB685 government = clan_government liege = k_dali	}
-	820.1.1 = {  holder = SEAsiaMB686	}
+	760.1.1 = {  holder = SEAsiaMB685 government = meritocratic_government liege = k_dali	}
+	820.1.1 = {  holder = SEAsiaMB686
+		government = tribal_government
+	}
 	840.1.1 = {  holder = SEAsiaMB687	}
 	860.1.1 = {  holder = SEAsiaMB688	}
 	900.1.1 = {  holder = SEAsiaMB689 name=SHANJU	}
@@ -67934,6 +68651,8 @@ d_tonghai = {
 	}
 	748.1.1 = {
 		holder = 1417068
+
+		government = meritocratic_government
 	}
 	774.1.1 = {
 		holder = 1417069
@@ -67952,7 +68671,7 @@ d_tonghai = {
 		holder = 0
 	}
 
-	930.1.1 = {  holder = SEAsiaMB690  liege = k_dali government = clan_government name=XIUSHAN	}
+	930.1.1 = {  holder = SEAsiaMB690  liege = k_dali government = tribal_government name=XIUSHAN	}
 	955.1.1 = {  holder = SEAsiaMB691	}
 	980.1.1 = {  holder = SEAsiaMB692	}
 	1005.1.1 = { holder = SEAsiaMB693	}
@@ -67965,7 +68684,9 @@ d_tonghai = {
 	1180.1.1 = { holder = SEAsiaMB699	}
 	1210.1.1 = { holder = SEAsiaMB700	}
 	1250.1.1 = { holder = SEAsiaMB701	}
-	1253.1.1 = { holder = 166969M	}
+	1253.1.1 = { holder = 166969M
+		government = meritocratic_government
+	}
 	1271.1.1 = {
 		holder = 0
 	}
@@ -67984,6 +68705,8 @@ c_tonghai = {
 	}
 	748.1.1 = {
 		holder = 1417068
+
+		government = meritocratic_government
 	}
 	774.1.1 = {
 		holder = 1417069
@@ -68015,7 +68738,9 @@ c_tonghai = {
 	929.1.1 = { holder = 1417023 } #Yang Hanzhen
 	930.1.1 = { holder = 1417022 } #Yang Zhao
 	#Dali
-	935.1.1 = {  holder = SEAsiaMB690  liege = d_tonghai }
+	935.1.1 = {  holder = SEAsiaMB690  liege = d_tonghai
+		government = tribal_government
+	}
 	955.1.1 = {  holder = SEAsiaMB691	}
 	980.1.1 = {  holder = SEAsiaMB692	}
 	1005.1.1 = { holder = SEAsiaMB693	}
@@ -68027,10 +68752,16 @@ c_tonghai = {
 	1180.1.1 = { holder = SEAsiaMB699	}
 	1210.1.1 = { holder = SEAsiaMB700	}
 	1250.1.1 = { holder = SEAsiaMB701	}
-	1253.1.1 = { holder = 166969M	}
-	1271.1.1 = { 	}
+	1253.1.1 = { holder = 166969M
+		government = meritocratic_government
+	}
+	1271.1.1 = {
+		government = feudal_government
+	}
 	1284.1.1 = {
 		holder = 166969M2 # Son of Kublai Khan
+
+		government = meritocratic_government
 	}
 	1310.1.1 = { holder = 80000034Son	}
 
@@ -68106,6 +68837,9 @@ c_muze = {
 		holder = YiTribesShizong2  # Nyi_Ga
 		liege = d_tonghai
 	}
+	750.1.28 = {
+		government = meritocratic_government
+	}
 	768.11.25 = {
 		holder = YiTribesShizong3  # Shu_Ha
 	}
@@ -68123,6 +68857,9 @@ c_muze = {
 	886.9.27 = {
 		holder = YiTribesShizong7  # Shy_Po
 	}
+	905.1.1 = {
+		government = clan_government
+	}
 	914.12.11 = {
 		holder = YiTribesShizong8  # Jo_Nuo
 	}
@@ -68133,6 +68870,8 @@ c_muze = {
 	936.1.1 = {
 		#de_jure_liege = d_zuining # Yusseter
 		#liege = d_zuining # Yusseter
+
+		government = meritocratic_government
 	}
 
 	944.4.3 = {
@@ -68223,7 +68962,7 @@ c_muze = {
 
 # Huichuan Dudu (count)
 d_huichuan = {
-	760.1.1 = {  holder = SEAsiaMB628 liege = k_dali government = clan_government	}
+	760.1.1 = {  holder = SEAsiaMB628 liege = k_dali government = meritocratic_government	}
 	820.1.1 = {  holder = SEAsiaMB629	}
 	840.1.1 = {  holder = SEAsiaMB630	}
 	860.1.1 = {  holder = SEAsiaMB631	}
@@ -68249,7 +68988,7 @@ d_huichuan = {
 	1325.1.1 = { holder = SEAsiaMB646	}
 }
 c_huichuan = {
-	760.1.1 = {  holder = SEAsiaMB628 liege = k_dali government = clan_government	}
+	760.1.1 = {  holder = SEAsiaMB628 liege = k_dali government = meritocratic_government	}
 	820.1.1 = {  holder = SEAsiaMB629	}
 	840.1.1 = {  holder = SEAsiaMB630	}
 	860.1.1 = {  holder = SEAsiaMB631	}
@@ -68273,6 +69012,8 @@ d_shimen = {
 	900.1.1 = { liege = k_dali government = clan_government	}
 	912.6.17 = {
 		holder = YiTribesWumeng8  # Lur_Ha
+
+		government = meritocratic_government
 	}
 	944.8.25 = {
 		holder = YiTribesWumeng9  # Shy_Qi
@@ -68332,7 +69073,7 @@ c_jianchang_1 = {
 	
 	765.3.18 = {
 		holder = YiTribesWumeng3  # La_Bbu
-		liege = d_huichuan government = clan_government
+		liege = d_huichuan government = meritocratic_government
 	}
 	
 	799.11.4 = {
@@ -68418,6 +69159,8 @@ c_jingzhou_2 = {
 	763.11.19 = {
 		holder = YiTribesBipan3
 		liege = d_huichuan
+
+		government = meritocratic_government
 	}
 	791.9.4 = {
 		holder = YiTribesBipan4  # Shu_Wa
@@ -68435,6 +69178,11 @@ c_jingzhou_2 = {
 	906.2.3 = {
 		holder = YiTribesBipan8  # Ssy_Huo
 		liege = d_shimen
+
+		government = clan_government
+	}
+	926.1.1 = {
+		government = meritocratic_government
 	}
 	935.6.17 = {
 		holder = YiTribesBipan9  # Wo_Ke
@@ -68668,6 +69416,8 @@ d_JAV_taruma = {
 	#Sunda Dynasty
 	669.1.1={
 		holder=1000080562 #Tarusbawa
+
+		government = mandala_government
 	}
 
 	#Sanjaya Dynasty
@@ -69159,6 +69909,8 @@ c_JAV_sunda = {
 	#Sunda Dynasty
 	669.1.1={
 		liege="d_JAV_taruma"
+
+		government = mandala_government
 	}
 	669.1.1={
 		holder=1000080562 #Tarusbawa
@@ -69409,6 +70161,8 @@ c_JAV_galuh = {
 	}
 	678.1.1 = {
 		holder=1000080574 #Aji-Putih
+
+		government = mandala_government
 	}
 	702.1.1={
 		holder=1000080569 #Mandiminyak
@@ -69715,6 +70469,8 @@ c_JAV_cimanuk = {
 	#Galuh Dynasty
 	678.1.1 = {
 		#liege="d_buni" # Yusseter
+
+		government = mandala_government
 	}
 	678.1.1 = {
 		holder=1000080574 #Aji-Putih
@@ -69893,6 +70649,8 @@ k_yavakadvipa = {
 	#Rajasa Dynasty
 	1222.1.1={
 		#liege="e_java" # Yusseter
+
+		government = mandala_government
 	}
 	1222.1.1={
 		holder=1000080682 #Ranggah-Rajasa
@@ -70073,7 +70831,7 @@ d_JAV_mataram = {
 	867.1.1 = { change_development_level = 7 }
 	1066.1.1 = { change_development_level = 10 }
 
-	760.1.1 = {  holder = javaMB20 government = feudal_government	 }
+	760.1.1 = {  holder = javaMB20 government = mandala_government	 }
 	820.1.1 = {  holder = javaMB21	 }
 	840.1.1 = {  holder = javaMB22	 }
 	860.1.1 = {  holder = javaMB23	 }
@@ -70109,7 +70867,9 @@ c_JAV_mataram = {
 	867.1.1 = { change_development_level = 15 }
 	1066.1.1 = { change_development_level = 17 }
 
-	760.1.1 = {  holder = javaMB20	 }
+	760.1.1 = {  holder = javaMB20
+		government = mandala_government
+	}
 	820.1.1 = {  holder = javaMB21	 }
 	840.1.1 = {  holder = javaMB22	 }
 	860.1.1 = {  holder = javaMB23	 }
@@ -70320,6 +71080,8 @@ c_JAV_janggala = {
 	#Sailendra Dynasty
 	620.1.1={
 		liege="k_yavakadvipa"
+
+		government = mandala_government
 	}
 	620.1.1={
 		holder=1000080458 #Santanu
@@ -70739,6 +71501,8 @@ c_JAV_madura = {
 	#Sailendra Dynasty
 	620.1.1={
 		liege="k_yavakadvipa"
+
+		government = mandala_government
 	}
 	620.1.1={
 		holder=1000080458 #Santanu
@@ -70940,6 +71704,8 @@ c_JAV_lumajang = {
 	#Sailendra Dynasty
 	620.1.1={
 		liege="k_yavakadvipa"
+
+		government = mandala_government
 	}
 	620.1.1={
 		holder=1000080458 #Santanu
@@ -71495,6 +72261,8 @@ c_IDO_bali = {
 	#Sailendra Dynasty
 	620.1.1={
 		liege="k_yavakadvipa"
+
+		government = mandala_government
 	}
 	620.1.1={
 		holder=1000080458 #Santanu
@@ -71710,6 +72478,8 @@ c_IDO_lombok_and_sumbawa = {
 	#Musakabe Dynasty (placeholders)
 	750.1.1={
 		holder=1000205029 #Sapar
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205030 #Suryono
@@ -71914,7 +72684,9 @@ d_BOR_tanjungpura = {
 c_BOR_sukadana = {
 	867.1.1 = { change_development_level = 3 }
 
-	760.1.1 = {  holder = malayMB230 }
+	760.1.1 = {  holder = malayMB230
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB231 }
 	840.1.1 = {  holder = malayMB232 }
 	860.1.1 = {  holder = malayMB233 }
@@ -71973,6 +72745,8 @@ c_BOR_sintang = {
 	#Tajem Dynasty (placeholders)
 	750.1.1={
 		holder=1000203987 #Uda
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000203988 #Bujang
@@ -72043,6 +72817,8 @@ c_BOR_sampit = {
 	#Muhidin Dynasty (placeholders)
 	750.1.1={
 		holder=1000205011 #Wira
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205012 #Selasa
@@ -72115,7 +72891,9 @@ c_BOR_sampit = {
 
 c_BOR_waringin = {
 
-	760.1.1 = {  holder = malayMB230 }
+	760.1.1 = {  holder = malayMB230
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB231 }
 	840.1.1 = {  holder = malayMB232 }
 	860.1.1 = {  holder = malayMB233 }
@@ -72142,7 +72920,9 @@ c_BOR_waringin = {
 c_BOR_sambas = {
 	867.1.1 = { change_development_level = 2 }
 
-	760.1.1 = {  holder = malayMB249 liege = e_srivijaya }
+	760.1.1 = {  holder = malayMB249 liege = e_srivijaya
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB250 }
 	840.1.1 = {  holder = malayMB251 }
 	860.1.1 = {  holder = malayMB252 }
@@ -72193,7 +72973,9 @@ c_BOR_sambas = {
 #	1325.1.1 = { holder = malayMB39 	 }
 #}
 c_riau = {
-	760.1.1 = {  holder = malayMB20 liege="e_srivijaya" }
+	760.1.1 = {  holder = malayMB20 liege="e_srivijaya"
+		government = wanua_government
+	}
 	820.1.1 = {  holder = malayMB21 }
 	840.1.1 = {  holder = malayMB22 }
 	860.1.1 = {  holder = malayMB23 }
@@ -72466,6 +73248,8 @@ c_BOR_tabalung = {
 	#Muzaki Dynasty (placeholders)
 	750.1.1={
 		holder=1000205014 #Budiarto
+
+		government = mandala_government
 	}
 	780.1.1={
 		holder=1000205015 #Elyas
@@ -72538,6 +73322,8 @@ c_BOR_banjar = {
 	#Arifin Dynasty (placeholders)
 	750.1.1={
 		holder=1000205005 #Khamis
+
+		government = mandala_government
 	}
 	780.1.1={
 		holder=1000205006 #Perang
@@ -72607,6 +73393,8 @@ c_BOR_taiao = {
 	#Arifin Dynasty (placeholders)
 	750.1.1={
 		holder=1000205005 #Khamis
+
+		government = mandala_government
 	}
 	780.1.1={
 		holder=1000205006 #Perang
@@ -72840,6 +73628,8 @@ d_BOR_santubong = {
 	}
 	900.1.1={
 		holder=1000201187 #Fajar
+
+		government = mandala_government
 	}
 	930.1.1={
 		holder=1000201188 #Budi
@@ -72894,6 +73684,8 @@ c_BOR_santubong = {
 	#Mahyudin Dynasty (placeholders)
 	750.1.1={
 		holder=1000203999 #Merdeka
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205000 #Puteh
@@ -72909,6 +73701,8 @@ c_BOR_santubong = {
 	}
 	900.1.1={
 		holder=1000201187 #Fajar
+
+		government = mandala_government
 	}
 	930.1.1={
 		holder=1000201188 #Budi
@@ -73034,6 +73828,8 @@ c_BOR_iban = {
 	#Mahyudin Dynasty (placeholders)
 	750.1.1={
 		holder=1000203999 #Merdeka
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205000 #Puteh
@@ -73049,6 +73845,8 @@ c_BOR_iban = {
 	}
 	900.1.1={
 		holder=1000201187 #Fajar
+
+		government = mandala_government
 	}
 	930.1.1={
 		holder=1000201188 #Budi
@@ -73101,7 +73899,9 @@ c_BOR_iban = {
 c_BOR_rajang = {
 	867.1.1 = { change_development_level = 1 }
 
-	760.1.1 = {  holder = malayMB306 }
+	760.1.1 = {  holder = malayMB306
+		government = wanua_government
+	}
 	820.1.1 = {  holder = malayMB307 }
 	840.1.1 = {  holder = malayMB308 }
 	860.1.1 = {  holder = malayMB309 }
@@ -73156,7 +73956,9 @@ c_BOR_rajang = {
 c_BOR_brunei = {
 	867.1.1 = { change_development_level = 5 }
 
-	760.1.1 = {  holder = malayMB268 }
+	760.1.1 = {  holder = malayMB268
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB269 }
 	840.1.1 = {  holder = malayMB270 }
 	860.1.1 = {  holder = malayMB271 }
@@ -73262,6 +74064,8 @@ c_BOR_brunei = {
 d_BOR_kutai = { #The only semi historical part for this entire island
 	300.1.1 = {
 		holder = kutai001
+
+		government = mandala_government
 	}
 	325.1.1 = {
 		holder = kutai004
@@ -73358,6 +74162,8 @@ c_BOR_martapura = {
 
 	300.1.1 = {
 		holder = kutai001
+
+		government = mandala_government
 	}
 	325.1.1 = {
 		holder = kutai004
@@ -73453,6 +74259,8 @@ c_BOR_kutai_utara = {
 
 	300.1.1 = {
 		holder = kutai001
+
+		government = mandala_government
 	}
 	325.1.1 = {
 		holder = kutai004
@@ -73548,6 +74356,8 @@ c_BOR_berau = {
 
 	300.1.1 = {
 		holder = kutai001
+
+		government = mandala_government
 	}
 	325.1.1 = {
 		holder = kutai004
@@ -73666,7 +74476,9 @@ c_BOR_berau = {
 
 c_BOR_tanah_taman = {
 
-	760.1.1 = {  holder = malayMB287 }
+	760.1.1 = {  holder = malayMB287
+		government = wanua_government
+	}
 	820.1.1 = {  holder = malayMB288 }
 	840.1.1 = {  holder = malayMB289 }
 	860.1.1 = {  holder = malayMB290 }
@@ -73692,6 +74504,8 @@ c_BOR_menjelutung = {
 	#Ishak Dynasty (placeholders)
 	750.1.1={
 		holder=1000203993 #Bongsu
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000203994 #Agung
@@ -73830,6 +74644,8 @@ c_BOR_nabawan = {
 	#Ishak Dynasty (placeholders)
 	750.1.1={
 		holder=1000203993 #Bongsu
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000203994 #Agung
@@ -73898,6 +74714,8 @@ c_BOR_lahad_datu = {
 	#Chiongbian Dynasty (placeholders)
 	750.1.1={
 		holder=1000203984 #Hijau
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000203985 #Senin
@@ -74037,6 +74855,8 @@ c_BOR_kudat = {
 	#Chiongbian Dynasty (placeholders)
 	750.1.1={
 		holder=1000203984 #Hijau
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000203985 #Senin
@@ -74197,7 +75017,9 @@ c_BOR_kudat = {
 
 c_BOR_kutai_jauh = {
 
-	760.1.1 = {  holder = malayMB306 }
+	760.1.1 = {  holder = malayMB306
+		government = wanua_government
+	}
 	820.1.1 = {  holder = malayMB307 }
 	840.1.1 = {  holder = malayMB308 }
 	860.1.1 = {  holder = malayMB309 }
@@ -74337,6 +75159,8 @@ k_malayadvipa = {
 	#Srivijaya Dynasty
 	660.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	660.1.1={
 		holder=1000080484 #Jayanasa
@@ -74401,6 +75225,8 @@ c_andamans = {
 	#Akar-Bale Dynasty (placeholders)
 	730.1.1 = {
 		holder = Indonesia289  # Zambudipa
+
+		government = wanua_government
 	}
 	742.9.25 = {
 		holder = Indonesia290  # Thaduka
@@ -74472,6 +75298,8 @@ c_nakkavaram = {
 
 	730.1.1 = {
 		holder = Indonesia218  # Purnawarman (covers the 769 bookmark)
+
+		government = wanua_government
 	}
 	
 	768.9.25 = {
@@ -74562,6 +75390,8 @@ d_SUM_palembang = {
 	#Srivijaya Dynasty
 	660.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	660.1.1={
 		holder=1000080484 #Jayanasa
@@ -74649,6 +75479,8 @@ c_SUM_palembang = {
 	#Srivijaya Dynasty
 	660.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	660.1.1={
 		holder=1000080484 #Jayanasa
@@ -74819,6 +75651,8 @@ c_SUM_east_sumatra = {
 	#Srivijaya Dynasty
 	660.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	660.1.1={
 		holder=1000080484 #Jayanasa
@@ -74985,7 +75819,9 @@ c_SUM_east_sumatra = {
 #}
 c_SUM_bangka-belitung = {
 
-	760.1.1 = {  holder = malayMB211 liege = e_srivijaya }
+	760.1.1 = {  holder = malayMB211 liege = e_srivijaya
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB212 }
 	840.1.1 = {  holder = malayMB213 }
 	860.1.1 = {  holder = malayMB214 }
@@ -75085,6 +75921,8 @@ c_SUM_bengkulu = {
 	#Kanedi Dynasty (placeholders)
 	750.1.1={
 		#liege="d_bangkahulu" # Yusseter
+
+		government = wanua_government
 	}
 	750.1.1={
 		holder=1000203954 #Selamat
@@ -75379,6 +76217,8 @@ c_SUM_lampung = {
 	#Lemong Dynasty (placeholders)
 	750.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203957 #Mail
@@ -75526,6 +76366,8 @@ c_SUM_pasemah = {
 	#Lemong Dynasty (placeholders)
 	750.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203957 #Mail
@@ -75640,6 +76482,8 @@ d_SUM_aceh = {
 	1110.1.1={
 		holder=1000080793 #Jeumpa
 		name = DAYAPASAI
+
+		government = mandala_government
 	}
 	1140.1.1={
 		holder=1000080794 #Meurah
@@ -75677,7 +76521,9 @@ d_SUM_aceh = {
 }
 c_SUM_lambri = {
 
-	760.1.1 = {  holder = malayMB40 }
+	760.1.1 = {  holder = malayMB40
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB41 }
 	840.1.1 = {  holder = malayMB42 }
 	860.1.1 = {  holder = malayMB43 }
@@ -75692,7 +76538,9 @@ c_SUM_lambri = {
 	1115.1.1 = { holder = malayMB52 	 }
 	1140.1.1 = { holder = malayMB53 	 }
 	1180.1.1 = { holder = malayMB54 	 }
-	1210.1.1 = { holder = malayMB55 	 }
+	1210.1.1 = { holder = malayMB55
+		government = clan_government
+	}
 	1250.1.1 = { holder = malayMB56 	 }
 	1258.1.1 = { liege = 0 }
 	1300.1.1 = { holder = malayMB57 	 }
@@ -75776,6 +76624,8 @@ c_SUM_perlak = {
 
 	750.1.1={
 		liege="d_SUM_aceh"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203978 #Kefli
@@ -75790,7 +76640,7 @@ c_SUM_perlak = {
 	#Maulana Saiyid Dynasty
 	840.1.1={ # Yusseter: Preserve the co-held d_perlak political timeline after its rank is merged.
 		liege = 0
-		government = mandala_government
+		government = clan_government
 	}
 	840.1.1={
 		holder=1000080703 #Abdul-Aziz I
@@ -76196,7 +77046,9 @@ c_SUM_perlak = {
 #}
 
 d_nagur = {
-	760.1.1 = {  holder = malayMB78 }
+	760.1.1 = {  holder = malayMB78
+		government = wanua_government
+	}
 	820.1.1 = {  holder = malayMB79 }
 	840.1.1 = {  holder = malayMB80 }
 	860.1.1 = {  holder = malayMB81 }
@@ -76208,6 +77060,9 @@ d_nagur = {
 	1192.1.1 = { holder = malayMB92	 }
 	1210.1.1 = { holder = malayMB93 	 }
 	1250.1.1 = { holder = malayMB94 	 }
+	1282.1.1 = {
+		government = mandala_government
+	}
 	1285.1.1 = {  holder = 0 }
 
 }
@@ -76301,6 +77156,8 @@ c_SUM_panai = {
 	#Panai Dynasty (placeholders)
 	750.1.1={
 		liege="d_panai"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203951 #Bulat
@@ -76387,6 +77244,8 @@ c_SUM_rokan = {
 	#Panai Dynasty (placeholders)
 	750.1.1={
 		liege="d_panai"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203951 #Bulat
@@ -76448,6 +77307,8 @@ c_SUM_rokan = {
 	}
 	1290.1.1={
 		holder=1000201007 #Yeop
+
+		government = clan_government
 	}
 	1292.1.1 = { holder = malayMB151 liege = e_srivijaya } # Yusseter: Retain this county's existing allegiance when it passes to a different ruler.
 	1300.1.1 = {
@@ -76535,7 +77396,7 @@ c_SUM_barus = {
 	#Simanjuntak Dynasty (placeholders)
 	750.1.1={
 		holder=1000203975 #Peranginangin Kacinambun
-		government = mandala_government
+		government = wanua_government
 	}
 	750.1.1={
 		holder=1000203975 #Peranginangin Kacinambun
@@ -76637,6 +77498,8 @@ c_nias = {
 
 	730.1.1 = {
 		holder = Indonesia33  # Purnawarman (covers 769 bookmark)
+
+		government = wanua_government
 	}
 	
 	767.9.25 = {
@@ -76808,6 +77671,8 @@ d_SUM_jambi = {
 	#Mauli Dynasty
 	750.1.1={
 		liege="e_srivijaya"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203933 #Adi
@@ -76882,6 +77747,8 @@ c_SUM_jambi = {
 	#Mauli Dynasty
 	750.1.1={
 		liege="d_SUM_jambi"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203933 #Adi
@@ -77270,6 +78137,8 @@ c_SUM_karang_brahi = {
 
 	730.1.1 = {
 		holder = Indonesia543  # Purnawarman (covers the 769 bookmark)
+
+		government = wanua_government
 	}
 	
 	748.9.27 = {
@@ -77449,7 +78318,9 @@ c_SUM_karang_brahi = {
 #}
 c_SUM_lingga = {
 
-	760.1.1 = {  holder = malayMB20 liege="e_srivijaya" }
+	760.1.1 = {  holder = malayMB20 liege="e_srivijaya"
+		government = wanua_government
+	}
 	820.1.1 = {  holder = malayMB21 }
 	840.1.1 = {  holder = malayMB22 }
 	860.1.1 = {  holder = malayMB23 }
@@ -77472,7 +78343,9 @@ c_SUM_lingga = {
 }
 c_SUM_pekanbaru = {
 
-	760.1.1 = {  holder = malayMB135 liege = e_srivijaya }
+	760.1.1 = {  holder = malayMB135 liege = e_srivijaya
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB136 }
 	840.1.1 = {  holder = malayMB137 }
 	860.1.1 = {  holder = malayMB138 }
@@ -77489,7 +78362,9 @@ c_SUM_pekanbaru = {
 	1140.1.1 = { holder = malayMB148 	 }
 	1180.1.1 = { holder = malayMB149 	 }
 	1191.1.1 = { liege = e_srivijaya 	 }
-	1210.1.1 = { holder = malayMB150 	 }
+	1210.1.1 = { holder = malayMB150
+		government = clan_government
+	}
 	1250.1.1 = { holder = malayMB151 	 }
 	1286.1.1 = { liege = k_yavakadvipa 	 }
 	1300.1.1 = {
@@ -77504,6 +78379,8 @@ c_SUM_kampar = {
 	#Mauli Dynasty
 	750.1.1={
 		liege="d_SUM_jambi"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203933 #Adi
@@ -77559,7 +78436,9 @@ c_SUM_kampar = {
 	1280.1.1={
 		holder=1000080493 #Tribhuwanaraja
 	}
-	1292.1.1 = { holder = malayMB151 	 }
+	1292.1.1 = { holder = malayMB151
+		government = clan_government
+	}
 	1300.1.1 = {
 		holder = malayMB152
 		liege = 0 # Yusseter: Source k_aru maps to a county; startup uses a guarded tributary fallback.
@@ -77569,7 +78448,9 @@ c_SUM_kampar = {
 }
 c_SUM_indragiri = {
 
-	760.1.1 = {  holder = malayMB154 liege = e_srivijaya }
+	760.1.1 = {  holder = malayMB154 liege = e_srivijaya
+		government = mandala_government
+	}
 	820.1.1 = {  holder = malayMB155 }
 	840.1.1 = {  holder = malayMB156 }
 	860.1.1 = {  holder = malayMB157 }
@@ -77597,6 +78478,8 @@ c_SUM_meranti = {
 	#Mauli Dynasty
 	750.1.1={
 		liege="d_SUM_jambi"
+
+		government = mandala_government
 	}
 	750.1.1={
 		holder=1000203933 #Adi
@@ -77655,7 +78538,9 @@ c_SUM_meranti = {
 	1286.1.1={
 		liege="d_SUM_jambi"
 	}
-	1292.1.1 = { holder = malayMB151 	 }
+	1292.1.1 = { holder = malayMB151
+		government = clan_government
+	}
 	1300.1.1 = {
 		holder = malayMB152
 		liege = 0 # Yusseter: Source k_aru maps to a county; startup uses a guarded tributary fallback.
@@ -77672,6 +78557,8 @@ c_mentawai = {
 
 	730.1.1 = {
 		holder = Indonesia66  # Warmadewa (covers 769 bookmark)
+
+		government = wanua_government
 	}
 	
 	741.9.28 = {
@@ -77765,6 +78652,8 @@ c_SUM_muara_takus = {
 
 	730.1.1 = {
 		holder = Indonesia696  # Warmadewa (first character)
+
+		government = mandala_government
 	}
 	761.9.24 = {
 		holder = Indonesia697  # Adityawarman
@@ -77829,6 +78718,8 @@ c_SUM_muara_takus = {
 	1286.1.1 = { liege = k_yavakadvipa 	 }
 	1300.1.1 = {
 		liege = 0 # Yusseter: Source k_aru maps to a county; startup uses a guarded tributary fallback.
+
+		government = feudal_government
 	}
 	1304.2.19 = {
 		holder = Indonesia750  # Tunggawijaya
@@ -77843,6 +78734,8 @@ c_SUM_dharmasraya = { # Yusseter: c_dharmasraya
 
 	730.1.1 = {
 		holder = Indonesia660  # Purnawarman
+
+		government = mandala_government
 	}
 
 	768.9.25 = {
@@ -77928,7 +78821,9 @@ c_SUM_dharmasraya = { # Yusseter: c_dharmasraya
 
 	1286.1.1 = { liege = k_yavakadvipa } # Yusseter: liege = e_java
 
-	1300.1.1 = { liege = 0 } # Yusseter: liege = k_aru # Startup uses a guarded tributary fallback for the equal-rank mapping.
+	1300.1.1 = { liege = 0
+		government = feudal_government
+	} # Yusseter: liege = k_aru # Startup uses a guarded tributary fallback for the equal-rank mapping.
 
 	1310.4.8 = {
 		holder = Indonesia690  # Girishawardhana (eldest son of Kertawijaya)
@@ -78016,6 +78911,8 @@ c_SUM_minangkabau = {
 
 	730.1.1 = {
 		holder = Indonesia784  # Purnawarman
+
+		government = wanua_government
 	}
 	
 	768.7.25 = {
@@ -78098,6 +78995,9 @@ c_SUM_minangkabau = {
 		holder = Indonesia809  # Narayana
 	}
 	
+	1300.1.1 = {
+		government = mandala_government
+	}
 	1327.8.11 = {
 		holder = Indonesia811  # Dharmasetu (eldest son)
 	}
@@ -78108,6 +79008,8 @@ c_SUM_riak_nan_berbedur = {
 	#Kanedi Dynasty (placeholders)
 	730.1.1 = {
 		holder = MB_inderapura_1 # Adityawarman
+
+		government = wanua_government
 	}
 	750.1.1={
 		#liege="d_bangkahulu" # Yusseter
@@ -78191,6 +79093,8 @@ c_IDO_sonba_i = {
 	#Alkatiri Dynasty (placeholders)
 	750.1.1={
 		holder=1000205020 #Dasa
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205021 #Kambali
@@ -78260,6 +79164,8 @@ c_IDO_humba = {
 	#Tilman Dynasty (placeholders)
 	750.1.1={
 		holder=1000205035 #Padu
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205036 #Punjul
@@ -78329,6 +79235,8 @@ c_IDO_nusa_nipa = {
 	#Ruak Dynasty (placeholders)
 	750.1.1={
 		holder=1000205038 #Mitra
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205039 #Luwes
@@ -78398,6 +79306,8 @@ c_IDO_wehale = {
 	#Alkatiri Dynasty (placeholders)
 	750.1.1={
 		holder=1000205020 #Dasa
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205021 #Kambali
@@ -78469,6 +79379,8 @@ c_IDO_galiyao = {
 	#Metan Dynasty (placeholders)
 	750.1.1={
 		holder=1000205023 #Prabawa
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205024 #Martana
@@ -78537,6 +79449,8 @@ c_IDO_barat_daya = {
 	#Metan Dynasty (placeholders)
 	750.1.1={
 		holder=1000205023 #Prabawa
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205024 #Martana
@@ -78606,6 +79520,8 @@ c_aru = {
 	#Metan Dynasty (placeholders)
 	750.1.1={
 		holder=1000205023 #Prabawa
+
+		government = wanua_government
 	}
 	780.1.1={
 		holder=1000205024 #Martana
@@ -78672,7 +79588,9 @@ c_aru = {
 
 # EAST_TITLE_REWRITE_COLLISION: direct c_bajan -> c_SuMa_bacan; same-run duplicate target in history_titles; manual merge needed.
 c_SuMa_bacan = {
-	760.1.1 = {  holder = AsiaIsles_1	}
+	760.1.1 = {  holder = AsiaIsles_1
+		government = wanua_government
+	}
 	820.1.1 = {  holder = AsiaIsles_2	}
 	840.1.1 = {  holder = AsiaIsles_3	}
 	880.1.1 = {  holder = AsiaIsles_4	}
@@ -78773,7 +79691,9 @@ c_SuMa_bacan = {
 #}
 
 c_SuMa_ternate = {
-	755.1.1 = {  holder = AsiaIsles_55	}
+	755.1.1 = {  holder = AsiaIsles_55
+		government = wanua_government
+	}
 	805.1.1 = {  holder = AsiaIsles_56	}
 	835.1.1 = {  holder = AsiaIsles_57	}
 	865.1.1 = {  holder = AsiaIsles_58	}
@@ -78787,7 +79707,9 @@ c_SuMa_ternate = {
 	1140.1.1 = { holder = AsiaIsles_66	}
 	1175.1.1 = { holder = AsiaIsles_67	}
 	1205.1.1 = { holder = AsiaIsles_68	}
-	1240.1.1 = { holder = AsiaIsles_69	}
+	1240.1.1 = { holder = AsiaIsles_69
+		government = mandala_government
+	}
 	1275.1.1 = { holder = AsiaIsles_70	}
 	1310.1.1 = { holder = AsiaIsles_71	}
 	1345.1.1 = { holder = AsiaIsles_72	}
@@ -78804,7 +79726,9 @@ c_SuMa_ternate = {
 #}
 
 c_kepala_burung = {
-	760.1.1 = {  holder = AsiaIsles_73	}
+	760.1.1 = {  holder = AsiaIsles_73
+		government = wanua_government
+	}
 	810.1.1 = {  holder = AsiaIsles_74	}
 	845.1.1 = {  holder = AsiaIsles_75	}
 	875.1.1 = {  holder = AsiaIsles_76	}
@@ -78824,7 +79748,9 @@ c_kepala_burung = {
 	1365.1.1 = { holder = AsiaIsles_90	}
 }
 c_papua_selatan = {
-	760.1.1 = {  holder = AsiaIsles_73	}
+	760.1.1 = {  holder = AsiaIsles_73
+		government = wanua_government
+	}
 	810.1.1 = {  holder = AsiaIsles_74	}
 	845.1.1 = {  holder = AsiaIsles_75	}
 	875.1.1 = {  holder = AsiaIsles_76	}
@@ -78844,7 +79770,9 @@ c_papua_selatan = {
 	1365.1.1 = { holder = AsiaIsles_90	}
 }
 c_sran = {
-	760.1.1 = {  holder = AsiaIsles_73	}
+	760.1.1 = {  holder = AsiaIsles_73
+		government = wanua_government
+	}
 	810.1.1 = {  holder = AsiaIsles_74	}
 	845.1.1 = {  holder = AsiaIsles_75	}
 	875.1.1 = {  holder = AsiaIsles_76	}
@@ -78887,7 +79815,9 @@ c_sran = {
 #}
 
 c_SuMa_raja_ampat = {
-	760.1.1 = {  holder = AsiaIsles_73	}
+	760.1.1 = {  holder = AsiaIsles_73
+		government = wanua_government
+	}
 	810.1.1 = {  holder = AsiaIsles_74	}
 	845.1.1 = {  holder = AsiaIsles_75	}
 	875.1.1 = {  holder = AsiaIsles_76	}
@@ -78908,7 +79838,9 @@ c_SuMa_raja_ampat = {
 }
 
 c_SuMa_tidore = {
-	755.1.1 = {  holder = AsiaIsles_91	}
+	755.1.1 = {  holder = AsiaIsles_91
+		government = wanua_government
+	}
 	805.1.1 = {  holder = AsiaIsles_92	}
 	840.1.1 = {  holder = AsiaIsles_93	}
 	870.1.1 = {  holder = AsiaIsles_94	}
@@ -78951,7 +79883,9 @@ c_SuMa_tidore = {
 #}
 
 c_SuMa_seram = {
-	760.1.1 = {  holder = AsiaIsles_109	}
+	760.1.1 = {  holder = AsiaIsles_109
+		government = wanua_government
+	}
 	810.1.1 = {  holder = AsiaIsles_110	}
 	845.1.1 = {  holder = AsiaIsles_111	}
 	880.1.1 = {  holder = AsiaIsles_112	}
@@ -78972,7 +79906,9 @@ c_SuMa_seram = {
 }
 
 c_SuMa_buru-sula = {
-	755.1.1 = {  holder = AsiaIsles_127	}
+	755.1.1 = {  holder = AsiaIsles_127
+		government = wanua_government
+	}
 	805.1.1 = {  holder = AsiaIsles_128	}
 	840.1.1 = {  holder = AsiaIsles_129	}
 	875.1.1 = {  holder = AsiaIsles_130	}
@@ -79016,7 +79952,9 @@ c_SuMa_buru-sula = {
 
 # EAST_TITLE_REWRITE_COLLISION: direct c_muna -> c_SuMa_butun; same-run duplicate target in history_titles; manual merge needed.
 c_SuMa_butun = {
-	760.1.1 = {  holder = AsiaIsles_145	}
+	760.1.1 = {  holder = AsiaIsles_145
+		government = wanua_government
+	}
 	810.1.1 = {  holder = AsiaIsles_146	}
 	845.1.1 = {  holder = AsiaIsles_147	}
 	880.1.1 = {  holder = AsiaIsles_148	}
@@ -79033,6 +79971,9 @@ c_SuMa_butun = {
 	1265.1.1 = { holder = AsiaIsles_159	}
 	1300.1.1 = { holder = AsiaIsles_160	}
 	1335.1.1 = { holder = AsiaIsles_161	}
+	1337.1.1 = {
+		government = mandala_government
+	}
 	1370.1.1 = { holder = AsiaIsles_162	}
 }
 
@@ -79043,7 +79984,9 @@ c_SuMa_butun = {
 #}
 
 c_SuMa_moronene = {
-	755.1.1 = {  holder = AsiaIsles_163	}
+	755.1.1 = {  holder = AsiaIsles_163
+		government = wanua_government
+	}
 	805.1.1 = {  holder = AsiaIsles_164	}
 	840.1.1 = {  holder = AsiaIsles_165	}
 	875.1.1 = {  holder = AsiaIsles_166	}
@@ -79086,7 +80029,9 @@ c_SuMa_moronene = {
 #}
 
 c_SuMa_konawe = {
-	760.1.1 = {  holder = AsiaIsles_181	}
+	760.1.1 = {  holder = AsiaIsles_181
+		government = wanua_government
+	}
 	810.1.1 = {  holder = AsiaIsles_182	}
 	845.1.1 = {  holder = AsiaIsles_183	}
 	880.1.1 = {  holder = AsiaIsles_184	}
@@ -79107,7 +80052,9 @@ c_SuMa_konawe = {
 }
 
 c_SuMa_tamboeko = {
-	760.1.1 = {  holder = AsiaIsles_181	}
+	760.1.1 = {  holder = AsiaIsles_181
+		government = wanua_government
+	}
 	810.1.1 = {  holder = AsiaIsles_182	}
 	845.1.1 = {  holder = AsiaIsles_183	}
 	880.1.1 = {  holder = AsiaIsles_184	}
@@ -79173,7 +80120,9 @@ c_SuMa_tamboeko = {
 
 # EAST_TITLE_REWRITE_COLLISION: direct c_makassar -> c_SuMa_siang; same-run duplicate target in history_titles; manual merge needed.
 c_SuMa_siang = {
-	755.1.1 = { holder = AsiaIsles_217 }
+	755.1.1 = { holder = AsiaIsles_217
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_218 }
 	840.1.1 = { holder = AsiaIsles_219 }
 	875.1.1 = { holder = AsiaIsles_220 }
@@ -79189,6 +80138,9 @@ c_SuMa_siang = {
 	1225.1.1 = { holder = AsiaIsles_230 }
 	1260.1.1 = { holder = AsiaIsles_231 }
 	1295.1.1 = { holder = AsiaIsles_232 }
+	1300.1.1 = {
+		government = mandala_government
+	}
 	1330.1.1 = { holder = AsiaIsles_233 }
 }
 
@@ -79242,7 +80194,9 @@ c_SuMa_siang = {
 #}
 
 c_SuMa_sampaga = {
-	755.1.1 = { holder = AsiaIsles_268 }
+	755.1.1 = { holder = AsiaIsles_268
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_269 }
 	840.1.1 = { holder = AsiaIsles_270 }
 	875.1.1 = { holder = AsiaIsles_271 }
@@ -79262,7 +80216,9 @@ c_SuMa_sampaga = {
 }
 
 c_SuMa_ajatappareng = {
-	755.1.1 = { holder = AsiaIsles_268 }
+	755.1.1 = { holder = AsiaIsles_268
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_269 }
 	840.1.1 = { holder = AsiaIsles_270 }
 	875.1.1 = { holder = AsiaIsles_271 }
@@ -79324,7 +80280,9 @@ c_SuMa_ajatappareng = {
 #}
 
 c_SuMa_luwu = {
-	755.1.1 = { holder = AsiaIsles_302 }
+	755.1.1 = { holder = AsiaIsles_302
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_303 }
 	840.1.1 = { holder = AsiaIsles_304 }
 	875.1.1 = { holder = AsiaIsles_305 }
@@ -79344,7 +80302,9 @@ c_SuMa_luwu = {
 }
 
 d_SuMa_luwu = { # Kingdom of Luwu
-	1155.1.1 = { holder = AsiaIsles_313 }
+	1155.1.1 = { holder = AsiaIsles_313
+		government = wanua_government
+	}
 	1190.1.1 = { holder = AsiaIsles_314 }
 	1225.1.1 = { holder = AsiaIsles_315 }
 	1260.1.1 = { holder = AsiaIsles_316 }
@@ -79354,7 +80314,9 @@ d_SuMa_luwu = { # Kingdom of Luwu
 
 # EAST_TITLE_REWRITE_COLLISION: direct c_banggai -> c_SuMa_banggai; same-run duplicate target in history_titles; manual merge needed.
 c_SuMa_banggai = {
-	755.1.1 = { holder = AsiaIsles_319 }
+	755.1.1 = { holder = AsiaIsles_319
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_320 }
 	840.1.1 = { holder = AsiaIsles_321 }
 	875.1.1 = { holder = AsiaIsles_322 }
@@ -79370,11 +80332,16 @@ c_SuMa_banggai = {
 	1225.1.1 = { holder = AsiaIsles_332 }
 	1260.1.1 = { holder = AsiaIsles_333 }
 	1295.1.1 = { holder = AsiaIsles_334 }
+	1300.1.1 = {
+		government = mandala_government
+	}
 	1330.1.1 = { holder = AsiaIsles_335 }
 }
 
 c_SuMa_banggai_utara = {
-	755.1.1 = { holder = AsiaIsles_319 }
+	755.1.1 = { holder = AsiaIsles_319
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_320 }
 	840.1.1 = { holder = AsiaIsles_321 }
 	875.1.1 = { holder = AsiaIsles_322 }
@@ -79390,11 +80357,16 @@ c_SuMa_banggai_utara = {
 	1225.1.1 = { holder = AsiaIsles_332 }
 	1260.1.1 = { holder = AsiaIsles_333 }
 	1295.1.1 = { holder = AsiaIsles_334 }
+	1300.1.1 = {
+		government = mandala_government
+	}
 	1330.1.1 = { holder = AsiaIsles_335 }
 }
 
 d_SuMa_tompotika = { # Kingdom of Banggai
-	1300.1.1 = { holder = AsiaIsles_334 }
+	1300.1.1 = { holder = AsiaIsles_334
+		government = mandala_government
+	}
 	1330.1.1 = { holder = AsiaIsles_335 }
 }
 
@@ -79441,7 +80413,9 @@ d_SuMa_tompotika = { # Kingdom of Banggai
 #}
 
 c_SuMa_mori = {
-	755.1.1 = { holder = AsiaIsles_353 }
+	755.1.1 = { holder = AsiaIsles_353
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_354 }
 	840.1.1 = { holder = AsiaIsles_355 }
 	875.1.1 = { holder = AsiaIsles_356 }
@@ -79503,7 +80477,9 @@ c_SuMa_mori = {
 #}
 
 c_SuMa_banawa = {
-	755.1.1 = { holder = AsiaIsles_387 }
+	755.1.1 = { holder = AsiaIsles_387
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_388 }
 	840.1.1 = { holder = AsiaIsles_389 }
 	875.1.1 = { holder = AsiaIsles_390 }
@@ -79587,7 +80563,9 @@ c_SuMa_banawa = {
 
 # EAST_TITLE_REWRITE_COLLISION: direct c_hulondalo -> c_SuMa_gorontalo; same-run duplicate target in history_titles; manual merge needed.
 c_SuMa_gorontalo = {
-	755.1.1 = { holder = AsiaIsles_421 }
+	755.1.1 = { holder = AsiaIsles_421
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_422 }
 	840.1.1 = { holder = AsiaIsles_423 }
 	875.1.1 = { holder = AsiaIsles_424 }
@@ -79603,17 +80581,24 @@ c_SuMa_gorontalo = {
 	1225.1.1 = { holder = AsiaIsles_434 }
 	1260.1.1 = { holder = AsiaIsles_435 }
 	1295.1.1 = { holder = AsiaIsles_436 }
+	1300.1.1 = {
+		government = mandala_government
+	}
 	1330.1.1 = { holder = AsiaIsles_437 }
 }
 
 d_SuMa_minahasa = { # Hulontalo Kingdom
-	1300.1.1 = { holder = AsiaIsles_436 }
+	1300.1.1 = { holder = AsiaIsles_436
+		government = mandala_government
+	}
 	1330.1.1 = { holder = AsiaIsles_437 }
 }
 
 # EAST_TITLE_REWRITE_COLLISION: direct c_manado -> c_SuMa_wenang; same-run duplicate target in history_titles; manual merge needed.
 c_SuMa_wenang = {
-	755.1.1 = { holder = AsiaIsles_438 }
+	755.1.1 = { holder = AsiaIsles_438
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_439 }
 	840.1.1 = { holder = AsiaIsles_440 }
 	875.1.1 = { holder = AsiaIsles_441 }
@@ -79629,6 +80614,9 @@ c_SuMa_wenang = {
 	1225.1.1 = { holder = AsiaIsles_451 }
 	1260.1.1 = { holder = AsiaIsles_452 }
 	1295.1.1 = { holder = AsiaIsles_453 }
+	1300.1.1 = {
+		government = mandala_government
+	}
 	1330.1.1 = { holder = AsiaIsles_454 }
 }
 
@@ -79654,7 +80642,9 @@ c_SuMa_wenang = {
 #}
 
 c_PHI_south_palawan = {
-	755.1.1 = { holder = AsiaIsles_455 }
+	755.1.1 = { holder = AsiaIsles_455
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_456 }
 	840.1.1 = { holder = AsiaIsles_457 }
 	875.1.1 = { holder = AsiaIsles_458 }
@@ -79674,7 +80664,9 @@ c_PHI_south_palawan = {
 }
 
 c_PHI_taytay = {
-	755.1.1 = { holder = AsiaIsles_455 }
+	755.1.1 = { holder = AsiaIsles_455
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_456 }
 	840.1.1 = { holder = AsiaIsles_457 }
 	875.1.1 = { holder = AsiaIsles_458 }
@@ -79694,7 +80686,9 @@ c_PHI_taytay = {
 }
 
 d_PHI_sandao = { # Sandao mentioned in 1200's by Chinese
-	1200.1.1 = { holder = AsiaIsles_467 }
+	1200.1.1 = { holder = AsiaIsles_467
+		government = wanua_government
+	}
 	1225.1.1 = { holder = AsiaIsles_468 }
 	1260.1.1 = { holder = AsiaIsles_469 }
 	1295.1.1 = { holder = AsiaIsles_470 }
@@ -79702,7 +80696,9 @@ d_PHI_sandao = { # Sandao mentioned in 1200's by Chinese
 }
 
 c_PHI_sulu = {
-	755.1.1 = { holder = AsiaIsles_472 }
+	755.1.1 = { holder = AsiaIsles_472
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_473 }
 	840.1.1 = { holder = AsiaIsles_474 }
 	875.1.1 = { holder = AsiaIsles_475 }
@@ -79731,7 +80727,9 @@ c_PHI_sulu = {
 #}
 
 c_PHI_zamboanga = {
-	755.1.1 = { holder = AsiaIsles_489 }
+	755.1.1 = { holder = AsiaIsles_489
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_490 }
 	840.1.1 = { holder = AsiaIsles_491 }
 	875.1.1 = { holder = AsiaIsles_492 }
@@ -79808,7 +80806,9 @@ c_PHI_zamboanga = {
 #}
 
 c_PHI_lanao = {
-	755.1.1 = { holder = AsiaIsles_506 }
+	755.1.1 = { holder = AsiaIsles_506
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_507 }
 	840.1.1 = { holder = AsiaIsles_508 }
 	875.1.1 = { holder = AsiaIsles_509 }
@@ -79836,7 +80836,9 @@ c_PHI_lanao = {
 #}
 
 c_PHI_maguindanao = {
-	755.1.1 = { holder = AsiaIsles_523 }
+	755.1.1 = { holder = AsiaIsles_523
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_524 }
 	840.1.1 = { holder = AsiaIsles_525 }
 	875.1.1 = { holder = AsiaIsles_526 }
@@ -79877,7 +80879,9 @@ c_PHI_maguindanao = {
 #}
 
 c_PHI_sarangani = {
-	755.1.1 = { holder = AsiaIsles_540 }
+	755.1.1 = { holder = AsiaIsles_540
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_541 }
 	840.1.1 = { holder = AsiaIsles_542 }
 	875.1.1 = { holder = AsiaIsles_543 }
@@ -79903,7 +80907,9 @@ c_PHI_sarangani = {
 #}
 
 c_PHI_cotabato = {
-	755.1.1 = { holder = AsiaIsles_557 }
+	755.1.1 = { holder = AsiaIsles_557
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_558 }
 	840.1.1 = { holder = AsiaIsles_559 }
 	875.1.1 = { holder = AsiaIsles_560 }
@@ -79965,7 +80971,9 @@ c_PHI_cotabato = {
 #}
 
 c_PHI_mandaya = {
-	755.1.1 = { holder = AsiaIsles_591 }
+	755.1.1 = { holder = AsiaIsles_591
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_592 }
 	840.1.1 = { holder = AsiaIsles_593 }
 	875.1.1 = { holder = AsiaIsles_594 }
@@ -80006,7 +81014,9 @@ c_PHI_mandaya = {
 #}
 
 c_PHI_calagan = {
-	755.1.1 = { holder = AsiaIsles_608 }
+	755.1.1 = { holder = AsiaIsles_608
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_609 }
 	840.1.1 = { holder = AsiaIsles_610 }
 	875.1.1 = { holder = AsiaIsles_611 }
@@ -80026,13 +81036,18 @@ c_PHI_calagan = {
 }
 
 c_PHI_butuan = {
-	755.1.1 = { holder = AsiaIsles_625 }
+	755.1.1 = { holder = AsiaIsles_625
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_626 }
 	840.1.1 = { holder = AsiaIsles_627 }
 	875.1.1 = { holder = AsiaIsles_628 }
 	910.1.1 = { holder = AsiaIsles_629 }
 	945.1.1 = { holder = AsiaIsles_630 }
 	980.1.1 = { holder = AsiaIsles_631 }
+	1000.1.1 = {
+		government = mandala_government
+	}
 	1015.1.1 = { holder = AsiaIsles_632 }
 	1050.1.1 = { holder = AsiaIsles_633 }
 	1085.1.1 = { holder = AsiaIsles_634 }
@@ -80067,7 +81082,12 @@ c_PHI_butuan = {
 #}
 
 d_PHI_butuan = { # Kingdom of Butuan - Mentioned in China ~1000. One of the longer lived polities of the islands
-	980.1.1 = { holder = AsiaIsles_631 }
+	980.1.1 = { holder = AsiaIsles_631
+		government = wanua_government
+	}
+	1000.1.1 = {
+		government = mandala_government
+	}
 	1015.1.1 = { holder = AsiaIsles_632 }
 	1050.1.1 = { holder = AsiaIsles_633 }
 	1085.1.1 = { holder = AsiaIsles_634 }
@@ -80117,7 +81137,9 @@ d_PHI_butuan = { # Kingdom of Butuan - Mentioned in China ~1000. One of the long
 #}
 
 c_PHI_bool_and_cebu = {
-	755.1.1 = { holder = AsiaIsles_659 }
+	755.1.1 = { holder = AsiaIsles_659
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_660 }
 	840.1.1 = { holder = AsiaIsles_661 }
 	875.1.1 = { holder = AsiaIsles_662 }
@@ -80130,6 +81152,9 @@ c_PHI_bool_and_cebu = {
 	1120.1.1 = { holder = AsiaIsles_669 }
 	1155.1.1 = { holder = AsiaIsles_670 }
 	1190.1.1 = { holder = AsiaIsles_671 }
+	1200.1.1 = {
+		government = mandala_government
+	}
 	1225.1.1 = { holder = AsiaIsles_672 }
 	1260.1.1 = { holder = AsiaIsles_673 }
 	1295.1.1 = { holder = AsiaIsles_674 }
@@ -80146,7 +81171,9 @@ c_PHI_bool_and_cebu = {
 #}
 
 c_PHI_buglas = {
-	755.1.1 = { holder = AsiaIsles_676 }
+	755.1.1 = { holder = AsiaIsles_676
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_677 }
 	840.1.1 = { holder = AsiaIsles_678 }
 	875.1.1 = { holder = AsiaIsles_679 }
@@ -80166,7 +81193,9 @@ c_PHI_buglas = {
 }
 
 c_PHI_tandaya = {
-	755.1.1 = { holder = AsiaIsles_693 }
+	755.1.1 = { holder = AsiaIsles_693
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_694 }
 	840.1.1 = { holder = AsiaIsles_695 }
 	875.1.1 = { holder = AsiaIsles_696 }
@@ -80207,7 +81236,9 @@ c_PHI_tandaya = {
 #}
 
 c_PHI_samar = {
-	755.1.1 = { holder = AsiaIsles_693 }
+	755.1.1 = { holder = AsiaIsles_693
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_694 }
 	840.1.1 = { holder = AsiaIsles_695 }
 	875.1.1 = { holder = AsiaIsles_696 }
@@ -80269,7 +81300,9 @@ c_PHI_samar = {
 #}
 
 c_PHI_masbate = {
-	755.1.1 = { holder = AsiaIsles_727 }
+	755.1.1 = { holder = AsiaIsles_727
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_728 }
 	840.1.1 = { holder = AsiaIsles_729 }
 	875.1.1 = { holder = AsiaIsles_730 }
@@ -80289,7 +81322,9 @@ c_PHI_masbate = {
 }
 
 c_PHI_panay = {
-	755.1.1 = { holder = AsiaIsles_744 }
+	755.1.1 = { holder = AsiaIsles_744
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_745 }
 	840.1.1 = { holder = AsiaIsles_746 }
 	875.1.1 = { holder = AsiaIsles_747 }
@@ -80330,13 +81365,18 @@ c_PHI_panay = {
 #}
 
 c_PHI_ma-i = {
-	755.1.1 = { holder = AsiaIsles_761 }
+	755.1.1 = { holder = AsiaIsles_761
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_762 }
 	840.1.1 = { holder = AsiaIsles_763 }
 	875.1.1 = { holder = AsiaIsles_764 }
 	910.1.1 = { holder = AsiaIsles_765 }
 	945.1.1 = { holder = AsiaIsles_766 }
 	980.1.1 = { holder = AsiaIsles_767 }
+	1000.1.1 = {
+		government = mandala_government
+	}
 	1015.1.1 = { holder = AsiaIsles_768 }
 	1050.1.1 = { holder = AsiaIsles_769 }
 	1085.1.1 = { holder = AsiaIsles_770 }
@@ -80408,7 +81448,9 @@ c_PHI_ma-i = {
 #}
 
 c_PHI_ibalong = {
-	755.1.1 = { holder = AsiaIsles_795 }
+	755.1.1 = { holder = AsiaIsles_795
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_796 }
 	840.1.1 = { holder = AsiaIsles_797 }
 	875.1.1 = { holder = AsiaIsles_798 }
@@ -80470,7 +81512,9 @@ c_PHI_ibalong = {
 #}
 
 c_PHI_kalilayan = {
-	755.1.1 = { holder = AsiaIsles_829 }
+	755.1.1 = { holder = AsiaIsles_829
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_830 }
 	840.1.1 = { holder = AsiaIsles_831 }
 	875.1.1 = { holder = AsiaIsles_832 }
@@ -80490,7 +81534,10 @@ c_PHI_kalilayan = {
 }
 
 d_PHI_tondo = { # 'Kingdom' of Tondo
-	875.1.1 = { holder = AsiaIsles_917 government = mandala_government }
+	875.1.1 = { holder = AsiaIsles_917 government = wanua_government }
+	900.1.1 = {
+		government = mandala_government
+	}
 	910.1.1 = { holder = AsiaIsles_918 }
 	945.1.1 = { holder = AsiaIsles_919 }
 	980.1.1 = { holder = AsiaIsles_920 }
@@ -80600,10 +81647,15 @@ d_PHI_tondo = { # 'Kingdom' of Tondo
 #}
 
 c_PHI_tondo = {
-	755.1.1 = { holder = AsiaIsles_914 }
+	755.1.1 = { holder = AsiaIsles_914
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_915 }
 	840.1.1 = { holder = AsiaIsles_916 }
 	875.1.1 = { holder = AsiaIsles_917 }
+	900.1.1 = {
+		government = mandala_government
+	}
 	910.1.1 = { holder = AsiaIsles_918 }
 	945.1.1 = { holder = AsiaIsles_919 }
 	980.1.1 = { holder = AsiaIsles_920 }
@@ -80641,7 +81693,9 @@ c_PHI_tondo = {
 #}
 
 c_PHI_pangasinan = {
-	755.1.1 = { holder = AsiaIsles_897 }
+	755.1.1 = { holder = AsiaIsles_897
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_898 }
 	840.1.1 = { holder = AsiaIsles_899 }
 	875.1.1 = { holder = AsiaIsles_900 }
@@ -80657,11 +81711,19 @@ c_PHI_pangasinan = {
 	1225.1.1 = { holder = AsiaIsles_910 }
 	1260.1.1 = { holder = AsiaIsles_911 }
 	1295.1.1 = { holder = AsiaIsles_912 }
+	1300.1.1 = {
+		government = mandala_government
+	}
 	1330.1.1 = { holder = AsiaIsles_913 }
 }
 
 d_PHI_ilocana = {
-	1295.1.1 = { holder = AsiaIsles_912 }
+	1295.1.1 = { holder = AsiaIsles_912
+		government = wanua_government
+	}
+	1300.1.1 = {
+		government = mandala_government
+	}
 	1330.1.1 = { holder = AsiaIsles_913 }
 }
 
@@ -80687,7 +81749,9 @@ d_PHI_ilocana = {
 #}
 
 c_PHI_kasiguranin = {
-	755.1.1 = { holder = AsiaIsles_948 }
+	755.1.1 = { holder = AsiaIsles_948
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_949 }
 	840.1.1 = { holder = AsiaIsles_950 }
 	875.1.1 = { holder = AsiaIsles_951 }
@@ -80797,7 +81861,9 @@ c_PHI_kasiguranin = {
 #}
 
 c_PHI_samtoy = {
-	755.1.1 = { holder = AsiaIsles_999 }
+	755.1.1 = { holder = AsiaIsles_999
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_1000 }
 	840.1.1 = { holder = AsiaIsles_1001 }
 	875.1.1 = { holder = AsiaIsles_1002 }
@@ -80838,7 +81904,9 @@ c_PHI_samtoy = {
 #}
 
 c_PHI_cagayan_valley = {
-	755.1.1 = { holder = AsiaIsles_1033 }
+	755.1.1 = { holder = AsiaIsles_1033
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_1034 }
 	840.1.1 = { holder = AsiaIsles_1035 }
 	875.1.1 = { holder = AsiaIsles_1036 }
@@ -80858,7 +81926,9 @@ c_PHI_cagayan_valley = {
 }
 
 c_PHI_igorot = {
-	755.1.1 = { holder = AsiaIsles_1050 }
+	755.1.1 = { holder = AsiaIsles_1050
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_1051 }
 	840.1.1 = { holder = AsiaIsles_1052 }
 	875.1.1 = { holder = AsiaIsles_1053 }
@@ -80878,7 +81948,9 @@ c_PHI_igorot = {
 }
 
 c_PHI_ivatan = {
-	755.1.1 = { holder = AsiaIsles_1067 }
+	755.1.1 = { holder = AsiaIsles_1067
+		government = wanua_government
+	}
 	805.1.1 = { holder = AsiaIsles_1068 }
 	840.1.1 = { holder = AsiaIsles_1069 }
 	875.1.1 = { holder = AsiaIsles_1070 }

@@ -92,12 +92,14 @@ rite = otuken_yish # Yusseter
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
 		holding = castle_holding
+	}
+	1313.1.1 = {
+		rite = hanafi
 	}
 }
 
@@ -139,12 +141,14 @@ rite = otuken_yish # Yusseter
 1060.1.1 = { culture = cuman
 
 }
-1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
 		holding = castle_holding
+	}
+	1313.1.1 = {
+		rite = hanafi
 	}
 }
 
@@ -168,12 +172,14 @@ rite = otuken_yish # Yusseter
 1060.1.1 = { culture = cuman
 
 }
-1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
 		holding = castle_holding
+	}
+	1313.1.1 = {
+		rite = hanafi
 	}
 }
 
@@ -227,12 +233,20 @@ rite = otuken_yish # Yusseter
 # History
 808.1.1 = { rite = kabarism }
 
-1220.1.1 = { rite = hanafi }
 #Mongol invasion
 1300.1.1 = {
 		culture = nogai
 	}
 
+	1050.1.2 = {
+		rite = otuken_yish
+	}
+	1055.1.2 = {
+		culture = kipchak
+	}
+	1313.1.1 = {
+		rite = hanafi
+	}
 }
 
 12899 = { #b_kuma_kavkaz # Yusseter: MPE_21384
@@ -396,14 +410,16 @@ rite = khabzism
 }
 
 13284 = { # b_burgusan # Yusseter: MPE province history donor c_don_portage/606
-	
+
 	# Misc
-	
+
 	holding = tribal_holding
-	
+
 	# History
 
-	1320.1.1 = { rite = georgian_rite }
+	965.1.2 = {
+		rite = georgian_rite
+	}
 }
 
 13285 = { #b_chegem # Yusseter: MPE_21411
@@ -415,16 +431,18 @@ rite = khabzism
 }
 
 13287 = { # b_majar # Yusseter: MPE province history donor c_don_portage/606
-	
+
 	# Misc
 	culture = alan
 	rite = alan_pagan
-	
+
 	holding = tribal_holding
-	
+
 	# History
 
-	1320.1.1 = { rite = georgian_rite }
+	965.1.2 = {
+		rite = georgian_rite
+	}
 }
 
 13288 = { #b_etzeri # Yusseter: MPE_21414
@@ -616,12 +634,20 @@ rite = otuken_yish # Yusseter
 # History
 808.1.1 = { rite = kabarism }
 
-1220.1.1 = { rite = hanafi }
 #Mongol invasion
 1300.1.1 = {
 		culture = nogai
 	}
 
+	1050.1.2 = {
+		rite = otuken_yish
+	}
+	1055.1.2 = {
+		culture = kipchak
+	}
+	1313.1.1 = {
+		rite = hanafi
+	}
 }
 
 13319 = { #b_cisterki # Yusseter: MPE_21447
@@ -629,16 +655,16 @@ rite = otuken_yish # Yusseter
 }
 
 13322 = { # b_khunzakh # Yusseter: MPE province history asil_mod donor c_philan/675
-		
+
 	# Misc
 	culture = caucasian_avar
 	rite = nakh_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
-		rite = hanafi	
+		rite = shafii
 	}
-	
+
 }
 
 13321 = { #b_kayit # Yusseter: MPE_21449
@@ -662,7 +688,7 @@ rite = otuken_yish # Yusseter
 }
 
 13327 = { # b_philan # Yusseter: MPE province history donor c_samander/5305
-	
+
 # Misc
 culture = lezgi
 rite = nakh_pagan
@@ -671,7 +697,7 @@ holding = tribal_holding
 # History
 808.1.1 = { rite = kabarism }
 
-1089.1.1 = { rite = hanafi }
+1089.1.1 = { rite = shafii }
 
 }
 
@@ -692,16 +718,16 @@ holding = tribal_holding
 }
 
 13332 = { # b_durdzukia # Yusseter: MPE province history asil_mod donor c_philan/675
-		
+
 	# Misc
 	culture = caucasian_avar
 	rite = nakh_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
-		rite = hanafi	
+		rite = shafii
 	}
-	
+
 }
 
 13333 = { # b_sunzha # Yusseter: MPE province history donor c_philan/13322
@@ -713,16 +739,16 @@ holding = tribal_holding
 }
 
 13335 = { # b_iskark # Yusseter: MPE province history asil_mod donor c_philan/675
-		
+
 	# Misc
 	culture = caucasian_avar
 	rite = nakh_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
-		rite = hanafi	
+		rite = shafii
 	}
-	
+
 }
 
 13336 = { #b_argun # Yusseter: MPE_21465
@@ -742,7 +768,7 @@ holding = tribal_holding
 }
 
 13340 = { # b_varachan # Yusseter: MPE province history donor c_samander/5305
-	
+
 # Misc
 culture = lezgi
 rite = nakh_pagan
@@ -751,7 +777,7 @@ holding = tribal_holding
 # History
 808.1.1 = { rite = kabarism }
 
-1089.1.1 = { rite = hanafi }
+1089.1.1 = { rite = shafii }
 
 }
 
@@ -760,22 +786,22 @@ holding = tribal_holding
 }
 
 13342 = { # b_kubachi # Yusseter: MPE province history asil_mod donor c_philan/675
-		
+
 	# Misc
 	culture = caucasian_avar
 	rite = nakh_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
-		rite = hanafi	
+		rite = shafii
 	}
-	
+
 }
 
 13343 = { # b_zirichgeran # Yusseter: MPE province history asil_mod donor c_derbent/674
 	# Misc
 culture = lezgi
-rite = nakh_pagan
+rite = awzai
 
 # History
 1089.1.1 = { rite = hanafi }
@@ -792,6 +818,9 @@ rite = nakh_pagan
 			hill_farms_01
 			barracks_01
 		}
+	}
+	820.1.1 = {
+		rite = shafii
 	}
 }
 
@@ -806,7 +835,7 @@ rite = nakh_pagan
 13347 = { # b_lezgin # Yusseter: MPE province history asil_mod donor c_derbent/674
 	# Misc
 culture = lezgi
-rite = nakh_pagan
+rite = awzai
 
 # History
 1089.1.1 = { rite = hanafi }
@@ -823,13 +852,16 @@ rite = nakh_pagan
 			hill_farms_01
 			barracks_01
 		}
+	}
+	820.1.1 = {
+		rite = shafii
 	}
 }
 
 13350 = { # b_kuba # Yusseter: MPE province history asil_mod donor c_derbent/674
 	# Misc
 culture = lezgi
-rite = nakh_pagan
+rite = awzai
 
 # History
 1089.1.1 = { rite = hanafi }
@@ -846,6 +878,9 @@ rite = nakh_pagan
 			hill_farms_01
 			barracks_01
 		}
+	}
+	820.1.1 = {
+		rite = shafii
 	}
 }
 
@@ -892,16 +927,18 @@ rite = nakh_pagan
 
 
 5303 = { # b_besinada # Yusseter: MPE province history donor c_don_portage/606
-	
+
 	# Misc
 	culture = alan
 	rite = alan_pagan
-	
+
 	holding = tribal_holding
-	
+
 	# History
 
-	1320.1.1 = { rite = georgian_rite }
+	965.1.2 = {
+		rite = georgian_rite
+	}
 }
 
 5302 = { # b_digora # Yusseter: MPE province history asil_mod donor c_cabardinia/603
@@ -921,7 +958,7 @@ rite = nakh_pagan
 # Yusseter: b_kumukh/675 uses the consolidated asil-mod timeline and MPE holding in 00_MB_PROVINCES.txt.
 
 5342 = { # b_gumik # Yusseter: MPE province history donor c_samander/5305
-	
+
 # Misc
 culture = lezgi
 rite = nakh_pagan
@@ -930,7 +967,7 @@ holding = tribal_holding
 # History
 808.1.1 = { rite = kabarism }
 
-1089.1.1 = { rite = hanafi }
+1089.1.1 = { rite = shafii }
 
 }
 
@@ -950,12 +987,14 @@ holding = tribal_holding
 1060.1.1 = { culture = cuman
 
 }
-1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
 		holding = castle_holding
+	}
+	1313.1.1 = {
+		rite = hanafi
 	}
 }
 
@@ -970,12 +1009,14 @@ rite = otuken_yish # Yusseter
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
 		holding = castle_holding
+	}
+	1313.1.1 = {
+		rite = hanafi
 	}
 }
 
@@ -990,12 +1031,14 @@ rite = otuken_yish # Yusseter
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
 		holding = castle_holding
+	}
+	1313.1.1 = {
+		rite = hanafi
 	}
 }
 
@@ -1010,12 +1053,14 @@ rite = otuken_yish # Yusseter
 895.1.1 = { culture = pecheneg }
 1046.1.1 = { culture = torkil }
 1060.1.1 = { culture = cuman }
-1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
 		holding = castle_holding
+	}
+	1313.1.1 = {
+		rite = hanafi
 	}
 }
 
@@ -1026,14 +1071,18 @@ culture = mogyer
 rite = magyar_pagan
 
 # History
-893.1.1 = { culture = pecheneg }
+893.1.1 = { culture = pecheneg
+		rite = otuken_yish
+}
 1044.1.1 = { culture = cuman }
-1227.1.1 = { rite = hanafi }
 1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
 		holding = castle_holding
+	}
+	1313.1.1 = {
+		rite = hanafi
 	}
 }
 
@@ -1042,14 +1091,17 @@ rite = magyar_pagan
 	rite = otuken_yish # Yusseter
 	#rite = tengri_pagan
 	#holding = castle_holding
-	1000.1.2 = {
-		culture = cuman
-	}
 	1300.1.1 = {
 		culture = crimean
 	}
 	1337.1.1 = {
 		holding = castle_holding
+	}
+	1060.1.1 = {
+		culture = cuman
+	}
+	1313.1.1 = {
+		rite = hanafi
 	}
 }
 
@@ -1073,16 +1125,16 @@ rite = magyar_pagan
 }
 
 5306 = { # b_gumse # Yusseter: MPE province history asil_mod donor c_philan/675
-		
+
 	# Misc
 	culture = caucasian_avar
 	rite = nakh_pagan
 	holding = tribal_holding
 	# History
 	1317.1.1 = {
-		rite = hanafi	
+		rite = shafii
 	}
-	
+
 }
 
 13320 = { # b_lotin # Yusseter: MPE source province history 21448

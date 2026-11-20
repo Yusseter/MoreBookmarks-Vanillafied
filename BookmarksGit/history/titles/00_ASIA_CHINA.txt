@@ -1743,6 +1743,9 @@ k_hedong = {
 
 k_xia_china = {
 	766.1.1 = { change_development_level = 6 }
+	900.7.25 = {
+		government = meritocratic_government
+	}
 	936.1.1 = { change_development_level = 8 }
 	1004.1.1 = {
 		holder = 206644 # Deming Tuoba
@@ -1753,7 +1756,9 @@ k_xia_china = {
 	750.1.1={
 		name = "DINGNAN"
 	}
-	865.1.1 = { holder = 1401450 liege = h_china } #Li Yanyuan
+	865.1.1 = { holder = 1401450 liege = h_china
+		government = celestial_government
+	} #Li Yanyuan
 	869.1.1 = { holder = 1401451 } #Hu Mou
 	874.1.1 = { holder = longxi_li_0877 } #Li Xuanli
 	880.11.6 = { holder = 1400617 } #Zhuge Shuang
@@ -1770,7 +1775,7 @@ k_xia_china = {
 	909.5.5 = {
 		holder = 1415037
 		liege = 0
-		government = administrative_government
+		government = meritocratic_government
 		effect = {
 			if = {
 				limit = {
@@ -8417,11 +8422,16 @@ d_lingling = {
 
 d_xinan = {
 	743.1.1 = { holder = 1910007 liege = h_china } #Li Guangbi - made prefect
+	756.3.6 = {
+		government = nomad_government
+	}
 	764.8.6 = { holder = 1910011 }
 	775.1.1 = { holder = 0 }
 	1017.1.1={
 		holder = 206722
 		liege = k_xia_china
+
+		government = meritocratic_government
 	}
 	1038.1.1={
 		liege = e_xi_xia
@@ -8446,6 +8456,8 @@ d_xinan = {
 	}
 	1222.1.11 = {
 		liege = e_mongol_empire
+
+		government = feudal_government
 	}
 	1224.1.1 = {
 		holder = 0
@@ -8465,6 +8477,9 @@ d_xiasui = {
 		holder = 0
 	}
 	865.1.1 = { change_development_level = 12 }
+	900.7.25 = {
+		government = meritocratic_government
+	}
 	994.7.1 = {
 		holder = 1412085 # Guangwen Tuoba
 	}
@@ -8473,7 +8488,9 @@ d_xiasui = {
 		succession_laws = { male_only_law }
 	}
 	#Tang
-	765.1.1 = { holder = 1415025 liege = h_china }
+	765.1.1 = { holder = 1415025 liege = h_china
+		government = celestial_government
+	}
 	787.1.1 = {   } #Han Tan
 	#798.1.1 = { holder = 0 } #Han Quanyi
 	#805.1.1 = { holder = 0 } #Yang Huibin
@@ -8499,7 +8516,7 @@ d_xiasui = {
 	869.1.1 = { holder = 1401451 } #Hu Mou
 	874.1.1 = { holder = longxi_li_0877 } #Li Xuanli
 	880.11.6 = { holder = 1400617 } #Zhuge Shuang
-	881.1.16 = { holder = 1415030 government = tribal_government succession_laws = { male_only_law } } #Li Sigong - 881.5.2 made Jiedushi
+	881.1.16 = { holder = 1415030 government = celestial_government succession_laws = { male_only_law } } #Li Sigong - 881.5.2 made Jiedushi
 	881.12.25 = { name = "Dingnan" }
 	886.1.1 = { holder = 1415033 } #Li Sijian
 	896.1.1 = { holder = 1415036 } #Li Chengqing
@@ -8511,7 +8528,7 @@ d_xiasui = {
 	#Later Tang
 	923.11.19 = { liege = h_china }
 	924.1.1 = { liege = 0 }
-	933.3.10 = { holder = 1415046 government = feudal_government } #Li Yichao
+	933.3.10 = { holder = 1415046 government = meritocratic_government } #Li Yichao
 	935.3.19 = { holder = 1415045 liege = 0 succession_laws = { male_only_law single_heir_succession_law } } #Li Yiyin
 	#Later Jin
 	#937.1.11 = { liege = 0 }
@@ -8613,7 +8630,9 @@ d_shuofang = {
 	755.12.28 = { holder = 1405776 } #Guo Ziyi
 	759.7.29 = { holder = 1910007 } #Li Guangbi
 	#759.9.18 = { holder = 0 }
-	762.3.1 = { holder = 1405776 } #Guo Ziyi
+	762.3.1 = { holder = 1405776
+		government = celestial_government
+	} #Guo Ziyi
 	#762.9.15 = { holder = 0 }
 	765.1.1 = { holder = 1402959 } #Lu Sigong
 	#768.1.1 = { holder = 0 }
@@ -8650,9 +8669,13 @@ d_shuofang = {
 	945.5.4 = { holder = 1401910 } #Wang Lingwen
 	946.7.8 = { holder = 1400896 } #Feng Hui
 	#Liao
-	947.1.11 = { liege = e_great_liao }
+	947.1.11 = { liege = e_great_liao
+		government = steppe_admin_government
+	}
 	#Later Han
-	947.7.1 = { liege = h_china }
+	947.7.1 = { liege = h_china
+		government = celestial_government
+	}
 	#Later Zhou
 	951.2.5 = { liege = h_china }
 	952.7.9 = { holder = 1400905  } #Feng Jiye
@@ -8668,6 +8691,8 @@ d_shuofang = {
 	997.1.1 = {
 		holder = TangutClanFangdang12 
 		liege = k_xia_china
+
+		government = meritocratic_government
 	}
 	
 	1024.10.5 = {
@@ -12011,13 +12036,22 @@ c_yingzhou_5 = {
 }
 
 c_xiazhou = {
+	750.1.28 = {
+		government = celestial_government
+	}
 	766.1.1 = { change_development_level = 12 }
 	780.1.1 = {
 		holder = 1415026 # Qianhui Tuoba
 	}
+	900.7.25 = {
+		government = meritocratic_government
+	}
 	936.1.1 = { change_development_level = 16 }
 	945.1.1 = {
 		holder = 1415047 # Guangrui Tuoba
+	}
+	996.1.1 = {
+		government = celestial_government
 	}
 	1032.1.1 = { change_development_level = 0 }
 
@@ -12061,10 +12095,16 @@ c_xiazhou = {
 	979.8.6 = { holder = 1415049 } #Li Jipeng
 	982.6.4 = { holder = 1412085 } #Li Kewen
 	982.12.9 = { holder = jinyang_yin_001 } #Yin Xian - made prefect
-	985.7.1 = { holder = 1412514 } #An Shouzhong - made prefect
-	988.6.4 = { holder = 1415049 } #Li Jipeng
+	985.7.1 = { holder = 1412514
+		government = nomad_government
+	} #An Shouzhong - made prefect
+	988.6.4 = { holder = 1415049
+		government = meritocratic_government
+	} #Li Jipeng
 	994.4.29 = { holder = shangdang_li_005 } #Li Jilong - made prefect
-	997.1.1 = { holder = 1412085 }
+	997.1.1 = { holder = 1412085
+		government = meritocratic_government
+	}
 	#Xi Xia
 	
 	1002.1.1 = {
@@ -12099,16 +12139,29 @@ c_xiazhou = {
 		holder = TangutClanXifeng13 # Wolila
 	}
 	
-	1225.1.1 = { liege = d_yongxing government = feudal_government  }
+	1215.1.11 = {
+		government = celestial_government
+	}
+	1220.1.28 = {
+		government = feudal_government
+	}
+	1225.1.1 = { liege = d_yongxing
+		government = meritocratic_government # Yusseter: d_xijing_china
+  }
 	
 	1227.3.4 = {
 		holder = TangutClanXifeng14 # Kenagan
+
+		government = feudal_government
 	}
 	
 	1258.11.19 = {
 		holder = TangutClanXifeng15 # Tabuyan
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1288.7.13 = {
 		holder = TangutClanXifeng16 # Jipeng
 	}
@@ -12120,7 +12173,13 @@ c_xiazhou = {
 }
 
 c_yinzhou = {
+	750.1.28 = {
+		government = celestial_government
+	}
 	766.1.1 = { change_development_level = 10 }
+	900.7.25 = {
+		government = meritocratic_government
+	}
 	936.1.1 = { change_development_level = 14 }
 	1032.1.1 = { change_development_level = 16 }
 
@@ -12182,8 +12241,16 @@ c_yinzhou = {
 		holder = TangutClans18  # Guangyan
 	}
 	
-	1225.1.1 = { liege = d_yongxing  }
+	1220.1.28 = {
+		government = feudal_government
+	}
+	1225.1.1 = { liege = d_yongxing
+		government = meritocratic_government
+	}
 	
+	1230.1.1 = {
+		government = feudal_government
+	}
 	1231.10.15 = {
 		holder = TangutClans19  # Zunxu
 	}
@@ -12192,6 +12259,9 @@ c_yinzhou = {
 		holder = TangutClans20  # Tingjian
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1285.8.4 = {
 		holder = TangutClans21  # Sachen
 	}
@@ -12206,7 +12276,13 @@ c_suizhou = {
 	#绥州/綏州
 	#綏德城 (-1100.1.2) 續資治通鑑長編/卷508
 	#綏德軍 (1100.1.2-) 續資治通鑑長編/卷508
+	750.1.28 = {
+		government = celestial_government
+	}
 	766.1.1 = { change_development_level = 10 }
+	900.7.25 = {
+		government = meritocratic_government
+	}
 	936.1.1 = { change_development_level = 14 }
 	970.9.1 = {
 		holder = 1412082 # Pilu Tuoba
@@ -12260,14 +12336,20 @@ c_suizhou = {
 	991.1.1 = { holder = 206673 } #Li Jizhong
 	#Song
 	994.5.15 = { holder = suide_gao_004 } #Gao Wenpi - made prefect
-	997.5.8 = { liege = d_yongxing }
+	997.5.8 = { liege = d_yongxing
+		government = celestial_government
+	}
 	1001.1.1 = { holder = 217723 }
 	#Xi Xia
-	1016.1.1 = { holder = TangutClanXifeng7 liege = d_xiasui } #Taizong, Li Deming
+	1016.1.1 = { holder = TangutClanXifeng7 liege = d_xiasui
+		government = meritocratic_government
+	} #Taizong, Li Deming
 	1032.10.26 = { holder = 206650 } #Jingzong, Li Yuanhao
 	1048.1.19 = { holder = 206651 } #Yizong, Li Liangzuo
 	#Song
-	1063.3.30 = { holder = suide_gao_103 liege = d_fufang name = "b_Suidej" } #Gao Yongneng - made prefect
+	1063.3.30 = { holder = suide_gao_103 liege = d_fufang name = "b_Suidej"
+		government = celestial_government
+	} #Gao Yongneng - made prefect
 	1082.10.14 = { holder = 217726 }
 	1085.4.1 = { holder = 217727 }
 	1099.1.1 = { holder = luoyang_kang_001 }
@@ -12284,8 +12366,16 @@ c_suizhou = {
 	1125.1.1 = {
 		#de_jure_liege = d_fufang_yanzhou_china # Yusseter
 	}
-	1128.12.8 = { holder = jurchen119 } #
+	1128.12.8 = { holder = jurchen119
+		government = meritocratic_government
+	} #
 	1131.1.26 = { holder = jurchen112 } #兀朮
+	1131.11.1 = {
+		government = celestial_government
+	}
+	1132.5.15 = {
+		government = meritocratic_government
+	}
 	1134.5.10 = { holder = song_general_061 liege = d_fufang } #关师古 -made perfect
 	1150.1.1 = { holder = leping_xiang_006 } 
 	1189.1.1 = { holder = jurchen1358 } 
@@ -12300,15 +12390,27 @@ c_suizhou = {
 	}
 	1210.1.1 = {   }
 	1225.1.1 = { liege = d_yongxing  }
+	1230.1.1 = {
+		government = feudal_government
+	}
 	1250.1.1 = { holder = NSteppeMB389 }
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1300.1.1 = { holder = NSteppeMB390 }
 	1310.1.1 = { holder = NSteppeMB391 }
 }
 
 c_quye = {
+	756.3.6 = {
+		government = nomad_government
+	}
 	766.1.1 = { change_development_level = 8 }
 	886.1.1 = {
 		holder = 1415039 # Yichang Tuoba
+	}
+	900.7.25 = {
+		government = meritocratic_government
 	}
 	936.1.1 = { change_development_level = 12 }
 	970.9.1 = {
@@ -12327,7 +12429,9 @@ c_quye = {
 		holder = 1410404 #赫连铎
 		liege = d_xiasui
 	}
-	880.1.1 = { holder = 1415030 liege = d_xiasui } #Li Sigong
+	880.1.1 = { holder = 1415030 liege = d_xiasui
+		government = celestial_government
+	} #Li Sigong
 	#907.6.1 = { holder = 1415033 liege = 0 } #Li Sigong
 	#Later Liang
 	908.12.2 = {  } #Li Yichang
@@ -12378,8 +12482,13 @@ c_quye = {
 	}
 	#1227
 
+	1222.1.11 = {
+		government = feudal_government
+	}
 	1224.1.1 = {
 		holder = ongud0023 # Menk Uraqai
+
+		government = nomad_government
 	}
 	1226.1.1={
 
@@ -12411,9 +12520,15 @@ c_quye = {
 }
 
 c_hequ = {
+	756.3.6 = {
+		government = nomad_government
+	}
 	766.1.1 = { change_development_level = 8 }
 	886.1.1 = {
 		holder = 1415039 # Yichang Tuoba
+	}
+	900.7.25 = {
+		government = meritocratic_government
 	}
 	936.1.1 = { change_development_level = 12 }
 	970.9.1 = {
@@ -12432,7 +12547,9 @@ c_hequ = {
 		holder = 1410404 #赫连铎
 		liege = d_xiasui
 	}
-	880.1.1 = { holder = 1415030 liege = d_xiasui } #Li Sigong
+	880.1.1 = { holder = 1415030 liege = d_xiasui
+		government = celestial_government
+	} #Li Sigong
 	#907.6.1 = { holder = 1415033 liege = 0 } #Li Sigong
 	#Later Liang
 	908.12.2 = {  } #Li Yichang
@@ -12483,8 +12600,13 @@ c_hequ = {
 	}
 	#1227
 
+	1222.1.11 = {
+		government = feudal_government
+	}
 	1224.1.1 = {
 		holder = ongud0023 # Menk Uraqai
+
+		government = nomad_government
 	}
 	1226.1.1={
 
@@ -12516,10 +12638,15 @@ c_hequ = {
 }
 
 c_linzhou = {
+	756.3.6 = {
+		government = nomad_government
+	}
 	766.1.1 = { change_development_level = 8 }
 	854.9.4 = {
 		liege = h_china
 		holder = 1410404
+
+		government = nomad_government
 	}
 	936.1.1 = { change_development_level = 12 }
 	1017.1.1 = { liege = d_xinan }
@@ -12528,36 +12655,60 @@ c_linzhou = {
 	#Tang
 	743.1.1 = { holder = 1910007 } #Li Guangbi - made prefect
 	764.8.6 = { holder = 1910011 }
-	852.1.1 = { holder = 1410925 liege = d_hedong } #Qibi Tong
+	852.1.1 = { holder = 1410925 liege = d_hedong
+		government = celestial_government
+	} #Qibi Tong
 	#
 	864.1.1 = {   } #Helian Duo
 	#865.1.1 = { holder = 1401447 } #Gao Hong
 	#870.12.6 = { holder = 1412306 } #Li Guochang
 	#879.4.5 = { holder = 1401448 } #Wu Shitai
 	881.1.1 = { holder = 1410404 } #Helian Duo
-	881.7.1 = { holder = 1410934 } #Qibi Zhang
+	881.7.1 = { holder = 1410934
+		government = celestial_government
+	} #Qibi Zhang
 	885.1.1 = { holder = 1401449 } #Wang Bian
 	888.4.20 = { holder = longxi_li_1047 } #No Jiedushi
-	893.1.1 = { holder = 1412477 } #Shi Shanyou
+	893.1.1 = { holder = 1412477
+		government = nomad_government
+	} #Shi Shanyou
 	#Later Tang
 	904.1.1 = { holder = fugu_she_002 liege = d_sanggan # Yusseter: liege = d_zhenwu_china
+
+		government = celestial_government
 	} #She Silun - prefect at some point
 	912.1.1 = { holder = mayi_zhou_001 } #Zhou Dewei
 	913.1.1 = { holder = yanmen_zhang_002 } #Li Siben
-	916.1.1 = { holder = 1410401 } #Luo Si'en
-	918.1.1 = { holder = 1404679 } #Kang Guan - made prefect in 918
-	923.1.1 = { holder = 1412319 } #Li Cunba
-	924.3.26 = { holder = later_tang_zhu_001 } #Zhu Shouyin
+	916.1.1 = { holder = 1410401
+		government = nomad_government
+	} #Luo Si'en
+	918.1.1 = { holder = 1404679
+		government = celestial_government
+	} #Kang Guan - made prefect in 918
+	923.1.1 = { holder = 1412319
+		government = nomad_government
+	} #Li Cunba
+	924.3.26 = { holder = later_tang_zhu_001
+		government = celestial_government
+	} #Zhu Shouyin
 	925.11.27 = { holder = 1412344 }
-	926.6.19 = { holder = 1412423 } #An Jinquan
-	926.7.1 = { holder = 1400322 } #Zhang Wen
+	926.6.19 = { holder = 1412423
+		government = nomad_government
+	} #An Jinquan
+	926.7.1 = { holder = 1400322
+		government = celestial_government
+	} #Zhang Wen
 	928.3.1 = { holder = qingyuan_suo_003 } #Suo Baitong
 	928.6.1 = { holder = 1400322 } #Zhang Wen
 	929.1.1 = { holder = 1401803 } #Zhang Yanqiu
 	930.1.1 = { holder = youzhou_gao_005 } #Gao Xingzhou
-	933.1.1 = { holder = 1412434 } #Yang Tan
+	933.1.1 = { holder = 1412434
+		government = nomad_government
+	} #Yang Tan
 	935.1.10 = { holder = 1412442 } #An Shuqian
 	936.1.2 = { holder = 1800694 liege = d_hedong # Yusseter: d_xihe
+
+		government = celestial_government
 	} #Yang Xin - prefect in 951
 	#Later Jin
 	937.1.23 = { liege = d_hedong }
@@ -12576,13 +12727,19 @@ c_linzhou = {
 	979.1.1 = { holder = wuan_han_002 } #Han Chongxun - prefect around this time
 	#979.6.3 = { liege = d_hedong_china }
 	990.1.1 = { holder = 217722 }
-	997.5.8 = { holder = 206673 liege = k_xia_china }
-	1022.3.23 = { holder = 217724 }
+	997.5.8 = { holder = 206673 liege = k_xia_china
+		government = meritocratic_government
+	}
+	1022.3.23 = { holder = 217724
+		government = celestial_government
+	}
 	1041.10.23 = { holder = 1802692 } #An Jun - prefect at some point
 	1043.1.1 = { holder = 217724 }
 	###
 	1048.1.19 = {
 		holder = 206652
+
+		government = meritocratic_government
 	}
 	1050.1.1={
 		holder=206728
@@ -12603,6 +12760,8 @@ c_linzhou = {
 
 	1226.1.1={
 		holder = ongud0023
+
+		government = nomad_government
 	}
 	1240.1.1={
 		holder = ongud0024
@@ -12631,8 +12790,17 @@ c_linzhou = {
 }
 
 c_youzhou_2 = {
+	756.3.6 = {
+		government = nomad_government
+	}
 	766.1.1 = { change_development_level = 8 }
+	900.7.25 = {
+		government = meritocratic_government
+	}
 	936.1.1 = { change_development_level = 12 }
+	980.1.1 = {
+		government = celestial_government
+	}
 	1004.1.1 = {
 		holder = 206644 # Deming Tuoba
 	}
@@ -12641,7 +12809,9 @@ c_youzhou_2 = {
 	#Tang
 	743.1.1 = { holder = 1910007 } #Li Guangbi - made prefect
 	764.8.6 = { holder = 1910011 }
-	866.1.1 = { holder = 1415030 liege = d_xiasui } #Tuoba Sigong for perfect
+	866.1.1 = { holder = 1415030 liege = d_xiasui
+		government = celestial_government
+	} #Tuoba Sigong for perfect
 	#869.1.1 = { holder = 1401451 liege = d_xiazhou_china } #Hu Mou
 	#874.1.1 = { holder = longxi_li_0877 } #Li Xuanli
 	#880.1.1 = { holder = 1415030 } #Li Sigong - prefect
@@ -12668,7 +12838,9 @@ c_youzhou_2 = {
 	#979.8.6 = { holder = 1415049 } #Li Jipeng
 	#Xi Xia
 	
-	982.1.1 = { holder = 206643 } #Wuzong, Li Jiqian
+	982.1.1 = { holder = 206643
+		government = meritocratic_government
+	} #Wuzong, Li Jiqian
 	1004.1.26 = {  } #Taizong, Li Deming
 	
 	1017.11.28 = {
@@ -27577,7 +27749,7 @@ k_qianzhong = {
 
 	1100.1.1 = {
 		holder = SEAsiaMB583
-		government = meritocratic_government
+		government = clan_government
 	
 		name = "k_ziqi"
 		effect = {
@@ -29998,8 +30170,33 @@ d_weibo = {
 	#大名府路 (1048.6.7-1127.7.13) 續資治通鑑長編/卷148 and 建炎以來繫年要錄/卷6 【置河北四路安撫使，命知大名真定府、瀛定州者領之】 【詔分河北兵為四路，北京、澶懷衛德博濱棣州、通利保順軍合為大名府路，瀛莫雄霸恩冀滄州、永靜乾寧保定信安軍合為高陽關路，鎮、邢、洺、相、趙、磁州合為真定府路，定保深祁州、北平廣信安肅順安永寧軍合為定州路】
 	#河北東路 (1073.11.23-) 續資治通鑑長編/卷247 【河南監牧使、司封郎中劉航權河北西路轉運使，河北路都轉運使、祠部員外郎、史館修撰劉瑾為河北東路轉運使】
 
+	763.1.1 = {
+		holder = han_yanmen_tian_5
+		liege = h_china
+	}
 	766.1.1 = { change_development_level = 14 }
+	779.1.1 = {
+		holder = han_yanmen_tian_23
+	}
+	784.1.1 = {
+		holder = han_yanmen_tian_14
+	}
+	796.6.1 = {
+		holder = han_yanmen_tian_26
+	}
+	812.1.1 = {
+		holder = han_yanmen_tian_46
+	}
+	812.3.1 = {
+		holder = han_yanmen_tian_21
+	}
 	821.1.1 = {
+		holder = 0
+	}
+	821.8.15 = {
+		holder = han_yanmen_tian_30
+	}
+	822.1.15 = {
 		holder = 0
 	}
 	870.9.14 = {
@@ -30015,7 +30212,7 @@ d_weibo = {
 
 	#Tang
 	755.10.1 = { holder = longxi_li_0588 liege = h_china government = feudal_government }
-	770.1.1 = { holder = 0 liege = h_china } #Tian Chengsi
+	770.1.1 = {   } #Tian Chengsi
 	#779.1.1 = { holder = 0 } #Tian Yue
 	#784.1.1 = { holder = 0 } #Tian Xu
 	#796.1.1 = { holder = 0 } #Tian Ji'an
@@ -51272,6 +51469,9 @@ c_shanzhou_2 = {
 
 c_wuyuan = {
 	766.1.1 = { change_development_level = 8}
+	900.7.25 = {
+		government = meritocratic_government
+	}
 	1004.1.1 = {
 		holder = 206644 # Deming Tuoba
 	}
@@ -51280,11 +51480,15 @@ c_wuyuan = {
 	}
 	955.1.1 = {
 		holder = 1415047 # Guangrui Tuoba
+
+		government = meritocratic_government
 	}
 	1032.1.1 = { change_development_level = 12 }
 
 	#Tang
-	769.1.1 = { holder = 1405890 liege = d_shuofang }
+	769.1.1 = { holder = 1405890 liege = d_shuofang
+		government = celestial_government
+	}
 	866.1.1 = { holder = 1401763 liege = d_shuofang } #Hou Gu
 	#867.1.2 = { holder = 1404398 } #Lu Fan
 	867.1.1 = { holder = 1415030 liege = d_xiasui } #Tuoba Sigong for playable
@@ -51303,9 +51507,13 @@ c_wuyuan = {
 	900.1.1 = { holder = 1415033 } #Li Sijian
 
 	#Qi
-	907.1.1 = { holder = 1404643 liege = d_binning } #Li Jizhi - prefect until 909.7.3
+	907.1.1 = { holder = 1404643 liege = d_binning
+		government = celestial_government
+	} #Li Jizhi - prefect until 909.7.3
 	#Later Liang
-	909.7.3 = { holder = 1404655 liege = d_shuofang } #Gao Xingcun - prefect until 911.12.3
+	909.7.3 = { holder = 1404655 liege = d_shuofang
+		government = celestial_government
+	} #Gao Xingcun - prefect until 911.12.3
 	#Qi
 	911.12.3 = { holder = 1401654 liege = d_binning } #Gao Wangxing and Gao Wangjin conquer
 	#
@@ -51325,11 +51533,17 @@ c_wuyuan = {
 	#952.7.9 = { holder = 1400905 } #Feng Jiye
 
 	#Later Liang
-	908.12.2 = { holder = 1415039 } #Li Yichang
+	908.12.2 = { holder = 1415039
+		government = meritocratic_government
+	} #Li Yichang
 	909.5.5 = { holder = 1415037 } #Li Renfu
 	#Later Tang
-	933.3.10 = {  } #Li Yichao
-	935.3.19 = { holder = 1404889 } #Li Yiyin
+	933.3.10 = {
+		government = meritocratic_government
+	} #Li Yichao
+	935.3.19 = { holder = 1404889
+		government = celestial_government
+	} #Li Yiyin
 	#Later Zhou, Song
 	967.1.1 = {  } #Li Guangrui
 	978.1.1 = { holder = 1415048 } #Li Jiyun
@@ -51356,7 +51570,13 @@ c_wuyuan = {
 	1180.1.1 = { holder = NSteppeMB406 }
 	1210.1.1 = { holder = NSteppeMB407 }
 	1225.1.1 = { liege = d_yongxing }
+	1230.1.1 = {
+		government = feudal_government
+	}
 	1250.1.1 = { holder = NSteppeMB408 }
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1300.1.1 = { holder = NSteppeMB409 }
 	1310.1.1 = { holder = NSteppeMB410 }
 
@@ -51367,10 +51587,15 @@ c_weizhou_3 = {
 	886.1.1 = {
 		holder = putian_li_005 # Shaoyi
 	}
+	900.7.25 = {
+		government = meritocratic_government
+	}
 	936.1.1 = { change_development_level = 12 }
 	943.1.1 = {
 		liege = d_shuofang # Yusseter: d_xia
 		holder = zijian_jiang_0001
+
+		government = celestial_government
 	}
 	986.6.3 = {
 		holder = TangutClansShufang10  # Temei
@@ -51379,11 +51604,16 @@ c_weizhou_3 = {
 	995.1.11 = {
 		holder = TangutClansShufang11  # Duolubu
 	}
+	1002.1.1 = {
+		government = meritocratic_government
+	}
 	1024.8.29 = {
 		holder = TangutClansShufang12  # Changyuan
 	}
 	1032.1.1 = { change_development_level = 12 }
-	769.1.1 = { holder = 1404714 liege = d_shuofang}
+	769.1.1 = { holder = 1404714 liege = d_shuofang
+		government = celestial_government
+	}
 	866.1.1 = { holder = 1415030 liege = d_xiasui } #Tuoba Sigong for perfect
 	936.1.1 = {  }
 	955.1.1 = {
@@ -51413,10 +51643,20 @@ c_weizhou_3 = {
 	}
 	1224.1.19 = {
 		holder = TangutClansShufang19  # Qulie
+
+		government = feudal_government
 	}
-	1225.1.1 = { liege = d_yongxing }
+	1225.1.1 = { liege = d_yongxing
+		government = meritocratic_government
+	}
+	1230.1.1 = {
+		government = feudal_government
+	}
 	1252.9.7 = {
 		holder = TangutClansShufang20  # Yanzhang
+	}
+	1271.1.1 = {
+		government = celestial_government
 	}
 	1281.4.22 = {
 		holder = TangutClansShufang21  # Hongben
@@ -51432,6 +51672,8 @@ c_xiongzhou = {
 		holder = MB_anc_gaolan_china_1 # forefather, holds from the 769 start
 
 		liege = "d_shuofang" # Yusseter: d_shuofang_china
+
+		government = celestial_government
 	}
 	797.1.1 = {
 		holder = MB_anc_gaolan_china_2 # Sigong
@@ -51439,8 +51681,16 @@ c_xiongzhou = {
 	833.1.1 = {
 		holder = MB_anc_gaolan_china_3 # Sigong
 	}
+	900.7.25 = {
+		government = meritocratic_government
+	}
+	997.5.8 = {
+		government = meritocratic_government
+	}
 	1000.1.1 = {
 		holder = TangutClanFangdang12 
+
+		government = meritocratic_government
 	}
 	1024.10.5 = {
 		holder = TangutClanFangdang13  # Hongji (eldest son of Dali)
@@ -51463,6 +51713,8 @@ c_xiongzhou = {
 	956.1.1 = {
 		holder = patron_028
 		liege = d_shuofang # Yusseter: d_xia
+
+		government = celestial_government
 	} #easteggs
 	#974.1.1 = { holder = 1404413 } #Zhang Quancao
 	977.1.1 = { holder = 217722 }
@@ -51472,7 +51724,9 @@ c_xiongzhou = {
 	995.1.1 = { holder = pingyao_hou_008 } #Hou Yanguang - prefect until 996.2.22
 	996.2.22 = { holder = 217722 }
 	996.7.19 = { holder = taiyuan_murong_005 liege = d_qincheng } #Murong Defeng - made prefect
-	999.1.1 = { holder = 217723 }
+	999.1.1 = { holder = 217723
+		government = celestial_government
+	}
 	#Xi Xia
 	#986.1.1 = { holder = 206643 } #Wuzong, Li Jiqian
 
@@ -51495,8 +51749,13 @@ c_xiongzhou = {
 	1207.12.15 = {
 		holder = TangutClanFangdang25  # Zunxu (eldest son of Sijing)
 	}
+	1222.1.11 = {
+		government = feudal_government
+	}
 	1224.1.1 = {
 		liege = d_zhenfan
+
+		government = meritocratic_government
 	}
 	1238.5.3 = {
 		holder = TangutClanFangdang27  # Guangbi (eldest son of Zunxu)
@@ -54711,6 +54970,8 @@ c_luodian = {
 	1250.1.1 = { holder = SEAsiaMB568	}
 	1272.1.1 = {
 		liege = h_china
+
+		government = celestial_government
 	}
 	1300.1.1 = { holder = SEAsiaMB569	}
 	1310.1.1 = { holder = SEAsiaMB570	}
@@ -55396,6 +55657,8 @@ d_xiyuan = {
 	1259.1.1 = { holder = SEAsiaMB587	}
 	1272.1.1 = {
 		liege = k_dali
+
+		government = meritocratic_government
 	}
 	#Yuan
 	
@@ -55457,6 +55720,8 @@ d_luodian = {
 	1250.1.1 = { holder = SEAsiaMB568	}
 	1272.1.1 = {
 		liege = h_china
+
+		government = celestial_government
 	}
 	1300.1.1 = { holder = SEAsiaMB569	}
 	1310.1.1 = { holder = SEAsiaMB570	}
@@ -55466,6 +55731,8 @@ c_yanzhou_3 = {
 
 	730.1.1 = {
 		holder = YiTribesLuojia1  # Nyi_Ha
+
+		government = clan_government
 	}
 	
 	738.5.22 = {
@@ -55549,6 +55816,9 @@ c_yanzhou_3 = {
 		holder = YiTribesLuojia21  # Yy_Ke
 	}
 	
+	1279.3.19 = {
+		government = celestial_government
+	}
 	1297.2.14 = {
 		holder = YiTribesLuojia22  # Shy_Vie
 	}
@@ -55561,6 +55831,8 @@ c_yanzhou_3 = {
 c_guile = {
 	730.1.1 = {
 		holder = YiTribesLuijiu1  # Nyi_Ha (covers 730 start and 769 bookmark)
+
+		government = tribal_government
 	}
 	738.9.3 = {
 		holder = YiTribesLuijiu2
@@ -55622,6 +55894,8 @@ c_guile = {
 	}
 	1272.1.1 = {
 		liege = h_china
+
+		government = tribal_government
 	}
 	1281.3.25 = {
 		holder = YiTribesLuijiu21  # Yy_Ke
@@ -55634,6 +55908,8 @@ c_guile = {
 c_nanping = {
 	730.1.1 = {
 		holder = YiTribesLuijiu1  # Nyi_Ha (covers 730 start and 769 bookmark)
+
+		government = tribal_government
 	}
 	738.9.3 = {
 		holder = YiTribesLuijiu2
@@ -55695,6 +55971,8 @@ c_nanping = {
 	}
 	1272.1.1 = {
 		liege = h_china
+
+		government = tribal_government
 	}
 	1281.3.25 = {
 		holder = YiTribesLuijiu21  # Yy_Ke
@@ -55708,6 +55986,8 @@ c_nanping = {
 c_shaoqing = {
 	730.1.1 = {
 		holder = YiTribesJilu1
+
+		government = clan_government
 	}
 	738.9.5 = {
 		holder = YiTribesJilu2
@@ -55776,6 +56056,9 @@ c_shaoqing = {
 	1255.4.29 = {
 		holder = YiTribesJilu19
 	}
+	1279.3.19 = {
+		government = celestial_government
+	}
 	1283.11.3 = {
 		holder = YiTribesJilu20
 	}
@@ -55787,6 +56070,8 @@ c_shaoqing = {
 c_juzhou = {
 	730.1.1 = {
 		holder = YiTribesNagou1
+
+		government = tribal_government
 	}
 	742.8.19 = {
 		holder = YiTribesNagou2
@@ -55843,6 +56128,9 @@ c_juzhou = {
 	1259.4.30 = {
 		holder = YiTribesNagou19
 	}
+	1279.3.19 = {
+		government = tribal_government
+	}
 	1291.1.17 = {
 		holder = YiTribesNagou20
 	}
@@ -55852,7 +56140,9 @@ c_juzhou = {
 }
 
 c_siyuan = {
-    760.1.1 = {  holder = SEAsiaMB571	}
+    760.1.1 = {  holder = SEAsiaMB571
+		government = clan_government
+	}
 	820.1.1 = {  holder = SEAsiaMB572	}
 	840.1.1 = {  holder = SEAsiaMB573	}
 	860.1.1 = {  holder = SEAsiaMB574	}
@@ -55874,6 +56164,9 @@ c_siyuan = {
 	1205.1.1 = { holder = ZiqiMB3		}
 	1240.1.1 = { holder = ZiqiMB4		}
 	1259.1.1 = { holder = SEAsiaMB587	}
+	1272.1.1 = {
+		government = meritocratic_government
+	}
 	1300.1.1 = { holder = SEAsiaMB588	}
 	1310.1.1 = { holder = SEAsiaMB589	}
 }
@@ -55881,6 +56174,8 @@ c_siyuan = {
 c_wulong = {
 	730.1.1 = {
 		holder = YiTribesQingzong1  # Mu_Gu
+
+		government = clan_government
 	}
 	738.9.5 = {
 		holder = YiTribesQingzong2  # Shu_Ha
@@ -55942,6 +56237,9 @@ c_wulong = {
 	1258.1.17 = {
 		holder = YiTribesQingzong20  # Nde_Wa
 	}
+	1279.3.19 = {
+		government = meritocratic_government
+	}
 	1285.5.9 = {
 		holder = YiTribesQingzong21  # Shy_Vie
 	}
@@ -55955,6 +56253,8 @@ c_yanchuan = {
 
 	730.1.1 = {
 		holder = YiTribesBuxiong1
+
+		government = clan_government
 	}
 	
 	738.7.19 = {
@@ -56034,6 +56334,9 @@ c_yanchuan = {
 		holder = YiTribesBuxiong20
 	}
 	
+	1279.3.19 = {
+		government = celestial_government
+	}
 	1301.11.12 = {
 		holder = YiTribesBuxiong21
 	}
@@ -56229,20 +56532,31 @@ d_tiande = {
 
 	#Liao
 	
-	920.1.1 = { holder = 194325 liege = e_great_liao government = tribal_government effect = { set_capital_county = title:c_lxj_yunneizhou } name = c_lxj_yunneizhou }
-	926.9.6 = { holder = 1412505 government = steppe_admin_government }
-	946.1.1 = { holder = 1400907 liege = k_daibei  } #Cui Tingxun
+	920.1.1 = { holder = 194325 liege = e_great_liao government = nomad_government effect = { set_capital_county = title:c_lxj_yunneizhou } name = c_lxj_yunneizhou }
+	926.1.1 = {
+		government = steppe_admin_government
+	}
+	926.9.6 = { holder = 1412505 government = nomad_government }
+	946.1.1 = { holder = 1400907 liege = k_daibei
+		government = steppe_admin_government
+	} #Cui Tingxun
 	951.1.1 = { holder = 1800034 } #Gao Xun
-	958.1.1 = { holder = 1413739 } #Ala
+	958.1.1 = { holder = 1413739
+		government = nomad_government
+	} #Ala
 	969.3.12 = { holder = 1413740 } #Yelü Shanpu
-	982.1.1 = { holder = 1800110 } #Liu Jing - Kaiyuan Jiedushi around this time
+	982.1.1 = { holder = 1800110
+		government = steppe_admin_government
+	} #Liu Jing - Kaiyuan Jiedushi around this time
 	985.3.10 = { holder = 1800050 } #Liu Yangou
 	985.8.13 = { holder = 1800110 } #Liu Jing
 	988.3.17 = { holder = 194331 } #No deputy
-	988.9.11 = { holder = 1413317 } #Yelü Mozhi
+	988.9.11 = { holder = 1413317
+		government = nomad_government
+	} #Yelü Mozhi
 	990.1.1 = {
 		holder = 1413710
-		government = feudal_government
+		government = nomad_government
 	}
 	1014.1.1 = {
 		holder = 1413711
@@ -56263,6 +56577,8 @@ d_tiande = {
 	1124.5.13 = {
 		holder = TangutClanPochao11  # Loguo
 		liege = e_xi_xia
+
+		government = meritocratic_government
 	}
 	
 	1134.11.7 = {
@@ -56288,6 +56604,8 @@ c_tiande = {
 	766.1.1 = { change_development_level = 8 }
 	817.1.1 = {
 		holder = NSteppeMB240 # Khubilai
+
+		government = nomad_government
 	}
 	854.9.4 = {
 		holder = 1401447 # Gao Hong
@@ -56295,48 +56613,82 @@ c_tiande = {
 	870.1.1 = {
 		holder = li_674E_zhuye_1 # Chixin Zhuye
 	}
+	874.1.1 = {
+		government = nomad_government
+	}
 	908.3.25 = {
 		liege = e_great_liao
 		holder = 194325
 	}
+	926.1.1 = {
+		government = steppe_admin_government
+	}
 	936.1.1 = { change_development_level = 12 }
 	1032.1.1 = { change_development_level = 16 }
 
-	760.1.1 = {  holder = NSteppeMB239	}
+	760.1.1 = {  holder = NSteppeMB239
+		government = nomad_government
+	}
 	820.1.1 = {  	}
 	840.1.1 = {  holder = NSteppeMB241	}
 
 	#Tang
 	754.1.1 = { holder = 1405776 } #Guo Ziyi - administrator in 754 until 755.12.28
 	#
-	803.7.5 = { holder = huangdi_ren_070 } #Ren Dijian - made prefect
+	803.7.5 = { holder = huangdi_ren_070
+		government = celestial_government
+	} #Ren Dijian - made prefect
 	#
-	852.1.1 = { holder = 1410925 liege = d_sanggan } #Qibi Tong
+	852.1.1 = { holder = 1410925 liege = d_sanggan
+		government = celestial_government
+	} #Qibi Tong
 	#
 	865.1.1 = {  } #Gao Hong
 	870.12.6 = {  } #Li Guochang
-	879.4.5 = { holder = 1401448 } #Wu Shitai
-	881.1.1 = { holder = 1410404 } #Helian Duo
-	881.7.1 = { holder = 1410934 } #Qibi Zhang
+	879.4.5 = { holder = 1401448
+		government = celestial_government
+	} #Wu Shitai
+	881.1.1 = { holder = 1410404
+		government = nomad_government
+	} #Helian Duo
+	881.7.1 = { holder = 1410934
+		government = celestial_government
+	} #Qibi Zhang
 	885.1.1 = { holder = 1401449 } #Wang Bian
 	888.4.20 = { holder = longxi_li_1047 } #No Jiedushi
-	893.1.1 = { holder = 1412477 } #Shi Shanyou
-	903.6.5 = { holder = 1410935 liege = h_china } #Qibi Rang
-	903.6.20 = { holder = 1412313 liege = k_hedong } #Li Kening
+	893.1.1 = { holder = 1412477
+		government = nomad_government
+	} #Shi Shanyou
+	903.6.5 = { holder = 1410935 liege = h_china
+		government = celestial_government
+	} #Qibi Rang
+	903.6.20 = { holder = 1412313 liege = k_hedong
+		government = nomad_government
+	} #Li Kening
 	
 	#Liao
 	
 	920.1.1 = {   }
-	926.9.6 = { holder = 1412505 }
-	946.1.1 = { holder = 1400907 } #Cui Tingxun
+	926.9.6 = { holder = 1412505
+		government = nomad_government
+	}
+	946.1.1 = { holder = 1400907
+		government = steppe_admin_government
+	} #Cui Tingxun
 	951.1.1 = { holder = 1800034 } #Gao Xun
-	958.1.1 = { holder = 1413739 } #Ala
+	958.1.1 = { holder = 1413739
+		government = nomad_government
+	} #Ala
 	969.3.12 = { holder = 1413740 } #Yelü Shanpu
-	982.1.1 = { holder = 1800110 } #Liu Jing - Kaiyuan Jiedushi around this time
+	982.1.1 = { holder = 1800110
+		government = steppe_admin_government
+	} #Liu Jing - Kaiyuan Jiedushi around this time
 	985.3.10 = { holder = 1800050 } #Liu Yangou
 	985.8.13 = { holder = 1800110 } #Liu Jing
 	988.3.17 = { holder = 194331 } #No deputy
-	988.9.11 = { holder = 1413317 } #Yelü Mozhi
+	988.9.11 = { holder = 1413317
+		government = nomad_government
+	} #Yelü Mozhi
 	990.1.1 = {
 		holder = 1413710
 	}
@@ -56355,10 +56707,16 @@ c_tiande = {
 	#Northern Liao
 	#1122.4.22 = { holder = 1413109 liege = d_youzhou_china } #Yelü Chun
 	#Jin
-	1125.3.7 = { holder = jurchen25 } #宗翰
+	1125.3.7 = { holder = jurchen25
+		government = meritocratic_government
+	} #宗翰
 	1125.11.7 = { holder = jurchen42 } #斡魯
-	1127.1.1 = { holder = jurchen2001 } #耶律怀义
-	1132.1.1 = { holder = jurchen26 } #秉德
+	1127.1.1 = { holder = jurchen2001
+		government = nomad_government
+	} #耶律怀义
+	1132.1.1 = { holder = jurchen26
+		government = meritocratic_government
+	} #秉德
 	#Xi Xia
 
 	1137.1.1 = {
@@ -56513,6 +56871,8 @@ c_lxj_yunneizhou = {
 	766.1.1 = { change_development_level = 8 }
 	817.1.1 = {
 		holder = NSteppeMB240 # Khubilai
+
+		government = nomad_government
 	}
 	854.9.4 = {
 		holder = 1401447 # Gao Hong
@@ -56520,18 +56880,28 @@ c_lxj_yunneizhou = {
 	870.1.1 = {
 		holder = li_674E_zhuye_1 # Chixin Zhuye
 	}
+	874.1.1 = {
+		government = nomad_government
+	}
 	908.3.25 = {
 		liege = d_sanggan # Yusseter: d_zhenwu_china
 		holder = mayi_zhou_001
+
+		government = celestial_government
 	}
 	918.1.1 = {
 		liege = e_great_liao
 		holder = 194325
 	}
+	926.1.1 = {
+		government = steppe_admin_government
+	}
 	936.1.1 = { change_development_level = 12 }
 	1032.1.1 = { change_development_level = 16 }
 
-	760.1.1 = {  holder = NSteppeMB239	}
+	760.1.1 = {  holder = NSteppeMB239
+		government = nomad_government
+	}
 	820.1.1 = {  	}
 	840.1.1 = {  holder = NSteppeMB241	}
 
@@ -56539,38 +56909,66 @@ c_lxj_yunneizhou = {
 	#Tang
 	754.1.1 = { holder = 1405776 } #Guo Ziyi - administrator in 754 until 755.12.28
 	#
-	803.7.5 = { holder = huangdi_ren_070 } #Ren Dijian - made prefect
+	803.7.5 = { holder = huangdi_ren_070
+		government = celestial_government
+	} #Ren Dijian - made prefect
 	#
-	852.1.1 = { holder = 1410925 liege = d_sanggan } #Qibi Tong
+	852.1.1 = { holder = 1410925 liege = d_sanggan
+		government = celestial_government
+	} #Qibi Tong
 	#
 	865.1.1 = {  } #Gao Hong
 	870.12.6 = {  } #Li Guochang
-	879.4.5 = { holder = 1401448 } #Wu Shitai
-	881.1.1 = { holder = 1410404 } #Helian Duo
-	881.7.1 = { holder = 1410934 } #Qibi Zhang
+	879.4.5 = { holder = 1401448
+		government = celestial_government
+	} #Wu Shitai
+	881.1.1 = { holder = 1410404
+		government = nomad_government
+	} #Helian Duo
+	881.7.1 = { holder = 1410934
+		government = celestial_government
+	} #Qibi Zhang
 	885.1.1 = { holder = 1401449 } #Wang Bian
 	888.4.20 = { holder = longxi_li_1047 } #No Jiedushi
-	893.1.1 = { holder = 1412477 } #Shi Shanyou
-	903.6.5 = { holder = 1410935 liege = h_china } #Qibi Rang
-	903.6.20 = { holder = 1412313 liege = k_hedong } #Li Kening
+	893.1.1 = { holder = 1412477
+		government = nomad_government
+	} #Shi Shanyou
+	903.6.5 = { holder = 1410935 liege = h_china
+		government = celestial_government
+	} #Qibi Rang
+	903.6.20 = { holder = 1412313 liege = k_hedong
+		government = nomad_government
+	} #Li Kening
 	#Prince of Jin/Later Tang
 	908.6.2 = {   } #Zhou Dewei
 	913.1.1 = { holder = yanmen_zhang_002 } #Li Siben
-	916.1.1 = { holder = 1410401 } #Li Si'en
+	916.1.1 = { holder = 1410401
+		government = nomad_government
+	} #Li Si'en
 	
 	#Liao
 	
 	920.1.1 = {   }
-	926.9.6 = { holder = 1412505 }
-	946.1.1 = { holder = 1400907 } #Cui Tingxun
+	926.9.6 = { holder = 1412505
+		government = nomad_government
+	}
+	946.1.1 = { holder = 1400907
+		government = steppe_admin_government
+	} #Cui Tingxun
 	951.1.1 = { holder = 1800034 } #Gao Xun
-	958.1.1 = { holder = 1413739 } #Ala
+	958.1.1 = { holder = 1413739
+		government = nomad_government
+	} #Ala
 	969.3.12 = { holder = 1413740 } #Yelü Shanpu
-	982.1.1 = { holder = 1800110 } #Liu Jing - Kaiyuan Jiedushi around this time
+	982.1.1 = { holder = 1800110
+		government = steppe_admin_government
+	} #Liu Jing - Kaiyuan Jiedushi around this time
 	985.3.10 = { holder = 1800050 } #Liu Yangou
 	985.8.13 = { holder = 1800110 } #Liu Jing
 	988.3.17 = { holder = 194331 } #No deputy
-	988.9.11 = { holder = 1413317 } #Yelü Mozhi
+	988.9.11 = { holder = 1413317
+		government = nomad_government
+	} #Yelü Mozhi
 	990.1.1 = {
 		holder = 1413710
 	}
@@ -56590,15 +56988,21 @@ c_lxj_yunneizhou = {
 	#Jin
 	1125.3.7 = { holder = jurchen25 } #宗翰
 	1125.11.7 = { holder = jurchen42 } #斡魯
-	1127.1.1 = { holder = jurchen2001 } #耶律怀义
+	1127.1.1 = { holder = jurchen2001
+		government = nomad_government
+	} #耶律怀义
 	#Xi Xia
 	
 	1124.5.13 = {
 		holder = TangutClanPochao11  # Loguo
+
+		government = meritocratic_government
 	}
 	
 	1134.11.7 = {
 		holder = TangutClanPochao12  # Deming
+
+		government = meritocratic_government
 	}
 	
 	1163.3.24 = {
@@ -56616,6 +57020,8 @@ c_lxj_yunneizhou = {
 
 	1227.1.1={
 		holder = ongud0023
+
+		government = nomad_government
 	}
 	1240.1.1={
 		holder = ongud0024
@@ -56644,6 +57050,8 @@ c_qingshan = {
 	766.1.1 = { change_development_level = 10 }
 	817.1.1 = {
 		holder = NSteppeMB240 # Khubilai
+
+		government = nomad_government
 	}
 	854.9.4 = {
 		holder = 1401447 # Gao Hong
@@ -56651,13 +57059,21 @@ c_qingshan = {
 	870.1.1 = {
 		holder = li_674E_zhuye_1 # Chixin Zhuye
 	}
+	874.1.1 = {
+		government = nomad_government
+	}
 	908.3.25 = {
 		liege = d_sanggan # Yusseter: d_zhenwu_china
 		holder = mayi_zhou_001
+
+		government = celestial_government
 	}
 	918.1.1 = {
 		liege = e_great_liao
 		holder = 194325
+	}
+	926.1.1 = {
+		government = steppe_admin_government
 	}
 	936.1.1 = { change_development_level = 15 }
  	1032.1.1 = { change_development_level = 18 }
@@ -56666,44 +57082,72 @@ c_qingshan = {
 	820.1.1 = {  	}
 	840.1.1 = {  holder = NSteppeMB241	}
 	864.1.1 = {
-		government = tribal_government
+		government = celestial_government
 	}
 	#Northern Wei
-	510.1.1 = { holder = 1416394 } #Murong Qi - prefect around this time
+	510.1.1 = { holder = 1416394
+		government = nomad_government
+	} #Murong Qi - prefect around this time
 	#
 	#Tang
-	803.7.5 = { holder = huangdi_ren_070 } #Ren Dijian - made prefect
+	803.7.5 = { holder = huangdi_ren_070
+		government = celestial_government
+	} #Ren Dijian - made prefect
 	#
-	852.1.1 = { holder = 1410925 liege = d_sanggan } #Qibi Tong
+	852.1.1 = { holder = 1410925 liege = d_sanggan
+		government = celestial_government
+	} #Qibi Tong
 	#
 	865.1.1 = {  } #Gao Hong
 	870.12.6 = {  } #Li Guochang
-	879.4.5 = { holder = 1401448 } #Wu Shitai
-	881.1.1 = { holder = 1410404 } #Helian Duo
-	881.7.1 = { holder = 1410934 } #Qibi Zhang
+	879.4.5 = { holder = 1401448
+		government = celestial_government
+	} #Wu Shitai
+	881.1.1 = { holder = 1410404
+		government = nomad_government
+	} #Helian Duo
+	881.7.1 = { holder = 1410934
+		government = celestial_government
+	} #Qibi Zhang
 	885.1.1 = { holder = 1401449 } #Wang Bian
 	888.4.20 = { holder = longxi_li_1047 } #No Jiedushi
-	893.1.1 = { holder = 1412477 } #Shi Shanyou
-	903.6.5 = { holder = 1410935 liege = h_china government = feudal_government } #Qibi Rang
-	903.6.20 = { holder = 1412313 liege = k_hedong } #Li Kening
+	893.1.1 = { holder = 1412477
+		government = nomad_government
+	} #Shi Shanyou
+	903.6.5 = { holder = 1410935 liege = h_china government = celestial_government } #Qibi Rang
+	903.6.20 = { holder = 1412313 liege = k_hedong
+		government = nomad_government
+	} #Li Kening
 	#Prince of Jin/Later Tang
 	908.6.2 = {   } #Zhou Dewei
 	913.1.1 = { holder = yanmen_zhang_002 } #Li Siben
-	916.1.1 = { holder = 1410401 } #Li Si'en
+	916.1.1 = { holder = 1410401
+		government = nomad_government
+	} #Li Si'en
 	
 	#Liao
 	
 	920.1.1 = {   }
-	926.9.6 = { holder = 1412505 }
-	946.1.1 = { holder = 1400907 } #Cui Tingxun
+	926.9.6 = { holder = 1412505
+		government = nomad_government
+	}
+	946.1.1 = { holder = 1400907
+		government = steppe_admin_government
+	} #Cui Tingxun
 	951.1.1 = { holder = 1800034 } #Gao Xun
-	958.1.1 = { holder = 1413739 } #Ala
+	958.1.1 = { holder = 1413739
+		government = nomad_government
+	} #Ala
 	969.3.12 = { holder = 1413740 } #Yelü Shanpu
-	982.1.1 = { holder = 1800110 } #Liu Jing - Kaiyuan Jiedushi around this time
+	982.1.1 = { holder = 1800110
+		government = steppe_admin_government
+	} #Liu Jing - Kaiyuan Jiedushi around this time
 	985.3.10 = { holder = 1800050 } #Liu Yangou
 	985.8.13 = { holder = 1800110 } #Liu Jing
 	988.3.17 = { holder = 194331 } #No deputy
-	988.9.11 = { holder = 1413317 } #Yelü Mozhi
+	988.9.11 = { holder = 1413317
+		government = nomad_government
+	} #Yelü Mozhi
 	
 	990.1.1 = {  holder = NSteppeMB246	}
 	1005.1.1 = { holder = NSteppeMB247	}
@@ -56715,16 +57159,27 @@ c_qingshan = {
 	#Northern Liao
 	#1122.4.22 = { holder = 1413109 liege = d_youzhou_china } #Yelü Chun
 	#Jin
-	1125.3.7 = { holder = jurchen25 liege = d_sanggan } #宗翰
+	1125.3.7 = { holder = jurchen25 liege = d_sanggan
+		government = meritocratic_government
+	} #宗翰
 	1125.11.7 = { holder = jurchen42 } #斡魯
-	1127.1.1 = { holder = jurchen2001 } #耶律怀义
-	1132.1.1 = { holder = jurchen26 } #秉德
+	1127.1.1 = { holder = jurchen2001
+		government = nomad_government
+	} #耶律怀义
+	1132.1.1 = { holder = jurchen26
+		government = meritocratic_government
+	} #秉德
 	1150.1.1 = { holder = jurchen28 }
 	1156.1.1 = { holder = jurchen29 }
 	1197.1.1 = { holder = jurchen30 }
 	1207.3.1 = { holder = jurchen31 }
 
-	1226.1.1 = { holder = NSteppeMB254	}
+	1220.1.28 = {
+		government = meritocratic_government
+	}
+	1226.1.1 = { holder = NSteppeMB254
+		government = nomad_government
+	}
 	1250.1.1 = { holder = NSteppeMB255	}
 	1300.1.1 = { holder = NSteppeMB256	}
 	1310.1.1 = { holder = NSteppeMB257	}
@@ -56735,6 +57190,8 @@ c_jiushijiuquan = {
 	802.7.11 = {
 		liege = h_china
 		holder = 1410925
+
+		government = nomad_government
 	}
 	854.9.4 = {
 		holder = 1401447 # Gao Hong
@@ -56742,10 +57199,19 @@ c_jiushijiuquan = {
 	870.1.1 = {
 		holder = li_674E_zhuye_1 # Chixin Zhuye
 	}
+	874.1.1 = {
+		government = nomad_government
+	}
 	918.1.1 = {
 		holder = 1412319 # Cunba Lǐ
 	}
 	936.1.1 = { change_development_level = 12 }
+	937.1.23 = {
+		government = celestial_government
+	}
+	940.1.1 = {
+		government = nomad_government
+	}
 	952.12.1 = {
 		liege = k_daibei # Yusseter: k_yinshan_china
 		holder = NSteppeMB246
@@ -56754,44 +57220,74 @@ c_jiushijiuquan = {
 	
 	760.1.1 = {  holder = NSteppeMB239 government = nomad_government }
 	#Tang
-	781.4.20 = { holder = 1407597 government = feudal_government } #Wang Hong
+	781.4.20 = { holder = 1407597 government = celestial_government } #Wang Hong
 	#782.1.1 = { holder = 0 }
-	852.1.1 = {   } #Qibi Tong
+	852.1.1 = {
+		government = celestial_government
+	} #Qibi Tong
 	#854.1.1 = { holder = 0 }
 	864.1.1 = {
 		liege = 0 name = "ANBEI"
-		government = feudal_government
+		government = celestial_government
 	}
 	865.1.1 = {  } #Gao Hong
 	870.12.6 = {  } #Li Guochang
 	#Rebellion
 	878.6.13 = { liege = 0 reset_name = yes }
 	#Tang
-	879.4.5 = { holder = 1401448 liege = h_china } #Wu Shitai
-	881.1.1 = { holder = 1410404 } #Helian Duo
-	881.7.1 = { holder = 1410934 } #Qibi Zhang
+	879.4.5 = { holder = 1401448 liege = h_china
+		government = celestial_government
+	} #Wu Shitai
+	881.1.1 = { holder = 1410404
+		government = nomad_government
+	} #Helian Duo
+	881.7.1 = { holder = 1410934
+		government = celestial_government
+	} #Qibi Zhang
 	885.1.1 = { holder = 1401449 } #Wang Bian
 	#888.4.20 = { holder = 0 }
-	893.1.1 = { holder = 1412477 } #Shi Shanyou
+	893.1.1 = { holder = 1412477
+		government = nomad_government
+	} #Shi Shanyou
 	896.1.1 = { liege = k_hedong }
-	903.6.5 = { holder = 1410935 liege = h_china } #Qibi Rang
-	903.6.20 = { holder = 1412313 liege = k_hedong } #Li Kening
+	903.6.5 = { holder = 1410935 liege = h_china
+		government = celestial_government
+	} #Qibi Rang
+	903.6.20 = { holder = 1412313 liege = k_hedong
+		government = nomad_government
+	} #Li Kening
 	#Prince of Jin/Later Tang
-	908.3.25 = { holder = mayi_zhou_001 } #Zhou Dewei
+	908.3.25 = { holder = mayi_zhou_001
+		government = celestial_government
+	} #Zhou Dewei
 	914.1.1 = { holder = yanmen_zhang_002 } #Li Siben
-	916.9.23 = { holder = 1410401 } #Li Si'en
+	916.9.23 = { holder = 1410401
+		government = nomad_government
+	} #Li Si'en
 	923.1.1 = {  } #Li Cunba
 	923.5.13 = { liege = h_china }
-	924.3.26 = { holder = later_tang_zhu_001 } #Zhu Shouyin
+	924.3.26 = { holder = later_tang_zhu_001
+		government = celestial_government
+	} #Zhu Shouyin
 	#925.11.27 = { holder = 0 }
-	926.6.19 = { holder = 1412423 } #An Jinquan
-	926.7.1 = { holder = 1400322 } #Zhang Wen
+	926.6.19 = { holder = 1412423
+		government = nomad_government
+	} #An Jinquan
+	926.7.1 = { holder = 1400322
+		government = celestial_government
+	} #Zhang Wen
 	928.3.1 = { holder = qingyuan_suo_003 } #Suo Baitong
 	928.6.1 = { holder = 1400322 } #Zhang Wen
-	929.1.1 = { holder = 1410904 } #Zhang Yanqiu
-	930.1.1 = { holder = youzhou_gao_005 } #Gao Xingzhou
-	933.1.1 = { holder = 1412434 } #Yang Tan
-	935.1.10 = { holder = 1412442 liege = e_great_liao government = steppe_admin_government } #An Shuqian
+	929.1.1 = { holder = 1410904
+		government = nomad_government
+	} #Zhang Yanqiu
+	930.1.1 = { holder = youzhou_gao_005
+		government = celestial_government
+	} #Gao Xingzhou
+	933.1.1 = { holder = 1412434
+		government = nomad_government
+	} #Yang Tan
+	935.1.10 = { holder = 1412442 liege = e_great_liao government = nomad_government } #An Shuqian
 	#Later Jin
 	#937.1.23 = { holder = 0 }
 	#Liao
@@ -56802,14 +57298,22 @@ c_jiushijiuquan = {
 	1100.1.1 = { holder = NSteppeMB250	}
 	1115.1.1 = { holder = NSteppeMB251	}
 	#Jin 西南路招讨使
-	1125.3.7 = { holder = jurchen25 liege = k_daibei government = tribal_government } #宗翰
+	1125.3.7 = { holder = jurchen25 liege = k_daibei
+		government = meritocratic_government # Yusseter: k_yinshan_china
+ } #宗翰
 	1125.11.7 = { holder = jurchen42 } #斡魯
-	1127.1.1 = { holder = jurchen2001 } #耶律怀义
-	1132.1.1 = { holder = jurchen26 } #秉德
+	1127.1.1 = { holder = jurchen2001
+		government = nomad_government
+	} #耶律怀义
+	1132.1.1 = { holder = jurchen26
+		government = meritocratic_government
+	} #秉德
 
 	#
 
-	1140.1.1 = { holder = NSteppeMB252	}
+	1140.1.1 = { holder = NSteppeMB252
+		government = nomad_government
+	}
 	1180.1.1 = { holder = NSteppeMB253	}
 	1210.1.1 = { holder = NSteppeMB254	}
 	1215.1.1 = { liege = e_mongol_empire }
@@ -56821,6 +57325,9 @@ c_jiushijiuquan = {
 }
 
 c_LIAO_jinzhou = {
+	750.1.28 = {
+		government = celestial_government
+	}
 	766.1.1 = { change_development_level = 12 }
 	808.1.2 = {
 		holder = 1800102 # Zong
@@ -56830,6 +57337,9 @@ c_LIAO_jinzhou = {
 		holder = 1401889
 	}
 	936.1.1 = { change_development_level = 16 }
+	937.1.1 = {
+		government = steppe_admin_government
+	}
 	1030.1.1 = {
 		holder = 1800157 # Xing Xinian
 	}
@@ -56894,11 +57404,13 @@ c_LIAO_jinzhou = {
 	1122.1.1 = {
 		liege = k_khitan
 		holder = jurchen344
-		government = feudal_government # Yusseter: k_khitan_china
+		government = steppe_admin_government # Yusseter: k_khitan_china
 	}
 	1122.12.10 = {    }
 
-	1123.5.27 = { holder = 1413765 }
+	1123.5.27 = { holder = 1413765
+		government = nomad_government
+	}
 	1131.1.1 = { holder = 1413766 }
 	1164.1.1 = { holder = 1413767 }
 	1180.1.1 = { holder = EasternLiao1 }
@@ -56925,6 +57437,9 @@ c_LIAO_jinzhou = {
 }
 
 c_lnj_liaoxibei = {
+	750.1.28 = {
+		government = celestial_government
+	}
 	766.1.1 = { change_development_level = 12 }
 	808.1.2 = {
 		holder = 1800102 # Zong
@@ -56987,7 +57502,7 @@ c_lnj_liaoxibei = {
 	937.1.1 = {
 		holder = 1800038
 		liege = d_liaoxi
-		government = feudal_government
+		government = steppe_admin_government
 	}
 	953.1.1 = {
 		holder = 1800039
@@ -57005,9 +57520,11 @@ c_lnj_liaoxibei = {
 		holder = 1800042M 
 	}
 	#Jin
-	1122.12.10 = { holder = jurchen344 liege = e_andong government = feudal_government }
+	1122.12.10 = { holder = jurchen344 liege = e_andong government = steppe_admin_government }
 
-	1123.5.27 = { holder = 1413765 }
+	1123.5.27 = { holder = 1413765
+		government = nomad_government
+	}
 	1131.1.1 = { holder = 1413766 }
 	1164.1.1 = { holder = 1413767 }
 	1180.1.1 = { holder = EasternLiao1 }
@@ -57022,6 +57539,9 @@ c_lnj_liaoxibei = {
 }
 
 c_lnj_liaoxi = {
+	750.1.28 = {
+		government = celestial_government
+	}
 	766.1.1 = { change_development_level = 12 }
 	808.1.2 = {
 		holder = 1800102 # Zong
@@ -57084,7 +57604,7 @@ c_lnj_liaoxi = {
 	937.1.1 = {
 		holder = 1800038
 		liege = d_liaoxi
-		government = feudal_government
+		government = steppe_admin_government
 	}
 	953.1.1 = {
 		holder = 1800039
@@ -57102,9 +57622,11 @@ c_lnj_liaoxi = {
 		holder = 1800042M 
 	}
 	#Jin
-	1122.12.10 = { holder = jurchen344 liege = e_andong government = feudal_government }
+	1122.12.10 = { holder = jurchen344 liege = e_andong government = steppe_admin_government }
 
-	1123.5.27 = { holder = 1413765 }
+	1123.5.27 = { holder = 1413765
+		government = nomad_government
+	}
 	1131.1.1 = { holder = 1413766 }
 	1164.1.1 = { holder = 1413767 }
 	1180.1.1 = { holder = EasternLiao1 }
@@ -57119,6 +57641,9 @@ c_lnj_liaoxi = {
 }
 
 c_LIAO_chaoyang = {
+	750.1.28 = {
+		government = celestial_government
+	}
 	766.1.1 = { change_development_level = 12 }
 	808.1.2 = {
 		holder = 1800102 # Zong
@@ -57128,6 +57653,9 @@ c_LIAO_chaoyang = {
 		holder = 1401889
 	}
 	936.1.1 = { change_development_level = 16 }
+	937.1.1 = {
+		government = steppe_admin_government
+	}
 	1030.1.1 = {
 		holder = 1800157 # Xing Xinian
 	}
@@ -57192,11 +57720,13 @@ c_LIAO_chaoyang = {
 	1122.1.1 = {
 		liege = e_andong
 		holder = jurchen344
-		government = feudal_government
+		government = steppe_admin_government
 	}
 	1122.12.10 = {    }
 
-	1123.5.27 = { holder = 1413765 }
+	1123.5.27 = { holder = 1413765
+		government = nomad_government
+	}
 	1131.1.1 = { holder = 1413766 }
 	1164.1.1 = { holder = 1413767 }
 	1180.1.1 = { holder = EasternLiao1 }
@@ -57210,10 +57740,15 @@ c_LIAO_chaoyang = {
 }
 
 c_hezhou_china = { #河州
+	750.1.28 = {
+		government = celestial_government
+	}
 	766.1.1 = { change_development_level = 6 }
 	870.1.1 = {
 		liege = d_xining
 		holder = 305992
+
+		government = clan_government
 	}
 	1032.1.1 = { change_development_level = 10 }
 	#Northern Wei
@@ -57233,6 +57768,8 @@ c_hezhou_china = { #河州
 	}
 	854.1.1 = {
 		liege = h_china
+
+		government = celestial_government
 	}
 	880.1.1={
 	}
@@ -57248,9 +57785,13 @@ c_hezhou_china = { #河州
 	#1032.1.1 = { holder = 305961 } #Mozhanjiao
 	#1058.1.1 = { holder = 305962 } #Dongzhan
 	1058.1.1 = { holder = 1410024 } #Muzheng
-	1073.1.1 = { holder = 1410025 } #Aligu
+	1073.1.1 = { holder = 1410025
+		government = celestial_government
+	} #Aligu
 	#Song
-	1073.3.3 = { holder = 217726 liege = d_qincheng government = feudal_government }
+	1073.3.3 = { holder = 217726 liege = d_qincheng
+		government = celestial_government # Yusseter: d_longxi_china
+ }
 	1074.5.5 = { holder = shangdang_miao_002 } #Miao Shou - made prefect
 	1074.8.8 = { holder = 217726 }
 	1076.9.21 = { holder = shangdang_miao_002 } #Miao Shou - made prefect
@@ -57267,8 +57808,25 @@ c_hezhou_china = { #河州
 	1126.2.2 = {
 		holder = jurchen112 # Uju
 	}
+	1126.11.15 = {
+		government = meritocratic_government
+	}
+	1129.1.2 = {
+		government = meritocratic_government
+	}
+	1129.4.19 = {
+		government = meritocratic_government
+	}
+	1130.5.16 = {
+		government = meritocratic_government
+	}
 	1131.1.26 = {  } #兀朮
-	1131.11.1 = { holder = song_general_063 liege = k_longxi_china } #慕容洧
+	1131.11.1 = { holder = song_general_063 liege = k_longxi_china
+		government = celestial_government
+	} #慕容洧
+	1150.1.1 = {
+		government = meritocratic_government
+	}
 	1161.1.1 = { holder = yutian_han_088 } #Han Duo - made prefect
 	1170.1.1 = { holder = 1801367 }
 	1176.3.11 = { holder = fuyang_xie_029M3 }
@@ -57278,6 +57836,8 @@ c_hezhou_china = { #河州
 	1225.1.1 = {
 		holder = 188998  # Sinqur
 		liege = d_yongxing
+
+		government = nomad_government
 	}
 	
 	1263.1.1 = {
@@ -57290,8 +57850,12 @@ c_hezhou_china = { #河州
 	
 	1318.10.8 = {
 		holder = Singqur6  # Oz-Beg (son of Toqta)
+
+		government = nomad_government
 	}
-	1310.1.1 = { holder = wannian_li_005M0 }
+	1310.1.1 = { holder = wannian_li_005M0
+		government = celestial_government
+	}
 }
 
 c_lanzhou_1 = { #兰州/蘭州
@@ -57386,15 +57950,21 @@ c_shanzhou_mbp = { #兰州/蘭州
 	#
 	740.1.1={
 		holder = 305987
+
+		government = clan_government
 	}
 	#Tibet
 
 	866.12.12 = {
 		holder = bodpa0247 #论恐热之子
 		liege = d_qincheng
+
+		government = celestial_government
 	}
 	867.1.1={
 		holder = 305991
+
+		government = clan_government
 	}
 	880.1.1={ holder = 305992 }
 	#Slipped from Guiyi Control
@@ -57414,6 +57984,8 @@ c_shanzhou_mbp = { #兰州/蘭州
 	#1058.1.1 = { holder = 1410024 } #Muzheng
 	1073.1.1 = { holder = 1410025
 		liege = d_qincheng # Yusseter: d_longxi_china
+
+		government = celestial_government
 	} #Aligu
 	#Song
 	1082.3.15 = { holder = wuyuan_yao_004  } #Yao Lin - made prefect
@@ -57435,6 +58007,8 @@ c_shanzhou_mbp = { #兰州/蘭州
 	1152.1.1 = {
 		liege = d_liangzhou
 		holder = bohai_qiu_032
+
+		government = meritocratic_government
 	}
 	1170.1.1 = {   }
 	1185.1.1 = { holder = bohai_qiu_032M }
@@ -57442,6 +58016,8 @@ c_shanzhou_mbp = { #兰州/蘭州
 	1225.1.1 = {
 		holder = 188998  # Sinqur
 		liege = d_yongxing
+
+		government = nomad_government
 	}
 	
 	1263.1.1 = {
@@ -57461,10 +58037,14 @@ c_kuozhou = { #河州
 	766.1.1 = { change_development_level = 6 }
 	800.1.1 = {
 		holder = hx01 # 尚延心
+
+		government = clan_government
 	}
 	870.1.1 = {
 		liege = d_xining
 		holder = 305992
+
+		government = clan_government
 	}
 	1032.1.1 = { change_development_level = 10 }
 	#Northern Wei
@@ -57478,6 +58058,8 @@ c_kuozhou = { #河州
 	#
 	740.1.1={
 		holder = 305987
+
+		government = clan_government
 	}
 	#Tibet
 	840.12.30 = {
@@ -57485,6 +58067,8 @@ c_kuozhou = { #河州
 	}
 	854.1.1 = {
 		liege = h_china
+
+		government = celestial_government
 	}
 	880.1.1={
 	}
@@ -57500,7 +58084,9 @@ c_kuozhou = { #河州
 	#1032.1.1 = { holder = 305961 } #Mozhanjiao
 	#1058.1.1 = { holder = 305962 } #Dongzhan
 	1058.1.1 = { holder = 1410024 } #Muzheng
-	1073.1.1 = { holder = 1410025 } #Aligu
+	1073.1.1 = { holder = 1410025
+		government = celestial_government
+	} #Aligu
 	#Song
 	1073.3.3 = { holder = 217726 liege = d_qincheng }
 	1074.5.5 = { holder = shangdang_miao_002 } #Miao Shou - made prefect
@@ -57523,6 +58109,8 @@ c_kuozhou = { #河州
 	1131.1.26 = {   } #兀朮
 	1152.1.1 = {
 		holder = yutian_han_088 # Duo
+
+		government = meritocratic_government
 	}
 	1161.1.1 = {  } #Han Duo - made prefect
 	1170.1.1 = { holder = bohai_qiu_032 }
@@ -57531,6 +58119,8 @@ c_kuozhou = { #河州
 	1225.1.1 = {
 		holder = 188998  # Sinqur
 		liege = d_shanzhou
+
+		government = nomad_government
 	}
 	
 	1263.1.1 = {

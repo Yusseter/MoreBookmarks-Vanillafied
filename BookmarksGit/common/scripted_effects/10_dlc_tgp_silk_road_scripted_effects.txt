@@ -4,7 +4,7 @@
 
 tgp_silk_road_downstream_player_sub_region_effect = {
 	save_temporary_scope_as = player_temp
-	scope:origin_sub_region_temp = { 
+	scope:origin_sub_region_temp = {
 		if = {
 			limit = { any_situation_sub_region_participant = { this = scope:player_temp } }
 			save_temporary_scope_as = player_sub_region_temp
@@ -84,9 +84,9 @@ tgp_silk_road_downstream_effect = {
 
 		# Occident
 		situation:silk_road_situation.situation_sub_region:region_silk_road_proper_occident = {} # Terminus
-		
+
 		# MB
-		
+
 		# Middle East
 		situation:silk_road_situation.situation_sub_region:region_silk_road_proper_middle_east = {
 			situation:silk_road_situation = {
@@ -207,7 +207,7 @@ tgp_silk_road_downstream_peace_message_effect = {
 							limit = { this = scope:origin_sub_region_temp }
 							custom_tooltip = tgp_silk_road_move_sub_region_towards_steady_trading_primary_tt
 						}
-						else_if = { 
+						else_if = {
 							limit = { is_in_list = second_sub_regions }
 							custom_tooltip = tgp_silk_road_move_sub_region_towards_steady_trading_secondary_tt
 						}
@@ -240,8 +240,13 @@ tgp_silk_road_innovation_setup_add_effect = {
 
 tgp_silk_road_innovation_setup_effect = {
 	if = {
-		limit = { has_tgp_dlc_trigger = yes }
-		
+		limit = {
+			OR = {
+				has_tgp_dlc_trigger = yes # All Under Heaven
+				has_gdp_dlc_trigger = yes # Silk & Silver
+			}
+		}
+
 		# ============================================================
 		# --- CHINESE SPREAD (region_silk_road_proper_china) ---
 		# ============================================================
@@ -270,8 +275,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -307,8 +312,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -344,8 +349,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -381,8 +386,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -418,8 +423,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -455,8 +460,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -492,8 +497,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -529,8 +534,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -566,8 +571,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -607,7 +612,7 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -643,8 +648,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -684,7 +689,7 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -724,7 +729,7 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -760,8 +765,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -797,8 +802,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -838,7 +843,7 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -865,8 +870,8 @@ tgp_silk_road_innovation_setup_effect = {
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = block_printing } # Diamond Sutra, 868 (earliest dated printed book)
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = fire_medicine } # Fire arrows presented to the Song court, 970
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = grenades } # Tang Fu / Shi Pu fire balls c. 1000; Wujing Zongyao formulas 1044
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = champa_rice } # Spread beyond the 1012 distribution area
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -906,7 +911,7 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1050.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = coking } # Northern Song coal/coke iron boom, 11th c.
 			}
 			if = {
 				limit = { game_start_date >= 1068.1.1 }
@@ -936,7 +941,7 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 900.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Late Silla Yue-type celadon climbing kilns  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Late Silla Yue-type celadon climbing kilns
 			}
 			if = {
 				limit = { game_start_date >= 1071.1.1 }
@@ -944,8 +949,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1123.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads } # Chinese 'Shenzhou' ships of the 1123 embassy  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Xu Jing's Song embassy to Goryeo, 1123  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads } # Chinese 'Shenzhou' ships of the 1123 embassy
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Xu Jing's Song embassy to Goryeo, 1123
 			}
 			if = {
 				limit = { game_start_date >= 1274.1.1 }
@@ -968,7 +973,7 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 900.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Late Silla Yue-type celadon climbing kilns  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Late Silla Yue-type celadon climbing kilns
 			}
 			if = {
 				limit = { game_start_date >= 1071.1.1 }
@@ -976,8 +981,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1123.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads } # Chinese 'Shenzhou' ships of the 1123 embassy  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Xu Jing's Song embassy to Goryeo, 1123  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads } # Chinese 'Shenzhou' ships of the 1123 embassy
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Xu Jing's Song embassy to Goryeo, 1123
 			}
 			if = {
 				limit = { game_start_date >= 1274.1.1 }
@@ -1000,7 +1005,7 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 900.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Late Silla Yue-type celadon climbing kilns  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Late Silla Yue-type celadon climbing kilns
 			}
 			if = {
 				limit = { game_start_date >= 1071.1.1 }
@@ -1008,8 +1013,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1123.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads } # Chinese 'Shenzhou' ships of the 1123 embassy  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Xu Jing's Song embassy to Goryeo, 1123  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads } # Chinese 'Shenzhou' ships of the 1123 embassy
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Xu Jing's Song embassy to Goryeo, 1123
 			}
 			if = {
 				limit = { game_start_date >= 1274.1.1 }
@@ -1024,7 +1029,7 @@ tgp_silk_road_innovation_setup_effect = {
 				# culture created 1000; inherits from its parents before that
 				limit = { game_start_date >= 1000.1.1 }
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = sericulture } # Ancient Korean silk
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Late Silla Yue-type celadon climbing kilns  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Late Silla Yue-type celadon climbing kilns
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor } # Three Kingdoms-era lamellar/lacquered armor
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = cupellation } # Silla/Baekje silver-working
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = waterworks } # Reservoir irrigation (Byeokgolje, 4th c.)
@@ -1037,8 +1042,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1123.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads } # Chinese 'Shenzhou' ships of the 1123 embassy  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Xu Jing's Song embassy to Goryeo, 1123  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads } # Chinese 'Shenzhou' ships of the 1123 embassy
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Xu Jing's Song embassy to Goryeo, 1123
 			}
 			if = {
 				limit = { game_start_date >= 1274.1.1 }
@@ -1053,7 +1058,7 @@ tgp_silk_road_innovation_setup_effect = {
 				# held back until 1105 (Goryeo annexation)
 				limit = { game_start_date >= 1105.1.1 }
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = sericulture } # Ancient Korean silk
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Late Silla Yue-type celadon climbing kilns  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Late Silla Yue-type celadon climbing kilns
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor } # Three Kingdoms-era lamellar/lacquered armor
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = cupellation } # Silla/Baekje silver-working
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = waterworks } # Reservoir irrigation (Byeokgolje, 4th c.)
@@ -1063,8 +1068,8 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1123.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads } # Chinese 'Shenzhou' ships of the 1123 embassy  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Xu Jing's Song embassy to Goryeo, 1123  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = bulkheads } # Chinese 'Shenzhou' ships of the 1123 embassy
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Xu Jing's Song embassy to Goryeo, 1123
 			}
 			if = {
 				limit = { game_start_date >= 1274.1.1 }
@@ -1087,10 +1092,10 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1010.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Ly court adopts Song-model crafts  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor } # Ly court adopts Song-model equipment  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = cupellation } # Ly gold/silver mining and tribute  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = pharmacopoeia } # Ly court adopts Song-model medicine  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Ly court adopts Song-model crafts
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor } # Ly court adopts Song-model equipment
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = cupellation } # Ly gold/silver mining and tribute
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = pharmacopoeia } # Ly court adopts Song-model medicine
 			}
 			if = {
 				limit = { game_start_date >= 1018.1.1 }
@@ -1112,10 +1117,10 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 			if = {
 				limit = { game_start_date >= 1010.1.1 }
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Ly court adopts Song-model crafts  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor } # Ly court adopts Song-model equipment  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = cupellation } # Ly gold/silver mining and tribute  
-				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = pharmacopoeia } # Ly court adopts Song-model medicine  
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Ly court adopts Song-model crafts
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor } # Ly court adopts Song-model equipment
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = cupellation } # Ly gold/silver mining and tribute
+				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = pharmacopoeia } # Ly court adopts Song-model medicine
 			}
 			if = {
 				limit = { game_start_date >= 1018.1.1 }
@@ -1141,11 +1146,11 @@ tgp_silk_road_innovation_setup_effect = {
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = sericulture } # Nanzhao carries off Chengdu weavers, 829-830
 			}
 		}
-		
+
 		# ============================================================
 		# --- JAPONIC SPREAD (outside the Silk Road regions, like Goryeo; history-only grants, no learning targets or deadlines) ---
 		# ============================================================
-		
+
 		# Saigoku (japanese)
 		culture:japanese = {
 			# Known at any start date
@@ -1163,7 +1168,7 @@ tgp_silk_road_innovation_setup_effect = {
 			}
 		}
 
-		# Kyushu (kyushu) 
+		# Kyushu (kyushu)
 		culture:kyushu = {
 			# Known at any start date
 			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = sericulture } # Wei zhi records mulberry and silkworm raising in Yamatai (3rd c.); the Ritsuryo silk tax
@@ -1194,7 +1199,7 @@ tgp_silk_road_innovation_setup_effect = {
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = block_printing } # Hyakumanto Darani, one million printed charms, 764-770
 			}
 		}
-		
+
 		# ============================================================
 		# --- SOUTHEAST ASIAN SPREAD (region_silk_road_proper_sea: mainland Burma, Thailand, Cambodia, Champa) ---
 		# ============================================================
@@ -1379,7 +1384,7 @@ tgp_silk_road_innovation_setup_effect = {
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = dragon_kiln } # Sukhothai / Si Satchanalai kilns, Chinese potters c. 1294 (judgement date)
 			}
 		}
-		
+
 		# ============================================================
 		# --- CENTRAL ASIA (region_silk_road_proper_central_asia) AND THE STEPPE ---
 		# ============================================================
@@ -1740,7 +1745,7 @@ tgp_silk_road_innovation_setup_effect = {
 			# Known at any start date
 			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquered_armor } # Balhae lamellar armor, Tang orbit (judgement date)
 		}
-		
+
 		# ============================================================
 		# --- TRANSCASPIA (region_silk_road_proper_transcaspia) AND THE WESTERN STEPPE ---
 		# ============================================================
@@ -1924,7 +1929,7 @@ tgp_silk_road_innovation_setup_effect = {
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = grenades } # Inherited from its Mongol parent: Chinese gunpowder engineers with the Mongol armies (Kaifeng, 1232)
 			}
 		}
-		
+
 		# ============================================================
 		# --- INDIAN SPREAD (region_silk_road_proper_india) ---
 		# ============================================================
@@ -2386,7 +2391,7 @@ tgp_silk_road_innovation_setup_effect = {
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Band 3 learning target - known by the next band's first bookmark (judgement date)
 			}
 		}
-		
+
 		# ============================================================
 		# --- MIDDLE EAST / AL-SHARQ (region_silk_road_proper_middle_east) ---
 		# ============================================================
@@ -2706,7 +2711,7 @@ tgp_silk_road_innovation_setup_effect = {
 				tgp_silk_road_innovation_setup_add_effect = { INNOVATION = compass } # Al-Awfi (c. 1232) and Baylak al-Qibjaqi (a 1242 voyage) describe the sailors' compass; Indian Ocean sailors (judgement)
 			}
 		}
-		
+
 		# ============================================================
 		# --- OCCIDENT (region_silk_road_proper_occident) ---
 		# ============================================================
@@ -2884,9 +2889,39 @@ tgp_silk_road_innovation_setup_effect = {
 			# Known at any start date
 			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = sericulture } # Byzantine sericulture since Justinian's monks brought silkworm eggs, 552
 		}
-		
-		
-		
+
+
+
+	}
+}
+
+lacquerware_innovation_setup_effect = {
+	# CHINA
+	culture:han = {
+		# Pre-Tang
+		tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquerware }
+	}
+	# JAPAN
+	culture:japanese = {
+		tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquerware }
+	}
+	# KOREA
+	culture:baekje = {
+		tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquerware }
+	}
+	culture:goguryeo = {
+		tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquerware }
+	}
+	culture:silla = {
+		tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquerware }
+	}
+	culture:goryeo = {
+		if = {
+			limit = {
+				game_start_date >= 1066.1.1
+			}
+			tgp_silk_road_innovation_setup_add_effect = { INNOVATION = lacquerware }
+		}
 	}
 }
 
@@ -3101,10 +3136,22 @@ tgp_silk_road_mongol_devastation_effect = { # county scope
 }
 
 tgp_silk_road_iranian_intermezzo_yearly_effect = {
+	# NO SOT
 	if = {
 		limit = {
+			NOT = { exists = struggle:persian_struggle }
+			title:e_persia.holder ?= { is_in_civil_war = yes }
+			situation_has_catalyst = catalyst_silk_road_persia_civil_war
+		}
+		situation:silk_road_situation.situation_sub_region:region_silk_road_proper_middle_east ?= {
+			trigger_sub_region_catalyst = { catalyst = catalyst_silk_road_persia_civil_war }
+		}
+	}
+	# SOT
+	else_if = {
+		limit = {
 			struggle:persian_struggle ?= { is_struggle_phase = struggle_persia_phase_unrest }
-			situation:silk_road_situation ?= { situation_has_catalyst = catalyst_silk_road_iranian_intermezzo_in_unrest }
+			situation_has_catalyst = catalyst_silk_road_iranian_intermezzo_in_unrest
 		}
 		situation:silk_road_situation.situation_sub_region:region_silk_road_proper_middle_east ?= {
 			trigger_sub_region_catalyst = { catalyst = catalyst_silk_road_iranian_intermezzo_in_unrest }
@@ -3142,8 +3189,41 @@ tgp_silk_road_china_consolidation_effect = {
 }
 
 tgp_silk_road_china_stability_effect = {
+	# NO AUH
 	if = {
 		limit = {
+			exists = title:h_china.holder
+			NOT = { exists = situation:dynastic_cycle }
+		}
+		if = {
+			limit = { # China is at Peace
+				situation_has_catalyst = catalyst_silk_road_china_no_war
+				title:h_china.holder = { is_at_war = no }
+			}
+			every_situation_sub_region = {
+				trigger_sub_region_catalyst = {
+					catalyst = catalyst_silk_road_china_no_war
+					character = title:h_china.holder
+				}
+			}
+		}
+		else_if = { # China is in Civil War
+			limit = {
+				situation_has_catalyst = catalyst_silk_road_china_civil_war
+				title:h_china.holder = { is_in_civil_war = yes }
+			}
+			every_situation_sub_region = {
+				trigger_sub_region_catalyst = {
+					catalyst = catalyst_silk_road_china_civil_war
+					character = title:h_china.holder
+				}
+			}
+		}
+	}
+	# AUH
+	else_if = {
+		limit = {
+			situation_has_catalyst = catalyst_silk_road_china_stability
 			situation:dynastic_cycle = {
 				OR = {
 					situation_current_phase = situation_dynastic_cycle_phase_stability
@@ -3152,15 +3232,19 @@ tgp_silk_road_china_stability_effect = {
 				}
 			}
 		}
-		situation:silk_road_situation ?= {
+		title:h_china = {
 			if = {
-				limit = { situation_has_catalyst = catalyst_silk_road_china_stability }
-				every_situation_sub_region = {
-					trigger_sub_region_catalyst = {
-						catalyst = catalyst_silk_road_china_stability
-						character = scope:huangdi
-					}
-				}
+				limit = { exists = holder }
+				holder = { save_scope_as = huangdi }
+			}
+			else = {
+				previous_holder = { save_scope_as = huangdi }
+			}
+		}
+		every_situation_sub_region = {
+			trigger_sub_region_catalyst = {
+				catalyst = catalyst_silk_road_china_stability
+				character = scope:huangdi
 			}
 		}
 	}
@@ -3168,27 +3252,55 @@ tgp_silk_road_china_stability_effect = {
 
 tgp_silk_road_feudalize_holding_effect = {
 	save_temporary_scope_as = county_temp
-	random_county_situation = {
+	if = {
 		limit = {
-			situation_type = silk_road_situation
-			situation_has_catalyst = catalyst_silk_road_mpo_region_resettled
+			prev = { holding_is_nomad = yes }
 		}
-		trigger_situation_catalyst = {
-			catalyst = catalyst_silk_road_mpo_region_resettled
-			county = scope:county_temp
-			character = scope:actor
+		random_county_situation = {
+			limit = {
+				situation_type = silk_road_situation
+				situation_has_catalyst = catalyst_silk_road_mpo_region_resettled
+			}
+			trigger_situation_catalyst = {
+				catalyst = catalyst_silk_road_mpo_region_resettled
+				county = scope:county_temp
+				character = scope:actor
+			}
 		}
 	}
 }
 
 tgp_silk_road_byzantium_destroyed_effect = {
-	situation:silk_road_situation = {
+	situation:silk_road_situation ?= {
 		if = {
 			limit = { situation_has_catalyst = catalyst_silk_road_byzantium_blew_up }
 			situation_sub_region:region_silk_road_proper_occident = {
 				trigger_sub_region_catalyst = {
 					catalyst = catalyst_silk_road_byzantium_blew_up
 					character = title:e_byzantium.previous_holder
+				}
+			}
+		}
+	}
+}
+
+tgp_silk_road_china_destroyed_effect = {
+	situation:silk_road_situation ?= {
+		if = {
+			limit = { situation_has_catalyst = catalyst_silk_road_china_blew_up }
+			title:h_china = {
+				if = {
+					limit = { exists = holder }
+					holder = { save_scope_as = huangdi }
+				}
+				else = {
+					previous_holder = { save_scope_as = huangdi }
+				}
+			}
+			every_situation_sub_region = {
+				trigger_sub_region_catalyst = {
+					catalyst = catalyst_silk_road_china_blew_up
+					character = scope:huangdi
 				}
 			}
 		}

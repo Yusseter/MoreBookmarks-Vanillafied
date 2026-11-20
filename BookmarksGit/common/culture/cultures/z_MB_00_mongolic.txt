@@ -346,11 +346,11 @@ khitan = {
 	}
 }
 
-shiwei = { #Shiwei
+serbi = { #Shiwei
 	color = sibe
 
 	created = 350.1.1 #
-	history_loc_override = shiwei_history_loc
+	history_loc_override = serbi_history_loc
 	parents = { xianbei khitan }
 
 
@@ -1411,7 +1411,7 @@ tula = {
 kerait = { # Kereyid
 	color = kerait
 
-	created = 1005.1.1
+	created = 930.1.1
 	history_loc_override = kerait_history_loc
 	parents = { mongol uyghur }
 

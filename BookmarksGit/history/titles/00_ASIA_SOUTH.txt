@@ -48005,7 +48005,7 @@ d_ramannadesa = {
 		government = mandala_government
 	}
 	1070.1.1 = { holder = monMB106
-		government = tribal_government
+		government = mandala_government
 	}
 	1100.1.1 = { holder = monMB107 	 }
 	1115.1.1 = { holder = monMB108 	 }
@@ -48014,7 +48014,7 @@ d_ramannadesa = {
 	1210.1.1 = { holder = monMB111 	 }
 	1250.1.1 = { holder = monMB112 	 }
 	1287.1.1 = {
-		government = tribal_government
+		government = mandala_government
 	}
 	1287.4.4 = {
 		liege="k_pegu"
@@ -49391,7 +49391,7 @@ c_THAI_tenasserim = {
 	750.1.1={
 		holder=1000203877 #Rudanta
 
-		government = tribal_government
+		government = mandala_government
 	}
 	760.1.1={
 		liege=d_ramannadesa # Yusseter: "k_thaton"
@@ -55192,7 +55192,7 @@ c_prea_vihear = {
 
 		liege = "k_funan" # Yusseter: k_chenla
 
-		government = tribal_government
+		government = mandala_government
 	}
 	797.1.1 = {
 		holder = MB_anc_lingapura_2 # Veasna
@@ -67986,6 +67986,9 @@ c_zuining = { # Yusseter: Keep c_ni_jiao's succession; the Shizong rulers remain
 		government = clan_government
 	}
 
+	936.8.7 = {
+		government = meritocratic_government
+	}
 	937.1.1 = {
 		government = meritocratic_government
 	}
@@ -68328,6 +68331,9 @@ c_weichu = {
 		holder = YiTribesNing2
 	}
 	760.1.1 = { liege = k_dali } # Yusseter: Source d_lung_dong enters k_dali in 760; its county-rank mapping cannot receive vassals.
+	769.1.1 = {
+		government = meritocratic_government
+	}
 	769.11.30 = {
 		holder = YiTribesNing3  # La_Bbu
 
@@ -68533,7 +68539,7 @@ c_jianchuan = {
 #}
 c_xiangcheng = {
 	760.1.1 = {  holder = SEAsiaMB685
-		government = meritocratic_government
+		government = tribal_government
 	}
 	820.1.1 = {  holder = SEAsiaMB686
 		government = tribal_government
@@ -68597,7 +68603,7 @@ d_jianchuan = {
 	1047.1.1 = { holder = 1417123	}
 	1066.1.1 = { change_development_level = 7 }
 
-	760.1.1 = {  holder = SEAsiaMB685 government = meritocratic_government liege = k_dali	}
+	760.1.1 = {  holder = SEAsiaMB685 government = tribal_government liege = k_dali	}
 	820.1.1 = {  holder = SEAsiaMB686
 		government = tribal_government
 	}
@@ -78719,7 +78725,7 @@ c_SUM_muara_takus = {
 	1300.1.1 = {
 		liege = 0 # Yusseter: Source k_aru maps to a county; startup uses a guarded tributary fallback.
 
-		government = feudal_government
+
 	}
 	1304.2.19 = {
 		holder = Indonesia750  # Tunggawijaya
@@ -78822,7 +78828,7 @@ c_SUM_dharmasraya = { # Yusseter: c_dharmasraya
 	1286.1.1 = { liege = k_yavakadvipa } # Yusseter: liege = e_java
 
 	1300.1.1 = { liege = 0
-		government = feudal_government
+
 	} # Yusseter: liege = k_aru # Startup uses a guarded tributary fallback for the equal-rank mapping.
 
 	1310.4.8 = {

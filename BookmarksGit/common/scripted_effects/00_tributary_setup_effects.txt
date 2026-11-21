@@ -1694,9 +1694,6 @@ mpo_769_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:c_chuna.holder ?= {
@@ -1730,9 +1727,6 @@ mpo_769_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:k_bulgaria.holder ?= {
@@ -1910,9 +1904,6 @@ mpo_769_tributary_setup_effect = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		title:c_allaqi.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:c_limisol.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
     }
@@ -3668,9 +3659,6 @@ mpo_867_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:k_xia.holder ?= { # Yusseter: title:k_hexi.holder
@@ -3730,9 +3718,6 @@ mpo_867_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_temes.holder ?= {
@@ -4260,9 +4245,6 @@ mpo_936_tributary_setup_effect = {
 		title:d_BAL_anwon.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_BAL_cheolli.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_BAL_dongpyeong.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
@@ -4273,9 +4255,6 @@ mpo_936_tributary_setup_effect = {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:c_BAL_anbyeon.holder ?= { # Yusseter: title:d_BAL_anbian.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_sumo_china.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -5491,9 +5470,6 @@ mpo_936_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:c_chuna.holder ?= {
@@ -5536,18 +5512,12 @@ mpo_936_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -7433,9 +7403,6 @@ mpo_997_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:c_chuna.holder ?= {
@@ -7469,18 +7436,12 @@ mpo_997_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:k_goguryeo.holder ?= {
@@ -9347,9 +9308,6 @@ mpo_1018_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:c_chuna.holder ?= {
@@ -9383,18 +9341,12 @@ mpo_1018_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:k_goguryeo.holder ?= {
@@ -11656,19 +11608,10 @@ mpo_1066_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:d_yijinai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_HEXI
-		title:d_zhenfan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
-		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:k_goguryeo.holder ?= {
@@ -11684,9 +11627,6 @@ mpo_1066_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_BAL_moe_su.holder ?= { # Yusseter: title:d_malgal_china.holder
@@ -11702,18 +11642,12 @@ mpo_1066_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -13976,19 +13910,10 @@ mpo_1081_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:d_yijinai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_HEXI
-		title:d_zhenfan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
-		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:k_goguryeo.holder ?= {
@@ -14004,9 +13929,6 @@ mpo_1081_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_BAL_moe_su.holder ?= { # Yusseter: title:d_malgal_china.holder
@@ -14022,18 +13944,12 @@ mpo_1081_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -16273,9 +16189,6 @@ mpo_1099_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_BAL_moe_su.holder ?= { # Yusseter: title:d_malgal_china.holder
@@ -16291,18 +16204,12 @@ mpo_1099_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -16904,9 +16811,6 @@ mpo_1144_tributary_setup_effect = {
 		}
 
 		# K_ZHETYSU
-		title:d_zhetysu.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# OTHER
 		title:d_qirghiz.holder ?= {
@@ -18578,46 +18482,28 @@ mpo_1144_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:d_yijinai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_HEXI
-		title:d_zhenfan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
-		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_zhenfan.holder ?= {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_yijinai.holder ?= {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -20807,46 +20693,28 @@ mpo_1178_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:d_yijinai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_HEXI
-		title:d_zhenfan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
-		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_zhenfan.holder ?= {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_yijinai.holder ?= {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -21006,15 +20874,6 @@ mpo_1178_tributary_setup_effect = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		title:d_antioch.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_bosna.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_rashka.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_duklja.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
     }
@@ -23035,46 +22894,28 @@ mpo_1187_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:d_yijinai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_HEXI
-		title:d_zhenfan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
-		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_zhenfan.holder ?= {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_yijinai.holder ?= {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -23580,9 +23421,6 @@ mpo_1194_tributary_setup_effect = {
 
 		# K_ZHETYSU
 		title:d_ili-alatau.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_zhetysu.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 
@@ -25215,46 +25053,28 @@ mpo_1194_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:d_yijinai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_HEXI
-		title:d_zhenfan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
-		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_zhenfan.holder ?= {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_yijinai.holder ?= {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -27457,46 +27277,28 @@ mpo_1204_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:d_yijinai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_HEXI
-		title:d_zhenfan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
-		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_zhenfan.holder ?= {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_yijinai.holder ?= {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -29710,46 +29512,28 @@ mpo_1211_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:d_yijinai.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_HEXI
-		title:d_zhenfan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
-		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_zhenfan.holder ?= {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_yijinai.holder ?= {
 		save_scope_as = suzerain
 
 		# K_GUISHI
-		title:c_wentugaole.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -32149,18 +31933,12 @@ mpo_1234_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -32613,19 +32391,7 @@ mpo_1246_tributary_setup_effect = {
 		}
 
 		# K_BALHAE
-		title:d_BAL_parhae.holder ?= { # Yusseter: title:d_balhae_china.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_BAL_moe_su.holder ?= { # Yusseter: title:d_malgal_china.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		#East Asia
-		title:d_BAL_southern_balhae.holder ?= { # Yusseter: title:d_okjeo_china.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_sumo_china.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_CASPIAN_STEPPE
 		title:k_caspian_steppe.holder ?= {
@@ -32643,9 +32409,6 @@ mpo_1246_tributary_setup_effect = {
 		}
 
 		# K_GOGURYEO
-		title:d_BAL_amnok_jangryeong.holder ?= { # Yusseter: title:d_gewu_china.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		#Eastern Liao
 		title:d_LIAO_dongjing.holder ?= { # Yusseter: title:d_liaodong_china.holder
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
@@ -32711,16 +32474,7 @@ mpo_1246_tributary_setup_effect = {
 		title:d_BAL_anwon.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_BAL_cheolli.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_BAL_dongpyeong.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_BAL_hoewon.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_BAL_solbin.holder ?= { # Yusseter: title:d_BAL_shuaibin.holder
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_BAL_yeojintang.holder ?= {
@@ -34560,32 +34314,20 @@ mpo_1246_tributary_setup_effect = {
 		}
 
 		# K_HEXI
-		title:d_zhenfan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
-		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_zhenfan.holder ?= {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -35048,18 +34790,6 @@ mpo_1258_tributary_setup_effect = {
 		}
 
 		# K_BALHAE
-		title:d_BAL_parhae.holder ?= { # Yusseter: title:d_balhae_china.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_BAL_moe_su.holder ?= { # Yusseter: title:d_malgal_china.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_BAL_southern_balhae.holder ?= { # Yusseter: title:d_okjeo_china.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_sumo_china.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_CASPIAN_STEPPE
 		title:k_caspian_steppe.holder ?= {
@@ -35157,16 +34887,7 @@ mpo_1258_tributary_setup_effect = {
 		title:d_BAL_anwon.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_BAL_cheolli.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_BAL_dongpyeong.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_BAL_hoewon.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_BAL_solbin.holder ?= { # Yusseter: title:d_BAL_shuaibin.holder
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_BAL_yeojintang.holder ?= {
@@ -35716,7 +35437,7 @@ mpo_1258_tributary_setup_effect = {
 		title:c_BAL_changchun.holder ?= { # Yusseter: c_fuyu_china
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_BAL_amnok_jangryeong.holder ?= { # Yusseter: d_gewu_china
+		title:c_BAL_yizhou.holder ?= { # Yusseter: title:c_huanglong_china.holder
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -37082,32 +36803,20 @@ mpo_1258_tributary_setup_effect = {
 		}
 
 		# K_HEXI
-		title:d_zhenfan.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_XIA_CHINA
-		title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_zhenfan.holder ?= {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -38086,11 +37795,12 @@ mpo_1286_tributary_setup_effect = {
 		title:c_LIAO_horqinan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-
-		# K_BALHAE
-		title:d_BAL_moe_su.holder ?= { # Yusseter: title:d_malgal_china.holder
+		
+		title:c_BAL_yizhou.holder ?= { # Yusseter: title:c_huanglong_china.holder
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
+		
+		# K_BALHAE
 	}
 
 	title:k_mongolia.holder ?= {
@@ -39491,18 +39201,12 @@ mpo_1286_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -39840,9 +39544,6 @@ mpo_1286_tributary_setup_effect = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		title:c_momauk.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_xiyuan.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:d_muang_thaeng.holder ?= { # Yusseter
@@ -40532,11 +40233,12 @@ mpo_1300_tributary_setup_effect = {
 		}
 
 		# K_BALHAE
-		title:d_BAL_moe_su.holder ?= { # Yusseter: title:d_malgal_china.holder
+		
+		title:c_LIAO_horqinan.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		
-		title:c_LIAO_horqinan.holder ?= {
+		title:c_BAL_yizhou.holder ?= { # Yusseter: title:c_huanglong_china.holder
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -41933,18 +41635,12 @@ mpo_1300_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -42042,9 +41738,6 @@ mpo_1300_tributary_setup_effect = {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		title:c_momauk.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_xiyuan.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:d_muang_thaeng.holder ?= { # Yusseter
@@ -42922,12 +42615,6 @@ mpo_1337_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_BALHAE
-		title:d_BAL_parhae.holder ?= { # Yusseter: title:d_balhae_china.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_BAL_moe_su.holder ?= { # Yusseter: title:d_malgal_china.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 
 		# K_ERGUNE
 		title:d_SW_lingxiguo.holder ?= {
@@ -42949,16 +42636,7 @@ mpo_1337_tributary_setup_effect = {
 		title:d_BAL_anwon.holder ?= {
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
-		title:d_BAL_cheolli.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:d_BAL_dongpyeong.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 		title:d_BAL_hoewon.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
-		title:c_BAL_solbin.holder ?= { # Yusseter: title:d_BAL_shuaibin.holder
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 		title:d_BAL_yeojintang.holder ?= {
@@ -42981,6 +42659,10 @@ mpo_1337_tributary_setup_effect = {
 
 		# K_GOGURYEO
 		title:c_BAL_fuzhou.holder ?= { # Yusseter: title:c_xianping_china.holder
+			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
+		}
+		
+		title:c_BAL_yizhou.holder ?= { # Yusseter: title:c_huanglong_china.holder
 			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
 		}
 	}
@@ -44334,18 +44016,12 @@ mpo_1337_tributary_setup_effect = {
 		save_scope_as = suzerain
 
 		# K_HEXI
-		title:c_alxa.holder ?= {
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	title:d_langshan.holder ?= { # Yusseter: title:d_wuluhai.holder
 		save_scope_as = suzerain
 
 		# K_XIA_CHINA
-		title:c_keyimen.holder ?= { # Yusseter: title:c_wuda.holder
-			break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-		}
 	}
 
 	#############################################################
@@ -44673,9 +44349,6 @@ mpo_1337_tributary_setup_effect = {
     title:k_dali.holder ?= {
         save_scope_as = suzerain
 		title:k_mongnai.holder ?= {
-            break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
-        }
-		title:d_xiyuan.holder ?= {
             break_subject_contract_and_establish_tributary_effect = { SUZERAIN = scope:suzerain TRIBUTARY = this }
         }
 		#title:d_muang_thaeng.holder ?= { # Yusseter

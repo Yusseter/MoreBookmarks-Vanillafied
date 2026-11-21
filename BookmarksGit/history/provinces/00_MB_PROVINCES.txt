@@ -4052,9 +4052,12 @@ holding = church_holding
 		special_building = sofia_ohrid
 	}
 	1083.11.1 = {
-		holding = nomad_holding
+		holding = castle_holding
 	}
 	893.1.1 = {
+		holding = castle_holding
+	}
+	1084.1.1 = {
 		holding = castle_holding
 	}
 }
@@ -4279,7 +4282,7 @@ holding = church_holding
 	rite = byzantine_rite
 	holding = castle_holding
 	756.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 	}
 	768.1.1 = {
 		# Placed here to let the county holder control the mine
@@ -4332,7 +4335,10 @@ holding = church_holding
 		buildings = { cereal_fields_01 pastures_01 }
 	}
 	1093.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding
+	}
+	1097.1.1 = {
+		holding = castle_holding
 	}
 	1382.1.1 = {
 		culture = turkish
@@ -4427,7 +4433,19 @@ holding = church_holding
 		rite = bulgarian_rite
 	}
 	1044.1.1 = {
+		holding = castle_holding
+	}
+	1049.1.1 = {
 		holding = nomad_holding
+	}
+	1087.6.1 = {
+		holding = castle_holding
+	}
+	1298.1.1 = {
+		holding = nomad_holding
+	}
+	1299.1.2 = {
+		holding = castle_holding
 	}
 }
 
@@ -4519,7 +4537,10 @@ holding = church_holding
 		buildings = { military_camps_02 barracks_01 }
 	}
 	1099.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding
+	}
+	1103.1.1 = {
+		holding = castle_holding
 	}
 	1219.1.1 = { # Sava is consecrated at Nicaea as the first autocephalous Archbishop of Serbia
 		rite = serbian_rite
@@ -4543,7 +4564,19 @@ holding = church_holding
 		rite = bulgarian_rite
 	}
 	1044.1.1 = {
+		holding = castle_holding
+	}
+	1066.9.15 = {
 		holding = nomad_holding
+	}
+	1087.6.1 = {
+		holding = castle_holding
+	}
+	1099.1.1 = {
+		holding = castle_holding
+	}
+	1103.1.1 = {
+		holding = castle_holding
 	}
 }
 
@@ -4593,7 +4626,16 @@ holding = church_holding
 		rite = bulgarian_rite
 	}
 	1093.1.1 = {
+		holding = castle_holding
+	}
+	1097.1.1 = {
+		holding = castle_holding
+	}
+	1298.1.1 = {
 		holding = nomad_holding
+	}
+	1299.1.2 = {
+		holding = castle_holding
 	}
 }
 
@@ -4629,6 +4671,7 @@ holding = church_holding
 	1091.4.29 = { # The Pechenegs destroyed at Levounion
 		culture = bulgarian
 		rite = bulgarian_rite
+		holding = castle_holding
 	}
 }
 
@@ -4638,6 +4681,9 @@ holding = church_holding
 	rite = slavic_south
 	632.1.1 = {
 		holding = nomad_holding
+	}
+	721.1.1 = {
+		holding = tribal_holding
 	}
 	800.1.1 = {
 		rite = byzantine_rite
@@ -4674,8 +4720,12 @@ holding = church_holding
 	holding = nomad_holding
 	culture = bolghar
 	rite = otuken_yish
+	681.1.1 = {
+		holding = tribal_holding
+	}
 	854.1.1 = {
 		culture = kabars
+		holding = nomad_holding
 	}
 	895.1.1 = {
 		culture = bulgarian
@@ -4705,6 +4755,9 @@ holding = church_holding
 	rite = slavic_south
 	632.1.1 = {
 		holding = nomad_holding
+	}
+	721.1.1 = {
+		holding = tribal_holding
 	}
 	800.1.1 = {
 		rite = byzantine_rite
@@ -4809,6 +4862,12 @@ holding = church_holding
 	culture = avar
 	rite = otuken_yish
 	holding = nomad_holding
+	867.1.1 = {
+		holding = castle_holding
+	}
+	895.1.1 = {
+		holding = nomad_holding
+	}
 	926.1.1 = {
 		culture = mogyer
 		rite = magyar_pagan
@@ -4836,6 +4895,9 @@ holding = church_holding
 	800.1.1 = {
 		rite = byzantine_rite
 	}
+	852.1.1 = {
+		holding = tribal_holding
+	}
 	864.1.1 = {
 		holding = castle_holding
 	}
@@ -4857,6 +4919,9 @@ holding = church_holding
 	953.1.1 = {
 		holding = castle_holding
 	}
+	976.1.1 = {
+		holding = nomad_holding
+	}
 	1000.1.1 = {
 		# Date used to switch ti feudal_government in title history
 		holding = nomad_holding
@@ -4864,6 +4929,9 @@ holding = church_holding
 	1003.1.1 = { # Stephen takes Transylvania from his uncle the gyula; the Latin bishopric of Transylvania is set up at Fehérvár
 		culture = hungarian
 		rite = roman_rite
+	}
+	1023.1.1 = {
+		holding = castle_holding
 	}
 	1083.8.20 = { # King Stephen is raised to the altars, with Emeric and Gerard later the same year; the Esztergom Benedictional (1075-1083) is the first book of the Use of Esztergom
 		rite = esztergom_rite
@@ -4974,6 +5042,9 @@ holding = church_holding
 		culture = mogyer
 		rite = magyar_pagan
 	}
+	1007.1.1 = {
+		holding = castle_holding
+	}
 	1009.1.1 = {
 		rite = roman_rite
 		culture = hungarian
@@ -5000,6 +5071,15 @@ holding = church_holding
 		rite = roman_rite
 	}
 	907.7.4 = {
+		holding = nomad_holding
+	}
+	1029.1.1 = {
+		holding = castle_holding
+	}
+	972.1.1 = {
+		holding = castle_holding
+	}
+	978.1.1 = {
 		holding = nomad_holding
 	}
 	1083.8.20 = { # King Stephen is raised to the altars, with Emeric and Gerard later the same year; the Esztergom Benedictional (1075-1083) is the first book of the Use of Esztergom
@@ -5289,6 +5369,9 @@ holding = church_holding
 	953.1.1 = {
 		holding = castle_holding
 	}
+	976.1.1 = {
+		holding = nomad_holding
+	}
 	1000.1.1 = {
 		# Date used to switch ti feudal_government in title history
 		holding = castle_holding
@@ -5344,6 +5427,9 @@ holding = church_holding
 	holding = tribal_holding
 	845.1.1 = {
 		holding = nomad_holding
+	}
+	895.1.1 = {
+		holding = tribal_holding
 	}
 	1030.1.1 = {
 		culture = russian
@@ -5738,6 +5824,12 @@ holding = church_holding
 	rite = otuken_yish
 	808.1.1 = {
 		rite = kabarism
+	}
+	861.1.1 = {
+		holding = castle_holding
+	}
+	893.1.1 = {
+		holding = nomad_holding
 	}
 	1016.1.1 = {
 		culture = pecheneg
@@ -6686,6 +6778,12 @@ holding = church_holding
 	1066.1.2 = {
 		culture = kipchak
 	}
+	1229.2.10 = {
+		holding = castle_holding
+	}
+	1268.1.1 = {
+		holding = nomad_holding
+	}
 	1300.1.1 = {
 		culture = tatars
 		rite = hanafi
@@ -6723,6 +6821,12 @@ holding = church_holding
 	holding = nomad_holding
 	culture = turkish
 	rite = otuken_yish
+	867.1.1 = {
+		holding = castle_holding
+	}
+	900.1.1 = {
+		holding = nomad_holding
+	}
 	1171.1.1 = {
 		rite = hanafi
 	}
@@ -12027,6 +12131,9 @@ rite = antiochian_rite #no syriac in CK3
 		culture = mongol
 		rite = etugen
 	}
+	1220.1.1 = {
+		holding = castle_holding
+	}
 	1235.1.1 = {
 		holding = castle_holding
 	}
@@ -13892,17 +13999,8 @@ rite = antiochian_rite #no syriac in CK3
 	850.1.1 = { # Norse settlement of the Isles
 		rite = norse_pagan
 	}
-	866.1.1 = {
-		holding = castle_holding
-	}
-	893.1.1 = {
-		holding = tribal_holding
-	}
 	900.1.1 = { # the Gall-Ghàidheil of the Isles
 		culture = norse_gael
-	}
-	941.1.1 = {
-		holding = castle_holding
 	}
 	1015.1.1 = { # the Norse-Gaels of the Isles are Christian
 		rite = roman_rite
@@ -13925,17 +14023,8 @@ rite = antiochian_rite #no syriac in CK3
 	850.1.1 = { # Norse settlement of the Isles
 		rite = norse_pagan
 	}
-	865.1.1 = {
-		holding = castle_holding
-	}
 	900.1.1 = { # the Gall-Ghàidheil of the Isles
 		culture = norse_gael
-	}
-	910.1.1 = {
-		holding = tribal_holding
-	}
-	941.1.1 = {
-		holding = castle_holding
 	}
 	1015.1.1 = { # the Norse-Gaels of the Isles are Christian
 		rite = roman_rite
@@ -13961,12 +14050,6 @@ rite = antiochian_rite #no syriac in CK3
 	900.1.1 = { # the Gall-Ghàidheil of the Isles
 		culture = norse_gael
 	}
-	941.1.1 = {
-		holding = castle_holding
-	}
-	999.1.1 = {
-		holding = castle_holding
-	}
 	1015.1.1 = { # the Norse-Gaels of the Isles are Christian
 		rite = roman_rite
 	}
@@ -13987,15 +14070,6 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	900.1.1 = { # the Gall-Ghàidheil of the Isles
 		culture = norse_gael
-	}
-	921.1.1 = {
-		holding = castle_holding
-	}
-	927.1.1 = {
-		holding = tribal_holding
-	}
-	941.1.1 = {
-		holding = castle_holding
 	}
 	1015.1.1 = { # the Norse-Gaels of the Isles are Christian
 		rite = roman_rite
@@ -14018,14 +14092,8 @@ rite = antiochian_rite #no syriac in CK3
 	900.1.1 = { # the Gall-Ghàidheil of the Isles
 		culture = norse_gael
 	}
-	941.1.1 = {
-		holding = castle_holding
-	}
 	1015.1.1 = { # the Norse-Gaels of the Isles are Christian
 		rite = roman_rite
-	}
-	1080.1.1 = {
-		holding = castle_holding
 	}
 	1152.1.1 = { # Nicholas Breakspear founds the archbishopric of Nidaros
 		rite = nidaros_rite
@@ -14044,9 +14112,6 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	900.1.1 = { # the Gall-Ghàidheil of the Isles
 		culture = norse_gael
-	}
-	941.1.1 = {
-		holding = castle_holding
 	}
 	1015.1.1 = { # the Norse-Gaels of the Isles are Christian
 		rite = roman_rite
@@ -14112,14 +14177,8 @@ rite = antiochian_rite #no syriac in CK3
 	850.1.1 = { # Norse settlement of Man
 		rite = norse_pagan
 	}
-	941.1.1 = {
-		holding = castle_holding
-	}
 	950.1.1 = { # Gaut Björnsson's crosses: the Manx Norse are Christian
 		rite = roman_rite
-	}
-	1072.2.7 = {
-		holding = castle_holding
 	}
 	1152.1.1 = { # Nicholas Breakspear founds the archbishopric of Nidaros
 		rite = nidaros_rite
@@ -14139,9 +14198,6 @@ rite = antiochian_rite #no syriac in CK3
 	holding = tribal_holding
 	800.1.1 = { # gaelic culture forms
 		culture = gaelic
-	}
-	941.1.1 = {
-		holding = castle_holding
 	}
 	1147.1.1 = { # Bishop Herbert of Glasgow brings in the usages of Sarum
 		rite = sarum_rite
@@ -30881,7 +30937,10 @@ rite = antiochian_rite #no syriac in CK3
 		rite = bulgarian_rite
 	}
 	1099.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding
+	}
+	1103.1.1 = {
+		holding = castle_holding
 	}
 	1219.1.1 = { # Sava is consecrated at Nicaea as the first autocephalous Archbishop of Serbia
 		rite = serbian_rite
@@ -30981,7 +31040,10 @@ rite = antiochian_rite #no syriac in CK3
 		rite = bulgarian_rite
 	}
 	1093.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding
+	}
+	1097.1.1 = {
+		holding = castle_holding
 	}
 }
 
@@ -30993,7 +31055,10 @@ rite = antiochian_rite #no syriac in CK3
 		rite = bulgarian_rite
 	}
 	1093.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding
+	}
+	1097.1.1 = {
+		holding = castle_holding
 	}
 }
 
@@ -31105,12 +31170,18 @@ rite = antiochian_rite #no syriac in CK3
 		rite = bulgarian_rite
 	}
 	1044.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding
 	}
 	879.1.1 = {
 		holding = tribal_holding
 	}
 	893.1.1 = {
+		holding = castle_holding
+	}
+	1049.1.1 = {
+		holding = nomad_holding
+	}
+	1087.6.1 = {
 		holding = castle_holding
 	}
 }
@@ -31329,7 +31400,10 @@ rite = antiochian_rite #no syriac in CK3
 		rite = bulgarian_rite
 	}
 	1099.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding
+	}
+	1103.1.1 = {
+		holding = castle_holding
 	}
 	1211.1.1 = {
 		culture = serbian
@@ -31489,6 +31563,18 @@ rite = antiochian_rite #no syriac in CK3
 	1046.1.1 = {
 		holding = nomad_holding
 	}
+	1091.4.29 = {
+		holding = castle_holding
+	}
+	1298.1.1 = {
+		holding = nomad_holding
+	}
+	1299.1.2 = {
+		holding = castle_holding
+	}
+	1315.1.1 = {
+		holding = nomad_holding
+	}
 }
 
 3690 = { # Aytos - Provadiya
@@ -31566,6 +31652,9 @@ rite = antiochian_rite #no syriac in CK3
 		holding = tribal_holding
 	}
 	866.9.24 = {
+		holding = tribal_holding
+	}
+	927.5.27 = {
 		holding = castle_holding
 	}
 }
@@ -31607,7 +31696,10 @@ rite = antiochian_rite #no syriac in CK3
 		rite = byzantine_rite
 	}
 	1280.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding
+	}
+	1297.1.1 = {
+		holding = castle_holding
 	}
 }
 
@@ -31781,7 +31873,7 @@ rite = antiochian_rite #no syriac in CK3
 		holding = castle_holding
 	}
 	865.1.1 = {
-		holding = tribal_holding
+		holding = castle_holding
 	}
 	867.1.1 = {
 		culture = greek
@@ -32099,7 +32191,10 @@ rite = antiochian_rite #no syriac in CK3
 		rite = byzantine_rite
 	}
 	936.1.1 = {
-		holding = nomad_holding
+		holding = castle_holding
+	}
+	955.1.1 = {
+		holding = castle_holding
 	}
 }
 
@@ -32383,6 +32478,12 @@ rite = antiochian_rite #no syriac in CK3
 	876.1.1 = {
 		holding = nomad_holding
 	}
+	891.1.1 = {
+		holding = castle_holding
+	}
+	907.7.4 = {
+		holding = nomad_holding
+	}
 	997.1.1 = {
 		# Date used to switch ti feudal_government in title history
 		holding = castle_holding
@@ -32392,6 +32493,7 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	1000.1.1 = {
 		culture = hungarian
+		holding = castle_holding
 	}
 	1083.8.20 = { # King Stephen is raised to the altars, with Emeric and Gerard later the same year; the Esztergom Benedictional (1075-1083) is the first book of the Use of Esztergom
 		rite = esztergom_rite
@@ -32421,6 +32523,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	907.7.4 = {
 		holding = nomad_holding
+	}
+	972.1.1 = {
+		holding = castle_holding
 	}
 	1083.8.20 = { # King Stephen is raised to the altars, with Emeric and Gerard later the same year; the Esztergom Benedictional (1075-1083) is the first book of the Use of Esztergom
 		rite = esztergom_rite
@@ -32475,6 +32580,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	907.7.4 = {
 		holding = nomad_holding
+	}
+	1029.1.1 = {
+		holding = castle_holding
 	}
 	1066.1.1 = {
 		buildings = { curtain_walls_01 hunting_grounds_01 }
@@ -32747,6 +32855,15 @@ rite = antiochian_rite #no syriac in CK3
 	907.7.4 = {
 		holding = nomad_holding
 	}
+	1029.1.1 = {
+		holding = castle_holding
+	}
+	972.1.1 = {
+		holding = castle_holding
+	}
+	978.1.1 = {
+		holding = nomad_holding
+	}
 	1083.8.20 = { # King Stephen is raised to the altars, with Emeric and Gerard later the same year; the Esztergom Benedictional (1075-1083) is the first book of the Use of Esztergom
 		rite = esztergom_rite
 	}
@@ -32963,6 +33080,15 @@ rite = antiochian_rite #no syriac in CK3
 	907.7.4 = {
 		holding = nomad_holding
 	}
+	1029.1.1 = {
+		holding = castle_holding
+	}
+	972.1.1 = {
+		holding = castle_holding
+	}
+	978.1.1 = {
+		holding = nomad_holding
+	}
 	1083.8.20 = { # King Stephen is raised to the altars, with Emeric and Gerard later the same year; the Esztergom Benedictional (1075-1083) is the first book of the Use of Esztergom
 		rite = esztergom_rite
 	}
@@ -32987,8 +33113,17 @@ rite = antiochian_rite #no syriac in CK3
 	800.1.1 = {
 		culture = nitravan
 	}
+	850.1.1 = {
+		holding = castle_holding
+	}
 	863.1.1 = { # Constantine and Methodius arrive in Great Moravia at the invitation of Rastislav
 		rite = roman_rite
+	}
+	907.7.4 = {
+		holding = nomad_holding
+	}
+	972.1.1 = {
+		holding = castle_holding
 	}
 	1009.1.1 = {
 		culture = hungarian
@@ -33039,6 +33174,15 @@ rite = antiochian_rite #no syriac in CK3
 	907.7.4 = {
 		holding = nomad_holding
 	}
+	1029.1.1 = {
+		holding = castle_holding
+	}
+	972.1.1 = {
+		holding = castle_holding
+	}
+	978.1.1 = {
+		holding = nomad_holding
+	}
 	1083.8.20 = { # King Stephen is raised to the altars, with Emeric and Gerard later the same year; the Esztergom Benedictional (1075-1083) is the first book of the Use of Esztergom
 		rite = esztergom_rite
 	}
@@ -33071,6 +33215,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	907.7.4 = {
 		holding = nomad_holding
+	}
+	990.1.1 = {
+		holding = castle_holding
 	}
 	1083.8.20 = { # King Stephen is raised to the altars, with Emeric and Gerard later the same year; the Esztergom Benedictional (1075-1083) is the first book of the Use of Esztergom
 		rite = esztergom_rite
@@ -33132,6 +33279,12 @@ rite = antiochian_rite #no syriac in CK3
 	culture = avar
 	rite = otuken_yish
 	holding = nomad_holding
+	867.1.1 = {
+		holding = castle_holding
+	}
+	895.1.1 = {
+		holding = nomad_holding
+	}
 	926.1.1 = {
 		culture = mogyer
 		rite = magyar_pagan
@@ -33242,6 +33395,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	907.7.4 = {
 		holding = nomad_holding
+	}
+	990.1.1 = {
+		holding = castle_holding
 	}
 	1009.1.1 = {
 		culture = hungarian
@@ -33737,6 +33893,9 @@ rite = antiochian_rite #no syriac in CK3
 	953.1.1 = {
 		holding = castle_holding
 	}
+	976.1.1 = {
+		holding = nomad_holding
+	}
 	1000.1.1 = {
 		# Date used to switch ti feudal_government in title history
 		holding = castle_holding
@@ -33982,6 +34141,9 @@ rite = antiochian_rite #no syriac in CK3
 	953.1.1 = {
 		holding = castle_holding
 	}
+	976.1.1 = {
+		holding = nomad_holding
+	}
 	1000.1.1 = {
 		holding = castle_holding
 		# Date used to switch ti feudal_government in title history
@@ -34014,6 +34176,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	953.1.1 = {
 		holding = castle_holding
+	}
+	976.1.1 = {
+		holding = nomad_holding
 	}
 	1000.1.1 = {
 		# Date used to switch ti feudal_government in title history
@@ -36632,9 +36797,6 @@ rite = antiochian_rite #no syriac in CK3
 	culture = baloch
 	rite = mazdayasna
 	holding = tribal_holding
-	769.1.1 = {
-		holding = castle_holding
-	}
 	830.1.1 = {
 		rite = najdat
 	}
@@ -36658,9 +36820,6 @@ rite = antiochian_rite #no syriac in CK3
 	culture = baloch
 	rite = mazdayasna
 	holding = tribal_holding
-	769.1.1 = {
-		holding = castle_holding
-	}
 	830.1.1 = {
 		rite = najdat
 	}
@@ -37959,9 +38118,6 @@ rite = antiochian_rite #no syriac in CK3
 	culture = baloch
 	rite = mazdayasna
 	holding = tribal_holding
-	769.1.1 = {
-		holding = castle_holding
-	}
 	830.1.1 = {
 		rite = najdat
 	}
@@ -41989,6 +42145,12 @@ rite = antiochian_rite #no syriac in CK3
 	895.1.1 = {
 		holding = nomad_holding
 	}
+	1060.1.1 = {
+		holding = tribal_holding
+	}
+	1123.1.1 = {
+		holding = nomad_holding
+	}
 	1220.1.1 = {
 		holding = castle_holding
 	}
@@ -42126,6 +42288,9 @@ rite = antiochian_rite #no syriac in CK3
 	1234.11.14 = { # Gregory IX writes that the Vlachs take the sacraments from bishops of the Greek rite of their own
 		rite = vlach_rite
 	}
+	1241.1.1 = {
+		holding = castle_holding
+	}
 	1299.1.1 = {
 		holding = castle_holding
 	}
@@ -42141,6 +42306,9 @@ rite = antiochian_rite #no syriac in CK3
 	holding = nomad_holding
 	culture = bolghar
 	rite = otuken_yish
+	681.1.1 = {
+		holding = tribal_holding
+	}
 	862.1.1 = {
 		culture = bulgarian
 		holding = tribal_holding
@@ -42200,6 +42368,9 @@ rite = antiochian_rite #no syriac in CK3
 	holding = nomad_holding
 	culture = bolghar
 	rite = otuken_yish
+	681.1.1 = {
+		holding = tribal_holding
+	}
 	862.1.1 = {
 		culture = bulgarian
 		holding = tribal_holding
@@ -42300,6 +42471,9 @@ rite = antiochian_rite #no syriac in CK3
 	culture = bolghar
 	rite = otuken_yish
 	holding = nomad_holding
+	769.1.1 = {
+		holding = tribal_holding
+	}
 	862.1.1 = {
 		culture = vlach
 		holding = tribal_holding
@@ -42399,8 +42573,17 @@ rite = antiochian_rite #no syriac in CK3
 	895.1.1 = {
 		holding = nomad_holding
 	}
+	1060.1.1 = {
+		holding = tribal_holding
+	}
+	1123.1.1 = {
+		holding = nomad_holding
+	}
 	1234.11.14 = { # Gregory IX writes that the Vlachs take the sacraments from bishops of the Greek rite of their own
 		rite = vlach_rite
+	}
+	1238.1.1 = {
+		holding = castle_holding
 	}
 	1240.1.1 = {
 		holding = castle_holding
@@ -42437,6 +42620,12 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	895.1.1 = {
 		holding = nomad_holding
+	}
+	1060.1.1 = {
+		holding = tribal_holding
+	}
+	1150.1.1 = {
+		holding = castle_holding
 	}
 	1211.1.1 = {
 		holding = castle_holding
@@ -42491,8 +42680,12 @@ rite = antiochian_rite #no syriac in CK3
 	holding = nomad_holding
 	culture = bolghar
 	rite = otuken_yish
+	681.1.1 = {
+		holding = tribal_holding
+	}
 	854.1.1 = {
 		culture = kabars
+		holding = nomad_holding
 	}
 	895.1.1 = {
 		culture = bulgarian
@@ -42524,8 +42717,12 @@ rite = antiochian_rite #no syriac in CK3
 	holding = nomad_holding
 	culture = bolghar
 	rite = otuken_yish
+	681.1.1 = {
+		holding = tribal_holding
+	}
 	854.1.1 = {
 		culture = kabars
+		holding = nomad_holding
 	}
 	895.1.1 = {
 		culture = bulgarian
@@ -42559,6 +42756,9 @@ rite = antiochian_rite #no syriac in CK3
 	holding = tribal_holding
 	845.1.1 = {
 		holding = nomad_holding
+	}
+	895.1.1 = {
+		holding = tribal_holding
 	}
 	1030.1.1 = {
 		culture = russian
@@ -42607,6 +42807,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	845.1.1 = {
 		holding = nomad_holding
+	}
+	895.1.1 = {
+		holding = tribal_holding
 	}
 	1030.1.1 = {
 		culture = russian
@@ -44133,6 +44336,9 @@ rite = antiochian_rite #no syriac in CK3
 	867.1.1 = {
 		culture = mogyer
 	}
+	910.1.1 = {
+		holding = tribal_holding
+	}
 	936.1.1 = {
 		culture = severian
 	}
@@ -45484,6 +45690,15 @@ rite = antiochian_rite #no syriac in CK3
 	holding = nomad_holding
 
 
+	856.1.1 = {
+		holding = tribal_holding
+	}
+	985.1.1 = {
+		holding = castle_holding
+	}
+	1044.1.1 = {
+		holding = nomad_holding
+	}
 }
 
 5336 = {	#Soleny	#river name
@@ -45610,10 +45825,10 @@ rite = antiochian_rite #no syriac in CK3
 	holding = none
 }
 
-5356 = { # Matya - Matya
+5356 = { # Matyra - Matyra
 	culture = moksha
 	rite = moksha_pagan
-	holding = herder_holding
+	holding = tribal_holding
 }
 
 5357 = {	#Kozlov
@@ -45630,7 +45845,7 @@ rite = antiochian_rite #no syriac in CK3
 5359 = { # Lachyk-Uba - Lachyk-Uba
 	culture = mordvin
 	rite = erzya_pagan
-	holding = herder_holding
+	holding = tribal_holding
 }
 
 5360 = {	#Morchansk
@@ -45722,7 +45937,7 @@ rite = antiochian_rite #no syriac in CK3
 5374 = { # Tuluchezeva - Tuluchezeva
 	culture = moksha
 	rite = moksha_pagan
-	holding = herder_holding
+	holding = tribal_holding
 	1300.1.1 = {
 		culture = mishar
 	}
@@ -45783,10 +45998,10 @@ rite = antiochian_rite #no syriac in CK3
 	#}
 }
 
-5384 = { # Serdosk - Serdosk
+5384 = { # Serdoba - Serdoba
 	culture = moksha
 	rite = moksha_pagan
-	holding = herder_holding
+	holding = tribal_holding
 }
 
 5385 = {	#Kachma
@@ -45906,12 +46121,13 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-5408 = { # Yar Calli - Yar Calli
+5408 = { # Yar Chally - Yar Chally
 	culture = bolghar
 	rite = otuken_yish
 	holding = nomad_holding
 	922.1.2 = {
 		rite = hanafi
+		holding = castle_holding
 	}
 	965.1.1 = {
 		holding = castle_holding
@@ -57226,6 +57442,10 @@ rite = armenian_rite
 	800.1.1 = { # Yusseter
 		holding = tribal_holding
 	}
+
+	769.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
 }
 
 7116 = {	#Beljan
@@ -57615,11 +57835,17 @@ rite = armenian_rite
 		culture = chigil
 		rite = turkic_rite
 	}
+	1010.1.1 = {
+		holding = castle_holding
+	}
 	1066.1.1 = {
 		buildings = { market_villages_01 }
 	}
 	1080.1.1 = {
 		rite = hanafi
+	}
+	1110.1.1 = {
+		holding = nomad_holding
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -57644,6 +57870,12 @@ rite = armenian_rite
 	holding = nomad_holding
 	934.1.1 = {
 		rite = hanafi
+	}
+	1194.1.2 = {
+		holding = castle_holding
+	}
+	1200.1.1 = {
+		holding = nomad_holding
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -57760,6 +57992,12 @@ rite = armenian_rite
 	holding = nomad_holding
 	934.1.1 = {
 		rite = hanafi
+	}
+	1126.4.29 = {
+		holding = castle_holding
+	}
+	1178.3.12 = {
+		holding = nomad_holding
 	}
 	1300.1.1 = {
 		culture = chagatai
@@ -63489,15 +63727,18 @@ rite = armenian_rite
 	culture = saka
 	rite = otuken_yish
 	holding = castle_holding
-	996.1.2 = {
-		holding = nomad_holding
-	}
 	1000.1.1 = { # Qarakhanid Islam; a Nestorian minority is still recorded by Marco Polo
 		culture = karluk
 		rite = hanafi
 	}
+	1266.1.1 = {
+		holding = nomad_holding
+	}
 	1300.1.1 = {
 		culture = chagatai
+	}
+	1303.1.1 = {
+		holding = castle_holding
 	}
 }
 
@@ -67023,6 +67264,14 @@ rite = armenian_rite
 	1050.1.1 = {
 		culture = yue
 	}
+
+	1052.6.18 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	1053.1.18 = { # Yusseter
+		holding = castle_holding
+	}
 }
 
 8929 = {	# JINSHUI 1
@@ -68149,6 +68398,22 @@ rite = armenian_rite
 	1050.1.1 = {
 		culture = bouxcuengh
 	}
+
+	1052.11.6 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	1052.5.31 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	1052.7.13 = { # Yusseter
+		holding = castle_holding
+	}
+
+	1053.1.18 = { # Yusseter
+		holding = castle_holding
+	}
 }
 
 9052 = { # Tsaparang - Tsaparang
@@ -68231,6 +68496,14 @@ rite = armenian_rite
 	1150.1.1 = {
 		culture = yue
 		rite = dhyana
+	}
+
+	1052.10.30 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	1053.1.18 = { # Yusseter
+		holding = castle_holding
 	}
 }
 
@@ -72730,6 +73003,9 @@ rite = armenian_rite
 	culture = amdo
 	rite = old_bon
 	holding = castle_holding
+	769.1.1 = {
+		holding = tribal_holding
+	}
 	800.1.1 = {
 		holding = tribal_holding
 	}
@@ -72752,6 +73028,10 @@ rite = armenian_rite
 	}
 
 	800.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	769.1.1 = { # Yusseter
 		holding = tribal_holding
 	}
 }
@@ -72806,6 +73086,10 @@ rite = armenian_rite
 	} #Sungqu becomes the main point of contact between the Tibetan and Chinese Empires
 
 	800.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	769.1.1 = { # Yusseter
 		holding = tribal_holding
 	}
 }
@@ -72895,6 +73179,10 @@ rite = armenian_rite
 	800.1.1 = { # Yusseter
 		holding = tribal_holding
 	}
+
+	769.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
 }
 
 9464 = {	# 9464 - Quqen
@@ -72909,6 +73197,10 @@ rite = armenian_rite
 	# History
 
 	800.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	769.1.1 = { # Yusseter
 		holding = tribal_holding
 	}
 }
@@ -73289,7 +73581,7 @@ rite = armenian_rite
 9509 = { # Ālàshāi - Ālāsāi
 	culture = tangut # Tuoba
 	rite = melieism
-	holding = herder_holding # Nomad
+	holding = nomad_holding # Nomad
 	1300.1.1 = {
 		culture = tumed
 		rite = etugen
@@ -73300,9 +73592,6 @@ rite = armenian_rite
 	culture = tuyuhun # Tuoba
 	rite = melieism
 	holding = nomad_holding # Nomad
-	882.1.1 = {
-		holding = herder_holding
-	}
 	1032.1.1 = {
 		culture = tangut
 	}
@@ -73376,6 +73665,9 @@ rite = armenian_rite
 	culture = tangut
 	rite = lamaism
 	holding = nomad_holding # Farmlands
+	1030.6.27 = {
+		holding = castle_holding
+	}
 	1140.1.1 = {
 		rite = kagyu # Kagyu imperial preceptor patronage (Tangut court, mid-12th c.)
 	}
@@ -73571,6 +73863,10 @@ rite = armenian_rite
 	1140.1.1 = {
 		rite = kagyu
 	}
+
+	1020.1.1 = { # Yusseter
+		holding = castle_holding
+	}
 }
 
 9538 = { # Yusseter	# JIUYUAN
@@ -73589,6 +73885,10 @@ rite = armenian_rite
 	1140.1.1 = {
 		rite = kagyu
 	}
+
+	1020.1.1 = { # Yusseter
+		holding = castle_holding
+	}
 }
 
 9539 = {	# DENGKOU
@@ -73604,7 +73904,7 @@ rite = armenian_rite
 	rite = otuken_yish # Yusseter
 	#rite = eastern_tengri
 
-	holding = herder_holding # Yusseter: nomad_holding
+	holding = nomad_holding # Yusseter: herder_holding
 
 	# History
 	 #Lingzhou/Lingwu area captured by Tanguts
@@ -75912,17 +76212,8 @@ rite = armenian_rite
 	850.1.1 = { # Norse settlement of the Isles
 		rite = norse_pagan
 	}
-	865.1.1 = {
-		holding = castle_holding
-	}
 	900.1.1 = { # the Gall-Ghàidheil of the Isles
 		culture = norse_gael
-	}
-	910.1.1 = {
-		holding = tribal_holding
-	}
-	941.1.1 = {
-		holding = castle_holding
 	}
 	1015.1.1 = { # the Norse-Gaels of the Isles are Christian
 		rite = roman_rite
@@ -77917,6 +78208,14 @@ rite = armenian_rite
 		culture = yue
 		rite = dhyana
 	}
+
+	1052.6.7 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	1053.1.18 = { # Yusseter
+		holding = castle_holding
+	}
 }
 
 10388 = {	# WULIN
@@ -78060,6 +78359,10 @@ rite = armenian_rite
 	culture = sichuan
 	rite = dhyana
 	holding = castle_holding # Yusseter: tribal_holding
+
+	769.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
 }
 
 10415 = {	# ZHUTI
@@ -78771,6 +79074,14 @@ rite = armenian_rite
 	1050.1.1 = {
 		culture = bouxcuengh
 	}
+
+	1055.4.30 = { # Yusseter
+		holding = castle_holding
+	}
+
+	941.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
 }
 
 10555 = {	# YATSUSHIRO
@@ -79246,6 +79557,10 @@ rite = armenian_rite
 	rite = uchinaa # Yusseter
 	#rite = utaki
 	holding = tribal_holding
+
+	890.1.1 = { # Yusseter
+		holding = castle_holding
+	}
 }
 
 10644 = {
@@ -79477,6 +79792,46 @@ rite = armenian_rite
 	1050.1.1 = {
 		culture = xiang
 		rite = dhyana
+	}
+
+	866.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	867.2.1 = { # Yusseter
+		holding = castle_holding
+	}
+
+	900.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	914.1.1 = { # Yusseter
+		holding = castle_holding
+	}
+
+	943.12.8 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	947.5.30 = { # Yusseter
+		holding = castle_holding
+	}
+
+	951.11.26 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	954.6.4 = { # Yusseter
+		holding = castle_holding
+	}
+
+	962.10.10 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	980.1.1 = { # Yusseter
+		holding = castle_holding
 	}
 }
 
@@ -80216,6 +80571,10 @@ rite = armenian_rite
 		#rite = shaivism
 		holding = temple_citadel_holding # Yusseter
 	}
+
+	769.1.1 = { # Yusseter
+		holding = temple_citadel_holding
+	}
 }
 
 10803 = {
@@ -80251,6 +80610,10 @@ rite = armenian_rite
 	holding = tribal_holding # Yusseter: temple_citadel_holding
 	600.1.1 = { #Vat Phou
 		special_building = generic_university
+	}
+
+	730.1.1 = { # Yusseter
+		holding = temple_citadel_holding
 	}
 }
 
@@ -80445,6 +80808,10 @@ rite = armenian_rite
 	rite = katuic # Yusseter
 	#rite = kuy_animism
 	holding = tribal_holding # Yusseter: temple_citadel_holding
+
+	750.1.1 = { # Yusseter
+		holding = temple_citadel_holding
+	}
 }
 
 10824 = {
@@ -80862,11 +81229,15 @@ rite = armenian_rite
 	}
 
 	820.1.1 = { # Yusseter
-		holding = tribal_holding
+		#holding = tribal_holding # Yusseter
 	}
 
 	936.1.1 = { # Yusseter
 		holding = castle_holding
+	}
+
+	760.1.1 = { # Yusseter
+		holding = tribal_holding
 	}
 }
 
@@ -85286,6 +85657,14 @@ rite = armenian_rite
 	1150.1.1 = {
 		culture = nanai
 	}
+
+	840.1.1 = { # Yusseter
+		holding = castle_holding
+	}
+
+	890.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
 }
 
 11697 = {	#Henghetieli
@@ -85409,6 +85788,10 @@ rite = armenian_rite
 	1066.1.1 = {
 		holding = castle_holding
 		rite = avatamsaka
+	}
+
+	926.1.1 = { # Yusseter
+		holding = castle_holding
 	}
 }
 
@@ -85567,6 +85950,22 @@ rite = armenian_rite
 	rite = etugen # Yusseter
 	#rite = eastern_tengri
 	holding = nomad_holding # Yusseter: tribal_holding
+
+	1124.1.1 = { # Yusseter
+		holding = castle_holding
+	}
+
+	1130.1.1 = { # Yusseter
+		holding = nomad_holding
+	}
+
+	1175.1.1 = { # Yusseter
+		holding = castle_holding
+	}
+
+	1248.1.1 = { # Yusseter
+		holding = nomad_holding
+	}
 }
 
 11736 = {	#Yizhou
@@ -85840,6 +86239,10 @@ rite = armenian_rite
 	
 		holding = castle_holding # Yusseter
 	}
+
+	926.1.1 = { # Yusseter
+		holding = castle_holding
+	}
 }
 
 11770 = {	#Yuanzhou
@@ -85932,7 +86335,7 @@ rite = armenian_rite
 	}
 
 	1123.1.1 = { # Yusseter
-		holding = tribal_holding
+		holding = castle_holding # Yusseter: tribal_holding
 	}
 
 	1127.1.1 = { # Yusseter
@@ -86009,7 +86412,7 @@ rite = armenian_rite
 	}
 
 	901.1.1 = { # Yusseter
-		holding = tribal_holding
+		holding = castle_holding # Yusseter: tribal_holding
 	}
 }
 
@@ -86048,7 +86451,7 @@ rite = armenian_rite
 	}
 
 	901.1.1 = { # Yusseter
-		holding = tribal_holding
+		holding = castle_holding # Yusseter: tribal_holding
 	}
 }
 
@@ -86080,7 +86483,7 @@ rite = armenian_rite
 	990.1.1 = {
 		culture = jurchen
 		rite = dhyana
-		holding = tribal_holding # Yusseter: castle_holding
+		holding = castle_holding # Yusseter: tribal_holding
 	}
 
 	1115.1.28 = { # Yusseter
@@ -86088,10 +86491,14 @@ rite = armenian_rite
 	}
 
 	1123.1.1 = { # Yusseter
-		holding = tribal_holding
+		holding = castle_holding # Yusseter: tribal_holding
 	}
 
 	1127.1.1 = { # Yusseter
+		holding = castle_holding
+	}
+
+	926.1.1 = { # Yusseter
 		holding = castle_holding
 	}
 }
@@ -86278,10 +86685,14 @@ rite = armenian_rite
 	holding = castle_holding # Yusseter: nomad_holding
 	930.1.1 = {
 		culture = jurchen
-		holding = tribal_holding # Yusseter
+		holding = castle_holding # Yusseter: tribal_holding
 	}
 	1150.1.1 = {
 		culture = nanai
+	}
+
+	985.1.1 = { # Yusseter
+		holding = tribal_holding
 	}
 }
 
@@ -86291,6 +86702,14 @@ rite = armenian_rite
 	holding = tribal_holding # Yusseter: nomad_holding
 	928.1.1 = {
 		culture = jurchen
+	}
+
+	938.1.20 = { # Yusseter
+		holding = castle_holding
+	}
+
+	953.1.21 = { # Yusseter
+		holding = tribal_holding
 	}
 }
 
@@ -86367,11 +86786,15 @@ rite = armenian_rite
 		holding = tribal_holding # Yusseter: nomad_holding
 	}
 	950.1.1 = {
-		holding = tribal_holding # Yusseter
+		holding = castle_holding # Yusseter: tribal_holding
 	}
 	928.1.1 = {
 		culture = jurchen
 		rite = abkaism
+	}
+
+	990.1.17 = { # Yusseter
+		holding = tribal_holding
 	}
 }
 
@@ -86395,7 +86818,11 @@ rite = armenian_rite
 		culture = jurchen
 		rite = abkaism
 	
-		holding = tribal_holding # Yusseter
+		holding = castle_holding # Yusseter: tribal_holding
+	}
+
+	953.1.21 = { # Yusseter
+		holding = tribal_holding
 	}
 }
 
@@ -86424,7 +86851,11 @@ rite = armenian_rite
 		culture = jurchen
 		rite = abkaism
 	
-		holding = tribal_holding # Yusseter
+		holding = castle_holding # Yusseter: tribal_holding
+	}
+
+	967.1.1 = { # Yusseter
+		holding = tribal_holding
 	}
 }
 
@@ -86457,7 +86888,11 @@ rite = armenian_rite
 		culture = jurchen
 		rite = abkaism
 	
-		holding = tribal_holding # Yusseter
+		holding = castle_holding # Yusseter: tribal_holding
+	}
+
+	967.1.1 = { # Yusseter
+		holding = tribal_holding
 	}
 }
 
@@ -86734,6 +87169,10 @@ rite = armenian_rite
 	795.11.8 = { # Yusseter
 		holding = tribal_holding
 	}
+
+	769.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
 }
 
 11871 = {	#Jixi
@@ -86935,6 +87374,10 @@ rite = armenian_rite
 	797.2.5 = { # Yusseter
 		holding = tribal_holding
 	}
+
+	769.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
 }
 
 11900 = {	#Qingshancun
@@ -86959,6 +87402,10 @@ rite = armenian_rite
 	797.11.8 = { # Yusseter
 		holding = tribal_holding
 	}
+
+	769.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
 }
 
 11903 = {	#Heizhuhai
@@ -86981,6 +87428,10 @@ rite = armenian_rite
 	}
 
 	797.11.5 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	769.1.1 = { # Yusseter
 		holding = tribal_holding
 	}
 }
@@ -87020,6 +87471,10 @@ rite = armenian_rite
 	769.7.15 = { # Yusseter
 		holding = tribal_holding
 	}
+
+	769.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
 }
 
 11912 = {	#Yongmingcheng
@@ -87043,6 +87498,10 @@ rite = armenian_rite
 	}
 
 	769.11.3 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	769.1.1 = { # Yusseter
 		holding = tribal_holding
 	}
 }
@@ -89140,6 +89599,14 @@ rite = armenian_rite
 	rite = rrmea # Yusseter
 	#rite = rrmeaism
 	holding = castle_holding
+
+	769.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	800.1.1 = { # Yusseter
+		holding = tribal_holding
+	}
 }
 
 12270 = {	# KAIBIAN
@@ -89563,6 +90030,14 @@ rite = armenian_rite
 		culture = yue
 		rite = mantrayana
 	}
+
+	1052.6.7 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	1053.1.18 = { # Yusseter
+		holding = castle_holding
+	}
 }
 
 12343 = {	# TANJIN
@@ -89718,6 +90193,14 @@ rite = armenian_rite
 	holding = castle_holding
 	1050.1.1 = {
 		culture = bouxcuengh
+	}
+
+	1052.10.30 = { # Yusseter
+		holding = tribal_holding
+	}
+
+	1053.1.18 = { # Yusseter
+		holding = castle_holding
 	}
 }
 
@@ -90717,6 +91200,22 @@ rite = armenian_rite
 		culture = mongol
 		rite = etugen
 	}
+
+	1230.1.1 = { # Yusseter
+		holding = castle_holding
+	}
+
+	1257.12.31 = { # Yusseter
+		holding = nomad_holding
+	}
+
+	1264.8.21 = { # Yusseter
+		holding = castle_holding
+	}
+
+	1270.1.1 = { # Yusseter
+		holding = nomad_holding
+	}
 }
 
 12565 = {	#b_GOBI_Dood_Ongi
@@ -90740,6 +91239,22 @@ rite = armenian_rite
 	1204.1.1 = {
 		culture = mongol
 		rite = etugen
+	}
+
+	1230.1.1 = { # Yusseter
+		holding = castle_holding
+	}
+
+	1257.12.31 = { # Yusseter
+		holding = nomad_holding
+	}
+
+	1264.8.21 = { # Yusseter
+		holding = castle_holding
+	}
+
+	1270.1.1 = { # Yusseter
+		holding = nomad_holding
 	}
 }
 

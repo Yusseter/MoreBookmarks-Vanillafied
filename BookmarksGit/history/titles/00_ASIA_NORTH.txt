@@ -449,7 +449,7 @@ e_mongolia = {
 	840.1.1 = {
 		holder = 166765
 
-		government = clan_government
+		government = nomad_government
 	}
 	# Kirghiz rule
 	847.1.1 = {
@@ -739,7 +739,7 @@ k_mongolia = {
 	840.1.1 = {
 		holder = 166765
 
-		government = clan_government
+		government = nomad_government
 	}
 	# Kirghiz rule
 	847.1.1 = {
@@ -824,6 +824,9 @@ d_otuken = {
 	1026.3.22 = { holder = 1413535 liege = 0 } #蕭孝惠 Xiao Xiaohui or 蕭惠 Xiao Hui, Khitan name 脱古思 Tuogusi
 	1032.1.1 = { holder = 1413532 } #蕭孝友 Xiao Xiaoyou, Khitan name 撻不衍 Tabuyan
 	1038.4.4 = { holder = 1413905 } #蕭塔列葛/蕭塔烈葛 Xiao Taliege until 1043.9.29
+	1043.9.29 = {
+		government = steppe_admin_government
+	}
 	1048.4.20 = {
 		government = steppe_admin_government
 	}
@@ -848,8 +851,12 @@ d_otuken = {
 	1093.10.28 = { holder = 303208 } #Margus Buyuruk
 	#1095.1.1 = { holder = 1413376 } #耶律斡特剌
 	1099.12.12 = { holder = 1413930 } #蕭得里底 Xiao Delidi
-	1101.1.1 = { holder = 1413759 } #蕭奪剌 Xiao Duola
-	1102.1.1 = { holder = 1413930 } #蕭得里底 Xiao Delidi until 1104.8.4
+	1101.1.1 = { holder = 1413759
+		government = steppe_admin_government
+	} #蕭奪剌 Xiao Duola
+	1102.1.1 = { holder = 1413930
+		government = nomad_government
+	} #蕭得里底 Xiao Delidi until 1104.8.4
 	1104.1.1 = { holder = 0 }
 	1124.1.1 = { holder = 188905 }
 	1125.1.1 = {
@@ -1891,6 +1898,9 @@ c_karakorum = {
 	1026.3.22 = { holder = 1413535 liege = e_great_liao } #蕭孝惠 Xiao Xiaohui or 蕭惠 Xiao Hui, Khitan name 脱古思 Tuogusi
 	1032.1.1 = { holder = 1413532 } #蕭孝友 Xiao Xiaoyou, Khitan name 撻不衍 Tabuyan
 	1038.4.4 = { holder = 1413905 } #蕭塔列葛/蕭塔烈葛 Xiao Taliege until 1043.9.29
+	1043.9.29 = {
+		government = steppe_admin_government
+	}
 	1048.4.20 = {
 		government = steppe_admin_government
 	}
@@ -1918,9 +1928,18 @@ c_karakorum = {
 		liege = e_great_liao
 		holder = 1413930
 	}
-	1099.12.12 = {   } #蕭得里底 Xiao Delidi
-	1101.1.1 = { holder = 1413759 } #蕭奪剌 Xiao Duola
-	1102.1.1 = { holder = 1413930 } #蕭得里底 Xiao Delidi until 1104.8.4
+	1096.1.1 = {
+		government = steppe_admin_government
+	}
+	1099.12.12 = {
+		government = nomad_government
+	} #蕭得里底 Xiao Delidi
+	1101.1.1 = { holder = 1413759
+		government = steppe_admin_government
+	} #蕭奪剌 Xiao Duola
+	1102.1.1 = { holder = 1413930
+		government = nomad_government
+	} #蕭得里底 Xiao Delidi until 1104.8.4
 	1124.1.1 = { holder = 188905 }
 	#End of Liao Dynasty
 	1125.1.1 = {
@@ -2037,6 +2056,9 @@ c_gobi_ongi_gol = {
 	1026.3.22 = { holder = 1413535 liege = e_great_liao } #蕭孝惠 Xiao Xiaohui or 蕭惠 Xiao Hui, Khitan name 脱古思 Tuogusi
 	1032.1.1 = { holder = 1413532 } #蕭孝友 Xiao Xiaoyou, Khitan name 撻不衍 Tabuyan
 	1038.4.4 = { holder = 1413905 } #蕭塔列葛/蕭塔烈葛 Xiao Taliege until 1043.9.29
+	1043.9.29 = {
+		government = steppe_admin_government
+	}
 	1048.4.20 = {
 		government = steppe_admin_government
 	}
@@ -2064,9 +2086,19 @@ c_gobi_ongi_gol = {
 		liege = e_great_liao
 		holder = 1413930
 	}
+	1096.1.1 = {
+		government = steppe_admin_government
+	}
 	1099.7.6 = {   } #蕭得里底 Xiao Delidi
-	1101.1.1 = { holder = 1413759 } #蕭奪剌 Xiao Duola
-	1102.1.1 = { holder = 1413930 } #蕭得里底 Xiao Delidi until 1104.8.4
+	1099.12.12 = {
+		government = nomad_government
+	}
+	1101.1.1 = { holder = 1413759
+		government = steppe_admin_government
+	} #蕭奪剌 Xiao Duola
+	1102.1.1 = { holder = 1413930
+		government = nomad_government
+	} #蕭得里底 Xiao Delidi until 1104.8.4
 	1124.1.1 = { holder = 188905 }
 	#End of Liao Dynasty
 	1125.1.1 = {
@@ -2182,6 +2214,9 @@ c_gobi_ulaan_nuur = {
 	1026.3.22 = { holder = 1413535 liege = e_great_liao } #蕭孝惠 Xiao Xiaohui or 蕭惠 Xiao Hui, Khitan name 脱古思 Tuogusi
 	1032.1.1 = { holder = 1413532 } #蕭孝友 Xiao Xiaoyou, Khitan name 撻不衍 Tabuyan
 	1038.4.4 = { holder = 1413905 } #蕭塔列葛/蕭塔烈葛 Xiao Taliege until 1043.9.29
+	1043.9.29 = {
+		government = steppe_admin_government
+	}
 	1048.4.20 = {
 		government = steppe_admin_government
 	}
@@ -2209,9 +2244,19 @@ c_gobi_ulaan_nuur = {
 		liege = e_great_liao
 		holder = 1413930
 	}
+	1096.1.1 = {
+		government = steppe_admin_government
+	}
 	1099.7.15 = {   } #蕭得里底 Xiao Delidi
-	1101.1.1 = { holder = 1413759 } #蕭奪剌 Xiao Duola
-	1102.1.1 = { holder = 1413930 } #蕭得里底 Xiao Delidi until 1104.8.4
+	1099.12.12 = {
+		government = nomad_government
+	}
+	1101.1.1 = { holder = 1413759
+		government = steppe_admin_government
+	} #蕭奪剌 Xiao Duola
+	1102.1.1 = { holder = 1413930
+		government = nomad_government
+	} #蕭得里底 Xiao Delidi until 1104.8.4
 	1124.1.1 = { holder = 188905 }
 	#End of Liao Dynasty
 	1125.1.1 = {
@@ -2432,7 +2477,7 @@ c_karabalgasun = {
 
 	#867 - Khamag Mongols / Borjigin
 	840.1.1 = {
-		government = clan_government
+		government = nomad_government
 	}
 	867.1.1 = {
 		holder = 303255		#Bodonchar Munkhag Borjigin
@@ -2556,6 +2601,9 @@ c_mumo = {
 	1026.3.22 = { holder = 1413535 liege = e_great_liao } #蕭孝惠 Xiao Xiaohui or 蕭惠 Xiao Hui, Khitan name 脱古思 Tuogusi
 	1032.1.1 = { holder = 1413532 } #蕭孝友 Xiao Xiaoyou, Khitan name 撻不衍 Tabuyan
 	1038.4.4 = { holder = 1413905 } #蕭塔列葛/蕭塔烈葛 Xiao Taliege until 1043.9.29
+	1043.9.29 = {
+		government = steppe_admin_government
+	}
 	1048.4.20 = {
 		government = steppe_admin_government
 	}
@@ -2583,9 +2631,18 @@ c_mumo = {
 		liege = e_great_liao
 		holder = 1413930
 	}
-	1099.12.12 = {   } #蕭得里底 Xiao Delidi
-	1101.1.1 = { holder = 1413759 } #蕭奪剌 Xiao Duola
-	1102.1.1 = { holder = 1413930 } #蕭得里底 Xiao Delidi until 1104.8.4
+	1096.1.1 = {
+		government = steppe_admin_government
+	}
+	1099.12.12 = {
+		government = nomad_government
+	} #蕭得里底 Xiao Delidi
+	1101.1.1 = { holder = 1413759
+		government = steppe_admin_government
+	} #蕭奪剌 Xiao Duola
+	1102.1.1 = { holder = 1413930
+		government = nomad_government
+	} #蕭得里底 Xiao Delidi until 1104.8.4
 	1124.1.2 = { holder = 194334
 		government = steppe_admin_government
 	}
@@ -3993,6 +4050,9 @@ d_arkhangai = {
 		holder = dukha12
 	}
 
+	1271.2.18 = {
+		liege = 0
+	}
 	1279.9.12 = {
 		holder = dukha13
 	}
@@ -4230,6 +4290,9 @@ d_zavkhan = {
 
 	1270.1.30 = {
 		holder = ZavkhanNaiman13
+	}
+	1279.3.19 = {
+		liege = h_china
 	}
 	1285.1.1 = {
 		liege = h_china
@@ -4895,6 +4958,9 @@ d_ubsunur_hollow = {
 	1221.1.1 = {
 		liege = e_mongol_empire
 	}
+	1271.2.18 = {
+		liege = 0
+	}
 	1308.6.28 = {
 		holder = 3033001		#fictional Kokochu Bolormaa
 	}
@@ -5397,6 +5463,9 @@ d_khovd = {
 		holder = 303316M
 	}
 
+	1271.2.18 = {
+		liege = 0
+	}
 	1291.4.23 = {
 		holder = 303317M
 	}
@@ -8225,7 +8294,7 @@ c_krasnoyarsk = {
 	730.1.1 = {
 		holder = NorthTribals860  # Togeta
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	741.9.26 = {
@@ -8417,7 +8486,7 @@ c_shishina = {
 	730.1.1 = {
 		holder = NorthTribals629  # Balma (covers early bookmarks)
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	761.9.25 = {
@@ -8511,7 +8580,7 @@ c_kansk = {
 	730.1.1 = {
 		holder = NorthTribals516  # Qahi (first character in title history)
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.24 = {
@@ -8681,7 +8750,7 @@ c_chuna = {
 	730.9.12 = {
 		holder = NorthTribals360 # Togeta
 
-		government = tribal_government
+		government = nomad_government
 	}
 	792.11.5 = {
 		holder = NorthTribals361
@@ -8972,7 +9041,7 @@ c_lena = {
 	730.1.1 = {
 		holder = NorthTribals68  # Bilge
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.25 = {
@@ -9066,7 +9135,7 @@ c_ilga = {
 	730.1.1 = {
 		holder = NorthTribals170
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.25 = {
@@ -9213,7 +9282,7 @@ c_kitoi = {
 		liege = k_mongolia
 		holder = 769steppe5
 
-		government = tribal_government
+		government = nomad_government
 	}
 	#867
 	865.1.14 = {
@@ -9273,7 +9342,7 @@ c_kymyl_tey = {
 	730.1.1 = {
 		holder = NorthTribals331  # Onkhoi
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	765.9.28 = {
@@ -10292,7 +10361,7 @@ c_baigaluuls = {
 	730.7.12 = {
 		holder = NorthTribals91 # Bilge
 
-		government = tribal_government
+		government = nomad_government
 	}
 	795.11.8 = {
 		holder = NorthTribals92  # Tardu
@@ -10470,7 +10539,7 @@ c_olkhon = {
 	730.1.1 = {
 		holder = NorthTribals194
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.25 = {
@@ -10650,7 +10719,7 @@ c_ryty = {
 	730.1.1 = {
 		holder = NorthTribals41  # Bilge
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.24 = {
@@ -12246,7 +12315,7 @@ c_petropavl = {
 		liege = 0
 		holder = 302581	#fictional Slyuganka Sabakyr
 
-		government = tribal_government
+		government = nomad_government
 	}
 	864.2.23 = {
 		holder = Kimek1	#fictional Deryab Sabakyr
@@ -12270,7 +12339,7 @@ c_petropavl = {
 		holder = 302584	#fictional Malyaka Sabakyr
 		liege = 0
 
-		government = tribal_government
+		government = nomad_government
 	}
 	1088.2.13 = {
 		holder = 302585	#fictional Rayda Sabakyr
@@ -12480,7 +12549,7 @@ c_vargashi = {
 	863.8.9 = {
 		liege = 0
 		holder = 302581	#fictional Slyuganka Sabakyr
-		government = tribal_government
+		government = nomad_government
 	}
 	864.2.23 = {
 		holder = 6858 # Yeçtirek Baskatir
@@ -13774,7 +13843,7 @@ c_astana = {
 		liege = k_cuman
 		holder = 302596 # fictional Hulyen (Snr) Paikiv
 
-		government = tribal_government
+		government = nomad_government
 	}
 	1053.7.8 = {
 		government = nomad_government
@@ -14375,7 +14444,7 @@ c_shchuchinsk = {
 		liege = k_cuman
 		holder = 302596 # fictional Hulyen (Snr) Paikiv
 
-		government = tribal_government
+		government = nomad_government
 	}
 	1053.7.8 = {
 		government = nomad_government
@@ -14574,7 +14643,7 @@ c_sibir = {
 	}
 	#867
 	853.1.2 = {
-		government = tribal_government
+		government = nomad_government
 	}
 	853.4.16 = {
 		liege = 0
@@ -14628,7 +14697,7 @@ c_tobol = {
 	730.1.1 = {
 		holder = NorthTribals967  # Velmayka
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.25 = {
@@ -14724,7 +14793,7 @@ c_belogorje = {
 	}
 	#867
 	853.1.2 = {
-		government = tribal_government
+		government = nomad_government
 	}
 	854.1.2 = {
 		liege = 0
@@ -14834,7 +14903,7 @@ c_ishim = {
 		liege = 0
 		holder = 302542	#fictional Burmort Ishimir
 
-		government = tribal_government
+		government = nomad_government
 	}
 	845.8.22 = {
 		holder = 302544	#fictional Kezhedey Ishimir
@@ -14985,7 +15054,7 @@ c_tara = {
 		liege = 0
 		holder = 302563	#fictional Mosheg Taran
 
-		government = tribal_government
+		government = nomad_government
 	}
 	874.9.3 = {
 		holder = 302564	#fictional Chuga Taran
@@ -15038,7 +15107,7 @@ c_kazanskoye = {
 	730.1.1 = {
 		holder = NorthTribals915  # Tugan
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.25 = {
@@ -15193,7 +15262,7 @@ d_lanikaz = {
 	#867
 	760.1.2 = {
 		holder = 302425769	#fictional
-		government = tribal_government
+		government = nomad_government
 	}
 	815.1.22 = {
 		holder = 302425	#fictional Aepak Laktanid
@@ -15252,11 +15321,12 @@ c_omsk = {
 		holder = 302425769	#fictional
 		liege = d_lanikaz
 		government = tribal_government
+		government = nomad_government
 	}
 	760.1.2 = {
 		holder = 302425769	#fictional
 		liege = d_lanikaz
-		government = tribal_government
+
 	}
 	815.1.22 = {
 		holder = 302425	#fictional Aepak Laktanid
@@ -15402,7 +15472,7 @@ c_pavlodar = {
 	730.1.1 = {
 		holder = NorthTribals2656  # Girgen
 		liege = d_lanikaz
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.24 = {
@@ -15580,7 +15650,7 @@ c_tyumen = {
 	730.1.1 = {
 		holder = MansiMB67
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	735.8.19 = {
@@ -15778,7 +15848,7 @@ c_tabary = {
 	730.1.1 = {
 		holder = MansiMB46  # Kudym-Osh
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	765.9.28 = {
@@ -15869,7 +15939,7 @@ c_neramkary = {
 	730.1.1 = {
 		holder = MansiMB1  # Kudym-Osh
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	765.11.20 = {
@@ -16047,7 +16117,7 @@ c_tselym_dalyn = {
 
 	750.1.1 = {
 		holder = Khanty21
-		government = tribal_government
+		government = nomad_government
 	}
 
 	798.12.4 = {
@@ -16225,7 +16295,7 @@ c_kartauzh = {
 	730.1.1 = {
 		holder = NorthTribals1111
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.25 = {
@@ -16390,7 +16460,7 @@ c_pelym = {
 	}
 	# Pelym
 	866.1.2 = {
-		government = tribal_government
+		government = nomad_government
 	}
 	867.1.1 = {
 		#liege = d_pelym # Yusseter: For non-Yusseter bug
@@ -16610,7 +16680,7 @@ c_kazym = {
 
 	730.1.1 = {
 		holder = NorthTribals1955  # Tuhan
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	762.9.24 = {
@@ -16700,7 +16770,7 @@ c_sosva = {
 	730.1.1 = {
 		holder = NorthTribals1055
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	763.9.24 = {
@@ -18617,7 +18687,7 @@ c_sochur = {
 	730.1.1 = {
 		holder = NorthTribals681  # Togeta
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.24 = {
@@ -18752,7 +18822,7 @@ c_yenisei = {
 	730.1.1 = {
 		holder = NorthTribals659  # Kamara 
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	738.9.24 = {
@@ -18846,7 +18916,7 @@ c_vasyugan = {
 	730.1.1 = {
 		holder = NorthTribals1620  # Tatva
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.24 = {
@@ -19266,7 +19336,7 @@ c_sartlan = {
 	730.1.1 = {
 		holder = NorthTribals832  # Myusena
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.24 = {
@@ -19360,7 +19430,7 @@ c_ubins = {
 	730.1.1 = {
 		holder = NorthTribals1641  # Num
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	761.9.28 = {
@@ -19458,7 +19528,7 @@ c_igaran = {
 	730.1.1 = {
 		holder = NorthTribals702  # Hasaba
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.25 = {
@@ -19647,7 +19717,7 @@ c_kulunda = {
 		holder = NorthTribals2517  # Manas
 		liege = d_lanikaz
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	764.9.25 = {
@@ -20185,6 +20255,9 @@ d_akaltay = {
 	1221.1.1 = {
 		liege = e_mongol_empire
 	}
+	1271.2.18 = {
+		liege = 0
+	}
 	1300.9.11 = {
 		holder = 303327		#fictional Gurkhan Karakalpaks
 	}
@@ -20214,7 +20287,7 @@ c_koksemey = {
 		liege = 0
 		holder = 217186 # Kozel Üzümcü
 
-		government = clan_government
+		government = nomad_government
 	}
 	936.1.16 = {
 
@@ -20231,9 +20304,15 @@ c_koksemey = {
 	980.1.1 = {
 		holder = 217188
 
-		government = clan_government
+		government = nomad_government
 	}
 	#1066 - Naimans
+	1021.9.13 = {
+		government = nomad_government
+	}
+	994.8.24 = {
+		government = nomad_government
+	}
 	1066.1.2 = {
 		liege = d_gobi_altai
 		holder = 303320		#ficitonal Saryk Karakalpaks
@@ -20256,6 +20335,9 @@ c_koksemey = {
 	1214.9.11 = {
 		liege = e_mongol_empire
 		holder = 303326		#fictional Gurkhan Karakalpaks
+	}
+	1279.3.19 = {
+		liege = h_china
 	}
 	1280.9.11 = {
 		liege = h_china
@@ -23320,6 +23402,9 @@ d_chuvashia = {
 		holder = 1233620
 		government = tribal_government
 	}
+	895.1.1 = {
+		government = nomad_government
+	}
 	903.1.1 = {
 		holder = 1233621
 	}
@@ -25871,6 +25956,9 @@ d_cherson = {
 
 		government = feudal_government
 	}
+	1204.5.16 = {
+		government = administrative_government
+	}
 	1205.1.1 = {
 		holder = 1500367
 
@@ -26003,6 +26091,9 @@ c_korchev = {
 	1204.4.1 = {
 		government = feudal_government
 	}
+	1204.5.16 = {
+		government = administrative_government
+	}
 	1205.1.1 = {
 		liege = k_trebizond
 		holder = 125719
@@ -26013,10 +26104,10 @@ c_korchev = {
 		holder = 125717
 	}
 	1238.1.1 = {
-		holder = 145026
+		holder = MB_gavras_korchev_1 # Theodoros Gavras
 	}
 	1260.3.1 = {
-		government = ecclesiastical_government
+
 	}
 	1261.2.1 = {
 		holder = 125721 # Andronikos Megas Komnenos
@@ -26226,6 +26317,9 @@ c_kerch = {
 	}
 	1204.4.1 = {
 		government = feudal_government
+	}
+	1204.5.16 = {
+		government = administrative_government
 	}
 	1205.1.1 = {
 		holder = 1500367
@@ -26675,7 +26769,7 @@ c_matya = {
 	}
 	769.1.1 = {
 		holder = MB_HerderMatya1 # Atemas
-		government = herder_government
+		government = tribal_government
 	}
 	799.1.1 = {
 
@@ -26796,7 +26890,7 @@ c_lachyk-uba = {
 	}
 	769.1.1 = {
 		holder = MB_HerderLachykUba1 # Ovtay
-		government = herder_government
+		government = tribal_government
 	}
 	796.6.6 = {
 		holder = MB_HerderLachykUba2 # Kirdya
@@ -27450,6 +27544,9 @@ c_saratov = {
 
 		government = tribal_government
 	}
+	895.1.1 = {
+		government = nomad_government
+	}
 	903.1.1 = {
 		holder = 1233621
 	}
@@ -27561,7 +27658,7 @@ c_serdosk = {
 	769.1.1 = {
 		holder = MB_HerderSerdosk1 # Atemas
 
-		government = herder_government
+		government = tribal_government
 	}
 	# Alatyr
 	797.5.6 = {
@@ -27814,6 +27911,9 @@ c_petrovsk = {
 
 		government = tribal_government
 	}
+	895.1.1 = {
+		government = nomad_government
+	}
 	903.1.1 = {
 		holder = 1233621
 	}
@@ -27980,7 +28080,7 @@ c_tuluchezeva = {
 	}
 	769.1.1 = {
 		holder = MB_HerderTuluchezeva1 # Ovtay
-		government = herder_government
+		government = tribal_government
 	}
 	790.1.1 = {
 
@@ -28343,6 +28443,9 @@ c_durovka = {
 	861.1.1 = {
 		liege = d_chuvashia
 		holder = 1233620
+	}
+	895.1.1 = {
+		government = nomad_government
 	}
 	903.1.1 = {
 		holder = 1233621
@@ -37974,9 +38077,13 @@ k_goguryeo = {
 
 	#Jin
 	
-	1116.6.13 = { liege = e_andong effect = { set_coa = k_dongjing } } 
-	1116.6.13 = { holder = jurchen46 }
-	1123.1.1 = { holder = jurchen362 }
+	1116.6.13 = { liege = e_andong effect = { set_coa = k_dongjing }
+	}
+	1116.6.13 = { holder = jurchen46
+		government = tribal_government }
+	1123.1.1 = { holder = jurchen362
+		government = meritocratic_government
+	}
 	1136.1.1 = { holder = jurchen102 }
 	1140.1.1 = {
 		de_jure_liege = e_andong
@@ -38021,7 +38128,7 @@ k_goguryeo = {
 	1272.1.1 = { liege = h_china }
 
 	1285.1.1 = { holder = SEAsiaMMBMongol5 liege = h_china name = "YUAN_LIAOYANG"
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1291.1.1 = { holder = SEAsiaMMBMongol6 }
 
@@ -40310,6 +40417,9 @@ d_murin_china = {
 		holder = Ongud27 # Sartaq (son of Inalchuk)
 	}
 
+	1279.3.19 = {
+		liege = h_china
+	}
 	1285.1.1 = {
 		liege = h_china
 	}
@@ -41479,6 +41589,9 @@ d_EM_wajiezi = {
 		holder = MongolNew88  # Tokhta
 	}
 	
+	1279.3.19 = {
+		liege = h_china
+	}
 	1285.1.1 = {
 		liege = k_mongolia
 	}
@@ -41673,6 +41786,9 @@ d_EM_yujuelu = {
 		holder = MongolNew628  # Ariq_Boke
 	}
 	
+	1279.3.19 = {
+		liege = h_china
+	}
 	1285.1.1 = {
 		liege = k_mongolia
 	}
@@ -44379,6 +44495,9 @@ d_LIAO_linhuang = {
 	1237.1.1 = { holder = 1413470 }
 	1261.1.1 = { holder = 1413474 }
 	1274.1.1 = { holder = 1413475 }
+	1279.3.19 = {
+		liege = h_china
+	}
 	1283.1.1 = { holder = 1413476 }
 	1285.1.1 = { liege = h_china }
 	#Yuan
@@ -44807,7 +44926,9 @@ c_LIAO_wuzhou = {
 	1056.1.1 = { holder = 1413069
 		government = nomad_government
 	}
-	1057.1.1 = { holder = 1413108 }
+	1057.1.1 = { holder = 1413108
+		government = steppe_admin_government
+	}
 	1061.1.1 = { holder = 1800113
 		government = steppe_admin_government
 	}
@@ -46621,6 +46742,9 @@ c_LIAO_taizhou = {
 	1220.1.1 = { liege = e_mongol_empire }
 	1246.11.12 = { holder = KhitanTuliuyu18 }
 	1275.8.21 = { holder = KhitanTuliuyu19 }
+	1279.3.19 = {
+		liege = h_china
+	}
 	1285.1.1 = {
 		liege = k_goguryeo
 	}
@@ -46866,6 +46990,12 @@ c_LIAO_heicaoan = {
 	1046.1.1 = {
 		holder = 1413912
 	}
+	1063.4.19 = {
+		government = steppe_admin_government
+	}
+	1066.1.7 = {
+		government = nomad_government
+	}
 	1086.1.1 = {
 		holder = 1413913
 	}
@@ -46934,6 +47064,9 @@ d_sanggan = {
 		holder = li_674E_zhuye_1 # Chixin Zhuye
 	}
 	874.1.1 = {
+		government = celestial_government
+	}
+	876.1.1 = {
 		government = nomad_government
 	}
 	918.1.1 = {
@@ -47205,15 +47338,17 @@ d_BAL_parhae = { #渤海/震
 	#Yuan
 
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
+		liege = h_china
 		government = meritocratic_government
+
 	}
 	1285.1.1 = {
 		liege = k_goguryeo
 
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1285.5.18 = { holder = JurchenLi63 }
 	1312.10.30 = { holder = JurchenLi68 }
@@ -47281,13 +47416,13 @@ c_BAL_yongcheon = {
 	1231.1.21 = { holder = JurchenLi47 }
 	1258.7.14 = { holder = JurchenLi55 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
 		government = meritocratic_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1285.5.18 = { holder = JurchenLi63 }
 	1312.10.30 = { holder = JurchenLi68 }
@@ -47354,13 +47489,13 @@ c_BAL_yeongju = {
 	1230.10.18 = { holder = YazhanJurchen33 }
 	1259.2.13 = { holder = YazhanJurchen34 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
 		government = meritocratic_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1288.8.27 = { holder = YazhanJurchen35 }
 	1317.12.14 = { holder = YazhanJurchen36 }
@@ -47429,13 +47564,13 @@ c_BAL_dongju = {
 	1231.1.21 = { holder = JurchenLi47 }
 	1258.7.14 = { holder = JurchenLi55 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
 		government = meritocratic_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1285.5.18 = { holder = JurchenLi63 }
 	1312.10.30 = { holder = JurchenLi68 }
@@ -47444,7 +47579,7 @@ c_BAL_dongju = {
 c_SW_suihua = {
 	730.1.1 = {
 		holder = MongolNew2278  # Bartan (covers the 769 bookmark)
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.18 = {
@@ -47535,7 +47670,7 @@ c_SW_fancao = {
 	730.4.9 = {
 		holder = MongolNew2182 # Khabul
 
-		government = tribal_government
+		government = nomad_government
 	}
 	760.1.1 = {
 		liege = d_SW_sushenguo
@@ -47652,13 +47787,13 @@ c_BAL_makhil = {
 	1234.1.1 = {  }
 	1250.1.1 = { holder = NSteppeMB447 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
 		government = meritocratic_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1300.1.1 = { holder = NSteppeMB448 }
 	1325.1.1 = { holder = NSteppeMB449 }
@@ -47796,13 +47931,13 @@ c_BAL_west_makhil = {
 		holder = JurchenTudan40
 	}
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
 		government = meritocratic_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1293.7.29 = {
 		holder = JurchenTudan46
@@ -47871,15 +48006,18 @@ d_sumo_china = {
 	1234.1.1 = { holder = jurchen304MB }
 	1269.1.1 = { holder = jurchen305MB }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1272.1.1 = {
 		government = meritocratic_government
 	}
+	1279.3.19 = {
+		liege = h_china
+	}
 	1285.1.1 = {
 		liege = k_goguryeo
 
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1300.1.1 = { holder = jurchen306MB }
 	1321.1.1 = { holder = jurchen307MB }
@@ -48024,13 +48162,15 @@ d_BAL_moe_su = {
 		holder = JurchenTudan40
 	}
 	1271.1.1 = {
-		government = celestial_government
-	}
-	1279.3.19 = {
 		government = meritocratic_government
 	}
+	1279.3.19 = {
+		liege = h_china
+		government = meritocratic_government
+
+	}
 	1285.1.1 = { liege = k_goguryeo
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1293.7.29 = {
 		holder = JurchenTudan46
@@ -48092,13 +48232,13 @@ c_BAL_west_hyeondeok = {
 	1243.4.26 = { holder = JurchenPucha42 }
 	1270.3.18 = { holder = JurchenPucha48 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
 		government = meritocratic_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1297.8.17 = { holder = JurchenPucha54 }
 	1324.11.18 = { holder = JurchenPucha60 }
@@ -48232,15 +48372,17 @@ d_BAL_cheolli = {
 		holder = JurchenJiagu38
 	}
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
+		liege = h_china
 		government = meritocratic_government
+
 	}
 	1285.1.1 = {
 		liege = k_goguryeo
 
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1301.11.21 = {
 		holder = JurchenJiagu44
@@ -48253,7 +48395,7 @@ d_BAL_cheolli = {
 d_SW_sushenguo = {
 	730.1.1 = {
 		holder = MongolNew2278  # Bartan (covers the 769 bookmark)
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	768.9.18 = {
@@ -48410,7 +48552,7 @@ c_BAL_xinzhou = {
 	1234.1.1 = { holder = jurchen304MB }
 	1269.1.1 = { holder = jurchen305MB }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1300.1.1 = { holder = jurchen306MB }
 	1321.1.1 = { holder = jurchen307MB }
@@ -48422,7 +48564,7 @@ c_BAL_xinzhou = {
 		government = meritocratic_government
 	}
 	1285.1.1 = { liege = k_goguryeo
-		government = celestial_government
+		government = meritocratic_government
 	}
 }
 c_BAL_sokju = {
@@ -48495,7 +48637,7 @@ c_BAL_sokju = {
 	1234.1.1 = { holder = jurchen304MB }
 	1269.1.1 = { holder = jurchen305MB }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1300.1.1 = { holder = jurchen306MB }
 	1321.1.1 = { holder = jurchen307MB }
@@ -48507,7 +48649,7 @@ c_BAL_sokju = {
 		government = meritocratic_government
 	}
 	1285.1.1 = { liege = k_goguryeo
-		government = celestial_government
+		government = meritocratic_government
 	}
 }
 c_BAL_east_jangryeong = {
@@ -48575,10 +48717,10 @@ c_BAL_east_jangryeong = {
 	1217.6.1 = {  }
 	1234.1.1 = { holder = jurchen1272MB }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1288.1.1 = { holder = jurchen1273MB }
 	1303.1.1 = { holder = jurchen1274MB }
@@ -48666,13 +48808,13 @@ c_BAL_west_jangryeong = {
 	1239.2.5 = { holder = JurchenHuiba29 }
 	1268.12.15 = { holder = JurchenHuiba39 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
 		government = meritocratic_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1301.11.28 = { holder = JurchenHuiba49 }
 }
@@ -49005,7 +49147,7 @@ c_LIAO_yinzhou = {
 	1222.10.6 = { holder = JurchenHashgan32 }
 	1262.3.4 = { holder = JurchenHashgan40 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1272.1.1 = { liege = h_china }
 	1285.1.1 = { liege = k_goguryeo }
@@ -49226,15 +49368,23 @@ d_BAL_southern_balhae = {
 	1220.1.1 = { 		government = meritocratic_government }
 	1233.1.1 = {
 		holder = jurchen1478 # Thege
+
+		liege = e_mongol_empire
 	}
 	1234.1.1 = {  }
 	1266.1.1 = { holder = jurchen1340M4 }
 	#Yuan
 
+	1271.1.1 = {
+		government = meritocratic_government
+	}
+	1279.3.19 = {
+		government = meritocratic_government
+	}
 	1285.1.1 = {
 		liege = k_goguryeo
 
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1300.1.1 = { holder = jurchen1340M5 }
 	1330.1.1 = { holder = jurchen1340M6 }
@@ -49334,9 +49484,15 @@ c_BAL_northyongwon = {
 
 	1233.1.1 = { holder = jurchen1478 }
 	1266.1.1 = { holder = jurchen1340M4 }
+	1271.1.1 = {
+		government = meritocratic_government
+	}
 	1272.1.1 = { liege = 0 }
+	1279.3.19 = {
+		government = meritocratic_government
+	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1300.1.1 = { holder = jurchen1340M5 }
 	1330.1.1 = { holder = jurchen1340M6 }
@@ -49426,8 +49582,14 @@ c_BAL_fengzhou = {
 	1259.7.7 = {
 		holder = BalhaeGo2_20 # Go Huaiyuan
  }
+	1271.1.1 = {
+		government = meritocratic_government
+	}
+	1279.3.19 = {
+		government = meritocratic_government
+	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1287.11.30 = {
 		holder = BalhaeGo2_21 # Go Longji
@@ -49511,14 +49673,17 @@ c_BAL_southyongwon = {
 	1180.1.1 = { holder = jurchen1340M liege= d_BAL_southern_balhae }
 	1222.1.1 = { holder = jurchen1340M2 }
 	1240.1.1 = { holder = jurchen1340M3 }
+	1271.1.1 = {
+		government = meritocratic_government
+	}
 	1272.1.1 = { liege = h_china
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1280.1.1 = { holder = jurchen1340M4
 		government = meritocratic_government
 	}
 	1285.1.1 = { liege = k_goguryeo
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1300.1.1 = {
 		holder = MB_end_jurchen1340m4_1 # continuation of the hua jurchen name line
@@ -49529,6 +49694,9 @@ c_BAL_southyongwon = {
 c_BAL_namhae = {
 	766.1.1 = { change_development_level = 12 }
 	936.1.1 = { change_development_level = 16 }
+	936.8.7 = {
+		government = steppe_admin_government
+	}
 	937.1.1 = {
 		government = steppe_admin_government
 	}
@@ -49601,14 +49769,14 @@ c_BAL_namhae = {
 	1234.1.1 = { holder = JurchenGuwalgiya75 }
 	1245.7.20 = { holder = JurchenGuwalgiya81 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
 		government = meritocratic_government
 	}
 	1281.8.13 = { holder = JurchenGuwalgiya87 }
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1317.9.1 = { holder = JurchenGuwalgiya93 }
 }
@@ -49618,7 +49786,9 @@ c_yeongwon = {
 	769.1.1 = {
 		holder = MB_anc_yeongwon_1 # forefather, holds from the 769 start
 
+		liege = e_goryeo
 		government = meritocratic_government
+
 	}
 	797.1.1 = {
 		holder = MB_anc_yeongwon_2 # Keoridae
@@ -49901,13 +50071,13 @@ c_BAL_delizhen = {
 		holder = JurchenJiagu38
 	}
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
 		government = meritocratic_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1301.11.21 = {
 		holder = JurchenJiagu44
@@ -50098,7 +50268,7 @@ c_SW_heilonglin = {
 	730.1.1 = {
 		holder = MongolNew2092  # Bodonchar
 
-		government = tribal_government
+		government = nomad_government
 	}
 	
 	760.1.1 = {
@@ -51935,9 +52105,13 @@ d_LIAO_dongjing = { #辽东/玄菟
 	1116.1.17 = { holder = 1414004 liege = k_liao } #Go Yeongchang
 	#Jin 咸州路/南路/东南路都统司，领东京路/曷苏馆路民政
 	
-	1116.6.13 = { liege = e_andong } 
-	1116.6.13 = { holder = jurchen46 }
-	1123.1.1 = { holder = jurchen362 }
+	1116.6.13 = { liege = e_andong
+	}
+	1116.6.13 = { holder = jurchen46
+		government = tribal_government }
+	1123.1.1 = { holder = jurchen362
+		government = meritocratic_government
+	}
 	1136.1.1 = { holder = jurchen102 }
 	1143.7.1 = { holder = jurchen214 }
 	1145.1.1 = { holder = jurchen1114 }
@@ -51982,7 +52156,7 @@ d_LIAO_dongjing = { #辽东/玄菟
 	1259.1.1 = { holder = EasternLiao5 }
 	1269.1.1 = { holder = EasternLiao6 }
 	1285.1.1 = { holder = SEAsiaMMBMongol5
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1291.1.1 = { holder = SEAsiaMMBMongol6 }
 }
@@ -52141,9 +52315,13 @@ c_LIAO_shenyang = { #辽东, 遼陽郡
 	}
 	1116.1.17 = { holder = 1414004 liege = k_liao } #Go Yeongchang
 	#Jin
-	1116.6.13 = { liege = e_andong } 
-	1116.6.13 = { holder = jurchen46 }
-	1123.1.1 = { holder = jurchen362 }
+	1116.6.13 = { liege = e_andong
+	}
+	1116.6.13 = { holder = jurchen46
+		government = tribal_government }
+	1123.1.1 = { holder = jurchen362
+		government = meritocratic_government
+	}
 	1136.1.1 = { holder = jurchen102 }
 	1143.7.1 = { holder = jurchen214 }
 	1145.1.1 = { holder = jurchen1114 }
@@ -52188,7 +52366,7 @@ c_LIAO_shenyang = { #辽东, 遼陽郡
 
 	1272.1.1 = { liege = h_china }
 	1285.1.1 = { holder = SEAsiaMMBMongol5
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1291.1.1 = { holder = SEAsiaMMBMongol6 }
 }
@@ -52304,7 +52482,7 @@ c_LIAO_guidezhou = { #辽东, 遼陽郡
 	} #Yelü Heli
 	970.1.1 = { holder = 1413046 } #Yelü Longxian
 	983.5.15 = { holder = HesheliMB
-		government = tribal_government
+		government = steppe_admin_government
 	}
 	1025.1.1 = { holder = jurchen1176 } 
 	1050.1.1 = { holder = jurchen1154 } 
@@ -52340,7 +52518,7 @@ c_LIAO_guidezhou = { #辽东, 遼陽郡
 	1256.2.17 = { holder = JurchenJiagu35 }
 	1268.8.3 = { holder = JurchenJiagu41 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1319.1.25 = { holder = JurchenJiagu45 }
 }
@@ -52429,9 +52607,15 @@ c_LIAO_diezhou = {
 
 	#Liao
 
-	926.1.1 = {   } #阿古迺
-	951.1.1 = { holder = jurchen3 liege = d_LIAO_dongjing }
-	980.1.1 = { holder = jurchen4 }
+	926.1.1 = {
+		government = steppe_admin_government
+	} #阿古迺
+	951.1.1 = { holder = jurchen3 liege = d_LIAO_dongjing
+		government = tribal_government
+	}
+	980.1.1 = { holder = jurchen4
+		government = steppe_admin_government
+	}
 	1005.1.1 = { holder = jurchen5 }
 	1030.1.1 = { holder = jurchen6 }
 	1055.1.1 = { holder = jurchen7 }
@@ -52442,7 +52626,9 @@ c_LIAO_diezhou = {
 
 	#Jin
 
-	1118.1.1 = { holder = jurchen10 } # 鉤室，襲封曷蘇館七部都勃堇
+	1118.1.1 = { holder = jurchen10
+		government = tribal_government
+	} # 鉤室，襲封曷蘇館七部都勃堇
 	1127.1.1 = {
 		government = meritocratic_government
 	}
@@ -52452,7 +52638,7 @@ c_LIAO_diezhou = {
 	1217.8.29 = { holder = JurchenHashgan30 }
 	1257.11.28 = { holder = JurchenHashgan38}
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1297.9.20 = { holder = JurchenHashgan46 }
 	
@@ -52539,17 +52725,30 @@ c_LIAO_zhenzhou = {
 	#Balhae
 
 	860.1.1 = { holder = 1419901 liege = k_balhae }
-	926.1.1 = {   } #阿古迺
-	951.1.1 = { holder = jurchen3 }
-	980.1.1 = { holder = jurchen4 }
+	926.1.1 = {
+		government = steppe_admin_government
+	} #阿古迺
+	951.1.1 = { holder = jurchen3
+		government = tribal_government
+	}
+	980.1.1 = { holder = jurchen4
+		government = steppe_admin_government
+	}
 	1005.1.1 = { holder = jurchen5 }
 	1030.1.1 = { holder = jurchen6 }
 	1055.1.1 = { holder = jurchen7 }
 	1080.1.1 = { holder = jurchen8 }
 	1055.1.1 = { holder = jurchen11 } # 合住，遼辰、復二州刺史
 	1088.1.1 = { holder = jurchen12 } # 蒲速越，襲遼辰、復二州刺史
-	1108.1.1 = { holder = jurchen13 liege = e_andong }  # 余里也，1116年與胡十門歸金，授苾里海水世襲猛安、曹州防禦使
-	1116.1.17 = { liege = d_LIAO_dongjing } #
+	1108.1.1 = { holder = jurchen13 liege = e_andong
+		government = tribal_government
+	}  # 余里也，1116年與胡十門歸金，授苾里海水世襲猛安、曹州防禦使
+	1116.1.17 = { liege = d_LIAO_dongjing
+		government = steppe_admin_government
+	} #
+	1125.1.1 = {
+		government = tribal_government
+	}
 	1127.1.1 = {
 		government = meritocratic_government
 	}
@@ -52559,7 +52758,7 @@ c_LIAO_zhenzhou = {
 	1213.1.1 = { holder = JurchenHashgan30 }
 	1257.11.28 = { holder = JurchenHashgan38}
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1297.9.20 = { holder = JurchenHashgan46 }
 }
@@ -52697,7 +52896,7 @@ c_BAL_west_amnok = {
 	1228.1.18 = { holder = JurchenPucha38 }
 	1255.10.5 = { holder = JurchenPucha44 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1282.2.3 = { holder = JurchenPucha50 }
 	1309.6.14 = { holder = JurchenPucha56 }
@@ -52739,15 +52938,18 @@ d_BAL_amnok_jangryeong = { #高句丽/哥勿州
 	1230.1.1 = { liege = e_mongol_empire }
 	1234.1.1 = { holder = jurchen1272MB }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1272.1.1 = {
 		government = meritocratic_government
 	}
+	1279.3.19 = {
+		liege = h_china
+	}
 	1285.1.1 = {
 		liege = k_goguryeo
 
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1288.1.1 = { holder = jurchen1273MB }
 	1303.1.1 = { holder = jurchen1274MB }
@@ -52787,6 +52989,9 @@ c_BAL_east_amnok = {
 	
 	921.7.16 = {
 		holder = BalhaeJang18
+	}
+	936.8.7 = {
+		government = steppe_admin_government
 	}
 	937.1.1 = {
 		government = steppe_admin_government
@@ -52841,13 +53046,13 @@ c_BAL_east_amnok = {
 	1217.6.1 = {   }
 	1244.4.11 = { holder = JurchenHesheli41 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1271.6.22 = { holder = JurchenHesheli47
 		government = meritocratic_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1298.11.2 = { holder = JurchenHesheli53 }
 	1325.5.18 = { holder = JurchenHesheli59 }
@@ -52858,7 +53063,9 @@ c_uiju = {
 	769.1.1 = {
 		holder = MB_anc_uiju_1 # forefather, holds from the 769 start
 
+		liege = e_goryeo
 		government = meritocratic_government
+
 	}
 	797.1.1 = {
 		holder = MB_anc_uiju_2 # Geum Yong
@@ -52869,6 +53076,9 @@ c_uiju = {
 		liege = d_yukju
 	}
 	936.1.1 = { change_development_level = 16 }
+	936.8.7 = {
+		government = steppe_admin_government
+	}
 	937.1.1 = {
 		government = steppe_admin_government
 	}
@@ -52972,7 +53182,9 @@ c_jangjeong = {
 	769.1.1 = {
 		holder = MB_anc_jangjeong_1 # forefather, holds from the 769 start
 
+		liege = e_goryeo
 		government = meritocratic_government
+
 	}
 	797.1.1 = {
 		holder = MB_anc_jangjeong_2 # Geum Yong
@@ -52983,6 +53195,9 @@ c_jangjeong = {
 		liege = d_yukju
 	}
 	936.1.1 = { change_development_level = 16 }
+	936.8.7 = {
+		government = steppe_admin_government
+	}
 	937.1.1 = {
 		government = steppe_admin_government
 	}
@@ -53090,7 +53305,9 @@ c_gwiju = {
 	769.1.1 = {
 		holder = MB_anc_gwiju_1 # forefather, holds from the 769 start
 
+		liege = e_goryeo
 		government = meritocratic_government
+
 	}
 	797.1.1 = {
 		holder = MB_anc_gwiju_2 # Geum Yong
@@ -53101,6 +53318,9 @@ c_gwiju = {
 		liege = d_yukju
 	}
 	936.1.1 = { change_development_level = 16 }
+	936.8.7 = {
+		government = steppe_admin_government
+	}
 	937.1.1 = {
 		government = steppe_admin_government
 	}
@@ -53286,7 +53506,9 @@ c_seogyeong = {
 	769.1.1 = {
 		holder = MB_anc_seogyeong_1 # forefather, holds from the 769 start
 
+		liege = e_goryeo
 		government = meritocratic_government
+
 	}
 	797.1.1 = {
 		holder = MB_anc_seogyeong_2 # Keoridae
@@ -53386,7 +53608,9 @@ c_taeju = {
 	769.1.1 = {
 		holder = MB_anc_taeju_1 # forefather, holds from the 769 start
 
+		liege = e_goryeo
 		government = meritocratic_government
+
 	}
 	797.1.1 = {
 		holder = MB_anc_taeju_2 # Keoridae
@@ -53481,6 +53705,8 @@ d_BAL_yeojintang = {
 	
 	730.1.1 = {
 		holder = EastSteppe1612  # Kunaha
+
+		government = tribal_government
 	}
 	
 	738.9.24 = {
@@ -53588,7 +53814,7 @@ c_BAL_solbin = {
 		holder = EastSteppe1805
 		liege = k_balhae
 
-		government = meritocratic_government
+		government = tribal_government
 	}
 	
 	738.9.18 = {
@@ -53643,13 +53869,13 @@ c_BAL_solbin = {
 	1221.3.27 = { holder = JurchenShuaibin52 }
 	1230.1.1 = { liege = e_mongol_empire }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1271.11.9 = { holder = JurchenShuaibin59
 		government = meritocratic_government
 	}
 	1272.1.1 = { liege = h_china
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1285.1.1 = { liege = k_goguryeo }
 	1297.2.19 = { holder = JurchenShuaibin66 }
@@ -53756,7 +53982,7 @@ d_BAL_dongpyeong = {
 		holder = EastSteppe1784  # Husurugai
 		liege = k_balhae
 
-		government = meritocratic_government
+		government = tribal_government
 	}
 	
 	795.11.8 = {
@@ -53826,16 +54052,18 @@ d_BAL_dongpyeong = {
 	1220.1.1 = { holder = JurchenFuca47 }
 	1255.8.8 = { holder = JurchenFuca49 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
+		liege = h_china
 		government = meritocratic_government
+
 	}
 	1283.6.1 = { holder = JurchenFuca51 }
 	1285.1.1 = {
 		liege = k_goguryeo
 
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1311.3.7 = { holder = JurchenFuca53 }
 	
@@ -53850,7 +54078,7 @@ c_BAL_dongpyeong_yizhou = {
 	763.9.25 = {
 		holder = EastSteppe1784  # Husurugai
 
-		government = meritocratic_government
+		government = tribal_government
 	}
 	
 	795.11.8 = {
@@ -53917,14 +54145,14 @@ c_BAL_dongpyeong_yizhou = {
 	1220.1.1 = { holder = JurchenFuca47 }
 	1255.8.8 = { holder = JurchenFuca49 }
 	1271.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1279.3.19 = {
 		government = meritocratic_government
 	}
 	1283.6.1 = { holder = JurchenFuca51 }
 	1285.1.1 = {
-		government = celestial_government
+		government = meritocratic_government
 	}
 	1311.3.7 = { holder = JurchenFuca53 }
 }
@@ -53933,6 +54161,8 @@ d_BAL_anwon = {
 
 	730.1.1 = {
 		holder = EastSteppe1332  # Hushahu
+
+		government = tribal_government
 	}
 	
 	768.9.27 = {
@@ -54017,6 +54247,9 @@ d_BAL_anwon = {
 		holder = EastSteppe1350  # Kunuma
 	}
 	
+	1279.3.19 = {
+		liege = h_china
+	}
 	1285.1.1 = {
 		liege = k_goguryeo
 	}
@@ -54035,6 +54268,8 @@ c_BAL_ningzhou = {
 
 	730.1.1 = {
 		holder = EastSteppe1332  # Hushahu
+
+		government = tribal_government
 	}
 	
 	768.9.27 = {
@@ -54399,6 +54634,8 @@ c_BAL_jeongni = {
 
 	730.1.1 = {
 		holder = EastSteppe1612  # Kunaha
+
+		government = tribal_government
 	}
 	
 	738.9.24 = {
@@ -54588,7 +54825,7 @@ c_BAL_north_anbyeon = {
 		holder = EastSteppe1217  # Hushahu
 		#liege = d_BAL_anbian # Yusseter
 
-		government = meritocratic_government
+		government = tribal_government
 	}
 	
 	797.11.8 = {
@@ -54687,7 +54924,7 @@ c_BAL_anbyeon = {
 		holder = EastSteppe1240  # Abulang
 		liege = k_balhae
 
-		government = meritocratic_government
+		government = tribal_government
 	}
 	
 	768.9.23 = {
@@ -54775,6 +55012,9 @@ c_BAL_anbyeon = {
 		holder = EastSteppe1309  # Yongji
 	}
 	
+	1279.3.19 = {
+		liege = h_china
+	}
 	1285.1.1 = {
 		liege = k_goguryeo
 	}
@@ -54807,6 +55047,9 @@ d_liaoxi = { #辽西/平卢/平盧軍
 
 # EAST_TITLE_REWRITE_SECOND_REFERENCE: k_liao_zhongjing has second mapping to k_raole; manual review needed.
 	917.9.13 = { holder = anci_han_002 liege = k_liao_zhongjing government = celestial_government de_jure_liege = k_liao_zhongjing  }
+	936.8.7 = {
+		government = steppe_admin_government
+	}
 	937.1.1 = {
 		government = steppe_admin_government
 	}
@@ -54832,17 +55075,31 @@ d_liaoxi = { #辽西/平卢/平盧軍
 
 	#Eastern Liao
 	1213.1.1 = { holder = EasternLiao2
+		government = meritocratic_government
+	}
+	1220.1.1 = { holder = siaumb2 liege = k_goguryeo
 		government = nomad_government
 	}
-	1220.1.1 = { holder = siaumb2 liege = k_goguryeo  }
 	1221.1.1 = {
 		holder = XiaoMBKhitan1 
+
+		government = meritocratic_government
+	}
+	1230.1.1 = {
+		government = steppe_admin_government
 	}
 	1248.9.23 = {
 		holder = XiaoMBKhitan4 
+
+		government = steppe_admin_government
+	}
+	1271.1.1 = {
+		government = celestial_government
 	}
 	1274.10.29 = {
 		holder = XiaoMBKhitan9 
+
+		government = celestial_government
 	}
 	#Yuan
 
@@ -54872,6 +55129,9 @@ c_LIAO_xianzhou = {
 		holder = 1401889
 	}
 	936.1.1 = { change_development_level = 16 }
+	936.8.7 = {
+		government = steppe_admin_government
+	}
 	937.1.1 = {
 		government = steppe_admin_government
 	}
@@ -54927,7 +55187,7 @@ c_LIAO_xianzhou = {
 	1122.12.10 = { holder = jurchen344 liege = e_andong government = steppe_admin_government }
 
 	1123.5.27 = { holder = 1413765
-		government = nomad_government
+		government = meritocratic_government
 	}
 	1131.1.1 = { holder = 1413766 }
 	1164.1.1 = { holder = 1413767 }
@@ -54935,9 +55195,24 @@ c_LIAO_xianzhou = {
 	1200.1.1 = { holder = EasternLiao2 }
 	#Eastern Liao
 	1213.1.1 = { holder = 1413684 liege = d_liaoxi }
-	1237.1.1 = { holder = Shurud2 }
-	1272.3.17 = { holder = Shurud5 }
-	1304.2.14 = { holder = Shurud9 }
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
+	1237.1.1 = { holder = Shurud2
+		government = steppe_admin_government
+	}
+	1271.1.1 = {
+		government = celestial_government
+	}
+	1272.3.17 = { holder = Shurud5
+		government = celestial_government
+	}
+	1300.1.1 = {
+		government = celestial_government
+	}
+	1304.2.14 = { holder = Shurud9
+		government = nomad_government
+	}
 	1330.12.6 = { holder = Shurud13 }
 }
 
@@ -54955,6 +55230,9 @@ c_LIAO_liaozhou = {
 		holder = 1401889
 	}
 	936.1.1 = { change_development_level = 16 }
+	936.8.7 = {
+		government = steppe_admin_government
+	}
 	937.1.1 = {
 		government = steppe_admin_government
 	}
@@ -55010,7 +55288,7 @@ c_LIAO_liaozhou = {
 	1122.12.10 = { holder = jurchen344 liege = e_andong government = steppe_admin_government }
 
 	1123.5.27 = { holder = 1413765
-		government = nomad_government
+		government = meritocratic_government
 	}
 	1131.1.1 = { holder = 1413766 }
 	1164.1.1 = { holder = 1413767 }
@@ -55019,8 +55297,18 @@ c_LIAO_liaozhou = {
 	#Eastern Liao
 	1213.1.1 = { holder = KhitanYuling49 liege = d_liaoxi }
 	1222.1.28 = { holder = KhitanYuling50 }
-	1251.11.4 = { holder = KhitanYuling51 }
-	1280.4.22 = { holder = KhitanYuling52 }
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
+	1251.11.4 = { holder = KhitanYuling51
+		government = steppe_admin_government
+	}
+	1271.1.1 = {
+		government = celestial_government
+	}
+	1280.4.22 = { holder = KhitanYuling52
+		government = celestial_government
+	}
 	1309.9.30 = { holder = KhitanYuling53 }
 }
 
@@ -62739,7 +63027,7 @@ k_khotan = {
 	#Khotan Kings
 	100.1.1 = {
 		holder = 166632
-		government = feudal_government
+		government = clan_government
 	}
 	130.1.1 = {
 		holder = 166633
@@ -62924,7 +63212,7 @@ d_khotan = {
 		holder = 166632
 		liege = k_khotan
 
-		government = feudal_government
+		government = clan_government
 	}
 	130.1.1 = {
 		holder = 166633
@@ -63153,7 +63441,7 @@ c_dondan_oilik = {
 	100.1.1 = {
 		liege = d_khotan
 		holder = 166632
-		government = feudal_government
+		government = clan_government
 	}
 	130.1.1 = {
 		holder = 166633
@@ -63369,7 +63657,7 @@ c_khotan = {
 	100.1.1 = {
 		liege = d_khotan
 		holder = 166632
-		government = feudal_government
+		government = clan_government
 	}
 	130.1.1 = {
 		holder = 166633
@@ -63583,7 +63871,7 @@ c_karghalik = {
 	100.1.1 = {
 		liege = d_khotan
 		holder = 166632
-		government = feudal_government
+		government = clan_government
 	}
 	130.1.1 = {
 		holder = 166633
@@ -63797,7 +64085,7 @@ c_keriya = {
 	100.1.1 = {
 		liege = d_khotan
 		holder = 166632
-		government = feudal_government
+		government = clan_government
 	}
 	130.1.1 = {
 		holder = 166633
@@ -64010,7 +64298,7 @@ c_cherchen = {
 	720.1.1 = {
 		liege = d_khotan
 		holder = 166736
-		government = feudal_government
+		government = clan_government
 	}
 	758.1.1 = {
 		holder = 166737
@@ -64219,7 +64507,7 @@ c_kashgar = {
 
 	720.1.1 = {
 		holder = 166690
-		government = feudal_government
+		government = clan_government
 	}
 	760.1.1 = {
 		holder = 166691
@@ -64251,7 +64539,7 @@ c_kashgar = {
 	894.1.1 = {
 		holder = saka0016 # Zambasta Shaka
 
-		government = feudal_government
+		government = clan_government
 	}
 	920.1.2 = {
 
@@ -64389,7 +64677,7 @@ c_kashgar = {
 c_terek_pass = {
 	720.1.1 = {
 		holder = 166690
-		government = feudal_government
+		government = clan_government
 	}
 	760.1.1 = {
 		holder = 166691
@@ -64489,6 +64777,9 @@ c_terek_pass = {
 		holder = 1230274 # Husayn b. Hasan
 
 		government = clan_government
+	}
+	1144.10.1 = {
+		government = steppe_admin_government
 	}
 	1156.1.1 = {
 		holder = karluk0048 # Mahmúd b. Husayn
@@ -64591,7 +64882,7 @@ c_maralbeshi = {
 	}
 	760.1.1 = {
 		holder = 166713
-		government = feudal_government
+		government = clan_government
 	}
 	770.1.1 = {
 		holder = 166725
@@ -64752,7 +65043,7 @@ c_aksu = {
 	}
 	760.1.1 = {
 		holder = 166713
-		government = feudal_government
+		government = clan_government
 	}
 	770.1.1 = {
 		holder = 166725
@@ -64868,7 +65159,7 @@ c_yarkand = {
 	760.1.1 = {
 		holder = saka0009
 
-		government = feudal_government
+		government = clan_government
 	}
 	800.1.1 = {
 		holder = saka0010
@@ -64974,7 +65265,7 @@ c_yarkand = {
 d_karashar = {
 	280.1.1 = {
 		holder = agni_001
-		government = feudal_government
+		government = clan_government
 	}
 	289.7.11 = {
 		holder = agni_003
@@ -65050,7 +65341,7 @@ d_karashar = {
 	866.1.1 = {
 		holder = sogdian0003
 
-		government = feudal_government
+		government = clan_government
 	}
 	880.1.1 = {
 		holder = uyghur0036
@@ -65145,6 +65436,9 @@ d_karashar = {
 
 		government = celestial_government
 	}
+	1337.5.24 = {
+		government = clan_government
+	}
 	1340.1.1 = {
 		holder = uyghur0059
 	}
@@ -65161,7 +65455,9 @@ c_karashar = {
 
 	280.1.1 = {
 		holder = agni_001
+		government = clan_government
 		liege = d_karashar
+
 	}
 	289.7.11 = {
 		holder = agni_003
@@ -65248,7 +65544,7 @@ c_karashar = {
 	866.1.1 = {
 		holder = sogdian0003
 
-		government = feudal_government
+		government = clan_government
 	}
 	880.1.1 = {
 		holder = uyghur0036
@@ -65331,6 +65627,9 @@ c_karashar = {
 
 		government = celestial_government
 	}
+	1337.5.24 = {
+		government = clan_government
+	}
 	1340.1.1 = {
 		holder = uyghur0059
 	}
@@ -65342,7 +65641,7 @@ c_karashar = {
 d_kucha = {
 	91.1.1 = {
 		holder = kucha_001
-		government = feudal_government
+		government = clan_government
 	}
 	106.4.4 = {
 		holder = kucha_002
@@ -65469,7 +65768,7 @@ c_kucha = {
 	}
 	760.1.1 = {
 		holder = 166713
-		government = feudal_government
+		government = clan_government
 	}
 	770.1.1 = {
 		holder = 166725
@@ -65487,7 +65786,7 @@ c_kucha = {
 	864.1.1 = {
 		holder = 166716
 
-		government = feudal_government
+		government = clan_government
 	}
 	866.1.1 = {
 		holder = uyghur0061
@@ -65581,7 +65880,7 @@ c_luntai = {
 
 	91.1.1 = {
 		holder = kucha_001
-		government = feudal_government
+		government = clan_government
 		liege=d_kucha
 	}
 	106.4.4 = {
@@ -65735,6 +66034,9 @@ c_luntai = {
 
 		government = celestial_government
 	}
+	1337.5.24 = {
+		government = clan_government
+	}
 	1340.1.1 = {
 		holder = uyghur0059
 	}
@@ -65829,7 +66131,7 @@ d_charkliq = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = uyghur0116
@@ -65843,6 +66145,9 @@ d_charkliq = {
 	1320.1.1 = {
 		holder = uyghur0118
 	}
+	1337.5.24 = {
+		government = clan_government
+	}
 	1340.1.1 = {
 		holder = uyghur0119
 	}
@@ -65855,7 +66160,7 @@ d_charkliq = {
 c_charkliq = {
 	720.1.1 = {
 		holder = 166742
-		government = feudal_government
+		government = clan_government
 	}
 	764.1.1 = {
 		holder = 166743
@@ -65936,7 +66241,7 @@ c_charkliq = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = uyghur0116
@@ -65950,6 +66255,9 @@ c_charkliq = {
 	1320.1.1 = {
 		holder = uyghur0118
 	}
+	1337.5.24 = {
+		government = clan_government
+	}
 	1340.1.1 = {
 		holder = uyghur0119
 	}
@@ -65962,7 +66270,7 @@ c_charkliq = {
 c_loulan = {
 	630.1.1 = {
 		holder = 166748
-		government = feudal_government
+		government = clan_government
 	}
 	673.1.1 = {
 		holder = 166749
@@ -65987,7 +66295,7 @@ c_loulan = {
 	849.1.1 = {
 		holder = 166755
 
-		government = feudal_government
+		government = clan_government
 	}
 	#Uyghur rule
 	890.1.1 = {
@@ -66056,7 +66364,7 @@ c_loulan = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = uyghur0116
@@ -66069,6 +66377,9 @@ c_loulan = {
 	}
 	1320.1.1 = {
 		holder = uyghur0118
+	}
+	1337.5.24 = {
+		government = clan_government
 	}
 	1340.1.1 = {
 		holder = uyghur0119
@@ -66101,7 +66412,7 @@ c_dunhuang = {
 	866.1.1 = {
 		holder = sogdian0005
 
-		government = feudal_government
+		government = clan_government
 	}
 	#Uyghur rule
 	880.1.1 = {
@@ -66170,7 +66481,7 @@ c_dunhuang = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = uyghur0116
@@ -66183,6 +66494,9 @@ c_dunhuang = {
 	}
 	1320.1.1 = {
 		holder = uyghur0118
+	}
+	1337.5.24 = {
+		government = clan_government
 	}
 	1340.1.1 = {
 		holder = uyghur0119
@@ -66214,7 +66528,7 @@ c_luobupo = {
 	866.1.1 = {
 		holder = sogdian0005
 
-		government = feudal_government
+		government = clan_government
 	}
 	#Uyghur rule
 	880.1.1 = {
@@ -66283,7 +66597,7 @@ c_luobupo = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = uyghur0116
@@ -66296,6 +66610,9 @@ c_luobupo = {
 	}
 	1320.1.1 = {
 		holder = uyghur0118
+	}
+	1337.5.24 = {
+		government = clan_government
 	}
 	1340.1.1 = {
 		holder = uyghur0119
@@ -66308,7 +66625,7 @@ c_luobupo = {
 c_kumtag = {
 	630.1.1 = {
 		holder = 166748
-		government = feudal_government
+		government = clan_government
 	}
 	673.1.1 = {
 		holder = 166749
@@ -66333,7 +66650,7 @@ c_kumtag = {
 	849.1.1 = {
 		holder = 166755
 
-		government = feudal_government
+		government = clan_government
 	}
 	866.1.1 = {
 		holder = 166746
@@ -66405,7 +66722,7 @@ c_kumtag = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = uyghur0116
@@ -66418,6 +66735,9 @@ c_kumtag = {
 	}
 	1320.1.1 = {
 		holder = uyghur0118
+	}
+	1337.5.24 = {
+		government = clan_government
 	}
 	1340.1.1 = {
 		holder = uyghur0119
@@ -66430,7 +66750,7 @@ c_kumtag = {
 c_dafang = {
 	630.1.1 = {
 		holder = 166748
-		government = feudal_government
+		government = clan_government
 	}
 	673.1.1 = {
 		holder = 166749
@@ -66455,7 +66775,7 @@ c_dafang = {
 	849.1.1 = {
 		holder = 166755
 
-		government = feudal_government
+		government = clan_government
 	}
 	866.1.1 = {
 		holder = 166746
@@ -66527,7 +66847,7 @@ c_dafang = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = uyghur0116
@@ -66540,6 +66860,9 @@ c_dafang = {
 	}
 	1320.1.1 = {
 		holder = uyghur0118
+	}
+	1337.5.24 = {
+		government = clan_government
 	}
 	1340.1.1 = {
 		holder = uyghur0119
@@ -69667,6 +69990,8 @@ c_qayaliq = {
 	1218.1.1 = {
 		liege = e_mongol_empire
 		holder = 93062
+
+		government = nomad_government
 	}
 	1227.12.2 = {
 		liege = k_zhetysu
@@ -69716,7 +70041,7 @@ c_almaty = {
 	870.1.1 = {
 		holder = 1229801
 
-		government = clan_government
+		government = nomad_government
 	}
 	871.1.1 = {
 		holder = 194383 # Uzur Karlukid
@@ -69792,6 +70117,8 @@ c_almaty = {
 	1218.1.1 = {
 		liege = e_mongol_empire
 		holder = 93062
+
+		government = nomad_government
 	}
 	1227.12.2 = {
 		liege = k_zhetysu
@@ -70010,6 +70337,8 @@ c_kaskelen = {
 	1218.1.1 = {
 		liege = e_mongol_empire
 		holder = 93062
+
+		government = nomad_government
 	}
 	1227.12.2 = {
 		liege = k_zhetysu
@@ -70124,6 +70453,8 @@ c_aksuyek = {
 	1218.1.1 = {
 
 		holder = 93062
+
+		government = nomad_government
 	}
 	1227.12.2 = {
 
@@ -70348,7 +70679,7 @@ c_chuguchak = {
 		government = nomad_government
 	}
 	840.1.2 = {
-		government = clan_government
+		government = nomad_government
 	}
 	860.1.1 = {
 		government = nomad_government
@@ -71809,7 +72140,10 @@ k_dzungaria = {
 	1276.1.1 = {
 		holder = uyghur0090	#Nolen Tekin
 
-		government = clan_government
+		government = celestial_government
+	}
+	1279.3.19 = {
+		liege = h_china
 	}
 	1285.1.1 = {
 		liege = h_china
@@ -71846,7 +72180,7 @@ d_kara_khoja = {
 		#liege = k_xia
 		holder = sogdian0001
 
-		government = feudal_government
+		government = clan_government
 	}
 	#Kingdom of Qocho founded in 843
 	866.6.1 = {	#captured from Guiyi Circuit
@@ -71926,7 +72260,7 @@ d_kara_khoja = {
 	1276.1.1 = {
 		holder = uyghur0090	#Nolen Tekin
 
-		government = clan_government
+		government = celestial_government
 	}
 	1285.1.1 = {
 		government = celestial_government
@@ -71955,7 +72289,7 @@ c_kara_khoja = {
 	#1066.1.1 = { change_development_level = 10 }
 	720.1.1 = {
 		holder = 166730
-		government = feudal_government
+		government = clan_government
 	}
 	761.1.1 = {
 		holder = 166731
@@ -71969,7 +72303,7 @@ c_kara_khoja = {
 	866.1.1 = {	#captured by Guiyi Circuit
 		holder = sogdian0001
 
-		government = feudal_government
+		government = clan_government
 	}
 	#Kingdom of Qocho founded in 843
 	866.6.1 = {	#captured from Guiyi Circuit
@@ -72048,7 +72382,7 @@ c_kara_khoja = {
 	1276.1.1 = {
 		holder = uyghur0090	#Nolen Tekin
 
-		government = clan_government
+		government = celestial_government
 	}
 	1285.1.1 = {
 		government = celestial_government
@@ -72075,6 +72409,8 @@ c_kara_khoja = {
 c_toksun = {
 	720.1.1 = {
 		holder = 166730
+
+		government = clan_government
 	}
 	761.1.1 = {
 		holder = 166731
@@ -72088,10 +72424,12 @@ c_toksun = {
 	866.1.1 = {
 		holder = sogdian0001 # Yexi Yi
 
-		government = feudal_government
+		government = clan_government
 	}
 	866.6.1 = {	#captured by Guiyi Circuit
 
+
+		government = celestial_government
 	}
 	#Kingdom of Qocho founded in 843
 	866.10.1 = {	#captured from Guiyi Circuit
@@ -72170,7 +72508,7 @@ c_toksun = {
 	1276.1.1 = {
 		holder = uyghur0090	#Nolen Tekin
 
-		government = clan_government
+		government = celestial_government
 	}
 	1285.1.1 = {
 		government = celestial_government
@@ -72211,7 +72549,7 @@ c_beshbalik = {
 	866.1.1 = {	#captured by Guiyi Circuit
 		holder = sogdian0001
 
-		government = feudal_government
+		government = clan_government
 	}
 	#Kingdom of Qocho founded in 843
 	866.6.1 = {	#captured from Guiyi Circuit
@@ -72290,7 +72628,7 @@ c_beshbalik = {
 	1276.1.1 = {
 		holder = 217252	#Nolen Tekin
 
-		government = clan_government
+		government = celestial_government
 	}
 	1285.1.1 = {
 		government = celestial_government
@@ -72501,7 +72839,7 @@ c_yangjibaliq = {
 	866.1.1 = {	#captured by Guiyi Circuit
 		holder = sogdian0001
 
-		government = feudal_government
+		government = clan_government
 	}
 	#Kingdom of Qocho founded in 843
 	866.6.1 = {	#captured from Guiyi Circuit
@@ -72563,7 +72901,7 @@ c_yangjibaliq = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = 1229819
@@ -72576,6 +72914,9 @@ c_yangjibaliq = {
 	}
 	1330.1.1 = {
 		holder = 1229822
+	}
+	1337.5.24 = {
+		government = clan_government
 	}
 }
 
@@ -72594,7 +72935,7 @@ c_bugur = {
 	866.1.1 = {	#captured by Guiyi Circuit
 		holder = sogdian0001
 
-		government = feudal_government
+		government = clan_government
 	}
 	#Kingdom of Qocho founded in 843
 	866.6.1 = {	#captured from Guiyi Circuit
@@ -72657,7 +72998,7 @@ c_bugur = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = 1229819
@@ -72670,6 +73011,9 @@ c_bugur = {
 	}
 	1330.1.1 = {
 		holder = 1229822
+	}
+	1337.5.24 = {
+		government = clan_government
 	}
 }
 
@@ -72835,9 +73179,15 @@ c_chamil = {
 		holder = sogdian0001
 		liege = d_guiyi #k_xia
 
-		government = feudal_government
+		government = celestial_government
 	}
 	#Kingdom of Qocho captures Yizhou - renamed to Kumul
+	866.1.1 = {
+		government = clan_government
+	}
+	866.6.1 = {
+		government = celestial_government
+	}
 	876.1.1 = {	#Kumul vassals - fictional placeholders
 		holder = uyghur0001
 		liege = k_dzungaria
@@ -72905,7 +73255,7 @@ c_chamil = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = uyghur0130
@@ -72918,6 +73268,9 @@ c_chamil = {
 	}
 	1320.1.1 = {
 		holder = uyghur0132
+	}
+	1337.5.24 = {
+		government = clan_government
 	}
 	1340.1.1 = {
 		holder = uyghur0133
@@ -72937,9 +73290,15 @@ c_burgasutai = {
 	850.1.1 = {
 		holder = sogdian0001
 		liege = d_guiyi #k_xia
-		government = feudal_government
+		government = celestial_government
 	}
 	#Kingdom of Qocho captures Yizhou - renamed to Kumul
+	866.1.1 = {
+		government = clan_government
+	}
+	866.6.1 = {
+		government = celestial_government
+	}
 	876.1.1 = {	#Kumul vassals - fictional placeholders
 		holder = uyghur0001
 		liege = k_dzungaria
@@ -73007,7 +73366,7 @@ c_burgasutai = {
 		government = celestial_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = uyghur0130
@@ -73020,6 +73379,9 @@ c_burgasutai = {
 	}
 	1320.1.1 = {
 		holder = uyghur0132
+	}
+	1337.5.24 = {
+		government = clan_government
 	}
 	1340.1.1 = {
 		holder = uyghur0133
@@ -73148,6 +73510,9 @@ d_naiman_gobi = {
 	1221.1.1 = {
 		liege = e_mongol_empire
 	}
+	1271.2.18 = {
+		liege = 0
+	}
 	1280.4.14 = {
 		holder = 3033200		#fictional Tooril Buku
 	}
@@ -73253,7 +73618,7 @@ c_altay = {
 	#Kirghiz khanate
 	840.1.2 = {
 		liege = 0
-		government = clan_government
+		government = nomad_government
 	}
 
 	850.1.1 = {
@@ -73264,7 +73629,7 @@ c_altay = {
 	874.4.6 = {
 		holder = 217186 # Kozel Üzümcü
 
-		government = clan_government
+		government = nomad_government
 	}
 	893.6.7 = {
 
@@ -73646,7 +74011,7 @@ c_agairik = {
 	#
 
 	840.1.2 = {
-		government = clan_government
+		government = nomad_government
 	}
 	866.10.1 = {
 		holder = 302995	#fictional SirC_an Altaigaas
@@ -73704,6 +74069,9 @@ c_agairik = {
 	1214.9.11 = {
 		liege = e_mongol_empire
 		holder = 303326		#fictional Gurkhan Karakalpaks
+	}
+	1279.3.19 = {
+		liege = h_china
 	}
 	1280.9.11 = {
 		liege = h_china
@@ -74042,7 +74410,7 @@ c_torangy_kul = {
 	840.1.2 = {
 		liege = e_kirghiz_khanate
 
-		government = clan_government
+		government = nomad_government
 	}
 
 	866.10.1 = {
@@ -74116,7 +74484,7 @@ d_gurbantunggut = {
 		holder = 302985	#fictional Adigh Urulchiq
 		liege = k_dzungaria
 
-		government = clan_government
+		government = nomad_government
 	}
 	879.1.23 = {
 		holder = 302986	#fictional Atral Urulchiq
@@ -74152,13 +74520,13 @@ d_gurbantunggut = {
 		holder = 3029944
 	}
 	1271.1.1 = {
-		government = celestial_government
+		government = nomad_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = nomad_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = nomad_government
 	}
 	1285.2.20 = {
 		holder = 3029945
@@ -74173,7 +74541,7 @@ c_hoboksar = {
 	}
 	#Uyghur Qocho kingdom
 	840.1.2 = {
-		government = clan_government
+		government = nomad_government
 	}
 	866.10.1 = {
 		holder = 302985	#fictional Adigh Urulchiq
@@ -74216,13 +74584,13 @@ c_hoboksar = {
 		holder = 3029944
 	}
 	1271.1.1 = {
-		government = celestial_government
+		government = nomad_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = nomad_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = nomad_government
 	}
 	1285.2.20 = {
 		holder = 3029945
@@ -74238,7 +74606,7 @@ c_ulan_chuzir = {
 	}
 	#Uyghur Qocho kingdom
 	840.1.2 = {
-		government = clan_government
+		government = nomad_government
 	}
 	866.10.1 = {
 		holder = 302985	#fictional Adigh Urulchiq
@@ -74281,13 +74649,13 @@ c_ulan_chuzir = {
 		holder = 3029944
 	}
 	1271.1.1 = {
-		government = celestial_government
+		government = nomad_government
 	}
 	1279.3.19 = {
-		government = clan_government
+		government = nomad_government
 	}
 	1285.1.1 = {
-		government = celestial_government
+		government = nomad_government
 	}
 	1285.2.20 = {
 		holder = 3029945
@@ -74528,7 +74896,7 @@ c_balgun = {
 	905.12.8  = {
 		holder = 936Uyghur2
 
-		government = clan_government
+		government = nomad_government
 	}
 
 	#End of Kirghiz Khanate
@@ -74722,7 +75090,7 @@ c_boro_burgasu = {
 	840.1.2 = {
 		liege = e_kirghiz_khanate
 
-		government = clan_government
+		government = nomad_government
 	}
 	850.1.1 = {
 		holder = 1413503
@@ -74733,7 +75101,7 @@ c_boro_burgasu = {
 	876.1.4 = {
 		holder = 303003	#fictional C_or Bügün
 
-		government = clan_government
+		government = nomad_government
 	}
 
 	904.9.15 = {
@@ -74798,7 +75166,7 @@ e_xi_xia = {
 		holder=1415115
 		name = DAI
 
-		government = nomad_government
+		government = feudal_government
 	}
 	316.1.1={
 		holder=1415119
@@ -75010,8 +75378,14 @@ k_xia = {
 		effect = { set_coa = k_gansu }
 		holder = tangut0030
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1260.1.1 = {
 		holder = tangut0031
+	}
+	1271.1.1 = {
+		government = celestial_government
 	}
 	1279.3.18 = {
 		liege = h_china
@@ -75038,7 +75412,7 @@ c_huaiyuan = {
 	760.1.1={
 		liege = d_shuofang
 		holder=shatuo0001
-		government = nomad_government
+		government = celestial_government
 	}
 	800.1.1={
 		holder=shatuo0002
@@ -75147,11 +75521,21 @@ c_huaiyuan = {
 	1227.2.1 = {
 		holder = tangut0001
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1250.1.1 = {
 		holder = tangut0002
+
+		government = steppe_admin_government
+	}
+	1271.1.1 = {
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = tangut0003
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = tangut0004
@@ -75175,7 +75559,7 @@ c_lingzhou = {
 		liege="k_xia"
 		holder=shatuo0001
 
-		government = nomad_government
+		government = celestial_government
 	}
 	800.1.1={
 		holder=shatuo0002
@@ -75276,11 +75660,21 @@ c_lingzhou = {
 		liege = k_xia # Yusseter: "d_xia"
 
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1250.1.1 = {
 		holder = tangut0002
+
+		government = steppe_admin_government
+	}
+	1271.1.1 = {
+		government = celestial_government
 	}
 	1280.1.1 = {
 		holder = tangut0003
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = tangut0004
@@ -75387,11 +75781,22 @@ d_langshan = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1={
 		holder = ongud0024
+
+		government = steppe_admin_government
 	}
 	1260.1.1={
 		holder = ongud0025
+	}
+	1271.1.1 = {
+		government = celestial_government
+	}
+	1272.1.1 = {
+		government = celestial_government
 	}
 	1280.1.1={
 		holder = ongud0026
@@ -75488,11 +75893,22 @@ c_langshan = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1={
 		holder = ongud0024
+
+		government = steppe_admin_government
 	}
 	1260.1.1={
 		holder = ongud0025
+	}
+	1271.1.1 = {
+		government = celestial_government
+	}
+	1272.1.1 = {
+		government = celestial_government
 	}
 	1280.1.1={
 		holder = ongud0026
@@ -75588,11 +76004,22 @@ c_lxj_fengzhou = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1={
 		holder = ongud0024
+
+		government = steppe_admin_government
 	}
 	1260.1.1={
 		holder = ongud0025
+	}
+	1271.1.1 = {
+		government = celestial_government
+	}
+	1272.1.1 = {
+		government = celestial_government
 	}
 	1280.1.1={
 		holder = ongud0026
@@ -75620,7 +76047,9 @@ c_keyimen = {
 	}
 	769.1.1 = {
 		holder = MB_HerderWuda1 # Jinzhong
-		government = herder_government
+		government = nomad_government
+
+		liege = d_langshan # Yusseter: d_wuluhai
 	}
 	800.1.1={
 
@@ -75854,12 +76283,22 @@ d_zhenfan = {
 		holder = TangutClanMiqin15  # Zengbo
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1248.6.17 = {
 		holder = TangutClanMiqin16  # Kenagan
+
+		government = steppe_admin_government
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1274.1.23 = {
 		holder = TangutClanMiqin17  # Nangxiao
+
+		government = celestial_government
 	}
 	
 	1301.9.15 = {
@@ -75954,12 +76393,22 @@ c_zhenfan = {
 		holder = TangutClanMiqin15  # Zengbo
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1248.6.17 = {
 		holder = TangutClanMiqin16  # Kenagan
+
+		government = steppe_admin_government
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1274.1.23 = {
 		holder = TangutClanMiqin17  # Nangxiao
+
+		government = celestial_government
 	}
 	
 	1301.9.15 = {
@@ -76047,21 +76496,31 @@ c_tengger = {
 	1220.1.1={
 		holder = tuoba0023
 	}
+	1230.1.1 = {
+		government = nomad_government
+	}
 	1240.1.1={
 		holder = tuoba0024
+
+		government = nomad_government
 	}
 	1246.1.1={
 		holder = 1059994
 
-		government = meritocratic_government
+		government = nomad_government
 	}
 	1260.1.1={
 		holder = tuoba0025
 
 		government = nomad_government
 	}
+	1271.1.1 = {
+		government = nomad_government
+	}
 	1280.1.1={
 		holder = tuoba0026
+
+		government = nomad_government
 	}
 	1300.1.1={
 		holder = tuoba0027
@@ -76086,7 +76545,9 @@ c_alxa = {
 	}
 	769.1.1 = {
 		holder = MB_HerderAlxa1 # Mozang
-		government = herder_government
+		government = nomad_government
+
+		liege = d_zhenfan
 	}
 	800.1.1={
 
@@ -76519,14 +76980,24 @@ c_liangzhou = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1 = {
 		holder = dodaid0002
+
+		government = steppe_admin_government
 	}
 	1260.1.1 = {
 		holder = dodaid0003
 	}
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1280.1.1 = {
 		holder = dodaid0004
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = dodaid0005
@@ -76660,14 +77131,24 @@ c_fanhe = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1 = {
 		holder = dodaid0002
+
+		government = steppe_admin_government
 	}
 	1260.1.1 = {
 		holder = dodaid0003
 	}
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1280.1.1 = {
 		holder = dodaid0004
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = dodaid0005
@@ -76807,18 +77288,23 @@ c_baishan = {
 		holder = 206810
 		liege = k_xia
 
-		government = meritocratic_government
+		government = steppe_admin_government
 	}
 	1250.1.1 = {
 		holder = dodaid0003 # Tumen Dodaid
 
-		government = nomad_government
+		government = steppe_admin_government
 	}
 	1260.1.1 = {
 
 	}
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1280.1.1 = {
 		holder = dodaid0004
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = dodaid0005
@@ -76956,12 +77442,22 @@ c_zhanyin = {
 		liege = k_xia
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1255.7.27 = {
 		holder = TangutClansZhanyin20  # Kenagan
+
+		government = steppe_admin_government
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1282.10.15 = {
 		holder = TangutClansZhanyin21  # Wanxin
+
+		government = celestial_government
 	}
 	
 	1310.5.22 = {
@@ -77086,16 +77582,26 @@ c_guangwu = {
 		liege = k_xia
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1238.7.9 = {
 		holder = TangutClansGuangwu19  # Sigong
+
+		government = steppe_admin_government
 	}
 	
 	1267.5.30 = {
 		holder = TangutClansGuangwu20  # Yibu
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1296.10.22 = {
 		holder = TangutClansGuangwu21  # Guangyan
+
+		government = celestial_government
 	}
 	
 	1325.9.7 = {
@@ -77764,8 +78270,14 @@ d_ganzhou = { # EAST_TITLE_REWRITE_COLLISION: Yusseter: k_northern_liang, d_ganz
 		liege = "e_mongol_empire"
 		holder = tangut0030
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1260.1.1 = {
 		holder = tangut0031
+	}
+	1271.1.1 = {
+		government = celestial_government
 	}
 	1279.3.18 = {
 		liege = h_china
@@ -77872,8 +78384,14 @@ c_ganzhou = {
 		liege = "e_mongol_empire"
 		holder = tangut0030
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1260.1.1 = {
 		holder = tangut0031
+	}
+	1271.1.1 = {
+		government = celestial_government
 	}
 	1279.3.18 = {
 		liege = h_china
@@ -77997,12 +78515,23 @@ c_linze = {
 
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
+	1241.1.1 = {
+		government = steppe_admin_government
+	}
 	1258.7.22 = {
 		holder = RenFamily27  # Yuansu (eldest son of Renbiao)
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1289.8.3 = {
 		holder = RenFamily29  # Zhengze (eldest son of Yuansu)
+
+		government = celestial_government
 	}
 	
 	1318.3.27 = {
@@ -78104,12 +78633,22 @@ c_gaotai = {
 		holder = TangutXia62  # Afaq
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1244.1.13 = {
 		holder = TangutXia63  # Orkesh
+
+		government = steppe_admin_government
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1271.6.28 = {
 		holder = TangutXia64  # Zordun
+
+		government = celestial_government
 	}
 	
 	1299.4.15 = {
@@ -78221,16 +78760,26 @@ c_jinta = {
 		holder = TangutXia39  # Bozhe
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1231.9.14 = {
 		holder = TangutXia40  # Timur
+
+		government = steppe_admin_government
 	}
 	
 	1258.12.3 = {
 		holder = TangutXia41  # Kebek
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1289.6.27 = {
 		holder = TangutXia42  # Tatatunga
+
+		government = celestial_government
 	}
 	
 	1318.3.11 = {
@@ -78333,14 +78882,24 @@ c_suzhou_mbp = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1 = {
 		holder = nogaid0002
+
+		government = steppe_admin_government
 	}
 	1260.1.1 = {
 		holder = nogaid0003
 	}
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1280.1.1 = {
 		holder = nogaid0004
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = nogaid0005
@@ -78444,12 +79003,22 @@ c_yumen = {
 		holder = TangutXia18  # Baurchuk
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1259.4.22 = {
 		holder = TangutXia19  # Kebek
+
+		government = steppe_admin_government
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1291.8.17 = {
 		holder = TangutXia20  # Tatatunga
+
+		government = celestial_government
 	}
 	
 	1318.10.30 = {
@@ -78463,7 +79032,7 @@ d_yijinai = {
 	840.1.1 = {
 		holder = 166766
 
-		government = clan_government
+		government = nomad_government
 	}
 	879.1.1 = {
 		holder = 166767
@@ -78560,7 +79129,7 @@ c_yijinai = {
 		liege = "d_yijinai"
 		holder = 166766
 
-		government = clan_government
+		government = nomad_government
 	}
 	879.1.1 = {
 		holder = 166767
@@ -78627,6 +79196,9 @@ c_yijinai = {
 		holder = TangutClanWangli15  # Zeduan
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1238.8.19 = {
 		holder = TangutClanWangli16  # Fuguzhi
 	}
@@ -78635,8 +79207,13 @@ c_yijinai = {
 		holder = TangutClanWangli17  # Dipo
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1295.11.13 = {
 		holder = TangutClanWangli18  # Qinde
+
+		government = celestial_government
 	}
 	
 	1323.7.4 = {
@@ -78667,7 +79244,7 @@ c_wentugaole = {
 		liege = "d_yijinai"
 		holder = 166766
 
-		government = clan_government
+		government = nomad_government
 	}
 	879.1.1 = {
 		holder = 166767
@@ -78676,9 +79253,9 @@ c_wentugaole = {
 	882.1.1 = {
 		holder = MB_HerderWentugaole1 # Shiyin
 
-		government = herder_government
+		government = nomad_government
 
-		liege = 0 # herders answer to no liege; their tribute is set at game start
+		liege = d_yijinai
 	}
 	900.1.1 = {
 
@@ -78773,6 +79350,8 @@ c_wentugaole = {
 	1225.1.1 = {
 
 
+
+		liege = 0
 	}
 	1244.10.17 = {
 		holder = MB_HerderWentugaole14 # Weizhong
@@ -78832,7 +79411,7 @@ c_heihe = {
 		liege = "d_yijinai"
 		holder = yughur0037
 
-		government = clan_government
+		government = nomad_government
 	}
 	900.1.1 = {
 		holder = yughur0038
@@ -78897,12 +79476,22 @@ c_heihe = {
 		liege = k_xia
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1243.1.9 = {
 		holder = TangutClansHeihe19  # Shenmi
+
+		government = steppe_admin_government
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1271.8.16 = {
 		holder = TangutClansHeihe20  # Kenagan
+
+		government = celestial_government
 	}
 	
 	1302.12.3 = {
@@ -78928,7 +79517,7 @@ c_mazongshan = {
 		liege = "d_yijinai"
 		holder = 166766
 
-		government = clan_government
+		government = nomad_government
 	}
 	879.1.1 = {
 		holder = 166767
@@ -78963,6 +79552,9 @@ c_mazongshan = {
 
 	1024.1.1 = {
 		government = meritocratic_government
+	}
+	1028.7.8 = {
+		government = nomad_government
 	}
 	1028.10.22 = {
 		holder = TangutClansMazong11  # Zanhua
@@ -79111,12 +79703,22 @@ d_guiyi = {
 		holder = TangutClanFeiting14  # Wolila
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1241.11.3 = {
 		holder = TangutClanFeiting15  # Huaijie
+
+		government = steppe_admin_government
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1272.2.18 = {
 		holder = TangutClanFeiting16  # Zeduan
+
+		government = celestial_government
 	}
 	
 	1299.4.11 = {
@@ -79212,12 +79814,22 @@ c_guazhou = {
 		holder = TangutClanFeiting14  # Wolila
 	}
 	
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1241.11.3 = {
 		holder = TangutClanFeiting15  # Huaijie
+
+		government = steppe_admin_government
 	}
 	
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1272.2.18 = {
 		holder = TangutClanFeiting16  # Zeduan
+
+		government = celestial_government
 	}
 	
 	1299.4.11 = {
@@ -79312,14 +79924,24 @@ c_changma = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1 = {
 		holder = yedid0002
+
+		government = steppe_admin_government
 	}
 	1260.1.1 = {
 		holder = yedid0003
 	}
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1280.1.1 = {
 		holder = yedid0004
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = yedid0005
@@ -79417,14 +80039,24 @@ c_hongliuyuan = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1 = {
 		holder = yedid0002
+
+		government = steppe_admin_government
 	}
 	1260.1.1 = {
 		holder = yedid0003
 	}
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1280.1.1 = {
 		holder = yedid0004
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = yedid0005
@@ -79542,14 +80174,24 @@ c_shazhou = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1 = {
 		holder = chanaid0002
+
+		government = steppe_admin_government
 	}
 	1260.1.1 = {
 		holder = chanaid0003
 	}
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1280.1.1 = {
 		holder = chanaid0004
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = chanaid0005
@@ -79665,14 +80307,24 @@ c_yumenguan = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1 = {
 		holder = chanaid0002
+
+		government = steppe_admin_government
 	}
 	1260.1.1 = {
 		holder = chanaid0003
 	}
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1280.1.1 = {
 		holder = chanaid0004
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = chanaid0005
@@ -79789,14 +80441,24 @@ c_subei = {
 
 		government = nomad_government
 	}
+	1230.1.1 = {
+		government = steppe_admin_government
+	}
 	1240.1.1 = {
 		holder = chanaid0002
+
+		government = steppe_admin_government
 	}
 	1260.1.1 = {
 		holder = chanaid0003
 	}
+	1271.1.1 = {
+		government = celestial_government
+	}
 	1280.1.1 = {
 		holder = chanaid0004
+
+		government = celestial_government
 	}
 	1300.1.1 = {
 		holder = chanaid0005
@@ -80260,13 +80922,19 @@ k_daibei = {
 	1044.1.1 = {
 		holder = 1413744
 
-		government = nomad_government
+		government = steppe_admin_government
 	}
 	1046.1.1 = {
 		holder = 1413137
 	}
 	1050.1.1 = {
 
+	}
+	1050.12.18 = {
+		government = nomad_government
+	}
+	1055.12.3 = {
+		government = steppe_admin_government
 	}
 	1057.1.1 = {
 		holder = 1413071
@@ -80277,7 +80945,7 @@ k_daibei = {
 		government = steppe_admin_government
 	}
 	1059.8.7 = {
-		government = nomad_government
+		government = steppe_admin_government
 	}
 	1064.1.1 = {
 		holder = 1413108
@@ -80315,7 +80983,7 @@ k_daibei = {
 	}
 	#Liao
 	1122.4.21 = { holder = 1413761
-		government = nomad_government
+		government = meritocratic_government
 	}
 	#Jin
 	1122.5.10 = { holder = yutian_han_087 liege = e_andong name = "XIJING" effect = { set_coa = k_xijing set_capital_county = title:c_datong_2 }
@@ -98002,6 +98670,9 @@ d_gyalrong = {
 
 		government = feudal_government
 	}
+	769.1.1 = {
+		government = tribal_government
+	}
 	800.1.1={
 		holder = bodpa0212
 
@@ -98114,6 +98785,9 @@ c_barkam = {
 	740.1.1={
 		holder = bodpa0211
 	}
+	769.1.1 = {
+		government = tribal_government
+	}
 	800.1.1={
 		holder = bodpa0212
 
@@ -98215,6 +98889,9 @@ c_ngawa = {
 	740.1.1={
 		holder = bodpa0181
 		government = feudal_government
+	}
+	769.1.1 = {
+		government = tribal_government
 	}
 	800.1.1={
 		holder = bodpa0182
@@ -98318,8 +98995,13 @@ c_maowun = {
 		holder = qiang0001
 		government = feudal_government
 	}
+	769.1.1 = {
+		government = tribal_government
+	}
 	800.1.1={
 		holder = qiang0002
+
+		government = tribal_government
 	}
 	820.1.1={
 		holder = qiang0003
@@ -98341,7 +99023,7 @@ c_maowun = {
 	920.1.1={
 		holder = qiang0008
 
-		government = feudal_government
+		government = tribal_government
 	}
 	940.1.1={
 		holder = qiang0009
@@ -98420,6 +99102,9 @@ c_sungqu = {
 	#Chakla Dynasty - fictional Placeholders
 	740.1.1={
 		holder = bodpa0181
+	}
+	769.1.1 = {
+		government = tribal_government
 	}
 	800.1.1={
 		holder = bodpa0182
@@ -98522,6 +99207,9 @@ c_zoige = {
 	740.1.1={
 		holder = bodpa0181
 	}
+	769.1.1 = {
+		government = tribal_government
+	}
 	800.1.1={
 		holder = bodpa0182
 
@@ -98622,6 +99310,9 @@ c_quqen = {
 	#Gyelrong Dynasty - fictional Placeholders
 	740.1.1={
 		holder = bodpa0211
+	}
+	769.1.1 = {
+		government = tribal_government
 	}
 	800.1.1={
 		holder = bodpa0212
@@ -99887,7 +100578,7 @@ c_baima = {
 	1230.1.1={
 		holder = 2066677
 
-		government = feudal_government
+		government = nomad_government
 	}
 	1266.1.1={
 		holder = Weiming2

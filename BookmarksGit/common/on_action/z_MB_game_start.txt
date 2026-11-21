@@ -15,7 +15,7 @@ on_game_start = {
 		MB_set_clan_unity							# Setup clan unity
 		MB_set_landless_adventurers					# Setup adventurers
 		MB_set_regencies							# Setup regencies/viziers/co-emperors
-		MB_set_government							# Setup governments by script
+		MB_set_government							# Setup governments by script # Yusseter
 		MB_setup_tributaries						# Setup tributaries. Must come after MB_set_government so the game picks nomad contracts for the converted steppe lords
 		MB_set_de_jure								# Setup de_jure changes by script
 		

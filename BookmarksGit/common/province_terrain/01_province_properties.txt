@@ -19045,3 +19045,690 @@
 14640 ={ winter_severity_bias = 1 } #WangjiRiver
 14641 ={ winter_severity_bias = 0.6 } #Anxi2
 14642 ={ winter_severity_bias = 1 } #Ersu
+
+15169 ={ winter_severity_bias = 0.45 } #ELBEUF # Yusseter: 6604
+15170 ={ winter_severity_bias = 0.45 } #JUMIEGES # Yusseter: 7787
+15171 ={ winter_severity_bias = 0.45 } #BEAUMONT-LE-ROGER # Yusseter: 8528
+15174 ={ winter_severity_bias = 0.45 } #OUDENBURG # Yusseter: 8743
+15175 ={ winter_severity_bias = 0.45 } #HULST # Yusseter: 8744
+15177 ={ winter_severity_bias = 0.45 } #NORDEN # Yusseter: 8746
+15178 ={ winter_severity_bias = 0.45 } #AURICH # Yusseter: 8747
+15179 ={ winter_severity_bias = 0.45 } #ESENS # Yusseter: 8748
+15182 ={ winter_severity_bias = 0.4 } #LIGNY # Yusseter: 8751
+15183 ={ winter_severity_bias = 0.4 } #STENAY # Yusseter: 8752
+15184 ={ winter_severity_bias = 0.4 } #MOUSSON # Yusseter: 8753
+15185 ={ winter_severity_bias = 0.4 } #SAINT NICOLAS DE PORT # Yusseter: 8754
+15186 ={ winter_severity_bias = 0.4 } #MIRECOURT # Yusseter: 8755
+15187 ={ winter_severity_bias = 0.5 } #ECHTERNACH # Yusseter: 8756
+15188 ={ winter_severity_bias = 0.7 } #SAINT JEAN DE MAURIENNE # Yusseter: 8757
+15189 ={ winter_severity_bias = 0.5 } #MONTMELIAN # Yusseter: 8758
+15190 ={ winter_severity_bias = 0.6 } #BONNEVILLE # Yusseter: 8759
+15191 ={ winter_severity_bias = 0.6 } #RUMILLY # Yusseter: 8760
+15192 ={ winter_severity_bias = 0.4 } #LURE # Yusseter: 8761
+15193 ={ winter_severity_bias = 0.4 } #ARBOIS # Yusseter: 8762
+15194 ={ winter_severity_bias = 0.4 } #BAGE # Yusseter: 8763
+15195 ={ winter_severity_bias = 0.4 } #COLIGNY # Yusseter: 8764
+15196 ={ winter_severity_bias = 0.4 } #PONT D AIN # Yusseter: 8765
+15197 ={ winter_severity_bias = 0.4 } #TREVOUX # Yusseter: 8766
+15198 ={ winter_severity_bias = 0.4 } #LA TOUR DU PIN # Yusseter: 8767
+15199 ={ winter_severity_bias = 0.45 } #SAINT MARCELLIN # Yusseter: 8768
+15200 ={ winter_severity_bias = 0.4 } #VIZILLE # Yusseter: 8769
+15201 ={ winter_severity_bias = 0.25 } #CREST # Yusseter: 8770
+15202 ={ winter_severity_bias = 0.25 } #PRIVAS # Yusseter: 8771
+15203 ={ winter_severity_bias = 0.25 } #PONT SAINT ESPRIT # Yusseter: 8772
+15204 ={ winter_severity_bias = 0.1 } #LES BAUX # Yusseter: 8773
+15205 ={ winter_severity_bias = 0.1 } #SALON # Yusseter: 8774
+15206 ={ winter_severity_bias = 0.25 } #CARPENTRAS # Yusseter: 8775
+15207 ={ winter_severity_bias = 0.2 } #SISTERON # Yusseter: 8776
+15208 ={ winter_severity_bias = 0.2 } #BUIS # Yusseter: 8777
+15209 ={ winter_severity_bias = 0.2 } #VENTIMIGLIA # Yusseter: 8778
+15210 ={ winter_severity_bias = 0.1 } #ALBENGA # Yusseter: 8779
+15211 ={ winter_severity_bias = 0.25 } #NONANTOLA # Yusseter: 8780
+15212 ={ winter_severity_bias = 0.1 } #SAN GIMIGNANO # Yusseter: 8781
+15213 ={ winter_severity_bias = 0.0 } #ELBA # Yusseter: 8782
+15214 ={ winter_severity_bias = 0.5 } #MODIGLIANA # Yusseter: 8783
+15215 ={ winter_severity_bias = 0.2 } #SENIGALLIA # Yusseter: 8784
+15219 ={ winter_severity_bias = 0.0 } #PALESTRINA # Yusseter: 8788
+15220 ={ winter_severity_bias = 0.0 } #SUBIACO # Yusseter: 8789
+15221 ={ winter_severity_bias = 0.0 } #SERMONETA # Yusseter: 8790
+15222 ={ winter_severity_bias = 0.4 mild_winter_factor_override = 0.3 normal_winter_factor_override = 0.2 harsh_winter_factor_override = 0.0 } #NARNI # Yusseter: 8791
+15223 ={ winter_severity_bias = 0.0 } #MAZARA # Yusseter: 8792
+15237 ={ winter_severity_bias = 0.45 } #CORVEY # Yusseter: 8806
+15238 ={ winter_severity_bias = 0.5 } #QUEDLINBURG # Yusseter: 8807
+15239 ={ winter_severity_bias = 0.45 } #BERGEDORF # Yusseter: 8808
+15240 ={ winter_severity_bias = 0.45 } #WITTENBURG # Yusseter: 8809
+15241 ={ winter_severity_bias = 0.45 } #BECKUM # Yusseter: 8810
+15242 ={ winter_severity_bias = 0.45 } #WERL # Yusseter: 8811
+15243 ={ winter_severity_bias = 0.5 } #SEGEBERG # Yusseter: 8812
+15244 ={ winter_severity_bias = 0.55 } #KAMIEN # Yusseter: 8813
+15245 ={ winter_severity_bias = 0.55 } #TRZEBIATOW # Yusseter: 8814
+15246 ={ winter_severity_bias = 0.55 } #KOSZALIN # Yusseter: 8815
+15247 ={ winter_severity_bias = 0.55 } #POLANOW # Yusseter: 8816
+15248 ={ winter_severity_bias = 0.5 } #DARLOWO # Yusseter: 8817
+15249 ={ winter_severity_bias = 0.5 } #SLUPSK # Yusseter: 8818
+15250 ={ winter_severity_bias = 0.5 } #LEBORK # Yusseter: 8819
+15251 ={ winter_severity_bias = 0.55 } #NOWOGARD # Yusseter: 8820
+15252 ={ winter_severity_bias = 0.55 } #STARGARD # Yusseter: 8821
+15253 ={ winter_severity_bias = 0.55 } #SWIDWIN # Yusseter: 8822
+15254 ={ winter_severity_bias = 0.55 } #POLICE # Yusseter: 8823
+15255 ={ winter_severity_bias = 0.55 } #MYSLIBORZ # Yusseter: 8824
+15256 ={ winter_severity_bias = 0.55 } #DREZDENKO # Yusseter: 8825
+15257 ={ winter_severity_bias = 0.5 } #STAROGARD # Yusseter: 8826
+15258 ={ winter_severity_bias = 0.5 } #NOWE # Yusseter: 8827
+15259 ={ winter_severity_bias = 0.5 } #RACIAZ # Yusseter: 8828
+15260 ={ winter_severity_bias = 0.45 } #POEL # Yusseter: 8829
+15261 ={ winter_severity_bias = 0.5 } #WARNEMUNDE # Yusseter: 8830
+15262 ={ winter_severity_bias = 0.5 } #DOBERAN # Yusseter: 8831
+15263 ={ winter_severity_bias = 0.5 } #BARTH # Yusseter: 8832
+15264 ={ winter_severity_bias = 0.5 } #BERGEN # Yusseter: 8833
+15265 ={ winter_severity_bias = 0.5 } #ELDENA # Yusseter: 8834
+15266 ={ winter_severity_bias = 0.5 } #USEDOM # Yusseter: 8835
+15267 ={ winter_severity_bias = 0.6 } #STUMO # Yusseter: 8836
+15268 ={ winter_severity_bias = 0.6 } #SIRGUNE # Yusseter: 8837
+15269 ={ winter_severity_bias = 0.6 } #STROWANGEN # Yusseter: 8838
+15270 ={ winter_severity_bias = 0.6 } #SKANEVIS # Yusseter: 8839
+15271 ={ winter_severity_bias = 0.6 } #LOZA # Yusseter: 8840
+15272 ={ winter_severity_bias = 0.6 } #PISSA # Yusseter: 8841
+15273 ={ winter_severity_bias = 0.6 } #KRAZIAI # Yusseter: 8842
+15274 ={ winter_severity_bias = 0.6 } #LAUKUVA # Yusseter: 8843
+15275 ={ winter_severity_bias = 0.6 } #KARSUVA # Yusseter: 8844
+15276 ={ winter_severity_bias = 0.6 } #ARIOGALA # Yusseter: 8845
+15277 ={ winter_severity_bias = 0.6 } #SIDABRE # Yusseter: 8846
+15278 ={ winter_severity_bias = 0.65 } #MEZOTNE # Yusseter: 8847
+15279 ={ winter_severity_bias = 0.6 } #UPMALE # Yusseter: 8848
+15280 ={ winter_severity_bias = 0.6 } #PUNIA # Yusseter: 8849
+15281 ={ winter_severity_bias = 0.6 } #KIRSNA # Yusseter: 8850
+15282 ={ winter_severity_bias = 0.6 } #KIMENAVA # Yusseter: 8851
+15283 ={ winter_severity_bias = 0.6 } #MERUNISKIAI # Yusseter: 8852
+15284 ={ winter_severity_bias = 0.65 } #AIZPUTE # Yusseter: 8853
+15285 ={ winter_severity_bias = 0.65 } #DURBE # Yusseter: 8854
+15286 ={ winter_severity_bias = 0.6 } #TALSI # Yusseter: 8855
+15287 ={ winter_severity_bias = 0.65 } #KEILA # Yusseter: 8856
+15288 ={ winter_severity_bias = 0.65 } #PAIDE # Yusseter: 8857
+15289 ={ winter_severity_bias = 0.65 } #NURMEKUND # Yusseter: 8858
+15290 ={ winter_severity_bias = 0.65 } #VASKNARVA # Yusseter: 8859
+15291 ={ winter_severity_bias = 0.65 } #KIRUMPAA # Yusseter: 8860
+15292 ={ winter_severity_bias = 0.65 } #GAUJIENA # Yusseter: 8861
+15293 ={ winter_severity_bias = 0.65 } #VAIGA # Yusseter: 8862
+15294 ={ winter_severity_bias = 0.65 } #OTEPAA # Yusseter: 8863
+15295 ={ winter_severity_bias = 0.55 } #DACHAU # Yusseter: 8864
+15296 ={ winter_severity_bias = 0.55 } #POLLING # Yusseter: 8865
+15297 ={ winter_severity_bias = 0.55 } #OSTERHOFEN # Yusseter: 8866
+15298 ={ winter_severity_bias = 0.55 } #DINGOLFING # Yusseter: 8867
+15299 ={ winter_severity_bias = 0.55 } #EBERSBERG # Yusseter: 8868
+15300 ={ winter_severity_bias = 0.55 } #AIBLING # Yusseter: 8869
+15301 ={ winter_severity_bias = 0.55 } #CHIEMSEE # Yusseter: 8870
+15302 ={ winter_severity_bias = 0.5 } #KASTL # Yusseter: 8871
+15303 ={ winter_severity_bias = 0.55 } #SCHWABEGG # Yusseter: 8872
+15304 ={ winter_severity_bias = 0.55 } #MINDELHEIM # Yusseter: 8873
+15305 ={ winter_severity_bias = 0.6 } #FUSSEN # Yusseter: 8874
+15306 ={ winter_severity_bias = 0.55 } #SONTHOFEN # Yusseter: 8875
+15307 ={ winter_severity_bias = 0.55 } #GUNZBURG # Yusseter: 8876
+15308 ={ winter_severity_bias = 0.4 } #GUISE # Yusseter: 8877
+15309 ={ winter_severity_bias = 0.4 } #SAINTE-MENEHOULD # Yusseter: 8878
+15310 ={ winter_severity_bias = 0.4 } #WASSY # Yusseter: 8879
+15311 ={ winter_severity_bias = 0.4 } #BRIENNE # Yusseter: 8880
+15312 ={ winter_severity_bias = 0.4 } #AUXONNE # Yusseter: 8881
+15313 ={ winter_severity_bias = 0.4 } #CHAROLLES # Yusseter: 8882
+15314 ={ winter_severity_bias = 0.4 } #VILLEFRANCHE-SUR-SAONE # Yusseter: 8883
+15315 ={ winter_severity_bias = 0.2 } #BEAUCAIRE # Yusseter: 8884
+15316 ={ winter_severity_bias = 0.2 } #AIGUES-MORTES # Yusseter: 8885
+15317 ={ winter_severity_bias = 0.5 } #AQUILA # Yusseter: 8886
+15318 ={ winter_severity_bias = 0.4 } #MONFORTE DE LEMOS # Yusseter: 8887
+15319 ={ winter_severity_bias = 0.4 } #SARRIA # Yusseter: 8888
+15320 ={ winter_severity_bias = 0.3 harsh_winter_factor_override = 0.0 } #NOIA # Yusseter: 8889
+15321 ={ winter_severity_bias = 0.3 harsh_winter_factor_override = 0.0 } #PONTEVEDRA # Yusseter: 8890
+15322 ={ winter_severity_bias = 0.3 harsh_winter_factor_override = 0.0 } #BAIONA # Yusseter: 8891
+15323 ={ winter_severity_bias = 0.3 harsh_winter_factor_override = 0.0 } #VALENCA # Yusseter: 8892
+15324 ={ winter_severity_bias = 0.3 harsh_winter_factor_override = 0.0 } #VIVEIRO # Yusseter: 8893
+15325 ={ winter_severity_bias = 0.4 } #RIBADEO # Yusseter: 8894
+15326 ={ winter_severity_bias = 0.4 } #ALLARIZ # Yusseter: 8895
+15327 ={ winter_severity_bias = 0.25 } #BRAGA # Yusseter: 8896
+15328 ={ winter_severity_bias = 0.25 } #BARCELOS # Yusseter: 8897
+15329 ={ winter_severity_bias = 0.4 } #CHAVES # Yusseter: 8898
+15330 ={ winter_severity_bias = 0.4 } #AVILES # Yusseter: 8899
+15331 ={ winter_severity_bias = 0.4 } #CANGAS DE ONIS # Yusseter: 8900
+15332 ={ winter_severity_bias = 0.4 } #SAHAGUN # Yusseter: 8901
+15333 ={ winter_severity_bias = 0.6 harsh_winter_factor_override = 0.05 } #VILLAFRANCA DEL BIERZO # Yusseter: 8902
+15334 ={ winter_severity_bias = 0.3 } #SANABRIA # Yusseter: 8903
+15335 ={ winter_severity_bias = 0.4 } #LEDESMA # Yusseter: 8904
+15336 ={ winter_severity_bias = 0.4 } #AREVALO # Yusseter: 8905
+15337 ={ winter_severity_bias = 0.4 } #MADRIGAL # Yusseter: 8906
+15338 ={ winter_severity_bias = 0.15 } #LEIRIA # Yusseter: 8907
+15339 ={ winter_severity_bias = 0.15 } #ALCOBACA # Yusseter: 8908
+15341 ={ winter_severity_bias = 0.15 } #MONTEMOR-O-VELHO # Yusseter: 8910
+15342 ={ winter_severity_bias = 0.4 } #TAROUCA # Yusseter: 8911
+15343 ={ winter_severity_bias = 0.5 } #COVILHA # Yusseter: 8912
+15344 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.10 } #CASTELO RODRIGO # Yusseter: 8913
+15345 ={ winter_severity_bias = 0.5 } #SABUGAL # Yusseter: 8914
+15348 ={ winter_severity_bias = 0.1 } #CASTRO MARIM # Yusseter: 8917
+15352 ={ winter_severity_bias = 0.3 } #CASTRO URDIALES # Yusseter: 8921
+15353 ={ winter_severity_bias = 0.4 } #ONA # Yusseter: 8922
+15354 ={ winter_severity_bias = 0.4 } #CARRION # Yusseter: 8923
+15355 ={ winter_severity_bias = 0.4 } #PENAFIEL # Yusseter: 8924
+15356 ={ winter_severity_bias = 0.6 harsh_winter_factor_override = 0.05 } #SEPULVEDA # Yusseter: 8925
+15357 ={ winter_severity_bias = 0.3 } #CALAHORRA # Yusseter: 8926
+15358 ={ winter_severity_bias = 0.3 } #BILBAO # Yusseter: 8927
+15359 ={ winter_severity_bias = 0.3 } #LAGUARDIA # Yusseter: 8928
+15360 ={ winter_severity_bias = 0.3 } #VIANA # Yusseter: 8929
+15361 ={ winter_severity_bias = 0.3 } #ALFARO # Yusseter: 8930
+15362 ={ winter_severity_bias = 0.3 } #CORELLA # Yusseter: 8931
+15363 ={ winter_severity_bias = 0.2 } #MONZON # Yusseter: 8932
+15364 ={ winter_severity_bias = 0.3 } #BORJA # Yusseter: 8933
+15365 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.05 } #AGREDA # Yusseter: 8934
+15366 ={ winter_severity_bias = 0.6 } #TREMP # Yusseter: 8935
+15367 ={ winter_severity_bias = 0.3 } #MANRESA # Yusseter: 8936
+15368 ={ winter_severity_bias = 0.5 } #RIPOLL # Yusseter: 8937
+15369 ={ winter_severity_bias = 0.6 } #ARLES # Yusseter: 8938
+15370 ={ winter_severity_bias = 0.3 } #MIRAVET # Yusseter: 8939
+15371 ={ winter_severity_bias = 0.3 } #MONTBLANC # Yusseter: 8940
+15372 ={ winter_severity_bias = 0.1 } #TERRASSA # Yusseter: 8941
+15373 ={ winter_severity_bias = 0.6 } #ARAN # Yusseter: 8942
+15374 ={ winter_severity_bias = 0.2 } #HITA # Yusseter: 8943
+15375 ={ winter_severity_bias = 0.2 } #BUITRAGO # Yusseter: 8944
+15376 ={ winter_severity_bias = 0.15 } #CUENCA # Yusseter: 8945
+15377 ={ winter_severity_bias = 0.15 } #CONSUEGRA # Yusseter: 8946
+15378 ={ winter_severity_bias = 0.15 } #HUETE # Yusseter: 8947
+15379 ={ winter_severity_bias = 0.1 } #ALMAGRO # Yusseter: 8948
+15380 ={ winter_severity_bias = 0.1 } #CIUDAD REAL # Yusseter: 8949
+15381 ={ winter_severity_bias = 0.1 } #CALATRAVA LA NUEVA # Yusseter: 8950
+15382 ={ winter_severity_bias = 0.2 } #CANETE # Yusseter: 8951
+15387 ={ winter_severity_bias = 0.2 } #ANTEQUERA # Yusseter: 8956
+15388 ={ winter_severity_bias = 0.2 } #LOJA # Yusseter: 8957
+15392 ={ winter_severity_bias = 0.2 } #ALCALA LA REAL # Yusseter: 8961
+15393 ={ winter_severity_bias = 0.4 } #MORELLA # Yusseter: 8962
+15405 ={ winter_severity_bias = 0.4 } #LARA # Yusseter: 8974
+15406 ={ winter_severity_bias = 0.4 } #CASTROJERIZ # Yusseter: 8975
+15407 ={ winter_severity_bias = 0.4 } #VILLADIEGO # Yusseter: 8976
+15408 ={ winter_severity_bias = 0.3 } #LUNA # Yusseter: 8977
+15409 ={ winter_severity_bias = 0.3 } #ALAGON # Yusseter: 8978
+15410 ={ winter_severity_bias = 0.3 } #URREA # Yusseter: 8979
+15414 ={ winter_severity_bias = 0.1 } #MONTCADA # Yusseter: 8983
+15415 ={ winter_severity_bias = 0.6 } #PERALADA # Yusseter: 8984
+15416 ={ winter_severity_bias = 0.6 } #LA JONQUERA # Yusseter: 8985
+15417 ={ winter_severity_bias = 0.6 } #CASTELLBO # Yusseter: 8986
+15418 ={ winter_severity_bias = 0.6 } #ANDORRA # Yusseter: 8987
+15419 ={ winter_severity_bias = 0.6 } #LA POBLA DE SEGUR # Yusseter: 8988
+15420 ={ winter_severity_bias = 0.3 } #FALSET # Yusseter: 8989
+15421 ={ winter_severity_bias = 0.4 harsh_winter_factor_override = 0.0 } #JERICA # Yusseter: 8990
+15423 ={ winter_severity_bias = 0.25 } #SOUSA # Yusseter: 8992
+15424 ={ winter_severity_bias = 0.45 } #PONT-AUDEMER # Yusseter: 10540
+15425 ={ winter_severity_bias = 0.25 } #FELGUEIRAS # Yusseter: 10599
+15426 ={ winter_severity_bias = 0.25 } #MAIA # Yusseter: 10600
+15427 ={ winter_severity_bias = 0.25 } #VILA DO CONDE # Yusseter: 10601
+15428 ={ winter_severity_bias = 0.3 } #VILLALOBOS # Yusseter: 10602
+15429 ={ winter_severity_bias = 0.4 } #FUENTESAUCO # Yusseter: 10603
+15430 ={ winter_severity_bias = 0.3 } #AYALA # Yusseter: 10604
+15431 ={ winter_severity_bias = 0.3 } #LLODIO # Yusseter: 10605
+14697 ={ winter_severity_bias = 0.45 } #TANCARVILLE
+14698 ={ winter_severity_bias = 0.45 } #MONTIVILLIERS
+14699 ={ winter_severity_bias = 0.4 } #CHATEAUNEUF-EN-THYMERAIS
+14700 ={ winter_severity_bias = 0.4 } #HOUDAN
+14701 ={ winter_severity_bias = 0.45 } #MORTEMER
+14702 ={ winter_severity_bias = 0.4 } #BELLEME
+14703 ={ winter_severity_bias = 0.45 } #SAINT-SAUVEUR-LE-VICOMTE
+14704 ={ winter_severity_bias = 0.4 } #IVRY
+14705 ={ winter_severity_bias = 0.4 } #VITRE
+14706 ={ winter_severity_bias = 0.4 } #LA GUERCHE
+14707 ={ winter_severity_bias = 0.4 } #FOUGERES
+14708 ={ winter_severity_bias = 0.4 } #SAINT-AUBIN-DU-CORMIER
+14709 ={ winter_severity_bias = 0.4 } #DINAN
+14710 ={ winter_severity_bias = 0.4 } #DOL
+14711 ={ winter_severity_bias = 0.4 } #PLOERMEL
+14712 ={ winter_severity_bias = 0.4 } #MONTFORT
+14713 ={ winter_severity_bias = 0.4 } #PONTIVY
+14714 ={ winter_severity_bias = 0.4 } #AURAY
+14715 ={ winter_severity_bias = 0.4 } #HENNEBONT
+14716 ={ winter_severity_bias = 0.4 } #ANCENIS
+14717 ={ winter_severity_bias = 0.4 } #MACHECOUL
+14718 ={ winter_severity_bias = 0.4 } #PORNIC
+14719 ={ winter_severity_bias = 0.4 } #CLISSON
+14720 ={ winter_severity_bias = 0.4 } #REDON
+14721 ={ winter_severity_bias = 0.4 } #LAMBALLE
+14722 ={ winter_severity_bias = 0.4 } #GUINGAMP
+14723 ={ winter_severity_bias = 0.4 } #CHATELAUDREN
+14724 ={ winter_severity_bias = 0.4 } #MORLAIX
+14725 ={ winter_severity_bias = 0.4 } #PONT-L'ABBE
+14726 ={ winter_severity_bias = 0.4 } #CHATEAULIN
+14727 ={ winter_severity_bias = 0.4 } #SAINTE-SUZANNE
+14728 ={ winter_severity_bias = 0.4 } #SABLE
+14729 ={ winter_severity_bias = 0.4 } #LASSAY
+14730 ={ winter_severity_bias = 0.4 } #EVRON
+14731 ={ winter_severity_bias = 0.4 } #MONTRICHARD
+14732 ={ winter_severity_bias = 0.4 } #LOCHES
+14733 ={ winter_severity_bias = 0.4 } #FONTEVRAUD
+14734 ={ winter_severity_bias = 0.4 } #MONTMORENCY
+14735 ={ winter_severity_bias = 0.4 } #DAMMARTIN
+14736 ={ winter_severity_bias = 0.4 } #JUILLY
+14737 ={ winter_severity_bias = 0.4 } #ROCHEFORT
+14738 ={ winter_severity_bias = 0.4 } #DOURDAN
+14739 ={ winter_severity_bias = 0.4 } #SOISSONS
+14740 ={ winter_severity_bias = 0.4 } #BRAINE
+14741 ={ winter_severity_bias = 0.4 } #COMPIEGNE
+14742 ={ winter_severity_bias = 0.4 } #BRETEUIL
+14743 ={ winter_severity_bias = 0.4 } #GERBEROY
+14744 ={ winter_severity_bias = 0.4 } #NESLE
+14745 ={ winter_severity_bias = 0.4 } #HAM
+14746 ={ winter_severity_bias = 0.4 } #PREMONTRE
+14747 ={ winter_severity_bias = 0.4 } #MONTAIGU
+14748 ={ winter_severity_bias = 0.45 } #SAINT-RIQUIER
+14749 ={ winter_severity_bias = 0.4 } #VERVINS
+14750 ={ winter_severity_bias = 0.45 } #BERGUES
+14751 ={ winter_severity_bias = 0.45 } #LENS
+14752 ={ winter_severity_bias = 0.45 } #LA BASSEE
+14753 ={ winter_severity_bias = 0.45 } #WAVRIN
+14754 ={ winter_severity_bias = 0.4 } #MARCHIENNES
+14755 ={ winter_severity_bias = 0.45 } #FAUQUEMBERGUES
+14756 ={ winter_severity_bias = 0.45 } #FRUGES
+14757 ={ winter_severity_bias = 0.45 } #GISTEL
+14758 ={ winter_severity_bias = 0.4 } #VERTUS
+14759 ={ winter_severity_bias = 0.4 } #FISMES
+14760 ={ winter_severity_bias = 0.4 } #VIGNORY
+14761 ={ winter_severity_bias = 0.4 } #DAMPIERRE
+14762 ={ winter_severity_bias = 0.4 } #RAMERUPT
+14763 ={ winter_severity_bias = 0.4 } #VILLEHARDOUIN
+14764 ={ winter_severity_bias = 0.4 } #MONTIERAMEY
+14765 ={ winter_severity_bias = 0.4 } #CHOISEUL
+14766 ={ winter_severity_bias = 0.4 } #NOGENT-EN-BASSIGNY
+14767 ={ winter_severity_bias = 0.4 } #SIGNY
+14768 ={ winter_severity_bias = 0.4 } #BUZANCY
+14769 ={ winter_severity_bias = 0.4 } #EPERNON
+14770 ={ winter_severity_bias = 0.4 } #LE PUISET
+14771 ={ winter_severity_bias = 0.4 } #PITHIVIERS
+14772 ={ winter_severity_bias = 0.4 } #FLEURY
+14773 ={ winter_severity_bias = 0.4 } #CHATEAU-LANDON
+14774 ={ winter_severity_bias = 0.4 } #TOURNUS
+14775 ={ winter_severity_bias = 0.4 } #AVALLON
+14776 ={ winter_severity_bias = 0.4 } #MOLESME
+14777 ={ winter_severity_bias = 0.4 } #DECIZE
+14778 ={ winter_severity_bias = 0.35 } #CUSSET
+14779 ={ winter_severity_bias = 0.4 } #VERGY
+14780 ={ winter_severity_bias = 0.4 } #NUITS
+14781 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.10 } #POLIGNAC
+14782 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.10 } #CRAPONNE
+14783 ={ winter_severity_bias = 0.4 } #TOUCY
+14784 ={ winter_severity_bias = 0.4 } #SAINT-FARGEAU
+14785 ={ winter_severity_bias = 0.4 } #CHAMPLITTE
+14786 ={ winter_severity_bias = 0.4 } #FONTAINE-FRANCAISE
+14787 ={ winter_severity_bias = 0.4 } #COSNE
+14788 ={ winter_severity_bias = 0.4 } #VARZY
+14789 ={ winter_severity_bias = 0.4 } #PARAY-LE-MONIAL
+14790 ={ winter_severity_bias = 0.35 } #SAINT-SAVIN
+14791 ={ winter_severity_bias = 0.35 } #MONTMORILLON
+14792 ={ winter_severity_bias = 0.35 } #ROCHECHOUART
+14793 ={ winter_severity_bias = 0.25 } #SEGUR
+14794 ={ winter_severity_bias = 0.25 } #TULLE
+14795 ={ winter_severity_bias = 0.25 } #USSEL
+14796 ={ winter_severity_bias = 0.25 } #BRIVE
+14797 ={ winter_severity_bias = 0.4 } #BROSSE
+14798 ={ winter_severity_bias = 0.35 } #SAINT-BENOIT-DU-SAULT
+14799 ={ winter_severity_bias = 0.35 } #SAINT-MAIXENT
+14800 ={ winter_severity_bias = 0.25 } #SAINT-JEAN-D'ANGELY
+14801 ={ winter_severity_bias = 0.25 } #PONS
+14802 ={ winter_severity_bias = 0.25 } #BARBEZIEUX
+14803 ={ winter_severity_bias = 0.25 } #SURGERES
+14804 ={ winter_severity_bias = 0.25 } #OLERON
+14805 ={ winter_severity_bias = 0.25 } #BENAUGES
+14806 ={ winter_severity_bias = 0.25 } #COUTRAS
+14807 ={ winter_severity_bias = 0.25 } #MONTBRON
+14808 ={ winter_severity_bias = 0.25 } #AUBETERRE
+14809 ={ winter_severity_bias = 0.25 } #JARNAC
+14810 ={ winter_severity_bias = 0.25 } #RIBERAC
+14811 ={ winter_severity_bias = 0.25 } #MUSSIDAN
+14812 ={ winter_severity_bias = 0.25 } #MAREUIL
+14813 ={ winter_severity_bias = 0.25 } #BOURDEILLES
+14814 ={ winter_severity_bias = 0.25 } #EXCIDEUIL
+14815 ={ winter_severity_bias = 0.25 } #SARLAT
+14816 ={ winter_severity_bias = 0.25 } #BEYNAC
+14817 ={ winter_severity_bias = 0.25 } #BIRON
+14818 ={ winter_severity_bias = 0.25 } #CADOUIN
+14819 ={ winter_severity_bias = 0.25 } #DURAS
+14820 ={ winter_severity_bias = 0.25 } #MARMANDE
+14821 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.05 } #USTARITZ
+14822 ={ winter_severity_bias = 0.25 } #SAUVETERRE
+14823 ={ winter_severity_bias = 0.4 } #ORTHEZ
+14824 ={ winter_severity_bias = 0.4 } #MAULEON
+14825 ={ winter_severity_bias = 0.4 } #NAVARRENX
+14826 ={ winter_severity_bias = 0.25 } #SAINT-SEVER
+14827 ={ winter_severity_bias = 0.25 } #CONDOM
+14828 ={ winter_severity_bias = 0.25 } #VIC-FEZENSAC
+14829 ={ winter_severity_bias = 0.4 } #LOURDES
+14830 ={ winter_severity_bias = 0.4 } #BAGNERES
+14831 ={ winter_severity_bias = 0.4 } #SAINT-GAUDENS
+14832 ={ winter_severity_bias = 0.25 } #LAVAUR
+14833 ={ winter_severity_bias = 0.25 } #LAUTREC
+14834 ={ winter_severity_bias = 0.1 } #CASTRES
+14835 ={ winter_severity_bias = 0.35 } #MIREPOIX
+14836 ={ winter_severity_bias = 0.25 } #CASTELNAU
+14837 ={ winter_severity_bias = 0.25 } #ROCAMADOUR
+14838 ={ winter_severity_bias = 0.25 } #VILLEFRANCHE-DE-ROUERGUE
+14839 ={ winter_severity_bias = 0.25 } #NAJAC
+14840 ={ winter_severity_bias = 0.25 } #SAINTE-EULALIE
+14841 ={ winter_severity_bias = 0.25 } #VABRES
+14842 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.10 } #RIOM
+14843 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.10 } #PONTGIBAUD
+14844 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.10 } #ISSOIRE
+14845 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.10 } #VIC-LE-COMTE
+14846 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.10 } #LA CHAISE-DIEU
+14847 ={ winter_severity_bias = 0.1 } #LIMOUX
+14848 ={ winter_severity_bias = 0.1 } #SAISSAC
+14849 ={ winter_severity_bias = 0.1 } #CAPESTANG
+14850 ={ winter_severity_bias = 0.1 } #CLERMONT
+14851 ={ winter_severity_bias = 0.2 } #MAGUELONE
+14852 ={ winter_severity_bias = 0.2 } #MELGUEIL
+14853 ={ winter_severity_bias = 0.2 } #LUNEL
+14854 ={ winter_severity_bias = 0.3 } #LE VIGAN
+14855 ={ winter_severity_bias = 0.2 } #SAUVE
+14856 ={ winter_severity_bias = 0.4 } #ALES
+14857 ={ winter_severity_bias = 0.4 } #SAINT-AMBROIX
+14858 ={ winter_severity_bias = 0.4 } #ROQUEMAURE
+14859 ={ winter_severity_bias = 0.2 } #SAINT-GILLES
+14860 ={ winter_severity_bias = 0.4 } #SAVIGNY
+14861 ={ winter_severity_bias = 0.25 } #TOURNON
+14862 ={ winter_severity_bias = 0.25 } #AUBENAS
+14863 ={ winter_severity_bias = 0.25 } #ROMANS
+14864 ={ winter_severity_bias = 0.25 } #ALBON
+14865 ={ winter_severity_bias = 0.4 } #BOURGOIN
+14866 ={ winter_severity_bias = 0.3 } #CHATILLON
+14867 ={ winter_severity_bias = 0.1 } #BRIGNOLES
+14868 ={ winter_severity_bias = 0.1 } #HYERES
+14869 ={ winter_severity_bias = 0.1 } #FRAXINET
+14870 ={ winter_severity_bias = 0.1 } #FREJUS
+14871 ={ winter_severity_bias = 0.2 } #RIEZ
+14872 ={ winter_severity_bias = 0.1 } #AUBAGNE
+14873 ={ winter_severity_bias = 0.1 } #SAINT-MAXIMIN
+14874 ={ winter_severity_bias = 0.2 } #VENCE
+14875 ={ winter_severity_bias = 0.2 } #ANTIBES
+14876 ={ winter_severity_bias = 0.25 } #SAINT-PAUL-TROIS-CHATEAUX
+14877 ={ winter_severity_bias = 0.25 } #VAISON
+14878 ={ winter_severity_bias = 0.2 } #MANOSQUE
+14879 ={ winter_severity_bias = 0.5 } #SEYNE
+14880 ={ winter_severity_bias = 0.4 } #GY
+14881 ={ winter_severity_bias = 0.4 } #LOUHANS
+14882 ={ winter_severity_bias = 0.4 } #ORGELET
+14883 ={ winter_severity_bias = 0.7 } #SAINT-MAURICE
+14884 ={ winter_severity_bias = 0.7 } #GESSENAY
+14885 ={ winter_severity_bias = 0.7 } #SION
+14886 ={ winter_severity_bias = 0.45 } #VEVEY
+14887 ={ winter_severity_bias = 0.45 } #ROMAINMOTIER
+14888 ={ winter_severity_bias = 0.45 } #PAYERNE
+14889 ={ winter_severity_bias = 0.7 } #INTERLAKEN
+14890 ={ winter_severity_bias = 0.5 } #HABSBURG
+14891 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.10 } #MERCUR
+14892 ={ winter_severity_bias = 0.4 } #NOYERS
+14893 ={ winter_severity_bias = 0.4 } #PONTIGNY
+14894 ={ winter_severity_bias = 0.2 } #SAULT
+14895 ={ winter_severity_bias = 0.25 } #L'ISLE-JOURDAIN
+14896 ={ winter_severity_bias = 0.25 } #SEVERAC
+14897 ={ winter_severity_bias = 0.4 } #SASSENAGE
+14898 ={ winter_severity_bias = 0.45 } #FIENNES
+14899 ={ winter_severity_bias = 0.45 } #LES ANDELYS
+14900 ={ winter_severity_bias = 0.45 } #LE BEC
+14901 ={ winter_severity_bias = 0.35 } #MAILLEZAIS
+14902 ={ winter_severity_bias = 0.45 } #SANDWICH
+14903 ={ winter_severity_bias = 0.45 } #MAIDSTONE
+14904 ={ winter_severity_bias = 0.45 } #BRAMBER
+14905 ={ winter_severity_bias = 0.45 } #PEVENSEY
+14906 ={ winter_severity_bias = 0.45 } #HEDINGHAM
+14907 ={ winter_severity_bias = 0.45 } #WALTHAM
+14908 ={ winter_severity_bias = 0.4 } #TIVERTON
+14909 ={ winter_severity_bias = 0.4 } #PLYMPTON
+14910 ={ winter_severity_bias = 0.4 } #TAVISTOCK
+14911 ={ winter_severity_bias = 0.4 } #BODMIN
+14912 ={ winter_severity_bias = 0.45 } #WELLS
+14913 ={ winter_severity_bias = 0.45 } #DUNSTER
+14914 ={ winter_severity_bias = 0.45 } #SHERBORNE
+14915 ={ winter_severity_bias = 0.45 } #BERKELEY
+14916 ={ winter_severity_bias = 0.45 } #TEWKESBURY
+14917 ={ winter_severity_bias = 0.45 } #AMESBURY
+14918 ={ winter_severity_bias = 0.45 } #DEVIZES
+14919 ={ winter_severity_bias = 0.45 } #WOODSTOCK
+14920 ={ winter_severity_bias = 0.45 } #WALLINGFORD
+14921 ={ winter_severity_bias = 0.45 } #DUDLEY
+14922 ={ winter_severity_bias = 0.45 } #KENILWORTH
+14923 ={ winter_severity_bias = 0.45 } #TAMWORTH
+14924 ={ winter_severity_bias = 0.45 } #WENLOCK
+14925 ={ winter_severity_bias = 0.45 } #BRIDGNORTH
+14926 ={ winter_severity_bias = 0.45 } #OSWESTRY
+14927 ={ winter_severity_bias = 0.45 } #BANGOR
+14928 ={ winter_severity_bias = 0.45 } #DEGANNWY
+14929 ={ winter_severity_bias = 0.45 } #CASTELL Y BERE
+14930 ={ winter_severity_bias = 0.45 } #LLAN-FAES
+14931 ={ winter_severity_bias = 0.5 } #Y TRALLWNG
+14932 ={ winter_severity_bias = 0.5 } #DINAS BRAN
+14933 ={ winter_severity_bias = 0.45 } #MAESYFED
+14934 ={ winter_severity_bias = 0.45 } #CLUN
+14935 ={ winter_severity_bias = 0.45 } #WEOBLEY
+14936 ={ winter_severity_bias = 0.45 } #CAERFFILI
+14937 ={ winter_severity_bias = 0.45 } #CASTELL-NEDD
+14938 ={ winter_severity_bias = 0.45 } #CAS-GWENT
+14939 ={ winter_severity_bias = 0.45 } #DINEFWR
+14940 ={ winter_severity_bias = 0.45 } #HENDY-GWYN
+14941 ={ winter_severity_bias = 0.45 } #YSTRAD FFLUR
+14942 ={ winter_severity_bias = 0.45 } #HWLFFORDD
+14943 ={ winter_severity_bias = 0.45 } #DINBYCH-Y-PYSGOD
+14944 ={ winter_severity_bias = 0.45 } #ST NEOTS
+14945 ={ winter_severity_bias = 0.45 } #RAMSEY
+14946 ={ winter_severity_bias = 0.45 } #ROCKINGHAM
+14947 ={ winter_severity_bias = 0.45 } #GREAT YARMOUTH
+14948 ={ winter_severity_bias = 0.45 } #FRAMLINGHAM
+14949 ={ winter_severity_bias = 0.45 } #DUNWICH
+14950 ={ winter_severity_bias = 0.45 } #CLARE
+14951 ={ winter_severity_bias = 0.45 } #NORTHALLERTON
+14952 ={ winter_severity_bias = 0.45 } #HELMSLEY
+14953 ={ winter_severity_bias = 0.45 } #SKIPSEA
+14954 ={ winter_severity_bias = 0.45 } #PONTEFRACT
+14955 ={ winter_severity_bias = 0.45 } #GRANTHAM
+14956 ={ winter_severity_bias = 0.45 } #UPPINGHAM
+14957 ={ winter_severity_bias = 0.45 } #BELVOIR
+14958 ={ winter_severity_bias = 0.45 } #NEWARK
+14959 ={ winter_severity_bias = 0.45 } #DUFFIELD
+14960 ={ winter_severity_bias = 0.45 } #NEWCASTLE
+14961 ={ winter_severity_bias = 0.5 } #BARNARD CASTLE
+14962 ={ winter_severity_bias = 0.5 } #GAINFORD
+14963 ={ winter_severity_bias = 0.45 } #CLITHEROE
+14964 ={ winter_severity_bias = 0.45 } #PRESTON
+14965 ={ winter_severity_bias = 0.5 } #BROUGH
+14966 ={ winter_severity_bias = 0.45 } #HALTON
+14967 ={ winter_severity_bias = 0.55 } #MELROSE
+14968 ={ winter_severity_bias = 0.55 } #RUTHERGLEN
+14969 ={ winter_severity_bias = 0.55 } #JEDBURGH
+14970 ={ winter_severity_bias = 0.55 } #DOUGLAS
+14971 ={ winter_severity_bias = 0.55 } #PAISLEY
+14972 ={ winter_severity_bias = 0.55 } #BUITTLE
+14973 ={ winter_severity_bias = 0.55 } #LOCHMABEN
+14974 ={ winter_severity_bias = 0.5 } #COCKERMOUTH
+14975 ={ winter_severity_bias = 0.55 } #KILDRUMMY
+14976 ={ winter_severity_bias = 0.55 } #ARBROATH
+14977 ={ winter_severity_bias = 0.65 } #FORFAR
+14978 ={ winter_severity_bias = 0.55 } #DUNNOTTAR
+14979 ={ winter_severity_bias = 0.65 } #CRIEFF
+14980 ={ winter_severity_bias = 0.65 } #LOGIERAIT
+14981 ={ winter_severity_bias = 0.65 } #SCONE
+14982 ={ winter_severity_bias = 0.55 } #KINROSS
+14983 ={ winter_severity_bias = 0.55 } #ELLON
+14984 ={ winter_severity_bias = 0.65 } #FORRES
+14985 ={ winter_severity_bias = 0.6 } #NAIRN
+14986 ={ winter_severity_bias = 0.6 } #LOCHINDORB
+14987 ={ winter_severity_bias = 0.6 } #FORTROSE
+14988 ={ winter_severity_bias = 0.65 } #HALKIRK
+14989 ={ winter_severity_bias = 0.6 } #DUNSTAFFNAGE
+14990 ={ winter_severity_bias = 0.55 } #PEEL
+14991 ={ winter_severity_bias = 0.6 } #SKIPNESS
+14992 ={ winter_severity_bias = 0.6 } #SNIZORT
+14993 ={ winter_severity_bias = 0.6 } #STORNOWAY
+14994 ={ winter_severity_bias = 0.6 } #NORTH UIST
+14995 ={ winter_severity_bias = 0.8 } #BIRSAY
+14996 ={ winter_severity_bias = 0.8 } #UNST
+14997 ={ winter_severity_bias = 0.8 } #KIRKJUBUR
+14998 ={ winter_severity_bias = 0.4 } #DUNDRUM
+14999 ={ winter_severity_bias = 0.4 } #NEWTOWNARDS
+15000 ={ winter_severity_bias = 0.4 } #BELFAST
+15001 ={ winter_severity_bias = 0.4 } #RAITH MOR
+15002 ={ winter_severity_bias = 0.4 } #CONDERE
+15003 ={ winter_severity_bias = 0.4 } #DUN SOBAIRCE
+15004 ={ winter_severity_bias = 0.4 } #GLENARM
+15005 ={ winter_severity_bias = 0.4 } #DUNLUCE
+15006 ={ winter_severity_bias = 0.4 } #IUR CINN TRA
+15007 ={ winter_severity_bias = 0.4 } #DRUIM MOR
+15008 ={ winter_severity_bias = 0.4 } #ATH SEANAIGH
+15009 ={ winter_severity_bias = 0.5 } #LOCH DEARG
+15010 ={ winter_severity_bias = 0.5 } #NA CEALLA BEAGA
+15011 ={ winter_severity_bias = 0.5 } #GLEANN CHOLM CILLE
+15012 ={ winter_severity_bias = 0.5 } #NA ROSA
+15013 ={ winter_severity_bias = 0.5 } #CILL MHIC NEANAIN
+15014 ={ winter_severity_bias = 0.5 } #GARTAN
+15015 ={ winter_severity_bias = 0.5 } #FANAID
+15016 ={ winter_severity_bias = 0.5 } #LEIFEAR
+15017 ={ winter_severity_bias = 0.5 } #AILECH
+15018 ={ winter_severity_bias = 0.5 } #NORTHBURGH
+15019 ={ winter_severity_bias = 0.5 } #LEIM AN MHADAIDH
+15020 ={ winter_severity_bias = 0.5 } #DUN GEIMHIN
+15021 ={ winter_severity_bias = 0.4 } #DUN GEANAINN
+15022 ={ winter_severity_bias = 0.4 } #ARD SRATHA
+15023 ={ winter_severity_bias = 0.4 } #MACHAIRE RATHA
+15024 ={ winter_severity_bias = 0.4 } #CLUAIN EOIS
+15025 ={ winter_severity_bias = 0.4 } #FEARNMHAIGH
+15026 ={ winter_severity_bias = 0.4 } #CLOCHAR
+15027 ={ winter_severity_bias = 0.4 } #CLANN BHREASAIL
+15028 ={ winter_severity_bias = 0.4 } #NA FEADHA
+15029 ={ winter_severity_bias = 0.4 } #LIOS NA SCEITHE
+15030 ={ winter_severity_bias = 0.4 } #INIS MAIGHE SAMH
+15031 ={ winter_severity_bias = 0.4 } #LOUTH
+15032 ={ winter_severity_bias = 0.4 } #MELLIFONT
+15033 ={ winter_severity_bias = 0.4 } #DUN NA SCIATH
+15034 ={ winter_severity_bias = 0.4 } #UISNECH
+15035 ={ winter_severity_bias = 0.4 } #ATH AN URCHAIR
+15036 ={ winter_severity_bias = 0.4 } #DARU
+15037 ={ winter_severity_bias = 0.4 } #CLUAIN MHIC NOIS
+15038 ={ winter_severity_bias = 0.4 } #DEALBHNA
+15039 ={ winter_severity_bias = 0.4 } #TLACHTGA
+15040 ={ winter_severity_bias = 0.4 } #AN OBAIR
+15041 ={ winter_severity_bias = 0.4 } #CAIRBRE
+15042 ={ winter_severity_bias = 0.4 } #TRIM
+15043 ={ winter_severity_bias = 0.4 } #CNOGBA
+15044 ={ winter_severity_bias = 0.4 } #TEMAIR
+15045 ={ winter_severity_bias = 0.4 } #LUSCA
+15046 ={ winter_severity_bias = 0.4 } #SORD
+15047 ={ winter_severity_bias = 0.4 } #TAMHLACHT
+15048 ={ winter_severity_bias = 0.4 } #MAIGH NUAD
+15049 ={ winter_severity_bias = 0.4 } #AIL FINN
+15050 ={ winter_severity_bias = 0.4 } #BAILE AN TOBAIR
+15051 ={ winter_severity_bias = 0.4 } #ROS COMAIN
+15052 ={ winter_severity_bias = 0.4 } #CARRAIG LOCHA CE
+15053 ={ winter_severity_bias = 0.4 } #MAINISTIR NA BUILLE
+15054 ={ winter_severity_bias = 0.4 } #ATH CLIATH AN CHORAINN
+15055 ={ winter_severity_bias = 0.4 } #TIR OILELLA
+15056 ={ winter_severity_bias = 0.4 } #ACHADH CONAIRE
+15057 ={ winter_severity_bias = 0.4 } #DROIM CLIABH
+15058 ={ winter_severity_bias = 0.4 } #TIR FHIACHRACH
+15059 ={ winter_severity_bias = 0.4 } #CROIS MHAOILIONA
+15060 ={ winter_severity_bias = 0.4 } #IORRAS
+15061 ={ winter_severity_bias = 0.4 } #BUIRIOS UMHAILL
+15062 ={ winter_severity_bias = 0.4 } #MURAISC
+15063 ={ winter_severity_bias = 0.4 } #BAILE TOBAIR PHADRAIG
+15064 ={ winter_severity_bias = 0.4 } #MAIGH EO
+15065 ={ winter_severity_bias = 0.4 } #BEAL EASA
+15066 ={ winter_severity_bias = 0.4 } #SLIABH LUGHA
+15067 ={ winter_severity_bias = 0.4 } #DROIM DHA THIAR
+15068 ={ winter_severity_bias = 0.4 } #LIATROIM
+15069 ={ winter_severity_bias = 0.4 } #MAOTHAIL
+15070 ={ winter_severity_bias = 0.4 } #FIODHNACHA
+15071 ={ winter_severity_bias = 0.4 } #CLOCH UACHTAIR
+15072 ={ winter_severity_bias = 0.4 } #TEALLACH EACHACH
+15073 ={ winter_severity_bias = 0.4 } #AN LONGFORT
+15074 ={ winter_severity_bias = 0.4 } #GRANARD
+15075 ={ winter_severity_bias = 0.4 } #CONMAICNE MARA
+15076 ={ winter_severity_bias = 0.4 } #DUICHE SHEOIGHEACH
+15077 ={ winter_severity_bias = 0.4 } #GAILLIMH
+15078 ={ winter_severity_bias = 0.4 } #EANACH DUIN
+15079 ={ winter_severity_bias = 0.4 } #DUN MOR
+15080 ={ winter_severity_bias = 0.4 } #CILL MHEAIN
+15081 ={ winter_severity_bias = 0.4 } #CUNGA
+15082 ={ winter_severity_bias = 0.4 } #GORT INSE GUAIRE
+15083 ={ winter_severity_bias = 0.4 } #CILL MHIC DUACH
+15084 ={ winter_severity_bias = 0.4 } #BEAL ATHA NA SLUAIGHE
+15085 ={ winter_severity_bias = 0.4 } #ATH LIAG
+15086 ={ winter_severity_bias = 0.4 } #BAILE LOCHA RIACH
+15087 ={ winter_severity_bias = 0.4 } #PORT OMNA
+15088 ={ winter_severity_bias = 0.4 } #CLUAIN FEARTA
+15089 ={ winter_severity_bias = 0.4 } #INIS CORTHAID
+15090 ={ winter_severity_bias = 0.4 } #ROS MHIC THRIUIN
+15091 ={ winter_severity_bias = 0.4 } #CEATHARLACH
+15092 ={ winter_severity_bias = 0.4 } #TULACH
+15093 ={ winter_severity_bias = 0.4 } #LEITHGHLINN
+15094 ={ winter_severity_bias = 0.4 } #NAS
+15095 ={ winter_severity_bias = 0.4 } #RATH IOMGHAIN
+15096 ={ winter_severity_bias = 0.4 } #LEIGHE
+15097 ={ winter_severity_bias = 0.4 } #ATH I
+15098 ={ winter_severity_bias = 0.4 } #GABHRAN
+15099 ={ winter_severity_bias = 0.4 } #RATH DOMHNAIGH
+15100 ={ winter_severity_bias = 0.4 } #BAILE MHIC ANDAIN
+15101 ={ winter_severity_bias = 0.4 } #GLEANN DA LOCHA
+15102 ={ winter_severity_bias = 0.4 } #TUAIM GREINE
+15103 ={ winter_severity_bias = 0.4 } #CUINCHE
+15104 ={ winter_severity_bias = 0.4 } #BUN RAITE
+15105 ={ winter_severity_bias = 0.4 } #CORCA MODHRUADH
+15106 ={ winter_severity_bias = 0.4 } #BOIREANN
+15107 ={ winter_severity_bias = 0.4 } #CILL ROIS
+15108 ={ winter_severity_bias = 0.4 } #CILL CHAOI
+15109 ={ winter_severity_bias = 0.4 } #CAISLEAN UI CHONAING
+15110 ={ winter_severity_bias = 0.4 } #SEANAID
+15111 ={ winter_severity_bias = 0.4 } #EAS GEITINE
+15112 ={ winter_severity_bias = 0.4 } #GLEANN CORBRAIGHE
+15113 ={ winter_severity_bias = 0.4 } #ATH DARA
+15114 ={ winter_severity_bias = 0.4 } #CROMADH
+15115 ={ winter_severity_bias = 0.4 } #AINE
+15116 ={ winter_severity_bias = 0.4 } #IMLEACH IUBHAIR
+15117 ={ winter_severity_bias = 0.4 } #TIR DA GHLAS
+15118 ={ winter_severity_bias = 0.4 } #ARA
+15119 ={ winter_severity_bias = 0.4 } #ROS CRE
+15120 ={ winter_severity_bias = 0.4 } #TEAMPALL MOR
+15121 ={ winter_severity_bias = 0.4 } #CATHAIR
+15122 ={ winter_severity_bias = 0.4 } #CAISEAL
+15123 ={ winter_severity_bias = 0.4 } #FIODH ARD
+15124 ={ winter_severity_bias = 0.4 } #EALLA
+15125 ={ winter_severity_bias = 0.4 } #FIR MAIGE
+15126 ={ winter_severity_bias = 0.4 } #CLANN GHIOBUIN
+15127 ={ winter_severity_bias = 0.4 } #OIREACHT UI CHONCHOBHAIR
+15128 ={ winter_severity_bias = 0.4 } #LIOS TUATHAIL
+15129 ={ winter_severity_bias = 0.4 } #SLIABH LUACHRA
+15130 ={ winter_severity_bias = 0.4 } #ARD FHEARTA
+15131 ={ winter_severity_bias = 0.4 } #OILEAN CIARRAI
+15132 ={ winter_severity_bias = 0.4 } #AN DAINGEAN
+15133 ={ winter_severity_bias = 0.4 } #LOCH LEIN
+15134 ={ winter_severity_bias = 0.4 } #CILL ORGLAN
+15135 ={ winter_severity_bias = 0.4 } #UIBH RATHACH
+15136 ={ winter_severity_bias = 0.4 } #NEIDIN
+15137 ={ winter_severity_bias = 0.4 } #BEARRA
+15138 ={ winter_severity_bias = 0.4 } #BEANNTRAI
+15139 ={ winter_severity_bias = 0.4 } #CILL BRIOTAIN
+15140 ={ winter_severity_bias = 0.4 } #ROS AILITHIR
+15141 ={ winter_severity_bias = 0.4 } #INIS EONAIN
+15142 ={ winter_severity_bias = 0.4 } #MAIGH CHROMTHA
+15143 ={ winter_severity_bias = 0.4 } #CAISLEAN O LIATHAIN
+15144 ={ winter_severity_bias = 0.4 } #CLUAIN
+15145 ={ winter_severity_bias = 0.4 } #EOCHAILL
+15146 ={ winter_severity_bias = 0.4 } #MALA
+15147 ={ winter_severity_bias = 0.4 } #CILL MHIC THOMAISIN
+15148 ={ winter_severity_bias = 0.4 } #DUN GARBHAN
+15149 ={ winter_severity_bias = 0.4 } #LIOS MOR
+15150 ={ winter_severity_bias = 0.5 } #CLANN DIARMADA
+15151 ={ winter_severity_bias = 0.4 } #DRUIM LEATHAN
+15152 ={ winter_severity_bias = 0.4 } #INIS CUMHSCRAIGH
+15153 ={ winter_severity_bias = 0.4 } #CILL DALUA
+15154 ={ winter_severity_bias = 0.4 } #MAINISTIR NA CROICHE
+15155 ={ winter_severity_bias = 0.4 } #CAIRLINN
+15156 ={ winter_severity_bias = 0.15 } #AVEIRO
+15157 ={ winter_severity_bias = 0.15 } #OVAR
+15158 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.10 } #LAFOES
+15159 ={ winter_severity_bias = 0.4 } #MONTALEGRE
+15160 ={ winter_severity_bias = 0.4 } #MONZON
+15161 ={ winter_severity_bias = 0.4 } #BRIVIESCA
+15162 ={ winter_severity_bias = 0.6 } #SANGUESA
+15163 ={ winter_severity_bias = 0.5 harsh_winter_factor_override = 0.05 } #DONIBANE GARAZI
+15164 ={ winter_severity_bias = 0.4 } #AMIKUZE
+15165 ={ winter_severity_bias = 0.3 } #CALAMOCHA
+15166 ={ winter_severity_bias = 0.3 } #ILLUECA
+15167 ={ winter_severity_bias = 0.2 } #LLUCANES
+15168 ={ winter_severity_bias = 0.9 } #IBERIAN IMPASSIBLE TERRAIN 9

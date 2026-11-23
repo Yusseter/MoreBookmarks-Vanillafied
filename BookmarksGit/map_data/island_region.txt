@@ -53,6 +53,8 @@ island_region_britain = {
 		d_munster
 		d_leinster
 		d_essex
+	
+		d_tir_chonaill d_ailech d_airgialla d_ui_maine d_maigh_eo d_breifne d_brega d_urmumu d_desmumu d_osraige # Yusseter
 	}
 	
 	counties = {

@@ -22,9 +22,13 @@ RICE_greenland_struggle_region = {
 		d_duortnoseatnu
 		#Ireland
 		d_ulster
+	
+		d_tir_chonaill d_ailech d_airgialla # Yusseter
 	}
 	counties = {
 		c_middlesex c_dublin c_north_riding c_aalborg c_aarhus 
+	
+		c_cualu c_fingal # Yusseter
 	}
 }
 
@@ -36,6 +40,8 @@ RICE_norse_frontier_region = {
 		d_western_isles d_galloway d_albany d_moray d_sutherland d_aberdeen d_hebrides d_lothian d_strathclyde d_the_isles
 		#Ireland
 		d_ulster d_connacht d_meath d_leinster d_munster
+	
+		d_tir_chonaill d_ailech d_airgialla d_ui_maine d_maigh_eo d_breifne d_brega d_osraige d_urmumu d_desmumu # Yusseter
 	}
 }
 

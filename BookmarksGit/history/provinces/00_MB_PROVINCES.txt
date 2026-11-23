@@ -212,15 +212,25 @@
 	}
 }
 
-13 = {	#SLEMISH
-	holding = none
-	1000.1.1 = {
-		holding = church_holding
+13 = { # Tuaiscert - Coleraine
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1214.1.1 = { # Thomas of Galloway builds the castle at Coleraine
+		holding = castle_holding
 	}
 }
 
-14 = { # Ulster - Carrickfergus
-	holding = none
+14 = { # Dál nAraidi - Carrickfergus
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
 	1177.1.1 = { # John de Courcy's castle at Carrickfergus
 		holding = castle_holding
 	}
@@ -238,8 +248,11 @@
 	}
 }
 
-16 = {	#BALTIMORE
+16 = { # Cairbre - Dún na Séad
 	holding = none
+	1215.1.1 = { # The castle of Dún na Séad
+		holding = castle_holding
+	}
 }
 
 17 = {	#ARMAGH
@@ -265,76 +278,78 @@
 	}
 }
 
-19 = { # Armagh - Ardee
-	culture = irish
-	rite = insular_celtic
+19 = { # Louth - Ardee
 	holding = tribal_holding
-	1172.1.1 = { # Synod of Cashel
-		rite = roman_rite
-	}
 	1185.1.1 = { # Roger Pippard granted Ardee
-		culture = english
 		holding = castle_holding
-	}
-	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
-		rite = sarum_rite
-	}
-	1315.1.1 = { # hiberno_norman culture forms
-		culture = hiberno_norman
 	}
 }
 
-20 = { # Hy Many - Galway
+20 = { # Iar Connacht - Maigh Cuilinn
 	culture = irish
 	rite = insular_celtic
 	holding = tribal_holding
-	1124.1.1 = { # Toirdelbach Ua Conchobair builds the first castles in Ireland
-		holding = castle_holding
-	}
 	1172.1.1 = { # Synod of Cashel
 		rite = roman_rite
 	}
 }
 
-21 = {	#CASTLEBAR
-	holding = none
+21 = { # Ceara - Caisleán an Bharraigh
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1238.1.1 = { # The de Barrys build their castle at Castlebar
+		holding = castle_holding
+	}
 }
 
-22 = { # Mayo - Sligo
-	holding = none
+22 = { # Cairbre - Sligeach
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
 	1245.1.1 = { # Maurice FitzGerald's castle at Sligo
 		holding = castle_holding
 	}
 }
 
-23 = { # Hy Many - Athenry
-	holding = none
-	1235.1.1 = { # Meiler de Bermingham's castle at Athenry
-		holding = castle_holding
-	}
-}
-
-24 = { # West Bréifne - Dromahair
+23 = { # Baile Átha an Rí - Baile Átha an Rí
 	culture = irish
 	rite = insular_celtic
 	holding = tribal_holding
 	1172.1.1 = { # Synod of Cashel
 		rite = roman_rite
 	}
+	1235.1.1 = { # Meiler de Bermingham's castle at Athenry
+		holding = castle_holding
+	}
+	1310.1.1 = { # The town of Athenry is walled
+		holding = city_holding
+	}
+}
+
+24 = { # Bréifne Uí Ruairc - Ros Inbhir
+	holding = church_holding
+	# Saint Mogue's monastery of Rossinver
 }
 
 25 = { # West Bréifne - Devenish
 	holding = church_holding
 }
 
-26 = { # East Bréifne - Kells
+26 = { # Cenannas - Cenannas
 	holding = none
 	807.1.1 = { # Columban monks from Iona found Kells
 		holding = church_holding
 	}
 }
 
-27 = { # East Bréifne - Cavan
+27 = { # Bréifne Uí Raghallaigh - An Cabhán
 	culture = irish
 	rite = insular_celtic
 	holding = tribal_holding
@@ -371,10 +386,22 @@
 	}
 }
 
-29 = {	#WICKLOW
-	holding = none
-	988.1.1 = {
-		holding = city_holding
+29 = { # Cualu - Cill Mhantáin
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1176.1.1 = { # Maurice FitzGerald's castle at Wicklow
+		culture = english
+		holding = castle_holding
+	}
+	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
 	}
 }
 
@@ -417,8 +444,14 @@
 	}
 }
 
-34 = {	#ATHLONE
-holding = church_holding
+34 = { # Éile - Biorra
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	# Saint Brendan's monastery of Birr
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
 }
 
 35 = { # Argyll - Ardnamurchan
@@ -455,33 +488,23 @@ holding = church_holding
 	}
 }
 
-38 = { # Leinster - Arklow
+38 = { # Uí Chennselaig - Inbhear Mór
 	holding = none
 	1185.1.1 = { # Theobald Walter's castle at Arklow
 		holding = castle_holding
 	}
 }
 
-39 = { # Leinster - Ferns
+39 = { # Uí Chennselaig - Fearna
 	holding = church_holding
+	# Saint Máedóc's monastery, the see of Ferns
 }
 
-40 = { # Kildare - Castledermot
-	culture = irish
-	rite = insular_celtic
-	holding = tribal_holding
-	1172.1.1 = { # Synod of Cashel
-		rite = roman_rite
-	}
-	1176.1.1 = { # Strongbow grants Kildare to Maurice FitzGerald
-		culture = english
+40 = { # Cill Dara - Díseart Diarmada
+	holding = church_holding
+	# The monastery of Díseart Diarmata
+	1181.1.1 = { # Walter de Ridelisford's castle at Castledermot
 		holding = castle_holding
-	}
-	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
-		rite = sarum_rite
-	}
-	1315.1.1 = { # hiberno_norman culture forms
-		culture = hiberno_norman
 	}
 }
 
@@ -489,10 +512,22 @@ holding = church_holding
 	holding = church_holding
 }
 
-42 = { # Ossory - Dunamase
-	holding = none
+42 = { # Loígis - Dún Másc
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
 	1170.8.26 = { # Strongbow receives Dunamase with Aoife
+		culture = english
 		holding = castle_holding
+	}
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
 	}
 }
 
@@ -513,10 +548,20 @@ holding = church_holding
 	}
 }
 
-44 = { # Ossory - New Ross
-	holding = none
-	1207.1.1 = { # William Marshal founds New Ross
-		holding = city_holding
+44 = { # Desceart Osraige - Callainn
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1207.1.1 = { # William Marshal's borough and castle at Callan
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
 	}
 }
 
@@ -542,16 +587,19 @@ holding = church_holding
 	}
 }
 
-46 = { # Ennis - Ennis
+46 = { # Inis - Inis
 	culture = irish
 	rite = insular_celtic
 	holding = tribal_holding
 	1172.1.1 = { # Synod of Cashel
 		rite = roman_rite
 	}
+	1210.1.1 = { # Donnchad Cairprech Ua Briain moves the royal seat of Thomond to Clonroad
+		holding = castle_holding
+	}
 }
 
-47 = { # Thomond - Nenagh
+47 = { # Múscraige Tíre - Aonach Urmhumhan
 	culture = irish
 	rite = insular_celtic
 	holding = tribal_holding
@@ -559,12 +607,23 @@ holding = church_holding
 		rite = roman_rite
 	}
 	1200.1.1 = { # Theobald Walter's castle at Nenagh
+		culture = english
 		holding = castle_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
 	}
 }
 
-48 = {	#ROSCREA
-	holding = church_holding
+48 = { # Éile Uí Fhógartaigh - Durlas
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	# The Cistercian abbey of Holycross, founded by Domnall Mór Ua Briain about 1180
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
 }
 
 49 = { # Ormond - Waterford
@@ -593,21 +652,31 @@ holding = church_holding
 	}
 }
 
-50 = { # Ormond - Cashel
-	holding = tribal_holding
-	1101.1.1 = { # Muirchertach Ua Briain grants the Rock of Cashel to the church
+50 = { # Eóganacht Chaisil - Tiobraid Árann
+	holding = none
+	1200.1.1 = { # William de Burgh founds the priory of Athassel
 		holding = church_holding
 	}
 }
 
-51 = { # Ormond - Clonmel
-	holding = none
+51 = { # Uí Fathaid - Cluain Meala
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
 	1200.1.1 = { # William de Burgh's town at Clonmel
+		culture = english
 		holding = city_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
 	}
 }
 
-52 = { # Desmond - Tralee
+52 = { # Trá Lí - Trá Lí
 	culture = irish
 	rite = insular_celtic
 	holding = tribal_holding
@@ -615,7 +684,12 @@ holding = church_holding
 		rite = roman_rite
 	}
 	1215.1.1 = { # Anglo-Norman castles in Kerry
+		culture = english
 		holding = castle_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
 	}
 }
 
@@ -638,8 +712,24 @@ holding = church_holding
 	}
 }
 
-54 = {	#KINSALE
-	holding = none
+54 = { # Ceann Sáile - Ceann Sáile
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1177.1.1 = { # Henry II grants the kingdom of Cork to Robert FitzStephen and Milo de Cogan
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
 }
 
 55 = {		#LINDHOLM
@@ -1071,8 +1161,14 @@ holding = church_holding
 	holding = none
 }
 
-96 = { # Rävala - Järva
-	holding = none
+96 = { # Järva - Järva
+	culture = estonian
+	rite = estonian_pagan
+	holding = tribal_holding
+	1224.1.1 = { # Järva is subjugated by the Sword Brothers
+		holding = castle_holding
+		rite = roman_rite
+	}
 }
 
 97 = { # Narva - Rakvere
@@ -1359,8 +1455,10 @@ holding = church_holding
 	holding = none
 }
 
-126 = { # Palanga - Medeniken
-	holding = none
+126 = { # Medininkai - Medeniken
+	culture = lithuanian
+	rite = perkunas
+	holding = tribal_holding
 	1300.1.1 = { # Medininkai, a Samogitian hillfort
 		holding = castle_holding
 	}
@@ -1605,8 +1703,13 @@ holding = church_holding
 	
 }
 
-158 = {		#VILKAVISKIS
-	holding = none
+158 = { # Kimenava - Vilkaviškis
+	culture = sudovian
+	rite = prussian_pagan
+	holding = tribal_holding
+	1253.1.1 = {
+		holding = castle_holding # Grand Duchy of Lithuania formed
+	}
 }
 
 159 = {		#VALKININKAI
@@ -1632,8 +1735,13 @@ holding = church_holding
 	}
 }
 
-162 = {		#ALITEN
-	holding = none
+162 = { # Dainava - Alytus
+	culture = sudovian
+	rite = prussian_pagan
+	holding = tribal_holding
+	1253.1.1 = {
+		holding = castle_holding # Grand Duchy of Lithuania formed
+	}
 }
 
 163 = {		#SEJNY
@@ -12241,8 +12349,19 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1500 = {	#Yarlestre
-	holding = church_holding
+1500 = { # Thirsk - Thirsk
+	culture = northumbrian
+	rite = roman_rite
+	holding = castle_holding
+	900.11.11 = {
+		culture = anglo_norse
+	}
+	1070.5.23 = { # Thomas of Bayeux, Archbishop of York, reorders his chapter on the model of Bayeux
+		rite = york_rite
+	}
+	1150.11.11 = {
+		culture = northerner
+	}
 }
 
 1502 = {	#Dover
@@ -12297,9 +12416,6 @@ rite = antiochian_rite #no syriac in CK3
 	1068.1.1 = { # Richard fitz Gilbert's castle at Tonbridge
 		holding = castle_holding
 	}
-	1242.1.1 = { # Aylesford Priory, first Carmelite house in England
-		holding = church_holding
-	}
 }
 
 1506 = {	#Lewes
@@ -12322,9 +12438,17 @@ rite = antiochian_rite #no syriac in CK3
 }
 
 1508 = { # Sussex - Arundel
-	holding = none
-	1067.1.1 = { # Roger de Montgomery's castle at Arundel
-		holding = castle_holding
+	culture = kentish
+	rite = roman_rite
+	holding = castle_holding
+	900.1.1 = {
+		culture = anglo_saxon
+	}
+	1100.11.11 = {
+		culture = english
+	}
+	1220.4.28 = { # Richard Poore lays the foundations of the new cathedral at Salisbury; his ordinal and consuetudinary set down the Use of Sarum
+		rite = sarum_rite
 	}
 }
 
@@ -12355,8 +12479,11 @@ rite = antiochian_rite #no syriac in CK3
 	holding = church_holding
 }
 
-1513 = {	#Tandbridge
+1513 = { # Surrey - Reigate
 	holding = none
+	1088.1.1 = { # William de Warenne's castle at Reigate
+		holding = castle_holding
+	}
 }
 
 1514 = { # Essex - Colchester
@@ -13427,8 +13554,11 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1629 = {	#Stoke-on-Trent
+1629 = { # Staffordshire - Newcastle-under-Lyme
 	holding = none
+	1146.1.1 = { # Ranulf, Earl of Chester, raises the new castle under Lyme
+		holding = castle_holding
+	}
 }
 
 1630 = { # Gwent - Caerllion
@@ -13466,11 +13596,13 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1633 = {	#Wigmore
-	holding = church_holding
-	#Settled in roman times, anglo-saxon church from before the Xth century
+1633 = { # Herefordshire - Wigmore
+	holding = none
 	767.1.1 = {
 		special_building = offas_dyke_01
+	}
+	1067.1.1 = { # William FitzOsbern raises the castle at Wigmore
+		holding = castle_holding
 	}
 }
 
@@ -13787,11 +13919,11 @@ rite = antiochian_rite #no syriac in CK3
 	culture = welsh
 	rite = roman_rite
 	holding = tribal_holding
-	1221.1.1 = { # Llywelyn ab Iorwerth builds Castell y Bere
-		holding = castle_holding
-	}
 	1224.1.1 = { # St David's adopts parts of the Use of Sarum
 		rite = sarum_rite
+	}
+	1283.1.1 = { # Edward I begins Harlech castle
+		holding = castle_holding
 	}
 }
 
@@ -13854,9 +13986,6 @@ rite = antiochian_rite #no syriac in CK3
 	holding = tribal_holding
 	1224.1.1 = { # St David's adopts parts of the Use of Sarum
 		rite = sarum_rite
-	}
-	1295.1.1 = { # Edward I begins Beaumaris
-		holding = castle_holding
 	}
 }
 
@@ -14316,8 +14445,11 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1711 = {	#Glenfinnan
+1711 = { # Inverness - Inverlochy
 	holding = none
+	1275.1.1 = { # The Comyns build the castle of Inverlochy
+		holding = castle_holding
+	}
 }
 
 1712 = { # Buchan - Banff
@@ -14346,8 +14478,11 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1714 = {	#Peterhead
+1714 = { # Buchan - Deer
 	holding = none
+	1219.1.1 = { # William Comyn, earl of Buchan, founds the Cistercian abbey of Deer
+		holding = church_holding
+	}
 }
 
 1715 = { # Moray - Elgin
@@ -14482,8 +14617,16 @@ rite = antiochian_rite #no syriac in CK3
 	holding = none
 }
 
-1729 = {	#Galashiels
-	holding = city_holding
+1729 = { # Lauderdale - Lauder
+	culture = northumbrian
+	rite = roman_rite
+	holding = castle_holding
+	1147.1.1 = { # Bishop Herbert of Glasgow brings in the usages of Sarum
+		rite = sarum_rite
+	}
+	1150.11.11 = {
+		culture = scottish
+	}
 }
 
 1730 = {	#Penicuick
@@ -14765,20 +14908,10 @@ rite = antiochian_rite #no syriac in CK3
 	holding = city_holding
 }
 
-1757 = { # Leirena - Leirena
-	culture = visigothic
-	rite = mozarabic_church
-	holding = castle_holding
-	800.1.1 = { # mozarab culture forms
-		culture = mozarab
-	}
-	936.1.1 = { # Most of the people of the district have become Muslim
-		culture = andalusian
-		rite = maliki
-	}
-	1135.1.1 = { # Afonso Henriques builds the castle of Leirena and settles the land
-		culture = portuguese
-		rite = roman_rite
+1757 = { # Leiria - Pombal
+	holding = none
+	1160.1.1 = { # Gualdim Pais builds the Templar castle of Pombal
+		holding = castle_holding
 	}
 }
 
@@ -14832,25 +14965,10 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1761 = { # Braga - Braga
-	culture = visigothic
-	rite = mozarabic_church
-	holding = castle_holding
-	800.1.1 = { # mozarab culture forms
-		culture = mozarab
-	}
-	868.1.1 = { # Vímara Peres takes Portucale and the land as far as Braga is resettled
-		culture = galician
-		rite = hispanic_rite
-	}
-	1080.1.1 = { # The Roman liturgy comes to Braga, which forms a use of its own
-		rite = braga_rite
-	}
-	1112.1.1 = { # Countess Teresa grants the couto of Braga to Archbishop Maurício Burdino
-		holding = church_holding
-	}
-	1128.6.24 = { # São Mamede: Afonso Henriques takes the County of Portugal from the Galician party of his mother
-		culture = portuguese
+1761 = { # Barcelos - Ponte de Lima
+	holding = none
+	1125.3.4 = { # Countess Teresa grants Ponte de Lima its foral
+		holding = city_holding
 	}
 }
 
@@ -15021,21 +15139,8 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1777 = { # Évora - Évora
-	culture = visigothic
-	rite = mozarabic_church
+1777 = { # Évora - Estremoz
 	holding = castle_holding
-	800.1.1 = { # mozarab culture forms
-		culture = mozarab
-	}
-	936.1.1 = { # Most of the people of the district have become Muslim
-		culture = andalusian
-		rite = maliki
-	}
-	1165.10.1 = { # Geraldo Sem Pavor takes Évora for Afonso Henriques
-		culture = portuguese
-		rite = roman_rite
-	}
 }
 
 1778 = { # Évora - Avis
@@ -15217,8 +15322,16 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1796 = { # Asturias de Oviedo - Gijón
+1796 = { # Gijón - Gijón
+	culture = visigothic
+	rite = hispanic_rite
 	holding = castle_holding
+	800.1.1 = { # asturleonese culture forms
+		culture = asturleonese
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
 }
 
 1797 = { # Asturias de Oviedo - Oviedo
@@ -15283,8 +15396,13 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1804 = {	# IZURUM
-	holding = church_holding
+1804 = { # Gipuzkoa - Irun
+	culture = basque
+	rite = hispanic_rite
+	holding = castle_holding
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
 }
 
 1805 = {	#  IRUN
@@ -15310,10 +15428,21 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1807 = { # Alto Aragón - Canfranc
-	holding = none
-	1100.1.1 = { # The pilgrims' hospital of Santa Cristina at the Somport pass
-		holding = church_holding
+1807 = { # Alto Aragón - Jaca
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	850.1.1 = { # navarro_aragonese culture forms
+		culture = navarro_aragonese
+	}
+	1066.1.1 = {
+		buildings = { hill_forts_02 military_camps_01 }
+	}
+	1071.3.22 = { # The council of San Juan de la Peña adopts the Roman rite in Aragon
+		rite = roman_rite
+	}
+	1134.9.7 = { # Alfonso the Battler dies; Aragon and Navarre go their separate ways
+		culture = aragonese
 	}
 }
 
@@ -15328,8 +15457,13 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1809 = {	# LIZARRA
+1809 = { # Estella - Lizarra
+	culture = basque
+	rite = hispanic_rite
 	holding = castle_holding
+	1076.6.4 = { # Navarre adopts the Roman rite
+		rite = roman_rite
+	}
 }
 
 1810 = { # Logroño - Logroño
@@ -15429,15 +15563,10 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1819 = { # Lemos - Monforte de Lemos
-	culture = visigothic
-	rite = hispanic_rite
-	holding = castle_holding
-	800.1.1 = { # galician culture forms
-		culture = galician
-	}
-	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
-		rite = roman_rite
+1819 = { # Lemos - Castro Caldelas
+	holding = none
+	1200.1.1 = {
+		holding = castle_holding
 	}
 }
 
@@ -15475,11 +15604,15 @@ rite = antiochian_rite #no syriac in CK3
 	867.1.1 = { culture = asturleonese }
 }
 
-1825 = {	# GUARDO/Cea
-	holding = none
-	
-	1066.1.1 = {
-		holding = castle_holding
+1825 = { # Cea - Cea
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	800.1.1 = { # asturleonese culture forms
+		culture = asturleonese
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
 	}
 }
 
@@ -15645,8 +15778,21 @@ rite = antiochian_rite #no syriac in CK3
 	holding = city_holding
 }
 
-1842 = {	# JEREZ
-	holding = city_holding
+1842 = { # Jerez - Jerez
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	900.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1264.10.9 = { # Jerez surrenders to Alfonso X after the Mudéjar revolt and is resettled with Castilians
+		culture = castilian
+		rite = roman_rite
+	}
 }
 
 1843 = { # Cádiz - Cádiz
@@ -16378,8 +16524,20 @@ rite = antiochian_rite #no syriac in CK3
 	holding = church_holding
 }
 
-1904 = {	# SEDANO
-	holding = church_holding
+1904 = { # Carrión - Saldaña
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	899.1.1 = { # Alfonso III resettles the land up to the Duero
+		culture = castilian
+		rite = hispanic_rite
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
 }
 
 1905 = { # Palencia - Palencia
@@ -16452,15 +16610,19 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1913 = { # Salamanca - Béjar
+1913 = { # Ciudad Rodrigo - Miranda del Castañar
 	culture = visigothic
 	rite = mozarabic_church
-	holding = church_holding
+	holding = castle_holding
 	800.1.1 = { # mozarab culture forms
 		culture = mozarab
 	}
-	955.1.1 = {
+	941.1.1 = { # Ramiro II's victory at Simancas opens the Tormes valley to Leonese settlers
 		culture = asturleonese
+		rite = hispanic_rite
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
 	}
 }
 
@@ -16543,9 +16705,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1922 = { # Medina del Campo - Piedrahíta
+1922 = { # Salamanca - Alba de Tormes
 	holding = none
-	1088.1.1 = { # Raymond of Burgundy resettles the land of Ávila
+	1140.1.1 = { # Alfonso VII grants Alba de Tormes its fuero
 		holding = castle_holding
 	}
 }
@@ -16671,8 +16833,24 @@ rite = antiochian_rite #no syriac in CK3
 	holding = none
 }
 
-1934 = {	# DAROCA
-	holding = city_holding
+1934 = { # Daroca - Daroca
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	850.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1120.6.24 = { # Alfonso the Battler takes Daroca
+		culture = navarro_aragonese
+		rite = roman_rite
+	}
+	1134.9.7 = { # Alfonso the Battler dies; Aragon and Navarre go their separate ways
+		culture = aragonese
+	}
 }
 
 1935 = { # Molina - Molina
@@ -16761,11 +16939,7 @@ rite = antiochian_rite #no syriac in CK3
 	holding = church_holding
 }
 
-1946 = {	# ADEMUZ/Alpuente
-	holding = city_holding
-}
-
-1947 = { # Cuenca - Cuenca
+1946 = { # Moya - Moya
 	culture = visigothic
 	rite = mozarabic_church
 	holding = castle_holding
@@ -16776,10 +16950,14 @@ rite = antiochian_rite #no syriac in CK3
 		culture = andalusian
 		rite = maliki
 	}
-	1177.9.21 = { # Alfonso VIII takes Cuenca
+	1210.1.1 = { # Alfonso VIII settles Moya
 		culture = castilian
 		rite = roman_rite
 	}
+}
+
+1947 = { # Ocaña - Uclés
+	holding = castle_holding
 }
 
 1948 = {	# VALERIA
@@ -16811,7 +16989,11 @@ rite = antiochian_rite #no syriac in CK3
 	holding = castle_holding
 }
 
-1952 = { # Uclés - Uclés
+1952 = { # Consuegra - Alcázar de San Juan
+	holding = castle_holding
+}
+
+1953 = { # Ocaña - Ocaña
 	culture = visigothic
 	rite = mozarabic_church
 	holding = castle_holding
@@ -16822,14 +17004,10 @@ rite = antiochian_rite #no syriac in CK3
 		culture = andalusian
 		rite = maliki
 	}
-	1174.1.9 = { # Alfonso VIII gives Uclés to the Order of Santiago, which resettles it
+	1171.1.1 = { # The Order of Santiago receives the castle of Mora
 		culture = castilian
 		rite = roman_rite
 	}
-}
-
-1953 = {	# MORA
-	holding = castle_holding
 }
 
 1954 = { # Alcántara - Cáceres
@@ -16865,21 +17043,8 @@ rite = antiochian_rite #no syriac in CK3
 	holding = none
 }
 
-1958 = { # Ocaña - Mora
-	culture = visigothic
-	rite = mozarabic_church
+1958 = { # Toledo - Orgaz
 	holding = castle_holding
-	800.1.1 = { # mozarab culture forms
-		culture = mozarab
-	}
-	936.1.1 = { # Most of the people of the district have become Muslim
-		culture = andalusian
-		rite = maliki
-	}
-	1171.1.1 = { # The Order of Santiago receives the castle of Mora
-		culture = castilian
-		rite = roman_rite
-	}
 }
 
 1959 = { # Ocaña - Alcázar
@@ -16903,8 +17068,21 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1961 = {	# CABANEROS
+1961 = { # Montes de Toledo - Cabañeros
+	culture = visigothic
+	rite = mozarabic_church
 	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	936.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1085.5.25 = { # The land of Toledo passes to Alfonso VI
+		culture = castilian
+		rite = roman_rite
+	}
 }
 
 1962 = {	# LA PUEBLA DE MONTALBAN
@@ -17008,21 +17186,8 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-1970 = { # Cieza - Cieza
-	culture = visigothic
-	rite = mozarabic_church
+1970 = { # Cieza - Caravaca
 	holding = castle_holding
-	800.1.1 = { # mozarab culture forms
-		culture = mozarab
-	}
-	900.1.1 = { # Most of the people of the district have become Muslim
-		culture = andalusian
-		rite = maliki
-	}
-	1281.1.1 = { # The Order of Santiago resettles Cieza
-		culture = castilian
-		rite = roman_rite
-	}
 }
 
 1971 = { # Cieza - Lorca
@@ -17461,24 +17626,28 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2015 = {	#MONTPELLIER
+2015 = { # Montpellier - Montpellier
 	culture = visigothic
-	867.1.1 = { culture = occitan }
-	1054.7.16 = {
-		rite = roman_rite
-	}
-	
 	rite = carolingian_christianity
 	holding = castle_holding
-	
-	1218.1.1  = {
-		holding = church_holding #Made into bishopric
-	} 
-
+	867.1.1 = { # The Goths of Septimania have merged into the Romance population
+		culture = occitan
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
 }
 
-2016 = {	#NIMES
+2016 = { # Nîmes - Nîmes
+	culture = visigothic
+	rite = carolingian_christianity
 	holding = city_holding
+	867.1.1 = { # The Goths of Septimania have merged into the Romance population
+		culture = occitan
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
 }
 
 2017 = { # Marseille - Arles
@@ -17512,8 +17681,16 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2020 = { # Nice - Grasse
+2020 = { # Grasse - Grasse
+	culture = occitan
+	rite = carolingian_christianity
 	holding = city_holding
+	1000.1.1 = {
+		culture = provencal
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 
 2021 = {	#NICE
@@ -17542,8 +17719,16 @@ rite = antiochian_rite #no syriac in CK3
 	holding = none
 }
 
-2025 = {	#CASTELLANE
-	holding = church_holding
+2025 = { # Castellane - Castellane
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = { # provencal culture forms
+		culture = provencal
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 
 2026 = { # Barcelonnette - Digne
@@ -17629,9 +17814,14 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2036 = {	#THONON-LES-BAINS
-	holding = none
-	#1270
+2036 = { # Chablais - Thonon-les-Bains
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	# 1270
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 
 2037 = { # Lausanne - Lausanne
@@ -17885,8 +18075,16 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2066 = {	#DIE
-	holding = none
+2066 = { # Diois - Die
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = {
+		culture = alpine
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
 }
 
 2067 = {	#VAISON
@@ -17899,9 +18097,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2068 = {	#ROMANS
+2068 = { # Albon - Saint-Antoine
 	holding = none
-	917.1.1 = {
+	1095.1.1 = { # Gaston of Valloire founds the hospital brotherhood of Saint-Antoine
 		holding = church_holding
 	}
 }
@@ -18318,7 +18516,18 @@ rite = antiochian_rite #no syriac in CK3
 }
 
 2115 = { # Brugge - Brugge
+	culture = low_frankish
+	rite = carolingian_christianity
 	holding = city_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1150.1.1 = { # Old Dutch gives way to Middle Dutch
+		culture = dutch
+	}
+	1250.1.1 = { # Flemish emerges as a distinct written Middle Dutch
+		culture = flemish
+	}
 }
 
 2116 = {	#CHARLEROI
@@ -18554,8 +18763,8 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2141 = {	#MEDOC
-	holding = church_holding
+2141 = { # Bordeaux - Lesparre-Médoc
+	holding = castle_holding
 }
 
 2142 = { # Bordeaux - Bordeaux
@@ -18573,19 +18782,29 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2143 = { # Bordeaux - Fronsac
-	holding = none
-	769.1.1 = { # Charlemagne fortifies Fronsac against Hunald of Aquitaine
-		holding = castle_holding
+2143 = { # Fronsac - Fronsac
+	culture = gascon
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
 	}
 }
 
-2144 = {	#BLAYE
+2144 = { # Blaye - Blaye
+	culture = gascon
+	rite = carolingian_christianity
 	holding = city_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
 }
 
-2145 = {	#JONZAC
-	holding = church_holding
+2145 = { # Pons - Jonzac
+	holding = none
+	1000.1.1 = { # The castle of Jonzac
+		holding = castle_holding
+	}
 }
 
 2146 = {	#ROYAN
@@ -18713,10 +18932,15 @@ rite = antiochian_rite #no syriac in CK3
 	holding = church_holding
 }
 
-2160 = { # Vannes - Rohan
-	holding = none
-	1104.1.1 = { # Alain of Porhoët builds the castle of Rohan
-		holding = castle_holding
+2160 = { # Rohan - Rohan
+	culture = breton
+	rite = insular_celtic
+	holding = castle_holding
+	818.10.1 = { # Louis the Pious has Abbot Matmonoc of Landévennec take the Rule of Saint Benedict and drop the Irish tonsure
+		rite = carolingian_christianity
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
 	}
 }
 
@@ -18770,10 +18994,18 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2166 = {	#CHATEAUBRIANT
-	holding = none
-	1100.1.1 = {
-		holding = castle_holding
+2166 = { # Châteaubriant - Châteaubriant
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	950.1.1 = { # The Romance of the Breton march becomes Gallo
+		culture = gallo_f
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
 	}
 }
 
@@ -18893,10 +19125,18 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2175 = { # Rouen - Harcourt
-	holding = none
-	1100.1.1 = { # The Harcourts build their castle
-		holding = castle_holding
+2175 = { # Harcourt - Harcourt
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	911.7.20 = { # Treaty of Saint-Clair-sur-Epte: Charles the Simple grants the lands of the lower Seine to Rollo
+		culture = norman
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
 	}
 }
 
@@ -19030,8 +19270,19 @@ rite = antiochian_rite #no syriac in CK3
 	holding = city_holding
 }
 
-2187 = {	#SAINT-QUENTIN
+2187 = { # Vermandois - Saint-Quentin
+	culture = gallo_roman
+	rite = carolingian_christianity
 	holding = city_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1200.1.1 = { # Picard emerges as a written language
+		culture = picard
+	}
 }
 
 2188 = {	#NOYON
@@ -19085,11 +19336,8 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2194 = {	#TURSAN
-	holding = none
-	1337.1.1 = {
-		holding = church_holding
-	}
+2194 = { # Marsan - Aire
+	holding = church_holding
 }
 
 2195 = {	#TARTAS
@@ -19108,8 +19356,13 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2197 = {	#LANGON
-	holding = church_holding
+2197 = { # Bazadais - Langon
+	culture = gascon
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
 }
 
 2198 = {	#BAZADAIS
@@ -19154,8 +19407,13 @@ rite = antiochian_rite #no syriac in CK3
 	holding = church_holding
 }
 
-2204 = {	#LECTOURE
+2204 = { # Lomagne - Lectoure
+	culture = gascon
+	rite = carolingian_christianity
 	holding = city_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
 }
 
 2205 = {	#LOMAGNE
@@ -19304,11 +19562,8 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2221 = { # Gévaudan - Marvejols
-	holding = none
-	1100.1.1 = { # Marvejols, town of the viscounts of Gévaudan
-		holding = city_holding
-	}
+2221 = { # Gévaudan - Mende
+	holding = church_holding
 }
 
 2222 = { # Millau - Millau
@@ -19329,7 +19584,7 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2223 = { # Gévaudan - Mende
+2223 = { # Gévaudan - Marvejols
 	culture = occitan
 	rite = carolingian_christianity
 	holding = castle_holding
@@ -19338,9 +19593,6 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
 		rite = roman_rite
-	}
-	1161.1.1 = { # Louis VII's Golden Bull gives the bishops of Mende regalian rights over the Gévaudan
-		holding = church_holding
 	}
 }
 
@@ -19440,14 +19692,19 @@ rite = antiochian_rite #no syriac in CK3
 	holding = church_holding
 }
 
-2235 = {	#AGENAIS
-	holding = city_holding
+2235 = { # Agenais - Penne
+	holding = castle_holding
 }
 
-2236 = { # Périgord - Bergerac
-	holding = none
-	1080.1.1 = { # The lords of Bergerac
-		holding = castle_holding
+2236 = { # Bergerac - Bergerac
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = {
+		culture = limousin
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
 	}
 }
 
@@ -19465,8 +19722,8 @@ rite = antiochian_rite #no syriac in CK3
 	holding = city_holding
 }
 
-2239 = {	#NONTRON
-	holding = church_holding
+2239 = { # Bourdeilles - Nontron
+	holding = castle_holding
 }
 
 2240 = {	#TURENNE
@@ -19504,10 +19761,15 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2243 = { # Aunis - Taillebourg
-	holding = none
-	1000.1.1 = { # The castle of Taillebourg on the Charente
-		holding = castle_holding
+2243 = { # Taillebourg - Taillebourg
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1175.1.1 = { # Poitevin-Saintongeais emerges between Oïl and Oc
+		culture = poitevin
 	}
 }
 
@@ -19523,8 +19785,16 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2245 = {	#SAINT JUNIEN
-	holding = church_holding
+2245 = { # La Rochefoucauld - La Rochefoucauld
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1175.1.1 = { # Poitevin-Saintongeais emerges between Oïl and Oc
+		culture = poitevin
+	}
 }
 
 2246 = { # Limousin - Châlus
@@ -19570,10 +19840,10 @@ rite = antiochian_rite #no syriac in CK3
 	holding = city_holding
 }
 
-2251 = { # Poitiers - Ruffec
+2251 = { # Poitiers - Charroux
 	holding = none
-	1050.1.1 = { # The lords of Ruffec
-		holding = castle_holding
+	785.1.1 = { # Count Roger of Limoges founds the abbey of Charroux
+		holding = church_holding
 	}
 }
 
@@ -19665,8 +19935,11 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2260 = {	#MELAY
+2260 = { # Saumur - Chemillé
 	holding = none
+	1050.1.1 = {
+		holding = castle_holding
+	}
 }
 
 2261 = { # Saumur - Saumur
@@ -19736,8 +20009,19 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2266 = {	#MAYENNE
+2266 = { # Mayenne - Mayenne
+	culture = gallo_roman
+	rite = carolingian_christianity
 	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	950.1.1 = { # Angevin emerges in the lands of the Fulks
+		culture = angevin
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
 }
 
 2267 = { # Anjou - Angers
@@ -19817,8 +20101,19 @@ rite = antiochian_rite #no syriac in CK3
 	holding = city_holding
 }
 
-2275 = {	#LOCHES
-	holding = church_holding
+2275 = { # Amboise - Amboise
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	950.1.1 = { # Angevin emerges in the lands of the Fulks
+		culture = angevin
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
 }
 
 2276 = {	#LA HAYE, today known as "Descartes" in Indre-et-Loire
@@ -19893,18 +20188,20 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2285 = {	#GRANDMONT
+2285 = { # La Marche - Grandmont
+	holding = church_holding
+}
+
+2286 = { # La Marche - Guéret
 	culture = occitan
 	rite = carolingian_christianity
 	holding = castle_holding
-	1000.1.1 = { culture = limousin }
-	1054.7.16 = {
+	1000.1.1 = {
+		culture = limousin
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
 		rite = roman_rite
 	}
-}
-
-2286 = {	#GUERET
-	holding = church_holding
 }
 
 2287 = { # La Marche - Aubusson
@@ -19969,10 +20266,15 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2295 = {	#LA TOUR
-	holding = none
-	1187.1.1 = {
-		holding = castle_holding
+2295 = { # La Tour - La Tour
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = {
+		culture = auvergnat
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
 	}
 }
 
@@ -19993,9 +20295,11 @@ rite = antiochian_rite #no syriac in CK3
 }
 
 2298 = { # Forez - Montbrison
-	holding = none
-	1100.1.1 = { # The counts of Forez build their castle at Montbrison
-		holding = castle_holding
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	798.1.1 = { # Leidrad restores the worship of the diocese of Lyon on the model of Aachen
+		rite = lyon_rite
 	}
 }
 
@@ -20016,10 +20320,12 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2301 = {	#BEAUJEU
-	holding = none
-	1000.1.1 = {
-		holding = city_holding
+2301 = { # Beaujeu - Beaujeu
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
 	}
 }
 
@@ -20129,9 +20435,9 @@ rite = antiochian_rite #no syriac in CK3
 	holding = church_holding
 }
 
-2313 = {	#HERRY
+2313 = { # Sancerre - La Charité
 	holding = none
-	930.1.1 = {
+	1059.1.1 = { # The Cluniac priory of La Charité is founded
 		holding = church_holding
 	}
 }
@@ -20339,11 +20645,16 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2335 = { # Étampes - Montlhéry
-	holding = none
+2335 = { # Montlhéry - Montlhéry
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
 	special_building_slot = generic_university
-	1015.1.1 = {
-		holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
 	}
 }
 
@@ -20423,15 +20734,23 @@ rite = antiochian_rite #no syriac in CK3
 	holding = castle_holding
 }
 
-2344 = {	#POUGUES LES EAUX
+2344 = { # Nevers - Corbigny
 	holding = none
-	1061.1.1 = {
+	864.1.1 = { # The abbey of Saint-Léonard of Corbigny is founded
 		holding = church_holding
 	}
 }
 
-2345 = {	#DONZY
+2345 = { # Donzy - Donzy
+	culture = frankish
+	rite = carolingian_christianity
 	holding = city_holding
+	862.1.1 = {
+		culture = burgundian_oil
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
 }
 
 2346 = {	#AUXERRE
@@ -20565,8 +20884,16 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2360 = {	#CREPY
+2360 = { # Valois - Crépy
+	culture = frankish
+	rite = carolingian_christianity
 	holding = city_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
 }
 
 2361 = {	#CHATEAU THIERRY
@@ -21311,8 +21638,20 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2437 = {	#WILHELMSHAVEN
-	holding = none
+2437 = { # Östringen - Jever
+	culture = frisian
+	rite = central_pagan
+	holding = tribal_holding
+	760.1.1 = {
+		holding = castle_holding
+	}
+	785.1.1 = { # The eastern Frisians submit with the Saxons; Liudger's mission follows
+		rite = carolingian_christianity
+		holding = castle_holding
+	}
+	1054.7.16 = { # The Great Schism; the Roman rite
+		rite = roman_rite
+	}
 }
 
 2438 = { # Oldenburg - Oldenburg
@@ -21411,22 +21750,8 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2447 = { # Limoux - Limoux
-	culture = visigothic
-	rite = carolingian_christianity
+2447 = { # Limoux - Termes
 	holding = castle_holding
-	867.1.1 = { # The Goths of Septimania have merged into the Romance population
-		culture = occitan
-	}
-	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
-		rite = roman_rite
-	}
-	1167.1.1 = { # The Cathar council of Saint-Félix-Lauragais organises the dualist churches of the Languedoc
-		rite = cathar_rite
-	}
-	1244.3.16 = { # Montségur falls; Catharism is broken as a public church
-		rite = roman_rite
-	}
 }
 
 2448 = {	#LIMBOURG
@@ -21546,10 +21871,15 @@ rite = antiochian_rite #no syriac in CK3
 	holding = city_holding
 }
 
-2463 = {	#SULLY SUR LOIRE
-	holding = none
-	1100.1.1 = {
-		holding = castle_holding
+2463 = { # Sully - Sully-sur-Loire
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
 	}
 }
 
@@ -22113,8 +22443,11 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2541 = {	#CENTO
-	holding = church_holding	#the abbey of Nonantola
+2541 = { # Modena - Cento
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
 }
 
 2542 = { # Bologna - Bologna
@@ -22405,7 +22738,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2577 = {	#VATICAN
+2577 = { # Vaticano - Vaticano
+	culture = italian
+	rite = roman_rite
 	holding = church_holding
 	special_building = holy_site_st_peters_basilica_01 # Old St. Peter's Basilica, started in early 4th century.
 }
@@ -22478,7 +22813,9 @@ rite = antiochian_rite #no syriac in CK3
 	holding = church_holding
 }
 
-2591 = {	#SEGNI
+2591 = { # Segni - Segni
+	culture = italian
+	rite = roman_rite
 	holding = city_holding
 }
 
@@ -22768,9 +23105,15 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2633 = { # Paternò - Messina
+2633 = { # Messina - Messina
+	culture = griko
+	rite = byzantine_rite
 	holding = city_holding
 	special_building_slot = generic_university
+	1070.1.1 = {
+		culture = sicilian
+		rite = roman_rite
+	}
 }
 
 2634 = {	#CEFALU
@@ -22797,8 +23140,18 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2636 = {	#TRAPANI
+2636 = { # Trapani - Trapani
+	culture = griko
+	rite = byzantine_rite
 	holding = city_holding
+	856.9.1 = {
+		culture = siqilli
+		rite = maliki
+	}
+	1161.1.1 = {
+		culture = sicilian
+		rite = roman_rite
+	}
 }
 
 2637 = { # Butera - Girgenti
@@ -22822,12 +23175,28 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2639 = {	#CATANIA
+2639 = { # Catania - Catania
+	culture = griko
+	rite = byzantine_rite
 	holding = church_holding
+	1070.1.1 = {
+		culture = sicilian
+		rite = roman_rite
+	}
 }
 
-2640 = { # Adernò - Castrogiovanni
+2640 = { # Castrogiovanni - Castrogiovanni
+	culture = griko
+	rite = byzantine_rite
 	holding = castle_holding
+	874.1.24 = {
+		culture = siqilli
+		rite = maliki
+	}
+	1102.1.1 = {
+		culture = sicilian
+		rite = roman_rite
+	}
 }
 
 2641 = {	#CALTANISETTA
@@ -22842,11 +23211,8 @@ rite = antiochian_rite #no syriac in CK3
 	holding = city_holding
 }
 
-2644 = {	#MAZARA
-	holding = none
-	1066.1.1 = {
-		holding = church_holding
-	}
+2644 = { # Palermo - Sciacca
+	holding = castle_holding
 }
 
 2645 = { # Palermo - Calatafimi
@@ -23806,13 +24172,8 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2776 = {	#MARSETTEN
-	culture = swabian
-	rite = carolingian_christianity
-	holding = castle_holding
-	1054.7.16 = {
-		rite = roman_rite
-	}
+2776 = { # Kempten - Ottobeuren
+	holding = church_holding # The abbey of Ottobeuren, founded 764
 }
 
 2777 = {	#BURGAU
@@ -23836,18 +24197,19 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2779 = {	#FRIEDBERG
+2779 = { # Augsburg - Wittelsbach
 	holding = none
-	#1264
-	1264.1.1 = {
+	1115.1.1 = { # Otto of Scheyern moves his seat to Wittelsbach
 		holding = castle_holding
-		}
+	}
 }
 
-2780 = { # Augsburg - Landsberg am Lech
-	holding = none
-	1160.1.1 = { # Henry the Lion's Landsberg on the Lech
-		holding = castle_holding
+2780 = { # Andechs - Andechs
+	culture = bavarian
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 
@@ -24245,13 +24607,21 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2810 = { # Rügen - Stralsund
-	holding = none
+2810 = { # Stralsund - Stralsund
+	culture = ranian
+	rite = slavic_svantevit
+	holding = tribal_holding
 	850.1.1 = {
 		holding = church_holding
 	}
-	1234.1.1 = {
+	1168.1.1 = { # Valdemar I and Absalon take Arkona; the Rani are baptized
+		rite = roman_rite
+	}
+	1234.1.1 = { # Stralsund receives town rights
 		holding = city_holding
+	}
+	1300.1.1 = {
+		culture = german_pommeranian
 	}
 }
 
@@ -24319,10 +24689,10 @@ rite = antiochian_rite #no syriac in CK3
 	holding = none
 }
 
-2816 = {	#GRIEFSWALD
+2816 = { # Stralsund - Greifswald
 	holding = none
-	1199.1.1 = {
-		holding = church_holding
+	1250.1.1 = { # Greifswald receives town rights
+		holding = city_holding
 	}
 }
 
@@ -24415,21 +24785,7 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2824 = {	#b_kolobrzeg KAMIEN
-	holding = none
-	1005.1.1 = {
-		holding = city_holding
-	}
-}
-
-2825 = {	#b_stargad GOLENIOW
-	holding = none
-	#980.1.1 = {	#Outcommented to leave empty holding slots
-	#	holding = castle_holding
-	#}
-}
-
-2826 = { # Kołobrzeg - Kołobrzeg
+2824 = { # Kołobrzeg - Kołobrzeg
 	culture = pommeranian
 	rite = slavic_triglav
 	holding = tribal_holding
@@ -24442,6 +24798,23 @@ rite = antiochian_rite #no syriac in CK3
 	}
 	1250.1.1 = {
 		culture = kashubian
+	}
+}
+
+2825 = {	#b_stargad GOLENIOW
+	holding = none
+	#980.1.1 = {	#Outcommented to leave empty holding slots
+	#	holding = castle_holding
+	#}
+}
+
+2826 = { # Kołobrzeg - Białogard
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+	1299.1.1 = { # Białogard receives town rights
+		holding = city_holding
 	}
 }
 
@@ -24463,15 +24836,26 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2828 = { # Słupsk - Koszalin
-	holding = none
-	1266.1.1 = { # Koszalin receives town rights
-		holding = city_holding
+2828 = { # Sławno - Sławno
+	culture = pommeranian
+	rite = slavic_triglav
+	holding = tribal_holding
+	1122.1.1 = {
+		holding = castle_holding
+	}
+	1175.1.1 = {
+		rite = roman_rite
+	}
+	1250.1.1 = {
+		culture = kashubian
 	}
 }
 
-2829 = {	#b_lebno LEBORK
+2829 = { # Białogarda - Żarnowiec
 	holding = none
+	1235.1.1 = { # The nunnery of Żarnowiec is founded
+		holding = church_holding
+	}
 }
 
 2830 = { # Gdańsk - Gdańsk
@@ -24509,17 +24893,25 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2833 = { # Gdańsk - Oliwa
+2833 = { # Gdańsk - Oksywie
 	holding = none
-	1186.1.1 = { # Sambor I founds the Cistercian abbey of Oliwa
-		holding = church_holding
+	1150.1.1 = { # The castellany of Oksywie
+		holding = castle_holding
 	}
 }
 
 2834 = { # Pomesania - Malbork
-	holding = none
+	culture = prussian
+	rite = prussian_pagan
+	holding = tribal_holding
+	1248.1.1 = { # Bishopery of pomesania
+		rite = roman_rite
+	}
 	1274.1.1 = { # The Teutonic Order founds Marienburg
 		holding = castle_holding
+	}
+	1300.1.1 = {
+		culture = prussian_g
 	}
 }
 
@@ -24541,10 +24933,10 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2836 = {	#b_lobez NOWOGARD
+2836 = { # Nowogard - Łobez
 	holding = none
-	990.1.1 = {
-		holding = church_holding
+	1271.1.1 = {
+		holding = castle_holding
 	}
 }
 
@@ -24935,8 +25327,11 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2882 = {	#NEUE WEISSENBURG
+2882 = { # Hirschberg - Monheim
 	holding = none
+	893.1.1 = { # The nunnery of Monheim
+		holding = church_holding
+	}
 }
 
 2883 = {	#INGOLSTADT
@@ -25443,11 +25838,8 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2938 = { # Ingolstadt - Niederschönenfeld
-	holding = none
-	1241.1.1 = { # Cistercian nunnery of Niederschönenfeld
-		holding = church_holding
-	}
+2938 = { # Ingolstadt - Neuburg
+	holding = castle_holding
 }
 
 2939 = {	#ILMMUNSTER
@@ -25486,20 +25878,15 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2946 = {	#AHEIM
-	culture = bavarian
-	rite = carolingian_christianity
-	holding = castle_holding
-	1054.7.16 = {
-		rite = roman_rite
-	}
-}
-
-2947 = { # München - Wolfratshausen
+2946 = { # Andechs - Wolfratshausen
 	holding = none
 	1100.1.1 = { # Castle of the counts of Wolfratshausen
 		holding = castle_holding
 	}
+}
+
+2947 = { # München - Tegernsee
+	holding = church_holding # The abbey of Tegernsee, founded 746
 }
 
 2948 = { # Andechs - Tölz
@@ -25654,9 +26041,9 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-2966 = { # Hohenburg - Donaustauf
+2966 = { # Nabburg - Stefling
 	holding = none
-	914.1.1 = { # Bishop Tuto of Regensburg fortifies Donaustauf against the Magyars
+	1100.1.1 = { # The landgraves of Stefling
 		holding = castle_holding
 	}
 }
@@ -27404,16 +27791,22 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-3155 = { # Stettin - Pyrzyce
-	holding = none
+3155 = { # Pyrzyce - Pyrzyce
+	culture = pommeranian
+	rite = slavic_triglav
+	holding = tribal_holding
 	1124.1.1 = { # Otto of Bamberg's first baptisms at Pyrzyce
-		holding = church_holding
+		holding = castle_holding
+		rite = roman_rite
+	}
+	1250.1.1 = {
+		culture = german_pommeranian
 	}
 }
 
-3156 = {	#b_arnswalde STARGARD
+3156 = { # Santok - Choszczno
 	holding = none
-	1124.1.1 = {
+	1284.1.1 = {
 		holding = city_holding
 	}
 }
@@ -27657,29 +28050,41 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-3183 = {	#b_kreuz CHOSZCZNO
+3183 = { # Wałcz - Tuczno
 	holding = none
+	1331.1.1 = {
+		holding = city_holding
+	}
 }
 
-3184 = { # Kołobrzeg - Czaplinek
-	holding = none
+3184 = { # Szczecinek - Czaplinek
+	culture = pommeranian
+	rite = slavic_triglav
+	holding = tribal_holding
+	1124.1.1 = {
+		holding = castle_holding
+	}
+	1150.1.1 = {
+		culture = polish
+		rite = roman_rite
+	}
 	1286.1.1 = { # The Templars' commandery of Tempelburg
 		holding = castle_holding
 	}
 }
 
-3185 = { # Kołobrzeg - Białogard
+3185 = { # Szczecinek - Bobolice
 	holding = none
-	1100.1.1 = {
+	1300.1.1 = {
 		holding = castle_holding
-	}
-	1299.1.1 = { # Białogard receives town rights
-		holding = city_holding
 	}
 }
 
-3186 = {	#PILA
+3186 = { # Wałcz - Ujście
 	holding = none
+	1108.1.1 = { # Bolesław III takes Ujście
+		holding = castle_holding
+	}
 }
 
 3187 = {	#WALCZ
@@ -27736,18 +28141,25 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-3193 = {	#b_tuchowna STAROGARD
+3193 = { # Świecie - Osiek
 	holding = none
-	1198.1.1 = {
+	1250.1.1 = {
 		holding = castle_holding
 	}
 }
 
-3194 = { # Gdańsk - Tczew
-	holding = none
-	# 1200
+3194 = { # Tczew - Tczew
+	culture = pommeranian
+	rite = slavic_triglav
+	holding = tribal_holding
+	1119.1.1 = { # Bolesław III subdues Pomerelia
+		rite = roman_rite
+	}
 	1200.1.1 = { # Tczew, a castle of the Pomerelian dukes
 		holding = castle_holding
+	}
+	1250.1.1 = {
+		culture = kashubian
 	}
 }
 
@@ -27833,9 +28245,7 @@ rite = antiochian_rite #no syriac in CK3
 	holding = none
 }
 
-3204 = { # Bartia - Lecbarg
-	culture = prussian
-	rite = prussian_pagan
+3204 = { # Warmia - Lecbarg
 	holding = tribal_holding
 	1240.1.1 = {
 		holding = tribal_holding
@@ -27849,15 +28259,17 @@ rite = antiochian_rite #no syriac in CK3
 	1252.8.1 = {
 		holding = castle_holding
 	}
-	1273.4.1 = {
-		rite = roman_rite
-	} # Death of Diwanus
 }
 
-3205 = {	#LYNA
-	holding = none
+3205 = { # Bartia - Lyna
+	culture = prussian
+	rite = prussian_pagan
+	holding = tribal_holding
 	1241.1.1 = {
 		holding = castle_holding
+	}
+	1273.4.1 = { # Death of Diwanus
+		rite = roman_rite
 	}
 }
 
@@ -27879,8 +28291,13 @@ rite = antiochian_rite #no syriac in CK3
 	holding = none
 }
 
-3209 = {	#ANGER
-	holding = none
+3209 = { # Anger - Anger
+	culture = galindian
+	rite = prussian_pagan
+	holding = tribal_holding
+	1284.1.1 = {
+		rite = roman_rite
+	}
 	1335.1.1 = {
 		holding = castle_holding
 	}
@@ -28004,22 +28421,8 @@ rite = antiochian_rite #no syriac in CK3
 	}
 }
 
-3221 = { # Alto Aragón - Jaca
-	culture = visigothic
-	rite = hispanic_rite
-	holding = castle_holding
-	850.1.1 = { # navarro_aragonese culture forms
-		culture = navarro_aragonese
-	}
-	1066.1.1 = {
-		buildings = { hill_forts_02 military_camps_01 }
-	}
-	1071.3.22 = { # The council of San Juan de la Peña adopts the Roman rite in Aragon
-		rite = roman_rite
-	}
-	1134.9.7 = { # Alfonso the Battler dies; Aragon and Navarre go their separate ways
-		culture = aragonese
-	}
+3221 = { # Alto Aragón - Hecho
+	holding = church_holding # San Pedro de Siresa
 }
 
 3258 = {	#ANNONAY
@@ -75034,10 +75437,12 @@ rite = armenian_rite
 	}
 }
 
-9666 = { # Lübeck - Wismar
+9666 = { # Lübeck - Grevesmühlen
 	holding = none
-	# Christianity only arrived with the Danish king Valdemar I
-	1229.1.1 = { # Wismar receives town rights
+	1230.1.1 = {
+		holding = castle_holding
+	}
+	1262.1.1 = {
 		holding = city_holding
 	}
 }
@@ -75049,21 +75454,21 @@ rite = armenian_rite
 	}
 }
 
-9668 = {	#WISMAR
+9668 = { # Schwerin - Crivitz
 	culture = polabian
 	rite = slavic_prove
 	holding = none
-	1200.1.1 = {
-		holding = church_holding
+	1302.1.1 = { # Crivitz receives town rights
+		holding = city_holding
 	}
 	1200.1.1 = {
 		rite = roman_rite
 	}
 }
 
-9669 = { # Mecklenburg - Sternberg
+9669 = { # Mecklenburg - Neukloster
 	holding = none
-	1248.1.1 = {
+	1219.1.1 = { # The Cistercian nunnery of Sonnenkamp is founded
 		holding = church_holding
 	}
 }
@@ -75141,10 +75546,12 @@ rite = armenian_rite
 	holding = none
 }
 
-9679 = { # Bern - Gruyères
-	holding = none
-	1073.1.1 = { # First counts of Gruyère
-		holding = castle_holding
+9679 = { # Gruyère - Gruyères
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
 	}
 }
 
@@ -75254,10 +75661,12 @@ rite = armenian_rite
 	holding = church_holding
 }
 
-9695 = { # Valassina - Sondrio
-	holding = none
-	1041.1.1 = {
-		holding = castle_holding
+9695 = { # Valtellina - Sondrio
+	culture = lombard
+	rite = aquileian_church
+	holding = castle_holding
+	800.1.1 = {
+		culture = cisalpine
 	}
 }
 
@@ -75474,28 +75883,12 @@ rite = armenian_rite
 	}
 }
 
-9734 = {	#AGRICENTO
-	culture = griko
-	rite = byzantine_rite
+9734 = { # Castrogiovanni - Nicosia
 	holding = castle_holding
-	874.1.24 = {
-		culture = siqilli
-		rite = maliki
-	}
-	1102.1.1 = {
-		culture = sicilian
-		rite = roman_rite
-	}
 }
 
-9735 = { # Paternò - Paternò
-	culture = griko
-	rite = byzantine_rite
+9735 = { # Catania - Paternò
 	holding = castle_holding
-	1070.1.1 = {
-		culture = sicilian
-		rite = roman_rite
-	}
 }
 
 9736 = { # Geraci - Geraci
@@ -75997,12 +76390,15 @@ rite = armenian_rite
 	1131.1.1 = { culture = aragonese }
 }
 
-9792 = {	#LIMOUX
-	holding = city_holding
+9792 = { # Carcassonne - Minerve
+	holding = castle_holding
 }
 
-9793 = {	#LIMOUX
-	holding = castle_holding
+9793 = { # Limoux - Lagrasse
+	holding = none
+	779.1.1 = { # Abbot Nebridius founds the abbey of Sainte-Marie at Lagrasse
+		holding = church_holding
+	}
 }
 
 9794 = { # Béziers - Minerva
@@ -76110,7 +76506,18 @@ rite = armenian_rite
 }
 
 9806 = { # Artois - Arras
+	culture = gallo_roman
+	rite = carolingian_christianity
 	holding = city_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1200.1.1 = { # Picard emerges as a written language
+		culture = picard
+	}
 }
 
 9807 = {	#GENT
@@ -76974,16 +77381,26 @@ rite = armenian_rite
 	}
 }
 
-10105 = {	#DUNGANNON
-	holding = none
+10105 = { # Tír Eógain - Tulach Óc
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
 }
 
 10106 = {	#BANGOR
 	holding = church_holding
 }
 
-10107 = {	#CLOGHER
-	holding = none
+10107 = { # Muineachán - Muineachán
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
 }
 
 10108 = {	#KILLALA
@@ -76991,32 +77408,27 @@ rite = armenian_rite
 	#Church founded here in the Vth century
 }
 
-10109 = { # Mayo - Cruachu
+10109 = { # Mag nAí - Crúachu
 	culture = irish
 	rite = insular_celtic
 	holding = tribal_holding
-	1124.1.1 = { # Toirdelbach Ua Conchobair builds the first castles in Ireland
-		holding = castle_holding
-	}
 	1172.1.1 = { # Synod of Cashel
 		rite = roman_rite
 	}
-	1269.1.1 = { # Robert de Ufford builds Roscommon castle
-		holding = castle_holding
-	}
 }
 
-10110 = {	#TUAM
-	holding = none
-	988.1.1 = {
-		holding = city_holding
-		#Settlement is very old
-	}
+10110 = { # Uí Briúin Seóla - Tuaim
+	holding = church_holding
+	# Saint Iarlaith's church, seat of the archbishops of Tuam from 1152
 }
 
-10111 = {	#DA CHAINOC
-	#Fortress that can be found on old maps of the region in medieval times
-	holding = none
+10111 = { # Uí Maine - Eachroim
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
 }
 
 10112 = { # West Bréifne - Ardagh
@@ -77026,8 +77438,21 @@ rite = armenian_rite
 	}
 }
 
-10114 = {	#KILMALLOCK
-	holding = none
+10114 = { # Eóganacht Áine - Cill Mocheallóg
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1200.1.1 = { # The Geraldines settle Kilmallock
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
 }
 
 10115 = { #Uddevalla
@@ -77200,8 +77625,8 @@ rite = armenian_rite
 	holding = city_holding
 }
 
-10152 = { # Alcácer do Sal - Grândola
-	holding = city_holding
+10152 = { # Alcácer do Sal - Santiago do Cacém
+	holding = castle_holding
 	culture = visigothic
 	rite = awzai
 	790.1.1 = {
@@ -77302,10 +77727,21 @@ rite = armenian_rite
 	holding = none
 }
 
-10242 = { # Valenciennes - Avesnes
-	holding = none
-	1050.1.1 = { # Castle of the lords of Avesnes
-		holding = castle_holding
+10242 = { # Avesnes - Avesnes
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # Treaty of Verdun; Romance Lotharingia speaks Old French
+		culture = french
+	}
+	1054.7.16 = { # The Great Schism; the Roman rite
+		rite = roman_rite
+	}
+	1200.1.1 = { # Picard, the language of Hainaut and the Cambrésis
+		culture = picard
+	}
+	1290.1.1 = {
+		rite = free_spirit_rite
 	}
 }
 
@@ -92832,11 +93268,10 @@ rite = armenian_rite
 	holding = none
 }
 
-14678 = {
-	culture = east_bantu		# Digo peoples
-	rite = ngai
+14678 = { # Tanga - tanzania tanga
+	culture = east_bantu # Digo peoples
+	rite = mijikenda_pagan # The Digo, southernmost of the nine Mijikenda peoples
 	holding = tribal_holding
-
 	1100.1.1 = {
 		holding = castle_holding
 	}
@@ -92937,9 +93372,9 @@ rite = armenian_rite
 	holding = none
 }
 
-14695 = {	# Garissa
+14695 = { # Mto Tana - kenta garissa
 	culture = east_bantu
-	rite = ngai
+	rite = mijikenda_pagan # The Pokomo of the lower Tana, who share the Shungwaya traditions
 	holding = tribal_holding
 }
 
@@ -95780,8 +96215,14 @@ rite = armenian_rite
 	}
 }
 
-10113 = { # Ennis - Kincora
-	holding = none
+10113 = { # Dál gCais - Cenn Corad
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	# Brian Bóruma's royal seat by the ford of Killaloe
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
 }
 
 10128 = { # Veneto - Malamocco
@@ -95813,9 +96254,5618 @@ rite = armenian_rite
 	}
 }
 
-14114 = { # Valtellina - Schlanders
+14114 = { # Vinschgau - Schlanders
+	culture = romansh
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Great Schism; the Roman rite
+		rite = roman_rite
+	}
+}
+
+14697 = { # Tancarville - Tancarville
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	911.7.20 = { # Treaty of Saint-Clair-sur-Epte: Charles the Simple grants the lands of the lower Seine to Rollo
+		culture = norman
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14698 = { # Tancarville - Montivilliers
+	holding = church_holding
+}
+
+14699 = { # Dreux - Châteauneuf-en-Thymerais
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14700 = { # Montfort - Houdan
+	holding = none
+	1120.1.1 = { # Amaury III of Montfort builds the keep of Houdan
+		holding = castle_holding
+	}
+}
+
+14701 = { # Aumale - Mortemer
+	holding = none
+	1054.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14702 = { # Perche - Bellême
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14703 = { # Cherbourg - Saint-Sauveur-le-Vicomte
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14704 = { # Évreux - Ivry
+	holding = none
+	990.1.1 = { # Aubrée builds the castle of Ivry for Count Rodulf
+		holding = castle_holding
+	}
+}
+
+14705 = { # Vitré - Vitré
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	950.1.1 = { # The Romance of the Breton march becomes Gallo
+		culture = gallo_f
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14706 = { # Vitré - La Guerche
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14707 = { # Fougères - Fougères
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	950.1.1 = { # The Romance of the Breton march becomes Gallo
+		culture = gallo_f
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14708 = { # Fougères - Saint-Aubin-du-Cormier
+	holding = none
+	1225.1.1 = { # Peter Mauclerc builds the castle of Saint-Aubin-du-Cormier
+		holding = castle_holding
+	}
+}
+
+14709 = { # Dinan - Dinan
+	culture = breton
+	rite = insular_celtic
+	holding = castle_holding
+	818.10.1 = { # Louis the Pious has Abbot Matmonoc of Landévennec take the Rule of Saint Benedict and drop the Irish tonsure
+		rite = carolingian_christianity
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14710 = { # Dinan - Dol
+	holding = church_holding
+}
+
+14711 = { # Porhoët - Ploërmel
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14712 = { # Porhoët - Montfort
+	holding = none
+	1091.1.1 = { # Raoul of Gaël builds the castle of Montfort
+		holding = castle_holding
+	}
+}
+
+14713 = { # Rohan - Pontivy
+	holding = church_holding
+}
+
+14714 = { # Vannes - Auray
+	holding = none
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14715 = { # Vannes - Hennebont
+	holding = none
+	1030.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14716 = { # Châteaubriant - Ancenis
+	holding = none
+	984.1.1 = { # Aremburge, wife of Count Guérech of Nantes, raises the castle of Ancenis
+		holding = castle_holding
+	}
+}
+
+14717 = { # Retz - Machecoul
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	950.1.1 = { # The Romance of the Breton march becomes Gallo
+		culture = gallo_f
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14718 = { # Retz - Pornic
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14719 = { # Clisson - Clisson
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	950.1.1 = { # The Romance of the Breton march becomes Gallo
+		culture = gallo_f
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14720 = { # Nantes - Redon
+	holding = none
+	832.1.1 = { # Conwoion founds the abbey of Saint-Sauveur at Redon
+		holding = church_holding
+	}
+}
+
+14721 = { # Penthièvre - Lamballe
+	culture = breton
+	rite = insular_celtic
+	holding = castle_holding
+	818.10.1 = { # Louis the Pious has Abbot Matmonoc of Landévennec take the Rule of Saint Benedict and drop the Irish tonsure
+		rite = carolingian_christianity
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14722 = { # Penthièvre - Guingamp
+	holding = none
+	1030.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14723 = { # Goëlo - Châtelaudren
+	culture = breton
+	rite = insular_celtic
+	holding = castle_holding
+	818.10.1 = { # Louis the Pious has Abbot Matmonoc of Landévennec take the Rule of Saint Benedict and drop the Irish tonsure
+		rite = carolingian_christianity
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14724 = { # Léon - Morlaix
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14725 = { # Cornouaille - Pont-l'Abbé
+	holding = none
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14726 = { # Cornouaille - Châteaulin
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14727 = { # Beaumont - Sainte-Suzanne
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14728 = { # Craon - Sablé
+	holding = none
+	1040.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14729 = { # Mayenne - Lassay
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14730 = { # Laval - Évron
+	holding = none
+	989.1.1 = {
+		holding = church_holding
+	}
+}
+
+14731 = { # Amboise - Montrichard
+	holding = none
+	1010.1.1 = { # Fulk Nerra raises the keep of Montrichard
+		holding = castle_holding
+	}
+}
+
+14732 = { # Touraine - Loches
+	holding = church_holding
+}
+
+14733 = { # Saumur - Fontevraud
+	holding = none
+	1101.1.1 = { # Robert of Arbrissel founds the abbey of Fontevraud
+		holding = church_holding
+	}
+}
+
+14734 = { # Montmorency - Montmorency
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14735 = { # Dammartin - Dammartin
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14736 = { # Dammartin - Juilly
+	holding = none
+	1184.1.1 = {
+		holding = church_holding
+	}
+}
+
+14737 = { # Montlhéry - Rochefort
+	holding = none
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14738 = { # Étampes - Dourdan
+	holding = none
+	1222.1.1 = { # Philip Augustus builds the castle of Dourdan
+		holding = castle_holding
+	}
+}
+
+14739 = { # Soissons - Soissons
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1200.1.1 = { # Picard emerges as a written language
+		culture = picard
+	}
+}
+
+14740 = { # Soissons - Braine
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14741 = { # Valois - Compiègne
+	holding = city_holding
+}
+
+14742 = { # Clermont - Breteuil
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14743 = { # Beauvais - Gerberoy
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14744 = { # Nesle - Nesle
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1200.1.1 = { # Picard emerges as a written language
+		culture = picard
+	}
+}
+
+14745 = { # Nesle - Ham
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14746 = { # Laon - Prémontré
+	holding = none
+	1120.1.1 = { # Norbert of Xanten founds the abbey of Prémontré
+		holding = church_holding
+	}
+}
+
+14747 = { # Roucy - Montaigu
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14748 = { # Ponthieu - Saint-Riquier
+	holding = church_holding
+}
+
+14749 = { # Guise - Vervins
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14750 = { # Veurne - Bergues
+	holding = castle_holding
+}
+
+14751 = { # Béthune - Lens
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14752 = { # Wavrin - La Bassée
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14753 = { # Wavrin - Wavrin
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1200.1.1 = { # Picard emerges as a written language
+		culture = picard
+	}
+}
+
+14754 = { # Douai - Marchiennes
+	holding = church_holding
+}
+
+14755 = { # Fauquembergues - Fauquembergues
+	culture = low_frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1150.1.1 = { # Old Dutch gives way to Middle Dutch
+		culture = dutch
+	}
+	1250.1.1 = { # Flemish emerges as a distinct written Middle Dutch
+		culture = flemish
+	}
+}
+
+14756 = { # Fauquembergues - Fruges
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14757 = { # Gistel - Gistel
+	culture = low_frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1150.1.1 = { # Old Dutch gives way to Middle Dutch
+		culture = dutch
+	}
+	1250.1.1 = { # Flemish emerges as a distinct written Middle Dutch
+		culture = flemish
+	}
+}
+
+14758 = { # Vertus - Vertus
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1200.1.1 = { # Champenois emerges as a written language
+		culture = champenois
+	}
+}
+
+14759 = { # Châtillon - Fismes
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14760 = { # Joinville - Vignory
+	holding = none
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14761 = { # Dampierre - Dampierre
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14762 = { # Dampierre - Ramerupt
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14763 = { # Villehardouin - Villehardouin
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1200.1.1 = { # Champenois emerges as a written language
+		culture = champenois
+	}
+}
+
+14764 = { # Villehardouin - Montiéramey
+	holding = none
+	837.1.1 = {
+		holding = church_holding
+	}
+}
+
+14765 = { # Choiseul - Choiseul
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1200.1.1 = { # Champenois emerges as a written language
+		culture = champenois
+	}
+}
+
+14766 = { # Choiseul - Nogent-en-Bassigny
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14767 = { # Porcien - Signy
+	holding = none
+	1135.1.1 = {
+		holding = church_holding
+	}
+}
+
+14768 = { # Grandpré - Buzancy
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14769 = { # Chartres - Épernon
+	holding = none
+	1030.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14770 = { # Le Puiset - Le Puiset
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14771 = { # Le Puiset - Pithiviers
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14772 = { # Sully - Fleury
+	holding = church_holding
+}
+
+14773 = { # Montargis - Château-Landon
+	holding = castle_holding
+}
+
+14774 = { # Mâcon - Tournus
+	holding = none
+	875.1.1 = { # The monks of Saint-Philibert settle at Tournus
+		holding = church_holding
+	}
+}
+
+14775 = { # Avalois - Avallon
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	862.1.1 = {
+		culture = burgundian_oil
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14776 = { # Tonnerrois - Molesme
+	holding = none
+	1075.12.20 = { # Robert founds the abbey of Molesme
+		holding = church_holding
+	}
+}
+
+14777 = { # Nevers - Decize
+	holding = castle_holding
+}
+
+14778 = { # Jaligny - Cusset
+	holding = none
+	886.1.1 = { # Bishop Emmenus of Nevers founds the abbey of Cusset
+		holding = church_holding
+	}
+}
+
+14779 = { # Vergy - Vergy
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	862.1.1 = {
+		culture = burgundian_oil
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14780 = { # Vergy - Nuits
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14781 = { # Polignac - Polignac
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = {
+		culture = auvergnat
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14782 = { # Polignac - Craponne
+	holding = none
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14783 = { # Toucy - Toucy
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	862.1.1 = {
+		culture = burgundian_oil
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14784 = { # Toucy - Saint-Fargeau
+	holding = none
+	990.1.1 = { # Bishop Heribert of Auxerre builds the castle of Saint-Fargeau
+		holding = castle_holding
+	}
+}
+
+14785 = { # Champlitte - Champlitte
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	862.1.1 = {
+		culture = burgundian_oil
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14786 = { # Champlitte - Fontaine-Française
+	holding = none
+	1150.1.1 = {
+		holding = castle_holding
+	}
+}
+
+14787 = { # Donzy - Cosne
+	holding = city_holding
+}
+
+14788 = { # Auxerre - Varzy
+	holding = castle_holding
+}
+
+14789 = { # Semur - Paray-le-Monial
+	holding = none
+	973.1.1 = { # Count Lambert of Chalon founds the priory of Paray
+		holding = church_holding
+	}
+}
+
+14790 = { # Châtellerault - Saint-Savin
+	holding = none
+	811.1.1 = { # The abbey of Saint-Savin on the Gartempe is founded under Louis the Pious
+		holding = church_holding
+	}
+}
+
+14791 = { # Châtellerault - Montmorillon
+	holding = castle_holding
+}
+
+14792 = { # Limousin - Rochechouart
+	holding = castle_holding
+}
+
+14793 = { # Limousin - Ségur
+	holding = castle_holding
+}
+
+14794 = { # Ventadour - Tulle
+	holding = church_holding
+}
+
+14795 = { # Ventadour - Ussel
+	holding = castle_holding
+}
+
+14796 = { # Turenne - Brive
+	holding = city_holding
+}
+
+14797 = { # Brosse - Brosse
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14798 = { # Brosse - Saint-Benoît-du-Sault
+	holding = none
+	1000.1.1 = { # Fleury founds the priory of Saint-Benoît-du-Sault
+		holding = church_holding
+	}
+}
+
+14799 = { # Lusignan - Saint-Maixent
+	holding = church_holding
+}
+
+14800 = { # Taillebourg - Saint-Jean-d'Angély
+	holding = none
+	817.1.1 = { # Pepin I of Aquitaine founds the abbey of Saint-Jean-d'Angély
+		holding = church_holding
+	}
+}
+
+14801 = { # Pons - Pons
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1175.1.1 = { # Poitevin-Saintongeais emerges between Oïl and Oc
+		culture = poitevin
+	}
+}
+
+14802 = { # Saintonge - Barbezieux
+	holding = none
+	1000.1.1 = { # The castle of Barbezieux
+		holding = castle_holding
+	}
+}
+
+14803 = { # Aunis - Surgères
+	holding = none
+	1000.1.1 = { # The Maingot lords of Surgères
+		holding = castle_holding
+	}
+}
+
+14804 = { # Saintes - Oléron
+	holding = none
+	1000.1.1 = { # The dukes' castle on Oléron
+		holding = castle_holding
+	}
+}
+
+14805 = { # Fronsac - Benauges
+	holding = castle_holding
+}
+
+14806 = { # Blaye - Coutras
+	holding = none
+	1000.1.1 = { # The castle of Coutras
+		holding = castle_holding
+	}
+}
+
+14807 = { # La Rochefoucauld - Montbron
+	holding = none
+	1000.1.1 = { # The castle of Montbron
+		holding = castle_holding
+	}
+}
+
+14808 = { # Angoulême - Aubeterre
+	holding = none
+	1000.1.1 = { # The castle of Aubeterre
+		holding = castle_holding
+	}
+}
+
+14809 = { # Angoulême - Jarnac
+	holding = none
+	1000.1.1 = { # The castle of Jarnac on the Charente
+		holding = castle_holding
+	}
+}
+
+14810 = { # Périgord - Ribérac
+	holding = none
+	1000.1.1 = { # The lords of Ribérac
+		holding = castle_holding
+	}
+}
+
+14811 = { # Périgord - Mussidan
+	holding = none
+	1000.1.1 = { # The castle of Mussidan on the Isle
+		holding = castle_holding
+	}
+}
+
+14812 = { # Bourdeilles - Mareuil
+	holding = none
+	1000.1.1 = { # Mareuil, one of the four baronies of Périgord
+		holding = castle_holding
+	}
+}
+
+14813 = { # Bourdeilles - Bourdeilles
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = {
+		culture = limousin
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14814 = { # Bourdeilles - Excideuil
+	holding = none
+	1000.1.1 = { # The viscounts of Limoges hold Excideuil
+		holding = castle_holding
+	}
+}
+
+14815 = { # Beynac - Sarlat
+	holding = church_holding
+}
+
+14816 = { # Beynac - Beynac
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = {
+		culture = limousin
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14817 = { # Bergerac - Biron
+	holding = none
+	1000.1.1 = { # The Gontaut lords of Biron
+		holding = castle_holding
+	}
+}
+
+14818 = { # Bergerac - Cadouin
+	holding = none
+	1115.1.1 = { # Robert of Arbrissel founds the abbey of Cadouin
+		holding = church_holding
+	}
+}
+
+14819 = { # Duras - Duras
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1167.1.1 = { # The Cathar council of Saint-Félix-Lauragais organises the dualist churches of the Languedoc
+		rite = cathar_rite
+	}
+	1244.3.16 = { # Montségur falls; Catharism is broken as a public church
+		rite = roman_rite
+	}
+}
+
+14820 = { # Duras - Marmande
+	holding = none
+	1182.1.1 = { # Richard the Lionheart founds Marmande
+		holding = city_holding
+	}
+}
+
+14821 = { # Labourd - Ustaritz
+	holding = castle_holding
+}
+
+14822 = { # Béarn - Sauveterre
+	holding = none
+	1000.1.1 = { # The castle of Sauveterre above the Gave
+		holding = castle_holding
+	}
+}
+
+14823 = { # Béarn - Orthez
+	holding = castle_holding
+}
+
+14824 = { # Soule - Mauléon
+	culture = basque
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14825 = { # Soule - Navarrenx
+	holding = none
+	1000.1.1 = { # The castle of Navarrenx
+		holding = castle_holding
+	}
+}
+
+14826 = { # Marsan - Saint-Sever
+	holding = none
+	988.1.1 = { # Duke William Sanche of Gascony founds the abbey of Saint-Sever
+		holding = church_holding
+	}
+}
+
+14827 = { # Armagnac - Condom
+	holding = none
+	1011.1.1 = { # Bishop Hugh of Agen founds the abbey of Saint-Pierre at Condom
+		holding = church_holding
+	}
+}
+
+14828 = { # Armagnac - Vic-Fezensac
+	holding = none
+	1000.1.1 = { # The counts of Fezensac at Vic
+		holding = castle_holding
+	}
+}
+
+14829 = { # Bigorre - Lourdes
+	holding = castle_holding
+}
+
+14830 = { # Bigorre - Bagnères
+	holding = none
+	1171.1.1 = { # Count Centule III of Bigorre grants Bagnères its charter
+		holding = city_holding
+	}
+}
+
+14831 = { # Comminges - Saint-Gaudens
+	holding = none
+	1000.1.1 = { # The castle of Saint-Gaudens
+		holding = castle_holding
+	}
+}
+
+14832 = { # Toulouse - Lavaur
+	holding = none
+	1000.1.1 = { # The castrum of Lavaur
+		holding = castle_holding
+	}
+}
+
+14833 = { # Lautrec - Lautrec
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1167.1.1 = { # The Cathar council of Saint-Félix-Lauragais organises the dualist churches of the Languedoc
+		rite = cathar_rite
+	}
+	1244.3.16 = { # Montségur falls; Catharism is broken as a public church
+		rite = roman_rite
+	}
+}
+
+14834 = { # Lautrec - Castres
+	holding = castle_holding
+}
+
+14835 = { # Mirepoix - Mirepoix
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1167.1.1 = { # The Cathar council of Saint-Félix-Lauragais organises the dualist churches of the Languedoc
+		rite = cathar_rite
+	}
+	1244.3.16 = { # Montségur falls; Catharism is broken as a public church
+		rite = roman_rite
+	}
+}
+
+14836 = { # Castelnau - Castelnau
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14837 = { # Castelnau - Rocamadour
+	holding = none
+	1105.1.1 = { # Rocamadour passes to the abbey of Tulle
+		holding = church_holding
+	}
+}
+
+14838 = { # Rouergue - Villefranche-de-Rouergue
+	holding = none
+	1252.1.1 = { # Alphonse of Poitiers founds Villefranche-de-Rouergue
+		holding = city_holding
+	}
+}
+
+14839 = { # Rouergue - Najac
+	holding = none
+	1100.1.1 = { # The counts of Toulouse fortify Najac
+		holding = castle_holding
+	}
+}
+
+14840 = { # Millau - Sainte-Eulalie
+	holding = none
+	1159.1.1 = { # The Templars receive Sainte-Eulalie on the Larzac
+		holding = castle_holding
+	}
+}
+
+14841 = { # Millau - Vabres
+	holding = none
+	862.1.1 = { # The abbey of Vabres is founded
+		holding = church_holding
+	}
+}
+
+14842 = { # Montferrand - Riom
+	holding = none
+	1000.1.1 = { # The town of Riom
+		holding = city_holding
+	}
+}
+
+14843 = { # La Tour - Pontgibaud
+	holding = none
+	1000.1.1 = { # The castle of Pontgibaud
+		holding = castle_holding
+	}
+}
+
+14844 = { # Auvergne - Issoire
+	holding = church_holding
+}
+
+14845 = { # Auvergne - Vic-le-Comte
+	holding = castle_holding
+}
+
+14846 = { # Thiers - La Chaise-Dieu
+	holding = none
+	1043.1.1 = { # Robert of Turlande founds the abbey of La Chaise-Dieu
+		holding = church_holding
+	}
+}
+
+14847 = { # Limoux - Limoux
+	culture = visigothic
+	rite = carolingian_christianity
+	holding = castle_holding
+	867.1.1 = { # The Goths of Septimania have merged into the Romance population
+		culture = occitan
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1167.1.1 = { # The Cathar council of Saint-Félix-Lauragais organises the dualist churches of the Languedoc
+		rite = cathar_rite
+	}
+	1244.3.16 = { # Montségur falls; Catharism is broken as a public church
+		rite = roman_rite
+	}
+}
+
+14848 = { # Carcassonne - Saissac
+	holding = none
+	960.1.1 = { # The castrum of Saissac is first recorded
+		holding = castle_holding
+	}
+}
+
+14849 = { # Narbonne - Capestang
+	holding = none
+	1000.1.1 = { # The archbishops of Narbonne hold the castrum of Capestang
+		holding = church_holding
+	}
+}
+
+14850 = { # Agde - Clermont
+	holding = none
+	1050.1.1 = { # The Guilhem lords of Clermont
+		holding = castle_holding
+	}
+}
+
+14851 = { # Montpellier - Maguelone
+	holding = none
+	1030.1.1 = { # Bishop Arnaud rebuilds the cathedral on the island of Maguelone
+		holding = church_holding
+	}
+}
+
+14852 = { # Melgueil - Melgueil
+	culture = visigothic
+	rite = carolingian_christianity
+	holding = castle_holding
+	867.1.1 = { # The Goths of Septimania have merged into the Romance population
+		culture = occitan
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14853 = { # Melgueil - Lunel
+	holding = none
+	1000.1.1 = { # The Gaucelm lords of Lunel
+		holding = castle_holding
+	}
+}
+
+14854 = { # Anduze - Le Vigan
+	holding = none
+	1000.1.1 = { # The castle of Le Vigan
+		holding = castle_holding
+	}
+}
+
+14855 = { # Anduze - Sauve
+	holding = none
+	1000.1.1 = { # The Bermond lords of Sauve
+		holding = castle_holding
+	}
+}
+
+14856 = { # Alès - Alès
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14857 = { # Alès - Saint-Ambroix
+	holding = none
+	1000.1.1 = { # The castle of Saint-Ambroix
+		holding = castle_holding
+	}
+}
+
+14858 = { # Uzès - Roquemaure
+	holding = none
+	1000.1.1 = { # The counts of Toulouse hold the castle of Roquemaure
+		holding = castle_holding
+	}
+}
+
+14859 = { # Nîmes - Saint-Gilles
+	holding = church_holding
+}
+
+14860 = { # Lyon - Savigny
+	holding = none
+	817.1.1 = { # The abbey of Savigny is first recorded
+		holding = church_holding
+	}
+}
+
+14861 = { # Viviers - Tournon
+	holding = none
+	1000.1.1 = { # The lords of Tournon
+		holding = castle_holding
+	}
+}
+
+14862 = { # Aubenas - Aubenas
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = { # alpine (Vivaro-Alpine) culture forms
+		culture = alpine
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+}
+
+14863 = { # Albon - Romans
+	holding = none
+	838.1.1 = { # Archbishop Barnard of Vienne founds the abbey at Romans
+		holding = church_holding
+	}
+}
+
+14864 = { # Albon - Albon
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
+}
+
+14865 = { # Viennois - Bourgoin
+	holding = none
+	1000.1.1 = { # The castle of Bourgoin
+		holding = castle_holding
+	}
+}
+
+14866 = { # Diois - Châtillon
+	holding = none
+	1000.1.1 = { # The castle of Châtillon in the Diois
+		holding = castle_holding
+	}
+}
+
+14867 = { # Provence - Brignoles
+	holding = none
+	1000.1.1 = { # The castrum of Brignoles
+		holding = castle_holding
+	}
+}
+
+14868 = { # Hyères - Hyères
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = { # provencal culture forms
+		culture = provencal
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+}
+
+14869 = { # Hyères - Fraxinet
+	holding = none
+	889.1.1 = { # Andalusi sailors fortify Fraxinetum
+		holding = castle_holding
+	}
+}
+
+14870 = { # Provence - Fréjus
+	holding = church_holding
+}
+
+14871 = { # Castellane - Riez
+	holding = church_holding
+}
+
+14872 = { # Marseille - Aubagne
+	holding = none
+	1000.1.1 = { # The castrum of Aubagne
+		holding = castle_holding
+	}
+}
+
+14873 = { # Marseille - Saint-Maximin
+	holding = none
+	1000.1.1 = { # The castrum of Saint-Maximin
+		holding = castle_holding
+	}
+	1295.1.1 = { # Charles II gives the basilica of the Magdalene to the Dominicans
+		holding = church_holding
+	}
+}
+
+14874 = { # Nice - Vence
+	holding = church_holding
+}
+
+14875 = { # Grasse - Antibes
+	holding = church_holding
+	1244.1.1 = { # The see of Antibes moves to Grasse
+		holding = castle_holding
+	}
+}
+
+14876 = { # Orange - Saint-Paul-Trois-Châteaux
+	holding = church_holding
+}
+
+14877 = { # Venaissin - Vaison
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = {
+		culture = provencal
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+}
+
+14878 = { # Forcalquier - Manosque
+	holding = none
+	1000.1.1 = { # The counts of Forcalquier hold Manosque
+		holding = castle_holding
+	}
+}
+
+14879 = { # Barcelonnette - Seyne
+	holding = none
+	1000.1.1 = { # The castle of Seyne
+		holding = castle_holding
+	}
+}
+
+14880 = { # Besançon - Gy
+	holding = none
+	1000.1.1 = { # The archbishops of Besançon hold the castle of Gy
+		holding = castle_holding
+	}
+}
+
+14881 = { # Chalon - Louhans
+	holding = none
+	1000.1.1 = { # The castle of Louhans
+		holding = castle_holding
+	}
+}
+
+14882 = { # Salins - Orgelet
+	holding = none
+	1000.1.1 = { # The castle of Orgelet
+		holding = castle_holding
+	}
+}
+
+14883 = { # Chablais - Saint-Maurice
+	holding = church_holding
+}
+
+14884 = { # Gruyère - Gessenay
+	holding = none
+	1000.1.1 = { # The counts of Gruyère hold Gessenay
+		holding = castle_holding
+	}
+}
+
+14885 = { # Chablais - Sion
+	holding = church_holding
+}
+
+14886 = { # Lausanne - Vevey
+	holding = none
+	1000.1.1 = { # The castle of Vevey
+		holding = castle_holding
+	}
+}
+
+14887 = { # Vaud - Romainmôtier
+	holding = church_holding
+}
+
+14888 = { # Vaud - Payerne
+	holding = none
+	962.1.1 = { # The priory of Payerne is founded in memory of Queen Bertha
+		holding = church_holding
+	}
+}
+
+14889 = { # Bern - Interlaken
+	holding = none
+	1133.1.1 = { # The Augustinian priory of Interlaken is founded
+		holding = church_holding
+	}
+}
+
+14890 = { # Aargau - Habsburg
+	holding = none
+	1020.1.1 = { # Radbot builds Habsburg castle
+		holding = castle_holding
+	}
+}
+
+14891 = { # Mercœur - Mercœur
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = {
+		culture = auvergnat
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14892 = { # Noyers - Noyers
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	862.1.1 = {
+		culture = burgundian_oil
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+14893 = { # Tonnerrois - Pontigny
+	holding = none
+	1114.5.31 = { # Hugh of Mâcon founds the Cistercian abbey of Pontigny
+		holding = church_holding
+	}
+}
+
+14894 = { # Sault - Sault
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = {
+		culture = provencal
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+}
+
+14895 = { # L'Isle-Jourdain - L'Isle-Jourdain
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1167.1.1 = { # The Cathar council of Saint-Félix-Lauragais organises the dualist churches of the Languedoc
+		rite = cathar_rite
+	}
+	1244.3.16 = { # Montségur falls; Catharism is broken as a public church
+		rite = roman_rite
+	}
+}
+
+14896 = { # Sévérac - Sévérac
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1167.1.1 = { # The Cathar council of Saint-Félix-Lauragais organises the dualist churches of the Languedoc
+		rite = cathar_rite
+	}
+	1244.3.16 = { # Montségur falls; Catharism is broken as a public church
+		rite = roman_rite
+	}
+}
+
+14897 = { # Sassenage - Sassenage
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
+}
+
+14898 = { # Fiennes - Fiennes
+	culture = low_frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1150.1.1 = { # Old Dutch gives way to Middle Dutch
+		culture = dutch
+	}
+	1250.1.1 = { # Flemish emerges as a distinct written Middle Dutch
+		culture = flemish
+	}
+}
+
+14899 = { # Vexin normand - Les Andelys
+	holding = church_holding
+	1197.1.1 = { # Richard I builds Château-Gaillard above Les Andelys
+		holding = castle_holding
+	}
+}
+
+14900 = { # Beaumont-le-Roger - Le Bec
+	holding = none
+	1034.1.1 = { # Herluin founds the abbey of Le Bec
+		holding = church_holding
+	}
+}
+
+14901 = { # Parthenay - Maillezais
+	holding = none
+	989.1.1 = { # Duke William IV and Emma found the abbey of Maillezais
+		holding = church_holding
+	}
+}
+
+14902 = { # Canterbury - Sandwich
+	holding = city_holding
+}
+
+14903 = { # Kent - Maidstone
+	holding = city_holding
+}
+
+14904 = { # Sussex - Bramber
+	holding = none
+	1073.1.1 = { # William de Braose builds Bramber castle
+		holding = castle_holding
+	}
+}
+
+14905 = { # Lewes - Pevensey
+	holding = none
+	1066.9.28 = { # The Conqueror lands at Pevensey and raises a castle in the Roman fort
+		holding = castle_holding
+	}
+}
+
+14906 = { # Hedingham - Hedingham
+	culture = east_saxon
+	rite = roman_rite
+	holding = castle_holding
+	900.1.1 = { # anglo_saxon culture forms
+		culture = anglo_saxon
+	}
+	1100.11.11 = { # english culture forms
+		culture = english
+	}
+	1220.4.28 = { # Richard Poore lays the foundations of the new cathedral at Salisbury; his ordinal and consuetudinary set down the Use of Sarum
+		rite = sarum_rite
+	}
+}
+
+14907 = { # Essex - Waltham
+	holding = none
+	1060.5.3 = { # Harold Godwinson founds the college of the Holy Cross at Waltham
+		holding = church_holding
+	}
+}
+
+14908 = { # Devon - Tiverton
+	holding = none
+	1106.1.1 = { # Richard de Redvers raises the castle at Tiverton
+		holding = castle_holding
+	}
+}
+
+14909 = { # Plympton - Plympton
+	culture = west_saxon
+	rite = roman_rite
+	holding = castle_holding
+	900.1.1 = { # anglo_saxon culture forms
+		culture = anglo_saxon
+	}
+	1100.11.11 = { # english culture forms
+		culture = english
+	}
+	1220.4.28 = { # Richard Poore lays the foundations of the new cathedral at Salisbury; his ordinal and consuetudinary set down the Use of Sarum
+		rite = sarum_rite
+	}
+}
+
+14910 = { # Plympton - Tavistock
+	holding = none
+	974.1.1 = { # Ordgar, ealdorman of Devon, founds the abbey of Tavistock
+		holding = church_holding
+	}
+}
+
+14911 = { # Cornwall - Bodmin
+	holding = church_holding
+}
+
+14912 = { # Somerset - Wells
+	holding = church_holding
+}
+
+14913 = { # Dunster - Dunster
+	culture = west_saxon
+	rite = roman_rite
+	holding = castle_holding
+	900.1.1 = {
+		culture = anglo_saxon
+	}
+	1100.11.11 = {
+		culture = english
+	}
+	1220.4.28 = { # Richard Poore lays the foundations of the new cathedral at Salisbury; his ordinal and consuetudinary set down the Use of Sarum
+		rite = sarum_rite
+	}
+}
+
+14914 = { # Dorset - Sherborne
+	holding = church_holding
+	1122.1.1 = { # Roger, Bishop of Salisbury, begins the castle at Sherborne
+		holding = castle_holding
+	}
+}
+
+14915 = { # Gloucestershire - Berkeley
+	holding = none
+	1067.1.1 = { # William FitzOsbern raises the castle at Berkeley
+		holding = castle_holding
+	}
+}
+
+14916 = { # Gloucestershire - Tewkesbury
+	holding = none
+	1102.1.1 = { # Robert FitzHamon refounds the abbey of Tewkesbury
+		holding = church_holding
+	}
+}
+
+14917 = { # Salisbury - Amesbury
+	holding = none
+	979.1.1 = { # Queen Aelfthryth founds the nunnery at Amesbury
+		holding = church_holding
+	}
+}
+
+14918 = { # Salisbury - Devizes
+	holding = none
+	1080.1.1 = { # Osmund, Bishop of Salisbury, raises the first castle at Devizes
+		holding = castle_holding
+	}
+}
+
+14919 = { # Oxfordshire - Woodstock
+	holding = none
+	1110.1.1 = { # Henry I walls his park and builds the royal house at Woodstock
+		holding = castle_holding
+	}
+}
+
+14920 = { # Berkshire - Wallingford
+	holding = none
+	1067.1.1 = { # Robert d'Oilly raises the castle at Wallingford
+		holding = castle_holding
+	}
+}
+
+14921 = { # Worcestershire - Dudley
+	holding = none
+	1070.1.1 = { # Ansculf de Picquigny raises the castle at Dudley
+		holding = castle_holding
+	}
+}
+
+14922 = { # Warwickshire - Kenilworth
+	holding = none
+	1120.1.1 = { # Geoffrey de Clinton builds the castle at Kenilworth
+		holding = castle_holding
+	}
+}
+
+14923 = { # Warwickshire - Tamworth
+	holding = castle_holding
+}
+
+14924 = { # Shropshire - Wenlock
+	holding = church_holding
+}
+
+14925 = { # Shropshire - Bridgnorth
+	holding = none
+	1101.1.1 = { # Robert of Belleme moves his castle from Quatford to Bridgnorth
+		holding = castle_holding
+	}
+}
+
+14926 = { # Oswestry - Oswestry
+	culture = mercian
+	rite = roman_rite
+	holding = castle_holding
+	900.1.1 = {
+		culture = anglo_saxon
+	}
+	1100.11.11 = {
+		culture = english
+	}
+	1220.4.28 = { # Richard Poore lays the foundations of the new cathedral at Salisbury; his ordinal and consuetudinary set down the Use of Sarum
+		rite = sarum_rite
+	}
+}
+
+14927 = { # Eryri - Bangor
+	holding = church_holding
+}
+
+14928 = { # Perfeddwlad - Degannwy
+	holding = castle_holding
+}
+
+14929 = { # Meirionnydd - Castell y Bere
+	holding = none
+	1221.1.1 = { # Llywelyn ab Iorwerth builds Castell y Bere
+		holding = castle_holding
+	}
+}
+
+14930 = { # Ynys Môn - Llan-faes
+	holding = city_holding
+	1295.1.1 = { # Edward I begins Beaumaris beside Llan-faes
+		holding = castle_holding
+	}
+}
+
+14931 = { # Penllyn - Y Trallwng
+	holding = none
+	1200.1.1 = { # Gwenwynwyn ab Owain's Castell Coch at Y Trallwng
+		holding = castle_holding
+	}
+}
+
+14932 = { # Powys Fadog - Dinas Brân
+	culture = welsh
+	rite = roman_rite
+	holding = castle_holding
+	1224.1.1 = { # St David's adopts parts of the Use of Sarum
+		rite = sarum_rite
+	}
+}
+
+14933 = { # Ferlix - Maesyfed
+	holding = none
+	1096.1.1 = { # Philip de Braose raises the castle at Radnor
+		holding = castle_holding
+	}
+}
+
+14934 = { # Oswestry - Clun
+	holding = none
+	1090.1.1 = { # Picot de Say raises the castle at Clun
+		holding = castle_holding
+	}
+}
+
+14935 = { # Herefordshire - Weobley
+	holding = none
+	1086.1.1 = { # Roger de Lacy's caput at Weobley
+		holding = castle_holding
+	}
+}
+
+14936 = { # Morgannwg - Caerffili
+	holding = none
+	1268.1.1 = { # Gilbert de Clare begins the castle at Caerphilly
+		holding = castle_holding
+	}
+}
+
+14937 = { # Morgannwg - Castell-nedd
+	holding = none
+	1130.1.1 = { # Richard de Granville founds the abbey of Neath
+		holding = church_holding
+	}
+}
+
+14938 = { # Gwent - Cas-gwent
+	holding = none
+	1067.1.1 = { # William FitzOsbern raises the castle at Chepstow
+		holding = castle_holding
+	}
+}
+
+14939 = { # Sir Gaerfyrddin - Dinefwr
+	holding = castle_holding
+}
+
+14940 = { # Sir Gaerfyrddin - Hendy-gwyn
+	holding = none
+	1140.1.1 = { # The Cistercians settle at Whitland
+		holding = church_holding
+	}
+}
+
+14941 = { # Ceredigion - Ystrad Fflur
+	holding = none
+	1164.1.1 = { # The Cistercian house of Ystrad Fflur is founded
+		holding = church_holding
+	}
+}
+
+14942 = { # Penfro - Hwlffordd
+	holding = none
+	1110.1.1 = { # Tancard the Fleming raises the castle at Haverfordwest
+		holding = castle_holding
+	}
+}
+
+14943 = { # Penfro - Dinbych-y-pysgod
+	holding = none
+	1110.1.1 = { # The Norman castle and town at Tenby
+		holding = castle_holding
+	}
+}
+
+14944 = { # Bedford - St Neots
+	holding = none
+	974.1.1 = { # The relics of St Neot are brought to Eynesbury and a priory is founded
+		holding = church_holding
+	}
+}
+
+14945 = { # Huntingdonshire - Ramsey
+	holding = none
+	969.1.1 = { # Ealdorman Æthelwine and St Oswald found the abbey of Ramsey
+		holding = church_holding
+	}
+}
+
+14946 = { # Northamptonshire - Rockingham
+	holding = none
+	1070.1.1 = { # William I raises the castle at Rockingham
+		holding = castle_holding
+	}
+}
+
+14947 = { # Norfolk - Great Yarmouth
+	holding = none
+	1086.1.1 = { # Domesday counts seventy burgesses at Yarmouth
+		holding = city_holding
+	}
+}
+
+14948 = { # Suffolk - Framlingham
+	holding = none
+	1101.1.1 = { # Henry I grants Framlingham to Roger Bigod
+		holding = castle_holding
+	}
+}
+
+14949 = { # Suffolk - Dunwich
+	holding = city_holding
+}
+
+14950 = { # Bury St Edmunds - Clare
+	holding = none
+	1070.1.1 = { # Richard fitz Gilbert's castle at Clare
+		holding = castle_holding
+	}
+}
+
+14951 = { # Thirsk - Northallerton
+	holding = none
+	1130.1.1 = { # Bishop Geoffrey Rufus of Durham raises the castle at Northallerton
+		holding = castle_holding
+	}
+}
+
+14952 = { # North Riding - Helmsley
+	holding = none
+	1120.1.1 = { # Walter Espec raises the castle at Helmsley
+		holding = castle_holding
+	}
+}
+
+14953 = { # East Riding - Skipsea
+	holding = none
+	1086.1.1 = { # Drogo de la Beuvrière raises the castle at Skipsea, caput of Holderness
+		holding = castle_holding
+	}
+}
+
+14954 = { # West Riding - Pontefract
+	holding = none
+	1070.1.1 = { # Ilbert de Lacy raises the castle at Pontefract
+		holding = castle_holding
+	}
+}
+
+14955 = { # Kesteven - Grantham
+	culture = mercian
+	rite = roman_rite
+	holding = city_holding
+	900.11.11 = { # Danelaw
+		culture = anglo_norse
+	}
+	1100.11.11 = { # english culture forms
+		culture = english
+	}
+	1220.4.28 = { # Richard Poore lays the foundations of the new cathedral at Salisbury; his ordinal and consuetudinary set down the Use of Sarum
+		rite = sarum_rite
+	}
+}
+
+14956 = { # Rutland - Uppingham
+	holding = none
+	1281.1.1 = { # Uppingham is granted a market
+		holding = city_holding
+	}
+}
+
+14957 = { # Leicestershire - Belvoir
+	holding = none
+	1088.1.1 = { # Robert de Todeni raises the castle at Belvoir
+		holding = castle_holding
+	}
+}
+
+14958 = { # Nottinghamshire - Newark
+	holding = none
+	1130.1.1 = { # Bishop Alexander of Lincoln raises the castle at Newark
+		holding = castle_holding
+	}
+}
+
+14959 = { # Derby - Duffield
+	holding = none
+	1080.1.1 = { # Henry de Ferrers raises the castle at Duffield
+		holding = castle_holding
+	}
+}
+
+14960 = { # Northumberland - Newcastle
+	holding = none
+	1080.1.1 = { # Robert Curthose raises the new castle on the Tyne
+		holding = castle_holding
+	}
+	1100.1.1 = { # The borough grows beneath the castle under Henry I
+		holding = city_holding
+	}
+}
+
+14961 = { # Barnard Castle - Barnard Castle
+	culture = northumbrian
+	rite = roman_rite
+	holding = castle_holding
+	1070.5.23 = { # Thomas of Bayeux reorders the chapter of York
+		rite = york_rite
+	}
+	1150.11.11 = { # northerner culture forms
+		culture = northerner
+	}
+}
+
+14962 = { # Barnard Castle - Gainford
+	holding = church_holding
+}
+
+14963 = { # Lancashire - Clitheroe
+	holding = none
+	1100.1.1 = { # The Lacy castle at Clitheroe, caput of the honour
+		holding = castle_holding
+	}
+}
+
+14964 = { # Lancashire - Preston
+	holding = none
+	1179.1.1 = { # Henry II grants Preston its charter
+		holding = city_holding
+	}
+}
+
+14965 = { # Westmorland - Brough
+	holding = none
+	1092.1.1 = { # William Rufus raises the castle at Brough on Stainmore
+		holding = castle_holding
+	}
+}
+
+14966 = { # Cheshire - Halton
+	holding = none
+	1071.1.1 = { # Nigel, first baron of Halton, raises the castle
+		holding = castle_holding
+	}
+}
+
+14967 = { # Lauderdale - Melrose
+	holding = none
+	1136.1.1 = { # David I settles Cistercians from Rievaulx at Melrose
+		holding = church_holding
+	}
+}
+
+14968 = { # Glasgow - Rutherglen
+	holding = none
+	1126.1.1 = { # David I makes Rutherglen a royal burgh
+		holding = city_holding
+	}
+}
+
+14969 = { # Teviotdale - Jedburgh
+	holding = none
+	1138.1.1 = { # David I founds the abbey of Jedburgh
+		holding = church_holding
+	}
+}
+
+14970 = { # Lanarkshire - Douglas
+	holding = none
+	1200.1.1 = { # The castle of the lords of Douglas
+		holding = castle_holding
+	}
+}
+
+14971 = { # Ayrshire - Paisley
+	holding = none
+	1163.1.1 = { # Walter fitz Alan founds the priory of Paisley
+		holding = church_holding
+	}
+}
+
+14972 = { # Galloway - Buittle
+	holding = none
+	1100.1.1 = { # The lords of Galloway raise the castle at Buittle
+		holding = castle_holding
+	}
+}
+
+14973 = { # Annandale - Lochmaben
+	holding = none
+	1160.1.1 = { # The Bruces raise the castle at Lochmaben
+		holding = castle_holding
+	}
+}
+
+14974 = { # Cumberland - Cockermouth
+	holding = none
+	1134.1.1 = { # The castle at Cockermouth, caput of the honour
+		holding = castle_holding
+	}
+}
+
+14975 = { # Mar - Kildrummy
+	culture = pictish
+	rite = roman_rite
+	holding = tribal_holding
+	1000.1.1 = {
+		culture = gaelic
+	}
+	1147.1.1 = { # Bishop Herbert of Glasgow brings in the usages of Sarum
+		rite = sarum_rite
+	}
+	1150.1.1 = { # The mormaers of Mar raise the motte of the Doune of Invernochty in upper Donside
+		holding = castle_holding
+	}
+	1153.1.1 = {
+		culture = scottish
+	}
+}
+
+14976 = { # Angus - Arbroath
+	holding = none
+	1178.1.1 = { # William the Lion founds Arbroath Abbey for Tironensian monks
+		holding = church_holding
+	}
+}
+
+14977 = { # Angus - Forfar
+	holding = none
+	1124.4.23 = { # David I: royal castle at Forfar, seat of the sheriff of Angus
+		holding = castle_holding
+	}
+}
+
+14978 = { # Mearns - Dunnottar
+	holding = tribal_holding
+	1290.1.1 = { # The castle on the rock of Dunnottar
+		holding = castle_holding
+	}
+}
+
+14979 = { # Strathearn - Crieff
+	culture = pictish
+	rite = roman_rite
+	holding = tribal_holding
+	900.1.1 = {
+		culture = gaelic
+	}
+	1147.1.1 = { # Bishop Herbert of Glasgow brings in the usages of Sarum
+		rite = sarum_rite
+	}
+	1150.1.1 = { # The earls of Strathearn hold their court at Crieff
+		holding = castle_holding
+	}
+}
+
+14980 = { # Atholl - Logierait
+	holding = none
+	1150.1.1 = { # The earls of Atholl keep their seat at Logierait, where the Tummel meets the Tay
+		holding = castle_holding
+	}
+}
+
+14981 = { # Gowrie - Scone
+	holding = none
+	1114.1.1 = { # Alexander I founds the Augustinian priory of Scone
+		holding = church_holding
+	}
+}
+
+14982 = { # Fife - Kinross
+	holding = none
+	1257.1.1 = { # The Comyns seize the young Alexander III at Kinross
+		holding = castle_holding
+	}
+}
+
+14983 = { # Buchan - Ellon
+	holding = none
+	1150.1.1 = { # The mormaers of Buchan hold their head court on the moot hill of Ellon
+		holding = castle_holding
+	}
+}
+
+14984 = { # Moray - Forres
+	holding = none
+	1130.1.1 = { # David I takes Moray: royal castle and burgh at Forres
+		holding = castle_holding
+	}
+}
+
+14985 = { # Inverness - Nairn
+	holding = none
+	1179.1.1 = { # William the Lion builds the royal castle at Nairn
+		holding = castle_holding
+	}
+}
+
+14986 = { # Badenoch - Lochindorb
+	holding = none
+	1279.1.1 = { # The Comyn lords of Badenoch build the island castle of Lochindorb
+		holding = castle_holding
+	}
+}
+
+14987 = { # Ross - Fortrose
+	holding = church_holding
+}
+
+14988 = { # Caithness - Halkirk
+	holding = none
+	1146.1.1 = { # Andrew becomes the first bishop of Caithness, with his seat at Halkirk
+		holding = church_holding
+	}
+}
+
+14989 = { # Argyll - Dunstaffnage
+	holding = none
+	1220.1.1 = { # Duncan MacDougall builds Dunstaffnage, caput of Lorn
+		holding = castle_holding
+	}
+}
+
+14990 = { # Isle of Man - Peel
+	holding = church_holding
+}
+
+14991 = { # Kintyre - Skipness
+	holding = none
+	1247.1.1 = { # The MacSweens build the castle of Skipness
+		holding = castle_holding
+	}
+}
+
+14992 = { # Skye - Snizort
+	holding = none
+	1200.1.1 = { # The see of the Isles at Snizort
+		holding = church_holding
+	}
+}
+
+14993 = { # Lewis - Stornoway
+	holding = none
+	1300.1.1 = { # The MacLeods of Lewis hold the castle of Stornoway
+		holding = castle_holding
+	}
+}
+
+14994 = { # Uist - North Uist
+	holding = none
+	1200.1.1 = { # Teampull na Trionaid at Carinish
+		holding = church_holding
+	}
+}
+
+14995 = { # Orkney - Birsay
+	holding = none
+	1050.1.1 = { # Thorfinn the Mighty builds Christ Church at Birsay, the first see of Orkney
+		holding = church_holding
+	}
+}
+
+14996 = { # Shetland - Unst
+	holding = none
+	1150.1.1 = { # The Norse chapels of Unst
+		holding = church_holding
+	}
+}
+
+14997 = { # Færeyjar - Kirkjubøur
+	holding = none
+	1100.1.1 = { # Kirkjubøur becomes the seat of the bishops of the Faroes
+		holding = church_holding
+	}
+}
+
+14998 = { # Leth Cathail - Dundrum
+	holding = none
+	1177.1.1 = { # John de Courcy's castle at Dundrum
+		holding = castle_holding
+	}
+}
+
+14999 = { # Arda - Newtownards
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1250.1.1 = { # The Norman Newtown of the Ards (est.)
+		holding = castle_holding
+	}
+}
+
+15000 = { # Arda - Belfast
+	holding = none
+	1177.1.1 = { # John de Courcy's castle at Belfast
+		holding = castle_holding
+	}
+}
+
+15001 = { # Dál nAraidi - Ráith Mór
+	holding = tribal_holding
+}
+
+15002 = { # Dál nAraidi - Condere
+	holding = church_holding
+}
+
+15003 = { # Dál Riata - Dún Sobairce
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15004 = { # Dál Riata - Glenarm
+	holding = none
+	1242.1.1 = { # The Bissets are granted the Glens; castle at Glenarm
+		holding = castle_holding
+	}
+}
+
+15005 = { # Tuaiscert - Dunluce
+	holding = none
+	1280.1.1 = { # Richard de Burgh, earl of Ulster, builds the first castle at Dunluce
+		holding = castle_holding
+	}
+}
+
+15006 = { # Uí Echach Cobo - Iúr Cinn Trá
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15007 = { # Uí Echach Cobo - Druim Mór
+	holding = church_holding
+}
+
+15008 = { # Tír Áeda - Áth Seanaigh
+	holding = none
+	1178.1.1 = { # Flaithbertach Ó Maoldoraidh founds the Cistercian abbey of Assaroe
+		holding = church_holding
+	}
+}
+
+15009 = { # Tír Áeda - Loch Dearg
+	holding = church_holding
+}
+
+15010 = { # Tír Boghaine - Na Cealla Beaga
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15011 = { # Tír Boghaine - Gleann Cholm Cille
+	holding = church_holding
+}
+
+15012 = { # Tír Boghaine - Na Rosa
+	holding = none
+}
+
+15013 = { # Tír Luighdech - Cill Mhic Néanáin
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15014 = { # Tír Luighdech - Gartán
+	holding = none
+}
+
+15015 = { # Tír Luighdech - Fánaid
+	holding = none
+}
+
+15016 = { # Cenél Moen - Leifear
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15017 = { # Inis Eógain - Ailech
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15018 = { # Inis Eógain - Northburgh
+	holding = none
+	1305.1.1 = { # Richard de Burgh, earl of Ulster, builds Northburgh castle
+		holding = castle_holding
+	}
+}
+
+15019 = { # Ciannachta - Léim an Mhadaidh
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	# The Uí Chonchobair, then the Uí Chatháin, kings of Ciannachta Glinne Geimin
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15020 = { # Ciannachta - Dún Geimhin
+	holding = church_holding
+}
+
+15021 = { # Tír Eógain - Dún Geanainn
+	holding = none
+}
+
+15022 = { # Tír Eógain - Ard Sratha
+	holding = church_holding
+}
+
+15023 = { # Tír Eógain - Machaire Rátha
+	holding = church_holding
+}
+
+15024 = { # Muineachán - Cluain Eois
+	holding = church_holding
+}
+
+15025 = { # Muineachán - Fearnmhaigh
+	holding = none
+	1193.1.1 = { # Gilbert Pipard's castle at Donaghmoyne
+		holding = castle_holding
+	}
+}
+
+15026 = { # Muineachán - Clochar
+	holding = church_holding
+}
+
+15027 = { # Ard Macha - Clann Bhreasail
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15028 = { # Ard Macha - Na Feadha
+	holding = none
+}
+
+15029 = { # Fir Manach - Lios na Scéithe
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15030 = { # Fir Manach - Inis Maighe Samh
+	holding = church_holding
+}
+
+15031 = { # Louth - Louth
+	holding = church_holding
+}
+
+15032 = { # Louth - Mellifont
+	holding = none
+	1142.1.1 = { # Donnchad Ua Cerbaill founds Mellifont, the first Cistercian abbey in Ireland
+		holding = church_holding
+	}
+}
+
+15033 = { # Clann Cholmáin - Dún na Sciath
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15034 = { # Clann Cholmáin - Uisnech
+	holding = none
+}
+
+15035 = { # Cenél Fiachach - Áth an Urchair
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1192.1.1 = { # The Normans build the castle at Ardnurcher
+		holding = castle_holding
+	}
+}
+
+15036 = { # Cenél Fiachach - Darú
+	holding = church_holding
+}
+
+15037 = { # Áth Luain - Cluain Mhic Nóis
+	holding = church_holding
+}
+
+15038 = { # Delbna Mór - Dealbhna
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1181.1.1 = { # Hugh de Lacy's castle at Delvin for Gilbert de Nugent
+		holding = castle_holding
+	}
+}
+
+15039 = { # Trim - Tlachtga
+	holding = none
+}
+
+15040 = { # Cenannas - An Obair
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1196.1.1 = { # Gilbert de Angulo's castle at Nobber
+		holding = castle_holding
+	}
+}
+
+15041 = { # Kildare - Cairbre
+	holding = none
+}
+
+15042 = { # Trim - Trim
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1172.4.1 = { # Henry II grants Meath to Hugh de Lacy
+		culture = english
+		holding = castle_holding
+	}
+	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15043 = { # Brega - Cnogba
+	holding = tribal_holding
+	1175.1.1 = { # Richard Fleming's castle at Slane
+		holding = castle_holding
+	}
+}
+
+15044 = { # Brega - Temair
+	holding = church_holding
+}
+
+15045 = { # Fine Gall - Lusca
+	holding = church_holding
+}
+
+15046 = { # Fine Gall - Sord
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	841.1.1 = { # the Norse longphort at Dublin
+		culture = norse
+		rite = norse_pagan
+	}
+	917.1.1 = { # Sitric Cáech retakes Dublin
+		culture = norse_gael
+	}
+	1000.1.1 = { # Sitric Silkbeard's Dublin is Christian; its bishops look to Canterbury
+		rite = roman_rite
+	}
+	1172.1.1 = { # Henry II gives Dublin to the men of Bristol
+		culture = english
+	}
+	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
+		rite = sarum_rite
+	}
+	1200.1.1 = { # The archbishops of Dublin build their palace at Swords
+		holding = castle_holding
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15047 = { # Dublin - Tamhlacht
+	holding = none
+	774.1.1 = { # Máel Ruain founds the monastery of Tallaght
+		holding = church_holding
+	}
+}
+
+15048 = { # Kildare - Maigh Nuad
+	holding = none
+	1176.1.1 = { # Maurice FitzGerald's castle at Maynooth
+		holding = castle_holding
+	}
+}
+
+15049 = { # Mag nAí - Ail Finn
+	holding = church_holding
+	# Saint Patrick's church of Elphin
+}
+
+15050 = { # Mag nAí - Baile an Tobair
+	holding = none
+	1300.1.1 = { # The de Burghs build the castle of Ballintober
+		holding = castle_holding
+	}
+}
+
+15051 = { # Mag nAí - Ros Comáin
+	holding = church_holding
+	# Monastery of Saint Comán
+	1269.1.1 = { # Robert de Ufford builds Roscommon castle
+		holding = castle_holding
+	}
+}
+
+15052 = { # Magh Luirg - Carraig Locha Cé
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15053 = { # Magh Luirg - Mainistir na Búille
+	holding = none
+	1161.1.1 = { # The Cistercians of Mellifont settle at Boyle
+		holding = church_holding
+	}
+}
+
+15054 = { # Corann - Áth Cliath an Chorainn
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1300.1.1 = { # Richard de Burgh builds Ballymote castle
+		holding = castle_holding
+	}
+}
+
+15055 = { # Corann - Tír Oilella
+	holding = church_holding
+	# Saint Féichín's monastery at Ballysadare
+}
+
+15056 = { # Corann - Achadh Conaire
+	holding = church_holding
+	# Saint Nath Í's monastery, later the see of Achonry
+}
+
+15057 = { # Cairbre - Droim Cliabh
+	holding = church_holding
+	# Columban monastery of Drumcliff
+}
+
+15058 = { # Uí Fiachrach - Tír Fhíachrach
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15059 = { # Uí Fiachrach - Crois Mhaoilíona
+	holding = none
+}
+
+15060 = { # Uí Fiachrach - Iorras
+	holding = none
+}
+
+15061 = { # Umhall - Buiríos Umhaill
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15062 = { # Umhall - Muraisc
+	holding = none
+}
+
+15063 = { # Ceara - Baile Tobair Phádraig
+	holding = none
+	1216.1.1 = { # Cathal Crobderg Ua Conchobair founds the abbey of Ballintubber
+		holding = church_holding
+	}
+}
+
+15064 = { # Ceara - Maigh Eo
+	holding = church_holding
+	# Mayo of the Saxons, founded by Colmán of Lindisfarne
+}
+
+15065 = { # Gaileanga - Béal Easa
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15066 = { # Gaileanga - Sliabh Lugha
+	holding = none
+}
+
+15067 = { # Bréifne Uí Ruairc - Droim Dhá Thiar
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15068 = { # Bréifne Uí Ruairc - Liatroim
+	holding = none
+}
+
+15069 = { # Muintir Eolais - Maothail
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15070 = { # Muintir Eolais - Fíodhnacha
+	holding = church_holding
+	# Saint Caillín's monastery of Fenagh
+}
+
+15071 = { # Bréifne Uí Raghallaigh - Cloch Uachtair
+	holding = none
+}
+
+15072 = { # Bréifne Uí Raghallaigh - Teallach Eachach
+	holding = none
+}
+
+15073 = { # Anghaile - An Longfort
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15074 = { # Anghaile - Gránard
+	holding = none
+	1199.1.1 = { # Richard de Tuit's castle at Granard
+		holding = castle_holding
+	}
+}
+
+15075 = { # Iar Connacht - Conmaicne Mara
+	holding = none
+}
+
+15076 = { # Iar Connacht - Dúiche Sheoigheach
+	holding = none
+}
+
+15077 = { # Uí Briúin Seóla - Gaillimh
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1232.1.1 = { # Richard de Burgh's castle at Galway
+		holding = castle_holding
+	}
+	1270.1.1 = { # The town of Galway is walled
+		holding = city_holding
+	}
+}
+
+15078 = { # Uí Briúin Seóla - Eanach Dúin
+	holding = church_holding
+	# Saint Brendan's foundation at Annaghdown, later a see
+	1290.1.1 = { # The de Burghs' castle at Claregalway
+		holding = castle_holding
+	}
+}
+
+15079 = { # Uí Briúin Seóla - Dún Mór
+	holding = none
+	1225.1.1 = { # Norman castle at Dunmore
+		holding = castle_holding
+	}
+}
+
+15080 = { # Conmaicne Cúile Tola - Cill Mheáin
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1238.1.1 = { # Richard de Burgh's castle on Lough Mask
+		holding = castle_holding
+	}
+}
+
+15081 = { # Conmaicne Cúile Tola - Cunga
+	holding = church_holding
+	# Saint Féichín's monastery, refounded for the Augustinians by Toirdelbach Ua Conchobair
+}
+
+15082 = { # Aidhne - Gort Inse Guaire
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15083 = { # Aidhne - Cill Mhic Duach
+	holding = church_holding
+	# Saint Colmán mac Duach's monastery, the see of Kilmacduagh
+}
+
+15084 = { # Uí Maine - Béal Átha na Sluaighe
+	holding = none
+}
+
+15085 = { # Uí Maine - Áth Liag
+	holding = none
+}
+
+15086 = { # Baile Átha an Rí - Baile Locha Riach
+	holding = none
+	1236.1.1 = { # Richard de Burgh's castle at Loughrea
+		holding = castle_holding
+	}
+}
+
+15087 = { # Síol Anmchadha - Port Omna
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15088 = { # Síol Anmchadha - Cluain Fearta
+	holding = church_holding
+	# Saint Brendan's monastery of Clonfert
+}
+
+15089 = { # Uí Chennselaig - Inis Córthaid
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1190.1.1 = { # Philip de Prendergast's castle at Enniscorthy
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15090 = { # Loch Garman - Ros Mhic Thriúin
+	holding = none
+	# The Cistercian abbeys of Dunbrody and Tintern
+	1207.1.1 = { # William Marshal founds New Ross
+		holding = city_holding
+	}
+}
+
+15091 = { # Uí Dróna - Ceatharlach
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1181.1.1 = { # Hugh de Lacy's castle at Carlow
+		culture = english
+		holding = castle_holding
+	}
+	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15092 = { # Uí Dróna - Tulach
+	holding = none
+	1192.1.1 = { # Theobald Walter's manor of Tullow
+		holding = castle_holding
+	}
+}
+
+15093 = { # Uí Dróna - Leithghlinn
+	holding = church_holding
+	# Saint Laisrén's monastery, the see of Leighlin
+}
+
+15094 = { # Cill Dara - Nás
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1176.1.1 = { # Strongbow grants Naas to Maurice FitzGerald
+		culture = english
+		holding = castle_holding
+	}
+	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15095 = { # Uí Failge - Ráth Iomgháin
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1193.1.1 = { # Gerald FitzMaurice, lord of Offaly
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15096 = { # Uí Failge - Léighe
+	holding = none
+	1260.1.1 = { # Maurice FitzGerald's castle at Lea
+		holding = castle_holding
+	}
+}
+
+15097 = { # Loígis - Áth Í
+	holding = none
+	1200.1.1 = { # The castle of Woodstock at Athy
+		holding = castle_holding
+	}
+}
+
+15098 = { # Osraige - Gabhrán
+	holding = none
+	1192.1.1 = { # Theobald Walter's manor of Gowran
+		holding = castle_holding
+	}
+}
+
+15099 = { # Achadh Bó - Ráth Domhnaigh
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1200.1.1 = { # The cantred of Aghaboe is settled from Kilkenny
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15100 = { # Desceart Osraige - Baile Mhic Andáin
+	holding = none
+	1160.1.1 = { # Domnall Mac Giolla Phádraig founds the abbey of Jerpoint
+		holding = church_holding
+	}
+}
+
+15101 = { # Cualu - Gleann Dá Locha
+	holding = church_holding
+	# Saint Cóemgen's monastery of Glendalough
+}
+
+15102 = { # Dál gCais - Tuaim Gréine
+	holding = church_holding
+	# Saint Crónán's monastery of Tuaim Gréine
+}
+
+15103 = { # Dál gCais - Cuinche
+	holding = none
+	1280.1.1 = { # Thomas de Clare's castle at Quin
+		holding = castle_holding
+	}
+}
+
+15104 = { # Inis - Bun Raite
+	holding = none
+	1250.1.1 = { # Robert de Muscegros builds the first castle at Bunratty
+		holding = castle_holding
+	}
+}
+
+15105 = { # Corco Mruad - Corca Modhruadh
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	# Cill Fhionnúrach, the see of Corco Mruad from 1152
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15106 = { # Corco Mruad - Boireann
+	holding = none
+	1152.3.1 = { # Synod of Kells: the see of Kilfenora
+		holding = church_holding
+	}
+	# Domnall Mór Ua Briain founds the Cistercian abbey of Corcomroe about 1194
+}
+
+15107 = { # Corco Baiscinn - Cill Rois
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	# Saint Senán's monastery on Inis Cathaig
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15108 = { # Corco Baiscinn - Cill Chaoi
+	holding = none
+}
+
+15109 = { # Luimneach - Caisleán Uí Chonaing
+	holding = none
+	1201.1.1 = { # William de Burgh's castle at Castleconnell
+		holding = castle_holding
+	}
+}
+
+15110 = { # Uí Chonaill Gabra - Seanaid
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1209.1.1 = { # The Geraldine castle of Shanid
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15111 = { # Uí Chonaill Gabra - Eas Géitine
+	holding = none
+	1199.1.1 = { # William de Burgh's castle at Askeaton
+		holding = castle_holding
+	}
+}
+
+15112 = { # Uí Chonaill Gabra - Gleann Corbraighe
+	holding = none
+}
+
+15113 = { # Uí Chairpre Áebda - Áth Dara
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1200.1.1 = { # The Anglo-Norman castle of Adare
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15114 = { # Uí Chairpre Áebda - Cromadh
+	holding = none
+	1148.1.1 = { # Toirdelbach Ua Briain founds the Cistercian abbey of Monasteranenagh
+		holding = church_holding
+	}
+}
+
+15115 = { # Eóganacht Áine - Áine
+	holding = none
+	# Cnoc Áine, the hill of the goddess Áine, and Loch Gair
+	1215.1.1 = { # Geoffrey de Marisco founds the Hospitaller house at Áine
+		holding = church_holding
+	}
+}
+
+15116 = { # Eóganacht Áine - Imleach Iubhair
+	holding = church_holding
+	# Saint Ailbe's monastery, the see of Imlech Ibair
+}
+
+15117 = { # Múscraige Tíre - Tír Dá Ghlas
+	holding = church_holding
+	# Colum mac Crimthainn's monastery of Tír Dá Glas
+}
+
+15118 = { # Múscraige Tíre - Ara
+	holding = none
+}
+
+15119 = { # Éile - Ros Cré
+	holding = church_holding
+	# Saint Crónán's monastery of Ros Cré and the Céli Dé island of Loch Cré
+}
+
+15120 = { # Éile Uí Fhógartaigh - Teampall Mór
+	holding = none
+}
+
+15121 = { # Eóganacht Chaisil - Cathair
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15122 = { # Eóganacht Chaisil - Caiseal
+	holding = tribal_holding
+	# The rock of Cashel, seat of the Eóganacht kings of Munster
+	1101.1.1 = { # Muirchertach Ua Briain grants the Rock of Cashel to the church
+		holding = church_holding
+	}
+}
+
+15123 = { # Uí Fathaid - Fiodh Ard
+	holding = none
+}
+
+15124 = { # Ealla - Ealla
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15125 = { # Fir Maige - Fir Maige
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
+		rite = sarum_rite
+	}
+	1200.1.1 = { # The de Barry castle of Buttevant
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15126 = { # Fir Maige - Clann Ghiobúin
+	holding = none
+}
+
+15127 = { # Ciarraige Luachra - Oireacht Uí Chonchobhair
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15128 = { # Ciarraige Luachra - Lios Tuathail
+	holding = none
+}
+
+15129 = { # Eóganacht Locha Léin - Sliabh Luachra
+	holding = none
+}
+
+15130 = { # Ciarraige Luachra - Ard Fhearta
+	holding = church_holding
+	# Saint Brendan's monastery, the see of Ardfert
+}
+
+15131 = { # Trá Lí - Oileán Ciarraí
+	holding = none
+	1226.1.1 = { # Geoffrey de Marisco's castle of the Island
+		holding = castle_holding
+	}
+}
+
+15132 = { # Trá Lí - An Daingean
+	holding = none
+	# Cill Mhaoilchéadair and the oratory of Gallarus
+}
+
+15133 = { # Eóganacht Locha Léin - Loch Léin
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	# The island monastery of Inis Faithlinn in Loch Léin
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15134 = { # Eóganacht Locha Léin - Cill Orglan
+	holding = none
+	1215.1.1 = { # Maurice FitzGerald's castle at Killorglin
+		holding = castle_holding
+	}
+}
+
+15135 = { # Uíbh Ráthach - Uíbh Ráthach
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	# The monastery on Sceilg Mhichíl
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15136 = { # Uíbh Ráthach - Neidín
+	holding = none
+}
+
+15137 = { # Béarra - Béarra
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15138 = { # Béarra - Beanntraí
+	holding = none
+}
+
+15139 = { # Cairbre - Cill Briotáin
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+}
+
+15140 = { # Cairbre - Ros Ailithir
+	holding = church_holding
+	# Saint Fachtna's monastery, the see of Ros Ailithir
+}
+
+15141 = { # Ceann Sáile - Inis Eonáin
+	holding = none
+}
+
+15142 = { # Corcaigh - Maigh Chromtha
+	holding = none
+}
+
+15143 = { # Uí Liatháin - Caisleán Ó Liatháin
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1183.1.1 = { # Philip de Barry receives Uí Liatháin
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15144 = { # Uí Liatháin - Cluain
+	holding = church_holding
+	# Saint Colmán's monastery, the see of Cluain Uama
+}
+
+15145 = { # Uí Liatháin - Eochaill
+	holding = none
+	1209.1.1 = { # King John's charter to Youghal
+		holding = city_holding
+	}
+}
+
+15146 = { # Ealla - Mala
+	holding = none
+}
+
+15147 = { # Port Láirge - Cill Mhic Thomáisín
+	holding = none
+}
+
+15148 = { # Na Déise - Dún Garbhán
+	culture = irish
+	rite = insular_celtic
+	holding = tribal_holding
+	1172.1.1 = { # Synod of Cashel
+		rite = roman_rite
+	}
+	1185.1.1 = { # Prince John's castle at Dungarvan
+		culture = english
+		holding = castle_holding
+		rite = sarum_rite
+	}
+	1186.3.1 = { # John Cumin's council of Dublin brings in English usages
+		rite = sarum_rite
+	}
+	1315.1.1 = { # hiberno_norman culture forms
+		culture = hiberno_norman
+	}
+}
+
+15149 = { # Na Déise - Lios Mór
+	holding = church_holding
+	# Saint Mo Chutu's monastery, the see of Lios Mór
+}
+
+15150 = { # Doire - Clann Diarmada
+	holding = none
+}
+
+15151 = { # Bréifne Uí Raghallaigh - Druim Leathan
+	holding = church_holding
+	# Saint Máedóc's monastery of Druim Leathan; a priory of Arrouaisian canons from about 1143, the richest house in Bréifne
+}
+
+15152 = { # Leth Cathail - Inis Cumhscraigh
+	holding = church_holding
+	# The monastery of Inis Cumhscraigh on the Quoile, beside Dún Dá Lethglas, seat of the bishops of Down
+	# John de Courcy refounded it as the Cistercian abbey of Inch in 1180
+}
+
+15153 = { # Dál gCais - Cill Dalua
+	holding = church_holding
+	# Saint Mo Lua's monastery; seat of the bishops of Killaloe from the synod of Ráith Bressail in 1111
+}
+
+15154 = { # Éile Uí Fhógartaigh - Mainistir na Croiche
+	holding = none
+	1180.1.1 = { # Domnall Mór Ua Briain founds the Cistercian abbey of the Holy Cross
+		holding = church_holding
+	}
+}
+
+15155 = { # Louth - Cairlinn
+	holding = none
+	1190.1.1 = { # Hugh de Lacy's castle above Carlingford Lough
+		holding = castle_holding
+	}
+}
+
+15156 = { # Coimbra - Aveiro
+	holding = none
+	# Mumadona Dias leaves her lands and salt pans in Alauario to Guimarães in 959
+	1250.1.1 = { # Aveiro grows into a vila of salt-makers and fishermen around the church of São Miguel
+		holding = city_holding
+	}
+}
+
+15157 = { # Terra de Santa Maria - Ovar
+	holding = none
+}
+
+15158 = { # Viseu - Lafões
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+	1128.6.24 = { # São Mamede: Afonso Henriques takes the County of Portugal from the Galician party of his mother
+		culture = portuguese
+	}
+}
+
+15159 = { # Chaves - Montalegre
+	holding = none
+	1273.6.9 = { # Afonso III's foral founds Montalegre as head of the Terras de Barroso
+		holding = castle_holding
+	}
+}
+
+15160 = { # Palencia - Monzón
+	holding = none
+	943.1.1 = { # Ramiro II makes Ansur Fernández count of Monzón
+		holding = castle_holding
+	}
+}
+
+15161 = { # Bureba - Briviesca
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	800.1.1 = { # castilian culture forms
+		culture = castilian
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+}
+
+15162 = { # Sangüesa - Sangüesa
+	culture = basque
+	rite = hispanic_rite
+	holding = castle_holding
+	1076.6.4 = { # Navarre adopts the Roman rite
+		rite = roman_rite
+	}
+}
+
+15163 = { # Ultrapuertos - Donibane Garazi
+	culture = basque
+	rite = hispanic_rite
+	holding = castle_holding
+	1076.6.4 = { # Navarre adopts the Roman rite
+		rite = roman_rite
+	}
+}
+
+15164 = { # Ultrapuertos - Amikuze
+	holding = none
+}
+
+15165 = { # Daroca - Calamocha
+	holding = none
+}
+
+15166 = { # Calatayud - Illueca
+	holding = none
+	1120.6.24 = { # Alfonso I takes Calatayud and the Aranda valley
+		holding = castle_holding
+	}
+}
+
+15167 = { # Osona - Lluçanès
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # catalan culture forms
+		culture = catalan
+	}
+	801.4.3 = { # Louis the Pious takes Barcelona
+		rite = carolingian_christianity
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+15169 = { # Yusseter: 6604 # Harcourt - Elbeuf
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15170 = { # Yusseter: 7787 # Rouen - Jumièges
+	holding = church_holding
+}
+
+15171 = { # Yusseter: 8528 # Beaumont-le-Roger - Beaumont-le-Roger
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	911.7.20 = { # Treaty of Saint-Clair-sur-Epte: Charles the Simple grants the lands of the lower Seine to Rollo
+		culture = norman
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+15172 = { # Yusseter: 8741 # Avesnes - Le Quesnoy
+	holding = none
+	1150.1.1 = { # Count Baldwin IV of Hainaut builds the castle of Le Quesnoy
+		holding = castle_holding
+	}
+}
+
+15173 = { # Yusseter: 8742 # Valenciennes - Bouchain
+	holding = none
+	1164.1.1 = { # The Tour d'Ostrevant, keep of the counts of Hainaut
+		holding = castle_holding
+	}
+}
+
+15174 = { # Yusseter: 8743 # Gistel - Aldenburg
+	holding = none
+	1084.1.1 = { # St Peter's abbey founded at the old castrum of Aldenburg
+		holding = church_holding
+	}
+}
+
+15175 = { # Yusseter: 8744 # Beveren - Hulst
+	holding = none
+	1180.1.1 = { # Hulst receives town rights
+		holding = city_holding
+	}
+}
+
+15176 = { # Yusseter: 8745 # Brussels - Gemblours
+	holding = none
+	946.9.20 = { # Otto I confirms the foundation of the abbey of Gemblours
+		holding = church_holding
+	}
+}
+
+15177 = { # Yusseter: 8746 # Ostfriesland - Norda
+	holding = none
+	1255.1.1 = { # Norda first recorded as a town
+		holding = city_holding
+	}
+}
+
+15178 = { # Yusseter: 8747 # Ostfriesland - Aurich
+	holding = none
+	1250.1.1 = { # The church of St Lambert at Aurich
+		holding = church_holding
+	}
+}
+
+15179 = { # Yusseter: 8748 # Östringen - Esens
+	holding = none
+	1200.1.1 = { # The church of St Magnus at Esens
+		holding = church_holding
+	}
+}
+
+15180 = { # Yusseter: 8749 # Chiny - Montmédy
+	holding = none
+	1221.1.1 = { # The counts of Chiny build the castle of Montmédy
+		holding = castle_holding
+	}
+}
+
+15181 = { # Yusseter: 8750 # Vaucouleurs - Commercy
+	holding = none
+	823.1.1 = { # Relics of St Pantaleon placed in the chapel of the castle of Commercy
+		holding = castle_holding
+	}
+}
+
+15182 = { # Yusseter: 8751 # Bar - Ligny
+	holding = none
+	1240.1.1 = { # Count Henry II of Bar gives Ligny as the dowry of his daughter Marguerite
+		holding = castle_holding
+	}
+}
+
+15183 = { # Yusseter: 8752 # Bar - Stenay
+	holding = none
+	1065.1.1 = { # Duke Godfrey the Bearded gives the basilica of St Dagobert to Gorze
+		holding = church_holding
+	}
+}
+
+15184 = { # Yusseter: 8753 # Briey - Mousson
+	holding = none
+	948.1.1 = { # The castle of Mousson first recorded
+		holding = castle_holding
+	}
+}
+
+15185 = { # Yusseter: 8754 # Chaumontois - Saint-Nicolas-de-Port
+	holding = none
+	1101.1.1 = { # The first pilgrimage church of St Nicholas consecrated at Port
+		holding = church_holding
+	}
+}
+
+15186 = { # Yusseter: 8755 # Vaudémont - Mirecourt
+	holding = none
+	1234.1.1 = { # The bishop of Toul grants Mirecourt a charter of franchise
+		holding = city_holding
+	}
+}
+
+15187 = { # Yusseter: 8756 # Trier - Echternach; Willibrord's abbey
+	holding = church_holding
+}
+
+15188 = { # Yusseter: 8757 # Maurienne - Saint-Jean-de-Maurienne
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
+}
+
+15189 = { # Yusseter: 8758 # Savoie - Montmélian
+	holding = none
+	1030.1.1 = { # A local officer at Montmélian first recorded
+		holding = castle_holding
+	}
+}
+
+15190 = { # Yusseter: 8759 # Faucigny - Faucigny
+	holding = none
+	1000.1.1 = { # The lords of Faucigny build their castle above the Arve
+		holding = castle_holding
+	}
+}
+
+15191 = { # Yusseter: 8760 # Genève - Rumilly
+	holding = none
+	1200.1.1 = { # A stronghold of the counts of Geneva facing Savoy
+		holding = castle_holding
+	}
+}
+
+15192 = { # Yusseter: 8761 # Vesoul - Lure
+	holding = church_holding
+}
+
+15193 = { # Yusseter: 8762 # Salins - Arbois
+	holding = none
+	1282.1.1 = { # Count Otto IV of Burgundy grants Arbois its franchises
+		holding = city_holding
+	}
+}
+
+15194 = { # Yusseter: 8763 # Bresse - Bâgé
+	holding = none
+	850.1.1 = { # Seat of the sires de Bâgé, lords of Bresse
+		holding = castle_holding
+	}
+}
+
+15195 = { # Yusseter: 8764 # Coligny - Coligny
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
+}
+
+15196 = { # Yusseter: 8765 # Coligny - Pont-d'Ain
+	holding = none
+	1289.1.1 = { # The castle of Pont-d'Ain held by the lords of Coligny
+		holding = castle_holding
+	}
+}
+
+15197 = { # Yusseter: 8766 # Dombes - Trévoux
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	798.1.1 = { # Leidrad restores the worship of Lyon
+		rite = lyon_rite
+	}
+}
+
+15198 = { # Yusseter: 8767 # La Tour-du-Pin - La Tour-du-Pin
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = {
+		rite = roman_rite
+	}
+}
+
+15199 = { # Yusseter: 8768 # Sassenage - Saint-Marcellin
+	holding = none
+	1119.1.1 = { # Pope Calixtus II consecrates the church of Saint-Marcellin
+		holding = church_holding
+	}
+}
+
+15200 = { # Yusseter: 8769 # Graisivaudan - Vizille
+	holding = none
+	991.1.1 = { # The castle of Vizille first recorded in an act of Bishop Humbert of Grenoble
+		holding = castle_holding
+	}
+}
+
+15201 = { # Yusseter: 8770 # Diois - Crest
+	holding = none
+	1189.3.1 = { # Adémar of Poitiers grants a charter of liberties to the lord of Crest
+		holding = castle_holding
+	}
+}
+
+15202 = { # Yusseter: 8771 # Viviers - Privas
+	holding = none
+	1281.1.1 = { # Aymar III of Poitiers grants Privas a charter of liberties and franchises
+		holding = city_holding
+	}
+}
+
+15203 = { # Yusseter: 8772 # Uzès - Saint-Saturnin-du-Port
+	holding = none
+	948.1.1 = { # Saint-Saturnin becomes a priory of Cluny
+		holding = church_holding
+	}
+}
+
+15204 = { # Yusseter: 8773 # Arles - Les Baux; Hugues takes the name des Baux about 1030
+	culture = occitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1000.1.1 = { # provencal culture forms
+		culture = provencal
+	}
+	1054.7.16 = {
+		rite = roman_rite
+	}
+}
+
+15205 = { # Yusseter: 8774 # Arles - Salon
+	holding = none
+	900.1.1 = { # The Empéri, castle of the archbishops of Arles
+		holding = castle_holding
+	}
+}
+
+15206 = { # Yusseter: 8775 # Venaissin - Carpentras
+	holding = church_holding
+}
+
+15207 = { # Yusseter: 8776 # Forcalquier - Sisteron
+	holding = church_holding
+}
+
+15208 = { # Yusseter: 8777 # Baronnies - Mévouillon
+	holding = none
+	1200.1.1 = { # The barons of Mévouillon
+		holding = castle_holding
+	}
+}
+
+15209 = { # Yusseter: 8778 # Monaco - Ventimiglia
+	holding = none
+	950.1.1 = { # The counts of Ventimiglia
+		holding = castle_holding
+	}
+}
+
+15210 = { # Yusseter: 8779 # Savona - Albenga
+	holding = church_holding
+}
+
+15211 = { # Yusseter: 8780 # Modena - Nonantola; abbey founded in 752
+	holding = church_holding
+}
+
+15212 = { # Yusseter: 8781 # Volterra - San Gimignano
+	holding = none
+	1199.1.1 = { # San Gimignano becomes a free commune
+		holding = city_holding
+	}
+}
+
+15213 = { # Yusseter: 8782 # Pisa - Elba
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15214 = { # Yusseter: 8783 # Casentino - Modigliana; castle of the Guidi counts
+	holding = castle_holding
+}
+
+15215 = { # Yusseter: 8784 # Ancona - Senigallia
+	holding = church_holding
+}
+
+15216 = { # Yusseter: 8785 # Valtellina - Morbegno
+	holding = none
+	1300.1.1 = {
+		holding = city_holding
+	}
+}
+
+15217 = { # Yusseter: 8786 # Valtellina - Teglio
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15218 = { # Yusseter: 8787 # Bormio - Müstair
+	holding = none
+	775.1.1 = { # The abbey of St John is founded
+		holding = church_holding
+	}
+}
+
+15219 = { # Yusseter: 8788 # Segni - Palestrina
+	holding = church_holding
+	1050.1.1 = { # A fief of the Colonna
+		holding = castle_holding
+	}
+}
+
+15220 = { # Yusseter: 8789 # Sabina - Subiaco; abbey of St Benedict
+	holding = church_holding
+}
+
+15221 = { # Yusseter: 8790 # Tusculum - Sermoneta
+	holding = none
+	1222.1.1 = { # Sermoneta first recorded, in a bull of Honorius III
+		holding = castle_holding
+	}
+}
+
+15222 = { # Yusseter: 8791 # Spoleto - Narni
+	holding = church_holding
+	1143.1.1 = { # Narni a free commune
+		holding = city_holding
+	}
+}
+
+15223 = { # Yusseter: 8792 # Trapani - Mazara
+	holding = city_holding
+}
+
+15224 = { # Yusseter: 8793 # Palermo - Calatafimi
+	holding = castle_holding
+}
+
+15225 = { # Yusseter: 8794 # Messina - Castroreale
+	holding = none
+	1324.1.1 = { # Frederick III builds the castle
+		holding = castle_holding
+	}
+}
+
+15226 = { # Yusseter: 8795 # Messina - Patti
+	holding = none
+	1094.1.1 = { # Roger I founds the abbey of San Salvatore
+		holding = church_holding
+	}
+}
+
+15227 = { # Yusseter: 8796 # Siracusa - Noto
+	holding = city_holding
+}
+
+15228 = { # Yusseter: 8797 # Siracusa - Modica
+	holding = castle_holding
+}
+
+15229 = { # Yusseter: 8798 # Palermo - Termini
+	holding = city_holding
+}
+
+15230 = { # Yusseter: 8799 # Butera - Terranova
+	holding = none
+	1233.1.1 = { # Frederick II founds Terranova
+		holding = city_holding
+	}
+}
+
+15231 = { # Yusseter: 8800 # Molise - Trivento
+	holding = church_holding
+}
+
+15232 = { # Yusseter: 8801 # Marsico - Tricarico
+	holding = none
+	968.1.1 = {
+		holding = church_holding
+	}
+}
+
+15233 = { # Yusseter: 8802 # Marsico - Tursi
+	holding = castle_holding
+}
+
+15234 = { # Yusseter: 8803 # Salerno - Agropoli
+	holding = castle_holding
+}
+
+15235 = { # Yusseter: 8804 # Melfi - Buccino
+	holding = castle_holding
+}
+
+15236 = { # Yusseter: 8805 # Lecce - Ugento
+	holding = church_holding
+}
+
+15237 = { # Yusseter: 8806 # Everstein - Corvey
+	holding = none
+	822.1.1 = { # The abbey of Corvey is founded
+		holding = church_holding
+	}
+}
+
+15238 = { # Yusseter: 8807 # Halberstadt - Quedlinburg
+	holding = none
+	936.1.1 = { # Queen Matilda founds the abbey of Quedlinburg
+		holding = church_holding
+	}
+}
+
+15239 = { # Yusseter: 8808 # Hamburg - Bergedorf
 	holding = none
 	1200.1.1 = {
 		holding = castle_holding
 	}
+}
+
+15240 = { # Yusseter: 8809 # Schwerin - Wittenburg
+	holding = none
+	1194.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15241 = { # Yusseter: 8810 # Münster - Beckum
+	holding = none
+	1224.1.1 = { # Beckum receives town rights
+		holding = city_holding
+	}
+}
+
+15242 = { # Yusseter: 8811 # Arnsberg - Werl
+	holding = castle_holding
+}
+
+15243 = { # Yusseter: 8812 # Lübeck - Segeberg
+	holding = none
+	1134.1.1 = { # Lothair III builds the Siegesburg
+		holding = castle_holding
+	}
+}
+
+15244 = { # Yusseter: 8813 # Wolin - Kamień
+	holding = none
+	1176.1.1 = { # The see of Pomerania moves to Kamień
+		holding = church_holding
+	}
+}
+
+15245 = { # Yusseter: 8814 # Wolin - Trzebiatów
+	holding = none
+	1180.1.1 = { # The Premonstratensian abbey of Białobok
+		holding = church_holding
+	}
+}
+
+15246 = { # Yusseter: 8815 # Kołobrzeg - Koszalin
+	holding = none
+	1266.1.1 = { # Koszalin receives town rights
+		holding = city_holding
+	}
+}
+
+15247 = { # Yusseter: 8816 # Sławno - Polanów
+	holding = none
+	1313.1.1 = {
+		holding = city_holding
+	}
+}
+
+15248 = { # Yusseter: 8817 # Sławno - Darłowo
+	holding = none
+	1312.1.1 = { # Darłowo receives town rights
+		holding = city_holding
+	}
+}
+
+15249 = { # Yusseter: 8818 # Słupsk - Słupsk
+	culture = pommeranian
+	rite = slavic_triglav
+	holding = tribal_holding
+	1122.1.1 = {
+		holding = castle_holding
+	}
+	1124.1.1 = {
+		holding = castle_holding
+	}
+	1175.1.1 = {
+		rite = roman_rite
+	}
+	1250.1.1 = {
+		culture = kashubian
+	}
+}
+
+15250 = { # Yusseter: 8819 # Białogarda - Lębork
+	holding = none
+	1310.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15251 = { # Yusseter: 8820 # Nowogard - Nowogard
+	culture = pommeranian
+	rite = slavic_triglav
+	holding = tribal_holding
+	1124.1.1 = {
+		holding = castle_holding
+	}
+	1128.1.1 = {
+		rite = roman_rite
+	}
+	1250.1.1 = {
+		culture = german_pommeranian
+	}
+}
+
+15252 = { # Yusseter: 8821 # Pyrzyce - Stargard
+	holding = none
+	1173.1.1 = { # The Cistercian abbey of Kołbacz is founded
+		holding = church_holding
+	}
+}
+
+15253 = { # Yusseter: 8822 # Nowogard - Świdwin
+	holding = none
+	1280.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15254 = { # Yusseter: 8823 # Stettin - Police
+	holding = none
+	1260.1.1 = { # Police receives town rights
+		holding = city_holding
+	}
+}
+
+15255 = { # Yusseter: 8824 # Cedynia - Myślibórz
+	holding = none
+	1270.1.1 = {
+		holding = city_holding
+	}
+}
+
+15256 = { # Yusseter: 8825 # Santok - Drezdenko
+	holding = none
+	1092.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15257 = { # Yusseter: 8826 # Tczew - Starogard
+	holding = none
+	1198.1.1 = { # Grzymisław grants Starogard to the Hospitallers
+		holding = castle_holding
+	}
+}
+
+15258 = { # Yusseter: 8827 # Świecie - Nowe
+	holding = none
+	1200.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15259 = { # Yusseter: 8828 # Czarne - Raciąż
+	holding = none
+	1200.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15260 = { # Yusseter: 8829 # Mecklenburg - Poel
+	holding = none
+	1210.1.1 = {
+		holding = church_holding
+	}
+}
+
+15261 = { # Yusseter: 8830 # Rostock - Warnemünde
+	holding = none
+	1323.1.1 = { # Rostock buys Warnemünde
+		holding = city_holding
+	}
+}
+
+15262 = { # Yusseter: 8831 # Rostock - Doberan
+	holding = none
+	1171.1.1 = { # The Cistercian abbey of Doberan is founded
+		holding = church_holding
+	}
+}
+
+15263 = { # Yusseter: 8832 # Stralsund - Barth
+	holding = none
+	1255.1.1 = { # Barth receives town rights
+		holding = city_holding
+	}
+}
+
+15264 = { # Yusseter: 8833 # Rügen - Bergen
+	holding = none
+	1193.1.1 = { # Jaromar I founds the Cistercian nunnery of Bergen
+		holding = church_holding
+	}
+}
+
+15265 = { # Yusseter: 8834 # Wolgast - Eldena
+	holding = none
+	1199.1.1 = { # Jaromar I founds the Cistercian abbey of Eldena
+		holding = church_holding
+	}
+}
+
+15266 = { # Yusseter: 8835 # Wolgast - Usedom
+	holding = none
+	1128.1.1 = { # Otto of Bamberg's diet at Usedom
+		holding = castle_holding
+	}
+}
+
+15267 = { # Yusseter: 8836 # Pomesania - Stumo
+	holding = none
+	1326.1.1 = { # The Teutonic Order builds Stuhm
+		holding = castle_holding
+	}
+}
+
+15268 = { # Yusseter: 8837 # Pogesania - Sirgune
+	holding = none
+	1248.1.1 = { # The Teutonic Order builds Christburg
+		holding = castle_holding
+	}
+}
+
+15269 = { # Yusseter: 8838 # Warmia - Strowangen
+	holding = none
+}
+
+15270 = { # Yusseter: 8839 # Sambia - Skanevis
+	holding = none
+	1268.1.1 = { # Seat of the bishops of Samland
+		holding = church_holding
+	}
+}
+
+15271 = { # Yusseter: 8840 # Chełmno - Łoza
+	holding = none
+	1251.1.1 = { # The cathedral of the Chełmno bishopric
+		holding = church_holding
+	}
+}
+
+15272 = { # Yusseter: 8841 # Galindia - Pissa
+	holding = none
+}
+
+15273 = { # Yusseter: 8842 # Medininkai - Kražiai
+	holding = none
+	1253.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15274 = { # Yusseter: 8843 # Medininkai - Laukuva
+	holding = none
+	1253.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15275 = { # Yusseter: 8844 # Ceklis - Karšuva
+	holding = none
+	1253.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15276 = { # Yusseter: 8845 # Raseiniai - Ariogala
+	holding = none
+	1253.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15277 = { # Yusseter: 8846 # Šiauliai - Sidabrė
+	holding = none
+	1200.1.1 = { # The Semigallian hillfort of Sidabrė
+		holding = castle_holding
+	}
+}
+
+15278 = { # Yusseter: 8847 # Mežotne - Mežotne
+	culture = zemgalian
+	rite = latvian_pagan
+	holding = tribal_holding
+	1220.1.1 = { # Crusaders take the Mežotne hillfort
+		holding = castle_holding
+	}
+	1290.1.1 = { # Semigallia submits to the Order
+		rite = roman_rite
+	}
+}
+
+15279 = { # Yusseter: 8848 # Sēlpils - Upmalė
+	holding = none
+	1250.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15280 = { # Yusseter: 8849 # Dainava - Punia
+	holding = none
+	1300.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15281 = { # Yusseter: 8850 # Sūduva - Kirsna
+	holding = none
+}
+
+15282 = { # Yusseter: 8851 # Kimenava - Kimenava
+	holding = none
+}
+
+15283 = { # Yusseter: 8852 # Sūduva - Merūniškiai
+	holding = none
+}
+
+15284 = { # Yusseter: 8853 # Bandava - Aizpute
+	holding = none
+	1249.1.1 = { # The Order builds Hasenpoth
+		holding = castle_holding
+	}
+}
+
+15285 = { # Yusseter: 8854 # Grobin - Durbe
+	holding = none
+	1263.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15286 = { # Yusseter: 8855 # Vanemane - Talsi
+	holding = none
+	1250.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15287 = { # Yusseter: 8856 # Rävala - Keila
+	holding = none
+	1280.1.1 = {
+		holding = church_holding
+	}
+}
+
+15288 = { # Yusseter: 8857 # Järva - Paide
+	holding = none
+	1265.1.1 = { # The Order builds Weissenstein
+		holding = castle_holding
+	}
+}
+
+15289 = { # Yusseter: 8858 # Järva - Nurmekund
+	holding = none
+}
+
+15290 = { # Yusseter: 8859 # Narva - Vasknarva
+	holding = none
+}
+
+15291 = { # Yusseter: 8860 # Tartu - Kirumpää
+	holding = none
+	1322.1.1 = { # The bishop of Dorpat builds Kirumpää
+		holding = castle_holding
+	}
+}
+
+15292 = { # Yusseter: 8861 # Alūksne - Gaujiena
+	holding = none
+	1238.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15293 = { # Yusseter: 8862 # Tartu - Vaiga
+	holding = none
+}
+
+15294 = { # Yusseter: 8863 # Tartu - Otepää
+	holding = none
+	1224.1.1 = { # The bishop of Dorpat takes Odenpäh
+		holding = castle_holding
+	}
+}
+
+15295 = { # Yusseter: 8864 # München - Dachau
+	holding = none
+	1100.1.1 = { # The counts of Dachau
+		holding = castle_holding
+	}
+}
+
+15296 = { # Yusseter: 8865 # Andechs - Polling
+	holding = none
+	1010.1.1 = { # The Augustinian canons of Polling
+		holding = church_holding
+	}
+}
+
+15297 = { # Yusseter: 8866 # Ortenburg - Osterhofen
+	holding = none
+	1138.1.1 = {
+		holding = church_holding
+	}
+}
+
+15298 = { # Yusseter: 8867 # Ortenburg - Dingolfing
+	holding = none
+	1251.1.1 = { # Duke Otto II founds Dingolfing
+		holding = city_holding
+	}
+}
+
+15299 = { # Yusseter: 8868 # Geisenhausen - Ebersberg
+	holding = none
+	934.1.1 = { # The abbey of Ebersberg
+		holding = church_holding
+	}
+}
+
+15300 = { # Yusseter: 8869 # Eschenlohe - Aibling
+	holding = none
+	855.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15301 = { # Yusseter: 8870 # Kraiburg - Chiemsee
+	holding = church_holding # The abbeys of Herrenchiemsee and Frauenchiemsee
+}
+
+15302 = { # Yusseter: 8871 # Sulzbach - Kastl
+	holding = none
+	1103.1.1 = { # The abbey of Kastl
+		holding = church_holding
+	}
+}
+
+15303 = { # Yusseter: 8872 # Augsburg - Schwabegg
+	holding = none
+	1160.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15304 = { # Yusseter: 8873 # Kempten - Mindelheim
+	holding = none
+	1256.1.1 = {
+		holding = city_holding
+	}
+}
+
+15305 = { # Yusseter: 8874 # Schongau - Füssen
+	holding = church_holding # The abbey of St. Mang
+}
+
+15306 = { # Yusseter: 8875 # Kempten - Sonthofen
+	holding = none
+	1250.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15307 = { # Yusseter: 8876 # Schelklingen - Günzburg
+	holding = none
+	1065.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15308 = { # Yusseter: 8877 # Guise - Guise
+	culture = gallo_roman
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1200.1.1 = { # Picard emerges as a written language
+		culture = picard
+	}
+}
+
+15309 = { # Yusseter: 8878 # Reims - Sainte-Menehould
+	holding = none
+	1050.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15310 = { # Yusseter: 8879 # Brienne - Wassy
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15311 = { # Yusseter: 8880 # Brienne - Brienne
+	culture = frankish
+	rite = carolingian_christianity
+	holding = castle_holding
+	843.8.10 = { # The Treaty of Verdun: West Francia takes shape and Old French with it
+		culture = french
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+	1200.1.1 = { # Champenois emerges as a written language
+		culture = champenois
+	}
+}
+
+15312 = { # Yusseter: 8881 # Dijon - Auxonne
+	holding = none
+	1000.1.1 = { # The counts of Auxonne
+		holding = castle_holding
+	}
+	1229.1.1 = { # Auxonne receives its franchise
+		holding = city_holding
+	}
+}
+
+15313 = { # Yusseter: 8882 # Charolais - Charolles
+	culture = arpitan
+	rite = carolingian_christianity
+	holding = castle_holding
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+15314 = { # Yusseter: 8883 # Beaujeu - Villefranche-sur-Saône
+	holding = none
+	1140.1.1 = { # The lords of Beaujeu found Villefranche
+		holding = city_holding
+	}
+}
+
+15315 = { # Yusseter: 8884 # Nîmes - Beaucaire
+	holding = none
+	1000.1.1 = {
+		holding = castle_holding
+	}
+}
+
+15316 = { # Yusseter: 8885 # Nîmes - Aigues-Mortes
+	holding = church_holding # The abbey of Psalmody
+	1246.1.1 = { # Louis IX grants Aigues-Mortes its charter
+		holding = city_holding
+	}
+}
+
+15317 = { # Yusseter: 8886 # Abruzzo - Aquila
+	holding = none
+	1254.1.1 = { # Conrad IV's charter founds Aquila
+		holding = city_holding
+	}
+}
+
+15318 = { # Yusseter: 8887 # Lemos - Monforte de Lemos
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	800.1.1 = { # galician culture forms
+		culture = galician
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+}
+
+15319 = { # Yusseter: 8888 # Lemos - Sarria
+	holding = none
+	1200.1.1 = { # Alfonso IX founds Vilanova de Sarria
+		holding = castle_holding
+	}
+}
+
+15320 = { # Yusseter: 8889 # Santiago - Noia
+	holding = none
+	1168.1.1 = { # Fernando II founds the town as the port of Santiago
+		holding = city_holding
+	}
+}
+
+15321 = { # Yusseter: 8890 # Santiago - Pontevedra
+	holding = none
+	1169.1.1 = { # Fernando II grants Pontevedra its fuero
+		holding = city_holding
+	}
+}
+
+15322 = { # Yusseter: 8891 # Tude - Baiona
+	holding = none
+	1201.1.1 = { # Alfonso IX grants Baiona its charter
+		holding = city_holding
+	}
+}
+
+15323 = { # Yusseter: 8892 # Barcelos - Valença
+	holding = none
+	1217.1.1 = { # Afonso II grants a foral to Contrasta, later Valença
+		holding = castle_holding
+	}
+}
+
+15324 = { # Yusseter: 8893 # Mondoñedo - Viveiro
+	holding = none
+	1250.1.1 = {
+		holding = city_holding
+	}
+}
+
+15325 = { # Yusseter: 8894 # Mondoñedo - Ribadeo
+	holding = none
+	1182.1.1 = { # Ribadeo receives its fuero
+		holding = city_holding
+	}
+}
+
+15326 = { # Yusseter: 8895 # Ourense - Allariz
+	holding = none
+	1100.1.1 = {
+		holding = castle_holding
+	}
+	1153.1.1 = { # Alfonso VII grants Allariz its fuero
+		holding = city_holding
+	}
+}
+
+15327 = { # Yusseter: 8896 # Braga - Braga
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	868.1.1 = { # Vímara Peres takes Portucale and the land as far as Braga is resettled
+		culture = galician
+		rite = hispanic_rite
+	}
+	1080.1.1 = { # The Roman liturgy comes to Braga, which forms a use of its own
+		rite = braga_rite
+	}
+	1112.1.1 = { # Countess Teresa grants the couto of Braga to Archbishop Maurício Burdino
+		holding = church_holding
+	}
+	1128.6.24 = { # São Mamede: Afonso Henriques takes the County of Portugal from the Galician party of his mother
+		culture = portuguese
+	}
+}
+
+15328 = { # Yusseter: 8897 # Barcelos - Barcelos
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	868.1.1 = { # Vímara Peres takes Portucale and the land as far as Braga is resettled
+		culture = galician
+		rite = hispanic_rite
+	}
+	1080.1.1 = { # The Roman liturgy comes to Braga, which forms a use of its own
+		rite = braga_rite
+	}
+	1128.6.24 = { # São Mamede: Afonso Henriques takes the County of Portugal from the Galician party of his mother
+		culture = portuguese
+	}
+}
+
+15329 = { # Yusseter: 8898 # Chaves - Chaves
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	800.1.1 = { # galician culture forms
+		culture = galician
+	}
+	1080.1.1 = { # The Roman liturgy comes to Braga, which forms a use of its own
+		rite = braga_rite
+	}
+	1128.6.24 = { # São Mamede: Afonso Henriques takes the County of Portugal from the Galician party of his mother
+		culture = portuguese
+	}
+}
+
+15330 = { # Yusseter: 8899 # Gijón - Avilés
+	holding = none
+	1085.1.1 = { # Alfonso VI grants Avilés its fuero
+		holding = city_holding
+	}
+}
+
+15331 = { # Yusseter: 8900 # Asturias de Oviedo - Cangas de Onís
+	holding = church_holding
+}
+
+15332 = { # Yusseter: 8901 # Cea - Sahagún
+	holding = church_holding
+}
+
+15333 = { # Yusseter: 8902 # Bierzo - Villafranca del Bierzo
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	800.1.1 = { # asturleonese culture forms
+		culture = asturleonese
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+	1192.1.1 = { # Alfonso IX grants Villafranca its fuero
+		holding = city_holding
+	}
+}
+
+15334 = { # Yusseter: 8903 # Benavente - Sanabria
+	holding = none
+	1195.1.1 = { # Alfonso IX fortifies Sanabria against Portugal
+		holding = castle_holding
+	}
+}
+
+15335 = { # Yusseter: 8904 # Salamanca - Ledesma
+	holding = none
+	1161.1.1 = { # Fernando II walls Ledesma and grants it a fuero
+		holding = city_holding
+	}
+}
+
+15336 = { # Yusseter: 8905 # Olmedo - Arévalo
+	holding = none
+	1088.1.1 = { # Raymond of Burgundy resettles Arévalo for Alfonso VI
+		holding = castle_holding
+	}
+}
+
+15337 = { # Yusseter: 8906 # Medina del Campo - Madrigal
+	holding = none
+	1163.1.1 = { # Madrigal is first recorded as a villa
+		holding = city_holding
+	}
+}
+
+15338 = { # Yusseter: 8907 # Leiria - Leiria
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	936.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1135.1.1 = { # Afonso Henriques builds the castle of Leiria and settles the land
+		culture = portuguese
+		rite = roman_rite
+	}
+}
+
+15339 = { # Yusseter: 8908 # Leiria - Alcobaça
+	holding = none
+	1153.4.8 = { # Afonso Henriques gives Alcobaça to the Cistercians
+		holding = church_holding
+	}
+}
+
+15340 = { # Yusseter: 8909 # Setúbal - Palmela
+	holding = none
+	1147.1.1 = { # Afonso Henriques takes Palmela
+		holding = castle_holding
+	}
+}
+
+15341 = { # Yusseter: 8910 # Coimbra - Montemor-o-Velho
+	holding = castle_holding
+}
+
+15342 = { # Yusseter: 8911 # Lamego - Tarouca
+	holding = none
+	1140.1.1 = { # Cistercian monks settle at São João de Tarouca
+		holding = church_holding
+	}
+}
+
+15343 = { # Yusseter: 8912 # Castelo Branco - Covilhã
+	holding = none
+	1186.9.1 = { # Sancho I grants Covilhã its foral and walls the town
+		holding = castle_holding
+	}
+}
+
+15344 = { # Yusseter: 8913 # Riba-Côa - Castelo Rodrigo
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+	1128.6.24 = { # São Mamede: Afonso Henriques takes the County of Portugal from the Galician party of his mother
+		culture = portuguese
+	}
+}
+
+15345 = { # Yusseter: 8914 # Riba-Côa - Sabugal
+	holding = none
+	1200.1.1 = { # The Leonese settle Sabugal on the Côa
+		holding = castle_holding
+	}
+}
+
+15346 = { # Yusseter: 8915 # Évora - Évora
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	936.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1165.10.1 = { # Geraldo Sem Pavor takes Évora for Afonso Henriques
+		culture = portuguese
+		rite = roman_rite
+	}
+}
+
+15347 = { # Yusseter: 8916 # Portalegre - Marvão
+	holding = none
+	876.1.1 = { # Ibn Marwan fortifies the crag of Marvão
+		holding = castle_holding
+	}
+}
+
+15348 = { # Yusseter: 8917 # Faro - Castro Marim
+	holding = castle_holding
+}
+
+15349 = { # Yusseter: 8918 # Badajoz - Olivenza
+	holding = none
+	1230.1.1 = { # The Templars settle Olivenza after the conquest of Badajoz
+		holding = castle_holding
+	}
+}
+
+15350 = { # Yusseter: 8919 # Mérida - Montánchez
+	holding = castle_holding
+}
+
+15351 = { # Yusseter: 8920 # Medellín - Alange
+	holding = castle_holding
+}
+
+15352 = { # Yusseter: 8921 # Asturias de Santillana - Castro Urdiales
+	holding = none
+	1163.1.1 = { # Alfonso VIII grants Castro Urdiales its fuero
+		holding = city_holding
+	}
+}
+
+15353 = { # Yusseter: 8922 # Bureba - Oña
+	holding = none
+	1011.2.12 = { # Count Sancho García founds San Salvador de Oña
+		holding = church_holding
+	}
+}
+
+15354 = { # Yusseter: 8923 # Carrión - Carrión
+	holding = castle_holding
+}
+
+15355 = { # Yusseter: 8924 # Aranda - Peñafiel
+	holding = none
+	1013.1.1 = { # Count Sancho García takes Peñafiel
+		holding = castle_holding
+	}
+}
+
+15356 = { # Yusseter: 8925 # Segovia - Sepúlveda
+	holding = none
+	940.1.1 = { # Fernán González resettles Sepúlveda
+		holding = castle_holding
+	}
+}
+
+15357 = { # Yusseter: 8926 # Logroño - Calahorra
+	holding = city_holding
+}
+
+15358 = { # Yusseter: 8927 # Vizcaya - Bilbao
+	holding = castle_holding
+	1300.6.15 = { # Diego López V de Haro grants Bilbao its charter
+		holding = city_holding
+	}
+}
+
+15359 = { # Yusseter: 8928 # Estella - Laguardia
+	holding = none
+	908.1.1 = { # Sancho Garcés builds the castle of Laguardia
+		holding = castle_holding
+	}
+	1164.1.1 = { # Sancho VI grants Laguardia its fuero
+		holding = city_holding
+	}
+}
+
+15360 = { # Yusseter: 8929 # Estella - Viana
+	holding = none
+	1219.2.1 = { # Sancho VII re-founds Viana
+		holding = city_holding
+	}
+}
+
+15361 = { # Yusseter: 8930 # Logroño - Alfaro
+	holding = castle_holding
+}
+
+15362 = { # Yusseter: 8931 # Tudela - Corella
+	holding = none
+	1119.1.1 = { # Alfonso the Battler takes the Ribera of Tudela
+		holding = castle_holding
+	}
+}
+
+15363 = { # Yusseter: 8932 # Huesca - Monzón
+	holding = castle_holding
+}
+
+15364 = { # Yusseter: 8933 # Tarazona - Borja
+	holding = castle_holding
+}
+
+15365 = { # Yusseter: 8934 # Soria - Ágreda
+	holding = castle_holding
+}
+
+15366 = { # Yusseter: 8935 # Pallars Jussà - Tremp
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	798.1.1 = { # The Pyrenean counties come under Frankish rule
+		rite = carolingian_christianity
+	}
+	800.1.1 = { # catalan culture forms
+		culture = catalan
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+15367 = { # Yusseter: 8936 # Cardona - Manresa
+	holding = castle_holding
+}
+
+15368 = { # Yusseter: 8937 # Besalú - Ripoll
+	holding = none
+	880.1.1 = { # Wilfred the Hairy founds Santa Maria de Ripoll
+		holding = church_holding
+	}
+}
+
+15369 = { # Yusseter: 8938 # Rosselló - Arles
+	holding = none
+	820.1.1 = { # Santa Maria d'Arles
+		holding = church_holding
+	}
+}
+
+15370 = { # Yusseter: 8939 # Lleida - Miravet
+	holding = castle_holding
+}
+
+15371 = { # Yusseter: 8940 # Tarragona - Montblanc
+	holding = none
+	1163.1.1 = { # Alfonso II founds the royal town of Montblanc
+		holding = city_holding
+	}
+}
+
+15372 = { # Yusseter: 8941 # Montcada - Terrassa
+	holding = castle_holding
+}
+
+15373 = { # Yusseter: 8942 # Pallars Sobirà - Aran
+	holding = castle_holding
+}
+
+15374 = { # Yusseter: 8943 # Guadalajara - Hita
+	holding = castle_holding
+}
+
+15375 = { # Yusseter: 8944 # Madrid - Buitrago
+	holding = castle_holding
+}
+
+15376 = { # Yusseter: 8945 # Cuenca - Cuenca
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	936.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1177.9.21 = { # Alfonso VIII takes Cuenca
+		culture = castilian
+		rite = roman_rite
+	}
+}
+
+15377 = { # Yusseter: 8946 # Consuegra - Consuegra
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	936.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1085.5.25 = { # The land of Toledo passes to Alfonso VI
+		culture = castilian
+		rite = roman_rite
+	}
+}
+
+15378 = { # Yusseter: 8947 # Cuenca - Huete
+	holding = castle_holding
+	1190.1.1 = { # Alfonso VIII grants Huete its fuero
+		holding = city_holding
+	}
+}
+
+15379 = { # Yusseter: 8948 # Almagro - Almagro
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	936.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1147.1.1 = { # Alfonso VII takes Calatrava and the land around it
+		culture = castilian
+		rite = roman_rite
+	}
+	1195.7.18 = { # After Alarcos the Almohads retake the Campo de Calatrava
+		culture = andalusian
+		rite = maliki
+	}
+	1212.7.16 = { # After Las Navas de Tolosa Alfonso VIII takes the land up to the Sierra Morena
+		culture = castilian
+		rite = roman_rite
+	}
+}
+
+15380 = { # Yusseter: 8949 # Almagro - Ciudad Real
+	holding = none
+	1255.2.20 = { # Alfonso X founds Villa Real
+		holding = city_holding
+	}
+}
+
+15381 = { # Yusseter: 8950 # Almagro - Calatrava la Nueva
+	holding = none
+	1217.1.1 = { # The Order of Calatrava moves to Calatrava la Nueva
+		holding = castle_holding
+	}
+}
+
+15382 = { # Yusseter: 8951 # Moya - Cañete
+	holding = castle_holding
+}
+
+15383 = { # Yusseter: 8952 # Écija - Écija
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	900.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1263.1.1 = { # After the Mudéjar revolt Écija is shared out among Castilian settlers
+		culture = castilian
+		rite = roman_rite
+	}
+}
+
+15384 = { # Yusseter: 8953 # Écija - Osuna
+	holding = castle_holding
+}
+
+15385 = { # Yusseter: 8954 # Algeciras - Ronda
+	holding = castle_holding
+}
+
+15386 = { # Yusseter: 8955 # Algeciras - Gibraltar
+	holding = none
+	1160.1.1 = { # Abd al-Mu'min builds Madinat al-Fath on Jabal Tariq
+		holding = castle_holding
+	}
+}
+
+15387 = { # Yusseter: 8956 # Antequera - Antequera
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	900.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+}
+
+15388 = { # Yusseter: 8957 # Antequera - Loja
+	holding = castle_holding
+}
+
+15389 = { # Yusseter: 8958 # Cabra - Priego
+	holding = castle_holding
+}
+
+15390 = { # Yusseter: 8959 # Baeza - Baeza
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	900.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1227.11.30 = { # On St Andrew's day Fernando III takes possession of Baeza; its Muslims leave the city
+		culture = castilian
+		rite = roman_rite
+	}
+}
+
+15391 = { # Yusseter: 8960 # Cazorla - Cazorla
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	900.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1231.1.1 = { # Cazorla falls to Castile and is granted to the Archbishop of Toledo
+		culture = castilian
+		rite = roman_rite
+	}
+}
+
+15392 = { # Yusseter: 8961 # Granada - Alcalá la Real
+	holding = castle_holding
+}
+
+15393 = { # Yusseter: 8962 # Morella - Morella
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	936.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1232.1.1 = { # Blasco de Alagón takes Morella and settles it with Aragonese and Catalans
+		culture = catalan
+		rite = roman_rite
+	}
+}
+
+15394 = { # Yusseter: 8963 # Morella - Peníscola
+	holding = castle_holding
+}
+
+15395 = { # Yusseter: 8964 # Morella - Culla
+	holding = castle_holding
+}
+
+15396 = { # Yusseter: 8965 # Xàtiva - Xàtiva
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	936.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1244.1.1 = { # Xàtiva surrenders to Jaume I
+		culture = catalan
+		rite = roman_rite
+	}
+}
+
+15397 = { # Yusseter: 8966 # Xàtiva - Ayora
+	holding = castle_holding
+}
+
+15398 = { # Yusseter: 8967 # Orihuela - Elx
+	holding = city_holding
+}
+
+15399 = { # Yusseter: 8968 # Orihuela - Orihuela
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	900.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1243.1.1 = { # Orihuela submits to the Infante Alfonso of Castile
+		culture = castilian
+		rite = roman_rite
+	}
+}
+
+15400 = { # Yusseter: 8969 # Chinchilla - Villena
+	holding = castle_holding
+}
+
+15401 = { # Yusseter: 8970 # Cieza - Cieza
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	900.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1281.1.1 = { # The Order of Santiago resettles Cieza
+		culture = castilian
+		rite = roman_rite
+	}
+}
+
+15402 = { # Yusseter: 8971 # Murcia - Mula
+	holding = castle_holding
+}
+
+15403 = { # Yusseter: 8972 # Menorca - Maó
+	holding = castle_holding
+}
+
+15404 = { # Yusseter: 8973 # Mallorca - Manacor
+	holding = castle_holding
+}
+
+15405 = { # Yusseter: 8974 # Lara - Lara
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	800.1.1 = { # castilian culture forms
+		culture = castilian
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+}
+
+15406 = { # Yusseter: 8975 # Castrojeriz - Castrojeriz
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	800.1.1 = { # castilian culture forms
+		culture = castilian
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+}
+
+15407 = { # Yusseter: 8976 # Castrojeriz - Villadiego
+	holding = castle_holding
+}
+
+15408 = { # Yusseter: 8977 # Luna - Luna
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	850.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1092.1.1 = { # Sancho Ramírez takes Luna
+		culture = navarro_aragonese
+		rite = roman_rite
+	}
+	1134.9.7 = { # Alfonso the Battler dies; Aragon and Navarre go their separate ways
+		culture = aragonese
+	}
+}
+
+15409 = { # Yusseter: 8978 # Alagón - Alagón
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	850.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1119.1.1 = { # Alfonso the Battler takes Alagón
+		culture = navarro_aragonese
+		rite = roman_rite
+	}
+	1134.9.7 = { # Alfonso the Battler dies; Aragon and Navarre go their separate ways
+		culture = aragonese
+	}
+}
+
+15410 = { # Yusseter: 8979 # Alagón - Urrea
+	holding = castle_holding
+}
+
+15411 = { # Yusseter: 8980 # Marchena - Marchena
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	900.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1240.1.1 = { # Marchena submits to Fernando III
+		culture = castilian
+		rite = roman_rite
+	}
+}
+
+15412 = { # Yusseter: 8981 # Sanlúcar - Sanlúcar
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	900.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1264.1.1 = { # Alfonso X takes Sanlúcar after the revolt of the Mudéjars
+		culture = castilian
+		rite = roman_rite
+	}
+}
+
+15413 = { # Yusseter: 8982 # Cádiz - Vejer
+	holding = castle_holding
+}
+
+15414 = { # Yusseter: 8983 # Montcada - Montcada
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # catalan culture forms
+		culture = catalan
+	}
+	801.4.3 = { # Louis the Pious takes Barcelona
+		rite = carolingian_christianity
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+15415 = { # Yusseter: 8984 # Peralada - Peralada
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	785.1.1 = { # Girona gives itself to the Franks
+		rite = carolingian_christianity
+	}
+	800.1.1 = { # catalan culture forms
+		culture = catalan
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+15416 = { # Yusseter: 8985 # Peralada - La Jonquera
+	holding = castle_holding
+}
+
+15417 = { # Yusseter: 8986 # Castellbò - Castellbò
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	798.1.1 = { # The Pyrenean counties come under Frankish rule
+		rite = carolingian_christianity
+	}
+	800.1.1 = { # catalan culture forms
+		culture = catalan
+	}
+	1054.7.16 = { # The Carolingian use is absorbed into the Roman rite after the schism
+		rite = roman_rite
+	}
+}
+
+15418 = { # Yusseter: 8987 # Castellbò - Andorra
+	holding = castle_holding
+}
+
+15419 = { # Yusseter: 8988 # Pallars Jussà - La Pobla de Segur
+	holding = castle_holding
+}
+
+15420 = { # Yusseter: 8989 # Prades - Falset
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	850.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1153.1.1 = { # The fall of Siurana ends Muslim rule in the mountains of Prades
+		culture = catalan
+		rite = roman_rite
+	}
+}
+
+15421 = { # Yusseter: 8990 # Jérica - Jérica
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	936.1.1 = { # Most of the people of the district have become Muslim
+		culture = andalusian
+		rite = maliki
+	}
+	1235.1.1 = { # Jérica submits to Jaume I
+		culture = aragonese
+		rite = roman_rite
+	}
+}
+
+15422 = { # Yusseter: 8991 # Castelló - Borriana
+	holding = city_holding
+}
+
+15423 = { # Yusseter: 8992 # Sousa - Sousa
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	868.1.1 = { # Vímara Peres takes Portucale for Alfonso III
+		culture = galician
+		rite = hispanic_rite
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+	1128.6.24 = { # São Mamede: Afonso Henriques takes the County of Portugal from the Galician party of his mother
+		culture = portuguese
+	}
+}
+
+15424 = { # Yusseter: 10540 # Beaumont-le-Roger - Pont-Audemer
+	holding = none
+	1030.1.1 = { # Humphrey de Vieilles holds Pont-Audemer
+		holding = castle_holding
+	}
+}
+
+15425 = { # Yusseter: 10599 # Sousa - Felgueiras
+	holding = church_holding
+}
+
+15426 = { # Yusseter: 10600 # Maia - Maia
+	culture = visigothic
+	rite = mozarabic_church
+	holding = castle_holding
+	800.1.1 = { # mozarab culture forms
+		culture = mozarab
+	}
+	868.1.1 = { # Vímara Peres takes Portucale for Alfonso III
+		culture = galician
+		rite = hispanic_rite
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+	1128.6.24 = { # São Mamede: Afonso Henriques takes the County of Portugal from the Galician party of his mother
+		culture = portuguese
+	}
+}
+
+15427 = { # Yusseter: 10601 # Maia - Vila do Conde
+	holding = city_holding
+}
+
+15428 = { # Yusseter: 10602 # Villalobos - Villalobos
+	culture = visigothic
+	rite = hispanic_rite
+	holding = castle_holding
+	800.1.1 = { # asturleonese culture forms
+		culture = asturleonese
+	}
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+}
+
+15429 = { # Yusseter: 10603 # Toro - Fuentesaúco
+	holding = castle_holding
+}
+
+15430 = { # Yusseter: 10604 # Ayala - Ayala
+	culture = basque
+	rite = hispanic_rite
+	holding = castle_holding
+	1080.1.1 = { # The Council of Burgos replaces the Hispanic liturgy with the Roman rite in León and Castile
+		rite = roman_rite
+	}
+}
+
+15431 = { # Yusseter: 10605 # Ayala - Llodio
+	holding = castle_holding
+}
+
+15432 = { # Yusseter: 10606 # Sanlúcar - Rota
+	holding = castle_holding
 }

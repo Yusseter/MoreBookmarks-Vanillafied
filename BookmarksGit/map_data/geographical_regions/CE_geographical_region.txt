@@ -51,10 +51,14 @@ ce_custom_wendia_germania = {
 		
 		#Mecklenburg-Pommerania
 		d_nordmark d_lausitz d_pommerania
+	
+		d_rugen # Yusseter
 	}
 	counties = {
 		c_soldin c_landsberg c_slupsk
 		
+	
+		c_slawno c_bialogarda # Yusseter
 	}
 	
 }
@@ -74,6 +78,8 @@ ce_northern_britain = {
 	}
 	counties = {
 		c_north_riding c_west_riding c_east_riding c_richmond c_cumberland c_annandale c_lanarkshire
+	
+		c_thirsk # Yusseter
 	}
 }
 
@@ -82,6 +88,8 @@ ce_custom_wendia = {
 		#Wendia
 		d_meissen d_lausitz d_ostmark d_nordmark d_anhalt
 		
+	
+		d_rugen # Yusseter
 	}
 }
 
@@ -96,10 +104,14 @@ ce_custom_pomoria = {
 	duchies = {
 		#Mecklenburg-Pommerania
 		d_nordmark
+	
+		d_rugen # Yusseter
 	}
 	counties = {
 		#Mecklenburg-Pommerania
 		c_stettin c_kolobrzeg c_cammin c_miastko c_slupsk
+	
+		c_pyrzyce c_nowogard c_szczecinek c_slawno c_bialogarda # Yusseter
 	}
 }
 
@@ -197,6 +209,8 @@ wendish_empire = {
 	# Wendish Lands
 	duchies = {
 		d_mazovia d_upper_silesia d_lower_silesia d_lesser_poland d_wielkopolska d_kuyavia d_livonia d_prussia d_masuria d_grodno d_pinsk d_minsk d_polotsk d_smolensk d_lithuanians d_courland d_latgalians d_samogitia d_pommerania d_nordmark d_pomerelia d_ostmark d_trakai d_sandomierz d_lubusz d_zemigalia d_lettigale
+	
+		d_rugen d_slawno d_sudovia # Yusseter
 	}
 }
 
@@ -212,6 +226,8 @@ custom_samos_empire = {
 custom_aquitaine_full = {
 	duchies = {
 		d_languedoc d_toulouse d_auvergne d_gascogne d_aquitaine d_poitou d_bourbon d_barcelona d_limousin
+	
+		d_girona # Yusseter
 	}
 }
 
@@ -336,6 +352,8 @@ ce_special_russian_culture_region = {
 		d_ryazan d_opolye d_nizhny_novgorod d_voronezh d_khopyor
 		# Zaporizhia
 		d_yedisan d_levedia d_crimea d_don_valley d_azov
+	
+		d_sudovia # Yusseter
 	}
 }
 
@@ -397,6 +415,8 @@ ce_southern_andalusia = {
 	duchies = {
 		# Southern Andalusia
 		d_sevilla d_cordoba d_granada
+	
+		d_niebla d_sidonia d_jaen # Yusseter
 	}
 }
 
@@ -404,6 +424,8 @@ ce_northern_iberia = {
 	duchies = {
 		# Christian Iberia
 		d_galicia d_porto d_leon d_asturias d_cantabria d_castilla d_viscaya d_navarra d_najera
+	
+		d_campos d_soria # Yusseter
 	}
 }
 
@@ -437,6 +459,8 @@ custom_transcaucasia = {
 ce_pengwern = {
 	counties = {
 		c_maldwyn c_sir_faesyfed c_shropshire c_hereford c_worcestershire
+	
+		c_powys_fadog c_oswestry # Yusseter
 	}	
 }
 

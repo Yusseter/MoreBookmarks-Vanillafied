@@ -875,7 +875,7 @@ c_merchant_starting_shaoul_coimbra = {
 }
 c_merchant_starting_anav_latium = {
 	color = { 100 100 100 }
-	capital = c_roma
+	capital = c_roma_urbs
 	
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -1682,7 +1682,7 @@ c_merchant_starting_ben_amittai_cagliari = {
 }
 c_merchant_starting_sismondi_rome = {
 	color = { 100 100 100 }
-	capital = c_roma
+	capital = c_roma_urbs
 	
 	ai_primary_priority = { add = @never_primary_score }
 }
@@ -7851,7 +7851,7 @@ c_merchant_starting_ben_amittai_cagliari_2 = {
 }
 c_merchant_starting_anav_rome = {
 	color = { 100 100 100 }
-	capital = c_roma
+	capital = c_roma_urbs
 	
 	ai_primary_priority = { add = @never_primary_score }
 }

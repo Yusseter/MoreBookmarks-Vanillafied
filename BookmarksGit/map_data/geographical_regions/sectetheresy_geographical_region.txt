@@ -905,5 +905,7 @@ rome_pentarch_region = {
 		d_visegrad d_somogy d_nyitra d_ungvar d_transcarpathia d_transylvania d_bihar d_temes d_bacs d_gyor d_syrmia
 		#Other 
 		d_krain d_istria d_krk
+	
+		d_sudovia # Yusseter
 	}
 }

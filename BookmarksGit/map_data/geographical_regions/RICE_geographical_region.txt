@@ -143,6 +143,9 @@ RICE_granada_region = {
 	duchies = {
 		d_granada
 	}
+	counties = { # Yusseter
+		c_cabra
+	}
 }
 
 # Hexi Corridor
@@ -396,9 +399,14 @@ RICE_west_mediterranean_shoreline = { # Then check is_coastal_county = yes
 		d_gabes d_tunis d_kroumerie d_bejaia d_alger d_tlemcen d_rif
 		
 		d_catalunya_nova d_provence
+	
+		d_niebla d_sidonia d_xativa d_girona # Yusseter
 	}
 
 	regions = { world_europe_south_italy }
+	counties = { # Yusseter
+		c_cabra
+	}
 }
 
 RICE_sardinia_christian_decision_opportunist_region = {
@@ -508,6 +516,8 @@ RICE_italy_volcanism_region = {
 	counties = {
 		c_napoli
 		c_messina
+	
+		c_catania # Yusseter
 	}
 }
 
@@ -529,7 +539,7 @@ RICE_hephthalite_influence_region = {
 
 RICE_west_mediterranean = {
 	duchies = {
-		d_languedoc d_provence d_beja d_algarve
+		d_languedoc d_provence  d_algarve
 	}
 	regions = {
 
@@ -542,6 +552,9 @@ RICE_west_mediterranean = {
 		custom_aragonese
 		custom_andalusian
 
+	}
+	counties = { # Yusseter
+		c_beja c_moura c_alcacer_do_sal c_elvas c_portalegre
 	}
 }
 

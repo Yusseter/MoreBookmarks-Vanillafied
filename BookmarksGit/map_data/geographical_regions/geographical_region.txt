@@ -171,6 +171,8 @@ world_europe_west_britannia = {
 		d_albany d_aberdeen d_the_isles d_galloway d_strathclyde d_western_isles d_hebrides d_lothian d_moray d_sutherland
 		#Ireland
 		d_meath d_ulster d_connacht d_leinster d_munster
+	
+		d_brega d_tir_chonaill d_ailech d_airgialla d_ui_maine d_maigh_eo d_breifne d_osraige d_urmumu d_desmumu # Yusseter
 	}
 }
 
@@ -190,6 +192,8 @@ world_europe_west_germania = {
 		d_bohemia d_moravia
 		# Pomerania
 		d_pommerania d_wagria d_lubusz d_nordmark d_lauenburg d_pomerelia d_ostmark
+	
+		d_rugen d_slawno # Yusseter
 	}
 }
 world_europe_west_francia = {
@@ -200,6 +204,8 @@ world_europe_west_francia = {
 world_europe_west_iberia = {
 	duchies = {
 		d_castilla d_segovia d_aragon d_zaragoza d_barcelona d_rosello d_catalunya_nova d_urgell d_teruel d_valencia d_mallorca d_navarra d_asturias d_leon d_zamora d_galicia d_limia d_porto d_tras_montes d_ribatejo d_beja d_algarve d_cordoba d_la_mancha d_murcia d_granada d_sevilla d_badajoz d_toledo d_molina d_coimbra d_cantabria d_viscaya d_najera
+	
+		d_campos d_soria d_girona d_xativa d_salamanca d_jaen d_niebla d_sidonia d_cuenca # Yusseter
 	}
 }
 world_europe_west = {
@@ -268,6 +274,8 @@ world_europe_east = {
 
 		#Wallachia
 		d_oltenia d_muntenia d_transylvanian_alps d_moldova d_bugeac d_bukovina
+	
+		d_sudovia # Yusseter
 	}
 }
 world_asia_minor = {
@@ -1032,6 +1040,8 @@ material_woods_yew = {
 		d_tyrol d_carinthia d_salzburg
 		#Caucasia
 		d_abkhazia d_tao-klarjeti d_georgia d_antioch
+	
+		d_slawno # Yusseter
 	}
 }
 
@@ -1446,6 +1456,8 @@ custom_eastern_baltic = {
 		#Lithuania
 		d_prussia d_trakai d_masuria d_grodno d_pinsk d_minsk d_polotsk d_smolensk d_toropec d_lithuanians d_courland d_zemigalia d_lettigale d_latgalians d_samogitia
 		# d_yatviags
+	
+		d_sudovia # Yusseter
 	}
 }
 custom_frisia = {
@@ -1507,11 +1519,16 @@ custom_wales = {
 custom_castilian = {
 	duchies = {
 		d_castilla d_segovia d_cantabria
+	
+		d_campos d_soria # Yusseter
 	}
 }
 custom_asturleonese = {
 	duchies = {
 		d_asturias d_leon d_zamora
+	}
+	counties = { # Yusseter
+		c_salamanca c_ciudad_rodrigo
 	}
 }
 custom_aragonese = {
@@ -1532,11 +1549,16 @@ custom_navarra = {
 custom_catalan = {
 	duchies = {
 		d_barcelona d_rosello d_catalunya_nova d_urgell d_teruel d_valencia d_mallorca
+	
+		d_girona d_xativa # Yusseter
 	}
 }
 custom_portuguese = {
 	duchies = {
 		d_galicia d_limia d_porto d_tras_montes d_ribatejo d_beja d_algarve d_coimbra
+	}
+	counties = { # Yusseter
+		c_riba_coa
 	}
 }
 custom_occitan = {
@@ -1547,6 +1569,8 @@ custom_occitan = {
 custom_andalusian = {
 	duchies = {
 		d_cordoba d_la_mancha d_murcia d_granada d_sevilla d_badajoz d_toledo d_molina
+	
+		d_jaen d_niebla d_sidonia d_cuenca # Yusseter
 	}
 }
 custom_swedish = {
@@ -1665,6 +1689,8 @@ custom_roman_hispania = {
 		d_sevilla
 		d_badajoz
 		d_toledo d_molina
+	
+		d_campos d_soria d_girona d_xativa d_salamanca d_jaen d_niebla d_sidonia d_cuenca # Yusseter
 	}
 	generate_prosperity_modifiers = yes
 }
@@ -1715,6 +1741,8 @@ custom_roman_hibernia = {
 		d_meath
 		d_leinster
 		d_munster
+	
+		d_tir_chonaill d_ailech d_airgialla d_ui_maine d_maigh_eo d_breifne d_brega d_osraige d_urmumu d_desmumu # Yusseter
 	}
 }
 custom_roman_full_borders = {
@@ -1932,6 +1960,8 @@ custom_slavia = {
 		d_lausitz d_meissen
 		#Carantania
 		d_istria d_krain d_steyermark
+	
+		d_rugen d_slawno # Yusseter
 	}
 }
 
@@ -1961,6 +1991,8 @@ custom_west_slavia = {
 		d_bohemia d_moravia
 		#Polabians
 		d_lausitz d_meissen
+	
+		d_rugen d_slawno # Yusseter
 	}
 }
 
@@ -2010,6 +2042,8 @@ custom_ireland = {
 	duchies = {
 		#Ireland
 		d_ulster d_connacht d_meath d_leinster d_munster
+	
+		d_tir_chonaill d_ailech d_airgialla d_ui_maine d_maigh_eo d_breifne d_brega d_osraige d_urmumu d_desmumu # Yusseter
 	}
 	generate_prosperity_modifiers = yes
 }
@@ -2122,6 +2156,8 @@ custom_carolingian_iberia = {
 		d_aragon d_zaragoza d_barcelona d_rosello d_catalunya_nova d_urgell d_teruel
 		#k_navarra
 		d_navarra d_viscaya d_najera
+	
+		d_girona # Yusseter
 	}
 }
 
@@ -2241,7 +2277,12 @@ custom_mauretania = {
 custom_carthago_nova = {
 	duchies = {
 		d_sevilla d_granada d_murcia d_valencia
+	
+		d_niebla d_sidonia d_xativa # Yusseter
 	}	
+	counties = { # Yusseter
+		c_cabra
+	}
 }
 
 custom_cumbria = {
@@ -2789,6 +2830,8 @@ special_mongol_empire_white_horde_region = {
 		d_osel_wiek
 		#Wallachia
 		d_oltenia d_muntenia d_transylvanian_alps d_moldova d_bugeac d_bukovina
+	
+		d_sudovia # Yusseter
 	}
 }
 
@@ -2911,6 +2954,8 @@ special_sicilian_culture_region = {
 special_cagot_region = {
 	duchies = {
 		d_navarra d_gascogne d_armagnac d_foix d_aragon d_zaragoza d_viscaya d_najera d_cantabria d_asturias d_castilla d_leon
+	
+		d_campos d_soria # Yusseter
 	}
 }
 
@@ -3061,6 +3106,8 @@ ghw_region_iberia = {
 		d_cordoba d_la_mancha d_granada d_sevilla d_toledo d_molina
 		#Valencia
 		d_valencia d_mallorca d_murcia
+	
+		d_salamanca d_campos d_soria d_girona d_jaen d_niebla d_sidonia d_cuenca d_xativa # Yusseter
 	}
 }
 ghw_region_celtic = {
@@ -3075,6 +3122,8 @@ ghw_region_celtic = {
 		d_albany d_aberdeen d_the_isles d_galloway d_strathclyde d_western_isles d_hebrides d_lothian d_moray d_sutherland
 		#Norway
 		d_northern_isles
+	
+		d_brega d_tir_chonaill d_ailech d_airgialla d_ui_maine d_maigh_eo d_breifne d_osraige d_urmumu d_desmumu # Yusseter
 	}
 }
 ghw_region_germanic = {
@@ -3099,6 +3148,8 @@ ghw_region_central_european = {
 		d_lesser_poland d_sandomierz d_wielkopolska d_mazovia d_upper_silesia d_lower_silesia d_kuyavia
 		#Pomerania
 		d_pommerania d_wagria d_lubusz d_nordmark d_lauenburg d_pomerelia d_ostmark
+	
+		d_rugen d_slawno # Yusseter
 	}
 }
 ghw_region_baltic = {
@@ -3109,6 +3160,8 @@ ghw_region_baltic = {
 		d_esthonia d_osel_wiek d_livonia
 		#Pomerania
 		d_pommerania d_wagria d_lubusz d_nordmark d_lauenburg d_pomerelia d_ostmark
+	
+		d_sudovia d_rugen d_slawno # Yusseter
 	}
 }
 ghw_region_arabia = {
@@ -3360,6 +3413,8 @@ ghw_region_britannia = {
 		d_albany d_aberdeen d_the_isles d_galloway d_strathclyde d_western_isles d_hebrides d_lothian d_moray d_sutherland
 		#Norway
 		d_northern_isles
+	
+		d_brega d_tir_chonaill d_ailech d_airgialla d_ui_maine d_maigh_eo d_breifne d_osraige d_urmumu d_desmumu # Yusseter
 	}
 }
 ghw_region_saxony = {
@@ -3420,6 +3475,8 @@ ghw_region_wendish_lands = {
 		d_lesser_poland d_sandomierz d_wielkopolska d_mazovia d_upper_silesia d_lower_silesia d_kuyavia
 		#Pomerania
 		d_pommerania d_wagria d_lubusz d_nordmark d_lauenburg d_pomerelia d_ostmark
+	
+		d_rugen d_slawno # Yusseter
 	}
 }
 ghw_region_mainland_greece = {
@@ -3824,6 +3881,8 @@ dlc_fp1_region_mysterious_stranger_locations = {
 		d_opolye d_tver d_moskva d_rostov d_ryazan d_nizhny_novgorod
 		#k_bjarmaland
 		d_biarmia d_vologda d_chudia d_ustyug
+	
+		d_rugen d_slawno d_sudovia # Yusseter
 	}
 }
 
@@ -3844,6 +3903,8 @@ dlc_fp1_region_western_adventure_targets_ireland = {
 	duchies = {
 		#k_ireland
 		d_meath d_ulster d_connacht d_leinster d_munster
+	
+		d_brega d_tir_chonaill d_ailech d_airgialla d_ui_maine d_maigh_eo d_breifne d_osraige d_urmumu d_desmumu # Yusseter
 	}
 }
 dlc_fp1_region_western_adventure_targets_northern_england = {
@@ -3866,6 +3927,8 @@ dlc_fp1_region_western_adventure_targets_pomerania_prussia = {
 		d_pomerelia d_pommerania d_wagria d_lubusz
 		#k_lithuania
 		d_prussia d_trakai
+	
+		d_slawno d_sudovia # Yusseter
 	}
 }
 dlc_fp1_region_western_adventure_targets_frisia = {
@@ -3967,6 +4030,8 @@ dlc_fp1_region_non_scandinavian_southern_baltic = {
 		c_vodi
 		#k_finland
 		c_viipuri c_kakisalmi c_nyland c_finland c_satakunta c_mustasaari c_pedersore c_oulu
+	
+		c_stralsund c_pyrzyce c_nowogard c_slawno c_bialogarda c_tczew c_pogesania c_medininkai c_mezotne c_jarva # Yusseter
 	}
 }
 
@@ -3980,6 +4045,8 @@ dlc_fp1_region_colonial_eastern_europe = {
 		d_biarmia d_vologda d_chudia d_ustyug
 		#Galicia-Volhynia
 		d_volhynia d_halych d_cherven_cities
+	
+		d_sudovia d_rugen d_slawno # Yusseter
 	}
 }
 
@@ -4070,12 +4137,16 @@ dlc_fp2_old_vasconia = {
 	}
 	counties = {
 		c_labourd c_albret c_marsan c_alto_aragon #c_foix c_urgell c_lleida c_fraga c_puigcerda
+	
+		c_bazadais # Yusseter
 	}
 }
 
 dlc_fp2_old_vasconia_pushed = {
 	duchies = {
 		d_viscaya d_navarra d_gascogne d_armagnac d_foix d_aragon d_barcelona d_rosello
+	
+		d_girona # Yusseter
 	}
 }
 
@@ -4091,9 +4162,14 @@ dlc_fp2_mediterranean_shoreline = { # Then check is_coastal_county = yes
 		d_thrace d_ephese d_cibyrrhaeot d_cilicia
 		d_antioch d_lebanon d_cyprus d_urdunn d_palestine d_sinai d_delta d_alexandria
 		d_cyrenaica d_syrte d_tripolitania d_gabes d_tunis d_kroumerie d_bejaia d_alger d_tlemcen d_rif d_catalunya_nova d_provence d_forcalquier d_seleucia d_acre d_ascalon d_opsikion d_optimatoi
+	
+		d_niebla d_sidonia d_xativa d_girona # Yusseter
 	}
 
 	regions = { world_europe_south_italy }
+	counties = { # Yusseter
+		c_cabra
+	}
 }
 
 dlc_fp2_caucasian_iberia = { # Next to Georgia (Due to how counties are partitioned, and some warping, it does not match actual maps)
@@ -4108,6 +4184,8 @@ dlc_fp2_form_aragon_region = {
 		d_aragon d_valencia d_mallorca
 		# k_aquitaine
 		d_gascogne d_armagnac d_foix d_toulouse d_rouergue d_languedoc d_carcassonne d_barcelona d_rosello
+	
+		d_xativa d_girona # Yusseter
 	}
 }
 
@@ -5935,6 +6013,8 @@ board_game_fidchell_region = {
 		d_albany d_the_isles d_galloway d_western_isles d_lothian d_moray
 		#Norway
 		d_northern_isles
+	
+		d_brega d_tir_chonaill d_ailech d_airgialla d_ui_maine d_maigh_eo d_breifne d_osraige d_urmumu d_desmumu # Yusseter
 	}
 }
 
@@ -5987,9 +6067,13 @@ israel_region = {
 mediteranean_coast = {
 	duchies = {
 		d_catalunya_nova d_ascalon d_acre d_seleucia d_krk d_lucca d_savona d_gaeta d_napoli d_siena_republic d_antioch d_lebanon d_urdunn d_palestine d_delta d_alexandria d_cyrenaica d_syrte d_tripolitania d_gabes d_tunis d_kroumerie d_bejaia d_alger d_tlemcen d_rif d_sevilla d_granada d_murcia d_valencia d_barcelona d_rosello d_languedoc d_carcassonne d_provence d_forcalquier d_genoa d_pisa d_toscana d_latium d_capua d_salerno d_calabria d_sicily d_corsica d_sardinia d_cagliari d_arborea d_gallura d_logudoro d_mallorca d_apulia d_benevento d_spoleto d_romagna d_verona d_venice d_friuli d_istria d_dalmatia d_ragusa d_duklja d_dyrrachion d_cephalonia d_epirus d_achaia d_krete d_aegean_islands d_athens d_thessaly d_thessalonika d_strymon d_thrace d_optimatoi d_opsikion d_ephese d_cibyrrhaeot d_cilicia d_cyprus
+	
+		d_niebla d_sidonia d_xativa d_girona # Yusseter
 	}
 	counties = {
 		c_farama
+	
+		c_cabra # Yusseter
 	}
 }
 
@@ -6523,6 +6607,8 @@ et_769_split_region = {
 et_769_mainz_region = {
 	counties = {
 		c_mainz c_nassau c_waldeck c_schmalkalden c_orlamunde c_lobdaburg c_bamberg c_kassel c_fulda c_wiltberg c_coburg c_klingenberg c_frankfurt c_marburg c_wurzburg c_nurnberg c_eichstadt c_burgau c_augsburg c_munchen c_eschenlohe c_innsbruck c_alpsee c_grunningen c_ulm c_strassburg c_speyer c_kaiserslautern c_erbach c_worms c_durne c_hohenlohe c_ansbach c_nordlingen c_vaihingen c_baden c_zollern c_furstenberg c_sankt_gallen c_ravensburg c_grisons c_wurttemberg c_zurich c_nellenburg c_calw c_zweibrucken c_dagsburg c_katzenelnbogen c_trier c_sayn c_koblenz c_saarbrucken c_metz c_briey c_nancy c_neufchateau c_vaucouleurs c_puttlingen c_salzburg c_frontenhausen c_falkenstein c_berchtesgaden c_brixen c_lienz c_kammersberg c_geisenhausen c_rothenburg c_ingolstadt c_parsberg c_leuchtenburg c_villach c_knittelfeld c_hallstatt c_schaumberg c_passau c_hohenburg c_regensburg c_linz c_freistadt c_amstetten c_sankt_polten c_cologne c_bar c_luxembourg c_aachen c_maastricht c_sint_truiden c_antwerpen c_turnhout c_nedersticht c_guelders c_bouillon c_namur c_dinant c_liege c_cleves c_arnhem c_veluwe c_zutphen c_bergh c_chiny c_vianden c_arlon c_laroche c_julich c_altena c_horne c_stavelot c_nijmegen c_limburg c_salm c_den_bosch c_breda c_zeeland c_holland c_amstelland c_westfriesland c_frisia c_groningen c_oversticht c_dortmund c_mark
+	
+		c_andechs c_vinschgau c_schongau c_kempten # Yusseter
 	}
 }
 
@@ -6535,6 +6621,8 @@ et_769_constantinople_region = {
 et_769_arles_region = {
 	counties = {
 		c_venaissin c_orange c_marseille c_forcalquier c_nice c_barcelonnette c_embrun
+	
+		c_baronnies c_arles c_sault c_grasse # Yusseter
 	}
 }
 
@@ -6555,24 +6643,32 @@ et_867_bulgaria_region = {
 et_867_toledo_region = {
 	counties = {
 		c_toledo c_madrid c_malagon c_mora c_asturias_de_oviedo c_pravia c_amaya c_leon c_benavente c_zamora c_avila c_burgos c_valladolid c_olmedo c_cuellar c_soria c_najera c_cuenca c_calatrava c_alarcon c_alcaraz c_murcia c_almeria c_granada c_cordoba c_cabra c_andujar c_almader c_medellin c_ocana c_gudalajara c_medinaceli c_aranda c_palencia c_logrono c_cieza c_almansa c_benavente_1 c_medinadelcampo
+	
+		c_gijon c_cea c_villalobos c_lara c_castrojeriz c_moya c_almagro c_orihuela c_antequera c_cazorla c_baeza c_montes_de_toledo c_carrion c_bureba # Yusseter
 	}
 }
 
 et_867_tarragona_region = {
 	counties = {
 		c_tarragona c_asturias_de_santillana c_viscaya c_tudela c_tarazona c_teruel c_castellon c_molina c_calatayud c_navarra c_alto_aragon c_sobrarbe c_urgell c_puigcerda c_girona c_barcelona c_cardona c_albarracin c_alcaniz c_lleida c_zaragoza c_fraga c_ipuskoa c_valencia c_denia c_mallorca c_iviza c_menorca c_alava c_fraga_1 c_ribagorza c_andorra c_pallars c_besalu c_rosello c_empuries
+	
+		c_jerica c_morella c_estella c_montcada c_prades c_luna c_alagon c_xativa c_ayala c_castellbo c_pallars_jussa c_peralada c_daroca c_osona c_sanguesa c_ultrapuertos # Yusseter
 	}
 }
 
 et_867_sevilla_region = {
 	counties = {
 		c_sevilla c_algeciras c_malaga c_cadiz c_niebla c_moura c_silves c_faro c_huelva
+	
+		c_marchena c_ecija c_sanlucar c_jerez # Yusseter
 	}
 }
 
 et_867_braga_region = {
 	counties = {
 		c_braganza c_porto c_monterrei c_lemos c_astorga c_santiago c_salamanca c_tui c_coimbra c_viseu c_braga c_villa_real c_lugo c_mondonedo c_ourense c_santiago_1 c_lamego c_trancoso c_leiria
+	
+		c_maia c_sousa c_bierzo c_barcelos c_riba_coa c_ciudad_rodrigo c_chaves c_santa_maria # Yusseter
 	}
 }
 
@@ -6591,70 +6687,94 @@ et_867_tingitana_region = {
 et_867_york_region = {
 	counties = {
 		c_north_riding c_west_riding c_east_riding c_nottinghamshire c_westmorland c_cumberland c_dunbar c_durham c_northumberland c_annandale c_teviotdale c_galloway c_carrick c_ayrshire c_lanarkshire c_lothian c_linlithgowshire c_lennox c_glasgow c_fife c_gowrie c_angus c_mearns c_buchan c_moray c_strathearn c_inner_hebrides c_argyll c_inverness c_badenoch c_ross c_sutherland c_caithness c_outer_hebrides c_isle_of_man c_atholl c_richmond c_muile c_ile c_kintyre c_leodhas c_uibhist
+	
+		c_thirsk c_barnard_castle c_lauderdale c_mar # Yusseter
 	}
 }
 
 et_867_canterbury_region = {
 	counties = {
 		c_kent c_canterbury c_sussex c_isle_of_wight c_hampton c_dorset c_devon c_cornwall c_somerset c_wiltshire c_salisbury c_berkshire c_surrey c_essex c_middlesex c_hertfordshire c_buckinghamshire c_oxfordshire c_gloucestershire c_suffolk c_bury_st_edmunds c_norfolk c_cambridgeshire c_bedford c_lincolnshire c_leicestershire c_warwickshire c_derby c_staffordshire c_cheshire c_lancashire c_worcestershire c_hereford c_monmouthshire c_glamorgan c_brecknockshire c_sir_faesyfed c_shropshire c_carmarthenshire c_pembrokeshire c_dewisland c_cardiganshire c_maldwyn c_merioneth c_denbighshire c_caernarfonshire c_anglesey c_huntingdonshire c_northamptonshire c_gwyr c_rutland
+	
+		c_plympton c_dunster c_lewes c_hedingham c_kesteven c_oswestry c_powys_fadog # Yusseter
 	}
 }
 
 et_867_rouen_region = {
-	counties = { c_rouen c_eu c_aumale c_lisieux c_bayeux c_avranches c_evreux c_beaumont c_fecamp c_vexin c_coustance c_mortain c_jersey }
+	counties = { c_rouen c_eu c_aumale c_lisieux c_bayeux c_avranches c_evreux c_beaumont c_fecamp c_vexin c_coustance c_mortain c_jersey 
+		c_harcourt c_beaumont_le_roger c_tancarville # Yusseter
+	}
 }
 
 et_867_reims_region = {
 	counties = {
 		c_reims c_valois c_clermont c_beauvais c_amiens c_boulogne c_guines c_lille c_chalons c_yperen c_cambray c_hainaut c_brabant c_brugge c_vermandois c_rethel c_laon c_roucy c_coucy c_artois c_saintpol c_audomarois c_ponthieu c_montreuil_sur_mer c_veurne c_courtrai c_gent c_beveren c_aalst c_oudenaarde c_tournaisis c_dowaai c_vitry_en_perthois c_brienne c_porcien c_grandpre c_valenciennes c_brussel c_mechelen
+	
+		c_chatillon c_soissons c_fiennes c_wavrin c_gistel c_guise c_nesle c_bethune c_fauquembergues c_joinville c_avesnes # Yusseter
 	}
 }
 
 et_867_sens_region = {
 	counties = {
 		c_sens c_coulommiers c_meaux c_ile_de_france c_brie_francaise c_vendome c_chartres c_perche c_orleans c_montargis c_auxerre c_nevers c_troyes c_blois c_chateaudun c_dreux c_montfort c_coutenay c_etampes
+	
+		c_dampierre c_montmorency c_dammartin c_le_puiset c_toucy c_donzy c_villehardouin c_montlhery # Yusseter
 	}
 }
 
 et_867_tours_region = {
 	counties = {
 		c_tourraine c_anjou c_maine c_sable c_laval c_alencon c_rennes c_penthievre c_vannes c_cornouaille c_french_leon c_nantes c_saumur c_croan c_porhoet
+	
+		c_amboise c_mayenne c_vitre c_fougeres c_goelo c_rohan c_clisson c_chateaubriant c_retz c_dinan # Yusseter
 	}
 }
 
 et_867_bourges_region = {
 	counties = {
 		c_issoudun c_sancerre c_bourbon c_berry c_la_marche c_clermont_sur_allier c_auvergne c_limousin c_thiers c_gevaudan c_rouergue c_quercy c_jaligny c_velay c_albi c_millau c_bellac c_montferrand c_ventadour c_turenne
+	
+		c_sully c_brosse c_mercoeur c_la_tour c_severac c_castelnau c_polignac c_lautrec # Yusseter
 	}
 }
 
 et_867_bordeaux_region = {
 	counties = {
 		c_bordeaux c_poitiers c_perigord c_agenais c_thouars c_montaigu c_aunis c_lusignan c_angouleme c_saintonge c_saintes c_chatellerault c_parthenay
+	
+		c_fronsac c_blaye c_bergerac c_beynac c_bourdeilles c_duras c_taillebourg c_la_rochefoucauld c_pons # Yusseter
 	}
 }
 
 et_867_lyon_region = {
 	counties = {
 		c_lyon c_forez c_macon c_chalon c_avalois c_tonnerrois c_dijon c_langres c_bresse c_dole c_autun c_cluny
+	
+		c_dombes c_beaujeu c_vergy c_noyers c_champlitte c_choiseul c_coligny c_semur # Yusseter
 	}
 }
 
 et_867_tarentaise_region = {
 	counties = {
 		c_aosta c_bern c_aargau
+	
+		c_gruyere # Yusseter
 	}
 }
 
 et_867_vienne_region = {
 	counties = {
 		c_viennois c_viviers c_valentinois c_savoie c_geneva c_graisivaudan c_chablais
+	
+		c_albon c_la_tour_du_pin c_sassenage c_aubenas c_diois c_maurienne c_faucigny # Yusseter
 	}
 }
 
 et_867_eauze_region = {
 	counties = {
 		c_armagnac c_comminges c_bigorre c_bearn c_labourd c_marsan c_albret c_astarac
+	
+		c_lomagne c_soule c_bazadais # Yusseter
 	}
 }
 
@@ -6679,6 +6799,8 @@ et_867_seleucia_ctesiphon_region = {
 et_867_narbonne_region = {
 	counties = {
 		c_toulouse c_foix c_carcassonne c_beziers c_montpellier c_uses c_limoux c_narbonne c_agde c_anduze
+	
+		c_isle_jourdain c_mirepoix c_melgueil c_nimes c_ales # Yusseter
 	}
 }
 
@@ -6691,24 +6813,32 @@ et_867_besancon_region = {
 et_867_arles_region = {
 	counties = {
 		c_venaissin c_orange c_marseille
+	
+		c_baronnies c_arles # Yusseter
 	}
 }
 
 et_867_aix_region = {
 	counties = {
 		c_provence
+	
+		c_hyeres c_castellane # Yusseter
 	}
 }
 
 et_867_embrun_region = {
 	counties = {
 		c_forcalquier c_nice c_barcelonnette c_embrun
+	
+		c_sault c_grasse # Yusseter
 	}
 }
 
 et_867_milano_region = {
 	counties = {
-		c_lombardia c_brescia c_como c_novara c_turin c_monferrato c_cuneo c_genoa c_luni c_tortona c_pavia c_cremona c_canavese c_sepiro c_bergamo c_valtelline c_turin_1 c_vercelli c_cuneo_1 c_bosco c_monaco c_savona
+		c_lombardia c_brescia c_como c_novara c_turin c_monferrato c_cuneo c_genoa c_luni c_tortona c_pavia c_cremona c_canavese c_sepiro c_bergamo   c_vercelli  c_bosco c_monaco c_savona
+	
+		c_ivrea c_saluzzo c_valtellina c_bormio # Yusseter
 	}
 }
 
@@ -6751,6 +6881,8 @@ et_867_armenia_region = {
 et_867_reggio_calabria_region = {
 	counties = {
 		c_reggio_calabria c_rossano c_cosenza c_messina c_siracusa c_agrigento c_palermo c_geraci c_trapani
+	
+		c_catania c_castrogiovanni # Yusseter
 	}
 }
 
@@ -6780,7 +6912,9 @@ et_867_ravenna_region = {
 
 et_867_roma_region = {
 	counties = {
-		c_roma c_viterbo c_orbetello c_pisa c_lucca c_firenze c_siena c_orvieto c_arezzo c_casentino c_urbino c_ancona c_spoleto c_fermo c_abruzzi c_tivoli c_capua c_lanciano c_foggia c_benevento c_napoli c_salerno c_camarda c_bastia c_ajaccio c_vecchio c_gallura c_nerola c_farfa c_camerino c_rimini c_montefeltro c_marsi c_molise c_alife c_aquino c_loritello c_amalfi c_marsico c_volterra c_guidi c_scialenga c_piombino c_fondi c_apulia
+		c_roma c_viterbo c_orbetello c_pisa c_lucca c_firenze c_siena c_orvieto c_arezzo c_casentino c_urbino c_ancona c_spoleto c_fermo c_abruzzi c_tivoli c_capua c_lanciano c_foggia c_benevento c_napoli c_salerno c_camarda c_bastia c_ajaccio c_vecchio c_gallura c_nerola c_farfa c_camerino c_rimini c_montefeltro c_marsi c_molise c_alife c_aquino c_loritello c_amalfi c_marsico c_volterra c_guidi c_scialenga  c_fondi c_apulia
+	
+		c_roma_urbs c_segni c_santa_fiora # Yusseter
 	}
 }
 
@@ -6811,12 +6945,16 @@ et_867_trier_region = {
 et_867_mainz_region = {
 	counties = {
 		c_mainz c_nassau c_arnsberg c_waldeck c_paderborn c_lippe c_minden c_wolpe c_luneburg c_dannenberg c_stendal c_magdeburg c_halberstadt c_mansfeld c_schmalkalden c_orlamunde c_lobdaburg c_bamberg c_brunswick c_hannover c_hildesheim c_gottingen c_blankenburg c_gleichenstein c_kassel c_fulda c_wiltberg c_coburg c_klingenberg c_frankfurt c_marburg c_wurzburg c_mersenburg c_nurnberg c_eichstadt c_burgau c_augsburg c_munchen c_eschenlohe c_innsbruck c_alpsee c_grunningen c_ulm c_strassburg c_speyer c_kaiserslautern c_erbach c_worms c_durne c_hohenlohe c_ansbach c_nordlingen c_vaihingen c_baden c_zollern c_furstenberg c_sankt_gallen c_ravensburg c_grisons c_wurttemberg c_zurich c_ratzeburg c_schwerin c_brandenburg c_ruppin c_berlin c_havelberg c_prenzlau c_wittenberg c_brene c_dessau c_nellenburg c_calw c_zweibrucken c_dagsburg c_schaumburg c_katzenelnbogen
+	
+		c_andechs c_vinschgau c_schongau c_kempten # Yusseter
 	}
 }
 
 et_867_cologne_region = {
 	counties = {
 		c_cologne c_bar c_luxembourg c_aachen c_holland c_maastricht c_sint_truiden c_antwerpen c_turnhout c_zeeland c_nedersticht c_guelders c_bouillon c_namur c_dinant c_liege c_cleves c_oversticht c_groningen c_frisia c_dokkum c_westfriesland c_ostfriesland c_oldenburg c_tecklenburg c_osnabruck c_arnhem c_veluwe c_zutphen c_bergh c_mark c_dortmund c_munster c_chiny c_vianden c_arlon c_laroche c_julich c_amstelland c_altena c_horne c_stavelot c_nijmegen c_bentheim c_salm c_limburg c_den_bosch c_breda
+	
+		c_ostringen # Yusseter
 	}
 }
 
@@ -6831,7 +6969,9 @@ et_867_hamburg_region = {
 
 
 et_936_reggio_calabria_region = {
-	counties = { c_reggio_calabria c_cosenza c_messina c_siracusa c_agrigento c_palermo c_geraci c_trapani }
+	counties = { c_reggio_calabria c_cosenza c_messina c_siracusa c_agrigento c_palermo c_geraci c_trapani 
+		c_catania c_castrogiovanni # Yusseter
+	}
 }
 
 et_936_bulgaria_region = {
@@ -6850,7 +6990,9 @@ et_1018_roma_region = {
 	counties = {
 		c_roma c_viterbo c_orbetello c_pisa c_lucca c_firenze c_siena c_orvieto c_arezzo c_casentino c_urbino
 		c_ancona c_spoleto c_fermo c_abruzzi c_tivoli c_lanciano c_camarda c_bastia c_ajaccio c_vecchio c_gallura
-		c_nerola c_farfa c_volterra c_guidi c_scialenga c_piombino c_camerino c_rimini c_montefeltro c_marsi c_apulia
+		c_nerola c_farfa c_volterra c_guidi c_scialenga  c_camerino c_rimini c_montefeltro c_marsi c_apulia
+	
+		c_roma_urbs c_segni c_santa_fiora # Yusseter
 	}
 }
 
@@ -6903,6 +7045,8 @@ et_1066_georgia_region = {
 et_1066_auch_region = {
 	counties = {
 		c_armagnac c_comminges c_bigorre c_bearn c_labourd c_marsan c_albret c_astarac
+	
+		c_lomagne c_soule c_bazadais # Yusseter
 	}
 }
 
@@ -6915,12 +7059,16 @@ et_1066_cagliari_region = {
 et_1066_reggio_calabria_region = {
 	counties = {
 		c_reggio_calabria c_cosenza c_messina c_siracusa
+	
+		c_catania # Yusseter
 	}
 }
 
 et_1066_palermo_region = {
 	counties = {
 		c_palermo c_agrigento c_geraci c_trapani
+	
+		c_castrogiovanni # Yusseter
 	}
 }
 
@@ -6932,7 +7080,9 @@ et_1066_santa_severina_region = {
 
 et_1066_roma_region = {
 	counties = {
-		c_roma c_viterbo c_orbetello c_pisa c_lucca c_firenze c_siena c_orvieto c_arezzo c_casentino c_urbino c_ancona c_spoleto c_fermo c_abruzzi c_tivoli c_lanciano c_bastia c_ajaccio c_vecchio c_gallura c_nerola c_farfa c_volterra c_guidi c_scialenga c_piombino c_camerino c_rimini c_montefeltro c_marsi
+		c_roma c_viterbo c_orbetello c_pisa c_lucca c_firenze c_siena c_orvieto c_arezzo c_casentino c_urbino c_ancona c_spoleto c_fermo c_abruzzi c_tivoli c_lanciano c_bastia c_ajaccio c_vecchio c_gallura c_nerola c_farfa c_volterra c_guidi c_scialenga  c_camerino c_rimini c_montefeltro c_marsi
+	
+		c_roma_urbs c_segni c_santa_fiora # Yusseter
 	}
 }
 
@@ -7011,6 +7161,8 @@ et_1066_constantinople_region = {
 et_1066_mainz_region = {
 	counties = {
 		c_mainz c_nassau c_arnsberg c_waldeck c_paderborn c_lippe c_minden c_wolpe c_luneburg c_dannenberg c_stendal c_halberstadt c_mansfeld c_schmalkalden c_orlamunde c_lobdaburg c_bamberg c_brunswick c_hannover c_hildesheim c_gottingen c_blankenburg c_gleichenstein c_kassel c_fulda c_wiltberg c_coburg c_klingenberg c_frankfurt c_marburg c_wurzburg c_nurnberg c_eichstadt c_burgau c_augsburg c_munchen c_eschenlohe c_innsbruck c_alpsee c_grunningen c_ulm c_strassburg c_speyer c_kaiserslautern c_erbach c_worms c_durne c_hohenlohe c_ansbach c_nordlingen c_vaihingen c_baden c_zollern c_furstenberg c_sankt_gallen c_ravensburg c_grisons c_wurttemberg c_praha c_zatec c_plzen c_doudleby c_caslav c_hradec c_boleslav c_vogtland c_egerland c_naumburg c_zurich c_katzenelnbogen c_ratzeburg c_schwerin c_nellenburg c_calw c_dagsburg c_zweibrucken c_schaumburg
+	
+		c_andechs c_vinschgau c_schongau c_kempten # Yusseter
 	}
 }
 
@@ -7068,24 +7220,32 @@ et_1099_split_region = {
 et_1178_toledo_region = {
 	counties = {
 		c_toledo c_madrid c_malagon c_mora c_asturias_de_oviedo c_pravia c_amaya c_leon c_benavente c_zamora c_burgos c_valladolid c_olmedo c_cuellar c_soria c_najera c_cuenca c_calatrava c_alarcon c_alcaraz c_murcia c_almeria c_granada c_cordoba c_cabra c_andujar c_almader c_medellin c_ocana c_gudalajara c_medinaceli c_aranda c_palencia c_logrono c_cieza c_almansa c_benavente_1 c_medinadelcampo
+	
+		c_gijon c_cea c_villalobos c_lara c_castrojeriz c_moya c_almagro c_orihuela c_antequera c_cazorla c_baeza c_montes_de_toledo c_carrion c_bureba # Yusseter
 	}
 }
 
 et_1178_santiago_region = {
 	counties = {
 		c_santiago c_tui c_astorga c_monterrei c_lemos c_braganza c_salamanca c_avila c_plasencia c_merida c_caceres c_castelo_branco c_lisboa c_alcacer_do_sal c_elvas c_badajoz c_beja c_lugo c_mondonedo c_ourense c_santiago_1 c_sintra c_setubal c_thomar c_portalegre
+	
+		c_bierzo c_ciudad_rodrigo c_chaves # Yusseter
 	}
 }
 
 et_1178_braga_region = {
 	counties = {
 		c_porto c_coimbra c_viseu c_lamego c_trancoso c_leiria c_braga c_villa_real
+	
+		c_maia c_sousa c_riba_coa c_barcelos c_santa_maria # Yusseter
 	}
 }
 
 et_1178_roma_region = {
 	counties = {
-		c_roma c_viterbo c_orbetello c_lucca c_firenze c_siena c_orvieto c_arezzo c_casentino c_urbino c_ancona c_spoleto c_fermo c_abruzzi c_tivoli c_lanciano c_nerola c_farfa c_camerino c_rimini c_montefeltro c_marsi c_volterra c_guidi c_scialenga c_piombino
+		c_roma c_viterbo c_orbetello c_lucca c_firenze c_siena c_orvieto c_arezzo c_casentino c_urbino c_ancona c_spoleto c_fermo c_abruzzi c_tivoli c_lanciano c_nerola c_farfa c_camerino c_rimini c_montefeltro c_marsi c_volterra c_guidi c_scialenga 
+	
+		c_roma_urbs c_segni c_santa_fiora # Yusseter
 	}
 }
 
@@ -7098,6 +7258,8 @@ et_1178_pisa_region = {
 et_1178_mainz_region = {
 	counties = {
 		c_mainz c_nassau c_arnsberg c_waldeck c_paderborn c_lippe c_minden c_wolpe c_luneburg c_dannenberg c_stendal c_halberstadt c_mansfeld c_schmalkalden c_orlamunde c_lobdaburg c_bamberg c_brunswick c_hannover c_hildesheim c_gottingen c_blankenburg c_gleichenstein c_kassel c_fulda c_wiltberg c_coburg c_klingenberg c_frankfurt c_marburg c_wurzburg c_nurnberg c_eichstadt c_burgau c_augsburg c_munchen c_eschenlohe c_innsbruck c_alpsee c_grunningen c_ulm c_strassburg c_speyer c_kaiserslautern c_erbach c_worms c_durne c_hohenlohe c_ansbach c_nordlingen c_vaihingen c_baden c_zollern c_furstenberg c_sankt_gallen c_ravensburg c_grisons c_wurttemberg c_praha c_zatec c_plzen c_doudleby c_caslav c_hradec c_boleslav c_vogtland c_egerland c_naumburg c_zurich c_jihlava c_brno c_prerov c_olomouc c_opava c_znojmo c_katzenelnbogen c_ratzeburg c_schwerin c_nellenburg c_calw c_dagsburg c_zweibrucken c_schaumburg
+	
+		c_andechs c_vinschgau c_schongau c_kempten # Yusseter
 	}
 }
 
@@ -7110,6 +7272,8 @@ et_1178_magdeburg_region = {
 et_1178_hamburg_bremen_region = {
 	counties = {
 		c_bremen c_stade c_ditmarschen c_hamburg c_lubeck c_mecklenburg c_rostock c_werle c_rugen c_kiel
+	
+		c_stralsund # Yusseter
 	}
 }
 
@@ -7162,6 +7326,8 @@ et_1178_ragusa_region = {
 et_1178_gniezno_region = {
 	counties = {
 		c_gnieznienska c_kaliska c_lubusz c_grunberg c_sprottau c_przemkow c_breslau c_brzeg c_tarnowska c_lubelska c_stezycka c_czerska c_zakroczymska c_lomzynska c_plocka c_dobrzynska c_kujawy c_krajna c_poznanska c_schweibus c_legnica c_wschowska c_miliez c_wielunska c_opole c_sieradzka c_bethen c_krakowska c_sandomierska c_radomska c_gostyninska c_leczycka c_prenzlau c_wolgast c_stettin c_soldin c_landsberg c_kolobrzeg c_cammin c_pila c_miastko c_slupsk c_danzig c_berent c_nysa c_ratibor
+	
+		c_pyrzyce c_nowogard c_szczecinek c_slawno c_bialogarda c_tczew # Yusseter
 	}
 }
 
@@ -7203,7 +7369,9 @@ et_1178_jerusalem_region = {
 
 et_1178_milano_region = {
 	counties = {
-		c_lombardia c_brescia c_como c_novara c_turin c_monferrato c_cuneo c_tortona c_pavia c_cremona c_canavese c_sepiro c_bergamo c_valtelline c_turin_1 c_vercelli c_cuneo_1 c_bosco
+		c_lombardia c_brescia c_como c_novara c_turin c_monferrato c_cuneo c_tortona c_pavia c_cremona c_canavese c_sepiro c_bergamo   c_vercelli  c_bosco
+	
+		c_ivrea c_saluzzo c_valtellina c_bormio # Yusseter
 	}
 }
 
@@ -7235,30 +7403,40 @@ et_1178_tyre_region = {
 et_1178_york_region = {
 	counties = {
 		c_north_riding c_west_riding c_east_riding c_nottinghamshire c_westmorland c_cumberland c_dunbar c_durham c_northumberland c_annandale c_teviotdale c_galloway c_carrick c_ayrshire c_lanarkshire c_lothian c_linlithgowshire c_lennox c_glasgow c_fife c_gowrie c_angus c_mearns c_buchan c_moray c_strathearn c_argyll c_inverness c_badenoch c_ross c_sutherland c_caithness c_atholl c_richmond
+	
+		c_thirsk c_barnard_castle c_lauderdale c_mar # Yusseter
 	}
 }
 
 et_1178_tuam_region = {
 	counties = {
-		c_connacht c_ennis c_mayo
+		c_connacht  c_mayo
+	
+		c_ui_briuin_seola c_aidhne c_conmaicne_cuile c_ui_maine c_athenry c_siol_anmchadha c_mag_nai c_moylurg c_corann c_cairbre c_ui_fiachrach c_umhall c_gaileanga # Yusseter
 	}
 }
 
 et_1178_dublin_region = {
 	counties = {
 		c_dublin c_ossory c_leinster c_kildare
+	
+		c_cualu c_fingal c_loigis c_achadh_bo c_desceart_osraige c_loch_garman c_ui_drona c_ui_failge # Yusseter
 	}
 }
 
 et_1178_cashel_region = {
 	counties = {
 		c_thomond c_limerick c_desmond c_ormond c_cork
+	
+		c_ennis c_corco_mruad c_corco_baiscinn c_ui_chonaill c_ui_chairpre c_eoganacht_aine c_ciarraige c_eoganacht_locha_lein c_uibh_rathach c_beara c_cairbre_muman c_kinsale c_ui_liathain c_ealla c_fir_maige c_deise c_muscraige_tire c_eile c_eile_ui_fhogartaigh c_eoganacht_chaisil c_ui_fathaid # Yusseter
 	}
 }
 
 et_1178_armagh_region = {
 	counties = {
 		c_oriel c_armagh c_athlone c_breifne c_east_breifne c_ailech c_derry c_ulster c_brega
+	
+		c_louth c_muintir_eolais c_annaly c_fir_manach c_tir_aeda c_tir_boghaine c_tir_luighdech c_cenel_moen c_tir_eogain c_ciannachta c_ards c_dal_naraidi c_dal_riata c_tuaiscert c_iveagh c_clann_cholmain c_cenel_fiachach c_delbna c_kells c_trim # Yusseter
 	}
 }
 
@@ -7277,12 +7455,16 @@ et_1178_cosenza_region = {
 et_1178_messina_region = {
 	counties = {
 		c_messina
+	
+		c_catania # Yusseter
 	}
 }
 
 et_1178_palermo_region = {
 	counties = {
 		c_palermo c_agrigento c_malta c_geraci c_trapani c_siracusa
+	
+		c_castrogiovanni # Yusseter
 	}
 }
 
@@ -7343,6 +7525,8 @@ et_1204_ragusa_region = {
 et_1246_lund_region = {
 	counties = {
 		c_skane c_more c_oland c_gutland c_sevede c_njudung c_vastergotland c_kinda c_skara c_ostergotland c_sodermannaland c_narke c_varmland c_nordmark c_dal c_blekinge c_bornholm c_finnveden c_halland c_sjaelland c_lolland_falster c_fyn c_aalborg c_aarhus c_viborg c_ringkobing c_vorbasse c_ribe c_slesvig c_varend c_reval c_narva
+	
+		c_jarva # Yusseter
 	}
 }
 
@@ -7361,24 +7545,32 @@ et_1246_kashgar_region = {
 et_1337_zaragoza_region = {
 	counties = {
 		c_zaragoza c_alto_aragon c_sobrarbe c_tudela c_tarazona c_calatayud c_navarra c_alava c_ipuskoa c_viscaya c_teruel c_albarracin c_molina c_asturias_de_santillana
+	
+		c_luna c_alagon c_estella c_ayala c_daroca c_sanguesa c_ultrapuertos # Yusseter
 	}
 }
 
 et_1337_tarragona_region = {
 	counties = {
 		c_tarragona c_castellon c_alcaniz c_urgell c_puigcerda c_girona c_barcelona c_cardona c_lleida c_fraga c_valencia c_denia c_mallorca c_iviza c_menorca c_fraga_1 c_ribagorza c_andorra c_pallars c_besalu c_rosello c_empuries
+	
+		c_jerica c_morella c_montcada c_prades c_xativa c_castellbo c_pallars_jussa c_peralada c_osona # Yusseter
 	}
 }
 
 et_1337_toulouse_region = {
 	counties = {
 		c_toulouse c_foix
+	
+		c_isle_jourdain c_mirepoix # Yusseter
 	}
 }
 
 et_1337_narbonne_region = {
 	counties = {
 		c_carcassonne c_beziers c_montpellier c_uses c_limoux c_narbonne c_agde c_anduze
+	
+		c_melgueil c_nimes c_ales # Yusseter
 	}
 }
 
@@ -7401,24 +7593,32 @@ et_1211_riga_region = {
 et_1246_riga_region = {
 	counties = {
 		c_toreida c_vidzeme c_kokenois c_selpils c_jersika c_talava c_dorpat c_livs c_osel c_wiek c_bandava c_vanemane c_torun c_malbork c_osterode c_wormditt
+	
+		c_pogesania # Yusseter
 	}
 }
 
 et_1258_riga_region = {
 	counties = {
 		c_toreida c_vidzeme c_kokenois c_selpils c_jersika c_talava c_dorpat c_livs c_osel c_wiek c_bandava c_vanemane c_torun c_malbork c_osterode c_wormditt c_natangia c_bartenstein c_konigsberg
+	
+		c_pogesania # Yusseter
 	}
 }
 
 et_1282_riga_region = {
 	counties = {
 		c_toreida c_vidzeme c_kokenois c_selpils c_jersika c_talava c_dorpat c_livs c_osel c_wiek c_bandava c_vanemane c_torun c_malbork c_osterode c_wormditt c_natangia c_bartenstein c_konigsberg c_grobin c_zemigalians
+	
+		c_pogesania c_mezotne # Yusseter
 	}
 }
 
 et_1300_riga_region = {
 	counties = {
 		c_toreida c_vidzeme c_kokenois c_selpils c_jersika c_talava c_dorpat c_livs c_osel c_wiek c_bandava c_vanemane c_torun c_malbork c_osterode c_wormditt c_natangia c_bartenstein c_konigsberg c_grobin c_zemigalians c_west_dvina c_aluksne c_allenstein
+	
+		c_pogesania c_mezotne c_angerburg # Yusseter
 	}
 }
 
@@ -8148,6 +8348,8 @@ custom_mountains_plague = {
 custom_easteurope_plague = {
 	counties = {
 		c_magdeburg c_brugge
+	
+		c_gistel # Yusseter
 	}
 	duchies = {
 		d_anhalt d_meissen d_lausitz
@@ -8362,6 +8564,8 @@ custom_aquitaine_core = {
 custom_catalonia_core = {
 	duchies = {
 		d_barcelona
+	
+		d_girona # Yusseter
 	}
 }
 
@@ -8699,6 +8903,8 @@ custom_the_isles_and_adjacent = {
 	}
 	counties = {
 		c_dublin
+	
+		c_cualu c_fingal # Yusseter
 	}
 }
 
@@ -8871,6 +9077,8 @@ hanseatic_trade_region = {
 		c_vanemane c_vastergotland c_vastvag c_vestfold c_vestisland c_vidzeme c_toreida c_viipuri c_vingulmork
 		c_vodi c_vorbasse c_westfriesland c_wiek c_wolgast c_wormditt c_yperen c_zeeland
 		c_zemigalians
+	
+		c_gistel c_tczew c_barnard_castle c_hedingham c_nowogard c_kesteven c_lauderdale c_pogesania c_mar c_thirsk c_ostringen c_medininkai c_jarva c_stralsund c_slawno c_bialogarda c_mezotne # Yusseter
 	}
 }
 
